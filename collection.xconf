@@ -1,30 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
     <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:tls="http://exist-db.org/tls" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
         <fulltext default="none" attributes="false"/>
         <lucene>
-            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer">
-                <param name="stopwords" type="org.apache.lucene.analysis.util.CharArraySet"/>
-            </analyzer>
-            <text qname="tls:name"/>
-            <text qname="tls:note"/>
-            <text qname="tls:definition"/>
-            <text qname="tls:written-expression">
-                <inline qname="tls:graph"/>
+            <text qname="tei:div">
+                <!-- exclude nested divs which are indexed separately -->
+                <ignore qname="tei:div"/>
             </text>
-            <text qname="tls:spoken-expression">
-                <ignore qname="tls:source-graphs"/>
-                <inline qname="tls:syllable"/>
-            </text>
-            <text qname="tls:graph"/>
-            <text qname="tei:teiHeader"/>
-            <text qname="tei:div"/>
-            <text qname="tei:p"/>
-            <text qname="tei:seg"/>
-            <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/><!--text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:author"/-->
+            <text qname="tei:head"/>
+            <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+            <text match="tei:seg"/>
         </lucene>
+        
         <range>
             <create qname="@xml:id" type="xs:string"/>
-            <create qname="tls:id" type="xs:string"/>
+            <create qname="@type" type="xs:string"/>
         </range>
     </index>
 </collection>
