@@ -1,1 +1,49 @@
-<?xml-model ../out/tls1.rnc application/relax-ng-compact-syntax?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ff820037-7e9a-495f-9f43-f2069d7f71b7"><head>SCREEN</head><list type="altnames"><item>PARTITION</item><item>(ROOM) DIVIDER</item></list><list type="translations"><item xml:lang="zh">屏屬</item></list><div type="definition"><p>THIN WALL which CAN be MOVED, OR WALL WHICH is USED to BLOCK the WIND OR LOOKING.</p></div><div type="notes"><div type="huang-jingui"><p>HUANG JINGUI 2006</p><p>ARCHITECTURE 14. 宮室地面障蔽物。</p><p>屏，上古是門屏即門內外土牆垣總稱。</p><p>樹，屏的別稱。蕭牆，外屏。</p><p>扆，人君專用的禮儀性小型木屏。</p><p>罘罳，漢代雕鏤有網格紋的屏狀木建築，見於門闕之外、高層建築之間連接的連閣、角樓；其木構部分所雕鏤網格紋為主的華飾也稱 “ 罘罳 ” 。</p><p>屏風，戰國起流行，漢魏後屏風或稱 “ 屏 ” 。</p></div><div type="modern-chinese-criteria"><p>屏風</p><p>屏</p><p>圍屏</p><p>畫屏</p><p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div><div type="pointers"/><div type="source-references"><listBibl><bibl><ref target="#uuid-d9f914e1-ebc9-4ba0-85f5-f2bdd943ed24">FINSTERBUSCH 1966</ref><title>Verzeichnis und Motivindex der Han-Darstellungen</title><biblScope unit="page">250</biblScope><note><p>Wandschirm:</p></note></bibl></listBibl></div><div type="words"><entry type="word" xml:id="uuid-fee6d981-267d-4192-9a0f-64c2156c854a"><form corresp="#uuid-a6a62bfd-6a3e-4b72-a58c-0a49cab8e07f"><orth>屏</orth><pron xml:lang="zh-Latn-x-pinyin">píng</pron><pron xml:lang="zh-x-oc">beeŋ</pron><pron xml:lang="zh-x-mc">beŋ</pron></form><sense xml:id="uuid-d4fb4567-4cbf-44bb-b17b-ac5136cafa0f"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp><def>screen of any kind, serving as a wall, mobile or immobile, but never reaching up to the ceiling</def></sense></entry><entry type="word" xml:id="uuid-b16c27c1-3803-4d4d-946b-139ca266c0eb"><form corresp="#uuid-c5c54cf7-ac80-4e48-a788-423225e9e3d1 #uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b"><orth>塞門</orth><pron xml:lang="zh-Latn-x-pinyin">sāi mén</pron><pron xml:lang="zh-x-oc">sɯɯɡ mɯɯn</pron><pron xml:lang="zh-x-mc">sək muo̝n</pron></form><sense xml:id="uuid-607f9ba6-d3a3-4dd6-89c9-f0e25281be13"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ee919c6-2d0e-4109-8f5c-ba5f2168ba4f">NP{VtoN1(.adN2)}</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp><def>stone screen outside a gate</def></sense></entry><entry type="word" xml:id="uuid-fc5b03f4-9ad3-45b0-98f4-42d1fc1ced69"><form corresp="#uuid-82c971e9-bb79-4a2c-b69e-708693c774d6"><orth>樹</orth><pron xml:lang="zh-Latn-x-pinyin">shù</pron><pron xml:lang="zh-x-oc">djoʔ</pron><pron xml:lang="zh-x-mc">dʑi̯o</pron></form><sense xml:id="uuid-b42899a8-a8ea-4ebe-aa91-85f549039627"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>LIJI: screen at the gate of a house</def></sense></entry></div></div>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model ../schema/tls.rnc application/relax-ng-compact-syntax?>
+<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-ff820037-7e9a-495f-9f43-f2069d7f71b7">
+<head>SCREEN</head><list type="altnames">
+<item>PARTITION</item>
+<item>(ROOM) DIVIDER</item></list><list type="translations"><item xml:lang="zh">屏屬</item></list>
+<div type="definition">
+<p>THIN WALL which CAN be MOVED, OR WALL WHICH is USED to BLOCK the WIND OR LOOKING.</p></div>
+<div type="notes">
+<div type="huang-jingui">
+<p>HUANG JINGUI 2006</p>
+<p>ARCHITECTURE 14. 宮室地面障蔽物。</p>
+<p>屏，上古是門屏即門內外土牆垣總稱。</p>
+<p>樹，屏的別稱。蕭牆，外屏。</p>
+<p>扆，人君專用的禮儀性小型木屏。</p>
+<p>罘罳，漢代雕鏤有網格紋的屏狀木建築，見於門闕之外、高層建築之間連接的連閣、角樓；其木構部分所雕鏤網格紋為主的華飾也稱 “ 罘罳 ” 。</p>
+<p>屏風，戰國起流行，漢魏後屏風或稱 “ 屏 ” 。</p></div>
+<div type="modern-chinese-criteria">
+<p>屏風</p>
+<p>屏</p>
+<p>圍屏</p>
+<p>畫屏</p>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<div type="pointers"/>
+<div type="source-references"><listBibl>
+<bibl><ref target="#uuid-d9f914e1-ebc9-4ba0-85f5-f2bdd943ed24">FINSTERBUSCH 1966</ref>
+<title>Verzeichnis und Motivindex der Han-Darstellungen</title><biblScope unit="page">250</biblScope><note>
+<p>Wandschirm:</p></note></bibl></listBibl></div>
+<div type="words">
+<entry type="word" xml:id="uuid-fee6d981-267d-4192-9a0f-64c2156c854a"><form corresp="#uuid-a6a62bfd-6a3e-4b72-a58c-0a49cab8e07f">
+<orth>屏</orth><pron xml:lang="zh-Latn-x-pinyin">píng</pron><pron xml:lang="zh-x-oc">beeŋ</pron><pron xml:lang="zh-x-mc">beŋ</pron></form>
+<sense xml:id="uuid-d4fb4567-4cbf-44bb-b17b-ac5136cafa0f">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
+  <def>screen of any kind, serving as a wall, mobile or immobile, but never reaching up to the ceiling</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-b16c27c1-3803-4d4d-946b-139ca266c0eb"><form corresp="#uuid-c5c54cf7-ac80-4e48-a788-423225e9e3d1 #uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b">
+<orth>塞門</orth><pron xml:lang="zh-Latn-x-pinyin">sāi mén</pron><pron xml:lang="zh-x-oc">sɯɯɡ mɯɯn</pron><pron xml:lang="zh-x-mc">sək muo̝n</pron></form>
+<sense xml:id="uuid-607f9ba6-d3a3-4dd6-89c9-f0e25281be13">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-7ee919c6-2d0e-4109-8f5c-ba5f2168ba4f">NP{VtoN1(.adN2)}</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
+  <def>stone screen outside a gate</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-fc5b03f4-9ad3-45b0-98f4-42d1fc1ced69"><form corresp="#uuid-82c971e9-bb79-4a2c-b69e-708693c774d6">
+<orth>樹</orth><pron xml:lang="zh-Latn-x-pinyin">shù</pron><pron xml:lang="zh-x-oc">djoʔ</pron><pron xml:lang="zh-x-mc">dʑi̯o</pron></form>
+<sense xml:id="uuid-b42899a8-a8ea-4ebe-aa91-85f549039627">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
+  <def>LIJI: screen at the gate of a house</def></sense>
+</entry></div></div>

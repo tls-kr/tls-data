@@ -1,1 +1,57 @@
-<?xml-model ../out/tls1.rnc application/relax-ng-compact-syntax?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b98512b1-e27b-4c94-8efa-44119f9a2d4b"><head>FETCH</head><list type="altnames"><item>GO AND) GET</item><item>GO FOR</item><item>CALL FOR</item><item>SUMMON</item><item>PICK UP</item><item>COLLECT</item><item>BRING</item><item>CARRY</item><item>CONVEY</item><item>TRANSPORT</item></list><list type="translations"><item xml:lang="zh">去拿</item><item xml:lang="och">取／取來</item></list><div type="definition"><p>DISPLACE something TO HERE FROM an OTHER PLACE.</p></div><div type="notes"><div type="old-chinese-criteria"><p>1. There is no word commonly used for the fetching of things, and the most current word sometimes used in this meaning is probably qǔ 取 (ant. yǔ 予 "give").</p><p>2. Jí 汲 refers specifically to the fetching of water.</p></div><div type="modern-chinese-criteria"><p>取來</p><p>去拿</p><p>打</p><p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div><div type="pointers"><list type="antonymy"><item><ref target="#uuid-65d0ccb8-5be4-4af5-ba71-86340033f549">REMOVE</ref></item></list><list type="see"><item><ref target="#uuid-e8c0bafd-4166-403c-af11-7a5b5d318af5">CHOOSE</ref></item></list></div><div type="words"><entry type="word" xml:id="uuid-33c95b4a-4457-4c9c-86b4-0bbd4cff2981"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d"><orth>取</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ</pron><pron xml:lang="zh-x-oc">skhoʔ</pron><pron xml:lang="zh-x-mc">tshi̯o</pron></form><sense xml:id="uuid-e192aded-d47e-40b8-86d9-f825b31cc605"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp><def>pick up, take up; go and get (what one owns), fetch</def></sense></entry><entry type="word" xml:id="uuid-9b81489b-2d4d-4af0-85e3-2977d71cca96"><form corresp="#uuid-aa3f2791-bb95-4707-9f77-67cb2a6ba600"><orth>汲</orth><pron xml:lang="zh-Latn-x-pinyin">jí</pron><pron xml:lang="zh-x-oc">krɯb</pron><pron xml:lang="zh-x-mc">kip</pron><listBibl><bibl><ref target="#uuid-71cc6340-5a8f-41ae-83b2-178447c6895a">DUAN DESEN 1992A</ref><title>簡明古漢語同義詞詞典</title><biblScope unit="page">911</biblScope><note><p/></note></bibl></listBibl></form><sense xml:id="uuid-1322ac34-2820-4f8f-87df-cd2cdd41ec3a"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">2</usg></gramGrp><def>fetch water, draw water</def></sense><sense xml:id="uuid-8a49d493-ece2-4352-8689-6143b86dddf6"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp><def>draw water from</def></sense></entry><entry type="word" xml:id="uuid-99b4a611-ec34-42a2-bea0-5a48cb401a31"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6"><orth>取來</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ lái</pron><pron xml:lang="zh-x-oc">skhoʔ m-rɯɯ</pron><pron xml:lang="zh-x-mc">tshi̯o ləi</pron></form><sense xml:id="uuid-162bce3c-ebaa-40f9-a604-3402a307cfac"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>fetch the contextually determinate N</def></sense></entry></div></div>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model ../schema/tls.rnc application/relax-ng-compact-syntax?>
+<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-b98512b1-e27b-4c94-8efa-44119f9a2d4b">
+<head>FETCH</head><list type="altnames">
+<item>GO AND) GET</item>
+<item>GO FOR</item>
+<item>CALL FOR</item>
+<item>SUMMON</item>
+<item>PICK UP</item>
+<item>COLLECT</item>
+<item>BRING</item>
+<item>CARRY</item>
+<item>CONVEY</item>
+<item>TRANSPORT</item></list><list type="translations"><item xml:lang="zh">去拿</item><item xml:lang="och">取／取來</item></list>
+<div type="definition">
+<p>DISPLACE something TO HERE FROM an OTHER PLACE.</p></div>
+<div type="notes">
+<div type="old-chinese-criteria">
+<p>1. There is no word commonly used for the fetching of things, and the most current word sometimes used in this meaning is probably qǔ 取 (ant. yǔ 予 "give").</p>
+<p>2. Jí 汲 refers specifically to the fetching of water.</p></div>
+<div type="modern-chinese-criteria">
+<p>取來</p>
+<p>去拿</p>
+<p>打</p>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<div type="pointers"><list type="antonymy">
+<item><ref target="#uuid-65d0ccb8-5be4-4af5-ba71-86340033f549">REMOVE</ref></item></list><list type="see">
+<item><ref target="#uuid-e8c0bafd-4166-403c-af11-7a5b5d318af5">CHOOSE</ref></item></list></div>
+<div type="words">
+<entry type="word" xml:id="uuid-33c95b4a-4457-4c9c-86b4-0bbd4cff2981"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
+<orth>取</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ</pron><pron xml:lang="zh-x-oc">skhoʔ</pron><pron xml:lang="zh-x-mc">tshi̯o</pron></form>
+<sense xml:id="uuid-e192aded-d47e-40b8-86d9-f825b31cc605">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
+  <def>pick up, take up; go and get (what one owns), fetch</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-9b81489b-2d4d-4af0-85e3-2977d71cca96"><form corresp="#uuid-aa3f2791-bb95-4707-9f77-67cb2a6ba600">
+<orth>汲</orth><pron xml:lang="zh-Latn-x-pinyin">jí</pron><pron xml:lang="zh-x-oc">krɯb</pron><pron xml:lang="zh-x-mc">kip</pron><listBibl>
+<bibl><ref target="#uuid-71cc6340-5a8f-41ae-83b2-178447c6895a">DUAN DESEN 1992A</ref>
+<title>簡明古漢語同義詞詞典</title><biblScope unit="page">911</biblScope><note>
+<p/></note></bibl></listBibl></form>
+<sense xml:id="uuid-1322ac34-2820-4f8f-87df-cd2cdd41ec3a">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">2</usg></gramGrp>
+  <def>fetch water, draw water</def></sense>
+<sense xml:id="uuid-8a49d493-ece2-4352-8689-6143b86dddf6">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
+  <def>draw water from</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-99b4a611-ec34-42a2-bea0-5a48cb401a31"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6">
+<orth>取來</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ lái</pron><pron xml:lang="zh-x-oc">skhoʔ m-rɯɯ</pron><pron xml:lang="zh-x-mc">tshi̯o ləi</pron></form>
+<sense xml:id="uuid-162bce3c-ebaa-40f9-a604-3402a307cfac">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp>
+  <def>fetch the contextually determinate N</def></sense>
+</entry></div></div>

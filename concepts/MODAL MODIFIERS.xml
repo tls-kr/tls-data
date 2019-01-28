@@ -1,1 +1,35 @@
-<?xml-model ../out/tls1.rnc application/relax-ng-compact-syntax?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-bab0a885-7fba-4532-95bc-057e5692c0f9"><head>MODAL MODIFIERS</head><div type="definition"><p>[NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p></div><div type="notes"/><div type="pointers"><list type="taxonymy"><item><ref target="#uuid-3ecbc80a-34eb-4b0f-ae75-a2902596aaca">MODAL PARTICLES</ref></item></list></div><div type="words"><entry type="word" xml:id="uuid-b517509f-2b55-48b5-bb74-64597a77bf0c"><form corresp="#uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1 #uuid-140a84f4-f6f2-4ef4-8abb-19b19436fecb"><orth>何妨</orth><pron xml:lang="zh-Latn-x-pinyin">hé fàng</pron><pron xml:lang="zh-x-oc">ɡlaal phaŋs</pron><pron xml:lang="zh-x-mc">ɦɑ phi̯ɐŋ</pron></form><sense xml:id="uuid-c10ecd27-8c80-49fc-a595-df01d5505772"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-7f49a8f4-6da3-4126-b6d9-8df15a825002">modal</tls:sem-feat></gramGrp><def>what hindrance is there to V &gt; one certainly should V</def></sense></entry><entry type="word" xml:id="uuid-edbd08a5-53d0-485e-8035-4705aeb55579"><form corresp="#uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd #uuid-2f255ab2-0652-443e-94c1-e442903989f8"><orth>始得</orth><pron xml:lang="zh-Latn-x-pinyin">shǐ dé</pron><pron xml:lang="zh-x-oc">lʰɯʔ tɯɯɡ</pron><pron xml:lang="zh-x-mc">ɕɨ tək</pron></form><sense xml:id="uuid-9391d325-b8e4-4418-9f2e-75a7e72f8fd0"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fb07383f-5730-4ace-9cf3-eb00c5b1239b">VPpostadS</tls:syn-func></gramGrp><def>grammaticalised idiom reinforcing a recommendation made&gt;...only then will one succeed;...only then is it possible</def></sense><sense xml:id="uuid-3e9fef04-00e0-4dec-a087-b4692457846a"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-886f5801-cdad-459f-8e1e-967368f80619">VPt+V.postS</tls:syn-func></gramGrp><def>grammaticalised idiom reinforcing the notion of obligation/recommendation made &gt; only if S then the goal defined by V will be achieved</def></sense></entry><entry type="word" xml:id="uuid-1c5a5456-227a-45f5-94f1-f6629d0f977a"><form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87 #uuid-4342b9fe-7e09-40cb-ad1a-fbf479505d5f"><orth>莫是</orth><pron xml:lang="zh-Latn-x-pinyin">mò shì</pron><pron xml:lang="zh-x-oc">maaɡ ɡljeʔ</pron><pron xml:lang="zh-x-mc">mɑk dʑiɛ</pron></form><sense xml:id="uuid-d9d9dd8f-86a0-4bbb-88dc-82cc1cf5871c"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ec1f463b-3297-489a-9917-e28a783bdcb3">VPt+S.+V{NEG}</tls:syn-func></gramGrp><def>Is it not that S, (or not)</def></sense></entry></div></div>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model ../schema/tls.rnc application/relax-ng-compact-syntax?>
+<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-bab0a885-7fba-4532-95bc-057e5692c0f9">
+<head>MODAL MODIFIERS</head>
+<div type="definition">
+<p>[NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p></div>
+<div type="notes"/>
+<div type="pointers"><list type="taxonymy">
+<item><ref target="#uuid-3ecbc80a-34eb-4b0f-ae75-a2902596aaca">MODAL PARTICLES</ref></item></list></div>
+<div type="words">
+<entry type="word" xml:id="uuid-b517509f-2b55-48b5-bb74-64597a77bf0c"><form corresp="#uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1 #uuid-140a84f4-f6f2-4ef4-8abb-19b19436fecb">
+<orth>何妨</orth><pron xml:lang="zh-Latn-x-pinyin">hé fàng</pron><pron xml:lang="zh-x-oc">ɡlaal phaŋs</pron><pron xml:lang="zh-x-mc">ɦɑ phi̯ɐŋ</pron></form>
+<sense xml:id="uuid-c10ecd27-8c80-49fc-a595-df01d5505772">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-7f49a8f4-6da3-4126-b6d9-8df15a825002">modal</tls:sem-feat></gramGrp>
+  <def>what hindrance is there to V &gt; one certainly should V</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-edbd08a5-53d0-485e-8035-4705aeb55579"><form corresp="#uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+<orth>始得</orth><pron xml:lang="zh-Latn-x-pinyin">shǐ dé</pron><pron xml:lang="zh-x-oc">lʰɯʔ tɯɯɡ</pron><pron xml:lang="zh-x-mc">ɕɨ tək</pron></form>
+<sense xml:id="uuid-9391d325-b8e4-4418-9f2e-75a7e72f8fd0">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-fb07383f-5730-4ace-9cf3-eb00c5b1239b">VPpostadS</tls:syn-func></gramGrp>
+  <def>grammaticalised idiom reinforcing a recommendation made&gt;...only then will one succeed;...only then is it possible</def></sense>
+<sense xml:id="uuid-3e9fef04-00e0-4dec-a087-b4692457846a">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-886f5801-cdad-459f-8e1e-967368f80619">VPt+V.postS</tls:syn-func></gramGrp>
+  <def>grammaticalised idiom reinforcing the notion of obligation/recommendation made &gt; only if S then the goal defined by V will be achieved</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-1c5a5456-227a-45f5-94f1-f6629d0f977a"><form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87 #uuid-4342b9fe-7e09-40cb-ad1a-fbf479505d5f">
+<orth>莫是</orth><pron xml:lang="zh-Latn-x-pinyin">mò shì</pron><pron xml:lang="zh-x-oc">maaɡ ɡljeʔ</pron><pron xml:lang="zh-x-mc">mɑk dʑiɛ</pron></form>
+<sense xml:id="uuid-d9d9dd8f-86a0-4bbb-88dc-82cc1cf5871c">
+<gramGrp><pos>V</pos>
+  <tls:syn-func corresp="#uuid-ec1f463b-3297-489a-9917-e28a783bdcb3">VPt+S.+V{NEG}</tls:syn-func></gramGrp>
+  <def>Is it not that S, (or not)</def></sense>
+</entry></div></div>

@@ -1,1 +1,49 @@
-<?xml-model ../out/tls1.rnc application/relax-ng-compact-syntax?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-80a2464f-3efe-4f42-9b15-bcf88291d9e4"><head>BATTALION</head><list type="translations"><item xml:lang="zh">大軍</item></list><div type="definition"><p>PART of an ARMY.</p></div><div type="notes"><div type="huang-jingui"><p>HUANG JINGUI 2006</p><p>WARFARE 3. 軍隊基層編制單位。</p><p>伍，士兵五名為伍。</p><p>什，步卒十人為什。兵車單位，以一百二十五乘為伍，或以一百二十乘為伍。</p><p>卒，以一百人或二百人為卒。此制行於戰國以前。</p><p>WARFARE 4. 部曲，行於秦漢至三國期間，中級的軍隊編制單位。</p><p>大將軍下轄五部，上千人一部。</p><p>部下分數曲。</p><p>校，部的別稱；亦指軍營。</p><p>WARFARE 5. 騎兵的編隊單位。</p><p>騎，一人一馬。長，五騎。吏，十騎。屯，三十騎。輩，六十騎。率，百騎。</p></div></div><div type="pointers"/><div type="words"><entry type="word" xml:id="uuid-3f42e104-3ad3-4647-82de-e13f9519ea41"><form corresp="#uuid-4e058984-bc21-4be9-a8f3-15cf02946365"><orth>偏</orth><pron xml:lang="zh-Latn-x-pinyin">piān</pron><pron xml:lang="zh-x-oc">phen</pron><pron xml:lang="zh-x-mc">phiɛn</pron></form><sense xml:id="uuid-5e06770e-b542-485e-963a-842e3d61c773"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp><def>small batallion of 50 men</def></sense></entry><entry type="word" xml:id="uuid-ea1c6cb5-2212-4d8c-bfe1-77fcac7609bd"><form corresp="#uuid-eb84917f-f616-4f44-aef8-7567b9d1ac21"><orth>兩</orth><pron xml:lang="zh-Latn-x-pinyin">liǎng</pron><pron xml:lang="zh-x-oc">raŋʔ</pron><pron xml:lang="zh-x-mc">li̯ɐŋ</pron></form><sense xml:id="uuid-269c747c-e48d-4309-85bd-6d2256fa6ed1"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp><def>minor batallion of 25 men</def></sense></entry><entry type="word" xml:id="uuid-e80ce745-fbfe-4b18-8210-67cde8dfc4df"><form corresp="#uuid-5a021114-77c9-4620-b223-46a6f6c8d2aa"><orth>屯</orth><pron xml:lang="zh-Latn-x-pinyin">zhūn</pron><pron xml:lang="zh-x-oc">tun</pron><pron xml:lang="zh-x-mc">ʈʷin</pron></form><form corresp="#uuid-81be3f37-8ef8-46cd-99b5-f178f12e4012"><orth>屯</orth><pron xml:lang="zh-Latn-x-pinyin">tún</pron><pron xml:lang="zh-x-oc">duun</pron><pron xml:lang="zh-x-mc">duo̝n</pron></form><sense xml:id="uuid-5b259ae6-d24f-4f01-a2a3-9c741620b650"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>"platoon" of five soldiers</def></sense></entry><entry type="word" xml:id="uuid-6fbebc12-709f-483a-a082-381477995930"><form corresp="#uuid-3e0d32e6-429f-474d-bd76-acc4ffec7e7d"><orth>廣</orth><pron xml:lang="zh-Latn-x-pinyin">guǎng</pron><pron xml:lang="zh-x-oc">kʷaaŋʔ</pron><pron xml:lang="zh-x-mc">kɑŋ</pron></form><sense xml:id="uuid-2958747c-d85a-453d-8a22-5eda5d4f127d"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp><def>batallion of 15 war chariots</def></sense></entry></div></div>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model ../schema/tls.rnc application/relax-ng-compact-syntax?>
+<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-80a2464f-3efe-4f42-9b15-bcf88291d9e4">
+<head>BATTALION</head><list type="translations"><item xml:lang="zh">大軍</item></list>
+<div type="definition">
+<p>PART of an ARMY.</p></div>
+<div type="notes">
+<div type="huang-jingui">
+<p>HUANG JINGUI 2006</p>
+<p>WARFARE 3. 軍隊基層編制單位。</p>
+<p>伍，士兵五名為伍。</p>
+<p>什，步卒十人為什。兵車單位，以一百二十五乘為伍，或以一百二十乘為伍。</p>
+<p>卒，以一百人或二百人為卒。此制行於戰國以前。</p>
+<p>WARFARE 4. 部曲，行於秦漢至三國期間，中級的軍隊編制單位。</p>
+<p>大將軍下轄五部，上千人一部。</p>
+<p>部下分數曲。</p>
+<p>校，部的別稱；亦指軍營。</p>
+<p>WARFARE 5. 騎兵的編隊單位。</p>
+<p>騎，一人一馬。長，五騎。吏，十騎。屯，三十騎。輩，六十騎。率，百騎。</p></div></div>
+<div type="pointers"/>
+<div type="words">
+<entry type="word" xml:id="uuid-3f42e104-3ad3-4647-82de-e13f9519ea41"><form corresp="#uuid-4e058984-bc21-4be9-a8f3-15cf02946365">
+<orth>偏</orth><pron xml:lang="zh-Latn-x-pinyin">piān</pron><pron xml:lang="zh-x-oc">phen</pron><pron xml:lang="zh-x-mc">phiɛn</pron></form>
+<sense xml:id="uuid-5e06770e-b542-485e-963a-842e3d61c773">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
+  <def>small batallion of 50 men</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-ea1c6cb5-2212-4d8c-bfe1-77fcac7609bd"><form corresp="#uuid-eb84917f-f616-4f44-aef8-7567b9d1ac21">
+<orth>兩</orth><pron xml:lang="zh-Latn-x-pinyin">liǎng</pron><pron xml:lang="zh-x-oc">raŋʔ</pron><pron xml:lang="zh-x-mc">li̯ɐŋ</pron></form>
+<sense xml:id="uuid-269c747c-e48d-4309-85bd-6d2256fa6ed1">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
+  <def>minor batallion of 25 men</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-e80ce745-fbfe-4b18-8210-67cde8dfc4df"><form corresp="#uuid-5a021114-77c9-4620-b223-46a6f6c8d2aa">
+<orth>屯</orth><pron xml:lang="zh-Latn-x-pinyin">zhūn</pron><pron xml:lang="zh-x-oc">tun</pron><pron xml:lang="zh-x-mc">ʈʷin</pron></form><form corresp="#uuid-81be3f37-8ef8-46cd-99b5-f178f12e4012">
+<orth>屯</orth><pron xml:lang="zh-Latn-x-pinyin">tún</pron><pron xml:lang="zh-x-oc">duun</pron><pron xml:lang="zh-x-mc">duo̝n</pron></form>
+<sense xml:id="uuid-5b259ae6-d24f-4f01-a2a3-9c741620b650">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
+  <def>"platoon" of five soldiers</def></sense>
+</entry>
+<entry type="word" xml:id="uuid-6fbebc12-709f-483a-a082-381477995930"><form corresp="#uuid-3e0d32e6-429f-474d-bd76-acc4ffec7e7d">
+<orth>廣</orth><pron xml:lang="zh-Latn-x-pinyin">guǎng</pron><pron xml:lang="zh-x-oc">kʷaaŋʔ</pron><pron xml:lang="zh-x-mc">kɑŋ</pron></form>
+<sense xml:id="uuid-2958747c-d85a-453d-8a22-5eda5d4f127d">
+<gramGrp><pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
+  <def>batallion of 15 war chariots</def></sense>
+</entry></div></div>
