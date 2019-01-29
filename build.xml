@@ -12,11 +12,11 @@
   </target>
   <!-- Dev build (includes everything unoptimized) -->
   <target name="dev" depends="init" description="compile all source files">
-    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}-dev.xar" excludes="**/${build.dir}/**"/>
+    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}-dev.xar" excludes="**/${build.dir}/**, **/translations/**"/>
   </target>
   <!-- Release build -->
   <target name="deploy" depends="init" description="compile release build">
-    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="**/${build.dir}/**, .existdb.json, bower.json.ignores, .yo-rc.json, README.md, **/.git*/**, "/>
+    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="**/${build.dir}/**, .existdb.json, bower.json.ignores, .yo-rc.json, README.md, **/.git*/**, **/translations/**"/>
   </target>
   <target name="all" depends="dev, deploy">
     <tstamp/>
