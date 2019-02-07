@@ -18,6 +18,10 @@
   <target name="deploy" depends="init" description="compile release build">
     <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="**/${build.dir}/**, .existdb.json, bower.json.ignores, .yo-rc.json, README.md, **/.git*/**, **/translations/**"/>
   </target>
+  <!-- Internal build, includes translations -->
+  <target name="int" depends="init" description="compile release build">
+    <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}-int.xar" excludes="**/${build.dir}/**, .existdb.json, bower.json.ignores, .yo-rc.json, README.md, **/.git*/**"/>
+  </target>
   <target name="all" depends="dev, deploy">
     <tstamp/>
   </target>
