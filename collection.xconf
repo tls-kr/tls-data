@@ -1,5 +1,5 @@
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <index xmlns:tx="http://exist-db.org/tls" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
         <fulltext default="none" attributes="false"/>
         <lucene>
             <text qname="tei:div">
@@ -23,6 +23,7 @@
             <create qname="@target" type="xs:string"/>
             <!-- matches the annotated characters in a tei:entry and tls:swl -->
             <create qname="tei:orth" type="xs:string"/>
+            <create qname="tx:graph" type="xs:string"/>
         </range>
     </index>
 </collection>
