@@ -32,13 +32,13 @@ return
 };
 
 (
-(: world can not read translations :)
-local:proc($target || "/translations", "rwxrwx---"),
+(: world can not read translations except some, so we set x :)
+local:proc($target || "/translations", "rwxrwx--x"),
 
 (: world can read but not write :)
-local:proc($target || "/concepts", "rwxrwxr--"),
-local:proc($target || "/core", "rwxrwxr--"),
-local:proc($target || "/notes", "rwxrwxr--"),
+local:proc($target || "/concepts", "rwxrwxr-x"),
+local:proc($target || "/core", "rwxrwxr-x"),
+local:proc($target || "/notes", "rwxrwxr-x")
 )
 
 
