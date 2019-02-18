@@ -32,6 +32,12 @@ return
 };
 
 (
+sm:group-exists("tls-user") or sm:create-group("tls-user"),
+sm:group-exists("tls-editor") or sm:create-group("tls-editor"),
+sm:group-exists("tls-admin") or sm:create-group("tls-admin"),
+
+xmldb:create-collection(concat($target, "/notes"), "new"),
+
 (: world can not read translations except some, so we set x :)
 local:proc($target || "/translations", "rwxrwx--x"),
 
