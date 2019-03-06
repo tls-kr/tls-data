@@ -10,5 +10,5 @@
   <target>tls-data</target>
   <prepare>pre-install.xql</prepare>
   <finish>post-install.xql</finish>
-  <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="tlsxx" user="tls" group="tls" mode="rwxrwxr-x"/>
+  <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="tlsxx" user="tls" group="tls-user" mode="rwxrwxr-x"/>
 </meta>
