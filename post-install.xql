@@ -1,4 +1,13 @@
-xquery version "3.0";
+xquery version "3.1";
+(:~ The post-install runs after contents are copied to db.
+ :
+ : @version 1.0.0
+ : @see http://www.adamretter.org.uk/presentations/security-in-existdb_xml-prague_existdb_20120210.pdf
+ : @see http://localhost:8080/exist/apps/doc/security.xml?field=all&id=D3.21.11#permissions
+ :)
+
+
+declare namespace repo="http://exist-db.org/xquery/repo";
 
 (: The following external variables are set by the repo:deploy function :)
 
@@ -9,42 +18,52 @@ declare variable $dir external;
 (: the target collection into which the app is deployed :)
 declare variable $target external;
 
-(: Limit access to translations if available :)
-declare function local:proc($uri as xs:string, $perm as xs:string)
-{ 
-  sm:chmod(xs:anyURI($uri), $perm),
-  sm:chgrp(xs:anyURI($uri), "tls-user"),
-  sm:chown(xs:anyURI($uri), "tls"),
+(: invisible collections :)
+declare variable $hidden := $target || "/translations";
+(: read-only collections :)
+declare variable $concepts := $target || "/concepts";
+declare variable $core := $target || "/core";
+declare variable $notes := $target || "/notes";
 
-for $u in xmldb:get-child-collections($uri)
-let $t := $uri || "/" || $u
-return 
-  local:proc($t, $perm)
-  ,
-for $u in xmldb:get-child-resources($uri)
-let $t := $uri || "/" || $u
+(:~
+ : Restrict non-public resources
+:)
+declare function local:special-permission($uri as xs:string, $perm as xs:string) as empty-sequence() {
+for $res in xmldb:get-child-resources($uri)
+let $path := $uri || "/" || $res
 return
-(
-  sm:chmod(xs:anyURI($t), $perm),
-  sm:chgrp(xs:anyURI($t), "tls-user"),
-  sm:chown(xs:anyURI($t), "tls")
-)
+  ( sm:chown(xs:anyURI($path), "admin"),
+    sm:chgrp(xs:anyURI($path), "dba"),
+    sm:chmod(xs:anyURI($path), $perm) )
 };
 
-(
-sm:group-exists("tls-user") or sm:create-group("tls-user"),
-sm:group-exists("tls-editor") or sm:create-group("tls-editor"),
-sm:group-exists("tls-admin") or sm:create-group("tls-admin"),
-
-xmldb:create-collection(concat($target, "/notes"), "new"),
-
-(: world can not read translations except some, so we set x :)
-local:proc($target || "/translations", "rwxrwx--x"),
-
-(: world can read but not write :)
-local:proc($target || "/concepts", "rwxrwxr-x"),
-local:proc($target || "/core", "rwxrwxr-x"),
-local:proc($target || "/notes", "rwxrwxr-x")
-)
+(:~
+ : If user had no submodule access create an empty collection
+:)
+let $restricted := xmldb:collection-available($hidden) or xmldb:create-collection( $target, "translations" )
 
 
+return
+(: Ignotus Peverell :)
+(: root of restricted resources is visible to world …:)
+sm:chown(xs:anyURI($hidden), "admin"),
+sm:chgrp(xs:anyURI($hidden), "dba"),
+sm:chmod(xs:anyURI($hidden), 'rwxrwxr--'),
+(: … preinstalled contents are not :)
+local:special-permission($hidden, 'rwxrwx---'),
+
+(: revelio :)
+sm:chown(xs:anyURI($concepts), "admin"),
+sm:chgrp(xs:anyURI($concepts), "dba"),
+sm:chmod(xs:anyURI($concepts), 'rwxrwxr-x'),
+local:special-permission($concepts, 'rwxrwxr--'),
+
+sm:chown(xs:anyURI($core), "admin"),
+sm:chgrp(xs:anyURI($core), "dba"),
+sm:chmod(xs:anyURI($core), 'rwxrwxr-x'),
+local:special-permission($core, 'rwxrwxr--'),
+
+sm:chown(xs:anyURI($notes), "admin"),
+sm:chgrp(xs:anyURI($notes), "dba"),
+sm:chmod(xs:anyURI($notes), 'rwxrwxr-x'),
+local:special-permission($notes, 'rwxrwxr--')
