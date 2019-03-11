@@ -24,6 +24,7 @@ declare variable $hidden := $target || "/translations";
 declare variable $concepts := $target || "/concepts";
 declare variable $core := $target || "/core";
 declare variable $notes := $target || "/notes";
+declare variable $newnotes := $notes || "/new";
 
 (:~
  : Restrict non-public resources
@@ -37,6 +38,7 @@ return
     sm:chmod(xs:anyURI($path), $perm) )
 };
 
+
 (:~
  : If user had no submodule access create an empty collection
 :)
@@ -44,26 +46,33 @@ let $restricted := xmldb:collection-available($hidden) or xmldb:create-collectio
 
 
 return
+
 (: Ignotus Peverell :)
 (: root of restricted resources is visible to world …:)
 sm:chown(xs:anyURI($hidden), "admin"),
 sm:chgrp(xs:anyURI($hidden), "dba"),
-sm:chmod(xs:anyURI($hidden), 'rwxrwxr--'),
+sm:chmod(xs:anyURI($hidden), 'rwxrwxr-x'),
 (: … preinstalled contents are not :)
-local:special-permission($hidden, 'rwxrwx---'),
+local:special-permission($hidden, 'rwxrwx--x'),
 
 (: revelio :)
 sm:chown(xs:anyURI($concepts), "admin"),
 sm:chgrp(xs:anyURI($concepts), "dba"),
 sm:chmod(xs:anyURI($concepts), 'rwxrwxr-x'),
-local:special-permission($concepts, 'rwxrwxr--'),
+(:local:special-permission($concepts, 'rwxrwxr--'),:)
 
 sm:chown(xs:anyURI($core), "admin"),
 sm:chgrp(xs:anyURI($core), "dba"),
 sm:chmod(xs:anyURI($core), 'rwxrwxr-x'),
-local:special-permission($core, 'rwxrwxr--'),
+(:local:special-permission($core, 'rwxrwxr--'),:)
 
 sm:chown(xs:anyURI($notes), "admin"),
 sm:chgrp(xs:anyURI($notes), "dba"),
-sm:chmod(xs:anyURI($notes), 'rwxrwxr-x'),
-local:special-permission($notes, 'rwxrwxr--')
+sm:chmod(xs:anyURI($notes), 'rwxrwxr-x')(:,
+local:special-permission($notes, 'rwxrwxr--'):),
+
+(: create notes/new if necessary :)
+xmldb:collection-available($newnotes) or xmldb:create-collection($notes, "new"),
+sm:chown(xs:anyURI($newnotes), "tls"),
+sm:chgrp(xs:anyURI($newnotes), "tls-user"),
+sm:chmod(xs:anyURI($newnotes), 'rwxrwxr-x')
