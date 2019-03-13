@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-4f3f44a0-2d10-4b09-ac7e-24e804772157">
-<head>PHYSICIAN</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4f3f44a0-2d10-4b09-ac7e-24e804772157">
+<head>PHYSICIAN</head>
+    <list type="altnames">
 <item>DOCTOR</item>
 <item>DOCTOR OF MEDICINE</item>
 <item>MD</item>
@@ -17,13 +19,19 @@
 <item>MEDICO</item>
 <item>INTERN</item>
 <item>RESIDENT</item>
-<item>INFORMAL DATED SAWBONES</item></list><list type="translations"><item xml:lang="zh">醫生</item></list>
+<item>INFORMAL DATED SAWBONES</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">醫生</item>
+    </list>
 <div type="definition">
-<p>SPECIALIST OR OFFICIAL WORKING to CURE ILLNESSES.</p></div>
+<p>SPECIALIST OR OFFICIAL WORKING to CURE ILLNESSES.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general standard word for a doctor is yī 醫.</p>
-<p>2. Wū 巫 refers to a shaman among whose typical capabilities is that of treating illnesses, often but not exclusively by supernatural or magical means.</p></div>
+<p>2. Wū 巫 refers to a shaman among whose typical capabilities is that of treating illnesses, often but not exclusively by supernatural or magical means.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>醫生</p>
 <p>醫師</p>
@@ -41,111 +49,241 @@
 <p>神醫</p>
 <p>太醫</p>
 <p>御醫</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-6f428244-f5ad-4f76-b75c-a630dfefe5ff">DRUG</ref></item>
-<item><ref target="#uuid-e18aa3e3-a6a1-4550-95d7-b5327c96bfd4">DOCTORS</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-b1c8c39d-b2b9-4994-80ba-33686a5c1fe8">APRESJAN 2004</ref>
-<title>Novyj objasnitel'nyj Slovar' Sinonimov Russkogo Jazyka</title><biblScope unit="page">149</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-dcdec461-c248-4809-a141-385e6610d74c">FINSTERBUSCH 2000</ref>
-<title>Verzeichnis und Motivindex der Han-Darstellungen</title><biblScope unit="page">717</biblScope><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-6f428244-f5ad-4f76-b75c-a630dfefe5ff">DRUG</ref>
+            </item>
+<item>
+                <ref target="#uuid-e18aa3e3-a6a1-4550-95d7-b5327c96bfd4">DOCTORS</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-b1c8c39d-b2b9-4994-80ba-33686a5c1fe8">APRESJAN 2004</ref>
+<title>Novyj objasnitel'nyj Slovar' Sinonimov Russkogo Jazyka</title>
+                <biblScope unit="page">149</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-dcdec461-c248-4809-a141-385e6610d74c">FINSTERBUSCH 2000</ref>
+<title>Verzeichnis und Motivindex der Han-Darstellungen</title>
+                <biblScope unit="page">717</biblScope>
+                <note>
 <p>Akupunktur:</p>
-<p>Acupuncturists are occasionally depicted on Han reliefs. Two examples.</p></note></bibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><note>
-<p>MEDICINA</p></note></bibl>
-<bibl><ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
-<title>論衡同義詞研究</title><biblScope unit="page">６</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ddc8dc41-e703-448c-9f61-6db9445685a7">UNGER SACH</ref>
-<title>"Sachwoerterbuch zum Alten China"</title><note>
+<p>Acupuncturists are occasionally depicted on Han reliefs. Two examples.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <note>
+<p>MEDICINA</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
+<title>論衡同義詞研究</title>
+                <biblScope unit="page">６</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ddc8dc41-e703-448c-9f61-6db9445685a7">UNGER SACH</ref>
+<title>"Sachwoerterbuch zum Alten China"</title>
+                <note>
 <p>AERZTE</p>
-<p>MEDIZIN</p></note></bibl>
-<bibl><ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
-<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title><biblScope unit="page">91ff</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-a4832799-5d07-494c-bc3a-4fd7db78c620">WEBER 1857</ref>
-<title>Democritus Ridens</title><biblScope unit="page">11.44</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>MEDIZIN</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
+<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title>
+                <biblScope unit="page">91ff</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-a4832799-5d07-494c-bc3a-4fd7db78c620">WEBER 1857</ref>
+<title>Democritus Ridens</title>
+                <biblScope unit="page">11.44</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-27f3d172-ec8f-4bd8-b7cb-6d39cc5be8f3"><form corresp="#uuid-441e541a-bf97-4bb8-8edd-5bab49dad65b">
-<orth>巫</orth><pron xml:lang="zh-Latn-x-pinyin">wū</pron><pron xml:lang="zh-x-oc">ma</pron><pron xml:lang="zh-x-mc">mi̯o</pron></form>
+<entry type="word" xml:id="uuid-27f3d172-ec8f-4bd8-b7cb-6d39cc5be8f3">
+            <form corresp="#uuid-441e541a-bf97-4bb8-8edd-5bab49dad65b">
+<orth>巫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wū</pron>
+                <pron xml:lang="zh-x-oc">ma</pron>
+                <pron xml:lang="zh-x-mc">mi̯o</pron>
+            </form>
+            <def>Wū 巫 refers to a shaman among whose typical capabilities is that of treating illnesses, often but not exclusively by supernatural or magical means.</def>
 <sense xml:id="uuid-eb7f6415-a40b-4501-a99c-a76469934580">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>shaman in function as physician</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-f6e7d579-229d-4316-bdf8-9ffad71122c9"><form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
-<orth>醫</orth><pron xml:lang="zh-Latn-x-pinyin">yī</pron><pron xml:lang="zh-x-oc">qɯ</pron><pron xml:lang="zh-x-mc">ʔɨ</pron></form>
-<sense xml:id="uuid-d6e063c7-fbc6-49f7-8166-28dd7e020872">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-0f5b5ce6-d13f-433e-abbd-88a290f978d6">n+Npr</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-4b4da480-c7d4-48f9-9534-cb3826f3fb86">title</tls:sem-feat></gramGrp>
-  <def>Dr Npr</def></sense>
-<sense xml:id="uuid-e093756d-de7b-4106-a19a-10c5f76deb64">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-bffb0573-9813-4b95-95b4-87cd47edc88c">agent</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>medically specialised shaman; medical doctor8</def></sense>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>shaman in function as physician</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-f6e7d579-229d-4316-bdf8-9ffad71122c9">
+            <form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
+<orth>醫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī</pron>
+                <pron xml:lang="zh-x-oc">qɯ</pron>
+                <pron xml:lang="zh-x-mc">ʔɨ</pron>
+            </form>
+            <def>The general standard word for a doctor is yī 醫.</def>
+<sense xml:id="uuid-d6e063c7-fbc6-49f7-8166-28dd7e020872">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-0f5b5ce6-d13f-433e-abbd-88a290f978d6">n+Npr</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-4b4da480-c7d4-48f9-9534-cb3826f3fb86">title</tls:sem-feat>
+                </gramGrp>
+  <def>Dr Npr</def>
+            </sense>
+<sense xml:id="uuid-e093756d-de7b-4106-a19a-10c5f76deb64">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-bffb0573-9813-4b95-95b4-87cd47edc88c">agent</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>medically specialised shaman; medical doctor8</def>
+            </sense>
 <sense xml:id="uuid-a9b68d19-fe2d-4226-a240-facd36d027a3">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>medical practice, medicine  wéi yī 為翳practice medicine</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>medical practice, medicine  wéi yī 為翳practice medicine</def>
+            </sense>
 <sense xml:id="uuid-2cf23942-c97d-431a-9ebc-589f379800ee">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>physician, Dr. 秦醫</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>physician, Dr. 秦醫</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-53a9d4f6-c92a-40a0-acba-73a0739f17b7"><form corresp="#uuid-441e541a-bf97-4bb8-8edd-5bab49dad65b #uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
-<orth>巫醫</orth><pron xml:lang="zh-Latn-x-pinyin">wū yī</pron><pron xml:lang="zh-x-oc">ma qɯ</pron><pron xml:lang="zh-x-mc">mi̯o ʔɨ</pron></form>
+<entry type="word" xml:id="uuid-53a9d4f6-c92a-40a0-acba-73a0739f17b7">
+            <form corresp="#uuid-441e541a-bf97-4bb8-8edd-5bab49dad65b #uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
+<orth>巫醫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wū yī</pron>
+                <pron xml:lang="zh-x-oc">ma qɯ</pron>
+                <pron xml:lang="zh-x-mc">mi̯o ʔɨ</pron>
+            </form>
 <sense xml:id="uuid-d7cd5f7d-7378-440d-9f52-c6fcb8232185">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-0ae78c50-f7f7-4ab0-bb28-9375998ac032">NP{N1=N2}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>shaman-physicians</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>shaman-physicians</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c85e823f-ef2b-4416-8f77-45c81cb65450"><form corresp="#uuid-b3ba02c9-6db5-440d-b938-2ebc980e9513 #uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
-<orth>拙醫</orth><pron xml:lang="zh-Latn-x-pinyin">zhuō yī</pron><pron xml:lang="zh-x-oc">kljod qɯ</pron><pron xml:lang="zh-x-mc">tɕiɛt ʔɨ</pron></form>
+<entry type="word" xml:id="uuid-c85e823f-ef2b-4416-8f77-45c81cb65450">
+            <form corresp="#uuid-b3ba02c9-6db5-440d-b938-2ebc980e9513 #uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
+<orth>拙醫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuō yī</pron>
+                <pron xml:lang="zh-x-oc">kljod qɯ</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛt ʔɨ</pron>
+            </form>
 <sense xml:id="uuid-e2b48937-eb2b-4fa6-b570-6cc35d8ff009">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>inept physician</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>inept physician</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-41545f48-70e5-40e3-893e-371ad1bfaab3"><form corresp="#uuid-604884e2-a46c-45c4-8671-1277e6b7f6b6 #uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
-<orth>良醫</orth><pron xml:lang="zh-Latn-x-pinyin">liáng yī</pron><pron xml:lang="zh-x-oc">ɡ-raŋ qɯ</pron><pron xml:lang="zh-x-mc">li̯ɐŋ ʔɨ</pron></form>
+<entry type="word" xml:id="uuid-41545f48-70e5-40e3-893e-371ad1bfaab3">
+            <form corresp="#uuid-604884e2-a46c-45c4-8671-1277e6b7f6b6 #uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad">
+<orth>良醫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liáng yī</pron>
+                <pron xml:lang="zh-x-oc">ɡ-raŋ qɯ</pron>
+                <pron xml:lang="zh-x-mc">li̯ɐŋ ʔɨ</pron>
+            </form>
 <sense xml:id="uuid-37a841a2-7b2a-4f8b-885a-0b46c414b932">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>a good doctor</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>a good doctor</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8994d7f3-626a-4d7e-9ec0-e4f5a6c4fa4f"><form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
-<orth>醫人</orth><pron xml:lang="zh-Latn-x-pinyin">yī rén</pron><pron xml:lang="zh-x-oc">qɯ njin</pron><pron xml:lang="zh-x-mc">ʔɨ ȵin</pron></form>
+<entry type="word" xml:id="uuid-8994d7f3-626a-4d7e-9ec0-e4f5a6c4fa4f">
+            <form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+<orth>醫人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī rén</pron>
+                <pron xml:lang="zh-x-oc">qɯ njin</pron>
+                <pron xml:lang="zh-x-mc">ʔɨ ȵin</pron>
+            </form>
 <sense xml:id="uuid-ba63f50f-7766-4c83-86d1-cf5264bc2451">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp>
-  <def>a physician</def></sense>
+  <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+  <def>a physician</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b7795a1b-bbfb-4a07-bc32-07cf26cfe3f7"><form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
-<orth>醫師</orth><pron xml:lang="zh-Latn-x-pinyin">yī shī</pron><pron xml:lang="zh-x-oc">qɯ sril</pron><pron xml:lang="zh-x-mc">ʔɨ ʂi</pron></form>
+<entry type="word" xml:id="uuid-b7795a1b-bbfb-4a07-bc32-07cf26cfe3f7">
+            <form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
+<orth>醫師</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī shī</pron>
+                <pron xml:lang="zh-x-oc">qɯ sril</pron>
+                <pron xml:lang="zh-x-mc">ʔɨ ʂi</pron>
+            </form>
 <sense xml:id="uuid-c3e8fdef-5bd7-4071-bb99-2f27bdfd7953">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>physician</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-89067f7f-7843-40d7-8e2c-36529cb90bd3"><form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad #uuid-638f5102-6260-4085-891d-9864102bc27c">
-<orth>醫者</orth><pron xml:lang="zh-Latn-x-pinyin">yī zhě</pron><pron xml:lang="zh-x-oc">qɯ kljaʔ</pron><pron xml:lang="zh-x-mc">ʔɨ tɕɣɛ</pron></form>
-<sense xml:id="uuid-d94334f9-5eb0-41da-8e08-b9cc91478943">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>physicial in general</def></sense>
-</entry></div></div>
+                </gramGrp>
+  <def>physician</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-89067f7f-7843-40d7-8e2c-36529cb90bd3">
+            <form corresp="#uuid-e49a2837-1077-4993-84ce-0ae0f6ff4dad #uuid-638f5102-6260-4085-891d-9864102bc27c">
+<orth>醫者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī zhě</pron>
+                <pron xml:lang="zh-x-oc">qɯ kljaʔ</pron>
+                <pron xml:lang="zh-x-mc">ʔɨ tɕɣɛ</pron>
+            </form>
+<sense xml:id="uuid-d94334f9-5eb0-41da-8e08-b9cc91478943">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>physicial in general</def>
+            </sense>
+</entry>
+    </div>
+</div>

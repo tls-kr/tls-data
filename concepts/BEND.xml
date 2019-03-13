@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-7011cb92-a8e1-4dd0-937b-78e6e25d3238">
-<head>BEND</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7011cb92-a8e1-4dd0-937b-78e6e25d3238">
+<head>BEND</head>
+    <list type="altnames">
 <item>CURVE</item>
 <item>ANGLE</item>
 <item>HOOK</item>
@@ -12,61 +14,127 @@
 <item>WARP</item>
 <item>CONTORT</item>
 <item>DISTORT</item>
-<item>DEFORM</item></list><list type="translations"><item xml:lang="zh">歪曲</item></list>
+<item>DEFORM</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">歪曲</item>
+    </list>
 <div type="definition">
-<p>CAUSE TO BECOME CURVED.</p></div>
+<p>CAUSE TO BECOME CURVED.</p>
+    </div>
 <div type="notes"/>
 <div type="pointers"/>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
-<title>古漢語常用詞同義詞詞典</title><biblScope unit="page">270</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
+<title>古漢語常用詞同義詞詞典</title>
+                <biblScope unit="page">270</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-35f205f8-c71b-4a6f-a7fe-12a19870042a"><form corresp="#uuid-cacbf37d-677b-4d45-9dc2-235fd5c5cdeb">
-<orth>屈</orth><pron xml:lang="zh-Latn-x-pinyin">qū</pron><pron xml:lang="zh-x-oc">khlud</pron><pron xml:lang="zh-x-mc">khi̯ut</pron></form>
+<entry type="word" xml:id="uuid-35f205f8-c71b-4a6f-a7fe-12a19870042a">
+            <form corresp="#uuid-cacbf37d-677b-4d45-9dc2-235fd5c5cdeb">
+<orth>屈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū</pron>
+                <pron xml:lang="zh-x-oc">khlud</pron>
+                <pron xml:lang="zh-x-mc">khi̯ut</pron>
+            </form>
 <sense xml:id="uuid-729061ce-1000-47cc-a08e-537118ac9a21">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>bend (one's body etc)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>bend (one's body etc)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-db6ad675-99e3-47f2-bfea-359b2d18f93a"><form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f">
-<orth>曲</orth><pron xml:lang="zh-Latn-x-pinyin">qū</pron><pron xml:lang="zh-x-oc">khoɡ</pron><pron xml:lang="zh-x-mc">khi̯ok</pron></form>
+<entry type="word" xml:id="uuid-db6ad675-99e3-47f2-bfea-359b2d18f93a">
+            <form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f">
+<orth>曲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū</pron>
+                <pron xml:lang="zh-x-oc">khoɡ</pron>
+                <pron xml:lang="zh-x-mc">khi̯ok</pron>
+            </form>
 <sense xml:id="uuid-fdc7a867-1361-4d6a-ba21-86352d2b1310">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp>
-  <def>bend</def></sense>
+  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+  <def>bend</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1b2e02f4-e143-42e6-8774-f5598ebb3122"><form corresp="#uuid-c2c1ac2b-d2a5-48ad-94c9-01eb3a9e8cc8">
-<orth>樛</orth><pron xml:lang="zh-Latn-x-pinyin">jiū</pron><pron xml:lang="zh-x-oc">kru</pron><pron xml:lang="zh-x-mc">ki̯u</pron></form>
+<entry type="word" xml:id="uuid-1b2e02f4-e143-42e6-8774-f5598ebb3122">
+            <form corresp="#uuid-c2c1ac2b-d2a5-48ad-94c9-01eb3a9e8cc8">
+<orth>樛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiū</pron>
+                <pron xml:lang="zh-x-oc">kru</pron>
+                <pron xml:lang="zh-x-mc">ki̯u</pron>
+            </form>
 <sense xml:id="uuid-bd917743-6dfa-435c-b113-5bccb045a085">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp>
-  <def>poetic, rare: bending downwards</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+  <def>poetic, rare: bending downwards</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-f1cc1279-ca52-4760-9c20-714a9a9c25b8"><form corresp="#uuid-107af514-3922-430a-bf56-a9f2648f62a5">
-<orth>靡</orth><pron xml:lang="zh-Latn-x-pinyin">mǐ</pron><pron xml:lang="zh-x-oc">mralʔ</pron><pron xml:lang="zh-x-mc">miɛ</pron></form>
+<entry type="word" xml:id="uuid-f1cc1279-ca52-4760-9c20-714a9a9c25b8">
+            <form corresp="#uuid-107af514-3922-430a-bf56-a9f2648f62a5">
+<orth>靡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mǐ</pron>
+                <pron xml:lang="zh-x-oc">mralʔ</pron>
+                <pron xml:lang="zh-x-mc">miɛ</pron>
+            </form>
 <sense xml:id="uuid-7ae22e86-fc93-4fe5-9d8d-4a940419818c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>bend (grass)</def></sense>
-<sense xml:id="uuid-99f7bff9-e1a9-40e7-a449-e0281335b9a3">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp>
-  <def>get bent</def></sense>
+                </gramGrp>
+  <def>bend (grass)</def>
+            </sense>
+<sense xml:id="uuid-99f7bff9-e1a9-40e7-a449-e0281335b9a3">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+  <def>get bent</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0769563e-1892-486c-8305-efc709d65989"><form corresp="#uuid-697a6ad4-0f5a-4419-94d9-3c81cf64f0fb">
-<orth>鞠</orth><pron xml:lang="zh-Latn-x-pinyin">jū</pron><pron xml:lang="zh-x-oc">kuɡ</pron><pron xml:lang="zh-x-mc">kuk</pron></form>
+<entry type="word" xml:id="uuid-0769563e-1892-486c-8305-efc709d65989">
+            <form corresp="#uuid-697a6ad4-0f5a-4419-94d9-3c81cf64f0fb">
+<orth>鞠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jū</pron>
+                <pron xml:lang="zh-x-oc">kuɡ</pron>
+                <pron xml:lang="zh-x-mc">kuk</pron>
+            </form>
 <sense xml:id="uuid-7297ed8e-10d3-46db-aec5-e3c5506ec24e">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>bend</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>bend</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-3d99da62-0861-4db5-9eb3-26283887c5b2"><form corresp="#uuid-fbeec4bd-b31a-4bcf-bc7d-96831511ac87">
-<orth>張</orth><pron xml:lang="zh-Latn-x-pinyin">zhāng</pron><pron xml:lang="zh-x-oc">krlaŋ</pron><pron xml:lang="zh-x-mc">ʈi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-3d99da62-0861-4db5-9eb3-26283887c5b2">
+            <form corresp="#uuid-fbeec4bd-b31a-4bcf-bc7d-96831511ac87">
+<orth>張</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhāng</pron>
+                <pron xml:lang="zh-x-oc">krlaŋ</pron>
+                <pron xml:lang="zh-x-mc">ʈi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-8be4c8e4-fb7b-452d-9989-ed63f81f859e">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>bend (a bow); string (a bow)</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>bend (a bow); string (a bow)</def>
+            </sense>
+</entry>
+    </div>
+</div>

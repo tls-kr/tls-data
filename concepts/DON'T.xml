@@ -1,105 +1,219 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-40a298a2-0ea4-4660-a410-a1f7029383b3">
-<head>DON'T</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-40a298a2-0ea4-4660-a410-a1f7029383b3">
+<head>DON'T</head>
+    <list type="altnames">
 <item>SHOULD NOT</item>
-<item>MUST NOT</item></list><list type="translations"><item xml:lang="zh">別</item></list>
+<item>MUST NOT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">別</item>
+    </list>
 <div type="definition">
-<p>COMMAND that one SHOULD NOT to ACT in a DEFINED way.</p></div>
+<p>COMMAND that one SHOULD NOT to ACT in a DEFINED way.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The most common prohibitive particle is wù 勿, which usually precedes transitive verbs with omitted objects.</p>
 <p>2. Wú 毋 is a prohibitive particle which normally requires that any transitive verb it precedes must retain its object.</p>
-<p>3. Wú 無 appears often used for wú 毋, but there is a clear tendency for the word to indicate a generalised "one should not" rather than a "don't" hic et nunc.</p></div>
+<p>3. Wú 無 appears often used for wú 毋, but there is a clear tendency for the word to indicate a generalised "one should not" rather than a "don't" hic et nunc.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>別</p>
 <p>不要</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／ LU JIANMING</p></div></div>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-ae0f45f9-f415-4072-8647-dc01d9190674">FORBID</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-ebe4710d-bf7c-496a-8815-9e6f1c15c1a9">WANG LI 2000</ref>
-<title>王力古漢語字典</title><biblScope unit="page">83</biblScope><note>
-<p>1. WL fails to note the cases where the transitive verbs after 勿 do have objects, and the precise conditions under which the word is NOT a prohibitive negation.</p></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／ LU JIANMING</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-ae0f45f9-f415-4072-8647-dc01d9190674">FORBID</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-ebe4710d-bf7c-496a-8815-9e6f1c15c1a9">WANG LI 2000</ref>
+<title>王力古漢語字典</title>
+                <biblScope unit="page">83</biblScope>
+                <note>
+<p>1. WL fails to note the cases where the transitive verbs after 勿 do have objects, and the precise conditions under which the word is NOT a prohibitive negation.</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-ea1c2919-6327-4c98-b72a-128b374cce4c"><form corresp="#uuid-3da462e6-1e3a-4506-ae04-8a52e7d689a4">
-<orth>勿</orth><pron xml:lang="zh-Latn-x-pinyin">wù</pron><pron xml:lang="zh-x-oc">mɯd</pron><pron xml:lang="zh-x-mc">mi̯ut</pron></form>
+<entry type="word" xml:id="uuid-ea1c2919-6327-4c98-b72a-128b374cce4c">
+            <form corresp="#uuid-3da462e6-1e3a-4506-ae04-8a52e7d689a4">
+<orth>勿</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wù</pron>
+                <pron xml:lang="zh-x-oc">mɯd</pron>
+                <pron xml:lang="zh-x-mc">mi̯ut</pron>
+            </form>
+            <def>The most common prohibitive particle is wù 勿, which usually precedes transitive verbs with omitted objects.</def>
 <sense xml:id="uuid-e9c8b645-649e-48b5-8787-b48a8b3f35d9">
-<gramGrp><pos/>
-  <tls:syn-func corresp="#uuid-d8198eab-b339-4c9d-ac6b-efecb23e0f90">vt[0]{NEG}+.Vt[0](+V)</tls:syn-func></gramGrp>
-  <def>don't Vt1 to Vt2 the determinate object</def></sense>
+<gramGrp>
+                    <pos/>
+  <tls:syn-func corresp="#uuid-d8198eab-b339-4c9d-ac6b-efecb23e0f90">vt[0]{NEG}+.Vt[0](+V)</tls:syn-func>
+                </gramGrp>
+  <def>don't Vt1 to Vt2 the determinate object</def>
+            </sense>
 <sense xml:id="uuid-2aaeba10-c8f5-4162-8889-ac557d10e0e8">
-<gramGrp><pos/>
-  <tls:syn-func corresp="#uuid-aa507e83-8c2c-4107-afa4-4e37309829f6">vt[0]{NEG}+Vt(oN)</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>don't (verb the object)</def></sense>
+<gramGrp>
+                    <pos/>
+  <tls:syn-func corresp="#uuid-aa507e83-8c2c-4107-afa4-4e37309829f6">vt[0]{NEG}+Vt(oN)</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>don't (verb the object)</def>
+            </sense>
 <sense xml:id="uuid-ab64ac17-5e35-4ad2-baa5-797634946f26">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-7d732a54-12bb-4740-a8d9-ffe87d437805">vt{NEG}.+VtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5a020978-1847-439c-abe6-796130177bf1">object=action</tls:sem-feat></gramGrp>
-  <def>don't 勿易之 "do not take this lightly"</def></sense>
+  <tls:sem-feat corresp="#uuid-5a020978-1847-439c-abe6-796130177bf1">object=action</tls:sem-feat>
+                </gramGrp>
+  <def>don't 勿易之 "do not take this lightly"</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e0be3c81-9d2d-493f-929a-ec8cbac3005a"><form corresp="#uuid-56be8bf4-5f36-4e61-b33c-d6d9249ca440">
-<orth>毋</orth><pron xml:lang="zh-Latn-x-pinyin">wú</pron><pron xml:lang="zh-x-oc">ma</pron><pron xml:lang="zh-x-mc">mi̯o</pron></form>
+<entry type="word" xml:id="uuid-e0be3c81-9d2d-493f-929a-ec8cbac3005a">
+            <form corresp="#uuid-56be8bf4-5f36-4e61-b33c-d6d9249ca440">
+<orth>毋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú</pron>
+                <pron xml:lang="zh-x-oc">ma</pron>
+                <pron xml:lang="zh-x-mc">mi̯o</pron>
+            </form>
+            <def>Wú 毋 is a prohibitive particle which normally requires that any transitive verb it precedes must retain its object.</def>
 <sense xml:id="uuid-ca1f7237-ed95-4690-929e-7f8cab809a97">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2dfcc3e0-57a9-49eb-89a3-0107de1438d3">vt[0]{NEG}(+V[0])</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>don't you&gt; Don't!</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2dfcc3e0-57a9-49eb-89a3-0107de1438d3">vt[0]{NEG}(+V[0])</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>don't you&gt; Don't!</def>
+            </sense>
 <sense xml:id="uuid-424e2488-2314-49ba-bd18-6699aac9d59b">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-7d732a54-12bb-4740-a8d9-ffe87d437805">vt{NEG}.+VtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>don't</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-7d732a54-12bb-4740-a8d9-ffe87d437805">vt{NEG}.+VtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>don't</def>
+            </sense>
 <sense xml:id="uuid-347c721a-7a34-49f6-b93d-e08396786e3c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-3e06fcbc-af5e-4edc-b14c-417883c8f6c8">vt{NEG}+Vi</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>don't Vi</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-3e06fcbc-af5e-4edc-b14c-417883c8f6c8">vt{NEG}+Vi</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>don't Vi</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-f3487d9d-aee5-42e9-ba13-e4b2b2df294a"><form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb">
-<orth>無</orth><pron xml:lang="zh-Latn-x-pinyin">wú</pron><pron xml:lang="zh-x-oc">ma</pron><pron xml:lang="zh-x-mc">mi̯o</pron></form>
+<entry type="word" xml:id="uuid-f3487d9d-aee5-42e9-ba13-e4b2b2df294a">
+            <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb">
+<orth>無</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú</pron>
+                <pron xml:lang="zh-x-oc">ma</pron>
+                <pron xml:lang="zh-x-mc">mi̯o</pron>
+            </form>
+            <def>Wú 無 appears often used for wú 毋, but there is a clear tendency for the word to indicate a generalised "one should not" rather than a "don't" hic et nunc.</def>
 <sense xml:id="uuid-574cb326-c847-409c-a1e2-6fc9d1061d6b">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-e0b13fa5-8fb2-4122-941b-ef6b1248061d">vt+Vt</tls:syn-func></gramGrp>
-  <def>don't verb any object 無言; don't Vt at any time "don't speak!"; so as not to</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-e0b13fa5-8fb2-4122-941b-ef6b1248061d">vt+Vt</tls:syn-func>
+                </gramGrp>
+  <def>don't verb any object 無言; don't Vt at any time "don't speak!"; so as not to</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-4e132cbe-aadd-4e0e-a3bd-a77e6af3a247"><form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87">
-<orth>莫</orth><pron xml:lang="zh-Latn-x-pinyin">mò</pron><pron xml:lang="zh-x-oc">maaɡ</pron><pron xml:lang="zh-x-mc">mɑk</pron></form>
+<entry type="word" xml:id="uuid-4e132cbe-aadd-4e0e-a3bd-a77e6af3a247">
+            <form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87">
+<orth>莫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mò</pron>
+                <pron xml:lang="zh-x-oc">maaɡ</pron>
+                <pron xml:lang="zh-x-mc">mɑk</pron>
+            </form>
 <sense xml:id="uuid-a4a20fbb-003d-41cd-bf0a-58f4d43f0654">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-65d93b56-a5a4-48f1-999e-bca54da80015">vt[0]+V[0]</tls:syn-func></gramGrp>
-  <def>(one) should not ??? (Is this a possible analysis???? I am just wondering...)</def></sense>
-<sense xml:id="uuid-ed6a422f-4eb0-40ba-adf0-ead51c137a3d">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-65d93b56-a5a4-48f1-999e-bca54da80015">vt[0]+V[0]</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5924d17a-9c39-4105-b350-8a2501eea07f">personal</tls:sem-feat></gramGrp>
-  <def>prohibitive negative: one should not; don't (usually marking a strong prohibition)</def></sense>
+                </gramGrp>
+  <def>(one) should not ??? (Is this a possible analysis???? I am just wondering...)</def>
+            </sense>
+<sense xml:id="uuid-ed6a422f-4eb0-40ba-adf0-ead51c137a3d">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-65d93b56-a5a4-48f1-999e-bca54da80015">vt[0]+V[0]</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-5924d17a-9c39-4105-b350-8a2501eea07f">personal</tls:sem-feat>
+                </gramGrp>
+  <def>prohibitive negative: one should not; don't (usually marking a strong prohibition)</def>
+            </sense>
 <sense xml:id="uuid-2dc1ff32-97b9-476f-8e26-08e03218be75">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp>
-  <def>don't V(with explicit subject</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+  <def>don't V(with explicit subject</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0fbbf012-c2c2-4b31-b4a0-2b9f772949d7"><form corresp="#uuid-eaf40a23-c1b4-4cdb-8246-c1dc0b2adb48 #uuid-3da462e6-1e3a-4506-ae04-8a52e7d689a4">
-<orth>慎勿</orth><pron xml:lang="zh-Latn-x-pinyin">shèn wù</pron><pron xml:lang="zh-x-oc">djins mɯd</pron><pron xml:lang="zh-x-mc">dʑin mi̯ut</pron></form>
+<entry type="word" xml:id="uuid-0fbbf012-c2c2-4b31-b4a0-2b9f772949d7">
+            <form corresp="#uuid-eaf40a23-c1b4-4cdb-8246-c1dc0b2adb48 #uuid-3da462e6-1e3a-4506-ae04-8a52e7d689a4">
+<orth>慎勿</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shèn wù</pron>
+                <pron xml:lang="zh-x-oc">djins mɯd</pron>
+                <pron xml:lang="zh-x-mc">dʑin mi̯ut</pron>
+            </form>
 <sense xml:id="uuid-720af874-7ea8-48a8-8587-6d93176269f0">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func></gramGrp>
-  <def>be careful not to, take care not to!</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
+                </gramGrp>
+  <def>be careful not to, take care not to!</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b7836eeb-451f-4da3-a7b1-67b898354a19"><form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
-<orth>無得</orth><pron xml:lang="zh-Latn-x-pinyin">wú dé</pron><pron xml:lang="zh-x-oc">ma tɯɯɡ</pron><pron xml:lang="zh-x-mc">mi̯o tək</pron></form>
+<entry type="word" xml:id="uuid-b7836eeb-451f-4da3-a7b1-67b898354a19">
+            <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+<orth>無得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú dé</pron>
+                <pron xml:lang="zh-x-oc">ma tɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">mi̯o tək</pron>
+            </form>
 <sense xml:id="uuid-64f8cf2a-d7ab-410f-bf01-f9687acf4a97">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func></gramGrp>
-  <def>one should under no circumstances V</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
+                </gramGrp>
+  <def>one should under no circumstances V</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8b1b9ddb-409e-4b77-89f7-097c519fa695"><form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87 #uuid-4f0e0f96-1b6f-4b65-852a-19359cf63d37">
-<orth>莫復</orth><pron xml:lang="zh-Latn-x-pinyin">mò fù</pron><pron xml:lang="zh-x-oc">maaɡ buɡs</pron><pron xml:lang="zh-x-mc">mɑk bɨu</pron></form>
+<entry type="word" xml:id="uuid-8b1b9ddb-409e-4b77-89f7-097c519fa695">
+            <form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87 #uuid-4f0e0f96-1b6f-4b65-852a-19359cf63d37">
+<orth>莫復</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mò fù</pron>
+                <pron xml:lang="zh-x-oc">maaɡ buɡs</pron>
+                <pron xml:lang="zh-x-mc">mɑk bɨu</pron>
+            </form>
 <sense xml:id="uuid-14080d1c-3b5e-48ff-87e1-99255bcbf2c9">
-<gramGrp><pos>P</pos>
-  <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func></gramGrp>
-  <def>don't in the future</def></sense>
+<gramGrp>
+                    <pos>P</pos>
+  <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+  <def>don't in the future</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-980abb08-d039-48e4-838a-48ac9d01efdc"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f">
-<orth>不</orth><pron xml:lang="zh-Latn-x-pinyin">bù</pron><pron xml:lang="zh-x-oc">pɯʔ</pron><pron xml:lang="zh-x-mc">pi̯ut</pron></form>
+<entry type="word" xml:id="uuid-980abb08-d039-48e4-838a-48ac9d01efdc">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f">
+<orth>不</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù</pron>
+                <pron xml:lang="zh-x-oc">pɯʔ</pron>
+                <pron xml:lang="zh-x-mc">pi̯ut</pron>
+            </form>
 <sense xml:id="uuid-6eb1555e-1e24-4d70-bccc-69bb80da6d9b">
-<gramGrp><pos>P</pos>
-  <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp>
-  <def>should not</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>P</pos>
+  <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+  <def>should not</def>
+            </sense>
+</entry>
+    </div>
+</div>

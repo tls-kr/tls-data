@@ -1,10 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-c46830eb-a839-4cb0-b808-580635284575">
-<head>VERTEBRATE</head><list type="translations"><item xml:lang="zh">脊椎動物</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c46830eb-a839-4cb0-b808-580635284575">
+<head>VERTEBRATE</head>
+    <list type="translations">
+        <item xml:lang="zh">脊椎動物</item>
+    </list>
 <div type="definition">
-<p>ANIMAL which HAS a SPINE BONE.</p></div>
+<p>ANIMAL which HAS a SPINE BONE.</p>
+    </div>
 <div type="notes"/>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-ce2731ff-8f9e-442a-9d28-67660ed1f104">BEAST</ref></item>
-<item><ref target="#uuid-1a8ace7c-ba9b-43c2-bc0a-4855737b2e16">REPTILE</ref></item></list></div>
-<div type="words"/></div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-ce2731ff-8f9e-442a-9d28-67660ed1f104">BEAST</ref>
+            </item>
+<item>
+                <ref target="#uuid-1a8ace7c-ba9b-43c2-bc0a-4855737b2e16">REPTILE</ref>
+            </item>
+        </list>
+    </div>
+<div type="words"/>
+</div>

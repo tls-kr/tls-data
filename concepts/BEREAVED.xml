@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-b6caba39-5f9a-4e80-add6-a3ace5b0ef5d">
-<head>BEREAVED</head><list type="translations"><item xml:lang="zh">孤寡 </item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b6caba39-5f9a-4e80-add6-a3ace5b0ef5d">
+<head>BEREAVED</head>
+    <list type="translations">
+        <item xml:lang="zh">孤寡 </item>
+    </list>
 <div type="definition">
-<p>HUMAN whose NEAR RELATIVE has DIED in the NEAR PAST.</p></div>
+<p>HUMAN whose NEAR RELATIVE has DIED in the NEAR PAST.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[GENERAL/SPECIFIC]</p>
@@ -13,7 +18,8 @@
 <p>3. Gū guǎ 孤寡 refers to the bereaved in general, and those whom they have lost tends to be of their own generation or above.</p>
 <p>[SPECIFIC]</p>
 <p>4. Gū dú 孤獨 refers in general to those who have no members of their family to turn to for support.</p>
-<p>[SPECIFIC]</p></div>
+<p>[SPECIFIC]</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>鰥寡孤獨</p>
 <p>鰥寡</p>
@@ -27,63 +33,133 @@
 <p>單鵠寡鳧</p>
 <p>寡鵠單鳧</p>
 <p>孤兒寡婦</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
 <div type="pointers"/>
 <div type="words">
-<entry type="word" xml:id="uuid-a498285b-6ea8-4590-b335-3d8cdfa855d4"><form corresp="#uuid-430ef0ee-0e41-401d-a50a-7e578e657891">
-<orth>孀</orth><pron xml:lang="zh-Latn-x-pinyin">shuāng</pron><pron xml:lang="zh-x-oc">sqraŋ</pron><pron xml:lang="zh-x-mc">ʂi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-a498285b-6ea8-4590-b335-3d8cdfa855d4">
+            <form corresp="#uuid-430ef0ee-0e41-401d-a50a-7e578e657891">
+<orth>孀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuāng</pron>
+                <pron xml:lang="zh-x-oc">sqraŋ</pron>
+                <pron xml:lang="zh-x-mc">ʂi̯ɐŋ</pron>
+            </form>
+            <def>Shuāng refers to a widow. See WIDOW</def>
 <sense xml:id="uuid-cc9f7313-0e36-4d9c-8421-cd3a04cb3255">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>the bereaved</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>the bereaved</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c6dcb20d-d579-4f65-8b36-33f26437bf1f"><form corresp="#uuid-5d8ab608-362c-4b59-85b0-0bb1c4126ce9">
-<orth>寡</orth><pron xml:lang="zh-Latn-x-pinyin">guǎ</pron><pron xml:lang="zh-x-oc">kʷraaʔ</pron><pron xml:lang="zh-x-mc">kɣɛ</pron></form>
+<entry type="word" xml:id="uuid-c6dcb20d-d579-4f65-8b36-33f26437bf1f">
+            <form corresp="#uuid-5d8ab608-362c-4b59-85b0-0bb1c4126ce9">
+<orth>寡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guǎ</pron>
+                <pron xml:lang="zh-x-oc">kʷraaʔ</pron>
+                <pron xml:lang="zh-x-mc">kɣɛ</pron>
+            </form>
+            <def>Guǎ 寡 is the general word referring to a person whose close relatives, typically parents at an advanced age, but also spouses, have died.
+[SPECIFIC]</def>
 <sense xml:id="uuid-d7d7e7cb-9921-42ad-bef5-318d9fc3336b">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>the bereaved; often specifically widow GUAN 35 鰥寡"widowers and widows"; widower</def></sense>
+  <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>the bereaved; often specifically widow GUAN 35 鰥寡"widowers and widows"; widower</def>
+            </sense>
 <sense xml:id="uuid-5bbd200c-0839-4222-b816-628fe35e95e6">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>be bereaved</def></sense>
-<sense xml:id="uuid-6e912fb8-f2b8-4a1b-949f-ee5d0292b3b4">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp>
-  <def>become bereaved, lose a close relative</def></sense>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>be bereaved</def>
+            </sense>
+<sense xml:id="uuid-6e912fb8-f2b8-4a1b-949f-ee5d0292b3b4">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+  <def>become bereaved, lose a close relative</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-29fce58a-67c5-47b4-9819-c35b07c9e366"><form corresp="#uuid-e0035927-e8c8-49e1-ad7f-653e4cd05d04">
-<orth>獨</orth><pron xml:lang="zh-Latn-x-pinyin">dú</pron><pron xml:lang="zh-x-oc">dooɡ</pron><pron xml:lang="zh-x-mc">duk</pron></form>
+<entry type="word" xml:id="uuid-29fce58a-67c5-47b4-9819-c35b07c9e366">
+            <form corresp="#uuid-e0035927-e8c8-49e1-ad7f-653e4cd05d04">
+<orth>獨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dú</pron>
+                <pron xml:lang="zh-x-oc">dooɡ</pron>
+                <pron xml:lang="zh-x-mc">duk</pron>
+            </form>
+            <def>Dú 獨 refers to a childless person at an age where he or she should have children to rely.
+[SPECIFIC]</def>
 <sense xml:id="uuid-47b1b2f6-0f0d-41ef-8144-d1f28a7044b5">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-d4180c2b-fab5-47cb-98ae-0655da1c313a">plur</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>childless persons</def></sense>
+  <tls:sem-feat corresp="#uuid-d4180c2b-fab5-47cb-98ae-0655da1c313a">plur</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>childless persons</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-4529c20a-73c1-4a7e-a5d2-05f48f3625a1"><form corresp="#uuid-b6b3731f-1ddd-487d-ac79-750ddf67fe8d #uuid-5d8ab608-362c-4b59-85b0-0bb1c4126ce9">
-<orth>孤寡</orth><pron xml:lang="zh-Latn-x-pinyin">gū guǎ</pron><pron xml:lang="zh-x-oc">kʷaa kʷraaʔ</pron><pron xml:lang="zh-x-mc">kuo̝ kɣɛ</pron></form>
+<entry type="word" xml:id="uuid-4529c20a-73c1-4a7e-a5d2-05f48f3625a1">
+            <form corresp="#uuid-b6b3731f-1ddd-487d-ac79-750ddf67fe8d #uuid-5d8ab608-362c-4b59-85b0-0bb1c4126ce9">
+<orth>孤寡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gū guǎ</pron>
+                <pron xml:lang="zh-x-oc">kʷaa kʷraaʔ</pron>
+                <pron xml:lang="zh-x-mc">kuo̝ kɣɛ</pron>
+            </form>
+            <def>Gū guǎ 孤寡 refers to the bereaved in general, and those whom they have lost tends to be of their own generation or above.
+[SPECIFIC]</def>
 <sense xml:id="uuid-1c7be1c4-3109-49d2-a463-02b5b0d0f1be">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-0e71a24c-2529-482a-a575-a4f143a9890b">NP{N1&amp;N2}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>the bereaved; orphans and widows</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>the bereaved; orphans and widows</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-40b7f23e-e982-48cf-b671-c3b28aac585e"><form corresp="#uuid-b6b3731f-1ddd-487d-ac79-750ddf67fe8d #uuid-e0035927-e8c8-49e1-ad7f-653e4cd05d04">
-<orth>孤獨</orth><pron xml:lang="zh-Latn-x-pinyin">gū dú</pron><pron xml:lang="zh-x-oc">kʷaa dooɡ</pron><pron xml:lang="zh-x-mc">kuo̝ duk</pron></form>
+<entry type="word" xml:id="uuid-40b7f23e-e982-48cf-b671-c3b28aac585e">
+            <form corresp="#uuid-b6b3731f-1ddd-487d-ac79-750ddf67fe8d #uuid-e0035927-e8c8-49e1-ad7f-653e4cd05d04">
+<orth>孤獨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gū dú</pron>
+                <pron xml:lang="zh-x-oc">kʷaa dooɡ</pron>
+                <pron xml:lang="zh-x-mc">kuo̝ duk</pron>
+            </form>
+            <def>Gū dú 孤獨 refers in general to those who have no members of their family to turn to for support.
+[SPECIFIC]</def>
 <sense xml:id="uuid-11d122e0-2770-47e0-b656-1309a2e26691">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>those in any way bereaved</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>those in any way bereaved</def>
+            </sense>
 <sense xml:id="uuid-eda9e0b1-4a39-4e91-9637-8788b223b6ca">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp>
-  <def>bereaved</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+  <def>bereaved</def>
+            </sense>
 <sense xml:id="uuid-36a050c4-15f2-4753-9346-067088f5f34a">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp>
-  <def>be bereaved, have to rely on oneself</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+  <def>be bereaved, have to rely on oneself</def>
+            </sense>
+</entry>
+    </div>
+</div>

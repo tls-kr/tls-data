@@ -1,28 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-01183e72-9136-4006-8d2d-2bcdf9cff129">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-01183e72-9136-4006-8d2d-2bcdf9cff129">
 <head>PRONOUNCE</head>
 <div type="definition">
-<p>PRODUCE SPEECH SOUND.</p></div>
+<p>PRODUCE SPEECH SOUND.</p>
+    </div>
 <div type="notes"/>
 <div type="pointers"/>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-aca3a0c6-f60a-44d4-bf12-99ee3c4d9c7c">QUINE 1987</ref>
-<title>Quiddities. An Intermittently Philosophical Dictionary</title><biblScope unit="page">166</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-aca3a0c6-f60a-44d4-bf12-99ee3c4d9c7c">QUINE 1987</ref>
+<title>Quiddities. An Intermittently Philosophical Dictionary</title>
+                <biblScope unit="page">166</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-a8d3d051-e051-47b5-b442-0034dffc40a2"><form corresp="#uuid-6dff88f2-7e2c-4950-807d-605719232974 #uuid-58096280-4063-459b-a218-257476ca0403">
-<orth>聲調</orth><pron xml:lang="zh-Latn-x-pinyin">shēng diào</pron><pron xml:lang="zh-x-oc">qjeŋ dɯɯws</pron><pron xml:lang="zh-x-mc">ɕiɛŋ deu</pron></form>
+<entry type="word" xml:id="uuid-a8d3d051-e051-47b5-b442-0034dffc40a2">
+            <form corresp="#uuid-6dff88f2-7e2c-4950-807d-605719232974 #uuid-58096280-4063-459b-a218-257476ca0403">
+<orth>聲調</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēng diào</pron>
+                <pron xml:lang="zh-x-oc">qjeŋ dɯɯws</pron>
+                <pron xml:lang="zh-x-mc">ɕiɛŋ deu</pron>
+            </form>
 <sense xml:id="uuid-e0fcbd89-fad8-4073-ba1c-340dafe25607">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>pronunciation and intonation</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>pronunciation and intonation</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-a3a6aad7-cfdf-4586-9709-064a31c85284"><form corresp="#uuid-aaaa94a1-4d42-45f0-b89b-c966fbee40d5 #uuid-c1abf83d-ede7-40ff-b5a6-22c3c3152361">
-<orth>音韻</orth><pron xml:lang="zh-Latn-x-pinyin">yīn yùn</pron><pron xml:lang="zh-x-oc">qrɯm ɢuns</pron><pron xml:lang="zh-x-mc">ʔim ɦi̯un</pron></form>
+<entry type="word" xml:id="uuid-a3a6aad7-cfdf-4586-9709-064a31c85284">
+            <form corresp="#uuid-aaaa94a1-4d42-45f0-b89b-c966fbee40d5 #uuid-c1abf83d-ede7-40ff-b5a6-22c3c3152361">
+<orth>音韻</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīn yùn</pron>
+                <pron xml:lang="zh-x-oc">qrɯm ɢuns</pron>
+                <pron xml:lang="zh-x-mc">ʔim ɦi̯un</pron>
+            </form>
 <sense xml:id="uuid-f16dc1a3-009c-4908-8547-2af594b6190a">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>pronunciation or words/characters</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>pronunciation or words/characters</def>
+            </sense>
+</entry>
+    </div>
+</div>

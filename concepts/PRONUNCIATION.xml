@@ -1,17 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-737cf532-c04e-4e47-8e9a-cd687a5485ef">
-<head>PRONUNCIATION</head><list type="translations"><item xml:lang="zh">發音</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-737cf532-c04e-4e47-8e9a-cd687a5485ef">
+<head>PRONUNCIATION</head>
+    <list type="translations">
+        <item xml:lang="zh">發音</item>
+    </list>
 <div type="definition">
-<p>SOUNDS USED WHEN SPEAKING WORDS.</p></div>
+<p>SOUNDS USED WHEN SPEAKING WORDS.</p>
+    </div>
 <div type="notes"/>
-<div type="pointers"><list type="antonymy">
-<item><ref target="#uuid-1dbde2c8-76ec-4b31-99be-686e6183470d">WRITTEN CHARACTER</ref></item></list></div>
+<div type="pointers">
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-1dbde2c8-76ec-4b31-99be-686e6183470d">WRITTEN CHARACTER</ref>
+            </item>
+        </list>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-3050ea8c-e6e1-42d0-af00-c2026e170589"><form corresp="#uuid-07a426ac-29b0-4f46-bda5-50f6bfcbf5d6">
-<orth>語</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ</pron><pron xml:lang="zh-x-oc">ŋaʔ</pron><pron xml:lang="zh-x-mc">ŋi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-3050ea8c-e6e1-42d0-af00-c2026e170589">
+            <form corresp="#uuid-07a426ac-29b0-4f46-bda5-50f6bfcbf5d6">
+<orth>語</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ</pron>
+                <pron xml:lang="zh-x-oc">ŋaʔ</pron>
+                <pron xml:lang="zh-x-mc">ŋi̯ɤ</pron>
+            </form>
 <sense xml:id="uuid-4cad156b-90ad-44c0-bbba-aed0b967dc7b">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-fcac20a7-e34c-49fc-9221-9385daa5c197">linguistic</tls:sem-feat></gramGrp>
-  <def>YANSHIJIAXUN: pronunciation (NB: never used verbally, apparently!)</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-fcac20a7-e34c-49fc-9221-9385daa5c197">linguistic</tls:sem-feat>
+                </gramGrp>
+  <def>YANSHIJIAXUN: pronunciation (NB: never used verbally, apparently!)</def>
+            </sense>
+</entry>
+    </div>
+</div>

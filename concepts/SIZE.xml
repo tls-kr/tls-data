@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-beb5de81-af3e-4a12-a638-76b1b41ea24c">
-<head>SIZE</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-beb5de81-af3e-4a12-a638-76b1b41ea24c">
+<head>SIZE</head>
+    <list type="altnames">
 <item>DIMENSIONS</item>
 <item>MEASUREMENTS</item>
 <item>PROPORTIONS</item>
@@ -16,53 +18,114 @@
 <item>DEPTH</item>
 <item>IMMENSITY</item>
 <item>HUGENESS</item>
-<item>VASTNESS</item></list><list type="translations"><item xml:lang="zh">大小</item></list>
+<item>VASTNESS</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">大小</item>
+    </list>
 <div type="definition">
-<p>QUANTITY of a DIMENSION.</p></div>
+<p>QUANTITY of a DIMENSION.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The abstract notion of size is standardly expressed by dà xiǎo 大小.</p>
-<p>2. Cháng duǎn 長短 refers to relative length.</p></div>
+<p>2. Cháng duǎn 長短 refers to relative length.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>大小</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-4f5a4eb2-575b-4ec1-a41d-5977f43709e6">BIG</ref></item>
-<item><ref target="#uuid-13dc9c56-c3b7-4216-9dc9-c1715ab2c27c">DEEP</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">12.52</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-4f5a4eb2-575b-4ec1-a41d-5977f43709e6">BIG</ref>
+            </item>
+<item>
+                <ref target="#uuid-13dc9c56-c3b7-4216-9dc9-c1715ab2c27c">DEEP</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">12.52</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-9872b1a1-78c6-44dc-9c6f-7131d299ed2a"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8">
-<orth>大</orth><pron xml:lang="zh-Latn-x-pinyin">dà</pron><pron xml:lang="zh-x-oc">daads</pron><pron xml:lang="zh-x-mc">dɑi</pron></form>
+<entry type="word" xml:id="uuid-9872b1a1-78c6-44dc-9c6f-7131d299ed2a">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8">
+<orth>大</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà</pron>
+                <pron xml:lang="zh-x-oc">daads</pron>
+                <pron xml:lang="zh-x-mc">dɑi</pron>
+            </form>
 <sense xml:id="uuid-865cbba9-4827-4931-ad19-439835e4a983">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-637d1252-21b6-4664-9001-46c5ffd85ed2">vi-V</tls:syn-func></gramGrp>
-  <def>big (i.e. small) (like X)大如毛髮</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-637d1252-21b6-4664-9001-46c5ffd85ed2">vi-V</tls:syn-func>
+                </gramGrp>
+  <def>big (i.e. small) (like X)大如毛髮</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-84f3adb5-742f-4044-9d96-d2d56b07cefd"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-83c7a7f5-03b1-4bfd-b668-386b60478132">
-<orth>大小</orth><pron xml:lang="zh-Latn-x-pinyin">dà xiǎo</pron><pron xml:lang="zh-x-oc">daads smewʔ</pron><pron xml:lang="zh-x-mc">dɑi siɛu</pron></form>
+<entry type="word" xml:id="uuid-84f3adb5-742f-4044-9d96-d2d56b07cefd">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-83c7a7f5-03b1-4bfd-b668-386b60478132">
+<orth>大小</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà xiǎo</pron>
+                <pron xml:lang="zh-x-oc">daads smewʔ</pron>
+                <pron xml:lang="zh-x-mc">dɑi siɛu</pron>
+            </form>
+            <def>The abstract notion of size is standardly expressed by dà xiǎo 大小.</def>
 <sense xml:id="uuid-02f6abc6-7814-4ac2-a90c-a2119e38d43e">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-b508886f-c59f-4e95-aef9-c8c38b206373">NPab{nab1ant.nab2}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-736fb326-137c-451b-b1b8-faf4e0c9c909">quantity</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>relative size</def></sense>
+  <tls:sem-feat corresp="#uuid-736fb326-137c-451b-b1b8-faf4e0c9c909">quantity</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>relative size</def>
+            </sense>
 <sense xml:id="uuid-2dc0f7b2-52a6-4d6b-9ab0-6ade79982acc">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-b508886f-c59f-4e95-aef9-c8c38b206373">NPab{nab1ant.nab2}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>relative extent</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>relative extent</def>
+            </sense>
 <sense xml:id="uuid-c97bcee7-8d4f-403a-ab26-0822d07b5a08">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>size</def></sense>
+  <tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>size</def>
+            </sense>
 <sense xml:id="uuid-989763d1-f549-41fb-a74b-7dd44d4ecc28">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>of various sizes</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>of various sizes</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b817b637-6865-459c-85be-9637568cbf80"><form corresp="#uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec #uuid-a864b05f-aad3-4683-acd2-402a2550a8a5">
-<orth>長短</orth><pron xml:lang="zh-Latn-x-pinyin">cháng duǎn</pron><pron xml:lang="zh-x-oc">ɡrlaŋ toonʔ</pron><pron xml:lang="zh-x-mc">ɖi̯ɐŋ tʷɑn</pron></form>
-</entry></div></div>
+<entry type="word" xml:id="uuid-b817b637-6865-459c-85be-9637568cbf80">
+            <form corresp="#uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec #uuid-a864b05f-aad3-4683-acd2-402a2550a8a5">
+<orth>長短</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cháng duǎn</pron>
+                <pron xml:lang="zh-x-oc">ɡrlaŋ toonʔ</pron>
+                <pron xml:lang="zh-x-mc">ɖi̯ɐŋ tʷɑn</pron>
+            </form>
+            <def>Cháng duǎn 長短 refers to relative length.</def>
+</entry>
+    </div>
+</div>

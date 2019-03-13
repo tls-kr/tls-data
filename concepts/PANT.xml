@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-87a9d4dd-2cdd-450a-9a33-6ff69dd7333a">
-<head>PANT</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-87a9d4dd-2cdd-450a-9a33-6ff69dd7333a">
+<head>PANT</head>
+    <list type="altnames">
 <item>BREATHE HEAVILY</item>
 <item>BREATHE HARD</item>
 <item>PUFF</item>
 <item>HUFF AND PUFF</item>
 <item>GASP</item>
-<item>WHEEZE</item></list><list type="translations"><item xml:lang="zh">喘</item></list>
+<item>WHEEZE</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">喘</item>
+    </list>
 <div type="definition">
-<p>BREATHE INTENSELY AND QUICKLY AFTER INTENSE MOVEMENT.</p></div>
+<p>BREATHE INTENSELY AND QUICKLY AFTER INTENSE MOVEMENT.</p>
+    </div>
 <div type="notes">
 <div type="huang-jingui">
 <p>HUANG JINGUI 2006</p>
@@ -16,7 +23,8 @@
 <p>息，通稱。</p>
 <p>喘，因勞累、炎熱、疾病等造成的急促呼吸。</p>
 <p>嘽，專指由疲勞引起的急促呼吸。</p>
-<p>哮，宋以後出現病名，指有聲響的急促呼吸。</p></div>
+<p>哮，宋以後出現病名，指有聲響的急促呼吸。</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>喘息 is the standard modern word for panting.</p>
 <p>氣短 refers to being short of breath.</p>
@@ -26,21 +34,43 @@
 <p>氣吁吁 refers to huffing and puffing.</p>
 <p>氣喘吁吁 (prov) refers idiomatically to huffing and puffic.</p>
 <p>上氣不接下氣 (prov) refers idiomatically and dramatically to huffing and puffic.</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
 <div type="pointers"/>
 <div type="words">
-<entry type="word" xml:id="uuid-a5a5dad9-816f-41de-af31-509a2d101a94"><form corresp="#uuid-24c43af2-f2cb-4833-b07a-72ba321e6a5e">
-<orth>喘</orth><pron xml:lang="zh-Latn-x-pinyin">chuǎn</pron><pron xml:lang="zh-x-oc">thjonʔ</pron><pron xml:lang="zh-x-mc">tɕhiɛn</pron></form>
+<entry type="word" xml:id="uuid-a5a5dad9-816f-41de-af31-509a2d101a94">
+            <form corresp="#uuid-24c43af2-f2cb-4833-b07a-72ba321e6a5e">
+<orth>喘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuǎn</pron>
+                <pron xml:lang="zh-x-oc">thjonʔ</pron>
+                <pron xml:lang="zh-x-mc">tɕhiɛn</pron>
+            </form>
+            <def>Chuǎn 喘 refers to heavy panting, including breathing in and out, especially on the occasion of exhaustion or ill health.</def>
 <sense xml:id="uuid-ffe90e21-6044-4182-bad4-fdf02656d48c">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>pant</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>pant</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0d5d98ec-a2d6-4fec-87a5-030b737476d3"><form corresp="#uuid-1644e90c-3c76-4974-adb8-3f0480f991a8">
-<orth>嘽</orth><pron xml:lang="zh-Latn-x-pinyin">tān</pron><pron xml:lang="zh-x-oc">thaan</pron><pron xml:lang="zh-x-mc">thɑn</pron></form>
+<entry type="word" xml:id="uuid-0d5d98ec-a2d6-4fec-87a5-030b737476d3">
+            <form corresp="#uuid-1644e90c-3c76-4974-adb8-3f0480f991a8">
+<orth>嘽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tān</pron>
+                <pron xml:lang="zh-x-oc">thaan</pron>
+                <pron xml:lang="zh-x-mc">thɑn</pron>
+            </form>
 <sense xml:id="uuid-e027631d-b6db-4a89-8b4c-afdf3bdbedf4">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp>
-  <def>pant SHI</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+  <def>pant SHI</def>
+            </sense>
+</entry>
+    </div>
+</div>

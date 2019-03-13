@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-bf811b13-fa31-4dec-8e93-51a11b64a416">
-<head>ALWAYS</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-bf811b13-fa31-4dec-8e93-51a11b64a416">
+<head>ALWAYS</head>
+    <list type="altnames">
 <item>EVERY TIME</item>
 <item>EACH TIME</item>
 <item>AT ALL TIMES</item>
@@ -10,9 +12,14 @@
 <item>INVARIABLY</item>
 <item>REGULARLY</item>
 <item>HABITUALLY</item>
-<item>UNFAILINGLY</item></list><list type="translations"><item xml:lang="zh">經常</item></list>
+<item>UNFAILINGLY</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">經常</item>
+    </list>
 <div type="definition">
-<p>ENDURING BY REPETITION</p></div>
+<p>ENDURING BY REPETITION</p>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>經常</p>
@@ -36,167 +43,374 @@
 <p>一直</p>
 <p>歷來</p>
 <p>總是</p>
-<p>老是</p></div></div>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-7f6b310e-3908-4735-9453-529445663919">OFTEN</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
-<title>Using Chinese Synonyms</title><biblScope unit="page">234</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
-<title>Using Chinese Synonyms</title><biblScope unit="page">363</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no. 32</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
-<title>古漢語常用詞同義詞詞典</title><biblScope unit="page">557</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-e8e00c8c-6f7d-429d-82a5-84721abe7cc7">T.W.HARBSMEIER 2004</ref>
-<title>A New Dictionary of Classical Greek Synonyms</title><biblScope unit="page">NO. 32</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>老是</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-7f6b310e-3908-4735-9453-529445663919">OFTEN</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
+<title>Using Chinese Synonyms</title>
+                <biblScope unit="page">234</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
+<title>Using Chinese Synonyms</title>
+                <biblScope unit="page">363</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no. 32</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
+<title>古漢語常用詞同義詞詞典</title>
+                <biblScope unit="page">557</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-e8e00c8c-6f7d-429d-82a5-84721abe7cc7">T.W.HARBSMEIER 2004</ref>
+<title>A New Dictionary of Classical Greek Synonyms</title>
+                <biblScope unit="page">NO. 32</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-6a9b721c-1436-42a2-bc4b-1db4c8d302d5"><form corresp="#uuid-54919644-9bf9-4d49-9825-f764b622f577">
-<orth>代</orth><pron xml:lang="zh-Latn-x-pinyin">dài</pron><pron xml:lang="zh-x-oc">lɯɯɡs</pron><pron xml:lang="zh-x-mc">dəi</pron></form>
+<entry type="word" xml:id="uuid-6a9b721c-1436-42a2-bc4b-1db4c8d302d5">
+            <form corresp="#uuid-54919644-9bf9-4d49-9825-f764b622f577">
+<orth>代</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dài</pron>
+                <pron xml:lang="zh-x-oc">lɯɯɡs</pron>
+                <pron xml:lang="zh-x-mc">dəi</pron>
+            </form>
 <sense xml:id="uuid-f195947f-7dd2-48bc-b7e6-65280d7f7ae7">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp>
-  <def>in every generation; in every dynasty</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+  <def>in every generation; in every dynasty</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-54d5dd96-6203-410e-960b-607a85460faf"><form corresp="#uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
-<orth>常</orth><pron xml:lang="zh-Latn-x-pinyin">cháng</pron><pron xml:lang="zh-x-oc">djaŋ</pron><pron xml:lang="zh-x-mc">dʑi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-54d5dd96-6203-410e-960b-607a85460faf">
+            <form corresp="#uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
+<orth>常</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cháng</pron>
+                <pron xml:lang="zh-x-oc">djaŋ</pron>
+                <pron xml:lang="zh-x-mc">dʑi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-094d928a-0069-4cac-bcec-65f47b964070">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp>
-  <def>all the time; again and again</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+  <def>all the time; again and again</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-2e27e48e-4fb5-4107-be95-ffae91273565"><form corresp="#uuid-e8311e9f-c2f6-4b05-a404-916e01f923ab">
-<orth>恆</orth><pron xml:lang="zh-Latn-x-pinyin">héng</pron><pron xml:lang="zh-x-oc">ɡɯɯŋ</pron><pron xml:lang="zh-x-mc">ɦəŋ</pron></form><form>
-<orth>恆恒</orth><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-oc"/><pron xml:lang="zh-x-mc"/></form>
+<entry type="word" xml:id="uuid-2e27e48e-4fb5-4107-be95-ffae91273565">
+            <form corresp="#uuid-e8311e9f-c2f6-4b05-a404-916e01f923ab">
+<orth>恆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">héng</pron>
+                <pron xml:lang="zh-x-oc">ɡɯɯŋ</pron>
+                <pron xml:lang="zh-x-mc">ɦəŋ</pron>
+            </form>
+            <def>Cháng 常 and the especially emphatic héng 恒/恆 "highly constant and permanent" (ant.* ǒu 偶 "contingency and consequent changeability") emphasise the constancy or constant recurrence of the attributes of what is lasting, and typically - though not always - the constancy is valued positively.</def>
+            <form>
+<orth>恆恒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-oc"/>
+                <pron xml:lang="zh-x-mc"/>
+            </form>
+            <def>Cháng 常 and the especially emphatic héng 恒/恆 "highly constant and permanent" (ant.* ǒu 偶 "contingency and consequent changeability") emphasise the constancy or constant recurrence of the attributes of what is lasting, and typically - though not always - the constancy is valued positively.</def>
 <sense xml:id="uuid-8026dbed-9ca4-4dcd-99d0-fb5087556733">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>constantly, regularly; continuously; constantly and at regular intervals</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>constantly, regularly; continuously; constantly and at regular intervals</def>
+            </sense>
 <sense xml:id="uuid-7613e6c6-ea50-469c-91b7-4d7857d8d9e5">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>ZUO Zhuang 7: permanent (as a star); LY: a constant bent of mind</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>ZUO Zhuang 7: permanent (as a star); LY: a constant bent of mind</def>
+            </sense>
 <sense xml:id="uuid-cecf68bb-28ec-445e-8145-f3817ceed755">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>constant standard, constancy</def></sense>
+  <tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>constant standard, constancy</def>
+            </sense>
 <sense xml:id="uuid-86a81ce9-c8f9-405a-b51c-591d90f900b5">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>cause to be constant and stable</def></sense>
+  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>cause to be constant and stable</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5d2d6bb2-568f-4975-aeab-2f87ee0e3525"><form corresp="#uuid-1f7a1bf2-83a5-486a-b2b5-ec27f3eecfcf">
-<orth>每</orth><pron xml:lang="zh-Latn-x-pinyin">měi</pron><pron xml:lang="zh-x-oc">mɯɯʔ</pron><pron xml:lang="zh-x-mc">muo̝i</pron></form>
+<entry type="word" xml:id="uuid-5d2d6bb2-568f-4975-aeab-2f87ee0e3525">
+            <form corresp="#uuid-1f7a1bf2-83a5-486a-b2b5-ec27f3eecfcf">
+<orth>每</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">měi</pron>
+                <pron xml:lang="zh-x-oc">mɯɯʔ</pron>
+                <pron xml:lang="zh-x-mc">muo̝i</pron>
+            </form>
 <sense xml:id="uuid-5a57ee38-728e-4250-bcba-0cedaaf7d56b">
-<gramGrp><pos>P</pos>
-  <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp>
-  <def>each time; on every occasion</def></sense>
+<gramGrp>
+                    <pos>P</pos>
+  <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+  <def>each time; on every occasion</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1fb8593e-354f-4dca-b01a-7814b9ad520a"><form corresp="#uuid-639385f8-1a1d-4abe-8e14-9a38d2a7cc81">
-<orth>皆</orth><pron xml:lang="zh-Latn-x-pinyin">jiē</pron><pron xml:lang="zh-x-oc">kriid</pron><pron xml:lang="zh-x-mc">kɣɛi</pron></form>
+<entry type="word" xml:id="uuid-1fb8593e-354f-4dca-b01a-7814b9ad520a">
+            <form corresp="#uuid-639385f8-1a1d-4abe-8e14-9a38d2a7cc81">
+<orth>皆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiē</pron>
+                <pron xml:lang="zh-x-oc">kriid</pron>
+                <pron xml:lang="zh-x-mc">kɣɛi</pron>
+            </form>
 <sense xml:id="uuid-c366cda3-3d59-4c1d-a7ce-dcdcafc4e48e">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp>
-  <def>on all occasions&gt; always</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+  <def>on all occasions&gt; always</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-693e0b2e-8762-4162-9899-c7cf072a702e"><form corresp="#uuid-7e5ceae2-883b-4400-8168-747095280624">
-<orth>輒</orth><pron xml:lang="zh-Latn-x-pinyin">zhé</pron><pron xml:lang="zh-x-oc">nteb</pron><pron xml:lang="zh-x-mc">ʈiɛp</pron></form>
+<entry type="word" xml:id="uuid-693e0b2e-8762-4162-9899-c7cf072a702e">
+            <form corresp="#uuid-7e5ceae2-883b-4400-8168-747095280624">
+<orth>輒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhé</pron>
+                <pron xml:lang="zh-x-oc">nteb</pron>
+                <pron xml:lang="zh-x-mc">ʈiɛp</pron>
+            </form>
 <sense xml:id="uuid-a31e7f49-6b6f-424a-897b-3f61838b427f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>(always) at once, invariably without delay, without exception</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>(always) at once, invariably without delay, without exception</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5bdc6d0e-58ac-4c8b-83f5-423814962128"><form corresp="#uuid-dfc93eb5-edb4-49b5-93e7-afe643a085de #uuid-e450afbf-3b53-4ceb-8e40-f57519b05ea6">
-<orth>今古</orth><pron xml:lang="zh-Latn-x-pinyin">jīn gǔ</pron><pron xml:lang="zh-x-oc">krɯm kaaʔ</pron><pron xml:lang="zh-x-mc">kim kuo̝</pron></form>
+<entry type="word" xml:id="uuid-5bdc6d0e-58ac-4c8b-83f5-423814962128">
+            <form corresp="#uuid-dfc93eb5-edb4-49b5-93e7-afe643a085de #uuid-e450afbf-3b53-4ceb-8e40-f57519b05ea6">
+<orth>今古</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīn gǔ</pron>
+                <pron xml:lang="zh-x-oc">krɯm kaaʔ</pron>
+                <pron xml:lang="zh-x-mc">kim kuo̝</pron>
+            </form>
 <sense xml:id="uuid-e4b3e51b-eca1-431b-9b14-58fa9a1c3ff1">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>now and in the past</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>now and in the past</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-4dffc012-6788-4a5a-a9ce-4939ab5c9dd0"><form corresp="#uuid-a6df7911-58ae-47cb-85db-dcb7a21e1da3 #uuid-a77afa11-50b7-416a-853e-e10b12372781">
-<orth>夙夜</orth><pron xml:lang="zh-Latn-x-pinyin">sù yè</pron><pron xml:lang="zh-x-oc">suɡ k-laɡs</pron><pron xml:lang="zh-x-mc">suk jɣɛ</pron></form>
+<entry type="word" xml:id="uuid-4dffc012-6788-4a5a-a9ce-4939ab5c9dd0">
+            <form corresp="#uuid-a6df7911-58ae-47cb-85db-dcb7a21e1da3 #uuid-a77afa11-50b7-416a-853e-e10b12372781">
+<orth>夙夜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sù yè</pron>
+                <pron xml:lang="zh-x-oc">suɡ k-laɡs</pron>
+                <pron xml:lang="zh-x-mc">suk jɣɛ</pron>
+            </form>
 <sense xml:id="uuid-c5206e99-ed38-4212-bb18-ccd7699d35d5">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>from morning to evening&gt; all day long</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>from morning to evening&gt; all day long</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-686007b8-ed19-458b-acda-ca5e0e152008"><form corresp="#uuid-357ecd20-9e15-473d-9abf-67e6b15b6b46 #uuid-9344d773-58b0-49dd-85de-8a8cb3533d7b">
-<orth>寤寐</orth><pron xml:lang="zh-Latn-x-pinyin">wù mèi</pron><pron xml:lang="zh-x-oc">ŋaas mids</pron><pron xml:lang="zh-x-mc">ŋuo̝ mi</pron></form>
+<entry type="word" xml:id="uuid-686007b8-ed19-458b-acda-ca5e0e152008">
+            <form corresp="#uuid-357ecd20-9e15-473d-9abf-67e6b15b6b46 #uuid-9344d773-58b0-49dd-85de-8a8cb3533d7b">
+<orth>寤寐</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wù mèi</pron>
+                <pron xml:lang="zh-x-oc">ŋaas mids</pron>
+                <pron xml:lang="zh-x-mc">ŋuo̝ mi</pron>
+            </form>
 <sense xml:id="uuid-0eecc648-068f-4ed7-80f1-db3db81bcb88">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp>
-  <def>asleep and waking&gt; all the time</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+  <def>asleep and waking&gt; all the time</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e7e6815d-eac4-4a06-b6ad-fdf484009e8d"><form corresp="#uuid-e8311e9f-c2f6-4b05-a404-916e01f923ab #uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
-<orth>恆常</orth><pron xml:lang="zh-Latn-x-pinyin">héng cháng</pron><pron xml:lang="zh-x-oc">ɡɯɯŋ djaŋ</pron><pron xml:lang="zh-x-mc">ɦəŋ dʑi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-e7e6815d-eac4-4a06-b6ad-fdf484009e8d">
+            <form corresp="#uuid-e8311e9f-c2f6-4b05-a404-916e01f923ab #uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
+<orth>恆常</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">héng cháng</pron>
+                <pron xml:lang="zh-x-oc">ɡɯɯŋ djaŋ</pron>
+                <pron xml:lang="zh-x-mc">ɦəŋ dʑi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-aff83083-de9c-41f4-9465-d1927f73f6a7">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp>
-  <def>always, invariably; continuously</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+  <def>always, invariably; continuously</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-08496e12-3b76-47f2-8aaf-637a9bb0bcbe"><form corresp="#uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c #uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c">
-<orth>日日</orth><pron xml:lang="zh-Latn-x-pinyin">rì rì</pron><pron xml:lang="zh-x-oc">mljiɡ mljiɡ</pron><pron xml:lang="zh-x-mc">ȵit ȵit</pron></form>
+<entry type="word" xml:id="uuid-08496e12-3b76-47f2-8aaf-637a9bb0bcbe">
+            <form corresp="#uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c #uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c">
+<orth>日日</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rì rì</pron>
+                <pron xml:lang="zh-x-oc">mljiɡ mljiɡ</pron>
+                <pron xml:lang="zh-x-mc">ȵit ȵit</pron>
+            </form>
 <sense xml:id="uuid-f02b57f5-45dd-4c81-8bed-efbbbc0056be">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-bb4ea5fd-6f2f-4356-ab1e-3cf8f7a7a031">n.red:adV</tls:syn-func></gramGrp>
-  <def>daily, every day</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-bb4ea5fd-6f2f-4356-ab1e-3cf8f7a7a031">n.red:adV</tls:syn-func>
+                </gramGrp>
+  <def>daily, every day</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-639505b4-bbd4-4062-8cb0-e492f27c603c"><form corresp="#uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03">
-<orth>時時</orth><pron xml:lang="zh-Latn-x-pinyin">shí shí</pron><pron xml:lang="zh-x-oc">ɡljɯ ɡljɯ</pron><pron xml:lang="zh-x-mc">dʑɨ dʑɨ</pron></form>
+<entry type="word" xml:id="uuid-639505b4-bbd4-4062-8cb0-e492f27c603c">
+            <form corresp="#uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03">
+<orth>時時</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shí shí</pron>
+                <pron xml:lang="zh-x-oc">ɡljɯ ɡljɯ</pron>
+                <pron xml:lang="zh-x-mc">dʑɨ dʑɨ</pron>
+            </form>
 <sense xml:id="uuid-42709de4-5f42-4fa9-97b4-c075d27f4bc8">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-37417f7e-c484-4b17-8627-297125e40db1">n.red:adS</tls:syn-func></gramGrp>
-  <def>at all times</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-37417f7e-c484-4b17-8627-297125e40db1">n.red:adS</tls:syn-func>
+                </gramGrp>
+  <def>at all times</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-09b0a2f4-b963-4b9c-a09f-a6a4386c2587"><form corresp="#uuid-579b9980-3230-471d-b372-85c97d19c226 #uuid-a77afa11-50b7-416a-853e-e10b12372781">
-<orth>晨夜</orth><pron xml:lang="zh-Latn-x-pinyin">chén yè</pron><pron xml:lang="zh-x-oc">ɡljɯn k-laɡs</pron><pron xml:lang="zh-x-mc">dʑin jɣɛ</pron></form>
+<entry type="word" xml:id="uuid-09b0a2f4-b963-4b9c-a09f-a6a4386c2587">
+            <form corresp="#uuid-579b9980-3230-471d-b372-85c97d19c226 #uuid-a77afa11-50b7-416a-853e-e10b12372781">
+<orth>晨夜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chén yè</pron>
+                <pron xml:lang="zh-x-oc">ɡljɯn k-laɡs</pron>
+                <pron xml:lang="zh-x-mc">dʑin jɣɛ</pron>
+            </form>
 <sense xml:id="uuid-e7124ab1-b548-48da-96e3-0794d904c767">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>from morning to night; all day; all the time</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>from morning to night; all day; all the time</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-9ae694d5-9b5c-47fe-a4d3-5372eedbcd1d"><form corresp="#uuid-5630f3f0-6ce2-4e2e-a99f-c7284bf35660 #uuid-d56f1057-e5e9-4b35-b906-a932aa3993cf">
-<orth>沒齒</orth><pron xml:lang="zh-Latn-x-pinyin">mò chǐ</pron><pron xml:lang="zh-x-oc">mɯɯd khljɯʔ</pron><pron xml:lang="zh-x-mc">muot tɕhɨ</pron></form>
+<entry type="word" xml:id="uuid-9ae694d5-9b5c-47fe-a4d3-5372eedbcd1d">
+            <form corresp="#uuid-5630f3f0-6ce2-4e2e-a99f-c7284bf35660 #uuid-d56f1057-e5e9-4b35-b906-a932aa3993cf">
+<orth>沒齒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mò chǐ</pron>
+                <pron xml:lang="zh-x-oc">mɯɯd khljɯʔ</pron>
+                <pron xml:lang="zh-x-mc">muot tɕhɨ</pron>
+            </form>
 <sense xml:id="uuid-ee9feb71-e755-4e3c-b2c4-eb95adf40d8f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp>
-  <def>until one loses one's teeth&gt; to the end of one's life</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+  <def>until one loses one's teeth&gt; to the end of one's life</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8f60ba29-3957-43fb-8bc8-28d94b0d4486"><form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-00e22256-d177-459e-bd67-efa461a8d045">
-<orth>無非</orth><pron xml:lang="zh-Latn-x-pinyin">wú fēi</pron><pron xml:lang="zh-x-oc">ma pɯl</pron><pron xml:lang="zh-x-mc">mi̯o pɨi</pron></form>
+<entry type="word" xml:id="uuid-8f60ba29-3957-43fb-8bc8-28d94b0d4486">
+            <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-00e22256-d177-459e-bd67-efa461a8d045">
+<orth>無非</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú fēi</pron>
+                <pron xml:lang="zh-x-oc">ma pɯl</pron>
+                <pron xml:lang="zh-x-mc">mi̯o pɨi</pron>
+            </form>
 <sense xml:id="uuid-566f4594-69d7-49c6-a03f-2693476f239d">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-1b6dbf40-d82e-46e0-bd63-0fcffce8306b">VPadN{PRED}</tls:syn-func></gramGrp>
-  <def>in no case not&gt; always</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-1b6dbf40-d82e-46e0-bd63-0fcffce8306b">VPadN{PRED}</tls:syn-func>
+                </gramGrp>
+  <def>in no case not&gt; always</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-6cacb58e-0236-46cb-8506-a6b73d70f81c"><form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4 #uuid-8a839c2f-336c-435a-888e-6da3b149e0e5">
-<orth>至終</orth><pron xml:lang="zh-Latn-x-pinyin">zhì zhōng</pron><pron xml:lang="zh-x-oc">kljiɡs tjuŋ</pron><pron xml:lang="zh-x-mc">tɕi tɕuŋ</pron></form>
+<entry type="word" xml:id="uuid-6cacb58e-0236-46cb-8506-a6b73d70f81c">
+            <form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4 #uuid-8a839c2f-336c-435a-888e-6da3b149e0e5">
+<orth>至終</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì zhōng</pron>
+                <pron xml:lang="zh-x-oc">kljiɡs tjuŋ</pron>
+                <pron xml:lang="zh-x-mc">tɕi tɕuŋ</pron>
+            </form>
 <sense xml:id="uuid-bf2e7697-6711-41d2-887a-ff0409979a81">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp>
-  <def>to the very end</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+  <def>to the very end</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1599b2d4-d3e4-4dc9-99e3-2c1435bf775c"><form corresp="#uuid-d5f94243-2e42-441b-83f3-adfc74a8d5b6">
-<orth>死</orth><pron xml:lang="zh-Latn-x-pinyin">sǐ</pron><pron xml:lang="zh-x-oc">pliʔ</pron><pron xml:lang="zh-x-mc">si</pron></form>
+<entry type="word" xml:id="uuid-1599b2d4-d3e4-4dc9-99e3-2c1435bf775c">
+            <form corresp="#uuid-d5f94243-2e42-441b-83f3-adfc74a8d5b6">
+<orth>死</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sǐ</pron>
+                <pron xml:lang="zh-x-oc">pliʔ</pron>
+                <pron xml:lang="zh-x-mc">si</pron>
+            </form>
 </entry>
-<entry type="word" xml:id="uuid-e8f18925-e209-4136-b091-e5641ee082fc"><form corresp="#uuid-c76e08cb-be4a-443b-9fdb-bbf12c9922d3">
-<orth>盡</orth><pron xml:lang="zh-Latn-x-pinyin">jìn</pron><pron xml:lang="zh-x-oc">dzinʔ</pron><pron xml:lang="zh-x-mc">dzin</pron></form>
+<entry type="word" xml:id="uuid-e8f18925-e209-4136-b091-e5641ee082fc">
+            <form corresp="#uuid-c76e08cb-be4a-443b-9fdb-bbf12c9922d3">
+<orth>盡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jìn</pron>
+                <pron xml:lang="zh-x-oc">dzinʔ</pron>
+                <pron xml:lang="zh-x-mc">dzin</pron>
+            </form>
 <sense xml:id="uuid-0d35faae-2df6-4ccd-9eb3-88ec2b842b3f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp>
-  <def>always, without fail, completely on all occasions</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+  <def>always, without fail, completely on all occasions</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0fe50c6a-5974-487d-9d2a-06982bbe3a08"><form corresp="#uuid-dc2d4f29-288b-475b-ae53-9d0eef7818a1">
-<orth>經</orth><pron xml:lang="zh-Latn-x-pinyin">jīng</pron><pron xml:lang="zh-x-oc">keeŋ</pron><pron xml:lang="zh-x-mc">keŋ</pron></form>
+<entry type="word" xml:id="uuid-0fe50c6a-5974-487d-9d2a-06982bbe3a08">
+            <form corresp="#uuid-dc2d4f29-288b-475b-ae53-9d0eef7818a1">
+<orth>經</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīng</pron>
+                <pron xml:lang="zh-x-oc">keeŋ</pron>
+                <pron xml:lang="zh-x-mc">keŋ</pron>
+            </form>
 <sense xml:id="uuid-d91cc3a5-38e5-47be-b46c-967c005dca06">
-<gramGrp><pos>P</pos>
-  <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp>
-  <def>regularly, always</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>P</pos>
+  <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+  <def>regularly, always</def>
+            </sense>
+</entry>
+    </div>
+</div>

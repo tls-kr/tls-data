@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-a81dc54d-3432-4d57-a936-2e1d2987fb41">
-<head>INJURY</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a81dc54d-3432-4d57-a936-2e1d2987fb41">
+<head>INJURY</head>
+    <list type="altnames">
 <item>WOUND</item>
 <item>BRUISE</item>
 <item>CUT</item>
@@ -11,13 +13,19 @@
 <item>ABRASION</item>
 <item>CONTUSION</item>
 <item>LESION</item>
-<item>MEDICINE TRAUMA</item></list><list type="translations"><item xml:lang="zh">傷口</item></list>
+<item>MEDICINE TRAUMA</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">傷口</item>
+    </list>
 <div type="definition">
-<p>TYPICALLY VISIBLE DAMAGE to the BODY, CAUSED by being INJURED.</p></div>
+<p>TYPICALLY VISIBLE DAMAGE to the BODY, CAUSED by being INJURED.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for an injury is shāng 傷.</p>
-<p>2. Chuàng 創 refers very concretely to the wound inflicted, the laceration of the skin.</p></div>
+<p>2. Chuàng 創 refers very concretely to the wound inflicted, the laceration of the skin.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>外傷</p>
 <p>金瘡</p>
@@ -26,100 +34,229 @@
 <p>瘡</p>
 <p>花</p>
 <p>痿</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-1d09ba7a-9193-40dd-89a2-b974e23ccc21">ITCH</ref></item></list><list type="see">
-<item><ref target="#uuid-c62a7113-5160-455e-b93e-d9af30f0190c">INJURE</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">4.85</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-1d09ba7a-9193-40dd-89a2-b974e23ccc21">ITCH</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-c62a7113-5160-455e-b93e-d9af30f0190c">INJURE</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">4.85</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>WOUND</p>
 <p>vulnus refers to a wound caused by a weapon or another kind of cutting instrument.</p>
 <p>plaga refers to a wound caused by any instrument carried with an intention to injure.</p>
 <p>ulcus refers to any open or sore place in the body insofar as this has started to fester.</p>
-<p>cicatrix refers to the scar that is lefter after a wound is healed.</p></note></bibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><note>
-<p>VULNUS</p></note></bibl>
-<bibl><ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
-<title>論衡同義詞研究</title><biblScope unit="page">７５</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ebe4710d-bf7c-496a-8815-9e6f1c15c1a9">WANG LI 2000</ref>
-<title>王力古漢語字典</title><biblScope unit="page">754</biblScope><note>
-<p>疻，痏</p></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no.208</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>cicatrix refers to the scar that is lefter after a wound is healed.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <note>
+<p>VULNUS</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
+<title>論衡同義詞研究</title>
+                <biblScope unit="page">７５</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ebe4710d-bf7c-496a-8815-9e6f1c15c1a9">WANG LI 2000</ref>
+<title>王力古漢語字典</title>
+                <biblScope unit="page">754</biblScope>
+                <note>
+<p>疻，痏</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no.208</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-638e737a-fa9c-4887-8b52-0527a844d0e6"><form corresp="#uuid-9beba073-10a1-4698-aa67-64ce7663fcdd">
-<orth>傷</orth><pron xml:lang="zh-Latn-x-pinyin">shāng</pron><pron xml:lang="zh-x-oc">lʰaŋ</pron><pron xml:lang="zh-x-mc">ɕi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-638e737a-fa9c-4887-8b52-0527a844d0e6">
+            <form corresp="#uuid-9beba073-10a1-4698-aa67-64ce7663fcdd">
+<orth>傷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shāng</pron>
+                <pron xml:lang="zh-x-oc">lʰaŋ</pron>
+                <pron xml:lang="zh-x-mc">ɕi̯ɐŋ</pron>
+            </form>
+            <def>The current general word for an injury is shāng 傷.</def>
 <sense xml:id="uuid-78a99126-15e4-44fb-bbbf-f8d703bb861f">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>wound, injury</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-de97e89f-7582-49c6-a731-ab995c279a42"><form corresp="#uuid-82b9ec1f-6ae5-4be6-a876-cce9734907f8">
-<orth>創</orth><pron xml:lang="zh-Latn-x-pinyin">chuāng</pron><pron xml:lang="zh-x-oc">skhraŋ</pron><pron xml:lang="zh-x-mc">ʈʂhi̯ɐŋ</pron></form>
-<sense xml:id="uuid-72a109b4-c0c1-4b0c-af94-5fcf51a92b06">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>wound, laceration; dent (caused by an axe in a tree)</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-a300b57d-577f-4a00-9e34-ff8ecbddbecf"><form corresp="#uuid-0c7c1b8a-d463-4a74-9a6b-794508cb7278">
-<orth>疕</orth><pron xml:lang="zh-Latn-x-pinyin">bǐ</pron><pron xml:lang="zh-x-oc">piʔ</pron><pron xml:lang="zh-x-mc">pi</pron></form>
-<sense xml:id="uuid-0e684568-df23-491c-8cd8-d4b70d682f38">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>wound; open sore</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-b2ef595b-af86-4e11-8c83-1b7ac0f43182"><form corresp="#uuid-af0c34b9-b5e7-4fcc-b59c-258e94939ed9">
-<orth>疻</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-oc">klje</pron><pron xml:lang="zh-x-mc">tɕiɛ</pron></form>
-<sense xml:id="uuid-11ad7c3e-89ad-4b00-8b3b-9fce0d49c895">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>HANSHU: slight swelling as a result of being beaten</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-fe689ae5-28de-45d3-b6a0-d2b9f87080c3"><form corresp="#uuid-8fffaa8f-95cc-423e-9baa-85b360309148">
-<orth>痏</orth><pron xml:lang="zh-Latn-x-pinyin">wěi</pron><pron xml:lang="zh-x-oc">ɢʷrɯʔ</pron><pron xml:lang="zh-x-mc">ɦi</pron></form>
-<sense xml:id="uuid-d417ef37-4e07-44d0-a388-50bb1cf44353">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>LSCQ wound</def></sense>
-<sense xml:id="uuid-6472004c-091c-482a-ae32-27569eb8f586">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-15ea77ec-e5d1-4dc9-b8c3-b6aaab9b53ea">beating</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>superficial bleeding injury suffered typically as a result of beating</def></sense>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>wound, injury</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-201b00e2-444d-4b47-ae8b-2ffe55409c95"><form corresp="#uuid-c005ea4b-2f24-46a2-bcbc-fb716f074ff6">
-<orth>痍</orth><pron xml:lang="zh-Latn-x-pinyin">yí</pron><pron xml:lang="zh-x-oc">li</pron><pron xml:lang="zh-x-mc">ji</pron></form>
+<entry type="word" xml:id="uuid-de97e89f-7582-49c6-a731-ab995c279a42">
+            <form corresp="#uuid-82b9ec1f-6ae5-4be6-a876-cce9734907f8">
+<orth>創</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuāng</pron>
+                <pron xml:lang="zh-x-oc">skhraŋ</pron>
+                <pron xml:lang="zh-x-mc">ʈʂhi̯ɐŋ</pron>
+            </form>
+            <def>Chuāng 創 refers very concretely to the wound inflicted, the laceration of the skin.</def>
+<sense xml:id="uuid-72a109b4-c0c1-4b0c-af94-5fcf51a92b06">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>wound, laceration; dent (caused by an axe in a tree)</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-a300b57d-577f-4a00-9e34-ff8ecbddbecf">
+            <form corresp="#uuid-0c7c1b8a-d463-4a74-9a6b-794508cb7278">
+<orth>疕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bǐ</pron>
+                <pron xml:lang="zh-x-oc">piʔ</pron>
+                <pron xml:lang="zh-x-mc">pi</pron>
+            </form>
+<sense xml:id="uuid-0e684568-df23-491c-8cd8-d4b70d682f38">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>wound; open sore</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-b2ef595b-af86-4e11-8c83-1b7ac0f43182">
+            <form corresp="#uuid-af0c34b9-b5e7-4fcc-b59c-258e94939ed9">
+<orth>疻</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-oc">klje</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛ</pron>
+            </form>
+<sense xml:id="uuid-11ad7c3e-89ad-4b00-8b3b-9fce0d49c895">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>HANSHU: slight swelling as a result of being beaten</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-fe689ae5-28de-45d3-b6a0-d2b9f87080c3">
+            <form corresp="#uuid-8fffaa8f-95cc-423e-9baa-85b360309148">
+<orth>痏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wěi</pron>
+                <pron xml:lang="zh-x-oc">ɢʷrɯʔ</pron>
+                <pron xml:lang="zh-x-mc">ɦi</pron>
+            </form>
+<sense xml:id="uuid-d417ef37-4e07-44d0-a388-50bb1cf44353">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>LSCQ wound</def>
+            </sense>
+<sense xml:id="uuid-6472004c-091c-482a-ae32-27569eb8f586">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-15ea77ec-e5d1-4dc9-b8c3-b6aaab9b53ea">beating</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>superficial bleeding injury suffered typically as a result of beating</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-201b00e2-444d-4b47-ae8b-2ffe55409c95">
+            <form corresp="#uuid-c005ea4b-2f24-46a2-bcbc-fb716f074ff6">
+<orth>痍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yí</pron>
+                <pron xml:lang="zh-x-oc">li</pron>
+                <pron xml:lang="zh-x-mc">ji</pron>
+            </form>
 <sense xml:id="uuid-2db8acd2-2818-4a4d-a97c-2a61af18f843">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat></gramGrp>
-  <def>injury</def></sense>
+  <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
+                </gramGrp>
+  <def>injury</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-d6f49215-30fa-4586-a6ad-fcab6be8ee0d"><form corresp="#uuid-3800a9e4-fb90-4823-9f7b-538707455899">
-<orth>瘀</orth><pron xml:lang="zh-Latn-x-pinyin">yū</pron><pron xml:lang="zh-x-oc">qas</pron><pron xml:lang="zh-x-mc">ʔi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-d6f49215-30fa-4586-a6ad-fcab6be8ee0d">
+            <form corresp="#uuid-3800a9e4-fb90-4823-9f7b-538707455899">
+<orth>瘀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yū</pron>
+                <pron xml:lang="zh-x-oc">qas</pron>
+                <pron xml:lang="zh-x-mc">ʔi̯ɤ</pron>
+            </form>
 <sense xml:id="uuid-f9d76ebb-0744-4242-9bc5-3d593ea00745">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">1</usg></gramGrp>
-  <def>bruise; blood congestion</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">1</usg>
+                </gramGrp>
+  <def>bruise; blood congestion</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-ca9f1029-6157-440d-94e0-01db5b37303d"><form corresp="#uuid-66136576-126e-44eb-baa9-448f6c8e9501">
-<orth>瘍</orth><pron xml:lang="zh-Latn-x-pinyin">yáng</pron><pron xml:lang="zh-x-oc">k-laŋ</pron><pron xml:lang="zh-x-mc">ji̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-ca9f1029-6157-440d-94e0-01db5b37303d">
+            <form corresp="#uuid-66136576-126e-44eb-baa9-448f6c8e9501">
+<orth>瘍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yáng</pron>
+                <pron xml:lang="zh-x-oc">k-laŋ</pron>
+                <pron xml:lang="zh-x-mc">ji̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-c12e2ed5-2a77-42d4-bc40-b7671fff1ed5">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>sore</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>sore</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-ff4157c3-ac48-4bcd-b5af-f1c13005eafc"><form corresp="#uuid-f214e2e9-fec4-42c3-a2f6-44833c490691">
-<orth>瘡</orth><pron xml:lang="zh-Latn-x-pinyin">chuāng</pron><pron xml:lang="zh-x-oc">skhraŋ</pron><pron xml:lang="zh-x-mc">ʈʂhi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-ff4157c3-ac48-4bcd-b5af-f1c13005eafc">
+            <form corresp="#uuid-f214e2e9-fec4-42c3-a2f6-44833c490691">
+<orth>瘡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuāng</pron>
+                <pron xml:lang="zh-x-oc">skhraŋ</pron>
+                <pron xml:lang="zh-x-mc">ʈʂhi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-43601914-ca89-4c6d-8d80-05b8336f2edf">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>wound, injury</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>wound, injury</def>
+            </sense>
+</entry>
+    </div>
+</div>

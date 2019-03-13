@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-e44d10a7-8cb4-4642-a49e-b92ed122a966">
-<head>ANIMAL SOUNDS</head><list type="translations"><item xml:lang="zh">禽獸聲</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e44d10a7-8cb4-4642-a49e-b92ed122a966">
+<head>ANIMAL SOUNDS</head>
+    <list type="translations">
+        <item xml:lang="zh">禽獸聲</item>
+    </list>
 <div type="definition">
-<p>SOUND PRODUCED by ANIMALS.</p></div>
+<p>SOUND PRODUCED by ANIMALS.</p>
+    </div>
 <div type="notes">
 <div type="huang-jingui">
 <p>HUANG JINGUI 2006</p>
@@ -15,27 +20,63 @@
 <p>嘯，鳥獸高銳長聲鳴叫。</p>
 <p>嘶，馬的鳴叫。</p>
 <p>雊，雉的鳴叫。</p>
-<p>吠，狗叫。</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-9fc10e85-2df3-42a9-b2b7-1316c509e4d6">BARK</ref></item></list><list type="see">
-<item><ref target="#uuid-f30a70cf-cbce-46e7-a48e-814ec680b91c">SING</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-4af55868-d85f-4a0a-b22a-adbf6ab4a3a8">DIFFERENTIAE I</ref>
-<title>De differentiis</title><biblScope unit="page">225;420</biblScope><note>
-<p>607. Inter Vagire, mugire, et caetera. Infans vagit, bos mugit, equus hinnit, asinus ragit vel rudit, leo rugit, elephas barrit, sus grunnit, ovis balat, serpens sibilat, rana coaxat, corvus crocitat, grus arsat, milvus jugit, canis baubat, vel latrat, vulpes gannit.</p></note></bibl>
-<bibl><ref target="#uuid-65cb3fa8-ba3e-4eef-b23e-5b43a8bb8651">JONES 2005</ref>
-<title>Encyclopedia of Religion</title><note>
-<p>PERCUSSION AND NOISE</p></note></bibl></listBibl></div>
+<p>吠，狗叫。</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-9fc10e85-2df3-42a9-b2b7-1316c509e4d6">BARK</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-f30a70cf-cbce-46e7-a48e-814ec680b91c">SING</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-4af55868-d85f-4a0a-b22a-adbf6ab4a3a8">DIFFERENTIAE I</ref>
+<title>De differentiis</title>
+                <biblScope unit="page">225;420</biblScope>
+                <note>
+<p>607. Inter Vagire, mugire, et caetera. Infans vagit, bos mugit, equus hinnit, asinus ragit vel rudit, leo rugit, elephas barrit, sus grunnit, ovis balat, serpens sibilat, rana coaxat, corvus crocitat, grus arsat, milvus jugit, canis baubat, vel latrat, vulpes gannit.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-65cb3fa8-ba3e-4eef-b23e-5b43a8bb8651">JONES 2005</ref>
+<title>Encyclopedia of Religion</title>
+                <note>
+<p>PERCUSSION AND NOISE</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-c09403c1-c1e8-450f-91c2-d5f6099f57f9"><form corresp="#uuid-e5aae91b-ac50-4ec6-8dc0-6e1f1dd9ee63">
-<orth>嘶</orth><pron xml:lang="zh-Latn-x-pinyin">sī</pron><pron xml:lang="zh-x-oc">slee</pron><pron xml:lang="zh-x-mc">sei</pron></form>
+<entry type="word" xml:id="uuid-c09403c1-c1e8-450f-91c2-d5f6099f57f9">
+            <form corresp="#uuid-e5aae91b-ac50-4ec6-8dc0-6e1f1dd9ee63">
+<orth>嘶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sī</pron>
+                <pron xml:lang="zh-x-oc">slee</pron>
+                <pron xml:lang="zh-x-mc">sei</pron>
+            </form>
 <sense xml:id="uuid-055f45c2-6760-4068-9bc7-ccc6658b39fb">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp>
-  <def>neighing</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+  <def>neighing</def>
+            </sense>
 <sense xml:id="uuid-cf54999d-72a7-4379-b636-b576ebf5df06">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>neigh</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>neigh</def>
+            </sense>
+</entry>
+    </div>
+</div>

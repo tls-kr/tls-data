@@ -1,101 +1,215 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-3057ae98-478b-43eb-a718-868f1b63f9b3">
-<head>SOUP</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3057ae98-478b-43eb-a718-868f1b63f9b3">
+<head>SOUP</head>
+    <list type="altnames">
 <item>BROTH</item>
 <item>POTAGE</item>
 <item>CONSOMMé</item>
 <item>BOUILLON</item>
 <item>CHOWDER</item>
-<item>BISQUE</item></list><list type="translations"><item xml:lang="zh">湯</item></list>
+<item>BISQUE</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">湯</item>
+    </list>
 <div type="definition">
-<p>LIQUID FOOD that CAN be said to be EATEN AND NOT ONLY DRUNK.</p></div>
+<p>LIQUID FOOD that CAN be said to be EATEN AND NOT ONLY DRUNK.</p>
+    </div>
 <div type="notes">
 <div type="huang-jingui">
 <p>HUANG JINGUI 2006</p>
 <p>FOOD 34. 羹湯。</p>
 <p>羹，總稱。</p>
 <p>臛，純肉羹。</p>
-<p>臇，少汁肉羹，多作動詞，指烹煮少汁肉羹。大約元代起， “ 湯 ” 成為一類菜餚。</p></div>
+<p>臇，少汁肉羹，多作動詞，指烹煮少汁肉羹。大約元代起， “ 湯 ” 成為一類菜餚。</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>湯</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-2226d6a6-981a-49da-a923-5b87a022e03b">GRUEL</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">5.64</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
-<title>Dictionnaire culturel en langue francaise</title><biblScope unit="page">4.929</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-2226d6a6-981a-49da-a923-5b87a022e03b">GRUEL</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">5.64</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
+<title>Dictionnaire culturel en langue francaise</title>
+                <biblScope unit="page">4.929</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-5e66f540-b897-4957-9b0e-917400486735"><form corresp="#uuid-2f5abeea-de24-478f-b9ff-1e53ab06da6d">
-<orth>洎</orth><pron xml:lang="zh-Latn-x-pinyin">jì</pron><pron xml:lang="zh-x-oc">kbrids</pron><pron xml:lang="zh-x-mc">ki</pron></form>
+<entry type="word" xml:id="uuid-5e66f540-b897-4957-9b0e-917400486735">
+            <form corresp="#uuid-2f5abeea-de24-478f-b9ff-1e53ab06da6d">
+<orth>洎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jì</pron>
+                <pron xml:lang="zh-x-oc">kbrids</pron>
+                <pron xml:lang="zh-x-mc">ki</pron>
+            </form>
 <sense xml:id="uuid-75ca4ff2-4543-4b54-9541-f46a27234a4d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>broth of boiled meat</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>broth of boiled meat</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e5d50d4b-1fd3-42c2-91d2-e8cf7e94b463"><form corresp="#uuid-7d069442-b3c1-4957-980b-3f51b76ece0c">
-<orth>湯</orth><pron xml:lang="zh-Latn-x-pinyin">tāng</pron><pron xml:lang="zh-x-oc">kh-laaŋ</pron><pron xml:lang="zh-x-mc">thɑŋ</pron></form>
+<entry type="word" xml:id="uuid-e5d50d4b-1fd3-42c2-91d2-e8cf7e94b463">
+            <form corresp="#uuid-7d069442-b3c1-4957-980b-3f51b76ece0c">
+<orth>湯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tāng</pron>
+                <pron xml:lang="zh-x-oc">kh-laaŋ</pron>
+                <pron xml:lang="zh-x-mc">thɑŋ</pron>
+            </form>
 <sense xml:id="uuid-76636c1e-67c9-4c49-8ece-96305e5c6d8d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>soup</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>soup</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-37a3a39a-deb2-4659-be4d-002a31122313"><form corresp="#uuid-8a057ff5-8c4f-47eb-b3c0-621cfc84f804">
-<orth>糝</orth><pron xml:lang="zh-Latn-x-pinyin">sǎn</pron><pron xml:lang="zh-x-oc">sqluumʔ</pron><pron xml:lang="zh-x-mc">səm</pron></form>
+<entry type="word" xml:id="uuid-37a3a39a-deb2-4659-be4d-002a31122313">
+            <form corresp="#uuid-8a057ff5-8c4f-47eb-b3c0-621cfc84f804">
+<orth>糝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sǎn</pron>
+                <pron xml:lang="zh-x-oc">sqluumʔ</pron>
+                <pron xml:lang="zh-x-mc">səm</pron>
+            </form>
 <sense xml:id="uuid-dd7a78f3-d5a7-4414-a830-46f183e5d52d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp>
-  <def>rice gruel with meat (XUN)</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+  <def>rice gruel with meat (XUN)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-31855e2e-04ae-41ea-9a95-d5990e7e8c34"><form corresp="#uuid-aca2bd11-5da7-4a77-a447-2f68d0df7f7c">
-<orth>羹</orth><pron xml:lang="zh-Latn-x-pinyin">gēng</pron><pron xml:lang="zh-x-oc">kraaŋ</pron><pron xml:lang="zh-x-mc">kɣaŋ</pron></form>
+<entry type="word" xml:id="uuid-31855e2e-04ae-41ea-9a95-d5990e7e8c34">
+            <form corresp="#uuid-aca2bd11-5da7-4a77-a447-2f68d0df7f7c">
+<orth>羹</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gēng</pron>
+                <pron xml:lang="zh-x-oc">kraaŋ</pron>
+                <pron xml:lang="zh-x-mc">kɣaŋ</pron>
+            </form>
 <sense xml:id="uuid-6730bd14-6df4-4800-8bae-a75bd112ed62">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>thick spiced broth with rice, typically with meat, but the poor would eat what in modern Chinese is 菜羹 which at the time was also called gēng 羹</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>thick spiced broth with rice, typically with meat, but the poor would eat what in modern Chinese is 菜羹 which at the time was also called gēng 羹</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c9f261b1-c732-418f-8cb2-421476018428"><form corresp="#uuid-298e6378-8285-459e-84c4-a6aff48f940b">
-<orth>膮</orth><pron xml:lang="zh-Latn-x-pinyin">xiāo</pron><pron xml:lang="zh-x-oc">qheew</pron><pron xml:lang="zh-x-mc">heu</pron></form>
+<entry type="word" xml:id="uuid-c9f261b1-c732-418f-8cb2-421476018428">
+            <form corresp="#uuid-298e6378-8285-459e-84c4-a6aff48f940b">
+<orth>膮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāo</pron>
+                <pron xml:lang="zh-x-oc">qheew</pron>
+                <pron xml:lang="zh-x-mc">heu</pron>
+            </form>
 <sense xml:id="uuid-1d2aa774-508f-4229-9615-5789c2bf89c6">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp>
-  <def>pork soup</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+  <def>pork soup</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c2b80359-aa2e-4c7f-98df-2ee9c77bcb4f"><form corresp="#uuid-69d766fc-d03a-4ac6-9196-233c8febbc81">
-<orth>膷</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng</pron><pron xml:lang="zh-x-oc">qhaŋ</pron><pron xml:lang="zh-x-mc">hi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-c2b80359-aa2e-4c7f-98df-2ee9c77bcb4f">
+            <form corresp="#uuid-69d766fc-d03a-4ac6-9196-233c8febbc81">
+<orth>膷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng</pron>
+                <pron xml:lang="zh-x-oc">qhaŋ</pron>
+                <pron xml:lang="zh-x-mc">hi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-e4d456d3-16a2-4ef7-a402-b860032a5d6b">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp>
-  <def>beef soup</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+  <def>beef soup</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0730c2ac-1e51-45aa-82d3-165dfcb120fc"><form corresp="#uuid-5ad20b42-60dd-40ce-b73e-6500fb1d3ceb">
-<orth>臐</orth><pron xml:lang="zh-Latn-x-pinyin">xūn</pron><pron xml:lang="zh-x-oc">qhun</pron><pron xml:lang="zh-x-mc">hi̯un</pron></form>
+<entry type="word" xml:id="uuid-0730c2ac-1e51-45aa-82d3-165dfcb120fc">
+            <form corresp="#uuid-5ad20b42-60dd-40ce-b73e-6500fb1d3ceb">
+<orth>臐</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xūn</pron>
+                <pron xml:lang="zh-x-oc">qhun</pron>
+                <pron xml:lang="zh-x-mc">hi̯un</pron>
+            </form>
 <sense xml:id="uuid-a9283b39-e260-43b4-b9d0-7c9b5baefb11">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp>
-  <def>broth; mutton soup; mutton or pork stew</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+  <def>broth; mutton soup; mutton or pork stew</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-fa69e339-9d6b-4334-b328-64a01e89adb5"><form corresp="#uuid-423f73e6-da64-4465-a801-175a446fe62c">
-<orth>臛</orth><pron xml:lang="zh-Latn-x-pinyin">huò</pron><pron xml:lang="zh-x-oc">qhuuɡ</pron><pron xml:lang="zh-x-mc">huok</pron></form>
+<entry type="word" xml:id="uuid-fa69e339-9d6b-4334-b328-64a01e89adb5">
+            <form corresp="#uuid-423f73e6-da64-4465-a801-175a446fe62c">
+<orth>臛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huò</pron>
+                <pron xml:lang="zh-x-oc">qhuuɡ</pron>
+                <pron xml:lang="zh-x-mc">huok</pron>
+            </form>
 <sense xml:id="uuid-de68f56d-80b5-48a3-a442-157ae9742bbb">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><usg type="warring-states-currency">1</usg></gramGrp>
-  <def>soup with pickled vegetables ???????????????</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <usg type="warring-states-currency">1</usg>
+                </gramGrp>
+  <def>soup with pickled vegetables ???????????????</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-803ee89d-08de-40ab-8a75-2dc8a14d3ed7"><form corresp="#uuid-28e5f38c-f9f6-4af4-8a1f-b85e2ed472d0">
-<orth>酏</orth><pron xml:lang="zh-Latn-x-pinyin">yí</pron><pron xml:lang="zh-x-oc">lel</pron><pron xml:lang="zh-x-mc">jiɛ</pron></form>
+<entry type="word" xml:id="uuid-803ee89d-08de-40ab-8a75-2dc8a14d3ed7">
+            <form corresp="#uuid-28e5f38c-f9f6-4af4-8a1f-b85e2ed472d0">
+<orth>酏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yí</pron>
+                <pron xml:lang="zh-x-oc">lel</pron>
+                <pron xml:lang="zh-x-mc">jiɛ</pron>
+            </form>
 <sense xml:id="uuid-25378cf2-e9ec-4e5c-b3bc-01ef67fc318b">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp>
-  <def>thin broth</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+  <def>thin broth</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-890d16f9-a350-4373-838c-038182c35db3"><form corresp="#uuid-d7d4139d-a0d4-4dac-bbf3-70ab3d6ae600 #uuid-aca2bd11-5da7-4a77-a447-2f68d0df7f7c">
-<orth>菜羹</orth><pron xml:lang="zh-Latn-x-pinyin">cài gēng</pron><pron xml:lang="zh-x-oc">tshɯɯs kraaŋ</pron><pron xml:lang="zh-x-mc">tshəi kɣaŋ</pron></form>
+<entry type="word" xml:id="uuid-890d16f9-a350-4373-838c-038182c35db3">
+            <form corresp="#uuid-d7d4139d-a0d4-4dac-bbf3-70ab3d6ae600 #uuid-aca2bd11-5da7-4a77-a447-2f68d0df7f7c">
+<orth>菜羹</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cài gēng</pron>
+                <pron xml:lang="zh-x-oc">tshɯɯs kraaŋ</pron>
+                <pron xml:lang="zh-x-mc">tshəi kɣaŋ</pron>
+            </form>
 <sense xml:id="uuid-f0ba3a67-7172-4173-99bc-2394a8dc5461">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp>
-  <def>vegatable soup/congee</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+  <def>vegatable soup/congee</def>
+            </sense>
+</entry>
+    </div>
+</div>

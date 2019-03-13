@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-f0e7b237-8209-4441-a19a-5a6046703e53">
-<head>GROUP</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f0e7b237-8209-4441-a19a-5a6046703e53">
+<head>GROUP</head>
+    <list type="altnames">
 <item>CLASS</item>
 <item>CLASSIFICATION</item>
 <item>GROUP</item>
@@ -37,13 +39,20 @@
 <item>GENUS</item>
 <item>BREED</item>
 <item>GRADE</item>
-<item>GRADING</item></list><list type="translations"><item xml:lang="zh">集體</item><item xml:lang="och">群</item></list>
+<item>GRADING</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">集體</item>
+        <item xml:lang="och">群</item>
+    </list>
 <div type="definition">
-<p>CATEGORY of PEOPLE OR THINGS which COOPERATE, MUTUALLY RESEMBLE OR are TOGETHER IN ONE PLACE.</p></div>
+<p>CATEGORY of PEOPLE OR THINGS which COOPERATE, MUTUALLY RESEMBLE OR are TOGETHER IN ONE PLACE.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general term for a group is qún 群.</p>
-<p>2. Chóu 疇 refers to a cluster of things, typically plants.</p></div>
+<p>2. Chóu 疇 refers to a cluster of things, typically plants.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>團體 is the general current word for a group of people.</p>
 <p>組織 focusses on the organisational coherence of the group.</p>
@@ -58,132 +67,310 @@
 <p>伙</p>
 <p>社</p>
 <p>團</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-82e84859-f76f-44cd-be74-020f2a4fb6a1">ARMY</ref></item>
-<item><ref target="#uuid-55be2fa8-f34c-4f62-831c-7cd779c1279c">FAMILY</ref></item>
-<item><ref target="#uuid-cb9e32ed-9291-4d69-b76d-e10217aae46b">FACTION</ref></item>
-<item><ref target="#uuid-629bb732-27e7-4839-8142-6e9da1c72b98">PEOPLE</ref></item>
-<item><ref target="#uuid-2005fb82-bc9b-4011-9450-d6b4eafacd94">CONSTELLATION</ref></item>
-<item><ref target="#uuid-8d6f2da5-b4f2-419c-a702-52b411b2de74">SOCIETY</ref></item>
-<item><ref target="#uuid-f9997eb7-a0c8-4da7-ab50-dc183c80fd4f">CROWD</ref></item>
-<item><ref target="#uuid-760112aa-ba84-446d-ae9d-a80b5e6a075e">TRIBE</ref></item>
-<item><ref target="#uuid-05883692-172f-4624-a0b0-d1d011530d1a">LINEAGE</ref></item>
-<item><ref target="#uuid-efd8ec75-2eee-4d2c-aa55-0db1518b7a8e">HERD</ref></item>
-<item><ref target="#uuid-ce3d945d-0f14-48f8-88e5-275e26e6d7e9">MIDDLE CLASSES</ref></item>
-<item><ref target="#uuid-cdc984ef-8752-4a0d-b0ab-61393ed5c129">INSTITUTION</ref></item>
-<item><ref target="#uuid-17dbe734-1f8e-418e-b40e-c8af9df0b397">MAJORITY</ref></item>
-<item><ref target="#uuid-ea41f5d9-68fc-488a-b987-d12c5f271ee8">CLASS</ref></item>
-<item><ref target="#uuid-5a8d8afa-7376-499f-9131-0ee75b06f151">ASSOCIATION</ref></item>
-<item><ref target="#uuid-0e841a94-e9a6-4582-81a8-0f51d62d4735">POLITICAL REPRESENTATION</ref></item>
-<item><ref target="#uuid-3ee6a620-179c-41d9-9069-5ca817efaa31">COLLECTIVE</ref></item>
-<item><ref target="#uuid-1eae8128-e876-4635-9f92-33f0b675bbf0">ELITE</ref></item>
-<item><ref target="#uuid-8f503637-35ac-466c-995c-8216fdffa84d">SERIES</ref></item></list><list type="see">
-<item><ref target="#uuid-3c07668a-0d1d-4f4c-9422-a9c8f5b38b6d">MANY</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">13.19</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-6b8242ce-9fc6-4b7b-bd52-14c744308409">COMENIUS 1665</ref>
-<title>De Rerum Humanarum Emendatione</title><biblScope unit="page">485©</biblScope><note>
-<p>COETUS est congregata in unum hominum multitudo: qvae si temere confluens, dicitur Turba; si orationis audiendae causa convocata, Concio; si emendi aut vendendi, Nundinae; ad habitandum, Civitas; sub leges, Populus; si ad deliberandum de rebus Regni, Comitia; si de rebus Ecclesiae Concilium.</p></note></bibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><note>
-<p>SOCIETAS</p></note></bibl>
-<bibl><biblScope unit="page">210</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
-<title>Using Chinese Synonyms</title><biblScope unit="page">297</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
-<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title><biblScope unit="page">1.333.296</biblScope><note>
-<p>TROUPE.BANDE.COMPAGNIE</p></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-82e84859-f76f-44cd-be74-020f2a4fb6a1">ARMY</ref>
+            </item>
+<item>
+                <ref target="#uuid-55be2fa8-f34c-4f62-831c-7cd779c1279c">FAMILY</ref>
+            </item>
+<item>
+                <ref target="#uuid-cb9e32ed-9291-4d69-b76d-e10217aae46b">FACTION</ref>
+            </item>
+<item>
+                <ref target="#uuid-629bb732-27e7-4839-8142-6e9da1c72b98">PEOPLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-2005fb82-bc9b-4011-9450-d6b4eafacd94">CONSTELLATION</ref>
+            </item>
+<item>
+                <ref target="#uuid-8d6f2da5-b4f2-419c-a702-52b411b2de74">SOCIETY</ref>
+            </item>
+<item>
+                <ref target="#uuid-f9997eb7-a0c8-4da7-ab50-dc183c80fd4f">CROWD</ref>
+            </item>
+<item>
+                <ref target="#uuid-760112aa-ba84-446d-ae9d-a80b5e6a075e">TRIBE</ref>
+            </item>
+<item>
+                <ref target="#uuid-05883692-172f-4624-a0b0-d1d011530d1a">LINEAGE</ref>
+            </item>
+<item>
+                <ref target="#uuid-efd8ec75-2eee-4d2c-aa55-0db1518b7a8e">HERD</ref>
+            </item>
+<item>
+                <ref target="#uuid-ce3d945d-0f14-48f8-88e5-275e26e6d7e9">MIDDLE CLASSES</ref>
+            </item>
+<item>
+                <ref target="#uuid-cdc984ef-8752-4a0d-b0ab-61393ed5c129">INSTITUTION</ref>
+            </item>
+<item>
+                <ref target="#uuid-17dbe734-1f8e-418e-b40e-c8af9df0b397">MAJORITY</ref>
+            </item>
+<item>
+                <ref target="#uuid-ea41f5d9-68fc-488a-b987-d12c5f271ee8">CLASS</ref>
+            </item>
+<item>
+                <ref target="#uuid-5a8d8afa-7376-499f-9131-0ee75b06f151">ASSOCIATION</ref>
+            </item>
+<item>
+                <ref target="#uuid-0e841a94-e9a6-4582-81a8-0f51d62d4735">POLITICAL REPRESENTATION</ref>
+            </item>
+<item>
+                <ref target="#uuid-3ee6a620-179c-41d9-9069-5ca817efaa31">COLLECTIVE</ref>
+            </item>
+<item>
+                <ref target="#uuid-1eae8128-e876-4635-9f92-33f0b675bbf0">ELITE</ref>
+            </item>
+<item>
+                <ref target="#uuid-8f503637-35ac-466c-995c-8216fdffa84d">SERIES</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-3c07668a-0d1d-4f4c-9422-a9c8f5b38b6d">MANY</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">13.19</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b8242ce-9fc6-4b7b-bd52-14c744308409">COMENIUS 1665</ref>
+<title>De Rerum Humanarum Emendatione</title>
+                <biblScope unit="page">485©</biblScope>
+                <note>
+<p>COETUS est congregata in unum hominum multitudo: qvae si temere confluens, dicitur Turba; si orationis audiendae causa convocata, Concio; si emendi aut vendendi, Nundinae; ad habitandum, Civitas; sub leges, Populus; si ad deliberandum de rebus Regni, Comitia; si de rebus Ecclesiae Concilium.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <note>
+<p>SOCIETAS</p>
+                </note>
+            </bibl>
+<bibl>
+                <biblScope unit="page">210</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
+<title>Using Chinese Synonyms</title>
+                <biblScope unit="page">297</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
+<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title>
+                <biblScope unit="page">1.333.296</biblScope>
+                <note>
+<p>TROUPE.BANDE.COMPAGNIE</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-31ebe1ac-1e6a-4e11-bba5-074adb8a4472"><form corresp="#uuid-913e4503-2de6-45dc-b1b2-fb5134fe83f5">
-<orth>家</orth><pron xml:lang="zh-Latn-x-pinyin">jiā</pron><pron xml:lang="zh-x-oc">kraa</pron><pron xml:lang="zh-x-mc">kɣɛ</pron></form>
+<entry type="word" xml:id="uuid-31ebe1ac-1e6a-4e11-bba5-074adb8a4472">
+            <form corresp="#uuid-913e4503-2de6-45dc-b1b2-fb5134fe83f5">
+<orth>家</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiā</pron>
+                <pron xml:lang="zh-x-oc">kraa</pron>
+                <pron xml:lang="zh-x-mc">kɣɛ</pron>
+            </form>
 <sense xml:id="uuid-651d240a-8688-4fcd-81cf-de10b96f50fc">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>Han: school of thought; later also: Buddhist sect</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-da71862b-8cc3-4600-925a-a6626d408eaf"><form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
-<orth>流</orth><pron xml:lang="zh-Latn-x-pinyin">liú</pron><pron xml:lang="zh-x-oc">ru</pron><pron xml:lang="zh-x-mc">lɨu</pron></form>
-<sense xml:id="uuid-8dd13151-a96a-4b7d-9115-c871f84d32cb">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp>
-  <def>kind/type of persons</def></sense>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>Han: school of thought; later also: Buddhist sect</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-da71862b-8cc3-4600-925a-a6626d408eaf">
+            <form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
+<orth>流</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liú</pron>
+                <pron xml:lang="zh-x-oc">ru</pron>
+                <pron xml:lang="zh-x-mc">lɨu</pron>
+            </form>
+<sense xml:id="uuid-8dd13151-a96a-4b7d-9115-c871f84d32cb">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+  <def>kind/type of persons</def>
+            </sense>
 <sense xml:id="uuid-d1687aa5-9bf0-425b-b819-92a688a74888">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>kind of persons</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>kind of persons</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0bf13406-7d34-4553-9e7e-2db004c62dee"><form corresp="#uuid-dde0601d-a96e-46c4-8ab2-f0be9e1dc817">
-<orth>疇</orth><pron xml:lang="zh-Latn-x-pinyin">chóu</pron><pron xml:lang="zh-x-oc">du</pron><pron xml:lang="zh-x-mc">ɖɨu</pron></form>
+<entry type="word" xml:id="uuid-0bf13406-7d34-4553-9e7e-2db004c62dee">
+            <form corresp="#uuid-dde0601d-a96e-46c4-8ab2-f0be9e1dc817">
+<orth>疇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chóu</pron>
+                <pron xml:lang="zh-x-oc">du</pron>
+                <pron xml:lang="zh-x-mc">ɖɨu</pron>
+            </form>
+            <def>Chóu 疇 refers to a cluster of things, typically plants.</def>
 <sense xml:id="uuid-ff02ff93-1b92-471c-ad22-25f5d8f3ea6b">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>cluster</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>cluster</def>
+            </sense>
 <sense xml:id="uuid-bf0b344f-456b-470a-bbc1-178f0a22496b">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>in clusters (as shrubs growing together); in groups</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>in clusters (as shrubs growing together); in groups</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b55af153-6166-4897-bc47-4795b5d58c13"><form corresp="#uuid-14933090-8c1b-4896-b1d7-361dfca75ff7">
-<orth>群</orth><pron xml:lang="zh-Latn-x-pinyin">qún</pron><pron xml:lang="zh-x-oc">ɡlun</pron><pron xml:lang="zh-x-mc">gi̯un</pron></form>
+<entry type="word" xml:id="uuid-b55af153-6166-4897-bc47-4795b5d58c13">
+            <form corresp="#uuid-14933090-8c1b-4896-b1d7-361dfca75ff7">
+<orth>群</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qún</pron>
+                <pron xml:lang="zh-x-oc">ɡlun</pron>
+                <pron xml:lang="zh-x-mc">gi̯un</pron>
+            </form>
+            <def>The current general term for a group is qún 群.</def>
 <sense xml:id="uuid-bc47e635-289b-4572-9d93-28ad8a6c0243">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>gather something into a group; pile up</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>gather something into a group; pile up</def>
+            </sense>
 <sense xml:id="uuid-a0725841-0d29-45c1-91db-6e2c467aac0e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>flock; group</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>flock; group</def>
+            </sense>
 <sense xml:id="uuid-aadc26e5-4808-4f46-a1cc-8c0450aafa1f">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-d1cf7a99-5f60-4ba5-ac4d-ce56db9366bd">quantifier</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>a flock of</def></sense>
+  <tls:sem-feat corresp="#uuid-d1cf7a99-5f60-4ba5-ac4d-ce56db9366bd">quantifier</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>a flock of</def>
+            </sense>
 <sense xml:id="uuid-1ad7f5f4-248c-43ad-9917-351be4e9f3a4">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>in a flock, together; by groups</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>in a flock, together; by groups</def>
+            </sense>
 <sense xml:id="uuid-d6393159-e972-4d6f-a641-817b6a772495">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>be gregarious, form groups, participate in groups</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>be gregarious, form groups, participate in groups</def>
+            </sense>
 <sense xml:id="uuid-75fcd32a-27a9-4c15-b4a4-1d5a8bee988c">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>form a flock</def></sense>
+  <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>form a flock</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-a4642fb3-f9a3-4f03-b676-8d6cd9d9a335"><form corresp="#uuid-bfd01c3d-b1e2-4395-8576-37ac13467046">
-<orth>肆</orth><pron xml:lang="zh-Latn-x-pinyin">sì</pron><pron xml:lang="zh-x-oc">plils</pron><pron xml:lang="zh-x-mc">si</pron></form>
+<entry type="word" xml:id="uuid-a4642fb3-f9a3-4f03-b676-8d6cd9d9a335">
+            <form corresp="#uuid-bfd01c3d-b1e2-4395-8576-37ac13467046">
+<orth>肆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì</pron>
+                <pron xml:lang="zh-x-oc">plils</pron>
+                <pron xml:lang="zh-x-mc">si</pron>
+            </form>
 <sense xml:id="uuid-508ce77a-b09d-43d2-8ae3-18e829d2c411">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-6477fa54-dc24-4c80-b58b-63ec618bfc44">npost-V{NUM}.postadN</tls:syn-func></gramGrp>
-  <def>set of (bells)</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-6477fa54-dc24-4c80-b58b-63ec618bfc44">npost-V{NUM}.postadN</tls:syn-func>
+                </gramGrp>
+  <def>set of (bells)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-91338229-f73c-40e2-9a3f-85a69b2770e3"><form corresp="#uuid-cb16bd43-e8d9-4264-8f5b-262c02ba0ba3">
-<orth>黨</orth><pron xml:lang="zh-Latn-x-pinyin">dǎng</pron><pron xml:lang="zh-x-oc">taaŋʔ</pron><pron xml:lang="zh-x-mc">tɑŋ</pron></form>
+<entry type="word" xml:id="uuid-91338229-f73c-40e2-9a3f-85a69b2770e3">
+            <form corresp="#uuid-cb16bd43-e8d9-4264-8f5b-262c02ba0ba3">
+<orth>黨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dǎng</pron>
+                <pron xml:lang="zh-x-oc">taaŋʔ</pron>
+                <pron xml:lang="zh-x-mc">tɑŋ</pron>
+            </form>
 <sense xml:id="uuid-7d4e57a6-474a-4dd0-a335-d856582235d8">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="valuation">+</usg><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>group</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="valuation">+</usg>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>group</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-7a3c24de-28fd-4d98-98ed-17f2b35271ae"><form corresp="#uuid-bdf94113-3ef0-408a-acbe-8ed085919acc #uuid-cb16bd43-e8d9-4264-8f5b-262c02ba0ba3">
-<orth>伴黨</orth><pron xml:lang="zh-Latn-x-pinyin">bàn dǎng</pron><pron xml:lang="zh-x-oc">baanʔ taaŋʔ</pron><pron xml:lang="zh-x-mc">bʷɑn tɑŋ</pron></form>
+<entry type="word" xml:id="uuid-7a3c24de-28fd-4d98-98ed-17f2b35271ae">
+            <form corresp="#uuid-bdf94113-3ef0-408a-acbe-8ed085919acc #uuid-cb16bd43-e8d9-4264-8f5b-262c02ba0ba3">
+<orth>伴黨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bàn dǎng</pron>
+                <pron xml:lang="zh-x-oc">baanʔ taaŋʔ</pron>
+                <pron xml:lang="zh-x-mc">bʷɑn tɑŋ</pron>
+            </form>
 <sense xml:id="uuid-51daf7c8-62d9-4267-8016-e18673f34207">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>group, party</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>group, party</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-a563a02b-06b6-439d-8dd2-e6fca27a4390"><form corresp="#uuid-18f9f0fa-f6c8-4b5f-b01e-2eb769c2d2c1 #uuid-5cd2073a-6f30-434c-bf49-acee1f8e5bd7">
-<orth>眾會</orth><pron xml:lang="zh-Latn-x-pinyin">zhòng huì</pron><pron xml:lang="zh-x-oc">tjuŋs ɡloobs</pron><pron xml:lang="zh-x-mc">tɕuŋ ɦɑi</pron></form>
+<entry type="word" xml:id="uuid-a563a02b-06b6-439d-8dd2-e6fca27a4390">
+            <form corresp="#uuid-18f9f0fa-f6c8-4b5f-b01e-2eb769c2d2c1 #uuid-5cd2073a-6f30-434c-bf49-acee1f8e5bd7">
+<orth>眾會</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhòng huì</pron>
+                <pron xml:lang="zh-x-oc">tjuŋs ɡloobs</pron>
+                <pron xml:lang="zh-x-mc">tɕuŋ ɦɑi</pron>
+            </form>
 <sense xml:id="uuid-6530d89e-9257-4a02-9e6a-d230655253e0">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>community, group; assembly</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>community, group; assembly</def>
+            </sense>
+</entry>
+    </div>
+</div>

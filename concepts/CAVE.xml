@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-b762f695-ec41-4a27-a33d-688cb6276bf2">
-<head>CAVE</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b762f695-ec41-4a27-a33d-688cb6276bf2">
+<head>CAVE</head>
+    <list type="altnames">
 <item>CAVERN</item>
 <item>GROTTO</item>
 <item>UNDERGROUND CHAMBER</item>
 <item>CELLAR</item>
 <item>VAULT</item>
-<item>CRYPT</item></list><list type="translations"><item xml:lang="zh">洞穴</item></list>
+<item>CRYPT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">洞穴</item>
+    </list>
 <div type="definition">
-<p>CAVITY IN ROCK, TYPICALLY BIG ENOUGH FOR HUMANS to ENTER.</p></div>
+<p>CAVITY IN ROCK, TYPICALLY BIG ENOUGH FOR HUMANS to ENTER.</p>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>山洞</p>
@@ -20,14 +27,24 @@
 <p>地道</p>
 <p>坑道</p>
 <p>坑</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
 <div type="pointers"/>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-4af55868-d85f-4a0a-b22a-adbf6ab4a3a8">DIFFERENTIAE I</ref>
-<title>De differentiis</title><biblScope unit="page">no. 538</biblScope><note>
-<p>538. Inter Specum et antrum. Specum Latini, Graeci antrum dicunt. Sunt autem loca ex quibus repercussae voces imaginem referunt.</p></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-4af55868-d85f-4a0a-b22a-adbf6ab4a3a8">DIFFERENTIAE I</ref>
+<title>De differentiis</title>
+                <biblScope unit="page">no. 538</biblScope>
+                <note>
+<p>538. Inter Specum et antrum. Specum Latini, Graeci antrum dicunt. Sunt autem loca ex quibus repercussae voces imaginem referunt.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>CAVE</p>
 <p>specus refers to a cavity with a perpendicular opening, leading up into a mountain, typically with a wide opening.</p>
 <p>scrobs refers to a temporary pit with an horizontal opening, leading down into the earth, and normally designed to be filled in again.</p>
@@ -35,67 +52,136 @@
 <p>spelunca refers to a cavity with reference to its darkness and dreadfulness.</p>
 <p>antrum refers to a grotto as a beautiful object with reference to its romantic appearance and cooling temperature.</p>
 <p>spelaeum is a poetic word referring to the cave as the lurking-hole of a wild beasts.</p>
-<p>fovea refers to a pit meant to remain open or only covered in order to keep or catch wild beasts.</p></note></bibl>
-<bibl><ref target="#uuid-65cb3fa8-ba3e-4eef-b23e-5b43a8bb8651">JONES 2005</ref>
-<title>Encyclopedia of Religion</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
-<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title><biblScope unit="page">1.398.357</biblScope><note>
-<p>ANTRE.CAVERNE.GROTTE</p></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no. 76</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
-<title>古漢語常用詞同義詞詞典</title><biblScope unit="page">175</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>fovea refers to a pit meant to remain open or only covered in order to keep or catch wild beasts.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-65cb3fa8-ba3e-4eef-b23e-5b43a8bb8651">JONES 2005</ref>
+<title>Encyclopedia of Religion</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
+<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title>
+                <biblScope unit="page">1.398.357</biblScope>
+                <note>
+<p>ANTRE.CAVERNE.GROTTE</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no. 76</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
+<title>古漢語常用詞同義詞詞典</title>
+                <biblScope unit="page">175</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-6033ac76-3bc4-43c1-9d8a-a530b2c08ab3"><form corresp="#uuid-a0608539-4c41-47a3-b318-520a612a7bf3">
-<orth>穴</orth><pron xml:lang="zh-Latn-x-pinyin">xué</pron><pron xml:lang="zh-x-oc">ɢʷliiɡ</pron><pron xml:lang="zh-x-mc">ɦet</pron></form>
+<entry type="word" xml:id="uuid-6033ac76-3bc4-43c1-9d8a-a530b2c08ab3">
+            <form corresp="#uuid-a0608539-4c41-47a3-b318-520a612a7bf3">
+<orth>穴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xué</pron>
+                <pron xml:lang="zh-x-oc">ɢʷliiɡ</pron>
+                <pron xml:lang="zh-x-mc">ɦet</pron>
+            </form>
 <sense xml:id="uuid-00421a74-a09f-44a6-b5e3-c7f17d08123e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func></gramGrp>
-  <def>in caves; in a cave</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func>
+                </gramGrp>
+  <def>in caves; in a cave</def>
+            </sense>
 <sense xml:id="uuid-5572df7a-3a17-42b5-a064-6c0e2a7d2939">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat></gramGrp>
-  <def>in a cave; in caves</def></sense>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                </gramGrp>
+  <def>in a cave; in caves</def>
+            </sense>
 <sense xml:id="uuid-39c9cf0a-7410-4ced-b8f7-a8e5c48dd1ba">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>live in caves 穴者</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>live in caves 穴者</def>
+            </sense>
 <sense xml:id="uuid-df3c80c3-1749-4fd7-b217-3a4e24367437">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-9f39c671-0a8c-4564-b0ad-af7185eed7aa">attitudinal</tls:sem-feat></gramGrp>
-  <def>use as caves</def></sense>
+  <tls:sem-feat corresp="#uuid-9f39c671-0a8c-4564-b0ad-af7185eed7aa">attitudinal</tls:sem-feat>
+                </gramGrp>
+  <def>use as caves</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-2db8c86c-be03-435c-933a-f40e15b44ad9"><form corresp="#uuid-92bae2e9-c6f4-412d-b3e5-635fbe56d584">
-<orth>窟</orth><pron xml:lang="zh-Latn-x-pinyin">kū</pron><pron xml:lang="zh-x-oc">khluud</pron><pron xml:lang="zh-x-mc">khuot</pron></form>
+<entry type="word" xml:id="uuid-2db8c86c-be03-435c-933a-f40e15b44ad9">
+            <form corresp="#uuid-92bae2e9-c6f4-412d-b3e5-635fbe56d584">
+<orth>窟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kū</pron>
+                <pron xml:lang="zh-x-oc">khluud</pron>
+                <pron xml:lang="zh-x-mc">khuot</pron>
+            </form>
 <sense xml:id="uuid-a73deac3-ec38-4cd1-bfad-f0db058a0f85">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat></gramGrp>
-  <def>cave</def></sense>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                </gramGrp>
+  <def>cave</def>
+            </sense>
 <sense xml:id="uuid-c6b50ac9-fde1-40ac-bb89-36afece1f6f5">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat></gramGrp>
-  <def>in a cave; in caves (perhaps best read as a preposed object, though)</def></sense>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                </gramGrp>
+  <def>in a cave; in caves (perhaps best read as a preposed object, though)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-fddd5bdb-b2cf-4b4b-8e64-049d996f0081"><form corresp="#uuid-4036a1cc-c9d4-4692-a50a-1e8cd26a8c14 #uuid-92bae2e9-c6f4-412d-b3e5-635fbe56d584">
-<orth>山窟</orth><pron xml:lang="zh-Latn-x-pinyin">shān kū</pron><pron xml:lang="zh-x-oc">sreen khluud</pron><pron xml:lang="zh-x-mc">ʂɣɛn khuot</pron></form>
+<entry type="word" xml:id="uuid-fddd5bdb-b2cf-4b4b-8e64-049d996f0081">
+            <form corresp="#uuid-4036a1cc-c9d4-4692-a50a-1e8cd26a8c14 #uuid-92bae2e9-c6f4-412d-b3e5-635fbe56d584">
+<orth>山窟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shān kū</pron>
+                <pron xml:lang="zh-x-oc">sreen khluud</pron>
+                <pron xml:lang="zh-x-mc">ʂɣɛn khuot</pron>
+            </form>
 <sense xml:id="uuid-272c74d8-c5ce-4def-a767-f19e975ea1bb">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>mountain cave</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-6eb60914-56a1-4974-a05f-0566c4968ef3"><form corresp="#uuid-92bae2e9-c6f4-412d-b3e5-635fbe56d584 #uuid-a0608539-4c41-47a3-b318-520a612a7bf3">
-<orth>窟穴</orth><pron xml:lang="zh-Latn-x-pinyin">kū xué</pron><pron xml:lang="zh-x-oc">khluud ɢʷliiɡ</pron><pron xml:lang="zh-x-mc">khuot ɦet</pron></form>
-<sense xml:id="uuid-bd7cae89-923f-4628-9199-a10ac07f3456">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>a cave; caves of all kinds</def></sense>
-</entry></div></div>
+                </gramGrp>
+  <def>mountain cave</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-6eb60914-56a1-4974-a05f-0566c4968ef3">
+            <form corresp="#uuid-92bae2e9-c6f4-412d-b3e5-635fbe56d584 #uuid-a0608539-4c41-47a3-b318-520a612a7bf3">
+<orth>窟穴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kū xué</pron>
+                <pron xml:lang="zh-x-oc">khluud ɢʷliiɡ</pron>
+                <pron xml:lang="zh-x-mc">khuot ɦet</pron>
+            </form>
+<sense xml:id="uuid-bd7cae89-923f-4628-9199-a10ac07f3456">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>a cave; caves of all kinds</def>
+            </sense>
+</entry>
+    </div>
+</div>

@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-f170669d-cdeb-4b7d-811a-e32d9fa5a33e">
-<head>FEELING</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f170669d-cdeb-4b7d-811a-e32d9fa5a33e">
+<head>FEELING</head>
+    <list type="altnames">
 <item>EMOTION</item>
 <item>SENSATION</item>
 <item>SENSE</item>
@@ -8,16 +10,23 @@
 <item>FEELING</item>
 <item>SENTIMENT</item>
 <item>REACTION</item>
-<item>RESPONSE</item></list><list type="translations"><item xml:lang="zh">感情</item><item xml:lang="och">懷</item></list>
+<item>RESPONSE</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">感情</item>
+        <item xml:lang="och">懷</item>
+    </list>
 <div type="definition">
-<p>NATURAL REACTION IN one's MIND.</p></div>
+<p>NATURAL REACTION IN one's MIND.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for emotional states and feelings as well as attitudes is xīn 心.</p>
 <p>2. Qíng 情 refers specifically to one's real inner state, and one's basic essential feelings, one's essential emotional repertoire, also: one's instincts as opposed to one's aspirations mediated by reflection. [NB: We have no "love is a 情 " in classical Chinese, and neither do we have anything like "love is a 心 ".]</p>
 <p>3. Huái 懷 refers to a current emotional state or intensely felt attitude of any kind.</p>
 <p>4. Duān 端 is a philosophical term referring to a specific basic moral and emotional sensibility or instinct.</p>
-<p>See also FEEL</p></div>
+<p>See also FEEL</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>感情 is the general abstract word for emotions.</p>
 <p>情愫 refers emphatically to one's innermost feelings.</p>
@@ -34,71 +43,182 @@
 <p>心得</p>
 <p>激情</p>
 <p>感激 feeling of gratitude, marginal in the group.</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
 <div type="old-chinese-contrasts">
 <p>《逸周書官人解》：民有五氣，喜、怒、欲、懼、憂。</p>
-<p>Michelle Rosaldo: "Feelings are embodied thoughts, steeped with the apprehension 'I am involved'"</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-58343a1a-8cf0-4be2-a65d-c8e4f9392722">ANGER</ref></item>
-<item><ref target="#uuid-21ebf3ea-9dad-4d42-a418-52a70056ca06">CONFUSED</ref></item>
-<item><ref target="#uuid-1c7bf322-c905-41e0-9145-7d4b01da86a1">DELIGHT</ref></item>
-<item><ref target="#uuid-6b4424f4-b853-49e8-a3f4-a53969e93564">DESIRE</ref></item>
-<item><ref target="#uuid-02cd789e-eb94-43e6-abd9-4961d192210a">DISSATISFIED</ref></item>
-<item><ref target="#uuid-3f421246-b7ee-4295-9e78-7e1c5a583ab5">DISTRESS</ref></item>
-<item><ref target="#uuid-8ab808df-97f3-40fd-9b35-a9fc0a7aee53">FEAR</ref></item>
-<item><ref target="#uuid-42056888-4ede-4f26-adb1-3702567a9486">SURPRISED</ref></item>
-<item><ref target="#uuid-78ca5698-e5df-4086-8c4f-68c94698662e">MOOD</ref></item>
-<item><ref target="#uuid-fb5a116b-15b0-4b1d-9b33-86da6b048d25">SENTIMENTAL</ref></item>
-<item><ref target="#uuid-387eed32-5d90-48c1-a537-c77ac5444eac">BOREDOM</ref></item>
-<item><ref target="#uuid-d262cbe7-2ebb-426c-9f60-b2ae83b53ec4">DISGUST</ref></item>
-<item><ref target="#uuid-813fa6fd-c5f0-46ab-83d5-5b412bfd71e0">SUBCONSCIOUS</ref></item>
-<item><ref target="#uuid-2b1dff68-18c9-4ea1-a33b-7d9aadb74556">PASSION</ref></item>
-<item><ref target="#uuid-aa892f1d-6bd5-48b3-8a5b-e90377c5eefb">SOCIAL EMOTION</ref></item>
-<item><ref target="#uuid-39716f0d-ab68-4d17-9624-a6a369f691e3">INDIFFERENT</ref></item></list><list type="antonymy">
-<item><ref target="#uuid-e5801a73-4e38-4280-97cd-12d91ada17c6">PEACEFUL</ref></item></list><list type="see">
-<item><ref target="#uuid-c26fec6d-5ca6-4692-afb7-d104df41b7a5">PERCEIVE</ref></item>
-<item><ref target="#uuid-493c2644-5dda-4f7b-9ae5-8665715a0fea">AWARE</ref></item>
-<item><ref target="#uuid-298d9710-caa5-43f5-a9f7-85ca84e7815c">LOVE</ref></item>
-<item><ref target="#uuid-4d8242a6-9753-4ee4-994b-a3b01b8173c4">ATTITUDE</ref></item>
-<item><ref target="#uuid-1f8d86d4-83bd-4713-8936-fdd2916f040b">SHY</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-d8d2ba5d-5717-474c-bee4-ce8b2fbcf184">APRESJAN 2000</ref>
-<title>Systematic Lexicography</title><biblScope unit="page">203-214</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">16.12</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">16.13</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-c6a5120d-a888-44ce-b517-b0cbba82518a">CASSIN 2004</ref>
-<title>Vocabulaire européen des philosophies. Dictionnaire des intraduisibles</title><biblScope unit="page">445</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-c6a5120d-a888-44ce-b517-b0cbba82518a">CASSIN 2004</ref>
-<title>Vocabulaire européen des philosophies. Dictionnaire des intraduisibles</title><biblScope unit="page">475</biblScope><note>
-<p>GEFUEHL</p></note></bibl>
-<bibl><ref target="#uuid-c6a5120d-a888-44ce-b517-b0cbba82518a">CASSIN 2004</ref>
-<title>Vocabulaire européen des philosophies. Dictionnaire des intraduisibles</title><biblScope unit="page">901</biblScope><note>
+<p>Michelle Rosaldo: "Feelings are embodied thoughts, steeped with the apprehension 'I am involved'"</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-58343a1a-8cf0-4be2-a65d-c8e4f9392722">ANGER</ref>
+            </item>
+<item>
+                <ref target="#uuid-21ebf3ea-9dad-4d42-a418-52a70056ca06">CONFUSED</ref>
+            </item>
+<item>
+                <ref target="#uuid-1c7bf322-c905-41e0-9145-7d4b01da86a1">DELIGHT</ref>
+            </item>
+<item>
+                <ref target="#uuid-6b4424f4-b853-49e8-a3f4-a53969e93564">DESIRE</ref>
+            </item>
+<item>
+                <ref target="#uuid-02cd789e-eb94-43e6-abd9-4961d192210a">DISSATISFIED</ref>
+            </item>
+<item>
+                <ref target="#uuid-3f421246-b7ee-4295-9e78-7e1c5a583ab5">DISTRESS</ref>
+            </item>
+<item>
+                <ref target="#uuid-8ab808df-97f3-40fd-9b35-a9fc0a7aee53">FEAR</ref>
+            </item>
+<item>
+                <ref target="#uuid-42056888-4ede-4f26-adb1-3702567a9486">SURPRISED</ref>
+            </item>
+<item>
+                <ref target="#uuid-78ca5698-e5df-4086-8c4f-68c94698662e">MOOD</ref>
+            </item>
+<item>
+                <ref target="#uuid-fb5a116b-15b0-4b1d-9b33-86da6b048d25">SENTIMENTAL</ref>
+            </item>
+<item>
+                <ref target="#uuid-387eed32-5d90-48c1-a537-c77ac5444eac">BOREDOM</ref>
+            </item>
+<item>
+                <ref target="#uuid-d262cbe7-2ebb-426c-9f60-b2ae83b53ec4">DISGUST</ref>
+            </item>
+<item>
+                <ref target="#uuid-813fa6fd-c5f0-46ab-83d5-5b412bfd71e0">SUBCONSCIOUS</ref>
+            </item>
+<item>
+                <ref target="#uuid-2b1dff68-18c9-4ea1-a33b-7d9aadb74556">PASSION</ref>
+            </item>
+<item>
+                <ref target="#uuid-aa892f1d-6bd5-48b3-8a5b-e90377c5eefb">SOCIAL EMOTION</ref>
+            </item>
+<item>
+                <ref target="#uuid-39716f0d-ab68-4d17-9624-a6a369f691e3">INDIFFERENT</ref>
+            </item>
+        </list>
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-e5801a73-4e38-4280-97cd-12d91ada17c6">PEACEFUL</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-c26fec6d-5ca6-4692-afb7-d104df41b7a5">PERCEIVE</ref>
+            </item>
+<item>
+                <ref target="#uuid-493c2644-5dda-4f7b-9ae5-8665715a0fea">AWARE</ref>
+            </item>
+<item>
+                <ref target="#uuid-298d9710-caa5-43f5-a9f7-85ca84e7815c">LOVE</ref>
+            </item>
+<item>
+                <ref target="#uuid-4d8242a6-9753-4ee4-994b-a3b01b8173c4">ATTITUDE</ref>
+            </item>
+<item>
+                <ref target="#uuid-1f8d86d4-83bd-4713-8936-fdd2916f040b">SHY</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-d8d2ba5d-5717-474c-bee4-ce8b2fbcf184">APRESJAN 2000</ref>
+<title>Systematic Lexicography</title>
+                <biblScope unit="page">203-214</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">16.12</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">16.13</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-c6a5120d-a888-44ce-b517-b0cbba82518a">CASSIN 2004</ref>
+<title>Vocabulaire européen des philosophies. Dictionnaire des intraduisibles</title>
+                <biblScope unit="page">445</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-c6a5120d-a888-44ce-b517-b0cbba82518a">CASSIN 2004</ref>
+<title>Vocabulaire européen des philosophies. Dictionnaire des intraduisibles</title>
+                <biblScope unit="page">475</biblScope>
+                <note>
+<p>GEFUEHL</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-c6a5120d-a888-44ce-b517-b0cbba82518a">CASSIN 2004</ref>
+<title>Vocabulaire européen des philosophies. Dictionnaire des intraduisibles</title>
+                <biblScope unit="page">901</biblScope>
+                <note>
 <p>PATHOS</p>
-<p>PASSION</p></note></bibl>
-<bibl><ref target="#uuid-6b8242ce-9fc6-4b7b-bd52-14c744308409">COMENIUS 1665</ref>
-<title>De Rerum Humanarum Emendatione</title><biblScope unit="page">457</biblScope><note>
+<p>PASSION</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b8242ce-9fc6-4b7b-bd52-14c744308409">COMENIUS 1665</ref>
+<title>De Rerum Humanarum Emendatione</title>
+                <biblScope unit="page">457</biblScope>
+                <note>
 <p>AFFECTUS animi est ejus a sensu rerum commoti talis vel talis passio. Origo itaqve ejus semper est a sensu, seu externo, seu interno hoc est imaginatione....</p>
-<p>Detailed discussion and analysis.</p></note></bibl>
-<bibl><ref target="#uuid-936e028f-6fd8-42bc-af40-fe5797c61174">DARWIN 1998</ref>
-<title>The Expression of the Emotions in Man and Animals</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-8cb326b1-a39e-404f-9ed5-01abc8ea6c18">DONG DANIAN 1998</ref>
-<title>現代漢語分類詞典 Xiandai hanyu fenlei cidian</title><biblScope unit="page">F70: 375</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-7dfadb14-72b5-4373-b0fc-e11fb7d2182e">EBERHARD 1853</ref>
-<title>Deutsche Synonymik</title><biblScope unit="page">291</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-f025fa77-c57c-48ca-bf65-54f022f861f7">HAMA 1986</ref>
-<title>Analysis of Chinese Emotional Words</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-8ee30d31-dbb4-4849-8d49-2aa25c81118f">LAFAYE 1884</ref>
-<title>Dictionnaire des synonymes de la langue francaise. Avec une introduction sur la theorie des synonymes.</title><biblScope unit="page">172</biblScope><note>
+<p>Detailed discussion and analysis.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-936e028f-6fd8-42bc-af40-fe5797c61174">DARWIN 1998</ref>
+<title>The Expression of the Emotions in Man and Animals</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-8cb326b1-a39e-404f-9ed5-01abc8ea6c18">DONG DANIAN 1998</ref>
+<title>現代漢語分類詞典 Xiandai hanyu fenlei cidian</title>
+                <biblScope unit="page">F70: 375</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-7dfadb14-72b5-4373-b0fc-e11fb7d2182e">EBERHARD 1853</ref>
+<title>Deutsche Synonymik</title>
+                <biblScope unit="page">291</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-f025fa77-c57c-48ca-bf65-54f022f861f7">HAMA 1986</ref>
+<title>Analysis of Chinese Emotional Words</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-8ee30d31-dbb4-4849-8d49-2aa25c81118f">LAFAYE 1884</ref>
+<title>Dictionnaire des synonymes de la langue francaise. Avec une introduction sur la theorie des synonymes.</title>
+                <biblScope unit="page">172</biblScope>
+                <note>
 <p>Lafaye distinguishes between "sensation" and "sentiment".  </p>
 <p>1. Objects cause (pleasant or unpleasant) "sensations", and the soul, as a result, is subject to "sentiments".</p>
 <p>2. "Sensations" are often moentary, or at least transitory, "sentiments" are  construed as permanent or at least lasting.</p>
@@ -111,261 +231,573 @@
 <p>Interestingly, Lafaye does not deal with "passion", which is intensitive.</p>
 <p/>
 <p>See also p. 170:</p>
-<p>"Emoi" is the inner movement of the soul, "emotion" focusses more on the physiological than on the purely affective side.</p></note></bibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><biblScope unit="page">30</biblScope><note>
+<p>"Emoi" is the inner movement of the soul, "emotion" focusses more on the physiological than on the purely affective side.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <biblScope unit="page">30</biblScope>
+                <note>
 <p>AFFECTUS</p>
-<p>Current words in Latin are motus, commotio, perturbatio.</p></note></bibl>
-<bibl><ref target="#uuid-f2c59ecb-bbff-4004-8e45-5fc7f92ed0da">Mel'cuk 1984</ref>
-<title>Tolkovo-kombinatornyj slovar' sovremmenogo russkogo jazyka. Explanatory Combinatorial Dictionary of Modern Russian</title><biblScope unit="page">958</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
-<title>Dictionnaire culturel en langue francaise</title><biblScope unit="page">4.714</biblScope><note>
-<p>SENTIMENT ET SENSIBILITE</p></note></bibl>
-<bibl><ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
-<title>Historisches Woerterbuch der Philosophie</title><biblScope unit="page">3.265</biblScope><note>
-<p>GEFUEHLSBEWEGUNG</p></note></bibl>
-<bibl><ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
-<title>Historisches Woerterbuch der Philosophie</title><biblScope unit="page">3.82</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-17cf82c4-47a0-48b6-b4c8-bbaf9acda72e">UEDING 1992ff</ref>
-<title>Historisches Woerterbuch der Rhetorik</title><biblScope unit="page">1.218</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-e3cd2631-2db9-43d5-bf95-08ef4a75ad08">WIERZBICKA 1999</ref>
-<title>Emotions across Languages and Cultures</title><biblScope unit="page">49-122</biblScope><note>
-<p>&gt;different nuances for words for FEELING in different languages.</p></note></bibl>
-<bibl><ref target="#uuid-dadb7da5-7385-4287-a787-feb2b868f358">WONG 1969</ref>
-<title>"Ch'ing" in Chinese Literary Criticism</title><note>
-<p>情</p></note></bibl>
-<bibl><ref target="#uuid-5b9ff356-3696-4cac-8669-ad8277c13004">ZHANG DAINIAN 2002</ref>
-<title>Key Concepts in Chinese Philosophy</title><biblScope unit="page">383</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
-<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title><biblScope unit="page">80</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
-<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title><biblScope unit="page">229ff</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-5ce0966c-bede-4b75-8581-ccd70e9e10dc">HSU 2010</ref>
-<title>Pulse Diagnosis in Early Chinese Medicine</title><biblScope unit="page">394</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
-<title>Chinese Synonyms Usage Dictionary</title><biblScope unit="page">130</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
-<title>Chinese Synonyms Usage Dictionary</title><biblScope unit="page">437</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-84794d2b-7cda-4170-b269-75bb469fb015">DAVID HUME 2007</ref>
-<title>A Dissertation on the Passions</title><biblScope unit="page">205FF</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-55346dd4-de2a-46ce-a93f-ce0f27d001a5">BORCHERT 2005</ref>
-<title>The Encyclopedia of Philosophy</title><note>
-<p>EMOTION</p></note></bibl>
-<bibl><ref target="#uuid-574fc47b-68e2-4f99-a5c9-692ef8338357">BROWN 2005</ref>
-<title>Encyclopedia of Language and Linguistics. Second Edition</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-4859e973-e1d7-4fd6-90cd-7b91d2a9cb6f">BARCK 2010</ref>
-<title>Ästhetische Grundbegriffe</title><biblScope unit="page">2.629</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-4859e973-e1d7-4fd6-90cd-7b91d2a9cb6f">BARCK 2010</ref>
-<title>Ästhetische Grundbegriffe</title><biblScope unit="page">1.16</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-2248ec05-a402-4818-b716-c92e06bc38b3">LUTZ 1988</ref>
-<title>Unnatural emotions</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-a85f68b9-e179-45ec-8ffd-a91520f9c38c">LE BRETON 1998</ref>
-<title>Les passions ordinaires Collection Chemins de traverse</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-13b8c22a-fe16-4ea1-aa90-86814381e229">HOROWITZ 2005</ref>
-<title>New Dictiornary of the History of Ideas, 6 vols.</title><note>
-<p>EMOTIONS</p></note></bibl>
-<bibl><ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
-<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title><biblScope unit="page">44B</biblScope><note>
-<p>AFFEKT</p></note></bibl>
-<bibl><ref target="#uuid-dd880ef8-7a84-4159-b910-4eac902c9273">ROBERTS 1998</ref>
-<title>Encyclopedia of Comparative Iconography</title><biblScope unit="page">411</biblScope><note>
-<p>HUMOURS</p></note></bibl></listBibl></div>
+<p>Current words in Latin are motus, commotio, perturbatio.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-f2c59ecb-bbff-4004-8e45-5fc7f92ed0da">Mel'cuk 1984</ref>
+<title>Tolkovo-kombinatornyj slovar' sovremmenogo russkogo jazyka. Explanatory Combinatorial Dictionary of Modern Russian</title>
+                <biblScope unit="page">958</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
+<title>Dictionnaire culturel en langue francaise</title>
+                <biblScope unit="page">4.714</biblScope>
+                <note>
+<p>SENTIMENT ET SENSIBILITE</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
+<title>Historisches Woerterbuch der Philosophie</title>
+                <biblScope unit="page">3.265</biblScope>
+                <note>
+<p>GEFUEHLSBEWEGUNG</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
+<title>Historisches Woerterbuch der Philosophie</title>
+                <biblScope unit="page">3.82</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-17cf82c4-47a0-48b6-b4c8-bbaf9acda72e">UEDING 1992ff</ref>
+<title>Historisches Woerterbuch der Rhetorik</title>
+                <biblScope unit="page">1.218</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-e3cd2631-2db9-43d5-bf95-08ef4a75ad08">WIERZBICKA 1999</ref>
+<title>Emotions across Languages and Cultures</title>
+                <biblScope unit="page">49-122</biblScope>
+                <note>
+<p>&gt;different nuances for words for FEELING in different languages.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-dadb7da5-7385-4287-a787-feb2b868f358">WONG 1969</ref>
+<title>"Ch'ing" in Chinese Literary Criticism</title>
+                <note>
+<p>情</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-5b9ff356-3696-4cac-8669-ad8277c13004">ZHANG DAINIAN 2002</ref>
+<title>Key Concepts in Chinese Philosophy</title>
+                <biblScope unit="page">383</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
+<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title>
+                <biblScope unit="page">80</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
+<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title>
+                <biblScope unit="page">229ff</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-5ce0966c-bede-4b75-8581-ccd70e9e10dc">HSU 2010</ref>
+<title>Pulse Diagnosis in Early Chinese Medicine</title>
+                <biblScope unit="page">394</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
+<title>Chinese Synonyms Usage Dictionary</title>
+                <biblScope unit="page">130</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
+<title>Chinese Synonyms Usage Dictionary</title>
+                <biblScope unit="page">437</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-84794d2b-7cda-4170-b269-75bb469fb015">DAVID HUME 2007</ref>
+<title>A Dissertation on the Passions</title>
+                <biblScope unit="page">205FF</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-55346dd4-de2a-46ce-a93f-ce0f27d001a5">BORCHERT 2005</ref>
+<title>The Encyclopedia of Philosophy</title>
+                <note>
+<p>EMOTION</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-574fc47b-68e2-4f99-a5c9-692ef8338357">BROWN 2005</ref>
+<title>Encyclopedia of Language and Linguistics. Second Edition</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-4859e973-e1d7-4fd6-90cd-7b91d2a9cb6f">BARCK 2010</ref>
+<title>Ästhetische Grundbegriffe</title>
+                <biblScope unit="page">2.629</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-4859e973-e1d7-4fd6-90cd-7b91d2a9cb6f">BARCK 2010</ref>
+<title>Ästhetische Grundbegriffe</title>
+                <biblScope unit="page">1.16</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-2248ec05-a402-4818-b716-c92e06bc38b3">LUTZ 1988</ref>
+<title>Unnatural emotions</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-a85f68b9-e179-45ec-8ffd-a91520f9c38c">LE BRETON 1998</ref>
+<title>Les passions ordinaires Collection Chemins de traverse</title>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-13b8c22a-fe16-4ea1-aa90-86814381e229">HOROWITZ 2005</ref>
+<title>New Dictiornary of the History of Ideas, 6 vols.</title>
+                <note>
+<p>EMOTIONS</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
+<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title>
+                <biblScope unit="page">44B</biblScope>
+                <note>
+<p>AFFEKT</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-dd880ef8-7a84-4159-b910-4eac902c9273">ROBERTS 1998</ref>
+<title>Encyclopedia of Comparative Iconography</title>
+                <biblScope unit="page">411</biblScope>
+                <note>
+<p>HUMOURS</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-b25d0405-74aa-4440-a5a2-aa2d061dc726"><form corresp="#uuid-8a9907df-7760-4d14-859c-159d12628480">
-<orth>心</orth><pron xml:lang="zh-Latn-x-pinyin">xīn</pron><pron xml:lang="zh-x-oc">slɯm</pron><pron xml:lang="zh-x-mc">sim</pron></form>
+<entry type="word" xml:id="uuid-b25d0405-74aa-4440-a5a2-aa2d061dc726">
+            <form corresp="#uuid-8a9907df-7760-4d14-859c-159d12628480">
+<orth>心</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīn</pron>
+                <pron xml:lang="zh-x-oc">slɯm</pron>
+                <pron xml:lang="zh-x-mc">sim</pron>
+            </form>
+            <def>The current general word for emotional states and feelings as well as attitudes is xīn 心.</def>
 <sense xml:id="uuid-09cc17ce-2679-40a6-a520-51af547f41a3">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-3089d27c-a8a0-4ba1-a3ae-5cd513e4f523">nab.t:post-N</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>sense for N; mind capable of recognizing things or phenomena</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>sense for N; mind capable of recognizing things or phenomena</def>
+            </sense>
 <sense xml:id="uuid-623a82f8-6169-4fe8-98eb-6d1f1cc25236">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>feelings</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>feelings</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-14c572d4-cad4-4dc0-a8c2-5c296692a6b4"><form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
-<orth>情</orth><pron xml:lang="zh-Latn-x-pinyin">qíng</pron><pron xml:lang="zh-x-oc">dzeŋ</pron><pron xml:lang="zh-x-mc">dziɛŋ</pron><listBibl>
-<bibl><ref target="#uuid-9bf5730d-dd51-4d40-aa66-e0f9933facd0">JIANG LIANGFU 2000</ref>
-<title>楚辭通故</title><biblScope unit="page">2.348</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-14c572d4-cad4-4dc0-a8c2-5c296692a6b4">
+            <form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
+<orth>情</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qíng</pron>
+                <pron xml:lang="zh-x-oc">dzeŋ</pron>
+                <pron xml:lang="zh-x-mc">dziɛŋ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9bf5730d-dd51-4d40-aa66-e0f9933facd0">JIANG LIANGFU 2000</ref>
+<title>楚辭通故</title>
+                        <biblScope unit="page">2.348</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Qíng 情 refers specifically to one's real inner state, and one's basic essential feelings, one's essential emotional repertoire, and we have no more "love is a 情" in classical Chinese than "love is a 心".</def>
 <sense xml:id="uuid-d11e3879-1b11-4875-81e1-b2a4989b51db">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp>
-  <def>emotionally, in one's feelings, with one's heart</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+  <def>emotionally, in one's feelings, with one's heart</def>
+            </sense>
 <sense xml:id="uuid-89afed87-b0b6-4a69-9d49-9fbc443ac6a9">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp>
-  <def>the feeling defined as N</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+  <def>the feeling defined as N</def>
+            </sense>
 <sense xml:id="uuid-93d1c3ab-2a85-472a-9678-cf1c360cb330">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a83c5ff7-f773-421d-b814-f161c6c50be8">nab.post-V{NUM}</tls:syn-func></gramGrp>
-  <def>feelings 六情</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a83c5ff7-f773-421d-b814-f161c6c50be8">nab.post-V{NUM}</tls:syn-func>
+                </gramGrp>
+  <def>feelings 六情</def>
+            </sense>
 <sense xml:id="uuid-bffda197-c6bb-4a87-80d9-6ce0b8512123">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>real inner state; innermost feelings; real inner feelings; basic feelings;  basic loyalties; sentiment</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>real inner state; innermost feelings; real inner feelings; basic feelings;  basic loyalties; sentiment</def>
+            </sense>
 <sense xml:id="uuid-a006403d-74ab-4efa-ab96-56f087c57b47">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f753c713-66c4-439e-8792-b4e2d123238a">current</tls:sem-feat></gramGrp>
-  <def>current emotional state, current feelings</def></sense>
+  <tls:sem-feat corresp="#uuid-f753c713-66c4-439e-8792-b4e2d123238a">current</tls:sem-feat>
+                </gramGrp>
+  <def>current emotional state, current feelings</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e4f28523-04f6-454c-9ec7-509053aa7bcb"><form corresp="#uuid-b73a81c5-7d28-4d6d-9f80-7bd91f200022">
-<orth>懷</orth><pron xml:lang="zh-Latn-x-pinyin">huái</pron><pron xml:lang="zh-x-oc">ɡruul</pron><pron xml:lang="zh-x-mc">ɦɣɛi</pron></form>
+<entry type="word" xml:id="uuid-e4f28523-04f6-454c-9ec7-509053aa7bcb">
+            <form corresp="#uuid-b73a81c5-7d28-4d6d-9f80-7bd91f200022">
+<orth>懷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huái</pron>
+                <pron xml:lang="zh-x-oc">ɡruul</pron>
+                <pron xml:lang="zh-x-mc">ɦɣɛi</pron>
+            </form>
+            <def>Huái 懷 refers to a current emotional state or attitude of any kind.</def>
 <sense xml:id="uuid-5ab2fd9c-d46e-4d1f-ae32-da45dd7617fa">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>current emotional attitude or emotional state; emotional attachments;  attitudes and sympathies</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>current emotional attitude or emotional state; emotional attachments;  attitudes and sympathies</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-f59e0491-0105-4bca-9e59-0b6d412efbac"><form corresp="#uuid-b0f78e9d-8436-4cbe-a110-9a39cac62d04">
-<orth>端</orth><pron xml:lang="zh-Latn-x-pinyin">duān</pron><pron xml:lang="zh-x-oc">toon</pron><pron xml:lang="zh-x-mc">tʷɑn</pron></form>
+<entry type="word" xml:id="uuid-f59e0491-0105-4bca-9e59-0b6d412efbac">
+            <form corresp="#uuid-b0f78e9d-8436-4cbe-a110-9a39cac62d04">
+<orth>端</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">duān</pron>
+                <pron xml:lang="zh-x-oc">toon</pron>
+                <pron xml:lang="zh-x-mc">tʷɑn</pron>
+            </form>
+            <def>Duān 端 is a philosophical term referring to a specific or individualised basic moral and emotional sensibility or instinct.</def>
 <sense xml:id="uuid-c7028839-c9c7-415c-a0ba-01e9702877a0">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>basic impulse, basic motivation</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>basic impulse, basic motivation</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-d0ef8f83-6f0b-4cec-9750-a368ce7d56fb"><form corresp="#uuid-747d5e78-deb0-4f2e-bcff-25b7db70a9af">
-<orth>質</orth><pron xml:lang="zh-Latn-x-pinyin">zhì</pron><pron xml:lang="zh-x-oc">tjid</pron><pron xml:lang="zh-x-mc">tɕit</pron></form>
+<entry type="word" xml:id="uuid-d0ef8f83-6f0b-4cec-9750-a368ce7d56fb">
+            <form corresp="#uuid-747d5e78-deb0-4f2e-bcff-25b7db70a9af">
+<orth>質</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì</pron>
+                <pron xml:lang="zh-x-oc">tjid</pron>
+                <pron xml:lang="zh-x-mc">tɕit</pron>
+            </form>
 <sense xml:id="uuid-2a04cb58-70ee-48af-b9d0-d1cd33f8fa36">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>substantial feelings, basic attitudes (which identify one as the person one is)</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>substantial feelings, basic attitudes (which identify one as the person one is)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8862d401-3a3e-427a-a044-bb4d29df2518"><form corresp="#uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
-<orth>中情</orth><pron xml:lang="zh-Latn-x-pinyin">zhōng qíng</pron><pron xml:lang="zh-x-oc">krluŋ dzeŋ</pron><pron xml:lang="zh-x-mc">ʈuŋ dziɛŋ</pron><ptr type="compound-id-ref" target="#uuid-d103db27-1fa8-4d2f-8e72-5403b4aee6fc"/></form>
+<entry type="word" xml:id="uuid-8862d401-3a3e-427a-a044-bb4d29df2518">
+            <form corresp="#uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
+<orth>中情</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōng qíng</pron>
+                <pron xml:lang="zh-x-oc">krluŋ dzeŋ</pron>
+                <pron xml:lang="zh-x-mc">ʈuŋ dziɛŋ</pron>
+                <ptr type="compound-id-ref" target="#uuid-d103db27-1fa8-4d2f-8e72-5403b4aee6fc"/>
+            </form>
 <sense xml:id="uuid-4d54cc10-81e5-4959-8b68-6fd8e94423d4">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>real underlying attitude; innermost genuine feelings</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>real underlying attitude; innermost genuine feelings</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-80894e21-867c-4fba-8deb-93e312dc502d"><form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
-<orth>人情</orth><pron xml:lang="zh-Latn-x-pinyin">rén qíng</pron><pron xml:lang="zh-x-oc">njin dzeŋ</pron><pron xml:lang="zh-x-mc">ȵin dziɛŋ</pron><ptr type="compound-id-ref" target="#uuid-ec0bb03f-86c0-4e4b-a7cc-f95721a4ed7a"/></form>
+<entry type="word" xml:id="uuid-80894e21-867c-4fba-8deb-93e312dc502d">
+            <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
+<orth>人情</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rén qíng</pron>
+                <pron xml:lang="zh-x-oc">njin dzeŋ</pron>
+                <pron xml:lang="zh-x-mc">ȵin dziɛŋ</pron>
+                <ptr type="compound-id-ref" target="#uuid-ec0bb03f-86c0-4e4b-a7cc-f95721a4ed7a"/>
+            </form>
 <sense xml:id="uuid-eadd2db7-e005-4868-b024-bd4ba9f27710">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp>
-  <def>human feelings in general</def></sense>
+  <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+  <def>human feelings in general</def>
+            </sense>
 <sense xml:id="uuid-6987e4a6-4481-4548-a3ac-aaca5ed1518c">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>human feelings (often definite: the human feelings); real ways of thinking (of a given person or persons); (sometimes general:) public opinion, (even:) public demand</def></sense>
+  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>human feelings (often definite: the human feelings); real ways of thinking (of a given person or persons); (sometimes general:) public opinion, (even:) public demand</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-f077df71-fac2-4f08-a85a-1aece01f0164"><form corresp="#uuid-14eb1c4c-fc7f-4c56-81b9-8f3321ffa7e1 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
-<orth>六情</orth><pron xml:lang="zh-Latn-x-pinyin">liù qíng</pron><pron xml:lang="zh-x-oc">ɡ-ruɡ dzeŋ</pron><pron xml:lang="zh-x-mc">luk dziɛŋ</pron></form>
+<entry type="word" xml:id="uuid-f077df71-fac2-4f08-a85a-1aece01f0164">
+            <form corresp="#uuid-14eb1c4c-fc7f-4c56-81b9-8f3321ffa7e1 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
+<orth>六情</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liù qíng</pron>
+                <pron xml:lang="zh-x-oc">ɡ-ruɡ dzeŋ</pron>
+                <pron xml:lang="zh-x-mc">luk dziɛŋ</pron>
+            </form>
 <sense xml:id="uuid-0488fb6c-cf88-4bd9-bda9-8edccb66f7b7">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp>
-  <def>six basic emotions; six natural emotional tendencies</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+  <def>six basic emotions; six natural emotional tendencies</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-fcee2ead-2a5b-4f91-99c1-8001b2ffd26d"><form corresp="#uuid-8a9907df-7760-4d14-859c-159d12628480 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
-<orth>心情</orth><pron xml:lang="zh-Latn-x-pinyin">xīn qíng</pron><pron xml:lang="zh-x-oc">slɯm dzeŋ</pron><pron xml:lang="zh-x-mc">sim dziɛŋ</pron></form>
+<entry type="word" xml:id="uuid-fcee2ead-2a5b-4f91-99c1-8001b2ffd26d">
+            <form corresp="#uuid-8a9907df-7760-4d14-859c-159d12628480 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
+<orth>心情</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīn qíng</pron>
+                <pron xml:lang="zh-x-oc">slɯm dzeŋ</pron>
+                <pron xml:lang="zh-x-mc">sim dziɛŋ</pron>
+            </form>
 <sense xml:id="uuid-8a7d006d-c512-419a-bf98-c7be6b3b135c">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>feelings</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>feelings</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-797c048a-b660-4e56-90a1-ad1dd72581e6"><form corresp="#uuid-8a9907df-7760-4d14-859c-159d12628480 #uuid-b73a81c5-7d28-4d6d-9f80-7bd91f200022">
-<orth>心懷</orth><pron xml:lang="zh-Latn-x-pinyin">xīn huái</pron><pron xml:lang="zh-x-oc">slɯm ɡruul</pron><pron xml:lang="zh-x-mc">sim ɦɣɛi</pron></form>
+<entry type="word" xml:id="uuid-797c048a-b660-4e56-90a1-ad1dd72581e6">
+            <form corresp="#uuid-8a9907df-7760-4d14-859c-159d12628480 #uuid-b73a81c5-7d28-4d6d-9f80-7bd91f200022">
+<orth>心懷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīn huái</pron>
+                <pron xml:lang="zh-x-oc">slɯm ɡruul</pron>
+                <pron xml:lang="zh-x-mc">sim ɦɣɛi</pron>
+            </form>
 <sense xml:id="uuid-38933288-7cbe-44c5-a322-9c17e461eb03">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>emotional state</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>emotional state</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-08c85032-88de-48e1-8017-c6dee913f6d5"><form corresp="#uuid-b35ed81d-13c6-4bf0-86f7-e06b2def8d88 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
-<orth>性情</orth><pron xml:lang="zh-Latn-x-pinyin">xìng qíng</pron><pron xml:lang="zh-x-oc">seŋs dzeŋ</pron><pron xml:lang="zh-x-mc">siɛŋ dziɛŋ</pron></form>
+<entry type="word" xml:id="uuid-08c85032-88de-48e1-8017-c6dee913f6d5">
+            <form corresp="#uuid-b35ed81d-13c6-4bf0-86f7-e06b2def8d88 #uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
+<orth>性情</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xìng qíng</pron>
+                <pron xml:lang="zh-x-oc">seŋs dzeŋ</pron>
+                <pron xml:lang="zh-x-mc">siɛŋ dziɛŋ</pron>
+            </form>
 <sense xml:id="uuid-6c50e5da-d96d-4251-ba29-9e199e4245f5">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>natural feelings; basic feelings that are the result of one's inborn nature</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>natural feelings; basic feelings that are the result of one's inborn nature</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-2f59b2e6-765f-468c-8923-b87f4002df6e"><form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb #uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4">
-<orth>情感</orth><pron xml:lang="zh-Latn-x-pinyin">qíng gǎn</pron><pron xml:lang="zh-x-oc">dzeŋ koomʔ</pron><pron xml:lang="zh-x-mc">dziɛŋ kəm</pron></form>
+<entry type="word" xml:id="uuid-2f59b2e6-765f-468c-8923-b87f4002df6e">
+            <form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb #uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4">
+<orth>情感</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qíng gǎn</pron>
+                <pron xml:lang="zh-x-oc">dzeŋ koomʔ</pron>
+                <pron xml:lang="zh-x-mc">dziɛŋ kəm</pron>
+            </form>
 <sense xml:id="uuid-02ee4050-6bfe-49f8-86e8-b054a2f9e5c4">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat></gramGrp>
-  <def>feelings; emtional excitement DC 2: 晉  陸雲 《與陸典書書》："且念親各爾分析，情感復結，悲嘆而已。" 唐  白居易 《庭槐》詩："人生有情感，遇物牽所思。"</def></sense>
+  <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
+                </gramGrp>
+  <def>feelings; emtional excitement DC 2: 晉  陸雲 《與陸典書書》："且念親各爾分析，情感復結，悲嘆而已。" 唐  白居易 《庭槐》詩："人生有情感，遇物牽所思。"</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5df1c878-f2f4-4ccb-aba3-cc10ce2f1125"><form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb #uuid-747d5e78-deb0-4f2e-bcff-25b7db70a9af">
-<orth>情質</orth><pron xml:lang="zh-Latn-x-pinyin">qíng zhì</pron><pron xml:lang="zh-x-oc">dzeŋ tjid</pron><pron xml:lang="zh-x-mc">dziɛŋ tɕit</pron></form>
+<entry type="word" xml:id="uuid-5df1c878-f2f4-4ccb-aba3-cc10ce2f1125">
+            <form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb #uuid-747d5e78-deb0-4f2e-bcff-25b7db70a9af">
+<orth>情質</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qíng zhì</pron>
+                <pron xml:lang="zh-x-oc">dzeŋ tjid</pron>
+                <pron xml:lang="zh-x-mc">dziɛŋ tɕit</pron>
+            </form>
 <sense xml:id="uuid-6893d2b6-a579-439e-bd82-549e7f3a047b">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>the very substance of one's real feelings</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>the very substance of one's real feelings</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e2671385-b697-4841-8a4e-3d38a7b75b41"><form corresp="#uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4 #uuid-b7be0ebb-3f71-4942-850c-3361b128a506">
-<orth>感念</orth><pron xml:lang="zh-Latn-x-pinyin">gǎn niàn</pron><pron xml:lang="zh-x-oc">koomʔ mɢlɯɯms</pron><pron xml:lang="zh-x-mc">kəm nem</pron></form>
+<entry type="word" xml:id="uuid-e2671385-b697-4841-8a4e-3d38a7b75b41">
+            <form corresp="#uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4 #uuid-b7be0ebb-3f71-4942-850c-3361b128a506">
+<orth>感念</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǎn niàn</pron>
+                <pron xml:lang="zh-x-oc">koomʔ mɢlɯɯms</pron>
+                <pron xml:lang="zh-x-mc">kəm nem</pron>
+            </form>
 <sense xml:id="uuid-55eb963a-410a-455b-a6da-c22deb0adc2b">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp>
-  <def>feel</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+  <def>feel</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-834f7771-5f2d-4e60-b53c-022e54c964ca"><form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800 #uuid-8a9907df-7760-4d14-859c-159d12628480">
-<orth>深心</orth><pron xml:lang="zh-Latn-x-pinyin">shēn xīn</pron><pron xml:lang="zh-x-oc">qhljum slɯm</pron><pron xml:lang="zh-x-mc">ɕim sim</pron></form>
+<entry type="word" xml:id="uuid-834f7771-5f2d-4e60-b53c-022e54c964ca">
+            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800 #uuid-8a9907df-7760-4d14-859c-159d12628480">
+<orth>深心</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn xīn</pron>
+                <pron xml:lang="zh-x-oc">qhljum slɯm</pron>
+                <pron xml:lang="zh-x-mc">ɕim sim</pron>
+            </form>
 <sense xml:id="uuid-40a19a5a-2aae-41e5-a030-d7975f786952">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>with deep feelings, deep-heartedly</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>with deep feelings, deep-heartedly</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-3dc991de-35e7-4a97-a159-22fc01dde5dd"><form corresp="#uuid-4099ae98-eafb-492c-976b-92e725ce4b02">
-<orth>義</orth><pron xml:lang="zh-Latn-x-pinyin">yì</pron><pron xml:lang="zh-x-oc">ŋrals</pron><pron xml:lang="zh-x-mc">ŋiɛ</pron></form>
+<entry type="word" xml:id="uuid-3dc991de-35e7-4a97-a159-22fc01dde5dd">
+            <form corresp="#uuid-4099ae98-eafb-492c-976b-92e725ce4b02">
+<orth>義</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì</pron>
+                <pron xml:lang="zh-x-oc">ŋrals</pron>
+                <pron xml:lang="zh-x-mc">ŋiɛ</pron>
+            </form>
 <sense xml:id="uuid-f17de3ff-a07b-494a-8ee8-ff99a26382e4">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>moral feelings for; moral and emotional attachment to 曹植: 親交義不薄 "moral attachment to relatives and friends was not superficial"</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>moral feelings for; moral and emotional attachment to 曹植: 親交義不薄 "moral attachment to relatives and friends was not superficial"</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-95fa1c65-f221-4461-954a-27cb27d4dd32"><form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd">
-<orth>氣</orth><pron xml:lang="zh-Latn-x-pinyin">qì</pron><pron xml:lang="zh-x-oc">khɯds</pron><pron xml:lang="zh-x-mc">khɨi</pron></form>
+<entry type="word" xml:id="uuid-95fa1c65-f221-4461-954a-27cb27d4dd32">
+            <form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd">
+<orth>氣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì</pron>
+                <pron xml:lang="zh-x-oc">khɯds</pron>
+                <pron xml:lang="zh-x-mc">khɨi</pron>
+            </form>
 <sense xml:id="uuid-c209737b-3c7a-4389-a988-ebc99a088eec">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>strongly felt acute feelings</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>strongly felt acute feelings</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1abaab56-7b76-42ec-9e64-a4b4ca9dc2de"><form corresp="#uuid-86e4a807-6fa6-4cba-82e7-b424cdf004e7">
-<orth>意</orth><pron xml:lang="zh-Latn-x-pinyin">yì</pron><pron xml:lang="zh-x-oc">qɯɡs</pron><pron xml:lang="zh-x-mc">ʔɨ</pron></form>
+<entry type="word" xml:id="uuid-1abaab56-7b76-42ec-9e64-a4b4ca9dc2de">
+            <form corresp="#uuid-86e4a807-6fa6-4cba-82e7-b424cdf004e7">
+<orth>意</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì</pron>
+                <pron xml:lang="zh-x-oc">qɯɡs</pron>
+                <pron xml:lang="zh-x-mc">ʔɨ</pron>
+            </form>
 <sense xml:id="uuid-163ab13c-a555-432c-8ab7-b3a149f31fb3">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>thoughtful concern</def></sense>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>thoughtful concern</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e5daaf3e-ac14-411e-89bf-23abebf3b7f2"><form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
-<orth>志</orth><pron xml:lang="zh-Latn-x-pinyin">zhì</pron><pron xml:lang="zh-x-oc">kljɯs</pron><pron xml:lang="zh-x-mc">tɕɨ</pron></form>
+<entry type="word" xml:id="uuid-e5daaf3e-ac14-411e-89bf-23abebf3b7f2">
+            <form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
+<orth>志</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì</pron>
+                <pron xml:lang="zh-x-oc">kljɯs</pron>
+                <pron xml:lang="zh-x-mc">tɕɨ</pron>
+            </form>
 <sense xml:id="uuid-5085b803-fffc-49f9-85b1-500692c87b48">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat></gramGrp>
-  <def>ZUO: feelings, what is basically on one's mind</def></sense>
+  <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat>
+                </gramGrp>
+  <def>ZUO: feelings, what is basically on one's mind</def>
+            </sense>
 <sense xml:id="uuid-10fa6ec1-89b7-4b5a-8000-5db1ce1f342c">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a83c5ff7-f773-421d-b814-f161c6c50be8">nab.post-V{NUM}</tls:syn-func></gramGrp>
-  <def/></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a83c5ff7-f773-421d-b814-f161c6c50be8">nab.post-V{NUM}</tls:syn-func>
+                </gramGrp>
+  <def/>
+            </sense>
+</entry>
+    </div>
+</div>

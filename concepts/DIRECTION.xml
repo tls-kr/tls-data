@@ -1,16 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-ff74f281-81b5-454e-974e-a2b5646d87db">
-<head>DIRECTION</head><list type="altnames">
-<item>DIMENSION</item></list><list type="translations"><item xml:lang="zh">方向</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ff74f281-81b5-454e-974e-a2b5646d87db">
+<head>DIRECTION</head>
+    <list type="altnames">
+<item>DIMENSION</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">方向</item>
+    </list>
 <div type="definition">
-<p>RELATION to OTHER PLACES.</p></div>
+<p>RELATION to OTHER PLACES.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general term for direction as defining a part of space is fāng 方.</p>
 <p>2. Xiāng 鄉 refers to a direction as seen from a subject.</p>
 <p>3. Dōng 東 "east", nán 南 "south", xī 西 "west", běi 北 are the major directions.</p>
 <p>4. Yáng 陽 refers to the area north of a river and south of a mountain.</p>
-<p>5. Yīn 陰 refers to the area south of a river and north of a mountain.</p></div>
+<p>5. Yīn 陰 refers to the area south of a river and north of a mountain.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>方向</p>
 <p>方位</p>
@@ -25,372 +33,744 @@
 <p>風向</p>
 <p>潮向</p>
 <p>山向 refers to the direction a tomb faces.</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-9db09585-7114-44e5-bd6a-600131180a9c">HORIZONTAL</ref></item>
-<item><ref target="#uuid-cf6bfb0d-e1aa-41f4-99a1-b17a35c10545">VERTICAL</ref></item>
-<item><ref target="#uuid-9d31b117-2776-4f3a-8a4c-e8e4c98e33a6">BACKWARDS</ref></item>
-<item><ref target="#uuid-c34032bb-930c-4b72-82b9-92a4483b88f1">FORWARD</ref></item>
-<item><ref target="#uuid-4fc17050-533b-485c-9ddc-2b1cea64005a">UPWARD</ref></item>
-<item><ref target="#uuid-ed7c0896-ad47-4a9c-9d8d-755aa82c07ea">DOWNWARDS</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
-<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title><biblScope unit="page">378ff</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-9db09585-7114-44e5-bd6a-600131180a9c">HORIZONTAL</ref>
+            </item>
+<item>
+                <ref target="#uuid-cf6bfb0d-e1aa-41f4-99a1-b17a35c10545">VERTICAL</ref>
+            </item>
+<item>
+                <ref target="#uuid-9d31b117-2776-4f3a-8a4c-e8e4c98e33a6">BACKWARDS</ref>
+            </item>
+<item>
+                <ref target="#uuid-c34032bb-930c-4b72-82b9-92a4483b88f1">FORWARD</ref>
+            </item>
+<item>
+                <ref target="#uuid-4fc17050-533b-485c-9ddc-2b1cea64005a">UPWARD</ref>
+            </item>
+<item>
+                <ref target="#uuid-ed7c0896-ad47-4a9c-9d8d-755aa82c07ea">DOWNWARDS</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
+<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title>
+                <biblScope unit="page">378ff</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-94f9f21b-56e6-4905-8d5e-a12158b69b5a"><form corresp="#uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
-<orth>北</orth><pron xml:lang="zh-Latn-x-pinyin">běi</pron><pron xml:lang="zh-x-oc">pɯɯɡ</pron><pron xml:lang="zh-x-mc">pək</pron></form>
+<entry type="word" xml:id="uuid-94f9f21b-56e6-4905-8d5e-a12158b69b5a">
+            <form corresp="#uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
+<orth>北</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">běi</pron>
+                <pron xml:lang="zh-x-oc">pɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">pək</pron>
+            </form>
 <sense xml:id="uuid-183ddc64-8603-49e9-8e7b-0b9729c59c3c">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>in the north; from the north; towards the north, northwards 北面</def></sense>
-<sense xml:id="uuid-4cc7b8d4-8a1b-4ab8-b358-7153c9107637">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>north</def></sense>
-<sense xml:id="uuid-2e13e642-fd75-4918-8606-9d33b9da5bf3">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>northern</def></sense>
-<sense xml:id="uuid-f40a9d55-4397-4f34-9c18-b2b3d88c3109">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>move northwards</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-effc091f-8ecf-408b-9f78-8b3285b640ff"><form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54">
-<orth>南</orth><pron xml:lang="zh-Latn-x-pinyin">nán</pron><pron xml:lang="zh-x-oc">noom</pron><pron xml:lang="zh-x-mc">nəm</pron></form>
-<sense xml:id="uuid-2ce652a4-0cb0-4f10-9f8c-396efa403713">
-<gramGrp><pos/>
-  <tls:syn-func corresp="#uuid-cfa10af3-c11e-4d1d-bca3-1baf01828de6">n{OBJ}+Vt</tls:syn-func></gramGrp>
-  <def>the north</def></sense>
-<sense xml:id="uuid-aaf4be41-3b97-4a36-a204-375abc252669">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func></gramGrp>
-  <def>in the south; towards the south; from the south</def></sense>
-<sense xml:id="uuid-0b29dd2a-646f-4fa0-b2b3-df041a154b86">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>south</def></sense>
-<sense xml:id="uuid-8cb5a2c3-e92b-42e3-a1fc-b324e515e997">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp>
-  <def>southern 南方</def></sense>
-<sense xml:id="uuid-7824862e-8be9-4062-9264-51f3e73e66ea">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>move southwards</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-169dd35c-f1bf-405c-acb3-9f135582b93e"><form corresp="#uuid-fb971851-9c85-4611-ba43-1712c1eade82">
-<orth>右</orth><pron xml:lang="zh-Latn-x-pinyin">yòu</pron><pron xml:lang="zh-x-oc">ɢʷɯʔ</pron><pron xml:lang="zh-x-mc">ɦɨu</pron></form>
-<sense xml:id="uuid-b22620a9-86e9-4656-860f-616d8fc8c45c">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp>
-  <def>to the right of N</def></sense>
-<sense xml:id="uuid-485eba00-553e-48ba-81bb-319e5f987071">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>right</def></sense>
-<sense xml:id="uuid-42a1a832-1834-435a-a412-27fd77c46f93">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>(occasionally) with one's right hand</def></sense>
-<sense xml:id="uuid-e906580b-b630-4c32-8c54-b05e589307f3">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>steer towards the right, move towards the right</def></sense>
-<sense xml:id="uuid-c3650a51-3ace-45ee-9a11-b38727454dc6">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp>
-  <def>put on the right</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-8f192df9-ba7d-47a0-a111-10a59569fbae"><form corresp="#uuid-87cab1f5-d8d7-405a-aa85-7f5f68b557ca">
-<orth>向</orth><pron xml:lang="zh-Latn-x-pinyin">xiàng</pron><pron xml:lang="zh-x-oc">qhaŋs</pron><pron xml:lang="zh-x-mc">hi̯ɐŋ</pron></form>
-<sense xml:id="uuid-40192eea-8ae5-4c9d-99b8-3b72ac9506f4">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func></gramGrp>
-  <def>directional preposition: to V towards N</def></sense>
-<sense xml:id="uuid-0f29bf8a-dd7b-436d-982e-4e66cd414bbe">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func></gramGrp>
-  <def>towards, to</def></sense>
-<sense xml:id="uuid-a275892d-2795-412c-b5bc-e9226631fc1e">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>(with abstract objects): (turn one's attention) towards</def></sense>
-<sense xml:id="uuid-415c8cdc-bf9f-45ae-a8e9-3a8b52c77e5c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp>
-  <def>facing (oneself)</def></sense>
-<sense xml:id="uuid-c3c6a2ab-efc4-4ba2-837d-0e5a22ac63dc">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>direct oneself towards &gt; focus on; pay attention to</def></sense>
-<sense xml:id="uuid-7ac6a1d2-6c3e-4a9f-921a-cb5520f55fdf">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp>
-  <def>have direction, orientation</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-d98c297d-b518-4ab5-a25e-914ebfd95e07"><form corresp="#uuid-8bb517d7-1338-4c4c-ade1-75c15d83ba3a">
-<orth>對</orth><pron xml:lang="zh-Latn-x-pinyin">duì</pron><pron xml:lang="zh-x-oc">k-luubs</pron><pron xml:lang="zh-x-mc">tuo̝i</pron></form>
-<sense xml:id="uuid-1117ded6-1828-4607-b8e2-16db7ccca21a">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func></gramGrp>
-  <def>facing towards &gt; face to face with</def></sense>
-<sense xml:id="uuid-fd8fcb35-c6c1-4f04-b594-a0a81915245c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat></gramGrp>
-  <def>CHEMLA 2003: face in a direction</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-327b00a8-87a4-436e-af88-f7286c2448f8"><form corresp="#uuid-17092982-8b1e-4e2b-9784-01c4b031a392">
-<orth>左</orth><pron xml:lang="zh-Latn-x-pinyin">zuǒ</pron><pron xml:lang="zh-x-oc">skaalʔ</pron><pron xml:lang="zh-x-mc">tsɑ</pron></form>
-<sense xml:id="uuid-0fbba94c-4ca9-4af8-a9cc-5671d2580e5f">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>the left side</def></sense>
-<sense xml:id="uuid-dda0cd8b-dfba-4f7c-b1a4-4e02bf929a0d">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>left</def></sense>
-<sense xml:id="uuid-3270f1c2-1c16-408b-95fa-e3d4ad1d7d16">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>with the left hand; on the left side</def></sense>
-<sense xml:id="uuid-68c585e0-4805-42e3-a0d5-181c386624f4">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5c9bf4c0-6687-49f3-876f-31b19107fa28">towards left</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>towards the left</def></sense>
-<sense xml:id="uuid-b40ca543-38ec-4f0d-bde9-96a260ea17be">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>steer left; turn left; keep to the left</def></sense>
-<sense xml:id="uuid-16571b72-4890-470b-9d00-5b39a3f310f4">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp>
-  <def>put on the left; place on the left-hand side</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-76d71772-d331-41ac-b0d0-d4e9d9c73706"><form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
-<orth>方</orth><pron xml:lang="zh-Latn-x-pinyin">fāng</pron><pron xml:lang="zh-x-oc">paŋ</pron><pron xml:lang="zh-x-mc">pi̯ɐŋ</pron></form>
-<sense xml:id="uuid-7c9d56be-28a9-495e-a96d-dc3a5dabfb6d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>direction</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-e22d780d-280c-4417-9f4f-891baf99b814"><form corresp="#uuid-8efbd34f-2d89-4733-89e9-a37b2243f7ec">
-<orth>朔</orth><pron xml:lang="zh-Latn-x-pinyin">shuò</pron><pron xml:lang="zh-x-oc">sqrooɡ</pron><pron xml:lang="zh-x-mc">ʂɣɔk</pron></form>
-<sense xml:id="uuid-a0117591-13f4-4222-b6a3-3a75fd1ccc48">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-f9149ec1-0d9b-49e7-aab3-a5375653f36c">npost-N{PLACE}</tls:syn-func></gramGrp>
-  <def>north of Npl</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-de5dd56d-8f96-4764-8f13-f35479548440"><form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052">
-<orth>東</orth><pron xml:lang="zh-Latn-x-pinyin">dōng</pron><pron xml:lang="zh-x-oc">tooŋ</pron><pron xml:lang="zh-x-mc">tuŋ</pron></form>
-<sense xml:id="uuid-bcb0169b-30f7-428b-ae2b-a81437df5b1b">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>on the eastern side, in the eastern part of something; in the east [can perhaps also be taken as a nominal topic in many cases]</def></sense>
-<sense xml:id="uuid-20dcfda2-2735-44b8-b6df-eeaf2b27efc6">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-9fe88d7d-3165-4402-a3f9-d9d6d511ad5b">direction</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>to the east, eastern</def></sense>
-<sense xml:id="uuid-9a07f8b7-eb4b-4f50-a6cc-8ddb0d4ad5ed">
-<gramGrp><pos>N</pos>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>in the north; from the north; towards the north, northwards 北面</def>
+            </sense>
+<sense xml:id="uuid-4cc7b8d4-8a1b-4ab8-b358-7153c9107637">
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>east</def></sense>
-<sense xml:id="uuid-d6c5a47b-29d1-485f-992b-686b9e4774c1">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp>
-  <def>eastern</def></sense>
-<sense xml:id="uuid-788f0a10-76b9-4cb1-accf-e6be9c0df274">
-<gramGrp><pos>N</pos>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>north</def>
+            </sense>
+<sense xml:id="uuid-2e13e642-fd75-4918-8606-9d33b9da5bf3">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>northern</def>
+            </sense>
+<sense xml:id="uuid-f40a9d55-4397-4f34-9c18-b2b3d88c3109">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>move northwards</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-effc091f-8ecf-408b-9f78-8b3285b640ff">
+            <form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54">
+<orth>南</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nán</pron>
+                <pron xml:lang="zh-x-oc">noom</pron>
+                <pron xml:lang="zh-x-mc">nəm</pron>
+            </form>
+<sense xml:id="uuid-2ce652a4-0cb0-4f10-9f8c-396efa403713">
+<gramGrp>
+                    <pos/>
+  <tls:syn-func corresp="#uuid-cfa10af3-c11e-4d1d-bca3-1baf01828de6">n{OBJ}+Vt</tls:syn-func>
+                </gramGrp>
+  <def>the north</def>
+            </sense>
+<sense xml:id="uuid-aaf4be41-3b97-4a36-a204-375abc252669">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func>
+                </gramGrp>
+  <def>in the south; towards the south; from the south</def>
+            </sense>
+<sense xml:id="uuid-0b29dd2a-646f-4fa0-b2b3-df041a154b86">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>south</def>
+            </sense>
+<sense xml:id="uuid-8cb5a2c3-e92b-42e3-a1fc-b324e515e997">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+  <def>southern 南方</def>
+            </sense>
+<sense xml:id="uuid-7824862e-8be9-4062-9264-51f3e73e66ea">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>move southwards</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-169dd35c-f1bf-405c-acb3-9f135582b93e">
+            <form corresp="#uuid-fb971851-9c85-4611-ba43-1712c1eade82">
+<orth>右</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòu</pron>
+                <pron xml:lang="zh-x-oc">ɢʷɯʔ</pron>
+                <pron xml:lang="zh-x-mc">ɦɨu</pron>
+            </form>
+<sense xml:id="uuid-b22620a9-86e9-4656-860f-616d8fc8c45c">
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>the eastern part or side of something, to the east of something</def></sense>
-<sense xml:id="uuid-12b04a1a-1f1b-41ad-aa91-72e977231cbd">
-<gramGrp><pos>V</pos>
+                </gramGrp>
+  <def>to the right of N</def>
+            </sense>
+<sense xml:id="uuid-485eba00-553e-48ba-81bb-319e5f987071">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>right</def>
+            </sense>
+<sense xml:id="uuid-42a1a832-1834-435a-a412-27fd77c46f93">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>(occasionally) with one's right hand</def>
+            </sense>
+<sense xml:id="uuid-e906580b-b630-4c32-8c54-b05e589307f3">
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>move towards the east</def></sense>
-<sense xml:id="uuid-12442006-e322-47d1-9540-ded049ab3656">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>turn (one's head) towards the east)</def></sense>
-<sense xml:id="uuid-c1c1780f-fa1b-4352-9df8-f95763b117b1">
-<gramGrp><pos>V</pos>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>steer towards the right, move towards the right</def>
+            </sense>
+<sense xml:id="uuid-c3650a51-3ace-45ee-9a11-b38727454dc6">
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-6dc7fe58-3a31-4e0c-8040-5e550f29b0c4">iussive</tls:sem-feat></gramGrp>
-  <def>order to go to the east</def></sense>
+  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+  <def>put on the right</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b5b750c9-ca3d-4e91-a2b7-6a3e7ce0aca2"><form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
-<orth>當</orth><pron xml:lang="zh-Latn-x-pinyin">dāng</pron><pron xml:lang="zh-x-oc">taaŋ</pron><pron xml:lang="zh-x-mc">tɑŋ</pron></form>
-<sense xml:id="uuid-75266d92-abf4-41c9-ba2e-df59361c5d03">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>face towards</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-31c2b0de-16d6-4b24-aa76-5e53d2bca0b3"><form corresp="#uuid-6064302c-25e2-4718-9c4b-4fdf63a6cd7b">
-<orth>表</orth><pron xml:lang="zh-Latn-x-pinyin">biǎo</pron><pron xml:lang="zh-x-oc">prawʔ</pron><pron xml:lang="zh-x-mc">piɛu</pron></form>
-<sense xml:id="uuid-5d570096-89cf-40a4-a098-996685aa7416">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-b6da65fd-429f-4245-9f94-a22078cc0512">ncc</tls:syn-func></gramGrp>
-  <def>direction 八表</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-6563122c-3829-4d51-b872-df372a9b85ac"><form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167">
-<orth>西</orth><pron xml:lang="zh-Latn-x-pinyin">xī</pron><pron xml:lang="zh-x-oc">sqɯɯl</pron><pron xml:lang="zh-x-mc">sei</pron></form>
-<sense xml:id="uuid-8276094f-2ab6-4702-bc45-7b95c94e8d53">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>towards the west; on the western side, in the western part</def></sense>
-<sense xml:id="uuid-02f2fcd2-02cc-4d92-bdf3-91d20fd905bb">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>west</def></sense>
-<sense xml:id="uuid-31df0020-c8a6-43b4-a5d9-f749b7783057">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>western</def></sense>
-<sense xml:id="uuid-5427bdfa-1544-4bf3-a4cc-7f99b18297e2">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-9c871057-121e-4959-8d0e-d3b4e64924ce">from</tls:sem-feat></gramGrp>
-  <def>from the west</def></sense>
-<sense xml:id="uuid-7abdb848-ed9c-401f-8c47-1d8e2544f55b">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>go westwards</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-0eabca30-e073-4308-a0ae-6500e37b7e71"><form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa">
-<orth>鄉</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng</pron><pron xml:lang="zh-x-oc">qhaŋ</pron><pron xml:lang="zh-x-mc">hi̯ɐŋ</pron></form>
-<sense xml:id="uuid-3e74b4ba-8200-4ca4-bdd6-be1d6e3b3f09">
-<gramGrp><pos>N</pos>
+<entry type="word" xml:id="uuid-8f192df9-ba7d-47a0-a111-10a59569fbae">
+            <form corresp="#uuid-87cab1f5-d8d7-405a-aa85-7f5f68b557ca">
+<orth>向</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiàng</pron>
+                <pron xml:lang="zh-x-oc">qhaŋs</pron>
+                <pron xml:lang="zh-x-mc">hi̯ɐŋ</pron>
+            </form>
+<sense xml:id="uuid-40192eea-8ae5-4c9d-99b8-3b72ac9506f4">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func>
+                </gramGrp>
+  <def>directional preposition: to V towards N</def>
+            </sense>
+<sense xml:id="uuid-0f29bf8a-dd7b-436d-982e-4e66cd414bbe">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                </gramGrp>
+  <def>towards, to</def>
+            </sense>
+<sense xml:id="uuid-a275892d-2795-412c-b5bc-e9226631fc1e">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>(with abstract objects): (turn one's attention) towards</def>
+            </sense>
+<sense xml:id="uuid-415c8cdc-bf9f-45ae-a8e9-3a8b52c77e5c">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
+  <def>facing (oneself)</def>
+            </sense>
+<sense xml:id="uuid-c3c6a2ab-efc4-4ba2-837d-0e5a22ac63dc">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>direct oneself towards &gt; focus on; pay attention to</def>
+            </sense>
+<sense xml:id="uuid-7ac6a1d2-6c3e-4a9f-921a-cb5520f55fdf">
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>direction</def></sense>
-<sense xml:id="uuid-a1b13487-bbda-4bfb-8d24-beb6a4e217f8">
-<gramGrp><pos>V</pos>
+  <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+  <def>have direction, orientation</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-d98c297d-b518-4ab5-a25e-914ebfd95e07">
+            <form corresp="#uuid-8bb517d7-1338-4c4c-ade1-75c15d83ba3a">
+<orth>對</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">duì</pron>
+                <pron xml:lang="zh-x-oc">k-luubs</pron>
+                <pron xml:lang="zh-x-mc">tuo̝i</pron>
+            </form>
+<sense xml:id="uuid-1117ded6-1828-4607-b8e2-16db7ccca21a">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                </gramGrp>
+  <def>facing towards &gt; face to face with</def>
+            </sense>
+<sense xml:id="uuid-fd8fcb35-c6c1-4f04-b594-a0a81915245c">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat>
+                </gramGrp>
+  <def>CHEMLA 2003: face in a direction</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-327b00a8-87a4-436e-af88-f7286c2448f8">
+            <form corresp="#uuid-17092982-8b1e-4e2b-9784-01c4b031a392">
+<orth>左</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuǒ</pron>
+                <pron xml:lang="zh-x-oc">skaalʔ</pron>
+                <pron xml:lang="zh-x-mc">tsɑ</pron>
+            </form>
+<sense xml:id="uuid-0fbba94c-4ca9-4af8-a9cc-5671d2580e5f">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>the left side</def>
+            </sense>
+<sense xml:id="uuid-dda0cd8b-dfba-4f7c-b1a4-4e02bf929a0d">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>left</def>
+            </sense>
+<sense xml:id="uuid-3270f1c2-1c16-408b-95fa-e3d4ad1d7d16">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>with the left hand; on the left side</def>
+            </sense>
+<sense xml:id="uuid-68c585e0-4805-42e3-a0d5-181c386624f4">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-5c9bf4c0-6687-49f3-876f-31b19107fa28">towards left</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>towards the left</def>
+            </sense>
+<sense xml:id="uuid-b40ca543-38ec-4f0d-bde9-96a260ea17be">
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>face in the direction of; go in the direction of (the direction is placed in adverbial position)</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>steer left; turn left; keep to the left</def>
+            </sense>
+<sense xml:id="uuid-16571b72-4890-470b-9d00-5b39a3f310f4">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+  <def>put on the left; place on the left-hand side</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-76d71772-d331-41ac-b0d0-d4e9d9c73706">
+            <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
+<orth>方</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fāng</pron>
+                <pron xml:lang="zh-x-oc">paŋ</pron>
+                <pron xml:lang="zh-x-mc">pi̯ɐŋ</pron>
+            </form>
+            <def>The general term for direction as a part of space is fāng 方.</def>
+<sense xml:id="uuid-7c9d56be-28a9-495e-a96d-dc3a5dabfb6d">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>direction</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-e22d780d-280c-4417-9f4f-891baf99b814">
+            <form corresp="#uuid-8efbd34f-2d89-4733-89e9-a37b2243f7ec">
+<orth>朔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuò</pron>
+                <pron xml:lang="zh-x-oc">sqrooɡ</pron>
+                <pron xml:lang="zh-x-mc">ʂɣɔk</pron>
+            </form>
+<sense xml:id="uuid-a0117591-13f4-4222-b6a3-3a75fd1ccc48">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-f9149ec1-0d9b-49e7-aab3-a5375653f36c">npost-N{PLACE}</tls:syn-func>
+                </gramGrp>
+  <def>north of Npl</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-de5dd56d-8f96-4764-8f13-f35479548440">
+            <form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052">
+<orth>東</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dōng</pron>
+                <pron xml:lang="zh-x-oc">tooŋ</pron>
+                <pron xml:lang="zh-x-mc">tuŋ</pron>
+            </form>
+            <def>Dōng 東 "east", nán 南 "south", xī 西 "west", běi 北 are the major directions.</def>
+<sense xml:id="uuid-bcb0169b-30f7-428b-ae2b-a81437df5b1b">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>on the eastern side, in the eastern part of something; in the east [can perhaps also be taken as a nominal topic in many cases]</def>
+            </sense>
+<sense xml:id="uuid-20dcfda2-2735-44b8-b6df-eeaf2b27efc6">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-9fe88d7d-3165-4402-a3f9-d9d6d511ad5b">direction</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>to the east, eastern</def>
+            </sense>
+<sense xml:id="uuid-9a07f8b7-eb4b-4f50-a6cc-8ddb0d4ad5ed">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>east</def>
+            </sense>
+<sense xml:id="uuid-d6c5a47b-29d1-485f-992b-686b9e4774c1">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+  <def>eastern</def>
+            </sense>
+<sense xml:id="uuid-788f0a10-76b9-4cb1-accf-e6be9c0df274">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>the eastern part or side of something, to the east of something</def>
+            </sense>
+<sense xml:id="uuid-12b04a1a-1f1b-41ad-aa91-72e977231cbd">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>move towards the east</def>
+            </sense>
+<sense xml:id="uuid-12442006-e322-47d1-9540-ded049ab3656">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>turn (one's head) towards the east)</def>
+            </sense>
+<sense xml:id="uuid-c1c1780f-fa1b-4352-9df8-f95763b117b1">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-6dc7fe58-3a31-4e0c-8040-5e550f29b0c4">iussive</tls:sem-feat>
+                </gramGrp>
+  <def>order to go to the east</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-b5b750c9-ca3d-4e91-a2b7-6a3e7ce0aca2">
+            <form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
+<orth>當</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dāng</pron>
+                <pron xml:lang="zh-x-oc">taaŋ</pron>
+                <pron xml:lang="zh-x-mc">tɑŋ</pron>
+            </form>
+<sense xml:id="uuid-75266d92-abf4-41c9-ba2e-df59361c5d03">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>face towards</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-31c2b0de-16d6-4b24-aa76-5e53d2bca0b3">
+            <form corresp="#uuid-6064302c-25e2-4718-9c4b-4fdf63a6cd7b">
+<orth>表</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biǎo</pron>
+                <pron xml:lang="zh-x-oc">prawʔ</pron>
+                <pron xml:lang="zh-x-mc">piɛu</pron>
+            </form>
+<sense xml:id="uuid-5d570096-89cf-40a4-a098-996685aa7416">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-b6da65fd-429f-4245-9f94-a22078cc0512">ncc</tls:syn-func>
+                </gramGrp>
+  <def>direction 八表</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-6563122c-3829-4d51-b872-df372a9b85ac">
+            <form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167">
+<orth>西</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī</pron>
+                <pron xml:lang="zh-x-oc">sqɯɯl</pron>
+                <pron xml:lang="zh-x-mc">sei</pron>
+            </form>
+<sense xml:id="uuid-8276094f-2ab6-4702-bc45-7b95c94e8d53">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9f482f91-d3b7-4fdd-9fe5-8a7fe712f174">n{PLACE}adV</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>towards the west; on the western side, in the western part</def>
+            </sense>
+<sense xml:id="uuid-02f2fcd2-02cc-4d92-bdf3-91d20fd905bb">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>west</def>
+            </sense>
+<sense xml:id="uuid-31df0020-c8a6-43b4-a5d9-f749b7783057">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>western</def>
+            </sense>
+<sense xml:id="uuid-5427bdfa-1544-4bf3-a4cc-7f99b18297e2">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-9c871057-121e-4959-8d0e-d3b4e64924ce">from</tls:sem-feat>
+                </gramGrp>
+  <def>from the west</def>
+            </sense>
+<sense xml:id="uuid-7abdb848-ed9c-401f-8c47-1d8e2544f55b">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>go westwards</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-0eabca30-e073-4308-a0ae-6500e37b7e71">
+            <form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa">
+<orth>鄉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng</pron>
+                <pron xml:lang="zh-x-oc">qhaŋ</pron>
+                <pron xml:lang="zh-x-mc">hi̯ɐŋ</pron>
+            </form>
+            <def>Xiāng 鄉 refers to a direction as seen from a subject.</def>
+<sense xml:id="uuid-3e74b4ba-8200-4ca4-bdd6-be1d6e3b3f09">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>direction</def>
+            </sense>
+<sense xml:id="uuid-a1b13487-bbda-4bfb-8d24-beb6a4e217f8">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>face in the direction of; go in the direction of (the direction is placed in adverbial position)</def>
+            </sense>
 <sense xml:id="uuid-6eb94c54-21bb-45e0-aa73-b5dcdcfd327c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>face in the direction of</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>face in the direction of</def>
+            </sense>
 <sense xml:id="uuid-012faf92-88a6-43b6-a5e7-de4f5f90dca5">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func></gramGrp>
-  <def>facing in the direction N to V</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                </gramGrp>
+  <def>facing in the direction N to V</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-92431201-5d6f-4beb-8bc3-998bd7a02bf3"><form corresp="#uuid-6f367d26-fcb9-4d43-a71e-e38d354e6b90">
-<orth>陰</orth><pron xml:lang="zh-Latn-x-pinyin">yīn</pron><pron xml:lang="zh-x-oc">qrɯm</pron><pron xml:lang="zh-x-mc">ʔim</pron></form>
+<entry type="word" xml:id="uuid-92431201-5d6f-4beb-8bc3-998bd7a02bf3">
+            <form corresp="#uuid-6f367d26-fcb9-4d43-a71e-e38d354e6b90">
+<orth>陰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīn</pron>
+                <pron xml:lang="zh-x-oc">qrɯm</pron>
+                <pron xml:lang="zh-x-mc">ʔim</pron>
+            </form>
+            <def>Yīn 陰 refers to the area south of a river and north of a mountain.</def>
 <sense xml:id="uuid-046e67ba-9a38-40af-87b8-a4a198849234">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>south; south of a river, north of a mountain, north of a city wall</def></sense>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>south; south of a river, north of a mountain, north of a city wall</def>
+            </sense>
 <sense xml:id="uuid-6ec38678-3297-455a-b1aa-26dcdf6dc605">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>(the state of Yān) which is in the north</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>(the state of Yān) which is in the north</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-a4cd7d79-370f-4224-a1fc-5a0408e47e70"><form corresp="#uuid-42059fc8-74c4-4f7c-97da-47bd441a34e5">
-<orth>陽</orth><pron xml:lang="zh-Latn-x-pinyin">yáng</pron><pron xml:lang="zh-x-oc">k-laŋ</pron><pron xml:lang="zh-x-mc">ji̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-a4cd7d79-370f-4224-a1fc-5a0408e47e70">
+            <form corresp="#uuid-42059fc8-74c4-4f7c-97da-47bd441a34e5">
+<orth>陽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yáng</pron>
+                <pron xml:lang="zh-x-oc">k-laŋ</pron>
+                <pron xml:lang="zh-x-mc">ji̯ɐŋ</pron>
+            </form>
+            <def>Yáng 陽 refers to the area north of a river and south of a mountain.</def>
 <sense xml:id="uuid-79f2fa4c-32d0-42ed-a128-74e445f0fdfb">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>north; north of a river; south of a mountain</def></sense>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>north; north of a river; south of a mountain</def>
+            </sense>
 <sense xml:id="uuid-7213cd38-731b-4d13-82b7-ab69b4cc957e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>(the state of Wèi) in the south</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>(the state of Wèi) in the south</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-511fa898-c1c9-467a-a756-f6a499c9ebdd"><form corresp="#uuid-28f7e200-9ed0-458d-9c74-cd4dd9f6cf9f #uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6">
-<orth>下來</orth><pron xml:lang="zh-Latn-x-pinyin">xià lái</pron><pron xml:lang="zh-x-oc">ɢraas m-rɯɯ</pron><pron xml:lang="zh-x-mc">ɦɣɛ ləi</pron></form>
+<entry type="word" xml:id="uuid-511fa898-c1c9-467a-a756-f6a499c9ebdd">
+            <form corresp="#uuid-28f7e200-9ed0-458d-9c74-cd4dd9f6cf9f #uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6">
+<orth>下來</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xià lái</pron>
+                <pron xml:lang="zh-x-oc">ɢraas m-rɯɯ</pron>
+                <pron xml:lang="zh-x-mc">ɦɣɛ ləi</pron>
+            </form>
 <sense xml:id="uuid-6611d51c-e147-4e9b-bf3e-42c4346f974b">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-0b46d59e-9906-4ab8-887b-12a0ee8244ae">VPpostadV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-9fe88d7d-3165-4402-a3f9-d9d6d511ad5b">direction</tls:sem-feat></gramGrp>
-  <def>complex verbal complement indicating a downwards movement which at the same time is directed towards the speaker  跳下來 come jumping down (towards the speaker)</def></sense>
+  <tls:sem-feat corresp="#uuid-9fe88d7d-3165-4402-a3f9-d9d6d511ad5b">direction</tls:sem-feat>
+                </gramGrp>
+  <def>complex verbal complement indicating a downwards movement which at the same time is directed towards the speaker  跳下來 come jumping down (towards the speaker)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-fa78a607-5e08-41be-b968-f9d4ee88b119"><form corresp="#uuid-8b488a15-bf50-46d1-88b2-b7c76248e7cd #uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
-<orth>八達</orth><pron xml:lang="zh-Latn-x-pinyin">bā dá</pron><pron xml:lang="zh-x-oc">preed daad</pron><pron xml:lang="zh-x-mc">pɣɛt dɑt</pron></form>
+<entry type="word" xml:id="uuid-fa78a607-5e08-41be-b968-f9d4ee88b119">
+            <form corresp="#uuid-8b488a15-bf50-46d1-88b2-b7c76248e7cd #uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
+<orth>八達</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bā dá</pron>
+                <pron xml:lang="zh-x-oc">preed daad</pron>
+                <pron xml:lang="zh-x-mc">pɣɛt dɑt</pron>
+            </form>
 <sense xml:id="uuid-ff4a67bf-385b-485d-9ff1-96f67973f7f2">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2b2d30be-c56e-424a-b913-5c0b574c74d0">space</tls:sem-feat></gramGrp>
-  <def>all directions (see also 八方 "the eight directions")</def></sense>
+  <tls:sem-feat corresp="#uuid-2b2d30be-c56e-424a-b913-5c0b574c74d0">space</tls:sem-feat>
+                </gramGrp>
+  <def>all directions (see also 八方 "the eight directions")</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-a903a12b-f984-428b-ac74-b542e7600636"><form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
-<orth>南方</orth><pron xml:lang="zh-Latn-x-pinyin">nán fāng</pron><pron xml:lang="zh-x-oc">noom paŋ</pron><pron xml:lang="zh-x-mc">nəm pi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-a903a12b-f984-428b-ac74-b542e7600636">
+            <form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
+<orth>南方</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nán fāng</pron>
+                <pron xml:lang="zh-x-oc">noom paŋ</pron>
+                <pron xml:lang="zh-x-mc">nəm pi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-66e9cc08-fd85-4bdb-b3fa-51e8de289cac">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp>
-  <def>one from the south &gt; Southener, person of southern origin</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+  <def>one from the south &gt; Southener, person of southern origin</def>
+            </sense>
 <sense xml:id="uuid-d74f4e27-60d8-4805-811f-b695435f4e58">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func></gramGrp>
-  <def>in the South</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func>
+                </gramGrp>
+  <def>in the South</def>
+            </sense>
 <sense xml:id="uuid-136ef486-0907-4089-b09a-b5a45ed172dd">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>in the south</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>in the south</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-17452cfe-4cca-4619-8ca1-c1ebd1a3a223"><form corresp="#uuid-33d0258a-cb84-4c27-8125-8554ad8bf1f0 #uuid-e3f7bbaf-2bea-49fb-95d8-001fe8c91d20">
-<orth>扶桑</orth><pron xml:lang="zh-Latn-x-pinyin">fū sāng</pron><pron xml:lang="zh-x-oc">pa saaŋ</pron><pron xml:lang="zh-x-mc">pi̯o sɑŋ</pron></form>
+<entry type="word" xml:id="uuid-17452cfe-4cca-4619-8ca1-c1ebd1a3a223">
+            <form corresp="#uuid-33d0258a-cb84-4c27-8125-8554ad8bf1f0 #uuid-e3f7bbaf-2bea-49fb-95d8-001fe8c91d20">
+<orth>扶桑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fū sāng</pron>
+                <pron xml:lang="zh-x-oc">pa saaŋ</pron>
+                <pron xml:lang="zh-x-mc">pi̯o sɑŋ</pron>
+            </form>
 <sense xml:id="uuid-cdf926a7-1572-4d22-a99f-58e892a0b379">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat></gramGrp>
-  <def>the Far East where the sun rises</def></sense>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                </gramGrp>
+  <def>the Far East where the sun rises</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-27919b6a-9e6e-40de-9345-3ae2a63f0da6"><form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052 #uuid-b420baa9-4b24-4965-9a08-7ef933d10f54">
-<orth>東南</orth><pron xml:lang="zh-Latn-x-pinyin">dōng nán</pron><pron xml:lang="zh-x-oc">tooŋ noom</pron><pron xml:lang="zh-x-mc">tuŋ nəm</pron></form>
+<entry type="word" xml:id="uuid-27919b6a-9e6e-40de-9345-3ae2a63f0da6">
+            <form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052 #uuid-b420baa9-4b24-4965-9a08-7ef933d10f54">
+<orth>東南</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dōng nán</pron>
+                <pron xml:lang="zh-x-oc">tooŋ noom</pron>
+                <pron xml:lang="zh-x-mc">tuŋ nəm</pron>
+            </form>
 <sense xml:id="uuid-7754af7e-0f29-4fe3-b883-00bac1500695">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>south-east</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>south-east</def>
+            </sense>
 <sense xml:id="uuid-e7cbb0c1-7cd8-40dd-9791-3333f2262c3a">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>in a south-easterly direction</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>in a south-easterly direction</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-45625358-fccc-4207-8950-2f439c2deaec"><form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
-<orth>西北</orth><pron xml:lang="zh-Latn-x-pinyin">xī běi</pron><pron xml:lang="zh-x-oc">sqɯɯl pɯɯɡ</pron><pron xml:lang="zh-x-mc">sei pək</pron></form>
+<entry type="word" xml:id="uuid-45625358-fccc-4207-8950-2f439c2deaec">
+            <form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
+<orth>西北</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī běi</pron>
+                <pron xml:lang="zh-x-oc">sqɯɯl pɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">sei pək</pron>
+            </form>
 <sense xml:id="uuid-47a57636-938c-4e5c-ac70-c0b8c93670a6">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>north-west</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>north-west</def>
+            </sense>
 <sense xml:id="uuid-c926daed-e705-4cc1-9db8-14f47ef7e849">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>to the north-west, in the direction of north-west</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>to the north-west, in the direction of north-west</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-ca99f667-711c-4c66-b6d1-f25332f129a2"><form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-b420baa9-4b24-4965-9a08-7ef933d10f54">
-<orth>西南</orth><pron xml:lang="zh-Latn-x-pinyin">xī nán</pron><pron xml:lang="zh-x-oc">sqɯɯl noom</pron><pron xml:lang="zh-x-mc">sei nəm</pron></form>
+<entry type="word" xml:id="uuid-ca99f667-711c-4c66-b6d1-f25332f129a2">
+            <form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-b420baa9-4b24-4965-9a08-7ef933d10f54">
+<orth>西南</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī nán</pron>
+                <pron xml:lang="zh-x-oc">sqɯɯl noom</pron>
+                <pron xml:lang="zh-x-mc">sei nəm</pron>
+            </form>
 <sense xml:id="uuid-bdb8e8bf-2113-429b-962a-e38ed8748d9e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>south-west</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>south-west</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-907bb83f-632c-46d0-b1a4-d1e7946b52a2"><form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052 #uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
-<orth>東西南北</orth><pron xml:lang="zh-Latn-x-pinyin">dōng xī nán běi</pron><pron xml:lang="zh-x-oc">tooŋ sqɯɯl noom pɯɯɡ</pron><pron xml:lang="zh-x-mc">tuŋ sei nəm pək</pron></form>
+<entry type="word" xml:id="uuid-907bb83f-632c-46d0-b1a4-d1e7946b52a2">
+            <form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052 #uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
+<orth>東西南北</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dōng xī nán běi</pron>
+                <pron xml:lang="zh-x-oc">tooŋ sqɯɯl noom pɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">tuŋ sei nəm pək</pron>
+            </form>
 <sense xml:id="uuid-b2f97fc1-d3c3-4617-80bd-f41d2b43e584">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp>
-  <def>the directions; in all directions</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>the directions; in all directions</def>
+            </sense>
+</entry>
+    </div>
+</div>

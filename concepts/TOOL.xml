@@ -1,12 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-403b2f16-b0b3-487b-905b-dd6a0a609f57">
-<head>TOOL</head><list type="altnames">
-<item>INSTRUMENT</item></list><list type="translations"><item xml:lang="zh">工具</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-403b2f16-b0b3-487b-905b-dd6a0a609f57">
+<head>TOOL</head>
+    <list type="altnames">
+<item>INSTRUMENT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">工具</item>
+    </list>
 <div type="definition">
-<p>ARTEFACT PRODUCED FOR USE USING a DEFINED METHOD.</p></div>
+<p>ARTEFACT PRODUCED FOR USE USING a DEFINED METHOD.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
-<p>1. The general word for a tool for use of any kind is qì 器, but the primary meaning of the word remains "container, vessel". (For complex mechanical tools see CONTRAPTION.)</p></div>
+<p>1. The general word for a tool for use of any kind is qì 器, but the primary meaning of the word remains "container, vessel". (For complex mechanical tools see CONTRAPTION.)</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>工具</p>
 <p>用具</p>
@@ -14,235 +22,561 @@
 <p>器具</p>
 <p>傢伙</p>
 <p>家什</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-0df380f8-f4c4-45cc-bb63-2be16c5f912e">AXE</ref></item>
-<item><ref target="#uuid-b9e6c405-60f5-431f-b916-b8fb48c11036">BRIDLE</ref></item>
-<item><ref target="#uuid-2a790324-4787-4145-82dd-f309d53bfb83">CHOPPING BLOCK</ref></item>
-<item><ref target="#uuid-6eb7f0a0-8587-4694-a162-0e0453bb206d">COMB</ref></item>
-<item><ref target="#uuid-a9eeabab-bbce-41b7-8f65-be82c0f421eb">COMPASS</ref></item>
-<item><ref target="#uuid-2665a8cc-44cc-46fb-a0c8-7d851b953a05">FETTERS</ref></item>
-<item><ref target="#uuid-aa12b35b-2839-477f-b7ab-025639cb98f8">HAMMER</ref></item>
-<item><ref target="#uuid-7580f81e-0340-443b-88a3-04c3f129428c">HOOK</ref></item>
-<item><ref target="#uuid-e72b353f-d9f9-45ef-9644-df4dfe0605c3">LADDER</ref></item>
-<item><ref target="#uuid-96b90061-0e4c-4670-bdd9-195c98c410a9">MOULD</ref></item>
-<item><ref target="#uuid-8451dd9f-f4fe-4d25-8306-1e492045a3ce">OAR</ref></item>
-<item><ref target="#uuid-c37aa631-d300-40ae-85a4-3ded10b1e7ae">PLOUGH</ref></item>
-<item><ref target="#uuid-3693fbb6-9706-4406-bca2-9dd44937bee5">SAW</ref></item>
-<item><ref target="#uuid-51f3e644-6a3d-484b-b92e-db27d286e973">SCALES</ref></item>
-<item><ref target="#uuid-3e5cc39e-2874-4ba3-aae3-80b2186a13ea">SPURS</ref></item>
-<item><ref target="#uuid-21e54e28-946b-4cd7-9293-c8784a3174c7">TRAP</ref></item>
-<item><ref target="#uuid-604ecf48-648a-478b-8b29-f1a6a9ef4e78">VEHICLE</ref></item>
-<item><ref target="#uuid-2999ca14-172c-458b-96ca-2b03dcf9d6e3">WHEEL</ref></item>
-<item><ref target="#uuid-a3fd0875-c354-445d-95cc-20900fcce69e">YOKE</ref></item>
-<item><ref target="#uuid-b8d0dbb5-9524-4aa1-b26f-66a819582842">FAN</ref></item>
-<item><ref target="#uuid-1f406d9a-a486-44bc-8312-75f40a2801f7">SICKLE</ref></item>
-<item><ref target="#uuid-f2284c79-c50f-45e3-b898-f646400b5573">CLOCK</ref></item>
-<item><ref target="#uuid-1ec9979a-8744-449f-9330-d06a47b31693">WRITING TOOL</ref></item>
-<item><ref target="#uuid-d9cb9845-a761-4ebf-8789-2614f11e8969">BRAKE</ref></item>
-<item><ref target="#uuid-cd51051b-05ed-4b6c-82ae-0217e3229146">LID</ref></item>
-<item><ref target="#uuid-11d0a688-90e8-4cd7-b357-6cb69a351faa">EATING TOOLS</ref></item>
-<item><ref target="#uuid-c34b2d9b-60bf-4e33-8c1b-7ef584be8218">KITCHEN UTENSIL</ref></item>
-<item><ref target="#uuid-5ae22d8a-949e-4519-8d2e-8459e1102610">KEY</ref></item>
-<item><ref target="#uuid-905da9c1-76a5-4157-8b39-4f1a36ef6c08">SHOVEL</ref></item>
-<item><ref target="#uuid-baa4be13-15b2-4539-a393-3b9b4c29c380">MACHINE</ref></item>
-<item><ref target="#uuid-31a8226c-d5cc-439f-bcfd-ba9e070309dd">NEEDLE</ref></item>
-<item><ref target="#uuid-50b92a4a-9cc9-4cbb-a3bc-8815210dc7fe">SHUTTLE</ref></item>
-<item><ref target="#uuid-67923612-4797-498e-a795-eb31dac29fb7">ANVIL</ref></item>
-<item><ref target="#uuid-2095bac4-6e1b-4bdb-9876-a012aa10a869">BRUSH</ref></item>
-<item><ref target="#uuid-9f40634b-9ae4-4018-8836-35796cf119f3">FORK</ref></item>
-<item><ref target="#uuid-eccb969b-d1db-4fb1-b450-b15e305865f3">HOE</ref></item>
-<item><ref target="#uuid-fa2b3cc9-eb94-4b31-b615-cc7e7a7a688f">HARROW</ref></item>
-<item><ref target="#uuid-3ba821c8-320c-45e6-8432-c9cc56527bbb">LOOM</ref></item>
-<item><ref target="#uuid-c5656d9d-44ce-4ea4-8752-389dad1f6d4a">MATCHES</ref></item>
-<item><ref target="#uuid-fb27865f-a43f-4150-8a99-83e2a74978c4">SPINDLE</ref></item>
-<item><ref target="#uuid-435235fa-9c3e-40b3-bce7-960dffc4e2d4">TROWEL</ref></item>
-<item><ref target="#uuid-4551927e-d2ba-45f6-8ac6-2accc318406e">AWL</ref></item>
-<item><ref target="#uuid-0ab78d70-666c-4848-b68d-02bc71243875">CARPENTER TOOL</ref></item>
-<item><ref target="#uuid-26391416-fb63-427c-8730-2afa90ad5e9f">TRAY</ref></item>
-<item><ref target="#uuid-b0b706f5-beef-4a7f-9c82-a7674ae623b5">UMBRELLA</ref></item>
-<item><ref target="#uuid-8d8af95f-b12b-4c1d-8b9a-05f84588e506">INKSTONE</ref></item>
-<item><ref target="#uuid-a8f08ad7-23d3-4222-9dad-86506fe941f5">CIRCLE-COMPASS</ref></item>
-<item><ref target="#uuid-2401d5f0-a84b-4531-b92a-9d6c42f15743">SPECTACLES</ref></item>
-<item><ref target="#uuid-b7cb1c53-d4c9-4e55-8030-1ef4cb4217c5">MEDICAL TOOL</ref></item>
-<item><ref target="#uuid-2acb28a6-9a96-4833-a492-cd355964728f">SQUARE-TOOL</ref></item>
-<item><ref target="#uuid-174bb994-fe4e-4f38-ad18-2cb5a3347675">LIGHTER</ref></item>
-<item><ref target="#uuid-9399b969-ef25-4829-a6f9-a2b5999bbfd1">ANCHOR</ref></item>
-<item><ref target="#uuid-dfee7b4f-9d31-49ff-9db4-83547b318ab2">WEAPON</ref></item></list><list type="see">
-<item><ref target="#uuid-604ecf48-648a-478b-8b29-f1a6a9ef4e78">VEHICLE</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">9.422</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-3b236090-4acd-46ce-b995-92f04f6fa024">QIAN YULIN 1996</ref>
-<title>中華古代文化辭典 Zhonghua gudai wenhua cidian</title><biblScope unit="page">218-237</biblScope><note>
-<p>Basic traditional implement terminology simply explained.</p></note></bibl>
-<bibl><ref target="#uuid-ebe4710d-bf7c-496a-8815-9e6f1c15c1a9">WANG LI 2000</ref>
-<title>王力古漢語字典</title><biblScope unit="page">485</biblScope><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-0df380f8-f4c4-45cc-bb63-2be16c5f912e">AXE</ref>
+            </item>
+<item>
+                <ref target="#uuid-b9e6c405-60f5-431f-b916-b8fb48c11036">BRIDLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-2a790324-4787-4145-82dd-f309d53bfb83">CHOPPING BLOCK</ref>
+            </item>
+<item>
+                <ref target="#uuid-6eb7f0a0-8587-4694-a162-0e0453bb206d">COMB</ref>
+            </item>
+<item>
+                <ref target="#uuid-a9eeabab-bbce-41b7-8f65-be82c0f421eb">COMPASS</ref>
+            </item>
+<item>
+                <ref target="#uuid-2665a8cc-44cc-46fb-a0c8-7d851b953a05">FETTERS</ref>
+            </item>
+<item>
+                <ref target="#uuid-aa12b35b-2839-477f-b7ab-025639cb98f8">HAMMER</ref>
+            </item>
+<item>
+                <ref target="#uuid-7580f81e-0340-443b-88a3-04c3f129428c">HOOK</ref>
+            </item>
+<item>
+                <ref target="#uuid-e72b353f-d9f9-45ef-9644-df4dfe0605c3">LADDER</ref>
+            </item>
+<item>
+                <ref target="#uuid-96b90061-0e4c-4670-bdd9-195c98c410a9">MOULD</ref>
+            </item>
+<item>
+                <ref target="#uuid-8451dd9f-f4fe-4d25-8306-1e492045a3ce">OAR</ref>
+            </item>
+<item>
+                <ref target="#uuid-c37aa631-d300-40ae-85a4-3ded10b1e7ae">PLOUGH</ref>
+            </item>
+<item>
+                <ref target="#uuid-3693fbb6-9706-4406-bca2-9dd44937bee5">SAW</ref>
+            </item>
+<item>
+                <ref target="#uuid-51f3e644-6a3d-484b-b92e-db27d286e973">SCALES</ref>
+            </item>
+<item>
+                <ref target="#uuid-3e5cc39e-2874-4ba3-aae3-80b2186a13ea">SPURS</ref>
+            </item>
+<item>
+                <ref target="#uuid-21e54e28-946b-4cd7-9293-c8784a3174c7">TRAP</ref>
+            </item>
+<item>
+                <ref target="#uuid-604ecf48-648a-478b-8b29-f1a6a9ef4e78">VEHICLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-2999ca14-172c-458b-96ca-2b03dcf9d6e3">WHEEL</ref>
+            </item>
+<item>
+                <ref target="#uuid-a3fd0875-c354-445d-95cc-20900fcce69e">YOKE</ref>
+            </item>
+<item>
+                <ref target="#uuid-b8d0dbb5-9524-4aa1-b26f-66a819582842">FAN</ref>
+            </item>
+<item>
+                <ref target="#uuid-1f406d9a-a486-44bc-8312-75f40a2801f7">SICKLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-f2284c79-c50f-45e3-b898-f646400b5573">CLOCK</ref>
+            </item>
+<item>
+                <ref target="#uuid-1ec9979a-8744-449f-9330-d06a47b31693">WRITING TOOL</ref>
+            </item>
+<item>
+                <ref target="#uuid-d9cb9845-a761-4ebf-8789-2614f11e8969">BRAKE</ref>
+            </item>
+<item>
+                <ref target="#uuid-cd51051b-05ed-4b6c-82ae-0217e3229146">LID</ref>
+            </item>
+<item>
+                <ref target="#uuid-11d0a688-90e8-4cd7-b357-6cb69a351faa">EATING TOOLS</ref>
+            </item>
+<item>
+                <ref target="#uuid-c34b2d9b-60bf-4e33-8c1b-7ef584be8218">KITCHEN UTENSIL</ref>
+            </item>
+<item>
+                <ref target="#uuid-5ae22d8a-949e-4519-8d2e-8459e1102610">KEY</ref>
+            </item>
+<item>
+                <ref target="#uuid-905da9c1-76a5-4157-8b39-4f1a36ef6c08">SHOVEL</ref>
+            </item>
+<item>
+                <ref target="#uuid-baa4be13-15b2-4539-a393-3b9b4c29c380">MACHINE</ref>
+            </item>
+<item>
+                <ref target="#uuid-31a8226c-d5cc-439f-bcfd-ba9e070309dd">NEEDLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-50b92a4a-9cc9-4cbb-a3bc-8815210dc7fe">SHUTTLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-67923612-4797-498e-a795-eb31dac29fb7">ANVIL</ref>
+            </item>
+<item>
+                <ref target="#uuid-2095bac4-6e1b-4bdb-9876-a012aa10a869">BRUSH</ref>
+            </item>
+<item>
+                <ref target="#uuid-9f40634b-9ae4-4018-8836-35796cf119f3">FORK</ref>
+            </item>
+<item>
+                <ref target="#uuid-eccb969b-d1db-4fb1-b450-b15e305865f3">HOE</ref>
+            </item>
+<item>
+                <ref target="#uuid-fa2b3cc9-eb94-4b31-b615-cc7e7a7a688f">HARROW</ref>
+            </item>
+<item>
+                <ref target="#uuid-3ba821c8-320c-45e6-8432-c9cc56527bbb">LOOM</ref>
+            </item>
+<item>
+                <ref target="#uuid-c5656d9d-44ce-4ea4-8752-389dad1f6d4a">MATCHES</ref>
+            </item>
+<item>
+                <ref target="#uuid-fb27865f-a43f-4150-8a99-83e2a74978c4">SPINDLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-435235fa-9c3e-40b3-bce7-960dffc4e2d4">TROWEL</ref>
+            </item>
+<item>
+                <ref target="#uuid-4551927e-d2ba-45f6-8ac6-2accc318406e">AWL</ref>
+            </item>
+<item>
+                <ref target="#uuid-0ab78d70-666c-4848-b68d-02bc71243875">CARPENTER TOOL</ref>
+            </item>
+<item>
+                <ref target="#uuid-26391416-fb63-427c-8730-2afa90ad5e9f">TRAY</ref>
+            </item>
+<item>
+                <ref target="#uuid-b0b706f5-beef-4a7f-9c82-a7674ae623b5">UMBRELLA</ref>
+            </item>
+<item>
+                <ref target="#uuid-8d8af95f-b12b-4c1d-8b9a-05f84588e506">INKSTONE</ref>
+            </item>
+<item>
+                <ref target="#uuid-a8f08ad7-23d3-4222-9dad-86506fe941f5">CIRCLE-COMPASS</ref>
+            </item>
+<item>
+                <ref target="#uuid-2401d5f0-a84b-4531-b92a-9d6c42f15743">SPECTACLES</ref>
+            </item>
+<item>
+                <ref target="#uuid-b7cb1c53-d4c9-4e55-8030-1ef4cb4217c5">MEDICAL TOOL</ref>
+            </item>
+<item>
+                <ref target="#uuid-2acb28a6-9a96-4833-a492-cd355964728f">SQUARE-TOOL</ref>
+            </item>
+<item>
+                <ref target="#uuid-174bb994-fe4e-4f38-ad18-2cb5a3347675">LIGHTER</ref>
+            </item>
+<item>
+                <ref target="#uuid-9399b969-ef25-4829-a6f9-a2b5999bbfd1">ANCHOR</ref>
+            </item>
+<item>
+                <ref target="#uuid-dfee7b4f-9d31-49ff-9db4-83547b318ab2">WEAPON</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-604ecf48-648a-478b-8b29-f1a6a9ef4e78">VEHICLE</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">9.422</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-3b236090-4acd-46ce-b995-92f04f6fa024">QIAN YULIN 1996</ref>
+<title>中華古代文化辭典 Zhonghua gudai wenhua cidian</title>
+                <biblScope unit="page">218-237</biblScope>
+                <note>
+<p>Basic traditional implement terminology simply explained.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ebe4710d-bf7c-496a-8815-9e6f1c15c1a9">WANG LI 2000</ref>
+<title>王力古漢語字典</title>
+                <biblScope unit="page">485</biblScope>
+                <note>
 <p>器，械</p>
-<p>1. WL presents the received opinion that qi4 器 always refers to containers.  This is clearly not so: 百工之銳器 does not refer to containers.  Examples of this sort abound.</p></note></bibl>
-<bibl><ref target="#uuid-e8e00c8c-6f7d-429d-82a5-84721abe7cc7">T.W.HARBSMEIER 2004</ref>
-<title>A New Dictionary of Classical Greek Synonyms</title><biblScope unit="page">no. 7</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
-<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title><biblScope unit="page">100A</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>1. WL presents the received opinion that qi4 器 always refers to containers.  This is clearly not so: 百工之銳器 does not refer to containers.  Examples of this sort abound.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-e8e00c8c-6f7d-429d-82a5-84721abe7cc7">T.W.HARBSMEIER 2004</ref>
+<title>A New Dictionary of Classical Greek Synonyms</title>
+                <biblScope unit="page">no. 7</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
+<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title>
+                <biblScope unit="page">100A</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-2416663a-449f-4e5e-b4fc-84d527ec285a"><form corresp="#uuid-dc2dae2f-b35f-4be0-bfe8-e8e4cce3bf63">
-<orth>備</orth><pron xml:lang="zh-Latn-x-pinyin">bèi</pron><pron xml:lang="zh-x-oc">brɯɡs</pron><pron xml:lang="zh-x-mc">bi</pron></form>
+<entry type="word" xml:id="uuid-2416663a-449f-4e5e-b4fc-84d527ec285a">
+            <form corresp="#uuid-dc2dae2f-b35f-4be0-bfe8-e8e4cce3bf63">
+<orth>備</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bèi</pron>
+                <pron xml:lang="zh-x-oc">brɯɡs</pron>
+                <pron xml:lang="zh-x-mc">bi</pron>
+            </form>
 <sense xml:id="uuid-8116dbf1-f7d6-4925-9c7b-e64f44382197">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp>
-  <def>necessary prerequisites</def></sense>
+  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+  <def>necessary prerequisites</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-cd17539b-5924-4cbc-be16-64333d5fd68a"><form corresp="#uuid-aa2a7159-1647-43b5-aa68-7568d264d84c">
-<orth>具</orth><pron xml:lang="zh-Latn-x-pinyin">jù</pron><pron xml:lang="zh-x-oc">ɡos</pron><pron xml:lang="zh-x-mc">gi̯o</pron></form>
+<entry type="word" xml:id="uuid-cd17539b-5924-4cbc-be16-64333d5fd68a">
+            <form corresp="#uuid-aa2a7159-1647-43b5-aa68-7568d264d84c">
+<orth>具</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jù</pron>
+                <pron xml:lang="zh-x-oc">ɡos</pron>
+                <pron xml:lang="zh-x-mc">gi̯o</pron>
+            </form>
 <sense xml:id="uuid-391243da-827f-4fd7-a02a-b1357765bfb3">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>implements; necessary equipment; necessary tools</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>implements; necessary equipment; necessary tools</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c59fa555-aa64-47a2-b227-8762a12ed615"><form corresp="#uuid-8fad4a15-f122-44e7-8acd-d16b90d4c471">
-<orth>器</orth><pron xml:lang="zh-Latn-x-pinyin">qì</pron><pron xml:lang="zh-x-oc">khrɯds</pron><pron xml:lang="zh-x-mc">khi</pron></form>
+<entry type="word" xml:id="uuid-c59fa555-aa64-47a2-b227-8762a12ed615">
+            <form corresp="#uuid-8fad4a15-f122-44e7-8acd-d16b90d4c471">
+<orth>器</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì</pron>
+                <pron xml:lang="zh-x-oc">khrɯds</pron>
+                <pron xml:lang="zh-x-mc">khi</pron>
+            </form>
+            <def>The general word for a tool for use of any kind is qì 器, but the primary meaning of the word remains "container, vessel". (For complex mechanical tools see CONTRAPTION.)</def>
 <sense xml:id="uuid-ecf9f0d1-bec7-4b02-94a1-f72ffb764e80">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>object for use by someone; instrument, (agricultural) tool; appurtenance (used in dance and music, or in warfare);</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>object for use by someone; instrument, (agricultural) tool; appurtenance (used in dance and music, or in warfare);</def>
+            </sense>
 <sense xml:id="uuid-30f0fec2-acc0-4b95-8546-0d1001aca054">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-df201756-5ca3-46b1-9fc7-c64909a6686a">gadget</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>gadget, artefact</def></sense>
+  <tls:sem-feat corresp="#uuid-df201756-5ca3-46b1-9fc7-c64909a6686a">gadget</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>gadget, artefact</def>
+            </sense>
 <sense xml:id="uuid-aaed3d0d-f318-4a89-8cd9-5d93b91918ce">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>(mere) tool; (abstract) instrument&gt;method</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>(mere) tool; (abstract) instrument&gt;method</def>
+            </sense>
 <sense xml:id="uuid-f90a4299-e13c-48f6-8aa4-689ed32e5321">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>act as a tool</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>act as a tool</def>
+            </sense>
 <sense xml:id="uuid-0ffecb98-1c33-4a37-9da4-ca80d518705b">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-9f39c671-0a8c-4564-b0ad-af7185eed7aa">attitudinal</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>treat as a tool only (not as an independent agent)</def></sense>
+  <tls:sem-feat corresp="#uuid-9f39c671-0a8c-4564-b0ad-af7185eed7aa">attitudinal</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>treat as a tool only (not as an independent agent)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-53b9222c-b978-4ca5-8c44-fd01a8e8c89c"><form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
-<orth>子</orth><pron xml:lang="zh-Latn-x-pinyin">zǐ</pron><pron xml:lang="zh-x-oc">sklɯʔ</pron><pron xml:lang="zh-x-mc">tsɨ</pron></form>
+<entry type="word" xml:id="uuid-53b9222c-b978-4ca5-8c44-fd01a8e8c89c">
+            <form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
+<orth>子</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǐ</pron>
+                <pron xml:lang="zh-x-oc">sklɯʔ</pron>
+                <pron xml:lang="zh-x-mc">tsɨ</pron>
+            </form>
 <sense xml:id="uuid-b9179fc7-a54c-40ae-a67d-c383d316a84d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func></gramGrp>
-  <def>梳子 "instrument used for combing"</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func>
+                </gramGrp>
+  <def>梳子 "instrument used for combing"</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-f109ab11-bf28-49c6-abb1-4f641e0e5c82"><form corresp="#uuid-9d524141-4740-4c84-91f8-565686b76560">
-<orth>盤</orth><pron xml:lang="zh-Latn-x-pinyin">pán</pron><pron xml:lang="zh-x-oc">baan</pron><pron xml:lang="zh-x-mc">bʷɑn</pron></form>
+<entry type="word" xml:id="uuid-f109ab11-bf28-49c6-abb1-4f641e0e5c82">
+            <form corresp="#uuid-9d524141-4740-4c84-91f8-565686b76560">
+<orth>盤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pán</pron>
+                <pron xml:lang="zh-x-oc">baan</pron>
+                <pron xml:lang="zh-x-mc">bʷɑn</pron>
+            </form>
 <sense xml:id="uuid-d898b841-1baf-414f-b641-ed650db89435">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>tray (a 盤 made of wood or metal)</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>tray (a 盤 made of wood or metal)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-7ebdca5c-c59e-4ecb-ba86-345ee0a22895"><form corresp="#uuid-5a657226-db6b-4335-a3c8-36c3090e5408">
-<orth>楔</orth><pron xml:lang="zh-Latn-x-pinyin">xiē</pron><pron xml:lang="zh-x-oc">sqeed</pron><pron xml:lang="zh-x-mc">set</pron></form>
+<entry type="word" xml:id="uuid-7ebdca5c-c59e-4ecb-ba86-345ee0a22895">
+            <form corresp="#uuid-5a657226-db6b-4335-a3c8-36c3090e5408">
+<orth>楔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiē</pron>
+                <pron xml:lang="zh-x-oc">sqeed</pron>
+                <pron xml:lang="zh-x-mc">set</pron>
+            </form>
 <sense xml:id="uuid-b39f163d-6752-4193-a570-3189d5d16191">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>wedge which is inserted between the teeth of a corpse</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>wedge which is inserted between the teeth of a corpse</def>
+            </sense>
 <sense xml:id="uuid-d55d5da7-425f-4efe-8e95-fbbbac39a86f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>to insert a wedge between (the teeth of a corpse)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>to insert a wedge between (the teeth of a corpse)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1dc18f74-055e-4265-9952-b54165df8192"><form corresp="#uuid-053351d0-256a-4c3d-9198-99fbac119d41">
-<orth>橐</orth><pron xml:lang="zh-Latn-x-pinyin">tuó</pron><pron xml:lang="zh-x-oc">thaaɡ</pron><pron xml:lang="zh-x-mc">thɑk</pron></form>
+<entry type="word" xml:id="uuid-1dc18f74-055e-4265-9952-b54165df8192">
+            <form corresp="#uuid-053351d0-256a-4c3d-9198-99fbac119d41">
+<orth>橐</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tuó</pron>
+                <pron xml:lang="zh-x-oc">thaaɡ</pron>
+                <pron xml:lang="zh-x-mc">thɑk</pron>
+            </form>
 <sense xml:id="uuid-2bde9506-71f1-462b-9cd1-f2097200330c">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>fire-blowing bellows</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>fire-blowing bellows</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-19d8a69c-78c1-47dd-82d6-527f05519f0c"><form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
-<orth>用</orth><pron xml:lang="zh-Latn-x-pinyin">yòng</pron><pron xml:lang="zh-x-oc">k-loŋs</pron><pron xml:lang="zh-x-mc">ji̯oŋ</pron></form>
+<entry type="word" xml:id="uuid-19d8a69c-78c1-47dd-82d6-527f05519f0c">
+            <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
+<orth>用</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòng</pron>
+                <pron xml:lang="zh-x-oc">k-loŋs</pron>
+                <pron xml:lang="zh-x-mc">ji̯oŋ</pron>
+            </form>
 <sense xml:id="uuid-85dd311b-66ee-44ee-a867-b32391d19b68">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>utensils, useful tools</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>utensils, useful tools</def>
+            </sense>
 <sense xml:id="uuid-d63f228f-cd37-4a68-9a9d-b09e221fb5fe">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-81474f89-46c7-4ce9-8c91-93eff5e3cf62">collective</tls:sem-feat></gramGrp>
-  <def>set of things needed</def></sense>
+  <tls:sem-feat corresp="#uuid-81474f89-46c7-4ce9-8c91-93eff5e3cf62">collective</tls:sem-feat>
+                </gramGrp>
+  <def>set of things needed</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-34f55fb2-6fa5-4f71-9e25-76f4bcd897a9"><form corresp="#uuid-f2d8cbaf-0bae-427d-b183-15c87828a3c1">
-<orth>鉗</orth><pron xml:lang="zh-Latn-x-pinyin">qián</pron><pron xml:lang="zh-x-oc">ɡram</pron><pron xml:lang="zh-x-mc">giɛm</pron></form>
+<entry type="word" xml:id="uuid-34f55fb2-6fa5-4f71-9e25-76f4bcd897a9">
+            <form corresp="#uuid-f2d8cbaf-0bae-427d-b183-15c87828a3c1">
+<orth>鉗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qián</pron>
+                <pron xml:lang="zh-x-oc">ɡram</pron>
+                <pron xml:lang="zh-x-mc">giɛm</pron>
+            </form>
 <sense xml:id="uuid-78da4c92-c830-4118-952d-1c69caa83018">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>tongs</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>tongs</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-6ad43bf8-f2aa-4b7d-968d-305b5c62073e"><form corresp="#uuid-4d9bc310-c9d1-42e0-8657-ecdf8175c797">
-<orth>銶</orth><pron xml:lang="zh-Latn-x-pinyin">qiú</pron><pron xml:lang="zh-x-oc">ɡu</pron><pron xml:lang="zh-x-mc">gɨu</pron></form>
+<entry type="word" xml:id="uuid-6ad43bf8-f2aa-4b7d-968d-305b5c62073e">
+            <form corresp="#uuid-4d9bc310-c9d1-42e0-8657-ecdf8175c797">
+<orth>銶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiú</pron>
+                <pron xml:lang="zh-x-oc">ɡu</pron>
+                <pron xml:lang="zh-x-mc">gɨu</pron>
+            </form>
 <sense xml:id="uuid-7b9ecbb6-7b6b-420f-97ab-63874c9507c6">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>chisel</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>chisel</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-510c3db2-e4bb-431f-b3f6-bc66105d5589"><form corresp="#uuid-8b2162ab-1457-4613-ae24-3208aceefefe">
-<orth>鑽</orth><pron xml:lang="zh-Latn-x-pinyin">zuàn</pron><pron xml:lang="zh-x-oc">tsoons</pron><pron xml:lang="zh-x-mc">tsʷɑn</pron></form><form corresp="#uuid-b09d7281-f5e9-47d3-9ff2-4b5d70f19c57">
-<orth>鑽</orth><pron xml:lang="zh-Latn-x-pinyin">zuān</pron><pron xml:lang="zh-x-oc">tsoon</pron><pron xml:lang="zh-x-mc">tsʷɑn</pron></form>
+<entry type="word" xml:id="uuid-510c3db2-e4bb-431f-b3f6-bc66105d5589">
+            <form corresp="#uuid-8b2162ab-1457-4613-ae24-3208aceefefe">
+<orth>鑽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuàn</pron>
+                <pron xml:lang="zh-x-oc">tsoons</pron>
+                <pron xml:lang="zh-x-mc">tsʷɑn</pron>
+            </form>
+            <form corresp="#uuid-b09d7281-f5e9-47d3-9ff2-4b5d70f19c57">
+<orth>鑽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuān</pron>
+                <pron xml:lang="zh-x-oc">tsoon</pron>
+                <pron xml:lang="zh-x-mc">tsʷɑn</pron>
+            </form>
 <sense xml:id="uuid-caf17c7b-5267-4ab5-8cd8-92aa629ccc0a">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>a drill</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>a drill</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b7ab66d9-f2aa-40a3-82e6-947518bff2b1"><form corresp="#uuid-8fad4a15-f122-44e7-8acd-d16b90d4c471 #uuid-284b01f4-777f-47a7-8517-6c8c3fe98a04">
-<orth>器械</orth><pron xml:lang="zh-Latn-x-pinyin">qì xiè</pron><pron xml:lang="zh-x-oc">khrɯds ɡrɯɯɡs</pron><pron xml:lang="zh-x-mc">khi ɦɣɛi</pron></form>
+<entry type="word" xml:id="uuid-b7ab66d9-f2aa-40a3-82e6-947518bff2b1">
+            <form corresp="#uuid-8fad4a15-f122-44e7-8acd-d16b90d4c471 #uuid-284b01f4-777f-47a7-8517-6c8c3fe98a04">
+<orth>器械</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì xiè</pron>
+                <pron xml:lang="zh-x-oc">khrɯds ɡrɯɯɡs</pron>
+                <pron xml:lang="zh-x-mc">khi ɦɣɛi</pron>
+            </form>
 <sense xml:id="uuid-dd37a645-7ceb-4919-954a-5b25c70be020">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-0ae78c50-f7f7-4ab0-bb28-9375998ac032">NP{N1=N2}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>contraptions of all kinds</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>contraptions of all kinds</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e3cc8321-80b9-47b5-bc9f-01c7c245e55e"><form corresp="#uuid-8fad4a15-f122-44e7-8acd-d16b90d4c471 #uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
-<orth>器用</orth><pron xml:lang="zh-Latn-x-pinyin">qì yòng</pron><pron xml:lang="zh-x-oc">khrɯds k-loŋs</pron><pron xml:lang="zh-x-mc">khi ji̯oŋ</pron></form>
+<entry type="word" xml:id="uuid-e3cc8321-80b9-47b5-bc9f-01c7c245e55e">
+            <form corresp="#uuid-8fad4a15-f122-44e7-8acd-d16b90d4c471 #uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
+<orth>器用</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì yòng</pron>
+                <pron xml:lang="zh-x-oc">khrɯds k-loŋs</pron>
+                <pron xml:lang="zh-x-mc">khi ji̯oŋ</pron>
+            </form>
 <sense xml:id="uuid-36e7cd3c-4310-4d64-8fe5-e51b4491dadc">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>household goods, tools; sacrificial tools of all kinds</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-11cb4d5e-590a-4686-9d5b-c51557f5377a"><form corresp="#uuid-aeae44dd-32f9-4c1c-8720-12903bd2d330 #uuid-7ab4fda0-6ed9-4c1f-82ae-0d3c07855f0c">
-<orth>規矩</orth><pron xml:lang="zh-Latn-x-pinyin">guī jǔ</pron><pron xml:lang="zh-x-oc">kʷe kʷaʔ</pron><pron xml:lang="zh-x-mc">kiɛ ki̯o</pron></form>
-<sense xml:id="uuid-dbaeafa5-1837-40ac-9b76-cc5a58df3690">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>compass and square</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-69669fb2-b7c6-4acf-bffe-2daba0419536"><form corresp="#uuid-fba09c89-19c1-42fe-8cc7-12381fbf2823 #uuid-d8288f6b-2597-401d-bdbb-ecd9854b2132">
-<orth>連架</orth><pron xml:lang="zh-Latn-x-pinyin">lián jià</pron><pron xml:lang="zh-x-oc">b-ren kraals</pron><pron xml:lang="zh-x-mc">liɛn kɣɛ</pron></form>
-<sense xml:id="uuid-32185242-59ae-404f-a1c4-c9aec8a34b0b">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-88514eeb-7249-48ab-b2d4-556578bebc03">agriculture</tls:sem-feat></gramGrp>
-  <def>flail; tool with a long handle and a series of evenly distributed spikes made of bamboo or wood; used for trashing corn, etc. (usually written 連枷 or 連耞); in ancient China the word was also used for a torture instrument capable of torturing more than one person at the same time</def></sense>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>household goods, tools; sacrificial tools of all kinds</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-11cb4d5e-590a-4686-9d5b-c51557f5377a">
+            <form corresp="#uuid-aeae44dd-32f9-4c1c-8720-12903bd2d330 #uuid-7ab4fda0-6ed9-4c1f-82ae-0d3c07855f0c">
+<orth>規矩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guī jǔ</pron>
+                <pron xml:lang="zh-x-oc">kʷe kʷaʔ</pron>
+                <pron xml:lang="zh-x-mc">kiɛ ki̯o</pron>
+            </form>
+            <def>compass and square</def>
+<sense xml:id="uuid-dbaeafa5-1837-40ac-9b76-cc5a58df3690">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>compass and square</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-69669fb2-b7c6-4acf-bffe-2daba0419536">
+            <form corresp="#uuid-fba09c89-19c1-42fe-8cc7-12381fbf2823 #uuid-d8288f6b-2597-401d-bdbb-ecd9854b2132">
+<orth>連架</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lián jià</pron>
+                <pron xml:lang="zh-x-oc">b-ren kraals</pron>
+                <pron xml:lang="zh-x-mc">liɛn kɣɛ</pron>
+            </form>
+<sense xml:id="uuid-32185242-59ae-404f-a1c4-c9aec8a34b0b">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-88514eeb-7249-48ab-b2d4-556578bebc03">agriculture</tls:sem-feat>
+                </gramGrp>
+  <def>flail; tool with a long handle and a series of evenly distributed spikes made of bamboo or wood; used for trashing corn, etc. (usually written 連枷 or 連耞); in ancient China the word was also used for a torture instrument capable of torturing more than one person at the same time</def>
+            </sense>
 <sense xml:id="uuid-f30f9c39-fb42-487c-9d06-62b1081059a8">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-88514eeb-7249-48ab-b2d4-556578bebc03">agriculture</tls:sem-feat></gramGrp>
-  <def>with a flail</def></sense>
+  <tls:sem-feat corresp="#uuid-88514eeb-7249-48ab-b2d4-556578bebc03">agriculture</tls:sem-feat>
+                </gramGrp>
+  <def>with a flail</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-9f6b751b-7833-49c0-a5d9-c7b64a3d628f"><form corresp="#uuid-3693361a-b104-458e-b65e-7f12936eafe7 #uuid-ab04e27f-5e9d-42f4-8cec-e0a35f548365">
-<orth>隱栝</orth><pron xml:lang="zh-Latn-x-pinyin">yǐn kuò</pron><pron xml:lang="zh-x-oc">qɯnʔ kood</pron><pron xml:lang="zh-x-mc">ʔɨn kʷɑt</pron></form>
+<entry type="word" xml:id="uuid-9f6b751b-7833-49c0-a5d9-c7b64a3d628f">
+            <form corresp="#uuid-3693361a-b104-458e-b65e-7f12936eafe7 #uuid-ab04e27f-5e9d-42f4-8cec-e0a35f548365">
+<orth>隱栝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐn kuò</pron>
+                <pron xml:lang="zh-x-oc">qɯnʔ kood</pron>
+                <pron xml:lang="zh-x-mc">ʔɨn kʷɑt</pron>
+            </form>
+            <def>yǐnkuò</def>
 <sense xml:id="uuid-c2b60a2b-a126-4612-8e25-92f64182656f">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>instrument for bending wood to make nice round shapes</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>instrument for bending wood to make nice round shapes</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-9e0cfcaa-de0a-4252-a2d1-ba6dc8fdf9a9"><form corresp="#uuid-79159b72-6954-4ebd-a7e4-1bc6864d9e26">
-<orth>車</orth><pron xml:lang="zh-Latn-x-pinyin">chē</pron><pron xml:lang="zh-x-oc">khlja</pron><pron xml:lang="zh-x-mc">tɕhɣɛ</pron></form><form corresp="#uuid-2211f8fc-143b-42df-92ea-6e3f14d9033f">
-<orth>車</orth><pron xml:lang="zh-Latn-x-pinyin">jū</pron><pron xml:lang="zh-x-oc">kla</pron><pron xml:lang="zh-x-mc">ki̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-9e0cfcaa-de0a-4252-a2d1-ba6dc8fdf9a9">
+            <form corresp="#uuid-79159b72-6954-4ebd-a7e4-1bc6864d9e26">
+<orth>車</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chē</pron>
+                <pron xml:lang="zh-x-oc">khlja</pron>
+                <pron xml:lang="zh-x-mc">tɕhɣɛ</pron>
+            </form>
+            <form corresp="#uuid-2211f8fc-143b-42df-92ea-6e3f14d9033f">
+<orth>車</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jū</pron>
+                <pron xml:lang="zh-x-oc">kla</pron>
+                <pron xml:lang="zh-x-mc">ki̯ɤ</pron>
+            </form>
 <sense xml:id="uuid-ffc7aa13-69c7-4eb0-90f3-5455bafda337">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>machine, tool or instrument which involves wheels</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>machine, tool or instrument which involves wheels</def>
+            </sense>
+</entry>
+    </div>
+</div>

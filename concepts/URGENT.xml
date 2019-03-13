@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-ed3a9dad-e99a-4a35-9010-1a2e579dbad0">
-<head>URGENT</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ed3a9dad-e99a-4a35-9010-1a2e579dbad0">
+<head>URGENT</head>
+    <list type="altnames">
 <item>ACUTE</item>
 <item>PRESSING</item>
 <item>DIRE</item>
@@ -16,9 +18,14 @@
 <item>EXIGENT</item>
 <item>HIGH-PRIORITY</item>
 <item>TOP-PRIORITY</item>
-<item>LIFE-AND-DEATH</item></list><list type="translations"><item xml:lang="zh">緊急</item></list>
+<item>LIFE-AND-DEATH</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">緊急</item>
+    </list>
 <div type="definition">
-<p>IMPORTANT AND NEEDING QUICK REACTION.</p></div>
+<p>IMPORTANT AND NEEDING QUICK REACTION.</p>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>緊急</p>
@@ -45,57 +52,124 @@
 <p>時不我待</p>
 <p>時不再來</p>
 <p>事不宜遲</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-8f72f52d-7463-48e4-95f6-794104c37c9a">EAGER</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
-<title>Using Chinese Synonyms</title><biblScope unit="page">198</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-8f72f52d-7463-48e4-95f6-794104c37c9a">EAGER</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
+<title>Using Chinese Synonyms</title>
+                <biblScope unit="page">198</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-015e3afc-cf0d-4030-ab05-3d8cc2a225e5"><form corresp="#uuid-3a91d726-a55f-4e6a-be41-ac38ada366a6">
-<orth>急</orth><pron xml:lang="zh-Latn-x-pinyin">jí</pron><pron xml:lang="zh-x-oc">krɯb</pron><pron xml:lang="zh-x-mc">kip</pron></form>
+<entry type="word" xml:id="uuid-015e3afc-cf0d-4030-ab05-3d8cc2a225e5">
+            <form corresp="#uuid-3a91d726-a55f-4e6a-be41-ac38ada366a6">
+<orth>急</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí</pron>
+                <pron xml:lang="zh-x-oc">krɯb</pron>
+                <pron xml:lang="zh-x-mc">kip</pron>
+            </form>
 <sense xml:id="uuid-fba9ad51-c00e-4012-bd08-760317796ad6">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>in a matter of great urgency; urgently</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>in a matter of great urgency; urgently</def>
+            </sense>
 <sense xml:id="uuid-0048a80a-bd4f-420f-9390-189be83103cb">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>temporary: be urgent; feel desperate, get desperate;   generally, as a matter of personal character: be rash, hot-headed</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>temporary: be urgent; feel desperate, get desperate;   generally, as a matter of personal character: be rash, hot-headed</def>
+            </sense>
 <sense xml:id="uuid-69220206-40a1-4f90-b25d-9bc1ed8da0b7">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp>
-  <def>be as urgent as</def></sense>
+  <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+  <def>be as urgent as</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8686c5f9-da1a-4b42-b5fe-d37fc68fb760"><form corresp="#uuid-55262410-645e-4df0-b0a2-71e30d115a46">
-<orth>疾</orth><pron xml:lang="zh-Latn-x-pinyin">jí</pron><pron xml:lang="zh-x-oc">dzid</pron><pron xml:lang="zh-x-mc">dzit</pron></form>
+<entry type="word" xml:id="uuid-8686c5f9-da1a-4b42-b5fe-d37fc68fb760">
+            <form corresp="#uuid-55262410-645e-4df0-b0a2-71e30d115a46">
+<orth>疾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí</pron>
+                <pron xml:lang="zh-x-oc">dzid</pron>
+                <pron xml:lang="zh-x-mc">dzit</pron>
+            </form>
 <sense xml:id="uuid-b734ee0f-6086-4cbf-b820-f6ec508164b2">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>urgent</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>urgent</def>
+            </sense>
 <sense xml:id="uuid-99bc3f09-8d87-4a26-8711-a2d6446076ca">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>urgently and intensely</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>urgently and intensely</def>
+            </sense>
 <sense xml:id="uuid-3f95961e-3576-4ebe-84f5-70e2eaf6f2c9">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>be urgent</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>be urgent</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-beacef7d-b104-494d-8b63-600c5f7923de"><form corresp="#uuid-3b58d8c8-b17d-4242-a31f-9e52f8dc9511">
-<orth>蹙</orth><pron xml:lang="zh-Latn-x-pinyin">cù</pron><pron xml:lang="zh-x-oc">sklɯwɡ</pron><pron xml:lang="zh-x-mc">tsuk</pron></form>
+<entry type="word" xml:id="uuid-beacef7d-b104-494d-8b63-600c5f7923de">
+            <form corresp="#uuid-3b58d8c8-b17d-4242-a31f-9e52f8dc9511">
+<orth>蹙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cù</pron>
+                <pron xml:lang="zh-x-oc">sklɯwɡ</pron>
+                <pron xml:lang="zh-x-mc">tsuk</pron>
+            </form>
 <sense xml:id="uuid-fcb6e649-0f33-4245-a22e-c35ee7bfaa29">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp>
-  <def>press &gt;  be urgent</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+  <def>press &gt;  be urgent</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-37488156-08f9-4a3a-b4c5-b26382974f53"><form corresp="#uuid-f8a7728d-5c32-4758-9682-73e782880dc8 #uuid-3a91d726-a55f-4e6a-be41-ac38ada366a6">
-<orth>緩急</orth><pron xml:lang="zh-Latn-x-pinyin">huǎn jí</pron><pron xml:lang="zh-x-oc">ɢʷaanʔ krɯb</pron><pron xml:lang="zh-x-mc">ɦʷɑn kip</pron></form>
+<entry type="word" xml:id="uuid-37488156-08f9-4a3a-b4c5-b26382974f53">
+            <form corresp="#uuid-f8a7728d-5c32-4758-9682-73e782880dc8 #uuid-3a91d726-a55f-4e6a-be41-ac38ada366a6">
+<orth>緩急</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huǎn jí</pron>
+                <pron xml:lang="zh-x-oc">ɢʷaanʔ krɯb</pron>
+                <pron xml:lang="zh-x-mc">ɦʷɑn kip</pron>
+            </form>
 <sense xml:id="uuid-b07c9e1d-4585-4ff7-a153-8de644fcca52">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-b508886f-c59f-4e95-aef9-c8c38b206373">NPab{nab1ant.nab2}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>relative urgency</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>relative urgency</def>
+            </sense>
+</entry>
+    </div>
+</div>

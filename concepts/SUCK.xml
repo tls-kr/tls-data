@@ -1,18 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-5f1ebd06-7193-4f09-929b-29861347f401">
-<head>SUCK</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5f1ebd06-7193-4f09-929b-29861347f401">
+<head>SUCK</head>
+    <list type="altnames">
 <item>SIP</item>
 <item>SUP</item>
 <item>SIPHON</item>
 <item>SLURP</item>
 <item>DRAW</item>
-<item>DRINK</item></list><list type="translations"><item xml:lang="zh">吸吮</item></list>
+<item>DRINK</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">吸吮</item>
+    </list>
 <div type="definition">
-<p>SEEM to DRINK by CAUSING to ENTER ONE'S MOUTH by BREATHING IN.</p></div>
+<p>SEEM to DRINK by CAUSING to ENTER ONE'S MOUTH by BREATHING IN.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current word for sucking something clean is shǔn 吮.</p>
-<p>2. Shuò 唶 is a rare dialect word for sucking at something.</p></div>
+<p>2. Shuò 唶 is a rare dialect word for sucking at something.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>吮</p>
 <p>啜</p>
@@ -25,49 +33,128 @@
 <p>嗍</p>
 <p>嘬</p>
 <p>咂 refers to sipping a liquid and is marginal in this group.</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-b29b5c77-7439-4e43-99f6-a58a56a6e184">SMOKE TOBACCO</ref></item></list><list type="antonymy">
-<item><ref target="#uuid-5fccefea-e6b2-41af-826e-2a7661ab3b35">BLOW</ref></item></list><list type="see">
-<item><ref target="#uuid-136a1d1c-bcbc-4fe0-bbf6-a3b35728a371">SWALLOW</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">5.16</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-b29b5c77-7439-4e43-99f6-a58a56a6e184">SMOKE TOBACCO</ref>
+            </item>
+        </list>
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-5fccefea-e6b2-41af-826e-2a7661ab3b35">BLOW</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-136a1d1c-bcbc-4fe0-bbf6-a3b35728a371">SWALLOW</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">5.16</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-ea6eb63f-8fc6-4f8a-ad6d-c3a6cf3de39e"><form corresp="#uuid-3c77ab5e-7b4e-430d-8e79-25da8390d03c">
-<orth>吮</orth><pron xml:lang="zh-Latn-x-pinyin">shǔn</pron><pron xml:lang="zh-x-oc">ɢljunʔ</pron><pron xml:lang="zh-x-mc">ʑʷin</pron></form>
+<entry type="word" xml:id="uuid-ea6eb63f-8fc6-4f8a-ad6d-c3a6cf3de39e">
+            <form corresp="#uuid-3c77ab5e-7b4e-430d-8e79-25da8390d03c">
+<orth>吮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǔn</pron>
+                <pron xml:lang="zh-x-oc">ɢljunʔ</pron>
+                <pron xml:lang="zh-x-mc">ʑʷin</pron>
+            </form>
+            <def>The current word for sucking something clean is shǔn 吮.</def>
 <sense xml:id="uuid-fe9cb289-38a9-4c8c-b76f-b9a339dee7df">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>suck at; suck in; suck in and drink (blood etc)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>suck at; suck in; suck in and drink (blood etc)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-49915362-2b43-49e8-8b14-f00729a93269"><form>
-<orth>唶</orth><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-oc"/><pron xml:lang="zh-x-mc"/></form>
+<entry type="word" xml:id="uuid-49915362-2b43-49e8-8b14-f00729a93269">
+            <form>
+<orth>唶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-oc"/>
+                <pron xml:lang="zh-x-mc"/>
+            </form>
+            <def>Shuò 唶is a rare dialect word for sucking at something.</def>
 <sense xml:id="uuid-82d27cf5-433c-415f-a989-5960dfc1091e">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">1</usg></gramGrp>
-  <def>suck</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">1</usg>
+                </gramGrp>
+  <def>suck</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-aeb89051-9f30-438e-8816-c5b1424cd2c5"><form corresp="#uuid-de8a051f-d302-46eb-9c06-2b8ab48d3ec9">
-<orth>嬭</orth><pron xml:lang="zh-Latn-x-pinyin">nǎi</pron><pron xml:lang="zh-x-oc">mrleelʔ</pron><pron xml:lang="zh-x-mc">ɳɣɛ</pron></form>
+<entry type="word" xml:id="uuid-aeb89051-9f30-438e-8816-c5b1424cd2c5">
+            <form corresp="#uuid-de8a051f-d302-46eb-9c06-2b8ab48d3ec9">
+<orth>嬭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nǎi</pron>
+                <pron xml:lang="zh-x-oc">mrleelʔ</pron>
+                <pron xml:lang="zh-x-mc">ɳɣɛ</pron>
+            </form>
 <sense xml:id="uuid-18b568ee-c371-4399-b34d-31f842d96703">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">0</usg></gramGrp>
-  <def>post-Han: suckle</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">0</usg>
+                </gramGrp>
+  <def>post-Han: suckle</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-4cbc3450-4863-42a6-8a9a-87f8f4e21e9c"><form corresp="#uuid-9c070cab-04e3-4aad-b15c-419dc0ecf3ce">
-<orth>盬</orth><pron xml:lang="zh-Latn-x-pinyin">gǔ</pron><pron xml:lang="zh-x-oc">kaaʔ</pron><pron xml:lang="zh-x-mc">kuo̝</pron></form>
+<entry type="word" xml:id="uuid-4cbc3450-4863-42a6-8a9a-87f8f4e21e9c">
+            <form corresp="#uuid-9c070cab-04e3-4aad-b15c-419dc0ecf3ce">
+<orth>盬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǔ</pron>
+                <pron xml:lang="zh-x-oc">kaaʔ</pron>
+                <pron xml:lang="zh-x-mc">kuo̝</pron>
+            </form>
 <sense xml:id="uuid-741df1ae-c139-44cb-8a58-9e65ab3c9df1">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>suck out??</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>suck out??</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-d733bb11-4962-438a-bc4a-0a53f8898dfb"><form corresp="#uuid-ae58f1a5-ee08-4f79-8c96-6ae64283a815 #uuid-3c77ab5e-7b4e-430d-8e79-25da8390d03c">
-<orth>唶吮</orth><pron xml:lang="zh-Latn-x-pinyin">jiè shǔn</pron><pron xml:lang="zh-x-oc">ɢljunʔ</pron><pron xml:lang="zh-x-mc">tsɣɛ ʑʷin</pron></form><form corresp="#uuid-3f1988e2-04ab-4a3d-a099-c2a31db282f3 #uuid-3c77ab5e-7b4e-430d-8e79-25da8390d03c">
-<orth>嗽吮</orth><pron xml:lang="zh-Latn-x-pinyin">shuò shǔn</pron><pron xml:lang="zh-x-oc">srooɡ ɢljunʔ</pron><pron xml:lang="zh-x-mc">ʂɣɔk ʑʷin</pron></form>
+<entry type="word" xml:id="uuid-d733bb11-4962-438a-bc4a-0a53f8898dfb">
+            <form corresp="#uuid-ae58f1a5-ee08-4f79-8c96-6ae64283a815 #uuid-3c77ab5e-7b4e-430d-8e79-25da8390d03c">
+<orth>唶吮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiè shǔn</pron>
+                <pron xml:lang="zh-x-oc">ɢljunʔ</pron>
+                <pron xml:lang="zh-x-mc">tsɣɛ ʑʷin</pron>
+            </form>
+            <def>shuòshun3</def>
+            <form corresp="#uuid-3f1988e2-04ab-4a3d-a099-c2a31db282f3 #uuid-3c77ab5e-7b4e-430d-8e79-25da8390d03c">
+<orth>嗽吮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuò shǔn</pron>
+                <pron xml:lang="zh-x-oc">srooɡ ɢljunʔ</pron>
+                <pron xml:lang="zh-x-mc">ʂɣɔk ʑʷin</pron>
+            </form>
+            <def>shuòshun3</def>
 <sense xml:id="uuid-69351ca0-a86a-4555-a245-70992ce70fd0">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>suck at carefully, lick and suck all clean</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>suck at carefully, lick and suck all clean</def>
+            </sense>
+</entry>
+    </div>
+</div>
