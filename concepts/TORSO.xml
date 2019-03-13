@@ -1,26 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-a8d06d79-57a5-4451-ab99-0f8b767a77a1">
-<head>TORSO</head><list type="translations"><item xml:lang="zh">軀幹</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a8d06d79-57a5-4451-ab99-0f8b767a77a1">
+<head>TORSO</head>
+    <list type="translations">
+        <item xml:lang="zh">軀幹</item>
+    </list>
 <div type="definition">
-<p>CENTRAL PART of the BODY of a HUMAN OR ANIMAL CONTAINING the INNARDS ETC..</p></div>
+<p>CENTRAL PART of the BODY of a HUMAN OR ANIMAL CONTAINING the INNARDS ETC..</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
-<p>幹，特指身體的主要部分，即軀幹。</p></div></div>
-<div type="pointers"><list type="mereonymy">
-<item><ref target="#uuid-aebff601-a3a8-4c54-9f1c-74a9a765a4a7">CHEST</ref></item>
-<item><ref target="#uuid-a7504ae9-7e2f-4f5d-9e34-0677ef86457c">STOMACH</ref></item>
-<item><ref target="#uuid-f9403b9d-aec6-4063-b05e-5afa0cfc3797">TAIL</ref></item>
-<item><ref target="#uuid-8422d721-632c-4a62-94be-9b198bb373a3">WAIST</ref></item>
-<item><ref target="#uuid-75669179-f12f-4d6c-8824-d73bfe2dfc14">RUMP</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
-<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title><biblScope unit="page">8A</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>幹，特指身體的主要部分，即軀幹。</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="mereonymy">
+<item>
+                <ref target="#uuid-aebff601-a3a8-4c54-9f1c-74a9a765a4a7">CHEST</ref>
+            </item>
+<item>
+                <ref target="#uuid-a7504ae9-7e2f-4f5d-9e34-0677ef86457c">STOMACH</ref>
+            </item>
+<item>
+                <ref target="#uuid-f9403b9d-aec6-4063-b05e-5afa0cfc3797">TAIL</ref>
+            </item>
+<item>
+                <ref target="#uuid-8422d721-632c-4a62-94be-9b198bb373a3">WAIST</ref>
+            </item>
+<item>
+                <ref target="#uuid-75669179-f12f-4d6c-8824-d73bfe2dfc14">RUMP</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
+<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title>
+                <biblScope unit="page">8A</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-f7e6a28f-03ee-47a7-b240-9ce63f07fa54"><form corresp="#uuid-d0476ca5-c4f0-4ca2-bc22-4b7c4c047a14">
-<orth>幹</orth><pron xml:lang="zh-Latn-x-pinyin">gàn</pron><pron xml:lang="zh-x-oc">kaans</pron><pron xml:lang="zh-x-mc">kɑn</pron></form>
+<entry type="word" xml:id="uuid-f7e6a28f-03ee-47a7-b240-9ce63f07fa54">
+            <form corresp="#uuid-d0476ca5-c4f0-4ca2-bc22-4b7c4c047a14">
+<orth>幹</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gàn</pron>
+                <pron xml:lang="zh-x-oc">kaans</pron>
+                <pron xml:lang="zh-x-mc">kɑn</pron>
+            </form>
 <sense xml:id="uuid-10738106-fe90-4235-9889-7d981148de46">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>torso</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>torso</def>
+            </sense>
+</entry>
+    </div>
+</div>

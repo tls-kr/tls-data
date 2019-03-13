@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-e1ca2fd3-1fd6-4186-9b5a-5f8219ac7630">
-<head>LITERARY GENRE</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e1ca2fd3-1fd6-4186-9b5a-5f8219ac7630">
+<head>LITERARY GENRE</head>
+    <list type="altnames">
 <item>CATEGORY</item>
 <item>CLASS</item>
 <item>CLASSIFICATION</item>
@@ -17,31 +19,71 @@
 <item>SCHOOL</item>
 <item>STAMP</item>
 <item>CAST</item>
-<item>ILK</item></list><list type="translations"><item xml:lang="zh">文體</item></list>
+<item>ILK</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">文體</item>
+    </list>
 <div type="definition">
-<p>CATEGORY of LITERATURE.</p></div>
+<p>CATEGORY of LITERATURE.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
-<p>1. The abstract notion of a literary genre is wén tǐ 文體, but this term is post-Han.</p></div>
+<p>1. The abstract notion of a literary genre is wén tǐ 文體, but this term is post-Han.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>文體</p>
 <p>THERE MUST BE MORE TERMINOLOGY, BUT I CANNOT THINK OF IT.</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-ff469713-3e03-42df-a8a3-346fe5a336e2">RIDDLE</ref></item>
-<item><ref target="#uuid-31075dea-a6fb-49ce-bb8f-d716958d0e44">PROSE</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
-<title>Dictionnaire culturel en langue francaise</title><biblScope unit="page">2.1319</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
-<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title><biblScope unit="page">298ff</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-ff469713-3e03-42df-a8a3-346fe5a336e2">RIDDLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-31075dea-a6fb-49ce-bb8f-d716958d0e44">PROSE</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
+<title>Dictionnaire culturel en langue francaise</title>
+                <biblScope unit="page">2.1319</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ceec1ff7-e9e2-4e81-8c76-a29b231e6074">WU SANXING 2008</ref>
+<title>中國文化背景八千詞 Zhongguo wenhua beijing ba qian ci</title>
+                <biblScope unit="page">298ff</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-1e662684-f2b3-48f2-b5c7-13e8cc1e7af2"><form corresp="#uuid-9bad1e6b-8012-44fa-9361-adf5aa491542 #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
-<orth>文體</orth><pron xml:lang="zh-Latn-x-pinyin">wén tǐ</pron><pron xml:lang="zh-x-oc">mɯn rʰiiʔ</pron><pron xml:lang="zh-x-mc">mi̯un thei</pron></form>
+<entry type="word" xml:id="uuid-1e662684-f2b3-48f2-b5c7-13e8cc1e7af2">
+            <form corresp="#uuid-9bad1e6b-8012-44fa-9361-adf5aa491542 #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
+<orth>文體</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wén tǐ</pron>
+                <pron xml:lang="zh-x-oc">mɯn rʰiiʔ</pron>
+                <pron xml:lang="zh-x-mc">mi̯un thei</pron>
+            </form>
+            <def>The abstract notion of a literary genre is wén tǐ 文體, but this term is post-Han.</def>
 <sense xml:id="uuid-3a53cbe8-4039-4eef-a884-188614267cd6">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e144e5f3-6f48-434b-ad41-3e76234cca69">NP{N1adN2}</tls:syn-func><usg type="warring-states-currency">0</usg></gramGrp>
-  <def>SHIPIN: literary genre</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e144e5f3-6f48-434b-ad41-3e76234cca69">NP{N1adN2}</tls:syn-func>
+                    <usg type="warring-states-currency">0</usg>
+                </gramGrp>
+  <def>SHIPIN: literary genre</def>
+            </sense>
+</entry>
+    </div>
+</div>

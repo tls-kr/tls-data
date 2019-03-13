@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-a716fa73-5434-40ce-96e9-b46b6c0ac50a">
-<head>AMONG</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a716fa73-5434-40ce-96e9-b46b6c0ac50a">
+<head>AMONG</head>
+    <list type="altnames">
 <item>AMONGST</item>
 <item>SURROUNDED BY</item>
 <item>IN THE COMPANY OF</item>
@@ -8,9 +10,14 @@
 <item>IN THE MIDDLE OF</item>
 <item>WITH</item>
 <item>LITERARY AMIDST</item>
-<item>IN THE MIDST OF</item></list><list type="translations"><item xml:lang="zh">其中</item></list>
+<item>IN THE MIDST OF</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">其中</item>
+    </list>
 <div type="definition">
-<p>BE-IN a GROUP of THINGS.</p></div>
+<p>BE-IN a GROUP of THINGS.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[[COMMON/RARE]]</p>
@@ -20,41 +27,91 @@
 <p>2. Jiān 間 is primarily spatial and comes to mean "among" only by figurative extension.</p>
 <p>[DERIVED]; [npostN]</p>
 <p>3. Yú 於 "in, at" can sometimes come to be used in an extended figurative meaning "among".</p>
-<p>[[RARE]]; [vtpostV]</p></div>
+<p>[[RARE]]; [vtpostV]</p>
+        </div>
 <div type="modern-chinese-criteria">
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／ LU JIANMING</p></div></div>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-976a96df-788e-40c3-9630-a579a83b7689">PARTICLE</ref></item></list></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／ LU JIANMING</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-976a96df-788e-40c3-9630-a579a83b7689">PARTICLE</ref>
+            </item>
+        </list>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-91b26ff3-773e-47c0-9ca6-4880588b98d8"><form corresp="#uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7">
-<orth>中</orth><pron xml:lang="zh-Latn-x-pinyin">zhōng</pron><pron xml:lang="zh-x-oc">krluŋ</pron><pron xml:lang="zh-x-mc">ʈuŋ</pron></form>
+<entry type="word" xml:id="uuid-91b26ff3-773e-47c0-9ca6-4880588b98d8">
+            <form corresp="#uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7">
+<orth>中</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōng</pron>
+                <pron xml:lang="zh-x-oc">krluŋ</pron>
+                <pron xml:lang="zh-x-mc">ʈuŋ</pron>
+            </form>
+            <def>The standard general word for "among" is zhōng 中.
+[[COMMON]];   [npostN]</def>
 <sense xml:id="uuid-1ea6d052-9974-4c78-9851-6f55a1026b55">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-ad375b15-c825-4888-a32c-d1ae4c54f3e5">npost-N1.adN2</tls:syn-func></gramGrp>
-  <def>among</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-ad375b15-c825-4888-a32c-d1ae4c54f3e5">npost-N1.adN2</tls:syn-func>
+                </gramGrp>
+  <def>among</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-cd561d1d-71f5-4adc-ad0f-af40cc793405"><form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
-<orth>於</orth><pron xml:lang="zh-Latn-x-pinyin">yú</pron><pron xml:lang="zh-x-oc">qa</pron><pron xml:lang="zh-x-mc">ʔi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-cd561d1d-71f5-4adc-ad0f-af40cc793405">
+            <form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
+<orth>於</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
+                <pron xml:lang="zh-x-oc">qa</pron>
+                <pron xml:lang="zh-x-mc">ʔi̯ɤ</pron>
+            </form>
+            <def>Jiān 間 is primarily spatial and comes to mean "among" only by figurative extension.
+[DERIVED];   [npostN]</def>
 <sense xml:id="uuid-363f31c4-deb5-49b9-877c-46e95175a01a">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-a3c2468d-0681-45da-bbe5-f9ee8b9ee2b9">vt[0]postadN[NU]</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>from among</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-a3c2468d-0681-45da-bbe5-f9ee8b9ee2b9">vt[0]postadN[NU]</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>from among</def>
+            </sense>
 <sense xml:id="uuid-1eaccf1c-5201-42bd-a60b-52772362e026">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func></gramGrp>
-  <def>among</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                </gramGrp>
+  <def>among</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-89c72935-fe41-49fc-b4d1-8e9852e45c68"><form corresp="#uuid-5e796aa6-3208-44c6-bb32-f95a2c00c89a">
-<orth>焉</orth><pron xml:lang="zh-Latn-x-pinyin">yān</pron><pron xml:lang="zh-x-oc">qran</pron><pron xml:lang="zh-x-mc">ʔiɛn</pron></form>
+<entry type="word" xml:id="uuid-89c72935-fe41-49fc-b4d1-8e9852e45c68">
+            <form corresp="#uuid-5e796aa6-3208-44c6-bb32-f95a2c00c89a">
+<orth>焉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yān</pron>
+                <pron xml:lang="zh-x-oc">qran</pron>
+                <pron xml:lang="zh-x-mc">ʔiɛn</pron>
+            </form>
 <sense xml:id="uuid-613d1496-e00a-40e9-9e74-f3841078b17c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-887c5afd-c119-4fc5-bb93-2f5c14814079">v{vt+npro}postN.postV</tls:syn-func></gramGrp>
-  <def>from among them 一焉</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-887c5afd-c119-4fc5-bb93-2f5c14814079">v{vt+npro}postN.postV</tls:syn-func>
+                </gramGrp>
+  <def>from among them 一焉</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-2fd32fe0-3e32-43e0-b948-4fbda6151da4"><form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
-<orth>間</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-oc">kreen</pron><pron xml:lang="zh-x-mc">kɣɛn</pron></form>
+<entry type="word" xml:id="uuid-2fd32fe0-3e32-43e0-b948-4fbda6151da4">
+            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
+<orth>間</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-oc">kreen</pron>
+                <pron xml:lang="zh-x-mc">kɣɛn</pron>
+            </form>
 <sense xml:id="uuid-8571b007-c31c-4c06-9dd0-d07cb9229e45">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp>
-  <def>amongst, in between of</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+  <def>amongst, in between of</def>
+            </sense>
+</entry>
+    </div>
+</div>

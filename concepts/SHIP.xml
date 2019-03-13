@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-2065bf8e-6381-482f-9877-799fcb54ca4e">
-<head>SHIP</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2065bf8e-6381-482f-9877-799fcb54ca4e">
+<head>SHIP</head>
+    <list type="altnames">
 <item>BOAT</item>
 <item>VESSEL</item>
-<item>CRAFT</item></list><list type="translations"><item xml:lang="zh">船</item></list>
+<item>CRAFT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">船</item>
+    </list>
 <div type="definition">
-<p>VEHICLE FOR TRANSPORT on WATER.</p></div>
+<p>VEHICLE FOR TRANSPORT on WATER.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general term for any ship, large or small, is zhōu 舟. [The word occurs already in the oracle bone inscriptions and in SHIJING. According to some opinions it originally referred to the boat made of one piece of wood, but it is not certain. The earliest forms of the character resemble the small ship made already from several planks. Note that in Western Zhou times, ship also played certain role in some rituals performed by the king, which probably took place in the pool within royal palace.</p>
@@ -34,7 +41,8 @@
 <p>24. Lóu chuán 樓船 refers to the battleship with several boards. These came to use already in the late Chunqiu period, and were used till Ming times.</p>
 <p>25. Gē chuán 戈船 refers to the large battleship which was in use from the late Chunqiu till the Southern and Northern dynasties. It obtained its name from halberds and spears put on its board; perhaps general word for a battleship (???).</p>
 <p>26. Méng chōng 艨童舟童 refers to a smaller battleship used to clash into the battleships of enemies. It has two boards, the lower for oarmen and higher for warriors; moreover it was covered with fresh oxen skins to defend firearrows of the enemies. In use since the Three Kingdoms.</p>
-<p>27. Jiàn 艦 refers to the large battleship with wooden battlements which came to be used in the Three Kingdoms.</p></div>
+<p>27. Jiàn 艦 refers to the large battleship with wooden battlements which came to be used in the Three Kingdoms.</p>
+        </div>
 <div type="huang-jingui">
 <p>HUANG JINGUI 2006</p>
 <p>COMM 22.</p>
@@ -49,7 +57,8 @@
 <p>舸，又大又快的船；走舸可作突襲的輕捷戰船。</p>
 <p>艑，宜於運貨載人，又扁又大的內河船，流行於長江中下游地區。</p>
 <p>“[U+447d]” ，南北朝至唐代流行的對大船的渾稱。</p>
-<p>“ 艚 ” ，漕運船，開始是雙體船，唐代起是較大的單體船，按照河運和海運的需要，使用不同的船種。</p></div>
+<p>“ 艚 ” ，漕運船，開始是雙體船，唐代起是較大的單體船，按照河運和海運的需要，使用不同的船種。</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>船</p>
 <p>船舶</p>
@@ -79,312 +88,855 @@
 <p>快艇</p>
 <p>摩托船</p>
 <p>電船</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-25f58d5a-7a03-471d-9ee3-d86f42e724c6">RAFT</ref></item>
-<item><ref target="#uuid-95afbc2b-d43b-47ac-a555-9fc6021545d1">WARSHIP</ref></item>
-<item><ref target="#uuid-ecd7621d-dd77-431c-a137-583c47000f17">TWIN-BODY SHIP</ref></item>
-<item><ref target="#uuid-39cc6188-612a-459e-b5bd-aeefbfcb4132">LARGE SHIP</ref></item>
-<item><ref target="#uuid-b0f970f1-b4bb-44e3-b14f-2770e9792e45">BOAT</ref></item>
-<item><ref target="#uuid-88575b9f-235d-4059-9203-479486ffb224">FLEET</ref></item></list><list type="mereonymy">
-<item><ref target="#uuid-9399b969-ef25-4829-a6f9-a2b5999bbfd1">ANCHOR</ref></item>
-<item><ref target="#uuid-0277652a-7388-43e0-ab86-e5f4bbca0a76">KEEL</ref></item>
-<item><ref target="#uuid-dcd196e1-c349-4d91-aa7f-85d3cbdc0284">MAST</ref></item>
-<item><ref target="#uuid-5429a028-7992-45a7-bcc6-8955c7090639">RUDDER</ref></item>
-<item><ref target="#uuid-801135b9-293a-478c-82e9-d045a11f210e">SAIL</ref></item>
-<item><ref target="#uuid-de7eed75-95c4-46e9-831c-dd69452f1c39">SHIP PART</ref></item>
-<item><ref target="#uuid-51fc63c2-f53d-48a9-8b03-042ce0863a2c">STERN</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">10.81</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">10.83</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-25f58d5a-7a03-471d-9ee3-d86f42e724c6">RAFT</ref>
+            </item>
+<item>
+                <ref target="#uuid-95afbc2b-d43b-47ac-a555-9fc6021545d1">WARSHIP</ref>
+            </item>
+<item>
+                <ref target="#uuid-ecd7621d-dd77-431c-a137-583c47000f17">TWIN-BODY SHIP</ref>
+            </item>
+<item>
+                <ref target="#uuid-39cc6188-612a-459e-b5bd-aeefbfcb4132">LARGE SHIP</ref>
+            </item>
+<item>
+                <ref target="#uuid-b0f970f1-b4bb-44e3-b14f-2770e9792e45">BOAT</ref>
+            </item>
+<item>
+                <ref target="#uuid-88575b9f-235d-4059-9203-479486ffb224">FLEET</ref>
+            </item>
+        </list>
+        <list type="mereonymy">
+<item>
+                <ref target="#uuid-9399b969-ef25-4829-a6f9-a2b5999bbfd1">ANCHOR</ref>
+            </item>
+<item>
+                <ref target="#uuid-0277652a-7388-43e0-ab86-e5f4bbca0a76">KEEL</ref>
+            </item>
+<item>
+                <ref target="#uuid-dcd196e1-c349-4d91-aa7f-85d3cbdc0284">MAST</ref>
+            </item>
+<item>
+                <ref target="#uuid-5429a028-7992-45a7-bcc6-8955c7090639">RUDDER</ref>
+            </item>
+<item>
+                <ref target="#uuid-801135b9-293a-478c-82e9-d045a11f210e">SAIL</ref>
+            </item>
+<item>
+                <ref target="#uuid-de7eed75-95c4-46e9-831c-dd69452f1c39">SHIP PART</ref>
+            </item>
+<item>
+                <ref target="#uuid-51fc63c2-f53d-48a9-8b03-042ce0863a2c">STERN</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">10.81</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">10.83</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>SHIP</p>
 <p>navigium is the most general word for a ship of any kind.</p>
 <p>navis refers to an ordinary shp for distant voyages.</p>
 <p>celox, lembus and liburna are boats which may be manned and armed for service in war.</p>
-<p>scapha, cumba and and the long and narrow canoe-like linter are skiffs and wherries, intended merely for short distances or for crossing over.</p></note></bibl>
-<bibl><ref target="#uuid-8a7b3e79-a326-45b5-8419-1ea3245117f8">HANFEI TONGYI 2004</ref>
-<title>韓非子同義詞研究</title><biblScope unit="page">50</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
-<title>論衡同義詞研究</title><biblScope unit="page">1</biblScope><note>
-<p>船／舟</p></note></bibl>
-<bibl><ref target="#uuid-f2c59ecb-bbff-4004-8e45-5fc7f92ed0da">Mel'cuk 1984</ref>
-<title>Tolkovo-kombinatornyj slovar' sovremmenogo russkogo jazyka. Explanatory Combinatorial Dictionary of Modern Russian</title><biblScope unit="page">846</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-56dd8ede-a572-47bc-8a1b-70c846775874">MENGE</ref>
-<title>Lateinische Synonymik</title><biblScope unit="page">248</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
-<title>Dictionnaire culturel en langue francaise</title><biblScope unit="page">1.822</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
-<title>Dictionnaire culturel en langue francaise</title><biblScope unit="page">2.1255</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-74ef242e-0300-4994-8992-f23c46362473">SANBAITI 1987</ref>
-<title>中國文化史三百題</title><biblScope unit="page">224-228</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-9eb4d944-6640-47a4-8398-cfe72a1c902f">SUN JI</ref>
-<title>漢代無知文化資料圖說</title><biblScope unit="page">121</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-9427a079-8f18-48af-805a-2628e9f9e725">WANG WEIHUI 2000</ref>
-<title>東漢﹣隨常用詞演變研究</title><biblScope unit="page">77</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no.331</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
-<title>古漢語常用詞同義詞詞典</title><biblScope unit="page">156</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
-<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title><biblScope unit="page">130A</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>scapha, cumba and and the long and narrow canoe-like linter are skiffs and wherries, intended merely for short distances or for crossing over.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-8a7b3e79-a326-45b5-8419-1ea3245117f8">HANFEI TONGYI 2004</ref>
+<title>韓非子同義詞研究</title>
+                <biblScope unit="page">50</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
+<title>論衡同義詞研究</title>
+                <biblScope unit="page">1</biblScope>
+                <note>
+<p>船／舟</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-f2c59ecb-bbff-4004-8e45-5fc7f92ed0da">Mel'cuk 1984</ref>
+<title>Tolkovo-kombinatornyj slovar' sovremmenogo russkogo jazyka. Explanatory Combinatorial Dictionary of Modern Russian</title>
+                <biblScope unit="page">846</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-56dd8ede-a572-47bc-8a1b-70c846775874">MENGE</ref>
+<title>Lateinische Synonymik</title>
+                <biblScope unit="page">248</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
+<title>Dictionnaire culturel en langue francaise</title>
+                <biblScope unit="page">1.822</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
+<title>Dictionnaire culturel en langue francaise</title>
+                <biblScope unit="page">2.1255</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-74ef242e-0300-4994-8992-f23c46362473">SANBAITI 1987</ref>
+<title>中國文化史三百題</title>
+                <biblScope unit="page">224-228</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-9eb4d944-6640-47a4-8398-cfe72a1c902f">SUN JI</ref>
+<title>漢代無知文化資料圖說</title>
+                <biblScope unit="page">121</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-9427a079-8f18-48af-805a-2628e9f9e725">WANG WEIHUI 2000</ref>
+<title>東漢﹣隨常用詞演變研究</title>
+                <biblScope unit="page">77</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no.331</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
+<title>古漢語常用詞同義詞詞典</title>
+                <biblScope unit="page">156</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
+<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title>
+                <biblScope unit="page">130A</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-f32d7983-1ff4-4a05-b99b-24a3b93a46e5"><form corresp="#uuid-88caa99b-ae3f-4eef-ac99-faed6262b561">
-<orth>俞</orth><pron xml:lang="zh-Latn-x-pinyin">yú</pron><pron xml:lang="zh-x-oc">lo</pron><pron xml:lang="zh-x-mc">ji̯o</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1316 - 1317</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-f32d7983-1ff4-4a05-b99b-24a3b93a46e5">
+            <form corresp="#uuid-88caa99b-ae3f-4eef-ac99-faed6262b561">
+<orth>俞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
+                <pron xml:lang="zh-x-oc">lo</pron>
+                <pron xml:lang="zh-x-mc">ji̯o</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1316 - 1317</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Yú 俞 refers in SHUOWEN and HUAINANZI to the boat made of one piece of wood, the monoxylon. Whether the term referred to this type of boat in general already since early times is not certain. Note that one monoxylon (3,9 m long) dating from Shang times was found in Shandong province.</def>
 </entry>
-<entry type="word" xml:id="uuid-c330f303-d5d4-45ed-aba2-c949290c179f"><form corresp="#uuid-dffaa42d-8b44-462a-be13-8b59f3ffc185">
-<orth>刀</orth><pron xml:lang="zh-Latn-x-pinyin">dāo</pron><pron xml:lang="zh-x-oc">k-laaw</pron><pron xml:lang="zh-x-mc">tɑu</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1339</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-2e7beec4-7859-4f1e-a232-bbe3a7955f27">XIANG 1997</ref>
-<title>[100 page synonym dictionary which I have in Oslo and shall identify.CH]</title><biblScope unit="page">105</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-c330f303-d5d4-45ed-aba2-c949290c179f">
+            <form corresp="#uuid-dffaa42d-8b44-462a-be13-8b59f3ffc185">
+<orth>刀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dāo</pron>
+                <pron xml:lang="zh-x-oc">k-laaw</pron>
+                <pron xml:lang="zh-x-mc">tɑu</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1339</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-2e7beec4-7859-4f1e-a232-bbe3a7955f27">XIANG 1997</ref>
+<title>[100 page synonym dictionary which I have in Oslo and shall identify.CH]</title>
+                        <biblScope unit="page">105</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Dāo 刀/ (written like 舟刀) refers to a small boat. The word occurs already in SHIJING.</def>
 </entry>
-<entry type="word" xml:id="uuid-712e26dc-8ac4-41f5-8980-7cb7575a8773"><form corresp="#uuid-e7737477-58a8-45b2-b9ba-1b057c80c09b">
-<orth>杭</orth><pron xml:lang="zh-Latn-x-pinyin">háng</pron><pron xml:lang="zh-x-oc">ɡaaŋ</pron><pron xml:lang="zh-x-mc">ɦɑŋ</pron></form><form corresp="#uuid-f7b1c215-3f3c-4fb7-b769-a9e64b05a13d">
-<orth>航</orth><pron xml:lang="zh-Latn-x-pinyin">háng</pron><pron xml:lang="zh-x-oc">ɡaaŋ</pron><pron xml:lang="zh-x-mc">ɦɑŋ</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1323 - 1324</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-712e26dc-8ac4-41f5-8980-7cb7575a8773">
+            <form corresp="#uuid-e7737477-58a8-45b2-b9ba-1b057c80c09b">
+<orth>杭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">háng</pron>
+                <pron xml:lang="zh-x-oc">ɡaaŋ</pron>
+                <pron xml:lang="zh-x-mc">ɦɑŋ</pron>
+            </form>
+            <def>Háng 杭／航 refers specifically to a ferry and became current first in Han times. (From the Warring States period, only the former character is known, the latter form came to be used in Han times. The word refers specifically to a ferry, but can be used also as a general term for a ship.</def>
+            <form corresp="#uuid-f7b1c215-3f3c-4fb7-b769-a9e64b05a13d">
+<orth>航</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">háng</pron>
+                <pron xml:lang="zh-x-oc">ɡaaŋ</pron>
+                <pron xml:lang="zh-x-mc">ɦɑŋ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1323 - 1324</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Háng 杭／航 refers specifically to a ferry and became current first in Han times. (From the Warring States period, only the former character is known, the latter form came to be used in Han times. The word refers specifically to a ferry, but can be used also as a general term for a ship.</def>
 <sense xml:id="uuid-125d4bdc-f05c-4be1-9cb0-97b6efca3cdf">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>CC: a ferry</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-e7667359-123c-44fe-a572-b9b27a14783a"><form corresp="#uuid-32a4de32-d3f1-4b56-8db8-9f7c196e74be">
-<orth>榻</orth><pron xml:lang="zh-Latn-x-pinyin">tà</pron><pron xml:lang="zh-x-oc">thaab</pron><pron xml:lang="zh-x-mc">thɑp</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1336 - 1337</biblScope><note>
-<p/></note></bibl></listBibl></form>
-</entry>
-<entry type="word" xml:id="uuid-64e690e6-ecef-47dc-a291-6fab410f5489"><form corresp="#uuid-ed9f617d-7491-4a0d-8ce6-f83d7fd66518">
-<orth>舟</orth><pron xml:lang="zh-Latn-x-pinyin">zhōu</pron><pron xml:lang="zh-x-oc">kljiw</pron><pron xml:lang="zh-x-mc">tɕɨu</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1315 - 1318</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">222</biblScope><note>
-<p/></note></bibl></listBibl></form>
-<sense xml:id="uuid-1f02a642-1696-4808-b93f-f729dc43fa0a">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>ship; ferry</def></sense>
-<sense xml:id="uuid-810d95d5-76b9-4224-b039-ddc2bc4957d6">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>"boat"</def></sense>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>CC: a ferry</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-e7667359-123c-44fe-a572-b9b27a14783a">
+            <form corresp="#uuid-32a4de32-d3f1-4b56-8db8-9f7c196e74be">
+<orth>榻</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tà</pron>
+                <pron xml:lang="zh-x-oc">thaab</pron>
+                <pron xml:lang="zh-x-mc">thɑp</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1336 - 1337</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Tà 榻 is the general word for a large ship, which was in use mainly from the North Southern dynasties till Tang period.</def>
+</entry>
+<entry type="word" xml:id="uuid-64e690e6-ecef-47dc-a291-6fab410f5489">
+            <form corresp="#uuid-ed9f617d-7491-4a0d-8ce6-f83d7fd66518">
+<orth>舟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōu</pron>
+                <pron xml:lang="zh-x-oc">kljiw</pron>
+                <pron xml:lang="zh-x-mc">tɕɨu</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1315 - 1318</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">222</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>The general term for any ship, large or small, is zhōu 舟. [The word occurs already in the oracle bone inscriptions and in SHIJING. According to some opinions it originally referred to the boat made of one piece of wood, but it is not certain. The earliest forms of the character resemble the small ship made already from several planks. . Note that in Western Zhou times, ship also played certain role in some rituals performed by the king, which probably took place in the pool within royal palace.</def>
+<sense xml:id="uuid-1f02a642-1696-4808-b93f-f729dc43fa0a">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>ship; ferry</def>
+            </sense>
+<sense xml:id="uuid-810d95d5-76b9-4224-b039-ddc2bc4957d6">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>"boat"</def>
+            </sense>
 <sense xml:id="uuid-efdc3fdd-ae39-429d-8867-6f3c4deb536c">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>serve as a boat (?)</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>serve as a boat (?)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-97f336ed-24a5-43af-bdc2-60314e041407"><form corresp="#uuid-519ca96e-fbad-4f7c-8282-a8d17ed308a5">
-<orth>船</orth><pron xml:lang="zh-Latn-x-pinyin">chuán</pron><pron xml:lang="zh-x-oc">ɢljon</pron><pron xml:lang="zh-x-mc">ʑiɛn</pron></form>
+<entry type="word" xml:id="uuid-97f336ed-24a5-43af-bdc2-60314e041407">
+            <form corresp="#uuid-519ca96e-fbad-4f7c-8282-a8d17ed308a5">
+<orth>船</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuán</pron>
+                <pron xml:lang="zh-x-oc">ɢljon</pron>
+                <pron xml:lang="zh-x-mc">ʑiɛn</pron>
+            </form>
 <sense xml:id="uuid-756a257a-db29-49d1-b9d8-3b75b9b518a0">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>current variant of chuán 船</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>current variant of chuán 船</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-0c21685c-d7e1-41b1-8222-c86841eafabe"><form corresp="#uuid-08c44e30-8195-415e-9e31-2acd1d1127b3">
-<orth>舫</orth><pron xml:lang="zh-Latn-x-pinyin">fǎng</pron><pron xml:lang="zh-x-oc">paŋs</pron><pron xml:lang="zh-x-mc">pi̯ɐŋ</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1327 - 1333</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-0c21685c-d7e1-41b1-8222-c86841eafabe">
+            <form corresp="#uuid-08c44e30-8195-415e-9e31-2acd1d1127b3">
+<orth>舫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎng</pron>
+                <pron xml:lang="zh-x-oc">paŋs</pron>
+                <pron xml:lang="zh-x-mc">pi̯ɐŋ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1327 - 1333</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Fāng chuán 方 船, fǎng 舫 (the latter word first appeared in the Warring States period and became more current in Han times) refer to the double ship, ship consisting of two joined boats. This kind of ship could be used for various purposes (for transportation of goods or soldiers, as a warship, or to cross a river), and was in use at least from the Warring States period till Tang; the period during it most flourished was neverthless Jin dynasty.</def>
 </entry>
-<entry type="word" xml:id="uuid-959fe9e5-7687-47f8-9802-7cdc6d41bcc3"><form corresp="#uuid-eaa58fb1-5473-42cf-bdf6-2e70a2f87111">
-<orth>舸</orth><pron xml:lang="zh-Latn-x-pinyin">gě</pron><pron xml:lang="zh-x-oc">klaalʔ</pron><pron xml:lang="zh-x-mc">kɑ</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1334 - 1335</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-959fe9e5-7687-47f8-9802-7cdc6d41bcc3">
+            <form corresp="#uuid-eaa58fb1-5473-42cf-bdf6-2e70a2f87111">
+<orth>舸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gě</pron>
+                <pron xml:lang="zh-x-oc">klaalʔ</pron>
+                <pron xml:lang="zh-x-mc">kɑ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1334 - 1335</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Gě 舸 refers generally to a large ship; according to FANG YAN, in Han times the word was used in an area on the middle reaches of Chang jiang.</def>
 </entry>
-<entry type="word" xml:id="uuid-57d195aa-9af6-45f1-9874-fe2c970e6120"><form corresp="#uuid-84cdebe5-6b99-4133-a110-53ac27d075ec">
-<orth>舶</orth><pron xml:lang="zh-Latn-x-pinyin">bó</pron><pron xml:lang="zh-x-oc">braaɡ</pron><pron xml:lang="zh-x-mc">bɣɛk</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1325 - 1326</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-57d195aa-9af6-45f1-9874-fe2c970e6120">
+            <form corresp="#uuid-84cdebe5-6b99-4133-a110-53ac27d075ec">
+<orth>舶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bó</pron>
+                <pron xml:lang="zh-x-oc">braaɡ</pron>
+                <pron xml:lang="zh-x-mc">bɣɛk</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1325 - 1326</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Bó 舶 originally referred specifically to the large sea ships of the foreign traders reaching Canton area. Later it came to refer generally to large or sea ship.</def>
 </entry>
-<entry type="word" xml:id="uuid-a70c93df-d8bb-4ff0-97a0-6a64fd1dd2a2"><form corresp="#uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
-<orth>船</orth><pron xml:lang="zh-Latn-x-pinyin">chuán</pron><pron xml:lang="zh-x-oc">ɢljon</pron><pron xml:lang="zh-x-mc">ʑiɛn</pron><listBibl>
-<bibl><ref target="#uuid-de04a5d0-06cd-4119-b422-061d7ff9ea4a">HAYASHI 1976</ref>
-<title>漢代の文物 Kandai no bunbutsu</title><biblScope unit="page">{tab. 7-73 - 7-84}</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1319 - 1321</biblScope><note>
-<p/></note></bibl>
-<bibl><biblScope unit="page">{tab. 31}</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-a70c93df-d8bb-4ff0-97a0-6a64fd1dd2a2">
+            <form corresp="#uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
+<orth>船</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuán</pron>
+                <pron xml:lang="zh-x-oc">ɢljon</pron>
+                <pron xml:lang="zh-x-mc">ʑiɛn</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-de04a5d0-06cd-4119-b422-061d7ff9ea4a">HAYASHI 1976</ref>
+<title>漢代の文物 Kandai no bunbutsu</title>
+                        <biblScope unit="page">{tab. 7-73 - 7-84}</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1319 - 1321</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <biblScope unit="page">{tab. 31}</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Chuán 船／舡 is a colloquial general term for a ship which emerged in Warring States times and became current under the Han. The word can refer specifically to larger ships. The word is still unknown in LUNYU and ZUOZHUAN, where the only general term for a ship is still zhōu 舟.</def>
 <sense xml:id="uuid-f3fc6a4b-0603-4a3b-b981-de20bc378a11">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>boat, ship</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>boat, ship</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-9c8e97cd-81a2-4119-8518-52ad62d1a1d0"><form corresp="#uuid-51390e32-0a43-4b16-b99c-563fec804c05">
-<orth>艇</orth><pron xml:lang="zh-Latn-x-pinyin">tǐng</pron><pron xml:lang="zh-x-oc">deeŋʔ</pron><pron xml:lang="zh-x-mc">deŋ</pron><listBibl>
-<bibl><ref target="#uuid-de04a5d0-06cd-4119-b422-061d7ff9ea4a">HAYASHI 1976</ref>
-<title>漢代の文物 Kandai no bunbutsu</title><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1340</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-9c8e97cd-81a2-4119-8518-52ad62d1a1d0">
+            <form corresp="#uuid-51390e32-0a43-4b16-b99c-563fec804c05">
+<orth>艇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tǐng</pron>
+                <pron xml:lang="zh-x-oc">deeŋʔ</pron>
+                <pron xml:lang="zh-x-mc">deŋ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-de04a5d0-06cd-4119-b422-061d7ff9ea4a">HAYASHI 1976</ref>
+<title>漢代の文物 Kandai no bunbutsu</title>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1340</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Tǐng 艇 refers to the boat even smaller than the previous, with space for one or two people. According to HUAINANZI, this was originally used in the area of Sichuan.</def>
 </entry>
-<entry type="word" xml:id="uuid-52de9108-77d9-4ff7-afae-45825c08ced3"><form>
-<orth>艓</orth><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-oc"/><pron xml:lang="zh-x-mc"/><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1340</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-52de9108-77d9-4ff7-afae-45825c08ced3">
+            <form>
+<orth>艓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-oc"/>
+                <pron xml:lang="zh-x-mc"/>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1340</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Dié 艓 refers to the small boat.</def>
 </entry>
-<entry type="word" xml:id="uuid-4ed3cc78-edff-400f-994c-6e121a4c9a68"><form corresp="#uuid-582d658c-08d2-450c-8ecc-399c4bb65ff3">
-<orth>艑</orth><pron xml:lang="zh-Latn-x-pinyin">biàn</pron><pron xml:lang="zh-x-oc">beenʔ</pron><pron xml:lang="zh-x-mc">ben</pron></form>
+<entry type="word" xml:id="uuid-4ed3cc78-edff-400f-994c-6e121a4c9a68">
+            <form corresp="#uuid-582d658c-08d2-450c-8ecc-399c4bb65ff3">
+<orth>艑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biàn</pron>
+                <pron xml:lang="zh-x-oc">beenʔ</pron>
+                <pron xml:lang="zh-x-mc">ben</pron>
+            </form>
+            <def>Biàn 艑 refers to the large ship, used probably mainly for transportation of goods, which was used in the middle and lower reaches of the Chang jiang.</def>
 </entry>
-<entry type="word" xml:id="uuid-d776c175-816a-4114-bc85-13d05ae94d83"><form corresp="#uuid-86d66f8b-cd03-4d15-9e32-6aca2684ce0b">
-<orth>艘</orth><pron xml:lang="zh-Latn-x-pinyin">sōu</pron><pron xml:lang="zh-x-oc">suu</pron><pron xml:lang="zh-x-mc">seu</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1324 - 1325</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-d776c175-816a-4114-bc85-13d05ae94d83">
+            <form corresp="#uuid-86d66f8b-cd03-4d15-9e32-6aca2684ce0b">
+<orth>艘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sōu</pron>
+                <pron xml:lang="zh-x-oc">suu</pron>
+                <pron xml:lang="zh-x-mc">seu</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1324 - 1325</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Sōu 艘 is another general word for a ship which was in use particularly from the Han till Tang, and it was usually used as a measure word for a ship.</def>
 <sense xml:id="uuid-e59270cb-828c-48e0-b2f9-5fb68b5c78ed">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>SHUOYUAN: general term for ship</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>SHUOYUAN: general term for ship</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-ac365981-0346-48ea-a483-f88ce90d9931"><form corresp="#uuid-4864c1fa-513e-4896-932c-9fe21beb68f2">
-<orth>艚</orth><pron xml:lang="zh-Latn-x-pinyin">cáo</pron><pron xml:lang="zh-x-oc">dzuu</pron><pron xml:lang="zh-x-mc">dzɑu</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1336 - 1337</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-ac365981-0346-48ea-a483-f88ce90d9931">
+            <form corresp="#uuid-4864c1fa-513e-4896-932c-9fe21beb68f2">
+<orth>艚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cáo</pron>
+                <pron xml:lang="zh-x-oc">dzuu</pron>
+                <pron xml:lang="zh-x-mc">dzɑu</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1336 - 1337</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Cáo 艚is the post-Buddhist word referring to the transportation ship. It was large and slow.</def>
 </entry>
-<entry type="word" xml:id="uuid-107d83e2-2b13-462b-a9e1-ea1aed9e06a8"><form corresp="#uuid-aee72d1b-4625-4a9f-befe-38888acf6532">
-<orth>艦</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn</pron><pron xml:lang="zh-x-oc">ɡraamʔ</pron><pron xml:lang="zh-x-mc">ɦɣam</pron></form>
+<entry type="word" xml:id="uuid-107d83e2-2b13-462b-a9e1-ea1aed9e06a8">
+            <form corresp="#uuid-aee72d1b-4625-4a9f-befe-38888acf6532">
+<orth>艦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn</pron>
+                <pron xml:lang="zh-x-oc">ɡraamʔ</pron>
+                <pron xml:lang="zh-x-mc">ɦɣam</pron>
+            </form>
+            <def>Jiàn 艦 refers to the large battleship with wooden battlements which came to be used in the Three Kingdoms.</def>
 </entry>
-<entry type="word" xml:id="uuid-56529bdc-94d9-4415-984c-ace7e340d819"><form corresp="#uuid-712e4188-9075-4efa-9cb0-a979280ac979">
-<orth>艫</orth><pron xml:lang="zh-Latn-x-pinyin">lú</pron><pron xml:lang="zh-x-oc">ɡ-raa</pron><pron xml:lang="zh-x-mc">luo̝</pron></form>
+<entry type="word" xml:id="uuid-56529bdc-94d9-4415-984c-ace7e340d819">
+            <form corresp="#uuid-712e4188-9075-4efa-9cb0-a979280ac979">
+<orth>艫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lú</pron>
+                <pron xml:lang="zh-x-oc">ɡ-raa</pron>
+                <pron xml:lang="zh-x-mc">luo̝</pron>
+            </form>
 <sense xml:id="uuid-9480df67-57b0-4b54-8ab3-0b119f081f10">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">1</usg></gramGrp>
-  <def>HANSHU, WUDIJI: prow of a ship or boat; also occasionally used to refer to the stern of a ship</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">1</usg>
+                </gramGrp>
+  <def>HANSHU, WUDIJI: prow of a ship or boat; also occasionally used to refer to the stern of a ship</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8b86e969-357d-4392-b25c-7394871187ca"><form corresp="#uuid-eb851073-0016-4a1a-a94e-9fbf0ff5a83b">
-<orth>麗</orth><pron xml:lang="zh-Latn-x-pinyin">lì</pron><pron xml:lang="zh-x-oc">b-reels</pron><pron xml:lang="zh-x-mc">lei</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1341</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-8b86e969-357d-4392-b25c-7394871187ca">
+            <form corresp="#uuid-eb851073-0016-4a1a-a94e-9fbf0ff5a83b">
+<orth>麗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lì</pron>
+                <pron xml:lang="zh-x-oc">b-reels</pron>
+                <pron xml:lang="zh-x-mc">lei</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1341</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Lì 麗 refers to a small boat. The word occurs already in ZHUANGZI.</def>
 </entry>
-<entry type="word" xml:id="uuid-2580d13c-7ed8-4987-b9a9-610f0f91f23b"><form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-3a3d5a48-70b9-46ac-ab66-dc7ab184002d">
-<orth>三翼</orth><pron xml:lang="zh-Latn-x-pinyin">sān yì</pron><pron xml:lang="zh-x-oc">saam p-lɯɡ</pron><pron xml:lang="zh-x-mc">sɑm jɨk</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1344 - 1345</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-31a7c534-8774-40c9-8ce8-b6a25ac625cd">YANG WEIZHONG 2000</ref>
-<title>中國佛教百科全書 Zhōngguó fójiào bǎikē quánshū Encyclopedic Book Collection on Chinese Buddhism</title><biblScope unit="page">{8-3}</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-2580d13c-7ed8-4987-b9a9-610f0f91f23b">
+            <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-3a3d5a48-70b9-46ac-ab66-dc7ab184002d">
+<orth>三翼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sān yì</pron>
+                <pron xml:lang="zh-x-oc">saam p-lɯɡ</pron>
+                <pron xml:lang="zh-x-mc">sɑm jɨk</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1344 - 1345</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-31a7c534-8774-40c9-8ce8-b6a25ac625cd">YANG WEIZHONG 2000</ref>
+<title>中國佛教百科全書 Zhōngguó fójiào bǎikē quánshū Encyclopedic Book Collection on Chinese Buddhism</title>
+                        <biblScope unit="page">{8-3}</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Sān yì 三翼 refers to the battleships which were in use in the southern states of Wu and Yue in Chunqiu and Warring States times. It seems that they were divided to three categories according to their size. According to Han sources, the largest ones had a space for 91 men, those of middle size for 50 men, and minor for 26 men. Note that the earliest ship battle is mentioned in ZUOZHUAN to 549 B.C., and it took place on a river; the first sea battle is dated to 484 B.C. As can be seen on pictorial presentations dating from the late Chunqiu and early Warring States period, ship battles esentially resembled battles on the earth; the ships pulled with oars came close one to the other and warriors staying on the higher board attacked enemies with arrows, halberds, and spears.</def>
 </entry>
-<entry type="word" xml:id="uuid-7d52009a-a993-47bb-a7a0-399f3d30b76d"><form corresp="#uuid-d5d0b7a1-89ff-49a8-83a5-7294708aea0b #uuid-b98c55f3-8617-43b2-b7a6-5f2cc6a9494a">
-<orth>冒突</orth><pron xml:lang="zh-Latn-x-pinyin">mào tū</pron><pron xml:lang="zh-x-oc">muuɡs duud</pron><pron xml:lang="zh-x-mc">mɑu duot</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1346</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-7d52009a-a993-47bb-a7a0-399f3d30b76d">
+            <form corresp="#uuid-d5d0b7a1-89ff-49a8-83a5-7294708aea0b #uuid-b98c55f3-8617-43b2-b7a6-5f2cc6a9494a">
+<orth>冒突</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mào tū</pron>
+                <pron xml:lang="zh-x-oc">muuɡs duud</pron>
+                <pron xml:lang="zh-x-mc">mɑu duot</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1346</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Mào tū 冒突 came to use in the Eastern Han period and referred to the battleship which could directly clash into the ship of enemies.</def>
 </entry>
-<entry type="word" xml:id="uuid-a1cda4e9-c825-483b-b0c9-6aec8e5b6140"><form corresp="#uuid-d307a42b-ae69-440d-90d2-6ad4619f0c56 #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
-<orth>戈船</orth><pron xml:lang="zh-Latn-x-pinyin">gē chuán</pron><pron xml:lang="zh-x-oc">kool ɢljon</pron><pron xml:lang="zh-x-mc">kʷɑ ʑiɛn</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1347 - 1348</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-31a7c534-8774-40c9-8ce8-b6a25ac625cd">YANG WEIZHONG 2000</ref>
-<title>中國佛教百科全書 Zhōngguó fójiào bǎikē quánshū Encyclopedic Book Collection on Chinese Buddhism</title><biblScope unit="page">{8-3???}</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-a1cda4e9-c825-483b-b0c9-6aec8e5b6140">
+            <form corresp="#uuid-d307a42b-ae69-440d-90d2-6ad4619f0c56 #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
+<orth>戈船</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gē chuán</pron>
+                <pron xml:lang="zh-x-oc">kool ɢljon</pron>
+                <pron xml:lang="zh-x-mc">kʷɑ ʑiɛn</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1347 - 1348</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-31a7c534-8774-40c9-8ce8-b6a25ac625cd">YANG WEIZHONG 2000</ref>
+<title>中國佛教百科全書 Zhōngguó fójiào bǎikē quánshū Encyclopedic Book Collection on Chinese Buddhism</title>
+                        <biblScope unit="page">{8-3???}</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Gē chuán 戈 船 refers to the large battleship which was in use from the late Chunqiu till the Southern and Northern dynasties. It obtained its name from halberds and spears put on its board; perhaps general word for a battleship (???).</def>
 </entry>
-<entry type="word" xml:id="uuid-7aa41528-5855-482c-99e2-ab0603fde24c"><form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
-<orth>方船</orth><pron xml:lang="zh-Latn-x-pinyin">fāng chuán</pron><pron xml:lang="zh-x-oc">paŋ ɢljon</pron><pron xml:lang="zh-x-mc">pi̯ɐŋ ʑiɛn</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1327 - 1333</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">223</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-7aa41528-5855-482c-99e2-ab0603fde24c">
+            <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
+<orth>方船</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fāng chuán</pron>
+                <pron xml:lang="zh-x-oc">paŋ ɢljon</pron>
+                <pron xml:lang="zh-x-mc">pi̯ɐŋ ʑiɛn</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1327 - 1333</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                        <biblScope unit="page">223</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Fāng chuán 方 船, fǎng 舫 (the latter word first appeared in the Warring States period and became more current in Han times) refer to the double ship, ship consisting of two joined boats. This kind of ship could be used for various purposes (for transportation of goods or soldiers, as a warship, or to cross a river), and was in use at least from the Warring States period till Tang; the period during it most flourished was neverthless Jin dynasty.</def>
 </entry>
-<entry type="word" xml:id="uuid-e44672b1-3dc3-40a8-af74-352a8b66ca94"><form corresp="#uuid-4f9d9124-4c7a-4459-9763-8c66a5d34641 #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
-<orth>樓船</orth><pron xml:lang="zh-Latn-x-pinyin">lóu chuán</pron><pron xml:lang="zh-x-oc">ɡ-roo ɢljon</pron><pron xml:lang="zh-x-mc">lu ʑiɛn</pron><listBibl>
-<bibl><ref target="#uuid-de04a5d0-06cd-4119-b422-061d7ff9ea4a">HAYASHI 1976</ref>
-<title>漢代の文物 Kandai no bunbutsu</title><biblScope unit="page">{p. 154, tab. 7-81???}</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1346 - 1347</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-e44672b1-3dc3-40a8-af74-352a8b66ca94">
+            <form corresp="#uuid-4f9d9124-4c7a-4459-9763-8c66a5d34641 #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
+<orth>樓船</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lóu chuán</pron>
+                <pron xml:lang="zh-x-oc">ɡ-roo ɢljon</pron>
+                <pron xml:lang="zh-x-mc">lu ʑiɛn</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-de04a5d0-06cd-4119-b422-061d7ff9ea4a">HAYASHI 1976</ref>
+<title>漢代の文物 Kandai no bunbutsu</title>
+                        <biblScope unit="page">{p. 154, tab. 7-81???}</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1346 - 1347</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Lóu chuán 樓 船refers to the battleship with several boards. These came to use already in the late Chunqiu period, and were used till Ming times.</def>
 </entry>
-<entry type="word" xml:id="uuid-549a57a2-e578-4e6d-a150-c97f2a62ece2"><form corresp="#uuid-ed9f617d-7491-4a0d-8ce6-f83d7fd66518 #uuid-f7b1c215-3f3c-4fb7-b769-a9e64b05a13d">
-<orth>舟航</orth><pron xml:lang="zh-Latn-x-pinyin">zhōu háng</pron><pron xml:lang="zh-x-oc">kljiw ɡaaŋ</pron><pron xml:lang="zh-x-mc">tɕɨu ɦɑŋ</pron></form>
+<entry type="word" xml:id="uuid-549a57a2-e578-4e6d-a150-c97f2a62ece2">
+            <form corresp="#uuid-ed9f617d-7491-4a0d-8ce6-f83d7fd66518 #uuid-f7b1c215-3f3c-4fb7-b769-a9e64b05a13d">
+<orth>舟航</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōu háng</pron>
+                <pron xml:lang="zh-x-oc">kljiw ɡaaŋ</pron>
+                <pron xml:lang="zh-x-mc">tɕɨu ɦɑŋ</pron>
+            </form>
 <sense xml:id="uuid-1623dc88-3678-4e94-8101-598208ceb648">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>ships</def></sense>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>ships</def>
+            </sense>
 <sense xml:id="uuid-d5a3b00f-93ac-420c-a067-5b343bbf5929">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>naval transport of any kind</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>naval transport of any kind</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c81ea8eb-331e-4a64-b315-a4b8167ffae0"><form corresp="#uuid-449d2798-d658-42eb-9afc-9743d5f566db #uuid-71e7345e-f458-4367-af4f-79840717856f">
-<orth>舴艨</orth><pron xml:lang="zh-Latn-x-pinyin">zé méng</pron><pron xml:lang="zh-x-oc">rtaaɡ mooŋ</pron><pron xml:lang="zh-x-mc">ʈɣɛk muŋ</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1341 - 1342</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-c81ea8eb-331e-4a64-b315-a4b8167ffae0">
+            <form corresp="#uuid-449d2798-d658-42eb-9afc-9743d5f566db #uuid-71e7345e-f458-4367-af4f-79840717856f">
+<orth>舴艨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zé méng</pron>
+                <pron xml:lang="zh-x-oc">rtaaɡ mooŋ</pron>
+                <pron xml:lang="zh-x-mc">ʈɣɛk muŋ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1341 - 1342</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Zé méng 舴 艋 refers to the small boat.</def>
 </entry>
-<entry type="word" xml:id="uuid-401e6cbe-e171-4f07-9103-83e3187b182f"><form corresp="#uuid-51f605da-ee74-47d5-9702-a5ebb853236e #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
-<orth>舲船</orth><pron xml:lang="zh-Latn-x-pinyin">líng chuán</pron><pron xml:lang="zh-x-oc">ɡ-reeŋ ɢljon</pron><pron xml:lang="zh-x-mc">leŋ ʑiɛn</pron></form>
+<entry type="word" xml:id="uuid-401e6cbe-e171-4f07-9103-83e3187b182f">
+            <form corresp="#uuid-51f605da-ee74-47d5-9702-a5ebb853236e #uuid-7a12b822-c88c-48c0-b637-8022ff53bcde">
+<orth>舲船</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">líng chuán</pron>
+                <pron xml:lang="zh-x-oc">ɡ-reeŋ ɢljon</pron>
+                <pron xml:lang="zh-x-mc">leŋ ʑiɛn</pron>
+            </form>
 <sense xml:id="uuid-3a347222-cce7-4407-9023-c2ffe720842e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>non-general: boat</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>non-general: boat</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-31dd8f22-ba38-4d90-bfc5-d37ef96d6544"><form corresp="#uuid-5e8a179a-55d7-4519-9902-db0ff95b09e2 #uuid-0eb967a4-aaf2-463a-8974-4cdb4e4c3628">
-<orth>艅艎</orth><pron xml:lang="zh-Latn-x-pinyin">yú huáng</pron><pron xml:lang="zh-x-oc">la ɡʷaaŋ</pron><pron xml:lang="zh-x-mc">ji̯ɤ ɦɑŋ</pron><listBibl>
-<bibl><ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
-<title>古代文化词义集类辨考</title><biblScope unit="page">1345 - 1346</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-31dd8f22-ba38-4d90-bfc5-d37ef96d6544">
+            <form corresp="#uuid-5e8a179a-55d7-4519-9902-db0ff95b09e2 #uuid-0eb967a4-aaf2-463a-8974-4cdb4e4c3628">
+<orth>艅艎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú huáng</pron>
+                <pron xml:lang="zh-x-oc">la ɡʷaaŋ</pron>
+                <pron xml:lang="zh-x-mc">ji̯ɤ ɦɑŋ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-9c7e974e-2940-4af3-8538-b089471d0dff">HUANG 1995</ref>
+<title>古代文化词义集类辨考</title>
+                        <biblScope unit="page">1345 - 1346</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
+            <def>Yú huáng 余/ 艅皇/ 艎 was in Chunqiu times the name of the large battleship belonging to the kings of Wu. Later it came to be used as a general term for a large battleship.</def>
 </entry>
-<entry type="word" xml:id="uuid-126baa52-33b2-46e9-ad80-e1016e04bf99"><form corresp="#uuid-86528cad-3677-4eed-9dd8-3cfe23883e5c">
-<orth>木</orth><pron xml:lang="zh-Latn-x-pinyin">mù</pron><pron xml:lang="zh-x-oc">mooɡ</pron><pron xml:lang="zh-x-mc">muk</pron></form>
+<entry type="word" xml:id="uuid-126baa52-33b2-46e9-ad80-e1016e04bf99">
+            <form corresp="#uuid-86528cad-3677-4eed-9dd8-3cfe23883e5c">
+<orth>木</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mù</pron>
+                <pron xml:lang="zh-x-oc">mooɡ</pron>
+                <pron xml:lang="zh-x-mc">muk</pron>
+            </form>
 <sense xml:id="uuid-de759571-e59a-4f69-b899-73f4989854d0">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>by synekdoche: ship</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>by synekdoche: ship</def>
+            </sense>
+</entry>
+    </div>
+</div>

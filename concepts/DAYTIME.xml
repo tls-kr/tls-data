@@ -1,18 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-23374601-0e1f-4530-98fe-d16101c0875b">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-23374601-0e1f-4530-98fe-d16101c0875b">
 <head>DAYTIME</head>
 <div type="definition">
-<p>PART OF THE DAY WHEN THERE IS LIGHT.</p></div>
+<p>PART OF THE DAY WHEN THERE IS LIGHT.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
-<p>晝</p></div></div>
-<div type="pointers"><list type="antonymy">
-<item><ref target="#uuid-3cd96736-2a00-463b-834c-e4f0c76319cf">NIGHT</ref></item></list></div>
+<p>晝</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-3cd96736-2a00-463b-834c-e4f0c76319cf">NIGHT</ref>
+            </item>
+        </list>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-009aa936-0d9b-4f6f-a829-949ee6933d63"><form corresp="#uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c">
-<orth>日</orth><pron xml:lang="zh-Latn-x-pinyin">rì</pron><pron xml:lang="zh-x-oc">mljiɡ</pron><pron xml:lang="zh-x-mc">ȵit</pron></form>
+<entry type="word" xml:id="uuid-009aa936-0d9b-4f6f-a829-949ee6933d63">
+            <form corresp="#uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c">
+<orth>日</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rì</pron>
+                <pron xml:lang="zh-x-oc">mljiɡ</pron>
+                <pron xml:lang="zh-x-mc">ȵit</pron>
+            </form>
 <sense xml:id="uuid-7bfc08dc-d8e9-4a5e-bae4-57a7bd8b9965">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>daytime versus 夜 "night"</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>daytime versus 夜 "night"</def>
+            </sense>
+</entry>
+    </div>
+</div>

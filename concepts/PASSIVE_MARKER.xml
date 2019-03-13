@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-48817188-ab53-44fb-8065-9692355be291">
-<head>PASSIVE MARKER</head><list type="translations"><item xml:lang="zh">被動號</item><item xml:lang="och">見</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-48817188-ab53-44fb-8065-9692355be291">
+<head>PASSIVE MARKER</head>
+    <list type="translations">
+        <item xml:lang="zh">被動號</item>
+        <item xml:lang="och">見</item>
+    </list>
 <div type="definition">
-<p>WORD WHICH SHOWS PASSIVE FUNCTION. [NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p></div>
+<p>WORD WHICH SHOWS PASSIVE FUNCTION. [NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The most current general marker of the passive is jiàn 見 which means literally "be exposed to, face".</p>
@@ -11,194 +17,395 @@
 <p>4. Qǔ 取 typically refers to the suffering of something undesirable by one's own fault.</p>
 <p>5. Zāo 遭 and yù 遇 refer to running into what tend to be undesirable situations.</p>
 <p>6. Shòu 受 refers to an agent being the recipient of some impact from the outside.</p>
-<p>NB: Note that the notion of the passive is notoriously ill-defined for a language like classical Chinese, and what some grammarians view as passive constructions will be construed by others as periphrastic ways of expressing with various transitive verbs and prepositions what other other languages express with passive forms.</p></div>
+<p>NB: Note that the notion of the passive is notoriously ill-defined for a language like classical Chinese, and what some grammarians view as passive constructions will be construed by others as periphrastic ways of expressing with various transitive verbs and prepositions what other other languages express with passive forms.</p>
+        </div>
 <div type="modern-chinese-criteria">
-<p>LU JIANMING</p></div>
+<p>LU JIANMING</p>
+        </div>
 <div type="old-chinese-contrasts">
-<p>Note: 宗福邦 2007:　(12) 見者，自彼加己之辭。《詩．鄭風．褰裳序》「思見正也」孔穎達疏。</p></div></div>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-a199de15-31bc-4e0f-8ed9-848aa83a25a4">SUFFER</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
-<title>古漢語常用詞同義詞詞典</title><biblScope unit="page">511</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>Note: 宗福邦 2007:　(12) 見者，自彼加己之辭。《詩．鄭風．褰裳序》「思見正也」孔穎達疏。</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-a199de15-31bc-4e0f-8ed9-848aa83a25a4">SUFFER</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-ecfe1810-16d7-46f0-901d-6fc0c0808a34">HONG CHENGYU 2009</ref>
+<title>古漢語常用詞同義詞詞典</title>
+                <biblScope unit="page">511</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-8cd96f39-2d86-4e86-b3b2-f7b0730975a9"><form corresp="#uuid-1dd0a030-8192-419c-887b-e9d9a6007c80">
-<orth>中</orth><pron xml:lang="zh-Latn-x-pinyin">zhòng</pron><pron xml:lang="zh-x-oc">krluŋs</pron><pron xml:lang="zh-x-mc">ʈuŋ</pron></form>
+<entry type="word" xml:id="uuid-8cd96f39-2d86-4e86-b3b2-f7b0730975a9">
+            <form corresp="#uuid-1dd0a030-8192-419c-887b-e9d9a6007c80">
+<orth>中</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhòng</pron>
+                <pron xml:lang="zh-x-oc">krluŋs</pron>
+                <pron xml:lang="zh-x-mc">ʈuŋ</pron>
+            </form>
 <sense xml:id="uuid-227159e2-d44d-4c92-963a-3603dae00bfe">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-072e833e-8425-4506-8f9a-9a07194a6252">Nab=passive</tls:sem-feat></gramGrp>
-  <def>suffer (injury etc) ??? [find more examples! CH]</def></sense>
+  <tls:sem-feat corresp="#uuid-072e833e-8425-4506-8f9a-9a07194a6252">Nab=passive</tls:sem-feat>
+                </gramGrp>
+  <def>suffer (injury etc) ??? [find more examples! CH]</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-35a75a4e-d576-43d4-9127-dce838dd6666"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
-<orth>以</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ</pron><pron xml:lang="zh-x-oc">k-lɯʔ</pron><pron xml:lang="zh-x-mc">jɨ</pron></form>
+<entry type="word" xml:id="uuid-35a75a4e-d576-43d4-9127-dce838dd6666">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+<orth>以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ</pron>
+                <pron xml:lang="zh-x-oc">k-lɯʔ</pron>
+                <pron xml:lang="zh-x-mc">jɨ</pron>
+            </form>
 <sense xml:id="uuid-41f63bb2-b496-4c02-bdb1-e95f640fb24b">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat></gramGrp>
-  <def>marking the agent in passive constructions</def></sense>
+  <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat>
+                </gramGrp>
+  <def>marking the agent in passive constructions</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e301ac49-d85e-4007-b4e7-691c7eace2ea"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
-<orth>取</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ</pron><pron xml:lang="zh-x-oc">skhoʔ</pron><pron xml:lang="zh-x-mc">tshi̯o</pron></form>
+<entry type="word" xml:id="uuid-e301ac49-d85e-4007-b4e7-691c7eace2ea">
+            <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
+<orth>取</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǔ</pron>
+                <pron xml:lang="zh-x-oc">skhoʔ</pron>
+                <pron xml:lang="zh-x-mc">tshi̯o</pron>
+            </form>
+            <def>Qǔ 取 typically refers to the suffering of something undesirable by one's own fault.</def>
 <sense xml:id="uuid-5b89d5c2-e1c6-4da9-ad71-4c0ba3c66798">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-3f978eb2-b291-4076-b409-ed1df430261d">vto:Nab[.post-N]</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>bring upon oneself Nab-ing; marker of passivisation, specifically self-inflicted suffering of an impact.</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-3f978eb2-b291-4076-b409-ed1df430261d">vto:Nab[.post-N]</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>bring upon oneself Nab-ing; marker of passivisation, specifically self-inflicted suffering of an impact.</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5f2873a2-8761-4aee-b75a-30f205b90fbc"><form corresp="#uuid-7956102e-4f68-4cd7-b24c-33aed9e56072">
-<orth>受</orth><pron xml:lang="zh-Latn-x-pinyin">shòu</pron><pron xml:lang="zh-x-oc">djuʔ</pron><pron xml:lang="zh-x-mc">dʑɨu</pron></form>
+<entry type="word" xml:id="uuid-5f2873a2-8761-4aee-b75a-30f205b90fbc">
+            <form corresp="#uuid-7956102e-4f68-4cd7-b24c-33aed9e56072">
+<orth>受</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shòu</pron>
+                <pron xml:lang="zh-x-oc">djuʔ</pron>
+                <pron xml:lang="zh-x-mc">dʑɨu</pron>
+            </form>
+            <def>Shòu 受 refers to an agent being the recipient of some impact from the outside.</def>
 <sense xml:id="uuid-97b4426f-99fa-4cc1-aa80-03ad0de048a5">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-c013a729-cbee-42eb-addd-3979d99b9e22">N=agent</tls:sem-feat></gramGrp>
-  <def>marking the agent in passive constructions</def></sense>
+  <tls:sem-feat corresp="#uuid-c013a729-cbee-42eb-addd-3979d99b9e22">N=agent</tls:sem-feat>
+                </gramGrp>
+  <def>marking the agent in passive constructions</def>
+            </sense>
 <sense xml:id="uuid-ca1aab5f-dc56-473b-be22-533baf388c10">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>(receive&gt;) be on the receiving end of Nab-ing 受公仲侈之怨也(!)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>(receive&gt;) be on the receiving end of Nab-ing 受公仲侈之怨也(!)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-3f2d7df4-4e69-492f-8a8c-6a45ee7cc963"><form corresp="#uuid-fb148467-ef53-4489-8a08-074bfe0f9d69">
-<orth>因</orth><pron xml:lang="zh-Latn-x-pinyin">yīn</pron><pron xml:lang="zh-x-oc">qin</pron><pron xml:lang="zh-x-mc">ʔin</pron></form>
+<entry type="word" xml:id="uuid-3f2d7df4-4e69-492f-8a8c-6a45ee7cc963">
+            <form corresp="#uuid-fb148467-ef53-4489-8a08-074bfe0f9d69">
+<orth>因</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīn</pron>
+                <pron xml:lang="zh-x-oc">qin</pron>
+                <pron xml:lang="zh-x-mc">ʔin</pron>
+            </form>
 <sense xml:id="uuid-36b945f8-0a76-423f-8ab3-b0a003d0e5ff">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-713b1906-acf4-4934-994e-e9c06658a02b">vtoN.+V{PASS}</tls:syn-func></gramGrp>
-  <def>by</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-eadc6877-8fce-42b6-8c5f-71be8d146818"><form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8">
-<orth>得</orth><pron xml:lang="zh-Latn-x-pinyin">dé</pron><pron xml:lang="zh-x-oc">tɯɯɡ</pron><pron xml:lang="zh-x-mc">tək</pron></form>
-<sense xml:id="uuid-64a09f2e-8365-4eba-b2a1-05956dec9872">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func></gramGrp>
-  <def>get V-ed (See 得封 and 見官)</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-ca5eb425-cc97-4a6a-bd5f-849e09170968"><form corresp="#uuid-c2b1c74f-9b08-473e-be10-777ef8c40620">
-<orth>懸</orth><pron xml:lang="zh-Latn-x-pinyin">xuán</pron><pron xml:lang="zh-x-oc">ɢʷeen</pron><pron xml:lang="zh-x-mc">ɦen</pron></form>
-</entry>
-<entry type="word" xml:id="uuid-ed26e1a9-12b8-40f5-aac2-c8c9b517732a"><form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
-<orth>於</orth><pron xml:lang="zh-Latn-x-pinyin">yú</pron><pron xml:lang="zh-x-oc">qa</pron><pron xml:lang="zh-x-mc">ʔi̯ɤ</pron></form>
-<sense xml:id="uuid-89268135-86d0-420c-a072-25ac47bf1872">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-ebbe28ed-bdcc-468c-bc28-51ba2a7f215b">vt[0]oN.postadV{PASS}</tls:syn-func></gramGrp>
-  <def>passivising particle: "by" 殺於人 "literally: was killed (the killing) being from/by someone else&gt; be killed by someone else"</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-0aec7e32-8b19-43ca-8257-9ad68e825900"><form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
-<orth>為</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-oc">ɢʷal</pron><pron xml:lang="zh-x-mc">ɦiɛ</pron></form>
-<sense xml:id="uuid-e700b5b5-6049-4cce-8fe1-6af186da62fe">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-2492d374-38e9-48d1-aad4-3b0e1f1b2bf7">vt:+N.+SUO3+Vt</tls:syn-func></gramGrp>
-  <def>get V-ed</def></sense>
-<sense xml:id="uuid-fc99ae9f-d584-43ea-b958-4d0fd3959527">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-7d72a9d0-ef74-471b-b23c-04dafbe19fc1">vt+.N+zhi1+suo3+vt</tls:syn-func></gramGrp>
-  <def>get V-ed</def></sense>
-<sense xml:id="uuid-7a76cb02-e399-4613-a1b1-86c728a4a305">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-72751832-2124-4890-954c-c48c610a1b4a">vt+QI2+SUO3+Vt</tls:syn-func></gramGrp>
-  <def>get Ved</def></sense>
-<sense xml:id="uuid-3037f4fe-2c29-47ae-aff6-1da00a6d59df">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>undergo (Nab-ing) [NB: the proper analysis of this construction remains to be established.]</def></sense>
-<sense xml:id="uuid-edb70efd-7d00-440e-9e5d-738585b3fcf3">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp>
-  <def>get V-ed</def></sense>
-<sense xml:id="uuid-d3c769f5-af85-42f3-9149-84a210fcade5">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp>
-  <def>be exposed to S</def></sense>
-<sense xml:id="uuid-28fb2b9e-ca35-481b-9a85-f018a0108c8a">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-14889386-4520-40d2-80e0-c9e33cd58676">vtt+.N+V</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>marker of passive 為人戮，為天下笑</def></sense>
-<sense xml:id="uuid-9f0e5fe9-0a91-4d98-bce3-c6cd8dbf3692">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-05f51b12-7496-4d4b-8729-8158bca7077c">vttoN:+huo4+V1.+huo4+V2</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp>
-  <def>be either V1-ed or V2-ed by the N</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-e711eb85-a9d5-4be0-b138-a6655bfca6f4"><form corresp="#uuid-067ccb92-367e-4550-b656-f8751cc3a917">
-<orth>由</orth><pron xml:lang="zh-Latn-x-pinyin">yóu</pron><pron xml:lang="zh-x-oc">liw</pron><pron xml:lang="zh-x-mc">jɨu</pron></form>
-<sense xml:id="uuid-ec6ed90b-8cbf-4534-8aa2-866e9a241c13">
-<gramGrp><pos/>
-  <tls:syn-func corresp="#uuid-3d3f56f0-e3b4-402e-8fca-e57f5f3b2bdf">vtoN.adV{PASS}</tls:syn-func></gramGrp>
-  <def>passive marker</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-05fc9d88-348b-4db3-bb7b-6a3d7305f5f9"><form corresp="#uuid-4b46759c-5cce-4243-9586-2da74db4dcca">
-<orth>與</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ</pron><pron xml:lang="zh-x-oc">k-laʔ</pron><pron xml:lang="zh-x-mc">ji̯ɤ</pron></form>
-<sense xml:id="uuid-27665cbc-216c-4cf2-abb3-62471ab68d3c">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-c013a729-cbee-42eb-addd-3979d99b9e22">N=agent</tls:sem-feat></gramGrp>
-  <def>this is a rare usage of 與 marking the agent in passive construction</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-c84ffa4d-4ee7-4c8b-b088-3c88294c6eb8"><form corresp="#uuid-7f871dac-3bda-4767-a3ff-16dff2ce58ee">
-<orth>被</orth><pron xml:lang="zh-Latn-x-pinyin">bèi</pron><pron xml:lang="zh-x-oc">bralʔ</pron><pron xml:lang="zh-x-mc">biɛ</pron></form>
-<sense xml:id="uuid-1df7b6b8-0cee-43bd-97c8-bfca578c04e0">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-3e4d7784-23b7-4027-bac6-92ba590e8257">vt[oN.]+V[0]{PASS}</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>(be exposed to&gt;) marker of passivisation</def></sense>
-<sense xml:id="uuid-edbf688f-b5c0-47f5-9db4-6835ecf4fc1f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-f467cde5-3a49-4c5e-a9af-6ab83f0e75e0">vt[oN.]+V[0]{PASS}:adN</tls:syn-func></gramGrp>
-  <def>the V-ed N 被燒之金</def></sense>
-<sense xml:id="uuid-c1ad09bd-1b53-48c4-a6c5-9828e9182b30">
-<gramGrp><pos/>
-  <tls:syn-func corresp="#uuid-cf259ff1-e8b9-4107-b74f-9314548a7792">vt+:N.+Vt+ZHI</tls:syn-func></gramGrp>
-  <def>be Vt-ed by N 被獄吏辱之</def></sense>
-<sense xml:id="uuid-143606c8-bd7d-40e8-ad04-7bfe87e3b5d3">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-7d72a9d0-ef74-471b-b23c-04dafbe19fc1">vt+.N+zhi1+suo3+vt</tls:syn-func></gramGrp>
-  <def>be V-ed by N</def></sense>
-<sense xml:id="uuid-d9c5545d-b59a-4254-a0a8-e5ef028c2071">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-713b1906-acf4-4934-994e-e9c06658a02b">vtoN.+V{PASS}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-1993b2a0-5525-459c-86de-16efdb549314">grammaticalised</tls:sem-feat></gramGrp>
-  <def>passive marker be V-ed by N (note: 被死相隨)</def></sense>
+                </gramGrp>
+  <def>by</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-310660bc-2398-4983-b143-b797f87bc724"><form corresp="#uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611">
-<orth>見</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn</pron><pron xml:lang="zh-x-oc">keens</pron><pron xml:lang="zh-x-mc">ken</pron></form>
+<entry type="word" xml:id="uuid-eadc6877-8fce-42b6-8c5f-71be8d146818">
+            <form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+<orth>得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dé</pron>
+                <pron xml:lang="zh-x-oc">tɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">tək</pron>
+            </form>
+<sense xml:id="uuid-64a09f2e-8365-4eba-b2a1-05956dec9872">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
+                </gramGrp>
+  <def>get V-ed (See 得封 and 見官)</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-ca5eb425-cc97-4a6a-bd5f-849e09170968">
+            <form corresp="#uuid-c2b1c74f-9b08-473e-be10-777ef8c40620">
+<orth>懸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xuán</pron>
+                <pron xml:lang="zh-x-oc">ɢʷeen</pron>
+                <pron xml:lang="zh-x-mc">ɦen</pron>
+            </form>
+</entry>
+<entry type="word" xml:id="uuid-ed26e1a9-12b8-40f5-aac2-c8c9b517732a">
+            <form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
+<orth>於</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
+                <pron xml:lang="zh-x-oc">qa</pron>
+                <pron xml:lang="zh-x-mc">ʔi̯ɤ</pron>
+            </form>
+            <def>Wéi 為 and yú 於 are structural particles which abstractly indicate that certain verbs in their environment are passive.</def>
+<sense xml:id="uuid-89268135-86d0-420c-a072-25ac47bf1872">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-ebbe28ed-bdcc-468c-bc28-51ba2a7f215b">vt[0]oN.postadV{PASS}</tls:syn-func>
+                </gramGrp>
+  <def>passivising particle: "by" 殺於人 "literally: was killed (the killing) being from/by someone else&gt; be killed by someone else"</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-0aec7e32-8b19-43ca-8257-9ad68e825900">
+            <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
+<orth>為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-oc">ɢʷal</pron>
+                <pron xml:lang="zh-x-mc">ɦiɛ</pron>
+            </form>
+            <def>Wéi 為 and yú 於 are structural particles which abstractly indicate that certain verbs in their environment are passive.</def>
+<sense xml:id="uuid-e700b5b5-6049-4cce-8fe1-6af186da62fe">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2492d374-38e9-48d1-aad4-3b0e1f1b2bf7">vt:+N.+SUO3+Vt</tls:syn-func>
+                </gramGrp>
+  <def>get V-ed</def>
+            </sense>
+<sense xml:id="uuid-fc99ae9f-d584-43ea-b958-4d0fd3959527">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-7d72a9d0-ef74-471b-b23c-04dafbe19fc1">vt+.N+zhi1+suo3+vt</tls:syn-func>
+                </gramGrp>
+  <def>get V-ed</def>
+            </sense>
+<sense xml:id="uuid-7a76cb02-e399-4613-a1b1-86c728a4a305">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-72751832-2124-4890-954c-c48c610a1b4a">vt+QI2+SUO3+Vt</tls:syn-func>
+                </gramGrp>
+  <def>get Ved</def>
+            </sense>
+<sense xml:id="uuid-3037f4fe-2c29-47ae-aff6-1da00a6d59df">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>undergo (Nab-ing) [NB: the proper analysis of this construction remains to be established.]</def>
+            </sense>
+<sense xml:id="uuid-edb70efd-7d00-440e-9e5d-738585b3fcf3">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+  <def>get V-ed</def>
+            </sense>
+<sense xml:id="uuid-d3c769f5-af85-42f3-9149-84a210fcade5">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+  <def>be exposed to S</def>
+            </sense>
+<sense xml:id="uuid-28fb2b9e-ca35-481b-9a85-f018a0108c8a">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-14889386-4520-40d2-80e0-c9e33cd58676">vtt+.N+V</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>marker of passive 為人戮，為天下笑</def>
+            </sense>
+<sense xml:id="uuid-9f0e5fe9-0a91-4d98-bce3-c6cd8dbf3692">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-05f51b12-7496-4d4b-8729-8158bca7077c">vttoN:+huo4+V1.+huo4+V2</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+  <def>be either V1-ed or V2-ed by the N</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-e711eb85-a9d5-4be0-b138-a6655bfca6f4">
+            <form corresp="#uuid-067ccb92-367e-4550-b656-f8751cc3a917">
+<orth>由</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yóu</pron>
+                <pron xml:lang="zh-x-oc">liw</pron>
+                <pron xml:lang="zh-x-mc">jɨu</pron>
+            </form>
+<sense xml:id="uuid-ec6ed90b-8cbf-4534-8aa2-866e9a241c13">
+<gramGrp>
+                    <pos/>
+  <tls:syn-func corresp="#uuid-3d3f56f0-e3b4-402e-8fca-e57f5f3b2bdf">vtoN.adV{PASS}</tls:syn-func>
+                </gramGrp>
+  <def>passive marker</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-05fc9d88-348b-4db3-bb7b-6a3d7305f5f9">
+            <form corresp="#uuid-4b46759c-5cce-4243-9586-2da74db4dcca">
+<orth>與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ</pron>
+                <pron xml:lang="zh-x-oc">k-laʔ</pron>
+                <pron xml:lang="zh-x-mc">ji̯ɤ</pron>
+            </form>
+<sense xml:id="uuid-27665cbc-216c-4cf2-abb3-62471ab68d3c">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-c013a729-cbee-42eb-addd-3979d99b9e22">N=agent</tls:sem-feat>
+                </gramGrp>
+  <def>this is a rare usage of 與 marking the agent in passive construction</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-c84ffa4d-4ee7-4c8b-b088-3c88294c6eb8">
+            <form corresp="#uuid-7f871dac-3bda-4767-a3ff-16dff2ce58ee">
+<orth>被</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bèi</pron>
+                <pron xml:lang="zh-x-oc">bralʔ</pron>
+                <pron xml:lang="zh-x-mc">biɛ</pron>
+            </form>
+            <def>Bèi 被 typically refers to the suffering of something undesirable.</def>
+<sense xml:id="uuid-1df7b6b8-0cee-43bd-97c8-bfca578c04e0">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-3e4d7784-23b7-4027-bac6-92ba590e8257">vt[oN.]+V[0]{PASS}</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>(be exposed to&gt;) marker of passivisation</def>
+            </sense>
+<sense xml:id="uuid-edbf688f-b5c0-47f5-9db4-6835ecf4fc1f">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-f467cde5-3a49-4c5e-a9af-6ab83f0e75e0">vt[oN.]+V[0]{PASS}:adN</tls:syn-func>
+                </gramGrp>
+  <def>the V-ed N 被燒之金</def>
+            </sense>
+<sense xml:id="uuid-c1ad09bd-1b53-48c4-a6c5-9828e9182b30">
+<gramGrp>
+                    <pos/>
+  <tls:syn-func corresp="#uuid-cf259ff1-e8b9-4107-b74f-9314548a7792">vt+:N.+Vt+ZHI</tls:syn-func>
+                </gramGrp>
+  <def>be Vt-ed by N 被獄吏辱之</def>
+            </sense>
+<sense xml:id="uuid-143606c8-bd7d-40e8-ad04-7bfe87e3b5d3">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-7d72a9d0-ef74-471b-b23c-04dafbe19fc1">vt+.N+zhi1+suo3+vt</tls:syn-func>
+                </gramGrp>
+  <def>be V-ed by N</def>
+            </sense>
+<sense xml:id="uuid-d9c5545d-b59a-4254-a0a8-e5ef028c2071">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-713b1906-acf4-4934-994e-e9c06658a02b">vtoN.+V{PASS}</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-1993b2a0-5525-459c-86de-16efdb549314">grammaticalised</tls:sem-feat>
+                </gramGrp>
+  <def>passive marker be V-ed by N (note: 被死相隨)</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-310660bc-2398-4983-b143-b797f87bc724">
+            <form corresp="#uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611">
+<orth>見</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn</pron>
+                <pron xml:lang="zh-x-oc">keens</pron>
+                <pron xml:lang="zh-x-mc">ken</pron>
+            </form>
+            <def>Jiàn 見 refers to someone (and occasionally something) being exposed to an action by another party.</def>
 <sense xml:id="uuid-cad9d343-a7ea-4a84-9fcb-8925823d991f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-b983b639-346b-4d63-bd6f-3e5674c3304d">vt+.Vt[0]{PASS}+prep+N</tls:syn-func></gramGrp>
-  <def>be exposed to the action of V-ing from the part of N 見惡於紂</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-b983b639-346b-4d63-bd6f-3e5674c3304d">vt+.Vt[0]{PASS}+prep+N</tls:syn-func>
+                </gramGrp>
+  <def>be exposed to the action of V-ing from the part of N 見惡於紂</def>
+            </sense>
 <sense xml:id="uuid-cced399b-a0f8-466b-a2ba-e181178e0bf5">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-99ef2933-a158-4247-b598-40acd2e411fa">V=undesirable</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>passivising grammaticalised particle derived from a transitive verb</def></sense>
+  <tls:sem-feat corresp="#uuid-99ef2933-a158-4247-b598-40acd2e411fa">V=undesirable</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>passivising grammaticalised particle derived from a transitive verb</def>
+            </sense>
 <sense xml:id="uuid-5dfa9f06-2387-4fc4-9292-112975db6beb">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func></gramGrp>
-  <def>get V-ed</def></sense>
-<sense xml:id="uuid-895e9271-3257-4cb2-959e-c7eb7cf9e284">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5c50ef28-3443-4ea9-9108-f310d47095b3">V=desirable</tls:sem-feat></gramGrp>
-  <def>be exposed to V-ing</def></sense>
+                </gramGrp>
+  <def>get V-ed</def>
+            </sense>
+<sense xml:id="uuid-895e9271-3257-4cb2-959e-c7eb7cf9e284">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-52110676-c76e-45d3-858e-d11b23d8f7b4">vt+V[0]{PASS}</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-5c50ef28-3443-4ea9-9108-f310d47095b3">V=desirable</tls:sem-feat>
+                </gramGrp>
+  <def>be exposed to V-ing</def>
+            </sense>
 <sense xml:id="uuid-12548ed8-a8ac-458f-9016-2a2e2253d2fd">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp>
-  <def>get verbed, be exposed to V-ing 為x見v</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+  <def>get verbed, be exposed to V-ing 為x見v</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-27f8f0de-60ee-4df8-a337-8a80cbf1660c"><form corresp="#uuid-615512f8-f4ed-431c-9654-f46092460386">
-<orth>遇</orth><pron xml:lang="zh-Latn-x-pinyin">yù</pron><pron xml:lang="zh-x-oc">ŋos</pron><pron xml:lang="zh-x-mc">ŋi̯o</pron></form>
+<entry type="word" xml:id="uuid-27f8f0de-60ee-4df8-a337-8a80cbf1660c">
+            <form corresp="#uuid-615512f8-f4ed-431c-9654-f46092460386">
+<orth>遇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yù</pron>
+                <pron xml:lang="zh-x-oc">ŋos</pron>
+                <pron xml:lang="zh-x-mc">ŋi̯o</pron>
+            </form>
+            <def>Zāo 遭 and yù 遇 refer to running into what tend to be undesirable situations.</def>
 <sense xml:id="uuid-5cabccc6-55a1-40ef-8f30-a934ff75d089">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-3f978eb2-b291-4076-b409-ed1df430261d">vto:Nab[.post-N]</tls:syn-func></gramGrp>
-  <def>(meet&gt;) marker of passivisation</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-3f978eb2-b291-4076-b409-ed1df430261d">vto:Nab[.post-N]</tls:syn-func>
+                </gramGrp>
+  <def>(meet&gt;) marker of passivisation</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-9bd309bb-6197-4054-8da7-d0ae75a67310"><form corresp="#uuid-e6af6c3d-ebb3-47de-8f14-5e864affdca5">
-<orth>遭</orth><pron xml:lang="zh-Latn-x-pinyin">zāo</pron><pron xml:lang="zh-x-oc">tsuu</pron><pron xml:lang="zh-x-mc">tsɑu</pron></form>
+<entry type="word" xml:id="uuid-9bd309bb-6197-4054-8da7-d0ae75a67310">
+            <form corresp="#uuid-e6af6c3d-ebb3-47de-8f14-5e864affdca5">
+<orth>遭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zāo</pron>
+                <pron xml:lang="zh-x-oc">tsuu</pron>
+                <pron xml:lang="zh-x-mc">tsɑu</pron>
+            </form>
+            <def>Zāo 遭 and yù 遇 refer to running into what tend to be undesirable situations.</def>
 <sense xml:id="uuid-4c639d68-85f4-4f2c-8f18-8105eeb27137">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-3f978eb2-b291-4076-b409-ed1df430261d">vto:Nab[.post-N]</tls:syn-func></gramGrp>
-  <def>get exposed to Nab-ing; (meet&gt;) marker of passivisation</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-3f978eb2-b291-4076-b409-ed1df430261d">vto:Nab[.post-N]</tls:syn-func>
+                </gramGrp>
+  <def>get exposed to Nab-ing; (meet&gt;) marker of passivisation</def>
+            </sense>
 <sense xml:id="uuid-1f2d38fe-2f4b-433b-8548-7b44a5e0286f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c44b2497-9239-4a2d-ada0-260d9d3436d1">vtoNPab</tls:syn-func></gramGrp>
-  <def>be exposed to NPab-ing  &gt; passive marker</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c44b2497-9239-4a2d-ada0-260d9d3436d1">vtoNPab</tls:syn-func>
+                </gramGrp>
+  <def>be exposed to NPab-ing  &gt; passive marker</def>
+            </sense>
+</entry>
+    </div>
+</div>

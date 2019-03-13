@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-5552df50-2a71-41a4-a567-79af5c252e65">
-<head>EXPENSE</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5552df50-2a71-41a4-a567-79af5c252e65">
+<head>EXPENSE</head>
+    <list type="altnames">
 <item>COST</item>
 <item>PRICE</item>
 <item>CHARGE</item>
@@ -8,15 +10,22 @@
 <item>FEE</item>
 <item>TARIFF</item>
 <item>LEVY</item>
-<item>PAYMENT</item></list><list type="translations"><item xml:lang="zh">費用</item><item xml:lang="och">費</item></list>
+<item>PAYMENT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">費用</item>
+        <item xml:lang="och">費</item>
+    </list>
 <div type="definition">
-<p>MONEY used for a certain purpose.</p></div>
+<p>MONEY used for a certain purpose.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The standard word for any expense of money, resources, or even effort, for a certain purpose, is fèi 費.</p>
 <p>2. Yòng 用 refers generally to the expenses one incurs, particularly in connection with state or family economy.</p>
 <p>3. Chū 出 (ant. rù 入 "income") refers specifically to monetary expenses, often in a somewhat theoretical context of "economics".</p>
-<p>4. Zī 資 can occasionally refer to resources used in pursuit of an aim.</p></div>
+<p>4. Zī 資 can occasionally refer to resources used in pursuit of an aim.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>費用</p>
 <p>費</p>
@@ -31,62 +40,143 @@
 <p>開支</p>
 <p>開銷</p>
 <p>花消</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="antonymy">
-<item><ref target="#uuid-c2f20d19-79ad-4d96-b7c0-0421d08cfc56">SALARY</ref></item></list><list type="see">
-<item><ref target="#uuid-9dcfacdd-91c6-42d6-b3b9-f17494ffefab">EXPENSIVE</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">11.72</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-c2f20d19-79ad-4d96-b7c0-0421d08cfc56">SALARY</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-9dcfacdd-91c6-42d6-b3b9-f17494ffefab">EXPENSIVE</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">11.72</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>EXPENSE</p>
 <p>sumptus refers to expense insofar as this diminishes wealth and capital.</p>
-<p>impensae refers to expense insofar as it serves to achieve an aim or to obtain an object.</p></note></bibl>
-<bibl><ref target="#uuid-56dd8ede-a572-47bc-8a1b-70c846775874">MENGE</ref>
-<title>Lateinische Synonymik</title><biblScope unit="page">144</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>impensae refers to expense insofar as it serves to achieve an aim or to obtain an object.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-56dd8ede-a572-47bc-8a1b-70c846775874">MENGE</ref>
+<title>Lateinische Synonymik</title>
+                <biblScope unit="page">144</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-e5ef1099-3398-4dd4-8758-bf21b0b6686f"><form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
-<orth>出</orth><pron xml:lang="zh-Latn-x-pinyin">chū</pron><pron xml:lang="zh-x-oc">khljud</pron><pron xml:lang="zh-x-mc">tɕhʷit</pron></form>
+<entry type="word" xml:id="uuid-e5ef1099-3398-4dd4-8758-bf21b0b6686f">
+            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
+<orth>出</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chū</pron>
+                <pron xml:lang="zh-x-oc">khljud</pron>
+                <pron xml:lang="zh-x-mc">tɕhʷit</pron>
+            </form>
+            <def>Chū 出 (ant. rù 入 "income") refers specifically to monetary expenses, often in a somewhat theoretical context of "economics".</def>
 <sense xml:id="uuid-03f38018-255c-4f46-8bb9-567291ea1dc0">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>expense</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>expense</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5867b4fa-b228-472f-9aa0-35bf158a461d"><form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
-<orth>用</orth><pron xml:lang="zh-Latn-x-pinyin">yòng</pron><pron xml:lang="zh-x-oc">k-loŋs</pron><pron xml:lang="zh-x-mc">ji̯oŋ</pron></form>
+<entry type="word" xml:id="uuid-5867b4fa-b228-472f-9aa0-35bf158a461d">
+            <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
+<orth>用</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòng</pron>
+                <pron xml:lang="zh-x-oc">k-loŋs</pron>
+                <pron xml:lang="zh-x-mc">ji̯oŋ</pron>
+            </form>
+            <def>Yòng 用 refers generally to the expenses one incurs, particularly in connection with state or family economy.</def>
 <sense xml:id="uuid-dce85b87-ba70-4eae-ad64-c4a82407e3e6">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>the use of resources, the making of expenses 節用  "be economical with expenses"</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>the use of resources, the making of expenses 節用  "be economical with expenses"</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5391276e-edb7-4301-b67e-00850ba2f0ec"><form corresp="#uuid-be8dd88f-65b8-42a3-8939-3c1e834a78cc">
-<orth>費</orth><pron xml:lang="zh-Latn-x-pinyin">fèi</pron><pron xml:lang="zh-x-oc">phɯds</pron><pron xml:lang="zh-x-mc">phɨi</pron></form>
+<entry type="word" xml:id="uuid-5391276e-edb7-4301-b67e-00850ba2f0ec">
+            <form corresp="#uuid-be8dd88f-65b8-42a3-8939-3c1e834a78cc">
+<orth>費</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèi</pron>
+                <pron xml:lang="zh-x-oc">phɯds</pron>
+                <pron xml:lang="zh-x-mc">phɨi</pron>
+            </form>
+            <def>The standard word for any expense of money, resources, or even effort, for a certain purpose, is fèi 費.</def>
 <sense xml:id="uuid-ea7de181-3472-4978-ad7c-9af1725d21cd">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>expenditure; cost; expense; lavish use of resources</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>expenditure; cost; expense; lavish use of resources</def>
+            </sense>
 <sense xml:id="uuid-68d0aafe-46e3-4359-997f-d3d753e44774">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>involve large expediture</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>involve large expediture</def>
+            </sense>
 <sense xml:id="uuid-35aeee20-2914-485d-85cf-5845a15592c4">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>at the expense of</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>at the expense of</def>
+            </sense>
 <sense xml:id="uuid-b723fb35-a771-4fb7-a1a4-479f575edb62">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>expend, use up; at the expense of</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>expend, use up; at the expense of</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-c5df07e7-ebf6-4cae-9d33-b70a04fb1700"><form corresp="#uuid-74abbef6-ebd5-4561-8d34-65cf258f7e71">
-<orth>資</orth><pron xml:lang="zh-Latn-x-pinyin">zī</pron><pron xml:lang="zh-x-oc">sti</pron><pron xml:lang="zh-x-mc">tsi</pron></form>
+<entry type="word" xml:id="uuid-c5df07e7-ebf6-4cae-9d33-b70a04fb1700">
+            <form corresp="#uuid-74abbef6-ebd5-4561-8d34-65cf258f7e71">
+<orth>資</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zī</pron>
+                <pron xml:lang="zh-x-oc">sti</pron>
+                <pron xml:lang="zh-x-mc">tsi</pron>
+            </form>
+            <def>Zī 資 can occasionally refer to resources used in pursuit of an aim.</def>
 <sense xml:id="uuid-d503399f-c43f-4647-ad2f-352a9cb3b713">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>expenses???</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>expenses???</def>
+            </sense>
+</entry>
+    </div>
+</div>

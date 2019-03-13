@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-b395c4c7-2b4a-4ea7-b418-05b315260940">
-<head>FOREIGNER</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b395c4c7-2b4a-4ea7-b418-05b315260940">
+<head>FOREIGNER</head>
+    <list type="altnames">
 <item>ALIEN</item>
 <item>NONNATIVE</item>
 <item>STRANGER</item>
@@ -9,14 +11,20 @@
 <item>LANDED IMMIGRANT</item>
 <item>REFUGEE</item>
 <item>SETTLER</item>
-<item>NEWCOMER</item></list><list type="translations"><item xml:lang="zh">外國人</item></list>
+<item>NEWCOMER</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">外國人</item>
+    </list>
 <div type="definition">
-<p>STRANGER COMING FROM a DIFFERENT STATE.</p></div>
+<p>STRANGER COMING FROM a DIFFERENT STATE.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current word for a foreigner is kè 客.</p>
 <p>2. Lu# 旅 refers to a newcomer or termporary inhabitant of place, and the word is somewhat marginal in the group.</p>
-<p>3. Wài rén 外人 is a neutral colourless term for an outsider in a place.</p></div>
+<p>3. Wài rén 外人 is a neutral colourless term for an outsider in a place.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>外國人</p>
 <p>外僑</p>
@@ -36,21 +44,49 @@
 <p>外來人</p>
 <p>外路人</p>
 <p>外姓</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-d67ec1a1-b300-459d-9abe-a5bd962d8f30">HOSTAGE</ref></item>
-<item><ref target="#uuid-752a782e-7da8-4e84-a6fd-22bbca61de15">FUGITIVE</ref></item></list><list type="see">
-<item><ref target="#uuid-617295c0-4c5f-49ee-a30c-8527a9dfb192">WILD</ref></item>
-<item><ref target="#uuid-6a049d0c-d93f-405b-9dfc-ec5abb8afadd">PATRIOTISM</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-b1c8c39d-b2b9-4994-80ba-33686a5c1fe8">APRESJAN 2004</ref>
-<title>Novyj objasnitel'nyj Slovar' Sinonimov Russkogo Jazyka</title><biblScope unit="page">1108</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">19.55</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-d67ec1a1-b300-459d-9abe-a5bd962d8f30">HOSTAGE</ref>
+            </item>
+<item>
+                <ref target="#uuid-752a782e-7da8-4e84-a6fd-22bbca61de15">FUGITIVE</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-617295c0-4c5f-49ee-a30c-8527a9dfb192">WILD</ref>
+            </item>
+<item>
+                <ref target="#uuid-6a049d0c-d93f-405b-9dfc-ec5abb8afadd">PATRIOTISM</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-b1c8c39d-b2b9-4994-80ba-33686a5c1fe8">APRESJAN 2004</ref>
+<title>Novyj objasnitel'nyj Slovar' Sinonimov Russkogo Jazyka</title>
+                <biblScope unit="page">1108</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">19.55</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>STRANGER</p>
 <p>externus refer to a person or thing belonging another country,and the term describes a purely spatial relation.</p>
 <p>exterus refers specifically to persons from another country.</p>
@@ -59,109 +95,251 @@
 <p>peregrinus refers to a person without a right of citizenship where he lives.</p>
 <p>hospes refers positively to the stranger or foreigner as deserving special hospitality.</p>
 <p>aliegenus refers to any person not native to a given country.</p>
-<p>advena refers to an imigrant of any kind.</p></note></bibl>
-<bibl><ref target="#uuid-dc235203-2ca8-4006-a7f5-c3246090e146">DUFOUR 1910</ref>
-<title>Traite elementaire des synonymes grecques</title><biblScope unit="page">81</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-d9f914e1-ebc9-4ba0-85f5-f2bdd943ed24">FINSTERBUSCH 1966</ref>
-<title>Verzeichnis und Motivindex der Han-Darstellungen</title><biblScope unit="page">211</biblScope><note>
-<p>Fremdvoelker:</p></note></bibl>
-<bibl><ref target="#uuid-dcdec461-c248-4809-a141-385e6610d74c">FINSTERBUSCH 2000</ref>
-<title>Verzeichnis und Motivindex der Han-Darstellungen</title><biblScope unit="page">742</biblScope><note>
+<p>advena refers to an imigrant of any kind.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-dc235203-2ca8-4006-a7f5-c3246090e146">DUFOUR 1910</ref>
+<title>Traite elementaire des synonymes grecques</title>
+                <biblScope unit="page">81</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-d9f914e1-ebc9-4ba0-85f5-f2bdd943ed24">FINSTERBUSCH 1966</ref>
+<title>Verzeichnis und Motivindex der Han-Darstellungen</title>
+                <biblScope unit="page">211</biblScope>
+                <note>
+<p>Fremdvoelker:</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-dcdec461-c248-4809-a141-385e6610d74c">FINSTERBUSCH 2000</ref>
+<title>Verzeichnis und Motivindex der Han-Darstellungen</title>
+                <biblScope unit="page">742</biblScope>
+                <note>
 <p>Fremde/Fremdvoelker:</p>
-<p>F usefully lists depictions of foreigners on Han reliefs.</p></note></bibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><note>
-<p>PEREGRINUS</p></note></bibl>
-<bibl><ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
-<title>Dictionnaire culturel en langue francaise</title><biblScope unit="page">2.723</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
-<title>Chinese Synonyms Usage Dictionary</title><biblScope unit="page">375</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no. 83</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no.336</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-e8e00c8c-6f7d-429d-82a5-84721abe7cc7">T.W.HARBSMEIER 2004</ref>
-<title>A New Dictionary of Classical Greek Synonyms</title><biblScope unit="page">no. 83</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
-<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title><biblScope unit="page">134A</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>F usefully lists depictions of foreigners on Han reliefs.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <note>
+<p>PEREGRINUS</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-d905dccd-9c5f-458e-b56c-c2a7c09e2d72">REY 2005</ref>
+<title>Dictionnaire culturel en langue francaise</title>
+                <biblScope unit="page">2.723</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
+<title>Chinese Synonyms Usage Dictionary</title>
+                <biblScope unit="page">375</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no. 83</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no.336</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-e8e00c8c-6f7d-429d-82a5-84721abe7cc7">T.W.HARBSMEIER 2004</ref>
+<title>A New Dictionary of Classical Greek Synonyms</title>
+                <biblScope unit="page">no. 83</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-57350e2c-978e-4013-b566-812ce1ea8cbf">FRANKE 1989</ref>
+<title>Bibliographisches Handbuch zur Sprachinhaltsforschung. Teil II. Systematischer Teil. B. Ordnung nach Sinnbezirken (mit einem alphabetischen Begriffsschluessel): Der Mensch und seine Welt im Spiegel der Sprachforschung</title>
+                <biblScope unit="page">134A</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-da2ab8f3-70d5-4cba-8888-0fbc8c2c7bbf"><form corresp="#uuid-593ad822-d993-4f58-a66f-b3839141944e">
-<orth>外</orth><pron xml:lang="zh-Latn-x-pinyin">wài</pron><pron xml:lang="zh-x-oc">ŋoods</pron><pron xml:lang="zh-x-mc">ŋɑi</pron></form>
+<entry type="word" xml:id="uuid-da2ab8f3-70d5-4cba-8888-0fbc8c2c7bbf">
+            <form corresp="#uuid-593ad822-d993-4f58-a66f-b3839141944e">
+<orth>外</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wài</pron>
+                <pron xml:lang="zh-x-oc">ŋoods</pron>
+                <pron xml:lang="zh-x-mc">ŋɑi</pron>
+            </form>
 <sense xml:id="uuid-58e3ffc4-642a-4a52-99bc-42e97221093e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-7ac16aba-28f8-4be0-87df-43c5f2987f05">n(post-N1.)[adN2]</tls:syn-func></gramGrp>
-  <def>outsider</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-7ac16aba-28f8-4be0-87df-43c5f2987f05">n(post-N1.)[adN2]</tls:syn-func>
+                </gramGrp>
+  <def>outsider</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-a423569d-b411-4a85-8087-b56e080b932a"><form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059">
-<orth>客</orth><pron xml:lang="zh-Latn-x-pinyin">kè</pron><pron xml:lang="zh-x-oc">khraaɡ</pron><pron xml:lang="zh-x-mc">khɣɛk</pron></form>
+<entry type="word" xml:id="uuid-a423569d-b411-4a85-8087-b56e080b932a">
+            <form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059">
+<orth>客</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kè</pron>
+                <pron xml:lang="zh-x-oc">khraaɡ</pron>
+                <pron xml:lang="zh-x-mc">khɣɛk</pron>
+            </form>
+            <def>The current word for a foreigner is kè 客.</def>
 <sense xml:id="uuid-79bb410a-edaa-449b-94cf-df4495f3d403">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>stranger; person from a foreign country, foreigner, foreign resident; immigrant; person from a different place;</def></sense>
-<sense xml:id="uuid-0ec8ef50-edbd-48be-baed-c2c7540932b8">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp>
-  <def>as a foreigner</def></sense>
-<sense xml:id="uuid-e2aae363-f5dd-4b37-bf09-f1c22067dd99">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>foreigner</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-03d63caa-b9f3-4fe1-98ec-f126e6943a7f"><form corresp="#uuid-a291b6ab-dbb9-4154-bd7d-60654b4928cd">
-<orth>旅</orth><pron xml:lang="zh-Latn-x-pinyin">lǚ</pron><pron xml:lang="zh-x-oc">raʔ</pron><pron xml:lang="zh-x-mc">li̯ɤ</pron></form>
-<sense xml:id="uuid-2c26c2e4-ef38-46e6-b0da-7ac1bbe4a028">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>stranger; newcomer; traveler</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-13278a18-d4a8-4d2d-8921-d8e76e6a0497"><form corresp="#uuid-23397f02-7f96-481e-854c-5a638ce58727">
-<orth>羈</orth><pron xml:lang="zh-Latn-x-pinyin">jī</pron><pron xml:lang="zh-x-oc">kral</pron><pron xml:lang="zh-x-mc">kiɛ</pron></form>
-<sense xml:id="uuid-1c796040-68cb-4f47-9403-6dd27d7f4954">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-9d6c54c1-760c-4bdc-9f1d-7c15193a50c8">subject=human</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>stranger; foreigner; refugee</def></sense>
+                </gramGrp>
+  <def>stranger; person from a foreign country, foreigner, foreign resident; immigrant; person from a different place;</def>
+            </sense>
+<sense xml:id="uuid-0ec8ef50-edbd-48be-baed-c2c7540932b8">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+  <def>as a foreigner</def>
+            </sense>
+<sense xml:id="uuid-e2aae363-f5dd-4b37-bf09-f1c22067dd99">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>foreigner</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-f136773b-9eba-43a9-8c7c-7a866cd63b8e"><form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
-<orth>反</orth><pron xml:lang="zh-Latn-x-pinyin">fǎn</pron><pron xml:lang="zh-x-oc">panʔ</pron><pron xml:lang="zh-x-mc">pi̯ɐn</pron></form>
+<entry type="word" xml:id="uuid-03d63caa-b9f3-4fe1-98ec-f126e6943a7f">
+            <form corresp="#uuid-a291b6ab-dbb9-4154-bd7d-60654b4928cd">
+<orth>旅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǚ</pron>
+                <pron xml:lang="zh-x-oc">raʔ</pron>
+                <pron xml:lang="zh-x-mc">li̯ɤ</pron>
+            </form>
+            <def>Lu# 旅 refers to a newcomer or termporary inhabitant of place, and the word is somewhat marginal in the group.</def>
+<sense xml:id="uuid-2c26c2e4-ef38-46e6-b0da-7ac1bbe4a028">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>stranger; newcomer; traveler</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-13278a18-d4a8-4d2d-8921-d8e76e6a0497">
+            <form corresp="#uuid-23397f02-7f96-481e-854c-5a638ce58727">
+<orth>羈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jī</pron>
+                <pron xml:lang="zh-x-oc">kral</pron>
+                <pron xml:lang="zh-x-mc">kiɛ</pron>
+            </form>
+<sense xml:id="uuid-1c796040-68cb-4f47-9403-6dd27d7f4954">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-9d6c54c1-760c-4bdc-9f1d-7c15193a50c8">subject=human</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>stranger; foreigner; refugee</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-f136773b-9eba-43a9-8c7c-7a866cd63b8e">
+            <form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
+<orth>反</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎn</pron>
+                <pron xml:lang="zh-x-oc">panʔ</pron>
+                <pron xml:lang="zh-x-mc">pi̯ɐn</pron>
+            </form>
 <sense xml:id="uuid-37e6be96-cc9f-4115-9077-43b3bae2db9f">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>"toungue-turners", babbling barbarians, speakers of alien languages</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-eb4f1cbf-7da5-4702-8ddc-e4ff087fd116"><form corresp="#uuid-593ad822-d993-4f58-a66f-b3839141944e #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
-<orth>外人</orth><pron xml:lang="zh-Latn-x-pinyin">wài rén</pron><pron xml:lang="zh-x-oc">ŋoods njin</pron><pron xml:lang="zh-x-mc">ŋɑi ȵin</pron></form>
-<sense xml:id="uuid-419446b8-2559-4cf5-ab69-232d4f92e9dd">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>stranger; outsider; foreigner</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-cef86b85-7c93-4b91-80cb-82fb2c3c0358"><form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
-<orth>客人</orth><pron xml:lang="zh-Latn-x-pinyin">kè rén</pron><pron xml:lang="zh-x-oc">khraaɡ njin</pron><pron xml:lang="zh-x-mc">khɣɛk ȵin</pron></form>
-<sense xml:id="uuid-a9d7ffff-231a-43ce-9ecb-2856fdd5b7ce">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>foreigner</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-8f5fdc23-1c0e-4b2e-87eb-3d8ddbbb064b"><form corresp="#uuid-90f4c79f-476b-471b-8321-d28d9bac5773 #uuid-a291b6ab-dbb9-4154-bd7d-60654b4928cd">
-<orth>新旅</orth><pron xml:lang="zh-Latn-x-pinyin">xīn lǚ</pron><pron xml:lang="zh-x-oc">siŋ raʔ</pron><pron xml:lang="zh-x-mc">sin li̯ɤ</pron></form>
-<sense xml:id="uuid-adfbff87-bdfe-4f65-9f32-b7012cbfdd35">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>newly arrived foreigner</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-376f8c2c-2d1a-4ea3-8152-19e6fa9cd0c1"><form corresp="#uuid-745110ae-14ed-402d-8284-5d59631af439 #uuid-a291b6ab-dbb9-4154-bd7d-60654b4928cd">
-<orth>賓旅</orth><pron xml:lang="zh-Latn-x-pinyin">bīn lǚ</pron><pron xml:lang="zh-x-oc">pin raʔ</pron><pron xml:lang="zh-x-mc">pin li̯ɤ</pron></form>
-<sense xml:id="uuid-01a8cff2-a0c8-427b-8483-61992a53d713">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>strangers</def></sense>
-</entry></div></div>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>"toungue-turners", babbling barbarians, speakers of alien languages</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-eb4f1cbf-7da5-4702-8ddc-e4ff087fd116">
+            <form corresp="#uuid-593ad822-d993-4f58-a66f-b3839141944e #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+<orth>外人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wài rén</pron>
+                <pron xml:lang="zh-x-oc">ŋoods njin</pron>
+                <pron xml:lang="zh-x-mc">ŋɑi ȵin</pron>
+            </form>
+            <def>Wài rén 外人 is a neutral colourless term for an outsider in a place.</def>
+<sense xml:id="uuid-419446b8-2559-4cf5-ab69-232d4f92e9dd">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>stranger; outsider; foreigner</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-cef86b85-7c93-4b91-80cb-82fb2c3c0358">
+            <form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+<orth>客人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kè rén</pron>
+                <pron xml:lang="zh-x-oc">khraaɡ njin</pron>
+                <pron xml:lang="zh-x-mc">khɣɛk ȵin</pron>
+            </form>
+<sense xml:id="uuid-a9d7ffff-231a-43ce-9ecb-2856fdd5b7ce">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>foreigner</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-8f5fdc23-1c0e-4b2e-87eb-3d8ddbbb064b">
+            <form corresp="#uuid-90f4c79f-476b-471b-8321-d28d9bac5773 #uuid-a291b6ab-dbb9-4154-bd7d-60654b4928cd">
+<orth>新旅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīn lǚ</pron>
+                <pron xml:lang="zh-x-oc">siŋ raʔ</pron>
+                <pron xml:lang="zh-x-mc">sin li̯ɤ</pron>
+            </form>
+<sense xml:id="uuid-adfbff87-bdfe-4f65-9f32-b7012cbfdd35">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>newly arrived foreigner</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-376f8c2c-2d1a-4ea3-8152-19e6fa9cd0c1">
+            <form corresp="#uuid-745110ae-14ed-402d-8284-5d59631af439 #uuid-a291b6ab-dbb9-4154-bd7d-60654b4928cd">
+<orth>賓旅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bīn lǚ</pron>
+                <pron xml:lang="zh-x-oc">pin raʔ</pron>
+                <pron xml:lang="zh-x-mc">pin li̯ɤ</pron>
+            </form>
+<sense xml:id="uuid-01a8cff2-a0c8-427b-8483-61992a53d713">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>strangers</def>
+            </sense>
+</entry>
+    </div>
+</div>

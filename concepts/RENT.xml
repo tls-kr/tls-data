@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-c9c20a8f-2a0e-4e9c-aecf-cb8ccb579c6f">
-<head>RENT</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c9c20a8f-2a0e-4e9c-aecf-cb8ccb579c6f">
+<head>RENT</head>
+    <list type="altnames">
 <item>LEASE</item>
-<item>CHARTER</item></list><list type="translations"><item xml:lang="zh">租用</item></list>
+<item>CHARTER</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">租用</item>
+    </list>
 <div type="definition">
-<p>PAY FOR USE of a PLACE.</p></div>
+<p>PAY FOR USE of a PLACE.</p>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>租</p>
@@ -24,25 +31,59 @@
 <p>租子</p>
 <p>房租</p>
 <p>僦費</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="antonymy">
-<item><ref target="#uuid-234f127e-f644-4b11-bea4-e62b0aba2028">RENT OUT</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">11.75</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">11.76</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-234f127e-f644-4b11-bea4-e62b0aba2028">RENT OUT</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">11.75</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">11.76</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-63c59cc2-bc45-4204-8b2b-1f392f64259b"><form corresp="#uuid-9e919217-2dc2-48cb-8ab8-0f54eb5b8c60">
-<orth>賃</orth><pron xml:lang="zh-Latn-x-pinyin">lìn</pron><pron xml:lang="zh-x-oc">nɯms</pron><pron xml:lang="zh-x-mc">ɳim</pron></form>
+<entry type="word" xml:id="uuid-63c59cc2-bc45-4204-8b2b-1f392f64259b">
+            <form corresp="#uuid-9e919217-2dc2-48cb-8ab8-0f54eb5b8c60">
+<orth>賃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lìn</pron>
+                <pron xml:lang="zh-x-oc">nɯms</pron>
+                <pron xml:lang="zh-x-mc">ɳim</pron>
+            </form>
 <sense xml:id="uuid-233808c8-1e16-407b-ac01-f8efe3e40683">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>rent</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>rent</def>
+            </sense>
 <sense xml:id="uuid-37b24938-b22d-4c11-a595-045bdaf05fae">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp>
-  <def>rent [a place]</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+  <def>rent [a place]</def>
+            </sense>
+</entry>
+    </div>
+</div>

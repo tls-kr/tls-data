@@ -1,88 +1,203 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-9635dd9b-58b6-454f-9cb5-77dd3486c43b">
-<head>LIMB</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9635dd9b-58b6-454f-9cb5-77dd3486c43b">
+<head>LIMB</head>
+    <list type="altnames">
 <item>MEMBER</item>
 <item>ARM</item>
 <item>LEG</item>
 <item>APPENDAGE</item>
-<item>ARCHAIC MEMBER</item></list><list type="translations"><item xml:lang="zh">肢體</item><item xml:lang="och">肢</item></list>
+<item>ARCHAIC MEMBER</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">肢體</item>
+        <item xml:lang="och">肢</item>
+    </list>
 <div type="definition">
-<p>BODY PART OTHER than the TORSO.</p></div>
+<p>BODY PART OTHER than the TORSO.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current word for a limb is zhī 肢.</p>
-<p>2. Tǐ 體 refers (often collectively) to the limbs of the body, and it must be noted that the head counts as one tǐ 體 in the xíng 形 "body", but there is also a closely related usage where the word refers quite generally to the parts of the body as in bǎi tǐ 百體.</p></div>
+<p>2. Tǐ 體 refers (often collectively) to the limbs of the body, and it must be noted that the head counts as one tǐ 體 in the xíng 形 "body", but there is also a closely related usage where the word refers quite generally to the parts of the body as in bǎi tǐ 百體.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>肢</p>
 <p>肢體</p>
 <p>四體</p>
 <p>四肢</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-ecc07637-d5e4-423c-ba73-fd1fc67d033f">ARM</ref></item>
-<item><ref target="#uuid-566b791c-d2a1-46ca-8187-a2d071ebc5d1">HEAD</ref></item>
-<item><ref target="#uuid-29d9355e-9957-476d-b2b8-415faedfb5e5">LEG</ref></item></list><list type="mereonymy">
-<item><ref target="#uuid-0ce03f44-e4ce-4806-a609-08af7f8d01e0">JOINT</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-ecc07637-d5e4-423c-ba73-fd1fc67d033f">ARM</ref>
+            </item>
+<item>
+                <ref target="#uuid-566b791c-d2a1-46ca-8187-a2d071ebc5d1">HEAD</ref>
+            </item>
+<item>
+                <ref target="#uuid-29d9355e-9957-476d-b2b8-415faedfb5e5">LEG</ref>
+            </item>
+        </list>
+        <list type="mereonymy">
+<item>
+                <ref target="#uuid-0ce03f44-e4ce-4806-a609-08af7f8d01e0">JOINT</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>LIMB</p>
 <p>membrum refers to a limb of the body itself.</p>
-<p>artus   refers properly only to the joint of a limb.</p></note></bibl>
-<bibl><ref target="#uuid-67c97ad0-3944-4d76-b7c8-25be0e1ed222">HUANG JINGUI 1995</ref>
-<title>古代文化詞異集類辨考 Gudai wenhua ci yi ji lei bian kao</title><biblScope unit="page">479</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">126</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
-<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title><biblScope unit="page">no.324</biblScope><note>
-<p/></note></bibl></listBibl></div>
+<p>artus   refers properly only to the joint of a limb.</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-67c97ad0-3944-4d76-b7c8-25be0e1ed222">HUANG JINGUI 1995</ref>
+<title>古代文化詞異集類辨考 Gudai wenhua ci yi ji lei bian kao</title>
+                <biblScope unit="page">479</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                <biblScope unit="page">126</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-bbf731db-f5e8-4da6-9d88-b10c69b707ad">PILLON 1850</ref>
+<title>Handbook of Greek Synonymes, from the French of M. Alex. Pillon, Librarian of the Bibliothèque Royale , at Paris, and one of the editors of the new edition of Plaché's Dictionnaire Grec-Français, edited, with notes, by the Rev. Thomas Kerchever Arnold, M.A. Rector of Lyndon, and late fellow of Trinity College, Cambridge</title>
+                <biblScope unit="page">no.324</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-c8b911cf-3e62-4afd-9bca-f78d30ee01eb"><form corresp="#uuid-d81e9c3d-5b5d-4129-9d26-e3c40597ae60">
-<orth>肢</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-oc">kje</pron><pron xml:lang="zh-x-mc">tɕiɛ</pron></form><form corresp="#uuid-d5401223-13e2-425f-991d-38fad9bfa1f8">
-<orth>枝</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-oc">kje</pron><pron xml:lang="zh-x-mc">tɕiɛ</pron></form><form corresp="#uuid-5b32b6b0-d9d8-49f6-a149-b3443dd86844">
-<orth>支</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-oc">kje</pron><pron xml:lang="zh-x-mc">tɕiɛ</pron></form>
+<entry type="word" xml:id="uuid-c8b911cf-3e62-4afd-9bca-f78d30ee01eb">
+            <form corresp="#uuid-d81e9c3d-5b5d-4129-9d26-e3c40597ae60">
+<orth>肢</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-oc">kje</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛ</pron>
+            </form>
+            <def>The current word for a limb is zhī 肢.</def>
+            <form corresp="#uuid-d5401223-13e2-425f-991d-38fad9bfa1f8">
+<orth>枝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-oc">kje</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛ</pron>
+            </form>
+            <def>The current word for a limb is zhī 肢.</def>
+            <form corresp="#uuid-5b32b6b0-d9d8-49f6-a149-b3443dd86844">
+<orth>支</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-oc">kje</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛ</pron>
+            </form>
+            <def>The current word for a limb is zhī 肢.</def>
 <sense xml:id="uuid-f37083e5-ff9c-4d32-baca-e192ce342abf">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>limb 四肢  "four limbs (excluding head)"</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-c5c70003-0d02-4016-9ffd-8298fb3fe048"><form corresp="#uuid-d5401223-13e2-425f-991d-38fad9bfa1f8">
-<orth>枝</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-oc">kje</pron><pron xml:lang="zh-x-mc">tɕiɛ</pron></form>
-<sense xml:id="uuid-7416b6b2-14d0-4414-8492-fccaa1713ab4">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>limb (loan for 肢)</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-1a60b24c-feb7-473b-819e-0302f272fb11"><form corresp="#uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
-<orth>體</orth><pron xml:lang="zh-Latn-x-pinyin">tǐ</pron><pron xml:lang="zh-x-oc">rʰiiʔ</pron><pron xml:lang="zh-x-mc">thei</pron></form>
-<sense xml:id="uuid-39b00dce-3e66-4507-834f-1ec3eb135b29">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>limbs including the head;  also: body parts generally 四體，五體，百體</def></sense>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>limb 四肢  "four limbs (excluding head)"</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1a29d618-c071-4c9f-a80a-4760ad545ff0"><form corresp="#uuid-9a3e6563-6679-42a6-978a-254aac371ab5 #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
-<orth>四體</orth><pron xml:lang="zh-Latn-x-pinyin">sì tǐ</pron><pron xml:lang="zh-x-oc">plids rʰiiʔ</pron><pron xml:lang="zh-x-mc">si thei</pron><ptr type="compound-id-ref" target="#uuid-b2f564b7-ed9b-4ef4-af38-4f349154d4e7"/></form>
+<entry type="word" xml:id="uuid-c5c70003-0d02-4016-9ffd-8298fb3fe048">
+            <form corresp="#uuid-d5401223-13e2-425f-991d-38fad9bfa1f8">
+<orth>枝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-oc">kje</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛ</pron>
+            </form>
+<sense xml:id="uuid-7416b6b2-14d0-4414-8492-fccaa1713ab4">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>limb (loan for 肢)</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-1a60b24c-feb7-473b-819e-0302f272fb11">
+            <form corresp="#uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
+<orth>體</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tǐ</pron>
+                <pron xml:lang="zh-x-oc">rʰiiʔ</pron>
+                <pron xml:lang="zh-x-mc">thei</pron>
+            </form>
+            <def>Tǐ 體 refers (often collectively) to the limbs of the body, and it must be noted that the head counts as one tǐ 體 in the xíng 形 "body", but there is also a closely related usage where the word refers quite generally to the parts of the body as in bǎi tǐ 百體.</def>
+<sense xml:id="uuid-39b00dce-3e66-4507-834f-1ec3eb135b29">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>limbs including the head;  also: body parts generally 四體，五體，百體</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-1a29d618-c071-4c9f-a80a-4760ad545ff0">
+            <form corresp="#uuid-9a3e6563-6679-42a6-978a-254aac371ab5 #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
+<orth>四體</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì tǐ</pron>
+                <pron xml:lang="zh-x-oc">plids rʰiiʔ</pron>
+                <pron xml:lang="zh-x-mc">si thei</pron>
+                <ptr type="compound-id-ref" target="#uuid-b2f564b7-ed9b-4ef4-af38-4f349154d4e7"/>
+            </form>
 <sense xml:id="uuid-f43a9e8d-13b4-4131-9a6a-8c38e8964f66">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>the four limbs (legs and arms, the head being omitted in this case)</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>the four limbs (legs and arms, the head being omitted in this case)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8c78ddef-4923-46ca-9a8b-d8b03ee97bb3"><form corresp="#uuid-005e2d6e-3ed2-4790-8c36-b2081e6d928d #uuid-cb379ba3-140b-4384-84e3-e9781f11c742">
-<orth>手足</orth><pron xml:lang="zh-Latn-x-pinyin">shǒu zú</pron><pron xml:lang="zh-x-oc">hmljuʔ tsoɡ</pron><pron xml:lang="zh-x-mc">ɕɨu tsi̯ok</pron><ptr type="compound-id-ref" target="#uuid-711d0b72-3a0c-432b-8759-75d20c8f7c70"/></form>
+<entry type="word" xml:id="uuid-8c78ddef-4923-46ca-9a8b-d8b03ee97bb3">
+            <form corresp="#uuid-005e2d6e-3ed2-4790-8c36-b2081e6d928d #uuid-cb379ba3-140b-4384-84e3-e9781f11c742">
+<orth>手足</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǒu zú</pron>
+                <pron xml:lang="zh-x-oc">hmljuʔ tsoɡ</pron>
+                <pron xml:lang="zh-x-mc">ɕɨu tsi̯ok</pron>
+                <ptr type="compound-id-ref" target="#uuid-711d0b72-3a0c-432b-8759-75d20c8f7c70"/>
+            </form>
 <sense xml:id="uuid-f6dbc39d-5cf0-4488-b8c9-979f8990beaa">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp>
-  <def>arms and legs (hands and feet???)</def></sense>
+  <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+  <def>arms and legs (hands and feet???)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-36100ece-6cb0-4e1c-80c7-7a19bd3b9de8"><form corresp="#uuid-5b32b6b0-d9d8-49f6-a149-b3443dd86844 #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
-<orth>支體</orth><pron xml:lang="zh-Latn-x-pinyin">zhī tǐ</pron><pron xml:lang="zh-x-oc">kje rʰiiʔ</pron><pron xml:lang="zh-x-mc">tɕiɛ thei</pron></form>
+<entry type="word" xml:id="uuid-36100ece-6cb0-4e1c-80c7-7a19bd3b9de8">
+            <form corresp="#uuid-5b32b6b0-d9d8-49f6-a149-b3443dd86844 #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
+<orth>支體</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī tǐ</pron>
+                <pron xml:lang="zh-x-oc">kje rʰiiʔ</pron>
+                <pron xml:lang="zh-x-mc">tɕiɛ thei</pron>
+            </form>
 <sense xml:id="uuid-694eb476-ff3a-4a1c-833e-ba1b6098ac70">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp>
-  <def>limbs</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+  <def>limbs</def>
+            </sense>
+</entry>
+    </div>
+</div>

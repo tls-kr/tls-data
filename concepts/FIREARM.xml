@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-aaf3405f-854c-49f8-a4bc-76f5a7d7d320">
-<head>FIREARM</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-aaf3405f-854c-49f8-a4bc-76f5a7d7d320">
+<head>FIREARM</head>
+    <list type="altnames">
 <item>GUN</item>
 <item>WEAPON</item>
 <item>RIFLE</item>
@@ -9,9 +11,14 @@
 <item>REVOLVER</item>
 <item>INFORMAL SHOOTER</item>
 <item>PIECE</item>
-<item>HEAT</item></list><list type="translations"><item xml:lang="zh">槍</item></list>
+<item>HEAT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">槍</item>
+    </list>
 <div type="definition">
-<p>WEAPON USING GUNPOWDER to SHOOT.</p></div>
+<p>WEAPON USING GUNPOWDER to SHOOT.</p>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>槍</p>
@@ -26,12 +33,32 @@
 <p>盒子炮</p>
 <p>機關槍</p>
 <p>機槍</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-6aa8dc9a-a930-4ec6-a088-2e33158b0f61">HANDGUN</ref></item></list><list type="see">
-<item><ref target="#uuid-3286520a-07c6-4d3f-b341-9ddf5063616e">SHOOT</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-74ef242e-0300-4994-8992-f23c46362473">SANBAITI 1987</ref>
-<title>中國文化史三百題</title><biblScope unit="page">87-92</biblScope><note>
-<p/></note></bibl></listBibl></div>
-<div type="words"/></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-6aa8dc9a-a930-4ec6-a088-2e33158b0f61">HANDGUN</ref>
+            </item>
+        </list>
+        <list type="see">
+<item>
+                <ref target="#uuid-3286520a-07c6-4d3f-b341-9ddf5063616e">SHOOT</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-74ef242e-0300-4994-8992-f23c46362473">SANBAITI 1987</ref>
+<title>中國文化史三百題</title>
+                <biblScope unit="page">87-92</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
+<div type="words"/>
+</div>

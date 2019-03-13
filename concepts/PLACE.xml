@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-9ad2188b-a1fe-4493-9868-b5683a3a0606">
-<head>PLACE</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ad2188b-a1fe-4493-9868-b5683a3a0606">
+<head>PLACE</head>
+    <list type="altnames">
 <item>SPACE</item>
 <item>LOCATION</item>
 <item>SITE</item>
@@ -11,16 +13,23 @@
 <item>AREA</item>
 <item>REGION</item>
 <item>LOCALE</item>
-<item>VENUE</item></list><list type="translations"><item xml:lang="zh">地方</item><item xml:lang="och">處</item></list>
+<item>VENUE</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">地方</item>
+        <item xml:lang="och">處</item>
+    </list>
 <div type="definition">
-<p>PART of SPACE that THINGS BE-IN:are-in.</p></div>
+<p>PART of SPACE that THINGS BE-IN:are-in.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The most general word referring to the location of something is chù 處 which may refer to the location in which a thing happens to be at some point in time, or to the place where something belongs, and the word refers to both abstract and concrete spatial location.</p>
 <p>2. Suǒ 所 "proper place", when used pregnantly on its own, refers to the place where a thing basically belongs, where someone lives, and where something should be. This word was the most common word for a place in early literature. Quite frequently, the word refers not just to a place, but particularly to a building in a place.</p>
 <p>3. Dì 地 is primarily a territory, and only by occasional extension the abstract location of something.</p>
 <p>4. W4èi 位 sometimes comes to refer to the position in a terrain.</p>
-<p>5. Chǎng 場 refers specifically to the location for certain activities like threshing etc.</p></div>
+<p>5. Chǎng 場 refers specifically to the location for certain activities like threshing etc.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>地方 is the current general modern word for a place.</p>
 <p>地兒 is northern colloquial for 地方.</p>
@@ -33,272 +42,605 @@
 <p>地帶 refers figuratively to a swathe of land.</p>
 <p>所在 (lit) refers to the place something is.</p>
 <p>地點</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-50ade220-8612-4161-acfb-dbdc53249ed1">BEHIND</ref></item>
-<item><ref target="#uuid-62252aba-6452-4ee9-aeb4-3b50862a8170">BELOW</ref></item>
-<item><ref target="#uuid-62dbda50-113a-42b2-a2fc-ba3399469619">BETWEEN</ref></item>
-<item><ref target="#uuid-5739abe6-b528-4c38-a547-0e174f756ae6">CITY</ref></item>
-<item><ref target="#uuid-71bc0b52-b34c-4f22-a83a-b866764984c7">CORNER</ref></item>
-<item><ref target="#uuid-eda452d9-7993-480c-99c1-e73d9750d5d1">COURTYARD</ref></item>
-<item><ref target="#uuid-96cef6b3-c174-4fc1-b8d0-a9ab7cbb961c">SKY</ref></item>
-<item><ref target="#uuid-415fced0-30f9-4b77-b3dc-911f42b3ddb7">IN FRONT</ref></item>
-<item><ref target="#uuid-44bc3830-f8a2-4b83-b546-021006639a3c">INSIDE</ref></item>
-<item><ref target="#uuid-6317db9e-f402-42e9-b1e0-8d04fca07bf7">CAMP</ref></item>
-<item><ref target="#uuid-9a6e93e1-f9c8-457c-9200-b4b583c7704d">NEST</ref></item>
-<item><ref target="#uuid-e54a86f3-64c2-446f-8525-d5aa97c7ff21">OPEN AIR</ref></item>
-<item><ref target="#uuid-73de36c6-0b6d-4bba-aecc-f8b3b950fb9e">WAY</ref></item>
-<item><ref target="#uuid-d1f0564b-6c21-4761-8dbe-c1246dbc7878">SIDE</ref></item>
-<item><ref target="#uuid-f86b1c37-9359-4168-b055-97c6cd092ad3">TERRITORY</ref></item>
-<item><ref target="#uuid-4a814208-81d1-48ac-b35c-122a725e170a">TIP</ref></item>
-<item><ref target="#uuid-67c0f256-db52-4848-9f4b-f1cd389839b3">ABOVE</ref></item>
-<item><ref target="#uuid-d00e5efd-6c89-45a1-adad-cbc53b11aa70">VILLAGE</ref></item>
-<item><ref target="#uuid-c17cb017-3387-47f7-a92f-f0de0d7a135b">WHERE</ref></item>
-<item><ref target="#uuid-c58cabd3-f323-43ec-a15b-c77a6888da2a">WORLD</ref></item>
-<item><ref target="#uuid-a7b53f03-8907-49ea-8772-e24ad6fd16a3">ROOM</ref></item>
-<item><ref target="#uuid-79636050-c918-45fa-b583-0e766a50060e">MARKET</ref></item>
-<item><ref target="#uuid-002e6d74-ef11-42bd-87c7-8e86e8b59641">SOURCE</ref></item>
-<item><ref target="#uuid-8ef4a581-2f6b-4193-96e5-206b7bed905f">MIDDLE</ref></item>
-<item><ref target="#uuid-bb0f7095-fda8-41e9-8901-d64001c3b111">HOME</ref></item>
-<item><ref target="#uuid-383dc31a-fb6a-4c5a-9182-83a8cb967831">UNIVERSE</ref></item>
-<item><ref target="#uuid-04482dbe-a266-41c0-b7f0-e0ba31a4763f">HERE</ref></item>
-<item><ref target="#uuid-36a8559e-d328-4d73-a9e4-0857690eeaa1">EVERYWHERE</ref></item>
-<item><ref target="#uuid-c67976ab-7cf0-44ad-89a8-c9425a9f1eb8">BORDER AREA</ref></item>
-<item><ref target="#uuid-8364b0bd-096f-41e2-8c67-21e23a1fbf8a">AWAY</ref></item>
-<item><ref target="#uuid-28804f3a-42f6-42b2-b06d-28362f415058">HARBOUR</ref></item>
-<item><ref target="#uuid-7f8e0db4-7048-4eec-b99f-ae08ddae5af5">HELL</ref></item>
-<item><ref target="#uuid-5c40388e-b06d-4f8c-bb39-2d7fce66093b">CROSSROADS</ref></item>
-<item><ref target="#uuid-3976062a-a968-4062-826a-af9934ecf699">REALM</ref></item>
-<item><ref target="#uuid-5a2cd1f0-f6a3-4fc7-829d-632dfc3ca043">THERE</ref></item>
-<item><ref target="#uuid-c47c55eb-be89-4288-bb9a-d97cf537bdd4">SHADE</ref></item>
-<item><ref target="#uuid-f5018723-71ea-49c5-8911-415a8745d1a8">TOP</ref></item>
-<item><ref target="#uuid-d0e55d09-e3d9-420c-88bc-6e45f3df0a66">UNDERWORLD</ref></item>
-<item><ref target="#uuid-2b67cdd6-4c84-4fdc-97cd-9f62db4309ee">CHURCHYARD</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
-<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title><biblScope unit="page">12.11</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
-<title>Lateinische Synonyme und Etymologien</title><note>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-50ade220-8612-4161-acfb-dbdc53249ed1">BEHIND</ref>
+            </item>
+<item>
+                <ref target="#uuid-62252aba-6452-4ee9-aeb4-3b50862a8170">BELOW</ref>
+            </item>
+<item>
+                <ref target="#uuid-62dbda50-113a-42b2-a2fc-ba3399469619">BETWEEN</ref>
+            </item>
+<item>
+                <ref target="#uuid-5739abe6-b528-4c38-a547-0e174f756ae6">CITY</ref>
+            </item>
+<item>
+                <ref target="#uuid-71bc0b52-b34c-4f22-a83a-b866764984c7">CORNER</ref>
+            </item>
+<item>
+                <ref target="#uuid-eda452d9-7993-480c-99c1-e73d9750d5d1">COURTYARD</ref>
+            </item>
+<item>
+                <ref target="#uuid-96cef6b3-c174-4fc1-b8d0-a9ab7cbb961c">SKY</ref>
+            </item>
+<item>
+                <ref target="#uuid-415fced0-30f9-4b77-b3dc-911f42b3ddb7">IN FRONT</ref>
+            </item>
+<item>
+                <ref target="#uuid-44bc3830-f8a2-4b83-b546-021006639a3c">INSIDE</ref>
+            </item>
+<item>
+                <ref target="#uuid-6317db9e-f402-42e9-b1e0-8d04fca07bf7">CAMP</ref>
+            </item>
+<item>
+                <ref target="#uuid-9a6e93e1-f9c8-457c-9200-b4b583c7704d">NEST</ref>
+            </item>
+<item>
+                <ref target="#uuid-e54a86f3-64c2-446f-8525-d5aa97c7ff21">OPEN AIR</ref>
+            </item>
+<item>
+                <ref target="#uuid-73de36c6-0b6d-4bba-aecc-f8b3b950fb9e">WAY</ref>
+            </item>
+<item>
+                <ref target="#uuid-d1f0564b-6c21-4761-8dbe-c1246dbc7878">SIDE</ref>
+            </item>
+<item>
+                <ref target="#uuid-f86b1c37-9359-4168-b055-97c6cd092ad3">TERRITORY</ref>
+            </item>
+<item>
+                <ref target="#uuid-4a814208-81d1-48ac-b35c-122a725e170a">TIP</ref>
+            </item>
+<item>
+                <ref target="#uuid-67c0f256-db52-4848-9f4b-f1cd389839b3">ABOVE</ref>
+            </item>
+<item>
+                <ref target="#uuid-d00e5efd-6c89-45a1-adad-cbc53b11aa70">VILLAGE</ref>
+            </item>
+<item>
+                <ref target="#uuid-c17cb017-3387-47f7-a92f-f0de0d7a135b">WHERE</ref>
+            </item>
+<item>
+                <ref target="#uuid-c58cabd3-f323-43ec-a15b-c77a6888da2a">WORLD</ref>
+            </item>
+<item>
+                <ref target="#uuid-a7b53f03-8907-49ea-8772-e24ad6fd16a3">ROOM</ref>
+            </item>
+<item>
+                <ref target="#uuid-79636050-c918-45fa-b583-0e766a50060e">MARKET</ref>
+            </item>
+<item>
+                <ref target="#uuid-002e6d74-ef11-42bd-87c7-8e86e8b59641">SOURCE</ref>
+            </item>
+<item>
+                <ref target="#uuid-8ef4a581-2f6b-4193-96e5-206b7bed905f">MIDDLE</ref>
+            </item>
+<item>
+                <ref target="#uuid-bb0f7095-fda8-41e9-8901-d64001c3b111">HOME</ref>
+            </item>
+<item>
+                <ref target="#uuid-383dc31a-fb6a-4c5a-9182-83a8cb967831">UNIVERSE</ref>
+            </item>
+<item>
+                <ref target="#uuid-04482dbe-a266-41c0-b7f0-e0ba31a4763f">HERE</ref>
+            </item>
+<item>
+                <ref target="#uuid-36a8559e-d328-4d73-a9e4-0857690eeaa1">EVERYWHERE</ref>
+            </item>
+<item>
+                <ref target="#uuid-c67976ab-7cf0-44ad-89a8-c9425a9f1eb8">BORDER AREA</ref>
+            </item>
+<item>
+                <ref target="#uuid-8364b0bd-096f-41e2-8c67-21e23a1fbf8a">AWAY</ref>
+            </item>
+<item>
+                <ref target="#uuid-28804f3a-42f6-42b2-b06d-28362f415058">HARBOUR</ref>
+            </item>
+<item>
+                <ref target="#uuid-7f8e0db4-7048-4eec-b99f-ae08ddae5af5">HELL</ref>
+            </item>
+<item>
+                <ref target="#uuid-5c40388e-b06d-4f8c-bb39-2d7fce66093b">CROSSROADS</ref>
+            </item>
+<item>
+                <ref target="#uuid-3976062a-a968-4062-826a-af9934ecf699">REALM</ref>
+            </item>
+<item>
+                <ref target="#uuid-5a2cd1f0-f6a3-4fc7-829d-632dfc3ca043">THERE</ref>
+            </item>
+<item>
+                <ref target="#uuid-c47c55eb-be89-4288-bb9a-d97cf537bdd4">SHADE</ref>
+            </item>
+<item>
+                <ref target="#uuid-f5018723-71ea-49c5-8911-415a8745d1a8">TOP</ref>
+            </item>
+<item>
+                <ref target="#uuid-d0e55d09-e3d9-420c-88bc-6e45f3df0a66">UNDERWORLD</ref>
+            </item>
+<item>
+                <ref target="#uuid-2b67cdd6-4c84-4fdc-97cd-9f62db4309ee">CHURCHYARD</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-60d39cc0-d76b-4275-8490-886ace4204be">BUCK 1988</ref>
+<title>A Dictionary of Selected Synonyms in the Principal Indo-European Languages</title>
+                <biblScope unit="page">12.11</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-ab831347-9626-498d-aa1e-eb43eae72d05">DOEDERLEIN 1840</ref>
+<title>Lateinische Synonyme und Etymologien</title>
+                <note>
 <p>PLACE</p>
 <p>locus refers to a space as a single location, a single point in space.</p>
 <p>tractus refers to a an extended tract of land, conceived particularly as reaching from one place to another.</p>
 <p>regio refers to a plot of land, conceived particularly as forming a circle-like bounded region.</p>
-<p>plaga refers to a space principally as a surface.</p></note></bibl>
-<bibl><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><note>
-<p>LOCUS</p></note></bibl>
-<bibl><ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
-<title>論衡同義詞研究</title><biblScope unit="page">51</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
-<title>Historisches Woerterbuch der Philosophie</title><biblScope unit="page">8.67</biblScope><note>
-<p>RAUM</p></note></bibl>
-<bibl><ref target="#uuid-3cf76dec-e8bc-4732-bde9-e5ca60e7fb1a">SCHMIDT 1889</ref>
-<title>Handbuch der lateinischen und griechischen Synonymik</title><biblScope unit="page">89</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
-<title>古辭辨 Gu ci bian</title><biblScope unit="page">15</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
-<title>Using Chinese Synonyms</title><biblScope unit="page">88</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
-<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title><biblScope unit="page">1.328.289</biblScope><note>
-<p>LIEU.ENDROIT.PLACE</p></note></bibl></listBibl></div>
+<p>plaga refers to a space principally as a surface.</p>
+                </note>
+            </bibl>
+<bibl>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <note>
+<p>LOCUS</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-abc2f8ad-0bc4-4663-a70c-806e480d7081">LUNHENG TONGYI 2004</ref>
+<title>論衡同義詞研究</title>
+                <biblScope unit="page">51</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
+<title>Historisches Woerterbuch der Philosophie</title>
+                <biblScope unit="page">8.67</biblScope>
+                <note>
+<p>RAUM</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-3cf76dec-e8bc-4732-bde9-e5ca60e7fb1a">SCHMIDT 1889</ref>
+<title>Handbuch der lateinischen und griechischen Synonymik</title>
+                <biblScope unit="page">89</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-646c8ed8-a923-41d0-a298-a39924ff494d">WANG FENGYANG 1993</ref>
+<title>古辭辨 Gu ci bian</title>
+                <biblScope unit="page">15</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-b425a52b-7c3a-4b26-a4a5-8c5a55eaf19b">GRACE ZHANG 2010</ref>
+<title>Using Chinese Synonyms</title>
+                <biblScope unit="page">88</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
+<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title>
+                <biblScope unit="page">1.328.289</biblScope>
+                <note>
+<p>LIEU.ENDROIT.PLACE</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-71bf5e32-2a3b-45f5-8221-bd60d4dccc5e"><form corresp="#uuid-90be6953-f049-448f-9fbc-d10e00544baa">
-<orth>位</orth><pron xml:lang="zh-Latn-x-pinyin">wèi</pron><pron xml:lang="zh-x-oc">ɢrubs</pron><pron xml:lang="zh-x-mc">ɦi</pron></form>
+<entry type="word" xml:id="uuid-71bf5e32-2a3b-45f5-8221-bd60d4dccc5e">
+            <form corresp="#uuid-90be6953-f049-448f-9fbc-d10e00544baa">
+<orth>位</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèi</pron>
+                <pron xml:lang="zh-x-oc">ɢrubs</pron>
+                <pron xml:lang="zh-x-mc">ɦi</pron>
+            </form>
+            <def>W4èi 位 sometimes comes to refer to the position in a terrain.</def>
 <sense xml:id="uuid-620033c0-b993-4baf-ba34-941ca0a5c359">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>place, proper place</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>place, proper place</def>
+            </sense>
 <sense xml:id="uuid-5bea9a32-ce93-408e-a2c2-cef8c78b8174">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp>
-  <def>position in the terrain, location</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+  <def>position in the terrain, location</def>
+            </sense>
 <sense xml:id="uuid-776cc64c-0df9-4b0f-8ab6-494045b25d17">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat></gramGrp>
-  <def>CHEMLA 2003: position of numbers represented by counting rods on the calculating surface. JZ 8.3: 各從其位 "each in accordance with its place on the calculating surface". JZ 1.16, comm. Li Chunfeng: 列位無常 "for the allocation of (numbers of) positions on the calculating surface there is no invariant pattern". Thus " position" in this technical sense may on be defined along varying parameters: on the one hand the position may be concrete, on the calculating surface, versus abstract in the system of decimals. On the other hand, whenever a mathematical procedure is defined in relation to any pattern of numbers inscribed on the calculating surface, any position in that pattern may be referred to as a wèi 位. In fact, the technical "decimal" meaning of 位 derives from the more general "placement" meaning of 位. It turns out that 等 is the sub-class of vertical fields or columns. This enables us to distinguish between 位 "abstract place" and 等 "vertical row, column in the abstract", and 行 "concrete column of numbers". Being a kind of 位, the 等 can be referred to as a 位 and often is in later texts.By extension, 位 may be used as a general term (by Li Chunfeng) to refer to the number that occupies the given position rather than to the position itelf, in which case the word is used as a non-contrastive variable.</def></sense>
+  <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat>
+                </gramGrp>
+  <def>CHEMLA 2003: position of numbers represented by counting rods on the calculating surface. JZ 8.3: 各從其位 "each in accordance with its place on the calculating surface". JZ 1.16, comm. Li Chunfeng: 列位無常 "for the allocation of (numbers of) positions on the calculating surface there is no invariant pattern". Thus " position" in this technical sense may on be defined along varying parameters: on the one hand the position may be concrete, on the calculating surface, versus abstract in the system of decimals. On the other hand, whenever a mathematical procedure is defined in relation to any pattern of numbers inscribed on the calculating surface, any position in that pattern may be referred to as a wèi 位. In fact, the technical "decimal" meaning of 位 derives from the more general "placement" meaning of 位. It turns out that 等 is the sub-class of vertical fields or columns. This enables us to distinguish between 位 "abstract place" and 等 "vertical row, column in the abstract", and 行 "concrete column of numbers". Being a kind of 位, the 等 can be referred to as a 位 and often is in later texts.By extension, 位 may be used as a general term (by Li Chunfeng) to refer to the number that occupies the given position rather than to the position itelf, in which case the word is used as a non-contrastive variable.</def>
+            </sense>
 <sense xml:id="uuid-61cdc832-1916-4292-8436-4e09b5f6d9fe">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>be apportioned a proper place</def></sense>
+  <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>be apportioned a proper place</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-046ca752-5775-4e64-8661-58b352594e8f"><form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e">
-<orth>地</orth><pron xml:lang="zh-Latn-x-pinyin">dì</pron><pron xml:lang="zh-x-oc">lils</pron><pron xml:lang="zh-x-mc">di</pron></form>
+<entry type="word" xml:id="uuid-046ca752-5775-4e64-8661-58b352594e8f">
+            <form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e">
+<orth>地</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dì</pron>
+                <pron xml:lang="zh-x-oc">lils</pron>
+                <pron xml:lang="zh-x-mc">di</pron>
+            </form>
+            <def>Dì 地 is primarily a territory, and only by occasional extension the abstract location of something.</def>
 <sense xml:id="uuid-e0e30a51-5663-4417-b736-635893976a3f">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>location (also abstract location)</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>location (also abstract location)</def>
+            </sense>
 <sense xml:id="uuid-a50ab709-dd14-47cd-b670-655cb75d0512">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e7204ae-4771-435b-82ff-310068296b6d">buddhist</tls:sem-feat></gramGrp>
-  <def>BUDDH: stage of intellectual/cognitive accomplishment Sanskrit: bhūmi</def></sense>
+  <tls:sem-feat corresp="#uuid-2e7204ae-4771-435b-82ff-310068296b6d">buddhist</tls:sem-feat>
+                </gramGrp>
+  <def>BUDDH: stage of intellectual/cognitive accomplishment Sanskrit: bhūmi</def>
+            </sense>
 <sense xml:id="uuid-a36d9cab-d8fb-4936-8294-4b490cb9cdea">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-887fdec5-f18d-4faf-8602-f5c5c2f99a1d">metaphysical</tls:sem-feat></gramGrp>
-  <def>the decisive point (that determines an outcome)</def></sense>
+  <tls:sem-feat corresp="#uuid-887fdec5-f18d-4faf-8602-f5c5c2f99a1d">metaphysical</tls:sem-feat>
+                </gramGrp>
+  <def>the decisive point (that determines an outcome)</def>
+            </sense>
 <sense xml:id="uuid-f0c38397-d60d-4866-afdc-b38021392ef4">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-0b51eb41-3f59-415c-9ec7-9bb81b9532a3">empty</tls:sem-feat></gramGrp>
-  <def>free space</def></sense>
+  <tls:sem-feat corresp="#uuid-0b51eb41-3f59-415c-9ec7-9bb81b9532a3">empty</tls:sem-feat>
+                </gramGrp>
+  <def>free space</def>
+            </sense>
 <sense xml:id="uuid-ce233a27-78f2-42a2-b47d-bf3105c63d2c">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>mention the place; record the location of an event</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>mention the place; record the location of an event</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-8ed9614f-f739-493a-b267-88db7eb9aeaf"><form corresp="#uuid-5cbdf666-5eb0-411a-b7a8-ae273211ada2">
-<orth>場</orth><pron xml:lang="zh-Latn-x-pinyin">cháng</pron><pron xml:lang="zh-x-oc">ɡrlaŋ</pron><pron xml:lang="zh-x-mc">ɖi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-8ed9614f-f739-493a-b267-88db7eb9aeaf">
+            <form corresp="#uuid-5cbdf666-5eb0-411a-b7a8-ae273211ada2">
+<orth>場</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cháng</pron>
+                <pron xml:lang="zh-x-oc">ɡrlaŋ</pron>
+                <pron xml:lang="zh-x-mc">ɖi̯ɐŋ</pron>
+            </form>
+            <def>Chǎng 場 refers specifically to the location for certain activities like threshing etc.</def>
 <sense xml:id="uuid-3e5057e6-0dfa-424f-a79b-b4fdd48b1b7d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>open area for sacrifices;   open area for threshing; area where battles are fought, battleground</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>open area for sacrifices;   open area for threshing; area where battles are fought, battleground</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-6e5bf356-3a62-40b6-9041-d10e77628c04"><form corresp="#uuid-cd8a8d09-c46f-4c27-b187-2a37bbefdf9e">
-<orth>容</orth><pron xml:lang="zh-Latn-x-pinyin">róng</pron><pron xml:lang="zh-x-oc">k-loŋ</pron><pron xml:lang="zh-x-mc">ji̯oŋ</pron></form>
+<entry type="word" xml:id="uuid-6e5bf356-3a62-40b6-9041-d10e77628c04">
+            <form corresp="#uuid-cd8a8d09-c46f-4c27-b187-2a37bbefdf9e">
+<orth>容</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róng</pron>
+                <pron xml:lang="zh-x-oc">k-loŋ</pron>
+                <pron xml:lang="zh-x-mc">ji̯oŋ</pron>
+            </form>
 <sense xml:id="uuid-9dbb1a43-86e4-43b7-9392-0942d20edef9">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat></gramGrp>
-  <def>CHEMLA 2003:</def></sense>
+  <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat>
+                </gramGrp>
+  <def>CHEMLA 2003:</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-97877721-4a39-4f44-a216-bf98731a6f32"><form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
-<orth>所</orth><pron xml:lang="zh-Latn-x-pinyin">suǒ</pron><pron xml:lang="zh-x-oc">sqraʔ</pron><pron xml:lang="zh-x-mc">ʂi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-97877721-4a39-4f44-a216-bf98731a6f32">
+            <form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
+<orth>所</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suǒ</pron>
+                <pron xml:lang="zh-x-oc">sqraʔ</pron>
+                <pron xml:lang="zh-x-mc">ʂi̯ɤ</pron>
+            </form>
+            <def>Suǒ 所 "proper place", when used pregnantly on its own refers to the place where a thing basically belongs, where someone lives, and where something should be. This word was the most common word for a place in early literature. Quite frequently, the word refers not just to a place, but particularly to a building in a place.</def>
 <sense xml:id="uuid-ee00626f-1289-4015-a5af-dbf0ddfb39a0">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>proper location, proper place for one; position one occupies; place LY 居其所 always: occupy one's proper place;  得其所 current</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>proper location, proper place for one; position one occupies; place LY 居其所 always: occupy one's proper place;  得其所 current</def>
+            </sense>
 <sense xml:id="uuid-0822fc9e-a4b0-4fdf-bd34-dc97bbdda3f7">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-b3894bd9-e5a7-4748-99fc-ced925d60f65">nab.post-S</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>the place S where obtains [S may be nominalised]</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-b3894bd9-e5a7-4748-99fc-ced925d60f65">nab.post-S</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>the place S where obtains [S may be nominalised]</def>
+            </sense>
 <sense xml:id="uuid-3a865a6e-85bc-41c2-92b1-2fa89e47c88e">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>abstract place; occasion; office</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>abstract place; occasion; office</def>
+            </sense>
 <sense xml:id="uuid-18d91ddc-0e80-44d9-a826-31a552a4dff8">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp>
-  <def>the place as specified by N</def></sense>
-<sense xml:id="uuid-8ff9bdab-1359-47cf-9719-4eae8ff972da">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-b7202919-801b-4e6a-8a0e-4bbf3755324c">suffix</tls:sem-feat></gramGrp>
-  <def>the place where N is (and belongs) (cf. modern Chinese 他那邊兒)</def></sense>
+                </gramGrp>
+  <def>the place as specified by N</def>
+            </sense>
+<sense xml:id="uuid-8ff9bdab-1359-47cf-9719-4eae8ff972da">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-b7202919-801b-4e6a-8a0e-4bbf3755324c">suffix</tls:sem-feat>
+                </gramGrp>
+  <def>the place where N is (and belongs) (cf. modern Chinese 他那邊兒)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-1f4260ea-9f20-4b39-a544-a3b33c101743"><form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
-<orth>方</orth><pron xml:lang="zh-Latn-x-pinyin">fāng</pron><pron xml:lang="zh-x-oc">paŋ</pron><pron xml:lang="zh-x-mc">pi̯ɐŋ</pron></form>
+<entry type="word" xml:id="uuid-1f4260ea-9f20-4b39-a544-a3b33c101743">
+            <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
+<orth>方</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fāng</pron>
+                <pron xml:lang="zh-x-oc">paŋ</pron>
+                <pron xml:lang="zh-x-mc">pi̯ɐŋ</pron>
+            </form>
 <sense xml:id="uuid-ffdb16c1-0e0a-4bcc-997e-b8e52c53c7cc">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>area</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>area</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-02d4ea86-fafb-45c4-bdea-7d3ace39f854"><form corresp="#uuid-fc3fa18f-7196-4f60-943a-98e0c5473cf2">
-<orth>次</orth><pron xml:lang="zh-Latn-x-pinyin">cì</pron><pron xml:lang="zh-x-oc">snʰis</pron><pron xml:lang="zh-x-mc">tshi</pron></form>
+<entry type="word" xml:id="uuid-02d4ea86-fafb-45c4-bdea-7d3ace39f854">
+            <form corresp="#uuid-fc3fa18f-7196-4f60-943a-98e0c5473cf2">
+<orth>次</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cì</pron>
+                <pron xml:lang="zh-x-oc">snʰis</pron>
+                <pron xml:lang="zh-x-mc">tshi</pron>
+            </form>
 <sense xml:id="uuid-544cd744-f70b-460d-aa7c-3ffb92b6eeff">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>place where something takes place or is conducted</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>place where something takes place or is conducted</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-b27421ff-9259-4ba0-9c59-c6fafcb446cf"><form corresp="#uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea">
-<orth>處</orth><pron xml:lang="zh-Latn-x-pinyin">chù</pron><pron xml:lang="zh-x-oc">qhljas</pron><pron xml:lang="zh-x-mc">tɕhi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-b27421ff-9259-4ba0-9c59-c6fafcb446cf">
+            <form corresp="#uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea">
+<orth>處</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chù</pron>
+                <pron xml:lang="zh-x-oc">qhljas</pron>
+                <pron xml:lang="zh-x-mc">tɕhi̯ɤ</pron>
+            </form>
+            <def>The most general word referring to the location of something is chù 處 which may refer to the location in which a thing happens to be at some point in time, or to the place where something belongs, and the word refers to both abstract and concrete spatial location.</def>
 <sense xml:id="uuid-71a756f4-cf91-4f77-8c0e-eeb2ae7bee9f">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-bb4ea5fd-6f2f-4356-ab1e-3cf8f7a7a031">n.red:adV</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-a5988c51-f00c-4e90-8bd9-08cab3bb69de">all</tls:sem-feat></gramGrp>
-  <def>REDUP: at all places, everywhere</def></sense>
+  <tls:sem-feat corresp="#uuid-a5988c51-f00c-4e90-8bd9-08cab3bb69de">all</tls:sem-feat>
+                </gramGrp>
+  <def>REDUP: at all places, everywhere</def>
+            </sense>
 <sense xml:id="uuid-9d0860af-385a-4a7a-8781-8141d14a506d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>place   其處often: same place; one's proper place; dé qí chù 得其處 "find one's proper place" absent, but 之其處.</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>place   其處often: same place; one's proper place; dé qí chù 得其處 "find one's proper place" absent, but 之其處.</def>
+            </sense>
 <sense xml:id="uuid-d55eca0f-9e19-4f73-9b24-e31f02cfc086">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-b3894bd9-e5a7-4748-99fc-ced925d60f65">nab.post-S</tls:syn-func></gramGrp>
-  <def>the place where S obtains or happens</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-b3894bd9-e5a7-4748-99fc-ced925d60f65">nab.post-S</tls:syn-func>
+                </gramGrp>
+  <def>the place where S obtains or happens</def>
+            </sense>
 <sense xml:id="uuid-b38040ed-d30c-43b6-baa5-d13b53586853">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>abstract place, 'mental' placeBUDDH: point; feature, item(sometimes semantically very weak, functioning similar to a nominalizer: 'the fact that...; respect'; sphere (Skt. gocara, s. in 心行處 functional realm of the mind)</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>abstract place, 'mental' placeBUDDH: point; feature, item(sometimes semantically very weak, functioning similar to a nominalizer: 'the fact that...; respect'; sphere (Skt. gocara, s. in 心行處 functional realm of the mind)</def>
+            </sense>
 <sense xml:id="uuid-64ba8018-8188-45a6-b0ca-2893be86c670">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp>
-  <def>the place where N was/is</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+  <def>the place where N was/is</def>
+            </sense>
 <sense xml:id="uuid-482232da-40dd-4585-b69f-5ef9c90ad625">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-85268e01-2352-4931-b95f-0a4428e08dc7">npost-S</tls:syn-func></gramGrp>
-  <def>the place where S happens</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-85268e01-2352-4931-b95f-0a4428e08dc7">npost-S</tls:syn-func>
+                </gramGrp>
+  <def>the place where S happens</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-7ba2b9cc-daff-493d-9a97-f1329eb7ff7f"><form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
-<orth>許</orth><pron xml:lang="zh-Latn-x-pinyin">xǔ</pron><pron xml:lang="zh-x-oc">hŋaʔ</pron><pron xml:lang="zh-x-mc">hi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-7ba2b9cc-daff-493d-9a97-f1329eb7ff7f">
+            <form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
+<orth>許</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xǔ</pron>
+                <pron xml:lang="zh-x-oc">hŋaʔ</pron>
+                <pron xml:lang="zh-x-mc">hi̯ɤ</pron>
+            </form>
 <sense xml:id="uuid-8346fc43-516a-4e1f-a539-b0160353075d">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-1aeca8d0-8abc-4216-8911-c52bfcdc6cac">npostN</tls:syn-func></gramGrp>
-  <def>the place of N</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-1aeca8d0-8abc-4216-8911-c52bfcdc6cac">npostN</tls:syn-func>
+                </gramGrp>
+  <def>the place of N</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-77f6fda6-fc87-4594-b4a4-f2a201de6881"><form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
-<orth>間</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-oc">kreen</pron><pron xml:lang="zh-x-mc">kɣɛn</pron></form>
+<entry type="word" xml:id="uuid-77f6fda6-fc87-4594-b4a4-f2a201de6881">
+            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
+<orth>間</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-oc">kreen</pron>
+                <pron xml:lang="zh-x-mc">kɣɛn</pron>
+            </form>
 <sense xml:id="uuid-2151ef32-19cb-430f-9778-ac45f52afd3a">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>the place inbetween &gt; place</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+  <def>the place inbetween &gt; place</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e1bab0c7-2158-4eed-a19e-228d7f54dd6c"><form corresp="#uuid-f71d44f1-688e-4978-9000-0fc589c996aa">
-<orth>面</orth><pron xml:lang="zh-Latn-x-pinyin">miàn</pron><pron xml:lang="zh-x-oc">mens</pron><pron xml:lang="zh-x-mc">miɛn</pron></form>
+<entry type="word" xml:id="uuid-e1bab0c7-2158-4eed-a19e-228d7f54dd6c">
+            <form corresp="#uuid-f71d44f1-688e-4978-9000-0fc589c996aa">
+<orth>面</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">miàn</pron>
+                <pron xml:lang="zh-x-oc">mens</pron>
+                <pron xml:lang="zh-x-mc">miɛn</pron>
+            </form>
 <sense xml:id="uuid-b5a5c929-6475-4926-be4c-52e388f4f9b4">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>relative location SJ 四面皆楚歌</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>relative location SJ 四面皆楚歌</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-de0637d5-d112-4b68-8e78-69ef10b64456"><form corresp="#uuid-827fc8a5-b76b-4a8f-b089-157ba660ab3f #uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea">
-<orth>去處</orth><pron xml:lang="zh-Latn-x-pinyin">qù chù</pron><pron xml:lang="zh-x-oc">khas qhljas</pron><pron xml:lang="zh-x-mc">khi̯ɤ tɕhi̯ɤ</pron><listBibl>
-<bibl><ref target="#uuid-e597a395-df4f-49cd-b4bb-d10b8f24d308">JIANG/CAO 1997</ref>
-<title>唐五代語言詞典 Táng Wǔdài yǔyán cídiǎn A Dictionary of the Language of the Tang and Five Dynasties Periods</title><biblScope unit="page">312</biblScope><note>
-<p/></note></bibl></listBibl></form>
+<entry type="word" xml:id="uuid-de0637d5-d112-4b68-8e78-69ef10b64456">
+            <form corresp="#uuid-827fc8a5-b76b-4a8f-b089-157ba660ab3f #uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea">
+<orth>去處</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qù chù</pron>
+                <pron xml:lang="zh-x-oc">khas qhljas</pron>
+                <pron xml:lang="zh-x-mc">khi̯ɤ tɕhi̯ɤ</pron>
+                <listBibl>
+<bibl>
+                        <ref target="#uuid-e597a395-df4f-49cd-b4bb-d10b8f24d308">JIANG/CAO 1997</ref>
+<title>唐五代語言詞典 Táng Wǔdài yǔyán cídiǎn A Dictionary of the Language of the Tang and Five Dynasties Periods</title>
+                        <biblScope unit="page">312</biblScope>
+                        <note>
+<p/>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </form>
 <sense xml:id="uuid-f192f751-4a24-4913-a8fb-fda831132206">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>Tang: place, location, site</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-f6ba781f-9942-4b30-9129-b38add1e98fe"><form corresp="#uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
-<orth>處所</orth><pron xml:lang="zh-Latn-x-pinyin">chù suǒ</pron><pron xml:lang="zh-x-oc">qhljas sqraʔ</pron><pron xml:lang="zh-x-mc">tɕhi̯ɤ ʂi̯ɤ</pron></form>
-<sense xml:id="uuid-55c855a4-2fe0-4792-b55b-08fdc4174ecc">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>place; also: the right place</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-9ffa5631-754e-4c3f-95d7-02835ebbd9c4"><form corresp="#uuid-f35bd989-7850-4240-9751-87ca014d77b1 #uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea">
-<orth>閑處</orth><pron xml:lang="zh-Latn-x-pinyin">xián chù</pron><pron xml:lang="zh-x-oc">ɢreen qhljas</pron><pron xml:lang="zh-x-mc">ɦɣɛn tɕhi̯ɤ</pron></form>
-<sense xml:id="uuid-2b8167d4-b5cb-46df-882b-5a3407fd9fca">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e7204ae-4771-435b-82ff-310068296b6d">buddhist</tls:sem-feat></gramGrp>
-  <def>BUDDH, unbusy place &gt; a quiet place (suitable place for meditation), Skt. araNya</def></sense>
+                </gramGrp>
+  <def>Tang: place, location, site</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-e224a38f-d4e9-4df7-9e72-e2ef1aed9cdb"><form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
-<orth>地方所</orth><pron xml:lang="zh-Latn-x-pinyin">dì fāng suǒ</pron><pron xml:lang="zh-x-oc">lils paŋ sqraʔ</pron><pron xml:lang="zh-x-mc">di pi̯ɐŋ ʂi̯ɤ</pron></form>
+<entry type="word" xml:id="uuid-f6ba781f-9942-4b30-9129-b38add1e98fe">
+            <form corresp="#uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
+<orth>處所</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chù suǒ</pron>
+                <pron xml:lang="zh-x-oc">qhljas sqraʔ</pron>
+                <pron xml:lang="zh-x-mc">tɕhi̯ɤ ʂi̯ɤ</pron>
+            </form>
+<sense xml:id="uuid-55c855a4-2fe0-4792-b55b-08fdc4174ecc">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>place; also: the right place</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-9ffa5631-754e-4c3f-95d7-02835ebbd9c4">
+            <form corresp="#uuid-f35bd989-7850-4240-9751-87ca014d77b1 #uuid-9cb81b35-d027-4dc8-958e-b0928d7454ea">
+<orth>閑處</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xián chù</pron>
+                <pron xml:lang="zh-x-oc">ɢreen qhljas</pron>
+                <pron xml:lang="zh-x-mc">ɦɣɛn tɕhi̯ɤ</pron>
+            </form>
+<sense xml:id="uuid-2b8167d4-b5cb-46df-882b-5a3407fd9fca">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-2e7204ae-4771-435b-82ff-310068296b6d">buddhist</tls:sem-feat>
+                </gramGrp>
+  <def>BUDDH, unbusy place &gt; a quiet place (suitable place for meditation), Skt. araNya</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-e224a38f-d4e9-4df7-9e72-e2ef1aed9cdb">
+            <form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
+<orth>地方所</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dì fāng suǒ</pron>
+                <pron xml:lang="zh-x-oc">lils paŋ sqraʔ</pron>
+                <pron xml:lang="zh-x-mc">di pi̯ɐŋ ʂi̯ɤ</pron>
+            </form>
 <sense xml:id="uuid-b2cea719-94d7-472a-97bc-3338d2fc9b4e">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp>
-  <def>place; location</def></sense>
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+  <def>place; location</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-da7252d8-f2a0-44ff-b8d6-c8a7234aab0f"><form corresp="#uuid-68383a76-4bb0-42bd-abf4-1567b3ccf244">
-<orth>在</orth><pron xml:lang="zh-Latn-x-pinyin">zài</pron><pron xml:lang="zh-x-oc">sɡɯɯʔ</pron><pron xml:lang="zh-x-mc">dzəi</pron></form>
+<entry type="word" xml:id="uuid-da7252d8-f2a0-44ff-b8d6-c8a7234aab0f">
+            <form corresp="#uuid-68383a76-4bb0-42bd-abf4-1567b3ccf244">
+<orth>在</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zài</pron>
+                <pron xml:lang="zh-x-oc">sɡɯɯʔ</pron>
+                <pron xml:lang="zh-x-mc">dzəi</pron>
+            </form>
 <sense xml:id="uuid-454af000-caf3-48b3-a5da-b717f047cf72">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat></gramGrp>
-  <def>Liao Dynasty: place</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-8f360c6f-89f6-4bc5-a698-5433c407d3b2">place</tls:sem-feat>
+                </gramGrp>
+  <def>Liao Dynasty: place</def>
+            </sense>
+</entry>
+    </div>
+</div>

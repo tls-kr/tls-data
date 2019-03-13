@@ -1,14 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-b45e662d-6dad-402b-9a85-10cc63424951">
-<head>WEIGH</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b45e662d-6dad-402b-9a85-10cc63424951">
+<head>WEIGH</head>
+    <list type="altnames">
 <item>MEASURE THE WEIGHT OF</item>
 <item>PUT ON THE SCALES</item>
-<item>HEFT</item></list><list type="translations"><item xml:lang="zh">秤量</item></list>
+<item>HEFT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">秤量</item>
+    </list>
 <div type="definition">
-<p>MEASURE OR ASSESS WEIGHT.</p></div>
+<p>MEASURE OR ASSESS WEIGHT.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
-<p>huang</p></div>
+<p>huang</p>
+        </div>
 <div type="huang-jingui">
 <p>HUANG JINGUI 2006</p>
 <p>TRADE 19.</p>
@@ -18,7 +26,8 @@
 <p>測，測量深度。</p>
 <p>揣，測量高度。</p>
 <p>權，測量重量，書面語。</p>
-<p>稱，測量重量，口語詞。</p></div>
+<p>稱，測量重量，口語詞。</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>權衡</p>
 <p>衡量</p>
@@ -29,61 +38,122 @@
 <p>稱出</p>
 <p>量稱</p>
 <p>稱重</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
 <div type="pointers"/>
 <div type="words">
-<entry type="word" xml:id="uuid-43a3c64c-7c9c-4cff-979a-d37bfa61c854"><form corresp="#uuid-45ad686c-5637-4415-9838-f6fccab6e682">
-<orth>權</orth><pron xml:lang="zh-Latn-x-pinyin">quán</pron><pron xml:lang="zh-x-oc">ɡron</pron><pron xml:lang="zh-x-mc">giɛn</pron></form>
+<entry type="word" xml:id="uuid-43a3c64c-7c9c-4cff-979a-d37bfa61c854">
+            <form corresp="#uuid-45ad686c-5637-4415-9838-f6fccab6e682">
+<orth>權</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">quán</pron>
+                <pron xml:lang="zh-x-oc">ɡron</pron>
+                <pron xml:lang="zh-x-mc">giɛn</pron>
+            </form>
 <sense xml:id="uuid-a627b9bb-4518-42ff-8534-8a6f93260f76">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>to be engaged in a general action of weighing</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>to be engaged in a general action of weighing</def>
+            </sense>
 <sense xml:id="uuid-f759f44f-585c-4ba9-bcb3-fdf5fca2cb9f">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>weigh pros and cons??</def></sense>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>weigh pros and cons??</def>
+            </sense>
 <sense xml:id="uuid-d30d1df9-cc6c-4892-aea3-6c2c45518ccf">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>determine weight of with lever scales; determine situation as with lever scales, gauge properly</def></sense>
-<sense xml:id="uuid-f9f97361-b397-427e-86b0-f0db56ac913e">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>weigh (abstractly, objects like profit or harm etc), evaluate</def></sense>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>determine weight of with lever scales; determine situation as with lever scales, gauge properly</def>
+            </sense>
+<sense xml:id="uuid-f9f97361-b397-427e-86b0-f0db56ac913e">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>weigh (abstractly, objects like profit or harm etc), evaluate</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-7cc57116-70d0-4396-be60-4b48506f7165"><form corresp="#uuid-7035fdf6-be4b-4cea-bcdc-5b8238495265">
-<orth>準</orth><pron xml:lang="zh-Latn-x-pinyin">zhǔn</pron><pron xml:lang="zh-x-oc">kljunʔ</pron><pron xml:lang="zh-x-mc">tɕʷin</pron></form>
+<entry type="word" xml:id="uuid-7cc57116-70d0-4396-be60-4b48506f7165">
+            <form corresp="#uuid-7035fdf6-be4b-4cea-bcdc-5b8238495265">
+<orth>準</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǔn</pron>
+                <pron xml:lang="zh-x-oc">kljunʔ</pron>
+                <pron xml:lang="zh-x-mc">tɕʷin</pron>
+            </form>
 <sense xml:id="uuid-06a1e9b4-6823-4fd3-a6ad-ca605ddc3959">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>calibrate, assign proper weight</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>calibrate, assign proper weight</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-66dbc644-ac33-435d-9bad-91d471e68877"><form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f">
-<orth>稱</orth><pron xml:lang="zh-Latn-x-pinyin">chēng</pron><pron xml:lang="zh-x-oc">thjɯŋ</pron><pron xml:lang="zh-x-mc">tɕhɨŋ</pron></form>
+<entry type="word" xml:id="uuid-66dbc644-ac33-435d-9bad-91d471e68877">
+            <form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f">
+<orth>稱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chēng</pron>
+                <pron xml:lang="zh-x-oc">thjɯŋ</pron>
+                <pron xml:lang="zh-x-mc">tɕhɨŋ</pron>
+            </form>
 <sense xml:id="uuid-3ee15828-6550-432d-b8c7-53d2827b2b80">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp>
-  <def>weigh the contextually determinate thing N</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+  <def>weigh the contextually determinate thing N</def>
+            </sense>
 <sense xml:id="uuid-3a490d58-1ce0-45b3-ac30-8074831b8a65">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>weigh</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>weigh</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-23f148e8-ce91-41fc-9939-3707a2cb955b"><form corresp="#uuid-5d7c370a-e7a1-435a-ae0e-002903078e42">
-<orth>衡</orth><pron xml:lang="zh-Latn-x-pinyin">héng</pron><pron xml:lang="zh-x-oc">ɢraaŋ</pron><pron xml:lang="zh-x-mc">ɦɣaŋ</pron></form>
+<entry type="word" xml:id="uuid-23f148e8-ce91-41fc-9939-3707a2cb955b">
+            <form corresp="#uuid-5d7c370a-e7a1-435a-ae0e-002903078e42">
+<orth>衡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">héng</pron>
+                <pron xml:lang="zh-x-oc">ɢraaŋ</pron>
+                <pron xml:lang="zh-x-mc">ɦɣaŋ</pron>
+            </form>
 <sense xml:id="uuid-fba97063-1b8c-48b7-a448-40e6fb6a292e">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>to weigh</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>to weigh</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-38b34b82-2162-45cf-a058-424bd83eb308"><form corresp="#uuid-45ad686c-5637-4415-9838-f6fccab6e682 #uuid-5d7c370a-e7a1-435a-ae0e-002903078e42">
-<orth>權衡</orth><pron xml:lang="zh-Latn-x-pinyin">quán héng</pron><pron xml:lang="zh-x-oc">ɡron ɢraaŋ</pron><pron xml:lang="zh-x-mc">giɛn ɦɣaŋ</pron></form>
+<entry type="word" xml:id="uuid-38b34b82-2162-45cf-a058-424bd83eb308">
+            <form corresp="#uuid-45ad686c-5637-4415-9838-f6fccab6e682 #uuid-5d7c370a-e7a1-435a-ae0e-002903078e42">
+<orth>權衡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">quán héng</pron>
+                <pron xml:lang="zh-x-oc">ɡron ɢraaŋ</pron>
+                <pron xml:lang="zh-x-mc">giɛn ɦɣaŋ</pron>
+            </form>
 <sense xml:id="uuid-f4219bcd-445a-4c47-a389-07c9dc9593d1">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
-  <def>weighing things and actions judiciously according to public objective standards</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+  <def>weighing things and actions judiciously according to public objective standards</def>
+            </sense>
+</entry>
+    </div>
+</div>

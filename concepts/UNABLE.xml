@@ -1,23 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-deb3cd81-03bc-4c7c-9125-a2a8837202c9">
-<head>UNABLE</head><list type="translations"><item xml:lang="zh">不能</item></list>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-deb3cd81-03bc-4c7c-9125-a2a8837202c9">
+<head>UNABLE</head>
+    <list type="translations">
+        <item xml:lang="zh">不能</item>
+    </list>
 <div type="definition">
-<p>LACK ABILITY to ACT:do something.</p></div>
+<p>LACK ABILITY to ACT:do something.</p>
+    </div>
 <div type="notes"/>
-<div type="pointers"><list type="antonymy">
-<item><ref target="#uuid-3eb2c600-e234-4c6b-bb79-40e8eff9ee14">ABLE</ref></item></list></div>
+<div type="pointers">
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-3eb2c600-e234-4c6b-bb79-40e8eff9ee14">ABLE</ref>
+            </item>
+        </list>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-d21045fd-c161-4ae2-b191-20905ed5cfef"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
-<orth>不得</orth><pron xml:lang="zh-Latn-x-pinyin">bù dé</pron><pron xml:lang="zh-x-oc">pɯʔ tɯɯɡ</pron><pron xml:lang="zh-x-mc">pi̯ut tək</pron></form>
+<entry type="word" xml:id="uuid-d21045fd-c161-4ae2-b191-20905ed5cfef">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+<orth>不得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù dé</pron>
+                <pron xml:lang="zh-x-oc">pɯʔ tɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">pi̯ut tək</pron>
+            </form>
 <sense xml:id="uuid-c622f443-ae73-4cee-b791-0c3b35f0d619">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-0b46d59e-9906-4ab8-887b-12a0ee8244ae">VPpostadV</tls:syn-func></gramGrp>
-  <def>be unable to V successfully</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-0b46d59e-9906-4ab8-887b-12a0ee8244ae">VPpostadV</tls:syn-func>
+                </gramGrp>
+  <def>be unable to V successfully</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-58c69b4a-48f2-4e5c-8832-8a620941c42d"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
-<orth>不可以</orth><pron xml:lang="zh-Latn-x-pinyin">bù kě yǐ</pron><pron xml:lang="zh-x-oc">pɯʔ khlaalʔ k-lɯʔ</pron><pron xml:lang="zh-x-mc">pi̯ut khɑ jɨ</pron></form>
+<entry type="word" xml:id="uuid-58c69b4a-48f2-4e5c-8832-8a620941c42d">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+<orth>不可以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù kě yǐ</pron>
+                <pron xml:lang="zh-x-oc">pɯʔ khlaalʔ k-lɯʔ</pron>
+                <pron xml:lang="zh-x-mc">pi̯ut khɑ jɨ</pron>
+            </form>
 <sense xml:id="uuid-8bada3e5-2ae7-4bf2-ae12-945b2c9b6379">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>cannot possibly</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>cannot possibly</def>
+            </sense>
+</entry>
+    </div>
+</div>

@@ -1,17 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-be050ecf-05c0-433c-89d1-b00ebfe58e34">
-<head>BURDEN</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-be050ecf-05c0-433c-89d1-b00ebfe58e34">
+<head>BURDEN</head>
+    <list type="altnames">
 <item>LOAD</item>
 <item>WEIGHT</item>
 <item>CARGO</item>
-<item>FREIGHT</item></list><list type="translations"><item xml:lang="zh">負擔</item></list>
+<item>FREIGHT</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">負擔</item>
+    </list>
 <div type="definition">
-<p>What is HEAVY AND SHOULD:must be ENDURINGLY CARRIED.</p></div>
+<p>What is HEAVY AND SHOULD:must be ENDURINGLY CARRIED.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The standard word for a burden is rèn 任. The word is often used figuratively to refer to burdens of duty. See DUTY.</p>
 <p>2. Hè 荷 is a rarer word for whatever is borne on one's shoulders, and this word is also occasionally used in figurative senses.</p>
-<p>3. Zhòng 重 can come to refer to something heavy one carries.</p></div>
+<p>3. Zhòng 重 can come to refer to something heavy one carries.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>負擔</p>
 <p>擔子</p>
@@ -19,74 +27,148 @@
 <p>重負</p>
 <p>重荷</p>
 <p>重擔</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
 <div type="pointers"/>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
-<title>Anthologia sive Florilegium rerum et materiarum selectarum</title><note>
-<p>ONUS</p></note></bibl>
-<bibl><ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
-<title>Chinese Synonyms Usage Dictionary</title><biblScope unit="page">18</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
-<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title><biblScope unit="page">1.147.109</biblScope><note>
-<p>CHARGE.FARDEAU.FAIX</p></note></bibl></listBibl></div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-0e53b7a8-3acd-4859-ac83-596e75d42e7d">LANGIUS 1631</ref>
+<title>Anthologia sive Florilegium rerum et materiarum selectarum</title>
+                <note>
+<p>ONUS</p>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-93502795-e958-4bb9-ae45-2b1258a7d635">TENG SHOU-HSIN 1996</ref>
+<title>Chinese Synonyms Usage Dictionary</title>
+                <biblScope unit="page">18</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
+<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title>
+                <biblScope unit="page">1.147.109</biblScope>
+                <note>
+<p>CHARGE.FARDEAU.FAIX</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-11ebdd32-2371-4866-b385-cda1769ce486"><form corresp="#uuid-06609cb8-c3e0-46fd-b12b-6e55d00cb797">
-<orth>任</orth><pron xml:lang="zh-Latn-x-pinyin">rén</pron><pron xml:lang="zh-x-oc">njɯm</pron><pron xml:lang="zh-x-mc">ȵim</pron></form>
+<entry type="word" xml:id="uuid-11ebdd32-2371-4866-b385-cda1769ce486">
+            <form corresp="#uuid-06609cb8-c3e0-46fd-b12b-6e55d00cb797">
+<orth>任</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rén</pron>
+                <pron xml:lang="zh-x-oc">njɯm</pron>
+                <pron xml:lang="zh-x-mc">ȵim</pron>
+            </form>
 <sense xml:id="uuid-85675631-b7ef-4e78-9ba0-830e93ed81ed">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp>
-  <def>burden</def></sense>
-<sense xml:id="uuid-38842ee4-6046-4c59-a6c1-475eb81558d1">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>(metaphorical) burden</def></sense>
-<sense xml:id="uuid-575e8754-7123-4f77-b956-fcc82e826743">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp>
-  <def>designed for heavy burdens</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-a52f4069-111f-4847-b3f3-08ee7126e715"><form corresp="#uuid-c7a734bf-a4f4-4a9f-86fe-286898376f9c">
-<orth>厚</orth><pron xml:lang="zh-Latn-x-pinyin">hòu</pron><pron xml:lang="zh-x-oc">ɡoos</pron><pron xml:lang="zh-x-mc">ɦu</pron></form>
-<sense xml:id="uuid-fcded6a7-6b40-4907-8ce9-09952f1ff414">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp>
-  <def>regard the contextually determinate N as a heavy burden</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-04ba1736-252e-48d8-a490-4aca1b75c840"><form corresp="#uuid-28d528f8-7db0-459a-bbc0-afaebbf9b1d9">
-<orth>荷</orth><pron xml:lang="zh-Latn-x-pinyin">hè</pron><pron xml:lang="zh-x-oc">ɡlaalʔ</pron><pron xml:lang="zh-x-mc">ɦɑ</pron></form>
-<sense xml:id="uuid-de5f0bb9-4ae2-44d0-8414-4593cd0bec63">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><usg type="warring-states-currency">2</usg></gramGrp>
-  <def>burden, load (on one's back or shoulder)</def></sense>
-<sense xml:id="uuid-2460f392-5753-43d0-ae26-98e47a0dd33c">
-<gramGrp><pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>(metaphorical) burden</def></sense>
-</entry>
-<entry type="word" xml:id="uuid-cc579753-e243-4198-9a70-a5f18efce188"><form corresp="#uuid-514bf49e-c71b-4ad0-897a-d51daa58079b">
-<orth>重</orth><pron xml:lang="zh-Latn-x-pinyin">zhòng</pron><pron xml:lang="zh-x-oc">doŋʔ</pron><pron xml:lang="zh-x-mc">ɖi̯oŋ</pron></form>
-<sense xml:id="uuid-4e081858-ac26-46e4-ac34-057101655454">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-50da9f38-5611-463e-a0b9-5bbb7bf5e56f">subject</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>what is heavy, a heavy load, a heavy burden</def></sense>
-<sense xml:id="uuid-544ee864-eada-41a3-a697-38776da1529c">
-<gramGrp><pos>N</pos>
+                </gramGrp>
+  <def>burden</def>
+            </sense>
+<sense xml:id="uuid-38842ee4-6046-4c59-a6c1-475eb81558d1">
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>a metaphorically heavy burden</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>(metaphorical) burden</def>
+            </sense>
+<sense xml:id="uuid-575e8754-7123-4f77-b956-fcc82e826743">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+  <def>designed for heavy burdens</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-a52f4069-111f-4847-b3f3-08ee7126e715">
+            <form corresp="#uuid-c7a734bf-a4f4-4a9f-86fe-286898376f9c">
+<orth>厚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hòu</pron>
+                <pron xml:lang="zh-x-oc">ɡoos</pron>
+                <pron xml:lang="zh-x-mc">ɦu</pron>
+            </form>
+            <def>thick &gt; heavy burden</def>
+<sense xml:id="uuid-fcded6a7-6b40-4907-8ce9-09952f1ff414">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+  <def>regard the contextually determinate N as a heavy burden</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-04ba1736-252e-48d8-a490-4aca1b75c840">
+            <form corresp="#uuid-28d528f8-7db0-459a-bbc0-afaebbf9b1d9">
+<orth>荷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hè</pron>
+                <pron xml:lang="zh-x-oc">ɡlaalʔ</pron>
+                <pron xml:lang="zh-x-mc">ɦɑ</pron>
+            </form>
+<sense xml:id="uuid-de5f0bb9-4ae2-44d0-8414-4593cd0bec63">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <usg type="warring-states-currency">2</usg>
+                </gramGrp>
+  <def>burden, load (on one's back or shoulder)</def>
+            </sense>
+<sense xml:id="uuid-2460f392-5753-43d0-ae26-98e47a0dd33c">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>(metaphorical) burden</def>
+            </sense>
+</entry>
+<entry type="word" xml:id="uuid-cc579753-e243-4198-9a70-a5f18efce188">
+            <form corresp="#uuid-514bf49e-c71b-4ad0-897a-d51daa58079b">
+<orth>重</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhòng</pron>
+                <pron xml:lang="zh-x-oc">doŋʔ</pron>
+                <pron xml:lang="zh-x-mc">ɖi̯oŋ</pron>
+            </form>
+<sense xml:id="uuid-4e081858-ac26-46e4-ac34-057101655454">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-50da9f38-5611-463e-a0b9-5bbb7bf5e56f">subject</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>what is heavy, a heavy load, a heavy burden</def>
+            </sense>
+<sense xml:id="uuid-544ee864-eada-41a3-a697-38776da1529c">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>a metaphorically heavy burden</def>
+            </sense>
 <sense xml:id="uuid-5e442864-88ff-4650-9b32-94e0c966e32d">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp>
-  <def>weigh (yourself) down</def></sense>
+  <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+  <def>weigh (yourself) down</def>
+            </sense>
 <sense xml:id="uuid-b8d7d47b-b6d4-42bc-9478-4034ed71c946">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp>
-  <def>burdensome</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+  <def>burdensome</def>
+            </sense>
+</entry>
+    </div>
+</div>

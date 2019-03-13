@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-6fb98658-8ce7-4580-b863-77476114cd18">
-<head>ROLE</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6fb98658-8ce7-4580-b863-77476114cd18">
+<head>ROLE</head>
+    <list type="altnames">
 <item>PART</item>
 <item>CHARACTER</item>
 <item>CAMEO</item>
@@ -14,35 +16,78 @@
 <item>MANTLE</item>
 <item>PLACE</item>
 <item>FUNCTION</item>
-<item>PART</item></list><list type="translations"><item xml:lang="zh">角色</item></list>
+<item>PART</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">角色</item>
+    </list>
 <div type="definition">
-<p>DEFINED METHOD of ACTING one MUST USE in a SOCIETY.</p></div>
+<p>DEFINED METHOD of ACTING one MUST USE in a SOCIETY.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
-<p>所 in 各有其所 comes close to meaning "role", "function in life".</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-47579896-aa34-4f16-9c91-3d0880f97801">STATUS</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
-<title>Historisches Woerterbuch der Philosophie</title><biblScope unit="page">8.1064</biblScope><note>
-<p/></note></bibl>
-<bibl><ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
-<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title><biblScope unit="page">2.12:11</biblScope><note>
-<p>PERSONNAGE.ROLE</p></note></bibl></listBibl></div>
+<p>所 in 各有其所 comes close to meaning "role", "function in life".</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-47579896-aa34-4f16-9c91-3d0880f97801">STATUS</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
+<title>Historisches Woerterbuch der Philosophie</title>
+                <biblScope unit="page">8.1064</biblScope>
+                <note>
+<p/>
+                </note>
+            </bibl>
+<bibl>
+                <ref target="#uuid-6b365858-64c1-4190-8019-802d035d58ee">GIRARD 1769</ref>
+<title>SYNONYMES FRANÇOIS, LEURS DIFFÉRENTES SIGNIFICATIONS, ET LE CHOIX QU'IL EN FAUT FAIRE Pour parler avec justesse</title>
+                <biblScope unit="page">2.12:11</biblScope>
+                <note>
+<p>PERSONNAGE.ROLE</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-97aadab1-53a5-4ede-a9e3-172699f263eb"><form corresp="#uuid-90be6953-f049-448f-9fbc-d10e00544baa">
-<orth>位</orth><pron xml:lang="zh-Latn-x-pinyin">wèi</pron><pron xml:lang="zh-x-oc">ɢrubs</pron><pron xml:lang="zh-x-mc">ɦi</pron></form>
+<entry type="word" xml:id="uuid-97aadab1-53a5-4ede-a9e3-172699f263eb">
+            <form corresp="#uuid-90be6953-f049-448f-9fbc-d10e00544baa">
+<orth>位</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèi</pron>
+                <pron xml:lang="zh-x-oc">ɢrubs</pron>
+                <pron xml:lang="zh-x-mc">ɦi</pron>
+            </form>
 <sense xml:id="uuid-f7b678b1-650d-47f8-a4bd-bd009c8eb955">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp>
-  <def>social role</def></sense>
+  <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+  <def>social role</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-d8ac2d1b-d42f-46e9-8237-d139b4c8daa1"><form corresp="#uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c">
-<orth>身</orth><pron xml:lang="zh-Latn-x-pinyin">shēn</pron><pron xml:lang="zh-x-oc">qhjin</pron><pron xml:lang="zh-x-mc">ɕin</pron></form>
+<entry type="word" xml:id="uuid-d8ac2d1b-d42f-46e9-8237-d139b4c8daa1">
+            <form corresp="#uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c">
+<orth>身</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn</pron>
+                <pron xml:lang="zh-x-oc">qhjin</pron>
+                <pron xml:lang="zh-x-mc">ɕin</pron>
+            </form>
 <sense xml:id="uuid-13104842-1820-4358-ac1d-b3b949feff0b">
-<gramGrp><pos>N</pos>
+<gramGrp>
+                    <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp>
-  <def>what is expected of one as a person, one's role？？？？？？行身 "act out one's role"???</def></sense>
-</entry></div></div>
+  <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+  <def>what is expected of one as a person, one's role？？？？？？行身 "act out one's role"???</def>
+            </sense>
+</entry>
+    </div>
+</div>

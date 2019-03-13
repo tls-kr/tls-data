@@ -1,69 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-9255ee0d-15de-40ba-9be7-06f336bc007f">
-<head>SEND DOWN</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9255ee0d-15de-40ba-9be7-06f336bc007f">
+<head>SEND DOWN</head>
+    <list type="altnames">
 <item>SHED</item>
 <item>DROP</item>
 <item>SCATTER</item>
-<item>SPILL</item></list><list type="translations"><item xml:lang="zh">使下降</item></list>
+<item>SPILL</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">使下降</item>
+    </list>
 <div type="definition">
-<p>CAUSE TO MOVE DOWN.</p></div>
+<p>CAUSE TO MOVE DOWN.</p>
+    </div>
 <div type="notes"/>
-<div type="pointers"><list type="see">
-<item><ref target="#uuid-26eca572-4729-4928-8646-a70d3a40eacd">DROP</ref></item></list></div>
+<div type="pointers">
+        <list type="see">
+<item>
+                <ref target="#uuid-26eca572-4729-4928-8646-a70d3a40eacd">DROP</ref>
+            </item>
+        </list>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-9209e9d5-5a6c-4346-a11c-89851943b2ef"><form corresp="#uuid-28f7e200-9ed0-458d-9c74-cd4dd9f6cf9f">
-<orth>下</orth><pron xml:lang="zh-Latn-x-pinyin">xià</pron><pron xml:lang="zh-x-oc">ɢraas</pron><pron xml:lang="zh-x-mc">ɦɣɛ</pron></form>
+<entry type="word" xml:id="uuid-9209e9d5-5a6c-4346-a11c-89851943b2ef">
+            <form corresp="#uuid-28f7e200-9ed0-458d-9c74-cd4dd9f6cf9f">
+<orth>下</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xià</pron>
+                <pron xml:lang="zh-x-oc">ɢraas</pron>
+                <pron xml:lang="zh-x-mc">ɦɣɛ</pron>
+            </form>
 <sense xml:id="uuid-3147e372-3273-488d-a6ec-44cbef1f4aca">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>send down concretely</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>send down concretely</def>
+            </sense>
 <sense xml:id="uuid-0835964e-1c3e-4637-a7da-17d1c6b3d362">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat><usg type="warring-states-currency">5</usg></gramGrp>
-  <def>issue (and order); promulgate (an ordinance or law)</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+  <def>issue (and order); promulgate (an ordinance or law)</def>
+            </sense>
 <sense xml:id="uuid-8e404cf3-7464-431e-a316-f0ab7a0d0d4b">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>be issued, be promulgated</def></sense>
+  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>be issued, be promulgated</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-503f77a6-da31-412b-ab3a-2befdc5862a6"><form>
-<orth>垂</orth><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-oc"/><pron xml:lang="zh-x-mc"/></form>
+<entry type="word" xml:id="uuid-503f77a6-da31-412b-ab3a-2befdc5862a6">
+            <form>
+<orth>垂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-oc"/>
+                <pron xml:lang="zh-x-mc"/>
+            </form>
 <sense xml:id="uuid-af989dcd-6dc8-4205-a48c-9f533c3fbba6">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>shed (tears)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>shed (tears)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-bf73d339-795c-46f5-88e0-3851126a89b6"><form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
-<orth>流</orth><pron xml:lang="zh-Latn-x-pinyin">liú</pron><pron xml:lang="zh-x-oc">ru</pron><pron xml:lang="zh-x-mc">lɨu</pron></form>
+<entry type="word" xml:id="uuid-bf73d339-795c-46f5-88e0-3851126a89b6">
+            <form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
+<orth>流</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liú</pron>
+                <pron xml:lang="zh-x-oc">ru</pron>
+                <pron xml:lang="zh-x-mc">lɨu</pron>
+            </form>
 <sense xml:id="uuid-7d816fc8-1730-4730-be8a-1730f704a04f">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>shed (tears)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>shed (tears)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-4bbc200e-2c7b-4c62-9d62-d344e44f3312"><form corresp="#uuid-78e86eb4-0ef1-4eb5-a110-63d7f96b1489">
-<orth>降</orth><pron xml:lang="zh-Latn-x-pinyin">jiàng</pron><pron xml:lang="zh-x-oc">kruums</pron><pron xml:lang="zh-x-mc">kɣɔŋ</pron></form>
+<entry type="word" xml:id="uuid-4bbc200e-2c7b-4c62-9d62-d344e44f3312">
+            <form corresp="#uuid-78e86eb4-0ef1-4eb5-a110-63d7f96b1489">
+<orth>降</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàng</pron>
+                <pron xml:lang="zh-x-oc">kruums</pron>
+                <pron xml:lang="zh-x-mc">kɣɔŋ</pron>
+            </form>
 <sense xml:id="uuid-fb48a72f-6704-4d8b-9bc8-a3f1596a7c39">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>send down; give birth to; produce</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+  <def>send down; give birth to; produce</def>
+            </sense>
 <sense xml:id="uuid-0ab64b92-bdaa-4ec3-88d6-08f24c2ee16e">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>send (figuratively) down</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>send (figuratively) down</def>
+            </sense>
 <sense xml:id="uuid-be768a3b-7002-4add-bc08-0be8a5762c0c">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
-  <def>be sent down (do a place)</def></sense>
+  <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+  <def>be sent down (do a place)</def>
+            </sense>
 <sense xml:id="uuid-9b7bea47-e5fd-4e23-8be4-d6088e28de04">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp>
-  <def>send down a disposable item N2 to recipient/recipient N1 (I think I have seen this, but am unable to retrieve the example)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+  <def>send down a disposable item N2 to recipient/recipient N1 (I think I have seen this, but am unable to retrieve the example)</def>
+            </sense>
 <sense xml:id="uuid-14bef572-8581-41cf-918e-b356658104e7">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp>
-  <def>send N1 down to N2</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+  <def>send N1 down to N2</def>
+            </sense>
+</entry>
+    </div>
+</div>

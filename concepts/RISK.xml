@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tls="http://hxwd.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" type="concept" xml:id="uuid-36e1fa8e-0596-4eed-a000-dfae2593bf0f">
-<head>RISK</head><list type="altnames">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-36e1fa8e-0596-4eed-a000-dfae2593bf0f">
+<head>RISK</head>
+    <list type="altnames">
 <item>CHANCE</item>
 <item>UNCERTAINTY</item>
 <item>UNPREDICTABILITY</item>
@@ -8,9 +10,14 @@
 <item>INSTABILITY</item>
 <item>INSECURITY</item>
 <item>PERILOUSNESS</item>
-<item>RISKINESS</item></list><list type="translations"><item xml:lang="zh">冒</item></list>
+<item>RISKINESS</item>
+    </list>
+    <list type="translations">
+        <item xml:lang="zh">冒</item>
+    </list>
 <div type="definition">
-<p>ACT so as to DELIBERATELY CAUSE ONESELF or one's PROPERTY to be in DANGER.</p></div>
+<p>ACT so as to DELIBERATELY CAUSE ONESELF or one's PROPERTY to be in DANGER.</p>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>冒險 is the standard word for taking a risk.</p>
@@ -18,45 +25,103 @@
 <p>作賭注 is to risk money in gambling.</p>
 <p>冒危險去做 is to take a risk and go ahead with an action.</p>
 <p>風險 refers to a hazard or risk involved in an action.</p>
-<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p></div></div>
-<div type="pointers"><list type="taxonymy">
-<item><ref target="#uuid-4364137e-6e13-47d2-bd42-07fe57f56645">RISK DEATH</ref></item></list><list type="antonymy">
-<item><ref target="#uuid-056420a0-1add-4ebb-ac5d-9006d57b1135">SAFE</ref></item></list></div>
-<div type="source-references"><listBibl>
-<bibl><ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
-<title>Historisches Woerterbuch der Philosophie</title><biblScope unit="page">8.1045</biblScope><note>
-<p>RISIKO</p></note></bibl></listBibl></div>
+<p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／</p>
+        </div>
+    </div>
+<div type="pointers">
+        <list type="taxonymy">
+<item>
+                <ref target="#uuid-4364137e-6e13-47d2-bd42-07fe57f56645">RISK DEATH</ref>
+            </item>
+        </list>
+        <list type="antonymy">
+<item>
+                <ref target="#uuid-056420a0-1add-4ebb-ac5d-9006d57b1135">SAFE</ref>
+            </item>
+        </list>
+    </div>
+<div type="source-references">
+        <listBibl>
+<bibl>
+                <ref target="#uuid-4acb4e0c-daab-4369-9991-912c64da1ee6">RITTER 1971-2007</ref>
+<title>Historisches Woerterbuch der Philosophie</title>
+                <biblScope unit="page">8.1045</biblScope>
+                <note>
+<p>RISIKO</p>
+                </note>
+            </bibl>
+        </listBibl>
+    </div>
 <div type="words">
-<entry type="word" xml:id="uuid-5de8d21c-2edc-4b40-a3b0-4c599afeb7db"><form corresp="#uuid-d5d0b7a1-89ff-49a8-83a5-7294708aea0b">
-<orth>冒</orth><pron xml:lang="zh-Latn-x-pinyin">mào</pron><pron xml:lang="zh-x-oc">muuɡs</pron><pron xml:lang="zh-x-mc">mɑu</pron></form>
+<entry type="word" xml:id="uuid-5de8d21c-2edc-4b40-a3b0-4c599afeb7db">
+            <form corresp="#uuid-d5d0b7a1-89ff-49a8-83a5-7294708aea0b">
+<orth>冒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mào</pron>
+                <pron xml:lang="zh-x-oc">muuɡs</pron>
+                <pron xml:lang="zh-x-mc">mɑu</pron>
+            </form>
 <sense xml:id="uuid-38fbb6f2-4b54-4ec3-952e-8570d6f7be35">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp>
-  <def>expose oneself to; risk</def></sense>
-<sense xml:id="uuid-a8115009-77f6-449a-aed2-30e78cf94d8d">
-<gramGrp><pos>V</pos>
+<gramGrp>
+                    <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp>
-  <def>be exposed  (maybe syn. SHOW ????)</def></sense>
+                </gramGrp>
+  <def>expose oneself to; risk</def>
+            </sense>
+<sense xml:id="uuid-a8115009-77f6-449a-aed2-30e78cf94d8d">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+  <def>be exposed  (maybe syn. SHOW ????)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-5e223b18-1bb8-4c38-ba49-2aa184dabfdd"><form corresp="#uuid-2f1dee22-3b59-4569-b435-4b8cc6c0550d">
-<orth>效</orth><pron xml:lang="zh-Latn-x-pinyin">xiào</pron><pron xml:lang="zh-x-oc">ɡreews</pron><pron xml:lang="zh-x-mc">ɦɣɛu</pron></form>
+<entry type="word" xml:id="uuid-5e223b18-1bb8-4c38-ba49-2aa184dabfdd">
+            <form corresp="#uuid-2f1dee22-3b59-4569-b435-4b8cc6c0550d">
+<orth>效</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiào</pron>
+                <pron xml:lang="zh-x-oc">ɡreews</pron>
+                <pron xml:lang="zh-x-mc">ɦɣɛu</pron>
+            </form>
 <sense xml:id="uuid-3b1c253a-07d7-40c4-8385-26377e711692">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">3</usg></gramGrp>
-  <def>效死: to risk one's death; be prepared to die (for something, handing up one's death in service)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+  <def>效死: to risk one's death; be prepared to die (for something, handing up one's death in service)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-d4f2b0ff-fd89-41bb-bc72-a004b47d8ff9"><form corresp="#uuid-b38cdf57-3ece-4398-a89b-627d77580526">
-<orth>昧</orth><pron xml:lang="zh-Latn-x-pinyin">mèi</pron><pron xml:lang="zh-x-oc">mɯɯds</pron><pron xml:lang="zh-x-mc">muo̝i</pron></form>
+<entry type="word" xml:id="uuid-d4f2b0ff-fd89-41bb-bc72-a004b47d8ff9">
+            <form corresp="#uuid-b38cdf57-3ece-4398-a89b-627d77580526">
+<orth>昧</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mèi</pron>
+                <pron xml:lang="zh-x-oc">mɯɯds</pron>
+                <pron xml:lang="zh-x-mc">muo̝i</pron>
+            </form>
 <sense xml:id="uuid-30dcb20e-23da-40c5-afdd-79d5b1c53557">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-72e4560a-6d04-49a7-8256-5bc9b3cef4ce">vt+V1.adV2</tls:syn-func></gramGrp>
-  <def>disregard the danger of (V1-ing) as one (V2s); expose oneself to the risk of (V1-ing) in (V2ing)</def></sense>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-72e4560a-6d04-49a7-8256-5bc9b3cef4ce">vt+V1.adV2</tls:syn-func>
+                </gramGrp>
+  <def>disregard the danger of (V1-ing) as one (V2s); expose oneself to the risk of (V1-ing) in (V2ing)</def>
+            </sense>
 </entry>
-<entry type="word" xml:id="uuid-694f7fb8-1489-4665-ba18-32a23d586ee5"><form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c">
-<orth>離</orth><pron xml:lang="zh-Latn-x-pinyin">lí</pron><pron xml:lang="zh-x-oc">b-rel</pron><pron xml:lang="zh-x-mc">liɛ</pron></form>
+<entry type="word" xml:id="uuid-694f7fb8-1489-4665-ba18-32a23d586ee5">
+            <form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c">
+<orth>離</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lí</pron>
+                <pron xml:lang="zh-x-oc">b-rel</pron>
+                <pron xml:lang="zh-x-mc">liɛ</pron>
+            </form>
 <sense xml:id="uuid-cd816913-9971-4d72-9c8d-98677b4aba47">
-<gramGrp><pos>V</pos>
-  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><usg type="warring-states-currency">4</usg></gramGrp>
-  <def>be ready to meet, risk</def></sense>
-</entry></div></div>
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+  <def>be ready to meet, risk</def>
+            </sense>
+</entry>
+    </div>
+</div>
