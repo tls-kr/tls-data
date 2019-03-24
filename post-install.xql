@@ -19,8 +19,8 @@ declare variable $dir external;
 declare variable $target external;
 
 (: invisible collections :)
-declare variable $hidden := $target || "/translations";
-(: read-only collections :)
+declare variable $hidden := $target || "/translations/non-free";
+(: read-write for  collections :)
 declare variable $concepts := $target || "/concepts";
 declare variable $core := $target || "/core";
 declare variable $notes := $target || "/notes";
@@ -33,16 +33,25 @@ declare function local:special-permission($uri as xs:string, $perm as xs:string)
 for $res in xmldb:get-child-resources($uri)
 let $path := $uri || "/" || $res
 return
-  ( sm:chown(xs:anyURI($path), "admin"),
-    sm:chgrp(xs:anyURI($path), "dba"),
+  ( sm:chown(xs:anyURI($path), "tls"),
+    sm:chgrp(xs:anyURI($path), "tls-user"),
     sm:chmod(xs:anyURI($path), $perm) )
 };
+
+declare function local:hidden-permission($uri as xs:string, $perm as xs:string) as empty-sequence() {
+for $child in xmldb:get-child-collections($uri)
+let $path := $uri || "/" || $child
+return
+   local:special-permission($path, $perm)
+};
+
+
 
 
 (:~
  : If user had no submodule access create an empty collection
 :)
-let $restricted := xmldb:collection-available($hidden) or xmldb:create-collection( $target, "translations" )
+let $restricted := xmldb:collection-available($hidden) or xmldb:create-collection( $target || "/translations", "non-free" )
 
 
 return
@@ -55,21 +64,26 @@ sm:chmod(xs:anyURI($hidden), 'rwxrwxr-x'),
 (: … preinstalled contents are not :)
 local:special-permission($hidden, 'rwxrwx--x'),
 
-(: revelio :)
+local:hidden-permission($hidden, 'rwxrwx---'),
+
+(:
+commenting for the time being, probably can get rid of this...
+(\: revelio :\)
 sm:chown(xs:anyURI($concepts), "admin"),
 sm:chgrp(xs:anyURI($concepts), "dba"),
 sm:chmod(xs:anyURI($concepts), 'rwxrwxr-x'),
-(:local:special-permission($concepts, 'rwxrwxr--'),:)
+(\:local:special-permission($concepts, 'rwxrwxr--'),:\)
 
 sm:chown(xs:anyURI($core), "admin"),
 sm:chgrp(xs:anyURI($core), "dba"),
 sm:chmod(xs:anyURI($core), 'rwxrwxr-x'),
-(:local:special-permission($core, 'rwxrwxr--'),:)
+(\:local:special-permission($core, 'rwxrwxr--'),:\)
 
 sm:chown(xs:anyURI($notes), "admin"),
 sm:chgrp(xs:anyURI($notes), "dba"),
-sm:chmod(xs:anyURI($notes), 'rwxrwxr-x')(:,
-local:special-permission($notes, 'rwxrwxr--'):),
+sm:chmod(xs:anyURI($notes), 'rwxrwxr-x')(\:,
+local:special-permission($notes, 'rwxrwxr--'):\),
+:)
 
 (: create notes/new if necessary :)
 xmldb:collection-available($newnotes) or xmldb:create-collection($notes, "new"),
