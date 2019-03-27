@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR1d0001-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 周禮</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-03-26T13:08:54.554+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR1d0001-start">
+                    <seg xml:id="KR1d0001_tls_003-108a.5">
+                        <line>以日、月、星、辰占六夢之吉凶。</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="STAR" concept-id="uuid-bf301515-c684-47f8-b319-8f21825ff7af" xml:id="uuid-1172d529-8557-4834-bd8c-21bcd40093d3">
+                            <link target="#KR1d0001_tls_003-108a.5 #uuid-5a44d6b2-2e2d-44dd-a4ec-4a1a3f6e9a38"/>
+                            <tls:text>
+                                <tls:srcline title="周禮" target="#KR1d0001_tls_003-108a.5" pos="">以日、月、星、辰占六夢之吉凶。</tls:srcline>
+                                <tls:line title="周禮 (en)" src="">On the basis of sun, moon, stars, and planets one prognosticates about the auspicious or inauspicious nature of the six kinds of dreams.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-701d34be-815c-41d1-a737-ecfc4a93bebc #uuid-1f254fb0-1ff1-4e27-afe9-ac7b1fdc0e06" orig="星辰">
+                                <orth>星辰</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">xīng chén</pron>
+                            </form>
+                            <sense corresp="#uuid-5a44d6b2-2e2d-44dd-a4ec-4a1a3f6e9a38">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-0e71a24c-2529-482a-a575-a4f143a9890b">NP{N1&amp;N2}</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+                                <def>stars and constellations, heavenly bodies</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2019-03-26T13:08:54.554+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR1d0001_tls_003-108a.9">
+                        <line>四曰寤夢，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="WAKE UP" concept-id="uuid-573bea8a-c3a7-48e3-92b7-60b83a2920b9" xml:id="uuid-03f8e349-0651-4427-bae1-16bb25a10cc7">
+                            <link target="#KR1d0001_tls_003-108a.9 #uuid-8e4a016b-3a11-48ce-8032-7c68c3b8ecf8"/>
+                            <tls:text>
+                                <tls:srcline title="周禮" target="#KR1d0001_tls_003-108a.9" pos="3">四曰寤夢，</tls:srcline>
+                                <tls:line title="周禮 (en)" src="">The fourth kind is the waking dream/dream as one wakes up.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-357ecd20-9e15-473d-9abf-67e6b15b6b46" orig="寤">
+                                <orth>寤</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">wù</pron>
+                            </form>
+                            <sense corresp="#uuid-8e4a016b-3a11-48ce-8032-7c68c3b8ecf8">
+                                <gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                                <def>as one wakes up</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2019-03-26T13:08:54.554+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
