@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR3a0006-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 鹽鐵論</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-03-28T13:15:19.834+09:00</date> by tls</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR3a0006-start">
+                    <seg xml:id="KR3a0006_tls_001-3a.2">
+                        <line>「竊聞治人之道，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="DARE" concept-id="uuid-24babc50-0437-41ce-8bea-61b0cd9cdae6" xml:id="uuid-abf343d3-ed76-42bb-b343-d3ed76f2bbf8">
+                            <link target="#KR3a0006_tls_001-3a.2 #uuid-1ba572a6-1988-4c34-a951-036cc898d9cc"/>
+                            <tls:text>
+                                <tls:srcline title="鹽鐵論" target="#KR3a0006_tls_001-3a.2" pos="2">「竊聞治人之道，</tls:srcline>
+                                <tls:line title="鹽鐵論 (en)" src="GALE 1931">It is our humble opinion that the principle of ruling men</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-35a3d12c-a3d3-4558-9a5b-48a4e62a29fe" orig="">
+                                <orth>竊</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">qiè</pron>
+                            </form>
+                            <sense corresp="#uuid-1ba572a6-1988-4c34-a951-036cc898d9cc">
+                                <gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <usg type="register">1</usg>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+                                <def>humbly</def>
+                            </sense>
+                            <tls:metadata resp="#tls" created="2019-03-28T13:15:19.834+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name>tls</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
