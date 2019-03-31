@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CH1a0903-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 新語</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-03-31T15:48:39.762+09:00</date> by chris</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="CH1a0903-start">
+                    <seg xml:id="CH1a0903_CHANT_001-1a.8">
+                        <line>故曰：</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="THEREFORE" concept-id="uuid-748e6226-c1ae-42f3-802b-792082fcccb9" xml:id="uuid-0790c603-24fe-48c3-90c6-0324fea8c3ea">
+                            <link target="#CH1a0903_CHANT_001-1a.8 #uuid-4788bc76-7c4a-4616-b928-2a8edec67db4"/>
+                            <tls:text>
+                                <tls:srcline title="新語" target="#CH1a0903_CHANT_001-1a.8" pos="1">故曰：</tls:srcline>
+                                <tls:line title="Translation of 新語 into (en)" src="">Therefore it is said:</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-cee00179-0689-42fe-a172-52bfa48c1729" orig="">
+                                <orth>故</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">gù</pron>
+                            </form>
+                            <sense corresp="#uuid-4788bc76-7c4a-4616-b928-2a8edec67db4">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-9846fcc7-7fe2-437f-8163-5564343b7ee2">nadV.postN{SUBJ}:postS</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+                                <def>therefore; thus; and similarly [new paragraph]; the point is thusNOTE: the syntax is nadV.postS</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2019-03-31T15:57:15.159+09:00">
+                                <respStmt>
+                                    <resp>added and approved</resp>
+                                    <name>chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
