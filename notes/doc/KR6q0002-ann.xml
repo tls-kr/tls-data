@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR6q0002-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 祖堂集</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-09-04T11:40:13.466+09:00</date> by test</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR6q0002-start">
+                    <seg xml:id="KR6q0002_Yan_003-1105a.44">
+                        <line>第二智巖、</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="ZEN MONKS" concept-id="uuid-9c34821d-5c94-4128-96d8-9a46f9471f92" xml:id="uuid-b6de739d-120a-4c07-bee4-cf7508a2d8d5">
+                            <link target="#KR6q0002_Yan_003-1105a.44 #uuid-15dbc8f0-86c4-45ea-b57a-c201a5010788"/>
+                            <tls:text>
+                                <tls:srcline title="祖堂集" target="#KR6q0002_Yan_003-1105a.44" pos="3">第二智巖、</tls:srcline>
+                                <tls:line title="祖堂集 (en)" src="Christoph Anderl">the second is Zhìyán (577-654),</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-3cb5236a-c2dc-42a6-92ba-89e6f7a43e85 #uuid-a35ad267-73e7-4973-bac1-623b591aafab" orig="">
+                                <orth>智巖</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">zhì yán</pron>
+                            </form>
+                            <sense corresp="#uuid-15dbc8f0-86c4-45ea-b57a-c201a5010788">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                </gramGrp>
+                                <def>BUDDH: Zhìyán (577-654), a monk in the lineage of Niútóu 牛頭</def>
+                            </sense>
+                            <tls:metadata resp="#test" created="2019-09-04T11:40:13.466+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name>test</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
