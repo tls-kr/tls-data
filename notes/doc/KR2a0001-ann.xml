@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR2a0001-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 史記</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-11-08T04:28:32.317+09:00</date> by test</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR2a0001-start">
+                    <seg xml:id="KR2a0001_tls_130-1a.2">
+                        <line>昔在顓頊，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="PAST" concept-id="uuid-3f2acc5c-4d45-4bf5-aad2-3e2139642177" xml:id="uuid-98366d44-dbfa-48b7-8536-3ccb00a5f7c8">
+                            <link target="#KR2a0001_tls_130-1a.2 #uuid-67a5e296-4ebd-41e1-a011-37a8a07487a1"/>
+                            <tls:text>
+                                <tls:srcline title="史記" target="#KR2a0001_tls_130-1a.2" pos="1">昔在顓頊，</tls:srcline>
+                                <tls:line title="" src="Watson"/>
+                            </tls:text>
+                            <form corresp="#uuid-50752804-ed23-4d4b-901e-c2e6b8bf005b" orig="">
+                                <orth>昔</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">xī</pron>
+                            </form>
+                            <sense corresp="#uuid-67a5e296-4ebd-41e1-a011-37a8a07487a1">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-b7691903-ed54-4f79-9abc-1d576fac56b7">nadSS</tls:syn-func>
+                    <usg type="warring-states-currency">5</usg>
+                </gramGrp>
+                                <def>before; in the past year(s)</def>
+                            </sense>
+                            <tls:metadata resp="#test" created="2019-11-08T04:28:32.317+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name>test</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
