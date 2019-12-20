@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR5e0001-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 太平經</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-12-08T05:54:41.029+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR5e0001-start">
+                    <seg xml:id="KR5e0001_tls_003-29a.6364">
+                        <line>故古詩人之作，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="POET" concept-id="uuid-feb4ba97-43e3-4b03-857b-34c5f0f3d166" xml:id="uuid-490b0503-bda9-4234-b5be-694b7456be3a">
+                            <link target="#KR5e0001_tls_003-29a.6364 #uuid-b65706e3-c638-4aaf-bee0-dccbcbcc78b5"/>
+                            <tls:text>
+                                <tls:srcline title="太平經" target="#KR5e0001_tls_003-29a.6364" pos="3">故古詩人之作，</tls:srcline>
+                                <tls:line title="太平經 (en)" src="">So the creations of the poets of old</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-bf125c3b-5d21-4c18-bbb3-19020efdb16a #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f" orig="">
+                                <orth>詩人</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">shī rén</pron>
+                            </form>
+                            <sense corresp="#uuid-b65706e3-c638-4aaf-bee0-dccbcbcc78b5">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                                <def>specialist in shi1 poetry; poet</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2019-12-08T05:54:41.029+09:00">
+                                <respStmt>
+                                    <resp>added and approved</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
