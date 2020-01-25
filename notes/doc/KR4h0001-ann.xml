@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR4h0001-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 文選</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2020-01-03T19:59:07.583+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR4h0001-start">
+                    <seg xml:id="KR4h0001_tls_001-4a.56">
+                        <line>遊士擬於公侯，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="VILLAIN" concept-id="uuid-6288915e-93df-4704-aef4-b3329fc8a127" xml:id="uuid-be9e4e34-e09a-4cfe-8369-e5d4f50b2ebf">
+                            <link target="#KR4h0001_tls_001-4a.56 #uuid-9a85533c-1cfd-43a2-a870-50eae749b2ec"/>
+                            <tls:text>
+                                <tls:srcline title="文選" target="#KR4h0001_tls_001-4a.56" pos="1">遊士擬於公侯，</tls:srcline>
+                                <tls:line title="" src=""/>
+                            </tls:text>
+                            <form corresp="#uuid-fbc9c501-30dc-4992-9d1e-f5ec90d6d659 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e" orig="">
+                                <orth>遊士</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron>
+                            </form>
+                            <sense corresp="#uuid-9a85533c-1cfd-43a2-a870-50eae749b2ec">
+                                <gramGrp>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                                </gramGrp>
+                                <def>desperadoes, bravoes; hired thugs</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2020-01-03T19:59:07.583+09:00">
+                                <respStmt>
+                                    <resp>added and approved</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

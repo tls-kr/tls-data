@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR2e0001-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 國語</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2020-01-03T20:04:34.602+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR2e0001-start">
+                    <seg xml:id="KR2e0001_tls_003-21a.21">
+                        <line>為遊士八十人，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENTLEMAN" concept-id="uuid-36efaebe-58a9-4106-9ace-5dbcedf69de5" xml:id="uuid-86cfc192-81d8-4e9c-88bd-e24fe9bddbc0">
+                            <link target="#KR2e0001_tls_003-21a.21 #uuid-05ff62d9-f316-4c8e-bead-e190aa597dc9"/>
+                            <tls:text>
+                                <tls:srcline title="國語" target="#KR2e0001_tls_003-21a.21" pos="2">為遊士八十人，</tls:srcline>
+                                <tls:line title="" src="none"/>
+                            </tls:text>
+                            <form corresp="#uuid-fbc9c501-30dc-4992-9d1e-f5ec90d6d659 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e" orig="">
+                                <orth>遊士</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron>
+                            </form>
+                            <sense corresp="#uuid-05ff62d9-f316-4c8e-bead-e190aa597dc9">
+                                <gramGrp>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                                </gramGrp>
+                                <def resp="#CH" updated="2020-01-06T00:20:37.529+09:00">public servants: roving gentlemen; "internationally" mobile intellectuals; roaming persuaders; peripatetic diplomatic advisors; "Warring States jet-set"</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2020-01-03T20:04:34.602+09:00">
+                                <respStmt>
+                                    <resp>added and approved</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

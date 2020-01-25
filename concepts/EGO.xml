@@ -502,7 +502,15 @@
                 </gramGrp>
   <def>nominalising/subordinating a VERB with a first person subject: "in case of my V-ing", my V-ing</def>
             </sense>
-</entry>
+<sense xml:id="uuid-f61ea442-8ab1-4bc2-b63f-49412f6fc31a" resp="#dsehnal" tls:created="2020-01-14T05:53:32.509+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npro{TOP}adN. V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>of us; from us</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fe4d6f6d-eaf2-44b9-ab9e-e37473d705c0">
             <form corresp="#uuid-17e4debe-c363-484b-8238-b522c92dd876">
 <orth>卬</orth>
@@ -1027,7 +1035,7 @@
   <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
   <tls:sem-feat corresp="#uuid-aeccff3b-b5dc-4421-b9ca-dbdd57a5fed6">marked</tls:sem-feat>
                 </gramGrp>
-  <def>my</def>
+  <def resp="#CH" updated="2020-01-11T20:00:34.95+09:00">contrastive: my</def>
             </sense>
 <sense xml:id="uuid-cc8d13cf-62c2-4ea8-a20b-188babcb3cc6">
 <gramGrp>
@@ -1569,7 +1577,14 @@
                 </gramGrp>
   <def>my</def>
             </sense>
-</entry>
+<sense xml:id="uuid-1be0a49a-87a8-4688-b519-f2d227f9b89e" resp="#CH" tls:created="2020-01-06T23:15:33.222+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6a061076-9f61-43ed-9b5e-2cfcedc1de01">NPpostVt</tls:syn-func>
+                </gramGrp>
+                <def>me</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f9f19b1b-dc78-4890-a6eb-6cbaec3388bb">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-bb4e71b9-c2cd-4860-b743-e56419813f5b">
 <orth>不腆</orth>
@@ -4091,6 +4106,66 @@
                     <tls:syn-func corresp="#">Npr(post=npro1)</tls:syn-func>
                 </gramGrp>
                 <def>I (my name being Npr)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5cbee8bf-dd7d-46ef-ad5b-5fff67bff6ae" resp="#CH" tls:created="2019-12-21T00:04:06.741+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-4fc41b88-0325-4f64-9072-c51d3b84dcba" resp="#CH" tls:created="2019-12-21T00:04:06.741+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP[post-Npro2.post=Npro1]</tls:syn-func>
+                </gramGrp>
+                <def>I, your blind servant/subject</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b7c124e5-4b36-49db-8b52-707fcc19f219" resp="#CH" tls:created="2019-12-21T00:04:21.703+09:00">
+            <form corresp="#uuid-e18c241b-625f-4759-b2af-6846ba030b1d #uuid-f97584af-067f-4b72-a600-a47df1634908">
+                <orth>盲臣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">máng chén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- dzyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraaŋ ɡjiŋ</pron>
+            </form>
+            <sense xml:id="uuid-3d3f8919-8b5b-40d5-bd7c-4e58d97dd35a" resp="#CH" tls:created="2019-12-21T00:04:21.703+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP[post-Npro2.post=Npro1]</tls:syn-func>
+                </gramGrp>
+                <def>I, your blind servant/subject</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f958e708-6c41-4387-ba66-888c291a8f71" resp="#CH" tls:created="2019-12-24T22:31:54.189+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-e71880b1-4689-4878-8deb-10bc2eaa9568" resp="#CH" tls:created="2019-12-24T22:31:54.189+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">npr.post=npro1</tls:syn-func>
+                </gramGrp>
+                <def>I</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e8249fc7-0807-4035-9e47-bc8e2db82237" resp="#CH" tls:created="2019-12-24T22:32:04.867+09:00">
+            <form corresp="#uuid-79ed2be2-281e-45e3-bede-3c6bae832d28">
+                <orth>嬰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jieng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qeŋ</pron>
+            </form>
+            <sense xml:id="uuid-50483a63-1002-4757-8da3-39ebaed7ac55" resp="#CH" tls:created="2019-12-24T22:32:04.867+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">npr.post=npro1</tls:syn-func>
+                </gramGrp>
+                <def>I</def>
             </sense>
         </entry>
     </div>
