@@ -175,8 +175,8 @@
             </sense>
             <sense xml:id="uuid-d0e56bd1-7b01-4467-b2ea-ef4761f91036" resp="#CH" tls:created="2019-12-19T23:13:05.547+09:00">
                 <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-7f44b590-3c95-45ec-8612-a301b021aa7c">nadS1.adS2</tls:syn-func>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
                 </gramGrp>
                 <def>if now S1, then S2</def>
             </sense>
@@ -265,7 +265,14 @@
                 </gramGrp>
   <def>OBI 2: if (e.g. it rains)</def>
             </sense>
-</entry>
+<sense xml:id="uuid-b7f9471a-69f0-4151-802c-2892791f337f" resp="#CH" tls:created="2020-01-02T00:54:19.275+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ed78b76-e06b-4365-92bc-b00297839a5a">npro.adS1:adS2</tls:syn-func>
+                </gramGrp>
+                <def>if (with non-referential subject or indefinite subject)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e4bb99eb-2d04-469d-9647-338cc9109ee2">
             <form corresp="#uuid-9c207839-c526-42a5-bbd1-48637a0927c8">
 <orth>即</orth>
@@ -1097,5 +1104,20 @@
   <def/>
             </sense>
 </entry>
+    <entry type="word" xml:id="uuid-767ebe13-1a30-4cc4-8aa3-9aee0be3b35a" resp="#dsehnal" tls:created="2020-01-12T00:31:29.243+09:00">
+            <form corresp="#uuid-4b0dbb04-7469-4bc6-b5e4-87ff1afed15e #uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0">
+                <orth>既使</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jì shǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kj+jH sriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯds srɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-bd4c8b16-1d8b-4604-a66e-f517cf76711d" resp="#dsehnal" tls:created="2020-01-12T00:31:29.243+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-64373044-78aa-4a93-a7fd-c5f489fd9dbd">VPtoS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>supposing that;</def>
+            </sense>
+        </entry>
     </div>
 </div>

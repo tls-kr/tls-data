@@ -143,8 +143,8 @@
             </sense>
             <sense xml:id="uuid-2625a453-3df5-44ad-aab3-a1362da9b9cf" resp="#CH" tls:created="2019-11-29T21:16:12.401+09:00">
                 <gramGrp>
-                    <pos>P</pos>
-                    <tls:syn-func corresp="#">padV</tls:syn-func>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
                     <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
                 </gramGrp>
                 <def>why on earth? (one surely does not know why!)</def>
@@ -155,6 +155,13 @@
                     <tls:syn-func corresp="#">ppostN</tls:syn-func>
                 </gramGrp>
                 <def>what is the reason for N?</def>
+            </sense>
+            <sense xml:id="uuid-d618b2a5-ea01-48ae-b821-8c43d2b17eec" resp="#CH" tls:created="2019-12-25T01:30:05.925+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npro{PRED}.postNab{S}{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>Why is it that S</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-64019520-e168-4220-b0c0-7a49f47ea0b0">
@@ -269,7 +276,15 @@
                 </gramGrp>
   <def>why?</def>
             </sense>
-</entry>
+<sense xml:id="uuid-3d4ad191-96a2-4e4f-a52e-fd897b283b09" resp="#CH" tls:created="2020-01-07T03:58:33.075+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def>why on earth?</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d7b8577f-9249-4f71-a10a-df6eabc4e538">
             <form corresp="#uuid-d40582e1-9463-4ae9-ba21-5a3b6e56112e">
 <orth>蓋</orth>
@@ -327,14 +342,21 @@
             </form>
 <sense xml:id="uuid-c67c23db-4b67-4bea-9a6c-3715c6b192c6">
 <gramGrp>
-                    <pos>N</pos>
-  <tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func>
+                    <pos>P</pos>
+  <tls:syn-func corresp="#uuid-f49366be-2415-46ed-8be3-8cd22adeab04">PP{PRED}.postS{SUBJECT}</tls:syn-func>
   <tls:sem-feat corresp="#uuid-d82256cd-a1c1-4a58-b15f-615a92237386">question</tls:sem-feat>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def>Why is that?  Why was that?</def>
             </sense>
-</entry>
+<sense xml:id="uuid-cc635d4f-60e4-428e-8953-9065bad61c43" resp="#CH" tls:created="2020-01-02T02:55:32.265+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-f49366be-2415-46ed-8be3-8cd22adeab04">PP{PRED}.postNab{S}{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7b086fee-1b9c-4d5c-a931-33a00e5f34d6">
             <form corresp="#uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
 <orth>何以</orth>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CH8x3006-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 老子乙本卷前古佚書</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2019-12-23T05:25:28.689+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="CH8x3006-start">
+                    <seg xml:id="CH8x3006_CHANT_001-9a.125">
+                        <line>以法斷之。</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="LAW" concept-id="uuid-699a94f6-628b-44ba-be7a-3454a439b2a0" xml:id="uuid-9bb3dd2a-f5f9-4c7f-98d6-fe6508524bb6">
+                            <link target="#CH8x3006_CHANT_001-9a.125 #uuid-02666237-2aae-45f0-957b-30b771a3222a"/>
+                            <tls:text>
+                                <tls:srcline title="老子乙本卷前古佚書" target="#CH8x3006_CHANT_001-9a.125" pos="2">以法斷之。</tls:srcline>
+                                <tls:line title="" src=""/>
+                            </tls:text>
+                            <form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e" orig="">
+                                <orth>法</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">fǎ</pron>
+                            </form>
+                            <sense corresp="#uuid-02666237-2aae-45f0-957b-30b771a3222a">
+                                <gramGrp>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                                </gramGrp>
+                                <def>administrative strategy: impartial implementation of the law of the land</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2019-12-23T05:25:28.689+09:00">
+                                <respStmt>
+                                    <resp>added and approved</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
