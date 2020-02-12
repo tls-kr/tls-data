@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
     <teiHeader>
         <fileDesc>
@@ -13380,25 +13381,9 @@
                 <head>pad.Npro</head>
 <p>particle preceding a pronoun.</p>
             </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-337a4e69-e9b1-476c-b07f-6af614c69018" resp="#CH" tls:created="2019-12-02T20:50:46.767+09:00">
-                <head>xx</head>
-                <p>This is a dummy, for testing purposes</p>
-            </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-fe0c43f6-b89e-4fd8-992b-5a1f1e2faa96" resp="#CH" tls:created="2019-12-02T20:52:17.772+09:00">
-                <head>n</head>
-                <p/>
-            </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2" resp="#CH" tls:created="2019-12-02T22:41:00.555+09:00">
                 <head>nab(.post-N)</head>
                 <p>abstract nominal modified by a contextually determinate N</p>
-            </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-ca25d203-d709-49a4-9f7c-e11a778181c9" resp="#CH" tls:created="2019-12-04T03:55:49.028+09:00">
-                <head>v V(0)</head>
-                <p/>
-            </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-0ce60838-198d-42f3-9e35-6abc8478e32d" resp="#CH" tls:created="2019-12-04T03:56:41.9+09:00">
-                <head>v V(0)</head>
-                <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-51f0e836-6a59-4d2a-8574-fb4cdd7e8264" resp="#CH" tls:created="2019-12-04T17:48:39.429+09:00">
                 <head>NPm[.adN]</head>
@@ -13437,7 +13422,7 @@
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-0c097e83-49fe-4714-88f3-bc2aeceeef36" resp="#CH" tls:created="2019-12-17T01:58:40.613+09:00">
-                <head>vttoN. V(0)</head>
+                <head>vttoN.+V(0)</head>
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-01d99cc7-0df3-4b97-913f-448ce1436fe8" resp="#CH" tls:created="2019-12-19T21:35:55.434+09:00">
@@ -13445,10 +13430,6 @@
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-24610794-42b5-4a3c-bf82-336ffa070680" resp="#CH" tls:created="2019-12-19T23:14:45.796+09:00">
-                <head>DELETE</head>
-                <p/>
-            </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-30c95ded-1d32-4cb9-8aa6-be4b833fb7f2" resp="#CH" tls:created="2019-12-19T23:24:27.692+09:00">
                 <head>DELETE</head>
                 <p/>
             </div>
@@ -13469,7 +13450,7 @@
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-b75182ba-c03e-489f-bcb7-0e455b05ab44" resp="#CH" tls:created="2020-01-02T07:03:10.404+09:00">
-                <head>VPt V[0].postadV</head>
+                <head>VPt+V[0].postadV</head>
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-918edf45-c301-4e8e-9d5b-72150ccc3eb8" resp="#CH" tls:created="2020-01-04T02:21:46.639+09:00">
@@ -13477,7 +13458,7 @@
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-dd90d96d-d346-4c2d-a55a-f73454272076" resp="#CH" tls:created="2020-01-05T19:15:46.108+09:00">
-                <head>npost-.N ZHI:adS</head>
+                <head>npost-.N+ZHI:adS</head>
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-d5e19733-bed4-441b-a7a0-eff0079884d9" resp="#CH" tls:created="2020-01-11T03:13:44.746+09:00">
@@ -13488,10 +13469,6 @@
                 <head>PPpost-N1.adN2</head>
                 <p/>
             </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-eaa719f8-bb4c-4978-9a5a-5183c2aeaed0" resp="#CH" tls:created="2020-01-11T22:51:56.228+09:00">
-                <head>nab</head>
-                <p/>
-            </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-6c5ef96b-0d85-4619-a14b-c058b6b6d40f" resp="#CH" tls:created="2020-01-12T17:40:41.351+09:00">
                 <head> v[adN1.post-N2]</head>
                 <p/>
@@ -13500,24 +13477,12 @@
                 <head> v[adN.](post-N)</head>
                 <p/>
             </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-7aae901c-6dd5-4ea2-a04b-8fd4ae57b32f" resp="#CH" tls:created="2020-01-12T17:43:19.251+09:00">
-                <head>DELETE</head>
-                <p/>
-            </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-d9bc4271-d34a-44d6-9056-7b32ede69023" resp="#CH" tls:created="2020-01-12T17:57:55.153+09:00">
-                <head>DELETE</head>
-                <p/>
-            </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-9a9759a3-7439-48b0-b690-daa31ade1eaa" resp="#CH" tls:created="2020-01-14T19:20:01.217+09:00">
-                <head>npro.post=N{OBJ}. Vt.</head>
+                <head>npro.post=N{OBJ}.+Vt.</head>
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-d906cf1a-f9ee-4f3a-9369-25d6f47a8d7e" resp="#CH" tls:created="2020-01-14T19:23:27.262+09:00">
-                <head>npro.post=N{OBJ}. Vt.</head>
-                <p/>
-            </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-a141a782-1db3-468d-8353-3e5528a47d71" resp="#CH" tls:created="2020-01-23T01:51:38.824+09:00">
-                <head>VPadS1.postS2</head>
+                <head>npro.post=N{OBJ}.+Vt.</head>
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-d476be66-de4c-4548-882b-9d89f06eff2c" resp="#CH" tls:created="2020-01-23T02:13:02.611+09:00">
@@ -13529,15 +13494,15 @@
                 <p/>
             </div>
             <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-52ff352a-650e-44e7-a14c-0fe8cf24014b" resp="#CH" tls:created="2020-02-05T19:24:52.737+09:00">
-                <head> ncpost-V1{NUM}. zhī V2</head>
+                <head> ncpost-V1{NUM}.+zhī+V2</head>
                 <p/>
             </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-bea2550b-1e7e-4bf4-a3d0-8602872c4f1e" resp="#CH" tls:created="2020-02-06T19:10:30.284+09:00">
-                <head>nab</head>
+            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-70b2d96e-62bd-48c5-aa82-fb22311a6ee9" resp="#CH" tls:created="2020-02-12T00:13:18.473+09:00">
+                <head>vt{NED} .Vt[0]oN</head>
                 <p/>
             </div>
-            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-b0235c05-795f-47f6-8503-94dcdea29ca1" resp="#CH" tls:created="2020-02-06T19:10:48.07+09:00">
-                <head>nab</head>
+            <div xmlns:tls="http://hxwd.org/ns/1.0" type="syn-func" xml:id="uuid-bcc6784e-113b-4efb-a147-8f92abec130b" resp="#CH" tls:created="2020-02-12T00:54:01.514+09:00">
+                <head>nab. prep N</head>
                 <p/>
             </div>
 </body>
