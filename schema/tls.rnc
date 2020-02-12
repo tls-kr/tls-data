@@ -6,6 +6,9 @@ namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
+namespace tls = "http://hxwd.org/ns/1.0"
+## CW [2020-02-11T12:07:30+0900]
+## hand edited after creation: added tls namespace and explicit namespace for @tls:created
 
 # Schema generated from ODD source 2019-01-28T02:05:11Z. .
 # TEI Edition: Version 3.4.0. Last updated on
@@ -947,6 +950,9 @@ ref =
         "antonymy"
       | 
         ##
+        "hypernymy"
+      | 
+        ##
         "wordnet"
       | 
         ##
@@ -1121,6 +1127,8 @@ entry =
       ##
       "word"
     }?,
+    ## Timestamp of creation of this element
+    attribute tls:created { text }?,
     empty
   }
 sense =
@@ -1145,6 +1153,8 @@ sense =
     att.global.responsibility.attribute.resp,
     att.global.source.attribute.source,
     att.lexicographic.attributes,
+    ## Timestamp of creation of this element
+    attribute tls:created { text }?,
     empty
   }
 form =
@@ -1448,6 +1458,8 @@ seg =
     att.typed.attributes,
     att.written.attributes,
     att.notated.attributes,
+    ## Timestamp of creation / modification of this element
+    attribute modified { text }?,
     empty
   }
 TEI =
@@ -1631,6 +1643,9 @@ body =
         ##
         "rhet-dev"
     }?,
+    
+    ## Timestamp of creation of this element
+    attribute tls:created { text }?,
     empty
   }
 model.persNamePart = notAllowed
