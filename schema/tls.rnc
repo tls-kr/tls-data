@@ -1273,6 +1273,8 @@ def =
     att.global.responsibility.attribute.resp,
     att.global.source.attribute.source,
     att.lexicographic.attributes,
+    attribute created { text }?,
+    attribute updated { text }?,
     empty
   }
 usg =
