@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR3b0003-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 孫子</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2020-04-28T23:05:27.71+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR3b0003-start">
+                    <seg xml:id="KR3b0003_tls_006-6a.8">
+                        <line>則吾之所與戰者約矣。
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="NOMINALISER" concept-id="uuid-3f58631a-9379-443a-8edf-1abffbdd8887" xml:id="uuid-a5de4348-ade4-41ac-9e43-48ade411ac68">
+                            <link target="#KR3b0003_tls_006-6a.8 #uuid-711f6486-f3e0-4888-9f64-86f3e0088836"/>
+                            <tls:text>
+                                <tls:srcline title="孫子" target="#KR3b0003_tls_006-6a.8" pos="4">則吾之所與戰者約矣。
+                    </tls:srcline>
+                                <tls:line title="孫子 (en)" transl-id="KR3b0003-en" src="???">our opponents will be in dire straits.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127" orig="">
+                                <orth>所</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">suǒ</pron>
+                            </form>
+                            <sense corresp="#uuid-711f6486-f3e0-4888-9f64-86f3e0088836">
+                                <gramGrp>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#uuid-bf847dfb-9995-4300-847d-fb9995230078">npro{OBJ}-Vt.adV</tls:syn-func>
+                                </gramGrp>
+                                <def>those Vt-ing which/whom the explicit or implicit subject V-ed or V-s</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2020-04-28T23:05:27.71+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2020-04-28T23:05:27.71+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
