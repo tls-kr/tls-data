@@ -232,7 +232,7 @@
                     <usg type="register">2</usg>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def>reason, grounds</def>
+  <def resp="#CH" updated="2020-04-30T00:32:25.821+09:00">e.g. 必有以也 "there must be a reason": reason, grounds</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-2a38702c-3b52-4dca-b563-2de6fdc3c6ee">
@@ -636,7 +636,7 @@
 <sense xml:id="uuid-19bb393a-822d-404e-a4f9-68663d6d6569">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+  <tls:syn-func corresp="#uuid-97afb4d8-1ca6-40fd-afb4-d81ca670fdf2">NPpro-V</tls:syn-func>
   <tls:sem-feat corresp="#uuid-887fdec5-f18d-4faf-8602-f5c5c2f99a1d">metaphysical</tls:sem-feat>
                 </gramGrp>
   <def>cause, the reason why something happened; the reason behind things</def>
@@ -647,6 +647,36 @@
                     <tls:syn-func corresp="#uuid-f74acc63-f01d-46a4-8899-5aa19d83a756">NPab.post-N</tls:syn-func>
                 </gramGrp>
                 <def>reason for N, cause of N</def>
+            </sense>
+            <sense xml:id="uuid-4c2c019d-5050-401c-ac01-9d5050401cdc" resp="#CH" tls:created="2020-04-28T03:35:17.533+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c627cfa-a1cb-47f6-8986-e4b0b4b7b3b0">NPadV.postN{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def>the reason why N V-s</def>
+            </sense>
+            <sense xml:id="uuid-d8125539-56c7-4495-9255-3956c7349554" resp="#CH" tls:created="2020-04-28T03:47:43.199+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NP-V</tls:syn-func>
+                </gramGrp>
+                <def>the agential cause of V</def>
+            </sense>
+            <sense xml:id="uuid-4e1b2643-7219-4a60-9b26-437219da6092" resp="#CH" tls:created="2020-04-28T20:57:51.102+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-97afb4d8-1ca6-40fd-afb4-d81ca670fdf2">NPpro-V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-43521eb2-fb4c-4757-a529-28f999c06e58">natural</tls:sem-feat>
+                </gramGrp>
+                <def>natural cause of V occurring</def>
+            </sense>
+            <sense xml:id="uuid-6fdb4788-1b91-4fbb-9b47-881b915fbb58" resp="#CH" tls:created="2020-04-28T21:05:40.897+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-97afb4d8-1ca6-40fd-afb4-d81ca670fdf2">NPpro-V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ee80ba53-f7eb-484d-b807-f36f9e0404a7">subjective</tls:sem-feat>
+                </gramGrp>
+                <def>the subjective reason for the explicit or implicit subject doing V</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-1317abbc-5b75-4422-917e-43e0f28d20ce">
@@ -903,6 +933,36 @@
                     <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
                 </gramGrp>
                 <def>that by reason of which something is so: reason, cause</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7ab9e7d7-168f-42bf-b9e7-d7168fc2bf20" resp="#CH" tls:created="2020-04-28T21:19:57.624+09:00">
+            <form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127 #uuid-067ccb92-367e-4550-b656-f8751cc3a917">
+                <orth>所由</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suǒ yóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srjoX yuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqraʔ liw</pron>
+            </form>
+            <sense xml:id="uuid-fcb50bbd-0c12-457d-b50b-bd0c12057d1d" resp="#CH" tls:created="2020-04-28T21:19:57.624+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-97afb4d8-1ca6-40fd-afb4-d81ca670fdf2">NPpro-V</tls:syn-func>
+                </gramGrp>
+                <def>the objective source and cause for there being V-ing </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-83761523-e01c-4084-b615-23e01c4084e0" resp="#CH" tls:created="2020-04-28T21:23:45.862+09:00">
+            <form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127 #uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33">
+                <orth>所自</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suǒ zì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srjoX dzijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqraʔ sblids</pron>
+            </form>
+            <sense xml:id="uuid-d3c87450-7199-4dd7-8874-507199cdd7d7" resp="#CH" tls:created="2020-04-28T21:23:45.862+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-97afb4d8-1ca6-40fd-afb4-d81ca670fdf2">NPpro-V</tls:syn-func>
+                </gramGrp>
+                <def>the objective cause from which the V-ing results</def>
             </sense>
         </entry>
     </div>
