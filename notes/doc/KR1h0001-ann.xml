@@ -2868,7 +2868,7 @@
                             <sense corresp="#uuid-00f54bf0-afd0-4f1f-b066-1a8280b567b3">
                                 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+  <tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func>
                 </gramGrp>
                                 <def>Liáng 梁 (CHEN PAN 1969, 450-453)</def>
                             </sense>
@@ -3126,6 +3126,35 @@
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2020-04-28T23:00:26.324+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR1h0001_tls_014-9a.9">
+                        <line>然則非自殺之也，
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="KILL" concept-id="uuid-16de396a-482f-44f4-bc0a-dd073c887f9b" xml:id="uuid-cddd0774-0e79-4d0a-9d07-740e795d0af4">
+                            <link target="#KR1h0001_tls_014-9a.9 #uuid-ef1ae482-d607-490d-9ae4-82d607190dfb"/>
+                            <tls:text>
+                                <tls:srcline title="孟子" target="#KR1h0001_tls_014-9a.9" pos="4">然則非自殺之也，
+                    </tls:srcline>
+                                <tls:line title="孟子 (en)" transl-id="KR1h0001-en-38198f10" src="David Sehnal; D.C. Lau">This being the case, though you may not have killed your father and brother with your own hands,</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285" orig="">
+                                <orth>自殺</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">zì shā sà</pron>
+                            </form>
+                            <sense corresp="#uuid-ef1ae482-d607-490d-9ae4-82d607190dfb">
+                                <gramGrp>
+                                    <pos>V</pos>
+                                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                                </gramGrp>
+                                <def>kill with one's own hands</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2020-05-06T20:15:36.04+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2020-05-06T20:15:36.04+09:00">CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
