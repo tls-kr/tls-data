@@ -1866,7 +1866,7 @@ SUBJECT-BINDING!;  [padV]
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
                 </gramGrp>
-  <def>each and all of you; each for yourselves</def>
+  <def resp="#CH" updated="2020-05-27T02:35:49.973+09:00">each and all of you; each for themselves</def>
             </sense>
 <sense xml:id="uuid-e74623bb-353a-4c2d-b0c1-a07b1184ae60">
 <gramGrp>
@@ -1995,7 +1995,14 @@ NOMINAL;  COLLECTIVE
                 </gramGrp>
   <def>all the world&gt; everyone everywhere</def>
             </sense>
-</entry>
+<sense xml:id="uuid-df47d47d-a653-4fb4-87d4-7da6534fb4c6" resp="#twharbsmeier" tls:created="2020-05-25T04:30:28.687+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>all; every</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-61576056-25fd-4831-b7d0-2a88f682b89e">
             <form corresp="#uuid-e631982d-2d74-45c8-a0a6-c97f0004630c #uuid-4ac1aa08-8f19-4eca-868f-3147990cdf68">
 <orth>彼此</orth>
@@ -2561,6 +2568,65 @@ NOMINAL;  COLLECTIVE
                     <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                 </gramGrp>
                 <def>on all sides</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9a154e3e-827e-4870-954e-3e827e7870e3" resp="#zadrapa" tls:created="2020-05-20T18:33:11.3+09:00">
+            <form corresp="#uuid-a9c6e96f-ca12-4f9d-a911-4988f6c5ea85">
+                <orth>扁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjienX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">benʔ</pron>
+            </form>
+            <sense xml:id="uuid-c89986dd-3e8b-4003-9986-dd3e8bb00355" resp="#zadrapa" tls:created="2020-05-20T18:33:11.3+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>= 遍, in all respects, in all points</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b0e2c950-5715-4364-a2c9-505715336485" resp="#zadrapa" tls:created="2020-05-20T19:28:07.314+09:00">
+            <form corresp="#uuid-1f591ac4-d6cb-4811-87c2-00c77bb9d902">
+                <orth>卒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tswit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skud</pron>
+            </form>
+            <sense xml:id="uuid-5024442f-831b-41e8-a444-2f831b91e8e9" resp="#zadrapa" tls:created="2020-05-20T19:28:07.314+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>rare (SHI): all</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d18bfb7f-d8e4-4178-8bfb-7fd8e4c178e6">
+            <form>
+                <orth>率</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuài</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-eee2c209-dff5-4336-a2c2-09dff57336cc" resp="#dsehnal" tls:created="2020-05-20T20:03:15.781+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>enclose all N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-317c28cf-49a0-4ae9-bc28-cf49a0fae937">
+            <form>
+                <orth>類</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lèi</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-2ff3c42f-4079-4c2c-b3c4-2f40792c2cfd" resp="#zadrapa" tls:created="2020-06-10T23:16:56.54+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat>
+                </gramGrp>
+                <def>to V all objects without distinctions, to V all wholesale</def>
             </sense>
         </entry>
     </div>
