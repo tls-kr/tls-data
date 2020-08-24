@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CH1a0904-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 新書</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2020-07-25T18:30:13.508+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="CH1a0904-start">
+                    <seg xml:id="CH1a0904_CHANT_008-9a.120">
+                        <line>故守道者謂之士，
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENTLEMAN" concept-id="uuid-36efaebe-58a9-4106-9ace-5dbcedf69de5" xml:id="uuid-6aa7d985-0839-44da-a7d9-850839c4daba">
+                            <link target="#CH1a0904_CHANT_008-9a.120 #uuid-5cabf7d8-b884-4386-8136-3e7cd6dd972a"/>
+                            <tls:text>
+                                <tls:srcline title="新書" target="#CH1a0904_CHANT_008-9a.120" pos="7">故守道者謂之士，
+                    </tls:srcline>
+                                <tls:line title="" transl-id="CH1a0904-en-89e2ee67" src="Christoph Harbsmeier"/>
+                            </tls:text>
+                            <form corresp="#uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e" orig="">
+                                <orth>士</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">shì</pron>
+                            </form>
+                            <sense corresp="#uuid-5cabf7d8-b884-4386-8136-3e7cd6dd972a">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-dbf270c9-0ec8-4757-8bd3-e79cd2fbc0e8">ideal</tls:sem-feat>
+                    <usg type="valuation">+</usg>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+                                <def resp="#CH" updated="2020-05-03T02:24:14.161+09:00">true gentleman; true scholar</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2020-07-25T18:30:13.508+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2020-07-25T18:30:13.508+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
