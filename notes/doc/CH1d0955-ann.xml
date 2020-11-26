@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CH1d0955-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 傷寒論</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2020-11-26T11:43:10.832+09:00</date> by chris</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="CH1d0955-start">
+                    <seg xml:id="CH1d0955_CHANT_005-1a.3">
+                        <line>脈浮，
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="PULSE" concept-id="uuid-bf3f42cc-0866-43c5-bf42-cc086653c5bf" xml:id="uuid-2d02d50c-d493-47d6-82d5-0cd49317d624">
+                            <link target="#CH1d0955_CHANT_005-1a.3 #uuid-9f8d1946-6543-411e-8d19-466543111e06"/>
+                            <tls:text>
+                                <tls:srcline title="傷寒論" target="#CH1d0955_CHANT_005-1a.3" pos="1">脈浮，
+                    </tls:srcline>
+                                <tls:line title="" transl-id="CH1d0955-en-4227b077" src="">the pulse is floating,</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-cd9d1a05-9bd0-47a8-8728-ccbb58844086 #uuid-12929538-224f-4f36-b361-15ef758be8e8" orig="">
+                                <orth>脈浮</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">mài fú</pron>
+                            </form>
+                            <sense corresp="#uuid-9f8d1946-6543-411e-8d19-466543111e06">
+                                <gramGrp>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat>
+                                </gramGrp>
+                                <def>a floating pulse</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2020-11-26T11:43:10.832+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2020-11-26T11:43:10.832+09:00">chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="CH1d0955_CHANT_005-1a.4">
+                        <line>頭項強痛而惡寒。
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="SYMPTOM" concept-id="uuid-bbe598b0-ba88-4dd5-a598-b0ba88cdd50a" xml:id="uuid-fb799a10-144d-4e5f-b99a-10144d4e5f6e">
+                            <link target="#CH1d0955_CHANT_005-1a.4 #uuid-f2eb2d9c-8fc3-48e8-ab2d-9c8fc3d8e87a"/>
+                            <tls:text>
+                                <tls:srcline title="傷寒論" target="#CH1d0955_CHANT_005-1a.4" pos="6">頭項強痛而惡寒。
+                    </tls:srcline>
+                                <tls:line title="" transl-id="CH1d0955-en-4227b077" src="">the head and nape are stiff and painful and [there is] aversion to cold</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-81c7a11f-b204-48dd-b228-d027cae32231 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6" orig="">
+                                <orth>惡寒</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">è hán</pron>
+                            </form>
+                            <sense corresp="#uuid-f2eb2d9c-8fc3-48e8-ab2d-9c8fc3d8e87a">
+                                <gramGrp>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat>
+                                </gramGrp>
+                                <def>aversion to cold</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2020-11-26T12:08:35.297+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2020-11-26T12:08:35.297+09:00">chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
