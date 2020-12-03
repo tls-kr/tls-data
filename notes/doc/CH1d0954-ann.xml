@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CH1d0954-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 金匱要略</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2020-12-01T14:12:35.852+09:00</date> by chris</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="CH1d0954-start">
+                    <seg xml:id="CH1d0954_CHANT_010-2a.2">
+                        <line>病者腹滿，
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="MEDICAL TERMS" concept-id="uuid-f2b3a50f-816c-11eb-ba56-a9a90876f6fd" xml:id="uuid-0608ccdb-0ccd-4383-88cc-db0ccd738368">
+                            <link target="#CH1d0954_CHANT_010-2a.2 #uuid-595681fd-31e0-11eb-ba56-a9a90876f6fd"/>
+                            <tls:text>
+                                <tls:srcline title="金匱要略" target="#CH1d0954_CHANT_010-2a.2" pos="3">病者腹滿，
+                    </tls:srcline>
+                                <tls:line title="" transl-id="CH1d0954-en-1f14897c" src=""/>
+                            </tls:text>
+                            <form corresp="" orig="">
+                                <orth>腹滿</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">fù mǎn</pron>
+                            </form>
+                            <sense corresp="#uuid-595681fd-31e0-11eb-ba56-a9a90876f6fd">
+                                <gramGrp>
+<pos>N</pos>
+<tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+</gramGrp>
+                                <def>abdominal fullness</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2020-12-01T14:12:35.852+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2020-12-01T14:12:35.852+09:00">chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
