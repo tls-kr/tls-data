@@ -251,7 +251,7 @@
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
                 </gramGrp>
-  <def>ruler</def>
+  <def resp="#zadrapa" updated="2020-12-07T03:07:01.745+09:00">ruler; superiors</def>
             </sense>
 <sense xml:id="uuid-44f16356-fee7-4c12-a744-eb275928349f">
 <gramGrp>
@@ -1424,7 +1424,14 @@
                 </gramGrp>
   <def>the former king; the first king</def>
             </sense>
-</entry>
+<sense xml:id="uuid-aae0f9fa-07e3-4d62-a0f9-fa07e34d62df" resp="#zadrapa" tls:created="2020-12-15T19:04:06.57+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-5f1232de-114c-4cba-892c-ac73e28251db">NP(adN)</tls:syn-func>
+                </gramGrp>
+                <def>the contextually determinate N (words, deeds, methods etc.) pertaining to the "former kings"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-42a5b522-1b46-44ba-b34f-3cfb5ca81ddc">
             <form corresp="#uuid-70c383f8-2df7-4ea7-b7de-c35874bb4e03 #uuid-e07fe193-03e5-4249-9fa8-ce8fd1221890">
 <orth>公侯</orth>
@@ -2908,6 +2915,22 @@
                     <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
                 </gramGrp>
                 <def>the hundred kings, all the kings that were and are</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1a677694-ee61-45ee-a776-94ee6165ee4f" resp="#zadrapa" tls:created="2021-02-16T05:25:36.284+09:00">
+            <form corresp="#uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461 #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>君者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jūn zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjun tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klun kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-ee1ee42e-88b7-4702-9ee4-2e88b7d702e1" resp="#zadrapa" tls:created="2021-02-16T05:25:36.284+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>ruler</def>
             </sense>
         </entry>
     </div>

@@ -730,7 +730,7 @@
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
   <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
                 </gramGrp>
-  <def>make a display of (oneself)</def>
+  <def resp="#CH" updated="2020-12-14T19:42:47.723+09:00">show off; make a display of (oneself)</def>
             </sense>
 <sense xml:id="uuid-a2cdce1f-ac06-47cf-bba4-c76ac1374db5">
 <gramGrp>
@@ -945,6 +945,13 @@
                 </gramGrp>
                 <def>show things to N2</def>
             </sense>
+            <sense xml:id="uuid-3cd26040-07fc-4b23-9260-4007fc5b2334" resp="#zadrapa" tls:created="2021-01-24T04:56:18.527+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>show something N1 to someone N2</def>
+            </sense>
         </entry>
 <entry type="word" xml:id="uuid-ecc96185-b0bc-4504-99da-94fe948cbfc4">
             <form corresp="#uuid-03d9b60a-ce02-40ba-b84c-881d47296ee0">
@@ -1157,7 +1164,14 @@
                 </gramGrp>
   <def>show</def>
             </sense>
-</entry>
+<sense xml:id="uuid-07edc636-d273-4fc2-adc6-36d2732fc26d" resp="#zadrapa" tls:created="2020-12-16T05:54:18.081+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cbb92823-4092-4552-8cbd-4883113a5422">vttoN1+.vtoN2</tls:syn-func>
+                </gramGrp>
+                <def>show N2 to N1 (觀人以言)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0913ef9-1929-49a0-bd93-6eefa0417274">
             <form corresp="#uuid-ade59e07-68ff-4f50-9a96-585699d3822d">
 <orth>赤</orth>
@@ -1674,6 +1688,43 @@
                     <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                 </gramGrp>
                 <def>= jie1 揭: to reveal N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e97701b0-0a32-4836-b701-b00a324836e0">
+            <form>
+                <orth>含</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hán</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-e032b724-525c-4862-b2b7-24525c186213" resp="#CH" tls:created="2020-12-16T04:49:12.264+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>shown up discreetly, disclosed subtly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1d91ec06-b05c-4e5e-91ec-06b05c6e5e3d" resp="#zadrapa" tls:created="2021-01-18T01:34:58.451+09:00">
+            <form corresp="#uuid-bed2b99f-ad58-481f-ac4f-207161a87183">
+                <orth>箸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trjoH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-las</pron>
+            </form>
+            <sense xml:id="uuid-cc79df05-6445-420d-b9df-056445c20d61" resp="#zadrapa" tls:created="2021-01-18T01:34:58.451+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>(= zhu4 著) be manifested, be on display</def>
+            </sense>
+            <sense xml:id="uuid-be487efe-5994-4f4f-887e-fe59945f4f90" resp="#zadrapa" tls:created="2021-01-19T21:06:46.484+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>make visible, manifest</def>
             </sense>
         </entry>
     </div>
