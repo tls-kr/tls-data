@@ -202,7 +202,7 @@
 <sense xml:id="uuid-7b29d2bc-ef10-41aa-96b1-8f05526ca171">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+  <tls:syn-func corresp="#uuid-7a4133be-e74d-4d58-8133-bee74dbd5819">npro(post-N)</tls:syn-func>
   <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
                 </gramGrp>
   <def>anyone else</def>
@@ -243,7 +243,7 @@
             <sense xml:id="uuid-29b009b3-12f8-40b1-aaed-59a2aba1a3ae" resp="#CH" tls:created="2019-12-19T19:38:32.95+09:00">
                 <gramGrp>
                     <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-7e8362bc-05dc-450b-8fe6-d2c3bd6c0510">npostVt</tls:syn-func>
+                    <tls:syn-func corresp="#uuid-35c8870c-f27c-431e-8887-0cf27c931ee6">npro(post-N.)postVt</tls:syn-func>
                     <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
                 </gramGrp>
                 <def>others, some other people</def>
@@ -283,9 +283,17 @@
             <sense xml:id="uuid-6a0b6257-933d-4c28-8b62-57933dec288e" resp="#CH" tls:created="2020-07-02T23:34:53.358+09:00">
                 <gramGrp>
                     <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+                    <tls:syn-func corresp="#uuid-7a4133be-e74d-4d58-8133-bee74dbd5819">npro(post-N)</tls:syn-func>
                 </gramGrp>
                 <def>someone else</def>
+            </sense>
+            <sense xml:id="uuid-1eeabb96-caea-435b-aabb-96caeab35b8b" resp="#CH" tls:created="2020-12-14T22:04:53.735+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7a4133be-e74d-4d58-8133-bee74dbd5819">npro(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-792d0c88-0cc3-4051-85bc-a81539f27ae9">definite</tls:sem-feat>
+                </gramGrp>
+                <def>the others (apart from the contextually determinate N)</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-1c737cb0-eb21-45b6-a5a7-043bf190fc67">
@@ -993,6 +1001,21 @@
                     <tls:syn-func corresp="#">nadN</tls:syn-func>
                 </gramGrp>
                 <def>other</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a5133549-3a44-49be-9335-493a4459befe" resp="#CH" tls:created="2021-03-30T23:40:24.416+09:00">
+            <form corresp="#uuid-13793ffa-2522-4ed6-836b-a0ad993225b1">
+                <orth>民</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mín</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">min</pron>
+            </form>
+            <sense xml:id="uuid-ee54cd6b-6600-4891-94cd-6b660088914c" resp="#CH" tls:created="2021-03-30T23:40:24.416+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>other people</def>
             </sense>
         </entry>
     </div>

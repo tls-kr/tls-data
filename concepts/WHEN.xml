@@ -115,7 +115,21 @@
                 </gramGrp>
   <def>within, during (a period of time)</def>
             </sense>
-</entry>
+<sense xml:id="uuid-c19623bd-2869-46f3-9623-bd2869a6f365" resp="#zadrapa" tls:created="2020-12-14T19:16:44.636+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-.N+ZHI</tls:syn-func>
+                </gramGrp>
+                <def>in times of N (e.g. 五帝之中)</def>
+            </sense>
+            <sense xml:id="uuid-b56bae68-c48c-43c3-abae-68c48c13c3fc" resp="#zadrapa" tls:created="2021-01-20T18:42:46.222+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-dd90d96d-d346-4c2d-a55a-f73454272076">npost-.N+ZHI:adS</tls:syn-func>
+                </gramGrp>
+                <def>during N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cd825839-6154-49d2-9cbd-8007c8e175c4">
             <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
 <orth>之</orth>
@@ -212,7 +226,15 @@
                 </gramGrp>
   <def>after V1-ing, when V1-ing</def>
             </sense>
-</entry>
+<sense xml:id="uuid-099087d5-63c6-49b4-a140-5351a388b957" resp="#CH" tls:created="2020-01-13T05:02:15.241+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-3581bd7e-96e5-43e7-a25a-bffcab0e57a0">ppostadNPab{S}. V{PRED}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f7823965-d29e-4ca7-ab59-52cfeb09515c">temporal</tls:sem-feat>
+                </gramGrp>
+                <def>marking temporal subordinate clause: When</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-037eb822-1848-4d8c-94ea-6a9eff9048de">
             <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
 <orth>以</orth>
@@ -257,7 +279,7 @@
 <sense xml:id="uuid-7e2a1160-a83c-468c-abfc-5ecbcce1daff">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-da183583-38b2-44d1-8165-a48331d55847">npro.adV</tls:syn-func>
+  <tls:syn-func corresp="#uuid-ae637c3f-2779-4c16-a37c-3f27796c1674">npro. V{PRED}:adS</tls:syn-func>
   <tls:sem-feat corresp="#uuid-fdf3d3fb-65d2-4464-9e07-f382c3501dfd">time when</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
@@ -1369,6 +1391,36 @@
                     <tls:syn-func corresp="#">npro.post-V.adS</tls:syn-func>
                 </gramGrp>
                 <def>when, as soon as, once the subject had V-ed, then</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9ad437de-fcb0-42be-9437-defcb0e2be20" resp="#zadrapa" tls:created="2021-01-12T21:22:28.802+09:00">
+            <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce">
+                <orth>假</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-a2ec40a6-9308-4791-ac40-a69308679159" resp="#zadrapa" tls:created="2021-01-12T21:22:28.802+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2231d306-0fde-487d-bf64-ae174f755516">vtoN.adS</tls:syn-func>
+                </gramGrp>
+                <def>at the time N (XUN)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b4098389-662f-4df2-8983-89662f6df2cb" resp="#zadrapa" tls:created="2021-01-22T00:56:25.538+09:00">
+            <form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4 #uuid-96531443-3f78-46d7-8f56-ec8c3fc44c0b">
+                <orth>至於</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijH 'jo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljiɡs qa</pron>
+            </form>
+            <sense xml:id="uuid-eb3ec526-60a4-4d99-bec5-2660a42d9971" resp="#zadrapa" tls:created="2021-01-22T00:56:25.538+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e4c3e975-0ac1-4b9a-85d5-147295aa7651">VPtoN.adS</tls:syn-func>
+                </gramGrp>
+                <def>when it was N's turn</def>
             </sense>
         </entry>
     </div>

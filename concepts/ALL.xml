@@ -407,7 +407,7 @@
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>each person</def>
+  <def resp="#CH" updated="2021-03-14T00:37:42.258+09:00">each person; everyone</def>
             </sense>
 <sense xml:id="uuid-52e4fcf2-059e-499d-9a9c-a048cf7bcd02">
 <gramGrp>
@@ -522,7 +522,7 @@
   <tls:sem-feat corresp="#uuid-d1cf7a99-5f60-4ba5-ac4d-ce56db9366bd">quantifier</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>all the subjects; the whole lot of the subjects at the same time</def>
+  <def resp="#twharbsmeier" updated="2021-01-25T05:00:00.221+09:00">all the subjects equally or in unison; the whole lot of the subjects at the same time</def>
             </sense>
 <sense xml:id="uuid-be78c5a1-9a26-464c-9eee-a8f45514499f">
 <gramGrp>
@@ -1359,7 +1359,14 @@ SUBJECT-BINDING!;  [padV]
                 </gramGrp>
   <def resp="#CH" updated="2020-04-28T22:59:11.664+09:00">the whole lot of the subjects; all subjects indiscriminately, all subjects without exceptions; without exception</def>
             </sense>
-</entry>
+<sense xml:id="uuid-635eee4a-3133-459f-9eee-4a3133e59f3f" resp="#zadrapa" tls:created="2020-12-14T19:00:21.129+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the totality of phenomena</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d946e34b-e4a2-48ff-9b6d-97522baabfbb">
             <form corresp="#uuid-18f9f0fa-f6c8-4b5f-b01e-2eb769c2d2c1">
 <orth>眾</orth>
@@ -1993,7 +2000,7 @@ NOMINAL;  COLLECTIVE
   <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
-  <def>all the world&gt; everyone everywhere</def>
+  <def resp="#CH" updated="2021-03-14T00:20:17.683+09:00">everyonein the world; mankind; all the world&gt; everyone everywhere</def>
             </sense>
 <sense xml:id="uuid-df47d47d-a653-4fb4-87d4-7da6534fb4c6" resp="#twharbsmeier" tls:created="2020-05-25T04:30:28.687+09:00">
                 <gramGrp>
@@ -2001,6 +2008,13 @@ NOMINAL;  COLLECTIVE
                     <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
                 </gramGrp>
                 <def>all; every</def>
+            </sense>
+            <sense xml:id="uuid-4ec6c2e5-5e27-4bcf-86c2-e55e278bcfbc" resp="#zadrapa" tls:created="2021-02-25T23:56:15.163+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>universal</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-61576056-25fd-4831-b7d0-2a88f682b89e">
@@ -2627,6 +2641,36 @@ NOMINAL;  COLLECTIVE
                     <tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat>
                 </gramGrp>
                 <def>to V all objects without distinctions, to V all wholesale</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f3692b0f-7a3d-4789-a92b-0f7a3d7789e0" resp="#zadrapa" tls:created="2021-01-20T19:15:10.696+09:00">
+            <form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f">
+                <orth>曲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjowk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoɡ</pron>
+            </form>
+            <sense xml:id="uuid-fd4c4d65-634f-4863-8c4d-65634f386387" resp="#zadrapa" tls:created="2021-01-20T19:15:10.696+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def>in all cases</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-328b6cb4-07e6-48e2-8b6c-b407e668e216" resp="#CH" tls:created="2021-03-19T00:34:09.126+09:00">
+            <form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87 #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-b2212e7b-bc14-4588-9768-11921a8c1469">
+                <orth>莫不俱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mò bù jù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mak pjut gjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">maaɡ pɯʔ ɡos</pron>
+            </form>
+            <sense xml:id="uuid-8e1a4c56-d072-42e4-9a4c-56d07232e467" resp="#CH" tls:created="2021-03-19T00:34:09.126+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+                <def>all</def>
             </sense>
         </entry>
     </div>
