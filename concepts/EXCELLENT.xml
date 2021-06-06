@@ -601,7 +601,7 @@
 <sense xml:id="uuid-b52bd4fa-682a-4654-a461-2a4a718110ad" resp="#CH" tls:created="2019-12-04T00:21:09.262+09:00">
                 <gramGrp>
                     <pos>V</pos>
-                    <tls:syn-func corresp="#">vtoV</tls:syn-func>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
                 </gramGrp>
                 <def>be good at V-ing</def>
             </sense>
@@ -669,7 +669,15 @@
                 </gramGrp>
   <def>esteem highly; experience as exquisite, find exquisiste; appreciate as exquisite</def>
             </sense>
-</entry>
+<sense xml:id="uuid-532eba3b-63ac-4e41-aeba-3b63ac8e41e9" resp="#dsehnal" tls:created="2021-05-27T02:12:20.406+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e57cd330-14b4-49ad-bcd3-3014b4b9ad6f">putative; passive</tls:sem-feat>
+                </gramGrp>
+                <def>be esteemed highly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-509f2aa2-cfa3-4c90-a766-0cd01638e7f0">
             <form corresp="#uuid-9dabc90d-3898-4b2c-acad-23f3547652df">
 <orth>墳</orth>
@@ -694,11 +702,11 @@
             </form>
 </entry>
 <entry type="word" xml:id="uuid-c1478e79-de1c-4563-970c-d1cab2cc674d">
-            <form>
-<orth>奇</orth>
-                <pron xml:lang="zh-Latn-x-pinyin"/>
-                <pron xml:lang="zh-x-oc"/>
-                <pron xml:lang="zh-x-mc"/>
+            <form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4">
+                <orth>奇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron>
             </form>
 <sense xml:id="uuid-61a8dbb6-d9cc-44a2-90ac-9f22a2328b8f">
 <gramGrp>
@@ -2664,6 +2672,36 @@
                     <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
                 </gramGrp>
                 <def>unique, original and excellent</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7043c133-ecaf-4ca4-83c1-33ecafbca430" resp="#dsehnal" tls:created="2021-04-29T19:41:19.811+09:00">
+            <form corresp="#uuid-002b7b26-891f-4a94-9665-c952b8ed7b45">
+                <orth>儁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tswinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsuns</pron>
+            </form>
+            <sense xml:id="uuid-e05da58a-e6c3-48fa-9da5-8ae6c338fae0" resp="#dsehnal" tls:created="2021-04-29T19:41:19.811+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>excellent; outstanding (variant of 俊)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-90f7302a-922b-400e-b730-2a922b500e78" resp="#dsehnal" tls:created="2021-05-06T00:50:01.724+09:00">
+            <form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848 #uuid-cb379ba3-140b-4384-84e3-e9781f11c742">
+                <orth>高足</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gāo zú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- tsjowk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koow tsoɡ</pron>
+            </form>
+            <sense xml:id="uuid-3c16d8f0-0ce5-41dc-96d8-f00ce501dc8b" resp="#dsehnal" tls:created="2021-05-06T00:50:01.724+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>excellent; talented; the best </def>
             </sense>
         </entry>
     </div>
