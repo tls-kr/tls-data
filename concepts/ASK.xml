@@ -580,9 +580,16 @@
             <sense xml:id="uuid-4a545fb6-dd06-4eab-945f-b6dd060eaba8" resp="#dsehnal" tls:created="2020-05-11T14:22:34.853+09:00">
                 <gramGrp>
                     <pos>V</pos>
-                    <tls:syn-func corresp="#uuid-382f14ec-c954-4f1a-af14-ecc954cf1a74">vtt(oN.) S</tls:syn-func>
+                    <tls:syn-func corresp="#uuid-5d69022a-f6d3-44c0-a902-2af6d374c032">vtt(oN.)+S</tls:syn-func>
                 </gramGrp>
                 <def resp="#dsehnal" updated="2020-05-11T14:28:53.731+09:00">ask the contextually determinate interlocutor N the question S</def>
+            </sense>
+            <sense xml:id="uuid-005f90a9-12fe-4963-9f90-a912fe896382" resp="#CH" tls:created="2021-05-22T04:35:28.103+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-54344c6a-5a9b-4197-b44c-6a5a9b11971b">vt+prep+N.+vtoS</tls:syn-func>
+                </gramGrp>
+                <def>問於莊子曰 ask N the question S</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-360925ac-112a-45c1-a1dd-645b727cb26a">
@@ -776,6 +783,14 @@
                 </gramGrp>
                 <def>ask about the proposition S</def>
             </sense>
+            <sense xml:id="uuid-8aeb1f5c-72ea-4b83-ab1f-5c72ea7b8329" resp="#CH" tls:created="2021-05-22T04:41:28.414+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoV[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1a11c807-97ca-4b3c-91c8-0797caab3cdc">same subject</tls:sem-feat>
+                </gramGrp>
+                <def>may I ask the question about my doing V</def>
+            </sense>
         </entry>
 <entry type="word" xml:id="uuid-a69af97b-e4fc-4e1b-a971-66335b63bf39">
             <form corresp="#uuid-ba221821-420a-4780-9dbe-3fdc35432b96">
@@ -820,7 +835,7 @@
   <tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>address someone with a question</def>
+  <def resp="#CH" updated="2021-05-17T20:00:48.351+09:00">address someone （with a question）</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-b520f785-3c72-48e0-8f64-d0e2e1919bf6">
@@ -1219,5 +1234,20 @@
   <def>ask advice of; consult</def>
             </sense>
 </entry>
+    <entry type="word" xml:id="uuid-1c57a9e2-e609-4daf-97a9-e2e6091daf6b" resp="#CH" tls:created="2021-05-21T23:09:04.806+09:00">
+            <form corresp="#uuid-010b482a-10ee-43d9-b340-acd4861b7fdb #uuid-c9c937e3-074a-464a-a478-e0b72fdba4b6">
+                <orth>請曰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǐng yuē</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjengX hjwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋʔ ɢʷad</pron>
+            </form>
+            <sense xml:id="uuid-925a4993-7fa1-419a-9a49-937fa1019af0" resp="#CH" tls:created="2021-05-21T23:09:04.806+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func>
+                </gramGrp>
+                <def>ask the question S</def>
+            </sense>
+        </entry>
     </div>
 </div>

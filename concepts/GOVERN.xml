@@ -676,7 +676,7 @@
 <sense xml:id="uuid-37eb6fea-b6bf-4b98-8e23-914d330dbb07">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:syn-func corresp="#uuid-97451943-8c05-482c-9e62-d7bb49c4fb4e">nab(post-N{OBJ})</tls:syn-func>
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
@@ -694,7 +694,7 @@
 <sense xml:id="uuid-601cd532-c835-4efc-9eb0-f7671cb7703b">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:syn-func corresp="#uuid-97451943-8c05-482c-9e62-d7bb49c4fb4e">nab(post-N{OBJ})</tls:syn-func>
   <tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
@@ -703,7 +703,7 @@
 <sense xml:id="uuid-5ae3535c-0daa-4543-905e-ec11c3a7815b">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:syn-func corresp="#uuid-97451943-8c05-482c-9e62-d7bb49c4fb4e">nab(post-N{OBJ})</tls:syn-func>
   <tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
@@ -989,6 +989,13 @@
                 </gramGrp>
                 <def>principles of good government</def>
             </sense>
+            <sense xml:id="uuid-50b8cbdf-2ff0-49a3-b8cb-df2ff069a302" resp="#zadrapa" tls:created="2021-05-23T20:46:10.202+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>well-governed; in order thanks to good government</def>
+            </sense>
         </entry>
 <entry type="word" xml:id="uuid-b1dcf29d-1e1e-469d-98b7-9ab36135604e">
             <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
@@ -1054,7 +1061,7 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                 </gramGrp>
-  <def>to shepherd, take care of, take good care of, be responsible for the welfare of</def>
+  <def resp="#CH" updated="2021-05-12T23:43:19.461+09:00">(of a shepherd) to shepherd, (of a person in charge) take care of (men or animals), take good care of (a population etc), be responsible for the welfare of (the people etc)</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-e0ad6de9-50b6-49c7-98c1-d0950ddf78d7">
@@ -1465,6 +1472,7 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
+                <tls:sem-feat corresp="#">perfective</tls:sem-feat>
                 </gramGrp>
   <def>deal with administratively;   deal with effectively; come to be in effective control of, dominate; take spiritual charge of</def>
             </sense>
@@ -2116,7 +2124,15 @@
                 </gramGrp>
   <def>govern in a principled way</def>
             </sense>
-</entry>
+<sense xml:id="uuid-4ffa90a7-a015-4b68-ba90-a7a015fb685a" resp="#zadrapa" tls:created="2021-05-18T17:44:32.746+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-aa4eeac5-49f8-4634-82fe-7314e75adbc1">middle</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-05-19T19:18:13.793+09:00">walk along a certain way &gt; govern oneself</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1255bb9a-d985-4d7e-9e29-2f06eec73c9a">
             <form corresp="#uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f">
 <orth>平</orth>
@@ -2280,6 +2296,21 @@
                     <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
                 </gramGrp>
                 <def>direct and be in charge of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-df04002e-f91a-4f9e-8400-2ef91a3f9efc" resp="#zadrapa" tls:created="2021-05-24T22:09:19.487+09:00">
+            <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50 #uuid-751ac14e-d615-4744-b561-4d701959e41a">
+                <orth>為治</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH driH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal rlɯs</pron>
+            </form>
+            <sense xml:id="uuid-6faf7e35-2d20-4a91-af7e-352d206a91dd" resp="#zadrapa" tls:created="2021-05-24T22:09:19.487+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>"make politics &gt;" engage in the administration of a state, participate in politics</def>
             </sense>
         </entry>
     </div>
