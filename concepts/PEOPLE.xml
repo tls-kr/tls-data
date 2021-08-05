@@ -505,7 +505,7 @@
 <sense xml:id="uuid-a3d00843-68f3-4b3a-ba42-a00dd3a0d436">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-e10deff9-deeb-45fc-a1a1-c35bf9779155">nm+V{PRED}</tls:syn-func>
+  <tls:syn-func corresp="#uuid-18d0e449-b889-42e5-90e4-49b889d2e5d6">nm(post-N.)+V</tls:syn-func>
   <tls:sem-feat corresp="#uuid-bffb0573-9813-4b95-95b4-87cd47edc88c">agent</tls:sem-feat>
                 </gramGrp>
   <def>the people (as subjects of action)</def>
@@ -1300,7 +1300,7 @@
   <tls:syn-func corresp="#uuid-571d47c2-3f81-44cb-962c-e5fac729aa8a">NP{vadN}</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def resp="#zadrapa" updated="2020-06-18T23:16:16.387+09:00">the numerous humans, the common people;</def>
+  <def resp="#CH" updated="2021-07-13T23:51:58.69+09:00">the numerous humans, the common registered and taxable people;</def>
             </sense>
 <sense xml:id="uuid-aa71e6db-6b25-44e1-9698-1921b85419d1">
 <gramGrp>
@@ -1308,7 +1308,7 @@
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
   <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
                 </gramGrp>
-  <def>an ordinary person</def>
+  <def resp="#CH" updated="2021-07-13T23:51:55.965+09:00">an ordinary registered and taxable person</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-853f85f9-e119-4d2f-8f8b-3ff4d2f29881">
@@ -1421,7 +1421,7 @@
   <tls:syn-func corresp="#uuid-e144e5f3-6f48-434b-ad41-3e76234cca69">NP{N1adN2}</tls:syn-func>
   <tls:sem-feat corresp="#uuid-81474f89-46c7-4ce9-8c91-93eff5e3cf62">collective</tls:sem-feat>
                 </gramGrp>
-  <def>population; the people in general</def>
+  <def resp="#CH" updated="2021-07-14T00:06:26.799+09:00">population; the people in general including the registered/taxed as well as the untaxed freelancers</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-f5fd5535-b6d8-468e-b124-e21b5ec121a3">
@@ -1682,7 +1682,7 @@
   <tls:syn-func corresp="#uuid-571d47c2-3f81-44cb-962c-e5fac729aa8a">NP{vadN}</tls:syn-func>
   <tls:sem-feat corresp="#uuid-b6dffda3-770c-4e82-8329-6903528b1ab9">common</tls:sem-feat>
                 </gramGrp>
-  <def>the (taxpaying) people (i.e. the entire population, particularly the common people like the peasants)</def>
+  <def resp="#CH" updated="2021-07-10T02:41:46.253+09:00">the general public; the (taxpaying) people (i.e. the entire population, particularly the common people like the peasants, often apparently excluding the non-tax-paying dependents)</def>
             </sense>
 <sense xml:id="uuid-a444f885-b28f-4c6f-94a1-7d921359df54">
 <gramGrp>
@@ -1720,6 +1720,7 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-6a061076-9f61-43ed-9b5e-2cfcedc1de01">NPpostVt</tls:syn-func>
+                <tls:sem-feat corresp="#uuid-7bbb1c42-06ca-4f3b-81e5-682c75fe8eaa">object</tls:sem-feat>
                 </gramGrp>
   <def>the people (as grammatical object)</def>
             </sense>
@@ -2486,6 +2487,22 @@
                     <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
                 </gramGrp>
                 <def>the common people (of an area)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-90af59fd-3199-4042-af59-fd319960428b" resp="#CH" tls:created="2021-06-30T16:11:51.755+09:00">
+            <form corresp="#uuid-0a012566-0167-45d2-9eb2-66a2a622748c #uuid-13793ffa-2522-4ed6-836b-a0ad993225b1">
+                <orth>恆民</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">héng mín</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hong mjin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯɯŋ min</pron>
+            </form>
+            <sense xml:id="uuid-c99150ff-a546-4d67-9150-ffa5467d6794" resp="#CH" tls:created="2021-06-30T16:11:51.755+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPad.VtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-692f6560-7ed5-47bc-b3b7-a50c4f915c03">reference=N</tls:sem-feat>
+                </gramGrp>
+                <def>(Vt the N) as if they were ordinary people</def>
             </sense>
         </entry>
     </div>
