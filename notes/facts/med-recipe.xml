@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="obs-med-recipe">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Observations of Recipes</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2021-12-09T09:56:44.615+09:00</date>.</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Items</head>
+                <tls:span xmlns:tls="http://hxwd.org/ns/1.0" type="dummy" xml:id="uuid-test"/>
+                <tls:span xmlns:tls="http://hxwd.org/ns/1.0" name="厚朴三物湯方" type="med-recipe" xml:id="uuid-876cc806-fa84-4447-acc8-06fa848447f2" resp="#chris" modified="2021-12-09T09:56:44.615+09:00">
+                    <tls:text role="span-start">
+                        <tls:srcline title="金匱要略" target="#CH1d0954_CHANT_010-9a.2">厚朴三物湯方：</tls:srcline>
+                    </tls:text>
+                    <tls:text role="span-end">
+                        <tls:srcline title="金匱要略" target="#CH1d0954_CHANT_010-9a.13">以利為度。</tls:srcline>
+                    </tls:text>
+                    <tls:contents>
+                        <tls:drug xml:id="uuid-cc5677ff-6eda-4a55-9677-ff6edaea551f" ref="#uuid-4879e2a2-3180-11eb-ba56-a9a90876f6fd" target="#CH1d0954_CHANT_010-9a.3" concept="MATERIA MEDICA" concept-id="uuid-42a8724f-316c-11eb-ba56-a9a90876f6fd" quantity="八兩">厚朴</tls:drug>
+                        <tls:drug xml:id="uuid-069d3c9a-be47-4078-9d3c-9abe473078cf" ref="#uuid-4879e33c-3180-11eb-ba56-a9a90876f6fd" target="#CH1d0954_CHANT_010-9a.4" concept="MATERIA MEDICA" concept-id="uuid-42a8724f-316c-11eb-ba56-a9a90876f6fd" quantity="四兩">大黃</tls:drug>
+                        <tls:drug xml:id="uuid-aeac0a20-5349-4fd1-ac0a-205349efd1b3" ref="#uuid-488c03d4-3180-11eb-ba56-a9a90876f6fd" target="#CH1d0954_CHANT_010-9a.5" concept="MATERIA MEDICA" concept-id="uuid-42a8724f-316c-11eb-ba56-a9a90876f6fd" quantity="五枚">枳實</tls:drug>
+                    </tls:contents>
+                </tls:span>
+            </div>
+        </body>
+    </text>
+</TEI>
