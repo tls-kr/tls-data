@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="facts-def">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Observations in the TLS</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Published electronically</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created <date when-iso="2021-11-30">November 30, 2021</date>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+                <p>This document contains the definitions for the types of facts to be observed and
+                    the features to be collected. The actual observations will go into
+                    'tls-data/notes/obl/&lt;fact-code&gt;/', where the fact code is the unique type
+                    defined for the fact in this document.</p>
+            </div>
+        </front>
+        <body>
+            <div xml:id="rhetdev" type="block" rend="background-color: #fcf8e3;">
+                <head>Rhetorical Device</head>
+            </div>            
+            <div xml:id="med-recipe" type="block" rend="background-color: #fcf8e3;">
+                <head>Recipe</head>
+                <list type="translations">
+                    <item xml:lang="zh">方</item>
+                    <item xml:lang="och">方</item>
+                </list>
+
+            </div>
+
+            <div xml:id="med-ingredient" rend="background-color:brown;" type="inline">
+                <head>Ingredient</head>
+                <list type="translations">
+                    <item xml:lang="zh">藥</item>
+                    <item xml:lang="och">藥</item>
+                </list>
+            </div>
+            <div xml:id="med-condition" rend="color:brown;" type="inline">
+                <head>Disease condition</head>
+                <list type="translations">
+                    <item xml:lang="zh">證</item>
+                    <item xml:lang="och">證</item>
+                </list>
+            </div>
+            <div xml:id="person" rend="color:red;" type="inline">
+                <head>Person</head>
+                <list type="translations">
+                    <item xml:lang="zh">人物</item>
+                    <item xml:lang="och">人</item>
+                </list>
+                <list>
+                    <item n="ident">External Identifier (wikidata, cbdb, authority)</item>
+                </list>
+            </div>
+            
+            <div xml:id="place" rend="color:green;" type="inline">
+                <head>Place</head>
+                <list type="translations">
+                    <item xml:lang="zh">地名</item>
+                    <item xml:lang="och">地</item>
+                </list>
+                <list>
+                    <item n="ident">External Identifier (wikidata, cbdb, authority)</item>
+                </list>
+            </div>
+            <div xml:id="zen-entry" type="block" rend="background-color: #fcf8e3;">
+                <head>Biographical entry</head>
+                <list type="translations">
+                    <item xml:lang="zh">傳記</item>
+                    <item xml:lang="och">傳</item>
+                </list>
+
+            </div>
+        </body>
+    </text>
+</TEI>
