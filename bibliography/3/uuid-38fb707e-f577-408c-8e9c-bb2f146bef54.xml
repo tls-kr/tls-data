@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-38fb707e-f577-408c-8e9c-bb2f146bef54" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Aichun</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Guo</namePart>
-<namePart type="given" lang="Chinese" script="">靄春</namePart>
-<namePart type="family" lang="Chinese" script="">郭</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Aichun</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Guo</namePart>
+<namePart type="given" lang="chi" script="Hant">靄春</namePart>
+<namePart type="family" lang="chi" script="Hant">郭</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>黃帝內經詞典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Huangdi neijing cidian</title>
     </titleInfo>
 <originInfo>
@@ -24,8 +24,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">1296 pages, wonderfully detailed dictionary.</note>
-<note type="topics">Medicine</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">GUO AICHUN 1991</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="medicine">Medicine</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

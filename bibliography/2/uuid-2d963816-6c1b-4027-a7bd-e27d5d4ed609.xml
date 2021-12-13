@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2d963816-6c1b-4027-a7bd-e27d5d4ed609" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="">Arthur</namePart>
-<namePart type="family" lang="">Waley</namePart>
+<namePart type="given" lang="" script="Latn">Arthur</namePart>
+<namePart type="family" lang="" script="Latn">Waley</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="">
+<titleInfo lang="" script="Latn">
 <title>The Analects of Confucius</title>
     </titleInfo>
 <originInfo>
@@ -20,8 +20,18 @@
 <edition>reprint of 1938 edition</edition>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Confucianism; translations; AC texts</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">WALEY 1938</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="confucianism">Confucianism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="translations">translations</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ac texts">AC texts</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

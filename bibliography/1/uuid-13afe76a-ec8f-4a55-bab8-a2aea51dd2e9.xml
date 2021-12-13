@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-13afe76a-ec8f-4a55-bab8-a2aea51dd2e9" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Géfēi</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Lǐ</namePart>
-<namePart type="given" lang="Chinese" script="">格非</namePart>
-<namePart type="family" lang="Chinese" script="">李</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Géfēi</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Lǐ</namePart>
+<namePart type="given" lang="chi" script="Hant">格非</namePart>
+<namePart type="family" lang="chi" script="Hant">李</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢語大字典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Hànyǔ dàzìdiǎn</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>Dictionary of Chinese Characters</title>
     </titleInfo>
 <originInfo>
@@ -27,9 +27,16 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">edition in reduced size</note>
-<note type="topics">dictionary Chinese characters; Chinese graphs</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">HYDZD</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionary chinese characters">dictionary Chinese characters</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese graphs">Chinese graphs</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

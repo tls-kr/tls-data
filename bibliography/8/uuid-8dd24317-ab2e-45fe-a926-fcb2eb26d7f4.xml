@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8dd24317-ab2e-45fe-a926-fcb2eb26d7f4" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese">Gautama</namePart>
-<namePart type="family" lang="Chinese">Saṅghadeva</namePart>
+<namePart type="given" lang="chi" script="Latn">Gautama</namePart>
+<namePart type="family" lang="chi" script="Latn">Saṅghadeva</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>中阿含經</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zhōng Āhán jīng</title>
     </titleInfo>
-<titleInfo type="translated" lang="san">
+<titleInfo type="translated" lang="san" script="Latn">
 <title>Madhyamāgama</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -26,9 +26,16 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Buddhist scriptures; sutra translations</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">MIDDLE AGAMA</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist scriptures">Buddhist scriptures</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutra translations">sutra translations</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

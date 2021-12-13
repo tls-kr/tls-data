@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-41c150c6-7c7c-41c9-9c29-decc4d4c6316" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Daizōkyō Gakujutsu Yōgo Kenkyūkai</namePart>
-<namePart lang="Chinese" script="">大藏經學術用語研究會</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Daizōkyō Gakujutsu Yōgo Kenkyūkai</namePart>
+<namePart lang="chi" script="Hant">大藏經學術用語研究會</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>大正新修大藏經所引</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Taishō shinshū daizōkyō sakuin</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>Index to the Taishō Tripitaka</title>
     </titleInfo>
 <originInfo>
@@ -24,9 +24,19 @@
 <dateIssued encoding="w3cdtf">1940-1947</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">index; Tripitaka; Buddhist scriptures</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">TAISHOO INDEX</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="index">index</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="tripitaka">Tripitaka</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist scriptures">Buddhist scriptures</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5f758fa2-ec27-4b2f-9e3d-889dc3349884" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Pǔjì</namePart>
-<namePart lang="Chinese" script="">普濟</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Pǔjì</namePart>
+<namePart lang="chi" script="Hant">普濟</namePart>
 <role>
 <roleTerm type="text">compiler</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>五燈會元</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Wǔdēng huìyuán</title>
     </titleInfo>
 <originInfo>
@@ -22,9 +22,28 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Compiled in 1252; see also ZZ. 1,2B: 10-11 (Taibei ed. vol. 138)</note>
-<note type="topics">recorded sayings; yulu; Zen Buddhist texts; Chan texts; Song texts; vernacular texts</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">WUDENG</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="recorded sayings">recorded sayings</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="yulu">yulu</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddhist texts">Zen Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan texts">Chan texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="song texts">Song texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular texts">vernacular texts</topic>
+    </subject>
+    <note type="ref-usage">2</note>
 </mods>

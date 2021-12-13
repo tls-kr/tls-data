@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4ef72c1a-b1a2-4880-893c-7691426a49aa" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Pengcheng</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Chen</namePart>
-<namePart type="given" lang="Chinese" script="">鵬程</namePart>
-<namePart type="family" lang="Chinese" script="">陳</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Pengcheng</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Chen</namePart>
+<namePart type="given" lang="chi" script="Hant">鵬程</namePart>
+<namePart type="family" lang="chi" script="Hant">陳</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi">
+<titleInfo lang="chi" script="Hant">
 <title>釋“鹵簿”</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Shi "lubu"</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="Chinese" script="">
+<titleInfo lang="chi" script="Hant">
 <title>文史</title>
         </titleInfo>
-<titleInfo type="translated" lang="Chinese" transliteration="Chinese">
+<titleInfo type="translated" lang="chi" transliteration="Chinese" script="Latn">
 <title>Wenshi</title>
         </titleInfo>
 <originInfo>
@@ -35,8 +35,15 @@
 <date encoding="w3cdtf">1992</date>
         </part>
     </relatedItem>
-<note type="topics">semantics; AC texts</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">CHEN PENGCHENG 1992</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="semantics">semantics</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ac texts">AC texts</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-c3f2fa55-7be4-4dd6-8bac-afb1966cdfa4" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Shuye</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Tong</namePart>
-<namePart type="given" lang="Chinese" script="">書業</namePart>
-<namePart type="family" lang="Chinese" script="">童</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Shuye</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Tong</namePart>
+<namePart type="given" lang="chi" script="Hant">書業</namePart>
+<namePart type="family" lang="chi" script="Hant">童</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>春秋左傳研究</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Chunqiu Zuozhuan yanjiu</title>
     </titleInfo>
 <originInfo>
@@ -23,8 +23,15 @@
 <dateIssued encoding="w3cdtf">1980</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">春秋; 左傳</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">TONG SHUYE 1980</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="春秋">春秋</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="左傳">左傳</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

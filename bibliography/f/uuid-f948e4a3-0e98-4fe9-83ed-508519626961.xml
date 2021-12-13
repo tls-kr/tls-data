@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f948e4a3-0e98-4fe9-83ed-508519626961" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Tetsuo</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Suzuki</namePart>
-<namePart type="given" lang="Chinese" script="">哲雄</namePart>
-<namePart type="family" lang="Chinese" script=""> 鈴木</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Tetsuo</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Suzuki</namePart>
+<namePart type="given" lang="chi" script="Hant">哲雄</namePart>
+<namePart type="family" lang="chi" script="Hant"> 鈴木</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>中國禪宗人名索引</title>
 <subTitle>Fu Keitoku Dentōroku jimmei sakuin</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Chūgoku zenshū jimmei sakuin</title>
 <subTitle>Fu Keitoku Dentōroku jimmei sakuin</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>An Index to the Personal Names of the Chinese Chán School</title>
 <subTitle>Appendix - Index to the Personal Names of the Transmission of the Lamp of the Jing-dé Era</subTitle>
     </titleInfo>
@@ -29,9 +29,16 @@
 <dateIssued encoding="w3cdtf">1975</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">personal names; Buddhist names</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">SUZUKI 1975</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="personal names">personal names</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist names">Buddhist names</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

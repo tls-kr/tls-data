@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-306a19d2-9c3c-4c80-b533-3c02a860d770" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xilun</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Che</namePart>
-<namePart type="given" lang="Chinese" script="">錫倫</namePart>
-<namePart type="family" lang="Chinese" script="">車</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xilun</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Che</namePart>
+<namePart type="given" lang="chi" script="Hant">錫倫</namePart>
+<namePart type="family" lang="chi" script="Hant">車</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi">
+<titleInfo lang="chi" script="Hant">
 <title>古代的笛和簫</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Gu dai de di he xiao</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="Chinese" script="">
+<titleInfo lang="chi" script="Hant">
 <title>文史</title>
         </titleInfo>
-<titleInfo type="translated" lang="Chinese" transliteration="Chinese">
+<titleInfo type="translated" lang="chi" transliteration="Chinese" script="Latn">
 <title>Wen shi</title>
         </titleInfo>
 <originInfo>
@@ -35,8 +35,15 @@
 <date encoding="w3cdtf">1983</date>
         </part>
     </relatedItem>
-<note type="topics">semantics; synonyms</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">CHE XILUN 1983</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="semantics">semantics</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="synonyms">synonyms</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

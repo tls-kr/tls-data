@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4fed4dce-a53c-43a1-8042-628b0a1e60df" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xi</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Xiang</namePart>
-<namePart type="given" lang="Chinese" script="">熹</namePart>
-<namePart type="family" lang="Chinese" script="">向</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xi</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xiang</namePart>
+<namePart type="given" lang="chi" script="Hant">熹</namePart>
+<namePart type="family" lang="chi" script="Hant">向</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>詩經詞典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Shijing cidian</title>
     </titleInfo>
 <originInfo>
@@ -26,8 +26,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">1106 pages. Detailed philological dictiionary.</note>
-<note type="topics">Shijing, poetry,</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">XIANG XI 1996</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="shijing, poetry,">Shijing, poetry,</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8e43c50b-dfe8-44b3-9c3a-bde37fdc5369" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Zēngwén</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Yáng</namePart>
-<namePart type="given" lang="Chinese" script="">曾文</namePart>
-<namePart type="family" lang="Chinese" script="">楊</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zēngwén</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Yáng</namePart>
+<namePart type="given" lang="chi" script="Hant">曾文</namePart>
+<namePart type="family" lang="chi" script="Hant">楊</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>神會和尚禪話錄</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Shénhuì héshàng Chán huàlù</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>The Recorded Sayings of Preceptor Shenhui</title>
     </titleInfo>
 <originInfo>
@@ -26,9 +26,28 @@
 <dateIssued encoding="w3cdtf">1996</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chan Buddhim; Zen Buddhism; Zen texts; Chan texts; early Zen Buddhism; 神會；語錄；Recorded Sayings</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">YANG ZENGWEN 1996</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan buddhim">Chan Buddhim</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddhism">Zen Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan texts">Chan texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="early zen buddhism">early Zen Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="神會；語錄；recorded sayings">神會；語錄；Recorded Sayings</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

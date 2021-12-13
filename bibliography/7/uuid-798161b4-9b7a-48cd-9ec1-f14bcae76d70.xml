@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-798161b4-9b7a-48cd-9ec1-f14bcae76d70" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Wénzhòng</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Lǐ</namePart>
-<namePart type="given" lang="Chinese" script="">文仲</namePart>
-<namePart type="family" lang="Chinese" script="">李</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wénzhòng</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Lǐ</namePart>
+<namePart type="given" lang="chi" script="Hant">文仲</namePart>
+<namePart type="family" lang="chi" script="Hant">李</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>字鑒</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zìjiàn</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>Mirror of Chinese Characters</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Siku quanshu 四庫全書</title>
         </titleInfo>
 <part>
@@ -29,9 +29,19 @@
         </part>
     </relatedItem>
 <note type="general">The 1780 transcript is included in the Siku quanhu.</note>
-<note type="topics">Chinese characters; variant characters; lexicography</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZIJIAN</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese characters">Chinese characters</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="variant characters">variant characters</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="lexicography">lexicography</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

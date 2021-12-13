@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1b1c4e2a-6466-43da-a8a1-6269c11202da" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xiliang</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Guo</namePart>
-<namePart type="given" lang="Chinese" script="">錫良</namePart>
-<namePart type="family" lang="Chinese" script="">郭</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xiliang</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Guo</namePart>
+<namePart type="given" lang="chi" script="Hant">錫良</namePart>
+<namePart type="family" lang="chi" script="Hant">郭</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>古漢語語法論集</title>
 <subTitle/>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Gu Hanyu yufa lunji</title>
     </titleInfo>
 <originInfo>
@@ -24,8 +24,18 @@
 <dateIssued encoding="w3cdtf">1998</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chinese syntax; Ancient Chinese; AC</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">GUO XILIANG 1998</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese syntax">Chinese syntax</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ancient chinese">Ancient Chinese</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ac">AC</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

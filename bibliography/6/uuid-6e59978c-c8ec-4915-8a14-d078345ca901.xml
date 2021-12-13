@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-6e59978c-c8ec-4915-8a14-d078345ca901" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xu</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Liu</namePart>
-<namePart type="given" lang="Chinese" script="">旭</namePart>
-<namePart type="family" lang="Chinese" script="">劉</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xu</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Liu</namePart>
+<namePart type="given" lang="chi" script="Hant">旭</namePart>
+<namePart type="family" lang="chi" script="Hant">劉</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>中國古代兵器圖冊</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zhongguo gudai bingqi tuce</title>
     </titleInfo>
 <originInfo>
 <dateIssued encoding="w3cdtf">1999</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">weapons; military</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">LIU XU 1999</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="weapons">weapons</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="military">military</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

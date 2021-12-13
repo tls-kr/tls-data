@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-f1a703bf-a64c-4101-bb32-4635e7d48c3f" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Zēngwén</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Yáng</namePart>
-<namePart type="given" lang="Chinese" script="">曾文</namePart>
-<namePart type="family" lang="Chinese" script="">楊</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zēngwén</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Yáng</namePart>
+<namePart type="given" lang="chi" script="Hant">曾文</namePart>
+<namePart type="family" lang="chi" script="Hant">楊</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>唐五代禪宗史</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Táng Wǔdài Chánzōng shǐ</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>A History of the Chán School of the Tang and Five Dynasties Periods</title>
     </titleInfo>
 <originInfo>
@@ -26,9 +26,22 @@
 <dateIssued encoding="w3cdtf">1999</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chan Buddhism; Zen Buddhism history; Zen  doctrine; Zen history</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">YANG ZENGWEN 1999</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan buddhism">Chan Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddhism history">Zen Buddhism history</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen doctrine">Zen doctrine</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen history">Zen history</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

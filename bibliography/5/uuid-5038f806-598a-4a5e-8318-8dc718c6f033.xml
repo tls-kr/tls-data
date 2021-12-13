@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5038f806-598a-4a5e-8318-8dc718c6f033" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>血派論</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Xuèpài lùn</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>Treatise on the Blood Lineage</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -20,9 +20,22 @@
         </part>
     </relatedItem>
 <note type="general">Contained in the Shǎoshì liùmén 少室六門</note>
-<note type="topics">Zen texts; Chan texts; Bodhidharma; transmission texts；少室六門</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">XUEPAILUN</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan texts">Chan texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="bodhidharma">Bodhidharma</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="transmission texts；少室六門">transmission texts；少室六門</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

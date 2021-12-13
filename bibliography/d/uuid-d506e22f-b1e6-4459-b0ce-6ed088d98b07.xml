@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d506e22f-b1e6-4459-b0ce-6ed088d98b07" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="French">Francoise</namePart>
-<namePart type="family" lang="French">Bottero</namePart>
+<namePart type="given" lang="fre" script="Latn">Francoise</namePart>
+<namePart type="family" lang="fre" script="Latn">Bottero</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="fre">
+<titleInfo lang="fre" script="Latn">
 <title>L’ordre des constituants dans les mots composés par coordination d’antonymes</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="French">
+<titleInfo lang="fre" script="Latn">
 <title>Cahiers de Linguistique - Asie Orientale </title>
         </titleInfo>
 <originInfo>
@@ -30,8 +30,12 @@
 <date encoding="w3cdtf">1996</date>
         </part>
     </relatedItem>
-<note type="topics">binomes</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">BOTTERO 1996</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="binomes">binomes</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

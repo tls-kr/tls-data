@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-76ebd77c-965b-463f-8b53-61c74689bcf0" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese">達慧</namePart>
-<namePart type="family" lang="Japanese">中野</namePart>
+<namePart type="given" lang="jpn" script="Hant">達慧</namePart>
+<namePart type="family" lang="jpn" script="Hant">中野</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>大日本續藏經</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Dai Nihon Zokuzōkyō</title>
     </titleInfo>
 <originInfo>
@@ -22,9 +22,20 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Contains many materials which are not included in the Taishoo edition.Reprinted in Taiwan: Xi 1nwénfēng chūbǎn gōngsī 新文豐出版公司 1968-1970.</note>
-<note type="topics">Buddhist scriptures; Tripitaka; Buddhist texts</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZZ</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist scriptures">Buddhist scriptures</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="tripitaka">Tripitaka</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <note type="ref-usage">0</note>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5a5614a2-7492-405a-b90c-3802e79f7500" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Anshun</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Hu</namePart>
-<namePart type="given" lang="Chinese" script="">安順</namePart>
-<namePart type="family" lang="Chinese" script="">胡</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Anshun</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Hu</namePart>
+<namePart type="given" lang="chi" script="Hant">安順</namePart>
+<namePart type="family" lang="chi" script="Hant">胡</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Wennian</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Zhang</namePart>
-<namePart type="given" lang="Chinese" script="">文年</namePart>
-<namePart type="family" lang="Chinese" script="">張</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wennian</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhang</namePart>
+<namePart type="given" lang="chi" script="Hant">文年</namePart>
+<namePart type="family" lang="chi" script="Hant">張</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>白話淮南子</title>
     </titleInfo>
 <originInfo>
@@ -29,8 +29,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Convenient crib.</note>
-<note type="topics">HN, Huainanzi</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">HU ANSHUN 1968</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="hn, huainanzi">HN, Huainanzi</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

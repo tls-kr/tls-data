@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ab831347-9626-498d-aa1e-eb43eae72d05" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="German">Ludwig</namePart>
-<namePart type="family" lang="German">Doederlein</namePart>
+<namePart type="given" lang="ger" script="Latn">Ludwig</namePart>
+<namePart type="family" lang="ger" script="Latn">Doederlein</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="ger">
+<titleInfo lang="ger" script="Latn">
 <title>Lateinische Synonyme und Etymologien</title>
     </titleInfo>
 <originInfo>
@@ -19,8 +19,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Discursive wide-ranging reflections on etymology and synonymy relations[N.B.:SUMMARY OF LATIN SYNONYMS BY C.H. IN TLS IS MAINLY BASED ON DOEDERLEIN 1875 WHICH IS A TRANSLATION OF DOEDERLEIN 1849]</note>
-<note type="topics">Latin Synonyms</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">DOEDERLEIN 1840</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="latin synonyms">Latin Synonyms</topic>
+    </subject>
+    <note type="ref-usage">484</note>
 </mods>

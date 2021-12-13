@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-591cc540-4166-4429-ab08-e2a5611a07eb" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Komazawa Daigaku-nai Zengaku Daijiten Hensansho</namePart>
-<namePart lang="Chinese" script="">駒澤大學內禪學大辭典編纂所</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Komazawa Daigaku-nai Zengaku Daijiten Hensansho</namePart>
+<namePart lang="chi" script="Hant">駒澤大學內禪學大辭典編纂所</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>禪學大辭典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zengaku Daijiten</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>An Encyclopedic Dictionary of Zen Buddhism</title>
     </titleInfo>
 <originInfo>
@@ -25,9 +25,19 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">This is one of the standard dictionaries for Chán/Zen Buddhism; includes references to terminlogy, persoanl names, temples, schools, doctrines, etc.</note>
-<note type="topics">dictionary Buddhism; Chan; Zen</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZENGAKU</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionary buddhism">dictionary Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan">Chan</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen">Zen</topic>
+    </subject>
+    <note type="ref-usage">15</note>
 </mods>

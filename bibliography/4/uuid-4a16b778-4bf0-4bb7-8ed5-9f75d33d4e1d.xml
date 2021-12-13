@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4a16b778-4bf0-4bb7-8ed5-9f75d33d4e1d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc"/>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Dharmarakṣa</namePart>
-<namePart type="given" lang="Chinese" script="">法護</namePart>
-<namePart type="family" lang="Chinese" script="">竺</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn"/>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Dharmarakṣa</namePart>
+<namePart type="given" lang="chi" script="Hant">法護</namePart>
+<namePart type="family" lang="chi" script="Hant">竺</namePart>
 <role>
 <roleTerm type="text"/>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>普曜經</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Pǔyào jīng</title>
     </titleInfo>
-<titleInfo type="translated" lang="san">
+<titleInfo type="translated" lang="san" script="Latn">
 <title>Laliatavistara</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -28,9 +28,16 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Buddhist texts; sutras</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">PUYAOJING</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutras">sutras</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

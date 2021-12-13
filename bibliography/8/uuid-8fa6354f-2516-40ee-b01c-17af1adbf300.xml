@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8fa6354f-2516-40ee-b01c-17af1adbf300" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Weimao</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Wang</namePart>
-<namePart type="given" lang="Chinese" script="">維懋</namePart>
-<namePart type="family" lang="Chinese" script="">汪</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Weimao</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wang</namePart>
+<namePart type="given" lang="chi" script="Hant">維懋</namePart>
+<namePart type="family" lang="chi" script="Hant">汪</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢語重言詞詞典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Hanyu chongwenci cidian</title>
     </titleInfo>
 <originInfo>
@@ -24,8 +24,24 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">over 7600 reduplicative binomes</note>
-<note type="topics">reduplication, nn, vv, pp; dictionary; dictionaries; reduplication; REDUP</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">WANG WEIMAO 1999</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="reduplication, nn, vv, pp">reduplication, nn, vv, pp</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionary">dictionary</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionaries">dictionaries</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="reduplication">reduplication</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="redup">REDUP</topic>
+    </subject>
+    <note type="ref-usage">12</note>
 </mods>

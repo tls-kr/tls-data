@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4980c0d6-62b1-4aca-ba5a-c976f088bb8c" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Dàoxuān</namePart>
-<namePart lang="Chinese" script="">道宣</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Dàoxuān</namePart>
+<namePart lang="chi" script="Hant">道宣</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>廣弘明集</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Guǎng hóng míng jí</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -24,9 +24,13 @@
         </part>
     </relatedItem>
 <note type="general">Dàoxuān (596-667)</note>
-<note type="topics">Chinese Buddhist texts</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">GUANGHONGMINGJI</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese buddhist texts">Chinese Buddhist texts</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

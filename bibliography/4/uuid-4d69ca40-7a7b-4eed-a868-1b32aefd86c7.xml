@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4d69ca40-7a7b-4eed-a868-1b32aefd86c7" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Biànjī</namePart>
-<namePart lang="Chinese" script="">辯機</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Biànjī</namePart>
+<namePart lang="chi" script="Hant">辯機</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Xuánzàng</namePart>
-<namePart lang="Chinese" script="">玄奘</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Xuánzàng</namePart>
+<namePart lang="chi" script="Hant">玄奘</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>大唐西域記</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Dà Táng xīyù jì</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -30,9 +30,22 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Chinese Buddhist texts; Tang texts; Buddhism history; Buddhist historical texts</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">DATANGXIYUJI</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese buddhist texts">Chinese Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="tang texts">Tang texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism history">Buddhism history</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist historical texts">Buddhist historical texts</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

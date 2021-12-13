@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7bc5d61a-95ce-41aa-9666-84c3a669958d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Shutian</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Ma</namePart>
-<namePart type="given" lang="Chinese" script="">書田</namePart>
-<namePart type="family" lang="Chinese" script="">馬</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Shutian</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Ma</namePart>
+<namePart type="given" lang="chi" script="Hant">書田</namePart>
+<namePart type="family" lang="chi" script="Hant">馬</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>華夏諸神</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Huaxia zhu shen</title>
     </titleInfo>
 <originInfo>
@@ -23,8 +23,12 @@
 <dateIssued encoding="w3cdtf">1999</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">religion</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">MA SHUTIAN 1999</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="religion">religion</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

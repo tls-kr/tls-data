@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5166a5e6-386f-4c0c-a04d-5f1c8ec01ec2" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="English">Gary</namePart>
-<namePart type="family" lang="English">Arbuckle</namePart>
+<namePart type="given" lang="eng" script="Latn">Gary</namePart>
+<namePart type="family" lang="eng" script="Latn">Arbuckle</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="eng">
+<titleInfo lang="eng" script="Latn">
 <title>A note on the authenticity of the Chunqiu fanlu</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="English">
+<titleInfo lang="eng" script="Latn">
 <title>T'oung pao</title>
         </titleInfo>
 <originInfo>
@@ -27,8 +27,15 @@
 <date encoding="w3cdtf">1989</date>
         </part>
     </relatedItem>
-<note type="topics">春秋; textual studies</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">ARBUCKLE 1989</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="春秋">春秋</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="textual studies">textual studies</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

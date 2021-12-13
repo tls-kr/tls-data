@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-6492ea18-bd8a-4adb-a783-3cfcca6bd40e" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Ji</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Sun </namePart>
-<namePart type="given" lang="Chinese" script="">机</namePart>
-<namePart type="family" lang="Chinese" script="">孫</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Ji</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Sun </namePart>
+<namePart type="given" lang="chi" script="Hant">机</namePart>
+<namePart type="family" lang="chi" script="Hant">孫</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢代物質文化資料圖說</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Han dai wuzhi wenhua ziliao tu shuo</title>
     </titleInfo>
 <originInfo>
@@ -23,8 +23,12 @@
 <dateIssued encoding="w3cdtf">1991</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Han, material culture</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">SUN JI 1991</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="han, material culture">Han, material culture</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

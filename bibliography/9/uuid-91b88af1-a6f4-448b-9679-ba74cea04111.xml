@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-91b88af1-a6f4-448b-9679-ba74cea04111" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Hongqi</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Wang</namePart>
-<namePart type="given" lang="Chinese" script="">紅旗</namePart>
-<namePart type="family" lang="Chinese" script="">王</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Hongqi</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wang</namePart>
+<namePart type="given" lang="chi" script="Hant">紅旗</namePart>
+<namePart type="family" lang="chi" script="Hant">王</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xiaoqin</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Sun</namePart>
-<namePart type="given" lang="Chinese" script="">嘵琴</namePart>
-<namePart type="family" lang="Chinese" script="">孫</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xiaoqin</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Sun</namePart>
+<namePart type="given" lang="chi" script="Hant">嘵琴</namePart>
+<namePart type="family" lang="chi" script="Hant">孫</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>中國古代神異圖說</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zhongguo gudai shen yi tu shuo</title>
     </titleInfo>
 <originInfo>
@@ -32,8 +32,12 @@
 <dateIssued encoding="w3cdtf">1995</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">religion</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZGSY</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="religion">religion</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

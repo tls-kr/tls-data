@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-6badfdc0-b205-435c-8948-29491428c4eb" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Ryōshō</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Tanaka</namePart>
-<namePart type="given" lang="Japanese" script="">良昭</namePart>
-<namePart type="family" lang="Japanese" script="">田中</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Ryōshō</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Tanaka</namePart>
+<namePart type="given" lang="jpn" script="Hant">良昭</namePart>
+<namePart type="family" lang="jpn" script="Hant">田中</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn">
+<titleInfo lang="jpn" script="Hant">
 <title>初期禪宗における守心-觀心の系譜</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Shoki Zenshū ni okeru shuusin kanshin no keifu</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="Japanese" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>佛教の歷史と思想</title>
 <subTitle>壬生臺瞬博士頌壽記念</subTitle>
         </titleInfo>
-<titleInfo type="translated" lang="Japanese" transliteration="Japanese">
+<titleInfo type="translated" lang="jpn" transliteration="Japanese" script="Latn">
 <title>Bukkyō no rekishi to shisō</title>
 <subTitle>Mibu Taishun hakushi shooju kinen</subTitle>
         </titleInfo>
@@ -40,9 +40,31 @@
             </extent>
         </part>
     </relatedItem>
-<note type="topics">early Chan, early Zen; Zen terms; Zen terminology; meditation; shouxin; anxin; guanxin</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">TANAKA 1985</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="early chan, early zen">early Chan, early Zen</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen terms">Zen terms</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen terminology">Zen terminology</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="meditation">meditation</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="shouxin">shouxin</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="anxin">anxin</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="guanxin">guanxin</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

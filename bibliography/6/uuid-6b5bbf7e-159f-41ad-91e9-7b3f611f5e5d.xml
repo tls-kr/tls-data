@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-6b5bbf7e-159f-41ad-91e9-7b3f611f5e5d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Gù</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Bān</namePart>
-<namePart type="given" lang="Chinese" script="">固</namePart>
-<namePart type="family" lang="Chinese" script="">班</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Gù</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Bān</namePart>
+<namePart type="given" lang="chi" script="Hant">固</namePart>
+<namePart type="family" lang="chi" script="Hant">班</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xiānqiān</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Wáng</namePart>
-<namePart type="given" lang="Chinese" script="">先謙</namePart>
-<namePart type="family" lang="Chinese" script="">王</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xiānqiān</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wáng</namePart>
+<namePart type="given" lang="chi" script="Hant">先謙</namePart>
+<namePart type="family" lang="chi" script="Hant">王</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xiānqiān</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Wáng</namePart>
-<namePart type="given" lang="Chinese" script="">先謙</namePart>
-<namePart type="family" lang="Chinese" script="">王</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xiānqiān</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wáng</namePart>
+<namePart type="given" lang="chi" script="Hant">先謙</namePart>
+<namePart type="family" lang="chi" script="Hant">王</namePart>
 <role>
 <roleTerm type="text">compiler</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢書</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Hànshū</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>The Book of the Han</title>
     </titleInfo>
 <originInfo>
@@ -44,9 +44,16 @@
 <dateIssued encoding="w3cdtf">1983</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">historical works; 25 histories</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">HANSHU</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="historical works">historical works</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="25 histories">25 histories</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

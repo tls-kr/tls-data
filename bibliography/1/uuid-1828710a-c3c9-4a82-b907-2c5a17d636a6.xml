@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1828710a-c3c9-4a82-b907-2c5a17d636a6" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Tatsuo</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Ōta</namePart>
-<namePart type="given" lang="Japanese" script="">長夫</namePart>
-<namePart type="family" lang="Japanese" script="">太田</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Tatsuo</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Ōta</namePart>
+<namePart type="given" lang="jpn" script="Hant">長夫</namePart>
+<namePart type="family" lang="jpn" script="Hant">太田</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>唐宋俗字譜</title>
 <subTitle>Sodōshū no bu</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Tōsō zokuji fu</title>
 <subTitle>Sodōshū no bu</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>A List of Non-standard Chinese Characters of the Tang and Song</title>
 <subTitle>Section on the Zutang ji</subTitle>
     </titleInfo>
@@ -29,9 +29,28 @@
 <dateIssued encoding="w3cdtf">1982</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">ZTJ; Sodooshuu; Chodangjip; ZTJ graphs; variant Chinese characters; 祖堂集</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">OTA 1982</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ztj">ZTJ</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sodooshuu">Sodooshuu</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chodangjip">Chodangjip</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ztj graphs">ZTJ graphs</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="variant chinese characters">variant Chinese characters</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="祖堂集">祖堂集</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

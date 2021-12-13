@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-636b0ec0-7f66-4d9f-807e-0fba4abe8a39" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Tatsuo</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Ōta</namePart>
-<namePart type="given" lang="Japanese" script="">長夫</namePart>
-<namePart type="family" lang="Japanese" script="">太田</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Tatsuo</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Ōta</namePart>
+<namePart type="given" lang="jpn" script="Hant">長夫</namePart>
+<namePart type="family" lang="jpn" script="Hant">太田</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>漢語史通考</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Hànyǔshǐ tōngkǎo</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>A Study of the Historical Development of Chinese</title>
     </titleInfo>
 <originInfo>
@@ -24,9 +24,25 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">This is a translation of OTA 1988</note>
-<note type="topics">Chinese historical syntax; vernacular Chinese; LMC; EMC; early Mandarin</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">OTA 1991</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese historical syntax">Chinese historical syntax</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular chinese">vernacular Chinese</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="lmc">LMC</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="emc">EMC</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="early mandarin">early Mandarin</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

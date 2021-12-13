@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-315dd8ba-9402-42fa-955b-234a38b9e2e6" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Seishi</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Karashima</namePart>
-<namePart type="given" lang="Japanese" script="">靜志</namePart>
-<namePart type="family" lang="Japanese" script="">辛嶋</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Seishi</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Karashima</namePart>
+<namePart type="given" lang="jpn" script="Hant">靜志</namePart>
+<namePart type="family" lang="jpn" script="Hant">辛嶋</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Japanese">Kajiyama</namePart>
-<namePart type="family" lang="Japanese">Yuichi</namePart>
+<namePart type="given" lang="jpn" script="Latn">Kajiyama</namePart>
+<namePart type="family" lang="jpn" script="Latn">Yuichi</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>正法華經詞典</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>A Glossary of DharmarakSsa's Translation of the Lotus Sutra</title>
     </titleInfo>
 <originInfo>
@@ -31,7 +31,7 @@
 <issuance>monographic</issuance>
     </originInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Bibliotheca Philologica et Philosophica Buddhica</title>
         </titleInfo>
 <part>
@@ -41,10 +41,26 @@
         </part>
     </relatedItem>
 <note type="general">This is a glossary with English translations and text references of the LOTUS</note>
-<note type="topics">Buddhist texts; Mahayana texts; sutras; glossary; Lotus</note>
+
 <note type="information-basis">CA</note>
 <identifier type="isbn">9784998062202</identifier>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">KRSH 1998</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="mahayana texts">Mahayana texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutras">sutras</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="glossary">glossary</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="lotus">Lotus</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-c111c87d-9108-40ab-a231-c80b81a13ca4" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Lì</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Wáng</namePart>
-<namePart type="given" lang="Chinese" script="">力</namePart>
-<namePart type="family" lang="Chinese" script="">王</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Lì</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wáng</namePart>
+<namePart type="given" lang="chi" script="Hant">力</namePart>
+<namePart type="family" lang="chi" script="Hant">王</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢語語法史</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Hànyǔ yǔfǎ shǐ</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>A History of Chinese Grammar</title>
     </titleInfo>
 <originInfo>
@@ -26,9 +26,19 @@
 <dateIssued encoding="w3cdtf">1989</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chinese syntax; historical syntax; grammar</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">WANG LI 1989</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese syntax">Chinese syntax</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="historical syntax">historical syntax</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="grammar">grammar</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>
