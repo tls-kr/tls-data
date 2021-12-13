@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-fb97ec5f-addd-4dcc-bc8e-e08d34265f20" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Rushan</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Qi</namePart>
-<namePart type="given" lang="Chinese" script="">如山</namePart>
-<namePart type="family" lang="Chinese" script="">齊</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Rushan</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Qi</namePart>
+<namePart type="given" lang="chi" script="Hant">如山</namePart>
+<namePart type="family" lang="chi" script="Hant">齊</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>北京土話</title>
     </titleInfo>
 <originInfo>
@@ -21,8 +21,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Fascinating glossary by a great lover of Peking culture.  A delight to read.</note>
-<note type="topics">Peking dialect</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">QI RUSHAN 1991</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="peking dialect">Peking dialect</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-9e55a19d-6b12-4571-9ef5-d0e637ccbafd" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Jikido</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Takasaki</namePart>
-<namePart type="given" lang="Japanese" script="">直道</namePart>
-<namePart type="family" lang="Japanese" script="">高崎</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Jikido</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Takasaki</namePart>
+<namePart type="given" lang="jpn" script="Hant">直道</namePart>
+<namePart type="family" lang="jpn" script="Hant">高崎</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>佛教入門</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Bukkyō nyūmon</title>
     </titleInfo>
 <originInfo>
@@ -24,9 +24,19 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">The book was tr. into English by Rolf W. Giebel; see Takasaki 1987.</note>
-<note type="topics">Buddhism history; Buddhism doctrine; Chinese Buddhism</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">TAKASAKI 1983</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism history">Buddhism history</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism doctrine">Buddhism doctrine</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese buddhism">Chinese Buddhism</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

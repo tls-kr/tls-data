@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2389c812-8053-4187-8f7a-19f6e856050f" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Yí</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Cí</namePart>
-<namePart type="given" lang="Chinese" script="">怡</namePart>
-<namePart type="family" lang="Chinese" script="">慈</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Yí</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Cí</namePart>
+<namePart type="given" lang="chi" script="Hant">怡</namePart>
+<namePart type="family" lang="chi" script="Hant">慈</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>佛光大辭典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Fóguāng dàcídiǎn</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>The Foguang Dictionary of Buddhism</title>
     </titleInfo>
 <originInfo>
@@ -28,9 +28,16 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">This is an exellent dictionary in 7 vol. plus one index volume. Detailed explanations and references to terms, persons, doctrines, temple names, etc. Very good index with a variety of search methods; includes also a Sanskrit/Pali index. This is a reprint of the Táiwān Fóguāng shān chūbǎnshè 臺灣佛光山出版社 edition from 1989. There is no date provided for the reprint.</note>
-<note type="topics">dictionary Buddhism; Buddhist terms</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">FOGUANG</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionary buddhism">dictionary Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist terms">Buddhist terms</topic>
+    </subject>
+    <note type="ref-usage">143</note>
 </mods>

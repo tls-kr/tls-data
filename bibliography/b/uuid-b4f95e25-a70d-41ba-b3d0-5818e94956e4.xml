@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-b4f95e25-a70d-41ba-b3d0-5818e94956e4" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Zōngshào</namePart>
-<namePart lang="Chinese" script="">宗紹</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Zōngshào</namePart>
+<namePart lang="chi" script="Hant">宗紹</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>無門關</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Wúmén guān</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>The Gateless Barrier</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -27,9 +27,19 @@
         </part>
     </relatedItem>
 <note type="general">One of the most famous koan collections. Translated in SEKIDA 1977 and HIRATA 1969.</note>
-<note type="topics">koan; Zen Buddhist texts; Chan Buddhism</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">WUMENGUAN</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="koan">koan</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddhist texts">Zen Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan buddhism">Chan Buddhism</topic>
+    </subject>
+    <note type="ref-usage">2</note>
 </mods>

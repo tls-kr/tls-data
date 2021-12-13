@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-a6ca7a17-9e90-4a9a-8b34-6af75338ddc3" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Měilán</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Zhāng</namePart>
-<namePart type="given" lang="Chinese" script="">美蘭</namePart>
-<namePart type="family" lang="Chinese" script="">張</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Měilán</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhāng</namePart>
+<namePart type="given" lang="chi" script="Hant">美蘭</namePart>
+<namePart type="family" lang="chi" script="Hant">張</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>禪宗語言概論</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Chánzōng yǔyán gàilùn</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>An Outline of the Language of the Chán/Zen School</title>
     </titleInfo>
 <originInfo>
@@ -26,9 +26,28 @@
 <dateIssued encoding="w3cdtf">1987</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chan Buddhism; Zen buddism; Zen language; colloquial chinese; Zen semantics; Zen syntax</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZHANG MEILAN 1987</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan buddhism">Chan Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddism">Zen buddism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen language">Zen language</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="colloquial chinese">colloquial chinese</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen semantics">Zen semantics</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen syntax">Zen syntax</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

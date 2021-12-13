@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-64269de2-4ba4-4d20-9a61-692ac88d39a5" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Yánshòu</namePart>
-<namePart lang="Chinese" script="">延壽</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Yánshòu</namePart>
+<namePart lang="chi" script="Hant">延壽</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>宗鏡錄</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zōngjīng lù</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>Records of the Mirror of Truth</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -27,9 +27,19 @@
         </part>
     </relatedItem>
 <note type="general">The texts was compiled by Yánshòu (904-975) in 961 and is sometimes referred to as Xīnjìng lù §ﬂ√Ëø˝. It is a collection of Buddhist scriptures and treatises from China and India (in Chinese translations), which was compiled in order to enhance and integrated approach to scriptual studies and meditation practice.</note>
-<note type="topics">Zen texts; Chan texts; 心鏡錄</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZONGJINGLU</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan texts">Chan texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="心鏡錄">心鏡錄</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

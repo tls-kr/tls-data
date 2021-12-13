@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-9d749de1-bb4a-4f13-8198-621348aa2e3e" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Chuo</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Bo</namePart>
-<namePart type="given" lang="Chinese" script="">綽</namePart>
-<namePart type="family" lang="Chinese" script="">伯</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Chuo</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Bo</namePart>
+<namePart type="given" lang="chi" script="Hant">綽</namePart>
+<namePart type="family" lang="chi" script="Hant">伯</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi">
+<titleInfo lang="chi" script="Hant">
 <title>同義詞例解</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Tongyici lijie</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="Chinese">
+<titleInfo lang="chi" script="Latn">
 <title>Yuyanxuexi</title>
         </titleInfo>
 <originInfo>
@@ -32,8 +32,21 @@
 <date encoding="w3cdtf">1951</date>
         </part>
     </relatedItem>
-<note type="topics">NEED; EXIST; EXAGGERATE; TIME</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">BO CHUO 1951(A)</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="need">NEED</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="exist">EXIST</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="exaggerate">EXAGGERATE</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="time">TIME</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

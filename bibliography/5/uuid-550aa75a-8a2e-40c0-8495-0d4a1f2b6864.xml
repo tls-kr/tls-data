@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-550aa75a-8a2e-40c0-8495-0d4a1f2b6864" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="English">Thomas</namePart>
-<namePart type="family" lang="English">Creamer</namePart>
+<namePart type="given" lang="eng" script="Latn">Thomas</namePart>
+<namePart type="family" lang="eng" script="Latn">Creamer</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="eng">
+<titleInfo lang="eng" script="Latn">
 <title>A Chinese-English Dictionary of the Wu dialect</title>
 <subTitle>featuring the dialect of the city of Shanghai</subTitle>
     </titleInfo>
@@ -19,10 +19,17 @@
 <dateIssued encoding="w3cdtf">1991</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Wu dialect; vernacular language</note>
+
 <note type="information-basis">CA</note>
 <identifier type="isbn">9780931745812</identifier>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">CREAMER 1991</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="wu dialect">Wu dialect</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular language">vernacular language</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

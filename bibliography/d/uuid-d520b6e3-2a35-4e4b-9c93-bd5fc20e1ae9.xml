@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d520b6e3-2a35-4e4b-9c93-bd5fc20e1ae9" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Li</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Wang</namePart>
-<namePart type="given" lang="Chinese" script="">力</namePart>
-<namePart type="family" lang="Chinese" script="">王</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Li</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wang</namePart>
+<namePart type="given" lang="chi" script="Hant">力</namePart>
+<namePart type="family" lang="chi" script="Hant">王</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>同源字典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Tongyuan zidian</title>
     </titleInfo>
 <originInfo>
@@ -23,8 +23,12 @@
 <dateIssued encoding="w3cdtf">1982</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chinese characters</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">WANG LI 1982</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese characters">Chinese characters</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

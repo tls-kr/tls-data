@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8dbcf3ad-1725-44fa-a1d1-de445d01ab5f" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Yè</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Hóng</namePart>
-<namePart type="given" lang="Chinese" script="">業</namePart>
-<namePart type="family" lang="Chinese" script="">洪</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Yè</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Hóng</namePart>
+<namePart type="given" lang="chi" script="Hant">業</namePart>
+<namePart type="family" lang="chi" script="Hant">洪</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>道藏字目引得</title>
 <subTitle>Fó-zāng zìmù yǐndé</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Dào-zāng zìmù yǐndé</title>
 <subTitle>Fó-zāng zìmù yǐndé</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>An Index to the Daoist and Buddhist Canons</title>
     </titleInfo>
 <originInfo>
@@ -28,9 +28,25 @@
 <dateIssued encoding="w3cdtf">1986</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">index; Tripitaka; Daoist canon; Buddhist canon; Buddhist scriptures</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">HONG YE 1986</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="index">index</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="tripitaka">Tripitaka</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="daoist canon">Daoist canon</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist canon">Buddhist canon</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist scriptures">Buddhist scriptures</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8d0322f7-e7c6-4fe9-821c-94131346552b" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Huá</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Zhāng</namePart>
-<namePart type="given" lang="Chinese" script="">華</namePart>
-<namePart type="family" lang="Chinese" script="">張</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Huá</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhāng</namePart>
+<namePart type="given" lang="chi" script="Hant">華</namePart>
+<namePart type="family" lang="chi" script="Hant">張</namePart>
 <role>
             <roleTerm type="text">editor</roleTerm>
         </role>
@@ -12,10 +12,10 @@
             <roleTerm type="text">compiler</roleTerm>
         </role>
 </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>祖堂集</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zǔtáng jí</title>
     </titleInfo>
 <originInfo>
@@ -27,17 +27,36 @@
 <issuance>monographic</issuance>
     </originInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Zho1ngguo2 Cha2nzo1ng dia3nji2 co2ngka1n</title>
         </titleInfo>
-<titleInfo lang="Chinese">
+<titleInfo lang="chi" script="Hant">
 <title>中國禪宗典籍叢刊</title>
         </titleInfo>
     </relatedItem>
 <note type="general">715 pages; The edition includes two lengthy introductions to ZTJ, one at the beginning and one at the end. The one in the beginning is identical with Yang Zengwen 1999: 575-609. A superficial check of the edition reveals that most of the mistakes in WU have been corrected. However, a few inaccuracies seem to remain. The notes in this critical edition are very useful. One of the weaknesses of this edition is that the Chinese graphs were converted into modern simplified graphs, a procedure which is not useful for the edition of a text like ZTJ. The number of simplified graphs in ZTJ is very limited and their shape is often not identical with their modern counterparts.</note>
-<note type="topics">ZTJ editions; vernacular texts; LMC texts; Sodooshuu; Zen texts; 祖堂集</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZTJ/ZHANGHUA 2001</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ztj editions">ZTJ editions</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular texts">vernacular texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="lmc texts">LMC texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sodooshuu">Sodooshuu</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="祖堂集">祖堂集</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

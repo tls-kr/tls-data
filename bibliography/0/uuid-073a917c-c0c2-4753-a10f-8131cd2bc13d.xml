@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-073a917c-c0c2-4753-a10f-8131cd2bc13d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Yúnguǒ</namePart>
-<namePart lang="Chinese" script="">雲果</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Yúnguǒ</namePart>
+<namePart lang="chi" script="Hant">雲果</namePart>
 <role>
 <roleTerm type="text"/>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Mèngxiáng</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Kāng</namePart>
-<namePart type="given" lang="Chinese" script="">孟詳</namePart>
-<namePart type="family" lang="Chinese" script="">康</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Mèngxiáng</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Kāng</namePart>
+<namePart type="given" lang="chi" script="Hant">孟詳</namePart>
+<namePart type="family" lang="chi" script="Hant">康</namePart>
 <role>
 <roleTerm type="text"/>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>中本起經</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Zhōng běn-qǐ jīng</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -33,9 +33,16 @@
         </part>
     </relatedItem>
 <note type="general">Tr. in the 2nd cent. A.D.</note>
-<note type="topics">Buddhist scriptures; sutra translations</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">ZHONGBENQIJING</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist scriptures">Buddhist scriptures</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutra translations">sutra translations</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

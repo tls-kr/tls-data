@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5a1b8048-d6a3-4341-881e-d787a8f63ff0" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="French">Benoit</namePart>
-<namePart type="family" lang="French">Denis</namePart>
+<namePart type="given" lang="fre" script="Latn">Benoit</namePart>
+<namePart type="family" lang="fre" script="Latn">Denis</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="fre">
+<titleInfo lang="fre" script="Latn">
 <title>Litterature et engagement</title>
     </titleInfo>
 <originInfo>
@@ -19,8 +19,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Remarkably clear survey based on French literature</note>
-<note type="topics">Relation between literature and society</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">DENIS 2000</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="relation between literature and society">Relation between literature and society</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

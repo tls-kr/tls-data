@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-61ec8f0a-436d-41d0-bd19-9641bffd5d3d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Xuánqiè</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Yímò</namePart>
-<namePart type="given" lang="Chinese" script="">玄契</namePart>
-<namePart type="family" lang="Chinese" script="">宜默</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Xuánqiè</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Yímò</namePart>
+<namePart type="given" lang="chi" script="Hant">玄契</namePart>
+<namePart type="family" lang="chi" script="Hant">宜默</namePart>
 <role>
 <roleTerm type="text">compiler</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>筠州洞山悟本禪師語錄</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Yúnzhōu Dòngshān Wùběn chánshī yǔlù</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -26,9 +26,28 @@
         </part>
     </relatedItem>
 <note type="general">Compiled between 1736 and 1740 (based on old materials). Between 1751 and 1765 revised by Huì Yin4 慧印.</note>
-<note type="topics">Zen texts; Chan texts; recorded sayings; yulu; vernacular texts; Dongshan</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">DONGSHAN(A)</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan texts">Chan texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="recorded sayings">recorded sayings</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="yulu">yulu</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular texts">vernacular texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dongshan">Dongshan</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

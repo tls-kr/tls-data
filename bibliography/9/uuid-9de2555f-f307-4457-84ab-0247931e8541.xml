@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-9de2555f-f307-4457-84ab-0247931e8541" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Yángxiū</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Ōu</namePart>
-<namePart type="given" lang="Chinese" script="">陽修</namePart>
-<namePart type="family" lang="Chinese" script="">歐</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Yángxiū</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Ōu</namePart>
+<namePart type="given" lang="chi" script="Hant">陽修</namePart>
+<namePart type="family" lang="chi" script="Hant">歐</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>新五代史</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Xīn Wǔdài shǐ</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>New History of the Five Dynasties Period</title>
     </titleInfo>
 <originInfo>
@@ -27,9 +27,22 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Compiled 1044-1060</note>
-<note type="topics">Five Dynasties; historical texts; 25 Histories; Ou Yangxiu</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">XINWUDAI</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="five dynasties">Five Dynasties</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="historical texts">historical texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="25 histories">25 Histories</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ou yangxiu">Ou Yangxiu</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

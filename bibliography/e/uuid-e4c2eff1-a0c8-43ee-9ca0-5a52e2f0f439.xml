@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-e4c2eff1-a0c8-43ee-9ca0-5a52e2f0f439" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Fóniàn</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Zhú</namePart>
-<namePart type="given" lang="Chinese" script="">佛念</namePart>
-<namePart type="family" lang="Chinese" script="">竺</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Fóniàn</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhú</namePart>
+<namePart type="given" lang="chi" script="Hant">佛念</namePart>
+<namePart type="family" lang="chi" script="Hant">竺</namePart>
 <role>
 <roleTerm type="text">translator</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>鼻奈耶</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Bínàiyé</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -26,9 +26,22 @@
         </part>
     </relatedItem>
 <note type="general">Seishi Karashima found in this early translation the rare sentence final particle ±C</note>
-<note type="topics">Buddhist texts; sutras; vinaya; buddhist translations</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">BINAIYE</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutras">sutras</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vinaya">vinaya</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist translations">buddhist translations</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

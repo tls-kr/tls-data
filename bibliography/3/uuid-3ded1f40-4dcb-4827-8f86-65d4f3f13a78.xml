@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-3ded1f40-4dcb-4827-8f86-65d4f3f13a78" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Fǎyún</namePart>
-<namePart lang="Chinese" script="">法雲</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Fǎyún</namePart>
+<namePart lang="chi" script="Hant">法雲</namePart>
 <role>
 <roleTerm type="text">translator</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>翻譯名義集</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Fānyì míngyì jí</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -24,9 +24,19 @@
         </part>
     </relatedItem>
 <note type="general">Fǎyún was born in1088</note>
-<note type="topics">Buddhist texts; sanskrit translations; Buddhist philology</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">FANYI MINGYI JI</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sanskrit translations">sanskrit translations</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist philology">Buddhist philology</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

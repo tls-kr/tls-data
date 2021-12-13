@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-0b6410e0-2fb4-4294-b84d-abfc68111201" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Zhuang</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Chu</namePart>
-<namePart type="given" lang="Chinese" script="Hant">莊</namePart>
-<namePart type="family" lang="Chinese" script="Hant">楚</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhuang</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Chu</namePart>
+<namePart type="given" lang="chi" script="Hant">莊</namePart>
+<namePart type="family" lang="chi" script="Hant">楚</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi">
+<titleInfo lang="chi" script="Hant">
 <title>同義為訓与同義并列复合詞的產生</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Tongyi wei xun yu tongyi binglie fuhe ci de chansheng</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="Chinese" script="Hant">
+<titleInfo lang="chi" script="Hant">
 <title>天津師院學報</title>
         </titleInfo>
-<titleInfo type="translated" lang="Chinese" transliteration="Chinese">
+<titleInfo type="translated" lang="chi" transliteration="Chinese" script="Latn">
 <title>Tianjin Shiyuan xuebao</title>
         </titleInfo>
 <originInfo>
@@ -35,8 +35,12 @@
 <date encoding="w3cdtf">1980</date>
         </part>
     </relatedItem>
-<note type="topics">synonyms</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">CHU ZHUANG 1980</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="synonyms">synonyms</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

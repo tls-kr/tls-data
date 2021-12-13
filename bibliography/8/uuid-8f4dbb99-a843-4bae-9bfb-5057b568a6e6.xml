@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-8f4dbb99-a843-4bae-9bfb-5057b568a6e6" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Shūxiāng</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Lv3</namePart>
-<namePart type="given" lang="Chinese" script="">叔湘</namePart>
-<namePart type="family" lang="Chinese" script="">呂</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Shūxiāng</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Lv3</namePart>
+<namePart type="given" lang="chi" script="Hant">叔湘</namePart>
+<namePart type="family" lang="chi" script="Hant">呂</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢語語法論文集</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Hànyǔ yǔfǎ lùnwénjí</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>A Collection of Articles on Chinese Grammar</title>
     </titleInfo>
 <originInfo>
@@ -25,9 +25,16 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Orig. published in Kexue chubanshe.</note>
-<note type="topics">Chinese syntax; historical syntax</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">LV SHUXIANG 1984</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chinese syntax">Chinese syntax</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="historical syntax">historical syntax</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

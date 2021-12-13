@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-eaf12a33-b300-4bb3-9e0f-6a453cb7f0cb" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Wenchao</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Lu</namePart>
-<namePart type="given" lang="Chinese" script="">文弨</namePart>
-<namePart type="family" lang="Chinese" script="">盧</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Wenchao</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Lu</namePart>
+<namePart type="given" lang="chi" script="Hant">文弨</namePart>
+<namePart type="family" lang="chi" script="Hant">盧</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>賈誼新書</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Jia Yi Xinshu</title>
     </titleInfo>
 <originInfo>
@@ -24,8 +24,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">The standard revisionist edition with many daring suggestions concerning emendations.</note>
-<note type="topics">新書</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">LU WENCHAO 1876</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="新書">新書</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

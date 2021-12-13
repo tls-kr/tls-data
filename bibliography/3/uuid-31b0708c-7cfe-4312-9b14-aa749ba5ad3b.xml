@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-31b0708c-7cfe-4312-9b14-aa749ba5ad3b" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="English">Gary</namePart>
-<namePart type="family" lang="English">Arbuckle</namePart>
+<namePart type="given" lang="eng" script="Latn">Gary</namePart>
+<namePart type="family" lang="eng" script="Latn">Arbuckle</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="eng">
+<titleInfo lang="eng" script="Latn">
 <title>Former Han legal philosophy and the Gongyang Zhuan</title>
     </titleInfo>
 <relatedItem type="host">
-<titleInfo lang="English">
+<titleInfo lang="eng" script="Latn">
 <title>B.C. Asian review</title>
         </titleInfo>
 <originInfo>
@@ -27,8 +27,15 @@
 <date encoding="w3cdtf">1987</date>
         </part>
     </relatedItem>
-<note type="topics">Han philosophy; 公羊</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">article</genre>
 <note type="bibliographic-reference">ARBUCKLE 1987</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="han philosophy">Han philosophy</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="公羊">公羊</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d8d4ea51-7803-42ec-a159-0914d0b39b7d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="English">Alfredo</namePart>
-<namePart type="family" lang="English">Cadonna</namePart>
+<namePart type="given" lang="eng" script="Latn">Alfredo</namePart>
+<namePart type="family" lang="eng" script="Latn">Cadonna</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="eng">
+<titleInfo lang="eng" script="Latn">
 <title>India, Tibet, China</title>
 <subTitle>Genesis and Aspects of Traditional Narrative</subTitle>
     </titleInfo>
@@ -19,7 +19,7 @@
 <issuance>monographic</issuance>
     </originInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Orientalia Venetiani</title>
         </titleInfo>
 <part>
@@ -28,9 +28,16 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">vernacular literature; narrative</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">CADONNA 1999</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular literature">vernacular literature</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="narrative">narrative</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

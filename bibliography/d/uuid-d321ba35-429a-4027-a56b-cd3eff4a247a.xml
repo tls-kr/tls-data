@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-d321ba35-429a-4027-a56b-cd3eff4a247a" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese"/>
-<namePart type="family" lang="Chinese">Kumārajiiva</namePart>
+<namePart type="given" lang="chi" script="Latn"/>
+<namePart type="family" lang="chi" script="Latn">Kumārajiiva</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>維摩詰所說經</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Wéimójié suǒ shuō jīng</title>
     </titleInfo>
-<titleInfo type="translated" lang="san">
+<titleInfo type="translated" lang="san" script="Latn">
 <title>Vimalakīrti-nirdessa</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -27,9 +27,19 @@
         </part>
     </relatedItem>
 <note type="general">This is one of the central sutras in Chinese Buddhism. The main character in the sutra is not a Bodhisattva or disciple of Buddha but the lay person Vimalakirti who exceeds the disciples of Buddha in wisdom.</note>
-<note type="topics">sutras; Buddhist texts; Mahayana texts</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">VIMALAKIRTI(B)</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutras">sutras</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="mahayana texts">Mahayana texts</topic>
+    </subject>
+    <note type="ref-usage">3</note>
 </mods>

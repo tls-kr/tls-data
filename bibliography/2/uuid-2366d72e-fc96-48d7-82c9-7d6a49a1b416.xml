@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-2366d72e-fc96-48d7-82c9-7d6a49a1b416" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="French">Paul</namePart>
-<namePart type="family" lang="French">Démieville</namePart>
+<namePart type="given" lang="fre" script="Latn">Paul</namePart>
+<namePart type="family" lang="fre" script="Latn">Démieville</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="fre">
+<titleInfo lang="fre" script="Latn">
 <title>Choix d'Études Bouddhiques (1929-1970)</title>
     </titleInfo>
 <originInfo>
@@ -19,9 +19,16 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">a collection of articles on Buddhism</note>
-<note type="topics">Buddhism; Buddhism doctrine</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">DEMIEVILLE 1973</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism">Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism doctrine">Buddhism doctrine</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

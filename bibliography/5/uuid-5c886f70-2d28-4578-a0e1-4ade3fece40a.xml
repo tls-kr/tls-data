@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-5c886f70-2d28-4578-a0e1-4ade3fece40a" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Seizan</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Yanagida</namePart>
-<namePart type="given" lang="Japanese" script="">聖山</namePart>
-<namePart type="family" lang="Japanese" script="">柳田</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Seizan</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Yanagida</namePart>
+<namePart type="given" lang="jpn" script="Hant">聖山</namePart>
+<namePart type="family" lang="jpn" script="Hant">柳田</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>《祖堂集》について</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Sodōshū ni tsuite</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>On the Zutang ji</title>
     </titleInfo>
 <originInfo>
@@ -27,10 +27,10 @@
 <issuance>monographic</issuance>
     </originInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Zengaku sōsho</title>
         </titleInfo>
-<titleInfo lang="Japanese">
+<titleInfo lang="jpn" script="Hant">
 <title>禪學叢書</title>
         </titleInfo>
 <part>
@@ -39,9 +39,37 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Chan Buddhism; Zen Buddhism; Zen texts; Zutang ji; Zutangji; Sodooshu; Chodangjip; ZTJ textual studies; 祖堂集</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">YANAGIDA 1974(B)</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan buddhism">Chan Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddhism">Zen Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zutang ji">Zutang ji</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zutangji">Zutangji</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sodooshu">Sodooshu</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chodangjip">Chodangjip</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ztj textual studies">ZTJ textual studies</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="祖堂集">祖堂集</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

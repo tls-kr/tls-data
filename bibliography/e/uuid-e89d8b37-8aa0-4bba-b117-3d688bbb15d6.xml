@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-e89d8b37-8aa0-4bba-b117-3d688bbb15d6" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Saṃghabhara ?</namePart>
-<namePart lang="Chinese" script="">僧伽婆羅</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Saṃghabhara ?</namePart>
+<namePart lang="chi" script="Hant">僧伽婆羅</namePart>
 <role>
 <roleTerm type="text">translator</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>阿育王傳</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Āyùwáng zhuàn</title>
     </titleInfo>
-<titleInfo type="translated" lang="san">
+<titleInfo type="translated" lang="san" script="Latn">
 <title>Àxokarājasūtra ?</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -26,9 +26,22 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Buddhist texts; historical texts; buddhism history; buddhism historiography</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">AYUWANGZHUAN(B)</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="historical texts">historical texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism history">buddhism history</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhism historiography">buddhism historiography</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

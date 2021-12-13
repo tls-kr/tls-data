@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-51735736-55b4-4368-a946-a627c83ccfb4" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Fǎlì</namePart>
-<namePart lang="Chinese" script="">法立</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Fǎlì</namePart>
+<namePart lang="chi" script="Hant">法立</namePart>
 <role>
 <roleTerm type="text">translator</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart lang="Chinese" transliteration="chinese/ala-lc">Fǎjù</namePart>
-<namePart lang="Chinese" script="">法炬</namePart>
+<namePart lang="chi" transliteration="chinese/ala-lc" script="Latn">Fǎjù</namePart>
+<namePart lang="chi" script="Hant">法炬</namePart>
 <role>
 <roleTerm type="text">translator</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>大樓炭經</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Dà Lóutàn jīng</title>
     </titleInfo>
-<titleInfo type="translated" lang="san">
+<titleInfo type="translated" lang="san" script="Latn">
 <title>Lokasthāna sūtra</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Taishō</title>
         </titleInfo>
 <part>
@@ -33,9 +33,16 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Buddhist texts; sutras</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">LOUTANJING</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="sutras">sutras</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

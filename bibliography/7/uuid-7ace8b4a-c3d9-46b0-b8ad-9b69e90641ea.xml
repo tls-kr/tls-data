@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-7ace8b4a-c3d9-46b0-b8ad-9b69e90641ea" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Zhúfēng</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Luó</namePart>
-<namePart type="given" lang="Chinese" script="">竹風</namePart>
-<namePart type="family" lang="Chinese" script="">羅</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhúfēng</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Luó</namePart>
+<namePart type="given" lang="chi" script="Hant">竹風</namePart>
+<namePart type="family" lang="chi" script="Hant">羅</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>漢語大詞典</title>
 <subTitle>suóyìnběn</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Hànyǔ dàcídiǎn</title>
 <subTitle>suóyìnběn</subTitle>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>Encyclopedic Dictionary of Chinese - Edition in Reduced Format</title>
     </titleInfo>
 <originInfo>
@@ -28,10 +28,20 @@
 <dateIssued encoding="w3cdtf">1997</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">dictionary; dictionaries; encyclopedy</note>
+
 <note type="information-basis">CA</note>
 <identifier type="isbn">9787532624089</identifier>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">HYDCD(RED.)</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionary">dictionary</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="dictionaries">dictionaries</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="encyclopedy">encyclopedy</topic>
+    </subject>
+    <note type="ref-usage">1</note>
 </mods>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-30cf1374-7ae2-459d-bfad-22eac3979f73" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>善慧大士語錄</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Shànhuì dàshì yǔlù</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>The Recorded Sayings of Master Shanhui</title>
     </titleInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>ZZ</title>
         </titleInfo>
 <part>
@@ -19,9 +19,22 @@
             </detail>
         </part>
     </relatedItem>
-<note type="topics">Recorded Sayings; yulu; Chan texts; Buddhist texts</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">SHANHUIYULU</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="recorded sayings">Recorded Sayings</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="yulu">yulu</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan texts">Chan texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="buddhist texts">Buddhist texts</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

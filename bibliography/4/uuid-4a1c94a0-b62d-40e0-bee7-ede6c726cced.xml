@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-4a1c94a0-b62d-40e0-bee7-ede6c726cced" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Keiji</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Nishitani</namePart>
-<namePart type="given" lang="Japanese" script="">啟治</namePart>
-<namePart type="family" lang="Japanese" script="">西谷</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Keiji</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Nishitani</namePart>
+<namePart type="given" lang="jpn" script="Hant">啟治</namePart>
+<namePart type="family" lang="jpn" script="Hant">西谷</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Japanese" transliteration="japanese/ala-lc">Seizan</namePart>
-<namePart type="family" lang="Japanese" transliteration="chinese/ala-lc">Yanagida</namePart>
-<namePart type="given" lang="Japanese" script="">聖山</namePart>
-<namePart type="family" lang="Japanese" script="">柳田</namePart>
+<namePart type="given" lang="jpn" transliteration="japanese/ala-lc" script="Latn">Seizan</namePart>
+<namePart type="family" lang="jpn" transliteration="chinese/ala-lc" script="Latn">Yanagida</namePart>
+<namePart type="given" lang="jpn" script="Hant">聖山</namePart>
+<namePart type="family" lang="jpn" script="Hant">柳田</namePart>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="jpn" script="">
+<titleInfo lang="jpn" script="Hant">
 <title>禪家語錄</title>
     </titleInfo>
-<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc">
+<titleInfo type="translated" lang="jpn" transliteration="japanese/ala-lc" script="Latn">
 <title>Zenge goroku</title>
     </titleInfo>
-<titleInfo type="translated" lang="eng">
+<titleInfo type="translated" lang="eng" script="Latn">
 <title>The Recorded Sayings of Zen Monks</title>
     </titleInfo>
 <originInfo>
@@ -35,9 +35,25 @@
 <dateIssued encoding="w3cdtf">1974</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chan Buddhism; Zen Buddhism; Zen texts; Recorded Sayings; 語錄</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">NISHITANI/YANAGIDA 1974</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chan buddhism">Chan Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen buddhism">Zen Buddhism</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="zen texts">Zen texts</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="recorded sayings">Recorded Sayings</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="語錄">語錄</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

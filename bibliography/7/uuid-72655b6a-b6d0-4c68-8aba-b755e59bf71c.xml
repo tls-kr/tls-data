@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-72655b6a-b6d0-4c68-8aba-b755e59bf71c" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Zhixi</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Gao</namePart>
-<namePart type="given" lang="Chinese" script="">至喜</namePart>
-<namePart type="family" lang="Chinese" script="">高</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhixi</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Gao</namePart>
+<namePart type="given" lang="chi" script="Hant">至喜</namePart>
+<namePart type="family" lang="chi" script="Hant">高</namePart>
 <role>
 <roleTerm type="text"/>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>楚文物圖典</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Chu wenwu tudian</title>
     </titleInfo>
 <originInfo>
@@ -23,8 +23,12 @@
 <dateIssued encoding="w3cdtf">2000</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Chu, archaeology</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">CHU 2000</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="chu, archaeology">Chu, archaeology</topic>
+    </subject>
+    <note type="ref-usage">26</note>
 </mods>

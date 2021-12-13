@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-ad0284eb-35c6-4008-ad22-4ed624170220" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="">Flemming Fries</namePart>
-<namePart type="family" lang="">Hvidberg</namePart>
+<namePart type="given" lang="" script="Latn">Flemming Fries</namePart>
+<namePart type="family" lang="" script="Latn">Hvidberg</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="">
+<titleInfo lang="" script="Latn">
 <title>Weeping and Laughter in the Old Testament</title>
     </titleInfo>
 <originInfo>
@@ -17,8 +17,15 @@
 <dateIssued encoding="w3cdtf">1962</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">laugh; weep</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">HVIDBERG 1962</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="laugh">laugh</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="weep">weep</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

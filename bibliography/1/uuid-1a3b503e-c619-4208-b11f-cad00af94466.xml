@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-1a3b503e-c619-4208-b11f-cad00af94466" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="German">Marco</namePart>
-<namePart type="family" lang="German">Fittà</namePart>
+<namePart type="given" lang="ger" script="Latn">Marco</namePart>
+<namePart type="family" lang="ger" script="Latn">Fittà</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="ger">
+<titleInfo lang="ger" script="Latn">
 <title>Spiele und Spielzeug in der Antike</title>
 <subTitle>Unterhaltung und Vergnügen im Altertum</subTitle>
     </titleInfo>
@@ -20,8 +20,12 @@
 <issuance>monographic</issuance>
     </originInfo>
 <note type="general">Beautifully produced German translation</note>
-<note type="topics">Games, leisure, </note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">FITTA 1998</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="games, leisure,">Games, leisure,</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

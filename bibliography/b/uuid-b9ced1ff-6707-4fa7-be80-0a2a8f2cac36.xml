@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-b9ced1ff-6707-4fa7-be80-0a2a8f2cac36" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="English">Roar</namePart>
-<namePart type="family" lang="English">Boekset</namePart>
+<namePart type="given" lang="eng" script="Latn">Roar</namePart>
+<namePart type="family" lang="eng" script="Latn">Boekset</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
-<titleInfo lang="eng">
+<titleInfo lang="eng" script="Latn">
 <title>A Dictionary of Nonstandard Simplified Chinese Characters</title>
     </titleInfo>
 <originInfo>
@@ -18,7 +18,7 @@
 <issuance>monographic</issuance>
     </originInfo>
 <relatedItem type="series">
-<titleInfo>
+<titleInfo script="Latn">
 <title>Monographs published by the Society for Oriental Studies Stockholm</title>
         </titleInfo>
 <part>
@@ -28,9 +28,16 @@
         </part>
     </relatedItem>
 <note type="general">no date found</note>
-<note type="topics">vernacular characters; non-standard characters</note>
+
 <note type="information-basis">CA</note>
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">BOEKSET</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="vernacular characters">vernacular characters</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="non-standard characters">non-standard characters</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>

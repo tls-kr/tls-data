@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="uuid-6da957bc-7785-4203-a5e3-521a30a2a15d" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://cluster-schemas.uni-hd.de/modsCluster.xsd">
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc">Jinghao</namePart>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Ao</namePart>
-<namePart type="given" lang="Chinese" script="">鏡浩</namePart>
-<namePart type="family" lang="Chinese" script="">敖</namePart>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn">Jinghao</namePart>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Ao</namePart>
+<namePart type="given" lang="chi" script="Hant">鏡浩</namePart>
+<namePart type="family" lang="chi" script="Hant">敖</namePart>
 <role>
 <roleTerm type="text">author</roleTerm>
         </role>
     </name>
 <name type="personal">
-<namePart type="given" lang="Chinese" transliteration="chinese/ala-lc"/>
-<namePart type="family" lang="Chinese" transliteration="chinese/ala-lc">Zhongguo Shehui Kexueyuan Yuyan Yanjiusuo Gu Hanyu Yanjiushi</namePart>
-<namePart type="given" lang="Chinese" script="">中國社會科學院語言研究所古漢語研究室</namePart>
-<namePart type="family" lang="Chinese" script=""/>
+<namePart type="given" lang="chi" transliteration="chinese/ala-lc" script="Latn"/>
+<namePart type="family" lang="chi" transliteration="chinese/ala-lc" script="Latn">Zhongguo Shehui Kexueyuan Yuyan Yanjiusuo Gu Hanyu Yanjiushi</namePart>
+<namePart type="given" lang="chi" script="Hant">中國社會科學院語言研究所古漢語研究室</namePart>
+<namePart type="family" lang="chi" script="Latn"/>
 <role>
 <roleTerm type="text">editor</roleTerm>
         </role>
     </name>
-<titleInfo lang="chi" script="">
+<titleInfo lang="chi" script="Hant">
 <title>古漢語研究論文集</title>
     </titleInfo>
-<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc">
+<titleInfo type="translated" lang="chi" transliteration="chinese/ala-lc" script="Latn">
 <title>Gu Hanyu yanjiu lunwenji</title>
     </titleInfo>
 <originInfo>
@@ -32,8 +32,15 @@
 <dateIssued encoding="w3cdtf">1982</dateIssued>
 <issuance>monographic</issuance>
     </originInfo>
-<note type="topics">Ancient Chinese; AC</note>
+
 <typeOfResource>text</typeOfResource>
 <genre authority="marcgt">book</genre>
 <note type="bibliographic-reference">AO JINGHAO 1982</note>
+<subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ancient chinese">Ancient Chinese</topic>
+    </subject>
+    <subject xmlns:tls="http://hxwd.org/ns/1.0">
+        <topic tls:sort="ac">AC</topic>
+    </subject>
+    <note type="ref-usage">0</note>
 </mods>
