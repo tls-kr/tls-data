@@ -95,9 +95,9 @@
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-13e69aec-dbc3-4db5-9316-cb2c53ed35b1">narrative.conclusion</tls:sem-feat>
+  <tls:sem-feat corresp="#uuid-e82d6529-59c7-48b0-ad65-2959c7e8b0b5">conclusion</tls:sem-feat>
                 </gramGrp>
-  <def resp="#CH" updated="2022-02-17T17:55:37.911+09:00">marker of a conclusion drawn.</def>
+  <def resp="#CH" updated="2022-02-17T18:07:23.751+09:00">marker of a concluding judgment.</def>
             </sense>
 <sense xml:id="uuid-4cdee3c0-d1e6-4f85-93ca-293c664c8c96">
 <gramGrp>
@@ -191,6 +191,14 @@
                     <tls:sem-feat corresp="#uuid-6c04500c-1328-43d3-8450-0c132863d335">definition by example</tls:sem-feat>
                 </gramGrp>
                 <def>marks a nominal predication as definition by example(s)</def>
+            </sense>
+            <sense xml:id="uuid-e1f6f1f2-e204-4583-b6f1-f2e2047583b8" resp="#CH" tls:created="2022-02-17T18:25:58.33+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-d1e38e2b-a319-4bb5-a38e-2ba3199bb54b">ppostS1.+S2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fb97f78-8cbb-4101-b97f-788cbb910149">containing cataphora</tls:sem-feat>
+                </gramGrp>
+                <def>e.g. 吾聞之也 marker of a main sentence a cataphoric pronoun in which is specified in the sentence that follows</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-0e729330-8f6a-4d22-9e7b-f8b8243bc6ba">
@@ -739,6 +747,22 @@
                     <tls:syn-func corresp="#uuid-0ffb1ffa-d762-4cb0-bdf0-ac5f55be25b9">padV</tls:syn-func>
                 </gramGrp>
                 <def>archaic particle, apparently close to adverbial connectors, 'and so, thus' (SHI)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7dfd8aee-aa6c-48f1-bd8a-eeaa6cb8f146" resp="#CH" tls:created="2022-02-17T18:05:56.643+09:00">
+            <form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>矣乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hiX hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢɯʔ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-c0d3575c-3adb-42ac-9357-5c3adb62ac75" resp="#CH" tls:created="2022-02-17T18:05:56.643+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5ae85a4e-5823-417b-b04f-58d7d9f263f5">emphatic</tls:sem-feat>
+                </gramGrp>
+                <def>stressed emphatic final particle</def>
             </sense>
         </entry>
     </div>
