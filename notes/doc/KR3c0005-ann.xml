@@ -2809,7 +2809,7 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="TOPIC MARKER" concept-id="uuid-3f3cdd08-3cfd-413f-bcab-ef13143318dd" xml:id="uuid-8bf28457-3893-4253-9666-07989711c3a2">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-8bf28457-3893-4253-9666-07989711c3a2" concept="NOMINALISER" concept-id="uuid-3f58631a-9379-443a-8edf-1abffbdd8887">
                             <link target="#KR3c0005_tls_022-38a.7 #uuid-23432bd0-365d-4be8-9e6a-1223684752a6"/>
                             <tls:text>
                                 <tls:srcline title="韓非子" target="#KR3c0005_tls_022-38a.7" pos="7">而明人之欺王也，</tls:srcline>
@@ -7082,6 +7082,32 @@
                                 <respStmt>
                                     <resp>added and approved</resp>
                                     <name>CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENITIVE PARTICLES" concept-id="uuid-8ffa4531-1f93-473b-b468-7d0cf9390af1" xml:id="uuid-1bc81583-4e04-4a3a-8815-834e043a3a15">
+                            <link target="#KR3c0005_tls_049-5a.10 #uuid-15fac973-0bf6-41bd-be5e-c6d7b16d41ee"/>
+                            <tls:text>
+                                <tls:srcline title="韓非子" target="#KR3c0005_tls_049-5a.10" pos="6">今欲以先王之政，
+                    </tls:srcline>
+                                <tls:line title="" transl-id="KR3c0005" src=""/>
+                            </tls:text>
+                            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515" orig="">
+                                <orth>之</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                            </form>
+                            <sense corresp="#uuid-15fac973-0bf6-41bd-be5e-c6d7b16d41ee">
+                                <gramGrp>
+                                    <pos> </pos>
+                                    <tls:syn-func corresp="#"> npropostN1.adN2</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-bffb0573-9813-4b95-95b4-87cd47edc88c">agent</tls:sem-feat>
+                                </gramGrp>
+                                <def resp="#CH" updated="2022-03-21T05:19:09.425+09:00">明帝王之政“the bovernment by the enlightened kings": N1=agent or subject of the Nab-ing (perhaps 之 = 之所？）</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2022-03-21T05:21:13.357+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2022-03-21T05:21:13.357+09:00">CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -13279,19 +13305,21 @@
                                 <orth>也</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">yě</pron>
                             </form>
-                            <sense corresp="#uuid-837456ef-7f0c-4f1b-b728-2531dd887a39">
+                            <sense corresp="#uuid-f2d31a11-55d0-489f-96c6-6db4932d0a1d">
                                 <gramGrp>
                     <pos>P</pos>
-  <tls:syn-func corresp="#uuid-acfafcb7-9609-4e1a-8afb-f4be1c254f0a">ppostadS1.adS2</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-e06b8e14-5d20-4e61-9ac4-cc3e7536076b">subject=time</tls:sem-feat>
-                    <usg type="warring-states-currency">5</usg>
+  <tls:syn-func corresp="#uuid-413cf842-49a4-4106-a1e9-3d6a84728930">ppostadV1.adV2</tls:syn-func>
                 </gramGrp>
-                                <def>when 吾少也賤 "when I was young I was of humble status"</def>
+                                <def>after V1-ing, when V1-ing</def>
                             </sense>
                             <tls:metadata resp="#dsehnal" created="2020-05-20T19:43:06.493+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2020-05-20T19:43:06.493+09:00">dsehnal</name>
+                                </respStmt>
+                                <respStmt created="2022-03-19T18:50:38.513+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -17706,6 +17734,35 @@
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2022-03-01T01:22:40.815+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR3c0005_tls_034-29a.12">
+                        <line>女故如是之不知禮也！
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENITIVE PARTICLES" concept-id="uuid-8ffa4531-1f93-473b-b468-7d0cf9390af1" xml:id="uuid-1ce79745-a170-473a-a797-45a170b73acc">
+                            <link target="#KR3c0005_tls_034-29a.12 #uuid-0d20af46-b4ca-427e-b79f-74c7a110191b"/>
+                            <tls:text>
+                                <tls:srcline title="韓非子" target="#KR3c0005_tls_034-29a.12" pos="5">女故如是之不知禮也！
+                    </tls:srcline>
+                                <tls:line title="" transl-id="KR3c0005" src=""/>
+                            </tls:text>
+                            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515" orig="">
+                                <orth>之</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                            </form>
+                            <sense corresp="#uuid-0d20af46-b4ca-427e-b79f-74c7a110191b">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-d29eb70f-3afd-4216-9117-27d8a4a55a0b">npro.postadV1:adV2</tls:syn-func>
+                </gramGrp>
+                                <def resp="#zadrapa" updated="2020-12-14T19:54:11.111+09:00">如是之甚 "as intensely as that" modifying an adverb or adjective </def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2022-03-20T03:44:21.094+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2022-03-20T03:44:21.094+09:00">CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
