@@ -9020,7 +9020,7 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENITIVE PARTICLES" concept-id="uuid-8ffa4531-1f93-473b-b468-7d0cf9390af1" xml:id="uuid-4da16a48-d0b7-454c-b2d3-d51a4e5378da">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-4da16a48-d0b7-454c-b2d3-d51a4e5378da" concept="RELATIVE CLAUSE MARKER" concept-id="uuid-fb689ff5-7e05-4a06-92f0-8c7f6908885c">
                             <link target="#KR1f0001_tls_013-1a.7 #uuid-c94ee92b-2dbe-410b-8684-c20a59de258b"/>
                             <tls:text>
                                 <tls:srcline title="孝經" target="#KR1f0001_tls_013-1a.7" pos="6">所以敬天下之為人父者也。</tls:srcline>
@@ -9202,7 +9202,7 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENITIVE PARTICLES" concept-id="uuid-8ffa4531-1f93-473b-b468-7d0cf9390af1" xml:id="uuid-42164fba-e99b-4f7b-8b30-6307f3c123dc">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-42164fba-e99b-4f7b-8b30-6307f3c123dc" concept="RELATIVE CLAUSE MARKER" concept-id="uuid-fb689ff5-7e05-4a06-92f0-8c7f6908885c">
                             <link target="#KR1f0001_tls_013-1a.9 #uuid-c94ee92b-2dbe-410b-8684-c20a59de258b"/>
                             <tls:text>
                                 <tls:srcline title="孝經" target="#KR1f0001_tls_013-1a.9" pos="6">所以敬天下之為人兄者也。</tls:srcline>
@@ -9359,7 +9359,7 @@
                     </seg>
                     <seg xml:id="KR1f0001_tls_013-1a.11">
                         <line>所以敬天下之為人君者也。</line>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENITIVE PARTICLES" concept-id="uuid-8ffa4531-1f93-473b-b468-7d0cf9390af1" xml:id="uuid-e5c127c7-cb96-4afa-b710-5de5b596ffac">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-e5c127c7-cb96-4afa-b710-5de5b596ffac" concept="RELATIVE CLAUSE MARKER" concept-id="uuid-fb689ff5-7e05-4a06-92f0-8c7f6908885c">
                             <link target="#KR1f0001_tls_013-1a.11 #uuid-c94ee92b-2dbe-410b-8684-c20a59de258b"/>
                             <tls:text>
                                 <tls:srcline title="孝經" target="#KR1f0001_tls_013-1a.11" pos="6">所以敬天下之為人君者也。</tls:srcline>
@@ -10012,18 +10012,22 @@
                                 <orth>之</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
                             </form>
-                            <sense corresp="#uuid-62a09904-374b-413e-9e22-97934a4982a1">
+                            <sense corresp="#uuid-15fac973-0bf6-41bd-be5e-c6d7b16d41ee">
                                 <gramGrp>
-                    <pos/>
-  <tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-dd060a5b-6468-45fc-9272-63b7556df962">N1=source</tls:sem-feat>
-                </gramGrp>
-                                <def>NP1 is the source of NP2 雍之言</def>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#uuid-56ed04ee-ba1a-4025-ad04-eeba1a502553">npropostN.adNab</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-2890dc5b-46c1-40ce-90dc-5b46c160ce1c">ACT:N agent of Nab</tls:sem-feat>
+                                </gramGrp>
+                                <def resp="#CH" updated="2022-03-21T17:29:04.506+09:00">明帝王之政“the bovernment by the enlightened kings": N1=agent or subject of the Nab-ing</def>
                             </sense>
                             <tls:metadata resp="#zadrapa" created="2019-10-29T23:13:44.668+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name>zadrapa</name>
+                                </respStmt>
+                                <respStmt created="2022-03-21T22:55:20.072+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -10942,18 +10946,22 @@
                                 <orth>之</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
                             </form>
-                            <sense corresp="#uuid-62a09904-374b-413e-9e22-97934a4982a1">
+                            <sense corresp="#uuid-15fac973-0bf6-41bd-be5e-c6d7b16d41ee">
                                 <gramGrp>
-                    <pos/>
-  <tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-dd060a5b-6468-45fc-9272-63b7556df962">N1=source</tls:sem-feat>
-                </gramGrp>
-                                <def>NP1 is the source of NP2 雍之言</def>
+                                    <pos>N</pos>
+                                    <tls:syn-func corresp="#uuid-56ed04ee-ba1a-4025-ad04-eeba1a502553">npropostN.adNab</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-2890dc5b-46c1-40ce-90dc-5b46c160ce1c">ACT:N agent of Nab</tls:sem-feat>
+                                </gramGrp>
+                                <def resp="#CH" updated="2022-03-21T17:29:04.506+09:00">明帝王之政“the bovernment by the enlightened kings": N1=agent or subject of the Nab-ing</def>
                             </sense>
                             <tls:metadata resp="#zadrapa" created="2019-10-29T23:47:54.243+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name>zadrapa</name>
+                                </respStmt>
+                                <respStmt created="2022-03-21T22:55:20.072+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -11388,7 +11396,7 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="TOPIC MARKER" concept-id="uuid-3f3cdd08-3cfd-413f-bcab-ef13143318dd" xml:id="uuid-0a7ce4ec-3182-4eff-abcf-2994fc160c40">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-0a7ce4ec-3182-4eff-abcf-2994fc160c40" concept="NOMINALISER" concept-id="uuid-3f58631a-9379-443a-8edf-1abffbdd8887">
                             <link target="#KR1f0001_tls_016-1a.12 #uuid-23432bd0-365d-4be8-9e6a-1223684752a6"/>
                             <tls:text>
                                 <tls:srcline title="孝經" target="#KR1f0001_tls_016-1a.12" pos="9">故雖天子，必有尊也，</tls:srcline>
@@ -11595,7 +11603,7 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="TOPIC MARKER" concept-id="uuid-3f3cdd08-3cfd-413f-bcab-ef13143318dd" xml:id="uuid-d22a3f0d-7239-4f8e-9631-01fa3bcf0706">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-d22a3f0d-7239-4f8e-9631-01fa3bcf0706" concept="NOMINALISER" concept-id="uuid-3f58631a-9379-443a-8edf-1abffbdd8887">
                             <link target="#KR1f0001_tls_016-1a.13 #uuid-23432bd0-365d-4be8-9e6a-1223684752a6"/>
                             <tls:text>
                                 <tls:srcline title="孝經" target="#KR1f0001_tls_016-1a.13" pos="4 9">言有父也；必有先也，</tls:srcline>
@@ -14175,18 +14183,22 @@
                                 <orth>之</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
                             </form>
-                            <sense corresp="#uuid-bf9dfb75-1c55-4351-86ee-4398c9920dde">
+                            <sense corresp="#uuid-72da60e6-6960-45e3-b0db-260b95878602">
                                 <gramGrp>
                     <pos/>
   <tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-b66dbe76-0a30-45fd-8da9-873d88a4cd27">associated with</tls:sem-feat>
+  <tls:sem-feat corresp="#uuid-8297530e-bc57-42d6-9753-0ebc5732d618">APPURTENANCE:N2 appertains to N1</tls:sem-feat>
                 </gramGrp>
-                                <def>NP2 is associated with or inherently belongs to NP1 草木之名</def>
+                                <def resp="#CH" updated="2022-03-21T21:44:38.207+09:00">一人之蛇"one person's snake" N1 appertains or is attached to NP2 in some way </def>
                             </sense>
                             <tls:metadata resp="#zadrapa" created="2019-11-01T00:16:40.073+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name>zadrapa</name>
+                                </respStmt>
+                                <respStmt created="2022-03-21T21:48:26.176+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -14252,18 +14264,22 @@
                                 <orth>之</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
                             </form>
-                            <sense corresp="#uuid-de005a83-0522-4baf-90ee-67d48b9192d7">
+                            <sense corresp="#uuid-8846f932-b52c-4811-ac91-8b62ce447b52">
                                 <gramGrp>
-                    <pos/>
-  <tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-17c16252-b0a5-4e65-85fc-64b7410237de">N1=subject</tls:sem-feat>
-                </gramGrp>
-                                <def>NP1 is the subject of a deverbal nominalised NP2 兩君之好</def>
+                                    <pos> </pos>
+                                    <tls:syn-func corresp="#"> npropostN1.adN2</tls:syn-func>
+                                    <tls:sem-feat corresp="#uuid-fce54eef-8542-4c49-a54e-ef85426c4995">N1 SUBJECT not agent of feature N2</tls:sem-feat>
+                                </gramGrp>
+                                <def resp="#CH" updated="2022-03-20T02:46:53.25+09:00">說之難“the difficulty of N": N1=grammatical subject but not agent of N2</def>
                             </sense>
                             <tls:metadata resp="#zadrapa" created="2019-11-01T00:17:27.038+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name>zadrapa</name>
+                                </respStmt>
+                                <respStmt created="2022-03-21T23:42:27.857+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
