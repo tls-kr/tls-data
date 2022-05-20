@@ -643,30 +643,6 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="NOMINALISER" concept-id="uuid-3f58631a-9379-443a-8edf-1abffbdd8887" xml:id="uuid-b83d4c23-c1fe-4d82-a19e-7950eeee33dd">
-                            <link target="#KR5c0126_tls_017-17a.8 #uuid-4dc4d8be-a368-4f71-bf79-9800a2ad9b78"/>
-                            <tls:text>
-                                <tls:srcline title="莊子" target="#KR5c0126_tls_017-17a.8" pos="4">安知魚之樂？」</tls:srcline>
-                                <tls:line title="莊子 (en)" src="[Watson 1969]">how do you know what fish enjoy?"</tls:line>
-                            </tls:text>
-                            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515" orig="">
-                                <orth>之</orth>
-                                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
-                            </form>
-                            <sense corresp="#uuid-4dc4d8be-a368-4f71-bf79-9800a2ad9b78">
-                                <gramGrp>
-                    <pos>N</pos>
-  <tls:syn-func corresp="#uuid-f222ea45-1007-482e-a2ea-451007c82ea8">npro.postadN:adNab</tls:syn-func>
-                </gramGrp>
-                                <def resp="#CH" updated="2020-01-04T04:38:09.027+09:00">老之將至 nominaliser converting a subject-VP predicate sentence into an abstract nominalisation</def>
-                            </sense>
-                            <tls:metadata resp="#dsehnal" created="2020-01-11T20:46:03.226+09:00">
-                                <respStmt>
-                                    <resp>added and approved</resp>
-                                    <name>dsehnal</name>
-                                </respStmt>
-                            </tls:metadata>
-                        </tls:ann>
                         <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="ENJOY" concept-id="uuid-b2d4f9f1-5b02-4cb3-bdb8-863eb65675af" xml:id="uuid-3ce880e6-f589-4a23-bf08-04e086448b74">
                             <link target="#KR5c0126_tls_017-17a.8 #uuid-ff4e374f-1c30-4a84-ae26-072c00f520ea"/>
                             <tls:text>
@@ -719,6 +695,32 @@
                                 <respStmt>
                                     <resp>added and approved</resp>
                                     <name>dsehnal</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="GENITIVE PARTICLES" concept-id="uuid-8ffa4531-1f93-473b-b468-7d0cf9390af1" xml:id="uuid-2ded97d4-a76a-4b5f-ad97-d4a76a2b5f3d">
+                            <link target="#KR5c0126_tls_017-17a.8 #uuid-d3c399f1-6339-44ae-bfab-a3f781efdceb"/>
+                            <tls:text>
+                                <tls:srcline title="莊子" target="#KR5c0126_tls_017-17a.8" pos="4">安知魚之樂？」
+                    </tls:srcline>
+                                <tls:line title="Translation of 莊子 into (English)" transl-id="KR5c0126-en-db356dfd" src="C. Harbsmeier">whence do you know the joys of a fish?"</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515" orig="">
+                                <orth>之</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                            </form>
+                            <sense corresp="#uuid-d3c399f1-6339-44ae-bfab-a3f781efdceb">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-56ed04ee-ba1a-4025-ad04-eeba1a502553">npropostN.adNab</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-22da1376-4dec-42a2-9a13-764dec72a247">FEATURE:N has Nab=feature.</tls:sem-feat>
+                </gramGrp>
+                                <def resp="#CH" updated="2022-05-08T20:00:35.606+09:00">N2=characteristic feature: 父之道 "the way of a father" Nab is a feature or characteristic of N </def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2022-05-20T01:25:51.72+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2022-05-20T01:25:51.72+09:00">CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -31874,18 +31876,23 @@
                                 <orth>之</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
                             </form>
-                            <sense corresp="#uuid-10b526da-039b-462f-b85c-138bf8b71b11">
+                            <sense corresp="#uuid-d8967b61-059c-425f-88bf-1054a0df3e15">
                                 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
   <tls:sem-feat corresp="#uuid-d35d4c61-ff30-4d10-a371-8a9362698355">cataphoric</tls:sem-feat>
+                    <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-                                <def>the following</def>
+                                <def>cataphoric: the following object, the object identified further down in the context</def>
                             </sense>
                             <tls:metadata resp="#CH" created="2021-04-06T02:36:29.178+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2021-04-06T02:36:29.178+09:00">CH</name>
+                                </respStmt>
+                                <respStmt created="2022-05-20T02:21:56.042+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -74451,6 +74458,96 @@
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2022-05-10T21:27:44.227+09:00">dsehnal</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR5c0126_tls_021-9a.4">
+                        <line>而猶假至言以脩心，
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="USE" concept-id="uuid-bcbe1a3b-ce56-4144-8017-4e5b8417fc10" xml:id="uuid-bed67dfd-63d3-4af0-967d-fd63d36af06f">
+                            <link target="#KR5c0126_tls_021-9a.4 #uuid-a498ea79-4f2b-4731-b24f-acdf4af34a4c"/>
+                            <tls:text>
+                                <tls:srcline title="莊子" target="#KR5c0126_tls_021-9a.4" pos="3">而猶假至言以脩心，
+                    </tls:srcline>
+                                <tls:line title="Translation of 莊子 into (English)" transl-id="KR5c0126-en-db356dfd" src="C. Harbsmeier">but all the same you avail yourself of these ultimate propositions to cultivate your mind.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce" orig="">
+                                <orth>假</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">jiǎ</pron>
+                            </form>
+                            <sense corresp="#uuid-a498ea79-4f2b-4731-b24f-acdf4af34a4c">
+                                <gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+                                <def>avail oneself of, use (what is not one's own)</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2022-05-20T04:51:19.019+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2022-05-20T04:51:19.019+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR5c0126_tls_022-17a.14">
+                        <line>假不用者也以長得其用，
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="USE" concept-id="uuid-bcbe1a3b-ce56-4144-8017-4e5b8417fc10" xml:id="uuid-8fe72fef-9783-41d0-a72f-ef978361d09c">
+                            <link target="#KR5c0126_tls_022-17a.14 #uuid-a498ea79-4f2b-4731-b24f-acdf4af34a4c"/>
+                            <tls:text>
+                                <tls:srcline title="莊子" target="#KR5c0126_tls_022-17a.14" pos="1">假不用者也以長得其用，
+                    </tls:srcline>
+                                <tls:line title="Translation of 莊子 into (English)" transl-id="KR5c0126-en-db356dfd" src="C. Harbsmeier">it is by dint of not using things that in the long run one gains what is useful.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce" orig="">
+                                <orth>假</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">jiǎ</pron>
+                            </form>
+                            <sense corresp="#uuid-a498ea79-4f2b-4731-b24f-acdf4af34a4c">
+                                <gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+                                <def>avail oneself of, use (what is not one's own)</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2022-05-20T04:52:05.209+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2022-05-20T04:52:05.209+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR5c0126_tls_025-19a.48">
+                        <line>所假而行。
+                    </line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="USE" concept-id="uuid-bcbe1a3b-ce56-4144-8017-4e5b8417fc10" xml:id="uuid-5881a4f0-a34d-4413-81a4-f0a34d941355">
+                            <link target="#KR5c0126_tls_025-19a.48 #uuid-a498ea79-4f2b-4731-b24f-acdf4af34a4c"/>
+                            <tls:text>
+                                <tls:srcline title="莊子" target="#KR5c0126_tls_025-19a.48" pos="2">所假而行。
+                    </tls:srcline>
+                                <tls:line title="Translation of 莊子 into (English)" transl-id="KR5c0126-en-db356dfd" src="C. Harbsmeier">is to be what one avails oneself of in order to move along.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce" orig="">
+                                <orth>假</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">jiǎ</pron>
+                            </form>
+                            <sense corresp="#uuid-a498ea79-4f2b-4731-b24f-acdf4af34a4c">
+                                <gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+                                <def>avail oneself of, use (what is not one's own)</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2022-05-20T04:53:50.703+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2022-05-20T04:53:50.703+09:00">CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
