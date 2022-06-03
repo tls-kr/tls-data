@@ -2211,7 +2211,7 @@
                         <line>然後皆得其所樂。」
                         
                     </line>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="NOMINALISER" concept-id="uuid-3f58631a-9379-443a-8edf-1abffbdd8887" xml:id="uuid-9a43bd97-3573-47ab-83bd-97357367ab29">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-9a43bd97-3573-47ab-83bd-97357367ab29" concept="PRONOUN" concept-id="uuid-c1654743-3e55-4188-816b-511da251682f">
                             <link target="#KR3j0009_tls_026-9a.1 #uuid-83773727-142b-4fa5-b737-27142b2fa5bd"/>
                             <tls:text>
                                 <tls:srcline title="呂氏春秋" target="#KR3j0009_tls_026-9a.1" pos="5">然後皆得其所樂。」
@@ -2368,17 +2368,23 @@
                                 <orth>所</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">suǒ</pron>
                             </form>
-                            <sense corresp="#uuid-3daded50-daea-4eda-aded-50daea1edaf6">
+                            <sense corresp="#uuid-ad30efa7-70cb-4f1f-aef4-52f48233471b">
                                 <gramGrp>
-                                    <pos>N</pos>
-                                    <tls:syn-func corresp="#uuid-646ff0ce-a396-47e2-aff0-cea396f7e292">npro{OBJ}-.Vtt N</tls:syn-func>
-                                </gramGrp>
-                                <def>pronoun referring to the direct object of a ditransitive verb which follows ((Note that N is not pronominalisable, hence the " " instead of the normal object "o"))</def>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-bdc13541-def6-44fe-8135-41def6e4feef">npro{OBJ}-.Vtt+N</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-baaaeae7-6ce0-42a7-a61e-fa3fbd0183de">indirect object</tls:sem-feat>
+                    <usg type="warring-states-currency">3</usg>
+                </gramGrp>
+                                <def resp="#CH" updated="2020-04-29T00:06:46.916+09:00">e.g. 所受教 "those one has received teaching FROM": prepositional indirect object; like hypothetical 所於</def>
                             </sense>
                             <tls:metadata resp="#CH" created="2020-04-29T03:12:27.196+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2020-04-29T03:12:27.196+09:00">CH</name>
+                                </respStmt>
+                                <respStmt created="2022-06-03T00:07:48.84+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
@@ -3051,17 +3057,21 @@
                                 <orth>所</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">suǒ</pron>
                             </form>
-                            <sense corresp="#uuid-ed171492-2885-45ab-9714-922885e5ab75">
+                            <sense corresp="#uuid-711f6486-f3e0-4888-9f64-86f3e0088836">
                                 <gramGrp>
                                     <pos>N</pos>
-                                    <tls:syn-func corresp="#uuid-e2c2e0db-b0dd-45e5-82e0-dbb0ddd5e5d6">npro{OBJ}-Vt.adS</tls:syn-func>
+                                    <tls:syn-func corresp="#uuid-bf847dfb-9995-4300-847d-fb9995230078">npro{OBJ}-Vt.adV</tls:syn-func>
                                 </gramGrp>
-                                <def>有所自而得之 "have that on the basis of which they got it": the object in an adsentential clause</def>
+                                <def resp="#CH" updated="2020-04-29T00:04:25.427+09:00">e.g. 所與立 "those whom one stands together with":  those Vt-ing which/whom the explicit or implicit subject V-ed or V-s</def>
                             </sense>
                             <tls:metadata resp="#CH" created="2020-04-29T17:38:26.036+09:00">
                                 <respStmt>
                                     <resp>added</resp>
                                     <name notBefore="2020-04-29T17:38:26.036+09:00">CH</name>
+                                </respStmt>
+                                <respStmt created="2022-06-03T00:10:01.464+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
+                                    <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
