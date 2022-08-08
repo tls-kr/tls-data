@@ -256,7 +256,7 @@
                 <gramGrp>
                     <pos> </pos>
                     <tls:syn-func corresp="#"> npropostN1.adN2</tls:syn-func>
-                    <tls:sem-feat corresp="#uuid-11b48969-311e-4f51-b489-69311edf5188">SUBJECT (not agent!) N1 subjectof feature N2</tls:sem-feat>
+                    <tls:sem-feat corresp="#uuid-e22ee4bf-b84f-426e-aee4-bfb84f526ea6">SUBJECT (not agent!) N1 subject of feature N2</tls:sem-feat>
                 </gramGrp>
                 <def resp="#CH" updated="2022-03-20T02:46:53.25+09:00">說之難“the difficulty of N": N1=grammatical subject but not agent of N2</def>
             </sense>
@@ -400,8 +400,25 @@
                 <gramGrp>
                     <pos>N</pos>
                     <tls:syn-func corresp="#uuid-cf7c72cc-f6e0-40f8-bc72-ccf6e0f0f87c">npro1.postnpro2:adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5667bc8c-3cc0-4e71-a7bc-8c3cc08e71fd">time, apposition</tls:sem-feat>
                 </gramGrp>
                 <def>當此之時"During these times"</def>
+            </sense>
+            <sense xml:id="uuid-48de0282-e389-432c-9e02-82e389e32c84" resp="#CH" tls:created="2022-08-07T22:54:06.519+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func>
+                    <tls:sem-feat corresp="#">TIME</tls:sem-feat>
+                </gramGrp>
+                <def>N2 being of/from time N1</def>
+            </sense>
+            <sense xml:id="uuid-5c87e528-496e-4953-87e5-28496e69536e" resp="#CH" tls:created="2022-08-08T01:37:38.181+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-2ad82cd8-5d1e-41f3-982c-d85d1ec1f313">npropostNpr.adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-be50fab2-0e6e-48eb-90fa-b20e6e18eb52">Npr object described in N</tls:sem-feat>
+                </gramGrp>
+                <def>先王之書"Books on the First Kings": the documents N concerned with/being about the persons Npr</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-4141367c-d69a-4b90-a810-597678780dcf">
