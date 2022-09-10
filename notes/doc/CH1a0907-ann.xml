@@ -16978,7 +16978,7 @@
                                 </respStmt>
                             </tls:metadata>
                         </tls:ann>
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="BECAUSE" concept-id="uuid-d60b11df-022d-4f3c-be05-f4db9dae4ba5" xml:id="uuid-50d4cd5f-4b1f-4831-b849-d840e03159b5">
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" xml:id="uuid-50d4cd5f-4b1f-4831-b849-d840e03159b5" concept="CAUSE" concept-id="uuid-41694f48-f6e8-4143-9a44-f7bd2f2f917a">
                             <link target="#CH1a0907_CHANT_001-8a.26 #uuid-2ef0156e-7544-4fb4-b781-a65b576a824e"/>
                             <tls:text>
                                 <tls:srcline title="說苑" target="#CH1a0907_CHANT_001-8a.26" pos="4">故牧者所以辟四門，</tls:srcline>
@@ -24395,31 +24395,7 @@
                             </tls:metadata>
                         </tls:ann>
                         
-                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="ISSUE" concept-id="uuid-9791e09f-66ae-43f2-b3f6-a3989c2a30ca" xml:id="uuid-4dcc2443-c9e1-49e2-ad3a-c15f164fbe4a">
-                            <link target="#CH1a0907_CHANT_006-10a.24 #uuid-302e805c-3a5b-4913-9e7e-6792b3b47ba0"/>
-                            <tls:text>
-                                <tls:srcline title="說苑" target="#CH1a0907_CHANT_006-10a.24" pos="3">此德出而福反也。</tls:srcline>
-                                <tls:line title="" src=""/>
-                            </tls:text>
-                            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b" orig="">
-                                <orth>出</orth>
-                                <pron xml:lang="zh-Latn-x-pinyin">chū</pron>
-                            </form>
-                            <sense corresp="#uuid-302e805c-3a5b-4913-9e7e-6792b3b47ba0">
-                                <gramGrp>
-                                    <pos>V</pos>
-                                    <tls:syn-func corresp="#">vi</tls:syn-func>
-                                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
-                                </gramGrp>
-                                <def>be given out; be sent out</def>
-                            </sense>
-                            <tls:metadata resp="#dsehnal" created="2019-12-15T02:21:49.804+09:00">
-                                <respStmt>
-                                    <resp>added and approved</resp>
-                                    <name>dsehnal</name>
-                                </respStmt>
-                            </tls:metadata>
-                        </tls:ann>
+                        
                     </seg>
                     <seg xml:id="CH1a0907_CHANT_004-6a.2">
                         <line>4．6曾子衣弊衣以耕，</line>
@@ -90526,17 +90502,21 @@
                                 <orth>終</orth>
                                 <pron xml:lang="zh-Latn-x-pinyin">zhōng</pron>
                             </form>
-                            <sense corresp="#uuid-be9eba73-d0c1-4746-be1a-58e6ffefc147">
+                            <sense corresp="#uuid-704a4dc6-90c3-489b-b183-486f5491a717">
                                 <gramGrp>
-                           <pos>V</pos>
-                           <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-                           <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
-                        </gramGrp>
-                                <def>come to a natural end, live to a natural end</def>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <usg type="warring-states-currency">4</usg>
+                </gramGrp>
+                                <def>come to an end, finish; bring things to a close</def>
                             </sense>
                             <tls:metadata resp="#CH" created="2020-01-24T23:17:16.763+09:00">
                                 <respStmt>
                                     <resp>added and approved</resp>
+                                    <name>CH</name>
+                                </respStmt>
+                            <respStmt created="2022-09-08T18:43:45.916+09:00" resp="#CH">
+                                    <resp>changed SW</resp>
                                     <name>CH</name>
                                 </respStmt>
                             </tls:metadata>
