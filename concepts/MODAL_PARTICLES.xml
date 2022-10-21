@@ -7,6 +7,12 @@
     </list>
 <div type="definition">
 <p>Grammar [NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p>
+    <div type="definition" resp="#CH" modified="2022-10-21T22:14:03.209+09:00">
+            <p>MODAL PARTICLES are scope-bearing MODIFIERS that are taken to indicate the way the predications in their scope are to be understood</p>
+        </div>
+        <div type="definition" resp="#CH" modified="2022-10-21T22:15:13.04+09:00">
+            <p>MODAL PARTICLES are scope-bearing grammaticalised words or expressions that are taken to indicate the way the predications in their scope are to be understood</p>
+        </div>
     </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
@@ -250,14 +256,7 @@
                 </gramGrp>
   <def>formative of rhetorical questions</def>
             </sense>
-<sense xml:id="uuid-699ec05d-e01d-4cfd-bb94-32ad12fd25db">
-<gramGrp>
-                    <pos>D</pos>
-  <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
-  <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
-                </gramGrp>
-  <def>modal particle marking rhetorical questions</def>
-            </sense>
+
 <sense xml:id="uuid-22024189-9468-4e15-8241-8994685e15dc" resp="#CH" tls:created="2020-07-01T23:26:49.126+09:00">
                 <gramGrp>
                     <pos>P</pos>
@@ -358,7 +357,7 @@
   <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>particle introducing rhetorical questions 夫何</def>
+  <def resp="#CH" updated="2022-10-21T22:17:06.045+09:00">particle introducing typically generic rhetorical questions 夫何</def>
             </sense>
 <sense xml:id="uuid-e75ced1c-158a-4d2e-9ced-1c158a3d2e7e" resp="#CH" tls:created="2021-09-20T21:51:20.063+09:00">
                 <gramGrp>
@@ -366,7 +365,7 @@
                     <tls:syn-func corresp="#uuid-0ffb1ffa-d762-4cb0-bdf0-ac5f55be25b9">padS</tls:syn-func>
                     <tls:sem-feat corresp="#uuid-8f19a608-ac24-40d7-99a6-08ac2410d7ab">without preceding S</tls:sem-feat>
                 </gramGrp>
-                <def>In fact... (opening a whole chapter)</def>
+                <def resp="#CH" updated="2022-10-21T22:17:45.964+09:00">In fact... (opening a whole chapter in a non-narrative mode)</def>
             </sense>
             <sense xml:id="uuid-6af07dfa-fdd5-4592-ba2c-e928b359f29c">
 <gramGrp>
@@ -1041,6 +1040,43 @@
                     <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
                 </gramGrp>
                 <def>states a fact, emphatically, as currently relevant, appealing then to the reader that this is true</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-edbd08a5-53d0-485e-8035-4705aeb55579">
+            <form corresp="#uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+<orth>始得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǐ dé</pron>
+                <pron xml:lang="zh-x-oc">lʰɯʔ tɯɯɡ</pron>
+                <pron xml:lang="zh-x-mc">ɕɨ tək</pron>
+            </form>
+<sense xml:id="uuid-9391d325-b8e4-4418-9f2e-75a7e72f8fd0">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fb07383f-5730-4ace-9cf3-eb00c5b1239b">VPpostadS</tls:syn-func>
+                </gramGrp>
+  <def>grammaticalised idiom reinforcing a recommendation made&gt;...only then will one succeed;...only then is it possible</def>
+            </sense>
+<sense xml:id="uuid-3e9fef04-00e0-4dec-a087-b4692457846a">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-886f5801-cdad-459f-8e1e-967368f80619">VPt+V.postS</tls:syn-func>
+                </gramGrp>
+  <def>grammaticalised idiom reinforcing the notion of obligation/recommendation made &gt; only if S then the goal defined by V will be achieved</def>
+            </sense>
+</entry>
+        <entry xml:id="uuid-2dc3a6e7-8311-41ec-83a6-e7831151ec15">
+            <form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87 #uuid-4342b9fe-7e09-40cb-ad1a-fbf479505d5f">
+<orth>莫是</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mò shì</pron>
+                <pron xml:lang="zh-x-oc">maaɡ ɡljeʔ</pron>
+                <pron xml:lang="zh-x-mc">mɑk dʑiɛ</pron>
+            </form>
+            <sense xml:id="uuid-d9d9dd8f-86a0-4bbb-88dc-82cc1cf5871c">
+<gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-ec1f463b-3297-489a-9917-e28a783bdcb3">VPt+S.+V{NEG}</tls:syn-func>
+                </gramGrp>
+  <def>Is it not that S, (or not)</def>
             </sense>
         </entry>
     </div>
