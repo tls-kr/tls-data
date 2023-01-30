@@ -159,7 +159,15 @@
                 </gramGrp>
   <def>this</def>
             </sense>
-</entry>
+<sense xml:id="uuid-9a6c9e1d-9ec3-4b2e-ac9e-1d9ec36b2ef9" resp="#CH" tls:created="2023-01-14T00:00:40.653+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>these</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f6811813-f500-43c3-973d-2c0511f9f655">
             <form corresp="#uuid-8dc49d39-8e34-4572-b2a2-81533b7b1936">
 <orth>個</orth>
@@ -268,6 +276,13 @@
                     <tls:syn-func corresp="#">npro.m:adN</tls:syn-func>
                 </gramGrp>
                 <def>non-anaphoric but context-determined: amounts of the relevant</def>
+            </sense>
+            <sense xml:id="uuid-b5e14113-c1de-4df3-a141-13c1de2df3b1" resp="#CH" tls:created="2022-11-16T19:01:31.009+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func>
+                </gramGrp>
+                <def>the contextually determinate N</def>
             </sense>
         </entry>
 <entry type="word" xml:id="uuid-707199d8-3b6c-4cb6-938e-33c509573eda">
@@ -496,24 +511,24 @@
 <sense xml:id="uuid-f7acfcd1-30cb-450a-b634-5dce88296fce">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+  <tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func>
   <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def>this abstract thing; this event; this course of action; this point</def>
+  <def resp="#CH" updated="2022-11-11T18:52:01.695+09:00">often emphatic:this abstract thing; this event; this course of action; this point; nothing other than this</def>
             </sense>
 <sense xml:id="uuid-ad7dc37b-aa27-4b36-ba95-2216aa117e96">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+  <tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func>
   <tls:sem-feat corresp="#uuid-644cf692-c668-427a-9d1b-84570afa92b0">concrete</tls:sem-feat>
                 </gramGrp>
-  <def>this stuff, this thing</def>
+  <def resp="#CH" updated="2022-11-11T18:56:01.271+09:00">示諸斯"point it out on this (i.e. the hand)":this, this thing</def>
             </sense>
 <sense xml:id="uuid-bc7777ff-9ef6-4f1d-b3d7-be98ef1bdd04">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+  <tls:syn-func corresp="#uuid-3f834eda-ce59-4254-a002-582400765af9">npro[adN]</tls:syn-func>
   <tls:sem-feat corresp="#uuid-e880cc63-cffa-423d-a0a8-6e1d1f9da7db">approximate</tls:sem-feat>
                 </gramGrp>
   <def>this time</def>
@@ -1533,6 +1548,21 @@
                     <tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func>
                 </gramGrp>
                 <def>these</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7b7eaf47-c154-4d7a-beaf-47c1547d7a45" resp="#CH" tls:created="2022-11-27T23:35:20.603+09:00">
+            <form corresp="#uuid-5da673cc-72dd-47b8-8bba-734fe8ba514e">
+                <orth>厥</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-eb80102e-be25-4ed6-8010-2ebe25ded678" resp="#CH" tls:created="2022-11-27T23:35:20.603+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-b559fe37-af5e-434c-b149-a645c2273f41">padN</tls:syn-func>
+                </gramGrp>
+                <def>this, that</def>
             </sense>
         </entry>
     </div>
