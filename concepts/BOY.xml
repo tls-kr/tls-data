@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2a6b7eca-e5b8-4ed3-88fe-7b492c127b97">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2a6b7eca-e5b8-4ed3-88fe-7b492c127b97">
 <head>BOY</head>
     <list type="altnames">
 <item>LAD</item>
@@ -228,13 +227,19 @@
 <sense xml:id="uuid-3c21b710-f6c3-49ae-82d6-7317ac7c29a7">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-e144e5f3-6f48-434b-ad41-3e76234cca69">NP{N1adN2}</tls:syn-func>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
   <tls:sem-feat corresp="#uuid-420fbe78-6b7c-49ca-8927-d60349fa4f3a">male?</tls:sem-feat>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def>small child, infant; young man</def>
+  <def resp="#CH" updated="2024-02-26T18:35:18.276+09:00">small child, infant;  child</def>
             </sense>
-</entry>
+<sense xml:id="uuid-cff8705d-7978-4388-964d-4c5b3de2f49a">
+<gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+  <def>like a small child</def>
+            </sense></entry>
 <entry type="word" xml:id="uuid-d3ebd5f5-c919-4b49-a953-e6ab856070af">
             <form corresp="#uuid-4d9ad900-b9f4-4297-808a-ac1b45292f9c #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>弱子</orth>

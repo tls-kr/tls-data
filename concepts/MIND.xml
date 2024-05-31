@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5ead37a8-2dc0-4c82-8ced-86144e93b480">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5ead37a8-2dc0-4c82-8ced-86144e93b480">
 <head>MIND</head>
     <list type="altnames">
 <item>BRAIN</item>
@@ -25,7 +24,7 @@
     </list>
 <div type="definition">
 <p>ABSTRACT ORGAN of DESIRING, THINKING, FEELing AND KNOWING in HUMANS OR ANIMALS.</p>
-    </div>
+    <div type="definition" resp="#CH" modified="2023-09-12T16:58:42.496+09:00"><p>ABSTRACT ORGAN of DESIRING, THINKING, FEELing AND KNOWING</p></div></div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general word for the mental sphere of man is xīn 心 "HEART&gt; mind" (ant. xíng 形 "physical shape, body", tǐ 體 "limbs, body").</p>
@@ -216,7 +215,7 @@
 <sense xml:id="uuid-b1c955a7-857c-489b-84be-0e3066eba40d">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-f3325cd5-6683-4f53-b25c-d566839f53fe">nab+HU1.adV</tls:syn-func>
+  <tls:syn-func corresp="#uuid-5db5e869-e3e0-42cc-b5e8-69e3e002cc1c">nab－乎.adV</tls:syn-func>
                 </gramGrp>
   <def>in one's heart</def>
             </sense>
@@ -249,7 +248,7 @@
   <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
   <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
                 </gramGrp>
-  <def>mind (Most of these examples are really nab(post-N) or nab[post-N]. The subdivision has not been implemented so far.)BUDDH: skr. citta (the concept of 心 in Buddhist texts is extremely complicated!)</def>
+  <def resp="#CH" updated="2024-03-14T01:27:35.158+09:00">one's (not other people's) mind BUDDH: skr. citta (the concept of 心 in Buddhist texts is of course extremely complicated!)</def>
             </sense>
 <sense xml:id="uuid-1a3a5262-3980-4312-bfba-0217d229d6dd">
 <gramGrp>
@@ -274,29 +273,7 @@
                 </gramGrp>
   <def>mind &gt; have mental activity; perfom mentally; function as mind</def>
             </sense>
-<sense xml:id="uuid-80fb6e4e-394c-44a7-a02b-422f48fe4e18" resp="#CH" tls:created="2019-12-04T05:07:07.657+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#">nadN1(.post-N2):adV</tls:syn-func>
-                </gramGrp>
-                <def>in N's mind</def>
-            </sense>
-            <sense xml:id="uuid-5e1b9426-914d-44c1-90fd-e04d67cca43f" resp="#CH" tls:created="2020-02-07T22:34:58.254+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
-                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
-                </gramGrp>
-                <def>other people's minds</def>
-            </sense>
-            <sense xml:id="uuid-f66edeb5-77a8-43c0-aede-b577a833c09f" resp="#CH" tls:created="2022-08-31T18:55:38.773+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
-                </gramGrp>
-                <def>the mind of the Ns</def>
-            </sense>
-        </entry>
+<sense xml:id="uuid-80fb6e4e-394c-44a7-a02b-422f48fe4e18" resp="#CH" tls:created="2019-12-04T05:07:07.657+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nadN1(.post-N2):adV</tls:syn-func></gramGrp><def>in N's mind</def></sense><sense xml:id="uuid-5e1b9426-914d-44c1-90fd-e04d67cca43f" resp="#CH" tls:created="2020-02-07T22:34:58.254+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-ae2dc52f-a86a-49a4-adc5-2fa86ac9a407">plural: others'</tls:sem-feat></gramGrp><def>other people's minds</def></sense><sense xml:id="uuid-f66edeb5-77a8-43c0-aede-b577a833c09f" resp="#CH" tls:created="2022-08-31T18:55:38.773+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>the mind of the Ns</def></sense></entry>
 <entry type="word" xml:id="uuid-a62257e1-7d9a-459c-a663-1a84972885ca">
             <form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
 <orth>志</orth>
@@ -322,23 +299,7 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-09-10T00:16:30.191+09:00">intentional orientation and aspiration, mental setup</def>
             </sense>
-<sense xml:id="uuid-0a167256-d1cb-4c98-9672-56d1cb5c987f" resp="#zadrapa" tls:created="2020-06-04T22:06:47.343+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
-                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
-                </gramGrp>
-                <def>the way of thinking of the contextually determinate N</def>
-            </sense>
-            <sense xml:id="uuid-e7aa873b-acff-41b2-aa87-3bacff51b2b4" resp="#zadrapa" tls:created="2020-06-18T16:57:22.637+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
-                </gramGrp>
-                <def>the way of thinking, thought</def>
-            </sense>
-        </entry>
+<sense xml:id="uuid-0a167256-d1cb-4c98-9672-56d1cb5c987f" resp="#zadrapa" tls:created="2020-06-04T22:06:47.343+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>the way of thinking of the contextually determinate N</def></sense><sense xml:id="uuid-e7aa873b-acff-41b2-aa87-3bacff51b2b4" resp="#zadrapa" tls:created="2020-06-18T16:57:22.637+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>the way of thinking, thought</def></sense></entry>
 <entry type="word" xml:id="uuid-a0e5744d-f817-4695-883b-27d9b42427ae">
             <form corresp="#uuid-fe0dbc1f-2ca0-4174-9787-b9511e7f67fb">
 <orth>情</orth>
@@ -376,15 +337,7 @@
                 </gramGrp>
   <def>BUDDH: thinking faculty, mind (in Buddhism regarded as one of the sense-organs which has thoughts as its object; as opposed to 心 yì is hardly ever described positively but usually as the faculty which engages in discriminating thoughts) (see also 意識 and 意地) SANSKRIT manas</def>
             </sense>
-<sense xml:id="uuid-2f430cd3-6746-417f-89ff-68e8fe20e871" resp="#CH" tls:created="2019-12-07T18:52:14.202+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
-                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
-                </gramGrp>
-                <def>mind</def>
-            </sense>
-        </entry>
+<sense xml:id="uuid-2f430cd3-6746-417f-89ff-68e8fe20e871" resp="#CH" tls:created="2019-12-07T18:52:14.202+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>mind</def></sense></entry>
 <entry type="word" xml:id="uuid-c4b2a8d1-ed19-48f7-bb57-aa1c84236e4a">
             <form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd">
 <orth>氣</orth>
@@ -534,7 +487,7 @@
   <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def resp="#CH" updated="2022-09-10T00:27:44.542+09:00">the human heart, the heart of men; the sensibilities of man</def>
+  <def resp="#CH" updated="2023-08-20T16:33:06.166+09:00">the human mindset;human atitudes;the hearts of men; the sensibilities of men</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-7642d24c-675b-4688-9925-a6288e78b19e">
@@ -1188,20 +1141,5 @@
   <def>the inner world of the mind  YIJING: 君子之內 "the man of character straightens out his mind"</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-11f00c9b-235e-4813-b00c-9b235e281380" resp="#CH" tls:created="2021-05-06T01:37:14.546+09:00">
-            <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-bf021f93-0da3-46e1-8590-7c90ac8dddab">
-                <orth>其舍</orth>
-                <pron xml:lang="zh-Latn-x-pinyin">qí shè</pron>
-                <pron xml:lang="zh-x-mc" resp="rec:baxter">gi syaeH</pron>
-                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ lʰas</pron>
-            </form>
-            <sense xml:id="uuid-efe5c03f-b71f-4314-a5c0-3fb71fb31446" resp="#CH" tls:created="2021-05-06T01:37:14.546+09:00">
-                <gramGrp>
-                    <pos>N</pos>
-                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
-                </gramGrp>
-                <def>one's free inner spiritual space</def>
-            </sense>
-        </entry>
-    </div>
+    <entry type="word" xml:id="uuid-11f00c9b-235e-4813-b00c-9b235e281380" resp="#CH" tls:created="2021-05-06T01:37:14.546+09:00"><form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-bf021f93-0da3-46e1-8590-7c90ac8dddab"><orth>其舍</orth><pron xml:lang="zh-Latn-x-pinyin">qí shè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gi syaeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ lʰas</pron></form><sense xml:id="uuid-efe5c03f-b71f-4314-a5c0-3fb71fb31446" resp="#CH" tls:created="2021-05-06T01:37:14.546+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>one's free inner spiritual space</def></sense></entry></div>
 </div>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-748e6226-c1ae-42f3-802b-792082fcccb9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-748e6226-c1ae-42f3-802b-792082fcccb9">
 <head>THEREFORE</head>
     <list type="altnames">
 <item>CONSEQUENTLY</item>
@@ -34,6 +33,9 @@
 <p>故</p>
 <p>用</p>
 <p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／ LU JIANMING</p>
+        </div>
+    <div type="old-chinese-criteria" resp="#CH" modified="2024-02-25T19:13:47.812+09:00">
+            <p>1. 故 is by far the most general Chinese word for THEREFORE, and in the interpretation of the word it is always important to find the semantic scope of the word, i.e. the "reason" or "cause" the particle refers back to. [It is important to distinguish between the pregnant use of 故 THEREFORE from the "bleached" use of  故 THUS "along these lines".　</p><p>2. 是故 is the most common compound word in this synonym group (for which 故 alone may be regarded to be a short form). But 是故 rarely has "bleached" uses and must generally refer to either subjective motivation or objective causation.</p><p>3. 是以 "because of this" almost as common, and seems to me more common as indicating a subjective cause than  a concrete causal relation. </p><p>4. 然則 "given this, then" is argumentative and limited to abstract discussion contexts.2. 是以 is also frequent but the word seems to refer to subjective motivations and purposes in especially many important cases.</p><p>5.以此觀之 and 由是觀之 "viewed against this background" are explicitly theoretical in an almost didactic mode.</p><p>6. 故曰 "therefore it is said" typically refers to a helpful relevant and explanatory  quotation, often independently known, but it can also refer to the author's expressed opinion elsewhere in the context, and to an emphatic conclusion drawn in an argument.</p>
         </div>
     </div>
 <div type="pointers">
@@ -531,9 +533,9 @@
 <sense xml:id="uuid-597b5e92-4f3f-4e7a-90dd-70b8a6fca908">
 <gramGrp>
                     <pos>N</pos>
-  <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+  <tls:syn-func corresp="#uuid-faba3fc6-725c-46c5-ba3f-c6725c36c554">NP-S</tls:syn-func>
                 </gramGrp>
-  <def>the reason why [This is an analytic nightmare in more ways than one! I suppose we have something like "using which as a reason". But who does the using?]</def>
+  <def resp="#CH" updated="2024-02-26T18:22:27.878+09:00">the reason why S is the case</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-c456d4ab-68e2-4072-9f71-04cca91eb115">
@@ -631,7 +633,7 @@
   <tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func>
   <tls:sem-feat corresp="#uuid-ee80ba53-f7eb-484d-b807-f36f9e0404a7">subjective</tls:sem-feat>
                 </gramGrp>
-  <def resp="#CH" updated="2021-07-12T16:44:55.014+09:00">subjective motivation: on these grounds; for that subjective reason; that is why, thus</def>
+  <def resp="#CH" updated="2024-01-04T21:37:41.254+09:00">subjective motivation: thus it was; on these grounds; for that subjective reason; that is why, thus</def>
             </sense>
 <sense xml:id="uuid-3a92c172-e577-45a8-a29a-c252711b03d5">
 <gramGrp>
@@ -639,7 +641,7 @@
   <tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func>
   <tls:sem-feat corresp="#uuid-5fe689a4-fe7c-4f89-811f-1658f52b1f7f">objective</tls:sem-feat>
                 </gramGrp>
-  <def>for this objective reason</def>
+  <def resp="#CH" updated="2024-02-12T21:31:27.828+09:00">thus it was: as a result; for this objective reason</def>
             </sense>
 <sense xml:id="uuid-1b1f8ea0-fb48-4d7b-a987-7b7714873db8">
 <gramGrp>
@@ -654,7 +656,7 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-4f1a4b20-e290-4bf0-8b31-6d55996076e2">PPadV{PRED}.postN{SUBJ}</tls:syn-func>
                 </gramGrp>
-  <def>the N therefore V-s</def>
+  <def resp="#CH" updated="2024-01-04T21:37:36.844+09:00">the N thus V-s</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-4c6d22ea-10be-4e5a-a793-2b4b10e4c7dd">
@@ -936,6 +938,21 @@
                     <tls:syn-func corresp="#uuid-18d99229-807f-4bb5-9992-29807ffbb5db">VPadS.post-SS</tls:syn-func>
                 </gramGrp>
                 <def>If given this situation (in SS) one then</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2d8ffdcc-cdf4-44b4-8ffd-cccdf4d4b470" resp="#CH" tls:created="2024-02-25T19:07:15.212+09:00">
+            <form corresp="#uuid-fb148467-ef53-4489-8a08-074bfe0f9d69 #uuid-4ac1aa08-8f19-4eca-868f-3147990cdf68">
+                <orth>因此</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīn cǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jin tshjeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qin tsheʔ</pron>
+            </form>
+            <sense xml:id="uuid-c0990217-10f3-4baf-9902-1710f30baf04" resp="#CH" tls:created="2024-02-25T19:07:15.212+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-f0a643cf-6da7-4944-b647-c3931b979676">VPadS1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def>for this subjective reason</def>
             </sense>
         </entry>
     </div>
