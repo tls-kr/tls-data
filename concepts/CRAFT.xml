@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d3cbb229-6196-444e-b9bf-4ad1932f6dd4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d3cbb229-6196-444e-b9bf-4ad1932f6dd4">
 <head>CRAFT</head>
     <list type="altnames">
 <item>ART</item>
@@ -81,7 +82,22 @@
             </form>
             <def>Jì 技 is a general term for highly developed skills of any kind, including the professional skills. See SKILL
 </def>
-<sense xml:id="uuid-b0ec4540-422e-493d-846b-8d1685c9447e" resp="#CH" tls:created="2019-12-23T21:43:33.114+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-bd32ce03-4320-4add-a79a-55d012763198">disposition</tls:sem-feat></gramGrp><def>professional talent, qualifications</def></sense><sense xml:id="uuid-f59c2222-0a88-4e40-8ab3-7d1b508d1f3e" resp="#CH" tls:created="2019-12-23T21:44:36.807+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>the qualifications/professional skills) of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-b0ec4540-422e-493d-846b-8d1685c9447e" resp="#CH" tls:created="2019-12-23T21:43:33.114+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-bd32ce03-4320-4add-a79a-55d012763198">disposition</tls:sem-feat>
+                </gramGrp>
+                <def>professional talent, qualifications</def>
+            </sense>
+            <sense xml:id="uuid-f59c2222-0a88-4e40-8ab3-7d1b508d1f3e" resp="#CH" tls:created="2019-12-23T21:44:36.807+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the qualifications/professional skills) of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-37a6bed6-050d-44b7-9168-7a522c2155a9">
             <form corresp="#uuid-ab11b041-3ba1-496b-ad1e-f9d5b1112cf8">
 <orth>術</orth>
@@ -101,5 +117,20 @@
   <def>skill, craft</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-624e306d-6757-42bb-8e30-6d6757c2bb3d" resp="#dsehnal" tls:created="2023-05-10T04:25:03.472+09:00"><form corresp="#uuid-833cf92d-e709-4a12-8747-a29fa26ef3d8 #uuid-843121ff-f778-4be2-a643-71a2a1dc6acb"><orth>掌火</orth><pron xml:lang="zh-Latn-x-pinyin">zhǎng huǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyangX xwaX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjaŋʔ qphaalʔ</pron></form><sense xml:id="uuid-3dacc4f2-833f-49a5-acc4-f2833fb9a5f6" resp="#dsehnal" tls:created="2023-05-10T04:25:03.472+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>N's firemaster; artisan who controls fire employed by N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-624e306d-6757-42bb-8e30-6d6757c2bb3d" resp="#dsehnal" tls:created="2023-05-10T04:25:03.472+09:00">
+            <form corresp="#uuid-833cf92d-e709-4a12-8747-a29fa26ef3d8 #uuid-843121ff-f778-4be2-a643-71a2a1dc6acb">
+                <orth>掌火</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǎng huǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyangX xwaX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjaŋʔ qphaalʔ</pron>
+            </form>
+            <sense xml:id="uuid-3dacc4f2-833f-49a5-acc4-f2833fb9a5f6" resp="#dsehnal" tls:created="2023-05-10T04:25:03.472+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's firemaster; artisan who controls fire employed by N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

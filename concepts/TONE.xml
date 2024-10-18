@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3b0e1fc6-f5ab-4fc2-9b4a-cb3039c44f17">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3b0e1fc6-f5ab-4fc2-9b4a-cb3039c44f17">
 <head>TONE</head>
     <list type="translations">
         <item xml:lang="zh">音調</item>
@@ -163,5 +164,35 @@
   <def resp="#CH" updated="2023-07-06T15:11:47.821+09:00">the upper (six) "clear" notes (?)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fe261738-c0ce-407a-a617-38c0ce507a91" resp="#zadrapa" tls:created="2020-06-23T16:24:55.879+09:00"><form corresp="#uuid-4a1535f0-df0e-4549-bdaa-4ddd83d0bc8e #uuid-4dd512ca-4001-444e-b5eb-5e3690f79bbf"><orth>清濁</orth><pron xml:lang="zh-Latn-x-pinyin">qīng zhuó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjeng draewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋ rdooɡ</pron></form><sense xml:id="uuid-c756c706-a58a-4328-96c7-06a58a3328e7" resp="#zadrapa" tls:created="2020-06-23T16:24:55.879+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-10T04:25:01.577+09:00">the quality of a tone (the precise nature of the term continuing to be a matter of indecisive debate as far as one can see)</def></sense></entry><entry type="word" xml:id="uuid-793a3872-e1ef-45c1-ba38-72e1ef85c1e5" resp="#CH" tls:created="2023-07-06T15:13:47.227+09:00"><form corresp="#uuid-4dd512ca-4001-444e-b5eb-5e3690f79bbf"><orth>濁</orth><pron xml:lang="zh-Latn-x-pinyin">zhuó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">draewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rdooɡ</pron></form><sense xml:id="uuid-53e618af-ab00-478d-a618-afab00b78d77" resp="#CH" tls:created="2023-07-06T15:13:47.227+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>the lower "dirty" notes (?)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-fe261738-c0ce-407a-a617-38c0ce507a91" resp="#zadrapa" tls:created="2020-06-23T16:24:55.879+09:00">
+            <form corresp="#uuid-4a1535f0-df0e-4549-bdaa-4ddd83d0bc8e #uuid-4dd512ca-4001-444e-b5eb-5e3690f79bbf">
+                <orth>清濁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qīng zhuó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjeng draewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋ rdooɡ</pron>
+            </form>
+            <sense xml:id="uuid-c756c706-a58a-4328-96c7-06a58a3328e7" resp="#zadrapa" tls:created="2020-06-23T16:24:55.879+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-10T04:25:01.577+09:00">the quality of a tone (the precise nature of the term continuing to be a matter of indecisive debate as far as one can see)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-793a3872-e1ef-45c1-ba38-72e1ef85c1e5" resp="#CH" tls:created="2023-07-06T15:13:47.227+09:00">
+            <form corresp="#uuid-4dd512ca-4001-444e-b5eb-5e3690f79bbf">
+                <orth>濁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">draewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rdooɡ</pron>
+            </form>
+            <sense xml:id="uuid-53e618af-ab00-478d-a618-afab00b78d77" resp="#CH" tls:created="2023-07-06T15:13:47.227+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>the lower "dirty" notes (?)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

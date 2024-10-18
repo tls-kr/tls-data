@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4a814208-81d1-48ac-b35c-122a725e170a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4a814208-81d1-48ac-b35c-122a725e170a">
 <head>TIP</head>
     <list type="altnames">
 <item>POINT</item>
@@ -175,7 +176,14 @@
                 </gramGrp>
   <def>tip (of an arrow etc); abstractly: end or ends of something</def>
             </sense>
-<sense xml:id="uuid-770f67a2-cf78-414d-a4a5-116ec638122d" resp="#CH" tls:created="2020-02-06T20:05:08.648+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>tip of N</def></sense></entry>
+<sense xml:id="uuid-770f67a2-cf78-414d-a4a5-116ec638122d" resp="#CH" tls:created="2020-02-06T20:05:08.648+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>tip of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8b154a01-0b8c-4906-9fde-326bd60bc560">
             <form corresp="#uuid-2567a27c-7643-4cf8-9da5-5ac6fe236ab5">
 <orth>頭</orth>
@@ -199,5 +207,34 @@
   <def>end, side</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-81af95b6-b622-45f7-af95-b6b62275f7c4" resp="#CH" tls:created="2020-04-26T03:41:38.537+09:00"><form corresp="#uuid-96995773-d42d-4e38-a718-3cb5ac40f64b"><orth>括</orth><pron xml:lang="zh-Latn-x-pinyin">kuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kood</pron></form><sense xml:id="uuid-4293e46f-60b0-4cb2-93e4-6f60b0ccb21f" resp="#CH" tls:created="2020-04-26T03:41:38.537+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>at the tip (of an arrow)</def></sense></entry><entry type="word" xml:id="uuid-d4789f8c-dfdc-40fc-b89f-8cdfdc70fc93"><form><orth>刺</orth><pron xml:lang="zh-Latn-x-pinyin">cì</pron></form><def/><sense xml:id="uuid-596f4159-7a6d-4fd0-af41-597a6d0fd095" resp="#zadrapa" tls:created="2020-06-12T15:57:03.527+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>the sharp point of a piercing weapon</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-81af95b6-b622-45f7-af95-b6b62275f7c4" resp="#CH" tls:created="2020-04-26T03:41:38.537+09:00">
+            <form corresp="#uuid-96995773-d42d-4e38-a718-3cb5ac40f64b">
+                <orth>括</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kood</pron>
+            </form>
+            <sense xml:id="uuid-4293e46f-60b0-4cb2-93e4-6f60b0ccb21f" resp="#CH" tls:created="2020-04-26T03:41:38.537+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>at the tip (of an arrow)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d4789f8c-dfdc-40fc-b89f-8cdfdc70fc93">
+            <form>
+                <orth>刺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cì</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-596f4159-7a6d-4fd0-af41-597a6d0fd095" resp="#zadrapa" tls:created="2020-06-12T15:57:03.527+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>the sharp point of a piercing weapon</def>
+            </sense>
+        </entry>
+    </div>
 </div>

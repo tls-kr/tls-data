@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6e9cb3a0-eb8b-43c2-9157-24f2af1d30e4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6e9cb3a0-eb8b-43c2-9157-24f2af1d30e4">
 <head>CUT HAIR</head>
     <list type="translations">
         <item xml:lang="zh">剃頭</item>
@@ -132,7 +133,14 @@
                 </gramGrp>
   <def>post-Han: cut off (hair)</def>
             </sense>
-<sense xml:id="uuid-af410e4d-3b70-4f8a-810e-4d3b707f8a1a" resp="#ingeborg" tls:created="2020-02-12T21:58:13.206+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>general: CUT of parts of, pare (trees or bushes)</def></sense></entry>
+<sense xml:id="uuid-af410e4d-3b70-4f8a-810e-4d3b707f8a1a" resp="#ingeborg" tls:created="2020-02-12T21:58:13.206+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>general: CUT of parts of, pare (trees or bushes)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-89a606ff-5775-42f9-99bc-5a189560e6cb">
             <form corresp="#uuid-31e6f5b0-e43d-4ae8-a0c4-7105b4454135">
 <orth>薙</orth>
@@ -211,5 +219,20 @@
   <def>shave and remove &gt; shave off</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2e64fc93-af90-4b58-a4fc-93af904b586a" resp="#CH" tls:created="2021-09-14T00:54:50.245+09:00"><form corresp="#uuid-c9c8feb9-ab75-4955-8f43-b515c2a1d678"><orth>斷</orth><pron xml:lang="zh-Latn-x-pinyin">duǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">twanX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">toonʔ</pron></form><sense xml:id="uuid-c9028059-e3de-411b-8280-59e3de311bf4" resp="#CH" tls:created="2021-09-14T00:54:50.245+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>cut hair very short</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2e64fc93-af90-4b58-a4fc-93af904b586a" resp="#CH" tls:created="2021-09-14T00:54:50.245+09:00">
+            <form corresp="#uuid-c9c8feb9-ab75-4955-8f43-b515c2a1d678">
+                <orth>斷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">duǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">twanX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">toonʔ</pron>
+            </form>
+            <sense xml:id="uuid-c9028059-e3de-411b-8280-59e3de311bf4" resp="#CH" tls:created="2021-09-14T00:54:50.245+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>cut hair very short</def>
+            </sense>
+        </entry>
+    </div>
 </div>

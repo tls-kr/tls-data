@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2b6e78a6-2b11-40f0-8c70-41aacd64ca02">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2b6e78a6-2b11-40f0-8c70-41aacd64ca02">
 <head>SOME</head>
     <list type="translations">
         <item xml:lang="zh">有的</item>
@@ -93,7 +94,15 @@
                 </gramGrp>
   <def>somewhat, somehow</def>
             </sense>
-<sense xml:id="uuid-2ef3c15b-0c94-47ca-b3c1-5b0c94c7caea" resp="#dsehnal" tls:created="2021-05-15T22:07:47.019+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0b8ffbce-a9a1-4f22-95ac-c6d17313336e">npro.postN:+V{PRED}</tls:syn-func><tls:sem-feat corresp="#uuid-31c93b3c-acc5-437d-a8b9-7cc6c5dadf04">N=topic</tls:sem-feat></gramGrp><def>someone=或 of N</def></sense></entry>
+<sense xml:id="uuid-2ef3c15b-0c94-47ca-b3c1-5b0c94c7caea" resp="#dsehnal" tls:created="2021-05-15T22:07:47.019+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0b8ffbce-a9a1-4f22-95ac-c6d17313336e">npro.postN:+V{PRED}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-31c93b3c-acc5-437d-a8b9-7cc6c5dadf04">N=topic</tls:sem-feat>
+                </gramGrp>
+                <def>someone=或 of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f2a9b7ed-2ef8-49a0-a0cc-b621695fcbe4">
             <form corresp="#uuid-11eff650-b29f-4fd8-b9ec-a37ece661cdf">
 <orth>誰</orth>
@@ -152,6 +161,77 @@
                 </gramGrp>
   <def>of some people</def>
             </sense>
-<sense xml:id="uuid-29a6accf-9d98-4349-ac12-4bff495a86b7" resp="#CH" tls:created="2019-12-19T19:12:10.235+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>the existence of men</def></sense></entry>
-    <entry type="word" xml:id="uuid-3cb4acc3-bfed-4751-b4ac-c3bfedb751a2" resp="#CH" tls:created="2022-08-27T00:07:38.215+09:00"><form corresp="#uuid-7be571ca-f00b-41c6-b5eb-2c0b43e6bcd8"><orth>或</orth><pron xml:lang="zh-Latn-x-pinyin">huò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷɯɯɡ</pron></form><sense xml:id="uuid-02d29431-7a1b-47a3-9294-317a1b97a3b5" resp="#CH" tls:created="2022-08-27T00:07:38.215+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-5eae66ec-bba2-4aef-9f08-96a387837993">npro{SUBJ}+V{PRED}</tls:syn-func></gramGrp><def>some</def></sense><sense xml:id="uuid-1a9f6637-61a2-4288-9f66-3761a22288f5" resp="#CH" tls:created="2022-08-27T00:11:43.636+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-42bb1a50-acee-4d28-bb1a-50aceedd2835">npro{TOPIC}.+vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-bcabe95b-4447-4253-abe9-5b44471253a1">npro coreferential with N</tls:sem-feat></gramGrp><def>some (objects)</def></sense><sense xml:id="uuid-ec413636-0c3a-4dd4-8136-360c3afdd435" resp="#CH" tls:created="2024-04-02T11:46:49.538+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func><tls:sem-feat corresp="#uuid-1539d50c-7c6d-4726-bdf1-0c3d7f8c9fc7">preposed object</tls:sem-feat></gramGrp><def>someone/anyone</def></sense><sense xml:id="uuid-493fe1fd-f783-471f-bfe1-fdf783a71fa7" resp="#CH" tls:created="2024-04-02T14:18:23.199+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func><tls:sem-feat corresp="#uuid-090d194a-771e-4679-bea3-800692a6c1d5">repeated</tls:sem-feat></gramGrp><def>some..., others ...</def></sense></entry><entry type="word" xml:id="uuid-8ff850a7-49af-4c65-b850-a749af6c657c" resp="#CH" tls:created="2024-04-01T17:10:42.311+09:00"><form corresp="#uuid-7be571ca-f00b-41c6-b5eb-2c0b43e6bcd8 #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>或者</orth><pron xml:lang="zh-Latn-x-pinyin">huò zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwok tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷɯɯɡ kljaʔ</pron></form><sense xml:id="uuid-51effcfc-8642-43eb-affc-fc864263eb64" resp="#CH" tls:created="2024-04-01T17:10:42.311+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>some (... others)</def></sense><sense xml:id="uuid-3fbebf3b-abce-467f-bebf-3babce167f6b" resp="#CH" tls:created="2024-04-02T22:17:48.217+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>someone</def></sense></entry></div>
+<sense xml:id="uuid-29a6accf-9d98-4349-ac12-4bff495a86b7" resp="#CH" tls:created="2019-12-19T19:12:10.235+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>the existence of men</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-3cb4acc3-bfed-4751-b4ac-c3bfedb751a2" resp="#CH" tls:created="2022-08-27T00:07:38.215+09:00">
+            <form corresp="#uuid-7be571ca-f00b-41c6-b5eb-2c0b43e6bcd8">
+                <orth>或</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-02d29431-7a1b-47a3-9294-317a1b97a3b5" resp="#CH" tls:created="2022-08-27T00:07:38.215+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-5eae66ec-bba2-4aef-9f08-96a387837993">npro{SUBJ}+V{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>some</def>
+            </sense>
+            <sense xml:id="uuid-1a9f6637-61a2-4288-9f66-3761a22288f5" resp="#CH" tls:created="2022-08-27T00:11:43.636+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-42bb1a50-acee-4d28-bb1a-50aceedd2835">npro{TOPIC}.+vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-bcabe95b-4447-4253-abe9-5b44471253a1">npro coreferential with N</tls:sem-feat>
+                </gramGrp>
+                <def>some (objects)</def>
+            </sense>
+            <sense xml:id="uuid-ec413636-0c3a-4dd4-8136-360c3afdd435" resp="#CH" tls:created="2024-04-02T11:46:49.538+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1539d50c-7c6d-4726-bdf1-0c3d7f8c9fc7">preposed object</tls:sem-feat>
+                </gramGrp>
+                <def>someone/anyone</def>
+            </sense>
+            <sense xml:id="uuid-493fe1fd-f783-471f-bfe1-fdf783a71fa7" resp="#CH" tls:created="2024-04-02T14:18:23.199+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-090d194a-771e-4679-bea3-800692a6c1d5">repeated</tls:sem-feat>
+                </gramGrp>
+                <def>some..., others ...</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8ff850a7-49af-4c65-b850-a749af6c657c" resp="#CH" tls:created="2024-04-01T17:10:42.311+09:00">
+            <form corresp="#uuid-7be571ca-f00b-41c6-b5eb-2c0b43e6bcd8 #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>或者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huò zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwok tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷɯɯɡ kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-51effcfc-8642-43eb-affc-fc864263eb64" resp="#CH" tls:created="2024-04-01T17:10:42.311+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>some (... others)</def>
+            </sense>
+            <sense xml:id="uuid-3fbebf3b-abce-467f-bebf-3babce167f6b" resp="#CH" tls:created="2024-04-02T22:17:48.217+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>someone</def>
+            </sense>
+        </entry>
+    </div>
 </div>

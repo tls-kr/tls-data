@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b6ab585d-086e-4a4b-ba4d-d95daf2b0f64">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b6ab585d-086e-4a4b-ba4d-d95daf2b0f64">
 <head>SATIATED</head>
     <list type="altnames">
 <item>REPLETE</item>
@@ -103,7 +104,15 @@
                 </gramGrp>
   <def>be more satisfied than N</def>
             </sense>
-<sense xml:id="uuid-c086d9e7-d25f-43ca-86d9-e7d25f43cac5" resp="#zadrapa" tls:created="2020-06-18T23:15:28.105+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>satiating</def></sense></entry>
+<sense xml:id="uuid-c086d9e7-d25f-43ca-86d9-e7d25f43cac5" resp="#zadrapa" tls:created="2020-06-18T23:15:28.105+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>satiating</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f652a52d-5335-4858-8925-5c0c5b646681">
             <form corresp="#uuid-c95c15a9-fed9-43d1-8f45-ba85521f7a1c">
 <orth>饜</orth>
@@ -166,5 +175,20 @@
   <def>be satiated; become satiated</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-70f2ee04-86f2-4203-b2ee-0486f22203c8" resp="#zadrapa" tls:created="2020-06-24T16:48:51.057+09:00"><form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa"><orth>鄉</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ</pron></form><sense xml:id="uuid-fee07055-8bc9-4a78-a070-558bc91a7887" resp="#zadrapa" tls:created="2020-06-24T16:48:51.057+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cda1c3c1-e292-40d5-83be-7d4c3ae41a32">vi.red:adV</tls:syn-func></gramGrp><def>(most probably to be read xiang3): being gluttunously satisfied with food</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-70f2ee04-86f2-4203-b2ee-0486f22203c8" resp="#zadrapa" tls:created="2020-06-24T16:48:51.057+09:00">
+            <form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa">
+                <orth>鄉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ</pron>
+            </form>
+            <sense xml:id="uuid-fee07055-8bc9-4a78-a070-558bc91a7887" resp="#zadrapa" tls:created="2020-06-24T16:48:51.057+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cda1c3c1-e292-40d5-83be-7d4c3ae41a32">vi.red:adV</tls:syn-func>
+                </gramGrp>
+                <def>(most probably to be read xiang3): being gluttunously satisfied with food</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5f498860-5aee-4af9-9545-85a48a76ec1f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5f498860-5aee-4af9-9545-85a48a76ec1f">
 <head>CLEANSE</head>
     <list type="altnames">
 <item>CLEAN</item>
@@ -66,7 +67,15 @@
                 </gramGrp>
   <def>be cleaned properly</def>
             </sense>
-<sense xml:id="uuid-e14a74cc-d5eb-405e-8a74-ccd5ebb05e18" resp="#dsehnal" tls:created="2024-05-31T01:46:44.832+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be cleaned away</def></sense></entry>
+<sense xml:id="uuid-e14a74cc-d5eb-405e-8a74-ccd5ebb05e18" resp="#dsehnal" tls:created="2024-05-31T01:46:44.832+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be cleaned away</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-693e0096-5fd6-4a8f-8dd0-bc433d87e917">
             <form corresp="#uuid-cba57e37-98d8-4ec7-bf5f-6a177ddd0abb">
 <orth>雪</orth>
@@ -111,24 +120,51 @@
   <def>clean completely???</def>
             </sense>
 </entry>
-    <entry xml:id="uuid-f6805afd-97c4-44b4-805a-fd97c464b424"><form corresp="#uuid-b07396a7-9095-4324-810f-cc574ddaf37a">
+    <entry xml:id="uuid-f6805afd-97c4-44b4-805a-fd97c464b424">
+            <form corresp="#uuid-b07396a7-9095-4324-810f-cc574ddaf37a">
 <orth>漱</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">shù</pron>
                 <pron xml:lang="zh-x-oc">srus</pron>
                 <pron xml:lang="zh-x-mc">ʂɨu</pron>
-            </form><sense xml:id="uuid-85b47b71-da2f-427d-a4b6-b25621897b39">
+            </form>
+            <sense xml:id="uuid-85b47b71-da2f-427d-a4b6-b25621897b39">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                 </gramGrp>
   <def>rinse the mouth; wash one's mouth</def>
-            </sense><sense xml:id="uuid-aacd8131-33d1-43a7-b8db-c7fa2bf3203e">
+            </sense>
+            <sense xml:id="uuid-aacd8131-33d1-43a7-b8db-c7fa2bf3203e">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">2</usg>
                 </gramGrp>
   <def>rinse the mouth with</def>
-            </sense><sense xml:id="uuid-5d66f9ae-2ca1-49f2-8fed-de00448db0bc" resp="#CH" tls:created="2019-12-07T22:36:31.103+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN{PLACE}</tls:syn-func></gramGrp><def>rince one's mouth at N</def></sense></entry><entry type="word" xml:id="uuid-279885a6-f233-4ac2-9885-a6f233dac29d" resp="#dsehnal" tls:created="2021-05-16T02:21:57.781+09:00"><form corresp="#uuid-b25e2871-8b28-481e-bb1a-0945869d7f6d"><orth>漉</orth><pron xml:lang="zh-Latn-x-pinyin">lù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">luwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rooɡ</pron></form><sense xml:id="uuid-d527ad09-3cd9-4cde-a7ad-093cd9dcde68" resp="#dsehnal" tls:created="2021-05-16T02:21:57.781+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>filter</def></sense></entry></div>
+            </sense>
+            <sense xml:id="uuid-5d66f9ae-2ca1-49f2-8fed-de00448db0bc" resp="#CH" tls:created="2019-12-07T22:36:31.103+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN{PLACE}</tls:syn-func>
+                </gramGrp>
+                <def>rince one's mouth at N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-279885a6-f233-4ac2-9885-a6f233dac29d" resp="#dsehnal" tls:created="2021-05-16T02:21:57.781+09:00">
+            <form corresp="#uuid-b25e2871-8b28-481e-bb1a-0945869d7f6d">
+                <orth>漉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">luwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rooɡ</pron>
+            </form>
+            <sense xml:id="uuid-d527ad09-3cd9-4cde-a7ad-093cd9dcde68" resp="#dsehnal" tls:created="2021-05-16T02:21:57.781+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>filter</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-75bddb10-6c2f-4e54-828b-30e1175f7540">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-75bddb10-6c2f-4e54-828b-30e1175f7540">
 <head>VERBAL SUFFIX</head>
 <div type="definition">
 <p>[GRAMMAR]GRAMMAR[]</p>
@@ -28,14 +29,22 @@
                 </gramGrp>
   <def>verbal suffix after intensitive descriptive verbs</def>
             </sense>
-<sense xml:id="uuid-3c998f49-5141-40b6-998f-49514140b6be" resp="#zadrapa" tls:created="2021-02-26T22:27:03.461+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-1fbe2f25-4d0c-4131-be2f-254d0ca13134">padV1.post-V2</tls:syn-func></gramGrp><def>particle separating deverbal adverbial modifier from the modified predicate, e.g. 立而待 "immediately expect"</def></sense><sense xml:id="uuid-9050d813-b246-4681-84b6-757f32df3659">
+<sense xml:id="uuid-3c998f49-5141-40b6-998f-49514140b6be" resp="#zadrapa" tls:created="2021-02-26T22:27:03.461+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-1fbe2f25-4d0c-4131-be2f-254d0ca13134">padV1.post-V2</tls:syn-func>
+                </gramGrp>
+                <def>particle separating deverbal adverbial modifier from the modified predicate, e.g. 立而待 "immediately expect"</def>
+            </sense>
+            <sense xml:id="uuid-9050d813-b246-4681-84b6-757f32df3659">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def>like the suffix rán 然</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-044b3bdb-aeca-4cce-97ae-195f2a7858d5">
             <form corresp="#uuid-78ceb5d2-abd7-45bd-ae8d-5b04e4d5bfac">
 <orth>好</orth>
@@ -51,24 +60,52 @@
   <def>late: perfective suffix</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f14453f7-a565-4a95-8453-f7a5656a958a" resp="#CH" tls:created="2020-04-04T05:12:39.342+09:00"><form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>乎</orth><pron xml:lang="zh-Latn-x-pinyin">hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron></form><sense xml:id="uuid-2dbb28f8-2044-4106-8e28-2c820b5158bf">
+    <entry type="word" xml:id="uuid-f14453f7-a565-4a95-8453-f7a5656a958a" resp="#CH" tls:created="2020-04-04T05:12:39.342+09:00">
+            <form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-2dbb28f8-2044-4106-8e28-2c820b5158bf">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-11-19T17:20:14.066+09:00">postverbal modal particle of doubtful semantic force, often marking the generalising and non-narratively punctual continuative modality of the verb</def>
-            </sense></entry><entry xml:id="uuid-de31b789-2451-44f6-b1b7-89245174f69b"><form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-de31b789-2451-44f6-b1b7-89245174f69b">
+            <form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
 <orth>然</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">rán</pron>
                 <pron xml:lang="zh-x-oc">njen</pron>
                 <pron xml:lang="zh-x-mc">ȵiɛn</pron>
-            </form><sense xml:id="uuid-32d29474-fb9f-4df9-a120-3dbe89173448">
+            </form>
+            <sense xml:id="uuid-32d29474-fb9f-4df9-a120-3dbe89173448">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def>particle marking the end of a comparison, resumptively: "like that, in that way"</def>
-            </sense></entry><entry type="word" xml:id="uuid-98d5a6b3-0981-42ae-95a6-b3098152aec3" resp="#CH" tls:created="2023-09-21T19:14:21.55+09:00"><form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8"><orth>而</orth><pron xml:lang="zh-Latn-x-pinyin">ér</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ</pron></form><sense xml:id="uuid-56634ec7-2017-48a3-a34e-c7201778a3bf" resp="#CH" tls:created="2023-09-21T19:14:21.55+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-583254b8-1e3a-46fd-b7ed-7e83ec0620ae">npostadV</tls:syn-func></gramGrp><def>adverbialising suffix</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98d5a6b3-0981-42ae-95a6-b3098152aec3" resp="#CH" tls:created="2023-09-21T19:14:21.55+09:00">
+            <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8">
+                <orth>而</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ér</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ</pron>
+            </form>
+            <sense xml:id="uuid-56634ec7-2017-48a3-a34e-c7201778a3bf" resp="#CH" tls:created="2023-09-21T19:14:21.55+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-583254b8-1e3a-46fd-b7ed-7e83ec0620ae">npostadV</tls:syn-func>
+                </gramGrp>
+                <def>adverbialising suffix</def>
+            </sense>
+        </entry>
+    </div>
 </div>

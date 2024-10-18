@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7eca4eb6-7f7e-49c0-93f0-b8d392f45e6a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7eca4eb6-7f7e-49c0-93f0-b8d392f45e6a">
 <head>LIE DOWN</head>
     <list type="altnames">
 <item>RECLINE</item>
@@ -104,7 +105,14 @@
                 </gramGrp>
   <def>rest, lying on one's back</def>
             </sense>
-<sense xml:id="uuid-daad5b13-81c3-4515-ad5b-1381c30515d6" resp="#CH" tls:created="2021-04-26T00:18:15.436+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c35ebad5-7bd1-451f-b0ae-227e76c4ab91">vi-P.adV</tls:syn-func></gramGrp><def>lying down comfortably</def></sense></entry>
+<sense xml:id="uuid-daad5b13-81c3-4515-ad5b-1381c30515d6" resp="#CH" tls:created="2021-04-26T00:18:15.436+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c35ebad5-7bd1-451f-b0ae-227e76c4ab91">vi-P.adV</tls:syn-func>
+                </gramGrp>
+                <def>lying down comfortably</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dd51253f-ca94-4c6e-8b20-544b10f10c5b">
             <form corresp="#uuid-9c8477cf-9a5d-4867-90c9-4f1de91c8261">
 <orth>僵</orth>
@@ -136,7 +144,15 @@
                 </gramGrp>
   <def>lie down in (a place)</def>
             </sense>
-<sense xml:id="uuid-060aca07-1d16-486a-8aca-071d16986aac" resp="#CH" tls:created="2022-08-27T23:20:03.693+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>"lying down", "prostrate"</def></sense></entry>
+<sense xml:id="uuid-060aca07-1d16-486a-8aca-071d16986aac" resp="#CH" tls:created="2022-08-27T23:20:03.693+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>"lying down", "prostrate"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-103307d6-7964-435a-b4a4-258d10bb2888">
             <form corresp="#uuid-1c64cd5e-147c-450c-92e1-ea5ac880ca6a">
 <orth>臥</orth>
@@ -181,5 +197,19 @@
             <def>Tǎng 躺"lie" is post-Han.
 </def>
 </entry>
-    <entry type="word" xml:id="uuid-d9174b40-3564-4ca3-974b-4035648ca37e"><form><orth>伏</orth><pron xml:lang="zh-Latn-x-pinyin">fú</pron></form><def/><sense xml:id="uuid-0178716d-3596-417a-b871-6d3596317a9c" resp="#dsehnal" tls:created="2020-05-24T02:33:15.626+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>lie down</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d9174b40-3564-4ca3-974b-4035648ca37e">
+            <form>
+                <orth>伏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-0178716d-3596-417a-b871-6d3596317a9c" resp="#dsehnal" tls:created="2020-05-24T02:33:15.626+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>lie down</def>
+            </sense>
+        </entry>
+    </div>
 </div>

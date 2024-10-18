@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0c041d2e-837a-4478-ae96-915ba0e88157">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0c041d2e-837a-4478-ae96-915ba0e88157">
 <head>LAME</head>
     <list type="altnames">
 <item>PARALYSIS</item>
@@ -16,7 +17,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:29:06.363+09:00">ILLNESS of being NOT ABLE to MOVE one's LEGS OR ARMS. </p></div>
+    <p resp="#CH" modified="2021-03-18T18:29:06.363+09:00">ILLNESS of being NOT ABLE to MOVE one's LEGS OR ARMS. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for lameness in any part of the body, including arms and legs is wěi 痿.</p>
@@ -229,5 +231,35 @@
   <def>be hemioplegic</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-07ef6d26-ab13-45a3-af6d-26ab1325a361"><form><orth>跳</orth><pron xml:lang="zh-Latn-x-pinyin">tiào</pron></form><def/><sense xml:id="uuid-425860d7-0177-4b4e-9860-d701778b4e7d" resp="#zadrapa" tls:created="2020-12-06T00:50:49.884+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>lame (so that one has to jump)</def></sense></entry><entry type="word" xml:id="uuid-c2ff32fc-7856-45ad-bf32-fc785665adaa" resp="#CH" tls:created="2021-05-19T21:44:42.591+09:00"><form corresp="#uuid-adf28793-af24-4616-a81f-4d08825814dd #uuid-5c3993aa-2b74-4441-b3e2-e0f38dcef645"><orth>跛蹇</orth><pron xml:lang="zh-Latn-x-pinyin">bǒ jiǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">paX kjenX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paalʔ kranʔ</pron></form><sense xml:id="uuid-8b4816bf-ac48-4fca-8816-bfac483fcafd" resp="#CH" tls:created="2021-05-19T21:44:42.591+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-cee39f55-8962-4e09-9f0b-eb3b4387a2c7">NPab(.post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>lameness, having limbs rotting away</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-07ef6d26-ab13-45a3-af6d-26ab1325a361">
+            <form>
+                <orth>跳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiào</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-425860d7-0177-4b4e-9860-d701778b4e7d" resp="#zadrapa" tls:created="2020-12-06T00:50:49.884+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>lame (so that one has to jump)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c2ff32fc-7856-45ad-bf32-fc785665adaa" resp="#CH" tls:created="2021-05-19T21:44:42.591+09:00">
+            <form corresp="#uuid-adf28793-af24-4616-a81f-4d08825814dd #uuid-5c3993aa-2b74-4441-b3e2-e0f38dcef645">
+                <orth>跛蹇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bǒ jiǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">paX kjenX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paalʔ kranʔ</pron>
+            </form>
+            <sense xml:id="uuid-8b4816bf-ac48-4fca-8816-bfac483fcafd" resp="#CH" tls:created="2021-05-19T21:44:42.591+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-cee39f55-8962-4e09-9f0b-eb3b4387a2c7">NPab(.post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>lameness, having limbs rotting away</def>
+            </sense>
+        </entry>
+    </div>
 </div>

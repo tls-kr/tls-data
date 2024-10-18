@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a808e25d-58c6-404a-a13e-6d25cf9eef48">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a808e25d-58c6-404a-a13e-6d25cf9eef48">
 <head>POEM</head>
     <list type="altnames">
 <item>VERSE</item>
@@ -102,7 +103,14 @@
                 </gramGrp>
   <def>the Book of Odes</def>
             </sense>
-<sense xml:id="uuid-11bb45da-216c-459b-a248-b369452de370" resp="#CH" tls:created="2019-10-20T16:48:42.439+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nm</tls:syn-func></gramGrp><def>kind of poetry</def></sense></entry>
+<sense xml:id="uuid-11bb45da-216c-459b-a248-b369452de370" resp="#CH" tls:created="2019-10-20T16:48:42.439+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nm</tls:syn-func>
+                </gramGrp>
+                <def>kind of poetry</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0fe1c76a-ec68-4089-abfe-4dbcbc6c0b2a">
             <form corresp="#uuid-fdcc4a4f-f53e-4287-929d-9098e5c994e7 #uuid-5dc1b1ea-0c81-4a6e-be85-e666f8c7b19d">
 <orth>應頌</orth>
@@ -151,5 +159,51 @@
   <def>BUDDH: Buddhist genre, referring to verses which are inserted into the text, summing up essential points of the narrative (also referred to as 祇夜 and yīngsòng 應頌); SANSKRIT geya</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-eda5440a-68e7-47fc-9856-dc459a7ff025" resp="#CH" tls:created="2020-02-08T00:33:09.732+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-acddf7e8-1f57-476b-baeb-55f7898024d4" resp="#CH" tls:created="2020-02-08T00:33:09.732+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>rhyme prose; poetic exposition</def></sense></entry><entry type="word" xml:id="uuid-81ff10d9-cf75-43d3-a822-2b315b669cc2" resp="#CH" tls:created="2020-02-08T00:33:17.062+09:00"><form corresp="#uuid-066eb596-0439-47dc-a114-d3c58d48b83f"><orth>賦</orth><pron xml:lang="zh-Latn-x-pinyin">fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pas</pron></form><sense xml:id="uuid-adae689a-a76d-4308-9757-628a234981f9" resp="#CH" tls:created="2020-02-08T00:33:17.062+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>rhyme prose; poetic exposition</def></sense></entry><entry type="word" xml:id="uuid-cbb55721-a0c9-496a-b557-21a0c9b96a5f" resp="#CH" tls:created="2020-12-14T21:29:05.134+09:00"><form corresp="#uuid-5a7e70b6-80cd-4782-b2b9-5d15dd01a35b #uuid-066eb596-0439-47dc-a114-d3c58d48b83f"><orth>辭賦</orth><pron xml:lang="zh-Latn-x-pinyin">cí fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zi pjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">zɯ pas</pron></form><sense xml:id="uuid-30839584-de0b-450e-8395-84de0b950e4c" resp="#CH" tls:created="2020-12-14T21:29:05.134+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>poetic exposition</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-eda5440a-68e7-47fc-9856-dc459a7ff025" resp="#CH" tls:created="2020-02-08T00:33:09.732+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-acddf7e8-1f57-476b-baeb-55f7898024d4" resp="#CH" tls:created="2020-02-08T00:33:09.732+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>rhyme prose; poetic exposition</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-81ff10d9-cf75-43d3-a822-2b315b669cc2" resp="#CH" tls:created="2020-02-08T00:33:17.062+09:00">
+            <form corresp="#uuid-066eb596-0439-47dc-a114-d3c58d48b83f">
+                <orth>賦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pas</pron>
+            </form>
+            <sense xml:id="uuid-adae689a-a76d-4308-9757-628a234981f9" resp="#CH" tls:created="2020-02-08T00:33:17.062+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>rhyme prose; poetic exposition</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cbb55721-a0c9-496a-b557-21a0c9b96a5f" resp="#CH" tls:created="2020-12-14T21:29:05.134+09:00">
+            <form corresp="#uuid-5a7e70b6-80cd-4782-b2b9-5d15dd01a35b #uuid-066eb596-0439-47dc-a114-d3c58d48b83f">
+                <orth>辭賦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cí fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zi pjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">zɯ pas</pron>
+            </form>
+            <sense xml:id="uuid-30839584-de0b-450e-8395-84de0b950e4c" resp="#CH" tls:created="2020-12-14T21:29:05.134+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>poetic exposition</def>
+            </sense>
+        </entry>
+    </div>
 </div>

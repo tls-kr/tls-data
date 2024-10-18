@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ca0f15b3-4e29-45c8-a9f5-63e308786d16">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ca0f15b3-4e29-45c8-a9f5-63e308786d16">
 <head>AIR</head>
     <list type="altnames">
 <item>SKY</item>
@@ -13,7 +14,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-11-06T19:11:25.896+09:00">GAS which FILLS SPACE ON EARTH. </p></div>
+    <p resp="#CH" modified="2020-11-06T19:11:25.896+09:00">GAS which FILLS SPACE ON EARTH. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ABSTRACT/CONCRETE]</p>
@@ -191,7 +193,14 @@
   <def resp="#CH" updated="2023-04-08T21:40:17.693+09:00">air; breeze; atmosphere; ether</def>
             </sense>
 
-<sense xml:id="uuid-7bf71ce6-9020-4f7f-b71c-e690204f7f64" resp="#dsehnal" tls:created="2024-06-15T03:19:39.414+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>air of N</def></sense></entry>
+<sense xml:id="uuid-7bf71ce6-9020-4f7f-b71c-e690204f7f64" resp="#dsehnal" tls:created="2024-06-15T03:19:39.414+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>air of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f4433007-f888-437d-94a7-942269801270">
             <form corresp="#uuid-d05fe3a9-6525-4d1b-bc3e-677fd903e2dc">
 <orth>空</orth>
@@ -225,7 +234,14 @@ CONCRETE, [MOBILE!];   [[COMMON]]
                 </gramGrp>
   <def resp="#CH" updated="2020-04-25T00:45:38.309+09:00">the air carried by the wind: air</def>
             </sense>
-<sense xml:id="uuid-e100ca68-9e0c-43d1-acc5-a0022146d191" resp="#CH" tls:created="2020-02-07T18:16:17.678+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>like the air; like a breeze</def></sense></entry>
+<sense xml:id="uuid-e100ca68-9e0c-43d1-acc5-a0022146d191" resp="#CH" tls:created="2020-02-07T18:16:17.678+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>like the air; like a breeze</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3fdc5042-8624-43d1-8779-90cd6f9918f2">
             <form corresp="#uuid-5dba505a-09f6-4697-b478-683963603e62">
 <orth>虛</orth>
@@ -241,5 +257,20 @@ CONCRETE, [MOBILE!];   [[COMMON]]
   <def resp="#CH" updated="2022-08-28T18:18:08.057+09:00">air, thin air</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1fb02cfd-6d02-4ecc-b02c-fd6d020eccdc" resp="#CH" tls:created="2022-08-28T18:26:50.467+09:00"><form corresp="#uuid-458f7392-58c3-4c23-a5f3-71057a94d6ce #uuid-98dec8bd-6dac-4e1d-b794-a86851f098c3"><orth>風氣</orth><pron xml:lang="zh-Latn-x-pinyin">fěng qì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjuwngH khj+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plums khɯds</pron></form><sense xml:id="uuid-04e00246-12f4-4205-a002-4612f49205ca" resp="#CH" tls:created="2022-08-28T18:26:50.467+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>air</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1fb02cfd-6d02-4ecc-b02c-fd6d020eccdc" resp="#CH" tls:created="2022-08-28T18:26:50.467+09:00">
+            <form corresp="#uuid-458f7392-58c3-4c23-a5f3-71057a94d6ce #uuid-98dec8bd-6dac-4e1d-b794-a86851f098c3">
+                <orth>風氣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fěng qì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjuwngH khj+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plums khɯds</pron>
+            </form>
+            <sense xml:id="uuid-04e00246-12f4-4205-a002-4612f49205ca" resp="#CH" tls:created="2022-08-28T18:26:50.467+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>air</def>
+            </sense>
+        </entry>
+    </div>
 </div>

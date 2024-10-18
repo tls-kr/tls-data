@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9cb1a891-6624-426e-9c54-5906dd554b1c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9cb1a891-6624-426e-9c54-5906dd554b1c">
 <head>ABROAD</head>
     <list type="altnames">
 <item>AWAY</item>
@@ -21,6 +22,9 @@
     </list>
 <div type="definition">
 <p>OUTSIDE one's STATE OR OUTSIDE CHINA.</p>
+    <div type="definition" resp="#chris" modified="2024-08-30T17:26:51.677+09:00">
+            <p>OUTSIDE one's STATE OR OUTSIDE CHINA</p>
+        </div>
     </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
@@ -76,7 +80,14 @@
                 </gramGrp>
   <def>foreign; of foreign origin; from abroad; not belonging to one's own country</def>
             </sense>
-<sense xml:id="uuid-285f3490-5a7e-4f25-9f34-905a7e5f2585" resp="#dsehnal" tls:created="2020-04-30T05:43:59.779+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>abroad; outside of the country</def></sense></entry>
+<sense xml:id="uuid-285f3490-5a7e-4f25-9f34-905a7e5f2585" resp="#dsehnal" tls:created="2020-04-30T05:43:59.779+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>abroad; outside of the country</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e642dd69-9567-4d0e-ae6c-73c3fc3db404">
             <form corresp="#uuid-593ad822-d993-4f58-a66f-b3839141944e #uuid-ba086483-4a6c-43de-800a-e37e8258b43a">
 <orth>外國</orth>
@@ -138,5 +149,20 @@
   <def>distant parts</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-46a71c8c-a813-43ad-a71c-8ca81313ad7d" resp="#zadrapa" tls:created="2022-05-23T02:15:46.983+09:00"><form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b"><orth>出</orth><pron xml:lang="zh-Latn-x-pinyin">chū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud</pron></form><sense xml:id="uuid-4c49c75a-b168-4e76-89c7-5ab168de76fc" resp="#zadrapa" tls:created="2022-05-23T02:15:46.983+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>abroad, in external affairs</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-46a71c8c-a813-43ad-a71c-8ca81313ad7d" resp="#zadrapa" tls:created="2022-05-23T02:15:46.983+09:00">
+            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
+                <orth>出</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud</pron>
+            </form>
+            <sense xml:id="uuid-4c49c75a-b168-4e76-89c7-5ab168de76fc" resp="#zadrapa" tls:created="2022-05-23T02:15:46.983+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>abroad, in external affairs</def>
+            </sense>
+        </entry>
+    </div>
 </div>

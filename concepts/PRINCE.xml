@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-41624b88-235a-423c-b233-53d84b96efae">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-41624b88-235a-423c-b233-53d84b96efae">
 <head>PRINCE</head>
     <list type="translations">
         <item xml:lang="zh">公子</item>
@@ -93,7 +94,14 @@
                 </gramGrp>
   <def>prince</def>
             </sense>
-<sense xml:id="uuid-e564f337-c607-4045-a4f3-37c607504566" resp="#dsehnal" tls:created="2020-04-24T03:47:53.852+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d1c7dba7-342d-43fc-aca5-4173d62f6def">NPpost-N{PLACE}</tls:syn-func></gramGrp><def>prince of N</def></sense></entry>
+<sense xml:id="uuid-e564f337-c607-4045-a4f3-37c607504566" resp="#dsehnal" tls:created="2020-04-24T03:47:53.852+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d1c7dba7-342d-43fc-aca5-4173d62f6def">NPpost-N{PLACE}</tls:syn-func>
+                </gramGrp>
+                <def>prince of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7f6f54d8-3268-42d3-bff0-6bbb42526973">
             <form corresp="#uuid-3b611bc0-1264-4fb0-b354-69ff386f2094 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>王子</orth>
@@ -134,5 +142,20 @@
   <def>son of a king of a state &gt; prince</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c52ad88e-4e64-42c4-aad8-8e4e6462c49b" resp="#dsehnal" tls:created="2024-07-09T01:19:53.877+09:00"><form corresp="#uuid-ee21ee2b-8b08-4b25-bd49-9a2f23090efd #uuid-70c383f8-2df7-4ea7-b7de-c35874bb4e03 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19"><orth>叔公子</orth><pron xml:lang="zh-Latn-x-pinyin">shū gōng zǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syuwk kuwng tsiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljɯwɡ klooŋ sklɯʔ</pron></form><sense xml:id="uuid-28cc74b0-b73f-42cc-8c74-b0b73f12ccd0" resp="#dsehnal" tls:created="2024-07-09T01:19:53.877+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d02af1ad-f8df-4897-aaf1-adf8df889786">NPc.post-V{NUM}:=Npr</tls:syn-func></gramGrp><def>the prince Npr – the younger brother of the duke</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c52ad88e-4e64-42c4-aad8-8e4e6462c49b" resp="#dsehnal" tls:created="2024-07-09T01:19:53.877+09:00">
+            <form corresp="#uuid-ee21ee2b-8b08-4b25-bd49-9a2f23090efd #uuid-70c383f8-2df7-4ea7-b7de-c35874bb4e03 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
+                <orth>叔公子</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shū gōng zǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syuwk kuwng tsiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljɯwɡ klooŋ sklɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-28cc74b0-b73f-42cc-8c74-b0b73f12ccd0" resp="#dsehnal" tls:created="2024-07-09T01:19:53.877+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d02af1ad-f8df-4897-aaf1-adf8df889786">NPc.post-V{NUM}:=Npr</tls:syn-func>
+                </gramGrp>
+                <def>the prince Npr – the younger brother of the duke</def>
+            </sense>
+        </entry>
+    </div>
 </div>

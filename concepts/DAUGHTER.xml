@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ea2f94a9-d0e9-4db8-b532-e9cddacd939b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ea2f94a9-d0e9-4db8-b532-e9cddacd939b">
 <head>DAUGHTER</head>
     <list type="altnames">
 <item>FEMALE CHILD</item>
@@ -105,7 +106,21 @@
                 </gramGrp>
   <def>your daughter, one's daughter</def>
             </sense>
-<sense xml:id="uuid-6cb6e137-615a-4933-b6e1-37615af9331f" resp="#dsehnal" tls:created="2021-05-27T02:49:03.593+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f688791d-a18c-4bab-854f-b17a9f193cc5">nt(post-N)</tls:syn-func></gramGrp><def>daughter of the contextually determinate N</def></sense><sense xml:id="uuid-eb22f68f-3b6e-4a1c-a2f6-8f3b6eaa1cfa" resp="#dsehnal" tls:created="2023-07-15T23:45:26.823+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func></gramGrp><def>NUM daughters</def></sense></entry>
+<sense xml:id="uuid-6cb6e137-615a-4933-b6e1-37615af9331f" resp="#dsehnal" tls:created="2021-05-27T02:49:03.593+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f688791d-a18c-4bab-854f-b17a9f193cc5">nt(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>daughter of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-eb22f68f-3b6e-4a1c-a2f6-8f3b6eaa1cfa" resp="#dsehnal" tls:created="2023-07-15T23:45:26.823+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>NUM daughters</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-31931394-488a-4bf1-be39-f5e5c35a06a7">
             <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63">
 <orth>大女</orth>
@@ -174,5 +189,58 @@
   <def>daughter (of ruler)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-6313b9de-2251-4a33-93b9-de2251ba33fc" resp="#CH" tls:created="2022-09-01T18:30:43.225+09:00"><form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19"><orth>子</orth><pron xml:lang="zh-Latn-x-pinyin">zǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯʔ</pron></form><sense xml:id="uuid-2ca838f9-7783-42da-a838-f9778362dabf" resp="#CH" tls:created="2022-09-01T18:30:43.225+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-90f4bdd5-c3e2-4dce-8fcd-08f9341329b2">N=own</tls:sem-feat></gramGrp><def>N's daughter</def></sense><sense xml:id="uuid-686f71f4-000a-4bd2-af71-f4000a2bd2f9" resp="#CH" tls:created="2022-09-01T19:30:46.753+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's daughter</def></sense></entry><entry type="word" xml:id="uuid-b96e1c5e-4fdd-4a2d-ae1c-5e4fdd1a2d06" resp="#dsehnal" tls:created="2023-04-30T04:20:44.24+09:00"><form corresp="#uuid-9f3eae93-cad4-41ec-966d-665e9ba7131f #uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63"><orth>少女</orth><pron xml:lang="zh-Latn-x-pinyin">shào nǚ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syewX nrjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">hmljews naʔ</pron></form><sense xml:id="uuid-8683a74f-474e-4e3b-83a7-4f474e0e3bad" resp="#dsehnal" tls:created="2023-04-30T04:20:44.24+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d0e1655f-4b4e-4303-95f7-82b1e14a5931">NPpost-Npr</tls:syn-func></gramGrp><def>Npr's younger daughter</def></sense></entry><entry type="word" xml:id="uuid-beef66de-91f2-474d-af66-de91f2374df1" resp="#dsehnal" tls:created="2023-07-15T23:47:52.74+09:00"><form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63"><orth>小女</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎo nǚ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX nrjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ naʔ</pron></form><sense xml:id="uuid-d2222e90-311b-4e14-a22e-90311b7e141d" resp="#dsehnal" tls:created="2023-07-15T23:47:52.74+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>N's youngest daughter</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-6313b9de-2251-4a33-93b9-de2251ba33fc" resp="#CH" tls:created="2022-09-01T18:30:43.225+09:00">
+            <form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
+                <orth>子</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-2ca838f9-7783-42da-a838-f9778362dabf" resp="#CH" tls:created="2022-09-01T18:30:43.225+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-90f4bdd5-c3e2-4dce-8fcd-08f9341329b2">N=own</tls:sem-feat>
+                </gramGrp>
+                <def>N's daughter</def>
+            </sense>
+            <sense xml:id="uuid-686f71f4-000a-4bd2-af71-f4000a2bd2f9" resp="#CH" tls:created="2022-09-01T19:30:46.753+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's daughter</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b96e1c5e-4fdd-4a2d-ae1c-5e4fdd1a2d06" resp="#dsehnal" tls:created="2023-04-30T04:20:44.24+09:00">
+            <form corresp="#uuid-9f3eae93-cad4-41ec-966d-665e9ba7131f #uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63">
+                <orth>少女</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shào nǚ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syewX nrjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">hmljews naʔ</pron>
+            </form>
+            <sense xml:id="uuid-8683a74f-474e-4e3b-83a7-4f474e0e3bad" resp="#dsehnal" tls:created="2023-04-30T04:20:44.24+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d0e1655f-4b4e-4303-95f7-82b1e14a5931">NPpost-Npr</tls:syn-func>
+                </gramGrp>
+                <def>Npr's younger daughter</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-beef66de-91f2-474d-af66-de91f2374df1" resp="#dsehnal" tls:created="2023-07-15T23:47:52.74+09:00">
+            <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63">
+                <orth>小女</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎo nǚ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX nrjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ naʔ</pron>
+            </form>
+            <sense xml:id="uuid-d2222e90-311b-4e14-a22e-90311b7e141d" resp="#dsehnal" tls:created="2023-07-15T23:47:52.74+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's youngest daughter</def>
+            </sense>
+        </entry>
+    </div>
 </div>

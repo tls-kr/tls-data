@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dbb6966f-e54a-42e0-a3a6-b63500b56793">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dbb6966f-e54a-42e0-a3a6-b63500b56793">
 <head>BRING</head>
     <list type="altnames">
 <item>CARRY</item>
@@ -71,7 +72,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-11-19T17:40:20.04+09:00">cause to come&gt; bring and submit (typically to one's superior)</def>
             </sense>
-<sense xml:id="uuid-1dac7cea-cee5-4cb2-ac7c-eacee51cb2cb" resp="#dsehnal" tls:created="2023-05-20T18:27:09.445+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#">passive</tls:sem-feat></gramGrp><def>N has been brought and submitted</def></sense></entry>
+<sense xml:id="uuid-1dac7cea-cee5-4cb2-ac7c-eacee51cb2cb" resp="#dsehnal" tls:created="2023-05-20T18:27:09.445+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#">passive</tls:sem-feat>
+                </gramGrp>
+                <def>N has been brought and submitted</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4681f424-6c79-4a65-b766-c2d423efff17">
             <form corresp="#uuid-81aa677b-e873-4016-ae47-708d7568570c">
 <orth>致</orth>
@@ -97,7 +106,14 @@
   <def>cause to arrive&gt; bring/transport N1 to N2</def>
             </sense>
 
-<sense xml:id="uuid-2a5aa5b3-e4e3-430d-bb6b-c03d6f608328" resp="#CH" tls:created="2020-01-11T18:36:12.48+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vttoN1(. prep N2)</tls:syn-func></gramGrp><def>supply or bring along N1 for the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-2a5aa5b3-e4e3-430d-bb6b-c03d6f608328" resp="#CH" tls:created="2020-01-11T18:36:12.48+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vttoN1(. prep N2)</tls:syn-func>
+                </gramGrp>
+                <def>supply or bring along N1 for the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9e4ae915-454b-410a-bc60-6a4fbad9ea51">
             <form corresp="#uuid-35496ae0-38af-446e-afca-6b472a46c411 #uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6">
 <orth>持來</orth>
@@ -129,5 +145,20 @@
   <def>carry the contextually determinate thing along, bring along; take along</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9ca45ebb-6b02-4a48-a45e-bb6b022a480f" resp="#dsehnal" tls:created="2023-07-15T22:47:54.83+09:00"><form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95"><orth>送</orth><pron xml:lang="zh-Latn-x-pinyin">sòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron></form><sense xml:id="uuid-e01898cd-171b-447f-9898-cd171b147f95" resp="#dsehnal" tls:created="2023-07-15T22:47:54.83+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func></gramGrp><def>escort the contextually determinate N1 to the place N2</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9ca45ebb-6b02-4a48-a45e-bb6b022a480f" resp="#dsehnal" tls:created="2023-07-15T22:47:54.83+09:00">
+            <form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95">
+                <orth>送</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron>
+            </form>
+            <sense xml:id="uuid-e01898cd-171b-447f-9898-cd171b147f95" resp="#dsehnal" tls:created="2023-07-15T22:47:54.83+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>escort the contextually determinate N1 to the place N2</def>
+            </sense>
+        </entry>
+    </div>
 </div>

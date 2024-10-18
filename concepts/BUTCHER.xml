@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2cbe5a44-7be7-4a6a-b179-4e3eb4ce12cd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2cbe5a44-7be7-4a6a-b179-4e3eb4ce12cd">
 <head>BUTCHER</head>
     <list type="altnames">
 <item>MEAT SELLER</item>
@@ -179,7 +180,22 @@
                 </gramGrp>
   <def>sheep butcher Npr</def>
             </sense>
-<sense xml:id="uuid-ab743884-fc85-442f-aba8-fa0e921914bb" resp="#CH" tls:created="2019-12-15T06:35:14.819+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f74acc63-f01d-46a4-8899-5aa19d83a756">NPab.post-N</tls:syn-func></gramGrp><def>the subject's job as a butcher</def></sense><sense xml:id="uuid-edd21a13-5739-4ba2-a1a2-aa63966b7fea" resp="#CH" tls:created="2019-12-16T19:48:06.069+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func><tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp><def>a butcher's</def></sense></entry>
+<sense xml:id="uuid-ab743884-fc85-442f-aba8-fa0e921914bb" resp="#CH" tls:created="2019-12-15T06:35:14.819+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f74acc63-f01d-46a4-8899-5aa19d83a756">NPab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>the subject's job as a butcher</def>
+            </sense>
+            <sense xml:id="uuid-edd21a13-5739-4ba2-a1a2-aa63966b7fea" resp="#CH" tls:created="2019-12-16T19:48:06.069+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+                <def>a butcher's</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-45791e8c-7689-41aa-9d7d-d2e75a6950c9">
             <form corresp="#uuid-34a6c350-f23b-4fae-97d0-68b180f7e219 #uuid-638f5102-6260-4085-891d-9864102bc27c">
 <orth>屠者</orth>
@@ -210,5 +226,21 @@
   <def>dog butcher</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-90d62715-6aaf-4014-9627-156aafe014b9" resp="#CH" tls:created="2022-08-17T20:31:36.481+09:00"><form corresp="#uuid-78d83124-8b7d-43aa-acca-a34116805346 #uuid-dffaa42d-8b44-462a-be13-8b59f3ffc185"><orth>鼓刀</orth><pron xml:lang="zh-Latn-x-pinyin">gǔ dāo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kuX taw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaaʔ k-laaw</pron></form><sense xml:id="uuid-7419e3a5-2fda-41df-99e3-a52fdae1df7f" resp="#CH" tls:created="2022-08-17T20:31:36.481+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>wield the butcher's knife&gt; work as a butcher</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-90d62715-6aaf-4014-9627-156aafe014b9" resp="#CH" tls:created="2022-08-17T20:31:36.481+09:00">
+            <form corresp="#uuid-78d83124-8b7d-43aa-acca-a34116805346 #uuid-dffaa42d-8b44-462a-be13-8b59f3ffc185">
+                <orth>鼓刀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǔ dāo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuX taw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaaʔ k-laaw</pron>
+            </form>
+            <sense xml:id="uuid-7419e3a5-2fda-41df-99e3-a52fdae1df7f" resp="#CH" tls:created="2022-08-17T20:31:36.481+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>wield the butcher's knife&gt; work as a butcher</def>
+            </sense>
+        </entry>
+    </div>
 </div>

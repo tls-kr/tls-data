@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d1aaddeb-1c44-44aa-9522-6c2c8307f5ea">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d1aaddeb-1c44-44aa-9522-6c2c8307f5ea">
 <head>PROFOUND</head>
 <div type="definition">
 <p>OBSCURE BUT INTENSELY INTERESTING.</p>
@@ -22,8 +23,18 @@
     </div>
 <div type="words">
 <entry type="word" xml:id="uuid-0a9996fa-ad73-4e77-87b0-2d402aaf63ce">
-            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800"><orth>深</orth><pron xml:lang="zh-Latn-x-pinyin">shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron></form>
-            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800"><orth>深</orth><pron xml:lang="zh-Latn-x-pinyin">shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron></form>
+            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800">
+                <orth>深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron>
+            </form>
+            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800">
+                <orth>深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron>
+            </form>
 <sense xml:id="uuid-0fbd5780-f34b-4f7a-9949-c615329af207">
 <gramGrp>
                     <pos>V</pos>
@@ -56,7 +67,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-22T19:36:10.913+09:00">profoundly; with deep reflection; with profound dedication</def>
             </sense>
-<sense xml:id="uuid-79d51285-0725-410f-a568-c2d5e07a8d1e" resp="#CH" tls:created="2020-02-07T20:02:08.07+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>what is profound; a profound way of doing things; a profound solution</def></sense></entry>
+<sense xml:id="uuid-79d51285-0725-410f-a568-c2d5e07a8d1e" resp="#CH" tls:created="2020-02-07T20:02:08.07+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what is profound; a profound way of doing things; a profound solution</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-241fbb32-afe1-4abb-bfb6-ce8022bdf127">
             <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800 #uuid-0fa9c216-679b-4280-bd3d-c0717fd076a4">
 <orth>深妙</orth>
@@ -102,7 +120,22 @@
                 </gramGrp>
   <def>YI: profound 其旨遠 "the significance is far-reaching"</def>
             </sense>
-<sense xml:id="uuid-1d23b121-4961-43e9-8df6-775faa4578b9" resp="#CH" tls:created="2019-12-08T05:14:06.565+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>from a profound long-term perspective</def></sense><sense xml:id="uuid-6e56393c-0053-4412-9639-3c0053a4123b" resp="#CH" tls:created="2024-02-20T23:23:33.747+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-2b6e6e2f-5d72-4f91-ab24-effa7e5ffd58">abstract</tls:sem-feat></gramGrp><def>what reaches far</def></sense></entry>
+<sense xml:id="uuid-1d23b121-4961-43e9-8df6-775faa4578b9" resp="#CH" tls:created="2019-12-08T05:14:06.565+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>from a profound long-term perspective</def>
+            </sense>
+            <sense xml:id="uuid-6e56393c-0053-4412-9639-3c0053a4123b" resp="#CH" tls:created="2024-02-20T23:23:33.747+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2b6e6e2f-5d72-4f91-ab24-effa7e5ffd58">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>what reaches far</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-eab4e309-fe69-4445-841b-c14769b9e703">
             <form corresp="#uuid-f74875f5-786d-4a10-888d-9a5d8fb1324d">
 <orth>微</orth>
@@ -117,7 +150,22 @@
                 </gramGrp>
   <def>subtle and profound 微言 "subtle/profound pronouncements"</def>
             </sense>
-<sense xml:id="uuid-11c99181-daed-47f1-a878-5297d39faa5e" resp="#CH" tls:created="2019-10-31T18:41:48.677+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp><def>consider as and treat as subtle and profound</def></sense><sense xml:id="uuid-72f75239-7d1d-4b6b-94b7-e3bc20184916" resp="#zadrapa" tls:created="2019-12-06T21:56:58.113+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>subtlety and profundity</def></sense></entry>
+<sense xml:id="uuid-11c99181-daed-47f1-a878-5297d39faa5e" resp="#CH" tls:created="2019-10-31T18:41:48.677+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+                <def>consider as and treat as subtle and profound</def>
+            </sense>
+            <sense xml:id="uuid-72f75239-7d1d-4b6b-94b7-e3bc20184916" resp="#zadrapa" tls:created="2019-12-06T21:56:58.113+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>subtlety and profundity</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ed457ecc-4106-4144-8547-acca6607712d">
             <form corresp="#uuid-3693361a-b104-458e-b65e-7f12936eafe7">
 <orth>隱</orth>
@@ -134,5 +182,21 @@
   <def>be profound and subtle</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-e5c9694d-8404-4d21-8969-4d84049d2195" resp="#zadrapa" tls:created="2020-05-20T23:14:21.97+09:00"><form corresp="#uuid-277679c4-274f-4403-b705-6fba8867aad7 #uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800"><orth>漸深</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjemX syim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzamʔ qhljum</pron></form><sense xml:id="uuid-51c4eeb8-28af-4c55-84ee-b828af9c553b" resp="#zadrapa" tls:created="2020-05-20T23:14:21.97+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>profound, deep (e.g. of one's mind)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-e5c9694d-8404-4d21-8969-4d84049d2195" resp="#zadrapa" tls:created="2020-05-20T23:14:21.97+09:00">
+            <form corresp="#uuid-277679c4-274f-4403-b705-6fba8867aad7 #uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800">
+                <orth>漸深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjemX syim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzamʔ qhljum</pron>
+            </form>
+            <sense xml:id="uuid-51c4eeb8-28af-4c55-84ee-b828af9c553b" resp="#zadrapa" tls:created="2020-05-20T23:14:21.97+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>profound, deep (e.g. of one's mind)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

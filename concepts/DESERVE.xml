@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6bde907a-249f-4ab6-a5f7-07c71623336f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6bde907a-249f-4ab6-a5f7-07c71623336f">
 <head>DESERVE</head>
     <list type="altnames">
 <item>MERIT</item>
@@ -147,7 +148,21 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-05-22T03:42:18.161+09:00">deserve to (be rewarded or be punished)</def>
             </sense>
-<sense xml:id="uuid-f421bd92-e441-458f-9b44-4862afe65a0f" resp="#CH" tls:created="2019-12-15T08:03:45.086+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>deserve, merit</def></sense><sense xml:id="uuid-0f62c7df-a509-49c2-800d-2bb424a6b571" resp="#CH" tls:created="2019-12-16T20:58:27.275+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>merit the contextually determinate (favorable) treatment N</def></sense></entry>
+<sense xml:id="uuid-f421bd92-e441-458f-9b44-4862afe65a0f" resp="#CH" tls:created="2019-12-15T08:03:45.086+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>deserve, merit</def>
+            </sense>
+            <sense xml:id="uuid-0f62c7df-a509-49c2-800d-2bb424a6b571" resp="#CH" tls:created="2019-12-16T20:58:27.275+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>merit the contextually determinate (favorable) treatment N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-266276e5-63a4-4c19-80dd-399eacd77961">
             <form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e">
 <orth>可</orth>
@@ -175,7 +190,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-ded1252c-14e0-467d-9125-2c14e0867d42">V[0]=passive</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-ded1252c-14e0-467d-9125-2c14e0867d42">V[0]=passive</tls:sem-feat>
+                </gramGrp>
   <def>deserve to be V-ed, merit V-ing</def>
             </sense>
 </entry>

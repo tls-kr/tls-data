@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-918f56cf-6c9b-411f-afdd-dd6fbf05bbdd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-918f56cf-6c9b-411f-afdd-dd6fbf05bbdd">
 <head>SUSPECT</head>
     <list type="altnames">
 <item>SUSPICIOUS</item>
@@ -200,7 +201,36 @@
                 </gramGrp>
   <def>suspect that S</def>
             </sense>
-<sense xml:id="uuid-3e6bf484-3395-43e0-abf4-84339573e0cd" resp="#zadrapa" tls:created="2021-01-17T02:16:35.059+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>what/who is suspicious</def></sense><sense xml:id="uuid-159d2f45-d1a0-4fab-9d2f-45d1a06fabf7" resp="#CH" tls:created="2022-08-18T19:14:33.212+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>suspect N1 of being an N2</def></sense><sense xml:id="uuid-ff0fb6dc-7a16-4575-8fb6-dc7a16057521" resp="#dsehnal" tls:created="2023-06-01T02:42:23.924+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func></gramGrp><def>suspect that</def></sense><sense xml:id="uuid-58625da1-7f66-4dca-a25d-a17f669dcaf0" resp="#dsehnal" tls:created="2023-12-18T01:49:12.222+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>turn suspicious</def></sense></entry>
+<sense xml:id="uuid-3e6bf484-3395-43e0-abf4-84339573e0cd" resp="#zadrapa" tls:created="2021-01-17T02:16:35.059+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what/who is suspicious</def>
+            </sense>
+            <sense xml:id="uuid-159d2f45-d1a0-4fab-9d2f-45d1a06fabf7" resp="#CH" tls:created="2022-08-18T19:14:33.212+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>suspect N1 of being an N2</def>
+            </sense>
+            <sense xml:id="uuid-ff0fb6dc-7a16-4575-8fb6-dc7a16057521" resp="#dsehnal" tls:created="2023-06-01T02:42:23.924+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
+                </gramGrp>
+                <def>suspect that</def>
+            </sense>
+            <sense xml:id="uuid-58625da1-7f66-4dca-a25d-a17f669dcaf0" resp="#dsehnal" tls:created="2023-12-18T01:49:12.222+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>turn suspicious</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-571ff0e8-da7a-491e-bfb0-b917051402d5">
             <form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-8a9907df-7760-4d14-859c-159d12628480">
 <orth>生心</orth>
@@ -217,5 +247,20 @@
   <def>become suspicious</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0f27a801-c105-422f-a7a8-01c105822feb" resp="#CH" tls:created="2020-06-03T21:24:33.876+09:00"><form corresp="#uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611 #uuid-7a60cff2-ff28-4f36-b772-a23cd7e517bd"><orth>見疑</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn yí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kenH ngi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keens ŋɡɯ</pron></form><sense xml:id="uuid-2edf7d37-17bf-466c-9f7d-3717bf566c93" resp="#CH" tls:created="2020-06-03T21:24:33.876+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>be held in suspicion by; incur the suspicion of</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0f27a801-c105-422f-a7a8-01c105822feb" resp="#CH" tls:created="2020-06-03T21:24:33.876+09:00">
+            <form corresp="#uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611 #uuid-7a60cff2-ff28-4f36-b772-a23cd7e517bd">
+                <orth>見疑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn yí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kenH ngi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keens ŋɡɯ</pron>
+            </form>
+            <sense xml:id="uuid-2edf7d37-17bf-466c-9f7d-3717bf566c93" resp="#CH" tls:created="2020-06-03T21:24:33.876+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>be held in suspicion by; incur the suspicion of</def>
+            </sense>
+        </entry>
+    </div>
 </div>

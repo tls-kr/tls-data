@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a1dfacc1-4ea4-4d20-bf16-b5074bef3de3">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a1dfacc1-4ea4-4d20-bf16-b5074bef3de3">
 <head>LIMP</head>
     <list type="altnames">
 <item>HOBBLE</item>
@@ -131,7 +132,15 @@
                 </gramGrp>
   <def>hop along on one or two malfunctioning legs</def>
             </sense>
-<sense xml:id="uuid-fe34666b-69b6-4790-b466-6b69b67790c9" resp="#dsehnal" tls:created="2023-06-02T21:37:18.421+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>jump around the place N</def></sense></entry>
+<sense xml:id="uuid-fe34666b-69b6-4790-b466-6b69b67790c9" resp="#dsehnal" tls:created="2023-06-02T21:37:18.421+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>jump around the place N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-aebc19bd-09dc-479a-b040-1160abe2e887">
             <form corresp="#uuid-5c3993aa-2b74-4441-b3e2-e0f38dcef645">
 <orth>蹇</orth>
@@ -204,6 +213,29 @@
                 </gramGrp>
   <def>ZHUANG: hobble along</def>
             </sense>
-<sense xml:id="uuid-3d2cd024-bdd5-40b7-acd0-24bdd5a0b7a0" resp="#CH" tls:created="2020-02-13T02:42:03.472+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>hobble along among</def></sense></entry>
-    <entry type="word" xml:id="uuid-d8476ff3-aa23-468c-876f-f3aa23768cb3" resp="#CH" tls:created="2021-04-15T21:37:00.877+09:00"><form corresp="#趻:chěn #uuid-b8484b15-8580-4792-87d8-128826e5774a"><orth>趻踔</orth><pron xml:lang="zh-Latn-x-pinyin">chěn chuō</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- trhaewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- rtheewɡ</pron></form><sense xml:id="uuid-29f5baf2-c3d9-4a0f-b5ba-f2c3d91a0fa6" resp="#CH" tls:created="2021-04-15T21:37:00.877+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>hobble along, stumble along</def></sense></entry></div>
+<sense xml:id="uuid-3d2cd024-bdd5-40b7-acd0-24bdd5a0b7a0" resp="#CH" tls:created="2020-02-13T02:42:03.472+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>hobble along among</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-d8476ff3-aa23-468c-876f-f3aa23768cb3" resp="#CH" tls:created="2021-04-15T21:37:00.877+09:00">
+            <form corresp="#趻:chěn #uuid-b8484b15-8580-4792-87d8-128826e5774a">
+                <orth>趻踔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chěn chuō</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- trhaewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- rtheewɡ</pron>
+            </form>
+            <sense xml:id="uuid-29f5baf2-c3d9-4a0f-b5ba-f2c3d91a0fa6" resp="#CH" tls:created="2021-04-15T21:37:00.877+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>hobble along, stumble along</def>
+            </sense>
+        </entry>
+    </div>
 </div>
