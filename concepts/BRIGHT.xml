@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8b103529-f6b9-4c91-b915-42effb59b490">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8b103529-f6b9-4c91-b915-42effb59b490">
 <head>BRIGHT</head>
     <list type="altnames">
 <item>SHINING</item>
@@ -162,7 +163,15 @@
                 </gramGrp>
   <def>be bright</def>
             </sense>
-<sense xml:id="uuid-505fc93c-386f-42a2-b6df-f40c69765230" resp="#CH" tls:created="2020-02-10T01:52:14.744+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>brilliant</def></sense></entry>
+<sense xml:id="uuid-505fc93c-386f-42a2-b6df-f40c69765230" resp="#CH" tls:created="2020-02-10T01:52:14.744+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>brilliant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-be9c1357-b0e2-42c6-93e3-7390457825c6">
             <form corresp="#uuid-235daba0-514e-457e-b1cb-fad34ccf7de3">
 <orth>光</orth>
@@ -196,7 +205,15 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-3c288863-6705-4a4f-a888-6367057a4f52" resp="#zadrapa" tls:created="2021-06-29T04:28:26.135+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>make N bright (also figuratively); polish</def></sense></entry>
+<sense xml:id="uuid-3c288863-6705-4a4f-a888-6367057a4f52" resp="#zadrapa" tls:created="2021-06-29T04:28:26.135+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>make N bright (also figuratively); polish</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1a286310-cb65-4290-87f2-7bd3e392fad2">
             <form corresp="#uuid-b0e55d69-217c-415a-b92c-8480e5a26af5">
 <orth>剡</orth>
@@ -337,7 +354,14 @@
                 </gramGrp>
   <def>be resplendent</def>
             </sense>
-<sense xml:id="uuid-12b91d03-dc16-4dd6-b91d-03dc16ddd6cd" resp="#zadrapa" tls:created="2021-01-28T23:37:53.062+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>brilliantly</def></sense></entry>
+<sense xml:id="uuid-12b91d03-dc16-4dd6-b91d-03dc16ddd6cd" resp="#zadrapa" tls:created="2021-01-28T23:37:53.062+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>brilliantly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-22abf3a8-29b3-4ad6-914e-f9eca5998179">
             <form corresp="#uuid-1776b3d6-349a-4d40-a47e-332fb881b11b">
 <orth>晏</orth>
@@ -402,7 +426,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-482e5ca6-55bd-47f0-be2d-4e3405f95279">
-            <form corresp="#uuid-0a80f4d8-731e-49cf-80f4-d8731eb9cf3d"><orth>曣</orth><pron xml:lang="zh-Latn-x-pinyin">yàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-0a80f4d8-731e-49cf-80f4-d8731eb9cf3d">
+                <orth>曣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Yàn 宴／曣 refers specifically to the brightness of the sky.
 </def>
 <sense xml:id="uuid-ad55e68f-68c0-48a2-a631-a3ba6aa3da05">
@@ -551,7 +580,14 @@
                 </gramGrp>
   <def>brilliant, resplendent</def>
             </sense>
-<sense xml:id="uuid-7654a68b-1e9a-469a-94a6-8b1e9a969a50" resp="#CH" tls:created="2020-12-16T04:37:08.539+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>glittering, bright</def></sense></entry>
+<sense xml:id="uuid-7654a68b-1e9a-469a-94a6-8b1e9a969a50" resp="#CH" tls:created="2020-12-16T04:37:08.539+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>glittering, bright</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b5c63c5b-46ea-4449-88b4-35e0aefb4c29">
             <form corresp="#uuid-e396f22d-2ebc-47ff-9b8e-fad4a7cd3067">
 <orth>熙</orth>
@@ -721,7 +757,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-e712b8f5-967a-4a86-9c0f-530927ce05a0">
-            <form corresp="#uuid-26669fea-f93e-4517-8265-dab8c2d5d88d"><orth>皞</orth><pron xml:lang="zh-Latn-x-pinyin">hào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡuuʔ</pron></form>
+            <form corresp="#uuid-26669fea-f93e-4517-8265-dab8c2d5d88d">
+                <orth>皞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡuuʔ</pron>
+            </form>
             <def>hào
 </def>
 <sense xml:id="uuid-773c217e-4d51-4812-bfae-94f28b94cf7e">
@@ -948,7 +989,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-72232320-2831-4c8d-a658-0963f3cb4494">
-            <form corresp="#uuid-63430f28-06a5-4f86-8d21-00c566fdffc6 #uuid-721da420-0baa-4227-810f-5df0cf6726f5"><orth>昉著</orth><pron xml:lang="zh-Latn-x-pinyin">fǎng zhù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjangX trjoH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋʔ k-las</pron></form>
+            <form corresp="#uuid-63430f28-06a5-4f86-8d21-00c566fdffc6 #uuid-721da420-0baa-4227-810f-5df0cf6726f5">
+                <orth>昉著</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎng zhù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjangX trjoH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋʔ k-las</pron>
+            </form>
 <sense xml:id="uuid-d20d948d-d35a-4baf-bbfc-d71fc86543b1">
 <gramGrp>
                     <pos>V</pos>
@@ -1110,7 +1156,15 @@
                 </gramGrp>
   <def>be dazzling bright</def>
             </sense>
-<sense xml:id="uuid-ec69fc1c-f30a-413c-a9fc-1cf30a013cdd" resp="#dsehnal" tls:created="2024-06-09T21:10:24.161+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-30c5d998-22c1-481f-a511-71fed5608934">VPi+N{SUBJ}</tls:syn-func><tls:sem-feat corresp="#uuid-35e5df6a-0bda-4c48-a5df-6a0bda7c486d">inversion, emphatic</tls:sem-feat></gramGrp><def>oh, how splendid was N</def></sense></entry>
+<sense xml:id="uuid-ec69fc1c-f30a-413c-a9fc-1cf30a013cdd" resp="#dsehnal" tls:created="2024-06-09T21:10:24.161+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-30c5d998-22c1-481f-a511-71fed5608934">VPi+N{SUBJ}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-35e5df6a-0bda-4c48-a5df-6a0bda7c486d">inversion, emphatic</tls:sem-feat>
+                </gramGrp>
+                <def>oh, how splendid was N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-99e727e2-37b6-4c83-beb1-40a541f5b1cc">
             <form corresp="#uuid-4a1535f0-df0e-4549-bdaa-4ddd83d0bc8e">
 <orth>清</orth>
@@ -1126,8 +1180,88 @@
   <def>be bright</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-420a6e50-63cc-4632-88d8-8aedb8691f12" resp="#CH" tls:created="2020-02-04T22:19:44.845+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-361ce224-3689-4996-b4dd-a40e7d1f4770" resp="#CH" tls:created="2020-02-04T22:19:44.845+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>figurative: brighten up with fresh light of sensibility</def></sense></entry><entry type="word" xml:id="uuid-bba9c512-7fe1-4dbf-9329-c0894053dfe2" resp="#CH" tls:created="2020-02-04T22:19:58.136+09:00"><form corresp="#uuid-a63b0ba7-dea3-4658-a368-cc0a7d059371"><orth>鮮</orth><pron xml:lang="zh-Latn-x-pinyin">xiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sen</pron></form><sense xml:id="uuid-240cb8ee-628f-4bdc-a1bd-28b5237aff05" resp="#CH" tls:created="2020-02-04T22:19:58.136+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>figurative: brighten up with fresh light of sensibility</def></sense></entry><entry type="word" xml:id="uuid-d888d61f-813e-424e-b255-9f959fa52be5" resp="#CH" tls:created="2020-02-07T18:15:13.663+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-31039564-2bf2-42c3-b6a4-755f0e8eb7cd" resp="#CH" tls:created="2020-02-07T18:15:13.663+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be scintillating</def></sense></entry><entry type="word" xml:id="uuid-d70fa777-d3b2-4496-bc30-6f0bb3b26120" resp="#CH" tls:created="2020-02-07T18:15:20.541+09:00"><form corresp="#uuid-785966fe-b9ac-4103-b630-f65e44ee255a"><orth>粲</orth><pron xml:lang="zh-Latn-x-pinyin">càn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshaans</pron></form><sense xml:id="uuid-41c5d4ba-4f8e-4448-8221-2896bf047f62" resp="#CH" tls:created="2020-02-07T18:15:20.541+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be scintillating</def></sense></entry><entry type="word" xml:id="uuid-2d6ac199-89b4-4ce2-9082-8dae85dbdfa5" resp="#CH" tls:created="2020-02-10T16:55:54.86+09:00"><form corresp="#uuid-f8fe7cb5-faea-4943-b003-8338a85bac09 #uuid-c393a55b-c22b-49b3-bba5-ce1640594c0a"><orth>千眠</orth><pron xml:lang="zh-Latn-x-pinyin">qiān mián
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshen men
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiin miin
-</pron></form><sense xml:id="uuid-da3c055d-40ac-455e-8878-380c0a9584fa" resp="#CH" tls:created="2020-02-10T16:55:54.86+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-51e34132-6b64-4edd-861d-a83e3ff87306">poetic</tls:sem-feat></gramGrp><def>arcane and opaque: brilliant, scintillating</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-420a6e50-63cc-4632-88d8-8aedb8691f12" resp="#CH" tls:created="2020-02-04T22:19:44.845+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-361ce224-3689-4996-b4dd-a40e7d1f4770" resp="#CH" tls:created="2020-02-04T22:19:44.845+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: brighten up with fresh light of sensibility</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bba9c512-7fe1-4dbf-9329-c0894053dfe2" resp="#CH" tls:created="2020-02-04T22:19:58.136+09:00">
+            <form corresp="#uuid-a63b0ba7-dea3-4658-a368-cc0a7d059371">
+                <orth>鮮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sen</pron>
+            </form>
+            <sense xml:id="uuid-240cb8ee-628f-4bdc-a1bd-28b5237aff05" resp="#CH" tls:created="2020-02-04T22:19:58.136+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: brighten up with fresh light of sensibility</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d888d61f-813e-424e-b255-9f959fa52be5" resp="#CH" tls:created="2020-02-07T18:15:13.663+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-31039564-2bf2-42c3-b6a4-755f0e8eb7cd" resp="#CH" tls:created="2020-02-07T18:15:13.663+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be scintillating</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d70fa777-d3b2-4496-bc30-6f0bb3b26120" resp="#CH" tls:created="2020-02-07T18:15:20.541+09:00">
+            <form corresp="#uuid-785966fe-b9ac-4103-b630-f65e44ee255a">
+                <orth>粲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">càn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshaans</pron>
+            </form>
+            <sense xml:id="uuid-41c5d4ba-4f8e-4448-8221-2896bf047f62" resp="#CH" tls:created="2020-02-07T18:15:20.541+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be scintillating</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2d6ac199-89b4-4ce2-9082-8dae85dbdfa5" resp="#CH" tls:created="2020-02-10T16:55:54.86+09:00">
+            <form corresp="#uuid-f8fe7cb5-faea-4943-b003-8338a85bac09 #uuid-c393a55b-c22b-49b3-bba5-ce1640594c0a">
+                <orth>千眠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiān mián
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshen men
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiin miin
+</pron>
+            </form>
+            <sense xml:id="uuid-da3c055d-40ac-455e-8878-380c0a9584fa" resp="#CH" tls:created="2020-02-10T16:55:54.86+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-51e34132-6b64-4edd-861d-a83e3ff87306">poetic</tls:sem-feat>
+                </gramGrp>
+                <def>arcane and opaque: brilliant, scintillating</def>
+            </sense>
+        </entry>
+    </div>
 </div>

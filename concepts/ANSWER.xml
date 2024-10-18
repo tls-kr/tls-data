@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-bf206c81-dab6-4521-82c0-02dc94b8dc79">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-bf206c81-dab6-4521-82c0-02dc94b8dc79">
 <head>ANSWER</head>
     <list type="altnames">
 <item>REPLY</item>
@@ -224,7 +225,14 @@
                 </gramGrp>
   <def>answer</def>
             </sense>
-<sense xml:id="uuid-22d211ef-7e13-4137-8a22-ee1c7ce56670" resp="#dsehnal" tls:created="2019-12-04T05:29:23.493+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN V</tls:syn-func></gramGrp><def>respond politely to somebody saying</def></sense></entry>
+<sense xml:id="uuid-22d211ef-7e13-4137-8a22-ee1c7ce56670" resp="#dsehnal" tls:created="2019-12-04T05:29:23.493+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN V</tls:syn-func>
+                </gramGrp>
+                <def>respond politely to somebody saying</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f288f9f9-2ab6-4c08-bc91-38b558b6861a">
             <form corresp="#uuid-5b235c4c-5e0a-4d0d-8498-03fccb6f1482">
 <orth>復</orth>
@@ -273,7 +281,21 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-03-12T03:08:19.035+09:00">respond immediately (in speech) to ; respond intellectually (to something challenging that has been said)</def>
             </sense>
-<sense xml:id="uuid-d817655e-1378-4d08-9765-5e13783d0847" resp="#CH" tls:created="2020-04-09T18:22:53.632+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>respond: S; respond that S</def></sense><sense xml:id="uuid-64b3232c-4c3b-4ac2-b323-2c4c3b3ac2c8" resp="#dsehnal" tls:created="2020-05-09T05:22:01.297+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7015c5f6-f601-4596-95c5-f6f601d596bb">vt(oN)+VtoS</tls:syn-func></gramGrp><def>answer to the contextually determinate person, saying:</def></sense></entry>
+<sense xml:id="uuid-d817655e-1378-4d08-9765-5e13783d0847" resp="#CH" tls:created="2020-04-09T18:22:53.632+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>respond: S; respond that S</def>
+            </sense>
+            <sense xml:id="uuid-64b3232c-4c3b-4ac2-b323-2c4c3b3ac2c8" resp="#dsehnal" tls:created="2020-05-09T05:22:01.297+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7015c5f6-f601-4596-95c5-f6f601d596bb">vt(oN)+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>answer to the contextually determinate person, saying:</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b7774457-bf21-4f40-bcc8-2ba6c209465c">
             <form corresp="#uuid-c1adffd5-5b15-4a6d-abea-7f3e08715ee9">
 <orth>答</orth>
@@ -344,7 +366,14 @@
                 </gramGrp>
   <def>answer: "....</def>
             </sense>
-<sense xml:id="uuid-59bbe8e3-268b-4713-bbe8-e3268bf71398" resp="#dsehnal" tls:created="2021-05-15T21:30:23.279+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7015c5f6-f601-4596-95c5-f6f601d596bb">vt(oN)+VtoS</tls:syn-func></gramGrp><def>answer the contextually determinate N saying</def></sense></entry>
+<sense xml:id="uuid-59bbe8e3-268b-4713-bbe8-e3268bf71398" resp="#dsehnal" tls:created="2021-05-15T21:30:23.279+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7015c5f6-f601-4596-95c5-f6f601d596bb">vt(oN)+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>answer the contextually determinate N saying</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3612146c-f127-4309-9328-5005f67d9146">
             <form corresp="#uuid-b983934b-7a26-4c9b-a498-ecb692c62025">
 <orth>詶</orth>
@@ -659,5 +688,35 @@
   <def>written reply</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-eb21cbdf-a93d-42ae-9020-3b173db3be35" resp="#CH" tls:created="2019-10-16T23:40:53.626+09:00"><form corresp="#uuid-0abd716c-d43d-447a-ad3e-ff3910b6aeab"><orth>告</orth><pron xml:lang="zh-Latn-x-pinyin">gào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kawH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuuɡs</pron></form><sense xml:id="uuid-8f379246-c46b-4d21-87e0-69a4c35eedb0" resp="#CH" tls:created="2019-10-16T23:40:53.626+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN.-Vt{以} N</tls:syn-func></gramGrp><def>answer in terms of</def></sense></entry><entry type="word" xml:id="uuid-c411db9b-0e9c-4c83-91db-9b0e9ccc836d" resp="#CH" tls:created="2024-03-14T01:48:26.016+09:00"><form corresp="#uuid-c9c937e3-074a-464a-a478-e0b72fdba4b6"><orth>曰</orth><pron xml:lang="zh-Latn-x-pinyin">yuē</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjwot</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷad</pron></form><sense xml:id="uuid-71503476-3cce-4231-9034-763cce423189" resp="#CH" tls:created="2024-03-14T01:48:26.016+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbb85e2d-6953-4a42-b85e-2d69530a4286">vtt[oN]+S</tls:syn-func></gramGrp><def>respond to what has been asked as follows</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-eb21cbdf-a93d-42ae-9020-3b173db3be35" resp="#CH" tls:created="2019-10-16T23:40:53.626+09:00">
+            <form corresp="#uuid-0abd716c-d43d-447a-ad3e-ff3910b6aeab">
+                <orth>告</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kawH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuuɡs</pron>
+            </form>
+            <sense xml:id="uuid-8f379246-c46b-4d21-87e0-69a4c35eedb0" resp="#CH" tls:created="2019-10-16T23:40:53.626+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN.-Vt{以} N</tls:syn-func>
+                </gramGrp>
+                <def>answer in terms of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c411db9b-0e9c-4c83-91db-9b0e9ccc836d" resp="#CH" tls:created="2024-03-14T01:48:26.016+09:00">
+            <form corresp="#uuid-c9c937e3-074a-464a-a478-e0b72fdba4b6">
+                <orth>曰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuē</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷad</pron>
+            </form>
+            <sense xml:id="uuid-71503476-3cce-4231-9034-763cce423189" resp="#CH" tls:created="2024-03-14T01:48:26.016+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbb85e2d-6953-4a42-b85e-2d69530a4286">vtt[oN]+S</tls:syn-func>
+                </gramGrp>
+                <def>respond to what has been asked as follows</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-10f10c1a-b39a-4ec9-a081-0f80223c8056">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-10f10c1a-b39a-4ec9-a081-0f80223c8056">
 <head>TRUST</head>
     <list type="altnames">
 <item>UT ONE'S TRUST IN</item>
@@ -201,7 +202,23 @@
                 </gramGrp>
   <def>trust that S, put his faith in S happening</def>
             </sense>
-<sense xml:id="uuid-cb9606cd-52ad-45c2-9606-cd52ada5c28e" resp="#dsehnal" tls:created="2020-05-22T02:31:28.547+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>trust the contextually determinate N</def></sense><sense xml:id="uuid-ef60aafa-af56-4270-a0aa-faaf5602703c" resp="#dsehnal" tls:created="2020-05-23T22:30:58.239+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-2b6e6e2f-5d72-4f91-ab24-effa7e5ffd58">N=nonhuman</tls:sem-feat></gramGrp><def>trust that the contextually determinate thing is genuine</def></sense></entry>
+<sense xml:id="uuid-cb9606cd-52ad-45c2-9606-cd52ada5c28e" resp="#dsehnal" tls:created="2020-05-22T02:31:28.547+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>trust the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-ef60aafa-af56-4270-a0aa-faaf5602703c" resp="#dsehnal" tls:created="2020-05-23T22:30:58.239+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2b6e6e2f-5d72-4f91-ab24-effa7e5ffd58">N=nonhuman</tls:sem-feat>
+                </gramGrp>
+                <def>trust that the contextually determinate thing is genuine</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2fe698b2-d2bc-4864-923c-1ff0cd999819">
             <form corresp="#uuid-ec520e59-3003-42bd-bdd2-6e456f4dd8d9">
 <orth>諶</orth>
@@ -273,7 +290,14 @@
                 </gramGrp>
   <def>be trusted and loved (note that we also have 愛信)</def>
             </sense>
-<sense xml:id="uuid-14671a9d-94b5-4fdf-a71a-9d94b58fdf8b" resp="#zadrapa" tls:created="2021-01-24T05:11:10.357+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>trust and love</def></sense></entry>
+<sense xml:id="uuid-14671a9d-94b5-4fdf-a71a-9d94b58fdf8b" resp="#zadrapa" tls:created="2021-01-24T05:11:10.357+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>trust and love</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-794172ce-1649-4d33-b1ec-0cab47579746">
             <form corresp="#uuid-df94e791-1aba-4864-ba15-dfebd911c6bb #uuid-fe1297a5-6928-493e-8978-f1244d90a5ed">
 <orth>信服</orth>
@@ -377,5 +401,20 @@
   <def>trust the contextually determinate N (cf. 見怪，見笑)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ed8e9350-8cf7-4cb8-8e93-508cf7dcb86f" resp="#zadrapa" tls:created="2021-01-20T05:53:51.814+09:00"><form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-df94e791-1aba-4864-ba15-dfebd911c6bb"><orth>可信</orth><pron xml:lang="zh-Latn-x-pinyin">kě xìn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaX sinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ sins</pron></form><sense xml:id="uuid-6cff23cc-bc2b-4a22-bf23-ccbc2b5a2208" resp="#zadrapa" tls:created="2021-01-20T05:53:51.814+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>who can be trusted, a trustworthy person</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ed8e9350-8cf7-4cb8-8e93-508cf7dcb86f" resp="#zadrapa" tls:created="2021-01-20T05:53:51.814+09:00">
+            <form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-df94e791-1aba-4864-ba15-dfebd911c6bb">
+                <orth>可信</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kě xìn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaX sinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ sins</pron>
+            </form>
+            <sense xml:id="uuid-6cff23cc-bc2b-4a22-bf23-ccbc2b5a2208" resp="#zadrapa" tls:created="2021-01-20T05:53:51.814+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>who can be trusted, a trustworthy person</def>
+            </sense>
+        </entry>
+    </div>
 </div>

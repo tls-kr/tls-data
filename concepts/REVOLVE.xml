@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b8f62ae5-94fa-49ee-8dc6-066769474044">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b8f62ae5-94fa-49ee-8dc6-066769474044">
 <head>REVOLVE</head>
     <list type="altnames">
 <item>TURN AROUND</item>
@@ -144,7 +145,30 @@
                 </gramGrp>
   <def>CHEMLA 2003: invert (a procedure)</def>
             </sense>
-<sense xml:id="uuid-2c6700c2-d867-4e43-a6b9-2f956322bf7d" resp="#CH" tls:created="2019-12-25T23:25:38.908+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be reversed</def></sense><sense xml:id="uuid-ccf9d495-dca1-4891-b08b-86cec7db8495" resp="#CH" tls:created="2020-02-04T19:43:07.174+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>figurative: turn the inverse way</def></sense><sense xml:id="uuid-fa100732-e41e-4f93-9007-32e41e1f93b3" resp="#CH" tls:created="2022-09-22T01:04:09.515+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>revert to the original state of affairs</def></sense></entry>
+<sense xml:id="uuid-2c6700c2-d867-4e43-a6b9-2f956322bf7d" resp="#CH" tls:created="2019-12-25T23:25:38.908+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be reversed</def>
+            </sense>
+            <sense xml:id="uuid-ccf9d495-dca1-4891-b08b-86cec7db8495" resp="#CH" tls:created="2020-02-04T19:43:07.174+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>figurative: turn the inverse way</def>
+            </sense>
+            <sense xml:id="uuid-fa100732-e41e-4f93-9007-32e41e1f93b3" resp="#CH" tls:created="2022-09-22T01:04:09.515+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>revert to the original state of affairs</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6ae66c1e-e0e0-43cd-963a-ce2115ba33f9">
             <form corresp="#uuid-9cd9391d-1a50-469c-b8ad-825e445eb7d1">
 <orth>回</orth>
@@ -177,7 +201,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-05-28T22:04:42.214+09:00">turn (the head); turn round (one's horses etc)</def>
             </sense>
-<sense xml:id="uuid-d44647cb-f24c-43a0-8647-cbf24ca3a0c4" resp="#zadrapa" tls:created="2021-05-27T15:24:54.999+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>revolve</def></sense></entry>
+<sense xml:id="uuid-d44647cb-f24c-43a0-8647-cbf24ca3a0c4" resp="#zadrapa" tls:created="2021-05-27T15:24:54.999+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>revolve</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-48dcd7ae-e429-49fc-8544-491d95e6d64b">
             <form corresp="#uuid-f69bdbf7-6771-46ae-8315-b0de73d3aa06">
 <orth>斡</orth>
@@ -220,7 +251,15 @@
                 </gramGrp>
   <def>revolve[also; walk around][CA]</def>
             </sense>
-<sense xml:id="uuid-0d7cec69-cb2d-40b1-bcec-69cb2dd0b119" resp="#CH" tls:created="2021-04-06T02:27:21.349+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>turn round (head etc)</def></sense></entry>
+<sense xml:id="uuid-0d7cec69-cb2d-40b1-bcec-69cb2dd0b119" resp="#CH" tls:created="2021-04-06T02:27:21.349+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>turn round (head etc)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-034217be-5926-4c82-9cdc-47acb3cc1899">
             <form corresp="#uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb">
 <orth>行</orth>
@@ -363,7 +402,21 @@
                 </gramGrp>
   <def>cause (something or somebody N1) to revolve (in a certain place N2); to roll (something N1) (somewhere N2)</def>
             </sense>
-<sense xml:id="uuid-e8880d88-1b68-4e35-89e5-56bbdbdf608b" resp="#CH" tls:created="2019-12-07T00:10:16.629+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>move and revolve in N</def></sense><sense xml:id="uuid-0aa9ecd3-731b-4c7f-a9ec-d3731bac7fcc" resp="#CH" tls:created="2022-09-22T03:33:02.004+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a922807b-cc05-48ad-ae43-c0d30b9bb742">vi0</tls:syn-func></gramGrp><def>there is periodic movement or change</def></sense></entry>
+<sense xml:id="uuid-e8880d88-1b68-4e35-89e5-56bbdbdf608b" resp="#CH" tls:created="2019-12-07T00:10:16.629+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>move and revolve in N</def>
+            </sense>
+            <sense xml:id="uuid-0aa9ecd3-731b-4c7f-a9ec-d3731bac7fcc" resp="#CH" tls:created="2022-09-22T03:33:02.004+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a922807b-cc05-48ad-ae43-c0d30b9bb742">vi0</tls:syn-func>
+                </gramGrp>
+                <def>there is periodic movement or change</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-87c7a33f-5c69-4361-90b3-448a58dd5a01">
             <form corresp="#uuid-a16280e3-40c1-4784-a895-510fea8be140">
 <orth>遶</orth>
@@ -598,6 +651,30 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-de6700f6-4496-4f89-933b-0abc73d4c159" resp="#CH" tls:created="2019-12-01T19:36:54.815+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>on the contrary turning in upon oneself</def></sense></entry>
-    <entry type="word" xml:id="uuid-6bc89ab8-0b2a-47f1-889a-b80b2a37f1a7" resp="#zadrapa" tls:created="2020-06-22T05:11:11.177+09:00"><form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3 #uuid-fd7d0e25-fd3a-4fea-9d7d-597f13ae5f1a"><orth>反側</orth><pron xml:lang="zh-Latn-x-pinyin">fǎn cè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjonX tsrik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">panʔ skrɯɡ</pron></form><sense xml:id="uuid-3daeeb2c-154f-45c1-aeeb-2c154fe5c177" resp="#zadrapa" tls:created="2020-06-22T05:11:11.177+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>to lurch, to fiddle about</def></sense></entry></div>
+<sense xml:id="uuid-de6700f6-4496-4f89-933b-0abc73d4c159" resp="#CH" tls:created="2019-12-01T19:36:54.815+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>on the contrary turning in upon oneself</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-6bc89ab8-0b2a-47f1-889a-b80b2a37f1a7" resp="#zadrapa" tls:created="2020-06-22T05:11:11.177+09:00">
+            <form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3 #uuid-fd7d0e25-fd3a-4fea-9d7d-597f13ae5f1a">
+                <orth>反側</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎn cè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjonX tsrik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">panʔ skrɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-3daeeb2c-154f-45c1-aeeb-2c154fe5c177" resp="#zadrapa" tls:created="2020-06-22T05:11:11.177+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>to lurch, to fiddle about</def>
+            </sense>
+        </entry>
+    </div>
 </div>

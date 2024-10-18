@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4df597c6-1a43-478c-a52b-4f00197bb240">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4df597c6-1a43-478c-a52b-4f00197bb240">
 <head>BLOCK</head>
     <list type="altnames">
 <item>CLOG (UP)</item>
@@ -115,7 +116,14 @@
                 </gramGrp>
   <def>cause to stop, block, hinder (with double negation, as in French)</def>
             </sense>
-<sense xml:id="uuid-73f278a5-c883-43ae-b278-a5c883f3ae1f" resp="#CH" tls:created="2020-06-24T02:00:25.499+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>block N1 from N2; block access of N1 to N2</def></sense></entry>
+<sense xml:id="uuid-73f278a5-c883-43ae-b278-a5c883f3ae1f" resp="#CH" tls:created="2020-06-24T02:00:25.499+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>block N1 from N2; block access of N1 to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4c5673b2-d7a3-4df6-9602-04ee88114ddf">
             <form>
 <orth>坏</orth>
@@ -206,7 +214,30 @@
                 </gramGrp>
   <def>blocked</def>
             </sense>
-<sense xml:id="uuid-906d94b3-e2b2-4351-ad94-b3e2b20351d9" resp="#CH" tls:created="2020-02-13T05:08:38.905+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>passive: being blocked in one's efforts</def></sense><sense xml:id="uuid-1be4e9e2-15c2-453b-a4e9-e215c2d53bfd" resp="#CH" tls:created="2020-02-14T02:10:15.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat></gramGrp><def>be blocked</def></sense><sense xml:id="uuid-a7ba7930-4f89-423c-ba79-304f89423c08" resp="#zadrapa" tls:created="2022-06-06T18:45:19.69+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>block water</def></sense></entry>
+<sense xml:id="uuid-906d94b3-e2b2-4351-ad94-b3e2b20351d9" resp="#CH" tls:created="2020-02-13T05:08:38.905+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>passive: being blocked in one's efforts</def>
+            </sense>
+            <sense xml:id="uuid-1be4e9e2-15c2-453b-a4e9-e215c2d53bfd" resp="#CH" tls:created="2020-02-14T02:10:15.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat>
+                </gramGrp>
+                <def>be blocked</def>
+            </sense>
+            <sense xml:id="uuid-a7ba7930-4f89-423c-ba79-304f89423c08" resp="#zadrapa" tls:created="2022-06-06T18:45:19.69+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>block water</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e8bbc2a9-e851-49ae-96b7-38df5a721589">
             <form corresp="#uuid-a55617f7-8ad8-4386-83d0-89552eb39aa1">
 <orth>壅</orth>
@@ -290,7 +321,14 @@
                 </gramGrp>
   <def>block others from</def>
             </sense>
-<sense xml:id="uuid-6ea180dc-e9e3-425c-a180-dce9e3125cb7" resp="#CH" tls:created="2020-05-07T23:21:18.992+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>block the flow of or in</def></sense></entry>
+<sense xml:id="uuid-6ea180dc-e9e3-425c-a180-dce9e3125cb7" resp="#CH" tls:created="2020-05-07T23:21:18.992+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>block the flow of or in</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6a8cd4e2-47c9-40e1-865c-831d3aae3f06">
             <form corresp="#uuid-85359a27-b8a7-4f62-889c-1b0c8a3540ed">
 <orth>屏</orth>
@@ -398,7 +436,15 @@
                 </gramGrp>
   <def>have one's sight blocked</def>
             </sense>
-<sense xml:id="uuid-a769cd61-7f4b-4a81-a9cd-617f4b2a8165" resp="#CH" tls:created="2022-08-27T23:22:43.469+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>cover so as to block the function of</def></sense></entry>
+<sense xml:id="uuid-a769cd61-7f4b-4a81-a9cd-617f4b2a8165" resp="#CH" tls:created="2022-08-27T23:22:43.469+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>cover so as to block the function of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-42b727ac-6ea6-46a6-8696-53f92b2d11f5">
             <form corresp="#uuid-e2998be1-45af-423b-9973-1237a73d8e1b">
 <orth>攔</orth>
@@ -428,7 +474,15 @@
                 </gramGrp>
   <def>stop up (the mouths of men)</def>
             </sense>
-<sense xml:id="uuid-1039f0fe-9426-4d1c-b9f0-fe94268d1cfa" resp="#CH" tls:created="2021-03-02T17:46:58.348+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>block the free manifestation or development of</def></sense></entry>
+<sense xml:id="uuid-1039f0fe-9426-4d1c-b9f0-fe94268d1cfa" resp="#CH" tls:created="2021-03-02T17:46:58.348+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>block the free manifestation or development of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-60882cf8-0e71-4826-8739-7f0055ae79b0">
             <form corresp="#uuid-65400262-68b1-4bb4-bf27-b491ec8fb012">
 <orth>湮</orth>
@@ -443,7 +497,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-07-23T19:03:51.599+09:00">block up; dam; hem in</def>
             </sense>
-<sense xml:id="uuid-f7fce461-f1ec-41fb-bce4-61f1ec11fbcb" resp="#CH" tls:created="2021-03-29T23:47:27.746+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp><def>take to be a hindrance, consider as blocking one</def></sense></entry>
+<sense xml:id="uuid-f7fce461-f1ec-41fb-bce4-61f1ec11fbcb" resp="#CH" tls:created="2021-03-29T23:47:27.746+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+                <def>take to be a hindrance, consider as blocking one</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6d63100c-1af2-45bb-9630-cc9911547639">
             <form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
 <orth>當</orth>
@@ -494,7 +556,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2021-05-03T00:27:56.543+09:00">SHI: be stopped up (holes), be blocked</def>
             </sense>
 <sense xml:id="uuid-bc3f75bd-efb8-46bf-9ab2-6891fbdeab1f">
@@ -627,7 +690,15 @@
                 </gramGrp>
   <def>block (some party)(from Ving)</def>
             </sense>
-<sense xml:id="uuid-e7cee946-714c-4278-8ee9-46714c427865" resp="#zadrapa" tls:created="2020-06-01T04:31:54.151+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>get blocked out, get refused</def></sense></entry>
+<sense xml:id="uuid-e7cee946-714c-4278-8ee9-46714c427865" resp="#zadrapa" tls:created="2020-06-01T04:31:54.151+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get blocked out, get refused</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-29b7fac8-f861-4f1f-89ad-f417ffc131e5">
             <form corresp="#uuid-59528fd2-5ec0-4a4e-87b9-3e573084a71a">
 <orth>閟</orth>
@@ -816,20 +887,108 @@
   <def>blockage</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a508b258-8c56-45d9-8b34-eed384d08d98" resp="#CH" tls:created="2019-12-05T22:15:44.446+09:00"><form corresp="#uuid-e0617279-60d3-49ed-a066-26075a43b4ce #uuid-aa8fe555-525d-4465-8bfc-470197e85b97"><orth>循滯</orth><pron xml:lang="zh-Latn-x-pinyin">xún zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zwin drjejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlun dads</pron></form><sense xml:id="uuid-cdcec9d3-6f19-4d05-af96-74a23deeb867" resp="#CH" tls:created="2019-12-05T22:15:44.446+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be blocked, get stuck</def></sense></entry><entry type="word" xml:id="uuid-6d2658d7-8f62-41c9-a658-d78f6241c906" resp="#CH" tls:created="2020-02-13T05:50:31.332+09:00"><form corresp="#uuid-7d4c4208-599f-4828-8856-4ecf79c203d4 #uuid-aa8fe555-525d-4465-8bfc-470197e85b97"><orth>底滯</orth><pron xml:lang="zh-Latn-x-pinyin">dǐ zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tejX drjejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tiilʔ dads</pron></form><sense xml:id="uuid-b515fe0d-e89f-4ebf-95fe-0de89fbebfc0" resp="#CH" tls:created="2020-02-13T05:50:31.332+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>figurative: be blocked</def></sense></entry><entry type="word" xml:id="uuid-9ca3b89b-9451-43c0-a3b8-9b945153c0c6" resp="#zadrapa" tls:created="2020-05-26T21:47:06.19+09:00"><form corresp="#uuid-8768fa67-b935-4754-8c36-4a42f556eac3"><orth>厭</orth><pron xml:lang="zh-Latn-x-pinyin">yā
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jiep
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qeb
-</pron></form><sense xml:id="uuid-da35b859-e9d7-417c-b5b8-59e9d7517c5a" resp="#zadrapa" tls:created="2020-05-26T21:47:06.19+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>= 壓, block, clog</def></sense></entry><entry type="word" xml:id="uuid-eb1088eb-7f72-467c-9088-eb7f72367cbf" resp="#zadrapa" tls:created="2020-06-16T22:24:26.661+09:00"><form corresp="#uuid-d29010b3-911c-4139-b1bf-16c6b2d5b25c"><orth>偋</orth><pron xml:lang="zh-Latn-x-pinyin">bìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjiengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-ebe6f37d-6deb-42c3-a6f3-7d6deb32c3fc" resp="#zadrapa" tls:created="2020-06-16T22:24:26.661+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>= bing3 屏: block off</def></sense></entry><entry type="word" xml:id="uuid-1426cc6a-cdf6-427b-a6cc-6acdf6127b58" resp="#CH" tls:created="2021-06-07T03:10:30.665+09:00"><form corresp="#uuid-a60ead6f-0acb-4af6-86d8-fe5053ff0d26"><orth>揵</orth><pron xml:lang="zh-Latn-x-pinyin">jiǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kanʔ</pron></form><sense xml:id="uuid-24791068-e077-4514-b910-68e077451488" resp="#CH" tls:created="2021-06-07T03:10:30.665+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>block the N out (from the inside)</def></sense></entry><entry xml:id="uuid-64465b70-904e-42a8-865b-70904ed2a8db"><form corresp="#uuid-7fab9600-b8e4-4373-85ae-d0c0ee7bbcf4 #uuid-aa8fe555-525d-4465-8bfc-470197e85b97">
+    <entry type="word" xml:id="uuid-a508b258-8c56-45d9-8b34-eed384d08d98" resp="#CH" tls:created="2019-12-05T22:15:44.446+09:00">
+            <form corresp="#uuid-e0617279-60d3-49ed-a066-26075a43b4ce #uuid-aa8fe555-525d-4465-8bfc-470197e85b97">
+                <orth>循滯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xún zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zwin drjejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlun dads</pron>
+            </form>
+            <sense xml:id="uuid-cdcec9d3-6f19-4d05-af96-74a23deeb867" resp="#CH" tls:created="2019-12-05T22:15:44.446+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be blocked, get stuck</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6d2658d7-8f62-41c9-a658-d78f6241c906" resp="#CH" tls:created="2020-02-13T05:50:31.332+09:00">
+            <form corresp="#uuid-7d4c4208-599f-4828-8856-4ecf79c203d4 #uuid-aa8fe555-525d-4465-8bfc-470197e85b97">
+                <orth>底滯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dǐ zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tejX drjejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tiilʔ dads</pron>
+            </form>
+            <sense xml:id="uuid-b515fe0d-e89f-4ebf-95fe-0de89fbebfc0" resp="#CH" tls:created="2020-02-13T05:50:31.332+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: be blocked</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9ca3b89b-9451-43c0-a3b8-9b945153c0c6" resp="#zadrapa" tls:created="2020-05-26T21:47:06.19+09:00">
+            <form corresp="#uuid-8768fa67-b935-4754-8c36-4a42f556eac3">
+                <orth>厭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yā
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jiep
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qeb
+</pron>
+            </form>
+            <sense xml:id="uuid-da35b859-e9d7-417c-b5b8-59e9d7517c5a" resp="#zadrapa" tls:created="2020-05-26T21:47:06.19+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>= 壓, block, clog</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-eb1088eb-7f72-467c-9088-eb7f72367cbf" resp="#zadrapa" tls:created="2020-06-16T22:24:26.661+09:00">
+            <form corresp="#uuid-d29010b3-911c-4139-b1bf-16c6b2d5b25c">
+                <orth>偋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjiengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-ebe6f37d-6deb-42c3-a6f3-7d6deb32c3fc" resp="#zadrapa" tls:created="2020-06-16T22:24:26.661+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>= bing3 屏: block off</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1426cc6a-cdf6-427b-a6cc-6acdf6127b58" resp="#CH" tls:created="2021-06-07T03:10:30.665+09:00">
+            <form corresp="#uuid-a60ead6f-0acb-4af6-86d8-fe5053ff0d26">
+                <orth>揵</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kanʔ</pron>
+            </form>
+            <sense xml:id="uuid-24791068-e077-4514-b910-68e077451488" resp="#CH" tls:created="2021-06-07T03:10:30.665+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>block the N out (from the inside)</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-64465b70-904e-42a8-865b-70904ed2a8db">
+            <form corresp="#uuid-7fab9600-b8e4-4373-85ae-d0c0ee7bbcf4 #uuid-aa8fe555-525d-4465-8bfc-470197e85b97">
 <orth>凝滯</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">níng zhì</pron>
                 <pron xml:lang="zh-x-oc">ŋɡɯŋ dads</pron>
                 <pron xml:lang="zh-x-mc">ŋɨŋ ɖiɛi</pron>
-            </form><sense xml:id="uuid-52c6a690-02b0-4f4c-adf5-a2c6a71f61ef">
+            </form>
+            <sense xml:id="uuid-52c6a690-02b0-4f4c-adf5-a2c6a71f61ef">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
   <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
                 </gramGrp>
   <def>be hindered or blocked by</def>
-            </sense><sense xml:id="uuid-0b5d0a5a-1fb8-4c96-9d0a-5a1fb8bc96d9" resp="#CH" tls:created="2022-09-20T22:30:26.295+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be blocked up; be made inflexible</def></sense></entry></div>
+            </sense>
+            <sense xml:id="uuid-0b5d0a5a-1fb8-4c96-9d0a-5a1fb8bc96d9" resp="#CH" tls:created="2022-09-20T22:30:26.295+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be blocked up; be made inflexible</def>
+            </sense>
+        </entry>
+    </div>
 </div>

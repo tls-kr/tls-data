@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c9f5fe29-3c76-4bd2-9f55-6342a7152b04">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c9f5fe29-3c76-4bd2-9f55-6342a7152b04">
 <head>LANCE</head>
     <list type="altnames">
 <item>SPEAR</item>
@@ -312,7 +313,14 @@
                 </gramGrp>
   <def>a lance with cutting edges at both ends</def>
             </sense>
-<sense xml:id="uuid-02a85f98-8e12-45f1-a85f-988e1215f15e" resp="#CH" tls:created="2022-08-13T17:12:27.699+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>by means of a lance sharp at both ends</def></sense></entry>
+<sense xml:id="uuid-02a85f98-8e12-45f1-a85f-988e1215f15e" resp="#CH" tls:created="2022-08-13T17:12:27.699+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>by means of a lance sharp at both ends</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-68090258-548b-403d-91c6-c5a66a535e79">
             <form corresp="#uuid-97d9cd19-22c9-4027-b8ad-50455bdd4b3d">
 <orth>鎞</orth>
@@ -359,8 +367,54 @@
   <def>bodyguard ge-lance</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5f8a250d-5abf-46d8-8a25-0d5abf06d8ae" resp="#CH" tls:created="2020-05-21T22:28:22.138+09:00"><form corresp="#uuid-7cdc73a2-6245-4823-8eb9-43160526a3bc #uuid-86bdd25f-2a02-44bf-b3f4-9046f4d25249"><orth>矛戟</orth><pron xml:lang="zh-Latn-x-pinyin">máo jǐ
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjuw 
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mu kaɡ
-</pron></form><sense xml:id="uuid-3243a887-a51d-4d31-83a8-87a51d1d31da" resp="#CH" tls:created="2020-05-21T22:28:22.138+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>lances and halberds of all kinds</def></sense></entry><entry type="word" xml:id="uuid-0d818785-9314-4859-8187-859314385933" resp="#zadrapa" tls:created="2020-06-11T20:37:30.637+09:00"><form corresp="#uuid-d307a42b-ae69-440d-90d2-6ad4619f0c56 #uuid-7cdc73a2-6245-4823-8eb9-43160526a3bc"><orth>戈矛</orth><pron xml:lang="zh-Latn-x-pinyin">gē máo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwa mjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kool mu</pron></form><sense xml:id="uuid-1aa02608-9d82-4a2f-a026-089d829a2f0d" resp="#zadrapa" tls:created="2020-06-11T20:37:30.637+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>lances and halberds of all kinds</def></sense></entry><entry type="word" xml:id="uuid-ca7efcda-acaf-4a17-befc-daacaf7a17b2" resp="#CH" tls:created="2022-07-29T18:48:37.804+09:00"><form corresp="#uuid-d3ba4221-ea7e-45ab-9102-040e7696cd62"><orth>槽</orth><pron xml:lang="zh-Latn-x-pinyin">cáo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzaw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzuu</pron></form><sense xml:id="uuid-24e068fc-b623-4411-a068-fcb6233411ff" resp="#CH" tls:created="2022-07-29T18:48:37.804+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>wooden lance</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5f8a250d-5abf-46d8-8a25-0d5abf06d8ae" resp="#CH" tls:created="2020-05-21T22:28:22.138+09:00">
+            <form corresp="#uuid-7cdc73a2-6245-4823-8eb9-43160526a3bc #uuid-86bdd25f-2a02-44bf-b3f4-9046f4d25249">
+                <orth>矛戟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">máo jǐ
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjuw 
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mu kaɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-3243a887-a51d-4d31-83a8-87a51d1d31da" resp="#CH" tls:created="2020-05-21T22:28:22.138+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>lances and halberds of all kinds</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0d818785-9314-4859-8187-859314385933" resp="#zadrapa" tls:created="2020-06-11T20:37:30.637+09:00">
+            <form corresp="#uuid-d307a42b-ae69-440d-90d2-6ad4619f0c56 #uuid-7cdc73a2-6245-4823-8eb9-43160526a3bc">
+                <orth>戈矛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gē máo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwa mjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kool mu</pron>
+            </form>
+            <sense xml:id="uuid-1aa02608-9d82-4a2f-a026-089d829a2f0d" resp="#zadrapa" tls:created="2020-06-11T20:37:30.637+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>lances and halberds of all kinds</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ca7efcda-acaf-4a17-befc-daacaf7a17b2" resp="#CH" tls:created="2022-07-29T18:48:37.804+09:00">
+            <form corresp="#uuid-d3ba4221-ea7e-45ab-9102-040e7696cd62">
+                <orth>槽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cáo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzaw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzuu</pron>
+            </form>
+            <sense xml:id="uuid-24e068fc-b623-4411-a068-fcb6233411ff" resp="#CH" tls:created="2022-07-29T18:48:37.804+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>wooden lance</def>
+            </sense>
+        </entry>
+    </div>
 </div>

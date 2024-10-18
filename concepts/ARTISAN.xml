@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-493cfb74-f351-44f0-b09c-e39b73f7b747">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-493cfb74-f351-44f0-b09c-e39b73f7b747">
 <head>ARTISAN</head>
     <list type="altnames">
 <item>CRAFTSMAN</item>
@@ -17,7 +18,8 @@
 <div type="definition">
 
 
-    <p resp="#CH" modified="2020-11-06T21:28:28.548+09:00">WORKER who WORKS on CONCRETE THINGS he is EDUCATED FOR.</p></div>
+    <p resp="#CH" modified="2020-11-06T21:28:28.548+09:00">WORKER who WORKS on CONCRETE THINGS he is EDUCATED FOR.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for a worker or craftsman is jiàng 匠 (ant. shì 士 "freeman; scholar").</p>
@@ -264,7 +266,15 @@
                 </gramGrp>
   <def>Carpenter X 匠石</def>
             </sense>
-<sense xml:id="uuid-e15b8412-415f-4eae-aebb-143593bfe5d2" resp="#CH" tls:created="2020-02-07T19:46:30.12+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>creator, concrete author of all details of N</def></sense></entry>
+<sense xml:id="uuid-e15b8412-415f-4eae-aebb-143593bfe5d2" resp="#CH" tls:created="2020-02-07T19:46:30.12+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>creator, concrete author of all details of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d20afec5-e74a-42b1-a6be-e672cda85926">
             <form corresp="#uuid-7c18f9ca-de81-41af-b3ad-42dfa1d641d8">
 <orth>工</orth>
@@ -281,7 +291,14 @@
                 </gramGrp>
   <def>specialised worker; craftsman, artisan; sometimes specifically: musician</def>
             </sense>
-<sense xml:id="uuid-aeaadce2-8133-4828-aadc-e281334828e3" resp="#CH" tls:created="2022-09-25T00:33:57.57+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>craftsman specialising in N</def></sense></entry>
+<sense xml:id="uuid-aeaadce2-8133-4828-aadc-e281334828e3" resp="#CH" tls:created="2022-09-25T00:33:57.57+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>craftsman specialising in N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-54f1f38c-01d2-4f3b-881c-64fa2eea9ed0">
             <form corresp="#uuid-21d051fa-688b-487e-8aa6-dd47f011eab5">
 <orth>庖</orth>
@@ -514,5 +531,52 @@
   <def>cart-man;  also: cartwright</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a0ce09d8-dfe7-4338-8e09-d8dfe763381c" resp="#zadrapa" tls:created="2020-06-23T16:32:13.63+09:00"><form corresp="#uuid-7c18f9ca-de81-41af-b3ad-42dfa1d641d8 #uuid-7434677a-7448-4e50-a617-c5576aff862b"><orth>工匠</orth><pron xml:lang="zh-Latn-x-pinyin">gōng jiàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kuwng dzjangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kooŋ sbaŋs</pron></form><sense xml:id="uuid-662dea5c-e17e-4384-adea-5ce17ed384be" resp="#zadrapa" tls:created="2020-06-23T16:32:13.63+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba"/></gramGrp><def>artisan</def></sense></entry><entry type="word" xml:id="uuid-e4e2b4da-3495-4a96-a2b4-da3495da9683" resp="#zadrapa" tls:created="2021-05-18T04:23:07.107+09:00"><form corresp="#uuid-7c18f9ca-de81-41af-b3ad-42dfa1d641d8 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>工人</orth><pron xml:lang="zh-Latn-x-pinyin">gōng rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kuwng nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kooŋ njin</pron></form><sense xml:id="uuid-346e61b1-2f27-48b1-ae61-b12f2728b1d6" resp="#zadrapa" tls:created="2021-05-18T04:23:07.107+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>an artisan</def></sense></entry><entry type="word" xml:id="uuid-6d5c763c-e715-4601-9c76-3ce71536010e" resp="#zadrapa" tls:created="2023-05-16T16:30:57.744+09:00"><form corresp="#uuid-dbea9a31-fe5b-47d5-bb8f-b1b4a41b6a19 #uuid-c112cac1-2e6e-448c-bdb2-af0c5ef2ff61"><orth>百技</orth><pron xml:lang="zh-Latn-x-pinyin">bǎi jì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">paek gjeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">praaɡ ɡreʔ</pron></form><sense xml:id="uuid-60982f35-d773-4d73-982f-35d773ed7304" resp="#zadrapa" tls:created="2023-05-16T16:30:57.744+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>all kinds of artisans</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-a0ce09d8-dfe7-4338-8e09-d8dfe763381c" resp="#zadrapa" tls:created="2020-06-23T16:32:13.63+09:00">
+            <form corresp="#uuid-7c18f9ca-de81-41af-b3ad-42dfa1d641d8 #uuid-7434677a-7448-4e50-a617-c5576aff862b">
+                <orth>工匠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng jiàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuwng dzjangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kooŋ sbaŋs</pron>
+            </form>
+            <sense xml:id="uuid-662dea5c-e17e-4384-adea-5ce17ed384be" resp="#zadrapa" tls:created="2020-06-23T16:32:13.63+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba"/>
+                </gramGrp>
+                <def>artisan</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e4e2b4da-3495-4a96-a2b4-da3495da9683" resp="#zadrapa" tls:created="2021-05-18T04:23:07.107+09:00">
+            <form corresp="#uuid-7c18f9ca-de81-41af-b3ad-42dfa1d641d8 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>工人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuwng nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kooŋ njin</pron>
+            </form>
+            <sense xml:id="uuid-346e61b1-2f27-48b1-ae61-b12f2728b1d6" resp="#zadrapa" tls:created="2021-05-18T04:23:07.107+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>an artisan</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6d5c763c-e715-4601-9c76-3ce71536010e" resp="#zadrapa" tls:created="2023-05-16T16:30:57.744+09:00">
+            <form corresp="#uuid-dbea9a31-fe5b-47d5-bb8f-b1b4a41b6a19 #uuid-c112cac1-2e6e-448c-bdb2-af0c5ef2ff61">
+                <orth>百技</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bǎi jì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">paek gjeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">praaɡ ɡreʔ</pron>
+            </form>
+            <sense xml:id="uuid-60982f35-d773-4d73-982f-35d773ed7304" resp="#zadrapa" tls:created="2023-05-16T16:30:57.744+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>all kinds of artisans</def>
+            </sense>
+        </entry>
+    </div>
 </div>

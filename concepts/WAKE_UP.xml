@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-573bea8a-c3a7-48e3-92b7-60b83a2920b9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-573bea8a-c3a7-48e3-92b7-60b83a2920b9">
 <head>WAKE UP</head>
     <list type="altnames">
 <item>AWAKE</item>
@@ -274,7 +275,23 @@
                 </gramGrp>
   <def>wake up from (dream or sleep)</def>
             </sense>
-<sense xml:id="uuid-6cfaab9c-4532-42ae-8904-02cd3da20aba" resp="#CH" tls:created="2019-12-23T19:59:47.899+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoS</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>wake up to the fact that</def></sense><sense xml:id="uuid-80458a3a-b5ed-4aac-858a-3ab5edeaac5b" resp="#CH" tls:created="2022-09-19T19:10:15.086+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>regain consciousness, come to</def></sense></entry>
+<sense xml:id="uuid-6cfaab9c-4532-42ae-8904-02cd3da20aba" resp="#CH" tls:created="2019-12-23T19:59:47.899+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>wake up to the fact that</def>
+            </sense>
+            <sense xml:id="uuid-80458a3a-b5ed-4aac-858a-3ab5edeaac5b" resp="#CH" tls:created="2022-09-19T19:10:15.086+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>regain consciousness, come to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-134ac8bc-ea68-4a7a-ba57-cfe4517624c3">
             <form corresp="#uuid-2d4b6d24-75e9-40af-8fbf-70e0c22ff5c0">
 <orth>醒</orth>
@@ -374,5 +391,20 @@
   <def>get up</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9fc6d1d2-e18a-4fa6-86d1-d2e18a7fa661"><form><orth>蘇</orth><pron xml:lang="zh-Latn-x-pinyin">sū</pron></form><def/><sense xml:id="uuid-2ad56483-7163-4743-9564-837163674341" resp="#CH" tls:created="2020-04-23T20:27:20.134+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>come to; wake up</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9fc6d1d2-e18a-4fa6-86d1-d2e18a7fa661">
+            <form>
+                <orth>蘇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sū</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-2ad56483-7163-4743-9564-837163674341" resp="#CH" tls:created="2020-04-23T20:27:20.134+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>come to; wake up</def>
+            </sense>
+        </entry>
+    </div>
 </div>

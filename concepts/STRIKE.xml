@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-efb80ae1-71c6-435c-bc1b-55f2406b12ea">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-efb80ae1-71c6-435c-bc1b-55f2406b12ea">
 <head>STRIKE</head>
     <list type="altnames">
 <item>BEAT</item>
@@ -245,7 +246,21 @@
                 </gramGrp>
   <def>strike, beat with a cane or whip</def>
             </sense>
-<sense xml:id="uuid-44ecd2f0-f8cc-4336-aa9a-18d0514ef12a" resp="#dsehnal" tls:created="2019-12-13T16:27:37.262+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>strike the contextually determinate object</def></sense><sense xml:id="uuid-da3bfc05-06d0-4818-bbfc-0506d0d81814" resp="#CH" tls:created="2020-04-08T00:17:21.634+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>punishment by beating with a rod</def></sense></entry>
+<sense xml:id="uuid-44ecd2f0-f8cc-4336-aa9a-18d0514ef12a" resp="#dsehnal" tls:created="2019-12-13T16:27:37.262+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>strike the contextually determinate object</def>
+            </sense>
+            <sense xml:id="uuid-da3bfc05-06d0-4818-bbfc-0506d0d81814" resp="#CH" tls:created="2020-04-08T00:17:21.634+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>punishment by beating with a rod</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-acc062db-1312-4a3a-a02a-9986bb0754f5">
             <form corresp="#uuid-0c8df0b0-94de-4548-9a00-58ce923c8aec">
 <orth>批</orth>
@@ -481,7 +496,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-14T18:39:25.386+09:00">strike down; strike at</def>
             </sense>
-<sense xml:id="uuid-99a040b3-524e-4efa-a040-b3524edefaee" resp="#CH" tls:created="2024-02-14T18:36:19.62+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>strike, lash at the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-99a040b3-524e-4efa-a040-b3524edefaee" resp="#CH" tls:created="2024-02-14T18:36:19.62+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>strike, lash at the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6ea53f62-b691-4f1f-81e2-7f38e3c73e33">
             <form corresp="#uuid-408eb9f8-c4e2-4230-94e4-0b8e5cf78d0b">
 <orth>搉</orth>
@@ -690,7 +712,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-098d3fca-b47e-41c9-9c8e-74d770e8cbb2">
-            <form corresp="#uuid-36e88677-4aa3-4288-a886-774aa3428890"><orth>撽</orth><pron xml:lang="zh-Latn-x-pinyin">qiào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-36e88677-4aa3-4288-a886-774aa3428890">
+                <orth>撽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>qiào
 </def>
 <sense xml:id="uuid-b0f6d24d-eb3f-440d-a355-314c8e7b459e">
@@ -1125,5 +1152,125 @@
   <def>strike with a stick or whip</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-45432054-e1a3-466f-8320-54e1a3466fd1"><form><orth>笞</orth><pron xml:lang="zh-Latn-x-pinyin">chī</pron></form><def/><sense xml:id="uuid-0d4a4286-f017-4ee1-8a42-86f017fee10b" resp="#CH" tls:created="2020-04-05T20:05:57.82+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat></gramGrp><def>be flogged</def></sense></entry><entry type="word" xml:id="uuid-0c6b5130-c4c1-4c2c-ab51-30c4c1ec2c83" resp="#CH" tls:created="2020-04-26T18:12:56.277+09:00"><form corresp="#橛:jué"><orth>橛</orth><pron xml:lang="zh-Latn-x-pinyin">jué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-e7457cd4-a5f6-42a4-857c-d4a5f612a407" resp="#CH" tls:created="2020-04-26T18:12:56.277+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>=撅 strike, hit</def></sense></entry><entry type="word" xml:id="uuid-901dc8e9-d2a5-46b8-9dc8-e9d2a5f6b845" resp="#zadrapa" tls:created="2020-06-01T22:46:53.939+09:00"><form corresp="#uuid-90e61237-a827-4660-8f7d-bf98e320dd7e"><orth>彈</orth><pron xml:lang="zh-Latn-x-pinyin">tán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dan</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daan</pron></form><sense xml:id="uuid-984e09f4-e827-4ea2-8e09-f4e827dea2a3" resp="#zadrapa" tls:created="2020-06-01T22:46:53.939+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>to strike N with one's hand, e.g. in order to remove dust from it</def></sense></entry><entry type="word" xml:id="uuid-6c4ee24f-2948-4974-8ee2-4f2948897453"><form><orth/><pron xml:lang="zh-Latn-x-pinyin">jī</pron></form><def/><sense xml:id="uuid-3d256925-0849-44fb-a569-250849e4fba6" resp="#CH" tls:created="2020-08-07T21:53:07.203+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat></gramGrp><def>derived: get whipped up (of water)</def></sense></entry><entry type="word" xml:id="uuid-e4dae4a5-04e6-4355-9ae4-a504e6a355fd" resp="#CH" tls:created="2021-04-28T00:22:04.823+09:00"><form corresp="#撽:qiào"><orth>撽</orth><pron xml:lang="zh-Latn-x-pinyin">qiào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-eea18221-b750-488f-a182-21b750a88f09" resp="#CH" tls:created="2021-04-28T00:22:04.823+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>pat on one side</def></sense></entry><entry type="word" xml:id="uuid-33f4f0fa-6cff-4bc0-b4f0-fa6cffbbc056" resp="#zadrapa" tls:created="2021-06-29T20:10:34.119+09:00"><form corresp="#uuid-0b0901ae-f62c-45f1-b3c6-06deec05319a #uuid-cdec1a69-e894-43f5-90c0-c66714f93249"><orth>笞捶</orth><pron xml:lang="zh-Latn-x-pinyin">chī chuí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trhi tsyweX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlʰɯ tjolʔ</pron></form><sense xml:id="uuid-24098831-bf3b-462b-8988-31bf3b362b80" resp="#zadrapa" tls:created="2021-06-29T20:10:34.119+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>strike and vanquish</def></sense></entry><entry type="word" xml:id="uuid-59e6a33b-b7e7-4cab-a6a3-3bb7e71cab54" resp="#zadrapa" tls:created="2022-06-08T18:15:35.373+09:00"><form corresp="#uuid-50ff1a42-1005-447c-877e-01ed9d07be79"><orth>捽</orth><pron xml:lang="zh-Latn-x-pinyin">zuó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzwot</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡuud</pron></form><sense xml:id="uuid-3ace1f18-05bf-4634-8e1f-1805bfa634c9" resp="#zadrapa" tls:created="2022-06-08T18:15:35.373+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>strike, attack</def></sense></entry><entry type="word" xml:id="uuid-e82fad4b-b898-4cf9-afad-4bb8984cf90b" resp="#dsehnal" tls:created="2023-06-08T17:16:37.486+09:00"><form corresp="#uuid-85605faf-a890-4ab6-82b2-0ca31fab50ac #uuid-6c1e4112-40aa-462e-b256-6bce9125b235"><orth>拷掠</orth><pron xml:lang="zh-Latn-x-pinyin">kǎo liàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khawX ljangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khuuʔ ɡ-raŋs</pron></form><sense xml:id="uuid-47dc3613-1bdf-4888-9c36-131bdfe88872" resp="#dsehnal" tls:created="2023-06-08T17:16:37.486+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>strike the contextually determinate N in order to get his/her confession</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-45432054-e1a3-466f-8320-54e1a3466fd1">
+            <form>
+                <orth>笞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chī</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-0d4a4286-f017-4ee1-8a42-86f017fee10b" resp="#CH" tls:created="2020-04-05T20:05:57.82+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat>
+                </gramGrp>
+                <def>be flogged</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0c6b5130-c4c1-4c2c-ab51-30c4c1ec2c83" resp="#CH" tls:created="2020-04-26T18:12:56.277+09:00">
+            <form corresp="#橛:jué">
+                <orth>橛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-e7457cd4-a5f6-42a4-857c-d4a5f612a407" resp="#CH" tls:created="2020-04-26T18:12:56.277+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>=撅 strike, hit</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-901dc8e9-d2a5-46b8-9dc8-e9d2a5f6b845" resp="#zadrapa" tls:created="2020-06-01T22:46:53.939+09:00">
+            <form corresp="#uuid-90e61237-a827-4660-8f7d-bf98e320dd7e">
+                <orth>彈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dan</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daan</pron>
+            </form>
+            <sense xml:id="uuid-984e09f4-e827-4ea2-8e09-f4e827dea2a3" resp="#zadrapa" tls:created="2020-06-01T22:46:53.939+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>to strike N with one's hand, e.g. in order to remove dust from it</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6c4ee24f-2948-4974-8ee2-4f2948897453">
+            <form>
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin">jī</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-3d256925-0849-44fb-a569-250849e4fba6" resp="#CH" tls:created="2020-08-07T21:53:07.203+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat>
+                </gramGrp>
+                <def>derived: get whipped up (of water)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e4dae4a5-04e6-4355-9ae4-a504e6a355fd" resp="#CH" tls:created="2021-04-28T00:22:04.823+09:00">
+            <form corresp="#撽:qiào">
+                <orth>撽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-eea18221-b750-488f-a182-21b750a88f09" resp="#CH" tls:created="2021-04-28T00:22:04.823+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>pat on one side</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-33f4f0fa-6cff-4bc0-b4f0-fa6cffbbc056" resp="#zadrapa" tls:created="2021-06-29T20:10:34.119+09:00">
+            <form corresp="#uuid-0b0901ae-f62c-45f1-b3c6-06deec05319a #uuid-cdec1a69-e894-43f5-90c0-c66714f93249">
+                <orth>笞捶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chī chuí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trhi tsyweX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlʰɯ tjolʔ</pron>
+            </form>
+            <sense xml:id="uuid-24098831-bf3b-462b-8988-31bf3b362b80" resp="#zadrapa" tls:created="2021-06-29T20:10:34.119+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>strike and vanquish</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-59e6a33b-b7e7-4cab-a6a3-3bb7e71cab54" resp="#zadrapa" tls:created="2022-06-08T18:15:35.373+09:00">
+            <form corresp="#uuid-50ff1a42-1005-447c-877e-01ed9d07be79">
+                <orth>捽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡuud</pron>
+            </form>
+            <sense xml:id="uuid-3ace1f18-05bf-4634-8e1f-1805bfa634c9" resp="#zadrapa" tls:created="2022-06-08T18:15:35.373+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>strike, attack</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e82fad4b-b898-4cf9-afad-4bb8984cf90b" resp="#dsehnal" tls:created="2023-06-08T17:16:37.486+09:00">
+            <form corresp="#uuid-85605faf-a890-4ab6-82b2-0ca31fab50ac #uuid-6c1e4112-40aa-462e-b256-6bce9125b235">
+                <orth>拷掠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kǎo liàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khawX ljangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khuuʔ ɡ-raŋs</pron>
+            </form>
+            <sense xml:id="uuid-47dc3613-1bdf-4888-9c36-131bdfe88872" resp="#dsehnal" tls:created="2023-06-08T17:16:37.486+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>strike the contextually determinate N in order to get his/her confession</def>
+            </sense>
+        </entry>
+    </div>
 </div>

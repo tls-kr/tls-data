@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7fbdcac8-ef20-48c8-9e33-233020456e38">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7fbdcac8-ef20-48c8-9e33-233020456e38">
 <head>CREATURE</head>
     <list type="altnames">
 <item>BEAST</item>
@@ -386,7 +387,14 @@
                 </gramGrp>
   <def>BUDDH: the multitude of beings &gt; sentient beings (more common is zhòngshēng 眾生); skr. sattva</def>
             </sense>
-<sense xml:id="uuid-bfc37ebc-8b87-4141-837e-bc8b8711411c" resp="#zadrapa" tls:created="2022-05-31T22:10:37.23+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>living creatures</def></sense></entry>
+<sense xml:id="uuid-bfc37ebc-8b87-4141-837e-bc8b8711411c" resp="#zadrapa" tls:created="2022-05-31T22:10:37.23+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>living creatures</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-409a56a2-fcd7-478f-8a13-1b836523960b">
             <form corresp="#uuid-b7ba98df-4b51-4739-b9b1-d6aaeb9dd72f #uuid-de384d51-47f4-44d9-8910-20aef1caaded">
 <orth>胎生</orth>
@@ -466,5 +474,52 @@
   <def>living being (often clearly including humans, but frequently indistinguishable from the examples collected under ANIMAL)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5434ce47-a84b-403d-90f8-32086e5c8507" resp="#CH" tls:created="2019-12-07T04:04:03.519+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-baf98aab-070b-4e0e-902e-e0a3963e0e91" resp="#CH" tls:created="2019-12-07T04:04:03.519+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>definite: all the various creatures (of the world)</def></sense></entry><entry type="word" xml:id="uuid-e6760bb1-5145-4856-a3b7-716c6a62f823" resp="#CH" tls:created="2019-12-07T04:05:35.717+09:00"><form corresp="#群: qún #uuid-920cdc9d-a13f-4145-b5d6-a18eda88b3cc"><orth>群物</orth><pron xml:lang="zh-Latn-x-pinyin"> qún wù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- mjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- mɯd</pron></form><sense xml:id="uuid-ec69b84c-d756-4765-9820-f8a17e6db9b1" resp="#CH" tls:created="2019-12-07T04:05:35.717+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>definite: all the various creatures (of the world)</def></sense></entry><entry type="word" xml:id="uuid-0753dc95-40b5-404d-93dc-9540b5604d0e" resp="#CH" tls:created="2024-02-09T21:34:29.27+09:00"><form corresp="#uuid-ef937769-685b-445b-88f9-89e3ad41ab01 #uuid-920cdc9d-a13f-4145-b5d6-a18eda88b3cc"><orth>庶物</orth><pron xml:lang="zh-Latn-x-pinyin">shù wù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syoH mjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljaɡs mɯd</pron></form><sense xml:id="uuid-cc3abdad-8e64-4bb3-babd-ad8e64abb318" resp="#CH" tls:created="2024-02-09T21:34:29.27+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>the ordinary creatures of this world (other than men)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5434ce47-a84b-403d-90f8-32086e5c8507" resp="#CH" tls:created="2019-12-07T04:04:03.519+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-baf98aab-070b-4e0e-902e-e0a3963e0e91" resp="#CH" tls:created="2019-12-07T04:04:03.519+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>definite: all the various creatures (of the world)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e6760bb1-5145-4856-a3b7-716c6a62f823" resp="#CH" tls:created="2019-12-07T04:05:35.717+09:00">
+            <form corresp="#群: qún #uuid-920cdc9d-a13f-4145-b5d6-a18eda88b3cc">
+                <orth>群物</orth>
+                <pron xml:lang="zh-Latn-x-pinyin"> qún wù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- mjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- mɯd</pron>
+            </form>
+            <sense xml:id="uuid-ec69b84c-d756-4765-9820-f8a17e6db9b1" resp="#CH" tls:created="2019-12-07T04:05:35.717+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>definite: all the various creatures (of the world)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0753dc95-40b5-404d-93dc-9540b5604d0e" resp="#CH" tls:created="2024-02-09T21:34:29.27+09:00">
+            <form corresp="#uuid-ef937769-685b-445b-88f9-89e3ad41ab01 #uuid-920cdc9d-a13f-4145-b5d6-a18eda88b3cc">
+                <orth>庶物</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shù wù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syoH mjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljaɡs mɯd</pron>
+            </form>
+            <sense xml:id="uuid-cc3abdad-8e64-4bb3-babd-ad8e64abb318" resp="#CH" tls:created="2024-02-09T21:34:29.27+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>the ordinary creatures of this world (other than men)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

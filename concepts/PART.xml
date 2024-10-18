@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-61019542-32da-4339-bda4-12ddb7f7dbcb">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-61019542-32da-4339-bda4-12ddb7f7dbcb">
 <head>PART</head>
     <list type="altnames">
 <item>BIT</item>
@@ -116,7 +117,12 @@
     </div>
 <div type="words">
 <entry type="word" xml:id="uuid-02859156-afcc-4860-be8c-acecb0752059">
-            <form corresp="#uuid-dea60bcb-4495-4d8d-a614-9483bbe91975"><orth>分</orth><pron xml:lang="zh-Latn-x-pinyin">fēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯn</pron></form>
+            <form corresp="#uuid-dea60bcb-4495-4d8d-a614-9483bbe91975">
+                <orth>分</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯn</pron>
+            </form>
             <def>Fèn 分 (ant. zǒng 總 "whole") refers to a part of a whole in so far as this part is separated off .
 </def>
 <sense xml:id="uuid-c7ccd5df-2a43-4baf-ab4c-ddb5f406a365">
@@ -207,7 +213,22 @@
                 </gramGrp>
   <def>classifier  一片雲 one cloud</def>
             </sense>
-<sense xml:id="uuid-317d6e3d-585f-4f08-bd6e-3d585fcf0867" resp="#dsehnal" tls:created="2021-04-19T15:03:04.27+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-983175f2-e2e9-4a51-b175-f2e2e94a5104">nc[post-V{YI}] N</tls:syn-func><tls:sem-feat corresp="#uuid-da7c7d61-c974-4e0f-8398-d0c941045fc4">N=indef</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2021-04-19T15:05:44.96+09:00">a piece of N</def></sense><sense xml:id="uuid-4ab85013-0c9e-4178-b850-130c9e017867" resp="#Valerie.Kiel" tls:created="2021-07-05T05:53:56.736+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>partial, incomplete</def></sense></entry>
+<sense xml:id="uuid-317d6e3d-585f-4f08-bd6e-3d585fcf0867" resp="#dsehnal" tls:created="2021-04-19T15:03:04.27+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-983175f2-e2e9-4a51-b175-f2e2e94a5104">nc[post-V{YI}] N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da7c7d61-c974-4e0f-8398-d0c941045fc4">N=indef</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2021-04-19T15:05:44.96+09:00">a piece of N</def>
+            </sense>
+            <sense xml:id="uuid-4ab85013-0c9e-4178-b850-130c9e017867" resp="#Valerie.Kiel" tls:created="2021-07-05T05:53:56.736+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>partial, incomplete</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6d4a7fd0-6660-4442-ba66-3b59fbbc431e">
             <form corresp="#uuid-87f01c57-cd66-46ed-b455-a7ede179db25">
 <orth>部</orth>
@@ -273,5 +294,35 @@
   <def>partition, part, section</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5f703c40-1374-4c53-b03c-401374ec53c1" resp="#CH" tls:created="2023-06-27T05:40:18.936+09:00"><form corresp="#uuid-81c28de1-ab95-4916-8f6c-2118471b340d"><orth>切</orth><pron xml:lang="zh-Latn-x-pinyin">qiē, qiè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiid</pron></form><sense xml:id="uuid-1b478134-38f0-474e-8781-3438f0374ef8" resp="#CH" tls:created="2023-06-27T05:40:18.936+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func></gramGrp><def>part, slice, portion of</def></sense></entry><entry type="word" xml:id="uuid-471c573e-4878-410e-9c57-3e4878810ea1" resp="#CH" tls:created="2023-06-27T05:40:21.28+09:00"><form corresp="#uuid-81c28de1-ab95-4916-8f6c-2118471b340d"><orth>切</orth><pron xml:lang="zh-Latn-x-pinyin">qiē, qiè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiid</pron></form><sense xml:id="uuid-2c848e6b-5b7b-4acc-848e-6b5b7bcacccb" resp="#CH" tls:created="2023-06-27T05:40:21.28+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func></gramGrp><def>part, slice, portion of</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5f703c40-1374-4c53-b03c-401374ec53c1" resp="#CH" tls:created="2023-06-27T05:40:18.936+09:00">
+            <form corresp="#uuid-81c28de1-ab95-4916-8f6c-2118471b340d">
+                <orth>切</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiē, qiè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiid</pron>
+            </form>
+            <sense xml:id="uuid-1b478134-38f0-474e-8781-3438f0374ef8" resp="#CH" tls:created="2023-06-27T05:40:18.936+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>part, slice, portion of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-471c573e-4878-410e-9c57-3e4878810ea1" resp="#CH" tls:created="2023-06-27T05:40:21.28+09:00">
+            <form corresp="#uuid-81c28de1-ab95-4916-8f6c-2118471b340d">
+                <orth>切</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiē, qiè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiid</pron>
+            </form>
+            <sense xml:id="uuid-2c848e6b-5b7b-4acc-848e-6b5b7bcacccb" resp="#CH" tls:created="2023-06-27T05:40:21.28+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>part, slice, portion of</def>
+            </sense>
+        </entry>
+    </div>
 </div>

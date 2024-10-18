@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5c096440-de85-4395-88cb-a871b850d474">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5c096440-de85-4395-88cb-a871b850d474">
 <head>WAVE</head>
     <list type="altnames">
 <item>BREAKER</item>
@@ -170,7 +171,15 @@
                 </gramGrp>
   <def>wave (one's hands)  招手</def>
             </sense>
-<sense xml:id="uuid-d50a630f-7f99-4442-8a63-0f7f990442af" resp="#dsehnal" tls:created="2020-05-12T02:46:11.279+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-cca33db1-46ef-48f8-9c32-c98ea1483d2f">N=person</tls:sem-feat></gramGrp><def>wave to somebody</def></sense></entry>
+<sense xml:id="uuid-d50a630f-7f99-4442-8a63-0f7f990442af" resp="#dsehnal" tls:created="2020-05-12T02:46:11.279+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cca33db1-46ef-48f8-9c32-c98ea1483d2f">N=person</tls:sem-feat>
+                </gramGrp>
+                <def>wave to somebody</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9cdc42a3-a796-4c29-a184-f6db5795a500">
             <form corresp="#uuid-f0d2b01b-cf4b-46c9-ac92-1b60557e3f83">
 <orth>揮</orth>
@@ -211,7 +220,22 @@
                 </gramGrp>
   <def>be characterised by waves</def>
             </sense>
-<sense xml:id="uuid-09945d52-f4e3-46d6-869b-d0e5704ed93c" resp="#CH" tls:created="2019-12-04T05:13:03.391+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nadV</tls:syn-func></gramGrp><def>like waves (of water)</def></sense><sense xml:id="uuid-e93ab96f-43c3-4bcf-b2f9-d87fb266798e" resp="#CH" tls:created="2019-12-10T18:59:32.379+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nmpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>the waters fo N</def></sense></entry>
+<sense xml:id="uuid-09945d52-f4e3-46d6-869b-d0e5704ed93c" resp="#CH" tls:created="2019-12-04T05:13:03.391+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nadV</tls:syn-func>
+                </gramGrp>
+                <def>like waves (of water)</def>
+            </sense>
+            <sense xml:id="uuid-e93ab96f-43c3-4bcf-b2f9-d87fb266798e" resp="#CH" tls:created="2019-12-10T18:59:32.379+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nmpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>the waters fo N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8f4f6a6f-2298-43fd-b011-9d9bc2463d8b">
             <form corresp="#uuid-6161fade-edf8-4db2-88e5-6c76aaa72cc2">
 <orth>浪</orth>
@@ -346,5 +370,20 @@
   <def>wave</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5f609a38-2d82-47c4-a09a-382d82c7c434" resp="#CH" tls:created="2021-03-10T01:35:12.959+09:00"><form corresp="#uuid-a721c73d-0778-44b3-8630-d1262807e111"><orth>矜</orth><pron xml:lang="zh-Latn-x-pinyin">jīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">king</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klɯŋ</pron></form><sense xml:id="uuid-74079041-ad99-461d-8790-41ad99461ddd" resp="#CH" tls:created="2021-03-10T01:35:12.959+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>wave</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5f609a38-2d82-47c4-a09a-382d82c7c434" resp="#CH" tls:created="2021-03-10T01:35:12.959+09:00">
+            <form corresp="#uuid-a721c73d-0778-44b3-8630-d1262807e111">
+                <orth>矜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">king</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-74079041-ad99-461d-8790-41ad99461ddd" resp="#CH" tls:created="2021-03-10T01:35:12.959+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>wave</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f14b64b3-c0e6-4097-b842-fef3b132f1a5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f14b64b3-c0e6-4097-b842-fef3b132f1a5">
 <head>NONE</head>
     <list type="altnames">
 <item>NOTHING</item>
@@ -107,7 +108,14 @@
                 </gramGrp>
   <def resp="#zadrapa" updated="2020-06-18T17:29:06.8+09:00">MERGE WITH "npro{OBJ} Vt"": no object; nothing 無所</def>
             </sense>
-<sense xml:id="uuid-33557e20-d792-4c87-af07-f35ebe68ca56" resp="#zadrapa" tls:created="2019-10-30T23:19:18.648+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-5eae66ec-bba2-4aef-9f08-96a387837993">npro{SUBJ}+V{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2020-02-14T04:21:37.63+09:00">noone, nobody; none</def></sense></entry>
+<sense xml:id="uuid-33557e20-d792-4c87-af07-f35ebe68ca56" resp="#zadrapa" tls:created="2019-10-30T23:19:18.648+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-5eae66ec-bba2-4aef-9f08-96a387837993">npro{SUBJ}+V{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-02-14T04:21:37.63+09:00">noone, nobody; none</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-da164123-fc5a-4c8c-b316-db160c7a812e">
             <form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87">
 <orth>莫</orth>
@@ -163,7 +171,22 @@
                 </gramGrp>
   <def>nothing</def>
             </sense>
-<sense xml:id="uuid-ee957828-0163-4b1d-a809-84b4da9e3365" resp="#CH" tls:created="2019-12-03T18:20:02.778+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-025b7a67-1a6a-4842-9b7a-671a6a98422d">npro+ZHI+V.postN{TOP}</tls:syn-func><tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat></gramGrp><def>none of the Ns as object of V</def></sense><sense xml:id="uuid-630d00f5-abe0-4244-b00a-5d763c6a07dd" resp="#CH" tls:created="2020-02-11T21:05:44.736+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">npro{OBJECT}+Vt</tls:syn-func></gramGrp><def>no object</def></sense></entry>
+<sense xml:id="uuid-ee957828-0163-4b1d-a809-84b4da9e3365" resp="#CH" tls:created="2019-12-03T18:20:02.778+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-025b7a67-1a6a-4842-9b7a-671a6a98422d">npro+ZHI+V.postN{TOP}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat>
+                </gramGrp>
+                <def>none of the Ns as object of V</def>
+            </sense>
+            <sense xml:id="uuid-630d00f5-abe0-4244-b00a-5d763c6a07dd" resp="#CH" tls:created="2020-02-11T21:05:44.736+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npro{OBJECT}+Vt</tls:syn-func>
+                </gramGrp>
+                <def>no object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5f2e8728-d00e-4140-9eac-7252964912ac">
             <form corresp="#uuid-05f9f3e4-754a-45ac-ab2e-d748b8afc692">
 <orth>蔑</orth>
@@ -255,5 +278,35 @@
   <def>no one</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-33dc5733-1fd9-4553-ac85-7bf3462dcdf4" resp="#CH" tls:created="2020-01-04T02:21:14.565+09:00"><form corresp="#uuid-107af514-3922-430a-bf56-a9f2648f62a5"><orth>靡</orth><pron xml:lang="zh-Latn-x-pinyin">mǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mralʔ</pron></form><sense xml:id="uuid-a3e1ef3b-9018-43b7-a448-98ffee2a0382" resp="#CH" tls:created="2020-01-04T02:21:14.565+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN: V</tls:syn-func></gramGrp><def>no N</def></sense></entry><entry type="word" xml:id="uuid-0191ca9e-a719-47fd-91ca-9ea719a7fd30" resp="#CH" tls:created="2022-09-20T23:58:02.226+09:00"><form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127"><orth>无所</orth><pron xml:lang="zh-Latn-x-pinyin">wú suǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju srjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma sqraʔ</pron></form><sense xml:id="uuid-086793c0-f4b4-490d-a793-c0f4b4e90da0" resp="#CH" tls:created="2022-09-20T23:58:02.226+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func></gramGrp><def>no objects</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-33dc5733-1fd9-4553-ac85-7bf3462dcdf4" resp="#CH" tls:created="2020-01-04T02:21:14.565+09:00">
+            <form corresp="#uuid-107af514-3922-430a-bf56-a9f2648f62a5">
+                <orth>靡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mralʔ</pron>
+            </form>
+            <sense xml:id="uuid-a3e1ef3b-9018-43b7-a448-98ffee2a0382" resp="#CH" tls:created="2020-01-04T02:21:14.565+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN: V</tls:syn-func>
+                </gramGrp>
+                <def>no N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0191ca9e-a719-47fd-91ca-9ea719a7fd30" resp="#CH" tls:created="2022-09-20T23:58:02.226+09:00">
+            <form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
+                <orth>无所</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú suǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju srjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma sqraʔ</pron>
+            </form>
+            <sense xml:id="uuid-086793c0-f4b4-490d-a793-c0f4b4e90da0" resp="#CH" tls:created="2022-09-20T23:58:02.226+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func>
+                </gramGrp>
+                <def>no objects</def>
+            </sense>
+        </entry>
+    </div>
 </div>

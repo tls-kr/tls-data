@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4cc865ac-b950-4e3f-b6ee-236c70abae56">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4cc865ac-b950-4e3f-b6ee-236c70abae56">
 <head>CONTRACT</head>
     <list type="altnames">
 <item>AGREEMENT</item>
@@ -306,7 +307,23 @@
                 </gramGrp>
   <def>(private) contract</def>
             </sense>
-<sense xml:id="uuid-500683c0-7251-4647-94cc-c4c4aa32a4c3" resp="#dsehnal" tls:created="2020-01-14T05:21:07.644+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt1post.vt2oN1: prep N2</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat></gramGrp><def>make an agreement with somebody at N2</def></sense><sense xml:id="uuid-7cc26173-7283-47a5-8261-73728327a515" resp="#CH" tls:created="2022-07-29T18:37:52.009+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">general, act</tls:sem-feat></gramGrp><def>swear blood oaths, practise the swearing of blood oaths</def></sense></entry>
+<sense xml:id="uuid-500683c0-7251-4647-94cc-c4c4aa32a4c3" resp="#dsehnal" tls:created="2020-01-14T05:21:07.644+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt1post.vt2oN1: prep N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat>
+                </gramGrp>
+                <def>make an agreement with somebody at N2</def>
+            </sense>
+            <sense xml:id="uuid-7cc26173-7283-47a5-8261-73728327a515" resp="#CH" tls:created="2022-07-29T18:37:52.009+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">general, act</tls:sem-feat>
+                </gramGrp>
+                <def>swear blood oaths, practise the swearing of blood oaths</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-68c50918-6a44-481d-8755-b67f7ea90654">
             <form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f">
 <orth>稱</orth>
@@ -481,7 +498,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-8a5a3075-79d4-4408-baeb-391fca168add">
-            <form corresp="#uuid-6b520202-cf58-436f-a2df-f27b1abf0874"><orth>隨</orth><pron xml:lang="zh-Latn-x-pinyin">suí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlol</pron></form>
+            <form corresp="#uuid-6b520202-cf58-436f-a2df-f27b1abf0874">
+                <orth>隨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlol</pron>
+            </form>
 <sense xml:id="uuid-658aece2-1e0a-4072-96d5-ebbb57f42d3a">
 <gramGrp>
                     <pos>V</pos>

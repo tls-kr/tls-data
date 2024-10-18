@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ca6cc9d1-bd19-4f3b-ac3a-41146b1e8743">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ca6cc9d1-bd19-4f3b-ac3a-41146b1e8743">
 <head>REMEMBER</head>
     <list type="altnames">
 <item>RECALL</item>
@@ -428,7 +429,15 @@
                 </gramGrp>
   <def>be still aware of, remember; make sure one remembers; keep in mind; take note of; be mindful of</def>
             </sense>
-<sense xml:id="uuid-6481a700-9483-4e21-81a7-0094839e21de" resp="#CH" tls:created="2022-03-01T00:44:27.758+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>remember (this)!</def></sense></entry>
+<sense xml:id="uuid-6481a700-9483-4e21-81a7-0094839e21de" resp="#CH" tls:created="2022-03-01T00:44:27.758+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>remember (this)!</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2aec0888-0b77-4efa-a665-a0ae8c183d4a">
             <form corresp="#uuid-c9f9226b-955d-4e22-bc3a-a535f7d136fc">
 <orth>追</orth>
@@ -554,5 +563,37 @@
   <def>continue to be mindful of</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2d33652c-99a2-422d-b365-2c99a2a22df5" resp="#CH" tls:created="2020-02-12T18:33:52.99+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-f28e1dbc-5719-4c9f-8e1d-bc57196c9f04" resp="#CH" tls:created="2020-02-12T18:33:52.99+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>remind one of N2</def></sense></entry><entry type="word" xml:id="uuid-c1eff850-af3b-4abf-aff8-50af3b3abfab" resp="#CH" tls:created="2020-02-12T18:34:00.598+09:00"><form corresp="#uuid-357ecd20-9e15-473d-9abf-67e6b15b6b46"><orth>寤</orth><pron xml:lang="zh-Latn-x-pinyin">wù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nguH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaas</pron></form><sense xml:id="uuid-7dc803c9-f616-4dc0-8803-c9f6163dc08c" resp="#CH" tls:created="2020-02-12T18:34:00.598+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>remind one of N2</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2d33652c-99a2-422d-b365-2c99a2a22df5" resp="#CH" tls:created="2020-02-12T18:33:52.99+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-f28e1dbc-5719-4c9f-8e1d-bc57196c9f04" resp="#CH" tls:created="2020-02-12T18:33:52.99+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>remind one of N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c1eff850-af3b-4abf-aff8-50af3b3abfab" resp="#CH" tls:created="2020-02-12T18:34:00.598+09:00">
+            <form corresp="#uuid-357ecd20-9e15-473d-9abf-67e6b15b6b46">
+                <orth>寤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nguH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaas</pron>
+            </form>
+            <sense xml:id="uuid-7dc803c9-f616-4dc0-8803-c9f6163dc08c" resp="#CH" tls:created="2020-02-12T18:34:00.598+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>remind one of N2</def>
+            </sense>
+        </entry>
+    </div>
 </div>

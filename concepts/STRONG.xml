@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2c36a24e-9820-491a-9de1-d4d48bca9cd1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2c36a24e-9820-491a-9de1-d4d48bca9cd1">
 <head>STRONG</head>
     <list type="altnames">
 <item>POWERFUL</item>
@@ -285,7 +286,15 @@
                 </gramGrp>
   <def>be in good physical shape and strong</def>
             </sense>
-<sense xml:id="uuid-be07668f-80f8-460f-8766-8f80f8160fa8" resp="#CH" tls:created="2020-10-09T20:48:13.284+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be politically strong; be powerful</def></sense></entry>
+<sense xml:id="uuid-be07668f-80f8-460f-8766-8f80f8160fa8" resp="#CH" tls:created="2020-10-09T20:48:13.284+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be politically strong; be powerful</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4a8bb4ac-c5b4-4620-ab48-4c8ed6fbd41a">
             <form corresp="#uuid-b0c01715-adaa-494d-af1b-a7f73033eaff">
 <orth>力</orth>
@@ -363,13 +372,35 @@
                 </gramGrp>
   <def>cause (oneself) to be constitutionally (not just temporarily) strong</def>
             </sense>
-<sense xml:id="uuid-d35b710a-1056-4852-a1bc-050ade197a5b" resp="#CH" tls:created="2019-12-05T04:22:47.471+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab(.post-N)</tls:syn-func></gramGrp><def resp="#CH" updated="2020-07-02T23:22:15.187+09:00">the strength of N</def></sense><sense xml:id="uuid-62d5c489-c8c1-4344-83f8-e99ba1553946" resp="#CH" tls:created="2019-12-31T20:19:54.836+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>powerful influence of N</def></sense><sense xml:id="uuid-9403c0ad-1f65-4f62-8d53-405ec2784fc2">
+<sense xml:id="uuid-d35b710a-1056-4852-a1bc-050ade197a5b" resp="#CH" tls:created="2019-12-05T04:22:47.471+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab(.post-N)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-07-02T23:22:15.187+09:00">the strength of N</def>
+            </sense>
+            <sense xml:id="uuid-62d5c489-c8c1-4344-83f8-e99ba1553946" resp="#CH" tls:created="2019-12-31T20:19:54.836+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>powerful influence of N</def>
+            </sense>
+            <sense xml:id="uuid-9403c0ad-1f65-4f62-8d53-405ec2784fc2">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
                 </gramGrp>
   <def>using （often: all one's) strength, powerfully, with one's power/strength; with all one's strength 力田 "work hard in agriculture"</def>
-            </sense><sense xml:id="uuid-900ab9b4-eedd-4dbe-8ab9-b4eedd6dbe01" resp="#zadrapa" tls:created="2023-05-23T21:50:59.696+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>the physical strength of N</def></sense></entry>
+            </sense>
+            <sense xml:id="uuid-900ab9b4-eedd-4dbe-8ab9-b4eedd6dbe01" resp="#zadrapa" tls:created="2023-05-23T21:50:59.696+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>the physical strength of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f28b4f7f-8214-43ea-b1cc-5a36216369a5">
             <form corresp="#uuid-6e92e67e-cb49-49fe-b3c2-5b9fccae963c">
 <orth>勁</orth>
@@ -404,14 +435,37 @@
                 </gramGrp>
   <def>strengthen; give added force to; "stiffen (someone's) spine</def>
             </sense>
-<sense xml:id="uuid-2302ef1f-cd37-4e4b-a51f-b271923d1556" resp="#CH" tls:created="2020-02-04T18:22:16.951+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-02-04T18:23:22.194+09:00">non-restrictive: energetic; of powerful impact</def></sense><sense xml:id="uuid-15b71e70-059a-470c-b869-7a5e8fb7468e">
+<sense xml:id="uuid-2302ef1f-cd37-4e4b-a51f-b271923d1556" resp="#CH" tls:created="2020-02-04T18:22:16.951+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-02-04T18:23:22.194+09:00">non-restrictive: energetic; of powerful impact</def>
+            </sense>
+            <sense xml:id="uuid-15b71e70-059a-470c-b869-7a5e8fb7468e">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def resp="#CH" updated="2020-12-22T01:13:41.104+09:00">(of persons, animals and occasionally states) vigorous; energetic; mighty</def>
-            </sense><sense xml:id="uuid-0820d18a-8028-412c-a0d1-8a8028812ca1" resp="#CH" tls:created="2020-12-22T01:16:37.661+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-a24260a1-0410-4d64-acde-5967b1bef725">intensitive</tls:sem-feat></gramGrp><def>mighty; raging; violent</def></sense><sense xml:id="uuid-a47196e4-2c81-435a-b196-e42c81b35a1c" resp="#zadrapa" tls:created="2021-06-14T15:58:26.143+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>resolute, firm</def></sense></entry>
+            </sense>
+            <sense xml:id="uuid-0820d18a-8028-412c-a0d1-8a8028812ca1" resp="#CH" tls:created="2020-12-22T01:16:37.661+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a24260a1-0410-4d64-acde-5967b1bef725">intensitive</tls:sem-feat>
+                </gramGrp>
+                <def>mighty; raging; violent</def>
+            </sense>
+            <sense xml:id="uuid-a47196e4-2c81-435a-b196-e42c81b35a1c" resp="#zadrapa" tls:created="2021-06-14T15:58:26.143+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>resolute, firm</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-226e2630-1ccd-4b99-bb06-d7bef3f0e789">
             <form corresp="#uuid-146de3a4-cf34-4746-8df4-4d4f2ed240e8">
 <orth>勍</orth>
@@ -495,7 +549,22 @@
                 </gramGrp>
   <def>cause to be firm and solid, firm up; strengthen the position of</def>
             </sense>
-<sense xml:id="uuid-a5aac331-3dc2-4800-9c7a-24a3202ad3c7" resp="#CH" tls:created="2019-11-29T03:37:11.92+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>firmness, solidity</def></sense><sense xml:id="uuid-895d61df-7743-4925-9d61-df7743b92562" resp="#zadrapa" tls:created="2021-06-22T19:02:14.645+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat></gramGrp><def>who is firm and unshakeable</def></sense></entry>
+<sense xml:id="uuid-a5aac331-3dc2-4800-9c7a-24a3202ad3c7" resp="#CH" tls:created="2019-11-29T03:37:11.92+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>firmness, solidity</def>
+            </sense>
+            <sense xml:id="uuid-895d61df-7743-4925-9d61-df7743b92562" resp="#zadrapa" tls:created="2021-06-22T19:02:14.645+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat>
+                </gramGrp>
+                <def>who is firm and unshakeable</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6297d090-eb77-4ef4-b0b0-e1f7febdf177">
             <form corresp="#uuid-eb613b7b-d261-433b-9919-d4ea065777f8">
 <orth>壯</orth>
@@ -567,7 +636,15 @@
                 </gramGrp>
   <def>make strong; strengthen</def>
             </sense>
-<sense xml:id="uuid-5a6efceb-8bd2-4dad-aefc-eb8bd2ddadb4" resp="#CH" tls:created="2020-12-14T21:53:13.812+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>have literary/artistic vitality</def></sense></entry>
+<sense xml:id="uuid-5a6efceb-8bd2-4dad-aefc-eb8bd2ddadb4" resp="#CH" tls:created="2020-12-14T21:53:13.812+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>have literary/artistic vitality</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-adc65eaf-96e7-4b18-84cf-0a110a7bbeb3">
             <form corresp="#uuid-747e8532-e8bd-4f01-b43e-ad5025ef888a">
 <orth>度</orth>
@@ -794,7 +871,15 @@
                 </gramGrp>
   <def>become strong</def>
             </sense>
-<sense xml:id="uuid-bf7654c5-86b7-477b-b654-c586b7e77b97" resp="#Valerie.Kiel" tls:created="2022-05-19T23:52:18.203+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#">causative</tls:sem-feat></gramGrp><def>to strengthen the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-bf7654c5-86b7-477b-b654-c586b7e77b97" resp="#Valerie.Kiel" tls:created="2022-05-19T23:52:18.203+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#">causative</tls:sem-feat>
+                </gramGrp>
+                <def>to strengthen the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-22377aca-aa4c-4446-b565-e6a3eafd0da6">
             <form corresp="#uuid-8445d7e7-75b5-498c-bed3-d8c1cbee89b7">
 <orth>暴</orth>
@@ -863,7 +948,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-d9657bcf-fe67-4339-bb52-76687cdcbd7e">
-            <form corresp="#uuid-c5163c13-4a96-4092-9cfb-58220d6db246"><orth>盛</orth><pron xml:lang="zh-Latn-x-pinyin">shèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djeŋs</pron></form>
+            <form corresp="#uuid-c5163c13-4a96-4092-9cfb-58220d6db246">
+                <orth>盛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djeŋs</pron>
+            </form>
 <sense xml:id="uuid-d8679595-b7f1-40a6-95d8-9489bed82555">
 <gramGrp>
                     <pos>V</pos>
@@ -1049,7 +1139,29 @@
                 </gramGrp>
   <def>courage of one's convictions; moral strength</def>
             </sense>
-<sense xml:id="uuid-14971c68-4d7f-46e8-971c-684d7fb6e840" resp="#twharbsmeier" tls:created="2020-04-09T20:48:16.349+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>the brave and strong</def></sense><sense xml:id="uuid-d89907b2-a7ed-4b4f-9907-b2a7edbb4ffa" resp="#twharbsmeier" tls:created="2020-04-10T03:24:13.886+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be brave and strong</def></sense><sense xml:id="uuid-e0ee3675-5df7-4c43-ae36-755df7dc433b" resp="#twharbsmeier" tls:created="2020-04-11T23:18:06.475+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a"/></gramGrp><def>audacity and strength</def></sense></entry>
+<sense xml:id="uuid-14971c68-4d7f-46e8-971c-684d7fb6e840" resp="#twharbsmeier" tls:created="2020-04-09T20:48:16.349+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the brave and strong</def>
+            </sense>
+            <sense xml:id="uuid-d89907b2-a7ed-4b4f-9907-b2a7edbb4ffa" resp="#twharbsmeier" tls:created="2020-04-10T03:24:13.886+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be brave and strong</def>
+            </sense>
+            <sense xml:id="uuid-e0ee3675-5df7-4c43-ae36-755df7dc433b" resp="#twharbsmeier" tls:created="2020-04-11T23:18:06.475+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a"/>
+                </gramGrp>
+                <def>audacity and strength</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0c4ca114-f2b7-444a-878e-26413c32bcfe">
             <form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c #uuid-6ad5e682-34e2-41a5-8c7c-e5e67fb2c285">
 <orth>堅固</orth>
@@ -1086,7 +1198,15 @@
                 </gramGrp>
   <def>strongly</def>
             </sense>
-<sense xml:id="uuid-baba71b6-63bd-43aa-85ad-f4af7e73c7d1" resp="#CH" tls:created="2019-11-28T19:32:58.273+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat></gramGrp><def>keep solid and firm</def></sense></entry>
+<sense xml:id="uuid-baba71b6-63bd-43aa-85ad-f4af7e73c7d1" resp="#CH" tls:created="2019-11-28T19:32:58.273+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>keep solid and firm</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a58016f3-b2f6-4d2f-94b1-029e6ac2ee7d">
             <form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c #uuid-5cf5c7be-7e82-4f71-b699-8bfb95517223">
 <orth>堅實</orth>
@@ -1123,7 +1243,8 @@
   <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
                 </gramGrp>
   <def>be very tough or strong</def>
-            </sense></entry>
+            </sense>
+        </entry>
 
 <entry type="word" xml:id="uuid-3e49b6f2-c2d5-4e75-bab9-cbaea23cf26e">
             <form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c #uuid-563938fa-abad-4617-82a9-92bd7f0a9299">
@@ -1447,24 +1568,335 @@
   <def>strengthen vtoN@causative</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5ba2cb75-0cd6-4078-8f03-29c516afe0e4" resp="#CH" tls:created="2019-11-26T00:45:13.977+09:00"><form corresp="#uuid-3b44124e-295e-4d79-8f57-8483c9324092"><orth>挺</orth><pron xml:lang="zh-Latn-x-pinyin">tǐng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dengX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">deeŋʔ</pron></form><sense xml:id="uuid-c9b250eb-4ff3-4a76-9c9e-74afad7a564c" resp="#CH" tls:created="2019-11-26T00:45:13.977+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be straight and strong</def></sense></entry><entry type="word" xml:id="uuid-2068aeab-6a49-4f37-8d84-2acb764c7cb6" resp="#CH" tls:created="2019-12-04T19:15:37.915+09:00"><form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c"><orth>堅</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ken</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kiin</pron></form><sense xml:id="uuid-10343aec-2abb-46ed-87a9-ef46aa0c0bac" resp="#CH" tls:created="2019-12-04T19:15:37.915+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be strong and firmly established</def></sense><sense xml:id="uuid-04b562ba-f4ed-42ea-b562-baf4ede2eacd" resp="#CH" tls:created="2021-03-29T20:41:41.225+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>solidity</def></sense></entry><entry type="word" xml:id="uuid-4527f105-90e5-4448-a90d-94413a026fee" resp="#CH" tls:created="2019-12-18T00:25:34.224+09:00"><form corresp="#uuid-3e4689aa-315a-4693-a284-b9b367b68192 #乘:shèng"><orth>萬乘</orth><pron xml:lang="zh-Latn-x-pinyin">wàn shèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mblans --</pron></form><sense xml:id="uuid-1dba2c38-81d3-4179-99f7-ee5a51b9795f" resp="#CH" tls:created="2019-12-18T00:25:34.224+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>possessed of 10 000 chariots&gt; powerful, militarily mighty</def></sense></entry><entry type="word" xml:id="uuid-b41f9e97-bb5e-4efa-9f9e-97bb5e2efa6a"><form><orth>彊</orth><pron xml:lang="zh-Latn-x-pinyin">qiáng</pron></form><def/><sense xml:id="uuid-66b7904c-a947-4562-b790-4ca947356275" resp="#twharbsmeier" tls:created="2020-04-09T22:29:47.309+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>the powerful ones</def></sense><sense xml:id="uuid-c8ef7d6a-560a-4102-af7d-6a560ac102bb" resp="#twharbsmeier" tls:created="2020-04-12T18:52:21.32+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-7ca04014-d6ea-4224-847f-e443285a50d3">N=animal</tls:sem-feat></gramGrp><def>the powerful animals</def></sense><sense xml:id="uuid-2890466b-4178-4423-9046-6b4178f423d8" resp="#zadrapa" tls:created="2020-06-17T17:12:00.949+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>strength</def></sense><sense xml:id="uuid-1d9d516d-4517-4999-9d51-6d4517899930" resp="#zadrapa" tls:created="2021-01-22T00:34:35.848+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp><def>strong</def></sense><sense xml:id="uuid-0513708a-e128-41f9-9370-8ae128e1f916" resp="#zadrapa" tls:created="2022-05-23T20:33:47.969+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>become strong</def></sense><sense xml:id="uuid-2aa14fc5-b471-4bba-a14f-c5b471ebba34" resp="#CH" tls:created="2022-09-21T23:58:36.611+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>pretend to be strong</def></sense></entry><entry type="word" xml:id="uuid-1d65ad3c-9dee-48a9-a5ad-3c9dee48a96f" resp="#dsehnal" tls:created="2020-05-15T16:05:00.617+09:00"><form corresp="#uuid-f8fe7cb5-faea-4943-b003-8338a85bac09 #乘: shèng"><orth>千乘</orth><pron xml:lang="zh-Latn-x-pinyin">qiān  shèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshen --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiin --</pron></form><sense xml:id="uuid-7f1aac9e-b4ec-46a8-9aac-9eb4ec26a81b" resp="#dsehnal" tls:created="2020-05-15T16:05:00.617+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func></gramGrp><def>possessing one thousand of chariots &gt; mighty </def></sense></entry><entry type="word" xml:id="uuid-1a3c13e4-91d5-4b68-bc13-e491d5db6831" resp="#zadrapa" tls:created="2020-05-31T05:06:12.345+09:00"><form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c #uuid-fec90e2d-8801-4010-8173-935dde09c3d1"><orth>堅彊</orth><pron xml:lang="zh-Latn-x-pinyin">jiān qiáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ken gjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kiin ɡaŋ</pron></form><sense xml:id="uuid-4844916a-5416-4277-8491-6a541622770e" resp="#zadrapa" tls:created="2020-05-31T05:06:12.345+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>= gang1qiáng 剛強: be tough and strong</def></sense><sense xml:id="uuid-a60b17b4-7dd6-47c7-8b17-b47dd667c7f9" resp="#zadrapa" tls:created="2020-12-19T01:59:09.303+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>toughness and strength; perseverance</def></sense></entry><entry type="word" xml:id="uuid-6f07dc30-a40f-464e-87dc-30a40f464e34" resp="#zadrapa" tls:created="2020-06-01T04:15:59.727+09:00"><form corresp="#uuid-79e24732-8d48-4707-8e6a-c8d0f56aa8b4 #uuid-27eb141c-5985-45f2-8c67-aab307419dcb"><orth>猛毅</orth><pron xml:lang="zh-Latn-x-pinyin">měng yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">maengX ngj+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraaŋʔ ŋɡlɯds</pron></form><sense xml:id="uuid-3ae32806-eda4-4f00-a328-06eda47f0013" resp="#zadrapa" tls:created="2020-06-01T04:15:59.727+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-19T22:56:42.46+09:00">be (or appear) fierce and tough; be fiercely resolute, </def></sense></entry><entry type="word" xml:id="uuid-662f2894-414b-48dc-af28-94414b88dcfc" resp="#zadrapa" tls:created="2021-01-19T00:53:32.4+09:00"><form corresp="#uuid-a8ec239f-3eba-4156-bbd8-a11cf99a0622 #uuid-27eb141c-5985-45f2-8c67-aab307419dcb"><orth>剛毅</orth><pron xml:lang="zh-Latn-x-pinyin">gāng yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kang ngj+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaaŋ ŋɡlɯds</pron></form><sense xml:id="uuid-91085eb9-6709-454a-885e-b96709054ad4" resp="#zadrapa" tls:created="2021-01-19T00:53:32.4+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-07-13T16:19:30.066+09:00">be very tough, headstrong; be politically strong</def></sense></entry><entry type="word" xml:id="uuid-91219947-c67e-4f77-a199-47c67eaf77fe" resp="#CH" tls:created="2021-06-03T04:27:37.773+09:00"><form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd #uuid-b0c01715-adaa-494d-af1b-a7f73033eaff"><orth>氣力</orth><pron xml:lang="zh-Latn-x-pinyin">qì lì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khj+jH lik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯds ɡ-rɯɡ</pron></form><sense xml:id="uuid-c5f36c4f-5121-412a-b36c-4f5121412a27" resp="#CH" tls:created="2021-06-03T04:27:37.773+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-cee39f55-8962-4e09-9f0b-eb3b4387a2c7">NPab(.post-N)</tls:syn-func></gramGrp><def>physical strength (of an animal)</def></sense></entry><entry type="word" xml:id="uuid-9199a7b2-df1c-4667-99a7-b2df1ca667ce" resp="#CH" tls:created="2021-06-03T04:27:40.937+09:00"><form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd #uuid-b0c01715-adaa-494d-af1b-a7f73033eaff"><orth>氣力</orth><pron xml:lang="zh-Latn-x-pinyin">qì lì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khj+jH lik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯds ɡ-rɯɡ</pron></form><sense xml:id="uuid-441c947d-41c9-4045-9c94-7d41c98045bf" resp="#CH" tls:created="2021-06-03T04:27:40.937+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-cee39f55-8962-4e09-9f0b-eb3b4387a2c7">NPab(.post-N)</tls:syn-func></gramGrp><def>physical strength (of an animal)</def></sense></entry><entry type="word" xml:id="uuid-5e4edb23-95fe-4aae-8edb-2395fe4aaede" resp="#zadrapa" tls:created="2022-05-23T16:45:10.353+09:00"><form corresp="#uuid-fec90e2d-8801-4010-8173-935dde09c3d1 #uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8"><orth>彊大</orth><pron xml:lang="zh-Latn-x-pinyin">qiáng dà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjang dajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaŋ daads</pron></form><sense xml:id="uuid-4d280028-1474-4410-a800-281474f410b4" resp="#zadrapa" tls:created="2022-05-23T16:45:10.353+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>strength</def></sense><sense xml:id="uuid-738d0926-656d-4069-8d09-26656d6069d0" resp="#zadrapa" tls:created="2022-05-23T18:46:10.223+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>the strong and big one(s)</def></sense><sense xml:id="uuid-b06ea2ca-93ca-46f5-aea2-ca93cac6f5e8" resp="#CH" tls:created="2022-09-17T21:46:40.677+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>powerful</def></sense></entry><entry type="word" xml:id="uuid-ad3d94d3-e09d-45f1-bd94-d3e09d35f13c" resp="#CH" tls:created="2022-07-30T03:10:35.118+09:00"><form corresp="#uuid-79e24732-8d48-4707-8e6a-c8d0f56aa8b4"><orth>猛</orth><pron xml:lang="zh-Latn-x-pinyin">měng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">maengX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraaŋʔ</pron></form><sense xml:id="uuid-950179f6-5890-4cbb-8179-f658903cbb54" resp="#CH" tls:created="2022-07-30T03:10:35.118+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be forceful and energetic</def></sense></entry><entry type="word" xml:id="uuid-b19f45d5-2d07-4cb3-9f45-d52d076cb310" resp="#CH" tls:created="2022-09-15T23:12:11.366+09:00"><form corresp="#uuid-e64914f7-f151-4728-9534-4133148523de"><orth>奮</orth><pron xml:lang="zh-Latn-x-pinyin">fèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjunH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯns</pron></form><sense xml:id="uuid-46eaf6fd-7481-4e14-aaf6-fd7481de1407" resp="#CH" tls:created="2022-09-15T23:12:11.366+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>energetic and powerful</def></sense><sense xml:id="uuid-0a2fcae5-c578-4590-afca-e5c5788590c0" resp="#CH" tls:created="2024-05-25T01:12:17.396+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be in powerfully good shape</def></sense></entry><entry type="word" xml:id="uuid-2429619d-7cb9-4dca-a961-9d7cb9bdca87" resp="#CH" tls:created="2022-09-19T22:55:24.293+09:00"><form corresp="#uuid-1ea3b1cc-2bb5-4407-bde3-17ebcd3ad9be #uuid-fec90e2d-8801-4010-8173-935dde09c3d1"><orth>剛彊</orth><pron xml:lang="zh-Latn-x-pinyin">gāng qiáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kang gjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaaŋ ɡaŋ</pron></form><sense xml:id="uuid-edb2e881-358b-4143-b2e8-81358b21432e" resp="#CH" tls:created="2022-09-19T22:55:24.293+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be inflexibly imposing, be hard and strong</def></sense></entry><entry xml:id="uuid-ff096212-96ae-493e-8962-1296aea93e0e"><form corresp="#uuid-c4bfdf7b-1e2e-4116-9671-1eb52b9cb55c">
+    <entry type="word" xml:id="uuid-5ba2cb75-0cd6-4078-8f03-29c516afe0e4" resp="#CH" tls:created="2019-11-26T00:45:13.977+09:00">
+            <form corresp="#uuid-3b44124e-295e-4d79-8f57-8483c9324092">
+                <orth>挺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tǐng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dengX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">deeŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-c9b250eb-4ff3-4a76-9c9e-74afad7a564c" resp="#CH" tls:created="2019-11-26T00:45:13.977+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be straight and strong</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2068aeab-6a49-4f37-8d84-2acb764c7cb6" resp="#CH" tls:created="2019-12-04T19:15:37.915+09:00">
+            <form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c">
+                <orth>堅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ken</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kiin</pron>
+            </form>
+            <sense xml:id="uuid-10343aec-2abb-46ed-87a9-ef46aa0c0bac" resp="#CH" tls:created="2019-12-04T19:15:37.915+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be strong and firmly established</def>
+            </sense>
+            <sense xml:id="uuid-04b562ba-f4ed-42ea-b562-baf4ede2eacd" resp="#CH" tls:created="2021-03-29T20:41:41.225+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>solidity</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4527f105-90e5-4448-a90d-94413a026fee" resp="#CH" tls:created="2019-12-18T00:25:34.224+09:00">
+            <form corresp="#uuid-3e4689aa-315a-4693-a284-b9b367b68192 #乘:shèng">
+                <orth>萬乘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wàn shèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mblans --</pron>
+            </form>
+            <sense xml:id="uuid-1dba2c38-81d3-4179-99f7-ee5a51b9795f" resp="#CH" tls:created="2019-12-18T00:25:34.224+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>possessed of 10 000 chariots&gt; powerful, militarily mighty</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b41f9e97-bb5e-4efa-9f9e-97bb5e2efa6a">
+            <form>
+                <orth>彊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiáng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-66b7904c-a947-4562-b790-4ca947356275" resp="#twharbsmeier" tls:created="2020-04-09T22:29:47.309+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>the powerful ones</def>
+            </sense>
+            <sense xml:id="uuid-c8ef7d6a-560a-4102-af7d-6a560ac102bb" resp="#twharbsmeier" tls:created="2020-04-12T18:52:21.32+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7ca04014-d6ea-4224-847f-e443285a50d3">N=animal</tls:sem-feat>
+                </gramGrp>
+                <def>the powerful animals</def>
+            </sense>
+            <sense xml:id="uuid-2890466b-4178-4423-9046-6b4178f423d8" resp="#zadrapa" tls:created="2020-06-17T17:12:00.949+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>strength</def>
+            </sense>
+            <sense xml:id="uuid-1d9d516d-4517-4999-9d51-6d4517899930" resp="#zadrapa" tls:created="2021-01-22T00:34:35.848+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+                <def>strong</def>
+            </sense>
+            <sense xml:id="uuid-0513708a-e128-41f9-9370-8ae128e1f916" resp="#zadrapa" tls:created="2022-05-23T20:33:47.969+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>become strong</def>
+            </sense>
+            <sense xml:id="uuid-2aa14fc5-b471-4bba-a14f-c5b471ebba34" resp="#CH" tls:created="2022-09-21T23:58:36.611+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>pretend to be strong</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1d65ad3c-9dee-48a9-a5ad-3c9dee48a96f" resp="#dsehnal" tls:created="2020-05-15T16:05:00.617+09:00">
+            <form corresp="#uuid-f8fe7cb5-faea-4943-b003-8338a85bac09 #乘: shèng">
+                <orth>千乘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiān  shèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshen --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiin --</pron>
+            </form>
+            <sense xml:id="uuid-7f1aac9e-b4ec-46a8-9aac-9eb4ec26a81b" resp="#dsehnal" tls:created="2020-05-15T16:05:00.617+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>possessing one thousand of chariots &gt; mighty </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1a3c13e4-91d5-4b68-bc13-e491d5db6831" resp="#zadrapa" tls:created="2020-05-31T05:06:12.345+09:00">
+            <form corresp="#uuid-94b774e7-7277-430d-9269-06b5d0614c1c #uuid-fec90e2d-8801-4010-8173-935dde09c3d1">
+                <orth>堅彊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān qiáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ken gjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kiin ɡaŋ</pron>
+            </form>
+            <sense xml:id="uuid-4844916a-5416-4277-8491-6a541622770e" resp="#zadrapa" tls:created="2020-05-31T05:06:12.345+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>= gang1qiáng 剛強: be tough and strong</def>
+            </sense>
+            <sense xml:id="uuid-a60b17b4-7dd6-47c7-8b17-b47dd667c7f9" resp="#zadrapa" tls:created="2020-12-19T01:59:09.303+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>toughness and strength; perseverance</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6f07dc30-a40f-464e-87dc-30a40f464e34" resp="#zadrapa" tls:created="2020-06-01T04:15:59.727+09:00">
+            <form corresp="#uuid-79e24732-8d48-4707-8e6a-c8d0f56aa8b4 #uuid-27eb141c-5985-45f2-8c67-aab307419dcb">
+                <orth>猛毅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">měng yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">maengX ngj+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraaŋʔ ŋɡlɯds</pron>
+            </form>
+            <sense xml:id="uuid-3ae32806-eda4-4f00-a328-06eda47f0013" resp="#zadrapa" tls:created="2020-06-01T04:15:59.727+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-19T22:56:42.46+09:00">be (or appear) fierce and tough; be fiercely resolute, </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-662f2894-414b-48dc-af28-94414b88dcfc" resp="#zadrapa" tls:created="2021-01-19T00:53:32.4+09:00">
+            <form corresp="#uuid-a8ec239f-3eba-4156-bbd8-a11cf99a0622 #uuid-27eb141c-5985-45f2-8c67-aab307419dcb">
+                <orth>剛毅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gāng yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kang ngj+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaaŋ ŋɡlɯds</pron>
+            </form>
+            <sense xml:id="uuid-91085eb9-6709-454a-885e-b96709054ad4" resp="#zadrapa" tls:created="2021-01-19T00:53:32.4+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-13T16:19:30.066+09:00">be very tough, headstrong; be politically strong</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-91219947-c67e-4f77-a199-47c67eaf77fe" resp="#CH" tls:created="2021-06-03T04:27:37.773+09:00">
+            <form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd #uuid-b0c01715-adaa-494d-af1b-a7f73033eaff">
+                <orth>氣力</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì lì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khj+jH lik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯds ɡ-rɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-c5f36c4f-5121-412a-b36c-4f5121412a27" resp="#CH" tls:created="2021-06-03T04:27:37.773+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-cee39f55-8962-4e09-9f0b-eb3b4387a2c7">NPab(.post-N)</tls:syn-func>
+                </gramGrp>
+                <def>physical strength (of an animal)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9199a7b2-df1c-4667-99a7-b2df1ca667ce" resp="#CH" tls:created="2021-06-03T04:27:40.937+09:00">
+            <form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd #uuid-b0c01715-adaa-494d-af1b-a7f73033eaff">
+                <orth>氣力</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì lì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khj+jH lik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯds ɡ-rɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-441c947d-41c9-4045-9c94-7d41c98045bf" resp="#CH" tls:created="2021-06-03T04:27:40.937+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-cee39f55-8962-4e09-9f0b-eb3b4387a2c7">NPab(.post-N)</tls:syn-func>
+                </gramGrp>
+                <def>physical strength (of an animal)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5e4edb23-95fe-4aae-8edb-2395fe4aaede" resp="#zadrapa" tls:created="2022-05-23T16:45:10.353+09:00">
+            <form corresp="#uuid-fec90e2d-8801-4010-8173-935dde09c3d1 #uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8">
+                <orth>彊大</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiáng dà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjang dajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaŋ daads</pron>
+            </form>
+            <sense xml:id="uuid-4d280028-1474-4410-a800-281474f410b4" resp="#zadrapa" tls:created="2022-05-23T16:45:10.353+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>strength</def>
+            </sense>
+            <sense xml:id="uuid-738d0926-656d-4069-8d09-26656d6069d0" resp="#zadrapa" tls:created="2022-05-23T18:46:10.223+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the strong and big one(s)</def>
+            </sense>
+            <sense xml:id="uuid-b06ea2ca-93ca-46f5-aea2-ca93cac6f5e8" resp="#CH" tls:created="2022-09-17T21:46:40.677+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>powerful</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ad3d94d3-e09d-45f1-bd94-d3e09d35f13c" resp="#CH" tls:created="2022-07-30T03:10:35.118+09:00">
+            <form corresp="#uuid-79e24732-8d48-4707-8e6a-c8d0f56aa8b4">
+                <orth>猛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">měng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">maengX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-950179f6-5890-4cbb-8179-f658903cbb54" resp="#CH" tls:created="2022-07-30T03:10:35.118+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be forceful and energetic</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b19f45d5-2d07-4cb3-9f45-d52d076cb310" resp="#CH" tls:created="2022-09-15T23:12:11.366+09:00">
+            <form corresp="#uuid-e64914f7-f151-4728-9534-4133148523de">
+                <orth>奮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjunH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯns</pron>
+            </form>
+            <sense xml:id="uuid-46eaf6fd-7481-4e14-aaf6-fd7481de1407" resp="#CH" tls:created="2022-09-15T23:12:11.366+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>energetic and powerful</def>
+            </sense>
+            <sense xml:id="uuid-0a2fcae5-c578-4590-afca-e5c5788590c0" resp="#CH" tls:created="2024-05-25T01:12:17.396+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be in powerfully good shape</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2429619d-7cb9-4dca-a961-9d7cb9bdca87" resp="#CH" tls:created="2022-09-19T22:55:24.293+09:00">
+            <form corresp="#uuid-1ea3b1cc-2bb5-4407-bde3-17ebcd3ad9be #uuid-fec90e2d-8801-4010-8173-935dde09c3d1">
+                <orth>剛彊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gāng qiáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kang gjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaaŋ ɡaŋ</pron>
+            </form>
+            <sense xml:id="uuid-edb2e881-358b-4143-b2e8-81358b21432e" resp="#CH" tls:created="2022-09-19T22:55:24.293+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be inflexibly imposing, be hard and strong</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-ff096212-96ae-493e-8962-1296aea93e0e">
+            <form corresp="#uuid-c4bfdf7b-1e2e-4116-9671-1eb52b9cb55c">
 <orth>抗</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">kàng</pron>
                 <pron xml:lang="zh-x-oc">khaaŋs</pron>
                 <pron xml:lang="zh-x-mc">khɑŋ</pron>
-            </form><sense xml:id="uuid-e41f5c79-c9fb-4cd6-9bbb-8e5b532d0104">
+            </form>
+            <sense xml:id="uuid-e41f5c79-c9fb-4cd6-9bbb-8e5b532d0104">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-09-23T17:26:40.227+09:00">resolutely; resiliently, with noble determination</def>
-            </sense><sense xml:id="uuid-3ee5ec1c-090a-4d96-9422-389b26499f27">
+            </sense>
+            <sense xml:id="uuid-3ee5ec1c-090a-4d96-9422-389b26499f27">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-09-23T17:26:41.908+09:00">resolute, resilient (behaviour), nobly independent; showing noble resilience</def>
-            </sense></entry><entry type="word" xml:id="uuid-891f0e39-d715-4deb-9f0e-39d7156deb39" resp="#zadrapa" tls:created="2023-05-16T17:30:21.653+09:00"><form corresp="#uuid-eb613b7b-d261-433b-9919-d4ea065777f8 #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>壯者</orth><pron xml:lang="zh-Latn-x-pinyin">zhuàng zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsrjangH tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skraŋs kljaʔ</pron></form><sense xml:id="uuid-d063a48f-c5a3-4398-a3a4-8fc5a30398f0" resp="#zadrapa" tls:created="2023-05-16T17:30:21.653+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>those who are in their prime, those who are strong; those who are able-bodied</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-891f0e39-d715-4deb-9f0e-39d7156deb39" resp="#zadrapa" tls:created="2023-05-16T17:30:21.653+09:00">
+            <form corresp="#uuid-eb613b7b-d261-433b-9919-d4ea065777f8 #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>壯者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuàng zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsrjangH tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skraŋs kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-d063a48f-c5a3-4398-a3a4-8fc5a30398f0" resp="#zadrapa" tls:created="2023-05-16T17:30:21.653+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>those who are in their prime, those who are strong; those who are able-bodied</def>
+            </sense>
+        </entry>
+    </div>
 </div>

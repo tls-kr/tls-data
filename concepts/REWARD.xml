@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5ce24b12-fec8-4cc4-9434-ad80be0a345b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5ce24b12-fec8-4cc4-9434-ad80be0a345b">
 <head>REWARD</head>
     <list type="altnames">
 <item>RECOMPENSE</item>
@@ -168,7 +169,15 @@
                 </gramGrp>
   <def>reward??</def>
             </sense>
-<sense xml:id="uuid-0f91f160-d8e7-4836-91f1-60d8e72836d0" resp="#CH" tls:created="2021-06-15T20:22:11.572+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>corresponding response from N</def></sense></entry>
+<sense xml:id="uuid-0f91f160-d8e7-4836-91f1-60d8e72836d0" resp="#CH" tls:created="2021-06-15T20:22:11.572+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>corresponding response from N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2c6cb288-f299-46b2-9e2b-09548f1e1187">
             <form corresp="#uuid-c6b6b48f-87d4-4a80-8aa7-ed9353fcd9b7">
 <orth>勞</orth>
@@ -268,7 +277,21 @@
                 </gramGrp>
   <def>reward N1 with N2</def>
             </sense>
-<sense xml:id="uuid-2a703fbc-2baa-446c-b03f-bc2baa146c52" resp="#dsehnal" tls:created="2020-05-10T00:38:18.088+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-4043bf1e-3078-4585-a698-33758ae09f8e">vtt(oN1.) vtoN2</tls:syn-func></gramGrp><def>reward the contextually determinate N1 with N2</def></sense><sense xml:id="uuid-da22b6eb-8b09-447f-a2b6-eb8b09c47f6a" resp="#dsehnal" tls:created="2023-07-16T04:26:21.682+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>make rewards</def></sense></entry>
+<sense xml:id="uuid-2a703fbc-2baa-446c-b03f-bc2baa146c52" resp="#dsehnal" tls:created="2020-05-10T00:38:18.088+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-4043bf1e-3078-4585-a698-33758ae09f8e">vtt(oN1.) vtoN2</tls:syn-func>
+                </gramGrp>
+                <def>reward the contextually determinate N1 with N2</def>
+            </sense>
+            <sense xml:id="uuid-da22b6eb-8b09-447f-a2b6-eb8b09c47f6a" resp="#dsehnal" tls:created="2023-07-16T04:26:21.682+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>make rewards</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-972f9ed9-fe63-45f2-81f6-1ce22ac877eb">
             <form corresp="#uuid-fdcc4a4f-f53e-4287-929d-9098e5c994e7">
 <orth>應</orth>
@@ -443,7 +466,36 @@
                 </gramGrp>
   <def>reward for N</def>
             </sense>
-<sense xml:id="uuid-8920b65f-5695-4959-ad28-490f6f9b79d4" resp="#CH" tls:created="2019-12-10T18:50:14.058+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>reward the contextually determinate persons</def></sense><sense xml:id="uuid-6814cf81-e43f-465f-94cf-81e43f265f6e" resp="#CH" tls:created="2022-08-18T23:51:42.447+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive, N=human</tls:sem-feat></gramGrp><def>rewarded person</def></sense><sense xml:id="uuid-e28e5357-b52a-4dec-8e53-57b52a0decbb" resp="#CH" tls:created="2022-09-06T16:46:28.477+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>transitive verb with a lexically determinate omitted object</def></sense><sense xml:id="uuid-d46ffc79-9176-4905-affc-799176f90596" resp="#dsehnal" tls:created="2023-07-09T01:15:45.061+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>the relevant reward</def></sense></entry>
+<sense xml:id="uuid-8920b65f-5695-4959-ad28-490f6f9b79d4" resp="#CH" tls:created="2019-12-10T18:50:14.058+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>reward the contextually determinate persons</def>
+            </sense>
+            <sense xml:id="uuid-6814cf81-e43f-465f-94cf-81e43f265f6e" resp="#CH" tls:created="2022-08-18T23:51:42.447+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive, N=human</tls:sem-feat>
+                </gramGrp>
+                <def>rewarded person</def>
+            </sense>
+            <sense xml:id="uuid-e28e5357-b52a-4dec-8e53-57b52a0decbb" resp="#CH" tls:created="2022-09-06T16:46:28.477+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>transitive verb with a lexically determinate omitted object</def>
+            </sense>
+            <sense xml:id="uuid-d46ffc79-9176-4905-affc-799176f90596" resp="#dsehnal" tls:created="2023-07-09T01:15:45.061+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>the relevant reward</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2495e210-8924-4a97-b021-b55a5417a3b3">
             <form corresp="#uuid-b786976b-0242-4759-9415-9e21050daed5">
 <orth>賜</orth>
@@ -587,7 +639,14 @@
                 </gramGrp>
   <def>rewards in the form of official rank</def>
             </sense>
-<sense xml:id="uuid-a8b69650-a387-4624-94e6-68641e8aa95d" resp="#CH" tls:created="2019-12-04T17:44:27.076+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func></gramGrp><def>appointment to ranks and rewards</def></sense></entry>
+<sense xml:id="uuid-a8b69650-a387-4624-94e6-68641e8aa95d" resp="#CH" tls:created="2019-12-04T17:44:27.076+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                </gramGrp>
+                <def>appointment to ranks and rewards</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4a839a52-97db-4509-a014-f7dd89c278a7">
             <form corresp="#uuid-ec66d029-10db-45b6-bcef-e7a8e33bc3ce #uuid-912548b1-fb97-424b-8c78-65bf05f0ee71">
 <orth>福田</orth>
@@ -634,5 +693,20 @@
   <def>reward</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-46cc3325-638c-4dc4-8c33-25638c6dc459" resp="#CH" tls:created="2023-02-13T19:33:49.047+09:00"><form corresp="#uuid-731cd1d0-3604-43de-9374-4348e41d32f6 #uuid-399e03f6-12fa-4a5f-a166-89368c5bc495"><orth>設賞</orth><pron xml:lang="zh-Latn-x-pinyin">shè shǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syet syangX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjed lʰaŋʔ</pron></form><sense xml:id="uuid-7321305f-6628-4169-a130-5f6628516924" resp="#CH" tls:created="2023-02-13T19:33:49.047+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>publish offers for reward</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-46cc3325-638c-4dc4-8c33-25638c6dc459" resp="#CH" tls:created="2023-02-13T19:33:49.047+09:00">
+            <form corresp="#uuid-731cd1d0-3604-43de-9374-4348e41d32f6 #uuid-399e03f6-12fa-4a5f-a166-89368c5bc495">
+                <orth>設賞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shè shǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syet syangX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjed lʰaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-7321305f-6628-4169-a130-5f6628516924" resp="#CH" tls:created="2023-02-13T19:33:49.047+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>publish offers for reward</def>
+            </sense>
+        </entry>
+    </div>
 </div>

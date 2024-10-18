@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7ff15f7-f653-4867-b03e-3f546e065fd2">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7ff15f7-f653-4867-b03e-3f546e065fd2">
 <head>COURAGE</head>
     <list type="altnames">
 <item>BRAVERY</item>
@@ -53,7 +54,10 @@
     </list>
 <div type="definition">
 <p>VIRTUE OR ATTITUDE of DARING to ACT:carry-out DANGEROUS BUT NECESSARY ACTS.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:27:40.15+09:00"><p>VIRTUE OR ATTITUDE of DARING to ACT:carry-out DANGEROUS BUT NECESSARY OR MORAL ACTS.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:27:40.15+09:00">
+            <p>VIRTUE OR ATTITUDE of DARING to ACT:carry-out DANGEROUS BUT NECESSARY OR MORAL ACTS.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The standard general word for courage is yǒng 勇 (ant. nuò 懦 "pusillanimousness, chicken-liveredness"), which refers to positive boldness evinced in the face of danger or risk. Cf. fortitudo</p>
@@ -438,7 +442,29 @@
   <def>regard as particularly courageous</def>
             </sense>
 
-<sense xml:id="uuid-e7e5c764-2498-467e-a5c7-642498667e23" resp="#CH" tls:created="2022-08-30T22:20:13.096+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp><def>(degree of) valour</def></sense><sense xml:id="uuid-a1e78bda-6bcb-4319-a78b-da6bcb23194b" resp="#CH" tls:created="2022-09-22T18:54:50.3+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>the exemplary courage of the contextually determinate N</def></sense><sense xml:id="uuid-521d8044-5500-4589-9d80-445500658900" resp="#dsehnal" tls:created="2024-01-21T21:01:54.612+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3d623288-bcf9-46e1-a232-88bcf956e1ca">v[adN1.]adN2</tls:syn-func></gramGrp><def>belonging to a brave person</def></sense></entry>
+<sense xml:id="uuid-e7e5c764-2498-467e-a5c7-642498667e23" resp="#CH" tls:created="2022-08-30T22:20:13.096+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+                <def>(degree of) valour</def>
+            </sense>
+            <sense xml:id="uuid-a1e78bda-6bcb-4319-a78b-da6bcb23194b" resp="#CH" tls:created="2022-09-22T18:54:50.3+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the exemplary courage of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-521d8044-5500-4589-9d80-445500658900" resp="#dsehnal" tls:created="2024-01-21T21:01:54.612+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3d623288-bcf9-46e1-a232-88bcf956e1ca">v[adN1.]adN2</tls:syn-func>
+                </gramGrp>
+                <def>belonging to a brave person</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-284dc146-d791-48b9-955d-87b8e66c3dc0">
             <form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
 <orth>志</orth>
@@ -494,7 +520,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-02-26T02:07:15.901+09:00">ferocious, foolhardy; fiercely courageous, habitually violent; obstreporous</def>
             </sense>
-<sense xml:id="uuid-d386762c-4284-4682-8676-2c4284e682a1" resp="#zadrapa" tls:created="2022-05-29T05:16:11.872+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat></gramGrp><def>ferocious person</def></sense></entry>
+<sense xml:id="uuid-d386762c-4284-4682-8676-2c4284e682a1" resp="#zadrapa" tls:created="2022-05-29T05:16:11.872+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat>
+                </gramGrp>
+                <def>ferocious person</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-87add62d-d8d0-4060-96e4-7a209467d0dd">
             <form>
 <orth>賁憤</orth>
@@ -568,7 +602,14 @@
                 </gramGrp>
   <def>have the courage to V</def>
             </sense>
-<sense xml:id="uuid-622df6eb-faee-44db-beb2-5c04ef7ff6ff" resp="#CH" tls:created="2019-12-20T05:10:41.795+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt(oV[0])</tls:syn-func></gramGrp><def>dare to do the contextually determinate act V</def></sense></entry>
+<sense xml:id="uuid-622df6eb-faee-44db-beb2-5c04ef7ff6ff" resp="#CH" tls:created="2019-12-20T05:10:41.795+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt(oV[0])</tls:syn-func>
+                </gramGrp>
+                <def>dare to do the contextually determinate act V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3cf31284-77b0-467a-9d92-023ad59103b4">
             <form corresp="#uuid-1cdb3d34-31dc-4fd9-81a0-4f088c6bc318">
 <orth>斷</orth>
@@ -660,7 +701,14 @@
                 </gramGrp>
   <def>of troops: be spirited, be militarily efficient; be in accordance with the proper military spirit</def>
             </sense>
-<sense xml:id="uuid-2baf6634-2839-47cd-af66-342839c7cd04" resp="#CH" tls:created="2022-09-16T06:01:40.633+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-16T06:06:33.07+09:00">martial valour; martial virtues</def></sense></entry>
+<sense xml:id="uuid-2baf6634-2839-47cd-af66-342839c7cd04" resp="#CH" tls:created="2022-09-16T06:01:40.633+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-16T06:06:33.07+09:00">martial valour; martial virtues</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-56218322-eb87-4c8f-b2fc-cfd8404ba737">
             <form corresp="#uuid-27eb141c-5985-45f2-8c67-aab307419dcb">
 <orth>毅</orth>
@@ -795,7 +843,15 @@
                 </gramGrp>
   <def>courage</def>
             </sense>
-<sense xml:id="uuid-28e2b9d6-089e-4f56-a2b9-d6089e9f56d7" resp="#zadrapa" tls:created="2021-01-18T23:31:59.084+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>be courageous</def></sense></entry>
+<sense xml:id="uuid-28e2b9d6-089e-4f56-a2b9-d6089e9f56d7" resp="#zadrapa" tls:created="2021-01-18T23:31:59.084+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>be courageous</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ee0290d9-53a1-4f88-a7a5-af7cfdffe57c">
             <form corresp="#uuid-33cc60d0-abfc-4f50-b9dc-cd8c97ba4649 #uuid-455ed56a-8d66-4439-8d61-86e412c815dd">
 <orth>勇氣</orth>
@@ -971,5 +1027,68 @@
   <def resp="#schwermann" updated="2020-12-14T21:02:23.476+09:00">courage and integrity; (moral) steadfastness</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-53d01ca2-70f8-45d4-901c-a270f8e5d4d5" resp="#zadrapa" tls:created="2020-05-28T16:27:25.448+09:00"><form corresp="#uuid-1efd8926-42f1-4f3d-b743-20935289c722 #uuid-924dd117-67d2-4583-918c-a0c28ac31846"><orth>愓悍</orth><pron xml:lang="zh-Latn-x-pinyin">dàng hàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dangX hanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaŋʔ ɡaans</pron></form><sense xml:id="uuid-669fcf79-a0c2-4dc8-9fcf-79a0c25dc85c" resp="#zadrapa" tls:created="2020-05-28T16:27:25.448+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat></gramGrp><def>ferocious, typically to the point of cruelty</def></sense></entry><entry type="word" xml:id="uuid-208c4a74-834d-4f1d-8c4a-74834d9f1d3b" resp="#zadrapa" tls:created="2020-06-18T18:25:20.031+09:00"><form corresp="#uuid-e30b5539-f35a-4b28-888a-0074f89ee597 #uuid-924dd117-67d2-4583-918c-a0c28ac31846"><orth>蕩悍</orth><pron xml:lang="zh-Latn-x-pinyin">dàng hàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dangX hanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaŋʔ ɡaans</pron></form><sense xml:id="uuid-88f028ba-e7cd-4c2c-b028-bae7cd3c2c5a" resp="#zadrapa" tls:created="2020-06-18T18:25:20.031+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat></gramGrp><def>= dang4han4 愓悍, ferocious, typically to the point of cruelty</def></sense></entry><entry type="word" xml:id="uuid-3a9d231e-20c6-4e17-9d23-1e20c64e17d8" resp="#zadrapa" tls:created="2021-06-29T17:57:13.91+09:00"><form corresp="#uuid-f5567e91-1287-4995-ad3c-48b9a5a68d38 #uuid-27cddaa2-75c9-49a4-b605-1fc188a9b92d"><orth>蹈難</orth><pron xml:lang="zh-Latn-x-pinyin">dào nàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dawH nanX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-luus mɢlaans</pron></form><sense xml:id="uuid-57967679-e69c-490f-9676-79e69ca90fc4" resp="#zadrapa" tls:created="2021-06-29T17:57:13.91+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>deeds of courage</def></sense></entry><entry type="word" xml:id="uuid-631bc49f-82bd-453b-9bc4-9f82bdf53b62" resp="#zadrapa" tls:created="2022-06-13T22:21:19.143+09:00"><form corresp="#uuid-8665ea15-6258-46e2-ba3b-f27d3f9fbe36 #uuid-65dd724e-95ea-4bdf-b805-0a3e4a0ff85d"><orth>健勇</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn yǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjonH yowngX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡans k-loŋʔ</pron></form><sense xml:id="uuid-77decd85-a9f7-47d3-9ecd-85a9f7d7d330" resp="#zadrapa" tls:created="2022-06-13T22:21:19.143+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>strong and courageous</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-53d01ca2-70f8-45d4-901c-a270f8e5d4d5" resp="#zadrapa" tls:created="2020-05-28T16:27:25.448+09:00">
+            <form corresp="#uuid-1efd8926-42f1-4f3d-b743-20935289c722 #uuid-924dd117-67d2-4583-918c-a0c28ac31846">
+                <orth>愓悍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dàng hàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dangX hanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaŋʔ ɡaans</pron>
+            </form>
+            <sense xml:id="uuid-669fcf79-a0c2-4dc8-9fcf-79a0c25dc85c" resp="#zadrapa" tls:created="2020-05-28T16:27:25.448+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat>
+                </gramGrp>
+                <def>ferocious, typically to the point of cruelty</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-208c4a74-834d-4f1d-8c4a-74834d9f1d3b" resp="#zadrapa" tls:created="2020-06-18T18:25:20.031+09:00">
+            <form corresp="#uuid-e30b5539-f35a-4b28-888a-0074f89ee597 #uuid-924dd117-67d2-4583-918c-a0c28ac31846">
+                <orth>蕩悍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dàng hàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dangX hanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaŋʔ ɡaans</pron>
+            </form>
+            <sense xml:id="uuid-88f028ba-e7cd-4c2c-b028-bae7cd3c2c5a" resp="#zadrapa" tls:created="2020-06-18T18:25:20.031+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat>
+                </gramGrp>
+                <def>= dang4han4 愓悍, ferocious, typically to the point of cruelty</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3a9d231e-20c6-4e17-9d23-1e20c64e17d8" resp="#zadrapa" tls:created="2021-06-29T17:57:13.91+09:00">
+            <form corresp="#uuid-f5567e91-1287-4995-ad3c-48b9a5a68d38 #uuid-27cddaa2-75c9-49a4-b605-1fc188a9b92d">
+                <orth>蹈難</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dào nàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dawH nanX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-luus mɢlaans</pron>
+            </form>
+            <sense xml:id="uuid-57967679-e69c-490f-9676-79e69ca90fc4" resp="#zadrapa" tls:created="2021-06-29T17:57:13.91+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>deeds of courage</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-631bc49f-82bd-453b-9bc4-9f82bdf53b62" resp="#zadrapa" tls:created="2022-06-13T22:21:19.143+09:00">
+            <form corresp="#uuid-8665ea15-6258-46e2-ba3b-f27d3f9fbe36 #uuid-65dd724e-95ea-4bdf-b805-0a3e4a0ff85d">
+                <orth>健勇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn yǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjonH yowngX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡans k-loŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-77decd85-a9f7-47d3-9ecd-85a9f7d7d330" resp="#zadrapa" tls:created="2022-06-13T22:21:19.143+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>strong and courageous</def>
+            </sense>
+        </entry>
+    </div>
 </div>

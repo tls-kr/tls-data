@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-490650da-7c93-476d-8ef3-98b78bea51c0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-490650da-7c93-476d-8ef3-98b78bea51c0">
 <head>FUTURE</head>
     <list type="translations">
         <item xml:lang="zh">未來</item>
@@ -535,7 +536,15 @@
                 </gramGrp>
   <def>in the near future; soon afterwards; another time in the future</def>
             </sense>
-<sense xml:id="uuid-a046d2f8-e1e4-4b8a-8e4d-8a127e635b1a" resp="#CH" tls:created="2020-02-03T21:55:32.909+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPadS</tls:syn-func><tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp><def>generalised: any other day; another day</def></sense></entry>
+<sense xml:id="uuid-a046d2f8-e1e4-4b8a-8e4d-8a127e635b1a" resp="#CH" tls:created="2020-02-03T21:55:32.909+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+                <def>generalised: any other day; another day</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-aa696c53-75fa-4b36-a36b-dd50b2555003">
             <form corresp="#uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6 #uuid-0a2970a8-0d00-4baf-9651-be47b9df2279">
 <orth>來世</orth>
@@ -904,5 +913,35 @@
             </sense>
 </entry>
 
-    <entry type="word" xml:id="uuid-af19eaca-497c-4bcd-99ea-ca497cfbcd89" resp="#zadrapa" tls:created="2020-12-01T23:04:36.3+09:00"><form corresp="#uuid-4104b55a-a5d4-4701-9109-03fdafdb07a6 #uuid-79ba8c80-7f2a-411d-9323-2249801433ea"><orth>其後</orth><pron xml:lang="zh-Latn-x-pinyin">jī hòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ki huwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯ ɡooʔ</pron></form><sense xml:id="uuid-15e770e0-d19e-48cb-a770-e0d19e68cb23" resp="#zadrapa" tls:created="2020-12-01T23:04:36.3+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>future, what happens thereafter</def></sense></entry><entry type="word" xml:id="uuid-f29d546b-de88-4e62-9d54-6bde880e6256" resp="#CH" tls:created="2022-09-22T20:14:01.471+09:00"><form corresp="#uuid-79ba8c80-7f2a-411d-9323-2249801433ea #uuid-0fb993fe-bd05-4fcc-a4ee-a7943245582c"><orth>後圖</orth><pron xml:lang="zh-Latn-x-pinyin">hòu tú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">huwX du</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡooʔ daa</pron></form><sense xml:id="uuid-66710af9-d0b6-4598-b10a-f9d0b6f598ba" resp="#CH" tls:created="2022-09-22T20:14:01.471+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>long future perspective</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-af19eaca-497c-4bcd-99ea-ca497cfbcd89" resp="#zadrapa" tls:created="2020-12-01T23:04:36.3+09:00">
+            <form corresp="#uuid-4104b55a-a5d4-4701-9109-03fdafdb07a6 #uuid-79ba8c80-7f2a-411d-9323-2249801433ea">
+                <orth>其後</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jī hòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ki huwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯ ɡooʔ</pron>
+            </form>
+            <sense xml:id="uuid-15e770e0-d19e-48cb-a770-e0d19e68cb23" resp="#zadrapa" tls:created="2020-12-01T23:04:36.3+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>future, what happens thereafter</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f29d546b-de88-4e62-9d54-6bde880e6256" resp="#CH" tls:created="2022-09-22T20:14:01.471+09:00">
+            <form corresp="#uuid-79ba8c80-7f2a-411d-9323-2249801433ea #uuid-0fb993fe-bd05-4fcc-a4ee-a7943245582c">
+                <orth>後圖</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hòu tú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">huwX du</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡooʔ daa</pron>
+            </form>
+            <sense xml:id="uuid-66710af9-d0b6-4598-b10a-f9d0b6f598ba" resp="#CH" tls:created="2022-09-22T20:14:01.471+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>long future perspective</def>
+            </sense>
+        </entry>
+    </div>
 </div>

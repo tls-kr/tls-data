@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-24546ca4-fd38-41a7-9c33-555b63244cae">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-24546ca4-fd38-41a7-9c33-555b63244cae">
 <head>SERVANT</head>
     <list type="altnames">
 <item>ATTENDANT</item>
@@ -316,7 +317,14 @@
                 </gramGrp>
   <def>the servant of the contextually determinate N</def>
             </sense>
-<sense xml:id="uuid-bc802969-f757-47ff-8357-3ac768306ef0" resp="#CH" tls:created="2019-12-25T19:55:17.235+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nadN</tls:syn-func></gramGrp><def>humble-servant-like</def></sense></entry>
+<sense xml:id="uuid-bc802969-f757-47ff-8357-3ac768306ef0" resp="#CH" tls:created="2019-12-25T19:55:17.235+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nadN</tls:syn-func>
+                </gramGrp>
+                <def>humble-servant-like</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f1b7fc6f-46e9-4b32-9687-13bdc41fb259">
             <form corresp="#uuid-be389dc1-1119-4f94-beba-40480f55914a">
 <orth>吏</orth>
@@ -366,7 +374,14 @@
                 </gramGrp>
   <def>LIJI: enslaved female&gt; maid, maidservant</def>
             </sense>
-<sense xml:id="uuid-cb29f044-b0da-40fa-a9f0-44b0da90fa4a" resp="#dsehnal" tls:created="2023-07-15T01:54:09.705+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>female servant's</def></sense></entry>
+<sense xml:id="uuid-cb29f044-b0da-40fa-a9f0-44b0da90fa4a" resp="#dsehnal" tls:created="2023-07-15T01:54:09.705+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>female servant's</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1d75c306-ba05-418c-85d3-88b1bf3062a7">
             <form corresp="#uuid-c8c7711f-c417-4098-82e1-70e33aa4627b">
 <orth>宦</orth>
@@ -526,7 +541,21 @@
                 </gramGrp>
   <def>like a servant, as a servant</def>
             </sense>
-<sense xml:id="uuid-0c48a6a3-4d8e-4ec4-88a6-a34d8ebec4db" resp="#Valerie.Kiel" tls:created="2022-09-10T22:36:35.964+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>(one's) servant, (another's) servant</def></sense><sense xml:id="uuid-8d751cc3-b354-4929-b51c-c3b354d929f9" resp="#Valerie.Kiel" tls:created="2022-09-10T22:50:54.587+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def resp="#Valerie.Kiel" updated="2022-09-10T22:51:32.298+09:00">the contextually determinate N's servant</def></sense></entry>
+<sense xml:id="uuid-0c48a6a3-4d8e-4ec4-88a6-a34d8ebec4db" resp="#Valerie.Kiel" tls:created="2022-09-10T22:36:35.964+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>(one's) servant, (another's) servant</def>
+            </sense>
+            <sense xml:id="uuid-8d751cc3-b354-4929-b51c-c3b354d929f9" resp="#Valerie.Kiel" tls:created="2022-09-10T22:50:54.587+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def resp="#Valerie.Kiel" updated="2022-09-10T22:51:32.298+09:00">the contextually determinate N's servant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b1d5b9ad-b2d8-4ecd-8371-29be8bf3c8c3">
             <form corresp="#uuid-a4fbbd57-f280-490b-bb19-d8847e080d46">
 <orth>臺</orth>
@@ -999,7 +1028,23 @@
                 </gramGrp>
   <def>household retainer; servant of the household; retainer of the clan</def>
             </sense>
-<sense xml:id="uuid-adf80ede-269f-405c-8db1-33371d074643" resp="#CH" tls:created="2019-12-13T19:56:02.555+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>retainers of N</def></sense><sense xml:id="uuid-373c8e7a-bea5-4574-b59d-1aa579a19719" resp="#CH" tls:created="2019-12-13T19:59:48.659+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e"/></gramGrp><def resp="#CH" updated="2022-09-09T22:02:29.984+09:00">the retainers or domestics of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-adf80ede-269f-405c-8db1-33371d074643" resp="#CH" tls:created="2019-12-13T19:56:02.555+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>retainers of N</def>
+            </sense>
+            <sense xml:id="uuid-373c8e7a-bea5-4574-b59d-1aa579a19719" resp="#CH" tls:created="2019-12-13T19:59:48.659+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e"/>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-09T22:02:29.984+09:00">the retainers or domestics of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f7656bdb-6661-443d-9b73-2e8b4e607ba2">
             <form corresp="#uuid-ed694f6b-c482-40ad-ae71-c1c92d0f421a #uuid-638f5102-6260-4085-891d-9864102bc27c">
 <orth>謁者</orth>
@@ -1124,5 +1169,35 @@
   <def>butler, purveyor of messages in an ordinary household</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-91b3178f-23dd-43a4-b317-8f23dd73a45d" resp="#CH" tls:created="2021-05-21T23:07:41.641+09:00"><form corresp="#uuid-637f1280-d50d-46b4-9cb4-29ee09c2276a #uuid-07d5ea38-626a-4dff-8d57-95be3a888e45"><orth>豎子</orth><pron xml:lang="zh-Latn-x-pinyin">shù zǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuX tsiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoʔ sklɯʔ</pron></form><sense xml:id="uuid-bf2ca933-b1cd-4126-aca9-33b1cd312682" resp="#CH" tls:created="2021-05-21T23:07:41.641+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>N's servant boy (of the contextually determinate N)</def></sense></entry><entry type="word" xml:id="uuid-7f90c2a0-8f92-4158-90c2-a08f92e15897" resp="#zadrapa" tls:created="2022-05-29T04:45:08.825+09:00"><form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-722c8aca-9859-4f59-994f-de930870deb7"><orth>人徒</orth><pron xml:lang="zh-Latn-x-pinyin">rén tú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyin du</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin daa</pron></form><sense xml:id="uuid-a9e3b140-bd45-48e2-a3b1-40bd4598e218" resp="#zadrapa" tls:created="2022-05-29T04:45:08.825+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def>the sum of one's servants; entourage</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-91b3178f-23dd-43a4-b317-8f23dd73a45d" resp="#CH" tls:created="2021-05-21T23:07:41.641+09:00">
+            <form corresp="#uuid-637f1280-d50d-46b4-9cb4-29ee09c2276a #uuid-07d5ea38-626a-4dff-8d57-95be3a888e45">
+                <orth>豎子</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shù zǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuX tsiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoʔ sklɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-bf2ca933-b1cd-4126-aca9-33b1cd312682" resp="#CH" tls:created="2021-05-21T23:07:41.641+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>N's servant boy (of the contextually determinate N)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7f90c2a0-8f92-4158-90c2-a08f92e15897" resp="#zadrapa" tls:created="2022-05-29T04:45:08.825+09:00">
+            <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-722c8aca-9859-4f59-994f-de930870deb7">
+                <orth>人徒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rén tú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyin du</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin daa</pron>
+            </form>
+            <sense xml:id="uuid-a9e3b140-bd45-48e2-a3b1-40bd4598e218" resp="#zadrapa" tls:created="2022-05-29T04:45:08.825+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>the sum of one's servants; entourage</def>
+            </sense>
+        </entry>
+    </div>
 </div>

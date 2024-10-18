@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ab78015-0fad-44a9-a51a-a870f5602d88">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ab78015-0fad-44a9-a51a-a870f5602d88">
 <head>CORRECT</head>
     <list type="altnames">
 <item>EXACT</item>
@@ -29,7 +30,10 @@
     </list>
 <div type="definition">
 <p>APPROPRIATE so as to FIT the FACTS or the PRINCIPLES PERFECTLY.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:26:50.328+09:00"><p>APPROPRIATE so as to FIT the FACTS or the PRINCIPLES.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:26:50.328+09:00">
+            <p>APPROPRIATE so as to FIT the FACTS or the PRINCIPLES.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The standard word for conformity with an established standard of behavioural or physical allignment zhèng 正 (ant. xié 邪 ).</p>
@@ -352,7 +356,14 @@
                 </gramGrp>
   <def>straighten oneself out</def>
             </sense>
-<sense xml:id="uuid-04bf8523-d6e9-4c05-9e84-1d7725d73fd3" resp="#CH" tls:created="2019-12-08T18:27:59.459+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>try to straighten out</def></sense></entry>
+<sense xml:id="uuid-04bf8523-d6e9-4c05-9e84-1d7725d73fd3" resp="#CH" tls:created="2019-12-08T18:27:59.459+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>try to straighten out</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3d571fb4-96c8-4bd3-9345-35d1a0c8100c">
             <form corresp="#uuid-c999ab91-bd63-4c68-8ac7-a4806975fe85">
 <orth>正</orth>
@@ -545,7 +556,38 @@
                 </gramGrp>
   <def resp="#CH" updated="2019-12-02T05:42:39.616+09:00">go on correctly as it is supposed to</def>
             </sense>
-<sense xml:id="uuid-322bdde0-dc45-4b99-b9d1-f72353e06ef2" resp="#CH" tls:created="2020-01-13T03:33:38.928+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-04-14T19:47:05.815+09:00">N=human: set on the right path, correct the ways of</def></sense><sense xml:id="uuid-ae6ae819-1b6d-4da9-9273-a27b3cb3aef2" resp="#CH" tls:created="2020-01-27T00:11:21.935+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func></gramGrp><def/></sense><sense xml:id="uuid-11ac9ca9-affd-4b29-8aca-2f762139a3b8" resp="#CH" tls:created="2020-01-27T00:12:58.986+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be put in order, be properly ordered</def></sense><sense xml:id="uuid-3974e002-1c3f-4d9f-b4e0-021c3fdd9fa6" resp="#CH" tls:created="2021-06-17T04:24:51.674+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-a87a8db3-535b-4085-911c-cb9549d9267e">N=act</tls:sem-feat></gramGrp><def>correct actions</def></sense></entry>
+<sense xml:id="uuid-322bdde0-dc45-4b99-b9d1-f72353e06ef2" resp="#CH" tls:created="2020-01-13T03:33:38.928+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-14T19:47:05.815+09:00">N=human: set on the right path, correct the ways of</def>
+            </sense>
+            <sense xml:id="uuid-ae6ae819-1b6d-4da9-9273-a27b3cb3aef2" resp="#CH" tls:created="2020-01-27T00:11:21.935+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+            <sense xml:id="uuid-11ac9ca9-affd-4b29-8aca-2f762139a3b8" resp="#CH" tls:created="2020-01-27T00:12:58.986+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be put in order, be properly ordered</def>
+            </sense>
+            <sense xml:id="uuid-3974e002-1c3f-4d9f-b4e0-021c3fdd9fa6" resp="#CH" tls:created="2021-06-17T04:24:51.674+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a87a8db3-535b-4085-911c-cb9549d9267e">N=act</tls:sem-feat>
+                </gramGrp>
+                <def>correct actions</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9ab2f6bb-e719-45ad-a3e7-dce41d841fb9">
             <form corresp="#uuid-7ab3e826-29ba-45be-8d0c-4d4619938591">
 <orth>理</orth>
@@ -560,7 +602,22 @@
                 </gramGrp>
   <def>regular; according to the correct pattern</def>
             </sense>
-<sense xml:id="uuid-37d40d0d-3e1b-471e-940d-0d3e1b271e6e" resp="#CH" tls:created="2020-12-08T04:29:57.847+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>correct behaviour; principled behaviour</def></sense><sense xml:id="uuid-4bc76d7f-2cd8-4a7e-876d-7f2cd84a7e10" resp="#zadrapa" tls:created="2021-02-09T18:21:16.477+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>correctly, properly</def></sense></entry>
+<sense xml:id="uuid-37d40d0d-3e1b-471e-940d-0d3e1b271e6e" resp="#CH" tls:created="2020-12-08T04:29:57.847+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>correct behaviour; principled behaviour</def>
+            </sense>
+            <sense xml:id="uuid-4bc76d7f-2cd8-4a7e-876d-7f2cd84a7e10" resp="#zadrapa" tls:created="2021-02-09T18:21:16.477+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>correctly, properly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ffc5905b-4e2e-4778-9e11-3695ed6242bd">
             <form corresp="#uuid-ecf017d5-36bc-4f15-bd43-79eec75c9b23">
 <orth>當</orth>
@@ -575,7 +632,14 @@
                 </gramGrp>
   <def>be fitting and right, be as it should be</def>
             </sense>
-<sense xml:id="uuid-f21e02ad-ddfd-4ddf-9e02-adddfd3ddf51" resp="#zadrapa" tls:created="2020-05-29T17:05:02.008+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>correctness, propriety</def></sense></entry>
+<sense xml:id="uuid-f21e02ad-ddfd-4ddf-9e02-adddfd3ddf51" resp="#zadrapa" tls:created="2020-05-29T17:05:02.008+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>correctness, propriety</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b9bfcd79-4ed4-40b1-8540-45db14c54396">
             <form corresp="#uuid-1a6a27ca-872a-4ca7-99c3-597890ce688b">
 <orth>矯</orth>
@@ -724,7 +788,14 @@
                 </gramGrp>
   <def>cause to be properly adjusted</def>
             </sense>
-<sense xml:id="uuid-5efc56f8-aa76-4b05-bc56-f8aa765b0551" resp="#CH" tls:created="2020-03-30T05:18:31.7+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be straight and correct</def></sense></entry>
+<sense xml:id="uuid-5efc56f8-aa76-4b05-bc56-f8aa765b0551" resp="#CH" tls:created="2020-03-30T05:18:31.7+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be straight and correct</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dc649ed5-a733-465c-9aa6-934cac817309">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-bf76a9cb-0ff4-4872-8b8d-eb3a328660f9">
 <orth>不僭</orth>
@@ -851,8 +922,128 @@
   <def>cause to become appropriate and correct&gt; to correct, to straighten out</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-eb43eaa0-7960-4619-83ea-a07960561940" resp="#CH" tls:created="2020-04-07T20:54:28.014+09:00"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-df3b2343-918c-4300-911b-9206b25c5d01"><orth>不失</orth><pron xml:lang="zh-Latn-x-pinyin">bù shī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjut syit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ lʰiɡ</pron></form><sense xml:id="uuid-99374011-6b03-4780-b740-116b0327807b" resp="#CH" tls:created="2020-04-07T20:54:28.014+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0b46d59e-9906-4ab8-887b-12a0ee8244ae">VPpostadV</tls:syn-func></gramGrp><def>correctly, without making mistakes</def></sense></entry><entry type="word" xml:id="uuid-8e581781-c522-4f5d-9817-81c5224f5dc0" resp="#zadrapa" tls:created="2020-06-22T22:06:40.294+09:00"><form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-c999ab91-bd63-4c68-8ac7-a4806975fe85"><orth>脩正</orth><pron xml:lang="zh-Latn-x-pinyin">xiū zhèng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw tsyengH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw tjeŋs
-</pron></form><sense xml:id="uuid-e480f4a8-9e77-40a6-80f4-a89e7740a601" resp="#zadrapa" tls:created="2020-06-22T22:06:40.294+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2020-06-22T22:07:34.363+09:00">be morally upright and fine</def></sense><sense xml:id="uuid-d4e3aeff-faf1-4e74-a3ae-fffaf1be74b6" resp="#zadrapa" tls:created="2023-06-16T19:07:03.64+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>to make N morally upright</def></sense></entry><entry type="word" xml:id="uuid-fd8a802a-845a-49a7-8a80-2a845a19a774" resp="#CH" tls:created="2021-05-22T04:44:16.649+09:00"><form corresp="#uuid-b711b069-2680-4033-9f72-302d8ddc4c34 #uuid-f9972491-2a8b-4ba4-a7e7-6e87ada99769"><orth>似之</orth><pron xml:lang="zh-Latn-x-pinyin">sì zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ziX tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlɯʔ kljɯ</pron></form><sense xml:id="uuid-a293fdba-c8c3-41d0-93fd-bac8c361d0ee" resp="#CH" tls:created="2021-05-22T04:44:16.649+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>seem to be all right, seem to be the right thing to do</def></sense></entry><entry type="word" xml:id="uuid-2ef5d8a6-b288-4c88-b5d8-a6b2880c885c" resp="#CH" tls:created="2021-06-02T03:04:06.872+09:00"><form corresp="#uuid-bae09275-1f78-48bc-b1cd-75eb14ed6161"><orth>恂</orth><pron xml:lang="zh-Latn-x-pinyin">xún</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">swin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqʷlin</pron></form><sense xml:id="uuid-b691bfcc-da18-4ba9-91bf-ccda18cba96f" resp="#CH" tls:created="2021-06-02T03:04:06.872+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>of one's thinking: be precise and reliable</def></sense></entry><entry type="word" xml:id="uuid-b61b9fa1-5da0-4bed-9b9f-a15da0ebed45" resp="#zadrapa" tls:created="2021-06-14T16:55:21.37+09:00"><form corresp="#uuid-91659343-9c60-4254-bfa8-db6e35606809 #uuid-9e255133-34ed-41f7-8e5b-a9fbfe79899a"><orth>橋飾</orth><pron xml:lang="zh-Latn-x-pinyin">qiáo shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjew syik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrew qhljɯɡ</pron></form><sense xml:id="uuid-6cc233bc-cbca-4ae2-8233-bccbcafae2f3" resp="#zadrapa" tls:created="2021-06-14T16:55:21.37+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>= jiao3chi4 矯飭: make correct, reform</def></sense></entry><entry type="word" xml:id="uuid-400034ed-7fa9-4964-8034-ed7fa9d96471" resp="#CH" tls:created="2022-11-24T19:52:35.89+09:00"><form corresp="#uuid-747e8532-e8bd-4f01-b43e-ad5025ef888a"><orth>度</orth><pron xml:lang="zh-Latn-x-pinyin">dù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">duH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaɡs</pron></form><sense xml:id="uuid-1e2a5a87-dcc4-41c6-aa5a-87dcc421c6da" resp="#CH" tls:created="2022-11-24T19:52:35.89+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be according to the rules, be correct</def></sense><sense xml:id="uuid-a30780b2-777b-4def-8780-b2777b4def5a" resp="#CH" tls:created="2022-11-24T19:56:42.62+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c48a2665-96a1-4116-b9d3-22be9eb5a526">vt+prep+Nab</tls:syn-func></gramGrp><def>be correct in relation to Nab</def></sense></entry><entry type="word" xml:id="uuid-0c532ad9-577b-4e34-932a-d9577b5e34c9" resp="#CH" tls:created="2023-08-20T16:58:18.364+09:00"><form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-e3f257a7-74ac-4bb6-8865-45cea490d2b5"><orth>無咎</orth><pron xml:lang="zh-Latn-x-pinyin">wú jiù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju gjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma ɡlɯwʔ</pron></form><sense xml:id="uuid-ef2ae29c-7646-4d29-aae2-9c7646fd29be" resp="#CH" tls:created="2023-08-20T16:58:18.364+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be impeccable; be faultless; be without blame.</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-eb43eaa0-7960-4619-83ea-a07960561940" resp="#CH" tls:created="2020-04-07T20:54:28.014+09:00">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-df3b2343-918c-4300-911b-9206b25c5d01">
+                <orth>不失</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù shī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjut syit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ lʰiɡ</pron>
+            </form>
+            <sense xml:id="uuid-99374011-6b03-4780-b740-116b0327807b" resp="#CH" tls:created="2020-04-07T20:54:28.014+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0b46d59e-9906-4ab8-887b-12a0ee8244ae">VPpostadV</tls:syn-func>
+                </gramGrp>
+                <def>correctly, without making mistakes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e581781-c522-4f5d-9817-81c5224f5dc0" resp="#zadrapa" tls:created="2020-06-22T22:06:40.294+09:00">
+            <form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-c999ab91-bd63-4c68-8ac7-a4806975fe85">
+                <orth>脩正</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiū zhèng
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw tsyengH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw tjeŋs
+</pron>
+            </form>
+            <sense xml:id="uuid-e480f4a8-9e77-40a6-80f4-a89e7740a601" resp="#zadrapa" tls:created="2020-06-22T22:06:40.294+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-06-22T22:07:34.363+09:00">be morally upright and fine</def>
+            </sense>
+            <sense xml:id="uuid-d4e3aeff-faf1-4e74-a3ae-fffaf1be74b6" resp="#zadrapa" tls:created="2023-06-16T19:07:03.64+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>to make N morally upright</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fd8a802a-845a-49a7-8a80-2a845a19a774" resp="#CH" tls:created="2021-05-22T04:44:16.649+09:00">
+            <form corresp="#uuid-b711b069-2680-4033-9f72-302d8ddc4c34 #uuid-f9972491-2a8b-4ba4-a7e7-6e87ada99769">
+                <orth>似之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ziX tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlɯʔ kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-a293fdba-c8c3-41d0-93fd-bac8c361d0ee" resp="#CH" tls:created="2021-05-22T04:44:16.649+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>seem to be all right, seem to be the right thing to do</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2ef5d8a6-b288-4c88-b5d8-a6b2880c885c" resp="#CH" tls:created="2021-06-02T03:04:06.872+09:00">
+            <form corresp="#uuid-bae09275-1f78-48bc-b1cd-75eb14ed6161">
+                <orth>恂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xún</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">swin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqʷlin</pron>
+            </form>
+            <sense xml:id="uuid-b691bfcc-da18-4ba9-91bf-ccda18cba96f" resp="#CH" tls:created="2021-06-02T03:04:06.872+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>of one's thinking: be precise and reliable</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b61b9fa1-5da0-4bed-9b9f-a15da0ebed45" resp="#zadrapa" tls:created="2021-06-14T16:55:21.37+09:00">
+            <form corresp="#uuid-91659343-9c60-4254-bfa8-db6e35606809 #uuid-9e255133-34ed-41f7-8e5b-a9fbfe79899a">
+                <orth>橋飾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiáo shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjew syik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrew qhljɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-6cc233bc-cbca-4ae2-8233-bccbcafae2f3" resp="#zadrapa" tls:created="2021-06-14T16:55:21.37+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>= jiao3chi4 矯飭: make correct, reform</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-400034ed-7fa9-4964-8034-ed7fa9d96471" resp="#CH" tls:created="2022-11-24T19:52:35.89+09:00">
+            <form corresp="#uuid-747e8532-e8bd-4f01-b43e-ad5025ef888a">
+                <orth>度</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">duH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaɡs</pron>
+            </form>
+            <sense xml:id="uuid-1e2a5a87-dcc4-41c6-aa5a-87dcc421c6da" resp="#CH" tls:created="2022-11-24T19:52:35.89+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be according to the rules, be correct</def>
+            </sense>
+            <sense xml:id="uuid-a30780b2-777b-4def-8780-b2777b4def5a" resp="#CH" tls:created="2022-11-24T19:56:42.62+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c48a2665-96a1-4116-b9d3-22be9eb5a526">vt+prep+Nab</tls:syn-func>
+                </gramGrp>
+                <def>be correct in relation to Nab</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0c532ad9-577b-4e34-932a-d9577b5e34c9" resp="#CH" tls:created="2023-08-20T16:58:18.364+09:00">
+            <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-e3f257a7-74ac-4bb6-8865-45cea490d2b5">
+                <orth>無咎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú jiù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju gjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma ɡlɯwʔ</pron>
+            </form>
+            <sense xml:id="uuid-ef2ae29c-7646-4d29-aae2-9c7646fd29be" resp="#CH" tls:created="2023-08-20T16:58:18.364+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be impeccable; be faultless; be without blame.</def>
+            </sense>
+        </entry>
+    </div>
 </div>

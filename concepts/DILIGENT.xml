@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-581711c4-9e65-4128-bfd5-8a2dc56a6e38">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-581711c4-9e65-4128-bfd5-8a2dc56a6e38">
 <head>DILIGENT</head>
     <list type="altnames">
 <item>INDUSTRIOUS</item>
@@ -578,7 +579,14 @@
                 </gramGrp>
   <def>be attentive and make an honest effort, sincere and diligent SW: 謹也</def>
             </sense>
-<sense xml:id="uuid-9b9dc9c8-6eae-4f78-9dc9-c86eae0f7805" resp="#CH" tls:created="2021-07-19T01:33:59.579+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>diligent</def></sense></entry>
+<sense xml:id="uuid-9b9dc9c8-6eae-4f78-9dc9-c86eae0f7805" resp="#CH" tls:created="2021-07-19T01:33:59.579+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>diligent</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0ad2e8e0-4724-4954-8899-a6aae9c5287b">
             <form corresp="#uuid-eaf40a23-c1b4-4cdb-8246-c1dc0b2adb48">
 <orth>慎</orth>
@@ -652,7 +660,22 @@
                 </gramGrp>
   <def>be diligent with respect to</def>
             </sense>
-<sense xml:id="uuid-d99bcdfb-b983-4e3d-9da2-51c5ac9415d2" resp="#CH" tls:created="2019-12-09T01:54:48.277+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be paid careful attention to</def></sense><sense xml:id="uuid-8dbf2138-d2c5-419c-b81d-72aecfddd507" resp="#CH" tls:created="2019-12-17T04:12:37.771+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>pay careful attention to N</def></sense></entry>
+<sense xml:id="uuid-d99bcdfb-b983-4e3d-9da2-51c5ac9415d2" resp="#CH" tls:created="2019-12-09T01:54:48.277+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be paid careful attention to</def>
+            </sense>
+            <sense xml:id="uuid-8dbf2138-d2c5-419c-b81d-72aecfddd507" resp="#CH" tls:created="2019-12-17T04:12:37.771+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>pay careful attention to N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5be86cae-90a6-4710-91b2-7901f6ffd41d">
             <form corresp="#uuid-9c268abb-8731-4951-bf56-7ad13e36f555">
 <orth>懃</orth>
@@ -781,7 +804,15 @@
                 </gramGrp>
   <def>be diligent about N!</def>
             </sense>
-<sense xml:id="uuid-71fd4fd8-d92a-4dd7-bd4f-d8d92a7dd7f3" resp="#CH" tls:created="2022-11-28T08:19:15.772+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>be diligent!</def></sense></entry>
+<sense xml:id="uuid-71fd4fd8-d92a-4dd7-bd4f-d8d92a7dd7f3" resp="#CH" tls:created="2022-11-28T08:19:15.772+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>be diligent!</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-807f8389-7062-4c59-8210-8a58c2150e11">
             <form corresp="#uuid-3f6e868a-6c63-4e72-9cb9-b5d4a7ef753d">
 <orth>熟</orth>
@@ -978,7 +1009,8 @@
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
                     <usg type="valuation">-</usg>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-c3941f41-f10c-4bfd-941f-41f10c9bfddf">pejorative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-c3941f41-f10c-4bfd-941f-41f10c9bfddf">pejorative</tls:sem-feat>
+                </gramGrp>
   <def>be (overly) meticulous, be fastidious???</def>
             </sense>
 <sense xml:id="uuid-de916ad1-8a57-4b7f-8c16-2988cd7dd55b">
@@ -1051,7 +1083,14 @@
                 </gramGrp>
   <def>pay diligent attention to, pay close attention to; be carefully attentive to</def>
             </sense>
-<sense xml:id="uuid-575a8d05-f97e-4bb4-8a55-facdc87f0426" resp="#CH" tls:created="2020-01-24T02:16:52.811+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>pay diligent attention to</def></sense></entry>
+<sense xml:id="uuid-575a8d05-f97e-4bb4-8a55-facdc87f0426" resp="#CH" tls:created="2020-01-24T02:16:52.811+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>pay diligent attention to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-74280c88-f5c0-4c80-920d-0b2149ee83a1">
             <form corresp="#uuid-49534c84-253a-4fd3-b753-2820324f9fcb">
 <orth>護</orth>
@@ -1304,7 +1343,15 @@
                 </gramGrp>
   <def>be diligent</def>
             </sense>
-<sense xml:id="uuid-2109acf2-a223-455e-89ac-f2a223f55e23" resp="#zadrapa" tls:created="2022-05-20T20:20:26.33+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat></gramGrp><def>the diligent ones</def></sense></entry>
+<sense xml:id="uuid-2109acf2-a223-455e-89ac-f2a223f55e23" resp="#zadrapa" tls:created="2022-05-20T20:20:26.33+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat>
+                </gramGrp>
+                <def>the diligent ones</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e0799f7b-29c7-4f39-a68e-5b5b5e964aa8">
             <form corresp="#uuid-c6636819-42f0-4291-9caf-40f23edd4c57 #uuid-5297fe00-eb44-4238-9806-ca861f16c147">
 <orth>精勤</orth>
@@ -1467,5 +1514,143 @@
   <def>pay diligent attention to, be careful with</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-dc38c205-9f78-4f31-aa9a-4ee0d39c8edd" resp="#CH" tls:created="2019-12-12T20:25:05.309+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-69b232c6-a043-42b9-a2b1-7eb262e214af" resp="#CH" tls:created="2019-12-12T20:25:05.309+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>be diligent and careful in action</def></sense></entry><entry type="word" xml:id="uuid-8bc8829a-2262-4ceb-8dfe-5262b18f739d" resp="#CH" tls:created="2019-12-12T20:25:28.304+09:00"><form corresp="#uuid-9dd2c2d5-b614-4354-af7c-9930341e1688 #慎:shèn"><orth>敬慎</orth><pron xml:lang="zh-Latn-x-pinyin">jìng shèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjaengH --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreŋs --</pron></form><sense xml:id="uuid-96d6e745-0e8b-4dd3-8181-1df2f5fd7c74" resp="#CH" tls:created="2019-12-12T20:25:28.304+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>be diligent and careful in action</def></sense></entry><entry type="word" xml:id="uuid-35af3b3c-cf26-4e97-902e-64f09c310eae" resp="#CH" tls:created="2019-12-23T05:39:43.265+09:00"><form corresp="#uuid-bdc7ae89-62d6-456d-b3a5-5c8bb0379654"><orth>整</orth><pron xml:lang="zh-Latn-x-pinyin">zhěng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyengX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋʔ</pron></form><sense xml:id="uuid-8f907cc3-67a3-49fb-9273-7441a1d4d79d" resp="#CH" tls:created="2019-12-23T05:39:43.265+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red-p:adV</tls:syn-func></gramGrp><def>for all one's diligent effort</def></sense></entry><entry type="word" xml:id="uuid-75c7197f-7c22-43bf-8cb2-22eed7acba71" resp="#zadrapa" tls:created="2020-01-21T23:15:53.221+09:00"><form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>脩然</orth><pron xml:lang="zh-Latn-x-pinyin">xiū rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw njen</pron></form><sense xml:id="uuid-c4ee4563-c812-4635-8192-eea196e1616b" resp="#zadrapa" tls:created="2020-01-21T23:15:53.221+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>carefully</def></sense></entry><entry type="word" xml:id="uuid-d0095bfd-23fc-4101-895b-fd23fcb101cf"><form corresp="#uuid-feb43989-4de3-4eba-b96b-83824aa2cd89"><orth>敦</orth><pron xml:lang="zh-Latn-x-pinyin">dūn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">twon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuun</pron></form><def/><sense xml:id="uuid-78912c6b-fda8-4d78-912c-6bfda85d78d8" resp="#CH" tls:created="2020-03-10T23:09:46.436+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be diligent</def></sense></entry><entry type="word" xml:id="uuid-e6dbbefc-fb22-433a-9bbe-fcfb22133ad8" resp="#zadrapa" tls:created="2020-06-11T16:49:02.187+09:00"><form corresp="#uuid-3c737232-43d1-4954-a944-3c239391744c #uuid-79ba8c80-7f2a-411d-9323-2249801433ea"><orth>前後</orth><pron xml:lang="zh-Latn-x-pinyin">qián hòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzen huwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzeen ɡooʔ</pron></form><sense xml:id="uuid-0b871c89-c79d-4507-871c-89c79d750727" resp="#zadrapa" tls:created="2020-06-11T16:49:02.187+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>thoroughly, from all perspectives</def></sense></entry><entry type="word" xml:id="uuid-0b8dcc1f-924f-4c37-8dcc-1f924fcc37dc" resp="#CH" tls:created="2022-09-21T18:38:35.374+09:00"><form corresp="#uuid-18bfc26a-efe6-4559-a230-5f082def72c5 #uuid-a76a3431-a61f-4f08-926e-9e398bc1a898"><orth>屬臾</orth><pron xml:lang="zh-Latn-x-pinyin">shǔ yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyowk yu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoɡ lo</pron></form><sense xml:id="uuid-98eb0b17-3769-49db-ab0b-17376989db5a" resp="#CH" tls:created="2022-09-21T18:38:35.374+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>show diligence and concern</def></sense></entry><entry type="word" xml:id="uuid-8f7d44d8-cccc-425a-bd44-d8ccccb25a6e" resp="#zadrapa" tls:created="2023-05-23T15:37:42.377+09:00"><form corresp="#uuid-0ef47f88-0989-41fd-a172-975840e50b56 #uuid-0ef47f88-0989-41fd-a172-975840e50b56"><orth>亹亹</orth><pron xml:lang="zh-Latn-x-pinyin">wěi wěi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jX mj+jX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯlʔ mɯlʔ</pron></form><sense xml:id="uuid-f769db55-27d8-470b-a9db-5527d8970be8" resp="#zadrapa" tls:created="2023-05-23T15:37:42.377+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def>diligent, hard-working (SHI)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-dc38c205-9f78-4f31-aa9a-4ee0d39c8edd" resp="#CH" tls:created="2019-12-12T20:25:05.309+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-69b232c6-a043-42b9-a2b1-7eb262e214af" resp="#CH" tls:created="2019-12-12T20:25:05.309+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>be diligent and careful in action</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8bc8829a-2262-4ceb-8dfe-5262b18f739d" resp="#CH" tls:created="2019-12-12T20:25:28.304+09:00">
+            <form corresp="#uuid-9dd2c2d5-b614-4354-af7c-9930341e1688 #慎:shèn">
+                <orth>敬慎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jìng shèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjaengH --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreŋs --</pron>
+            </form>
+            <sense xml:id="uuid-96d6e745-0e8b-4dd3-8181-1df2f5fd7c74" resp="#CH" tls:created="2019-12-12T20:25:28.304+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>be diligent and careful in action</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-35af3b3c-cf26-4e97-902e-64f09c310eae" resp="#CH" tls:created="2019-12-23T05:39:43.265+09:00">
+            <form corresp="#uuid-bdc7ae89-62d6-456d-b3a5-5c8bb0379654">
+                <orth>整</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhěng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyengX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-8f907cc3-67a3-49fb-9273-7441a1d4d79d" resp="#CH" tls:created="2019-12-23T05:39:43.265+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red-p:adV</tls:syn-func>
+                </gramGrp>
+                <def>for all one's diligent effort</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-75c7197f-7c22-43bf-8cb2-22eed7acba71" resp="#zadrapa" tls:created="2020-01-21T23:15:53.221+09:00">
+            <form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>脩然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiū rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw njen</pron>
+            </form>
+            <sense xml:id="uuid-c4ee4563-c812-4635-8192-eea196e1616b" resp="#zadrapa" tls:created="2020-01-21T23:15:53.221+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>carefully</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d0095bfd-23fc-4101-895b-fd23fcb101cf">
+            <form corresp="#uuid-feb43989-4de3-4eba-b96b-83824aa2cd89">
+                <orth>敦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dūn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">twon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuun</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-78912c6b-fda8-4d78-912c-6bfda85d78d8" resp="#CH" tls:created="2020-03-10T23:09:46.436+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be diligent</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e6dbbefc-fb22-433a-9bbe-fcfb22133ad8" resp="#zadrapa" tls:created="2020-06-11T16:49:02.187+09:00">
+            <form corresp="#uuid-3c737232-43d1-4954-a944-3c239391744c #uuid-79ba8c80-7f2a-411d-9323-2249801433ea">
+                <orth>前後</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qián hòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzen huwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzeen ɡooʔ</pron>
+            </form>
+            <sense xml:id="uuid-0b871c89-c79d-4507-871c-89c79d750727" resp="#zadrapa" tls:created="2020-06-11T16:49:02.187+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>thoroughly, from all perspectives</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0b8dcc1f-924f-4c37-8dcc-1f924fcc37dc" resp="#CH" tls:created="2022-09-21T18:38:35.374+09:00">
+            <form corresp="#uuid-18bfc26a-efe6-4559-a230-5f082def72c5 #uuid-a76a3431-a61f-4f08-926e-9e398bc1a898">
+                <orth>屬臾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǔ yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyowk yu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoɡ lo</pron>
+            </form>
+            <sense xml:id="uuid-98eb0b17-3769-49db-ab0b-17376989db5a" resp="#CH" tls:created="2022-09-21T18:38:35.374+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>show diligence and concern</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8f7d44d8-cccc-425a-bd44-d8ccccb25a6e" resp="#zadrapa" tls:created="2023-05-23T15:37:42.377+09:00">
+            <form corresp="#uuid-0ef47f88-0989-41fd-a172-975840e50b56 #uuid-0ef47f88-0989-41fd-a172-975840e50b56">
+                <orth>亹亹</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wěi wěi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jX mj+jX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯlʔ mɯlʔ</pron>
+            </form>
+            <sense xml:id="uuid-f769db55-27d8-470b-a9db-5527d8970be8" resp="#zadrapa" tls:created="2023-05-23T15:37:42.377+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def>diligent, hard-working (SHI)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0c618c54-f855-4292-a18c-54f855a292c3" resp="#zadrapa" tls:created="2024-09-30T20:05:58.743+09:00">
+            <form corresp="#uuid-5297fe00-eb44-4238-9806-ca861f16c147 #uuid-18bfc26a-efe6-4559-a230-5f082def72c5">
+                <orth>勤屬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qín shǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gj+n dzyowk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡlɯn djoɡ</pron>
+            </form>
+            <sense xml:id="uuid-13fc068c-6067-4e1f-bc06-8c60679e1ffe" resp="#zadrapa" tls:created="2024-09-30T20:05:58.743+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>diligent, hardworking</def>
+            </sense>
+        </entry>
+    </div>
 </div>

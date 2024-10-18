@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb9fb7d3-752e-4db2-82df-7d0eacac269d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb9fb7d3-752e-4db2-82df-7d0eacac269d">
 <head>PROMISE</head>
     <list type="altnames">
 <item>WORD (OF HONOR)</item>
@@ -335,7 +336,21 @@
                 </gramGrp>
   <def>[the subject's] promise</def>
             </sense>
-<sense xml:id="uuid-96a1c807-cbbc-47fb-af4b-4361021e1bf2" resp="#dsehnal" tls:created="2020-01-15T05:03:27.157+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>promise the contextually determinate thing</def></sense><sense xml:id="uuid-96e434f9-df28-4a62-a434-f9df284a6238" resp="#CH" tls:created="2022-09-18T22:30:32.282+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-09d661ae-604f-4650-8a7f-97c36f14acf3">vt(+V[0])</tls:syn-func></gramGrp><def>promise to do something</def></sense></entry>
+<sense xml:id="uuid-96a1c807-cbbc-47fb-af4b-4361021e1bf2" resp="#dsehnal" tls:created="2020-01-15T05:03:27.157+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>promise the contextually determinate thing</def>
+            </sense>
+            <sense xml:id="uuid-96e434f9-df28-4a62-a434-f9df284a6238" resp="#CH" tls:created="2022-09-18T22:30:32.282+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-09d661ae-604f-4650-8a7f-97c36f14acf3">vt(+V[0])</tls:syn-func>
+                </gramGrp>
+                <def>promise to do something</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-183b4de2-a4da-45ab-b9a2-2daf5750f380">
             <form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
 <orth>許</orth>
@@ -367,7 +382,21 @@
                 </gramGrp>
   <def>promise N2 to N1</def>
             </sense>
-<sense xml:id="uuid-9821cd8e-9b7b-4a25-b5c1-e4d1beb580aa" resp="#CH" tls:created="2019-10-17T17:56:57.733+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtt .N V[0]</tls:syn-func></gramGrp><def>promise N to V</def></sense><sense xml:id="uuid-a9c71b40-569f-4ac9-9d38-c869899c2961" resp="#CH" tls:created="2019-10-23T01:22:03.208+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt V[0]</tls:syn-func></gramGrp><def>be promised to be V-ed 許嫁</def></sense></entry>
+<sense xml:id="uuid-9821cd8e-9b7b-4a25-b5c1-e4d1beb580aa" resp="#CH" tls:created="2019-10-17T17:56:57.733+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtt .N V[0]</tls:syn-func>
+                </gramGrp>
+                <def>promise N to V</def>
+            </sense>
+            <sense xml:id="uuid-a9c71b40-569f-4ac9-9d38-c869899c2961" resp="#CH" tls:created="2019-10-23T01:22:03.208+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt V[0]</tls:syn-func>
+                </gramGrp>
+                <def>be promised to be V-ed 許嫁</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a3a0a807-5572-4664-af5f-59b0cd0b60e7">
             <form corresp="#uuid-032a0c74-e395-448c-93bd-d47ac4e4ff01">
 <orth>諾</orth>

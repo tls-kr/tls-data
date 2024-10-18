@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-69026a4a-550e-4b08-be94-0b5717050be4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-69026a4a-550e-4b08-be94-0b5717050be4">
 <head>PRAISE</head>
     <list type="altnames">
 <item>COMMEND</item>
@@ -294,7 +295,14 @@
                 </gramGrp>
   <def>be praised</def>
             </sense>
-<sense xml:id="uuid-f7f4756d-6d59-412b-b475-6d6d59912b8b" resp="#twharbsmeier" tls:created="2020-04-09T21:12:34.335+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>praise</def></sense></entry>
+<sense xml:id="uuid-f7f4756d-6d59-412b-b475-6d6d59912b8b" resp="#twharbsmeier" tls:created="2020-04-09T21:12:34.335+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>praise</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9f8d326b-97ac-414d-b940-270a7d8d50a5">
             <form corresp="#uuid-7414b720-76ed-4b61-82fd-edfae23318d5">
 <orth>嘉</orth>
@@ -391,7 +399,14 @@
                 </gramGrp>
   <def>sing the praise of, praise through song</def>
             </sense>
-<sense xml:id="uuid-0057b2c3-4288-4931-97b2-c34288393120" resp="#dsehnal" tls:created="2020-05-10T05:02:10.513+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func></gramGrp><def>praise N singing S</def></sense></entry>
+<sense xml:id="uuid-0057b2c3-4288-4931-97b2-c34288393120" resp="#dsehnal" tls:created="2020-05-10T05:02:10.513+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>praise N singing S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2c428228-a165-40fd-9cca-731b3e11588a">
             <form corresp="#uuid-c5e319eb-c8b7-476f-8a2d-a6a766098566">
 <orth>歎</orth>
@@ -469,7 +484,21 @@
                 </gramGrp>
   <def>praise (somebody N2) (for something N1)稱孝焉</def>
             </sense>
-<sense xml:id="uuid-c328f028-3005-423d-a183-a918bcea1012" resp="#CH" tls:created="2019-11-28T05:50:46.074+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5da55174-27e5-4a8f-a551-7427e5ea8f0e">v+N</tls:syn-func></gramGrp><def>be praised in N</def></sense><sense xml:id="uuid-19911f05-215b-4980-911f-05215b598086" resp="#dsehnal" tls:created="2021-05-03T01:42:51.197+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>man of reverence; man of good reputation</def></sense></entry>
+<sense xml:id="uuid-c328f028-3005-423d-a183-a918bcea1012" resp="#CH" tls:created="2019-11-28T05:50:46.074+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5da55174-27e5-4a8f-a551-7427e5ea8f0e">v+N</tls:syn-func>
+                </gramGrp>
+                <def>be praised in N</def>
+            </sense>
+            <sense xml:id="uuid-19911f05-215b-4980-911f-05215b598086" resp="#dsehnal" tls:created="2021-05-03T01:42:51.197+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>man of reverence; man of good reputation</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-36eacef4-e5a5-4014-8098-1f1703614388">
             <form corresp="#uuid-f05378e7-1d93-40cf-9fe8-2b8d58428fa2">
 <orth>美</orth>
@@ -491,10 +520,18 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">2</usg>
-                <tls:sem-feat corresp="#uuid-8b13ea65-8d3c-4d62-b4bf-caf8506c9f68">declarative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-8b13ea65-8d3c-4d62-b4bf-caf8506c9f68">declarative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2021-09-20T22:00:50.035+09:00">declare to be beautiful, declare to be admirable, wonderful</def>
             </sense>
-<sense xml:id="uuid-0abd83c7-bed0-4beb-bd83-c7bed06bebb0" resp="#CH" tls:created="2021-09-20T23:39:42.124+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>praise more than N</def></sense></entry>
+<sense xml:id="uuid-0abd83c7-bed0-4beb-bd83-c7bed06bebb0" resp="#CH" tls:created="2021-09-20T23:39:42.124+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>praise more than N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7a6bd04a-20cd-4a22-85e1-ae2b66005ff0">
             <form corresp="#uuid-d9a4153d-435c-4f27-8fd3-d3c2fe6645d7">
 <orth>耀</orth>
@@ -544,7 +581,15 @@
                 </gramGrp>
   <def>praise</def>
             </sense>
-<sense xml:id="uuid-2a91a676-7dad-4d02-91a6-767dad8d021f" resp="#CH" tls:created="2022-05-30T01:46:49.694+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>praise</def></sense></entry>
+<sense xml:id="uuid-2a91a676-7dad-4d02-91a6-767dad8d021f" resp="#CH" tls:created="2022-05-30T01:46:49.694+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>praise</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d073110b-5e95-4daf-9901-5e8ace12e43b">
             <form corresp="#uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b">
 <orth>詠</orth>
@@ -643,7 +688,22 @@
                 </gramGrp>
   <def>praise (oneself)</def>
             </sense>
-<sense xml:id="uuid-91310e6a-6e44-4462-bac4-7da4f7408276" resp="#dsehnal" tls:created="2019-12-04T23:29:13.018+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-d71d0499-925e-4679-81d3-39598af630b3">vtoN.+V</tls:syn-func></gramGrp><def>commend as outstanding saying:</def></sense><sense xml:id="uuid-05553d37-595e-4a7d-b253-58289dd2e0db" resp="#CH" tls:created="2019-12-26T18:40:02.626+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat></gramGrp><def>act: sycophantic praise</def></sense></entry>
+<sense xml:id="uuid-91310e6a-6e44-4462-bac4-7da4f7408276" resp="#dsehnal" tls:created="2019-12-04T23:29:13.018+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-d71d0499-925e-4679-81d3-39598af630b3">vtoN.+V</tls:syn-func>
+                </gramGrp>
+                <def>commend as outstanding saying:</def>
+            </sense>
+            <sense xml:id="uuid-05553d37-595e-4a7d-b253-58289dd2e0db" resp="#CH" tls:created="2019-12-26T18:40:02.626+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat>
+                </gramGrp>
+                <def>act: sycophantic praise</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9140b5dd-f96e-43f4-8948-4f9b65094d6d">
             <form corresp="#uuid-1d96293e-5da5-4e64-950c-852c00447fe7">
 <orth>讆</orth>
@@ -1087,5 +1147,125 @@
   <def>sing the praise of&gt; praise</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8e882159-3f7d-47f8-ac81-6976c9afaeb2" resp="#CH" tls:created="2020-01-13T03:26:01.552+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-66a9b7ce-ff02-4d03-82c4-8a08c9e49b08" resp="#CH" tls:created="2020-01-13T03:26:01.552+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>praise (excellence, good qualities etc)</def></sense></entry><entry type="word" xml:id="uuid-413740e9-8434-4452-8b51-a4cd8a0dd991" resp="#CH" tls:created="2020-01-13T03:26:08.647+09:00"><form corresp="#uuid-0ecedd14-a190-44c6-8a69-24ce0dd1af1b"><orth>唱</orth><pron xml:lang="zh-Latn-x-pinyin">chàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjaŋs</pron></form><sense xml:id="uuid-c239449e-3ec3-45b4-9b9d-6999dec5cef6" resp="#CH" tls:created="2020-01-13T03:26:08.647+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>praise (excellence, good qualities etc)</def></sense></entry><entry type="word" xml:id="uuid-9fd9baf6-e3b9-4b30-99ba-f6e3b93b3076" resp="#CH" tls:created="2020-05-03T04:24:02.081+09:00"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-f05378e7-1d93-40cf-9fe8-2b8d58428fa2"><orth>取美</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ měi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuX mijX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhoʔ mriʔ</pron></form><sense xml:id="uuid-8540644e-6d74-407b-8064-4e6d74e07b92" resp="#CH" tls:created="2020-05-03T04:24:02.081+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>get praised, win the admiration of, gain the praise of; win the favour of</def></sense></entry><entry type="word" xml:id="uuid-61dbbc99-3380-4272-9bbc-993380027234"><form><orth>榮</orth><pron xml:lang="zh-Latn-x-pinyin">róng</pron></form><def/><sense xml:id="uuid-7bbeef06-8143-4563-beef-0681431563fe" resp="#CH" tls:created="2020-05-12T17:39:00.623+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>enjoy a great reputation, have a resplendent name; be famous everywhere</def></sense></entry><entry type="word" xml:id="uuid-d2c75ccd-241f-4f15-875c-cd241f7f1552" resp="#CH" tls:created="2020-07-25T17:57:55.059+09:00"><form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>稱乎</orth><pron xml:lang="zh-Latn-x-pinyin">chēng hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhing hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjɯŋ ɢaa</pron></form><sense xml:id="uuid-bf16d5ae-5186-4ac5-96d5-ae51865ac5f8" resp="#CH" tls:created="2020-07-25T17:57:55.059+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>speak well of, speak favourably of</def></sense></entry><entry type="word" xml:id="uuid-8f42cfc0-3835-4e19-82cf-c038350e1967" resp="#zadrapa" tls:created="2021-01-20T00:47:46.558+09:00"><form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848 #uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce"><orth>高言</orth><pron xml:lang="zh-Latn-x-pinyin">gāo yán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- ngjon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koow ŋan</pron></form><sense xml:id="uuid-fa459bef-8e2f-467c-859b-ef8e2f967cdc" resp="#zadrapa" tls:created="2021-01-20T00:47:46.558+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>speak loftily about, praise</def></sense></entry><entry type="word" xml:id="uuid-3d6d4df7-326b-4da4-ad4d-f7326bbda474" resp="#CH" tls:created="2021-09-06T18:29:51.464+09:00"><form corresp="#uuid-8c95d137-a93e-4116-ad20-10c4cb1ba70d #uuid-78d83124-8b7d-43aa-acca-a34116805346"><orth>簧鼓</orth><pron xml:lang="zh-Latn-x-pinyin">huáng gǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwang kuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷaaŋ kaaʔ</pron></form><sense xml:id="uuid-56fe1f01-6c62-4a52-be1f-016c62ba52f9" resp="#CH" tls:created="2021-09-06T18:29:51.464+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>praise by blowing on the mouth organs and beating the drums</def></sense></entry><entry type="word" xml:id="uuid-0ab5fd2e-759a-444f-b5fd-2e759a244f80" resp="#zadrapa" tls:created="2022-01-20T20:42:08.714+09:00"><form corresp="#uuid-ef6c4ab9-49f2-41c8-83e0-c440fa47cad7"><orth>呼</orth><pron xml:lang="zh-Latn-x-pinyin">hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaa</pron></form><sense xml:id="uuid-810a85f6-3b21-40d8-8a85-f63b2190d8db" resp="#zadrapa" tls:created="2022-01-20T20:42:08.714+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>praise loudly (also figuratively)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-8e882159-3f7d-47f8-ac81-6976c9afaeb2" resp="#CH" tls:created="2020-01-13T03:26:01.552+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-66a9b7ce-ff02-4d03-82c4-8a08c9e49b08" resp="#CH" tls:created="2020-01-13T03:26:01.552+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>praise (excellence, good qualities etc)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-413740e9-8434-4452-8b51-a4cd8a0dd991" resp="#CH" tls:created="2020-01-13T03:26:08.647+09:00">
+            <form corresp="#uuid-0ecedd14-a190-44c6-8a69-24ce0dd1af1b">
+                <orth>唱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjaŋs</pron>
+            </form>
+            <sense xml:id="uuid-c239449e-3ec3-45b4-9b9d-6999dec5cef6" resp="#CH" tls:created="2020-01-13T03:26:08.647+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>praise (excellence, good qualities etc)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9fd9baf6-e3b9-4b30-99ba-f6e3b93b3076" resp="#CH" tls:created="2020-05-03T04:24:02.081+09:00">
+            <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-f05378e7-1d93-40cf-9fe8-2b8d58428fa2">
+                <orth>取美</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǔ měi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuX mijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhoʔ mriʔ</pron>
+            </form>
+            <sense xml:id="uuid-8540644e-6d74-407b-8064-4e6d74e07b92" resp="#CH" tls:created="2020-05-03T04:24:02.081+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get praised, win the admiration of, gain the praise of; win the favour of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-61dbbc99-3380-4272-9bbc-993380027234">
+            <form>
+                <orth>榮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-7bbeef06-8143-4563-beef-0681431563fe" resp="#CH" tls:created="2020-05-12T17:39:00.623+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>enjoy a great reputation, have a resplendent name; be famous everywhere</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d2c75ccd-241f-4f15-875c-cd241f7f1552" resp="#CH" tls:created="2020-07-25T17:57:55.059+09:00">
+            <form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>稱乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chēng hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhing hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjɯŋ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-bf16d5ae-5186-4ac5-96d5-ae51865ac5f8" resp="#CH" tls:created="2020-07-25T17:57:55.059+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>speak well of, speak favourably of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8f42cfc0-3835-4e19-82cf-c038350e1967" resp="#zadrapa" tls:created="2021-01-20T00:47:46.558+09:00">
+            <form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848 #uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce">
+                <orth>高言</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gāo yán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- ngjon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koow ŋan</pron>
+            </form>
+            <sense xml:id="uuid-fa459bef-8e2f-467c-859b-ef8e2f967cdc" resp="#zadrapa" tls:created="2021-01-20T00:47:46.558+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>speak loftily about, praise</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3d6d4df7-326b-4da4-ad4d-f7326bbda474" resp="#CH" tls:created="2021-09-06T18:29:51.464+09:00">
+            <form corresp="#uuid-8c95d137-a93e-4116-ad20-10c4cb1ba70d #uuid-78d83124-8b7d-43aa-acca-a34116805346">
+                <orth>簧鼓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huáng gǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwang kuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷaaŋ kaaʔ</pron>
+            </form>
+            <sense xml:id="uuid-56fe1f01-6c62-4a52-be1f-016c62ba52f9" resp="#CH" tls:created="2021-09-06T18:29:51.464+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>praise by blowing on the mouth organs and beating the drums</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0ab5fd2e-759a-444f-b5fd-2e759a244f80" resp="#zadrapa" tls:created="2022-01-20T20:42:08.714+09:00">
+            <form corresp="#uuid-ef6c4ab9-49f2-41c8-83e0-c440fa47cad7">
+                <orth>呼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaa</pron>
+            </form>
+            <sense xml:id="uuid-810a85f6-3b21-40d8-8a85-f63b2190d8db" resp="#zadrapa" tls:created="2022-01-20T20:42:08.714+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>praise loudly (also figuratively)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

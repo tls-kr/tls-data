@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2d19aed2-b22f-4e25-b2b0-a4f38724e935">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2d19aed2-b22f-4e25-b2b0-a4f38724e935">
 <head>TRANSPORT</head>
     <list type="altnames">
 <item>CONVEY</item>
@@ -148,7 +149,15 @@
                 </gramGrp>
   <def>be carried along (in the mind etc)</def>
             </sense>
-<sense xml:id="uuid-52d38ca6-560f-4d2b-938c-a6560f2d2b0d" resp="#dsehnal" tls:created="2023-11-26T01:33:15.696+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be transported; be loaded onto vehicles</def></sense></entry>
+<sense xml:id="uuid-52d38ca6-560f-4d2b-938c-a6560f2d2b0d" resp="#dsehnal" tls:created="2023-11-26T01:33:15.696+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be transported; be loaded onto vehicles</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9fba5b05-4904-4363-bd3d-f9ce2f1709e0">
             <form corresp="#uuid-a57d2a4d-5402-4f08-b1b6-168792cdc8b6">
 <orth>輸</orth>
@@ -194,7 +203,14 @@
                 </gramGrp>
   <def>transport N1 to the place N2</def>
             </sense>
-<sense xml:id="uuid-b938228b-d585-4321-b822-8bd585332146" resp="#dsehnal" tls:created="2023-11-26T19:31:19.155+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>transport things; transport goods</def></sense></entry>
+<sense xml:id="uuid-b938228b-d585-4321-b822-8bd585332146" resp="#dsehnal" tls:created="2023-11-26T19:31:19.155+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>transport things; transport goods</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-79126d0a-c46f-4510-a2a8-e5987737cb1e">
             <form corresp="#uuid-5d8d0c50-a205-4930-9f61-a77db5b9f88f">
 <orth>輿</orth>
@@ -267,5 +283,35 @@
                 <pron xml:lang="zh-x-mc">ɦen</pron>
             </form>
 </entry>
-    <entry type="word" xml:id="uuid-2c3196c8-8dc3-4ff7-b196-c88dc3bff75c" resp="#Valerie.Kiel" tls:created="2022-08-04T04:31:37.593+09:00"><form corresp="#uuid-2782924c-f9e3-4724-ba7b-1179a5412254 #uuid-a57d2a4d-5402-4f08-b1b6-168792cdc8b6"><orth>委輸</orth><pron xml:lang="zh-Latn-x-pinyin">wěi shū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jweX syu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrolʔ lʰo</pron></form><sense xml:id="uuid-0f73c949-713b-4b81-b3c9-49713b0b81fe" resp="#Valerie.Kiel" tls:created="2022-08-04T04:31:37.593+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-8584029b-6084-4ff1-8511-012c5567acf9">VPtt(oN1.)+N2</tls:syn-func></gramGrp><def>transport</def></sense></entry><entry type="word" xml:id="uuid-0fad81f0-6090-4c7a-ad81-f060905c7a0f" resp="#dsehnal" tls:created="2024-06-15T02:30:40.981+09:00"><form corresp="#uuid-79159b72-6954-4ebd-a7e4-1bc6864d9e26 #uuid-a141479b-79db-4030-a7ce-84f16883762b"><orth>車馬</orth><pron xml:lang="zh-Latn-x-pinyin">chē mǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhae maeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlja mraaʔ</pron></form><sense xml:id="uuid-e052e64a-5a61-4803-92e6-4a5a61780372" resp="#dsehnal" tls:created="2024-06-15T02:30:40.981+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0e71a24c-2529-482a-a575-a4f143a9890b">NP{N1</tls:syn-func></gramGrp><def>various means of transport &lt; chariots and horses</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2c3196c8-8dc3-4ff7-b196-c88dc3bff75c" resp="#Valerie.Kiel" tls:created="2022-08-04T04:31:37.593+09:00">
+            <form corresp="#uuid-2782924c-f9e3-4724-ba7b-1179a5412254 #uuid-a57d2a4d-5402-4f08-b1b6-168792cdc8b6">
+                <orth>委輸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wěi shū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jweX syu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrolʔ lʰo</pron>
+            </form>
+            <sense xml:id="uuid-0f73c949-713b-4b81-b3c9-49713b0b81fe" resp="#Valerie.Kiel" tls:created="2022-08-04T04:31:37.593+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-8584029b-6084-4ff1-8511-012c5567acf9">VPtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>transport</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0fad81f0-6090-4c7a-ad81-f060905c7a0f" resp="#dsehnal" tls:created="2024-06-15T02:30:40.981+09:00">
+            <form corresp="#uuid-79159b72-6954-4ebd-a7e4-1bc6864d9e26 #uuid-a141479b-79db-4030-a7ce-84f16883762b">
+                <orth>車馬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chē mǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhae maeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlja mraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-e052e64a-5a61-4803-92e6-4a5a61780372" resp="#dsehnal" tls:created="2024-06-15T02:30:40.981+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0e71a24c-2529-482a-a575-a4f143a9890b">NP{N1</tls:syn-func>
+                </gramGrp>
+                <def>various means of transport &lt; chariots and horses</def>
+            </sense>
+        </entry>
+    </div>
 </div>

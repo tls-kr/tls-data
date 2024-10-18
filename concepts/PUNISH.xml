@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2d18de2c-a840-4747-84dd-8f8d08b67620">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2d18de2c-a840-4747-84dd-8f8d08b67620">
 <head>PUNISH</head>
     <list type="altnames">
 <item>DISCIPLINE</item>
@@ -371,7 +372,15 @@
   <def>be punished by mutilation; get punished; get oneself punished</def>
             </sense>
 
-<sense xml:id="uuid-079f215e-f7d2-4d29-81d8-5d5cb114a6ff" resp="#CH" tls:created="2020-01-01T20:17:02.526+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>receive corporal punishment, receive physical punishment</def></sense></entry>
+<sense xml:id="uuid-079f215e-f7d2-4d29-81d8-5d5cb114a6ff" resp="#CH" tls:created="2020-01-01T20:17:02.526+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>receive corporal punishment, receive physical punishment</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7644cb34-c5cf-48c2-b4e5-9f68a409a10d">
             <form corresp="#uuid-584fbf28-35b0-434e-9ac9-77062db8e8ad">
 <orth>坐</orth>
@@ -461,7 +470,15 @@
                 </gramGrp>
   <def>punish the contextually determinate N</def>
             </sense>
-</entry>
+<sense xml:id="uuid-b3aedd91-6cdf-4963-aedd-916cdf396350" resp="#zadrapa" tls:created="2024-09-30T19:59:20.278+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get punished</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8a5e0ac9-d9f7-4bb2-bf85-bff2f33ae2c5">
             <form corresp="#uuid-156e51bc-180a-486e-b3b3-6a69229d0fb3">
 <orth>拲</orth>
@@ -553,7 +570,21 @@
                 </gramGrp>
   <def>SHU, GUAN: refers generally to the application of criminal law to criminals</def>
             </sense>
-<sense xml:id="uuid-53a87dce-f454-43e3-9a7d-c0eee2208d8c" resp="#CH" tls:created="2020-01-31T23:42:28.957+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>apply the law to: punish</def></sense><sense xml:id="uuid-95845a1b-0d3e-423c-845a-1b0d3e223c74" resp="#dsehnal" tls:created="2024-05-19T23:22:47.482+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func></gramGrp><def>punishment characterised by Ving</def></sense></entry>
+<sense xml:id="uuid-53a87dce-f454-43e3-9a7d-c0eee2208d8c" resp="#CH" tls:created="2020-01-31T23:42:28.957+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>apply the law to: punish</def>
+            </sense>
+            <sense xml:id="uuid-95845a1b-0d3e-423c-845a-1b0d3e223c74" resp="#dsehnal" tls:created="2024-05-19T23:22:47.482+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func>
+                </gramGrp>
+                <def>punishment characterised by Ving</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1479f5e0-80b2-4a44-bbe4-e9eb3776e091">
             <form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81">
 <orth>治</orth>
@@ -577,7 +608,14 @@
                 </gramGrp>
   <def>be properly sentenced and punished; be legally dealt with in connection with a crime committed</def>
             </sense>
-<sense xml:id="uuid-9fe7f340-e31f-438d-a7f3-40e31f038db5" resp="#dsehnal" tls:created="2023-06-08T17:22:19.08+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>deal with the contextually determinate N according to law</def></sense></entry>
+<sense xml:id="uuid-9fe7f340-e31f-438d-a7f3-40e31f038db5" resp="#dsehnal" tls:created="2023-06-08T17:22:19.08+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>deal with the contextually determinate N according to law</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e8f2b531-d8d2-461a-880b-1061ef7c39ed">
             <form corresp="#uuid-0729aedc-818d-4f8c-85f7-c612923624de">
 <orth>獄</orth>
@@ -678,7 +716,22 @@
                 </gramGrp>
   <def>take punitive action against (a state of affairs described in S)</def>
             </sense>
-<sense xml:id="uuid-9b1ad752-fea9-4558-a5f3-975e1066d052" resp="#CH" tls:created="2019-12-10T18:51:21.481+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>punish/fine the contextually determinate human N</def></sense><sense xml:id="uuid-1483688e-6a0c-42d7-b1b4-201a90c90fd6" resp="#CH" tls:created="2019-12-27T00:32:49.009+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>get punished</def></sense></entry>
+<sense xml:id="uuid-9b1ad752-fea9-4558-a5f3-975e1066d052" resp="#CH" tls:created="2019-12-10T18:51:21.481+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>punish/fine the contextually determinate human N</def>
+            </sense>
+            <sense xml:id="uuid-1483688e-6a0c-42d7-b1b4-201a90c90fd6" resp="#CH" tls:created="2019-12-27T00:32:49.009+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get punished</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a06a31eb-151b-4cc7-9f6d-e26d1edd9a40">
             <form corresp="#uuid-7cd821c2-4a31-4b07-9e1d-be1174f928f3">
 <orth>耐</orth>
@@ -833,7 +886,14 @@
                 </gramGrp>
   <def>be punished</def>
             </sense>
-<sense xml:id="uuid-a4c292bf-b2e8-4d3b-aae2-a104f80f90fd" resp="#CH" tls:created="2019-12-15T07:57:52.475+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-04T04:59:30.78+09:00">the being punished</def></sense></entry>
+<sense xml:id="uuid-a4c292bf-b2e8-4d3b-aae2-a104f80f90fd" resp="#CH" tls:created="2019-12-15T07:57:52.475+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-04T04:59:30.78+09:00">the being punished</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e0c96fe5-2299-4a8a-bd10-060c7ddf1a4a">
             <form corresp="#uuid-837880ff-ef52-423c-9895-586ae7ccc192">
 <orth>讞</orth>
@@ -919,7 +979,14 @@
             </form>
             <def>The general word for punishment is wú xíng 五刑 , traditionally in SHU, LYUXING listed as "dà bì 大辟 "decapitation", yuè 刖 "mutilation of foot", yì 劓, gōng 宮 "castration", mò 墨 "branding". The list varied through time and is different in different sources.
 </def>
-<sense xml:id="uuid-f45489fd-c24c-44b1-b521-b235a3bdaf92" resp="#zadrapa" tls:created="2019-10-24T22:15:00.584+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>the five mutilating kinds of punishment</def></sense></entry>
+<sense xml:id="uuid-f45489fd-c24c-44b1-b521-b235a3bdaf92" resp="#zadrapa" tls:created="2019-10-24T22:15:00.584+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>the five mutilating kinds of punishment</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-25555d1a-3c47-4b49-8263-9c34eb87b3e7">
             <form corresp="#uuid-dffaa42d-8b44-462a-be13-8b59f3ffc185 #uuid-39695700-d4a3-442a-912f-b88db3ed1502">
 <orth>刀杖</orth>
@@ -1210,8 +1277,161 @@
   <def>chastise</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f19c60ce-4c61-4cad-ac58-59f951c6f3d0" resp="#CH" tls:created="2019-10-15T00:58:18.651+09:00"><form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40 #uuid-f291b62f-bf26-4c88-93b2-67dfe5eb2957"><orth>加刑</orth><pron xml:lang="zh-Latn-x-pinyin">jiā xíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kae heng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraal ɡeeŋ</pron></form><sense xml:id="uuid-6b0e3954-2a4d-4528-b8cf-856a4c903c8a" resp="#CH" tls:created="2019-10-15T00:58:18.651+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func></gramGrp><def>punish</def></sense></entry><entry type="word" xml:id="uuid-df2c24b7-865d-490f-ac24-b7865db90f5f"><form><orth>浮</orth><pron xml:lang="zh-Latn-x-pinyin">fú</pron></form><def/><sense xml:id="uuid-9002ceab-e6ca-4b27-82ce-abe6caab27a4" resp="#CH" tls:created="2020-03-29T17:57:21.764+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>fine to drink a cup of alcohol (at a feast); to sconce</def></sense></entry><entry type="word" xml:id="uuid-c634a38e-080d-4127-b4a3-8e080d912792" resp="#CH" tls:created="2020-04-07T23:55:02.723+09:00"><form corresp="#uuid-c0d2d017-237c-4c27-bd66-59487a915c7b #uuid-f291b62f-bf26-4c88-93b2-67dfe5eb2957"><orth>典刑</orth><pron xml:lang="zh-Latn-x-pinyin">diǎn
- xíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tenX
- heng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯnʔ
- ɡeeŋ</pron></form><sense xml:id="uuid-03a173d9-06c1-4d36-a173-d906c1fd36c0" resp="#CH" tls:created="2020-04-07T23:55:02.723+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>punishments</def></sense></entry><entry type="word" xml:id="uuid-8e8c3cad-31bd-4460-8c3c-ad31bd8460ec" resp="#CH" tls:created="2020-04-08T00:20:41.854+09:00"><form corresp="#uuid-4fa57c26-8e55-48d9-97b2-c935988fe676"><orth>金</orth><pron xml:lang="zh-Latn-x-pinyin">jīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krɯm</pron></form><sense xml:id="uuid-dc222d1e-de32-4dff-a22d-1ede329dffe6" resp="#CH" tls:created="2020-04-08T00:20:41.854+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>punishment by imposition of a fine</def></sense></entry><entry type="word" xml:id="uuid-0f0dffda-80a9-4de9-8dff-da80a93de914" resp="#CH" tls:created="2020-04-08T01:26:19.942+09:00"><form corresp="#uuid-904895ed-aee7-4521-a1f4-ac016b491a29 #uuid-49cdff6e-90ac-4c5d-a429-d674a25053c9"><orth>罰懲</orth><pron xml:lang="zh-Latn-x-pinyin">fá chéng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjot --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bod dɯŋ</pron></form><sense xml:id="uuid-5d540ecd-e675-481c-940e-cde675181c91" resp="#CH" tls:created="2020-04-08T01:26:19.942+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>punishments</def></sense></entry><entry type="word" xml:id="uuid-0dfce6ce-a34c-4b64-bce6-cea34c1b6407" resp="#CH" tls:created="2020-08-31T00:11:20.952+09:00"><form corresp="#uuid-7aa1653e-7aab-496d-b82f-d5ea79407e79 #uuid-7b986470-cb30-4044-91f0-987f59366b4d"><orth>髕腳</orth><pron xml:lang="zh-Latn-x-pinyin">bìn jiǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjijX kjak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">binʔ kaɡ</pron></form><sense xml:id="uuid-b85d750e-de8e-406c-9d75-0ede8e606c05" resp="#CH" tls:created="2020-08-31T00:11:20.952+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-34d3b636-6156-4f31-93b6-3661562f31c3">DELETE</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>have one's feet cut off</def></sense></entry><entry type="word" xml:id="uuid-826fa630-0a73-47f0-afa6-300a7357f046" resp="#CH" tls:created="2020-08-31T00:11:24.027+09:00"><form corresp="#uuid-7aa1653e-7aab-496d-b82f-d5ea79407e79 #uuid-7b986470-cb30-4044-91f0-987f59366b4d"><orth>髕腳</orth><pron xml:lang="zh-Latn-x-pinyin">bìn jiǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjijX kjak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">binʔ kaɡ</pron></form><sense xml:id="uuid-74c25e28-d2b8-40a4-825e-28d2b880a4cc" resp="#CH" tls:created="2020-08-31T00:11:24.027+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-08-31T00:14:10.002+09:00">have one's feet and kneecaps cut off</def></sense></entry><entry type="word" xml:id="uuid-08e40aeb-0ebc-4686-a40a-eb0ebc7686bb" resp="#zadrapa" tls:created="2022-06-07T16:15:02.171+09:00"><form corresp="#uuid-8dbe80f3-b063-4a20-980f-99947890e55c"><orth>戮</orth><pron xml:lang="zh-Latn-x-pinyin">lù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljuwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-ruɡ</pron></form><sense xml:id="uuid-fb94c587-6b2a-46c3-94c5-876b2af6c3a0" resp="#zadrapa" tls:created="2022-06-07T16:15:02.171+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>punish (physically)</def></sense></entry><entry type="word" xml:id="uuid-7bf89b18-96f1-41ae-b89b-1896f1e1aec2" resp="#CH" tls:created="2023-02-13T18:16:59.492+09:00"><form corresp="#uuid-f291b62f-bf26-4c88-93b2-67dfe5eb2957 #uuid-904895ed-aee7-4521-a1f4-ac016b491a29"><orth>刑罰</orth><pron xml:lang="zh-Latn-x-pinyin">xíng fá</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">heng bjot</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeŋ bod</pron></form><sense xml:id="uuid-6a157edb-833b-48af-957e-db833b28af54" resp="#CH" tls:created="2023-02-13T18:16:59.492+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>physical punishments and fines</def></sense></entry><entry type="word" xml:id="uuid-4692001c-9883-4762-9200-1c988367623e" resp="#dsehnal" tls:created="2024-05-25T21:17:53.701+09:00"><form corresp="#uuid-6dbbeda0-599e-4ec2-aa79-780e890c4cf0 #uuid-02b28324-95ad-41ef-bef3-b3ddda810609"><orth>炮炙</orth><pron xml:lang="zh-Latn-x-pinyin">páo zhè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">baew tsyaeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bruu --</pron></form><sense xml:id="uuid-7b4e5574-8613-428e-8e55-748613328e5d" resp="#dsehnal" tls:created="2024-05-25T21:17:53.701+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6a3287d8-849f-45e6-bead-45a8202a86ae">vt[adN]</tls:syn-func></gramGrp><def>those who were grilled on charcoal as a sort of perverted punishment</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f19c60ce-4c61-4cad-ac58-59f951c6f3d0" resp="#CH" tls:created="2019-10-15T00:58:18.651+09:00">
+            <form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40 #uuid-f291b62f-bf26-4c88-93b2-67dfe5eb2957">
+                <orth>加刑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiā xíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kae heng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraal ɡeeŋ</pron>
+            </form>
+            <sense xml:id="uuid-6b0e3954-2a4d-4528-b8cf-856a4c903c8a" resp="#CH" tls:created="2019-10-15T00:58:18.651+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func>
+                </gramGrp>
+                <def>punish</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-df2c24b7-865d-490f-ac24-b7865db90f5f">
+            <form>
+                <orth>浮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-9002ceab-e6ca-4b27-82ce-abe6caab27a4" resp="#CH" tls:created="2020-03-29T17:57:21.764+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>fine to drink a cup of alcohol (at a feast); to sconce</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c634a38e-080d-4127-b4a3-8e080d912792" resp="#CH" tls:created="2020-04-07T23:55:02.723+09:00">
+            <form corresp="#uuid-c0d2d017-237c-4c27-bd66-59487a915c7b #uuid-f291b62f-bf26-4c88-93b2-67dfe5eb2957">
+                <orth>典刑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">diǎn
+ xíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tenX
+ heng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯnʔ
+ ɡeeŋ</pron>
+            </form>
+            <sense xml:id="uuid-03a173d9-06c1-4d36-a173-d906c1fd36c0" resp="#CH" tls:created="2020-04-07T23:55:02.723+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>punishments</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e8c3cad-31bd-4460-8c3c-ad31bd8460ec" resp="#CH" tls:created="2020-04-08T00:20:41.854+09:00">
+            <form corresp="#uuid-4fa57c26-8e55-48d9-97b2-c935988fe676">
+                <orth>金</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krɯm</pron>
+            </form>
+            <sense xml:id="uuid-dc222d1e-de32-4dff-a22d-1ede329dffe6" resp="#CH" tls:created="2020-04-08T00:20:41.854+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>punishment by imposition of a fine</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0f0dffda-80a9-4de9-8dff-da80a93de914" resp="#CH" tls:created="2020-04-08T01:26:19.942+09:00">
+            <form corresp="#uuid-904895ed-aee7-4521-a1f4-ac016b491a29 #uuid-49cdff6e-90ac-4c5d-a429-d674a25053c9">
+                <orth>罰懲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fá chéng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjot --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bod dɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-5d540ecd-e675-481c-940e-cde675181c91" resp="#CH" tls:created="2020-04-08T01:26:19.942+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>punishments</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0dfce6ce-a34c-4b64-bce6-cea34c1b6407" resp="#CH" tls:created="2020-08-31T00:11:20.952+09:00">
+            <form corresp="#uuid-7aa1653e-7aab-496d-b82f-d5ea79407e79 #uuid-7b986470-cb30-4044-91f0-987f59366b4d">
+                <orth>髕腳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bìn jiǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjijX kjak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">binʔ kaɡ</pron>
+            </form>
+            <sense xml:id="uuid-b85d750e-de8e-406c-9d75-0ede8e606c05" resp="#CH" tls:created="2020-08-31T00:11:20.952+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-34d3b636-6156-4f31-93b6-3661562f31c3">DELETE</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>have one's feet cut off</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-826fa630-0a73-47f0-afa6-300a7357f046" resp="#CH" tls:created="2020-08-31T00:11:24.027+09:00">
+            <form corresp="#uuid-7aa1653e-7aab-496d-b82f-d5ea79407e79 #uuid-7b986470-cb30-4044-91f0-987f59366b4d">
+                <orth>髕腳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bìn jiǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjijX kjak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">binʔ kaɡ</pron>
+            </form>
+            <sense xml:id="uuid-74c25e28-d2b8-40a4-825e-28d2b880a4cc" resp="#CH" tls:created="2020-08-31T00:11:24.027+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-08-31T00:14:10.002+09:00">have one's feet and kneecaps cut off</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-08e40aeb-0ebc-4686-a40a-eb0ebc7686bb" resp="#zadrapa" tls:created="2022-06-07T16:15:02.171+09:00">
+            <form corresp="#uuid-8dbe80f3-b063-4a20-980f-99947890e55c">
+                <orth>戮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljuwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-ruɡ</pron>
+            </form>
+            <sense xml:id="uuid-fb94c587-6b2a-46c3-94c5-876b2af6c3a0" resp="#zadrapa" tls:created="2022-06-07T16:15:02.171+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>punish (physically)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7bf89b18-96f1-41ae-b89b-1896f1e1aec2" resp="#CH" tls:created="2023-02-13T18:16:59.492+09:00">
+            <form corresp="#uuid-f291b62f-bf26-4c88-93b2-67dfe5eb2957 #uuid-904895ed-aee7-4521-a1f4-ac016b491a29">
+                <orth>刑罰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xíng fá</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">heng bjot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeŋ bod</pron>
+            </form>
+            <sense xml:id="uuid-6a157edb-833b-48af-957e-db833b28af54" resp="#CH" tls:created="2023-02-13T18:16:59.492+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>physical punishments and fines</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4692001c-9883-4762-9200-1c988367623e" resp="#dsehnal" tls:created="2024-05-25T21:17:53.701+09:00">
+            <form corresp="#uuid-6dbbeda0-599e-4ec2-aa79-780e890c4cf0 #uuid-02b28324-95ad-41ef-bef3-b3ddda810609">
+                <orth>炮炙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">páo zhè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">baew tsyaeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bruu --</pron>
+            </form>
+            <sense xml:id="uuid-7b4e5574-8613-428e-8e55-748613328e5d" resp="#dsehnal" tls:created="2024-05-25T21:17:53.701+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6a3287d8-849f-45e6-bead-45a8202a86ae">vt[adN]</tls:syn-func>
+                </gramGrp>
+                <def>those who were grilled on charcoal as a sort of perverted punishment</def>
+            </sense>
+        </entry>
+    </div>
 </div>

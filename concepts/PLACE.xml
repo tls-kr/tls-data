@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ad2188b-a1fe-4493-9868-b5683a3a0606">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ad2188b-a1fe-4493-9868-b5683a3a0606">
 <head>PLACE</head>
     <list type="altnames">
 <item>SPACE</item>
@@ -347,7 +348,21 @@
                 </gramGrp>
   <def>mention the place; record the location of an event</def>
             </sense>
-<sense xml:id="uuid-28928e24-a0b6-424b-b586-03355de0a48a" resp="#CH" tls:created="2019-11-15T17:10:53.401+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>place</def></sense><sense xml:id="uuid-4f384207-036b-448d-b842-07036bb48dac" resp="#dsehnal" tls:created="2024-06-17T02:26:41.512+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-cc93029c-2a8c-42de-9302-9c2a8cc2de4e">nab.post-npro</tls:syn-func></gramGrp><def>this place</def></sense></entry>
+<sense xml:id="uuid-28928e24-a0b6-424b-b586-03355de0a48a" resp="#CH" tls:created="2019-11-15T17:10:53.401+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>place</def>
+            </sense>
+            <sense xml:id="uuid-4f384207-036b-448d-b842-07036bb48dac" resp="#dsehnal" tls:created="2024-06-17T02:26:41.512+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-cc93029c-2a8c-42de-9302-9c2a8cc2de4e">nab.post-npro</tls:syn-func>
+                </gramGrp>
+                <def>this place</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8ed9614f-f739-493a-b267-88db7eb9aeaf">
             <form corresp="#uuid-5cbdf666-5eb0-411a-b7a8-ae273211ada2">
 <orth>場</orth>
@@ -430,7 +445,35 @@
                 </gramGrp>
   <def>the place where N is (and belongs) (cf. modern Chinese 他那邊兒)</def>
             </sense>
-<sense xml:id="uuid-fa6c0a9b-957b-4ca7-84df-852a405ed2be" resp="#CH" tls:created="2019-12-07T18:59:23.573+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the place where N belongs</def></sense><sense xml:id="uuid-711b343d-7e25-44be-9b34-3d7e25f4bee5" resp="#CH" tls:created="2020-04-28T20:34:29.267+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-b8358c6e-b5b8-4ba0-b58c-6eb5b8eba0c8">npro{OBJ}-.VtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-29T03:49:33.441+09:00">e.g. 無所取材 "lack a place where to find suitable material" place where the explicit or implicit subject of the phrase Vt-s the object N</def></sense><sense xml:id="uuid-ea95b33a-3350-420e-95b3-3a3350d20edf" resp="#CH" tls:created="2020-04-29T03:59:16.791+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-4c6dc8a3-2b30-4622-adc8-a32b306622b5">npro{OBJ}-Vt.adN</tls:syn-func></gramGrp><def>e.g. 卿所死處 "the location of the place where the senior minister died": the place where the explicit or implicit subject Vt-s</def></sense><sense xml:id="uuid-bc5be975-da42-413a-9be9-75da42213a4f" resp="#twharbsmeier" tls:created="2021-01-25T04:51:53.808+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d4d698de-d285-4f6e-9698-ded2854f6e66">npro{PLACE}+VtoN</tls:syn-func></gramGrp><def>the place where the subject Vt's the object</def></sense></entry>
+<sense xml:id="uuid-fa6c0a9b-957b-4ca7-84df-852a405ed2be" resp="#CH" tls:created="2019-12-07T18:59:23.573+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the place where N belongs</def>
+            </sense>
+            <sense xml:id="uuid-711b343d-7e25-44be-9b34-3d7e25f4bee5" resp="#CH" tls:created="2020-04-28T20:34:29.267+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-b8358c6e-b5b8-4ba0-b58c-6eb5b8eba0c8">npro{OBJ}-.VtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-29T03:49:33.441+09:00">e.g. 無所取材 "lack a place where to find suitable material" place where the explicit or implicit subject of the phrase Vt-s the object N</def>
+            </sense>
+            <sense xml:id="uuid-ea95b33a-3350-420e-95b3-3a3350d20edf" resp="#CH" tls:created="2020-04-29T03:59:16.791+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-4c6dc8a3-2b30-4622-adc8-a32b306622b5">npro{OBJ}-Vt.adN</tls:syn-func>
+                </gramGrp>
+                <def>e.g. 卿所死處 "the location of the place where the senior minister died": the place where the explicit or implicit subject Vt-s</def>
+            </sense>
+            <sense xml:id="uuid-bc5be975-da42-413a-9be9-75da42213a4f" resp="#twharbsmeier" tls:created="2021-01-25T04:51:53.808+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d4d698de-d285-4f6e-9698-ded2854f6e66">npro{PLACE}+VtoN</tls:syn-func>
+                </gramGrp>
+                <def>the place where the subject Vt's the object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1f4260ea-9f20-4b39-a544-a3b33c101743">
             <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
 <orth>方</orth>
@@ -446,7 +489,14 @@
                 </gramGrp>
   <def>area</def>
             </sense>
-<sense xml:id="uuid-ba564747-617f-4f92-9647-47617f6f92b1" resp="#zadrapa" tls:created="2022-01-25T19:29:10.984+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>place</def></sense></entry>
+<sense xml:id="uuid-ba564747-617f-4f92-9647-47617f6f92b1" resp="#zadrapa" tls:created="2022-01-25T19:29:10.984+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>place</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-02d4ea86-fafb-45c4-bdea-7d3ace39f854">
             <form corresp="#uuid-fc3fa18f-7196-4f60-943a-98e0c5473cf2">
 <orth>次</orth>
@@ -517,7 +567,23 @@
                 </gramGrp>
   <def>the place where S happens</def>
             </sense>
-<sense xml:id="uuid-b145022f-b608-464f-83cd-887fc7f689b8" resp="#CH" tls:created="2019-12-01T04:42:21.545+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>social place</def></sense><sense xml:id="uuid-41721566-cb4f-4d18-b215-66cb4fed18f5" resp="#CH" tls:created="2022-09-11T00:12:17.374+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-b0f9ba1d-b529-4d04-b9ba-1db5299d0464">derived, figurative</tls:sem-feat></gramGrp><def>vantage point, place that defines the perspective from which something is seen or interpreted</def></sense></entry>
+<sense xml:id="uuid-b145022f-b608-464f-83cd-887fc7f689b8" resp="#CH" tls:created="2019-12-01T04:42:21.545+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>social place</def>
+            </sense>
+            <sense xml:id="uuid-41721566-cb4f-4d18-b215-66cb4fed18f5" resp="#CH" tls:created="2022-09-11T00:12:17.374+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b0f9ba1d-b529-4d04-b9ba-1db5299d0464">derived, figurative</tls:sem-feat>
+                </gramGrp>
+                <def>vantage point, place that defines the perspective from which something is seen or interpreted</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7ba2b9cc-daff-493d-9a97-f1329eb7ff7f">
             <form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
 <orth>許</orth>
@@ -547,7 +613,15 @@
                 </gramGrp>
   <def>the place inbetween &gt; place</def>
             </sense>
-<sense xml:id="uuid-945e369a-54ee-4c4c-9e36-9a54ee4c4c34" resp="#CH" tls:created="2021-06-10T02:49:05.249+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>room</def></sense></entry>
+<sense xml:id="uuid-945e369a-54ee-4c4c-9e36-9a54ee4c4c34" resp="#CH" tls:created="2021-06-10T02:49:05.249+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>room</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e1bab0c7-2158-4eed-a19e-228d7f54dd6c">
             <form corresp="#uuid-f71d44f1-688e-4978-9000-0fc589c996aa">
 <orth>面</orth>
@@ -651,5 +725,59 @@
   <def>Liao Dynasty: place</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9a02dc25-10b0-4cb5-82dc-2510b06cb5da" resp="#CH" tls:created="2020-05-12T03:09:38.881+09:00"><form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127"><orth>其所</orth><pron xml:lang="zh-Latn-x-pinyin">qí suǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gi srjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ sqraʔ</pron></form><sense xml:id="uuid-b79d9860-8fd3-4134-9d98-608fd38134e3" resp="#CH" tls:created="2020-05-12T03:09:38.881+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>one's proper place in society</def></sense></entry><entry type="word" xml:id="uuid-a4b2f51c-accc-4fa3-b2f5-1cacccbfa36a" resp="#CH" tls:created="2020-05-20T04:09:51.913+09:00"><form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127 #uuid-71d9a846-64c0-4fed-9279-5a21ceb79cc4"><orth>所在</orth><pron xml:lang="zh-Latn-x-pinyin">suǒ zài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">srjoX tsojH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqraʔ sɡɯɯs</pron></form><sense xml:id="uuid-527cdf32-c60d-4afe-bcdf-32c60d7afe55" resp="#CH" tls:created="2020-05-20T04:09:51.913+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>the whereabouts of N</def></sense><sense xml:id="uuid-ca36721a-5adb-48e1-b672-1a5adb88e1f7" resp="#dsehnal" tls:created="2023-05-14T22:40:17.493+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>the whereabouts of the contextually determinate N</def></sense></entry><entry type="word" xml:id="uuid-cade521d-736d-43ab-9e52-1d736df3ab21"><form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55"><orth>閒</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron></form><def/><sense xml:id="uuid-9d2a264e-6baa-42da-aa26-4e6baa62da05" resp="#dsehnal" tls:created="2020-05-23T19:41:04.424+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-:N1+N2.+ZHI</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2020-05-23T19:42:22.908+09:00">read jiān: within the space N1 and N2</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9a02dc25-10b0-4cb5-82dc-2510b06cb5da" resp="#CH" tls:created="2020-05-12T03:09:38.881+09:00">
+            <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
+                <orth>其所</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí suǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gi srjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ sqraʔ</pron>
+            </form>
+            <sense xml:id="uuid-b79d9860-8fd3-4134-9d98-608fd38134e3" resp="#CH" tls:created="2020-05-12T03:09:38.881+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>one's proper place in society</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a4b2f51c-accc-4fa3-b2f5-1cacccbfa36a" resp="#CH" tls:created="2020-05-20T04:09:51.913+09:00">
+            <form corresp="#uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127 #uuid-71d9a846-64c0-4fed-9279-5a21ceb79cc4">
+                <orth>所在</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suǒ zài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srjoX tsojH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqraʔ sɡɯɯs</pron>
+            </form>
+            <sense xml:id="uuid-527cdf32-c60d-4afe-bcdf-32c60d7afe55" resp="#CH" tls:created="2020-05-20T04:09:51.913+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>the whereabouts of N</def>
+            </sense>
+            <sense xml:id="uuid-ca36721a-5adb-48e1-b672-1a5adb88e1f7" resp="#dsehnal" tls:created="2023-05-14T22:40:17.493+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the whereabouts of the contextually determinate N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cade521d-736d-43ab-9e52-1d736df3ab21">
+            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
+                <orth>閒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-9d2a264e-6baa-42da-aa26-4e6baa62da05" resp="#dsehnal" tls:created="2020-05-23T19:41:04.424+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-:N1+N2.+ZHI</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2020-05-23T19:42:22.908+09:00">read jiān: within the space N1 and N2</def>
+            </sense>
+        </entry>
+    </div>
 </div>

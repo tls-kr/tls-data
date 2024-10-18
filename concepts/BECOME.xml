@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1a308a52-d691-4ffa-82ec-acf6db84a199">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1a308a52-d691-4ffa-82ec-acf6db84a199">
 <head>BECOME</head>
     <list type="altnames">
 <item>GROW</item>
@@ -134,7 +135,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-22T17:30:47.151+09:00">get to be V　</def>
             </sense>
-<sense xml:id="uuid-c45cbd93-cdc6-474d-af57-cdc3b321e4dc" resp="#CH" tls:created="2019-12-04T19:37:34.482+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt N</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>become</def></sense></entry>
+<sense xml:id="uuid-c45cbd93-cdc6-474d-af57-cdc3b321e4dc" resp="#CH" tls:created="2019-12-04T19:37:34.482+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>become</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e2dff72d-71e3-462a-aab4-84bda15d9d2c">
             <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
 <orth>為</orth>
@@ -183,7 +192,22 @@
                 </gramGrp>
   <def>cause to become</def>
             </sense>
-<sense xml:id="uuid-88c4e575-c3f4-4a57-84e5-75c3f4aa57b5" resp="#CH" tls:created="2020-04-22T17:53:18.061+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b225a48-e352-46dc-8592-daaf69be3439">vttoN1.postvtoN2{OBJ}</tls:syn-func></gramGrp><def>become the N2 of N1</def></sense><sense xml:id="uuid-c6801d11-c1b7-4622-801d-11c1b71622cf" resp="#CH" tls:created="2020-09-24T00:25:12.3+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>subject situation: lead to (a new event or situation)</def></sense></entry>
+<sense xml:id="uuid-88c4e575-c3f4-4a57-84e5-75c3f4aa57b5" resp="#CH" tls:created="2020-04-22T17:53:18.061+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b225a48-e352-46dc-8592-daaf69be3439">vttoN1.postvtoN2{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def>become the N2 of N1</def>
+            </sense>
+            <sense xml:id="uuid-c6801d11-c1b7-4622-801d-11c1b71622cf" resp="#CH" tls:created="2020-09-24T00:25:12.3+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>subject situation: lead to (a new event or situation)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b51b7427-bb44-4da2-884f-0f4ff6494a7b">
             <form corresp="#uuid-7c36ccf6-0da3-4fdf-8873-43b8edf824c7 #uuid-267730e0-be39-4e07-8516-1f546c7c591b">
 <orth>化成</orth>
@@ -265,5 +289,35 @@
   <def>change from one's original form to become, turn into</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2df8bcd2-e42f-4a40-ad2e-724153a99ea9" resp="#CH" tls:created="2019-12-18T04:07:01.273+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-2d5d0b07-cccd-42a1-aba0-4e21f4a9d83a" resp="#CH" tls:created="2019-12-18T04:07:01.273+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt N</tls:syn-func></gramGrp><def>become N</def></sense></entry><entry type="word" xml:id="uuid-d109a955-2d9e-4690-9c55-c816ee80ccee" resp="#CH" tls:created="2019-12-18T04:07:15.034+09:00"><form corresp="#uuid-7c36ccf6-0da3-4fdf-8873-43b8edf824c7 #uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7"><orth>化為</orth><pron xml:lang="zh-Latn-x-pinyin">huà wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xwaeH hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">hŋʷraals ɢʷal</pron></form><sense xml:id="uuid-8aa72d9a-2f52-49c3-84e1-0227d5f25b01" resp="#CH" tls:created="2019-12-18T04:07:15.034+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func></gramGrp><def>become N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2df8bcd2-e42f-4a40-ad2e-724153a99ea9" resp="#CH" tls:created="2019-12-18T04:07:01.273+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-2d5d0b07-cccd-42a1-aba0-4e21f4a9d83a" resp="#CH" tls:created="2019-12-18T04:07:01.273+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt N</tls:syn-func>
+                </gramGrp>
+                <def>become N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d109a955-2d9e-4690-9c55-c816ee80ccee" resp="#CH" tls:created="2019-12-18T04:07:15.034+09:00">
+            <form corresp="#uuid-7c36ccf6-0da3-4fdf-8873-43b8edf824c7 #uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7">
+                <orth>化為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huà wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xwaeH hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">hŋʷraals ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-8aa72d9a-2f52-49c3-84e1-0227d5f25b01" resp="#CH" tls:created="2019-12-18T04:07:15.034+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                </gramGrp>
+                <def>become N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

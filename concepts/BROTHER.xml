@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a820bc31-0905-40df-aac0-4882cd13073c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a820bc31-0905-40df-aac0-4882cd13073c">
 <head>BROTHER</head>
     <list type="translations">
         <item xml:lang="zh">兄弟</item>
@@ -274,7 +275,21 @@
                 </gramGrp>
   <def>act as an elder brother should</def>
             </sense>
-<sense xml:id="uuid-05e0d5ee-9877-430d-adda-c56ae33a68bb" resp="#CH" tls:created="2019-12-14T05:41:21.482+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the elder brother of the contextually determinate N</def></sense><sense xml:id="uuid-d5950366-51aa-4096-9503-6651aa1096b3" resp="#dsehnal" tls:created="2024-06-16T22:14:43.343+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-267a0e32-7ac5-40dd-ba0e-327ac560ddad">npost-N.=Npr</tls:syn-func></gramGrp><def>N's elder brother Npr</def></sense></entry>
+<sense xml:id="uuid-05e0d5ee-9877-430d-adda-c56ae33a68bb" resp="#CH" tls:created="2019-12-14T05:41:21.482+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the elder brother of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-d5950366-51aa-4096-9503-6651aa1096b3" resp="#dsehnal" tls:created="2024-06-16T22:14:43.343+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-267a0e32-7ac5-40dd-ba0e-327ac560ddad">npost-N.=Npr</tls:syn-func>
+                </gramGrp>
+                <def>N's elder brother Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-680e2da2-4636-4920-aa72-ada533d7db36">
             <form corresp="#uuid-9212f875-33a3-4b04-bb43-aca883e3085e">
 <orth>季</orth>
@@ -371,7 +386,28 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-15T19:06:35.362+09:00">younger brother of N</def>
             </sense>
-<sense xml:id="uuid-b92266a0-329d-4c35-bb44-8143eec5b7a2" resp="#CH" tls:created="2019-12-14T05:51:14.167+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>younger brother of the contextually determinate N</def></sense><sense xml:id="uuid-42e9adea-2100-4d1f-a9ad-ea2100cd1fd8" resp="#CH" tls:created="2020-02-14T19:12:15.618+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n(post-N).=Npr</tls:syn-func></gramGrp><def>the contextually determinate younger brother of N, Npr</def></sense><sense xml:id="uuid-25034afc-8045-4ef3-834a-fc80456ef36d" resp="#dsehnal" tls:created="2024-06-09T23:14:09.797+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-267a0e32-7ac5-40dd-ba0e-327ac560ddad">npost-N.=Npr</tls:syn-func></gramGrp><def>N's younger brother Npr</def></sense></entry>
+<sense xml:id="uuid-b92266a0-329d-4c35-bb44-8143eec5b7a2" resp="#CH" tls:created="2019-12-14T05:51:14.167+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>younger brother of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-42e9adea-2100-4d1f-a9ad-ea2100cd1fd8" resp="#CH" tls:created="2020-02-14T19:12:15.618+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n(post-N).=Npr</tls:syn-func>
+                </gramGrp>
+                <def>the contextually determinate younger brother of N, Npr</def>
+            </sense>
+            <sense xml:id="uuid-25034afc-8045-4ef3-834a-fc80456ef36d" resp="#dsehnal" tls:created="2024-06-09T23:14:09.797+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-267a0e32-7ac5-40dd-ba0e-327ac560ddad">npost-N.=Npr</tls:syn-func>
+                </gramGrp>
+                <def>N's younger brother Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7468c6b4-2502-4e26-b2d2-ca56fd51b853">
             <form corresp="#uuid-0e7f392c-6168-4551-bcd2-ccf3c110ae44">
 <orth>昆</orth>
@@ -517,7 +553,30 @@
                 </gramGrp>
   <def>be "brothers"</def>
             </sense>
-<sense xml:id="uuid-4ba3d493-6121-4da9-af3a-f71d7d86554d" resp="#CH" tls:created="2019-10-22T05:10:41.075+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP(post-N)</tls:syn-func></gramGrp><def>the brothers of the contextually determinate N</def></sense><sense xml:id="uuid-ecc7c016-2aa7-4969-87c0-162aa7896939" resp="#dsehnal" tls:created="2020-05-23T21:29:15.85+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>"brotherly"; of "brotherly" relation to N</def></sense><sense xml:id="uuid-c21e09c2-f0df-4e36-9e09-c2f0dfde3608" resp="#zadrapa" tls:created="2022-05-31T17:36:50.419+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-7579a42d-5694-455f-917c-626d5918a255">relational</tls:sem-feat></gramGrp><def>relationship between elder and younger brothers</def></sense></entry>
+<sense xml:id="uuid-4ba3d493-6121-4da9-af3a-f71d7d86554d" resp="#CH" tls:created="2019-10-22T05:10:41.075+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the brothers of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-ecc7c016-2aa7-4969-87c0-162aa7896939" resp="#dsehnal" tls:created="2020-05-23T21:29:15.85+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>"brotherly"; of "brotherly" relation to N</def>
+            </sense>
+            <sense xml:id="uuid-c21e09c2-f0df-4e36-9e09-c2f0dfde3608" resp="#zadrapa" tls:created="2022-05-31T17:36:50.419+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7579a42d-5694-455f-917c-626d5918a255">relational</tls:sem-feat>
+                </gramGrp>
+                <def>relationship between elder and younger brothers</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4aa6a1aa-bc50-4888-822b-ffd23bc27dac">
             <form corresp="#uuid-c95274cd-bf70-417e-9420-a577f5674277 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>宗子</orth>
@@ -599,7 +658,15 @@
                 </gramGrp>
   <def>as brothers; one brother against the other</def>
             </sense>
-<sense xml:id="uuid-29ff4d87-501d-4030-bf4d-87501d303060" resp="#dsehnal" tls:created="2020-05-23T17:50:15.504+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-53146e8b-101c-447a-946e-8b101cf47a97">NP1-NP2</tls:syn-func><tls:sem-feat corresp="#uuid-1649da60-368e-44ee-a2af-76850951eb4d">N2=amount</tls:sem-feat></gramGrp><def>brothers in amount of NP2 people</def></sense></entry>
+<sense xml:id="uuid-29ff4d87-501d-4030-bf4d-87501d303060" resp="#dsehnal" tls:created="2020-05-23T17:50:15.504+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-53146e8b-101c-447a-946e-8b101cf47a97">NP1-NP2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1649da60-368e-44ee-a2af-76850951eb4d">N2=amount</tls:sem-feat>
+                </gramGrp>
+                <def>brothers in amount of NP2 people</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-64c5ca90-d059-4152-a199-e77ccc4872b8">
             <form corresp="#uuid-be44b001-cc63-4db3-932a-3db142c45cb4 #uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb">
 <orth>母弟</orth>
@@ -666,5 +733,67 @@
   <def>elder brother</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-15f4bde1-d2e7-4ac3-9319-1951be78dce0" resp="#zadrapa" tls:created="2019-10-29T22:39:49.305+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-bf568f61-f8f3-4130-98e3-f9a8c6ec5c5c" resp="#zadrapa" tls:created="2019-10-29T22:39:49.305+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>an elder brother</def></sense></entry><entry type="word" xml:id="uuid-be8859a0-9b15-4494-a71c-ad6b7d65042c" resp="#zadrapa" tls:created="2019-10-29T22:39:59.808+09:00"><form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-6364c2e4-410e-4483-b036-5bda2ba8904c"><orth>人兄</orth><pron xml:lang="zh-Latn-x-pinyin">rén xiōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyin xjwaeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin qhʷraŋ</pron></form><sense xml:id="uuid-70062668-a25a-46dd-ab56-aa9f6d26a5c0" resp="#zadrapa" tls:created="2019-10-29T22:39:59.808+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>an elder brother</def></sense></entry><entry type="word" xml:id="uuid-f91d0eb9-a8c5-47c4-9d0e-b9a8c537c495" resp="#dsehnal" tls:created="2020-05-23T20:59:27.583+09:00"><form corresp="#uuid-ee21ee2b-8b08-4b25-bd49-9a2f23090efd"><orth>叔</orth><pron xml:lang="zh-Latn-x-pinyin">shū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syuwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljɯwɡ</pron></form><sense xml:id="uuid-09c3722c-3976-450b-8372-2c3976750b79" resp="#dsehnal" tls:created="2020-05-23T20:59:27.583+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>third eldest brother</def></sense></entry><entry type="word" xml:id="uuid-73404bd8-fcf8-4c04-804b-d8fcf82c04aa" resp="#wilke" tls:created="2022-09-17T21:34:49.372+09:00"><form corresp="#uuid-2358b4e4-e373-45a4-ba89-da230502ff10 #uuid-be44b001-cc63-4db3-932a-3db142c45cb4 #uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb"><orth>異母弟</orth><pron xml:lang="zh-Latn-x-pinyin">yì mǔ dì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiH muwX dejX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">p-lɯɡs mɯʔ liilʔ</pron></form><sense xml:id="uuid-66a43f57-f7bd-49c8-a43f-57f7bdf9c8ec" resp="#wilke" tls:created="2022-09-17T21:34:49.372+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func></gramGrp><def>half-brother of another mother (with the same father) by the name of Npr</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-15f4bde1-d2e7-4ac3-9319-1951be78dce0" resp="#zadrapa" tls:created="2019-10-29T22:39:49.305+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-bf568f61-f8f3-4130-98e3-f9a8c6ec5c5c" resp="#zadrapa" tls:created="2019-10-29T22:39:49.305+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>an elder brother</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-be8859a0-9b15-4494-a71c-ad6b7d65042c" resp="#zadrapa" tls:created="2019-10-29T22:39:59.808+09:00">
+            <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-6364c2e4-410e-4483-b036-5bda2ba8904c">
+                <orth>人兄</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rén xiōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyin xjwaeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin qhʷraŋ</pron>
+            </form>
+            <sense xml:id="uuid-70062668-a25a-46dd-ab56-aa9f6d26a5c0" resp="#zadrapa" tls:created="2019-10-29T22:39:59.808+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>an elder brother</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f91d0eb9-a8c5-47c4-9d0e-b9a8c537c495" resp="#dsehnal" tls:created="2020-05-23T20:59:27.583+09:00">
+            <form corresp="#uuid-ee21ee2b-8b08-4b25-bd49-9a2f23090efd">
+                <orth>叔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syuwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljɯwɡ</pron>
+            </form>
+            <sense xml:id="uuid-09c3722c-3976-450b-8372-2c3976750b79" resp="#dsehnal" tls:created="2020-05-23T20:59:27.583+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>third eldest brother</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-73404bd8-fcf8-4c04-804b-d8fcf82c04aa" resp="#wilke" tls:created="2022-09-17T21:34:49.372+09:00">
+            <form corresp="#uuid-2358b4e4-e373-45a4-ba89-da230502ff10 #uuid-be44b001-cc63-4db3-932a-3db142c45cb4 #uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb">
+                <orth>異母弟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì mǔ dì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiH muwX dejX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">p-lɯɡs mɯʔ liilʔ</pron>
+            </form>
+            <sense xml:id="uuid-66a43f57-f7bd-49c8-a43f-57f7bdf9c8ec" resp="#wilke" tls:created="2022-09-17T21:34:49.372+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func>
+                </gramGrp>
+                <def>half-brother of another mother (with the same father) by the name of Npr</def>
+            </sense>
+        </entry>
+    </div>
 </div>

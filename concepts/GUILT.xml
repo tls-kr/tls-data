@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-21896666-fc4e-4b61-90e9-5f55c8dcf3aa">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-21896666-fc4e-4b61-90e9-5f55c8dcf3aa">
 <head>GUILT</head>
     <list type="altnames">
 <item>CULPABILITY</item>
@@ -17,7 +18,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:27:39.797+09:00">RESPONSIBILITY FOR ONE'S AVOIDABLE PAST BAD ACT. </p></div>
+    <p resp="#CH" modified="2021-03-18T18:27:39.797+09:00">RESPONSIBILITY FOR ONE'S AVOIDABLE PAST BAD ACT. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The dominant standard general word for any kind of guilt, large or small, is zuì 罪 (ant. gōng 功 "merit"), but this does not refer to any feelings of guilt; the general term for feelings of guilt is jiù 疚 REGRET.</p>
@@ -261,7 +263,21 @@
                 </gramGrp>
   <def>someone guilty of death</def>
             </sense>
-<sense xml:id="uuid-6e00eb3f-21b1-4c6d-82e9-5b993481e5dd" resp="#CH" tls:created="2019-12-20T05:07:23.35+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def>be guilty of death, deserve death</def></sense><sense xml:id="uuid-5088070c-93f9-40da-8807-0c93f990daed" resp="#twharbsmeier" tls:created="2020-06-18T23:35:19.144+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>deserving death</def></sense></entry>
+<sense xml:id="uuid-6e00eb3f-21b1-4c6d-82e9-5b993481e5dd" resp="#CH" tls:created="2019-12-20T05:07:23.35+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def>be guilty of death, deserve death</def>
+            </sense>
+            <sense xml:id="uuid-5088070c-93f9-40da-8807-0c93f990daed" resp="#twharbsmeier" tls:created="2020-06-18T23:35:19.144+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>deserving death</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-51512e68-f1a1-412c-8d33-788b9c2624f8">
             <form corresp="#uuid-bec89d3f-2f4a-41cf-acc9-049a5f87eec3">
 <orth>罪</orth>
@@ -327,7 +343,15 @@
                 </gramGrp>
   <def>the guilt of the contextually determinate person</def>
             </sense>
-<sense xml:id="uuid-0a0360b5-a95c-4256-8951-ed59f1a5fcad" resp="#CH" tls:created="2019-12-15T07:54:45.302+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-62a630be-58ae-44f4-b858-a7540b2de8d3">moral</tls:sem-feat></gramGrp><def>N's moral mistake, N's criminal responsibility, N's fault</def></sense></entry>
+<sense xml:id="uuid-0a0360b5-a95c-4256-8951-ed59f1a5fcad" resp="#CH" tls:created="2019-12-15T07:54:45.302+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-62a630be-58ae-44f4-b858-a7540b2de8d3">moral</tls:sem-feat>
+                </gramGrp>
+                <def>N's moral mistake, N's criminal responsibility, N's fault</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c23dc6f3-04a5-44ce-9a50-bc9caa39db48">
             <form corresp="#uuid-904895ed-aee7-4521-a1f4-ac016b491a29">
 <orth>罰</orth>
@@ -382,7 +406,28 @@
                 </gramGrp>
   <def>be guilty</def>
             </sense>
-<sense xml:id="uuid-40836866-e285-47df-a0c9-b9db7d649df1" resp="#CH" tls:created="2019-12-10T18:43:38.896+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func></gramGrp><def resp="#CH" updated="2020-05-03T18:38:41.632+09:00">event: turn out to be guilty; prove guilty of a crime</def></sense><sense xml:id="uuid-dc96d361-98a0-47c8-96d3-6198a0b7c8fc" resp="#CH" tls:created="2020-05-18T06:24:47.239+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func></gramGrp><def>have committed a crime against, be guilty of a crime against</def></sense><sense xml:id="uuid-0472225c-0a95-4e9b-b222-5c0a956e9b0e" resp="#dsehnal" tls:created="2023-07-15T01:57:52.353+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>guilty; criminal</def></sense></entry>
+<sense xml:id="uuid-40836866-e285-47df-a0c9-b9db7d649df1" resp="#CH" tls:created="2019-12-10T18:43:38.896+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-03T18:38:41.632+09:00">event: turn out to be guilty; prove guilty of a crime</def>
+            </sense>
+            <sense xml:id="uuid-dc96d361-98a0-47c8-96d3-6198a0b7c8fc" resp="#CH" tls:created="2020-05-18T06:24:47.239+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>have committed a crime against, be guilty of a crime against</def>
+            </sense>
+            <sense xml:id="uuid-0472225c-0a95-4e9b-b222-5c0a956e9b0e" resp="#dsehnal" tls:created="2023-07-15T01:57:52.353+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>guilty; criminal</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d7cfaf43-368e-4912-be01-f28bea574157">
             <form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991 #uuid-0a0547d8-d483-4e3e-8023-d98ca40a8e18">
 <orth>有過</orth>

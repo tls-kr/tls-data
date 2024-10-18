@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-35072aec-ec3b-493e-85d7-0e10b4fb29a7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-35072aec-ec3b-493e-85d7-0e10b4fb29a7">
 <head>ENTRUST</head>
     <list type="altnames">
 <item>ASSIGN TO</item>
@@ -88,7 +89,14 @@
                 </gramGrp>
   <def>give (somebody N1) the responsibility for (something N2)任天下於益</def>
             </sense>
-<sense xml:id="uuid-1e78fb50-722d-492c-b8fb-50722d492c11" resp="#wilke" tls:created="2022-08-30T03:18:13.911+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-d297e75d-f861-41bf-8194-937505950af7">vttoN1(.+N2)</tls:syn-func></gramGrp><def>entrust N1 to contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-1e78fb50-722d-492c-b8fb-50722d492c11" resp="#wilke" tls:created="2022-08-30T03:18:13.911+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-d297e75d-f861-41bf-8194-937505950af7">vttoN1(.+N2)</tls:syn-func>
+                </gramGrp>
+                <def>entrust N1 to contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ea569f11-e9e2-4b05-b1cb-ec120d6aab83">
             <form corresp="#uuid-3e6ea9cc-775d-4c5b-b094-0eda7dbabe72">
 <orth>囑</orth>
@@ -159,7 +167,15 @@
                 </gramGrp>
   <def>entrust something to a contextually determinate place or person</def>
             </sense>
-<sense xml:id="uuid-a2551a73-f01c-44be-807c-b80a242287cd" resp="#CH" tls:created="2020-02-12T00:05:37.516+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#">+vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>choose the literary effect N2 for N1</def></sense></entry>
+<sense xml:id="uuid-a2551a73-f01c-44be-807c-b80a242287cd" resp="#CH" tls:created="2020-02-12T00:05:37.516+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#">+vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>choose the literary effect N2 for N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-76e42718-094b-45b3-993d-acf47593e5a3">
             <form corresp="#uuid-b3fce347-3f9b-4118-99c2-f8371f6c5bf0">
 <orth>寓</orth>
@@ -174,7 +190,15 @@
                 </gramGrp>
   <def>entrust (something N1) to (somebody N2)大夫寓祭器於大夫</def>
             </sense>
-<sense xml:id="uuid-4d4fa4f1-9835-4856-8fa4-f198354856ef" resp="#dsehnal" tls:created="2024-06-10T01:36:47.01+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat></gramGrp><def>entrust N1 to the place N2</def></sense></entry>
+<sense xml:id="uuid-4d4fa4f1-9835-4856-8fa4-f198354856ef" resp="#dsehnal" tls:created="2024-06-10T01:36:47.01+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat>
+                </gramGrp>
+                <def>entrust N1 to the place N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f58301f9-ea93-41a7-9913-75e53eb12516">
             <form corresp="#uuid-7ea947ba-0608-4818-b57f-0618e6c9f43b">
 <orth>屬</orth>
@@ -209,7 +233,14 @@
                 </gramGrp>
   <def>entrust (something) to (someone) (with preposed indirect object)</def>
             </sense>
-<sense xml:id="uuid-813c5961-13f1-417d-bc59-6113f1f17d70" resp="#CH" tls:created="2022-08-08T17:38:57.796+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-d297e75d-f861-41bf-8194-937505950af7">vttoN1(.+N2)</tls:syn-func></gramGrp><def>consign/entrust N1 to the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-813c5961-13f1-417d-bc59-6113f1f17d70" resp="#CH" tls:created="2022-08-08T17:38:57.796+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-d297e75d-f861-41bf-8194-937505950af7">vttoN1(.+N2)</tls:syn-func>
+                </gramGrp>
+                <def>consign/entrust N1 to the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ada47a0d-d332-499f-8547-c00490dfc709">
             <form corresp="#uuid-0174354e-3eea-49d7-a9d6-d3040cca221f">
 <orth>投</orth>
@@ -268,7 +299,14 @@
                 </gramGrp>
   <def>entrust (somebody N1) to a contextually defined object N2</def>
             </sense>
-<sense xml:id="uuid-cefcda50-c49b-4c31-bcda-50c49b1c31c3" resp="#CH" tls:created="2021-06-06T20:02:07.12+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>devote (all one's efforts to something)</def></sense></entry>
+<sense xml:id="uuid-cefcda50-c49b-4c31-bcda-50c49b1c31c3" resp="#CH" tls:created="2021-06-06T20:02:07.12+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>devote (all one's efforts to something)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7cc3f6b0-4133-4157-a37d-50bd66b938a5">
             <form corresp="#uuid-0af8846a-672d-41f9-ab49-4adaca3ad6a9 #uuid-0f7716a6-e077-4a44-8e39-cc0552dfc9e3">
 <orth>寄託</orth>

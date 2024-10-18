@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6aa1a2d6-99fa-4e3d-8d14-24fbeb5dbaea">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6aa1a2d6-99fa-4e3d-8d14-24fbeb5dbaea">
 <head>PICTURE</head>
     <list type="altnames">
 <item>PAINTING</item>
@@ -327,7 +328,22 @@
   <def>paint pictures professionally; engage in the profession of painting</def>
             </sense>
 
-<sense xml:id="uuid-8d2e1b58-8771-421c-a9c8-9c35e2be54b5" resp="#CH" tls:created="2019-12-13T20:13:29.835+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-94912abd-3453-4f65-a3eb-892966ebeb5d">vtoN{PLACE}</tls:syn-func></gramGrp><def>draw a picture in the place N</def></sense><sense xml:id="uuid-f0add581-198e-4f7c-868f-d31320cf7903" resp="#CH" tls:created="2019-12-13T20:48:01.203+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>continue to paint</def></sense></entry>
+<sense xml:id="uuid-8d2e1b58-8771-421c-a9c8-9c35e2be54b5" resp="#CH" tls:created="2019-12-13T20:13:29.835+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-94912abd-3453-4f65-a3eb-892966ebeb5d">vtoN{PLACE}</tls:syn-func>
+                </gramGrp>
+                <def>draw a picture in the place N</def>
+            </sense>
+            <sense xml:id="uuid-f0add581-198e-4f7c-868f-d31320cf7903" resp="#CH" tls:created="2019-12-13T20:48:01.203+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>continue to paint</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1b8d7f08-8359-4463-8147-a00f4e09a231">
             <form corresp="#uuid-04b265b0-b14b-4ddd-87ca-fdc492ed120e">
 <orth>象</orth>
@@ -353,7 +369,14 @@
                 </gramGrp>
   <def>make images of (something)</def>
             </sense>
-<sense xml:id="uuid-d0e48439-980a-45ec-a484-39980a35eca8" resp="#CH" tls:created="2020-02-14T04:35:31.526+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>poetic imagery</def></sense></entry>
+<sense xml:id="uuid-d0e48439-980a-45ec-a484-39980a35eca8" resp="#CH" tls:created="2020-02-14T04:35:31.526+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>poetic imagery</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c30ea733-5825-4459-95d0-e3065aee3aba">
             <form corresp="#uuid-0fb993fe-bd05-4fcc-a4ee-a7943245582c #uuid-546c3004-cc68-4595-9d2a-43f09ff362b7">
 <orth>圖像</orth>

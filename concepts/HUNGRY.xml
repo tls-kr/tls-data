@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7bee5662-2a76-4e8e-a56a-0f8b2f193f07">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7bee5662-2a76-4e8e-a56a-0f8b2f193f07">
 <head>HUNGRY</head>
     <list type="altnames">
 <item>HUNGER</item>
@@ -327,7 +328,29 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-04-01T04:32:29.406+09:00">the famished</def>
             </sense>
-<sense xml:id="uuid-d17eee86-e1c5-4a3c-9689-71553b9f3d13" resp="#CH" tls:created="2019-12-10T18:39:32.806+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause to go hungry; cause to starve</def></sense><sense xml:id="uuid-a371bf57-0189-4480-b1bf-5701891480c1" resp="#twharbsmeier" tls:created="2020-04-02T00:42:41.81+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-02T04:47:01.94+09:00">figurative: "hunger" after N</def></sense><sense xml:id="uuid-ddcffc7c-83db-4800-8ffc-7c83db780095" resp="#CH" tls:created="2020-12-15T21:17:14.12+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func></gramGrp><def>oneself going hungry</def></sense></entry>
+<sense xml:id="uuid-d17eee86-e1c5-4a3c-9689-71553b9f3d13" resp="#CH" tls:created="2019-12-10T18:39:32.806+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause to go hungry; cause to starve</def>
+            </sense>
+            <sense xml:id="uuid-a371bf57-0189-4480-b1bf-5701891480c1" resp="#twharbsmeier" tls:created="2020-04-02T00:42:41.81+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-02T04:47:01.94+09:00">figurative: "hunger" after N</def>
+            </sense>
+            <sense xml:id="uuid-ddcffc7c-83db-4800-8ffc-7c83db780095" resp="#CH" tls:created="2020-12-15T21:17:14.12+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
+                </gramGrp>
+                <def>oneself going hungry</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-170635d6-a68d-4415-887c-5fadd9e7808a">
             <form corresp="#uuid-6e95ba5e-4238-47b0-82d7-4d61d4326170">
 <orth>餓</orth>
@@ -394,7 +417,14 @@
                 </gramGrp>
   <def>cause oneself to be famished; cause oneself to starve</def>
             </sense>
-<sense xml:id="uuid-ab2da249-b04c-4dff-ada2-49b04ccdff80" resp="#zadrapa" tls:created="2020-12-01T23:18:51.342+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>starving</def></sense></entry>
+<sense xml:id="uuid-ab2da249-b04c-4dff-ada2-49b04ccdff80" resp="#zadrapa" tls:created="2020-12-01T23:18:51.342+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>starving</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bb4d79f1-0768-495c-8866-11a09a67f0d8">
             <form corresp="#uuid-18aa1666-2904-40b9-9d6b-b31b70813261">
 <orth>餒</orth>
@@ -668,5 +698,35 @@
   <def>famine</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f935f3c7-cf0b-4228-92ea-c9b85442dfe7" resp="#CH" tls:created="2019-12-12T05:09:44.944+09:00"><form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-a9517187-8a7c-4823-9156-74492d208dd2"><orth>無食</orth><pron xml:lang="zh-Latn-x-pinyin">wú yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju yiH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma ɡ-lɯɡs</pron></form><sense xml:id="uuid-a15841d1-c6cf-42b1-91ff-1a81546eab39" resp="#CH" tls:created="2019-12-12T05:09:44.944+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>go hungry, not have enough to eat</def></sense></entry><entry type="word" xml:id="uuid-618f9172-332f-4b02-8f91-72332fdb025e" resp="#CH" tls:created="2020-05-29T04:06:41.777+09:00"><form corresp="#uuid-3303502c-0dc4-4d97-aad0-c4915112f07c #uuid-5590ad14-e0fb-4edc-996b-f5b7b83e7d5c"><orth>糧絕</orth><pron xml:lang="zh-Latn-x-pinyin">liáng jué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljang --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-raŋ dzod</pron></form><sense xml:id="uuid-45630bef-ea80-493b-a30b-efea80c93bf8" resp="#CH" tls:created="2020-05-29T04:06:41.777+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>run out of food</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f935f3c7-cf0b-4228-92ea-c9b85442dfe7" resp="#CH" tls:created="2019-12-12T05:09:44.944+09:00">
+            <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-a9517187-8a7c-4823-9156-74492d208dd2">
+                <orth>無食</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju yiH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma ɡ-lɯɡs</pron>
+            </form>
+            <sense xml:id="uuid-a15841d1-c6cf-42b1-91ff-1a81546eab39" resp="#CH" tls:created="2019-12-12T05:09:44.944+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>go hungry, not have enough to eat</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-618f9172-332f-4b02-8f91-72332fdb025e" resp="#CH" tls:created="2020-05-29T04:06:41.777+09:00">
+            <form corresp="#uuid-3303502c-0dc4-4d97-aad0-c4915112f07c #uuid-5590ad14-e0fb-4edc-996b-f5b7b83e7d5c">
+                <orth>糧絕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liáng jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljang --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-raŋ dzod</pron>
+            </form>
+            <sense xml:id="uuid-45630bef-ea80-493b-a30b-efea80c93bf8" resp="#CH" tls:created="2020-05-29T04:06:41.777+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>run out of food</def>
+            </sense>
+        </entry>
+    </div>
 </div>

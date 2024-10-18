@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f88d0223-a021-4d3a-a4a8-02a5ffaf5527">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f88d0223-a021-4d3a-a4a8-02a5ffaf5527">
 <head>SPLIT</head>
     <list type="altnames">
 <item>BREAK</item>
@@ -243,7 +244,15 @@
                 </gramGrp>
   <def>force open</def>
             </sense>
-<sense xml:id="uuid-d323c01b-5d6c-4edb-a3c0-1b5d6c2edb1f" resp="#CH" tls:created="2020-03-11T17:53:54.588+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>force open (mountains to create roads)</def></sense></entry>
+<sense xml:id="uuid-d323c01b-5d6c-4edb-a3c0-1b5d6c2edb1f" resp="#CH" tls:created="2020-03-11T17:53:54.588+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>force open (mountains to create roads)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-83f13473-1dc9-4370-8372-79276e866562">
             <form corresp="#uuid-a87ed6e3-516d-4203-95b3-c61730258970">
 <orth>斯</orth>
@@ -448,5 +457,28 @@
   <def>split open</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-898d00ec-89aa-43d8-8d00-ec89aa73d8e4" resp="#CH" tls:created="2021-03-05T06:12:26.368+09:00"><form corresp="#uuid-be5bb17d-8a94-4893-83af-a9a8eb16702c"><orth>決</orth><pron xml:lang="zh-Latn-x-pinyin">xuè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xwet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhʷeed</pron></form><sense xml:id="uuid-a1a6defd-1937-431d-a6de-fd1937131dad" resp="#CH" tls:created="2021-03-05T06:12:26.368+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>break apart</def></sense><sense xml:id="uuid-50bad8a5-c2da-4f06-bad8-a5c2da4f0626" resp="#CH" tls:created="2021-09-06T23:40:56.878+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>split; separate</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-898d00ec-89aa-43d8-8d00-ec89aa73d8e4" resp="#CH" tls:created="2021-03-05T06:12:26.368+09:00">
+            <form corresp="#uuid-be5bb17d-8a94-4893-83af-a9a8eb16702c">
+                <orth>決</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xuè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xwet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhʷeed</pron>
+            </form>
+            <sense xml:id="uuid-a1a6defd-1937-431d-a6de-fd1937131dad" resp="#CH" tls:created="2021-03-05T06:12:26.368+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>break apart</def>
+            </sense>
+            <sense xml:id="uuid-50bad8a5-c2da-4f06-bad8-a5c2da4f0626" resp="#CH" tls:created="2021-09-06T23:40:56.878+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>split; separate</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a3e906b7-c7fd-4ce9-b57f-f9ec9f049843">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a3e906b7-c7fd-4ce9-b57f-f9ec9f049843">
 <head>CONQUER</head>
     <list type="altnames">
 <item>DEFEAT</item>
@@ -172,7 +173,14 @@
                 </gramGrp>
   <def>overcome</def>
             </sense>
-<sense xml:id="uuid-b32f76c3-b6a5-45e0-b8de-0c6021b8c5ae" resp="#CH" tls:created="2019-12-02T07:09:45.539+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>reflexive己：conquer</def></sense></entry>
+<sense xml:id="uuid-b32f76c3-b6a5-45e0-b8de-0c6021b8c5ae" resp="#CH" tls:created="2019-12-02T07:09:45.539+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>reflexive己：conquer</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ea1e402f-a2f1-498b-b74e-01b58c730ef4">
             <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
 <orth>取</orth>
@@ -204,7 +212,15 @@
                 </gramGrp>
   <def>cause to submit, cause to recognise one's authority</def>
             </sense>
-<sense xml:id="uuid-383f0e1c-43c9-423b-bf0e-1c43c9a23b9d" resp="#zadrapa" tls:created="2022-06-07T21:51:51.723+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be subdued</def></sense></entry>
+<sense xml:id="uuid-383f0e1c-43c9-423b-bf0e-1c43c9a23b9d" resp="#zadrapa" tls:created="2022-06-07T21:51:51.723+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be subdued</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2dba879e-4bea-4ab7-9f73-56aa716a2188">
             <form corresp="#uuid-18bfc26a-efe6-4559-a230-5f082def72c5">
 <orth>屬</orth>
@@ -392,5 +408,21 @@
   <def resp="#CH" updated="2020-03-11T17:43:38.522+09:00">"pacify"&gt; subdue</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-bc03351b-72fc-442f-8335-1b72fca42fc9" resp="#zadrapa" tls:created="2021-05-18T20:14:53.645+09:00"><form corresp="#uuid-d53d7769-16e8-40b0-bb72-e0224fcddd54 #uuid-a861a225-441d-42db-9c6b-fa794e1b71e2"><orth>薦撙</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn zǔn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsenH tswonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tseens tsuunʔ</pron></form><sense xml:id="uuid-1ea8cc2a-df3c-42c2-a8cc-2adf3c42c283" resp="#zadrapa" tls:created="2021-05-18T20:14:53.645+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def>try to override, try to walk over</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-bc03351b-72fc-442f-8335-1b72fca42fc9" resp="#zadrapa" tls:created="2021-05-18T20:14:53.645+09:00">
+            <form corresp="#uuid-d53d7769-16e8-40b0-bb72-e0224fcddd54 #uuid-a861a225-441d-42db-9c6b-fa794e1b71e2">
+                <orth>薦撙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn zǔn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsenH tswonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tseens tsuunʔ</pron>
+            </form>
+            <sense xml:id="uuid-1ea8cc2a-df3c-42c2-a8cc-2adf3c42c283" resp="#zadrapa" tls:created="2021-05-18T20:14:53.645+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def>try to override, try to walk over</def>
+            </sense>
+        </entry>
+    </div>
 </div>

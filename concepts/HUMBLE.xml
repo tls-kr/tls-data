@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-937b3ebb-47b1-46c0-ac49-a2ef30faa3d7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-937b3ebb-47b1-46c0-ac49-a2ef30faa3d7">
 <head>HUMBLE</head>
     <list type="altnames">
 <item>LOWLY</item>
@@ -361,7 +362,22 @@
                 </gramGrp>
   <def>regard as valueless</def>
             </sense>
-<sense xml:id="uuid-d53f1cc2-97e4-4c2a-a295-a539cf6b06c7" resp="#CH" tls:created="2019-12-29T07:23:15.464+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func></gramGrp><def>at a low bureaucratic level</def></sense><sense xml:id="uuid-577fb025-923a-4f05-bfb0-25923a8f05fa" resp="#CH" tls:created="2022-11-19T17:17:29.633+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#">graded</tls:sem-feat></gramGrp><def>the humbler, the less distinguished</def></sense></entry>
+<sense xml:id="uuid-d53f1cc2-97e4-4c2a-a295-a539cf6b06c7" resp="#CH" tls:created="2019-12-29T07:23:15.464+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
+                </gramGrp>
+                <def>at a low bureaucratic level</def>
+            </sense>
+            <sense xml:id="uuid-577fb025-923a-4f05-bfb0-25923a8f05fa" resp="#CH" tls:created="2022-11-19T17:17:29.633+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#">graded</tls:sem-feat>
+                </gramGrp>
+                <def>the humbler, the less distinguished</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e4591e37-dd8d-4710-b26a-72de6e4d217f">
             <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132">
 <orth>小</orth>
@@ -662,7 +678,38 @@
                 </gramGrp>
   <def>humble (oneself)</def>
             </sense>
-<sense xml:id="uuid-2fcc2dc3-f9de-4359-8c2d-c3f9def359ad" resp="#zadrapa" tls:created="2021-02-11T17:37:32.151+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2021-02-11T17:47:31.579+09:00">  causative: be made a person of low status</def></sense><sense xml:id="uuid-964987fd-b0b2-4845-8987-fdb0b2384555" resp="#zadrapa" tls:created="2021-05-27T15:07:51.624+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>(starting) from a state of being of low status</def></sense><sense xml:id="uuid-ac911c34-b9d7-44a2-911c-34b9d744a201" resp="#zadrapa" tls:created="2022-05-31T20:03:43.395+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>making others more humble than they were before</def></sense><sense xml:id="uuid-b1291fe5-76b2-4c83-a91f-e576b24c8340" resp="#zadrapa" tls:created="2022-06-17T00:20:28.79+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>make others humble</def></sense></entry>
+<sense xml:id="uuid-2fcc2dc3-f9de-4359-8c2d-c3f9def359ad" resp="#zadrapa" tls:created="2021-02-11T17:37:32.151+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-02-11T17:47:31.579+09:00">  causative: be made a person of low status</def>
+            </sense>
+            <sense xml:id="uuid-964987fd-b0b2-4845-8987-fdb0b2384555" resp="#zadrapa" tls:created="2021-05-27T15:07:51.624+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>(starting) from a state of being of low status</def>
+            </sense>
+            <sense xml:id="uuid-ac911c34-b9d7-44a2-911c-34b9d744a201" resp="#zadrapa" tls:created="2022-05-31T20:03:43.395+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>making others more humble than they were before</def>
+            </sense>
+            <sense xml:id="uuid-b1291fe5-76b2-4c83-a91f-e576b24c8340" resp="#zadrapa" tls:created="2022-06-17T00:20:28.79+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>make others humble</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-24cbb2ae-5ed8-40d5-be54-e4b274aa8894">
             <form corresp="#uuid-78e86eb4-0ef1-4eb5-a110-63d7f96b1489">
 <orth>降</orth>
@@ -800,7 +847,15 @@
                 </gramGrp>
   <def>humble and/or vulgar&gt; undistinguished</def>
             </sense>
-<sense xml:id="uuid-03025417-ffbb-4366-8254-17ffbbd36641" resp="#CH" tls:created="2022-08-17T22:02:12.739+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>lowliness, humbleness</def></sense></entry>
+<sense xml:id="uuid-03025417-ffbb-4366-8254-17ffbbd36641" resp="#CH" tls:created="2022-08-17T22:02:12.739+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>lowliness, humbleness</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f09009c7-07a0-4ce8-ba57-630ec0ddccd5">
             <form corresp="#uuid-fe7ddeef-abf6-4d1a-ae39-0acb0695daa0 #uuid-ee5018a5-6d0a-44d6-8acc-9ab7b28306d5">
 <orth>幽仄</orth>
@@ -917,7 +972,14 @@
                 </gramGrp>
   <def>be poor and humble (of persons and places)</def>
             </sense>
-<sense xml:id="uuid-b6a26648-e3e4-4b7e-8b8d-434e1b6d391e" resp="#CH" tls:created="2019-10-14T22:03:59.023+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>the poor and the humble</def></sense></entry>
+<sense xml:id="uuid-b6a26648-e3e4-4b7e-8b8d-434e1b6d391e" resp="#CH" tls:created="2019-10-14T22:03:59.023+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the poor and the humble</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-efb6521d-4533-46e6-8c95-9315ebf15f10">
             <form corresp="#uuid-d5d8a535-24fd-422c-b333-2431a9bd7cb2 #uuid-62626b8e-b8a7-4438-871e-09e52ad7e4fb">
 <orth>貶損</orth>
@@ -974,11 +1036,141 @@
   <def>humility</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-e3bb7ca7-a467-44ca-ad49-243bfc1ea4b3" resp="#CH" tls:created="2019-12-25T20:16:04.983+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-30eebdb3-2e4f-421f-b37f-2850243aca73" resp="#CH" tls:created="2019-12-25T20:16:04.983+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause oneself to be politely humble&gt; tone oneself down, i.e. cease to be arrogant</def></sense></entry><entry type="word" xml:id="uuid-3872b1fd-7fe1-4b2f-a3f0-234f9ef3c439" resp="#CH" tls:created="2019-12-25T20:24:49.668+09:00"><form corresp="#uuid-c3c00131-803e-4832-ac3e-f84721d76085 #uuid-62626b8e-b8a7-4438-871e-09e52ad7e4fb"><orth>抑損</orth><pron xml:lang="zh-Latn-x-pinyin">yì
- sǔn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'ik
- swonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɡ
- squunʔ</pron></form><sense xml:id="uuid-deb29c52-70d4-4f40-b46a-c0d177643a05" resp="#CH" tls:created="2019-12-25T20:24:49.668+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause oneself to be politely humble&gt; tone oneself down, i.e. cease to be arrogant</def></sense></entry><entry type="word" xml:id="uuid-8f3c8a33-8d5a-4cd0-bc8a-338d5a3cd0d3" resp="#zadrapa" tls:created="2020-05-21T04:24:59.877+09:00"><form corresp="#uuid-eca67c5f-bd79-4ef8-8043-f69b99420f5c #uuid-7c08987e-9cbc-406c-9259-f2df17ce881e"><orth>卑溼</orth><pron xml:lang="zh-Latn-x-pinyin">bēi shī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjie syip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pe qhljɯb</pron></form><sense xml:id="uuid-37f32cc2-cf46-4ddc-b32c-c2cf46bddc3b" resp="#zadrapa" tls:created="2020-05-21T04:24:59.877+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>submissive</def></sense></entry><entry type="word" xml:id="uuid-7e41f9d9-283f-4560-81f9-d9283f05604a" resp="#zadrapa" tls:created="2020-06-01T18:26:28.119+09:00"><form corresp="#uuid-314bc89c-72a1-4057-92d3-b26eb0e33dcb"><orth>儑</orth><pron xml:lang="zh-Latn-x-pinyin">è</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngomH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡlaab</pron></form><sense xml:id="uuid-0307b6fb-77cd-428c-87b6-fb77cd928c71" resp="#zadrapa" tls:created="2020-06-01T18:26:28.119+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b7389587-f098-4784-92fb-2c802547dd5f">vt[oN{REFLEX}]</tls:syn-func></gramGrp><def>= shi1 溼: debase oneself</def></sense></entry><entry type="word" xml:id="uuid-6442c2d0-3c92-49a3-82c2-d03c9289a37c" resp="#CH" tls:created="2020-06-06T04:06:21.048+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-0174354e-3eea-49d7-a9d6-d3040cca221f"><orth>自投</orth><pron xml:lang="zh-Latn-x-pinyin">zì tóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH duw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids doo</pron></form><sense xml:id="uuid-0b844476-2c2e-4c34-8444-762c2efc347e" resp="#CH" tls:created="2020-06-06T04:06:21.048+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>humble oneself</def></sense></entry><entry type="word" xml:id="uuid-ba650a2f-a81e-4ca0-a50a-2fa81e0ca025" resp="#zadrapa" tls:created="2020-06-12T15:55:44.146+09:00"><form corresp="#uuid-f8dd07d7-f148-483a-8ec8-65d1a329b462 #uuid-b99650bd-5ab5-4d51-8a9f-4fc5733cec70"><orth>恭儉</orth><pron xml:lang="zh-Latn-x-pinyin">gōng jiǎn
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjowng gjemX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koŋ ɡromʔ
-</pron></form><sense xml:id="uuid-c54a5431-36c6-4a5b-8a54-3136c6ba5bfe" resp="#zadrapa" tls:created="2020-06-12T15:55:44.146+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-21T20:17:45.693+09:00">respectful humility, reverential restraint</def></sense><sense xml:id="uuid-f8a1ba93-b981-489c-a1ba-93b981289ced" resp="#CH" tls:created="2020-09-07T17:29:25.325+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-21T20:17:59.317+09:00">be reverentially decent and restrained</def></sense></entry><entry type="word" xml:id="uuid-2ac07f10-f1c9-4889-807f-10f1c9f88910" resp="#zadrapa" tls:created="2020-12-18T05:09:32.584+09:00"><form corresp="#uuid-5b6bb7b0-ef5e-421d-96b8-90028205e458 #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>府然</orth><pron xml:lang="zh-Latn-x-pinyin">fǔ rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjuX nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">poʔ njen</pron></form><sense xml:id="uuid-fa75ea61-9a2d-455c-b5ea-619a2d755cbe" resp="#zadrapa" tls:created="2020-12-18T05:09:32.584+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>(= fu3rán 俯然) evoking a self-debasing manner of action (XUN)</def></sense></entry><entry type="word" xml:id="uuid-3b3cd2ab-d7c6-4874-bcd2-abd7c628741b" resp="#zadrapa" tls:created="2021-01-25T06:37:45.223+09:00"><form corresp="#uuid-d6e20097-3aea-4abc-95de-9d973db7ed17"><orth>嗛</orth><pron xml:lang="zh-Latn-x-pinyin">qiǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khemX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khleemʔ</pron></form><sense xml:id="uuid-3f289827-6c70-43d9-a898-276c7003d9de" resp="#zadrapa" tls:created="2021-01-25T06:37:45.223+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>(= qian1 謙) behave in a humble manner</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-e3bb7ca7-a467-44ca-ad49-243bfc1ea4b3" resp="#CH" tls:created="2019-12-25T20:16:04.983+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-30eebdb3-2e4f-421f-b37f-2850243aca73" resp="#CH" tls:created="2019-12-25T20:16:04.983+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause oneself to be politely humble&gt; tone oneself down, i.e. cease to be arrogant</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3872b1fd-7fe1-4b2f-a3f0-234f9ef3c439" resp="#CH" tls:created="2019-12-25T20:24:49.668+09:00">
+            <form corresp="#uuid-c3c00131-803e-4832-ac3e-f84721d76085 #uuid-62626b8e-b8a7-4438-871e-09e52ad7e4fb">
+                <orth>抑損</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì
+ sǔn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'ik
+ swonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɡ
+ squunʔ</pron>
+            </form>
+            <sense xml:id="uuid-deb29c52-70d4-4f40-b46a-c0d177643a05" resp="#CH" tls:created="2019-12-25T20:24:49.668+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause oneself to be politely humble&gt; tone oneself down, i.e. cease to be arrogant</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8f3c8a33-8d5a-4cd0-bc8a-338d5a3cd0d3" resp="#zadrapa" tls:created="2020-05-21T04:24:59.877+09:00">
+            <form corresp="#uuid-eca67c5f-bd79-4ef8-8043-f69b99420f5c #uuid-7c08987e-9cbc-406c-9259-f2df17ce881e">
+                <orth>卑溼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bēi shī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjie syip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pe qhljɯb</pron>
+            </form>
+            <sense xml:id="uuid-37f32cc2-cf46-4ddc-b32c-c2cf46bddc3b" resp="#zadrapa" tls:created="2020-05-21T04:24:59.877+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>submissive</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7e41f9d9-283f-4560-81f9-d9283f05604a" resp="#zadrapa" tls:created="2020-06-01T18:26:28.119+09:00">
+            <form corresp="#uuid-314bc89c-72a1-4057-92d3-b26eb0e33dcb">
+                <orth>儑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">è</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngomH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡlaab</pron>
+            </form>
+            <sense xml:id="uuid-0307b6fb-77cd-428c-87b6-fb77cd928c71" resp="#zadrapa" tls:created="2020-06-01T18:26:28.119+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b7389587-f098-4784-92fb-2c802547dd5f">vt[oN{REFLEX}]</tls:syn-func>
+                </gramGrp>
+                <def>= shi1 溼: debase oneself</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6442c2d0-3c92-49a3-82c2-d03c9289a37c" resp="#CH" tls:created="2020-06-06T04:06:21.048+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-0174354e-3eea-49d7-a9d6-d3040cca221f">
+                <orth>自投</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì tóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH duw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids doo</pron>
+            </form>
+            <sense xml:id="uuid-0b844476-2c2e-4c34-8444-762c2efc347e" resp="#CH" tls:created="2020-06-06T04:06:21.048+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>humble oneself</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ba650a2f-a81e-4ca0-a50a-2fa81e0ca025" resp="#zadrapa" tls:created="2020-06-12T15:55:44.146+09:00">
+            <form corresp="#uuid-f8dd07d7-f148-483a-8ec8-65d1a329b462 #uuid-b99650bd-5ab5-4d51-8a9f-4fc5733cec70">
+                <orth>恭儉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng jiǎn
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjowng gjemX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koŋ ɡromʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-c54a5431-36c6-4a5b-8a54-3136c6ba5bfe" resp="#zadrapa" tls:created="2020-06-12T15:55:44.146+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-21T20:17:45.693+09:00">respectful humility, reverential restraint</def>
+            </sense>
+            <sense xml:id="uuid-f8a1ba93-b981-489c-a1ba-93b981289ced" resp="#CH" tls:created="2020-09-07T17:29:25.325+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-21T20:17:59.317+09:00">be reverentially decent and restrained</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2ac07f10-f1c9-4889-807f-10f1c9f88910" resp="#zadrapa" tls:created="2020-12-18T05:09:32.584+09:00">
+            <form corresp="#uuid-5b6bb7b0-ef5e-421d-96b8-90028205e458 #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>府然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǔ rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjuX nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">poʔ njen</pron>
+            </form>
+            <sense xml:id="uuid-fa75ea61-9a2d-455c-b5ea-619a2d755cbe" resp="#zadrapa" tls:created="2020-12-18T05:09:32.584+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>(= fu3rán 俯然) evoking a self-debasing manner of action (XUN)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3b3cd2ab-d7c6-4874-bcd2-abd7c628741b" resp="#zadrapa" tls:created="2021-01-25T06:37:45.223+09:00">
+            <form corresp="#uuid-d6e20097-3aea-4abc-95de-9d973db7ed17">
+                <orth>嗛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khemX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khleemʔ</pron>
+            </form>
+            <sense xml:id="uuid-3f289827-6c70-43d9-a898-276c7003d9de" resp="#zadrapa" tls:created="2021-01-25T06:37:45.223+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>(= qian1 謙) behave in a humble manner</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2c769882-a868-4e65-bb7d-d513edabd94d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2c769882-a868-4e65-bb7d-d513edabd94d">
 <head>HURRY</head>
     <list type="altnames">
 <item>BE QUICK</item>
@@ -327,7 +328,14 @@
                 </gramGrp>
   <def>hurry towards</def>
             </sense>
-<sense xml:id="uuid-cb1553bd-5456-4948-bc06-97e68caad6a4" resp="#CH" tls:created="2019-12-01T20:34:33.513+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>rush to comply with</def></sense></entry>
+<sense xml:id="uuid-cb1553bd-5456-4948-bc06-97e68caad6a4" resp="#CH" tls:created="2019-12-01T20:34:33.513+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>rush to comply with</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0ccd74b8-678c-48b3-a338-b6213248bda2">
             <form corresp="#uuid-3a91d726-a55f-4e6a-be41-ac38ada366a6">
 <orth>急</orth>
@@ -449,7 +457,12 @@
             </form>
             <def>qū
 </def>
-            <form corresp="#uuid-8938daad-ad2a-44fc-a970-703724ff63f7"><orth>趣</orth><pron xml:lang="zh-Latn-x-pinyin">qū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-8938daad-ad2a-44fc-a970-703724ff63f7">
+                <orth>趣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>qū
 </def>
 <sense xml:id="uuid-30db0a38-42f9-4fe7-ab68-deb09bb7c1fb">
@@ -501,7 +514,29 @@
                 </gramGrp>
   <def>scurry after</def>
             </sense>
-<sense xml:id="uuid-4ea30897-8942-481e-9298-54192c14a563" resp="#CH" tls:created="2019-10-18T17:38:24.752+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def resp="#CH" updated="2021-06-15T07:14:04.569+09:00">scamper along, politely; scurry along politely making small steps, as a sign of public respect</def></sense><sense xml:id="uuid-c1fd9542-2b4a-4782-9453-9f295318645d" resp="#CH" tls:created="2019-11-28T05:19:51.211+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2021-06-15T07:13:12.106+09:00">scampering; hurrying forward</def></sense><sense xml:id="uuid-beb0c30c-1170-4238-b0c3-0c1170823846" resp="#CH" tls:created="2022-09-01T22:50:44.319+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>hasten the occurrence of S, [OR: speed up the PREDICATING of the SUBJECT.</def></sense></entry>
+<sense xml:id="uuid-4ea30897-8942-481e-9298-54192c14a563" resp="#CH" tls:created="2019-10-18T17:38:24.752+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-15T07:14:04.569+09:00">scamper along, politely; scurry along politely making small steps, as a sign of public respect</def>
+            </sense>
+            <sense xml:id="uuid-c1fd9542-2b4a-4782-9453-9f295318645d" resp="#CH" tls:created="2019-11-28T05:19:51.211+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-15T07:13:12.106+09:00">scampering; hurrying forward</def>
+            </sense>
+            <sense xml:id="uuid-beb0c30c-1170-4238-b0c3-0c1170823846" resp="#CH" tls:created="2022-09-01T22:50:44.319+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>hasten the occurrence of S, [OR: speed up the PREDICATING of the SUBJECT.</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-876e2665-5b4b-43c3-a936-03b283361649">
             <form corresp="#uuid-10bad398-6a91-4bfd-9d49-671295404c15">
 <orth>趨</orth>
@@ -691,7 +726,14 @@
                 </gramGrp>
   <def>cause to hurry along</def>
             </sense>
-<sense xml:id="uuid-c7a838df-0429-4955-a838-df0429995520" resp="#CH" tls:created="2021-04-17T01:59:32.374+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>rush across</def></sense></entry>
+<sense xml:id="uuid-c7a838df-0429-4955-a838-df0429995520" resp="#CH" tls:created="2021-04-17T01:59:32.374+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>rush across</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f22a6687-fa66-4520-a258-bbb4eb7b0ddf">
             <form corresp="#uuid-c7d67b89-7e91-43da-9c3b-b46f6d07dd3f">
 <orth>騁</orth>
@@ -957,5 +999,72 @@
   <def>race along</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9205499c-557a-4303-8549-9c557a33032d" resp="#schwermann" tls:created="2020-04-11T21:05:59.81+09:00"><form corresp="#uuid-309f5378-3d9c-4dbe-9ab3-e4372a465965 #uuid-e0c0c19f-45a0-4ed7-9d90-3a76fb6d91fe"><orth>驅馳</orth><pron xml:lang="zh-Latn-x-pinyin">qū chí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khju drje</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kho rlal</pron></form><sense xml:id="uuid-97a70417-7327-466b-a704-177327b66b3a" resp="#schwermann" tls:created="2020-04-11T21:05:59.81+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>(of cavalry) to advance quickly on/towards the place N, to press ahead for the place N</def></sense><sense xml:id="uuid-025a6a8f-73c0-4ee9-9a6a-8f73c00ee9d0" resp="#dsehnal" tls:created="2024-06-08T21:38:31.002+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>quick chariot-riding</def></sense></entry><entry type="word" xml:id="uuid-6896a4b6-1f72-4490-96a4-b61f7224902d" resp="#zadrapa" tls:created="2020-06-01T18:29:16.483+09:00"><form corresp="#uuid-955d71d9-0fa3-46d9-b441-8a173307e3e5"><orth>翾</orth><pron xml:lang="zh-Latn-x-pinyin">xuān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjwien</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhʷen</pron></form><sense xml:id="uuid-8113e6a0-eb8a-46f7-93e6-a0eb8ab6f7d4" resp="#zadrapa" tls:created="2020-06-01T18:29:16.483+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>probably = juan4 懁: be hasty</def></sense></entry><entry type="word" xml:id="uuid-bb095553-64aa-4999-8955-5364aa89992d" resp="#zadrapa" tls:created="2021-05-17T16:55:13.399+09:00"><form corresp="#uuid-b43f8885-3d69-4c46-878f-da284c28a387 #uuid-1eb75060-94ad-4ec0-984a-db0c7f017000"><orth>竭蹶</orth><pron xml:lang="zh-Latn-x-pinyin">jié jué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjet kjwot</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrad kod</pron></form><sense xml:id="uuid-2969e492-0b94-49ad-a9e4-920b9419ad01" resp="#zadrapa" tls:created="2021-05-17T16:55:13.399+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>rush (so quickly than one occasionally slips)</def></sense></entry><entry type="word" xml:id="uuid-1276a4e3-f97e-4114-b6a4-e3f97e4114a0" resp="#zadrapa" tls:created="2023-06-16T18:49:45.853+09:00"><form corresp="#uuid-10bad398-6a91-4bfd-9d49-671295404c15 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03"><orth>趨時</orth><pron xml:lang="zh-Latn-x-pinyin">qū shí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshju dzyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsho ɡljɯ</pron></form><sense xml:id="uuid-fb8ae2cb-4aa2-432c-8ae2-cb4aa2832c99" resp="#zadrapa" tls:created="2023-06-16T18:49:45.853+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>in a hurry</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9205499c-557a-4303-8549-9c557a33032d" resp="#schwermann" tls:created="2020-04-11T21:05:59.81+09:00">
+            <form corresp="#uuid-309f5378-3d9c-4dbe-9ab3-e4372a465965 #uuid-e0c0c19f-45a0-4ed7-9d90-3a76fb6d91fe">
+                <orth>驅馳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū chí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khju drje</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kho rlal</pron>
+            </form>
+            <sense xml:id="uuid-97a70417-7327-466b-a704-177327b66b3a" resp="#schwermann" tls:created="2020-04-11T21:05:59.81+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>(of cavalry) to advance quickly on/towards the place N, to press ahead for the place N</def>
+            </sense>
+            <sense xml:id="uuid-025a6a8f-73c0-4ee9-9a6a-8f73c00ee9d0" resp="#dsehnal" tls:created="2024-06-08T21:38:31.002+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>quick chariot-riding</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6896a4b6-1f72-4490-96a4-b61f7224902d" resp="#zadrapa" tls:created="2020-06-01T18:29:16.483+09:00">
+            <form corresp="#uuid-955d71d9-0fa3-46d9-b441-8a173307e3e5">
+                <orth>翾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xuān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjwien</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhʷen</pron>
+            </form>
+            <sense xml:id="uuid-8113e6a0-eb8a-46f7-93e6-a0eb8ab6f7d4" resp="#zadrapa" tls:created="2020-06-01T18:29:16.483+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>probably = juan4 懁: be hasty</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bb095553-64aa-4999-8955-5364aa89992d" resp="#zadrapa" tls:created="2021-05-17T16:55:13.399+09:00">
+            <form corresp="#uuid-b43f8885-3d69-4c46-878f-da284c28a387 #uuid-1eb75060-94ad-4ec0-984a-db0c7f017000">
+                <orth>竭蹶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jié jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjet kjwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrad kod</pron>
+            </form>
+            <sense xml:id="uuid-2969e492-0b94-49ad-a9e4-920b9419ad01" resp="#zadrapa" tls:created="2021-05-17T16:55:13.399+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>rush (so quickly than one occasionally slips)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1276a4e3-f97e-4114-b6a4-e3f97e4114a0" resp="#zadrapa" tls:created="2023-06-16T18:49:45.853+09:00">
+            <form corresp="#uuid-10bad398-6a91-4bfd-9d49-671295404c15 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03">
+                <orth>趨時</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū shí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshju dzyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsho ɡljɯ</pron>
+            </form>
+            <sense xml:id="uuid-fb8ae2cb-4aa2-432c-8ae2-cb4aa2832c99" resp="#zadrapa" tls:created="2023-06-16T18:49:45.853+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>in a hurry</def>
+            </sense>
+        </entry>
+    </div>
 </div>

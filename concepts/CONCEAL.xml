@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1cf699b4-4663-4e18-8dc7-c37ab3bb1edd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1cf699b4-4663-4e18-8dc7-c37ab3bb1edd">
 <head>CONCEAL</head>
     <list type="altnames">
 <item>HIDE</item>
@@ -345,7 +346,28 @@
                 </gramGrp>
   <def>hide that (oneself) V-s</def>
             </sense>
-<sense xml:id="uuid-4000930c-7b48-402e-b9c8-746d8b6c6a3d" resp="#CH" tls:created="2019-12-04T17:57:55.227+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt[oN{REFLEX}]. prep N</tls:syn-func></gramGrp><def/></sense><sense xml:id="uuid-0bcd6624-65b8-4748-9891-464b64258045" resp="#CH" tls:created="2019-12-04T17:58:57.082+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt[oN{REFLEX}]. prep N</tls:syn-func></gramGrp><def>hide oneself in N</def></sense><sense xml:id="uuid-296673b5-e6f6-45cc-a673-b5e6f6e5cc49" resp="#CH" tls:created="2020-06-03T18:41:10.89+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>hide N1 in N2</def></sense></entry>
+<sense xml:id="uuid-4000930c-7b48-402e-b9c8-746d8b6c6a3d" resp="#CH" tls:created="2019-12-04T17:57:55.227+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt[oN{REFLEX}]. prep N</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+            <sense xml:id="uuid-0bcd6624-65b8-4748-9891-464b64258045" resp="#CH" tls:created="2019-12-04T17:58:57.082+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt[oN{REFLEX}]. prep N</tls:syn-func>
+                </gramGrp>
+                <def>hide oneself in N</def>
+            </sense>
+            <sense xml:id="uuid-296673b5-e6f6-45cc-a673-b5e6f6e5cc49" resp="#CH" tls:created="2020-06-03T18:41:10.89+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>hide N1 in N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-44bc2994-ae16-4c38-ae14-b177fa42f1fe">
             <form corresp="#uuid-3857cdbc-9fec-40e3-abe8-c48aa2bae51c">
 <orth>含</orth>
@@ -465,7 +487,15 @@
                 </gramGrp>
   <def>of light: be faint as if half-concealed</def>
             </sense>
-<sense xml:id="uuid-916d56a3-a2ff-4ec7-ad56-a3a2ff7ec7c1" resp="#zadrapa" tls:created="2020-12-14T05:05:25.742+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6a3287d8-849f-45e6-bead-45a8202a86ae">vt[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat></gramGrp><def>hidden, imperceptible thing(s)</def></sense></entry>
+<sense xml:id="uuid-916d56a3-a2ff-4ec7-ad56-a3a2ff7ec7c1" resp="#zadrapa" tls:created="2020-12-14T05:05:25.742+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6a3287d8-849f-45e6-bead-45a8202a86ae">vt[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat>
+                </gramGrp>
+                <def>hidden, imperceptible thing(s)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d77ed909-eaef-45c3-a01a-6a98e006bc25">
             <form corresp="#uuid-98257a67-05d3-4a94-af9e-484e0e25e224">
 <orth>掩</orth>
@@ -488,7 +518,15 @@
                 </gramGrp>
   <def>conceal</def>
             </sense>
-<sense xml:id="uuid-b837c98e-7d40-4103-9e72-3ddc3cf413b5" resp="#CH" tls:created="2020-01-13T03:30:13.087+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>get concealed, remain concealed</def></sense></entry>
+<sense xml:id="uuid-b837c98e-7d40-4103-9e72-3ddc3cf413b5" resp="#CH" tls:created="2020-01-13T03:30:13.087+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>get concealed, remain concealed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-06ce55fb-ed4a-4d68-b347-53cf2106a1bc">
             <form>
 <orth>揣</orth>
@@ -718,7 +756,30 @@
                 </gramGrp>
   <def>hide!</def>
             </sense>
-<sense xml:id="uuid-4854a734-5834-41a2-94a7-34583441a2ea" resp="#dsehnal" tls:created="2020-05-21T16:47:05.463+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat></gramGrp><def>hide/store N1 in the place N2</def></sense><sense xml:id="uuid-89edb75f-1e8a-4c06-adb7-5f1e8afc0688" resp="#CH" tls:created="2022-09-01T18:41:01.292+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>stash away wealth</def></sense><sense xml:id="uuid-1df6f57a-9b9e-4a6a-b6f5-7a9b9eaa6a8e" resp="#dsehnal" tls:created="2023-04-30T16:23:25.051+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be hidden/stored in N</def></sense></entry>
+<sense xml:id="uuid-4854a734-5834-41a2-94a7-34583441a2ea" resp="#dsehnal" tls:created="2020-05-21T16:47:05.463+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat>
+                </gramGrp>
+                <def>hide/store N1 in the place N2</def>
+            </sense>
+            <sense xml:id="uuid-89edb75f-1e8a-4c06-adb7-5f1e8afc0688" resp="#CH" tls:created="2022-09-01T18:41:01.292+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>stash away wealth</def>
+            </sense>
+            <sense xml:id="uuid-1df6f57a-9b9e-4a6a-b6f5-7a9b9eaa6a8e" resp="#dsehnal" tls:created="2023-04-30T16:23:25.051+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be hidden/stored in N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-39638ffa-6fb3-428b-8a41-2dd3a95ac381">
             <form corresp="#uuid-b9fca70f-a749-41cf-b062-0004838c91d3">
 <orth>蓋</orth>
@@ -871,7 +932,14 @@
                 </gramGrp>
   <def>hide in the dark (what is before one etc)</def>
             </sense>
-<sense xml:id="uuid-55132e18-f3ae-4f22-b863-7be3bff6f657" resp="#CH" tls:created="2020-02-10T17:21:47.879+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>in a hidden way&gt; imperceptibly</def></sense></entry>
+<sense xml:id="uuid-55132e18-f3ae-4f22-b863-7be3bff6f657" resp="#CH" tls:created="2020-02-10T17:21:47.879+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>in a hidden way&gt; imperceptibly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ee792487-275a-4018-99b2-689bd008b888">
             <form corresp="#uuid-6f367d26-fcb9-4d43-a71e-e38d354e6b90">
 <orth>陰</orth>
@@ -999,7 +1067,15 @@
                 </gramGrp>
   <def>hide oneself in</def>
             </sense>
-<sense xml:id="uuid-fed55781-5952-4b8c-9557-815952cb8c11" resp="#CH" tls:created="2020-12-24T18:48:17.739+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>what is hidden; what is implicit</def></sense></entry>
+<sense xml:id="uuid-fed55781-5952-4b8c-9557-815952cb8c11" resp="#CH" tls:created="2020-12-24T18:48:17.739+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>what is hidden; what is implicit</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-320a7d58-ddb6-41ff-a62d-0ad4c8c03ffe">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611">
 <orth>不見</orth>
@@ -1291,5 +1367,67 @@
   <def>HANSHU: hide 不伐其能 飲其德</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a6110170-54b9-4251-89e1-b26ee8c86bf7" resp="#CH" tls:created="2019-12-01T22:00:38.709+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0791a877-f341-473c-989f-ef4413400f96" resp="#CH" tls:created="2019-12-01T22:00:38.709+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-7690bfa8-8f59-4cfe-a572-c892ba96791a">reflexive.身</tls:sem-feat></gramGrp><def>hide</def></sense></entry><entry type="word" xml:id="uuid-4bb0ad0a-e3c3-4835-a3f3-bd35efff3b84" resp="#CH" tls:created="2019-12-01T22:01:00.048+09:00"><form corresp="#uuid-992dacb3-ef9f-4a9c-ac79-3120e4575673"><orth>潛</orth><pron xml:lang="zh-Latn-x-pinyin">qián</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjem</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡam</pron></form><sense xml:id="uuid-c44484c4-74e8-4027-a8f5-a74765d67983" resp="#CH" tls:created="2019-12-01T22:01:00.048+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-7690bfa8-8f59-4cfe-a572-c892ba96791a">reflexive.身</tls:sem-feat></gramGrp><def>hide</def></sense><sense xml:id="uuid-14e91221-96c0-41fc-9590-4fd05c6c8112" resp="#CH" tls:created="2019-12-07T04:21:40.829+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-79d258a8-9942-48d7-8747-cc59c1c62bfe">vtt[oN1.] prep N2</tls:syn-func></gramGrp><def>hide oneself in N2</def></sense><sense xml:id="uuid-36eaf2b8-09a1-4973-8446-801db04109e0" resp="#CH" tls:created="2019-12-07T04:43:55.01+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vtt[oN1.] prep N2</tls:syn-func><tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat></gramGrp><def>hide [oneself] in N2</def></sense></entry><entry type="word" xml:id="uuid-46d73bca-e8e1-4631-a4b4-f0d77b5129eb" resp="#CH" tls:created="2019-12-29T07:38:49.928+09:00"><form corresp="#uuid-98257a67-05d3-4a94-af9e-484e0e25e224 #uuid-29f16dca-c69b-4e8c-aa1f-981e38a879b4"><orth>掩蔽</orth><pron xml:lang="zh-Latn-x-pinyin">yǎn bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jemX pjiejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qromʔ peds</pron></form><sense xml:id="uuid-ee3c209e-1f77-4aaf-8291-584a7161aaf7" resp="#CH" tls:created="2019-12-29T07:38:49.928+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>be kept hidden away</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-a6110170-54b9-4251-89e1-b26ee8c86bf7" resp="#CH" tls:created="2019-12-01T22:00:38.709+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0791a877-f341-473c-989f-ef4413400f96" resp="#CH" tls:created="2019-12-01T22:00:38.709+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7690bfa8-8f59-4cfe-a572-c892ba96791a">reflexive.身</tls:sem-feat>
+                </gramGrp>
+                <def>hide</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4bb0ad0a-e3c3-4835-a3f3-bd35efff3b84" resp="#CH" tls:created="2019-12-01T22:01:00.048+09:00">
+            <form corresp="#uuid-992dacb3-ef9f-4a9c-ac79-3120e4575673">
+                <orth>潛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qián</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjem</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡam</pron>
+            </form>
+            <sense xml:id="uuid-c44484c4-74e8-4027-a8f5-a74765d67983" resp="#CH" tls:created="2019-12-01T22:01:00.048+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7690bfa8-8f59-4cfe-a572-c892ba96791a">reflexive.身</tls:sem-feat>
+                </gramGrp>
+                <def>hide</def>
+            </sense>
+            <sense xml:id="uuid-14e91221-96c0-41fc-9590-4fd05c6c8112" resp="#CH" tls:created="2019-12-07T04:21:40.829+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-79d258a8-9942-48d7-8747-cc59c1c62bfe">vtt[oN1.] prep N2</tls:syn-func>
+                </gramGrp>
+                <def>hide oneself in N2</def>
+            </sense>
+            <sense xml:id="uuid-36eaf2b8-09a1-4973-8446-801db04109e0" resp="#CH" tls:created="2019-12-07T04:43:55.01+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vtt[oN1.] prep N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat>
+                </gramGrp>
+                <def>hide [oneself] in N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-46d73bca-e8e1-4631-a4b4-f0d77b5129eb" resp="#CH" tls:created="2019-12-29T07:38:49.928+09:00">
+            <form corresp="#uuid-98257a67-05d3-4a94-af9e-484e0e25e224 #uuid-29f16dca-c69b-4e8c-aa1f-981e38a879b4">
+                <orth>掩蔽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǎn bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jemX pjiejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qromʔ peds</pron>
+            </form>
+            <sense xml:id="uuid-ee3c209e-1f77-4aaf-8291-584a7161aaf7" resp="#CH" tls:created="2019-12-29T07:38:49.928+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be kept hidden away</def>
+            </sense>
+        </entry>
+    </div>
 </div>

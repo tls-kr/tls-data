@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d12adeb9-a0e6-4650-96ac-3024c723420a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d12adeb9-a0e6-4650-96ac-3024c723420a">
 <head>OATH</head>
     <list type="altnames">
 <item>VOW</item>
@@ -19,7 +20,10 @@
     </list>
 <div type="definition">
 <p>ADDRESS someone DECLARING INTENSELY that what one is SAYING is TRUE, and in so doing REFERRING to DEITIES as WITNESSES.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:41:58.381+09:00"><p>DECLARE INTENSELY that what one is SAYING is TRUE, AND ASK DEITIES to BE WITNESSES.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:41:58.381+09:00">
+            <p>DECLARE INTENSELY that what one is SAYING is TRUE, AND ASK DEITIES to BE WITNESSES.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general word for an oath of any kind, binding individuals, families or states by word of honour is shì 誓.</p>
@@ -398,7 +402,22 @@
                 </gramGrp>
   <def>swear an oath to the effect that S</def>
             </sense>
-<sense xml:id="uuid-f7636f7b-b8c3-4b23-a36f-7bb8c30b236a" resp="#dsehnal" tls:created="2023-06-08T21:00:27.418+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c61f0f85-89f5-43ab-a739-4bdf905d76a5">VPt+prep+N.+VtoS</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-06-08T21:01:06.036+09:00">swear an oath to N, saying: S</def></sense><sense xml:id="uuid-6a7256a9-17ad-451b-b256-a917ad851bee" resp="#dsehnal" tls:created="2023-07-01T22:48:46.868+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>swear to N; swear in front of N</def></sense></entry>
+<sense xml:id="uuid-f7636f7b-b8c3-4b23-a36f-7bb8c30b236a" resp="#dsehnal" tls:created="2023-06-08T21:00:27.418+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c61f0f85-89f5-43ab-a739-4bdf905d76a5">VPt+prep+N.+VtoS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-06-08T21:01:06.036+09:00">swear an oath to N, saying: S</def>
+            </sense>
+            <sense xml:id="uuid-6a7256a9-17ad-451b-b256-a917ad851bee" resp="#dsehnal" tls:created="2023-07-01T22:48:46.868+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>swear to N; swear in front of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ae738b3d-3a3d-43ce-abd9-8922bdb09871">
             <form corresp="#uuid-731cd1d0-3604-43de-9374-4348e41d32f6 #uuid-199679ce-e74e-4b93-981e-08c297af3bbf">
 <orth>設誓</orth>
@@ -490,5 +509,20 @@
   <def>public oath</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1c5717a9-6d07-46b4-9717-a96d0726b4d9" resp="#dsehnal" tls:created="2023-07-01T19:14:33.377+09:00"><form corresp="#uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce #uuid-199679ce-e74e-4b93-981e-08c297af3bbf"><orth>言誓</orth><pron xml:lang="zh-Latn-x-pinyin">yán shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjon dzyejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋan ɡljeds</pron></form><sense xml:id="uuid-e5f91f6d-cb2d-4a4b-b91f-6dcb2dca4b18" resp="#dsehnal" tls:created="2023-07-01T19:14:33.377+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>oath</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1c5717a9-6d07-46b4-9717-a96d0726b4d9" resp="#dsehnal" tls:created="2023-07-01T19:14:33.377+09:00">
+            <form corresp="#uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce #uuid-199679ce-e74e-4b93-981e-08c297af3bbf">
+                <orth>言誓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yán shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjon dzyejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋan ɡljeds</pron>
+            </form>
+            <sense xml:id="uuid-e5f91f6d-cb2d-4a4b-b91f-6dcb2dca4b18" resp="#dsehnal" tls:created="2023-07-01T19:14:33.377+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>oath</def>
+            </sense>
+        </entry>
+    </div>
 </div>

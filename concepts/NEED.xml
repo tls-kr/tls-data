@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e44d0e41-8b87-489a-b351-07289f688957">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e44d0e41-8b87-489a-b351-07289f688957">
 <head>NEED</head>
     <list type="altnames">
 <item>REQUIRE</item>
@@ -302,7 +303,14 @@
                 </gramGrp>
   <def>YI.XICI: have use for, need</def>
             </sense>
-<sense xml:id="uuid-c0781807-f244-49c7-b818-07f24479c7fc" resp="#dsehnal" tls:created="2020-05-24T03:35:12.262+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7cc3fa0c-488a-41e5-83fa-0c488ae1e544">vt[0](oN1).adN2</tls:syn-func></gramGrp><def>N2 which has use for the contextually determinate N1</def></sense></entry>
+<sense xml:id="uuid-c0781807-f244-49c7-b818-07f24479c7fc" resp="#dsehnal" tls:created="2020-05-24T03:35:12.262+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7cc3fa0c-488a-41e5-83fa-0c488ae1e544">vt[0](oN1).adN2</tls:syn-func>
+                </gramGrp>
+                <def>N2 which has use for the contextually determinate N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-223a076c-11ee-4234-b11e-deb1453a2bbb">
             <form corresp="#uuid-bbc7ef75-ed47-4e8c-affb-05e625bf0bd4">
 <orth>需</orth>
@@ -510,8 +518,30 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
                 </gramGrp>
-  <def>need to V</def>
+  <def resp="#CH" updated="2024-10-17T00:05:23.412+09:00">need to V; colloquial English "wants to V"</def>
             </sense>
-<sense xml:id="uuid-5713ddb4-ad73-445b-93dd-b4ad73c45ba4" resp="#CH" tls:created="2020-12-15T00:56:28.739+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-466a5f7c-079b-4d43-85ed-78605ab6fae0">vt[0]oN</tls:syn-func></gramGrp><def>one needs N</def></sense></entry>
-    <entry type="word" xml:id="uuid-5d011a07-6178-457d-811a-076178057dda" resp="#zadrapa" tls:created="2021-05-14T20:58:30.216+09:00"><form corresp="#uuid-6d97acce-82c7-497e-8e1d-00bb94944a66 #uuid-84736d8f-849c-422b-9122-60761e813311"><orth>凍餧</orth><pron xml:lang="zh-Latn-x-pinyin">dòng něi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tuwngH nwojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tooŋs nuulʔ</pron></form><sense xml:id="uuid-26ac1502-9908-4599-ac15-029908f599b7" resp="#zadrapa" tls:created="2021-05-14T20:58:30.216+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>feel cold and be hungry</def></sense></entry></div>
+<sense xml:id="uuid-5713ddb4-ad73-445b-93dd-b4ad73c45ba4" resp="#CH" tls:created="2020-12-15T00:56:28.739+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-466a5f7c-079b-4d43-85ed-78605ab6fae0">vt[0]oN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-17T00:06:08.544+09:00">one needs N [attribute more of the examples!]</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-5d011a07-6178-457d-811a-076178057dda" resp="#zadrapa" tls:created="2021-05-14T20:58:30.216+09:00">
+            <form corresp="#uuid-6d97acce-82c7-497e-8e1d-00bb94944a66 #uuid-84736d8f-849c-422b-9122-60761e813311">
+                <orth>凍餧</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dòng něi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tuwngH nwojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tooŋs nuulʔ</pron>
+            </form>
+            <sense xml:id="uuid-26ac1502-9908-4599-ac15-029908f599b7" resp="#zadrapa" tls:created="2021-05-14T20:58:30.216+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>feel cold and be hungry</def>
+            </sense>
+        </entry>
+    </div>
 </div>

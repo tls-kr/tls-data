@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ab5f4647-14ee-40bf-a3f5-a4e8db993b50">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ab5f4647-14ee-40bf-a3f5-a4e8db993b50">
 <head>TAX</head>
     <list type="translations">
         <item xml:lang="zh">賦稅</item>
@@ -191,7 +192,15 @@
                 </gramGrp>
   <def>levy (tax)</def>
             </sense>
-<sense xml:id="uuid-011ec41e-fa33-4ecc-9ec4-1efa33cecc74" resp="#zadrapa" tls:created="2022-05-30T03:51:31.57+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be taxed</def></sense></entry>
+<sense xml:id="uuid-011ec41e-fa33-4ecc-9ec4-1efa33cecc74" resp="#zadrapa" tls:created="2022-05-30T03:51:31.57+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be taxed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4c0bf132-9934-4766-bfe8-d6376b8d991a">
             <form corresp="#uuid-ba8b0287-0652-4a2e-b278-143a8dcec4d1">
 <orth>征</orth>
@@ -267,7 +276,14 @@
                 </gramGrp>
   <def>collect; enforce levies; collect taxes from; impose taxes on</def>
             </sense>
-<sense xml:id="uuid-f6edc871-03da-4ee1-adc8-7103da8ee1ed" resp="#zadrapa" tls:created="2023-05-24T22:22:17.513+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2023-05-24T22:22:56.642+09:00">levies; tax imposement</def></sense></entry>
+<sense xml:id="uuid-f6edc871-03da-4ee1-adc8-7103da8ee1ed" resp="#zadrapa" tls:created="2023-05-24T22:22:17.513+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2023-05-24T22:22:56.642+09:00">levies; tax imposement</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6c2ceafc-2508-453a-9d66-ebfed32dcb78">
             <form corresp="#uuid-6a8bc5e4-74d8-4bfb-9028-4a2cf091ea02">
 <orth>榷</orth>
@@ -457,7 +473,14 @@
                 </gramGrp>
   <def>pay tax to</def>
             </sense>
-<sense xml:id="uuid-f214be69-9968-42e1-94be-69996852e1b2" resp="#CH" tls:created="2020-06-09T17:59:20.484+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>impose taxes on</def></sense></entry>
+<sense xml:id="uuid-f214be69-9968-42e1-94be-69996852e1b2" resp="#CH" tls:created="2020-06-09T17:59:20.484+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>impose taxes on</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c0336dd1-83d5-4c27-a950-04ddbbc5e2d3">
             <form corresp="#uuid-a57d2a4d-5402-4f08-b1b6-168792cdc8b6">
 <orth>輸</orth>
@@ -578,6 +601,142 @@
                 </gramGrp>
   <def>all sorts of taxes</def>
             </sense>
-<sense xml:id="uuid-2d9945f5-ab82-4527-9945-f5ab82252774" resp="#CH" tls:created="2020-02-24T08:38:16.433+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>impose taxes on</def></sense><sense xml:id="uuid-da047ebb-1109-4c3c-847e-bb11091c3c45" resp="#CH" tls:created="2021-05-22T22:44:25.386+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt[oN]</tls:syn-func></gramGrp><def>imposing/collect taxes from people</def></sense></entry>
-    <entry type="word" xml:id="uuid-5572a3cb-ad04-4b37-b2a3-cbad046b3748" resp="#CH" tls:created="2020-07-01T06:11:41.051+09:00"><form corresp="#uuid-066eb596-0439-47dc-a114-d3c58d48b83f #uuid-feba39d3-9ebe-490a-877c-349766587310"><orth>賦歛</orth><pron xml:lang="zh-Latn-x-pinyin">fù hān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjuH xam</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pas qhlaam</pron></form><sense xml:id="uuid-f8004552-d321-46ff-8045-52d321c6ff10" resp="#CH" tls:created="2020-07-01T06:11:41.051+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>taxes; tax burden imposed on the people; level of taxation</def></sense></entry><entry type="word" xml:id="uuid-00eb9837-8f44-4400-ab98-378f44c40010" resp="#zadrapa" tls:created="2022-05-30T03:54:18.457+09:00"><form corresp="#uuid-c57ffddb-954e-4bdb-bccc-538ef824d5e4 #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2"><orth>什一</orth><pron xml:lang="zh-Latn-x-pinyin">shí yī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyip 'jit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡjub qliɡ</pron></form><sense xml:id="uuid-800649b0-0c4e-4558-8649-b00c4e255827" resp="#zadrapa" tls:created="2022-05-30T03:54:18.457+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>by taxed by 1/10</def></sense></entry><entry type="word" xml:id="uuid-d65b71a8-5a74-48e5-9b71-a85a7478e5fa" resp="#zadrapa" tls:created="2022-05-30T15:34:43.292+09:00"><form corresp="#uuid-1b7747bc-f3da-4ee6-b12b-ab8b93996df7"><orth>政</orth><pron xml:lang="zh-Latn-x-pinyin">zhèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋs</pron></form><sense xml:id="uuid-b1d89a67-090a-411a-989a-67090a111a34" resp="#zadrapa" tls:created="2022-05-30T15:34:43.292+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>= zheng1 征: levies</def></sense></entry><entry type="word" xml:id="uuid-d32a094e-88f9-44aa-aa09-4e88f9e4aa86" resp="#zadrapa" tls:created="2022-06-16T04:31:22.743+09:00"><form corresp="#uuid-1a9c2fcc-5593-4709-86fd-1092d420bc28 #uuid-8cb01d93-d62f-4fc9-9757-4d03a0dc48a4"><orth>籍斂</orth><pron xml:lang="zh-Latn-x-pinyin">jí liǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjek --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡaɡ ɡ-romʔ</pron></form><sense xml:id="uuid-4c4e3a1d-3d73-4e44-8e3a-1d3d734e44da" resp="#zadrapa" tls:created="2022-06-16T04:31:22.743+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def>taxes</def></sense></entry><entry type="word" xml:id="uuid-2c4c41e4-05a6-4873-8c41-e405a6c8730e" resp="#CH" tls:created="2022-09-14T21:53:39.568+09:00"><form corresp="#uuid-2567a27c-7643-4cf8-9da5-5ac6fe236ab5 #uuid-5cd2073a-6f30-434c-bf49-acee1f8e5bd7"><orth>頭會</orth><pron xml:lang="zh-Latn-x-pinyin">tóu huì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">duw --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">doo ɡloobs</pron></form><sense xml:id="uuid-995a082c-6ff0-4dd7-9a08-2c6ff0cdd7a7" resp="#CH" tls:created="2022-09-14T21:53:39.568+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>per head taxes, capitation tax?</def></sense></entry><entry type="word" xml:id="uuid-545bfd16-ac1c-44c0-9bfd-16ac1c44c0a9" resp="#CH" tls:created="2022-09-14T21:54:32.726+09:00"><form corresp="#uuid-be9ddcd9-70d2-4633-ad7e-668438d08090 #uuid-066eb596-0439-47dc-a114-d3c58d48b83f"><orth>箕賦</orth><pron xml:lang="zh-Latn-x-pinyin">jī fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ki pjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯ pas</pron></form><sense xml:id="uuid-cf36c26c-7cc6-4de9-b6c2-6c7cc60de9a7" resp="#CH" tls:created="2022-09-14T21:54:32.726+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>taxes in kind</def></sense></entry><entry type="word" xml:id="uuid-bf9429e9-6db0-4e76-9429-e96db00e76d6" resp="#zadrapa" tls:created="2023-05-17T16:24:14.172+09:00"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d"><orth>取</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhoʔ</pron></form><sense xml:id="uuid-269208ec-43eb-4e7f-9208-ec43eb1e7f1f" resp="#zadrapa" tls:created="2023-05-17T16:24:14.172+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>take products from someone as a tax</def></sense></entry><entry type="word" xml:id="uuid-bce19660-643f-4b7a-a196-60643f8b7af3" resp="#dsehnal" tls:created="2023-11-26T20:08:43.117+09:00"><form corresp="#uuid-5c04abb4-6430-4fff-b0f3-6accf762545d #uuid-c00f951b-5853-42a9-b7af-26f97f261b37"><orth>丘役</orth><pron xml:lang="zh-Latn-x-pinyin">qiū yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw ywek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ ɢʷleɡ</pron></form><sense xml:id="uuid-a6f39fcf-bf79-4bcf-b39f-cfbf79ebcf41" resp="#dsehnal" tls:created="2023-11-26T20:08:43.117+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>massive taxes</def></sense></entry></div>
+<sense xml:id="uuid-2d9945f5-ab82-4527-9945-f5ab82252774" resp="#CH" tls:created="2020-02-24T08:38:16.433+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>impose taxes on</def>
+            </sense>
+            <sense xml:id="uuid-da047ebb-1109-4c3c-847e-bb11091c3c45" resp="#CH" tls:created="2021-05-22T22:44:25.386+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>imposing/collect taxes from people</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-5572a3cb-ad04-4b37-b2a3-cbad046b3748" resp="#CH" tls:created="2020-07-01T06:11:41.051+09:00">
+            <form corresp="#uuid-066eb596-0439-47dc-a114-d3c58d48b83f #uuid-feba39d3-9ebe-490a-877c-349766587310">
+                <orth>賦歛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fù hān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjuH xam</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pas qhlaam</pron>
+            </form>
+            <sense xml:id="uuid-f8004552-d321-46ff-8045-52d321c6ff10" resp="#CH" tls:created="2020-07-01T06:11:41.051+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>taxes; tax burden imposed on the people; level of taxation</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-00eb9837-8f44-4400-ab98-378f44c40010" resp="#zadrapa" tls:created="2022-05-30T03:54:18.457+09:00">
+            <form corresp="#uuid-c57ffddb-954e-4bdb-bccc-538ef824d5e4 #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2">
+                <orth>什一</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shí yī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyip 'jit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡjub qliɡ</pron>
+            </form>
+            <sense xml:id="uuid-800649b0-0c4e-4558-8649-b00c4e255827" resp="#zadrapa" tls:created="2022-05-30T03:54:18.457+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>by taxed by 1/10</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d65b71a8-5a74-48e5-9b71-a85a7478e5fa" resp="#zadrapa" tls:created="2022-05-30T15:34:43.292+09:00">
+            <form corresp="#uuid-1b7747bc-f3da-4ee6-b12b-ab8b93996df7">
+                <orth>政</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋs</pron>
+            </form>
+            <sense xml:id="uuid-b1d89a67-090a-411a-989a-67090a111a34" resp="#zadrapa" tls:created="2022-05-30T15:34:43.292+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>= zheng1 征: levies</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d32a094e-88f9-44aa-aa09-4e88f9e4aa86" resp="#zadrapa" tls:created="2022-06-16T04:31:22.743+09:00">
+            <form corresp="#uuid-1a9c2fcc-5593-4709-86fd-1092d420bc28 #uuid-8cb01d93-d62f-4fc9-9757-4d03a0dc48a4">
+                <orth>籍斂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí liǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjek --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡaɡ ɡ-romʔ</pron>
+            </form>
+            <sense xml:id="uuid-4c4e3a1d-3d73-4e44-8e3a-1d3d734e44da" resp="#zadrapa" tls:created="2022-06-16T04:31:22.743+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def>taxes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2c4c41e4-05a6-4873-8c41-e405a6c8730e" resp="#CH" tls:created="2022-09-14T21:53:39.568+09:00">
+            <form corresp="#uuid-2567a27c-7643-4cf8-9da5-5ac6fe236ab5 #uuid-5cd2073a-6f30-434c-bf49-acee1f8e5bd7">
+                <orth>頭會</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tóu huì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">duw --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">doo ɡloobs</pron>
+            </form>
+            <sense xml:id="uuid-995a082c-6ff0-4dd7-9a08-2c6ff0cdd7a7" resp="#CH" tls:created="2022-09-14T21:53:39.568+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>per head taxes, capitation tax?</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-545bfd16-ac1c-44c0-9bfd-16ac1c44c0a9" resp="#CH" tls:created="2022-09-14T21:54:32.726+09:00">
+            <form corresp="#uuid-be9ddcd9-70d2-4633-ad7e-668438d08090 #uuid-066eb596-0439-47dc-a114-d3c58d48b83f">
+                <orth>箕賦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jī fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ki pjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯ pas</pron>
+            </form>
+            <sense xml:id="uuid-cf36c26c-7cc6-4de9-b6c2-6c7cc60de9a7" resp="#CH" tls:created="2022-09-14T21:54:32.726+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>taxes in kind</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bf9429e9-6db0-4e76-9429-e96db00e76d6" resp="#zadrapa" tls:created="2023-05-17T16:24:14.172+09:00">
+            <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
+                <orth>取</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhoʔ</pron>
+            </form>
+            <sense xml:id="uuid-269208ec-43eb-4e7f-9208-ec43eb1e7f1f" resp="#zadrapa" tls:created="2023-05-17T16:24:14.172+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>take products from someone as a tax</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bce19660-643f-4b7a-a196-60643f8b7af3" resp="#dsehnal" tls:created="2023-11-26T20:08:43.117+09:00">
+            <form corresp="#uuid-5c04abb4-6430-4fff-b0f3-6accf762545d #uuid-c00f951b-5853-42a9-b7af-26f97f261b37">
+                <orth>丘役</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiū yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw ywek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ ɢʷleɡ</pron>
+            </form>
+            <sense xml:id="uuid-a6f39fcf-bf79-4bcf-b39f-cfbf79ebcf41" resp="#dsehnal" tls:created="2023-11-26T20:08:43.117+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>massive taxes</def>
+            </sense>
+        </entry>
+    </div>
 </div>

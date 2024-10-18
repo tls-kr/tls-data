@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-92df29bf-6817-4406-82af-15188498b600">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-92df29bf-6817-4406-82af-15188498b600">
 <head>ADD</head>
     <list type="altnames">
 <item>INCREASE</item>
@@ -21,7 +22,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-16T16:56:25.267+09:00">PUT MORE INTEND:so as to CAUSE a QUANTITY of SOMETHING to INCREASE. </p></div>
+    <p resp="#CH" modified="2020-10-16T16:56:25.267+09:00">PUT MORE INTEND:so as to CAUSE a QUANTITY of SOMETHING to INCREASE. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ABSTRACT/CONCRETE]</p>
@@ -145,7 +147,15 @@
                 </gramGrp>
   <def>additionally</def>
             </sense>
-<sense xml:id="uuid-e5d3030f-a4db-45e1-9303-0fa4db05e170" resp="#CH" tls:created="2021-07-31T14:04:07.833+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>added; attached in addition</def></sense></entry>
+<sense xml:id="uuid-e5d3030f-a4db-45e1-9303-0fa4db05e170" resp="#CH" tls:created="2021-07-31T14:04:07.833+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>added; attached in addition</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f75728c3-940d-43cb-9da9-78aa2834cfb6">
             <form corresp="#uuid-78ac727e-ff44-4c6d-b9a2-b9ede88825c3">
 <orth>并</orth>
@@ -362,7 +372,22 @@
                 </gramGrp>
   <def>add N2 to N1</def>
             </sense>
-<sense xml:id="uuid-040e4a7e-e606-4ebc-b0ad-0a75aa09e34d" resp="#CH" tls:created="2020-02-10T01:22:04.853+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be added to</def></sense><sense xml:id="uuid-e39895f5-e3c7-4150-9895-f5e3c7b1503c" resp="#CH" tls:created="2022-09-08T21:43:18.316+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def resp="#CH" updated="2023-02-08T00:33:32.234+09:00">contribute towards, logically contribute to;  positively affect; add something to</def></sense></entry>
+<sense xml:id="uuid-040e4a7e-e606-4ebc-b0ad-0a75aa09e34d" resp="#CH" tls:created="2020-02-10T01:22:04.853+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be added to</def>
+            </sense>
+            <sense xml:id="uuid-e39895f5-e3c7-4150-9895-f5e3c7b1503c" resp="#CH" tls:created="2022-09-08T21:43:18.316+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-02-08T00:33:32.234+09:00">contribute towards, logically contribute to;  positively affect; add something to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d6e6bd97-0ca8-49e3-8e69-d2030211d56b">
             <form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40 #uuid-10034730-6fae-458a-902a-4f159b84104d">
 <orth>加增</orth>
@@ -442,5 +467,20 @@
   <def>mathematics: result of addition, sum</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-406bc635-5a61-43fb-8def-f93b9ede1f70" resp="#CH" tls:created="2020-01-06T02:26:26.826+09:00"><form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c"><orth>加以</orth><pron xml:lang="zh-Latn-x-pinyin">jiā yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kae yiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraal k-lɯʔ</pron></form><sense xml:id="uuid-939d0bf2-1d9f-4470-89fb-cd6cfc0c1159" resp="#CH" tls:created="2020-01-06T02:26:26.826+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPtoN</tls:syn-func></gramGrp><def>produce in addition</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-406bc635-5a61-43fb-8def-f93b9ede1f70" resp="#CH" tls:created="2020-01-06T02:26:26.826+09:00">
+            <form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+                <orth>加以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiā yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kae yiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraal k-lɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-939d0bf2-1d9f-4470-89fb-cd6cfc0c1159" resp="#CH" tls:created="2020-01-06T02:26:26.826+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>produce in addition</def>
+            </sense>
+        </entry>
+    </div>
 </div>

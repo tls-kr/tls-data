@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c2cfc239-1666-4ad0-b9ac-0e8fa9c0e9f9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c2cfc239-1666-4ad0-b9ac-0e8fa9c0e9f9">
 <head>FEED</head>
     <list type="altnames">
 <item>GIVE FOOD TO</item>
@@ -176,7 +177,15 @@
                 </gramGrp>
   <def>feed (drink or food)</def>
             </sense>
-<sense xml:id="uuid-7aba10ad-382d-42d8-ba10-ad382d22d8e8" resp="#dsehnal" tls:created="2024-06-23T03:43:21.093+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-52acfe60-c9eb-4064-8f46-975338866a10">N1=recipient</tls:sem-feat></gramGrp><def>offer N2 to N1</def></sense></entry>
+<sense xml:id="uuid-7aba10ad-382d-42d8-ba10-ad382d22d8e8" resp="#dsehnal" tls:created="2024-06-23T03:43:21.093+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-52acfe60-c9eb-4064-8f46-975338866a10">N1=recipient</tls:sem-feat>
+                </gramGrp>
+                <def>offer N2 to N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ffaf3b87-fc9f-4685-ac54-a1693472fc27">
             <form corresp="#uuid-50a06f42-f097-493f-ae19-9a1d0ef56fe6">
 <orth>供</orth>
@@ -697,7 +706,21 @@
                 </gramGrp>
                 <def>give somebody to drink (typically wine)</def>
             </sense>
-        <sense xml:id="uuid-7bdf1e3e-2ed5-4b23-9f1e-3e2ed56b23ee" resp="#CH" tls:created="2022-08-25T18:51:18.724+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ba68765f-432c-4660-b0a0-3b32074be74f">vtt(oN1.)(+N2)</tls:syn-func></gramGrp><def>ditransitive verb with contextually determinate direct and indirect objects</def></sense><sense xml:id="uuid-3ea44fe0-e26b-4bae-a44f-e0e26b0baed9" resp="#dsehnal" tls:created="2024-04-29T03:00:10.161+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-101d3835-051e-4fc3-9d38-35051ecfc3b8">vttoN1(.+N2):+prep+N3</tls:syn-func></gramGrp><def>give N1 to drink the contextually determinate liquid N2 from N3</def></sense></entry>
+        <sense xml:id="uuid-7bdf1e3e-2ed5-4b23-9f1e-3e2ed56b23ee" resp="#CH" tls:created="2022-08-25T18:51:18.724+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ba68765f-432c-4660-b0a0-3b32074be74f">vtt(oN1.)(+N2)</tls:syn-func>
+                </gramGrp>
+                <def>ditransitive verb with contextually determinate direct and indirect objects</def>
+            </sense>
+            <sense xml:id="uuid-3ea44fe0-e26b-4bae-a44f-e0e26b0baed9" resp="#dsehnal" tls:created="2024-04-29T03:00:10.161+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-101d3835-051e-4fc3-9d38-35051ecfc3b8">vttoN1(.+N2):+prep+N3</tls:syn-func>
+                </gramGrp>
+                <def>give N1 to drink the contextually determinate liquid N2 from N3</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-de52689f-42af-4a63-aa09-4ba22928a94d">
             <form corresp="#uuid-513918e8-613e-44a1-8e9a-9f1ec48d5529">
 <orth>飽</orth>
@@ -956,6 +979,59 @@
                 </gramGrp>
                 <def>nourish, feed</def>
             </sense>
-        <sense xml:id="uuid-4dea9c72-6ab4-4b6f-aa9c-726ab44b6fc4" resp="#CH" tls:created="2021-07-19T00:47:47.668+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def>sustenance; support</def></sense></entry>
-    <entry type="word" xml:id="uuid-79d0a58c-b951-40e5-90a5-8cb951a0e574" resp="#CH" tls:created="2021-04-03T21:27:01.561+09:00"><form corresp="#uuid-d456ee65-ac5a-4d68-82a3-1098ad937652"><orth>傅</orth><pron xml:lang="zh-Latn-x-pinyin">fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paɡs</pron></form><sense xml:id="uuid-cd33d289-2fae-4318-b3d2-892fae0318a1" resp="#CH" tls:created="2021-04-03T21:27:01.561+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2021-04-03T21:28:16.758+09:00">=哺 feed (the young) with N</def></sense></entry><entry type="word" xml:id="uuid-f9430279-67ab-4c18-8302-7967abec185b" resp="#CH" tls:created="2022-08-02T23:12:37.775+09:00"><form corresp="#uuid-caf4655b-dcb6-4dae-a679-dcd49fdc2646"><orth>饋</orth><pron xml:lang="zh-Latn-x-pinyin">kuì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡruds</pron></form><sense xml:id="uuid-3bac6be9-cf65-48c1-ac6b-e9cf6598c16a" resp="#CH" tls:created="2022-08-02T23:12:37.775+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>have a meal served for</def></sense></entry><entry type="word" xml:id="uuid-e25f9834-565f-4844-9f98-34565f784426" resp="#CH" tls:created="2023-01-20T19:30:57.117+09:00"><form corresp="#uuid-248438a1-1a4c-4cfa-8438-a11a4cdcfae2 #uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c"><orth>食於</orth><pron xml:lang="zh-Latn-x-pinyin">sì yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- 'jo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- qa</pron></form><sense xml:id="uuid-4e42d173-8c20-48d5-82d1-738c2008d556" resp="#CH" tls:created="2023-01-20T19:30:57.117+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-eda6820d-2e0c-44c3-a555-71ff6bb1b917">VP N</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be fed by</def></sense></entry></div>
+        <sense xml:id="uuid-4dea9c72-6ab4-4b6f-aa9c-726ab44b6fc4" resp="#CH" tls:created="2021-07-19T00:47:47.668+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def>sustenance; support</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-79d0a58c-b951-40e5-90a5-8cb951a0e574" resp="#CH" tls:created="2021-04-03T21:27:01.561+09:00">
+            <form corresp="#uuid-d456ee65-ac5a-4d68-82a3-1098ad937652">
+                <orth>傅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paɡs</pron>
+            </form>
+            <sense xml:id="uuid-cd33d289-2fae-4318-b3d2-892fae0318a1" resp="#CH" tls:created="2021-04-03T21:27:01.561+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-04-03T21:28:16.758+09:00">=哺 feed (the young) with N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f9430279-67ab-4c18-8302-7967abec185b" resp="#CH" tls:created="2022-08-02T23:12:37.775+09:00">
+            <form corresp="#uuid-caf4655b-dcb6-4dae-a679-dcd49fdc2646">
+                <orth>饋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kuì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡruds</pron>
+            </form>
+            <sense xml:id="uuid-3bac6be9-cf65-48c1-ac6b-e9cf6598c16a" resp="#CH" tls:created="2022-08-02T23:12:37.775+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have a meal served for</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e25f9834-565f-4844-9f98-34565f784426" resp="#CH" tls:created="2023-01-20T19:30:57.117+09:00">
+            <form corresp="#uuid-248438a1-1a4c-4cfa-8438-a11a4cdcfae2 #uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
+                <orth>食於</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- 'jo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- qa</pron>
+            </form>
+            <sense xml:id="uuid-4e42d173-8c20-48d5-82d1-738c2008d556" resp="#CH" tls:created="2023-01-20T19:30:57.117+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-eda6820d-2e0c-44c3-a555-71ff6bb1b917">VP N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be fed by</def>
+            </sense>
+        </entry>
+    </div>
 </div>

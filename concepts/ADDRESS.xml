@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ffe85849-0547-451b-8952-d32067596c12">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ffe85849-0547-451b-8952-d32067596c12">
 <head>ADDRESS</head>
     <list type="altnames">
 <item>TALK TO</item>
@@ -12,7 +13,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-16T17:04:34.206+09:00">SPEAK OR WRITE INTENDING ANOTHER TO HEAR OR READ AND TO REACT to IT. </p></div>
+    <p resp="#CH" modified="2020-10-16T17:04:34.206+09:00">SPEAK OR WRITE INTENDING ANOTHER TO HEAR OR READ AND TO REACT to IT. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ASCENDING/HORIZONTAL/DESCENDING]</p>
@@ -337,7 +339,15 @@
                 </gramGrp>
   <def>address someone with the words S</def>
             </sense>
-<sense xml:id="uuid-4a6a638d-d162-4669-aa63-8dd1625669a5" resp="#CH" tls:created="2022-08-22T18:31:01.618+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f81610-8d47-428f-b816-108d47928f9f">vtt(oN1.+prep+N2)</tls:syn-func><tls:sem-feat corresp="#uuid-24178b3c-ab18-4fff-9286-c4ea33e78535">N2=human</tls:sem-feat></gramGrp><def>tell the fact N1 to the person N2</def></sense></entry>
+<sense xml:id="uuid-4a6a638d-d162-4669-aa63-8dd1625669a5" resp="#CH" tls:created="2022-08-22T18:31:01.618+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f81610-8d47-428f-b816-108d47928f9f">vtt(oN1.+prep+N2)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-24178b3c-ab18-4fff-9286-c4ea33e78535">N2=human</tls:sem-feat>
+                </gramGrp>
+                <def>tell the fact N1 to the person N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9d50d66d-d06b-4d7f-9e57-65f9116673fc">
             <form corresp="#uuid-8bb517d7-1338-4c4c-ade1-75c15d83ba3a">
 <orth>對</orth>
@@ -402,7 +412,14 @@
                 </gramGrp>
   <def>say S to N (who is of superior status)</def>
             </sense>
-<sense xml:id="uuid-fd9e5703-dfc6-4fdb-9e57-03dfc6cfdbb4" resp="#CH" tls:created="2020-12-02T20:51:43.688+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-382f14ec-c954-4f1a-af14-ecc954cf1a74">vtt(oN.)+S</tls:syn-func></gramGrp><def>address N, with the (written or spoken) message S</def></sense></entry>
+<sense xml:id="uuid-fd9e5703-dfc6-4fdb-9e57-03dfc6cfdbb4" resp="#CH" tls:created="2020-12-02T20:51:43.688+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-382f14ec-c954-4f1a-af14-ecc954cf1a74">vtt(oN.)+S</tls:syn-func>
+                </gramGrp>
+                <def>address N, with the (written or spoken) message S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f01b88f3-93d8-4800-b62b-abc3192ce574">
             <form corresp="#uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce">
 <orth>言</orth>
@@ -515,7 +532,14 @@
                 </gramGrp>
   <def>report to; let somebody know; post-Han sometimes: tell someone to carry out the instruction in the speech 語人曰</def>
             </sense>
-<sense xml:id="uuid-e43bd4ac-fb8a-4c21-bbd4-acfb8a0c2115" resp="#CH" tls:created="2023-11-22T01:52:05.64+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func></gramGrp><def>tell N2 about the contextually determinate N1</def></sense></entry>
+<sense xml:id="uuid-e43bd4ac-fb8a-4c21-bbd4-acfb8a0c2115" resp="#CH" tls:created="2023-11-22T01:52:05.64+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>tell N2 about the contextually determinate N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9f302a13-be9a-46a5-9095-f1468c677fe6">
             <form corresp="#uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce">
 <orth>謂</orth>
@@ -626,5 +650,37 @@
   <def>tell the contextually determinate N that S!</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c3e37e0a-7554-4cb9-90c3-62377bde4900" resp="#CH" tls:created="2019-12-09T05:25:12.272+09:00"><form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40"><orth>加</orth><pron xml:lang="zh-Latn-x-pinyin">jiā</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraal</pron></form><sense xml:id="uuid-70303e4f-e681-4ba7-8a1c-9402492f7dae" resp="#CH" tls:created="2019-12-09T05:25:12.272+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be addressed to</def></sense></entry><entry type="word" xml:id="uuid-d59238ad-a962-4c34-9238-ada9626c34df" resp="#CH" tls:created="2022-09-11T03:44:27.582+09:00"><form corresp="#uuid-0b054b28-5cf1-44fb-87cb-184f5128e129"><orth>諭</orth><pron xml:lang="zh-Latn-x-pinyin">yù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">los</pron></form><sense xml:id="uuid-d37acf2a-e736-485b-bacf-2ae736285bca" resp="#CH" tls:created="2022-09-11T03:44:27.582+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>address N with the intention to inform N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c3e37e0a-7554-4cb9-90c3-62377bde4900" resp="#CH" tls:created="2019-12-09T05:25:12.272+09:00">
+            <form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40">
+                <orth>加</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiā</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraal</pron>
+            </form>
+            <sense xml:id="uuid-70303e4f-e681-4ba7-8a1c-9402492f7dae" resp="#CH" tls:created="2019-12-09T05:25:12.272+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be addressed to</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d59238ad-a962-4c34-9238-ada9626c34df" resp="#CH" tls:created="2022-09-11T03:44:27.582+09:00">
+            <form corresp="#uuid-0b054b28-5cf1-44fb-87cb-184f5128e129">
+                <orth>諭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">los</pron>
+            </form>
+            <sense xml:id="uuid-d37acf2a-e736-485b-bacf-2ae736285bca" resp="#CH" tls:created="2022-09-11T03:44:27.582+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>address N with the intention to inform N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

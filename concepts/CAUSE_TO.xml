@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9f80ea87-ad33-4605-bcc0-faf2b536f92a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9f80ea87-ad33-4605-bcc0-faf2b536f92a">
 <head>CAUSE TO</head>
     <list type="altnames">
 <item>BRING ABOUT</item>
@@ -249,7 +250,59 @@
                 </gramGrp>
   <def>bring about</def>
             </sense>
-<sense xml:id="uuid-a319e782-f6b7-4aac-99e7-82f6b7caac14" resp="#CH" tls:created="2020-04-09T21:16:13.07+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def>try to cause N to V</def></sense><sense xml:id="uuid-c4ce500e-9d1a-493d-8e50-0e9d1a993dd1" resp="#zadrapa" tls:created="2021-01-25T19:28:19.184+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be made to V</def></sense><sense xml:id="uuid-6a0a6c70-8ab3-4aa5-8a6c-708ab33aa507" resp="#CH" tls:created="2021-04-17T01:55:07.888+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-03cd8f8e-f5d8-4c0d-8d8f-8ef5d8dc0d5d">causative.conative</tls:sem-feat></gramGrp><def>try to get N to V</def></sense><sense xml:id="uuid-94d772d3-81d8-42d0-9772-d381d882d056" resp="#zadrapa" tls:created="2022-05-19T05:17:03.56+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2023-05-23T04:19:57.296+09:00">cause that V</def></sense><sense xml:id="uuid-acaa0d76-ad63-4466-aa0d-76ad6374662c" resp="#zadrapa" tls:created="2023-05-23T04:21:38.19+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3eaef22c-6bef-4126-93dd-a81945be2058">vt+S</tls:syn-func></gramGrp><def>to cause that S, to ensure that S</def></sense><sense xml:id="uuid-53faf5dd-69bc-4287-baf5-dd69bce28783" resp="#dsehnal" tls:created="2023-07-01T23:12:14.646+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e47ee7ed-8e10-4c4f-aa09-20a0f6b97105">vt+S1.post-S2</tls:syn-func></gramGrp><def>S2 which lead to S1; S2 so that S1</def></sense><sense xml:id="uuid-5cbe6376-7bbe-467d-be63-767bbe967d74" resp="#dsehnal" tls:created="2024-01-14T23:18:52.204+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func></gramGrp><def>cause that S</def></sense></entry>
+<sense xml:id="uuid-a319e782-f6b7-4aac-99e7-82f6b7caac14" resp="#CH" tls:created="2020-04-09T21:16:13.07+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def>try to cause N to V</def>
+            </sense>
+            <sense xml:id="uuid-c4ce500e-9d1a-493d-8e50-0e9d1a993dd1" resp="#zadrapa" tls:created="2021-01-25T19:28:19.184+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be made to V</def>
+            </sense>
+            <sense xml:id="uuid-6a0a6c70-8ab3-4aa5-8a6c-708ab33aa507" resp="#CH" tls:created="2021-04-17T01:55:07.888+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-03cd8f8e-f5d8-4c0d-8d8f-8ef5d8dc0d5d">causative.conative</tls:sem-feat>
+                </gramGrp>
+                <def>try to get N to V</def>
+            </sense>
+            <sense xml:id="uuid-94d772d3-81d8-42d0-9772-d381d882d056" resp="#zadrapa" tls:created="2022-05-19T05:17:03.56+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2023-05-23T04:19:57.296+09:00">cause that V</def>
+            </sense>
+            <sense xml:id="uuid-acaa0d76-ad63-4466-aa0d-76ad6374662c" resp="#zadrapa" tls:created="2023-05-23T04:21:38.19+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3eaef22c-6bef-4126-93dd-a81945be2058">vt+S</tls:syn-func>
+                </gramGrp>
+                <def>to cause that S, to ensure that S</def>
+            </sense>
+            <sense xml:id="uuid-53faf5dd-69bc-4287-baf5-dd69bce28783" resp="#dsehnal" tls:created="2023-07-01T23:12:14.646+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e47ee7ed-8e10-4c4f-aa09-20a0f6b97105">vt+S1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def>S2 which lead to S1; S2 so that S1</def>
+            </sense>
+            <sense xml:id="uuid-5cbe6376-7bbe-467d-be63-767bbe967d74" resp="#dsehnal" tls:created="2024-01-14T23:18:52.204+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
+                </gramGrp>
+                <def>cause that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fb6b93df-5675-4c60-957a-b7f7dbeb8bde">
             <form corresp="#uuid-39f2ae44-d39c-4475-a571-027c20f10e2d">
 <orth>俾</orth>
@@ -344,7 +397,14 @@
                 </gramGrp>
   <def>arouse</def>
             </sense>
-<sense xml:id="uuid-c6d5f31b-cc83-4d1a-95f3-1bcc830d1a87" resp="#zadrapa" tls:created="2022-02-11T23:29:10.772+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>= yao1 邀: attract; cause to arise for oneself</def></sense></entry>
+<sense xml:id="uuid-c6d5f31b-cc83-4d1a-95f3-1bcc830d1a87" resp="#zadrapa" tls:created="2022-02-11T23:29:10.772+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>= yao1 邀: attract; cause to arise for oneself</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5d06b0a2-4e67-46f9-b28b-205f5da6e0be">
             <form corresp="#uuid-684924fc-9bcc-445b-a83a-2352766b7c57">
 <orth>招</orth>
@@ -397,7 +457,15 @@
                 </gramGrp>
   <def>send someone out to do something</def>
             </sense>
-<sense xml:id="uuid-eba27a39-75e5-4c9a-a27a-3975e50c9a0b" resp="#schwermann" tls:created="2023-06-19T23:55:52.382+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat></gramGrp><def>to cause someone to send someone out to do something</def></sense></entry>
+<sense xml:id="uuid-eba27a39-75e5-4c9a-a27a-3975e50c9a0b" resp="#schwermann" tls:created="2023-06-19T23:55:52.382+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat>
+                </gramGrp>
+                <def>to cause someone to send someone out to do something</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a33d802f-bf22-4ae6-b9ce-f7627d06789b">
             <form corresp="#uuid-81aa677b-e873-4016-ae47-708d7568570c">
 <orth>致</orth>
@@ -492,12 +560,44 @@
   <def>bring it about that S</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8310cddd-3964-4292-a673-378f064930ab" resp="#CH" tls:created="2019-12-30T20:41:01.295+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-afdc876c-56d9-4352-b7a8-314382962a0a" resp="#CH" tls:created="2019-12-30T20:41:01.295+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-bd68c541-ce51-4e6a-81bf-5f8357489350">VPt(oN1.) N2</tls:syn-func></gramGrp><def>make the contextually determinate N1 into an N2</def></sense></entry><entry type="word" xml:id="uuid-af5ec6d7-a0e4-4d51-a960-09087c66a2ab" resp="#CH" tls:created="2019-12-30T20:41:12.952+09:00"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7"><orth>以為</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷal</pron></form><sense xml:id="uuid-bf0b1f37-552b-461b-9b9a-7324fc1fa750" resp="#CH" tls:created="2019-12-30T20:41:12.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-d24bab17-fe04-4609-8bab-17fe04260973">VPtt(oN1).+N2</tls:syn-func></gramGrp><def>make the contextually determinate N1 into an N2</def></sense></entry><entry xml:id="uuid-4c83f3b5-a0d1-4c2b-83f3-b5a0d1ec2b39"><form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
+    <entry type="word" xml:id="uuid-8310cddd-3964-4292-a673-378f064930ab" resp="#CH" tls:created="2019-12-30T20:41:01.295+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-afdc876c-56d9-4352-b7a8-314382962a0a" resp="#CH" tls:created="2019-12-30T20:41:01.295+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-bd68c541-ce51-4e6a-81bf-5f8357489350">VPt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>make the contextually determinate N1 into an N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-af5ec6d7-a0e4-4d51-a960-09087c66a2ab" resp="#CH" tls:created="2019-12-30T20:41:12.952+09:00">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7">
+                <orth>以為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-bf0b1f37-552b-461b-9b9a-7324fc1fa750" resp="#CH" tls:created="2019-12-30T20:41:12.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-d24bab17-fe04-4609-8bab-17fe04260973">VPtt(oN1).+N2</tls:syn-func>
+                </gramGrp>
+                <def>make the contextually determinate N1 into an N2</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-4c83f3b5-a0d1-4c2b-83f3-b5a0d1ec2b39">
+            <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
 <orth>為</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
                 <pron xml:lang="zh-x-oc">ɢʷal</pron>
                 <pron xml:lang="zh-x-mc">ɦiɛ</pron>
-            </form><sense xml:id="uuid-857711a1-bca8-4236-ae3f-555d0b883eda">
+            </form>
+            <sense xml:id="uuid-857711a1-bca8-4236-ae3f-555d0b883eda">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
@@ -505,5 +605,39 @@
                     <usg type="warring-states-currency">2</usg>
                 </gramGrp>
   <def>bring it about that V;</def>
-            </sense></entry><entry type="word" xml:id="uuid-3b52c47e-2507-4f17-92c4-7e2507ef1794" resp="#dsehnal" tls:created="2023-07-15T01:19:31.649+09:00"><form corresp="#uuid-4b46759c-5cce-4243-9586-2da74db4dcca"><orth>與</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laʔ</pron></form><sense xml:id="uuid-8313c1f1-aa38-4d6f-93c1-f1aa38ad6f5b" resp="#dsehnal" tls:created="2023-07-15T01:19:31.649+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4c6745f-42fa-4d4c-9fe9-87da47aac2af">vtoN. V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp><def>cause N to V; send down V to N</def></sense></entry><entry type="word" xml:id="uuid-8eb3db85-f4fb-4804-b3db-85f4fb68042a" resp="#schwermann" tls:created="2023-10-24T00:09:32.703+09:00"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c"><orth>以</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ</pron></form><sense xml:id="uuid-36f499f7-09ce-41a1-b499-f709ce11a125" resp="#schwermann" tls:created="2023-10-24T00:09:32.703+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3eaef22c-6bef-4126-93dd-a81945be2058">vt S</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>to cause that S, to ensure that S</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3b52c47e-2507-4f17-92c4-7e2507ef1794" resp="#dsehnal" tls:created="2023-07-15T01:19:31.649+09:00">
+            <form corresp="#uuid-4b46759c-5cce-4243-9586-2da74db4dcca">
+                <orth>與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laʔ</pron>
+            </form>
+            <sense xml:id="uuid-8313c1f1-aa38-4d6f-93c1-f1aa38ad6f5b" resp="#dsehnal" tls:created="2023-07-15T01:19:31.649+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4c6745f-42fa-4d4c-9fe9-87da47aac2af">vtoN. V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>cause N to V; send down V to N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8eb3db85-f4fb-4804-b3db-85f4fb68042a" resp="#schwermann" tls:created="2023-10-24T00:09:32.703+09:00">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+                <orth>以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-36f499f7-09ce-41a1-b499-f709ce11a125" resp="#schwermann" tls:created="2023-10-24T00:09:32.703+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3eaef22c-6bef-4126-93dd-a81945be2058">vt S</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>to cause that S, to ensure that S</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5a052716-4e4a-4eb4-b038-deb633d7595c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5a052716-4e4a-4eb4-b038-deb633d7595c">
 <head>PALACE</head>
     <list type="altnames">
 <item>ROYAL/OFFICIAL RESIDENCE</item>
@@ -95,7 +96,15 @@
                 </gramGrp>
   <def>distinguished buildings&gt; palaces</def>
             </sense>
-<sense xml:id="uuid-09e1e23c-a99d-4db6-a1e2-3ca99d4db615" resp="#dsehnal" tls:created="2023-04-30T04:13:36.765+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func><tls:sem-feat corresp="#uuid-294a8a36-3ed8-4aee-97cb-35e623d2dd31">N=mass</tls:sem-feat></gramGrp><def>palace made of N</def></sense></entry>
+<sense xml:id="uuid-09e1e23c-a99d-4db6-a1e2-3ca99d4db615" resp="#dsehnal" tls:created="2023-04-30T04:13:36.765+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-294a8a36-3ed8-4aee-97cb-35e623d2dd31">N=mass</tls:sem-feat>
+                </gramGrp>
+                <def>palace made of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3417c4ba-a87d-45a8-a1e0-202b63c34da7">
             <form corresp="#uuid-959284df-956a-4a7b-9397-eaa54c7d5667">
 <orth>宮</orth>
@@ -121,7 +130,14 @@
                 </gramGrp>
   <def>palace 宮婦　宮中七市"three markets in the palace compound"</def>
             </sense>
-<sense xml:id="uuid-f07ea49b-4162-405d-bea4-9b4162e05d05" resp="#dsehnal" tls:created="2020-05-01T05:10:00.705+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the contextually determinate palace</def></sense></entry>
+<sense xml:id="uuid-f07ea49b-4162-405d-bea4-9b4162e05d05" resp="#dsehnal" tls:created="2020-05-01T05:10:00.705+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the contextually determinate palace</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1d7514e0-1d55-4316-a699-9009d9380924">
             <form corresp="#uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734">
 <orth>禁</orth>
@@ -159,7 +175,14 @@
                 </gramGrp>
   <def>palaces</def>
             </sense>
-<sense xml:id="uuid-4b971943-3b51-424a-8106-f8ac3ed33f2d" resp="#CH" tls:created="2019-11-26T00:18:19.281+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>(their) palaces</def></sense></entry>
+<sense xml:id="uuid-4b971943-3b51-424a-8106-f8ac3ed33f2d" resp="#CH" tls:created="2019-11-26T00:18:19.281+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>(their) palaces</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f0446919-9dfa-40f5-acbc-d9caa7d81bd8">
             <form corresp="#uuid-959284df-956a-4a7b-9397-eaa54c7d5667 #uuid-2e2abedc-862d-4a4e-8764-26ac105aab37">
 <orth>宮殿</orth>
@@ -361,5 +384,20 @@
   <def>imperial palace</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b17493df-10ff-4c43-b493-df10ff1c437e" resp="#dsehnal" tls:created="2024-05-19T17:50:55.934+09:00"><form corresp="#uuid-79ba8c80-7f2a-411d-9323-2249801433ea #uuid-959284df-956a-4a7b-9397-eaa54c7d5667"><orth>後宮</orth><pron xml:lang="zh-Latn-x-pinyin">hòu gōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">huwX kjuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡooʔ kuŋ</pron></form><sense xml:id="uuid-f4fc50c6-de60-4812-bc50-c6de6078128c" resp="#dsehnal" tls:created="2024-05-19T17:50:55.934+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>inner courts of the ruler</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b17493df-10ff-4c43-b493-df10ff1c437e" resp="#dsehnal" tls:created="2024-05-19T17:50:55.934+09:00">
+            <form corresp="#uuid-79ba8c80-7f2a-411d-9323-2249801433ea #uuid-959284df-956a-4a7b-9397-eaa54c7d5667">
+                <orth>後宮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hòu gōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">huwX kjuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡooʔ kuŋ</pron>
+            </form>
+            <sense xml:id="uuid-f4fc50c6-de60-4812-bc50-c6de6078128c" resp="#dsehnal" tls:created="2024-05-19T17:50:55.934+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>inner courts of the ruler</def>
+            </sense>
+        </entry>
+    </div>
 </div>

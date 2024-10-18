@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0bfa613e-e3a5-4489-b947-fd71fc381db4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0bfa613e-e3a5-4489-b947-fd71fc381db4">
 <head>ENCOURAGE</head>
     <list type="altnames">
 <item>HEARTEN</item>
@@ -43,7 +44,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:22:14.908+09:00">ADVISE someone IN ORDER TO TRY to PERSUADE that HUMAN to ACT in a way one BELIEVES to be PROFITABLE FOR THAT HUMAN. </p></div>
+    <p resp="#CH" modified="2021-03-18T18:22:14.908+09:00">ADVISE someone IN ORDER TO TRY to PERSUADE that HUMAN to ACT in a way one BELIEVES to be PROFITABLE FOR THAT HUMAN. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The dominant current word is quàn 勸 (ant. jǔ 沮 "try to stop") which refers to all kinds of encouragement, both from inferiors and from superiors.</p>
@@ -427,7 +429,22 @@
                 </gramGrp>
   <def>encourage somebody to do something</def>
             </sense>
-<sense xml:id="uuid-7322b2c1-a8e6-4e17-94f1-4a29b41b48a6" resp="#CH" tls:created="2019-12-15T01:32:46.583+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9c1cfd33-d7a3-4fd8-9b9a-3d48816df0ea">vtt[oN.] V[0]</tls:syn-func></gramGrp><def>encourage people to V</def></sense><sense xml:id="uuid-bf8ec53c-ad60-43c5-8ec5-3cad6073c5a5" resp="#CH" tls:created="2021-03-24T23:50:26.819+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>push along, urge along (mechanically, without the use of words)</def></sense></entry>
+<sense xml:id="uuid-7322b2c1-a8e6-4e17-94f1-4a29b41b48a6" resp="#CH" tls:created="2019-12-15T01:32:46.583+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9c1cfd33-d7a3-4fd8-9b9a-3d48816df0ea">vtt[oN.] V[0]</tls:syn-func>
+                </gramGrp>
+                <def>encourage people to V</def>
+            </sense>
+            <sense xml:id="uuid-bf8ec53c-ad60-43c5-8ec5-3cad6073c5a5" resp="#CH" tls:created="2021-03-24T23:50:26.819+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>push along, urge along (mechanically, without the use of words)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a08d3825-53fa-484a-837e-b3de54994ead">
             <form corresp="#uuid-d056f071-777c-40c1-a53f-3612204feb7a">
 <orth>嗾</orth>
@@ -505,7 +522,15 @@
                 </gramGrp>
   <def>reinforce the convictions of, encourage; insist on; force (a person to do something)</def>
             </sense>
-<sense xml:id="uuid-28088403-ee7a-4831-8884-03ee7a2831f0" resp="#zadrapa" tls:created="2022-05-23T02:03:40.997+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>become strong</def></sense></entry>
+<sense xml:id="uuid-28088403-ee7a-4831-8884-03ee7a2831f0" resp="#zadrapa" tls:created="2022-05-23T02:03:40.997+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>become strong</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f04b87e9-1244-43ca-b858-220cea78a382">
             <form corresp="#uuid-3a91d726-a55f-4e6a-be41-ac38ada366a6">
 <orth>急</orth>
@@ -685,7 +710,14 @@
                 </gramGrp>
   <def>drive on</def>
             </sense>
-<sense xml:id="uuid-3746f67b-67a1-4f9a-809e-c2e9352fd6c2" resp="#CH" tls:created="2019-12-05T23:33:24.375+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-14889386-4520-40d2-80e0-c9e33cd58676">vtt .N V</tls:syn-func></gramGrp><def>encourage N to V</def></sense></entry>
+<sense xml:id="uuid-3746f67b-67a1-4f9a-809e-c2e9352fd6c2" resp="#CH" tls:created="2019-12-05T23:33:24.375+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-14889386-4520-40d2-80e0-c9e33cd58676">vtt .N V</tls:syn-func>
+                </gramGrp>
+                <def>encourage N to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-99ab77d1-1f1e-4bf0-a9f7-fe664a176402">
             <form corresp="#uuid-78d83124-8b7d-43aa-acca-a34116805346">
 <orth>鼓</orth>
@@ -804,5 +836,36 @@
   <def>urge (oneself) on</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c94d75d0-cc95-4531-8d75-d0cc95b531e9" resp="#zadrapa" tls:created="2022-05-24T04:27:51.163+09:00"><form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9"><orth>先</orth><pron xml:lang="zh-Latn-x-pinyin">xiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn</pron></form><sense xml:id="uuid-3664c268-3b96-4438-a4c2-683b96743830" resp="#zadrapa" tls:created="2022-05-24T04:27:51.163+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>(cause them to proceed &gt;) motivate, encourage</def></sense></entry><entry type="word" xml:id="uuid-800bdd98-4f18-4382-8bdd-984f189382e7" resp="#schwermann" tls:created="2023-04-17T17:38:47.534+09:00"><form corresp="#uuid-2cc82144-3e9c-4ea0-8977-ebe0b9788710"><orth>趣</orth><pron xml:lang="zh-Latn-x-pinyin">cù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjowk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-75eff816-765f-4939-aff8-16765fd93905" resp="#schwermann" tls:created="2023-04-17T17:38:47.534+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN. V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>urge N to V, encourage N to V</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c94d75d0-cc95-4531-8d75-d0cc95b531e9" resp="#zadrapa" tls:created="2022-05-24T04:27:51.163+09:00">
+            <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9">
+                <orth>先</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn</pron>
+            </form>
+            <sense xml:id="uuid-3664c268-3b96-4438-a4c2-683b96743830" resp="#zadrapa" tls:created="2022-05-24T04:27:51.163+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>(cause them to proceed &gt;) motivate, encourage</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-800bdd98-4f18-4382-8bdd-984f189382e7" resp="#schwermann" tls:created="2023-04-17T17:38:47.534+09:00">
+            <form corresp="#uuid-2cc82144-3e9c-4ea0-8977-ebe0b9788710">
+                <orth>趣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjowk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-75eff816-765f-4939-aff8-16765fd93905" resp="#schwermann" tls:created="2023-04-17T17:38:47.534+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN. V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>urge N to V, encourage N to V</def>
+            </sense>
+        </entry>
+    </div>
 </div>

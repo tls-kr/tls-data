@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7f925e3-d34f-475e-8f70-05c476625af7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7f925e3-d34f-475e-8f70-05c476625af7">
 <head>RISE</head>
     <list type="altnames">
 <item>MOVE UP/UPWARDS</item>
@@ -146,7 +147,14 @@
                 </gramGrp>
   <def>neutral: rise in rank</def>
             </sense>
-<sense xml:id="uuid-c0d08ee9-636f-4dcc-87a4-de34e1f0f143" resp="#CH" tls:created="2019-11-16T01:43:45.547+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>what rises</def></sense></entry>
+<sense xml:id="uuid-c0d08ee9-636f-4dcc-87a4-de34e1f0f143" resp="#CH" tls:created="2019-11-16T01:43:45.547+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what rises</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f49d0867-2db4-40ee-bc7d-433c54d5dca7">
             <form corresp="#uuid-bcb5db2f-b88f-4f1f-ab53-b47295b062b7">
 <orth>喁</orth>
@@ -246,7 +254,15 @@
                 </gramGrp>
   <def>rise up, rise to one's feet</def>
             </sense>
-<sense xml:id="uuid-38323c89-9f8c-4836-b23c-899f8c1836d5" resp="#CH" tls:created="2022-08-15T16:34:39.423+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-15T16:35:17.939+09:00">cause to surge, cause to rise</def></sense></entry>
+<sense xml:id="uuid-38323c89-9f8c-4836-b23c-899f8c1836d5" resp="#CH" tls:created="2022-08-15T16:34:39.423+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-15T16:35:17.939+09:00">cause to surge, cause to rise</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5a7ac87-d9fd-452a-8d8f-1b1427ecc832">
             <form corresp="#uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9">
 <orth>舉</orth>
@@ -335,7 +351,22 @@
                 </gramGrp>
   <def>cause to rise&gt; wake up</def>
             </sense>
-<sense xml:id="uuid-36fb57ae-f0a8-4d93-9bda-32d6c12a8624" resp="#CH" tls:created="2019-12-26T01:02:14.047+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>rise up!</def></sense><sense xml:id="uuid-c8b3c21f-a1ae-4bb7-aa16-47f198c0cf0c" resp="#CH" tls:created="2020-01-11T21:57:53.126+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-637d1252-21b6-4664-9001-46c5ffd85ed2">vi-V</tls:syn-func></gramGrp><def>rise up to V</def></sense></entry>
+<sense xml:id="uuid-36fb57ae-f0a8-4d93-9bda-32d6c12a8624" resp="#CH" tls:created="2019-12-26T01:02:14.047+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>rise up!</def>
+            </sense>
+            <sense xml:id="uuid-c8b3c21f-a1ae-4bb7-aa16-47f198c0cf0c" resp="#CH" tls:created="2020-01-11T21:57:53.126+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-637d1252-21b6-4664-9001-46c5ffd85ed2">vi-V</tls:syn-func>
+                </gramGrp>
+                <def>rise up to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-375fea10-e61f-453f-9c98-6f375dab4abd">
             <form corresp="#uuid-36739336-a434-4ca1-9a6b-72cd57ba73d4">
 <orth>進</orth>
@@ -476,11 +507,150 @@
   <def>leave the mat one is sitting on and stand up next to it (see XJ 1 for the decisive example which proves that standing up is indeed involved)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f9252531-3bba-4551-aecf-efe0a22c60c2" resp="#CH" tls:created="2020-02-07T18:22:38.794+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-f063e10e-681c-44c3-acca-6eb54fe5a86d" resp="#CH" tls:created="2020-02-07T18:22:38.794+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>aesthetically: rise straight up, abruptly</def></sense></entry><entry type="word" xml:id="uuid-e373365c-3e76-47bd-8275-cecf32b20e1e" resp="#CH" tls:created="2020-02-07T18:22:45.925+09:00"><form corresp="#uuid-c8ed2de3-e7f9-46dc-a82d-09e5e4f04656"><orth>豎</orth><pron xml:lang="zh-Latn-x-pinyin">shù
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoʔ
-</pron></form><sense xml:id="uuid-b7079642-2b8b-4c89-92a1-c69fa23bc9e9" resp="#CH" tls:created="2020-02-07T18:22:45.925+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>aesthetically: rise straight up, abruptly</def></sense><sense xml:id="uuid-f607a07a-b0c3-4e0c-9585-3c333d2fcb31" resp="#CH" tls:created="2020-02-10T19:23:20.883+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>stand up erect</def></sense></entry><entry type="word" xml:id="uuid-19e3ca69-9b3d-4f46-a3ca-699b3d6f463b" resp="#CH" tls:created="2020-04-23T20:26:39.963+09:00"><form corresp="#uuid-971b3d15-f6b9-4a02-ae98-3fd127fb35c1"><orth>蘇</orth><pron xml:lang="zh-Latn-x-pinyin">sū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">su</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡlaa</pron></form><sense xml:id="uuid-25dc91a0-e5c7-4694-9c91-a0e5c7d69446" resp="#CH" tls:created="2020-04-23T20:26:39.963+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>rise up again</def></sense></entry><entry type="word" xml:id="uuid-894c8959-7f24-4e01-8c89-597f24de0114" resp="#CH" tls:created="2020-04-23T22:22:40.745+09:00"><form corresp="#uuid-b598e84b-bbd1-403a-973b-cb95c13b5b7e #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82"><orth>立體</orth><pron xml:lang="zh-Latn-x-pinyin">lì
- tǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lip
- thejX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rub
- rʰiiʔ</pron></form><sense xml:id="uuid-cdcbf36c-c973-4b07-8bf3-6cc973fb0718" resp="#CH" tls:created="2020-04-23T22:22:40.745+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>rise up; stand up</def></sense></entry><entry type="word" xml:id="uuid-533600c8-fa01-4967-b600-c8fa01896797" resp="#CH" tls:created="2021-11-11T00:59:50.588+09:00"><form corresp="#uuid-8e57dd7f-77ae-4207-a978-c4f3c3aa3305"><orth>凌</orth><pron xml:lang="zh-Latn-x-pinyin">líng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ling</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rɯŋ</pron></form><sense xml:id="uuid-e9c5c979-7ee4-488b-85c9-797ee4088b2d" resp="#CH" tls:created="2021-11-11T00:59:50.588+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>rise high</def></sense><sense xml:id="uuid-08db060a-c599-4008-9b06-0ac599400880" resp="#CH" tls:created="2021-11-25T03:47:00.213+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>rising, going in the upward direction (of a slope)</def></sense><sense xml:id="uuid-11aad70f-2d33-4026-aad7-0f2d332026a7" resp="#dsehnal" tls:created="2023-05-14T22:37:01.279+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>rise into N</def></sense></entry><entry type="word" xml:id="uuid-09953632-a9f8-4a48-9536-32a9f8ea48e4" resp="#CH" tls:created="2022-09-07T23:11:47.448+09:00"><form corresp="#uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3 #uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9"><orth>遠舉</orth><pron xml:lang="zh-Latn-x-pinyin">yuǎn jǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjwonX kjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷanʔ klaʔ</pron></form><sense xml:id="uuid-3efb75b1-a18b-4051-bb75-b1a18be0517e" resp="#CH" tls:created="2022-09-07T23:11:47.448+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-03-22T19:01:28.325+09:00">rise high (in action and ambition); get far in ambitious orihects or undertakings; 2.猶高飛；遠揚。</def></sense></entry><entry type="word" xml:id="uuid-0c465a47-9883-4b31-865a-4798835b318d" resp="#CH" tls:created="2023-08-28T23:54:38.097+09:00"><form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87 #uuid-43e0256e-579f-43ab-ab11-d70174151708"><orth>上天</orth><pron xml:lang="zh-Latn-x-pinyin">shàng tiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH then</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs lʰiin</pron></form><sense xml:id="uuid-3c64cafc-bb3f-4798-a4ca-fcbb3f57983c" resp="#CH" tls:created="2023-08-28T23:54:38.097+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#CH" updated="2023-08-29T02:40:27.176+09:00">ascend to Heaven</def></sense><sense xml:id="uuid-a81d3b99-8c50-4422-9d3b-998c50c422fb" resp="#CH" tls:created="2023-08-28T23:57:23.59+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-af48b36d-5aa9-4a63-88b3-6d5aa9ea63a6">to the sky</tls:sem-feat></gramGrp><def>rise up to the sky</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f9252531-3bba-4551-aecf-efe0a22c60c2" resp="#CH" tls:created="2020-02-07T18:22:38.794+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-f063e10e-681c-44c3-acca-6eb54fe5a86d" resp="#CH" tls:created="2020-02-07T18:22:38.794+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>aesthetically: rise straight up, abruptly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e373365c-3e76-47bd-8275-cecf32b20e1e" resp="#CH" tls:created="2020-02-07T18:22:45.925+09:00">
+            <form corresp="#uuid-c8ed2de3-e7f9-46dc-a82d-09e5e4f04656">
+                <orth>豎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shù
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-b7079642-2b8b-4c89-92a1-c69fa23bc9e9" resp="#CH" tls:created="2020-02-07T18:22:45.925+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>aesthetically: rise straight up, abruptly</def>
+            </sense>
+            <sense xml:id="uuid-f607a07a-b0c3-4e0c-9585-3c333d2fcb31" resp="#CH" tls:created="2020-02-10T19:23:20.883+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>stand up erect</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-19e3ca69-9b3d-4f46-a3ca-699b3d6f463b" resp="#CH" tls:created="2020-04-23T20:26:39.963+09:00">
+            <form corresp="#uuid-971b3d15-f6b9-4a02-ae98-3fd127fb35c1">
+                <orth>蘇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">su</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡlaa</pron>
+            </form>
+            <sense xml:id="uuid-25dc91a0-e5c7-4694-9c91-a0e5c7d69446" resp="#CH" tls:created="2020-04-23T20:26:39.963+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>rise up again</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-894c8959-7f24-4e01-8c89-597f24de0114" resp="#CH" tls:created="2020-04-23T22:22:40.745+09:00">
+            <form corresp="#uuid-b598e84b-bbd1-403a-973b-cb95c13b5b7e #uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
+                <orth>立體</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lì
+ tǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lip
+ thejX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rub
+ rʰiiʔ</pron>
+            </form>
+            <sense xml:id="uuid-cdcbf36c-c973-4b07-8bf3-6cc973fb0718" resp="#CH" tls:created="2020-04-23T22:22:40.745+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>rise up; stand up</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-533600c8-fa01-4967-b600-c8fa01896797" resp="#CH" tls:created="2021-11-11T00:59:50.588+09:00">
+            <form corresp="#uuid-8e57dd7f-77ae-4207-a978-c4f3c3aa3305">
+                <orth>凌</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">líng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ling</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-e9c5c979-7ee4-488b-85c9-797ee4088b2d" resp="#CH" tls:created="2021-11-11T00:59:50.588+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>rise high</def>
+            </sense>
+            <sense xml:id="uuid-08db060a-c599-4008-9b06-0ac599400880" resp="#CH" tls:created="2021-11-25T03:47:00.213+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>rising, going in the upward direction (of a slope)</def>
+            </sense>
+            <sense xml:id="uuid-11aad70f-2d33-4026-aad7-0f2d332026a7" resp="#dsehnal" tls:created="2023-05-14T22:37:01.279+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>rise into N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-09953632-a9f8-4a48-9536-32a9f8ea48e4" resp="#CH" tls:created="2022-09-07T23:11:47.448+09:00">
+            <form corresp="#uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3 #uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9">
+                <orth>遠舉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuǎn jǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjwonX kjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷanʔ klaʔ</pron>
+            </form>
+            <sense xml:id="uuid-3efb75b1-a18b-4051-bb75-b1a18be0517e" resp="#CH" tls:created="2022-09-07T23:11:47.448+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-03-22T19:01:28.325+09:00">rise high (in action and ambition); get far in ambitious orihects or undertakings; 2.猶高飛；遠揚。</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0c465a47-9883-4b31-865a-4798835b318d" resp="#CH" tls:created="2023-08-28T23:54:38.097+09:00">
+            <form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87 #uuid-43e0256e-579f-43ab-ab11-d70174151708">
+                <orth>上天</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shàng tiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH then</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs lʰiin</pron>
+            </form>
+            <sense xml:id="uuid-3c64cafc-bb3f-4798-a4ca-fcbb3f57983c" resp="#CH" tls:created="2023-08-28T23:54:38.097+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-08-29T02:40:27.176+09:00">ascend to Heaven</def>
+            </sense>
+            <sense xml:id="uuid-a81d3b99-8c50-4422-9d3b-998c50c422fb" resp="#CH" tls:created="2023-08-28T23:57:23.59+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-af48b36d-5aa9-4a63-88b3-6d5aa9ea63a6">to the sky</tls:sem-feat>
+                </gramGrp>
+                <def>rise up to the sky</def>
+            </sense>
+        </entry>
+    </div>
 </div>

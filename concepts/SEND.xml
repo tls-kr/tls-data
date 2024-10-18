@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-007e2e96-c952-41c5-9172-6493630a1d57">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-007e2e96-c952-41c5-9172-6493630a1d57">
 <head>SEND</head>
     <list type="altnames">
 <item>DISPATCH</item>
@@ -168,7 +169,15 @@
                 </gramGrp>
   <def resp="#dsehnal" updated="2019-12-16T20:10:42.8+09:00">send somebody to V</def>
             </sense>
-<sense xml:id="uuid-f20b5096-4434-4786-8b50-9644340786df" resp="#dsehnal" tls:created="2020-06-18T04:17:17.557+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>(of N1:) be sent to N2</def></sense></entry>
+<sense xml:id="uuid-f20b5096-4434-4786-8b50-9644340786df" resp="#dsehnal" tls:created="2020-06-18T04:17:17.557+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>(of N1:) be sent to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3e049326-1563-4900-9c8d-7a07c5ed680b">
             <form corresp="#uuid-f0c872ff-d307-4e92-88b6-9650371a38ff">
 <orth>墮</orth>
@@ -248,7 +257,14 @@
                 </gramGrp>
   <def>send over</def>
             </sense>
-<sense xml:id="uuid-8ad27d23-5c30-47bf-927d-235c3017bf86" resp="#dsehnal" tls:created="2020-05-23T21:54:21.938+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>send over the contextually determinate object</def></sense></entry>
+<sense xml:id="uuid-8ad27d23-5c30-47bf-927d-235c3017bf86" resp="#dsehnal" tls:created="2020-05-23T21:54:21.938+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>send over the contextually determinate object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db1e7009-8520-4f69-9639-1f03be91eef6">
             <form corresp="#uuid-992dacb3-ef9f-4a9c-ac79-3120e4575673">
 <orth>潛</orth>
@@ -282,7 +298,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-e010f21b-5774-4d2b-9699-6c509fd31dc3">
-            <form corresp="#uuid-8178f523-addc-4b7b-9af6-c26d2e92e298"><orth>解</orth><pron xml:lang="zh-Latn-x-pinyin">jiè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keaH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krees</pron></form>
+            <form corresp="#uuid-8178f523-addc-4b7b-9af6-c26d2e92e298">
+                <orth>解</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keaH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krees</pron>
+            </form>
 <sense xml:id="uuid-ced3373b-cf01-4c30-96af-2b8e2f3ec44e">
 <gramGrp>
                     <pos>V</pos>
@@ -372,7 +393,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
   <def>send (someone) to do (something)</def>
             </sense>
 <sense xml:id="uuid-73c6b302-e09e-4243-af57-fcf466eab711">
@@ -406,7 +428,22 @@
                 </gramGrp>
   <def>send (oneself) N2, bring upon (oneself) N2</def>
             </sense>
-<sense xml:id="uuid-c0796f8f-9337-4d88-a44d-0273e83c7daa" resp="#CH" tls:created="2020-01-24T02:57:32.518+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>(of Heaven) send down N1 to N2</def></sense><sense xml:id="uuid-d9d03df3-da6e-48aa-903d-f3da6ef8aa85" resp="#CH" tls:created="2021-01-28T04:24:49.101+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func></gramGrp><def>send down N2 to the contextually determinate N1</def></sense></entry>
+<sense xml:id="uuid-c0796f8f-9337-4d88-a44d-0273e83c7daa" resp="#CH" tls:created="2020-01-24T02:57:32.518+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>(of Heaven) send down N1 to N2</def>
+            </sense>
+            <sense xml:id="uuid-d9d03df3-da6e-48aa-903d-f3da6ef8aa85" resp="#CH" tls:created="2021-01-28T04:24:49.101+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>send down N2 to the contextually determinate N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-968f2f15-e4eb-4c6b-af02-c0175fc8924b">
             <form corresp="#uuid-41c1e874-d5af-4755-9bd6-a2e2be4bb0a5">
 <orth>齎</orth>
@@ -521,6 +558,13 @@
                 </gramGrp>
   <def>send and submit</def>
             </sense>
-<sense xml:id="uuid-cac0d326-cd07-4490-80d3-26cd07a490bb" resp="#zadrapa" tls:created="2022-05-30T03:31:48.342+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>causative passive: make N to be sent in</def></sense></entry>
+<sense xml:id="uuid-cac0d326-cd07-4490-80d3-26cd07a490bb" resp="#zadrapa" tls:created="2022-05-30T03:31:48.342+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>causative passive: make N to be sent in</def>
+            </sense>
+        </entry>
     </div>
 </div>

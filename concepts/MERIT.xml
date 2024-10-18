@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-df5906d7-dfa7-406e-99b2-2904640ecafe">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-df5906d7-dfa7-406e-99b2-2904640ecafe">
 <head>MERIT</head>
     <list type="altnames">
 <item>EXCELLENCE</item>
@@ -147,7 +148,28 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-05-20T04:02:05.408+09:00">have meritorious contributions to one's credit, achieve meritorious results</def>
             </sense>
-<sense xml:id="uuid-6b8c05b0-686a-45e6-a6ff-7eddfd430b98" resp="#CH" tls:created="2019-12-15T07:59:46.838+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def resp="#CH" updated="2020-05-20T03:59:05.966+09:00">N's contributions</def></sense><sense xml:id="uuid-96badddc-7bc9-4bf9-badd-dc7bc9ebf9dd" resp="#CH" tls:created="2022-09-22T18:54:06.729+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>the meritorious distinction of the contextually determinate N</def></sense><sense xml:id="uuid-e7314ce8-7189-4075-b14c-e87189a07565" resp="#dsehnal" tls:created="2023-07-16T00:25:02.561+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func></gramGrp><def>merit consisting in V-ing</def></sense></entry>
+<sense xml:id="uuid-6b8c05b0-686a-45e6-a6ff-7eddfd430b98" resp="#CH" tls:created="2019-12-15T07:59:46.838+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-20T03:59:05.966+09:00">N's contributions</def>
+            </sense>
+            <sense xml:id="uuid-96badddc-7bc9-4bf9-badd-dc7bc9ebf9dd" resp="#CH" tls:created="2022-09-22T18:54:06.729+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the meritorious distinction of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-e7314ce8-7189-4075-b14c-e87189a07565" resp="#dsehnal" tls:created="2023-07-16T00:25:02.561+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func>
+                </gramGrp>
+                <def>merit consisting in V-ing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3a4c3b24-d03f-48dd-8648-29b945db8b50">
             <form corresp="#uuid-def4d9dd-8e03-44da-814a-624e98e0062d">
 <orth>勛</orth>
@@ -271,7 +293,15 @@
                 </gramGrp>
   <def>great achievement</def>
             </sense>
-<sense xml:id="uuid-37d6fa74-7a42-46f7-8be9-7ae6e94fed52" resp="#CH" tls:created="2020-02-10T01:51:21.354+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>figurative: maximum literary effect</def></sense></entry>
+<sense xml:id="uuid-37d6fa74-7a42-46f7-8be9-7ae6e94fed52" resp="#CH" tls:created="2020-02-10T01:51:21.354+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: maximum literary effect</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c0c09f87-4f14-41ce-ad7f-e9be9434f304">
             <form corresp="#uuid-6577ecc0-6f53-441f-8fb2-cf630cdb1d9d">
 <orth>章</orth>
@@ -567,5 +597,20 @@
   <def>meritorious feature, merit</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2b4ff84e-c10d-4f00-8ff8-4ec10d8f0095"><form><orth>功</orth><pron xml:lang="zh-Latn-x-pinyin">gōng</pron></form><def/><sense xml:id="uuid-1029d029-6733-48cd-a9d0-29673348cd4d" resp="#CH" tls:created="2020-05-06T03:41:00.109+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>recognition of merit regarding N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2b4ff84e-c10d-4f00-8ff8-4ec10d8f0095">
+            <form>
+                <orth>功</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-1029d029-6733-48cd-a9d0-29673348cd4d" resp="#CH" tls:created="2020-05-06T03:41:00.109+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>recognition of merit regarding N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

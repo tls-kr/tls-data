@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0ed75f4a-1c5b-4a1d-a1de-f7f2df031053">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0ed75f4a-1c5b-4a1d-a1de-f7f2df031053">
 <head>INTERACT</head>
     <list type="altnames">
 <item>COMMUNICATE</item>
@@ -214,7 +215,23 @@
                 </gramGrp>
   <def>cause (weapons, armies etc) to interact (and fight)</def>
             </sense>
-<sense xml:id="uuid-8d7c2e3c-f571-4360-bc2e-3cf571536023" resp="#zadrapa" tls:created="2020-06-16T19:23:22.256+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>the way one interacts with others, one's interactions</def></sense><sense xml:id="uuid-7b84916c-e0a5-4fe3-8491-6ce0a5afe32f" resp="#CH" tls:created="2021-07-15T03:56:51.655+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fdd5163c-d5ad-4402-9516-3cd5ad540225">nab(.post-N1:)(post-N2)</tls:syn-func><tls:sem-feat corresp="#uuid-661c0b8a-849d-4639-9c0b-8a849d663991">N1 and N2 nonreferential</tls:sem-feat></gramGrp><def>interaction of N1 vis-a-vis N2</def></sense></entry>
+<sense xml:id="uuid-8d7c2e3c-f571-4360-bc2e-3cf571536023" resp="#zadrapa" tls:created="2020-06-16T19:23:22.256+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>the way one interacts with others, one's interactions</def>
+            </sense>
+            <sense xml:id="uuid-7b84916c-e0a5-4fe3-8491-6ce0a5afe32f" resp="#CH" tls:created="2021-07-15T03:56:51.655+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fdd5163c-d5ad-4402-9516-3cd5ad540225">nab(.post-N1:)(post-N2)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-661c0b8a-849d-4639-9c0b-8a849d663991">N1 and N2 nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>interaction of N1 vis-a-vis N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c321c919-e265-48aa-a98c-41a963415cf1">
             <form corresp="#uuid-70ce7202-7ce6-42dc-96d0-d0d53cb1c28a">
 <orth>抱</orth>
@@ -316,7 +333,14 @@
                 </gramGrp>
   <def>interact with 與物接</def>
             </sense>
-<sense xml:id="uuid-7d899eea-6113-410d-856c-7b363482293c" resp="#CH" tls:created="2019-12-16T21:47:33.274+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>interact with the contextually determinate other party</def></sense></entry>
+<sense xml:id="uuid-7d899eea-6113-410d-856c-7b363482293c" resp="#CH" tls:created="2019-12-16T21:47:33.274+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>interact with the contextually determinate other party</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-99663ebd-f013-4d22-9783-c5f61cb9b8df">
             <form corresp="#uuid-2dfde87a-4a70-4d51-9605-6288987f9346">
 <orth>搆</orth>
@@ -355,12 +379,29 @@
                 </gramGrp>
   <def>get involved with N</def>
             </sense>
-<sense xml:id="uuid-a5ce229c-f0f3-4281-8e22-9cf0f332812d" resp="#CH" tls:created="2020-12-18T00:21:15.129+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func></gramGrp><def>intermix and interact</def></sense></entry>
+<sense xml:id="uuid-a5ce229c-f0f3-4281-8e22-9cf0f332812d" resp="#CH" tls:created="2020-12-18T00:21:15.129+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                </gramGrp>
+                <def>intermix and interact</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-47bcb5ba-c009-481d-8205-c75a7a8f5bfc">
-            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c"><orth>相</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ</pron></form>
+            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c">
+                <orth>相</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ</pron>
+            </form>
             <def>Xiāng 相 and the rare hù 互 are grammaticalised words referring to reciprocity.
 </def>
-            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c"><orth>相</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ</pron></form>
+            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c">
+                <orth>相</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ</pron>
+            </form>
             <def>Xiāng 相 and the rare hù 互 are grammaticalised words referring to reciprocity.
 </def>
 <sense xml:id="uuid-a3e27cb3-2518-4d26-bac0-2f0b5e7290aa">
@@ -395,7 +436,21 @@
                 </gramGrp>
   <def>be dealt with, be handled</def>
             </sense>
-<sense xml:id="uuid-2830f15b-e991-4370-8f6b-ea730761e93c" resp="#CH" tls:created="2019-11-17T00:54:15.826+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>be concerned with and interact with</def></sense><sense xml:id="uuid-32720d37-779f-4a35-999f-2178321caaa6" resp="#CH" tls:created="2019-12-23T22:41:17.261+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func></gramGrp><def>when interacting with the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-2830f15b-e991-4370-8f6b-ea730761e93c" resp="#CH" tls:created="2019-11-17T00:54:15.826+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>be concerned with and interact with</def>
+            </sense>
+            <sense xml:id="uuid-32720d37-779f-4a35-999f-2178321caaa6" resp="#CH" tls:created="2019-12-23T22:41:17.261+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func>
+                </gramGrp>
+                <def>when interacting with the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5c48a2be-85e1-4684-8d27-22d509f33d1d">
             <form corresp="#uuid-5ca520d8-5cf9-408d-ac4e-7fbda3c80435">
 <orth>豫</orth>
@@ -567,7 +622,14 @@
                 </gramGrp>
   <def>have social intercourse with (one another); go back and forth between (places)</def>
             </sense>
-<sense xml:id="uuid-d202698f-6327-4ab8-9a08-c35a13ea8d93" resp="#CH" tls:created="2019-10-14T19:19:52.368+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func></gramGrp><def>social interaction.</def></sense></entry>
+<sense xml:id="uuid-d202698f-6327-4ab8-9a08-c35a13ea8d93" resp="#CH" tls:created="2019-10-14T19:19:52.368+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                </gramGrp>
+                <def>social interaction.</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1bac4560-f92f-4de2-92be-66344d4b9a53">
             <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-4c74aa74-6e7e-42a0-9900-df8b330e95cc">
 <orth>相干</orth>
@@ -629,5 +691,36 @@
   <def>interact, have relations with 與之通</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-e58847e3-ed08-4368-b789-fb94c361ddb8" resp="#CH" tls:created="2019-12-17T22:34:14.673+09:00"><form corresp="#uuid-615512f8-f4ed-431c-9654-f46092460386"><orth>遇</orth><pron xml:lang="zh-Latn-x-pinyin">yù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋos</pron></form><sense xml:id="uuid-eb17fd6b-7772-4040-b4fb-8ee30dddab34" resp="#CH" tls:created="2019-12-17T22:34:14.673+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>interact with others N</def></sense></entry><entry type="word" xml:id="uuid-9b13f488-24db-41e6-93f4-8824db61e6a4" resp="#CH" tls:created="2024-02-13T19:26:34.589+09:00"><form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50"><orth>為</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal</pron></form><sense xml:id="uuid-c720bae8-0110-4063-a0ba-e8011010635f" resp="#CH" tls:created="2024-02-13T19:26:34.589+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>interaction</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-e58847e3-ed08-4368-b789-fb94c361ddb8" resp="#CH" tls:created="2019-12-17T22:34:14.673+09:00">
+            <form corresp="#uuid-615512f8-f4ed-431c-9654-f46092460386">
+                <orth>遇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋos</pron>
+            </form>
+            <sense xml:id="uuid-eb17fd6b-7772-4040-b4fb-8ee30dddab34" resp="#CH" tls:created="2019-12-17T22:34:14.673+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>interact with others N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9b13f488-24db-41e6-93f4-8824db61e6a4" resp="#CH" tls:created="2024-02-13T19:26:34.589+09:00">
+            <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
+                <orth>為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-c720bae8-0110-4063-a0ba-e8011010635f" resp="#CH" tls:created="2024-02-13T19:26:34.589+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>interaction</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-40a298a2-0ea4-4660-a410-a1f7029383b3">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-40a298a2-0ea4-4660-a410-a1f7029383b3">
 <head>DON'T</head>
     <list type="altnames">
 <item>SHOULD NOT</item>
@@ -80,7 +81,15 @@
                 </gramGrp>
   <def>don't 勿易之 "do not take this lightly"</def>
             </sense>
-<sense xml:id="uuid-7327a187-f0b6-4ad1-a7a1-87f0b68ad171" resp="#dsehnal" tls:created="2023-06-17T17:38:32.105+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7d732a54-12bb-4740-a8d9-ffe87d437805">vt{NEG}.+VtoN</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>do not</def></sense></entry>
+<sense xml:id="uuid-7327a187-f0b6-4ad1-a7a1-87f0b68ad171" resp="#dsehnal" tls:created="2023-06-17T17:38:32.105+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7d732a54-12bb-4740-a8d9-ffe87d437805">vt{NEG}.+VtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>do not</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e0be3c81-9d2d-493f-929a-ec8cbac3005a">
             <form corresp="#uuid-56be8bf4-5f36-4e61-b33c-d6d9249ca440">
 <orth>毋</orth>
@@ -131,7 +140,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-11-28T07:34:30.927+09:00">should never; don't verb any object </def>
             </sense>
-<sense xml:id="uuid-22052cde-90fe-4d22-852c-de90fe6d22cd" resp="#CH" tls:created="2024-03-16T00:12:08.125+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>one should never</def></sense></entry>
+<sense xml:id="uuid-22052cde-90fe-4d22-852c-de90fe6d22cd" resp="#CH" tls:created="2024-03-16T00:12:08.125+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>one should never</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4e132cbe-aadd-4e0e-a3bd-a77e6af3a247">
             <form corresp="#uuid-c274697f-12db-40b6-b2d5-11c779a53e87">
 <orth>莫</orth>
@@ -222,5 +238,35 @@
   <def>should not</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b0eb186c-b1e1-47ad-b699-7bb0feb72506" resp="#CH" tls:created="2020-01-06T21:14:32.481+09:00"><form corresp="#uuid-6556964e-355c-4f58-93fa-31077a01ad93"><orth>止</orth><pron xml:lang="zh-Latn-x-pinyin">zhǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯʔ</pron></form><sense xml:id="uuid-0c70b4e7-30df-4a24-bc05-a27ff69915f9" resp="#CH" tls:created="2020-01-06T21:14:32.481+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oV(0).)[postN{SUBJECT}</tls:syn-func></gramGrp><def>do not do the contextually determinate thing</def></sense></entry><entry type="word" xml:id="uuid-3e1cf297-b8d1-44be-ba2c-038b535f7922" resp="#CH" tls:created="2020-01-11T00:47:25.824+09:00"><form corresp="#uuid-56be8bf4-5f36-4e61-b33c-d6d9249ca440 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c"><orth>毋以</orth><pron xml:lang="zh-Latn-x-pinyin">wú yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju yiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma k-lɯʔ</pron></form><sense xml:id="uuid-9dfd902f-9dcf-4ec0-9ebc-490ef4855c25" resp="#CH" tls:created="2020-01-11T00:47:25.824+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPtoV(0)</tls:syn-func></gramGrp><def>you should by no means V</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b0eb186c-b1e1-47ad-b699-7bb0feb72506" resp="#CH" tls:created="2020-01-06T21:14:32.481+09:00">
+            <form corresp="#uuid-6556964e-355c-4f58-93fa-31077a01ad93">
+                <orth>止</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-0c70b4e7-30df-4a24-bc05-a27ff69915f9" resp="#CH" tls:created="2020-01-06T21:14:32.481+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oV(0).)[postN{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>do not do the contextually determinate thing</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3e1cf297-b8d1-44be-ba2c-038b535f7922" resp="#CH" tls:created="2020-01-11T00:47:25.824+09:00">
+            <form corresp="#uuid-56be8bf4-5f36-4e61-b33c-d6d9249ca440 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+                <orth>毋以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju yiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma k-lɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-9dfd902f-9dcf-4ec0-9ebc-490ef4855c25" resp="#CH" tls:created="2020-01-11T00:47:25.824+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPtoV(0)</tls:syn-func>
+                </gramGrp>
+                <def>you should by no means V</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c64a831b-0166-4379-81b8-a56ed5ff4d64">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c64a831b-0166-4379-81b8-a56ed5ff4d64">
 <head>JEALOUS</head>
     <list type="altnames">
 <item>ENVIOUS</item>
@@ -285,7 +286,14 @@
                 </gramGrp>
   <def>envy</def>
             </sense>
-<sense xml:id="uuid-9722db5a-2178-41b6-a2db-5a217861b628" resp="#dsehnal" tls:created="2021-05-06T02:58:19.306+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>be jealous of somebody</def></sense></entry>
+<sense xml:id="uuid-9722db5a-2178-41b6-a2db-5a217861b628" resp="#dsehnal" tls:created="2021-05-06T02:58:19.306+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>be jealous of somebody</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7c476e74-b690-4192-8aeb-cdc2e1bad81e">
             <form corresp="#uuid-0d2fb332-1935-4902-b0d1-7a969e63c4b2 #uuid-209a8896-4dc6-40a0-947f-7ad0e93704f1">
 <orth>妒媢</orth>
@@ -377,5 +385,35 @@
   <def>be jealous of (achievements etc)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8f19cabc-a06b-4b28-99ca-bca06bdb2851" resp="#CH" tls:created="2020-04-02T18:14:13.947+09:00"><form corresp="#uuid-69ad88e8-310e-4abe-a5c8-9afc2486d3b0"><orth>妬</orth><pron xml:lang="zh-Latn-x-pinyin">dù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-dfae5916-3946-4ecc-ae59-1639463ecc5d" resp="#CH" tls:created="2020-04-02T18:14:13.947+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>=妒 be "jealous" of</def></sense><sense xml:id="uuid-2639614d-a517-4f3f-b961-4da5170f3f14" resp="#zadrapa" tls:created="2021-01-21T21:31:44.089+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>(= du4 妒) be jealous of</def></sense><sense xml:id="uuid-1774defd-9673-40f6-b4de-fd9673b0f626" resp="#dsehnal" tls:created="2024-04-22T19:53:29.606+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>behave jealously</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-8f19cabc-a06b-4b28-99ca-bca06bdb2851" resp="#CH" tls:created="2020-04-02T18:14:13.947+09:00">
+            <form corresp="#uuid-69ad88e8-310e-4abe-a5c8-9afc2486d3b0">
+                <orth>妬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-dfae5916-3946-4ecc-ae59-1639463ecc5d" resp="#CH" tls:created="2020-04-02T18:14:13.947+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>=妒 be "jealous" of</def>
+            </sense>
+            <sense xml:id="uuid-2639614d-a517-4f3f-b961-4da5170f3f14" resp="#zadrapa" tls:created="2021-01-21T21:31:44.089+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>(= du4 妒) be jealous of</def>
+            </sense>
+            <sense xml:id="uuid-1774defd-9673-40f6-b4de-fd9673b0f626" resp="#dsehnal" tls:created="2024-04-22T19:53:29.606+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>behave jealously</def>
+            </sense>
+        </entry>
+    </div>
 </div>

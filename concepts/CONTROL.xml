@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dfc9d96d-84c1-4c62-a62d-02d46f969149">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dfc9d96d-84c1-4c62-a62d-02d46f969149">
 <head>CONTROL</head>
     <list type="altnames">
 <item>BE IN CHARGE OF</item>
@@ -329,7 +330,37 @@
                 </gramGrp>
   <def>control the contextually determinate N</def>
             </sense>
-<sense xml:id="uuid-aef9a182-87a2-407d-8f5a-125577544a47" resp="#CH" tls:created="2019-11-29T03:31:21.306+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func></gramGrp><def>controlled</def></sense><sense xml:id="uuid-ba1a6c35-8a82-480a-9a6c-358a82a80abe" resp="#CH" tls:created="2021-07-12T22:37:54.652+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>sort out and organise systematically</def></sense><sense xml:id="uuid-90a46b9e-4ac1-49de-a46b-9e4ac159def7" resp="#CH" tls:created="2022-09-07T21:32:21.599+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-10-15T00:48:49.067+09:00">執法之人"a people controlled by laws": be controlled by N</def></sense><sense xml:id="uuid-cd13cd7f-95ec-45e0-93cd-7f95ec05e098" resp="#dsehnal" tls:created="2023-05-13T15:22:53.914+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-3cd53bce-7d20-4a3f-b072-4c632fc1a5f3">metaphorical</tls:sem-feat></gramGrp><def>be in a key position with respect to N; have a decissive influence on N</def></sense></entry>
+<sense xml:id="uuid-aef9a182-87a2-407d-8f5a-125577544a47" resp="#CH" tls:created="2019-11-29T03:31:21.306+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                </gramGrp>
+                <def>controlled</def>
+            </sense>
+            <sense xml:id="uuid-ba1a6c35-8a82-480a-9a6c-358a82a80abe" resp="#CH" tls:created="2021-07-12T22:37:54.652+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>sort out and organise systematically</def>
+            </sense>
+            <sense xml:id="uuid-90a46b9e-4ac1-49de-a46b-9e4ac159def7" resp="#CH" tls:created="2022-09-07T21:32:21.599+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-10-15T00:48:49.067+09:00">執法之人"a people controlled by laws": be controlled by N</def>
+            </sense>
+            <sense xml:id="uuid-cd13cd7f-95ec-45e0-93cd-7f95ec05e098" resp="#dsehnal" tls:created="2023-05-13T15:22:53.914+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3cd53bce-7d20-4a3f-b072-4c632fc1a5f3">metaphorical</tls:sem-feat>
+                </gramGrp>
+                <def>be in a key position with respect to N; have a decissive influence on N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-42345df0-2079-40d0-a0c5-5697452d8088">
             <form corresp="#uuid-7a86e1ae-a78f-46f2-b3b0-f06e2afe864f">
 <orth>勝</orth>
@@ -422,7 +453,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2023-08-06T00:28:56.915+09:00">gain political control of; gain the confidence and thus control of </def>
             </sense>
 </entry>
@@ -571,7 +603,14 @@
                 </gramGrp>
   <def>take control over; take the post of</def>
             </sense>
-<sense xml:id="uuid-8c25fb40-1979-499d-a5fb-401979699d58" resp="#CH" tls:created="2020-06-28T17:41:03.88+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>be controlled</def></sense></entry>
+<sense xml:id="uuid-8c25fb40-1979-499d-a5fb-401979699d58" resp="#CH" tls:created="2020-06-28T17:41:03.88+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be controlled</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e3226dc3-6908-4a68-ac5f-1923e82356b6">
             <form corresp="#uuid-62efe20c-e4e1-4fac-b6b2-37396ae70220">
 <orth>接</orth>
@@ -659,7 +698,15 @@
                 </gramGrp>
   <def>be controlled</def>
             </sense>
-<sense xml:id="uuid-66a296b0-76a9-48a0-a296-b076a988a08f" resp="#CH" tls:created="2022-08-11T18:01:42.866+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>take exclusive control of</def></sense></entry>
+<sense xml:id="uuid-66a296b0-76a9-48a0-a296-b076a988a08f" resp="#CH" tls:created="2022-08-11T18:01:42.866+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>take exclusive control of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3b9e4848-95c3-4ac8-83ff-a39a40fac642">
             <form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102">
 <orth>敘</orth>
@@ -699,7 +746,31 @@
                 </gramGrp>
   <def>control (oneself) properly (difficult to distinguish from the corresponding item in CORRECT)</def>
             </sense>
-<sense xml:id="uuid-0a71b97e-ddac-4924-b1b9-7eddacf92428" resp="#CH" tls:created="2020-04-11T21:56:44.369+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>the proper sorting out of N</def></sense><sense xml:id="uuid-881dc87c-9f95-4a9e-9dc8-7c9f951a9e8c" resp="#CH" tls:created="2020-04-11T22:14:11.556+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be sorted out properly</def></sense><sense xml:id="uuid-0d880ee3-ca21-4eff-880e-e3ca21beff6b" resp="#zadrapa" tls:created="2020-06-25T04:12:23.109+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be controlled</def></sense></entry>
+<sense xml:id="uuid-0a71b97e-ddac-4924-b1b9-7eddacf92428" resp="#CH" tls:created="2020-04-11T21:56:44.369+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>the proper sorting out of N</def>
+            </sense>
+            <sense xml:id="uuid-881dc87c-9f95-4a9e-9dc8-7c9f951a9e8c" resp="#CH" tls:created="2020-04-11T22:14:11.556+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be sorted out properly</def>
+            </sense>
+            <sense xml:id="uuid-0d880ee3-ca21-4eff-880e-e3ca21beff6b" resp="#zadrapa" tls:created="2020-06-25T04:12:23.109+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be controlled</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5bad5338-d55f-4acf-be46-90c0c62e84e5">
             <form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81">
 <orth>治</orth>
@@ -794,7 +865,23 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-05-29T18:43:42.315+09:00">adjust appropriately; temperate properly</def>
             </sense>
-<sense xml:id="uuid-2e70c64d-bc6e-4561-a7c0-60d9631a77a8" resp="#CH" tls:created="2020-01-02T19:50:37.956+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be properly adjusted, be well balanced</def></sense><sense xml:id="uuid-3ba79156-8a07-4019-a791-568a07f01990" resp="#CH" tls:created="2023-06-15T03:58:30.574+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func><tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat></gramGrp><def>control and moderate appropriately</def></sense></entry>
+<sense xml:id="uuid-2e70c64d-bc6e-4561-a7c0-60d9631a77a8" resp="#CH" tls:created="2020-01-02T19:50:37.956+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be properly adjusted, be well balanced</def>
+            </sense>
+            <sense xml:id="uuid-3ba79156-8a07-4019-a791-568a07f01990" resp="#CH" tls:created="2023-06-15T03:58:30.574+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat>
+                </gramGrp>
+                <def>control and moderate appropriately</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c6670bd1-4df3-4e5d-b429-bdc6ea2f92bc">
             <form corresp="#uuid-2505e2ba-46ac-4f8a-acb2-855aaa26c1af">
 <orth>管</orth>
@@ -929,7 +1016,21 @@
                 </gramGrp>
   <def>control and restrain</def>
             </sense>
-<sense xml:id="uuid-f56f2fc1-b973-4a2f-af2f-c1b9733a2fb0" resp="#zadrapa" tls:created="2021-06-29T18:46:19.19+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be well adjusted</def></sense><sense xml:id="uuid-96a1bd4f-7287-4cc5-a1bd-4f72879cc5f8" resp="#CH" tls:created="2022-08-09T00:29:28.696+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>fine attunement, properly controlled adjustment</def></sense></entry>
+<sense xml:id="uuid-f56f2fc1-b973-4a2f-af2f-c1b9733a2fb0" resp="#zadrapa" tls:created="2021-06-29T18:46:19.19+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be well adjusted</def>
+            </sense>
+            <sense xml:id="uuid-96a1bd4f-7287-4cc5-a1bd-4f72879cc5f8" resp="#CH" tls:created="2022-08-09T00:29:28.696+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>fine attunement, properly controlled adjustment</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fb976111-4c49-43f6-8b58-ad2cc441abd0">
             <form corresp="#uuid-07daf384-2258-457d-b706-8d73a78633c6">
 <orth>跨</orth>
@@ -961,7 +1062,14 @@
                 </gramGrp>
   <def>control through careful discriminating analysis</def>
             </sense>
-<sense xml:id="uuid-6609223a-4163-4fe0-8922-3a41636fe017" resp="#zadrapa" tls:created="2020-06-10T19:52:50.865+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>deal with the contextually determinate N, successfully manage the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-6609223a-4163-4fe0-8922-3a41636fe017" resp="#zadrapa" tls:created="2020-06-10T19:52:50.865+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>deal with the contextually determinate N, successfully manage the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-12c95d40-181e-46b3-a718-5b887f02dfe5">
             <form corresp="#uuid-29e897e8-c3a2-4aa7-8ce9-980f32fad43c">
 <orth>辦</orth>
@@ -1134,12 +1242,248 @@
                 </gramGrp>
   <def>settle (unrest etc); pacify</def>
             </sense>
-<sense xml:id="uuid-6b12faf1-edda-4e15-92fa-f1edda6e15f3" resp="#Valerie.Kiel" tls:created="2022-09-10T21:56:10.508+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>to be controlled</def></sense></entry>
-    <entry type="word" xml:id="uuid-6cbe1c45-a7b9-4586-a992-0194fdc648ef" resp="#dsehnal" tls:created="2019-12-17T20:06:12.034+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734"><orth>自禁</orth><pron xml:lang="zh-Latn-x-pinyin">zì jìn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH kimH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids krɯms</pron></form><sense xml:id="uuid-1eb77d29-3052-41e9-8077-30bc315f5706" resp="#dsehnal" tls:created="2019-12-17T20:06:12.034+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>self-control; limiting oneself; self-restriction </def></sense></entry><entry type="word" xml:id="uuid-98e7c130-f759-4b0f-b880-85b9b15e132a" resp="#CH" tls:created="2020-02-07T19:39:19.999+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-d00b7386-a3d7-495d-bc21-5f0aebc927f6" resp="#CH" tls:created="2020-02-07T19:39:19.999+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat></gramGrp><def>be in control over, organise</def></sense></entry><entry type="word" xml:id="uuid-21b36088-9e7b-4e97-b068-a7d83032281e" resp="#CH" tls:created="2020-02-07T19:39:27.664+09:00"><form corresp="#uuid-c8a6cacd-e4c4-406b-b5d1-4a9d8c3099bd"><orth>司</orth><pron xml:lang="zh-Latn-x-pinyin">sī
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">si
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯ
-</pron></form><sense xml:id="uuid-aebe27da-6c8a-4393-8d4a-9a9f6c5e2b3e" resp="#CH" tls:created="2020-02-07T19:39:27.664+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat></gramGrp><def>be in control over, organise</def></sense></entry><entry type="word" xml:id="uuid-4c64ddd3-5b81-4879-a4dd-d35b8118798e"><form corresp="#uuid-14c5c4fc-c45f-4979-93a4-f9399b864db9"><orth>監</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaem</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraam</pron></form><def/><sense xml:id="uuid-8e3e4fb5-1ac1-45dd-be4f-b51ac1b5dd87" resp="#CH" tls:created="2020-03-11T18:32:45.054+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>read jiān: supervise and control</def></sense></entry><entry type="word" xml:id="uuid-07a4b54b-100d-420f-a4b5-4b100d420f4f"><form><orth>控</orth><pron xml:lang="zh-Latn-x-pinyin">kòng</pron></form><def/><sense xml:id="uuid-a2eb7dc0-7a4c-4ba6-ab7d-c07a4c5ba61c" resp="#CH" tls:created="2020-04-07T20:44:30.062+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-04-07T20:47:42.09+09:00">control intellectually</def></sense></entry><entry type="word" xml:id="uuid-24265927-c77a-411b-a659-27c77ac11b7c" resp="#zadrapa" tls:created="2020-06-23T05:06:18.93+09:00"><form corresp="#uuid-86631c4b-498a-46ec-bd19-cda5ed6d7e7c #uuid-77f5b492-c569-44f3-9683-88b38fa50920"><orth>注錯</orth><pron xml:lang="zh-Latn-x-pinyin">zhù
- cuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuH
- tshak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjos
- skhaaɡ</pron></form><sense xml:id="uuid-e0cef9c1-9935-4776-8ef9-c19935f776c0" resp="#zadrapa" tls:created="2020-06-23T05:06:18.93+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2020-06-23T05:09:39.746+09:00">DELETE manage, handle</def></sense><sense xml:id="uuid-d84ceb54-f594-4f15-8ceb-54f5948f156e" resp="#zadrapa" tls:created="2020-06-23T05:10:08.772+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>handle N, deal with N</def></sense><sense xml:id="uuid-d7df576d-a62f-4366-9f57-6da62ff366f2" resp="#zadrapa" tls:created="2020-06-23T05:12:40.611+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>management, one's dealing with things</def></sense></entry><entry type="word" xml:id="uuid-3a6f4f7c-b6d9-4695-af4f-7cb6d9c695be"><form><orth>禦</orth><pron xml:lang="zh-Latn-x-pinyin">yù</pron></form><def/><sense xml:id="uuid-d3389841-393a-4d32-b898-41393afd32ab" resp="#zadrapa" tls:created="2020-06-29T22:00:13.379+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>to fend off N and have it under control</def></sense></entry><entry type="word" xml:id="uuid-7d7c6906-3b5d-483e-bc69-063b5d283e6f" resp="#zadrapa" tls:created="2021-01-15T20:02:17.742+09:00"><form corresp="#uuid-61ed285e-db8f-4d8f-bbd7-39369834cb81"><orth>財</orth><pron xml:lang="zh-Latn-x-pinyin">cái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzoj</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯ</pron></form><sense xml:id="uuid-233ecc02-23bd-40c8-becc-0223bd60c8a0" resp="#zadrapa" tls:created="2021-01-15T20:02:17.742+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2021-01-15T20:02:45.884+09:00">(= cái 裁) control effectively to one's profit</def></sense></entry><entry type="word" xml:id="uuid-0b41fff5-7b5c-4d84-81ff-f57b5c7d8450" resp="#CH" tls:created="2022-08-21T22:53:22.479+09:00"><form corresp="#uuid-881075f1-bdc8-4a6e-8495-23a6ba5fcdd0"><orth>統</orth><pron xml:lang="zh-Latn-x-pinyin">tǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thowngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thuuŋs</pron></form><sense xml:id="uuid-125848bb-e4df-4908-9848-bbe4df39081a" resp="#CH" tls:created="2022-08-21T22:53:22.479+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>general control</def></sense></entry><entry type="word" xml:id="uuid-a12dd67a-296e-489e-add6-7a296e989e1a" resp="#CH" tls:created="2022-08-21T22:57:38.87+09:00"><form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81 #uuid-fe1297a5-6928-493e-8978-f1244d90a5ed"><orth>治服</orth><pron xml:lang="zh-Latn-x-pinyin">chí fú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dri bjuwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯ bɯɡ</pron></form><sense xml:id="uuid-0cb1c752-e898-45fb-b1c7-52e89875fb9d" resp="#CH" tls:created="2022-08-21T22:57:38.87+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>get under systematic control, reduce to submission</def></sense></entry><entry type="word" xml:id="uuid-6fb7ba0d-ef8c-4c54-b7ba-0def8c9c545f" resp="#CH" tls:created="2022-08-21T23:01:22.606+09:00"><form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81 #uuid-26c74f74-1562-4818-aa9e-35ce86cc027b"><orth>治制</orth><pron xml:lang="zh-Latn-x-pinyin">chí zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dri tsyejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯ kjeds</pron></form><sense xml:id="uuid-69f6e20e-1255-4126-b6e2-0e12553126f0" resp="#CH" tls:created="2022-08-21T23:01:22.606+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>bring under systematic control</def></sense></entry><entry type="word" xml:id="uuid-a65c859a-531d-43a5-9c85-9a531d43a549" resp="#CH" tls:created="2022-08-26T20:38:15.734+09:00"><form corresp="#uuid-5adc6558-ea8e-4ee3-a118-875d17fb56b7"><orth>勒</orth><pron xml:lang="zh-Latn-x-pinyin">lè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯɯɡ</pron></form><sense xml:id="uuid-7ebbfbd3-9ee0-4065-bbfb-d39ee0606586" resp="#CH" tls:created="2022-08-26T20:38:15.734+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>get under control</def></sense></entry><entry type="word" xml:id="uuid-79fefab0-ce5a-433b-befa-b0ce5a233bd1" resp="#CH" tls:created="2022-08-26T20:38:16.653+09:00"><form corresp="#uuid-5adc6558-ea8e-4ee3-a118-875d17fb56b7"><orth>勒</orth><pron xml:lang="zh-Latn-x-pinyin">lè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯɯɡ</pron></form><sense xml:id="uuid-1f4d17fa-e7c4-453a-8d17-fae7c4053a38" resp="#CH" tls:created="2022-08-26T20:38:16.653+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>get under control</def></sense></entry><entry type="word" xml:id="uuid-5724f205-2dde-428c-a4f2-052dde028c99" resp="#CH" tls:created="2023-02-08T18:47:13.068+09:00"><form corresp="#uuid-f3025343-46bf-4708-92da-22acc34154dc #uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c"><orth>制於</orth><pron xml:lang="zh-Latn-x-pinyin">zhì yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyejH 'jo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- qa</pron></form><sense xml:id="uuid-92075e7a-4315-4d25-875e-7a4315ed25c2" resp="#CH" tls:created="2023-02-08T18:47:13.068+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-09ad7864-29f1-412b-bd46-2c2354035898">VPt N</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be controlled by; get controlled by</def></sense></entry></div>
+<sense xml:id="uuid-6b12faf1-edda-4e15-92fa-f1edda6e15f3" resp="#Valerie.Kiel" tls:created="2022-09-10T21:56:10.508+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>to be controlled</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-6cbe1c45-a7b9-4586-a992-0194fdc648ef" resp="#dsehnal" tls:created="2019-12-17T20:06:12.034+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734">
+                <orth>自禁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì jìn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH kimH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids krɯms</pron>
+            </form>
+            <sense xml:id="uuid-1eb77d29-3052-41e9-8077-30bc315f5706" resp="#dsehnal" tls:created="2019-12-17T20:06:12.034+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>self-control; limiting oneself; self-restriction </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98e7c130-f759-4b0f-b880-85b9b15e132a" resp="#CH" tls:created="2020-02-07T19:39:19.999+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-d00b7386-a3d7-495d-bc21-5f0aebc927f6" resp="#CH" tls:created="2020-02-07T19:39:19.999+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>be in control over, organise</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-21b36088-9e7b-4e97-b068-a7d83032281e" resp="#CH" tls:created="2020-02-07T19:39:27.664+09:00">
+            <form corresp="#uuid-c8a6cacd-e4c4-406b-b5d1-4a9d8c3099bd">
+                <orth>司</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sī
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">si
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯ
+</pron>
+            </form>
+            <sense xml:id="uuid-aebe27da-6c8a-4393-8d4a-9a9f6c5e2b3e" resp="#CH" tls:created="2020-02-07T19:39:27.664+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>be in control over, organise</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4c64ddd3-5b81-4879-a4dd-d35b8118798e">
+            <form corresp="#uuid-14c5c4fc-c45f-4979-93a4-f9399b864db9">
+                <orth>監</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaem</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraam</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-8e3e4fb5-1ac1-45dd-be4f-b51ac1b5dd87" resp="#CH" tls:created="2020-03-11T18:32:45.054+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>read jiān: supervise and control</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-07a4b54b-100d-420f-a4b5-4b100d420f4f">
+            <form>
+                <orth>控</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kòng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-a2eb7dc0-7a4c-4ba6-ab7d-c07a4c5ba61c" resp="#CH" tls:created="2020-04-07T20:44:30.062+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-07T20:47:42.09+09:00">control intellectually</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-24265927-c77a-411b-a659-27c77ac11b7c" resp="#zadrapa" tls:created="2020-06-23T05:06:18.93+09:00">
+            <form corresp="#uuid-86631c4b-498a-46ec-bd19-cda5ed6d7e7c #uuid-77f5b492-c569-44f3-9683-88b38fa50920">
+                <orth>注錯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhù
+ cuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuH
+ tshak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjos
+ skhaaɡ</pron>
+            </form>
+            <sense xml:id="uuid-e0cef9c1-9935-4776-8ef9-c19935f776c0" resp="#zadrapa" tls:created="2020-06-23T05:06:18.93+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-06-23T05:09:39.746+09:00">DELETE manage, handle</def>
+            </sense>
+            <sense xml:id="uuid-d84ceb54-f594-4f15-8ceb-54f5948f156e" resp="#zadrapa" tls:created="2020-06-23T05:10:08.772+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>handle N, deal with N</def>
+            </sense>
+            <sense xml:id="uuid-d7df576d-a62f-4366-9f57-6da62ff366f2" resp="#zadrapa" tls:created="2020-06-23T05:12:40.611+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>management, one's dealing with things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3a6f4f7c-b6d9-4695-af4f-7cb6d9c695be">
+            <form>
+                <orth>禦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yù</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-d3389841-393a-4d32-b898-41393afd32ab" resp="#zadrapa" tls:created="2020-06-29T22:00:13.379+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>to fend off N and have it under control</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7d7c6906-3b5d-483e-bc69-063b5d283e6f" resp="#zadrapa" tls:created="2021-01-15T20:02:17.742+09:00">
+            <form corresp="#uuid-61ed285e-db8f-4d8f-bbd7-39369834cb81">
+                <orth>財</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzoj</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯ</pron>
+            </form>
+            <sense xml:id="uuid-233ecc02-23bd-40c8-becc-0223bd60c8a0" resp="#zadrapa" tls:created="2021-01-15T20:02:17.742+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-01-15T20:02:45.884+09:00">(= cái 裁) control effectively to one's profit</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0b41fff5-7b5c-4d84-81ff-f57b5c7d8450" resp="#CH" tls:created="2022-08-21T22:53:22.479+09:00">
+            <form corresp="#uuid-881075f1-bdc8-4a6e-8495-23a6ba5fcdd0">
+                <orth>統</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thowngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thuuŋs</pron>
+            </form>
+            <sense xml:id="uuid-125848bb-e4df-4908-9848-bbe4df39081a" resp="#CH" tls:created="2022-08-21T22:53:22.479+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>general control</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a12dd67a-296e-489e-add6-7a296e989e1a" resp="#CH" tls:created="2022-08-21T22:57:38.87+09:00">
+            <form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81 #uuid-fe1297a5-6928-493e-8978-f1244d90a5ed">
+                <orth>治服</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chí fú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dri bjuwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯ bɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-0cb1c752-e898-45fb-b1c7-52e89875fb9d" resp="#CH" tls:created="2022-08-21T22:57:38.87+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>get under systematic control, reduce to submission</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6fb7ba0d-ef8c-4c54-b7ba-0def8c9c545f" resp="#CH" tls:created="2022-08-21T23:01:22.606+09:00">
+            <form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81 #uuid-26c74f74-1562-4818-aa9e-35ce86cc027b">
+                <orth>治制</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chí zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dri tsyejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯ kjeds</pron>
+            </form>
+            <sense xml:id="uuid-69f6e20e-1255-4126-b6e2-0e12553126f0" resp="#CH" tls:created="2022-08-21T23:01:22.606+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>bring under systematic control</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a65c859a-531d-43a5-9c85-9a531d43a549" resp="#CH" tls:created="2022-08-26T20:38:15.734+09:00">
+            <form corresp="#uuid-5adc6558-ea8e-4ee3-a118-875d17fb56b7">
+                <orth>勒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-7ebbfbd3-9ee0-4065-bbfb-d39ee0606586" resp="#CH" tls:created="2022-08-26T20:38:15.734+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>get under control</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-79fefab0-ce5a-433b-befa-b0ce5a233bd1" resp="#CH" tls:created="2022-08-26T20:38:16.653+09:00">
+            <form corresp="#uuid-5adc6558-ea8e-4ee3-a118-875d17fb56b7">
+                <orth>勒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-1f4d17fa-e7c4-453a-8d17-fae7c4053a38" resp="#CH" tls:created="2022-08-26T20:38:16.653+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>get under control</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5724f205-2dde-428c-a4f2-052dde028c99" resp="#CH" tls:created="2023-02-08T18:47:13.068+09:00">
+            <form corresp="#uuid-f3025343-46bf-4708-92da-22acc34154dc #uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
+                <orth>制於</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyejH 'jo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- qa</pron>
+            </form>
+            <sense xml:id="uuid-92075e7a-4315-4d25-875e-7a4315ed25c2" resp="#CH" tls:created="2023-02-08T18:47:13.068+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-09ad7864-29f1-412b-bd46-2c2354035898">VPt N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be controlled by; get controlled by</def>
+            </sense>
+        </entry>
+    </div>
 </div>

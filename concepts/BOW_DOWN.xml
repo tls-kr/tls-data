@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6ad20ed2-43fd-499d-a5e2-f028d389d5a0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6ad20ed2-43fd-499d-a5e2-f028d389d5a0">
 <head>BOW DOWN</head>
     <list type="altnames">
 <item>INCLINE THE BODY</item>
@@ -169,7 +170,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
   <def>bowing down&gt; on the one hand 俯。。。仰</def>
             </sense>
 <sense xml:id="uuid-c786d083-ad2e-43a1-b722-32bb66111d7c">
@@ -189,7 +191,14 @@
                 </gramGrp>
   <def>lower, bow down (one's head)</def>
             </sense>
-<sense xml:id="uuid-5f3c6a34-0f86-4f93-bc6a-340f868f9366" resp="#CH" tls:created="2022-08-02T21:02:26.85+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>bowing down (i.e. without reaching upwards)</def></sense></entry>
+<sense xml:id="uuid-5f3c6a34-0f86-4f93-bc6a-340f868f9366" resp="#CH" tls:created="2022-08-02T21:02:26.85+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>bowing down (i.e. without reaching upwards)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-efa84a97-1b41-4b33-ab18-1067cd5c671b">
             <form corresp="#uuid-14dc8d74-8437-4844-911d-52b2773f4913">
 <orth>俯</orth>
@@ -303,7 +312,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-137d3058-a852-47e1-a27d-d6040efc5a2b">
-            <form corresp="#uuid-31357efb-6332-48f7-b57e-fb6332a8f782"><orth>共</orth><pron xml:lang="zh-Latn-x-pinyin">gǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-31357efb-6332-48f7-b57e-fb6332a8f782">
+                <orth>共</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Gǒng 拱 refers to the foldingof one's hands in front of one's chest or, as in the chuí gǒng 垂拱 variety in front of one's stomach, typically as a sign of dignified and polite inactivity.
 </def>
             <form corresp="#uuid-9d86a8d1-b69d-436e-be08-bce0842f224a">
@@ -678,7 +692,14 @@
                 </gramGrp>
   <def>make a polite double bow addressed to (note that this could be parsed as "bowed to him twice", and this is quite probably the correct analysis.)</def>
             </sense>
-<sense xml:id="uuid-1b92b2bc-324b-4f32-92b2-bc324bdf3258" resp="#CH" tls:created="2020-05-12T20:57:31.911+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>bow twice in the direction of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-1b92b2bc-324b-4f32-92b2-bc324bdf3258" resp="#CH" tls:created="2020-05-12T20:57:31.911+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>bow twice in the direction of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-400ce402-0b91-4d90-8bcc-52034b9883d4">
             <form corresp="#uuid-b7bcc929-3396-40a5-8d48-5e1749f2a6c7 #uuid-f3a7becd-d1c5-4e18-af46-49432d47d6a3">
 <orth>叉首</orth>
@@ -720,7 +741,14 @@
                 </gramGrp>
   <def>bow one's head to the ground</def>
             </sense>
-<sense xml:id="uuid-9ae74e3f-3121-4b96-a74e-3f3121eb966c" resp="#dsehnal" tls:created="2023-05-09T01:12:28.381+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2e88a9ac-cef2-41b0-86c1-da9f0492540c">VPt+.VtoS</tls:syn-func></gramGrp><def>bow down and say</def></sense></entry>
+<sense xml:id="uuid-9ae74e3f-3121-4b96-a74e-3f3121eb966c" resp="#dsehnal" tls:created="2023-05-09T01:12:28.381+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2e88a9ac-cef2-41b0-86c1-da9f0492540c">VPt+.VtoS</tls:syn-func>
+                </gramGrp>
+                <def>bow down and say</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db9700bf-7afb-4914-bc60-d13e80b7e6fd">
             <form corresp="#uuid-bdcddb1b-63fa-48ec-bb88-1a9eaaa62d01 #uuid-7414b720-76ed-4b61-82fd-edfae23318d5">
 <orth>拜嘉</orth>
@@ -870,7 +898,21 @@
                 </gramGrp>
   <def>knock one's forehead on the ground and lift it again.</def>
             </sense>
-<sense xml:id="uuid-b016dafe-0640-400b-96da-fe0640a00b29" resp="#CH" tls:created="2020-04-27T22:28:51.647+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func></gramGrp><def>bow one's head politely to touch N</def></sense><sense xml:id="uuid-a848d8a3-0e83-4c86-88d8-a30e832c863b" resp="#CH" tls:created="2020-05-29T18:15:55.588+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>knocking one's head on the floor</def></sense></entry>
+<sense xml:id="uuid-b016dafe-0640-400b-96da-fe0640a00b29" resp="#CH" tls:created="2020-04-27T22:28:51.647+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>bow one's head politely to touch N</def>
+            </sense>
+            <sense xml:id="uuid-a848d8a3-0e83-4c86-88d8-a30e832c863b" resp="#CH" tls:created="2020-05-29T18:15:55.588+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>knocking one's head on the floor</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5781467-c722-4f7d-bf9b-64f3dfc0f9e8">
             <form corresp="#uuid-5590ad14-e0fb-4edc-996b-f5b7b83e7d5c">
 <orth>絕</orth>

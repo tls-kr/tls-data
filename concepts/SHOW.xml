@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-929119f9-2b7c-4c30-8587-9b0f5acb4567">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-929119f9-2b7c-4c30-8587-9b0f5acb4567">
 <head>SHOW</head>
     <list type="altnames">
 <item>DISPLAY</item>
@@ -235,7 +236,15 @@
                 </gramGrp>
   <def>to appear at (a place N)</def>
             </sense>
-<sense xml:id="uuid-1ad735d0-47a1-4c0f-9735-d047a1ac0fec" resp="#zadrapa" tls:created="2020-06-03T21:29:06.547+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>to appear in the place N, to become explicit in N</def></sense></entry>
+<sense xml:id="uuid-1ad735d0-47a1-4c0f-9735-d047a1ac0fec" resp="#zadrapa" tls:created="2020-06-03T21:29:06.547+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>to appear in the place N, to become explicit in N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-34946ddc-8eb1-470f-b4b0-da6ed73ecf59">
             <form corresp="#uuid-d16ef1bd-2b19-4394-aad1-17d1923edfc0">
 <orth>列</orth>
@@ -458,7 +467,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-02-09T21:44:41.813+09:00">point to, lead on to, show up</def>
             </sense>
-<sense xml:id="uuid-fead1e9d-a641-4be2-ad1e-9da641dbe23e" resp="#zadrapa" tls:created="2020-05-31T05:00:11.011+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>point one's finger at various people</def></sense></entry>
+<sense xml:id="uuid-fead1e9d-a641-4be2-ad1e-9da641dbe23e" resp="#zadrapa" tls:created="2020-05-31T05:00:11.011+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>point one's finger at various people</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5e3bb0f-1bca-447e-9483-bfb1a5750e8f">
             <form corresp="#uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9">
 <orth>揚</orth>
@@ -491,14 +507,22 @@
                 </gramGrp>
   <def>display things in the place N2</def>
             </sense>
-<sense xml:id="uuid-f4da7262-6b84-48d1-9dd1-8cc7070169d4" resp="#CH" tls:created="2019-11-06T22:06:57.391+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>show off by wearing</def></sense><sense xml:id="uuid-bbd8da6d-d1dc-48cc-94f6-fb448c0dab03">
+<sense xml:id="uuid-f4da7262-6b84-48d1-9dd1-8cc7070169d4" resp="#CH" tls:created="2019-11-06T22:06:57.391+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>show off by wearing</def>
+            </sense>
+            <sense xml:id="uuid-bbd8da6d-d1dc-48cc-94f6-fb448c0dab03">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
   <tls:sem-feat corresp="#uuid-3b6521d2-666b-4e75-a521-d2666bfe7591">figurative, passive</tls:sem-feat>
                 </gramGrp>
   <def>raise at</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d0688585-2529-49af-af05-d90c6f1127d3">
             <form corresp="#uuid-2f1dee22-3b59-4569-b435-4b8cc6c0550d">
 <orth>效</orth>
@@ -623,7 +647,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-49cbd82e-dc23-42ce-8612-5d4add71b510">
-            <form corresp="#uuid-ab35254b-d03c-47e9-b525-4bd03c77e9e8"><orth>暴</orth><pron xml:lang="zh-Latn-x-pinyin">bào/pù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-ab35254b-d03c-47e9-b525-4bd03c77e9e8">
+                <orth>暴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bào/pù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Pù 暴 is to make accessible to view what is covered and therefore inaccessible to inspection.
 </def>
 <sense xml:id="uuid-66c83a88-5c06-4ce5-8f4f-ade5036cf85f">
@@ -917,7 +946,21 @@
                 </gramGrp>
   <def>display (the feature N)</def>
             </sense>
-<sense xml:id="uuid-3047a877-4b15-4425-87a8-774b15e4255b" resp="#zadrapa" tls:created="2020-06-25T22:30:07.618+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-38af5c3d-bd3a-4e62-af5c-3dbd3a1e621a">vtt[oN1.]+N2</tls:syn-func></gramGrp><def>show things to N2</def></sense><sense xml:id="uuid-3cd26040-07fc-4b23-9260-4007fc5b2334" resp="#zadrapa" tls:created="2021-01-24T04:56:18.527+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>show something N1 to someone N2</def></sense></entry>
+<sense xml:id="uuid-3047a877-4b15-4425-87a8-774b15e4255b" resp="#zadrapa" tls:created="2020-06-25T22:30:07.618+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-38af5c3d-bd3a-4e62-af5c-3dbd3a1e621a">vtt[oN1.]+N2</tls:syn-func>
+                </gramGrp>
+                <def>show things to N2</def>
+            </sense>
+            <sense xml:id="uuid-3cd26040-07fc-4b23-9260-4007fc5b2334" resp="#zadrapa" tls:created="2021-01-24T04:56:18.527+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>show something N1 to someone N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ecc96185-b0bc-4504-99da-94fe948cbfc4">
             <form corresp="#uuid-03d9b60a-ce02-40ba-b84c-881d47296ee0">
 <orth>茀</orth>
@@ -934,7 +977,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-d9e77cb9-a4fc-41e3-93f0-528950d48715">
-            <form corresp="#uuid-b19b6f0b-96b6-4db7-9b6f-0b96b61db7c1"><orth>荴</orth><pron xml:lang="zh-Latn-x-pinyin">fū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-b19b6f0b-96b6-4db7-9b6f-0b96b61db7c1">
+                <orth>荴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>fū
 </def>
 <sense xml:id="uuid-c06490e9-5102-4a03-b856-5af9afcab216">
@@ -966,7 +1014,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-0a665d66-2d0b-4d8a-a65d-662d0b2d8af8">reflexive.其</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-0a665d66-2d0b-4d8a-a65d-662d0b2d8af8">reflexive.其</tls:sem-feat>
+                </gramGrp>
   <def>ZZ 33.1337: make manifest (oneself); celebrate publicly</def>
             </sense>
 <sense xml:id="uuid-71bcd74c-074c-402d-9277-9dec8a086f3d">
@@ -984,7 +1033,29 @@
                 </gramGrp>
   <def>make manifest, publicise (something N2) for (somebody N1)</def>
             </sense>
-<sense xml:id="uuid-68360326-7713-450f-a50d-20eaa726cc49" resp="#CH" tls:created="2019-12-02T22:54:57.35+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be on show</def></sense><sense xml:id="uuid-1c00201e-57a9-4a02-82bf-d88ee06c2372" resp="#CH" tls:created="2019-12-17T22:46:14.668+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>display the contextually determinate N</def></sense><sense xml:id="uuid-20011cb2-e56d-4b8a-811c-b2e56dbb8a1b" resp="#CH" tls:created="2021-07-11T23:52:40.881+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>make a display of; bring to everyone's attention</def></sense></entry>
+<sense xml:id="uuid-68360326-7713-450f-a50d-20eaa726cc49" resp="#CH" tls:created="2019-12-02T22:54:57.35+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be on show</def>
+            </sense>
+            <sense xml:id="uuid-1c00201e-57a9-4a02-82bf-d88ee06c2372" resp="#CH" tls:created="2019-12-17T22:46:14.668+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>display the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-20011cb2-e56d-4b8a-811c-b2e56dbb8a1b" resp="#CH" tls:created="2021-07-11T23:52:40.881+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>make a display of; bring to everyone's attention</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bad1a5d3-5af1-48ab-9728-e6865ecc5e96">
             <form corresp="#uuid-1aeb49d0-fd8d-4867-aef4-1642326024ba">
 <orth>蠲</orth>
@@ -1109,7 +1180,14 @@
                 </gramGrp>
   <def>show</def>
             </sense>
-<sense xml:id="uuid-07edc636-d273-4fc2-adc6-36d2732fc26d" resp="#zadrapa" tls:created="2020-12-16T05:54:18.081+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cbb92823-4092-4552-8cbd-4883113a5422">vttoN1+.vtoN2</tls:syn-func></gramGrp><def>show N2 to N1 (觀人以言)</def></sense></entry>
+<sense xml:id="uuid-07edc636-d273-4fc2-adc6-36d2732fc26d" resp="#zadrapa" tls:created="2020-12-16T05:54:18.081+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cbb92823-4092-4552-8cbd-4883113a5422">vttoN1+.vtoN2</tls:syn-func>
+                </gramGrp>
+                <def>show N2 to N1 (觀人以言)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0913ef9-1929-49a0-bd93-6eefa0417274">
             <form corresp="#uuid-ade59e07-68ff-4f50-9a96-585699d3822d">
 <orth>赤</orth>
@@ -1350,7 +1428,30 @@
                 </gramGrp>
   <def>show off N1 to N2, make a show of N1 for N2</def>
             </sense>
-<sense xml:id="uuid-6dc48ba8-d200-42c9-b58e-e70f1655524d" resp="#CH" tls:created="2019-12-05T23:08:26.861+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>get shown</def></sense><sense xml:id="uuid-33bed724-0386-4df1-98f1-dd3125eaed3f" resp="#CH" tls:created="2019-12-25T08:27:16.162+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be made visible/famous to N</def></sense><sense xml:id="uuid-b6557a63-dedd-4b1d-afc6-3929504b9613" resp="#CH" tls:created="2019-12-29T07:20:42.147+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func></gramGrp><def>cause to be illustrious</def></sense></entry>
+<sense xml:id="uuid-6dc48ba8-d200-42c9-b58e-e70f1655524d" resp="#CH" tls:created="2019-12-05T23:08:26.861+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>get shown</def>
+            </sense>
+            <sense xml:id="uuid-33bed724-0386-4df1-98f1-dd3125eaed3f" resp="#CH" tls:created="2019-12-25T08:27:16.162+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be made visible/famous to N</def>
+            </sense>
+            <sense xml:id="uuid-b6557a63-dedd-4b1d-afc6-3929504b9613" resp="#CH" tls:created="2019-12-29T07:20:42.147+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
+                </gramGrp>
+                <def>cause to be illustrious</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2e6697a2-db07-40ae-bfa3-831bd045991f">
             <form corresp="#uuid-fcbe752b-d825-4569-8e6d-daa0ec4a285d">
 <orth>黥</orth>
@@ -1560,5 +1661,139 @@
   <def>indicate with one's eyes what one is thinking; show one's contextually determinate attitude by one's regard</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9dfa15a5-6ac7-4495-bd2a-427b5be2a9b9" resp="#CH" tls:created="2020-02-07T19:32:26.078+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0114f589-d198-4759-891a-67f25f1c771c" resp="#CH" tls:created="2020-02-07T19:32:26.078+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>show</def></sense></entry><entry type="word" xml:id="uuid-00cbd610-e4de-4547-ab61-e59980eb4d2a" resp="#CH" tls:created="2020-02-07T19:32:55.991+09:00"><form corresp="#uuid-3bdd7a5a-c3e2-487a-828c-246527ba9b3b"><orth>程</orth><pron xml:lang="zh-Latn-x-pinyin">chéng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drjeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">deŋ</pron></form><sense xml:id="uuid-1e9e0e3d-aa01-4c26-bd47-33d0c714d343" resp="#CH" tls:created="2020-02-07T19:32:55.991+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>show</def></sense></entry><entry type="word" xml:id="uuid-00d9dd58-9d7b-455b-99dd-589d7b755b44" resp="#zadrapa" tls:created="2020-06-10T19:42:17.718+09:00"><form corresp="#uuid-b43f8885-3d69-4c46-878f-da284c28a387"><orth>竭</orth><pron xml:lang="zh-Latn-x-pinyin">jié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrad</pron></form><sense xml:id="uuid-baf5e954-8929-4383-b5e9-548929f383e4" resp="#zadrapa" tls:created="2020-06-10T19:42:17.718+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>= jie1 揭: to reveal N</def></sense><sense xml:id="uuid-d7739e0a-be37-4ef4-b39e-0abe379ef4e2" resp="#zadrapa" tls:created="2022-05-13T21:54:23.263+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>reveal what one thinks and/or feels</def></sense></entry><entry type="word" xml:id="uuid-e97701b0-0a32-4836-b701-b00a324836e0"><form><orth>含</orth><pron xml:lang="zh-Latn-x-pinyin">hán</pron></form><def/><sense xml:id="uuid-e032b724-525c-4862-b2b7-24525c186213" resp="#CH" tls:created="2020-12-16T04:49:12.264+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>shown up discreetly, disclosed subtly</def></sense></entry><entry type="word" xml:id="uuid-1d91ec06-b05c-4e5e-91ec-06b05c6e5e3d" resp="#zadrapa" tls:created="2021-01-18T01:34:58.451+09:00"><form corresp="#uuid-bed2b99f-ad58-481f-ac4f-207161a87183"><orth>箸</orth><pron xml:lang="zh-Latn-x-pinyin">zhù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trjoH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-las</pron></form><sense xml:id="uuid-cc79df05-6445-420d-b9df-056445c20d61" resp="#zadrapa" tls:created="2021-01-18T01:34:58.451+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>(= zhu4 著) be manifested, be on display</def></sense><sense xml:id="uuid-be487efe-5994-4f4f-887e-fe59945f4f90" resp="#zadrapa" tls:created="2021-01-19T21:06:46.484+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>make visible, manifest</def></sense></entry><entry type="word" xml:id="uuid-54913082-575d-4b94-9130-82575d2b9428" resp="#CH" tls:created="2022-05-30T00:48:43.091+09:00"><form corresp="#uuid-ea27363b-f315-43e7-a39e-a781fed6ad25"><orth>布</orth><pron xml:lang="zh-Latn-x-pinyin">bù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">puH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paas</pron></form><sense xml:id="uuid-39e27cc1-bf87-499f-a27c-c1bf87d99fef" resp="#CH" tls:created="2022-05-30T00:48:43.091+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-561c8f42-aba9-426f-8172-1a261f73b453">vttoN1. N2{PLACE}</tls:syn-func></gramGrp><def>show N1 in N2</def></sense></entry><entry type="word" xml:id="uuid-8ff0d001-e225-4429-b0d0-01e225e4296c" resp="#CH" tls:created="2022-05-30T01:02:35.434+09:00"><form corresp="#uuid-8fe07b77-77b5-4fe7-9c1d-963a93283234 #uuid-b9db69ad-2ea4-4aa4-a109-ff2f1c5ca0d7"><orth>延示</orth><pron xml:lang="zh-Latn-x-pinyin">yán shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yen zyijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lan ɢljils</pron></form><sense xml:id="uuid-be418cfb-0fb2-49d0-818c-fb0fb2a9d0fd" resp="#CH" tls:created="2022-05-30T01:02:35.434+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-bd68c541-ce51-4e6a-81bf-5f8357489350">VPt(oN1.) N2</tls:syn-func></gramGrp><def>Invite N2 to see the contextually determinate N1</def></sense></entry><entry type="word" xml:id="uuid-a54f40ae-7602-477a-8f40-ae7602877af4" resp="#dsehnal" tls:created="2024-06-21T21:43:33.305+09:00"><form corresp="#uuid-9e459a61-ab2a-4156-b00f-4f87c4eff8d6 #uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102"><orth>暢敘</orth><pron xml:lang="zh-Latn-x-pinyin">chàng xù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trhjangH zjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khrlaŋs ljaʔ</pron></form><sense xml:id="uuid-6b3880de-46b4-43b2-b880-de46b4c3b28c" resp="#dsehnal" tls:created="2024-06-21T21:43:33.305+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>display</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9dfa15a5-6ac7-4495-bd2a-427b5be2a9b9" resp="#CH" tls:created="2020-02-07T19:32:26.078+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0114f589-d198-4759-891a-67f25f1c771c" resp="#CH" tls:created="2020-02-07T19:32:26.078+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>show</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-00cbd610-e4de-4547-ab61-e59980eb4d2a" resp="#CH" tls:created="2020-02-07T19:32:55.991+09:00">
+            <form corresp="#uuid-3bdd7a5a-c3e2-487a-828c-246527ba9b3b">
+                <orth>程</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chéng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drjeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">deŋ</pron>
+            </form>
+            <sense xml:id="uuid-1e9e0e3d-aa01-4c26-bd47-33d0c714d343" resp="#CH" tls:created="2020-02-07T19:32:55.991+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>show</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-00d9dd58-9d7b-455b-99dd-589d7b755b44" resp="#zadrapa" tls:created="2020-06-10T19:42:17.718+09:00">
+            <form corresp="#uuid-b43f8885-3d69-4c46-878f-da284c28a387">
+                <orth>竭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrad</pron>
+            </form>
+            <sense xml:id="uuid-baf5e954-8929-4383-b5e9-548929f383e4" resp="#zadrapa" tls:created="2020-06-10T19:42:17.718+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>= jie1 揭: to reveal N</def>
+            </sense>
+            <sense xml:id="uuid-d7739e0a-be37-4ef4-b39e-0abe379ef4e2" resp="#zadrapa" tls:created="2022-05-13T21:54:23.263+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>reveal what one thinks and/or feels</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e97701b0-0a32-4836-b701-b00a324836e0">
+            <form>
+                <orth>含</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hán</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-e032b724-525c-4862-b2b7-24525c186213" resp="#CH" tls:created="2020-12-16T04:49:12.264+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>shown up discreetly, disclosed subtly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1d91ec06-b05c-4e5e-91ec-06b05c6e5e3d" resp="#zadrapa" tls:created="2021-01-18T01:34:58.451+09:00">
+            <form corresp="#uuid-bed2b99f-ad58-481f-ac4f-207161a87183">
+                <orth>箸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trjoH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-las</pron>
+            </form>
+            <sense xml:id="uuid-cc79df05-6445-420d-b9df-056445c20d61" resp="#zadrapa" tls:created="2021-01-18T01:34:58.451+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>(= zhu4 著) be manifested, be on display</def>
+            </sense>
+            <sense xml:id="uuid-be487efe-5994-4f4f-887e-fe59945f4f90" resp="#zadrapa" tls:created="2021-01-19T21:06:46.484+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>make visible, manifest</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-54913082-575d-4b94-9130-82575d2b9428" resp="#CH" tls:created="2022-05-30T00:48:43.091+09:00">
+            <form corresp="#uuid-ea27363b-f315-43e7-a39e-a781fed6ad25">
+                <orth>布</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">puH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paas</pron>
+            </form>
+            <sense xml:id="uuid-39e27cc1-bf87-499f-a27c-c1bf87d99fef" resp="#CH" tls:created="2022-05-30T00:48:43.091+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-561c8f42-aba9-426f-8172-1a261f73b453">vttoN1. N2{PLACE}</tls:syn-func>
+                </gramGrp>
+                <def>show N1 in N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8ff0d001-e225-4429-b0d0-01e225e4296c" resp="#CH" tls:created="2022-05-30T01:02:35.434+09:00">
+            <form corresp="#uuid-8fe07b77-77b5-4fe7-9c1d-963a93283234 #uuid-b9db69ad-2ea4-4aa4-a109-ff2f1c5ca0d7">
+                <orth>延示</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yán shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yen zyijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lan ɢljils</pron>
+            </form>
+            <sense xml:id="uuid-be418cfb-0fb2-49d0-818c-fb0fb2a9d0fd" resp="#CH" tls:created="2022-05-30T01:02:35.434+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-bd68c541-ce51-4e6a-81bf-5f8357489350">VPt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>Invite N2 to see the contextually determinate N1</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a54f40ae-7602-477a-8f40-ae7602877af4" resp="#dsehnal" tls:created="2024-06-21T21:43:33.305+09:00">
+            <form corresp="#uuid-9e459a61-ab2a-4156-b00f-4f87c4eff8d6 #uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102">
+                <orth>暢敘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chàng xù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trhjangH zjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khrlaŋs ljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-6b3880de-46b4-43b2-b880-de46b4c3b28c" resp="#dsehnal" tls:created="2024-06-21T21:43:33.305+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>display</def>
+            </sense>
+        </entry>
+    </div>
 </div>

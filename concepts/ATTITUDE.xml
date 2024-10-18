@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4d8242a6-9753-4ee4-994b-a3b01b8173c4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4d8242a6-9753-4ee4-994b-a3b01b8173c4">
 <head>ATTITUDE</head>
     <list type="altnames">
 <item>VIEW</item>
@@ -133,7 +134,30 @@
                 </gramGrp>
   <def>attitude of N</def>
             </sense>
-<sense xml:id="uuid-fd5ed270-9804-493a-8e34-81ad05dd18b1" resp="#CH" tls:created="2019-12-12T07:34:42.399+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab[post-Npro]</tls:syn-func><tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat></gramGrp><def>own attitude</def></sense><sense xml:id="uuid-45378ddf-5798-4f14-a173-864d962e6562" resp="#CH" tls:created="2019-12-13T23:39:41.11+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-06T04:24:19.568+09:00">the attitude of the contextually determinate N</def></sense><sense xml:id="uuid-c8a743ad-d64e-4eba-a743-add64e9ebac8" resp="#zadrapa" tls:created="2021-01-19T00:28:58.461+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func></gramGrp><def>attitude leading to V-ing</def></sense></entry>
+<sense xml:id="uuid-fd5ed270-9804-493a-8e34-81ad05dd18b1" resp="#CH" tls:created="2019-12-12T07:34:42.399+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab[post-Npro]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat>
+                </gramGrp>
+                <def>own attitude</def>
+            </sense>
+            <sense xml:id="uuid-45378ddf-5798-4f14-a173-864d962e6562" resp="#CH" tls:created="2019-12-13T23:39:41.11+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-06T04:24:19.568+09:00">the attitude of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-c8a743ad-d64e-4eba-a743-add64e9ebac8" resp="#zadrapa" tls:created="2021-01-19T00:28:58.461+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func>
+                </gramGrp>
+                <def>attitude leading to V-ing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dab543e7-4dfd-4868-b137-192697b934ab">
             <form corresp="#uuid-26f3ba42-57ea-4730-9592-f82e076ffa50">
 <orth>態</orth>
@@ -255,8 +279,70 @@
   <def>attitude of mind, mood, frame of mind, way of thinking</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f59565ab-cdef-47dd-9565-abcdef57ddba" resp="#zadrapa" tls:created="2020-06-01T17:15:18.015+09:00"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-8a9907df-7760-4d14-859c-159d12628480"><orth>大心</orth><pron xml:lang="zh-Latn-x-pinyin">dà dài xīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dajH sim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads slɯm</pron></form><sense xml:id="uuid-6e8560d1-25ad-452a-8560-d125ad852a24" resp="#zadrapa" tls:created="2020-06-01T17:15:18.015+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>tend to think of things in bold terms, tend to far-reaching intentions</def></sense></entry><entry type="word" xml:id="uuid-43c1193b-1521-42d7-8119-3b152182d7af" resp="#zadrapa" tls:created="2020-06-01T17:16:40.566+09:00"><form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-8a9907df-7760-4d14-859c-159d12628480"><orth>小心</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎo
- xīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX
- sim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ
- slɯm</pron></form><sense xml:id="uuid-53f7200a-432c-4571-b720-0a432c75714f" resp="#zadrapa" tls:created="2020-06-01T17:16:40.566+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>tend to think of things in modest, almost timid terms</def></sense></entry><entry type="word" xml:id="uuid-be85cd1e-586b-48b3-85cd-1e586b48b3e7" resp="#CH" tls:created="2023-08-19T17:06:52.999+09:00"><form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-8a9907df-7760-4d14-859c-159d12628480"><orth>天心</orth><pron xml:lang="zh-Latn-x-pinyin">tiān xīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">then sim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰiin slɯm</pron></form><sense xml:id="uuid-5f4e2094-bd1c-43f7-8e20-94bd1ce3f719" resp="#CH" tls:created="2023-08-19T17:06:52.999+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>the mindset/spirit of (personalised) Heaven</def></sense></entry><entry type="word" xml:id="uuid-a181798c-dd67-46c9-8179-8cdd67b6c907" resp="#CH" tls:created="2023-08-20T16:37:33.341+09:00"><form corresp="#uuid-13793ffa-2522-4ed6-836b-a0ad993225b1 #uuid-86e4a807-6fa6-4cba-82e7-b424cdf004e7"><orth>民意</orth><pron xml:lang="zh-Latn-x-pinyin">mín yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjin 'iH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">min qɯɡs</pron></form><sense xml:id="uuid-85bca64b-c075-4dc6-bca6-4bc0752dc6fa" resp="#CH" tls:created="2023-08-20T16:37:33.341+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>attitudes of the people; ideas of the people.</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f59565ab-cdef-47dd-9565-abcdef57ddba" resp="#zadrapa" tls:created="2020-06-01T17:15:18.015+09:00">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-8a9907df-7760-4d14-859c-159d12628480">
+                <orth>大心</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà dài xīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dajH sim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads slɯm</pron>
+            </form>
+            <sense xml:id="uuid-6e8560d1-25ad-452a-8560-d125ad852a24" resp="#zadrapa" tls:created="2020-06-01T17:15:18.015+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>tend to think of things in bold terms, tend to far-reaching intentions</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-43c1193b-1521-42d7-8119-3b152182d7af" resp="#zadrapa" tls:created="2020-06-01T17:16:40.566+09:00">
+            <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-8a9907df-7760-4d14-859c-159d12628480">
+                <orth>小心</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎo
+ xīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX
+ sim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ
+ slɯm</pron>
+            </form>
+            <sense xml:id="uuid-53f7200a-432c-4571-b720-0a432c75714f" resp="#zadrapa" tls:created="2020-06-01T17:16:40.566+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>tend to think of things in modest, almost timid terms</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-be85cd1e-586b-48b3-85cd-1e586b48b3e7" resp="#CH" tls:created="2023-08-19T17:06:52.999+09:00">
+            <form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-8a9907df-7760-4d14-859c-159d12628480">
+                <orth>天心</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiān xīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">then sim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰiin slɯm</pron>
+            </form>
+            <sense xml:id="uuid-5f4e2094-bd1c-43f7-8e20-94bd1ce3f719" resp="#CH" tls:created="2023-08-19T17:06:52.999+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>the mindset/spirit of (personalised) Heaven</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a181798c-dd67-46c9-8179-8cdd67b6c907" resp="#CH" tls:created="2023-08-20T16:37:33.341+09:00">
+            <form corresp="#uuid-13793ffa-2522-4ed6-836b-a0ad993225b1 #uuid-86e4a807-6fa6-4cba-82e7-b424cdf004e7">
+                <orth>民意</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mín yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjin 'iH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">min qɯɡs</pron>
+            </form>
+            <sense xml:id="uuid-85bca64b-c075-4dc6-bca6-4bc0752dc6fa" resp="#CH" tls:created="2023-08-20T16:37:33.341+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>attitudes of the people; ideas of the people.</def>
+            </sense>
+        </entry>
+    </div>
 </div>

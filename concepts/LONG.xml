@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a3eb58df-8b60-4a0c-a8d1-4453c9f56f5e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a3eb58df-8b60-4a0c-a8d1-4453c9f56f5e">
 <head>LONG</head>
     <list type="altnames">
 <item>EXTENDED</item>
@@ -99,7 +100,14 @@
                 </gramGrp>
   <def>be long (and large/big); ZGC: (of persons) be (so and so many feet) tall</def>
             </sense>
-<sense xml:id="uuid-ddb09b7d-e2f0-45ff-b09b-7de2f025ff04" resp="#dsehnal" tls:created="2024-06-17T02:32:02.773+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>long (bamboo etc.)</def></sense></entry>
+<sense xml:id="uuid-ddb09b7d-e2f0-45ff-b09b-7de2f025ff04" resp="#dsehnal" tls:created="2024-06-17T02:32:02.773+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>long (bamboo etc.)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5bebc5a0-a44e-4523-a896-72889a938bad">
             <form corresp="#uuid-fbeec4bd-b31a-4bcf-bc7d-96831511ac87">
 <orth>張</orth>
@@ -149,7 +157,15 @@
                 </gramGrp>
   <def>CHEMLA 2003: length in the east-west direction</def>
             </sense>
-<sense xml:id="uuid-04f4cbe3-1c59-4746-b4cb-e31c593746b8" resp="#Valerie.Kiel" tls:created="2022-10-25T02:18:06.195+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat></gramGrp><def>the length (of a contextually determinate N)</def></sense></entry>
+<sense xml:id="uuid-04f4cbe3-1c59-4746-b4cb-e31c593746b8" resp="#Valerie.Kiel" tls:created="2022-10-25T02:18:06.195+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b110bae1-02d5-4c66-ad13-7c04b3ee3ad9">mathematical term</tls:sem-feat>
+                </gramGrp>
+                <def>the length (of a contextually determinate N)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0e635c1-3066-4969-b830-e66164dd0b71">
             <form corresp="#uuid-8c637efb-8f20-4306-a73a-eb8b9125a84d">
 <orth>曼</orth>
@@ -360,7 +376,23 @@
                 </gramGrp>
   <def>cause to be longer&gt; extend</def>
             </sense>
-<sense xml:id="uuid-29697bca-9835-4b4f-a97b-ca9835eb4ffc" resp="#zadrapa" tls:created="2020-12-05T07:07:06.269+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func><tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat></gramGrp><def>be long to the extent of, be as long as</def></sense><sense xml:id="uuid-2201382d-7186-415a-8138-2d7186415a2b" resp="#zadrapa" tls:created="2020-12-05T22:47:12.792+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func><tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp><def>have N longer than normal</def></sense></entry>
+<sense xml:id="uuid-29697bca-9835-4b4f-a97b-ca9835eb4ffc" resp="#zadrapa" tls:created="2020-12-05T07:07:06.269+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
+                </gramGrp>
+                <def>be long to the extent of, be as long as</def>
+            </sense>
+            <sense xml:id="uuid-2201382d-7186-415a-8138-2d7186415a2b" resp="#zadrapa" tls:created="2020-12-05T22:47:12.792+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+                <def>have N longer than normal</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dc79107d-0ebd-467d-baf2-579a62cf39f1">
             <form corresp="#uuid-a864b05f-aad3-4683-acd2-402a2550a8a5 #uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec">
 <orth>短長</orth>
@@ -420,5 +452,83 @@
   <def>length</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d2cedbf3-be12-4f2b-8edb-f3be129f2b64" resp="#CH" tls:created="2020-02-12T20:54:17.954+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-58cde4db-a431-4366-8de4-dba431d36680" resp="#CH" tls:created="2020-02-12T20:54:17.954+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>profuseness or brevity&gt; relative stylistic elaboration</def></sense></entry><entry type="word" xml:id="uuid-31fedc18-bc39-4b69-bedc-18bc39fb692e" resp="#CH" tls:created="2020-02-12T20:54:32.521+09:00"><form corresp="#uuid-da88d1bf-f98f-4329-a16a-20d52dc29d83 #uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2"><orth>豐約</orth><pron xml:lang="zh-Latn-x-pinyin">fēng yuē</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjuwng 'jak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phuŋ qplewɡ</pron></form><sense xml:id="uuid-8ff18699-ff79-4013-b186-99ff795013b8" resp="#CH" tls:created="2020-02-12T20:54:32.521+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>profuseness or brevity&gt; relative stylistic elaboration</def></sense></entry><entry type="word" xml:id="uuid-4b9450b6-e0f2-4af1-9450-b6e0f20af1df" resp="#CH" tls:created="2021-03-27T22:22:25.056+09:00"><form corresp="#uuid-90b714f7-877f-482e-9f11-a2bf53dc7fbf #uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285"><orth>尋常</orth><pron xml:lang="zh-Latn-x-pinyin">xún cháng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zim dzyang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljum djaŋ</pron></form><sense xml:id="uuid-79f08ff6-6ff1-47f2-b08f-f66ff107f2d8" resp="#CH" tls:created="2021-03-27T22:22:25.056+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>any significant distance in space</def></sense></entry><entry type="word" xml:id="uuid-99680b21-4e21-4854-a80b-214e21f85465" resp="#CH" tls:created="2022-08-17T04:23:00.975+09:00"><form corresp="#uuid-1d39951a-f360-4f78-9c1f-863bb2ad408c"><orth>距</orth><pron xml:lang="zh-Latn-x-pinyin">jù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaʔ</pron></form><sense xml:id="uuid-aedbdee3-24f3-466e-9bde-e324f3566e50" resp="#CH" tls:created="2022-08-17T04:23:00.975+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-23T18:52:15.055+09:00">= 巨 be large/long</def></sense></entry><entry type="word" xml:id="uuid-cea5036d-c2c0-4389-a503-6dc2c0e38973" resp="#CH" tls:created="2022-08-18T19:43:25.746+09:00"><form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-a864b05f-aad3-4683-acd2-402a2550a8a5"><orth>脩短</orth><pron xml:lang="zh-Latn-x-pinyin">xiū duǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw twanX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw toonʔ</pron></form><sense xml:id="uuid-996a1c9d-8844-4732-aa1c-9d8844c73206" resp="#CH" tls:created="2022-08-18T19:43:25.746+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>length</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d2cedbf3-be12-4f2b-8edb-f3be129f2b64" resp="#CH" tls:created="2020-02-12T20:54:17.954+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-58cde4db-a431-4366-8de4-dba431d36680" resp="#CH" tls:created="2020-02-12T20:54:17.954+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>profuseness or brevity&gt; relative stylistic elaboration</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-31fedc18-bc39-4b69-bedc-18bc39fb692e" resp="#CH" tls:created="2020-02-12T20:54:32.521+09:00">
+            <form corresp="#uuid-da88d1bf-f98f-4329-a16a-20d52dc29d83 #uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2">
+                <orth>豐約</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fēng yuē</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjuwng 'jak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phuŋ qplewɡ</pron>
+            </form>
+            <sense xml:id="uuid-8ff18699-ff79-4013-b186-99ff795013b8" resp="#CH" tls:created="2020-02-12T20:54:32.521+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>profuseness or brevity&gt; relative stylistic elaboration</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4b9450b6-e0f2-4af1-9450-b6e0f20af1df" resp="#CH" tls:created="2021-03-27T22:22:25.056+09:00">
+            <form corresp="#uuid-90b714f7-877f-482e-9f11-a2bf53dc7fbf #uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
+                <orth>尋常</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xún cháng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zim dzyang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljum djaŋ</pron>
+            </form>
+            <sense xml:id="uuid-79f08ff6-6ff1-47f2-b08f-f66ff107f2d8" resp="#CH" tls:created="2021-03-27T22:22:25.056+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>any significant distance in space</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-99680b21-4e21-4854-a80b-214e21f85465" resp="#CH" tls:created="2022-08-17T04:23:00.975+09:00">
+            <form corresp="#uuid-1d39951a-f360-4f78-9c1f-863bb2ad408c">
+                <orth>距</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaʔ</pron>
+            </form>
+            <sense xml:id="uuid-aedbdee3-24f3-466e-9bde-e324f3566e50" resp="#CH" tls:created="2022-08-17T04:23:00.975+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-23T18:52:15.055+09:00">= 巨 be large/long</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cea5036d-c2c0-4389-a503-6dc2c0e38973" resp="#CH" tls:created="2022-08-18T19:43:25.746+09:00">
+            <form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-a864b05f-aad3-4683-acd2-402a2550a8a5">
+                <orth>脩短</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiū duǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw twanX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw toonʔ</pron>
+            </form>
+            <sense xml:id="uuid-996a1c9d-8844-4732-aa1c-9d8844c73206" resp="#CH" tls:created="2022-08-18T19:43:25.746+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>length</def>
+            </sense>
+        </entry>
+    </div>
 </div>

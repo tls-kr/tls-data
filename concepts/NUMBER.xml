@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dd1c8de7-8201-4782-b6e3-960df290eae7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dd1c8de7-8201-4782-b6e3-960df290eae7">
 <head>NUMBER</head>
     <list type="translations">
         <item xml:lang="zh">數子</item>
@@ -235,7 +236,14 @@
                 </gramGrp>
   <def>hundred million</def>
             </sense>
-<sense xml:id="uuid-43d6a050-3889-4210-a6f0-e4a67eef89e4" resp="#CH" tls:created="2019-11-28T19:22:39.635+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>innumerable, infinitely many</def></sense></entry>
+<sense xml:id="uuid-43d6a050-3889-4210-a6f0-e4a67eef89e4" resp="#CH" tls:created="2019-11-28T19:22:39.635+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>innumerable, infinitely many</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1d571c10-b34b-42b0-b91d-07f959a84329">
             <form corresp="#uuid-6a230432-4297-459a-9283-b8764ea404fc">
 <orth>奇</orth>
@@ -322,7 +330,22 @@
                 </gramGrp>
   <def>a quantified amount (其數 "a quantified amoung of it")</def>
             </sense>
-<sense xml:id="uuid-5799fda5-f142-4bb1-99fd-a5f142dbb1f2" resp="#zadrapa" tls:created="2022-05-27T01:12:41.422+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>standard amount</def></sense><sense xml:id="uuid-bdafd58e-d155-4819-afd5-8ed155d819bf" resp="#CH" tls:created="2024-01-12T17:44:09.294+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#">concept</tls:sem-feat></gramGrp><def>the number one</def></sense></entry>
+<sense xml:id="uuid-5799fda5-f142-4bb1-99fd-a5f142dbb1f2" resp="#zadrapa" tls:created="2022-05-27T01:12:41.422+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>standard amount</def>
+            </sense>
+            <sense xml:id="uuid-bdafd58e-d155-4819-afd5-8ed155d819bf" resp="#CH" tls:created="2024-01-12T17:44:09.294+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#">concept</tls:sem-feat>
+                </gramGrp>
+                <def>the number one</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-49764134-c512-41d0-8083-86775bcf5930">
             <form corresp="#uuid-be44b001-cc63-4db3-932a-3db142c45cb4">
 <orth>母</orth>
@@ -392,7 +415,30 @@
                 </gramGrp>
   <def>the number 10 000</def>
             </sense>
-<sense xml:id="uuid-55a782c9-0f24-4ff9-b14b-d6d4795e2cd6" resp="#CH" tls:created="2019-12-17T03:22:13.16+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nadN{NUM}</tls:syn-func></gramGrp><def>N items out of ten thoudand 萬一　“one out of 10 000"</def></sense><sense xml:id="uuid-26962d7c-1d0a-4b98-962d-7c1d0acb98dc" resp="#dsehnal" tls:created="2020-05-15T16:08:44.311+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-1f5d076a-8155-4f4c-a259-fe727df96038">V=number</tls:sem-feat></gramGrp><def>ten thousand of items</def></sense><sense xml:id="uuid-249ed820-8dd9-4570-9ed8-208dd9457072" resp="#zadrapa" tls:created="2021-06-30T19:29:03.928+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat></gramGrp><def>ten thousand times, innumerably many times</def></sense></entry>
+<sense xml:id="uuid-55a782c9-0f24-4ff9-b14b-d6d4795e2cd6" resp="#CH" tls:created="2019-12-17T03:22:13.16+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nadN{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>N items out of ten thoudand 萬一　“one out of 10 000"</def>
+            </sense>
+            <sense xml:id="uuid-26962d7c-1d0a-4b98-962d-7c1d0acb98dc" resp="#dsehnal" tls:created="2020-05-15T16:08:44.311+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1f5d076a-8155-4f4c-a259-fe727df96038">V=number</tls:sem-feat>
+                </gramGrp>
+                <def>ten thousand of items</def>
+            </sense>
+            <sense xml:id="uuid-249ed820-8dd9-4570-9ed8-208dd9457072" resp="#zadrapa" tls:created="2021-06-30T19:29:03.928+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat>
+                </gramGrp>
+                <def>ten thousand times, innumerably many times</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-50a444f2-a4e4-44b6-a45f-50aeb2b81090">
             <form corresp="#uuid-ead8a9b7-b6ff-42fe-9f30-4b884f3477c8">
 <orth>秭</orth>
@@ -822,8 +868,140 @@
   <def>ten 兆，ten billion</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-4c7e4117-ca97-455d-be41-17ca97855d61" resp="#CH" tls:created="2020-05-12T02:38:33.463+09:00"><form corresp="#uuid-3e4689aa-315a-4693-a284-b9b367b68192 #uuid-c6efbf2b-14a9-4733-a694-d531b7fe8ccc"><orth>萬億</orth><pron xml:lang="zh-Latn-x-pinyin">wàn yì
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- 'ik
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mblans qɯɡ
-</pron></form><sense xml:id="uuid-5b17c5db-3b3c-4853-97c5-db3b3c4853bf" resp="#CH" tls:created="2020-05-12T02:38:33.463+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>billions, vast numbers of</def></sense></entry><entry type="word" xml:id="uuid-e02766dc-304b-4089-a766-dc304bb089d4" resp="#zadrapa" tls:created="2020-12-13T23:59:48.134+09:00"><form corresp="#uuid-c6efbf2b-14a9-4733-a694-d531b7fe8ccc #uuid-18561da4-fdae-4913-8b49-27d4cdfe921e"><orth>億萬</orth><pron xml:lang="zh-Latn-x-pinyin">yì wàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'ik --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɡ --</pron></form><sense xml:id="uuid-9c5c0dcc-4045-4e91-9c0d-cc4045ae9197" resp="#zadrapa" tls:created="2020-12-13T23:59:48.134+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>innumerably many things, myriads</def></sense><sense xml:id="uuid-57bee75e-66fc-4547-bee7-5e66fcb54756" resp="#zadrapa" tls:created="2021-06-15T19:36:49.013+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>innumerably many</def></sense></entry><entry type="word" xml:id="uuid-8cd1d941-f6b1-48ec-91d9-41f6b1b8ecaa" resp="#zadrapa" tls:created="2021-01-15T19:00:43.84+09:00"><form corresp="#uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-f103744f-eee5-4a48-aaa5-fec13347ad67"><orth>十二</orth><pron xml:lang="zh-Latn-x-pinyin">shí èr</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyip nyijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡjub njis</pron></form><sense xml:id="uuid-71145372-044e-4e37-9453-72044e2e37f3" resp="#zadrapa" tls:created="2021-01-15T19:00:43.84+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func><tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat></gramGrp><def>twelve</def></sense></entry><entry type="word" xml:id="uuid-37476a7e-f2e1-4adb-876a-7ef2e17adbba" resp="#zadrapa" tls:created="2021-01-21T21:02:35.605+09:00"><form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-51845144-3245-439c-9701-95c63f8e4500"><orth>三十五</orth><pron xml:lang="zh-Latn-x-pinyin">sān shí wǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sam dzyip nguX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam ɡjub ŋaaʔ</pron></form><sense xml:id="uuid-7cb8a7d9-9044-4dbb-b8a7-d990444dbb04" resp="#zadrapa" tls:created="2021-01-21T21:02:35.605+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func><tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat></gramGrp><def>thirty five</def></sense></entry><entry type="word" xml:id="uuid-293ab82b-fbc5-4218-bab8-2bfbc5d21820" resp="#zadrapa" tls:created="2021-01-21T23:38:16.113+09:00"><form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-dbea9a31-fe5b-47d5-bb8f-b1b4a41b6a19"><orth>三百</orth><pron xml:lang="zh-Latn-x-pinyin">sān bǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sam paek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam praaɡ</pron></form><sense xml:id="uuid-4b0d726b-d591-405c-8d72-6bd591a05cc3" resp="#zadrapa" tls:created="2021-01-21T23:38:16.113+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func><tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat></gramGrp><def>three hundred</def></sense></entry><entry type="word" xml:id="uuid-b51209a7-762b-4abb-9209-a7762bfabb38" resp="#zadrapa" tls:created="2021-05-11T22:55:47.781+09:00"><form corresp="#uuid-42ee7bce-5c75-4d09-be05-9e3e761eefe2 #uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2"><orth>七十一</orth><pron xml:lang="zh-Latn-x-pinyin">qī shí yī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshit dzyip 'jit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰid ɡjub qliɡ</pron></form><sense xml:id="uuid-026adfe2-d596-4dcd-aadf-e2d5960dcd5a" resp="#zadrapa" tls:created="2021-05-11T22:55:47.781+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-aeb8e7cf-63cd-4d02-ad98-e700c37a6445">v{NUM}adN</tls:syn-func><tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat></gramGrp><def>seventy one</def></sense></entry><entry type="word" xml:id="uuid-e4aa942d-6af5-4e35-aa94-2d6af59e3555" resp="#zadrapa" tls:created="2021-05-11T23:30:34.263+09:00"><form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3"><orth>五十三</orth><pron xml:lang="zh-Latn-x-pinyin">wǔ shí sān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nguX dzyip sam</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ ɡjub saam</pron></form><sense xml:id="uuid-287cf2df-e9a7-4678-bcf2-dfe9a7d67839" resp="#zadrapa" tls:created="2021-05-11T23:30:34.263+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-aeb8e7cf-63cd-4d02-ad98-e700c37a6445">v{NUM}adN</tls:syn-func><tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat></gramGrp><def>fifty three</def></sense></entry><entry type="word" xml:id="uuid-b9c9d05f-888b-4b93-89d0-5f888b6b938f" resp="#dsehnal" tls:created="2023-05-14T19:31:45.136+09:00"><form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-18561da4-fdae-4913-8b49-27d4cdfe921e"><orth>一萬</orth><pron xml:lang="zh-Latn-x-pinyin">yī wàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jit --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ --</pron></form><sense xml:id="uuid-b0806a9b-a4c8-4125-806a-9ba4c88125b2" resp="#dsehnal" tls:created="2023-05-14T19:31:45.136+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func></gramGrp><def>ten thousand of N items</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-4c7e4117-ca97-455d-be41-17ca97855d61" resp="#CH" tls:created="2020-05-12T02:38:33.463+09:00">
+            <form corresp="#uuid-3e4689aa-315a-4693-a284-b9b367b68192 #uuid-c6efbf2b-14a9-4733-a694-d531b7fe8ccc">
+                <orth>萬億</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wàn yì
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- 'ik
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mblans qɯɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-5b17c5db-3b3c-4853-97c5-db3b3c4853bf" resp="#CH" tls:created="2020-05-12T02:38:33.463+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>billions, vast numbers of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e02766dc-304b-4089-a766-dc304bb089d4" resp="#zadrapa" tls:created="2020-12-13T23:59:48.134+09:00">
+            <form corresp="#uuid-c6efbf2b-14a9-4733-a694-d531b7fe8ccc #uuid-18561da4-fdae-4913-8b49-27d4cdfe921e">
+                <orth>億萬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì wàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'ik --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɡ --</pron>
+            </form>
+            <sense xml:id="uuid-9c5c0dcc-4045-4e91-9c0d-cc4045ae9197" resp="#zadrapa" tls:created="2020-12-13T23:59:48.134+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>innumerably many things, myriads</def>
+            </sense>
+            <sense xml:id="uuid-57bee75e-66fc-4547-bee7-5e66fcb54756" resp="#zadrapa" tls:created="2021-06-15T19:36:49.013+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>innumerably many</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8cd1d941-f6b1-48ec-91d9-41f6b1b8ecaa" resp="#zadrapa" tls:created="2021-01-15T19:00:43.84+09:00">
+            <form corresp="#uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-f103744f-eee5-4a48-aaa5-fec13347ad67">
+                <orth>十二</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shí èr</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyip nyijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡjub njis</pron>
+            </form>
+            <sense xml:id="uuid-71145372-044e-4e37-9453-72044e2e37f3" resp="#zadrapa" tls:created="2021-01-15T19:00:43.84+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat>
+                </gramGrp>
+                <def>twelve</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-37476a7e-f2e1-4adb-876a-7ef2e17adbba" resp="#zadrapa" tls:created="2021-01-21T21:02:35.605+09:00">
+            <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-51845144-3245-439c-9701-95c63f8e4500">
+                <orth>三十五</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sān shí wǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sam dzyip nguX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam ɡjub ŋaaʔ</pron>
+            </form>
+            <sense xml:id="uuid-7cb8a7d9-9044-4dbb-b8a7-d990444dbb04" resp="#zadrapa" tls:created="2021-01-21T21:02:35.605+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat>
+                </gramGrp>
+                <def>thirty five</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-293ab82b-fbc5-4218-bab8-2bfbc5d21820" resp="#zadrapa" tls:created="2021-01-21T23:38:16.113+09:00">
+            <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-dbea9a31-fe5b-47d5-bb8f-b1b4a41b6a19">
+                <orth>三百</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sān bǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sam paek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam praaɡ</pron>
+            </form>
+            <sense xml:id="uuid-4b0d726b-d591-405c-8d72-6bd591a05cc3" resp="#zadrapa" tls:created="2021-01-21T23:38:16.113+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat>
+                </gramGrp>
+                <def>three hundred</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b51209a7-762b-4abb-9209-a7762bfabb38" resp="#zadrapa" tls:created="2021-05-11T22:55:47.781+09:00">
+            <form corresp="#uuid-42ee7bce-5c75-4d09-be05-9e3e761eefe2 #uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2">
+                <orth>七十一</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qī shí yī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshit dzyip 'jit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰid ɡjub qliɡ</pron>
+            </form>
+            <sense xml:id="uuid-026adfe2-d596-4dcd-aadf-e2d5960dcd5a" resp="#zadrapa" tls:created="2021-05-11T22:55:47.781+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-aeb8e7cf-63cd-4d02-ad98-e700c37a6445">v{NUM}adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat>
+                </gramGrp>
+                <def>seventy one</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e4aa942d-6af5-4e35-aa94-2d6af59e3555" resp="#zadrapa" tls:created="2021-05-11T23:30:34.263+09:00">
+            <form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-0015d0e6-8187-4a1f-88d7-b60a7f04ecba #uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3">
+                <orth>五十三</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǔ shí sān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nguX dzyip sam</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ ɡjub saam</pron>
+            </form>
+            <sense xml:id="uuid-287cf2df-e9a7-4678-bcf2-dfe9a7d67839" resp="#zadrapa" tls:created="2021-05-11T23:30:34.263+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-aeb8e7cf-63cd-4d02-ad98-e700c37a6445">v{NUM}adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ab3d43-7185-4009-a096-329b5ccea73b">number</tls:sem-feat>
+                </gramGrp>
+                <def>fifty three</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b9c9d05f-888b-4b93-89d0-5f888b6b938f" resp="#dsehnal" tls:created="2023-05-14T19:31:45.136+09:00">
+            <form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-18561da4-fdae-4913-8b49-27d4cdfe921e">
+                <orth>一萬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī wàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jit --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ --</pron>
+            </form>
+            <sense xml:id="uuid-b0806a9b-a4c8-4125-806a-9ba4c88125b2" resp="#dsehnal" tls:created="2023-05-14T19:31:45.136+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cf24c1ad-02df-42cc-a985-73780ba97a3f">VPpostadN</tls:syn-func>
+                </gramGrp>
+                <def>ten thousand of N items</def>
+            </sense>
+        </entry>
+    </div>
 </div>

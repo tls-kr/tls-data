@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6f76825a-58dc-4583-bba0-dab947193051">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6f76825a-58dc-4583-bba0-dab947193051">
 <head>SHORE</head>
     <list type="altnames">
 <item>SEASHORE</item>
@@ -250,7 +251,14 @@
                 </gramGrp>
   <def>high bank of a river or lake</def>
             </sense>
-<sense xml:id="uuid-f6404094-be53-477f-8040-94be53c77f8f" resp="#CH" tls:created="2021-04-06T02:10:58.533+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>shore</def></sense></entry>
+<sense xml:id="uuid-f6404094-be53-477f-8040-94be53c77f8f" resp="#CH" tls:created="2021-04-06T02:10:58.533+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>shore</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-76472c3c-f944-46b9-aaf3-9998d828ff04">
             <form corresp="#uuid-3b25b844-2c4a-4267-9fa7-2ada7cd2c40c">
 <orth>畔</orth>
@@ -572,5 +580,21 @@
   <def>BUDDH: the other shore, further shore (metaphor for nirvāṇa 涅槃); SANSKRIT pāra</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5e2304af-3467-4252-a304-af3467125263" resp="#CH" tls:created="2021-04-06T03:15:04.267+09:00"><form corresp="#uuid-f2d84c33-df7d-4956-9009-82f6a4147d05 #uuid-21f75810-ef21-49f0-8ac6-87ad1c11383f"><orth>崖涘</orth><pron xml:lang="zh-Latn-x-pinyin">yá sì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngea zriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡree --</pron></form><sense xml:id="uuid-aef4a26d-3081-4e50-b4a2-6d3081ee5047" resp="#CH" tls:created="2021-04-06T03:15:04.267+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>shores</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5e2304af-3467-4252-a304-af3467125263" resp="#CH" tls:created="2021-04-06T03:15:04.267+09:00">
+            <form corresp="#uuid-f2d84c33-df7d-4956-9009-82f6a4147d05 #uuid-21f75810-ef21-49f0-8ac6-87ad1c11383f">
+                <orth>崖涘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yá sì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngea zriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡree --</pron>
+            </form>
+            <sense xml:id="uuid-aef4a26d-3081-4e50-b4a2-6d3081ee5047" resp="#CH" tls:created="2021-04-06T03:15:04.267+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>shores</def>
+            </sense>
+        </entry>
+    </div>
 </div>

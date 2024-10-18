@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-597a5622-81bd-43a3-a91a-ab18a335f73d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-597a5622-81bd-43a3-a91a-ab18a335f73d">
 <head>SEXY</head>
     <list type="altnames">
 <item>SEXUALLY ATTRACTIVE</item>
@@ -183,7 +184,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-12T19:17:52.385+09:00">good-looking, attractive (of men or women) LUNHENG 貌體姣好 (of Mr Chen Ping)</def>
             </sense>
-<sense xml:id="uuid-a1b6ec7b-59e0-44a5-b6ec-7b59e0e4a504" resp="#CH" tls:created="2024-02-12T19:18:41.649+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>attractiveness</def></sense></entry>
+<sense xml:id="uuid-a1b6ec7b-59e0-44a5-b6ec-7b59e0e4a504" resp="#CH" tls:created="2024-02-12T19:18:41.649+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>attractiveness</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7a526810-069c-4376-8b27-1fc0803ee434">
             <form corresp="#uuid-ae492407-b62b-44ca-a908-a111a893ea3f">
 <orth>佼</orth>
@@ -390,7 +398,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-cc6fbc49-4450-4320-9624-2c591382158a">
-            <form corresp="#uuid-b1bd4704-52d5-429f-bd47-0452d5a29f39"><orth>稱</orth><pron xml:lang="zh-Latn-x-pinyin">chèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-b1bd4704-52d5-429f-bd47-0452d5a29f39">
+                <orth>稱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>chèn (DS)
 </def>
 <sense xml:id="uuid-c1fb6ecf-b56b-4aec-8946-55e881bed9fe">
@@ -491,7 +504,30 @@
                 </gramGrp>
   <def>of female beauty; sexual</def>
             </sense>
-<sense xml:id="uuid-6ee9770c-24d8-450b-8d66-6cc433b3d440" resp="#dsehnal" tls:created="2020-01-09T04:27:46.638+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">npost-N</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415"/></gramGrp><def>N's attractiveness; N's beauty</def></sense><sense xml:id="uuid-743a774b-8726-437b-ba77-4b8726f37b53" resp="#CH" tls:created="2024-02-15T17:54:19.085+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>sex</def></sense><sense xml:id="uuid-1f361087-2e15-4c0b-b610-872e150c0b64" resp="#dsehnal" tls:created="2024-04-23T03:04:43.665+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func></gramGrp><def>beauty of the contextually determinate N; her/his beauty</def></sense></entry>
+<sense xml:id="uuid-6ee9770c-24d8-450b-8d66-6cc433b3d440" resp="#dsehnal" tls:created="2020-01-09T04:27:46.638+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415"/>
+                </gramGrp>
+                <def>N's attractiveness; N's beauty</def>
+            </sense>
+            <sense xml:id="uuid-743a774b-8726-437b-ba77-4b8726f37b53" resp="#CH" tls:created="2024-02-15T17:54:19.085+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>sex</def>
+            </sense>
+            <sense xml:id="uuid-1f361087-2e15-4c0b-b610-872e150c0b64" resp="#dsehnal" tls:created="2024-04-23T03:04:43.665+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func>
+                </gramGrp>
+                <def>beauty of the contextually determinate N; her/his beauty</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1030fc6a-ce9c-4b06-9610-dff8d4f90426">
             <form corresp="#uuid-88682993-8b62-4d15-8298-5763563a71ec">
 <orth>豔</orth>

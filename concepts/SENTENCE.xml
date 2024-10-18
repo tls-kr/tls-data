@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1a4793cc-5ea5-4976-a6d9-76f951c94a59">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1a4793cc-5ea5-4976-a6d9-76f951c94a59">
 <head>SENTENCE</head>
     <list type="altnames">
 <item>CLAUSE</item>
@@ -146,7 +147,15 @@
                 </gramGrp>
   <def>text</def>
             </sense>
-<sense xml:id="uuid-c134866b-e386-4cc5-876d-2f0da2c51616" resp="#CH" tls:created="2020-01-13T04:45:59.348+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi.post-V{NUM}</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>pronounce V number of sentences</def></sense></entry>
+<sense xml:id="uuid-c134866b-e386-4cc5-876d-2f0da2c51616" resp="#CH" tls:created="2020-01-13T04:45:59.348+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi.post-V{NUM}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>pronounce V number of sentences</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c8f9ea81-8b1a-4438-af78-482f188a5839">
             <form corresp="#uuid-a9fa8a69-991d-4793-8898-af3638799125">
 <orth>辭</orth>
@@ -163,7 +172,23 @@
                 </gramGrp>
   <def resp="#CH" updated="2019-12-02T22:53:43.771+09:00">formulation; statement; MO: proposition</def>
             </sense>
-<sense xml:id="uuid-d4c77cbf-717c-44b4-9118-1c8908058d3c" resp="#CH" tls:created="2019-12-08T22:32:26.752+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-07-12T21:29:35.774+09:00">formulations; formulae, statements</def></sense><sense xml:id="uuid-918e53cb-72df-4a83-8e53-cb72df5a83d7" resp="#CH" tls:created="2020-05-20T04:49:00.438+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>suggestion</def></sense></entry>
+<sense xml:id="uuid-d4c77cbf-717c-44b4-9118-1c8908058d3c" resp="#CH" tls:created="2019-12-08T22:32:26.752+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-07-12T21:29:35.774+09:00">formulations; formulae, statements</def>
+            </sense>
+            <sense xml:id="uuid-918e53cb-72df-4a83-8e53-cb72df5a83d7" resp="#CH" tls:created="2020-05-20T04:49:00.438+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>suggestion</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-86e85fd5-3d3b-435f-9fb5-f39d14f16c76">
             <form corresp="#uuid-41bedcd4-90a1-4192-9fa7-d1da43f2da22 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>句子</orth>
@@ -240,5 +265,35 @@
   <def>paragraph and clause; sentence; phrase</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-624b27dc-efc1-4964-8b27-dcefc1996429" resp="#zadrapa" tls:created="2020-12-22T03:43:45.233+09:00"><form corresp="#uuid-a6dcd777-5670-4662-abdb-4768856163a8 #uuid-77f5b492-c569-44f3-9683-88b38fa50920"><orth>居錯</orth><pron xml:lang="zh-Latn-x-pinyin">jū cuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjo tshak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ka skhaaɡ</pron></form><sense xml:id="uuid-a33f522c-bd20-4050-bf52-2cbd20f050b8" resp="#zadrapa" tls:created="2020-12-22T03:43:45.233+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>(= ju3cuo4 舉措) put words &gt; formulate a statement</def></sense></entry><entry type="word" xml:id="uuid-61da69a3-2e1e-4658-9a69-a32e1e0658f1" resp="#CH" tls:created="2023-09-09T18:57:29.434+09:00"><form corresp="#uuid-07a426ac-29b0-4f46-bda5-50f6bfcbf5d6"><orth>語</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaʔ</pron></form><sense xml:id="uuid-1222744a-bc38-42f2-a274-4abc3862f25b" resp="#CH" tls:created="2023-09-09T18:57:29.434+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>(complete) sentence</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-624b27dc-efc1-4964-8b27-dcefc1996429" resp="#zadrapa" tls:created="2020-12-22T03:43:45.233+09:00">
+            <form corresp="#uuid-a6dcd777-5670-4662-abdb-4768856163a8 #uuid-77f5b492-c569-44f3-9683-88b38fa50920">
+                <orth>居錯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jū cuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjo tshak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ka skhaaɡ</pron>
+            </form>
+            <sense xml:id="uuid-a33f522c-bd20-4050-bf52-2cbd20f050b8" resp="#zadrapa" tls:created="2020-12-22T03:43:45.233+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>(= ju3cuo4 舉措) put words &gt; formulate a statement</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-61da69a3-2e1e-4658-9a69-a32e1e0658f1" resp="#CH" tls:created="2023-09-09T18:57:29.434+09:00">
+            <form corresp="#uuid-07a426ac-29b0-4f46-bda5-50f6bfcbf5d6">
+                <orth>語</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaʔ</pron>
+            </form>
+            <sense xml:id="uuid-1222744a-bc38-42f2-a274-4abc3862f25b" resp="#CH" tls:created="2023-09-09T18:57:29.434+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>(complete) sentence</def>
+            </sense>
+        </entry>
+    </div>
 </div>

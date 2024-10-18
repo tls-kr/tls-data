@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1b8d2978-f288-4a2b-9339-558d5046e987">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1b8d2978-f288-4a2b-9339-558d5046e987">
 <head>PRODUCE</head>
     <list type="altnames">
 <item>MANUFACTURE</item>
@@ -195,7 +196,12 @@
                 <pron xml:lang="zh-x-oc">tsaaɡ</pron>
                 <pron xml:lang="zh-x-mc">tsɑk</pron>
             </form>
-            <form corresp="#uuid-956375f5-c4c0-4b23-a375-f5c4c0eb2378"><orth>乍</orth><pron xml:lang="zh-Latn-x-pinyin">zuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-956375f5-c4c0-4b23-a375-f5c4c0eb2378">
+                <orth>乍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-dcfdcaa1-c275-4594-8f9d-1251d144b4fb">
 <gramGrp>
                     <pos>V</pos>
@@ -314,7 +320,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
   <def>finish the making of&gt; make, produce, bring about</def>
             </sense>
 <sense xml:id="uuid-a256be0d-710c-47d6-b5ea-c30b98db4ad3">
@@ -325,7 +332,22 @@
                 </gramGrp>
   <def>form (factions etc)</def>
             </sense>
-<sense xml:id="uuid-b43b1330-f65a-4c4e-bb13-30f65abc4e2d" resp="#CH" tls:created="2022-08-11T18:55:01.433+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-09T21:16:22.093+09:00">create, form (cliques etc), successfully organise</def></sense><sense xml:id="uuid-2ff7e099-2a92-433f-b7e0-992a92933f6e" resp="#zadrapa" tls:created="2023-05-16T16:39:41.067+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>to produce, to make</def></sense></entry>
+<sense xml:id="uuid-b43b1330-f65a-4c4e-bb13-30f65abc4e2d" resp="#CH" tls:created="2022-08-11T18:55:01.433+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-09T21:16:22.093+09:00">create, form (cliques etc), successfully organise</def>
+            </sense>
+            <sense xml:id="uuid-2ff7e099-2a92-433f-b7e0-992a92933f6e" resp="#zadrapa" tls:created="2023-05-16T16:39:41.067+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>to produce, to make</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ee414da7-fb77-401f-ab79-3d407dee58ac">
             <form corresp="#uuid-2dfde87a-4a70-4d51-9605-6288987f9346">
 <orth>搆</orth>
@@ -409,7 +431,43 @@
                 </gramGrp>
   <def>make an N2 for (oneself)</def>
             </sense>
-<sense xml:id="uuid-9bd9c49b-fe60-404c-9982-0115395e4cad" resp="#zadrapa" tls:created="2019-11-21T22:12:54.446+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2022-02-11T21:20:46.437+09:00">constitute, produce something by transforming something to it</def></sense><sense xml:id="uuid-144a667d-9f9f-4638-bb14-dc4a4689351c" resp="#CH" tls:created="2019-12-13T20:16:42.674+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>produce an image of</def></sense><sense xml:id="uuid-c624715c-d11f-4d33-a471-5cd11f0d3322" resp="#CH" tls:created="2020-04-09T00:35:42.148+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-3e3a9408-8625-44ed-999f-0ee602bfa4a2">object=abstract</tls:sem-feat></gramGrp><def>produce (a theory, a thesis, a text)</def></sense><sense xml:id="uuid-df39c9ee-a46e-4f2f-b9c9-eea46edf2ff6" resp="#dsehnal" tls:created="2020-05-09T20:28:00.717+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cf4ac300-6183-4519-8ac3-0061831519a5">vt1oN1:post-.vt2oN2{OBJECT}</tls:syn-func></gramGrp><def>produce N1 using N2; make N1 of N2</def></sense><sense xml:id="uuid-3a88f1f1-21e7-42a2-88f1-f121e782a20d" resp="#CH" tls:created="2022-10-01T17:09:14.315+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd9b0972-c072-44f7-9b09-72c07294f76d">vttoNpro.+N</tls:syn-func></gramGrp><def resp="#CH" updated="2022-10-01T17:21:07.757+09:00">produce (or create) an N for Npro, make an N for Npro</def></sense></entry>
+<sense xml:id="uuid-9bd9c49b-fe60-404c-9982-0115395e4cad" resp="#zadrapa" tls:created="2019-11-21T22:12:54.446+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-02-11T21:20:46.437+09:00">constitute, produce something by transforming something to it</def>
+            </sense>
+            <sense xml:id="uuid-144a667d-9f9f-4638-bb14-dc4a4689351c" resp="#CH" tls:created="2019-12-13T20:16:42.674+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>produce an image of</def>
+            </sense>
+            <sense xml:id="uuid-c624715c-d11f-4d33-a471-5cd11f0d3322" resp="#CH" tls:created="2020-04-09T00:35:42.148+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3e3a9408-8625-44ed-999f-0ee602bfa4a2">object=abstract</tls:sem-feat>
+                </gramGrp>
+                <def>produce (a theory, a thesis, a text)</def>
+            </sense>
+            <sense xml:id="uuid-df39c9ee-a46e-4f2f-b9c9-eea46edf2ff6" resp="#dsehnal" tls:created="2020-05-09T20:28:00.717+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cf4ac300-6183-4519-8ac3-0061831519a5">vt1oN1:post-.vt2oN2{OBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>produce N1 using N2; make N1 of N2</def>
+            </sense>
+            <sense xml:id="uuid-3a88f1f1-21e7-42a2-88f1-f121e782a20d" resp="#CH" tls:created="2022-10-01T17:09:14.315+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd9b0972-c072-44f7-9b09-72c07294f76d">vttoNpro.+N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-10-01T17:21:07.757+09:00">produce (or create) an N for Npro, make an N for Npro</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-aa70e5e5-9235-4034-a96f-c5e3a917b20c">
             <form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded">
 <orth>生</orth>
@@ -459,7 +517,15 @@
                 </gramGrp>
   <def>BUDDH: produce (psychological reactions)</def>
             </sense>
-<sense xml:id="uuid-77a481b3-02e1-49e0-a481-b302e139e0d6" resp="#zadrapa" tls:created="2020-06-09T22:58:11.269+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4cc772ce-a840-4384-a078-dd0caa84ddaa">kinds</tls:sem-feat></gramGrp><def>types of production, kinds of engendering</def></sense></entry>
+<sense xml:id="uuid-77a481b3-02e1-49e0-a481-b302e139e0d6" resp="#zadrapa" tls:created="2020-06-09T22:58:11.269+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4cc772ce-a840-4384-a078-dd0caa84ddaa">kinds</tls:sem-feat>
+                </gramGrp>
+                <def>types of production, kinds of engendering</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4a692836-5b6e-4c0c-b4b9-fa569dc3afd6">
             <form corresp="#uuid-aefe3655-bc15-4c76-8ec8-1b962c013f14">
 <orth>產</orth>
@@ -576,7 +642,15 @@
                 </gramGrp>
   <def>produce, create (resentment)</def>
             </sense>
-<sense xml:id="uuid-726ebac3-7408-463a-aeba-c37408263ad1" resp="#zadrapa" tls:created="2022-06-07T15:42:39.176+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be produced</def></sense></entry>
+<sense xml:id="uuid-726ebac3-7408-463a-aeba-c37408263ad1" resp="#zadrapa" tls:created="2022-06-07T15:42:39.176+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be produced</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-07ab1b44-32a3-40dc-864f-9bebac278322">
             <form corresp="#uuid-c81a15c3-fcb3-4996-84e3-e5292c311a46 #uuid-267730e0-be39-4e07-8516-1f546c7c591b">
 <orth>作成</orth>
@@ -751,12 +825,29 @@
   <def>produce</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-980657e0-7e17-4254-8657-e07e17f25402" resp="#CH" tls:created="2020-05-06T03:19:27.865+09:00"><form corresp="#uuid-f73a7893-a8dc-4771-bb1a-d7ddfb612063"><orth>炊</orth><pron xml:lang="zh-Latn-x-pinyin">chuī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khjol</pron></form><sense xml:id="uuid-8c8e7fff-34a6-499c-8e7f-ff34a6c99cc5" resp="#CH" tls:created="2020-05-06T03:19:27.865+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>cast (bronze instruments)</def></sense></entry><entry xml:id="uuid-d0999c0a-a6bc-42c2-999c-0aa6bc62c261"><form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
+    <entry type="word" xml:id="uuid-980657e0-7e17-4254-8657-e07e17f25402" resp="#CH" tls:created="2020-05-06T03:19:27.865+09:00">
+            <form corresp="#uuid-f73a7893-a8dc-4771-bb1a-d7ddfb612063">
+                <orth>炊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khjol</pron>
+            </form>
+            <sense xml:id="uuid-8c8e7fff-34a6-499c-8e7f-ff34a6c99cc5" resp="#CH" tls:created="2020-05-06T03:19:27.865+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>cast (bronze instruments)</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-d0999c0a-a6bc-42c2-999c-0aa6bc62c261">
+            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
 <orth>出</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">chū</pron>
                 <pron xml:lang="zh-x-oc">khljud</pron>
                 <pron xml:lang="zh-x-mc">tɕhʷit</pron>
-            </form><sense xml:id="uuid-0d07e68e-1668-415b-931c-80d065c2818a">
+            </form>
+            <sense xml:id="uuid-0d07e68e-1668-415b-931c-80d065c2818a">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
@@ -764,5 +855,22 @@
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def>CAUSE TO EMERGE&gt; create, produce; undertake as an independent agent (a project of action)</def>
-            </sense></entry><entry type="word" xml:id="uuid-a5fddacf-26c4-4864-bdda-cf26c4c8645d" resp="#CH" tls:created="2024-02-14T04:49:44.587+09:00"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50"><orth>以為</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷal</pron></form><sense xml:id="uuid-99ee9f47-2e70-499e-ae9f-472e70499e43" resp="#CH" tls:created="2024-02-14T04:49:44.587+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-8584029b-6084-4ff1-8511-012c5567acf9">VPtt(oN1.) N2</tls:syn-func></gramGrp><def>produce an N2 with N1, make an N2 out of an N1</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a5fddacf-26c4-4864-bdda-cf26c4c8645d" resp="#CH" tls:created="2024-02-14T04:49:44.587+09:00">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50">
+                <orth>以為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-99ee9f47-2e70-499e-ae9f-472e70499e43" resp="#CH" tls:created="2024-02-14T04:49:44.587+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-8584029b-6084-4ff1-8511-012c5567acf9">VPtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>produce an N2 with N1, make an N2 out of an N1</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-715920da-ff4d-44c1-9419-fb08b87b5846">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-715920da-ff4d-44c1-9419-fb08b87b5846">
 <head>TWIST</head>
     <list type="altnames">
 <item>DISTORT</item>
@@ -22,7 +23,10 @@
     </list>
 <div type="definition">
 <p>DISPLACE so as to DISTORT.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:50:46.152+09:00"><p>MOVE so as to DISTORT.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:50:46.152+09:00">
+            <p>MOVE so as to DISTORT.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for something being bent is qū 曲 (ant. zhí 直 "make straight").</p>
@@ -374,7 +378,15 @@
                 </gramGrp>
   <def>cause to be twisted &gt; distort (the law) 枉法</def>
             </sense>
-<sense xml:id="uuid-d34c289e-aa81-4b28-8c28-9eaa813b2878" resp="#CH" tls:created="2022-08-15T01:13:25.296+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be flexible</def></sense></entry>
+<sense xml:id="uuid-d34c289e-aa81-4b28-8c28-9eaa813b2878" resp="#CH" tls:created="2022-08-15T01:13:25.296+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be flexible</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f4bbbf7f-aa97-4277-81f0-3ddcb4f7ca9f">
             <form corresp="#uuid-91bd3df9-e273-490b-9006-ab428ffffa1a">
 <orth>盤</orth>
@@ -485,7 +497,14 @@
                 </gramGrp>
   <def>bend XUN 1 輮以為輪"bend into the shape of a wheel"</def>
             </sense>
-<sense xml:id="uuid-56bdd79e-e033-4bf7-bf98-9832d92a0665" resp="#zadrapa" tls:created="2019-11-21T22:14:08.505+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>bend</def></sense></entry>
+<sense xml:id="uuid-56bdd79e-e033-4bf7-bf98-9832d92a0665" resp="#zadrapa" tls:created="2019-11-21T22:14:08.505+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>bend</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-64cb6e96-a3f8-4b49-9077-3c42a07cc057">
             <form corresp="#uuid-4e3b4680-00a5-4e2e-817b-5dc4e04d1f90">
 <orth>鉤</orth>
@@ -580,5 +599,51 @@
   <def>distort, manipulate SJ: 吏士舞文弄法 Hou Han shu 姦吏弄法</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-eeb9ecca-1bb0-4db6-8b78-ba4615198b98" resp="#CH" tls:created="2019-12-03T23:28:51.084+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-329e7586-3be0-49f7-89ac-35ca71b2093c" resp="#CH" tls:created="2019-12-03T23:28:51.084+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>twisting, distorting</def></sense></entry><entry type="word" xml:id="uuid-16c2ad77-f910-4604-a9c0-fe6ee949e2b7" resp="#CH" tls:created="2019-12-03T23:29:07.117+09:00"><form corresp="#uuid-b07eb111-2a86-43f0-a1d7-8e3d85586aba"><orth>折</orth><pron xml:lang="zh-Latn-x-pinyin">zhé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljed</pron></form><sense xml:id="uuid-28c66a35-4381-46e5-9a36-c07b636e8667" resp="#CH" tls:created="2019-12-03T23:29:07.117+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>twisting, distorting</def></sense></entry><entry type="word" xml:id="uuid-d2bb021e-db66-4f26-bb02-1edb662f26d8"><form><orth>軸</orth><pron xml:lang="zh-Latn-x-pinyin">zhóu</pron></form><def/><sense xml:id="uuid-124b6c27-5c76-4b88-8b6c-275c762b8811" resp="#CH" tls:created="2021-02-17T01:05:11.451+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be twisted</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-eeb9ecca-1bb0-4db6-8b78-ba4615198b98" resp="#CH" tls:created="2019-12-03T23:28:51.084+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-329e7586-3be0-49f7-89ac-35ca71b2093c" resp="#CH" tls:created="2019-12-03T23:28:51.084+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>twisting, distorting</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-16c2ad77-f910-4604-a9c0-fe6ee949e2b7" resp="#CH" tls:created="2019-12-03T23:29:07.117+09:00">
+            <form corresp="#uuid-b07eb111-2a86-43f0-a1d7-8e3d85586aba">
+                <orth>折</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljed</pron>
+            </form>
+            <sense xml:id="uuid-28c66a35-4381-46e5-9a36-c07b636e8667" resp="#CH" tls:created="2019-12-03T23:29:07.117+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>twisting, distorting</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d2bb021e-db66-4f26-bb02-1edb662f26d8">
+            <form>
+                <orth>軸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhóu</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-124b6c27-5c76-4b88-8b6c-275c762b8811" resp="#CH" tls:created="2021-02-17T01:05:11.451+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be twisted</def>
+            </sense>
+        </entry>
+    </div>
 </div>

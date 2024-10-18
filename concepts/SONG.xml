@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-32113a0e-629b-4c85-b23d-1962b85c9847">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-32113a0e-629b-4c85-b23d-1962b85c9847">
 <head>SONG</head>
     <list type="altnames">
 <item>AIR</item>
@@ -248,7 +249,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-d4ce9d61-d9cf-4fcd-8c29-b5e86a7a9786">
-            <form corresp="#uuid-0aa4eec1-6aaa-4a5b-a4ee-c16aaaca5b51"><orth>曲</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-0aa4eec1-6aaa-4a5b-a4ee-c16aaaca5b51">
+                <orth>曲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-91dd0a07-cbd6-44cb-96e2-367634e2bbfb">
 <gramGrp>
                     <pos>N</pos>
@@ -501,7 +507,15 @@
                 </gramGrp>
   <def>air, song</def>
             </sense>
-<sense xml:id="uuid-e33d26c1-0fea-4281-bd26-c10fea328112" resp="#zadrapa" tls:created="2021-06-22T19:34:52.313+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def>"Airs", a part of the Book of Songs</def></sense></entry>
+<sense xml:id="uuid-e33d26c1-0fea-4281-bd26-c10fea328112" resp="#zadrapa" tls:created="2021-06-22T19:34:52.313+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def>"Airs", a part of the Book of Songs</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5574bf46-ee41-48f2-8c68-3118d9ecfae4">
             <form corresp="#uuid-7724a604-307a-4b9a-af74-1dc72116d850 #uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6">
 <orth>九歌</orth>
@@ -666,5 +680,66 @@
   <def>last stanza in a rhyme prose poem 賦</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1462b073-f196-4621-b349-0661c6f6d0cf" resp="#CH" tls:created="2019-10-21T17:52:39.247+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-b86b9880-0183-4597-9add-e3520c99f7a2" resp="#CH" tls:created="2019-10-21T17:52:39.247+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>song as part of musical performance</def></sense></entry><entry type="word" xml:id="uuid-490a3ed6-b71a-462e-b818-7f47c1fbfd0f" resp="#CH" tls:created="2019-10-21T17:52:47.627+09:00"><form corresp="#uuid-aaaa94a1-4d42-45f0-b89b-c966fbee40d5"><orth>音</orth><pron xml:lang="zh-Latn-x-pinyin">yīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'im</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrɯm</pron></form><sense xml:id="uuid-c5080501-b147-43e6-8728-e2a9388ad99d" resp="#CH" tls:created="2019-10-21T17:52:47.627+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>song as part of musical performance</def></sense></entry><entry type="word" xml:id="uuid-ebc77dde-efea-4088-877d-deefeaf08881" resp="#zadrapa" tls:created="2021-06-22T19:35:43.443+09:00"><form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-a3ec6bd7-92e2-4aac-9618-e1d49b36a102"><orth>小雅</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎo yǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX ngaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ ŋɡraaʔ</pron></form><sense xml:id="uuid-b78d4b71-4054-411f-8d4b-714054c11fbd" resp="#zadrapa" tls:created="2021-06-22T19:35:43.443+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def>"Lesser Odes", a part of the Book of Songs</def></sense></entry><entry type="word" xml:id="uuid-bdfba1d6-3c0a-4502-bba1-d63c0a750227" resp="#Valerie.Kiel" tls:created="2023-01-18T19:00:31.359+09:00"><form corresp="#uuid-b75e5fb9-afac-4a62-a7f6-ff7c58fa1c73 #uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b"><orth>興詠</orth><pron xml:lang="zh-Latn-x-pinyin">xīng yǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xing hjwaengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯŋ ɢʷaŋs</pron></form><sense xml:id="uuid-774b818e-e9f4-40ab-8b81-8ee9f4b0abc2" resp="#Valerie.Kiel" tls:created="2023-01-18T19:00:31.359+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>song</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1462b073-f196-4621-b349-0661c6f6d0cf" resp="#CH" tls:created="2019-10-21T17:52:39.247+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-b86b9880-0183-4597-9add-e3520c99f7a2" resp="#CH" tls:created="2019-10-21T17:52:39.247+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>song as part of musical performance</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-490a3ed6-b71a-462e-b818-7f47c1fbfd0f" resp="#CH" tls:created="2019-10-21T17:52:47.627+09:00">
+            <form corresp="#uuid-aaaa94a1-4d42-45f0-b89b-c966fbee40d5">
+                <orth>音</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'im</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrɯm</pron>
+            </form>
+            <sense xml:id="uuid-c5080501-b147-43e6-8728-e2a9388ad99d" resp="#CH" tls:created="2019-10-21T17:52:47.627+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>song as part of musical performance</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ebc77dde-efea-4088-877d-deefeaf08881" resp="#zadrapa" tls:created="2021-06-22T19:35:43.443+09:00">
+            <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-a3ec6bd7-92e2-4aac-9618-e1d49b36a102">
+                <orth>小雅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎo yǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX ngaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ ŋɡraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-b78d4b71-4054-411f-8d4b-714054c11fbd" resp="#zadrapa" tls:created="2021-06-22T19:35:43.443+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def>"Lesser Odes", a part of the Book of Songs</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bdfba1d6-3c0a-4502-bba1-d63c0a750227" resp="#Valerie.Kiel" tls:created="2023-01-18T19:00:31.359+09:00">
+            <form corresp="#uuid-b75e5fb9-afac-4a62-a7f6-ff7c58fa1c73 #uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b">
+                <orth>興詠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīng yǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xing hjwaengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯŋ ɢʷaŋs</pron>
+            </form>
+            <sense xml:id="uuid-774b818e-e9f4-40ab-8b81-8ee9f4b0abc2" resp="#Valerie.Kiel" tls:created="2023-01-18T19:00:31.359+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>song</def>
+            </sense>
+        </entry>
+    </div>
 </div>

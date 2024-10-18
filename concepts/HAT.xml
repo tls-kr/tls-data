@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-817bf10f-8ece-4d05-8cda-9cac1519f21e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-817bf10f-8ece-4d05-8cda-9cac1519f21e">
 <head>HAT</head>
     <list type="altnames">
 <item>HEADGEAR</item>
@@ -183,7 +184,14 @@
                 </gramGrp>
   <def>official hat used to indicate one's social position</def>
             </sense>
-<sense xml:id="uuid-e33fddab-a54d-47ff-bfdd-aba54d77ff1b" resp="#CH" tls:created="2022-09-02T17:07:38.388+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the hat of the contextually determinate person</def></sense></entry>
+<sense xml:id="uuid-e33fddab-a54d-47ff-bfdd-aba54d77ff1b" resp="#CH" tls:created="2022-09-02T17:07:38.388+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the hat of the contextually determinate person</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fb7d1853-cc30-43aa-a39f-d381b3a8e853">
             <form corresp="#uuid-ba16d33f-3739-4a7e-bfbf-bc4a2471936d">
 <orth>帽</orth>
@@ -302,5 +310,35 @@
   <def>wear hemp cloth ritual headgear SHU</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3d60756c-20e3-422b-a075-6c20e3522be5" resp="#CH" tls:created="2022-08-02T20:26:28.082+09:00"><form corresp="#uuid-ca88518b-d237-4367-bebb-02ada1db3da9"><orth>鍪</orth><pron xml:lang="zh-Latn-x-pinyin">móu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mu</pron></form><sense xml:id="uuid-31969bce-f2e4-4b75-969b-cef2e46b75a7" resp="#CH" tls:created="2022-08-02T20:26:28.082+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-21T23:58:18.263+09:00">plain cap (without those essential ceremonial strings reaching down)</def></sense></entry><entry type="word" xml:id="uuid-73859077-89f3-4182-8590-7789f3318298" resp="#CH" tls:created="2024-03-20T05:12:33.56+09:00"><form corresp="#uuid-6577ecc0-6f53-441f-8fb2-cf630cdb1d9d"><orth>章</orth><pron xml:lang="zh-Latn-x-pinyin">zhāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjaŋ</pron></form><sense xml:id="uuid-f44858e4-79e4-48ea-8858-e479e498ea2c" resp="#CH" tls:created="2024-03-20T05:12:33.56+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>official hat</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-3d60756c-20e3-422b-a075-6c20e3522be5" resp="#CH" tls:created="2022-08-02T20:26:28.082+09:00">
+            <form corresp="#uuid-ca88518b-d237-4367-bebb-02ada1db3da9">
+                <orth>鍪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">móu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mu</pron>
+            </form>
+            <sense xml:id="uuid-31969bce-f2e4-4b75-969b-cef2e46b75a7" resp="#CH" tls:created="2022-08-02T20:26:28.082+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-21T23:58:18.263+09:00">plain cap (without those essential ceremonial strings reaching down)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-73859077-89f3-4182-8590-7789f3318298" resp="#CH" tls:created="2024-03-20T05:12:33.56+09:00">
+            <form corresp="#uuid-6577ecc0-6f53-441f-8fb2-cf630cdb1d9d">
+                <orth>章</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjaŋ</pron>
+            </form>
+            <sense xml:id="uuid-f44858e4-79e4-48ea-8858-e479e498ea2c" resp="#CH" tls:created="2024-03-20T05:12:33.56+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>official hat</def>
+            </sense>
+        </entry>
+    </div>
 </div>

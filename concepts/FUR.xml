@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-54171046-fc50-4322-88de-a5e5c292ee35">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-54171046-fc50-4322-88de-a5e5c292ee35">
 <head>FUR</head>
     <list type="altnames">
 <item>HAIR</item>
@@ -114,7 +115,21 @@
                 </gramGrp>
   <def>fur</def>
             </sense>
-<sense xml:id="uuid-a94e8d3b-0ce8-4bd7-8e8d-3b0ce84bd776" resp="#CH" tls:created="2022-08-28T00:08:35.479+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>animals with fur</def></sense><sense xml:id="uuid-49ef17d7-7c29-4742-af17-d77c29d74238" resp="#CH" tls:created="2022-08-28T00:09:40.926+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>grow fur</def></sense></entry>
+<sense xml:id="uuid-a94e8d3b-0ce8-4bd7-8e8d-3b0ce84bd776" resp="#CH" tls:created="2022-08-28T00:08:35.479+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>animals with fur</def>
+            </sense>
+            <sense xml:id="uuid-49ef17d7-7c29-4742-af17-d77c29d74238" resp="#CH" tls:created="2022-08-28T00:09:40.926+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>grow fur</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bd674271-2a16-4003-8742-d1620f763c67">
             <form corresp="#uuid-030fddc6-aea1-4597-b0f5-a34d3c5698b7">
 <orth>毫</orth>
@@ -252,5 +267,35 @@
   <def>embellished with fur, beautifully furry</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-680ac99c-9097-4ffb-8ac9-9c90976ffb3a" resp="#CH" tls:created="2020-05-17T23:10:21.82+09:00"><form corresp="#uuid-dc497047-48d1-4dde-90ff-bc936f2ef309 #uuid-7c026c66-9781-474b-b1ca-8e6ae50db29a"><orth>狐白</orth><pron xml:lang="zh-Latn-x-pinyin">hú bái bó bái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu baek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷaa braaɡ</pron></form><sense xml:id="uuid-9d13679d-30b7-4365-9367-9d30b723650c" resp="#CH" tls:created="2020-05-17T23:10:21.82+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def>white fox fur</def></sense></entry><entry type="word" xml:id="uuid-f6aab21c-a493-414c-aab2-1ca493b14cb0" resp="#CH" tls:created="2020-05-17T23:12:01.401+09:00"><form corresp="#uuid-0b1d98bc-c604-4883-b401-af5c8d964a59 #uuid-bb06c86f-ee47-4970-9411-a48aa22bdcbd"><orth>犬羊</orth><pron xml:lang="zh-Latn-x-pinyin">quǎn yáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khwenX yang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷeenʔ k-laŋ</pron></form><sense xml:id="uuid-4a3a3f48-63c8-4b3d-ba3f-4863c87b3d74" resp="#CH" tls:created="2020-05-17T23:12:01.401+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>(cheap) dog and goat fur</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-680ac99c-9097-4ffb-8ac9-9c90976ffb3a" resp="#CH" tls:created="2020-05-17T23:10:21.82+09:00">
+            <form corresp="#uuid-dc497047-48d1-4dde-90ff-bc936f2ef309 #uuid-7c026c66-9781-474b-b1ca-8e6ae50db29a">
+                <orth>狐白</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hú bái bó bái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu baek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷaa braaɡ</pron>
+            </form>
+            <sense xml:id="uuid-9d13679d-30b7-4365-9367-9d30b723650c" resp="#CH" tls:created="2020-05-17T23:10:21.82+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def>white fox fur</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f6aab21c-a493-414c-aab2-1ca493b14cb0" resp="#CH" tls:created="2020-05-17T23:12:01.401+09:00">
+            <form corresp="#uuid-0b1d98bc-c604-4883-b401-af5c8d964a59 #uuid-bb06c86f-ee47-4970-9411-a48aa22bdcbd">
+                <orth>犬羊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">quǎn yáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khwenX yang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷeenʔ k-laŋ</pron>
+            </form>
+            <sense xml:id="uuid-4a3a3f48-63c8-4b3d-ba3f-4863c87b3d74" resp="#CH" tls:created="2020-05-17T23:12:01.401+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>(cheap) dog and goat fur</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-429d8664-4e57-47d8-89e2-225695689992">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-429d8664-4e57-47d8-89e2-225695689992">
 <head>RECORD</head>
     <list type="altnames">
 <item>WRITE DOWN</item>
@@ -247,7 +248,14 @@
                 </gramGrp>
   <def>record things; make records</def>
             </sense>
-<sense xml:id="uuid-d690e386-d51c-42f8-90e3-86d51ca2f89d" resp="#zadrapa" tls:created="2021-01-21T23:37:08.319+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>recorded in documents</def></sense></entry>
+<sense xml:id="uuid-d690e386-d51c-42f8-90e3-86d51ca2f89d" resp="#zadrapa" tls:created="2021-01-21T23:37:08.319+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>recorded in documents</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-910a3789-d448-4a09-a966-ae910d5cd8b4">
             <form corresp="#uuid-0af73250-7be9-4621-8336-27b362c73bb4">
 <orth>登</orth>
@@ -594,5 +602,37 @@
   <def>record the contextually determinate fact N</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-4eae9ed9-8f0b-452d-ae9e-d98f0b252dca" resp="#zadrapa" tls:created="2021-05-16T04:04:12.952+09:00"><form corresp="#uuid-6bf92d04-6609-4a23-977c-5a6270aa5561"><orth>編</orth><pron xml:lang="zh-Latn-x-pinyin">biān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjien</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pen</pron></form><sense xml:id="uuid-1bc317c3-c9f8-4802-8317-c3c9f8480262" resp="#zadrapa" tls:created="2021-05-16T04:04:12.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be registered among/as N </def></sense></entry><entry type="word" xml:id="uuid-18f54745-ff7e-420e-b547-45ff7ed20ebb" resp="#CH" tls:created="2021-06-14T03:39:31.327+09:00"><form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9 #uuid-9ff91735-9ae1-411f-b4ac-417745a2f684"><orth>先志</orth><pron xml:lang="zh-Latn-x-pinyin">xiān zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sen tsyiH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn kljɯs</pron></form><sense xml:id="uuid-c493c774-dd88-4f77-93c7-74dd887f77bc" resp="#CH" tls:created="2021-06-14T03:39:31.327+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def>records from one's predecessors&gt; earlier records</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-4eae9ed9-8f0b-452d-ae9e-d98f0b252dca" resp="#zadrapa" tls:created="2021-05-16T04:04:12.952+09:00">
+            <form corresp="#uuid-6bf92d04-6609-4a23-977c-5a6270aa5561">
+                <orth>編</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjien</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pen</pron>
+            </form>
+            <sense xml:id="uuid-1bc317c3-c9f8-4802-8317-c3c9f8480262" resp="#zadrapa" tls:created="2021-05-16T04:04:12.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be registered among/as N </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-18f54745-ff7e-420e-b547-45ff7ed20ebb" resp="#CH" tls:created="2021-06-14T03:39:31.327+09:00">
+            <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9 #uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
+                <orth>先志</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sen tsyiH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn kljɯs</pron>
+            </form>
+            <sense xml:id="uuid-c493c774-dd88-4f77-93c7-74dd887f77bc" resp="#CH" tls:created="2021-06-14T03:39:31.327+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def>records from one's predecessors&gt; earlier records</def>
+            </sense>
+        </entry>
+    </div>
 </div>

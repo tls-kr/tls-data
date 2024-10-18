@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-44bc3830-f8a2-4b83-b546-021006639a3c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-44bc3830-f8a2-4b83-b546-021006639a3c">
 <head>INSIDE</head>
     <list type="translations">
         <item xml:lang="zh">裡面</item>
@@ -186,7 +187,8 @@
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-c2074480-e9b4-471f-8744-80e9b4e71f2c">concrete physical</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-c2074480-e9b4-471f-8744-80e9b4e71f2c">concrete physical</tls:sem-feat>
+                </gramGrp>
   <def>the inside of, in</def>
             </sense>
 <sense xml:id="uuid-763a5634-1567-4b78-a955-ff61227023a8">
@@ -258,7 +260,51 @@
                 </gramGrp>
   <def>psychological inside (of a person etc)</def>
             </sense>
-<sense xml:id="uuid-89cfb2e2-a48d-418e-a542-afcb623c9045" resp="#zadrapa" tls:created="2019-10-21T20:04:29.207+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt prep V</tls:syn-func></gramGrp><def>have one's middle or central part in V-ing</def></sense><sense xml:id="uuid-94a567a2-d8e8-479e-8c0c-fc67b043ee96" resp="#CH" tls:created="2019-12-04T19:03:28.901+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>inside of N</def></sense><sense xml:id="uuid-f4193543-0d96-44f2-bb75-854d1bcd07ef" resp="#dsehnal" tls:created="2019-12-05T05:45:03.141+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">npost-N</tls:syn-func></gramGrp><def>the inside of N</def></sense><sense xml:id="uuid-9f869020-768f-47e1-8690-20768fb7e109" resp="#zadrapa" tls:created="2020-12-20T04:21:18.434+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-b448a26d-5521-4403-88a2-6d5521940371">n{PRED}.post-N+ZHI</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>to be within the limits of N</def></sense><sense xml:id="uuid-2ecddaf4-1723-4445-8dda-f4172384450c" resp="#zadrapa" tls:created="2022-06-14T18:03:48.441+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e5119755-1b4e-4f16-99af-20221cf675fb">n-N</tls:syn-func></gramGrp><def>in N (中山, 中野, 中國 etc.)</def></sense><sense xml:id="uuid-047053e9-f83c-471a-b053-e9f83cc71a14" resp="#CH" tls:created="2022-08-11T22:49:10.605+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-1661b50f-baa4-436a-a1b5-0fbaa4c36a68">one's own</tls:sem-feat></gramGrp><def>one's inside</def></sense></entry>
+<sense xml:id="uuid-89cfb2e2-a48d-418e-a542-afcb623c9045" resp="#zadrapa" tls:created="2019-10-21T20:04:29.207+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt prep V</tls:syn-func>
+                </gramGrp>
+                <def>have one's middle or central part in V-ing</def>
+            </sense>
+            <sense xml:id="uuid-94a567a2-d8e8-479e-8c0c-fc67b043ee96" resp="#CH" tls:created="2019-12-04T19:03:28.901+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>inside of N</def>
+            </sense>
+            <sense xml:id="uuid-f4193543-0d96-44f2-bb75-854d1bcd07ef" resp="#dsehnal" tls:created="2019-12-05T05:45:03.141+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>the inside of N</def>
+            </sense>
+            <sense xml:id="uuid-9f869020-768f-47e1-8690-20768fb7e109" resp="#zadrapa" tls:created="2020-12-20T04:21:18.434+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-b448a26d-5521-4403-88a2-6d5521940371">n{PRED}.post-N+ZHI</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>to be within the limits of N</def>
+            </sense>
+            <sense xml:id="uuid-2ecddaf4-1723-4445-8dda-f4172384450c" resp="#zadrapa" tls:created="2022-06-14T18:03:48.441+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e5119755-1b4e-4f16-99af-20221cf675fb">n-N</tls:syn-func>
+                </gramGrp>
+                <def>in N (中山, 中野, 中國 etc.)</def>
+            </sense>
+            <sense xml:id="uuid-047053e9-f83c-471a-b053-e9f83cc71a14" resp="#CH" tls:created="2022-08-11T22:49:10.605+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1661b50f-baa4-436a-a1b5-0fbaa4c36a68">one's own</tls:sem-feat>
+                </gramGrp>
+                <def>one's inside</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f43b8abd-c0c8-4923-84ff-187e5f3fc8b8">
             <form corresp="#uuid-6701b548-c1f3-4d2c-96ed-584ae8789f69">
 <orth>入</orth>
@@ -283,7 +329,22 @@
                 </gramGrp>
   <def>inside</def>
             </sense>
-<sense xml:id="uuid-fdb996a0-9cb1-4052-8f53-f749bdc1205e" resp="#dsehnal" tls:created="2019-12-17T03:25:16.948+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>get inside of N</def></sense><sense xml:id="uuid-c40f78ff-f1d9-4ba4-8f78-fff1d9cba4ab" resp="#zadrapa" tls:created="2022-05-22T21:17:36.776+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>fall within the range of N</def></sense></entry>
+<sense xml:id="uuid-fdb996a0-9cb1-4052-8f53-f749bdc1205e" resp="#dsehnal" tls:created="2019-12-17T03:25:16.948+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>get inside of N</def>
+            </sense>
+            <sense xml:id="uuid-c40f78ff-f1d9-4ba4-8f78-fff1d9cba4ab" resp="#zadrapa" tls:created="2022-05-22T21:17:36.776+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>fall within the range of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c0b83551-739e-4a98-bc95-c92396f7990b">
             <form corresp="#uuid-b6458fb7-54cf-44b6-9cd7-ad4e5a465798">
 <orth>納</orth>
@@ -306,7 +367,51 @@
                 </gramGrp>
   <def>cause to be inside&gt; keep inside (and not let someone go)</def>
             </sense>
-<sense xml:id="uuid-0303e8ed-c584-4863-9666-61947342a001" resp="#CH" tls:created="2019-11-29T03:33:08.04+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the inside of the contextually determinate N</def></sense><sense xml:id="uuid-5f1aa589-79fd-4208-90fd-5c69f85d0d06" resp="#CH" tls:created="2019-12-04T19:08:18.545+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-.N ZHI</tls:syn-func></gramGrp><def>inside of N</def></sense><sense xml:id="uuid-41f58f51-0009-43e9-b58f-510009f3e983" resp="#twharbsmeier" tls:created="2022-02-19T22:01:23.862+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>internally; on the inside</def></sense><sense xml:id="uuid-05b2c320-65d7-442f-b2c3-2065d7942ffc" resp="#Valerie.Kiel" tls:created="2022-09-10T21:54:54.144+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func><tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp><def>all within N</def></sense><sense xml:id="uuid-9a80fb7a-3415-4c95-80fb-7a34159c957b" resp="#CH" tls:created="2024-02-15T18:06:41.362+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-1274c254-edc3-4e71-b4c2-54edc33e7165">philosophical</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-16T01:06:02.244+09:00">be internal to the mind ; be endogenic (and not an external matter/exogenic)</def></sense><sense xml:id="uuid-8c377aca-da4b-4c91-b77a-cada4bdc917f" resp="#CH" tls:created="2024-02-17T21:44:10.848+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ac16aba-28f8-4be0-87df-43c5f2987f05">n(post-N1.)[adN2]</tls:syn-func></gramGrp><def>something outside the contextually determinate N1</def></sense></entry>
+<sense xml:id="uuid-0303e8ed-c584-4863-9666-61947342a001" resp="#CH" tls:created="2019-11-29T03:33:08.04+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the inside of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-5f1aa589-79fd-4208-90fd-5c69f85d0d06" resp="#CH" tls:created="2019-12-04T19:08:18.545+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-.N ZHI</tls:syn-func>
+                </gramGrp>
+                <def>inside of N</def>
+            </sense>
+            <sense xml:id="uuid-41f58f51-0009-43e9-b58f-510009f3e983" resp="#twharbsmeier" tls:created="2022-02-19T22:01:23.862+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>internally; on the inside</def>
+            </sense>
+            <sense xml:id="uuid-05b2c320-65d7-442f-b2c3-2065d7942ffc" resp="#Valerie.Kiel" tls:created="2022-09-10T21:54:54.144+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+                <def>all within N</def>
+            </sense>
+            <sense xml:id="uuid-9a80fb7a-3415-4c95-80fb-7a34159c957b" resp="#CH" tls:created="2024-02-15T18:06:41.362+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1274c254-edc3-4e71-b4c2-54edc33e7165">philosophical</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-16T01:06:02.244+09:00">be internal to the mind ; be endogenic (and not an external matter/exogenic)</def>
+            </sense>
+            <sense xml:id="uuid-8c377aca-da4b-4c91-b77a-cada4bdc917f" resp="#CH" tls:created="2024-02-17T21:44:10.848+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ac16aba-28f8-4be0-87df-43c5f2987f05">n(post-N1.)[adN2]</tls:syn-func>
+                </gramGrp>
+                <def>something outside the contextually determinate N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2ae3fb78-0c84-42ae-94de-badabf496f5a">
             <form corresp="#uuid-5bc4b268-5724-40b8-8e1c-011af74fa79e">
 <orth>內</orth>
@@ -539,7 +644,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
   <def>center</def>
             </sense>
 <sense xml:id="uuid-18ced71e-3c9e-4e43-8b80-2b4e616e1113">
@@ -575,5 +681,21 @@
   <def>inside</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ef537608-d57b-43d5-9376-08d57b53d565"><form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55"><orth>閒</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron></form><def/><sense xml:id="uuid-bebd0441-feeb-49f8-bd04-41feeb49f835" resp="#zadrapa" tls:created="2020-06-22T04:48:13.027+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-.N+ZHI</tls:syn-func></gramGrp><def>= jian1 間: in, within, inside of N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ef537608-d57b-43d5-9376-08d57b53d565">
+            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
+                <orth>閒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-bebd0441-feeb-49f8-bd04-41feeb49f835" resp="#zadrapa" tls:created="2020-06-22T04:48:13.027+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-de2471bd-7e6e-476a-a967-c8e9706d2a65">npost-.N+ZHI</tls:syn-func>
+                </gramGrp>
+                <def>= jian1 間: in, within, inside of N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

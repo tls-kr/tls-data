@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ad4975ff-83da-495f-b716-7742248e11bc">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ad4975ff-83da-495f-b716-7742248e11bc">
 <head>MOURNING</head>
     <list type="altnames">
 <item>GRIEF</item>
@@ -372,7 +373,22 @@
                 </gramGrp>
   <def>go through the rituals of mourning for; wear mourning for</def>
             </sense>
-<sense xml:id="uuid-49352920-7d08-4051-981c-f82e25a0a617" resp="#CH" tls:created="2020-01-24T01:47:20.881+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>those who are enaged in mourning&gt; the bereaved</def></sense><sense xml:id="uuid-ceacc151-f41c-44cf-acc1-51f41c84cfe8" resp="#dsehnal" tls:created="2023-05-14T21:05:00.919+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3089d27c-a8a0-4ba1-a3ae-5cd513e4f523">nab.t:post-N</tls:syn-func><tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat></gramGrp><def>mourning on behalf of N</def></sense></entry>
+<sense xml:id="uuid-49352920-7d08-4051-981c-f82e25a0a617" resp="#CH" tls:created="2020-01-24T01:47:20.881+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>those who are enaged in mourning&gt; the bereaved</def>
+            </sense>
+            <sense xml:id="uuid-ceacc151-f41c-44cf-acc1-51f41c84cfe8" resp="#dsehnal" tls:created="2023-05-14T21:05:00.919+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3089d27c-a8a0-4ba1-a3ae-5cd513e4f523">nab.t:post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat>
+                </gramGrp>
+                <def>mourning on behalf of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-44ca8d4e-f64d-4033-a263-d815f30cdab8">
             <form corresp="#uuid-c78703d9-1828-4863-a2e4-73fd02cfcc56">
 <orth>悕</orth>
@@ -497,7 +513,15 @@
                 </gramGrp>
   <def>the matter of mourning</def>
             </sense>
-<sense xml:id="uuid-6424621f-91cb-48f6-a462-1f91cb98f6a6" resp="#dsehnal" tls:created="2023-05-14T19:07:53.312+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e144e5f3-6f48-434b-ad41-3e76234cca69">NP{N1adN2}</tls:syn-func><tls:sem-feat corresp="#uuid-792d0c88-0cc3-4051-85bc-a81539f27ae9">definite</tls:sem-feat></gramGrp><def>the mourning ceremony</def></sense></entry>
+<sense xml:id="uuid-6424621f-91cb-48f6-a462-1f91cb98f6a6" resp="#dsehnal" tls:created="2023-05-14T19:07:53.312+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e144e5f3-6f48-434b-ad41-3e76234cca69">NP{N1adN2}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-792d0c88-0cc3-4051-85bc-a81539f27ae9">definite</tls:sem-feat>
+                </gramGrp>
+                <def>the mourning ceremony</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-98b9059d-2e36-461b-8610-257064dea0c1">
             <form corresp="#uuid-3cdb0bd0-de97-457e-8cd5-51aaead7e6bc #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>孝子</orth>
@@ -591,6 +615,28 @@
                 </gramGrp>
   <def>mourn for the contextually determinate N</def>
             </sense>
-<sense xml:id="uuid-a21eb9c7-67a6-4a9a-8307-564ab6f7980b" resp="#CH" tls:created="2020-01-14T19:56:58.993+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func></gramGrp><def>be distressed at; mourn for</def></sense></entry>
-    <entry type="word" xml:id="uuid-4db0f7e4-9fc9-4553-b0f7-e49fc9255318" resp="#dsehnal" tls:created="2023-06-01T02:38:54.595+09:00"><form corresp="#uuid-1723183a-aea9-4aa2-9834-256911344dea #uuid-c0065aad-09d8-4ab4-9d9d-a8f7198491e9"><orth>哀悼</orth><pron xml:lang="zh-Latn-x-pinyin">āi dào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'oj dawH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɯl deewɡs</pron></form><sense xml:id="uuid-3c561ac2-a528-461d-961a-c2a528b61df1" resp="#dsehnal" tls:created="2023-06-01T02:38:54.595+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>mourn for N</def></sense></entry></div>
+<sense xml:id="uuid-a21eb9c7-67a6-4a9a-8307-564ab6f7980b" resp="#CH" tls:created="2020-01-14T19:56:58.993+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                </gramGrp>
+                <def>be distressed at; mourn for</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-4db0f7e4-9fc9-4553-b0f7-e49fc9255318" resp="#dsehnal" tls:created="2023-06-01T02:38:54.595+09:00">
+            <form corresp="#uuid-1723183a-aea9-4aa2-9834-256911344dea #uuid-c0065aad-09d8-4ab4-9d9d-a8f7198491e9">
+                <orth>哀悼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">āi dào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'oj dawH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɯl deewɡs</pron>
+            </form>
+            <sense xml:id="uuid-3c561ac2-a528-461d-961a-c2a528b61df1" resp="#dsehnal" tls:created="2023-06-01T02:38:54.595+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>mourn for N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-de8e33db-0f66-48cc-8cb8-c9c783477528">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-de8e33db-0f66-48cc-8cb8-c9c783477528">
 <head>GARMENT</head>
     <list type="altnames">
 <item>CLOTHES</item>
@@ -25,7 +26,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:26:35.969+09:00">CLOTH ARTEFACT WORN by HUMANS IN ORDER TO CAUSE THEMSELVES TO FEEL COMFORTABLE. </p></div>
+    <p resp="#CH" modified="2021-03-18T18:26:35.969+09:00">CLOTH ARTEFACT WORN by HUMANS IN ORDER TO CAUSE THEMSELVES TO FEEL COMFORTABLE. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for garments of any kind is yī 衣, and the word refers specifically to the upper garments like jackets rather than the lower garments like skirts. [HUANG 1995: 711 - 712]</p>
@@ -375,7 +377,14 @@
                 </gramGrp>
   <def>dress ceremoniously in robes, be ceremoniously dressed</def>
             </sense>
-<sense xml:id="uuid-8e9e8147-036c-448b-9e81-47036c548bdd" resp="#CH" tls:created="2022-09-04T05:53:15.048+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-02dab1c8-4289-431e-9ab1-c84289631e2d">nmpost-N</tls:syn-func></gramGrp><def>ritual garment worn in mourning for N</def></sense></entry>
+<sense xml:id="uuid-8e9e8147-036c-448b-9e81-47036c548bdd" resp="#CH" tls:created="2022-09-04T05:53:15.048+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-02dab1c8-4289-431e-9ab1-c84289631e2d">nmpost-N</tls:syn-func>
+                </gramGrp>
+                <def>ritual garment worn in mourning for N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2b5c4596-7800-4351-af93-a97573f87fcc">
             <form corresp="#uuid-b8e4b261-4efa-4136-abc3-e7ffab99730d">
 <orth>毛</orth>
@@ -440,7 +449,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-e84dd147-88fc-4bec-a809-bdb27830d4f3">
-            <form corresp="#uuid-b1bd4704-52d5-429f-bd47-0452d5a29f39"><orth>稱</orth><pron xml:lang="zh-Latn-x-pinyin">chèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-b1bd4704-52d5-429f-bd47-0452d5a29f39">
+                <orth>稱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-cf4ba511-fb20-47c1-82fa-145446510c9c">
 <gramGrp>
                     <pos>N</pos>
@@ -488,7 +502,28 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-09-02T23:31:23.113+09:00">(primarily visible, outer) garments; clothes </def>
             </sense>
-<sense xml:id="uuid-578c677b-3f0c-43f9-8542-9a652779b47a" resp="#CH" tls:created="2019-12-20T05:32:28.888+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-08T16:21:50.716+09:00">the (formal) garments of the contextually determiate N</def></sense><sense xml:id="uuid-41559f34-03a1-4606-a8d5-414d8f1a0244" resp="#CH" tls:created="2019-12-26T00:03:58.712+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>one's garments</def></sense><sense xml:id="uuid-c6b4efb7-b549-471e-b4ef-b7b549571e3e" resp="#CH" tls:created="2022-08-27T20:32:32.87+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>with clothes</def></sense></entry>
+<sense xml:id="uuid-578c677b-3f0c-43f9-8542-9a652779b47a" resp="#CH" tls:created="2019-12-20T05:32:28.888+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-08T16:21:50.716+09:00">the (formal) garments of the contextually determiate N</def>
+            </sense>
+            <sense xml:id="uuid-41559f34-03a1-4606-a8d5-414d8f1a0244" resp="#CH" tls:created="2019-12-26T00:03:58.712+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>one's garments</def>
+            </sense>
+            <sense xml:id="uuid-c6b4efb7-b549-471e-b4ef-b7b549571e3e" resp="#CH" tls:created="2022-08-27T20:32:32.87+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>with clothes</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ceb4c7d5-c534-4b30-9bce-1f29e81b43f1">
             <form corresp="#uuid-6064302c-25e2-4718-9c4b-4fdf63a6cd7b">
 <orth>表</orth>
@@ -573,7 +608,14 @@
             </form>
             <def>Qiú 裘 refers to the fur garments which is mentioned already in SHIJING. It was worn in the winter. Fur garments for the upper class were usually made of fox or tiger skin, for the lower of dog or sheep skin. [HUANG 1995: 743]
 </def>
-<sense xml:id="uuid-00cb2678-7812-4f60-8b26-787812ef60df" resp="#CH" tls:created="2023-02-23T00:59:13.061+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>elaborate garment (worn by Han emperor Wu when holding court)</def></sense></entry>
+<sense xml:id="uuid-00cb2678-7812-4f60-8b26-787812ef60df" resp="#CH" tls:created="2023-02-23T00:59:13.061+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>elaborate garment (worn by Han emperor Wu when holding court)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9a79759f-aa3d-44f4-bb01-4ad1a01671fd">
             <form corresp="#uuid-1da2c232-15c0-4dfb-9441-add4d8db151d">
 <orth>裋</orth>
@@ -640,7 +682,14 @@
                 <pron xml:lang="zh-x-oc">ɡaad</pron>
                 <pron xml:lang="zh-x-mc">ɦɑt</pron>
             </form>
-<sense xml:id="uuid-ea9a7f46-776e-41d3-9a7f-46776e61d3b4" resp="#CH" tls:created="2021-05-23T04:02:52.925+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def>coarse garments</def></sense></entry>
+<sense xml:id="uuid-ea9a7f46-776e-41d3-9a7f-46776e61d3b4" resp="#CH" tls:created="2021-05-23T04:02:52.925+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def>coarse garments</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8fb0db59-eb6e-48bd-8eed-88b15f27cf22">
             <form corresp="#uuid-4addf984-2ab9-49ab-8750-1486377feb69">
 <orth>褐</orth>
@@ -766,7 +815,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-5d803b4e-1009-4369-9722-7748fe4e2977">
-            <form corresp="#uuid-92d8bec3-a307-4652-9df1-a35ff52eff34"><orth>顈</orth><pron xml:lang="zh-Latn-x-pinyin">qiǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khwengX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷleeŋʔ</pron></form>
+            <form corresp="#uuid-92d8bec3-a307-4652-9df1-a35ff52eff34">
+                <orth>顈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khwengX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷleeŋʔ</pron>
+            </form>
             <def>jiǒng
 </def>
 <sense xml:id="uuid-a8706661-8fb4-4eaa-a4c5-371c1d3a2b90">
@@ -1261,5 +1315,114 @@
   <def>read zī zuī: respectfully wear mourning garments with hemmed sleeves LY 9.10</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1890b8c5-a7eb-430d-a083-74b482d0ddb5" resp="#CH" tls:created="2019-10-17T18:20:48.788+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-eea3e403-99fa-4de7-9627-b9e70e2bc33f" resp="#CH" tls:created="2019-10-17T18:20:48.788+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPm</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>garments generally (excluding footwear)</def></sense></entry><entry type="word" xml:id="uuid-105b97ae-a651-409a-a4a9-786093095e7f" resp="#CH" tls:created="2019-10-17T18:21:24.95+09:00"><form corresp="#uuid-a3b8a7d7-8c5a-48e4-a837-c8fa529284c9 #uuid-28e4431a-02b5-45a4-82d2-9f49e5f3b29e"><orth>冠衣</orth><pron xml:lang="zh-Latn-x-pinyin">guān yī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwan 'j+j</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koon qɯl</pron></form><sense xml:id="uuid-f563a252-3b2c-4ee8-932c-abacb52d44d4" resp="#CH" tls:created="2019-10-17T18:21:24.95+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPm</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>garments generally (excluding footwear)</def></sense></entry><entry type="word" xml:id="uuid-dab4baea-9c16-49b7-89ce-e7cd979d49b5" resp="#CH" tls:created="2019-11-06T21:57:31.272+09:00"><form corresp="#uuid-7ac2e2fe-c616-4c83-ae4f-1cca447b7b97 #uuid-28e4431a-02b5-45a4-82d2-9f49e5f3b29e"><orth>沙衣</orth><pron xml:lang="zh-Latn-x-pinyin">shà yī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sraeH 'j+j</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraals qɯl</pron></form><sense xml:id="uuid-53ec30c4-2bea-4f63-a9ea-d1f01a7a25cb" resp="#CH" tls:created="2019-11-06T21:57:31.272+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def/></sense></entry><entry type="word" xml:id="uuid-f39a5e15-a281-41fa-9a5e-15a28181fa97" resp="#CH" tls:created="2020-05-07T23:24:41.12+09:00"><form corresp="#uuid-a38aaea9-d546-43e3-ac79-3b0746e6671d #uuid-a63b151f-4428-4c32-9cf5-5055fa7dfe69"><orth>素縞</orth><pron xml:lang="zh-Latn-x-pinyin">sù gǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suH kawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saas koowʔ</pron></form><sense xml:id="uuid-ff23d173-5e35-4b87-a3d1-735e350b8745" resp="#CH" tls:created="2020-05-07T23:24:41.12+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>fine plain silk garments</def></sense></entry><entry type="word" xml:id="uuid-6b402a80-e49b-4927-802a-80e49b4927c2" resp="#CH" tls:created="2020-12-19T21:38:44.124+09:00"><form corresp="#uuid-f05378e7-1d93-40cf-9fe8-2b8d58428fa2"><orth>美</orth><pron xml:lang="zh-Latn-x-pinyin">měi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mijX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mriʔ</pron></form><sense xml:id="uuid-ba065100-3a1a-47ab-8651-003a1a97ab6c" resp="#CH" tls:created="2020-12-19T21:38:44.124+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>beautiful clothes</def></sense></entry><entry type="word" xml:id="uuid-e1591b3a-02d0-43f3-991b-3a02d063f3fd" resp="#CH" tls:created="2022-10-01T03:07:48.827+09:00"><form corresp="#uuid-266729ee-7f3b-477f-aab1-1fd68589e3c3 #uuid-73b6e4e2-147a-4ead-8d0b-386283e2a333"><orth>網羅</orth><pron xml:lang="zh-Latn-x-pinyin">wǎng luó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjangX la</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">maŋʔ b-raal</pron></form><sense xml:id="uuid-8e09d859-18b2-4b24-89d8-5918b24b2442" resp="#CH" tls:created="2022-10-01T03:07:48.827+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def>crude clothing made of netting</def></sense></entry><entry type="word" xml:id="uuid-380559ce-886e-4238-8559-ce886e32383e" resp="#zadrapa" tls:created="2023-05-17T18:44:31.549+09:00"><form corresp="#uuid-66996aa2-7349-48aa-9ddd-e3d181512f23"><orth>裷</orth><pron xml:lang="zh-Latn-x-pinyin">yuān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jwon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qon</pron></form><sense xml:id="uuid-6c2d9932-e4e8-4f05-ad99-32e4e81f0538" resp="#zadrapa" tls:created="2023-05-17T18:44:31.549+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>= gun3 袞: king's or duke's ritual garment</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1890b8c5-a7eb-430d-a083-74b482d0ddb5" resp="#CH" tls:created="2019-10-17T18:20:48.788+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-eea3e403-99fa-4de7-9627-b9e70e2bc33f" resp="#CH" tls:created="2019-10-17T18:20:48.788+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPm</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>garments generally (excluding footwear)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-105b97ae-a651-409a-a4a9-786093095e7f" resp="#CH" tls:created="2019-10-17T18:21:24.95+09:00">
+            <form corresp="#uuid-a3b8a7d7-8c5a-48e4-a837-c8fa529284c9 #uuid-28e4431a-02b5-45a4-82d2-9f49e5f3b29e">
+                <orth>冠衣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guān yī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwan 'j+j</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koon qɯl</pron>
+            </form>
+            <sense xml:id="uuid-f563a252-3b2c-4ee8-932c-abacb52d44d4" resp="#CH" tls:created="2019-10-17T18:21:24.95+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPm</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>garments generally (excluding footwear)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-dab4baea-9c16-49b7-89ce-e7cd979d49b5" resp="#CH" tls:created="2019-11-06T21:57:31.272+09:00">
+            <form corresp="#uuid-7ac2e2fe-c616-4c83-ae4f-1cca447b7b97 #uuid-28e4431a-02b5-45a4-82d2-9f49e5f3b29e">
+                <orth>沙衣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shà yī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sraeH 'j+j</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraals qɯl</pron>
+            </form>
+            <sense xml:id="uuid-53ec30c4-2bea-4f63-a9ea-d1f01a7a25cb" resp="#CH" tls:created="2019-11-06T21:57:31.272+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f39a5e15-a281-41fa-9a5e-15a28181fa97" resp="#CH" tls:created="2020-05-07T23:24:41.12+09:00">
+            <form corresp="#uuid-a38aaea9-d546-43e3-ac79-3b0746e6671d #uuid-a63b151f-4428-4c32-9cf5-5055fa7dfe69">
+                <orth>素縞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sù gǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suH kawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saas koowʔ</pron>
+            </form>
+            <sense xml:id="uuid-ff23d173-5e35-4b87-a3d1-735e350b8745" resp="#CH" tls:created="2020-05-07T23:24:41.12+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>fine plain silk garments</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6b402a80-e49b-4927-802a-80e49b4927c2" resp="#CH" tls:created="2020-12-19T21:38:44.124+09:00">
+            <form corresp="#uuid-f05378e7-1d93-40cf-9fe8-2b8d58428fa2">
+                <orth>美</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">měi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mriʔ</pron>
+            </form>
+            <sense xml:id="uuid-ba065100-3a1a-47ab-8651-003a1a97ab6c" resp="#CH" tls:created="2020-12-19T21:38:44.124+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>beautiful clothes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e1591b3a-02d0-43f3-991b-3a02d063f3fd" resp="#CH" tls:created="2022-10-01T03:07:48.827+09:00">
+            <form corresp="#uuid-266729ee-7f3b-477f-aab1-1fd68589e3c3 #uuid-73b6e4e2-147a-4ead-8d0b-386283e2a333">
+                <orth>網羅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǎng luó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjangX la</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">maŋʔ b-raal</pron>
+            </form>
+            <sense xml:id="uuid-8e09d859-18b2-4b24-89d8-5918b24b2442" resp="#CH" tls:created="2022-10-01T03:07:48.827+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def>crude clothing made of netting</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-380559ce-886e-4238-8559-ce886e32383e" resp="#zadrapa" tls:created="2023-05-17T18:44:31.549+09:00">
+            <form corresp="#uuid-66996aa2-7349-48aa-9ddd-e3d181512f23">
+                <orth>裷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jwon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qon</pron>
+            </form>
+            <sense xml:id="uuid-6c2d9932-e4e8-4f05-ad99-32e4e81f0538" resp="#zadrapa" tls:created="2023-05-17T18:44:31.549+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>= gun3 袞: king's or duke's ritual garment</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c5ff4bc7-d691-4101-a732-86b0ebb9ac9a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c5ff4bc7-d691-4101-a732-86b0ebb9ac9a">
 <head>CRIME</head>
     <list type="altnames">
 <item>OFFENSE</item>
@@ -362,7 +363,21 @@
                 </gramGrp>
   <def>deserving of the death penalty</def>
             </sense>
-<sense xml:id="uuid-eb77685b-7b15-46b0-bb38-83e06c33cb00" resp="#dsehnal" tls:created="2019-12-05T19:01:42.346+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2019-12-10T22:09:34.469+09:00">crime deserving death</def></sense><sense xml:id="uuid-086aa52e-e304-424e-aaa5-2ee304b24e7b" resp="#CH" tls:created="2020-04-08T01:28:30.206+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func></gramGrp><def>be a matter of death, be cases of the death penalty</def></sense></entry>
+<sense xml:id="uuid-eb77685b-7b15-46b0-bb38-83e06c33cb00" resp="#dsehnal" tls:created="2019-12-05T19:01:42.346+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2019-12-10T22:09:34.469+09:00">crime deserving death</def>
+            </sense>
+            <sense xml:id="uuid-086aa52e-e304-424e-aaa5-2ee304b24e7b" resp="#CH" tls:created="2020-04-08T01:28:30.206+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be a matter of death, be cases of the death penalty</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c964b3c7-87ae-4519-a9b6-ca5791b4f65f">
             <form corresp="#uuid-a4117d9b-4d8e-4d5b-b4a8-b56264ab2121">
 <orth>爽</orth>
@@ -471,7 +486,36 @@
                 </gramGrp>
   <def>be criminal; be a criminal offence</def>
             </sense>
-<sense xml:id="uuid-3ec0758e-7de3-4c77-ba84-fda57683e9d4" resp="#CH" tls:created="2019-12-05T21:51:09.522+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>by criminal means</def></sense><sense xml:id="uuid-c2731508-4ab4-4d72-9e6f-4c7204bc6c23" resp="#dsehnal" tls:created="2020-01-08T05:16:49.954+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt+V/N</tls:syn-func></gramGrp><def>commit a crime sanctioned with V/N (cf: 有罪當刖)</def></sense><sense xml:id="uuid-e590cc22-d6ec-48bd-a665-cbd06405974e" resp="#CH" tls:created="2019-12-10T07:09:10.593+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>injustice (also from superiors!)</def></sense><sense xml:id="uuid-3b0f92a6-1566-4bfa-8f92-a61566bbfaa5" resp="#CH" tls:created="2020-03-31T21:09:30.645+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def resp="#CH" updated="2020-03-31T21:11:12.948+09:00">crime or fault of N</def></sense></entry>
+<sense xml:id="uuid-3ec0758e-7de3-4c77-ba84-fda57683e9d4" resp="#CH" tls:created="2019-12-05T21:51:09.522+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>by criminal means</def>
+            </sense>
+            <sense xml:id="uuid-c2731508-4ab4-4d72-9e6f-4c7204bc6c23" resp="#dsehnal" tls:created="2020-01-08T05:16:49.954+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt+V/N</tls:syn-func>
+                </gramGrp>
+                <def>commit a crime sanctioned with V/N (cf: 有罪當刖)</def>
+            </sense>
+            <sense xml:id="uuid-e590cc22-d6ec-48bd-a665-cbd06405974e" resp="#CH" tls:created="2019-12-10T07:09:10.593+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>injustice (also from superiors!)</def>
+            </sense>
+            <sense xml:id="uuid-3b0f92a6-1566-4bfa-8f92-a61566bbfaa5" resp="#CH" tls:created="2020-03-31T21:09:30.645+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-03-31T21:11:12.948+09:00">crime or fault of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1b2382ba-0b3c-448e-b6ff-f8f48bdca914">
             <form corresp="#uuid-3139f0f4-7da9-4541-afd4-6a412a0a7304">
 <orth>越</orth>
@@ -543,7 +587,14 @@
                 </gramGrp>
   <def>commit an offense, make a mistake</def>
             </sense>
-<sense xml:id="uuid-0e7d0808-0588-4750-bd08-08058867502a" resp="#CH" tls:created="2022-09-18T23:59:51.732+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>crime</def></sense></entry>
+<sense xml:id="uuid-0e7d0808-0588-4750-bd08-08058867502a" resp="#CH" tls:created="2022-09-18T23:59:51.732+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>crime</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f664dc41-b92f-47e4-aef6-5da544f2c1a7">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-c0d2d017-237c-4c27-bd66-59487a915c7b">
 <orth>不典</orth>
@@ -582,7 +633,15 @@
                 </gramGrp>
   <def>commit an act of lack of filial piety</def>
             </sense>
-<sense xml:id="uuid-2e5a41f8-d5f2-4c14-9a41-f8d5f2ec1438" resp="#CH" tls:created="2020-06-30T18:55:18.584+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>someone guilty of the crime of failing to practice filial piety</def></sense></entry>
+<sense xml:id="uuid-2e5a41f8-d5f2-4c14-9a41-f8d5f2ec1438" resp="#CH" tls:created="2020-06-30T18:55:18.584+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>someone guilty of the crime of failing to practice filial piety</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b52309ad-bbfa-49d9-b763-d13f11ed1bc0">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e">
 <orth>不法</orth>
@@ -654,7 +713,15 @@
                 </gramGrp>
   <def>criminal behaviour</def>
             </sense>
-<sense xml:id="uuid-473616ed-ec0e-474f-b616-edec0e374fa0" resp="#dsehnal" tls:created="2024-05-18T19:11:20.413+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-a4240ef2-72d2-41ff-a40e-f272d211ffd2">generic, plural</tls:sem-feat></gramGrp><def>criminals of various kinds</def></sense></entry>
+<sense xml:id="uuid-473616ed-ec0e-474f-b616-edec0e374fa0" resp="#dsehnal" tls:created="2024-05-18T19:11:20.413+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a4240ef2-72d2-41ff-a40e-f272d211ffd2">generic, plural</tls:sem-feat>
+                </gramGrp>
+                <def>criminals of various kinds</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fa884fad-2f87-4285-8871-6ff50d5a81cf">
             <form corresp="#uuid-2c417ac0-36e9-4908-a0d2-c568d00ceb43 #uuid-66c1ca5c-9192-4fcd-961b-cc92e08d8c95">
 <orth>戕敗</orth>
@@ -846,5 +913,35 @@
   <def>bad mistake, crime</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5f6cffa8-80b7-4e5d-acff-a880b71e5d3e" resp="#CH" tls:created="2020-05-12T16:48:43.638+09:00"><form corresp="#uuid-9bd61217-cdd9-4c58-adb9-c0eeeae91131"><orth>辠</orth><pron xml:lang="zh-Latn-x-pinyin">zuì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sbuulʔ</pron></form><sense xml:id="uuid-3f3f8da4-33a3-49aa-bf8d-a433a3b9aaf8" resp="#CH" tls:created="2020-05-12T16:48:43.638+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>=罪　crime; guilt</def></sense></entry><entry type="word" xml:id="uuid-4d3948d9-96a6-471a-b948-d996a6d71afc" resp="#CH" tls:created="2022-08-26T20:54:00.442+09:00"><form corresp="#uuid-10a01e52-79e7-4ea4-a62c-a4582670745e #uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734"><orth>犯禁</orth><pron xml:lang="zh-Latn-x-pinyin">fàn jìn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjomX kimH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bomʔ krɯms</pron></form><sense xml:id="uuid-1421965c-2d41-488f-a196-5c2d41288f06" resp="#CH" tls:created="2022-08-26T20:54:00.442+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>offender against prohibitions</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5f6cffa8-80b7-4e5d-acff-a880b71e5d3e" resp="#CH" tls:created="2020-05-12T16:48:43.638+09:00">
+            <form corresp="#uuid-9bd61217-cdd9-4c58-adb9-c0eeeae91131">
+                <orth>辠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sbuulʔ</pron>
+            </form>
+            <sense xml:id="uuid-3f3f8da4-33a3-49aa-bf8d-a433a3b9aaf8" resp="#CH" tls:created="2020-05-12T16:48:43.638+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>=罪　crime; guilt</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4d3948d9-96a6-471a-b948-d996a6d71afc" resp="#CH" tls:created="2022-08-26T20:54:00.442+09:00">
+            <form corresp="#uuid-10a01e52-79e7-4ea4-a62c-a4582670745e #uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734">
+                <orth>犯禁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fàn jìn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjomX kimH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bomʔ krɯms</pron>
+            </form>
+            <sense xml:id="uuid-1421965c-2d41-488f-a196-5c2d41288f06" resp="#CH" tls:created="2022-08-26T20:54:00.442+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>offender against prohibitions</def>
+            </sense>
+        </entry>
+    </div>
 </div>

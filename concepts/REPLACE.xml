@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e7f93319-7a2e-4d9b-8d33-566b0c0ca60d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e7f93319-7a2e-4d9b-8d33-566b0c0ca60d">
 <head>REPLACE</head>
     <list type="translations">
         <item xml:lang="zh">代替</item>
@@ -141,7 +142,14 @@
                 </gramGrp>
   <def>replace (something N1) by  (something else N2)</def>
             </sense>
-<sense xml:id="uuid-3914497a-02ec-4506-9449-7a02ecb50698" resp="#CH" tls:created="2022-09-16T06:09:06.97+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>replacing each other</def></sense></entry>
+<sense xml:id="uuid-3914497a-02ec-4506-9449-7a02ecb50698" resp="#CH" tls:created="2022-09-16T06:09:06.97+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>replacing each other</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2588fde8-7734-4613-af40-c6035bf549ab">
             <form corresp="#uuid-a90e37dd-8aee-4c17-a79a-3c75649477b3">
 <orth>攝</orth>
@@ -345,5 +353,36 @@
   <def>replace</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-58849999-3041-4abd-8499-9930416abd6b" resp="#zadrapa" tls:created="2021-05-13T19:54:51.493+09:00"><form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce #uuid-a90e37dd-8aee-4c17-a79a-3c75649477b3"><orth>假攝</orth><pron xml:lang="zh-Latn-x-pinyin">jiǎ shè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaeX syep</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraaʔ qhljeb</pron></form><sense xml:id="uuid-fae2ffe6-a02e-441e-a2ff-e6a02e741eb3" resp="#zadrapa" tls:created="2021-05-13T19:54:51.493+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>acting as a surrogate, governing thr state as a substitute for the legitimate ruler</def></sense></entry><entry type="word" xml:id="uuid-bdddb4ff-ae7b-402d-9db4-ffae7bf02d3e" resp="#CH" tls:created="2022-09-14T21:28:24.316+09:00"><form corresp="#uuid-7daf93de-93a9-4c26-9df2-256bdb972fde"><orth>紿</orth><pron xml:lang="zh-Latn-x-pinyin">dài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lɯɯʔ</pron></form><sense xml:id="uuid-cbf9da3c-3b4d-4c6b-b9da-3c3b4dfc6ba8" resp="#CH" tls:created="2022-09-14T21:28:24.316+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func></gramGrp><def>=代 replacing the contextually determiate N&gt; instead</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-58849999-3041-4abd-8499-9930416abd6b" resp="#zadrapa" tls:created="2021-05-13T19:54:51.493+09:00">
+            <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce #uuid-a90e37dd-8aee-4c17-a79a-3c75649477b3">
+                <orth>假攝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiǎ shè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaeX syep</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraaʔ qhljeb</pron>
+            </form>
+            <sense xml:id="uuid-fae2ffe6-a02e-441e-a2ff-e6a02e741eb3" resp="#zadrapa" tls:created="2021-05-13T19:54:51.493+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>acting as a surrogate, governing thr state as a substitute for the legitimate ruler</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bdddb4ff-ae7b-402d-9db4-ffae7bf02d3e" resp="#CH" tls:created="2022-09-14T21:28:24.316+09:00">
+            <form corresp="#uuid-7daf93de-93a9-4c26-9df2-256bdb972fde">
+                <orth>紿</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-cbf9da3c-3b4d-4c6b-b9da-3c3b4dfc6ba8" resp="#CH" tls:created="2022-09-14T21:28:24.316+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func>
+                </gramGrp>
+                <def>=代 replacing the contextually determiate N&gt; instead</def>
+            </sense>
+        </entry>
+    </div>
 </div>

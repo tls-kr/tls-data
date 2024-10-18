@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb7c9367-3450-498c-abd8-0214184d6428">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb7c9367-3450-498c-abd8-0214184d6428">
 <head>BOAST</head>
     <list type="altnames">
 <item>BRAG</item>
@@ -316,7 +317,22 @@
                 </gramGrp>
   <def>boast about (oneself)</def>
             </sense>
-<sense xml:id="uuid-dbcd5e1e-0c84-4e86-ba88-32700a9abb39" resp="#CH" tls:created="2019-12-05T21:57:02.039+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp><def>brag about oneself</def></sense><sense xml:id="uuid-4487e1da-8d0b-42be-87e1-da8d0b42becf" resp="#dsehnal" tls:created="2024-05-18T23:36:24.215+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>boast in front of N1 about N2</def></sense></entry>
+<sense xml:id="uuid-dbcd5e1e-0c84-4e86-ba88-32700a9abb39" resp="#CH" tls:created="2019-12-05T21:57:02.039+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
+                <def>brag about oneself</def>
+            </sense>
+            <sense xml:id="uuid-4487e1da-8d0b-42be-87e1-da8d0b42becf" resp="#dsehnal" tls:created="2024-05-18T23:36:24.215+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>boast in front of N1 about N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c4e86559-386a-4609-98f5-59f9179f82b7">
             <form corresp="#uuid-ebc23501-71bc-4ebc-b283-675e0413cb5f">
 <orth>衒</orth>
@@ -446,7 +462,22 @@
   <def>be full of boatful lies</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ef64da40-84d9-45ba-9712-a3e75e0ba3bf" resp="#CH" tls:created="2019-11-26T00:05:15.804+09:00"><form corresp="#uuid-525d3fc0-05e3-4a7d-afbb-70d0bded2390"><orth>姱</orth><pron xml:lang="zh-Latn-x-pinyin">kuā</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khwae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷraa</pron></form><sense xml:id="uuid-7297a73b-3c11-46f4-a116-9b1c23dba03f" resp="#CH" tls:created="2019-11-26T00:05:15.804+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>=誇 boast about</def></sense></entry><entry type="word" xml:id="uuid-2c66d03e-a8eb-4d52-a40f-8bf023457151">
+    <entry type="word" xml:id="uuid-ef64da40-84d9-45ba-9712-a3e75e0ba3bf" resp="#CH" tls:created="2019-11-26T00:05:15.804+09:00">
+            <form corresp="#uuid-525d3fc0-05e3-4a7d-afbb-70d0bded2390">
+                <orth>姱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kuā</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khwae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷraa</pron>
+            </form>
+            <sense xml:id="uuid-7297a73b-3c11-46f4-a116-9b1c23dba03f" resp="#CH" tls:created="2019-11-26T00:05:15.804+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>=誇 boast about</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2c66d03e-a8eb-4d52-a40f-8bf023457151">
             <form corresp="#uuid-edfa287b-0941-4528-a8e2-60d62f161731">
 <orth>尚</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">shàng</pron>
@@ -460,7 +491,8 @@
                 </gramGrp>
   <def>brag about</def>
             </sense>
-</entry><entry type="word" xml:id="uuid-563152f5-7f71-4044-819b-6e813c11be3a">
+</entry>
+        <entry type="word" xml:id="uuid-563152f5-7f71-4044-819b-6e813c11be3a">
             <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8">
 <orth>大</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">dà</pron>
@@ -474,5 +506,73 @@
                 </gramGrp>
   <def>make big words about, brag about</def>
             </sense>
-</entry><entry type="word" xml:id="uuid-235a6da2-d7e0-4aa2-a1ee-bdf274332b0c" resp="#CH" tls:created="2019-12-05T21:55:30.853+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-a721c73d-0778-44b3-8630-d1262807e111"><orth>自矜</orth><pron xml:lang="zh-Latn-x-pinyin">zì jīn jīng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH king</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids klɯŋ</pron></form><sense xml:id="uuid-678e7a89-0c4a-415a-9c0b-23865645766e" resp="#CH" tls:created="2019-12-05T21:55:30.853+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>brag about the contextually determinate thing</def></sense></entry><entry type="word" xml:id="uuid-d7c9a4ee-705e-49c0-89a4-ee705ec9c0c2" resp="#twharbsmeier" tls:created="2020-04-13T00:14:17.94+09:00"><form corresp="#uuid-e64914f7-f151-4728-9534-4133148523de"><orth>奮</orth><pron xml:lang="zh-Latn-x-pinyin">fèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjunH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯns</pron></form><sense xml:id="uuid-e538ef6e-288a-4709-b8ef-6e288a570965" resp="#twharbsmeier" tls:created="2020-04-13T00:14:17.94+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-21T20:29:56.572+09:00">brag, boast about; proudly display</def></sense><sense xml:id="uuid-c9b2390d-9608-4f82-b239-0d9608af8238" resp="#CH" tls:created="2022-09-21T20:32:04.879+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>proudly display</def></sense></entry><entry type="word" xml:id="uuid-ab340dce-83e2-4d5f-b40d-ce83e23d5fdb" resp="#CH" tls:created="2021-06-02T23:42:31.451+09:00"><form corresp="#訑:dàn"><orth>訑</orth><pron xml:lang="zh-Latn-x-pinyin">dàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-bde1e811-1ecd-4c75-a1e8-111ecd3c75aa" resp="#CH" tls:created="2021-06-02T23:42:31.451+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be boastful</def></sense></entry><entry type="word" xml:id="uuid-a309a1fe-6e29-4b14-89a1-fe6e295b14c5" resp="#CH" tls:created="2021-06-14T22:37:42.312+09:00"><form corresp="#uuid-66689b87-4fb1-42cc-a89b-874fb142cc38"><orth>敖</orth><pron xml:lang="zh-Latn-x-pinyin">ào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-a9869508-a2d6-4d86-8695-08a2d63d8673" resp="#CH" tls:created="2021-06-14T22:37:42.312+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>=傲 be boastful with, be exhibitionist to</def></sense></entry></div>
+</entry>
+        <entry type="word" xml:id="uuid-235a6da2-d7e0-4aa2-a1ee-bdf274332b0c" resp="#CH" tls:created="2019-12-05T21:55:30.853+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-a721c73d-0778-44b3-8630-d1262807e111">
+                <orth>自矜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì jīn jīng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH king</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids klɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-678e7a89-0c4a-415a-9c0b-23865645766e" resp="#CH" tls:created="2019-12-05T21:55:30.853+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>brag about the contextually determinate thing</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d7c9a4ee-705e-49c0-89a4-ee705ec9c0c2" resp="#twharbsmeier" tls:created="2020-04-13T00:14:17.94+09:00">
+            <form corresp="#uuid-e64914f7-f151-4728-9534-4133148523de">
+                <orth>奮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjunH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯns</pron>
+            </form>
+            <sense xml:id="uuid-e538ef6e-288a-4709-b8ef-6e288a570965" resp="#twharbsmeier" tls:created="2020-04-13T00:14:17.94+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-21T20:29:56.572+09:00">brag, boast about; proudly display</def>
+            </sense>
+            <sense xml:id="uuid-c9b2390d-9608-4f82-b239-0d9608af8238" resp="#CH" tls:created="2022-09-21T20:32:04.879+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>proudly display</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ab340dce-83e2-4d5f-b40d-ce83e23d5fdb" resp="#CH" tls:created="2021-06-02T23:42:31.451+09:00">
+            <form corresp="#訑:dàn">
+                <orth>訑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-bde1e811-1ecd-4c75-a1e8-111ecd3c75aa" resp="#CH" tls:created="2021-06-02T23:42:31.451+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be boastful</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a309a1fe-6e29-4b14-89a1-fe6e295b14c5" resp="#CH" tls:created="2021-06-14T22:37:42.312+09:00">
+            <form corresp="#uuid-66689b87-4fb1-42cc-a89b-874fb142cc38">
+                <orth>敖</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-a9869508-a2d6-4d86-8695-08a2d63d8673" resp="#CH" tls:created="2021-06-14T22:37:42.312+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>=傲 be boastful with, be exhibitionist to</def>
+            </sense>
+        </entry>
+    </div>
 </div>

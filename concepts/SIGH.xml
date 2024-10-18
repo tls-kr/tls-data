@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8e70688d-527b-47e0-baa0-aeb5106a05ce">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8e70688d-527b-47e0-baa0-aeb5106a05ce">
 <head>SIGH</head>
     <list type="altnames">
 <item>BREATHE OUT</item>
@@ -301,7 +302,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-b071e947-17a8-4254-a7ce-42cc5d2016d7">
-            <form corresp="#uuid-c5e319eb-c8b7-476f-8a2d-a6a766098566"><orth>歎</orth><pron xml:lang="zh-Latn-x-pinyin">tàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mqhlaans</pron></form>
+            <form corresp="#uuid-c5e319eb-c8b7-476f-8a2d-a6a766098566">
+                <orth>歎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mqhlaans</pron>
+            </form>
             <def>The current general word for any kind of sigh or groan is tàn 歎.
 </def>
             <form corresp="#uuid-adcb0851-7868-41d8-9ef9-a092e6cdbd06">
@@ -355,7 +361,29 @@
                 </gramGrp>
   <def>sigh; sighs; sighing</def>
             </sense>
-<sense xml:id="uuid-4b5efa35-118a-4e7f-a637-1e8ae6e2de50" resp="#CH" tls:created="2019-11-28T23:33:12.756+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-02-04T18:13:07.037+09:00">sigh disapprovingly, giving up on N</def></sense><sense xml:id="uuid-3f73d3a8-b8b3-41c2-93aa-ec726cc5c0f5" resp="#CH" tls:created="2020-02-06T23:00:49.327+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>start to sigh</def></sense><sense xml:id="uuid-f524001f-4fbb-4ca7-a400-1f4fbb6ca7c2" resp="#CH" tls:created="2020-02-12T19:29:53.077+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>chime in with an operatic sigh</def></sense></entry>
+<sense xml:id="uuid-4b5efa35-118a-4e7f-a637-1e8ae6e2de50" resp="#CH" tls:created="2019-11-28T23:33:12.756+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-02-04T18:13:07.037+09:00">sigh disapprovingly, giving up on N</def>
+            </sense>
+            <sense xml:id="uuid-3f73d3a8-b8b3-41c2-93aa-ec726cc5c0f5" resp="#CH" tls:created="2020-02-06T23:00:49.327+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>start to sigh</def>
+            </sense>
+            <sense xml:id="uuid-f524001f-4fbb-4ca7-a400-1f4fbb6ca7c2" resp="#CH" tls:created="2020-02-12T19:29:53.077+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>chime in with an operatic sigh</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2d58b9bc-4e60-4d02-8787-649ced16efca">
             <form corresp="#uuid-7df10ce4-577a-40e1-bc31-f381b17c3f64">
 <orth>噫</orth>
@@ -491,7 +519,21 @@
                 </gramGrp>
   <def>sighs</def>
             </sense>
-<sense xml:id="uuid-a923fc98-9355-4ef1-8de4-550aa28d9a73" resp="#CH" tls:created="2019-11-08T01:08:32.106+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c35ebad5-7bd1-451f-b0ae-227e76c4ab91">vi-P.adV</tls:syn-func></gramGrp><def>with a sigh</def></sense><sense xml:id="uuid-d3109a15-d05c-43ba-ba00-3cfd2a840304" resp="#CH" tls:created="2020-02-04T19:25:19.92+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadV</tls:syn-func></gramGrp><def>with a groaning sigh</def></sense></entry>
+<sense xml:id="uuid-a923fc98-9355-4ef1-8de4-550aa28d9a73" resp="#CH" tls:created="2019-11-08T01:08:32.106+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c35ebad5-7bd1-451f-b0ae-227e76c4ab91">vi-P.adV</tls:syn-func>
+                </gramGrp>
+                <def>with a sigh</def>
+            </sense>
+            <sense xml:id="uuid-d3109a15-d05c-43ba-ba00-3cfd2a840304" resp="#CH" tls:created="2020-02-04T19:25:19.92+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadV</tls:syn-func>
+                </gramGrp>
+                <def>with a groaning sigh</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-496046cc-7a9e-4e6d-a598-249a11e7dbee">
             <form corresp="#uuid-467a6020-0f53-41c7-a172-0d6be6c63fdc">
 <orth>欷</orth>
@@ -822,5 +864,37 @@
   <def>be tearful and full of sighs</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0fc20965-2309-46af-8209-65230956afaf"><form corresp="#uuid-894c897b-a2bd-4c14-8c89-7ba2bd1c14dc"><orth>意</orth><pron xml:lang="zh-Latn-x-pinyin">yī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><def/><sense xml:id="uuid-c6bc7fa7-c8d5-481e-bc7f-a7c8d5f81e24" resp="#CH" tls:created="2021-03-05T01:09:43.219+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ffb1ffa-d762-4cb0-bdf0-ac5f55be25b9">padS</tls:syn-func></gramGrp><def>Alas! ...</def></sense></entry><entry type="word" xml:id="uuid-2540f8f3-0e03-479d-80f8-f30e03879dcd" resp="#CH" tls:created="2024-06-19T18:42:49.601+09:00"><form corresp="#uuid-529df314-aa12-4c0b-9946-f825c6763ed6"><orth>噓</orth><pron xml:lang="zh-Latn-x-pinyin">xù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhlas</pron></form><sense xml:id="uuid-eff7b258-bf88-4f44-b7b2-58bf88ff44a0" resp="#CH" tls:created="2024-06-19T18:42:49.601+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>sigh</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0fc20965-2309-46af-8209-65230956afaf">
+            <form corresp="#uuid-894c897b-a2bd-4c14-8c89-7ba2bd1c14dc">
+                <orth>意</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-c6bc7fa7-c8d5-481e-bc7f-a7c8d5f81e24" resp="#CH" tls:created="2021-03-05T01:09:43.219+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ffb1ffa-d762-4cb0-bdf0-ac5f55be25b9">padS</tls:syn-func>
+                </gramGrp>
+                <def>Alas! ...</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2540f8f3-0e03-479d-80f8-f30e03879dcd" resp="#CH" tls:created="2024-06-19T18:42:49.601+09:00">
+            <form corresp="#uuid-529df314-aa12-4c0b-9946-f825c6763ed6">
+                <orth>噓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhlas</pron>
+            </form>
+            <sense xml:id="uuid-eff7b258-bf88-4f44-b7b2-58bf88ff44a0" resp="#CH" tls:created="2024-06-19T18:42:49.601+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>sigh</def>
+            </sense>
+        </entry>
+    </div>
 </div>

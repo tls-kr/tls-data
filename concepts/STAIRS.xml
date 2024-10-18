@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-07178f82-5672-4502-9797-85c0c58d141b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-07178f82-5672-4502-9797-85c0c58d141b">
 <head>STAIRS</head>
     <list type="altnames">
 <item>STAIRCASE</item>
@@ -98,7 +99,14 @@
                 </gramGrp>
   <def>step (on stairs)</def>
             </sense>
-<sense xml:id="uuid-d8fd9153-8dfd-4752-9453-7ee45be7bd98" resp="#CH" tls:created="2020-01-13T04:43:10.677+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a7cbeb37-6dac-432f-b9d2-dc9ac1b862b5">npost-V{NUM}.postadV</tls:syn-func></gramGrp><def>by one step, to the extent of one step</def></sense></entry>
+<sense xml:id="uuid-d8fd9153-8dfd-4752-9453-7ee45be7bd98" resp="#CH" tls:created="2020-01-13T04:43:10.677+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a7cbeb37-6dac-432f-b9d2-dc9ac1b862b5">npost-V{NUM}.postadV</tls:syn-func>
+                </gramGrp>
+                <def>by one step, to the extent of one step</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f1ff1433-bcea-417d-844a-d495f326ac6d">
             <form corresp="#uuid-1dfb5d1a-a0cd-4690-893d-cb48936ebb29">
 <orth>級</orth>
@@ -271,5 +279,20 @@
   <def>"stairs" GY: 夫婚姻禍福之階也</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-95d129e3-7fab-4d28-9129-e37fab8d2806" resp="#dsehnal" tls:created="2020-05-01T12:38:06.801+09:00"><form corresp="#uuid-7f142660-483d-498a-8b4e-fa148d323dcc #uuid-9c200665-faf0-4c10-a92d-2033ca6a3c3d"><orth>階陛</orth><pron xml:lang="zh-Latn-x-pinyin">jiē bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keaj bejX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kriid biiʔ</pron></form><sense xml:id="uuid-c4eb4a42-ec27-43dc-ab4a-42ec2733dcef" resp="#dsehnal" tls:created="2020-05-01T12:38:06.801+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>stairway at the main door</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-95d129e3-7fab-4d28-9129-e37fab8d2806" resp="#dsehnal" tls:created="2020-05-01T12:38:06.801+09:00">
+            <form corresp="#uuid-7f142660-483d-498a-8b4e-fa148d323dcc #uuid-9c200665-faf0-4c10-a92d-2033ca6a3c3d">
+                <orth>階陛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiē bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keaj bejX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kriid biiʔ</pron>
+            </form>
+            <sense xml:id="uuid-c4eb4a42-ec27-43dc-ab4a-42ec2733dcef" resp="#dsehnal" tls:created="2020-05-01T12:38:06.801+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>stairway at the main door</def>
+            </sense>
+        </entry>
+    </div>
 </div>

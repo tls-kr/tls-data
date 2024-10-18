@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3d4e3af4-36fc-41b2-b732-dd9721af4325">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3d4e3af4-36fc-41b2-b732-dd9721af4325">
 <head>BIND</head>
     <list type="altnames">
 <item>TIE (UP)</item>
@@ -209,7 +210,14 @@
                 </gramGrp>
   <def>show self-control</def>
             </sense>
-<sense xml:id="uuid-2fe03b5e-2be3-4021-a03b-5e2be38021e9" resp="#zadrapa" tls:created="2020-12-16T06:04:40.047+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>tied</def></sense></entry>
+<sense xml:id="uuid-2fe03b5e-2be3-4021-a03b-5e2be38021e9" resp="#zadrapa" tls:created="2020-12-16T06:04:40.047+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>tied</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9f714e41-05e6-4ba3-ac67-2df851efec18">
             <form corresp="#uuid-cc0771ab-41e5-4e2d-839d-3ca5f4a30127">
 <orth>束</orth>
@@ -442,7 +450,15 @@
                 </gramGrp>
   <def>bind, solidify ZTJ: 結性成心</def>
             </sense>
-<sense xml:id="uuid-9652b3a9-c5e7-4081-92b3-a9c5e7708117" resp="#dsehnal" tls:created="2023-07-08T17:42:20.473+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be tied up for an N period of time</def></sense></entry>
+<sense xml:id="uuid-9652b3a9-c5e7-4081-92b3-a9c5e7708117" resp="#dsehnal" tls:created="2023-07-08T17:42:20.473+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be tied up for an N period of time</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-76315908-b7b9-4801-b23d-e2c7c29415fc">
             <form corresp="#uuid-cd73dc35-7322-425b-8161-36b63618d82d">
 <orth>維</orth>
@@ -599,7 +615,14 @@
                 </gramGrp>
   <def>with hands tied behind one's back</def>
             </sense>
-<sense xml:id="uuid-deb495cf-19fa-4fb6-b495-cf19faafb68c" resp="#dsehnal" tls:created="2023-05-09T01:04:29.045+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>have N1 tied and bring it to N2</def></sense></entry>
+<sense xml:id="uuid-deb495cf-19fa-4fb6-b495-cf19faafb68c" resp="#dsehnal" tls:created="2023-05-09T01:04:29.045+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>have N1 tied and bring it to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c98676c3-d1bb-41eb-87af-7fc9f0c453c4">
             <form corresp="#uuid-1ef43cd8-4728-42da-857c-72fb859969e7">
 <orth>縈</orth>
@@ -901,7 +924,15 @@
                 </gramGrp>
   <def>get tied up</def>
             </sense>
-<sense xml:id="uuid-fd7a6562-582b-4771-bbca-b713f2bf6eea" resp="#CH" tls:created="2019-12-05T05:00:15.981+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-1bc3eeae-3fbd-4070-b8a7-a17f08f597bb">figurative</tls:sem-feat></gramGrp><def>put in fetters</def></sense></entry>
+<sense xml:id="uuid-fd7a6562-582b-4771-bbca-b713f2bf6eea" resp="#CH" tls:created="2019-12-05T05:00:15.981+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1bc3eeae-3fbd-4070-b8a7-a17f08f597bb">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>put in fetters</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-24d13aa2-9a55-40e5-9f44-12d0f518543b">
             <form corresp="#uuid-ad7b6fad-449b-44c4-8c92-27a1088a8b53 #uuid-cc0771ab-41e5-4e2d-839d-3ca5f4a30127">
 <orth>紳束</orth>
@@ -973,5 +1004,21 @@
   <def>be tied up, fettered by N</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9e1694a0-9466-423a-9694-a09466023a38" resp="#CH" tls:created="2021-03-05T08:26:46.714+09:00"><form corresp="#uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2 #uuid-cc0771ab-41e5-4e2d-839d-3ca5f4a30127"><orth>約束</orth><pron xml:lang="zh-Latn-x-pinyin">yuē shù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jak syowk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qplewɡ lʰoɡ</pron></form><sense xml:id="uuid-063b52b9-153c-4c32-bb52-b9153cac3202" resp="#CH" tls:created="2021-03-05T08:26:46.714+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be tied together</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9e1694a0-9466-423a-9694-a09466023a38" resp="#CH" tls:created="2021-03-05T08:26:46.714+09:00">
+            <form corresp="#uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2 #uuid-cc0771ab-41e5-4e2d-839d-3ca5f4a30127">
+                <orth>約束</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuē shù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jak syowk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qplewɡ lʰoɡ</pron>
+            </form>
+            <sense xml:id="uuid-063b52b9-153c-4c32-bb52-b9153cac3202" resp="#CH" tls:created="2021-03-05T08:26:46.714+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be tied together</def>
+            </sense>
+        </entry>
+    </div>
 </div>

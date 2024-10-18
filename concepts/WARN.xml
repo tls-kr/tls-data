@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-424050ec-c869-417d-9ed5-12be62e558e9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-424050ec-c869-417d-9ed5-12be62e558e9">
 <head>WARN</head>
     <list type="altnames">
 <item>NOTIFY</item>
@@ -227,7 +228,21 @@
                 </gramGrp>
   <def>give admonisments concerning (behaviour, thoughts etc)</def>
             </sense>
-<sense xml:id="uuid-6079fb86-1dcb-41d5-b9fb-861dcba1d502" resp="#CH" tls:created="2021-05-13T17:30:07.403+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>tip off N about a possible or imminent danger</def></sense><sense xml:id="uuid-3efaef1b-e00b-40b9-baef-1be00b90b9f0" resp="#dsehnal" tls:created="2023-04-30T00:39:17.718+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>perform a warning; warn people</def></sense></entry>
+<sense xml:id="uuid-6079fb86-1dcb-41d5-b9fb-861dcba1d502" resp="#CH" tls:created="2021-05-13T17:30:07.403+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>tip off N about a possible or imminent danger</def>
+            </sense>
+            <sense xml:id="uuid-3efaef1b-e00b-40b9-baef-1be00b90b9f0" resp="#dsehnal" tls:created="2023-04-30T00:39:17.718+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>perform a warning; warn people</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e3d8c4bb-3152-4ca5-a3ab-ba7c83b3eca1">
             <form corresp="#uuid-b5eb5319-0e29-4b3f-ba4b-adeaad857be6">
 <orth>箴</orth>
@@ -340,5 +355,36 @@
   <def>make a warning report to</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3cdf996b-1680-4dd0-9f99-6b16801dd07a" resp="#zadrapa" tls:created="2020-05-21T04:38:20.539+09:00"><form corresp="#uuid-6af177e6-a918-487a-a526-ea01d574433b"><orth>炤</orth><pron xml:lang="zh-Latn-x-pinyin">zhào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyewH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljews</pron></form><sense xml:id="uuid-18a7ae8f-159a-484c-a7ae-8f159a284c1b" resp="#zadrapa" tls:created="2020-05-21T04:38:20.539+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>teach N a lesson, thus enlightening N</def></sense></entry><entry type="word" xml:id="uuid-180a6465-1248-4833-8a64-651248783348" resp="#CH" tls:created="2020-06-04T02:19:12.529+09:00"><form corresp="#uuid-28cebefe-6002-4e57-9a50-ea7a808e8082 #uuid-b35a3dad-a45f-479f-a205-626b9ae7f802"><orth>警戒</orth><pron xml:lang="zh-Latn-x-pinyin">jǐng jiè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjaengX keajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreŋʔ krɯɯɡs</pron></form><sense xml:id="uuid-993bac66-02ae-465d-bbac-6602ae365d72" resp="#CH" tls:created="2020-06-04T02:19:12.529+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be alerted and on one's guard</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-3cdf996b-1680-4dd0-9f99-6b16801dd07a" resp="#zadrapa" tls:created="2020-05-21T04:38:20.539+09:00">
+            <form corresp="#uuid-6af177e6-a918-487a-a526-ea01d574433b">
+                <orth>炤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyewH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljews</pron>
+            </form>
+            <sense xml:id="uuid-18a7ae8f-159a-484c-a7ae-8f159a284c1b" resp="#zadrapa" tls:created="2020-05-21T04:38:20.539+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>teach N a lesson, thus enlightening N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-180a6465-1248-4833-8a64-651248783348" resp="#CH" tls:created="2020-06-04T02:19:12.529+09:00">
+            <form corresp="#uuid-28cebefe-6002-4e57-9a50-ea7a808e8082 #uuid-b35a3dad-a45f-479f-a205-626b9ae7f802">
+                <orth>警戒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jǐng jiè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjaengX keajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreŋʔ krɯɯɡs</pron>
+            </form>
+            <sense xml:id="uuid-993bac66-02ae-465d-bbac-6602ae365d72" resp="#CH" tls:created="2020-06-04T02:19:12.529+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be alerted and on one's guard</def>
+            </sense>
+        </entry>
+    </div>
 </div>

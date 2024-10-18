@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-27a34cec-04db-4cf1-9d79-fad0e99e5b09">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-27a34cec-04db-4cf1-9d79-fad0e99e5b09">
 <head>CHANT</head>
     <list type="altnames">
 <item>RECITE</item>
@@ -249,7 +250,15 @@
                 </gramGrp>
   <def>be chanted, be recited 可誦</def>
             </sense>
-<sense xml:id="uuid-e1065066-d1df-4406-8650-66d1df54066f" resp="#CH" tls:created="2020-06-09T19:07:56.275+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-d71d0499-925e-4679-81d3-39598af630b3">vtoN.+V</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>compose a song about, (which runs as follows)</def></sense></entry>
+<sense xml:id="uuid-e1065066-d1df-4406-8650-66d1df54066f" resp="#CH" tls:created="2020-06-09T19:07:56.275+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-d71d0499-925e-4679-81d3-39598af630b3">vtoN.+V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>compose a song about, (which runs as follows)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c2d4e7bd-d00e-4028-9b6d-7d1f3d930258">
             <form corresp="#uuid-08ee826a-8ac2-45df-9f16-72515d87430c">
 <orth>說</orth>
@@ -507,8 +516,53 @@
   <def>GUOYU: chant literary texts in prose or rhymed poetry</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8a675016-7f70-4ac2-a750-167f705ac23d" resp="#zadrapa" tls:created="2020-02-13T21:02:52.009+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-026d43a1-7262-430e-ad43-a17262f30e3d" resp="#zadrapa" tls:created="2020-02-13T21:02:52.009+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>chant over and over again</def></sense></entry><entry type="word" xml:id="uuid-9fcc07d0-767d-474b-8c07-d0767da74bdb" resp="#zadrapa" tls:created="2020-02-13T21:03:04.028+09:00"><form corresp="#uuid-55957136-2c4c-49b2-8e62-c6304273eef1 #uuid-85923f69-3929-43be-897c-5ed2e63de2ac"><orth>誦數</orth><pron xml:lang="zh-Latn-x-pinyin">sòng shǔ
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjowngH srjuX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢloŋs sqroʔ
-</pron></form><sense xml:id="uuid-c49aeaf3-69da-4f5a-9aea-f369da5f5acc" resp="#zadrapa" tls:created="2020-02-13T21:03:04.028+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>chant over and over again</def></sense></entry><entry type="word" xml:id="uuid-f3442894-8bf3-4db8-8428-948bf35db81c" resp="#Valerie.Kiel" tls:created="2021-08-23T04:39:25.099+09:00"><form corresp="#uuid-55957136-2c4c-49b2-8e62-c6304273eef1 #uuid-1eacd7c4-5a41-494f-a828-c358ec974cc8"><orth>誦覽</orth><pron xml:lang="zh-Latn-x-pinyin">sòng lǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjowngH lamX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢloŋs ɡ-raamʔ</pron></form><sense xml:id="uuid-957cfec0-bb04-4014-bcfe-c0bb04e014b3" resp="#Valerie.Kiel" tls:created="2021-08-23T04:39:25.099+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>reciting</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-8a675016-7f70-4ac2-a750-167f705ac23d" resp="#zadrapa" tls:created="2020-02-13T21:02:52.009+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-026d43a1-7262-430e-ad43-a17262f30e3d" resp="#zadrapa" tls:created="2020-02-13T21:02:52.009+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>chant over and over again</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9fcc07d0-767d-474b-8c07-d0767da74bdb" resp="#zadrapa" tls:created="2020-02-13T21:03:04.028+09:00">
+            <form corresp="#uuid-55957136-2c4c-49b2-8e62-c6304273eef1 #uuid-85923f69-3929-43be-897c-5ed2e63de2ac">
+                <orth>誦數</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng shǔ
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjowngH srjuX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢloŋs sqroʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-c49aeaf3-69da-4f5a-9aea-f369da5f5acc" resp="#zadrapa" tls:created="2020-02-13T21:03:04.028+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>chant over and over again</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f3442894-8bf3-4db8-8428-948bf35db81c" resp="#Valerie.Kiel" tls:created="2021-08-23T04:39:25.099+09:00">
+            <form corresp="#uuid-55957136-2c4c-49b2-8e62-c6304273eef1 #uuid-1eacd7c4-5a41-494f-a828-c358ec974cc8">
+                <orth>誦覽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng lǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjowngH lamX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢloŋs ɡ-raamʔ</pron>
+            </form>
+            <sense xml:id="uuid-957cfec0-bb04-4014-bcfe-c0bb04e014b3" resp="#Valerie.Kiel" tls:created="2021-08-23T04:39:25.099+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>reciting</def>
+            </sense>
+        </entry>
+    </div>
 </div>

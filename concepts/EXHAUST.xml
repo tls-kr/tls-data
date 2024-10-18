@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-503b0148-c045-4023-94e0-3b90956d3fbe">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-503b0148-c045-4023-94e0-3b90956d3fbe">
 <head>EXHAUST</head>
     <list type="altnames">
 <item>TIRE OUT</item>
@@ -101,7 +102,15 @@
                 </gramGrp>
   <def>get exhausted</def>
             </sense>
-<sense xml:id="uuid-166a0d7e-1628-42b0-aa0d-7e162822b0a8" resp="#dsehnal" tls:created="2023-12-05T00:08:56.522+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause N to get exhausted</def></sense></entry>
+<sense xml:id="uuid-166a0d7e-1628-42b0-aa0d-7e162822b0a8" resp="#dsehnal" tls:created="2023-12-05T00:08:56.522+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause N to get exhausted</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2139b88c-7ac6-4a65-bc88-10864e01d574">
             <form corresp="#uuid-0ab69ce6-1729-4196-aa98-cffbbeebac63">
 <orth>悉</orth>
@@ -317,7 +326,14 @@
                 </gramGrp>
   <def>exhaust (resources N1) for the benefit of (something or somebody N2)</def>
             </sense>
-<sense xml:id="uuid-f6e86dcd-739e-42ce-9355-a242476cc551" resp="#CH" tls:created="2019-12-23T22:06:49.907+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>eat up</def></sense></entry>
+<sense xml:id="uuid-f6e86dcd-739e-42ce-9355-a242476cc551" resp="#CH" tls:created="2019-12-23T22:06:49.907+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>eat up</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a44223cb-dbfd-4499-a022-a255a00034f6">
             <form corresp="#uuid-2c7330a4-f3d2-4f87-abf9-aaa58bc36498">
 <orth>窮</orth>
@@ -359,7 +375,29 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-12-26T23:27:42.019+09:00">be exhausted; (of supply) run out</def>
             </sense>
-<sense xml:id="uuid-b88352f3-03f3-40a3-8352-f303f380a333" resp="#CH" tls:created="2020-02-13T01:58:57.572+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>ultimate quantity, quantitative limit</def></sense><sense xml:id="uuid-eca31c32-b939-405f-a31c-32b939005fc1" resp="#CH" tls:created="2020-04-14T18:36:57.79+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>go all the way; perform everything in every detail</def></sense><sense xml:id="uuid-e0b10611-b730-4747-b106-11b730a74766" resp="#CH" tls:created="2021-06-03T01:41:56.285+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>come to a dead end</def></sense></entry>
+<sense xml:id="uuid-b88352f3-03f3-40a3-8352-f303f380a333" resp="#CH" tls:created="2020-02-13T01:58:57.572+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>ultimate quantity, quantitative limit</def>
+            </sense>
+            <sense xml:id="uuid-eca31c32-b939-405f-a31c-32b939005fc1" resp="#CH" tls:created="2020-04-14T18:36:57.79+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>go all the way; perform everything in every detail</def>
+            </sense>
+            <sense xml:id="uuid-e0b10611-b730-4747-b106-11b730a74766" resp="#CH" tls:created="2021-06-03T01:41:56.285+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>come to a dead end</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a2dd9999-66ee-4732-b5e2-e218b6cf7717">
             <form corresp="#uuid-8ecd9625-6371-4e40-89a9-adfb2b67df9a">
 <orth>竭</orth>
@@ -402,7 +440,21 @@
                 </gramGrp>
   <def>exhaustible 不竭 "inexhaustibel"</def>
             </sense>
-<sense xml:id="uuid-9f20bf48-c0ca-44e0-8ae4-a7ba9de2a8ca" resp="#CH" tls:created="2019-12-10T19:06:06.842+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>exercise N completely or exhaustively, do all by way of the contextually determinate N</def></sense><sense xml:id="uuid-10e98fb2-5f5e-4367-a98f-b25f5ea367ab" resp="#CH" tls:created="2020-02-14T01:35:07.682+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>run dry for; run short of, run out of</def></sense></entry>
+<sense xml:id="uuid-9f20bf48-c0ca-44e0-8ae4-a7ba9de2a8ca" resp="#CH" tls:created="2019-12-10T19:06:06.842+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>exercise N completely or exhaustively, do all by way of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-10e98fb2-5f5e-4367-a98f-b25f5ea367ab" resp="#CH" tls:created="2020-02-14T01:35:07.682+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>run dry for; run short of, run out of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-49a8a0b0-b25d-43a7-9329-14c91e11b225">
             <form corresp="#uuid-d262d717-20f1-49b4-9803-875a0c8bd00b">
 <orth>索</orth>
@@ -450,7 +502,15 @@
                 </gramGrp>
   <def>be depleted</def>
             </sense>
-<sense xml:id="uuid-6f3968ac-bad6-4773-b968-acbad637738d" resp="#dsehnal" tls:created="2023-11-26T20:19:09.018+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-3d75666d-52f5-4c0b-b566-6d52f5ac0bfd">v=middle voice</tls:sem-feat></gramGrp><def>get exhausted as for N; be short of N</def></sense></entry>
+<sense xml:id="uuid-6f3968ac-bad6-4773-b968-acbad637738d" resp="#dsehnal" tls:created="2023-11-26T20:19:09.018+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d75666d-52f5-4c0b-b566-6d52f5ac0bfd">v=middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>get exhausted as for N; be short of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b8f9f985-7c65-4d1b-87be-5bf23795a769">
             <form corresp="#uuid-118fa28c-5eb8-4de9-81a3-8291e4b07895">
 <orth>醮</orth>
@@ -458,7 +518,14 @@
                 <pron xml:lang="zh-x-oc">tsews</pron>
                 <pron xml:lang="zh-x-mc">tsiɛu</pron>
             </form>
-<sense xml:id="uuid-fff0d5e1-a4b3-4418-b0d5-e1a4b3f418e0" resp="#CH" tls:created="2021-07-11T02:37:55.617+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be exhausted</def></sense></entry>
+<sense xml:id="uuid-fff0d5e1-a4b3-4418-b0d5-e1a4b3f418e0" resp="#CH" tls:created="2021-07-11T02:37:55.617+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be exhausted</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1eb52002-5357-44da-b4f4-56c59ba2afa5">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-c76e08cb-be4a-443b-9fdb-bbf12c9922d3">
 <orth>不盡</orth>
@@ -490,8 +557,111 @@
   <def>exhaust; tire out; wear out 勞神 "tire out the spirit"</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1eed1e7a-98bc-4ef6-bec8-cf38ad5ccfeb" resp="#CH" tls:created="2019-12-03T23:16:13.953+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-7f77ef7c-0111-445f-8851-ee99e496ef53" resp="#CH" tls:created="2019-12-03T23:16:13.953+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>get to the complete fruition of, enjoy all of</def></sense></entry><entry type="word" xml:id="uuid-4f99159c-77fe-43c4-8bca-7fd9c47036f5" resp="#CH" tls:created="2019-12-03T23:16:27.441+09:00"><form corresp="#uuid-8a839c2f-336c-435a-888e-6da3b149e0e5"><orth>終</orth><pron xml:lang="zh-Latn-x-pinyin">zhōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjuŋ</pron></form><sense xml:id="uuid-38aab222-2cd4-4895-871a-cdcf63a15e24" resp="#CH" tls:created="2019-12-03T23:16:27.441+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>get to the complete fruition of, enjoy all of</def></sense></entry><entry type="word" xml:id="uuid-22ac1913-0540-4a74-af53-0e7696fb47d0" resp="#CH" tls:created="2019-12-03T23:16:44.802+09:00"><form corresp="#uuid-8a839c2f-336c-435a-888e-6da3b149e0e5"><orth>終</orth><pron xml:lang="zh-Latn-x-pinyin">zhōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjuŋ</pron></form><sense xml:id="uuid-bf1404a6-58c7-4fae-9afa-923d4cb58d9c" resp="#CH" tls:created="2019-12-03T23:16:44.802+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>get to the complete fruition of, enjoy all of</def></sense></entry><entry type="word" xml:id="uuid-c929400f-35d2-40af-b794-a5852efcc6e1" resp="#CH" tls:created="2020-02-03T21:58:07.195+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-4779c567-2bce-45f1-b530-e2a995ce8cb7" resp="#CH" tls:created="2020-02-03T21:58:07.195+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>describe exhaustively</def></sense></entry><entry type="word" xml:id="uuid-49008a8b-efac-4d81-904f-fac7456e7c0d" resp="#CH" tls:created="2020-02-03T21:58:19.676+09:00"><form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f #uuid-c76e08cb-be4a-443b-9fdb-bbf12c9922d3"><orth>曲盡</orth><pron xml:lang="zh-Latn-x-pinyin">qū qǔ jìn
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjowk dzinX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoɡ dzinʔ
-</pron></form><sense xml:id="uuid-ce5b94f2-8738-47c5-bc18-e0a363c1bd47" resp="#CH" tls:created="2020-02-03T21:58:19.676+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>describe exhaustively</def></sense><sense xml:id="uuid-496752e1-426f-4c82-a752-e1426f7c82f7" resp="#CH" tls:created="2020-12-16T22:24:41.811+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>derived: be exhaustively described</def></sense></entry><entry type="word" xml:id="uuid-a550244c-4834-416e-9024-4c4834c16e3f" resp="#CH" tls:created="2021-03-10T01:32:32.107+09:00"><form corresp="#uuid-a721c73d-0778-44b3-8630-d1262807e111"><orth>矜</orth><pron xml:lang="zh-Latn-x-pinyin">jīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">king</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klɯŋ</pron></form><sense xml:id="uuid-2be1f1f0-ac86-4c9d-a1f1-f0ac869c9d72" resp="#CH" tls:created="2021-03-10T01:32:32.107+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>wear out, wear down</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1eed1e7a-98bc-4ef6-bec8-cf38ad5ccfeb" resp="#CH" tls:created="2019-12-03T23:16:13.953+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-7f77ef7c-0111-445f-8851-ee99e496ef53" resp="#CH" tls:created="2019-12-03T23:16:13.953+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>get to the complete fruition of, enjoy all of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4f99159c-77fe-43c4-8bca-7fd9c47036f5" resp="#CH" tls:created="2019-12-03T23:16:27.441+09:00">
+            <form corresp="#uuid-8a839c2f-336c-435a-888e-6da3b149e0e5">
+                <orth>終</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjuŋ</pron>
+            </form>
+            <sense xml:id="uuid-38aab222-2cd4-4895-871a-cdcf63a15e24" resp="#CH" tls:created="2019-12-03T23:16:27.441+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>get to the complete fruition of, enjoy all of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-22ac1913-0540-4a74-af53-0e7696fb47d0" resp="#CH" tls:created="2019-12-03T23:16:44.802+09:00">
+            <form corresp="#uuid-8a839c2f-336c-435a-888e-6da3b149e0e5">
+                <orth>終</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjuŋ</pron>
+            </form>
+            <sense xml:id="uuid-bf1404a6-58c7-4fae-9afa-923d4cb58d9c" resp="#CH" tls:created="2019-12-03T23:16:44.802+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>get to the complete fruition of, enjoy all of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c929400f-35d2-40af-b794-a5852efcc6e1" resp="#CH" tls:created="2020-02-03T21:58:07.195+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-4779c567-2bce-45f1-b530-e2a995ce8cb7" resp="#CH" tls:created="2020-02-03T21:58:07.195+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>describe exhaustively</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-49008a8b-efac-4d81-904f-fac7456e7c0d" resp="#CH" tls:created="2020-02-03T21:58:19.676+09:00">
+            <form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f #uuid-c76e08cb-be4a-443b-9fdb-bbf12c9922d3">
+                <orth>曲盡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū qǔ jìn
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjowk dzinX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoɡ dzinʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-ce5b94f2-8738-47c5-bc18-e0a363c1bd47" resp="#CH" tls:created="2020-02-03T21:58:19.676+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>describe exhaustively</def>
+            </sense>
+            <sense xml:id="uuid-496752e1-426f-4c82-a752-e1426f7c82f7" resp="#CH" tls:created="2020-12-16T22:24:41.811+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>derived: be exhaustively described</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a550244c-4834-416e-9024-4c4834c16e3f" resp="#CH" tls:created="2021-03-10T01:32:32.107+09:00">
+            <form corresp="#uuid-a721c73d-0778-44b3-8630-d1262807e111">
+                <orth>矜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">king</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-2be1f1f0-ac86-4c9d-a1f1-f0ac869c9d72" resp="#CH" tls:created="2021-03-10T01:32:32.107+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>wear out, wear down</def>
+            </sense>
+        </entry>
+    </div>
 </div>

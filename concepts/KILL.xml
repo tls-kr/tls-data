@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-16de396a-482f-44f4-bc0a-dd073c887f9b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-16de396a-482f-44f4-bc0a-dd073c887f9b">
 <head>KILL</head>
     <list type="translations">
         <item xml:lang="zh">殺</item>
@@ -617,7 +618,22 @@
                 </gramGrp>
   <def>be killed by ???</def>
             </sense>
-<sense xml:id="uuid-d0907fa4-3d3c-4cb3-83b0-385c67376e9d" resp="#dsehnal" tls:created="2019-12-02T07:07:21.656+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func></gramGrp><def>which kills; which causes death</def></sense><sense xml:id="uuid-928c5243-81b1-4ebd-8c52-4381b1debd3b" resp="#zadrapa" tls:created="2022-05-16T16:52:35.348+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#">passive</tls:sem-feat></gramGrp><def>get killed</def></sense></entry>
+<sense xml:id="uuid-d0907fa4-3d3c-4cb3-83b0-385c67376e9d" resp="#dsehnal" tls:created="2019-12-02T07:07:21.656+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                </gramGrp>
+                <def>which kills; which causes death</def>
+            </sense>
+            <sense xml:id="uuid-928c5243-81b1-4ebd-8c52-4381b1debd3b" resp="#zadrapa" tls:created="2022-05-16T16:52:35.348+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get killed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-361dfa3a-87fa-4a1b-80b3-3239d0bfd95a">
             <form corresp="#uuid-7714bcd0-22f6-425c-aff2-78010056a0c4">
 <orth>歿</orth>
@@ -673,7 +689,15 @@
                 </gramGrp>
   <def>get killed</def>
             </sense>
-<sense xml:id="uuid-8504ab8c-621b-4f7f-84ab-8c621b1f7f7a" resp="#CH" tls:created="2022-11-28T00:14:21.311+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>execute!</def></sense></entry>
+<sense xml:id="uuid-8504ab8c-621b-4f7f-84ab-8c621b1f7f7a" resp="#CH" tls:created="2022-11-28T00:14:21.311+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>execute!</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-512aca7a-08c2-4ccd-912b-8e3874030d68">
             <form corresp="#uuid-b6919a8f-ba05-466f-9a0a-21128222d750">
 <orth>殲</orth>
@@ -723,6 +747,7 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
+                <tls:sem-feat corresp="#uuid-e0376cf2-7a45-4e8b-b76c-f27a45ee8bc5">jussive</tls:sem-feat>
                 </gramGrp>
   <def resp="#zadrapa" updated="2021-01-20T19:48:02.312+09:00">不免有殺身之禍 have (someone/onself) killed; cause someone/oneself to lose his life, The general word, to be used about animals as well as humans (and occasionally about plants as well), for whatever cause or reason and with whatever means; (sometimes the killed person comes to life again as in ZUO 7.8.1.1</def>
             </sense>
@@ -889,7 +914,38 @@
                 </gramGrp>
   <def>be responsible for the death of</def>
             </sense>
-<sense xml:id="uuid-f2778455-3c25-4c89-8561-9c6882f7ff4d" resp="#CH" tls:created="2019-12-09T05:52:25.151+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>kill</def></sense><sense xml:id="uuid-c31a40ab-bdbf-426e-9a40-abbdbfc26e51" resp="#CH" tls:created="2020-04-23T22:29:23.922+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>derived: risk getting killed</def></sense><sense xml:id="uuid-82af9804-5acc-4709-af98-045acce709b8" resp="#CH" tls:created="2021-05-21T23:13:23.865+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative, N=nonhuman</tls:sem-feat></gramGrp><def>kill!</def></sense><sense xml:id="uuid-78ebb352-cfdb-4157-abb3-52cfdb015735" resp="#dsehnal" tls:created="2024-06-09T19:54:47.478+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat></gramGrp><def>kill N1 at the place N2</def></sense></entry>
+<sense xml:id="uuid-f2778455-3c25-4c89-8561-9c6882f7ff4d" resp="#CH" tls:created="2019-12-09T05:52:25.151+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill</def>
+            </sense>
+            <sense xml:id="uuid-c31a40ab-bdbf-426e-9a40-abbdbfc26e51" resp="#CH" tls:created="2020-04-23T22:29:23.922+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>derived: risk getting killed</def>
+            </sense>
+            <sense xml:id="uuid-82af9804-5acc-4709-af98-045acce709b8" resp="#CH" tls:created="2021-05-21T23:13:23.865+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative, N=nonhuman</tls:sem-feat>
+                </gramGrp>
+                <def>kill!</def>
+            </sense>
+            <sense xml:id="uuid-78ebb352-cfdb-4157-abb3-52cfdb015735" resp="#dsehnal" tls:created="2024-06-09T19:54:47.478+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat>
+                </gramGrp>
+                <def>kill N1 at the place N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-72b572d2-6732-41f8-8452-bb29fec955d5">
             <form corresp="#uuid-5630f3f0-6ce2-4e2e-a99f-c7284bf35660">
 <orth>沒</orth>
@@ -1545,5 +1601,173 @@
   <def>poison to death</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-017bfd9e-7652-417d-b3da-a36f14966a95" resp="#zadrapa" tls:created="2019-11-01T02:23:19.462+09:00"><form corresp="#uuid-f09eaee3-fb48-4bee-bfaf-65c7637ebdf8 #uuid-b35ed81d-13c6-4bf0-86f7-e06b2def8d88"><orth>滅性</orth><pron xml:lang="zh-Latn-x-pinyin">miè xìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjiet sjengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">med seŋs</pron></form><sense xml:id="uuid-4fe305d0-c274-4bbb-86e1-fd30c90ee6d5" resp="#zadrapa" tls:created="2019-11-01T02:23:19.462+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat></gramGrp><def>bring about one own's death</def></sense></entry><entry type="word" xml:id="uuid-78a802dd-e2cf-43df-a802-dde2cf53df0c" resp="#CH" tls:created="2020-05-06T20:00:21.262+09:00"><form corresp="#uuid-e9abbf7f-eaaf-4aba-955e-254f61312e5d #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>親殺</orth><pron xml:lang="zh-Latn-x-pinyin">qīn shā</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshin sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshiŋ sreed</pron></form><sense xml:id="uuid-263ce285-f418-4797-bce2-85f418379736" resp="#CH" tls:created="2020-05-06T20:00:21.262+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>kill personally</def></sense></entry><entry type="word" xml:id="uuid-d801df02-8f40-42bb-81df-028f4032bb70" resp="#CH" tls:created="2020-05-06T20:08:23.092+09:00"><form corresp="#uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>身殺</orth><pron xml:lang="zh-Latn-x-pinyin">shēn shā sà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syin sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjin sreed</pron></form><sense xml:id="uuid-9596710c-e61f-4620-9671-0ce61f162043" resp="#CH" tls:created="2020-05-06T20:08:23.092+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>kill personally</def></sense></entry><entry type="word" xml:id="uuid-5e89c5df-150c-4aeb-89c5-df150c8aebc7" resp="#CH" tls:created="2020-05-06T20:10:47.74+09:00"><form corresp="#uuid-3da3a184-0986-48fb-9f8d-7ed375208d87 #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>躬殺</orth><pron xml:lang="zh-Latn-x-pinyin">gōng shā sà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwng sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷɯŋ sreed</pron></form><sense xml:id="uuid-3f214171-b897-43f4-a141-71b897b3f484" resp="#CH" tls:created="2020-05-06T20:10:47.74+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>kill personally</def></sense></entry><entry type="word" xml:id="uuid-e3669f94-e85f-4f58-a69f-94e85f3f58f9" resp="#CH" tls:created="2020-05-06T20:15:35.31+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>自殺</orth><pron xml:lang="zh-Latn-x-pinyin">zì shā</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids sreed</pron></form><sense xml:id="uuid-ef1ae482-d607-490d-9ae4-82d607190dfb" resp="#CH" tls:created="2020-05-06T20:15:35.31+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>kill with one's own hands</def></sense></entry><entry type="word" xml:id="uuid-36de81e2-2b5f-49e3-9e81-e22b5f19e3b9" resp="#CH" tls:created="2020-05-06T20:18:23.803+09:00"><form corresp="#uuid-005e2d6e-3ed2-4790-8c36-b2081e6d928d #uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>手自殺</orth><pron xml:lang="zh-Latn-x-pinyin">shǒu zì shā sà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syuwX dzijH sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">hmljuʔ sblids sreed</pron></form><sense xml:id="uuid-af5a6cd6-d923-465d-9a6c-d6d923165d44" resp="#CH" tls:created="2020-05-06T20:18:23.803+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>kill with one's own hands</def></sense></entry><entry type="word" xml:id="uuid-c946d65a-4afe-499e-86d6-5a4afec99eeb" resp="#CH" tls:created="2020-05-06T20:20:14.089+09:00"><form corresp="#uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c #uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>身自殺</orth><pron xml:lang="zh-Latn-x-pinyin">shēn zì shā sà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syin dzijH sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjin sblids sreed</pron></form><sense xml:id="uuid-de74e113-65f2-498e-b4e1-1365f2698e42" resp="#CH" tls:created="2020-05-06T20:20:14.089+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>kill with one's own hands</def></sense></entry><entry type="word" xml:id="uuid-d8c49ed8-7d2e-460c-849e-d87d2e660c96" resp="#dsehnal" tls:created="2021-07-01T18:47:17.368+09:00"><form corresp="#uuid-216ce1cc-03e3-4b46-8c33-59329bda727e #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>斫殺</orth><pron xml:lang="zh-Latn-x-pinyin">zhuó shā</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyak sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjaɡ sreed</pron></form><sense xml:id="uuid-3651d6de-2e87-4feb-91d6-de2e870feb4b" resp="#dsehnal" tls:created="2021-07-01T18:47:17.368+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>chop the contextually determinate person to death</def></sense></entry><entry type="word" xml:id="uuid-52bfed94-abe2-45fd-bfed-94abe295fd55" resp="#CH" tls:created="2022-07-09T18:58:32.92+09:00"><form corresp="#uuid-31bceb00-a797-4d60-8e1b-7e01faef3c5b"><orth>雉</orth><pron xml:lang="zh-Latn-x-pinyin">zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drijX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">diʔ</pron></form><sense xml:id="uuid-46c90aac-9c7b-4da9-890a-ac9c7b6da905" resp="#CH" tls:created="2022-07-09T18:58:32.92+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>get strangled so one cannot breathe</def></sense></entry><entry type="word" xml:id="uuid-330e3dd6-9b3a-4461-8e3d-d69b3a7461ad" resp="#dsehnal" tls:created="2024-02-21T21:00:23.74+09:00"><form corresp="#uuid-42906930-31d1-4360-baa5-ed14eb90c285 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>殺人</orth><pron xml:lang="zh-Latn-x-pinyin">shā rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sreat nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sreed njin</pron></form><sense xml:id="uuid-c6ff2bf2-ba22-4d61-bf2b-f2ba225d61b4" resp="#dsehnal" tls:created="2024-02-21T21:00:23.74+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be deadly (of poison etc.); be fatal for humans</def></sense></entry><entry type="word" xml:id="uuid-2de29051-593f-49f3-a290-51593fe9f30e" resp="#dsehnal" tls:created="2024-07-15T00:27:41.697+09:00"><form corresp="#uuid-93ca51eb-1124-49c5-beff-194198c51f80 #uuid-8505eb63-6f4f-4c92-9535-496cf96948f4"><orth>襲弒</orth><pron xml:lang="zh-Latn-x-pinyin">xí shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zip syiH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">zɯb lʰɯɡs</pron></form><sense xml:id="uuid-f3912d02-d10f-462a-912d-02d10f362a73" resp="#dsehnal" tls:created="2024-07-15T00:27:41.697+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225"/></gramGrp><def>assassinate by a surprising attack </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-017bfd9e-7652-417d-b3da-a36f14966a95" resp="#zadrapa" tls:created="2019-11-01T02:23:19.462+09:00">
+            <form corresp="#uuid-f09eaee3-fb48-4bee-bfaf-65c7637ebdf8 #uuid-b35ed81d-13c6-4bf0-86f7-e06b2def8d88">
+                <orth>滅性</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">miè xìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjiet sjengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">med seŋs</pron>
+            </form>
+            <sense xml:id="uuid-4fe305d0-c274-4bbb-86e1-fd30c90ee6d5" resp="#zadrapa" tls:created="2019-11-01T02:23:19.462+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat>
+                </gramGrp>
+                <def>bring about one own's death</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-78a802dd-e2cf-43df-a802-dde2cf53df0c" resp="#CH" tls:created="2020-05-06T20:00:21.262+09:00">
+            <form corresp="#uuid-e9abbf7f-eaaf-4aba-955e-254f61312e5d #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>親殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qīn shā</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshin sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshiŋ sreed</pron>
+            </form>
+            <sense xml:id="uuid-263ce285-f418-4797-bce2-85f418379736" resp="#CH" tls:created="2020-05-06T20:00:21.262+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill personally</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d801df02-8f40-42bb-81df-028f4032bb70" resp="#CH" tls:created="2020-05-06T20:08:23.092+09:00">
+            <form corresp="#uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>身殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn shā sà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syin sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjin sreed</pron>
+            </form>
+            <sense xml:id="uuid-9596710c-e61f-4620-9671-0ce61f162043" resp="#CH" tls:created="2020-05-06T20:08:23.092+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill personally</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5e89c5df-150c-4aeb-89c5-df150c8aebc7" resp="#CH" tls:created="2020-05-06T20:10:47.74+09:00">
+            <form corresp="#uuid-3da3a184-0986-48fb-9f8d-7ed375208d87 #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>躬殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng shā sà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwng sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷɯŋ sreed</pron>
+            </form>
+            <sense xml:id="uuid-3f214171-b897-43f4-a141-71b897b3f484" resp="#CH" tls:created="2020-05-06T20:10:47.74+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill personally</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e3669f94-e85f-4f58-a69f-94e85f3f58f9" resp="#CH" tls:created="2020-05-06T20:15:35.31+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>自殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì shā</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids sreed</pron>
+            </form>
+            <sense xml:id="uuid-ef1ae482-d607-490d-9ae4-82d607190dfb" resp="#CH" tls:created="2020-05-06T20:15:35.31+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill with one's own hands</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-36de81e2-2b5f-49e3-9e81-e22b5f19e3b9" resp="#CH" tls:created="2020-05-06T20:18:23.803+09:00">
+            <form corresp="#uuid-005e2d6e-3ed2-4790-8c36-b2081e6d928d #uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>手自殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǒu zì shā sà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syuwX dzijH sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">hmljuʔ sblids sreed</pron>
+            </form>
+            <sense xml:id="uuid-af5a6cd6-d923-465d-9a6c-d6d923165d44" resp="#CH" tls:created="2020-05-06T20:18:23.803+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill with one's own hands</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c946d65a-4afe-499e-86d6-5a4afec99eeb" resp="#CH" tls:created="2020-05-06T20:20:14.089+09:00">
+            <form corresp="#uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c #uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>身自殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn zì shā sà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syin dzijH sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjin sblids sreed</pron>
+            </form>
+            <sense xml:id="uuid-de74e113-65f2-498e-b4e1-1365f2698e42" resp="#CH" tls:created="2020-05-06T20:20:14.089+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>kill with one's own hands</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d8c49ed8-7d2e-460c-849e-d87d2e660c96" resp="#dsehnal" tls:created="2021-07-01T18:47:17.368+09:00">
+            <form corresp="#uuid-216ce1cc-03e3-4b46-8c33-59329bda727e #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>斫殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuó shā</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyak sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjaɡ sreed</pron>
+            </form>
+            <sense xml:id="uuid-3651d6de-2e87-4feb-91d6-de2e870feb4b" resp="#dsehnal" tls:created="2021-07-01T18:47:17.368+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>chop the contextually determinate person to death</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-52bfed94-abe2-45fd-bfed-94abe295fd55" resp="#CH" tls:created="2022-07-09T18:58:32.92+09:00">
+            <form corresp="#uuid-31bceb00-a797-4d60-8e1b-7e01faef3c5b">
+                <orth>雉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">diʔ</pron>
+            </form>
+            <sense xml:id="uuid-46c90aac-9c7b-4da9-890a-ac9c7b6da905" resp="#CH" tls:created="2022-07-09T18:58:32.92+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get strangled so one cannot breathe</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-330e3dd6-9b3a-4461-8e3d-d69b3a7461ad" resp="#dsehnal" tls:created="2024-02-21T21:00:23.74+09:00">
+            <form corresp="#uuid-42906930-31d1-4360-baa5-ed14eb90c285 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>殺人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shā rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sreat nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sreed njin</pron>
+            </form>
+            <sense xml:id="uuid-c6ff2bf2-ba22-4d61-bf2b-f2ba225d61b4" resp="#dsehnal" tls:created="2024-02-21T21:00:23.74+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be deadly (of poison etc.); be fatal for humans</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2de29051-593f-49f3-a290-51593fe9f30e" resp="#dsehnal" tls:created="2024-07-15T00:27:41.697+09:00">
+            <form corresp="#uuid-93ca51eb-1124-49c5-beff-194198c51f80 #uuid-8505eb63-6f4f-4c92-9535-496cf96948f4">
+                <orth>襲弒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xí shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zip syiH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">zɯb lʰɯɡs</pron>
+            </form>
+            <sense xml:id="uuid-f3912d02-d10f-462a-912d-02d10f362a73" resp="#dsehnal" tls:created="2024-07-15T00:27:41.697+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225"/>
+                </gramGrp>
+                <def>assassinate by a surprising attack </def>
+            </sense>
+        </entry>
+    </div>
 </div>

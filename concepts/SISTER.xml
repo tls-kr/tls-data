@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9e1b6f7f-1dac-4e87-b6f0-6b8a472fa023">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9e1b6f7f-1dac-4e87-b6f0-6b8a472fa023">
 <head>SISTER</head>
     <list type="altnames">
 <item>SIBLING</item>
@@ -117,7 +118,12 @@
     </div>
 <div type="words">
 <entry type="word" xml:id="uuid-7d112a94-1742-45c7-87dd-a08b981474d3">
-            <form corresp="#uuid-cec0f9b7-040b-47e5-80f9-b7040bb7e53e"><orth>姉</orth><pron xml:lang="zh-Latn-x-pinyin">jié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-cec0f9b7-040b-47e5-80f9-b7040bb7e53e">
+                <orth>姉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-074e4b6c-e4b7-4c81-b6de-487d1088e780">
 <gramGrp>
                     <pos>N</pos>
@@ -271,5 +277,35 @@
   <def>the younger sister</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-037deaa5-03b4-4cc5-bdea-a503b49cc596" resp="#wilke" tls:created="2022-09-04T02:48:32.461+09:00"><form corresp="#uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63 #uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb"><orth>女弟</orth><pron xml:lang="zh-Latn-x-pinyin">nǚ dì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nrjoX dejX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">naʔ liilʔ</pron></form><sense xml:id="uuid-de9ffcee-795c-4213-9ffc-ee795cc213d5" resp="#wilke" tls:created="2022-09-04T02:48:32.461+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>N's younger sister</def></sense></entry><entry type="word" xml:id="uuid-8e7d1936-e000-4043-bd19-36e00010432f" resp="#dsehnal" tls:created="2024-06-23T18:34:34.992+09:00"><form corresp="#uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb"><orth>弟</orth><pron xml:lang="zh-Latn-x-pinyin">dì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dejX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">liilʔ</pron></form><sense xml:id="uuid-eb371bb3-094e-4849-b71b-b3094ec84907" resp="#dsehnal" tls:created="2024-06-23T18:34:34.992+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-267a0e32-7ac5-40dd-ba0e-327ac560ddad">npost-N.=Npr</tls:syn-func></gramGrp><def>his/her younger sister Npr</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-037deaa5-03b4-4cc5-bdea-a503b49cc596" resp="#wilke" tls:created="2022-09-04T02:48:32.461+09:00">
+            <form corresp="#uuid-62ef1f12-7f84-48cc-ba85-fdbcaeebdd63 #uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb">
+                <orth>女弟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nǚ dì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nrjoX dejX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">naʔ liilʔ</pron>
+            </form>
+            <sense xml:id="uuid-de9ffcee-795c-4213-9ffc-ee795cc213d5" resp="#wilke" tls:created="2022-09-04T02:48:32.461+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's younger sister</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e7d1936-e000-4043-bd19-36e00010432f" resp="#dsehnal" tls:created="2024-06-23T18:34:34.992+09:00">
+            <form corresp="#uuid-e0a0a433-127b-404d-9a66-6f7bb9df6ddb">
+                <orth>弟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dejX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">liilʔ</pron>
+            </form>
+            <sense xml:id="uuid-eb371bb3-094e-4849-b71b-b3094ec84907" resp="#dsehnal" tls:created="2024-06-23T18:34:34.992+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-267a0e32-7ac5-40dd-ba0e-327ac560ddad">npost-N.=Npr</tls:syn-func>
+                </gramGrp>
+                <def>his/her younger sister Npr</def>
+            </sense>
+        </entry>
+    </div>
 </div>

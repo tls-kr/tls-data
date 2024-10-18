@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9347f5d1-57f6-4bfc-9512-76304d31721a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9347f5d1-57f6-4bfc-9512-76304d31721a">
 <head>MOUNTAIN</head>
     <list type="altnames">
 <item>MOUND</item>
@@ -324,13 +325,29 @@
                 </gramGrp>
   <def>in the mountains</def>
             </sense>
-<sense xml:id="uuid-fd468aa8-c00f-4201-868a-a8c00fd201e7" resp="#crone.thomas" tls:created="2020-07-30T23:29:11.163+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>the Mountain X</def></sense><sense xml:id="uuid-9e24a26d-1df3-4c73-a4a2-6d1df36c73fb" resp="#zadrapa" tls:created="2022-05-30T16:32:48.687+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>of/from mountains</def></sense><sense xml:id="uuid-799f5074-4038-4177-8cb8-2ef26aa31408">
+<sense xml:id="uuid-fd468aa8-c00f-4201-868a-a8c00fd201e7" resp="#crone.thomas" tls:created="2020-07-30T23:29:11.163+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>the Mountain X</def>
+            </sense>
+            <sense xml:id="uuid-9e24a26d-1df3-4c73-a4a2-6d1df36c73fb" resp="#zadrapa" tls:created="2022-05-30T16:32:48.687+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>of/from mountains</def>
+            </sense>
+            <sense xml:id="uuid-799f5074-4038-4177-8cb8-2ef26aa31408">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-ff8f0ee9-11fa-430f-bbc2-91d8dc657de1">n[post=npro2]</tls:syn-func>
                 </gramGrp>
   <def>you, the mountain</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f9fdb499-c1f9-4d49-837f-d2f3ff59ad61">
             <form corresp="#uuid-db853cad-781e-4080-880f-6eed6c27542a">
 <orth>屺</orth>
@@ -629,7 +646,14 @@
                 </gramGrp>
   <def>mountain　 五嶺 refers to a place characterised by five interleinkted mountain peaks</def>
             </sense>
-<sense xml:id="uuid-8e263f80-aa47-4935-a63f-80aa4729355f" resp="#dsehnal" tls:created="2023-07-08T20:07:39.609+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func></gramGrp><def>mountain ridge Npr</def></sense></entry>
+<sense xml:id="uuid-8e263f80-aa47-4935-a63f-80aa4729355f" resp="#dsehnal" tls:created="2023-07-08T20:07:39.609+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                </gramGrp>
+                <def>mountain ridge Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-833711ab-7272-498d-ab4b-0a9fe45c0261">
             <form corresp="#uuid-73f4ce44-0117-4d41-b3db-25e98cd94a3c">
 <orth>巒</orth>
@@ -647,7 +671,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-bc5e0cdd-64ab-48f7-81eb-6c8fe48542e0">
-            <form corresp="#uuid-c4c10716-d1ec-4f11-8107-16d1ec0f11cf"><orth>巓</orth><pron xml:lang="zh-Latn-x-pinyin">dian</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-c4c10716-d1ec-4f11-8107-16d1ec0f11cf">
+                <orth>巓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dian</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-7c0090c2-66b2-4d2f-8404-11736ad7972e">
 <gramGrp>
                     <pos>N</pos>
@@ -721,7 +750,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-9e574f37-4f03-43b5-9366-2028e69fbf17">
-            <form corresp="#uuid-f42cc62f-af3e-4c10-8d4f-1116d037cd40"><orth>華</orth><pron xml:lang="zh-Latn-x-pinyin">huà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwaeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraals</pron></form>
+            <form corresp="#uuid-f42cc62f-af3e-4c10-8d4f-1116d037cd40">
+                <orth>華</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwaeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraals</pron>
+            </form>
 <sense xml:id="uuid-a6d6d8d1-2c25-4519-bea1-20964333eaf2">
 <gramGrp>
                     <pos>N</pos>
@@ -1035,5 +1069,157 @@
   <def>small hillock</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-582a5ccf-60d7-40d0-bc55-263bf77d9659" resp="#CH" tls:created="2019-12-01T21:48:10.954+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-e14e6b28-a780-4104-a462-7ebe5ed41000" resp="#CH" tls:created="2019-12-01T21:48:10.954+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-a0bbae3d-994f-4928-b446-9aca9fd72bbc" resp="#CH" tls:created="2019-12-01T21:49:17.887+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-41ba8b55-41df-4670-b271-fff69ee5a068" resp="#CH" tls:created="2019-12-01T21:49:17.887+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-abd2f412-69ee-4d35-9d74-dd64b0b624da" resp="#CH" tls:created="2019-12-01T21:49:20.849+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-9c885d3c-5aae-45f5-93ef-3193250b8e7b" resp="#CH" tls:created="2019-12-01T21:49:20.849+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-e275af61-64a9-4baa-9ab1-206f03346256" resp="#CH" tls:created="2019-12-01T21:49:21.062+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-1b572190-e91a-45f1-a8f2-ef401b9a70a9" resp="#CH" tls:created="2019-12-01T21:49:21.062+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-a2d98ee5-2b86-4243-9d26-298685cae970" resp="#CH" tls:created="2019-12-01T21:49:21.283+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-23fe0661-b2a2-41bd-998e-bb5c11d94bad" resp="#CH" tls:created="2019-12-01T21:49:21.283+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-cc4006c2-1b91-408b-8339-e4cc81bda708" resp="#CH" tls:created="2019-12-01T21:49:21.455+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-f3a3d061-c551-4bcd-8acc-99a3628640a5" resp="#CH" tls:created="2019-12-01T21:49:21.455+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-6bcb5517-64f7-40de-855d-375ba5406c6e" resp="#CH" tls:created="2019-12-01T21:49:46.952+09:00"><form corresp="#uuid-3fb1fac6-7da5-4b23-960b-0c44dac665e2"><orth>阜</orth><pron xml:lang="zh-Latn-x-pinyin">fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">buʔ</pron></form><sense xml:id="uuid-2004be51-5312-477b-babd-874d2d735702" resp="#CH" tls:created="2019-12-01T21:49:46.952+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>mountain (large like Kunlun)</def></sense></entry><entry type="word" xml:id="uuid-f610116b-29d8-475e-9011-6b29d8f75e3d" resp="#zadrapa" tls:created="2020-05-26T21:58:55.657+09:00"><form corresp="#uuid-1e24a96a-b3b4-4016-ab95-0acdb72d45d7 #uuid-4036a1cc-c9d4-4692-a50a-1e8cd26a8c14"><orth>丘山</orth><pron xml:lang="zh-Latn-x-pinyin">qiū shān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw srean</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ sreen</pron></form><sense xml:id="uuid-c79aaf01-2290-4473-9aaf-012290a473f9" resp="#zadrapa" tls:created="2020-05-26T21:58:55.657+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-06-20T16:48:10.347+09:00">hills and mountains generally</def></sense></entry><entry type="word" xml:id="uuid-be68474d-d89e-4969-a847-4dd89e696962" resp="#CH" tls:created="2020-09-01T00:21:49.638+09:00"><form corresp="#uuid-3f0728d2-e7d1-4ac4-a0d6-0df32be6094d"><orth>嵼</orth><pron xml:lang="zh-Latn-x-pinyin">chǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-47cd661b-b960-4ccc-8d66-1bb960dccc9d" resp="#CH" tls:created="2020-09-01T00:21:49.638+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>high mountain</def></sense></entry><entry type="word" xml:id="uuid-3211f8a1-4835-4926-91f8-a14835a9266e" resp="#CH" tls:created="2023-09-22T23:22:00.677+09:00"><form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87 #uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e"><orth>上地</orth><pron xml:lang="zh-Latn-x-pinyin">shàng dì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH dijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs lils</pron></form><sense xml:id="uuid-ba9b567a-8524-4e6b-9b56-7a85241e6b13" resp="#CH" tls:created="2023-09-22T23:22:00.677+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>the highlands</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-582a5ccf-60d7-40d0-bc55-263bf77d9659" resp="#CH" tls:created="2019-12-01T21:48:10.954+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-e14e6b28-a780-4104-a462-7ebe5ed41000" resp="#CH" tls:created="2019-12-01T21:48:10.954+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a0bbae3d-994f-4928-b446-9aca9fd72bbc" resp="#CH" tls:created="2019-12-01T21:49:17.887+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-41ba8b55-41df-4670-b271-fff69ee5a068" resp="#CH" tls:created="2019-12-01T21:49:17.887+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-abd2f412-69ee-4d35-9d74-dd64b0b624da" resp="#CH" tls:created="2019-12-01T21:49:20.849+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-9c885d3c-5aae-45f5-93ef-3193250b8e7b" resp="#CH" tls:created="2019-12-01T21:49:20.849+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e275af61-64a9-4baa-9ab1-206f03346256" resp="#CH" tls:created="2019-12-01T21:49:21.062+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-1b572190-e91a-45f1-a8f2-ef401b9a70a9" resp="#CH" tls:created="2019-12-01T21:49:21.062+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a2d98ee5-2b86-4243-9d26-298685cae970" resp="#CH" tls:created="2019-12-01T21:49:21.283+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-23fe0661-b2a2-41bd-998e-bb5c11d94bad" resp="#CH" tls:created="2019-12-01T21:49:21.283+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cc4006c2-1b91-408b-8339-e4cc81bda708" resp="#CH" tls:created="2019-12-01T21:49:21.455+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-f3a3d061-c551-4bcd-8acc-99a3628640a5" resp="#CH" tls:created="2019-12-01T21:49:21.455+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6bcb5517-64f7-40de-855d-375ba5406c6e" resp="#CH" tls:created="2019-12-01T21:49:46.952+09:00">
+            <form corresp="#uuid-3fb1fac6-7da5-4b23-960b-0c44dac665e2">
+                <orth>阜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">buʔ</pron>
+            </form>
+            <sense xml:id="uuid-2004be51-5312-477b-babd-874d2d735702" resp="#CH" tls:created="2019-12-01T21:49:46.952+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>mountain (large like Kunlun)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f610116b-29d8-475e-9011-6b29d8f75e3d" resp="#zadrapa" tls:created="2020-05-26T21:58:55.657+09:00">
+            <form corresp="#uuid-1e24a96a-b3b4-4016-ab95-0acdb72d45d7 #uuid-4036a1cc-c9d4-4692-a50a-1e8cd26a8c14">
+                <orth>丘山</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiū shān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw srean</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ sreen</pron>
+            </form>
+            <sense xml:id="uuid-c79aaf01-2290-4473-9aaf-012290a473f9" resp="#zadrapa" tls:created="2020-05-26T21:58:55.657+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-20T16:48:10.347+09:00">hills and mountains generally</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-be68474d-d89e-4969-a847-4dd89e696962" resp="#CH" tls:created="2020-09-01T00:21:49.638+09:00">
+            <form corresp="#uuid-3f0728d2-e7d1-4ac4-a0d6-0df32be6094d">
+                <orth>嵼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-47cd661b-b960-4ccc-8d66-1bb960dccc9d" resp="#CH" tls:created="2020-09-01T00:21:49.638+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>high mountain</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3211f8a1-4835-4926-91f8-a14835a9266e" resp="#CH" tls:created="2023-09-22T23:22:00.677+09:00">
+            <form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87 #uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e">
+                <orth>上地</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shàng dì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH dijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs lils</pron>
+            </form>
+            <sense xml:id="uuid-ba9b567a-8524-4e6b-9b56-7a85241e6b13" resp="#CH" tls:created="2023-09-22T23:22:00.677+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>the highlands</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b76acb11-3920-4ef6-bd73-876e67d6025a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b76acb11-3920-4ef6-bd73-876e67d6025a">
 <head>HISTORY</head>
     <list type="translations">
         <item xml:lang="zh">歷史</item>
@@ -173,7 +174,22 @@
                 </gramGrp>
   <def>of all historical periods</def>
             </sense>
-<sense xml:id="uuid-37371721-d36a-496d-b54a-f8cdd13095e9" resp="#CH" tls:created="2019-11-28T23:21:30.312+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp><def>from ancient to modern times</def></sense><sense xml:id="uuid-696f669d-7dee-41f7-8894-ff8d8e27f7e9" resp="#CH" tls:created="2020-02-05T23:31:32.723+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-c86620f1-9cd5-458a-a620-f19cd5d58aed">DELETED</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>all of factual history, past and present</def></sense></entry>
+<sense xml:id="uuid-37371721-d36a-496d-b54a-f8cdd13095e9" resp="#CH" tls:created="2019-11-28T23:21:30.312+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+                <def>from ancient to modern times</def>
+            </sense>
+            <sense xml:id="uuid-696f669d-7dee-41f7-8894-ff8d8e27f7e9" resp="#CH" tls:created="2020-02-05T23:31:32.723+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-c86620f1-9cd5-458a-a620-f19cd5d58aed">DELETED</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>all of factual history, past and present</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-58d0dc60-7b62-4fb7-a379-61bd2a958185">
             <form corresp="#uuid-16c9c528-c705-4728-8f1f-56e8259b546c #uuid-dfc93eb5-edb4-49b5-93e7-afe643a085de">
 <orth>曏今</orth>
@@ -270,5 +286,21 @@
   <def>changes past and present SHIJI</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-bbcf47b6-60e2-4d23-8f47-b660e21d23c0" resp="#CH" tls:created="2020-08-29T18:51:23.352+09:00"><form corresp="#uuid-e799b325-78d4-4326-a46d-ca3498ecce7a #uuid-a127fa81-32cb-49a0-848b-2f87b82e1db4"><orth>已事</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX dzriH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ dzrɯs</pron></form><sense xml:id="uuid-d9229309-3640-482d-a293-093640f82dc2" resp="#CH" tls:created="2020-08-29T18:51:23.352+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>events of the past; evidence from history</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-bbcf47b6-60e2-4d23-8f47-b660e21d23c0" resp="#CH" tls:created="2020-08-29T18:51:23.352+09:00">
+            <form corresp="#uuid-e799b325-78d4-4326-a46d-ca3498ecce7a #uuid-a127fa81-32cb-49a0-848b-2f87b82e1db4">
+                <orth>已事</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX dzriH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ dzrɯs</pron>
+            </form>
+            <sense xml:id="uuid-d9229309-3640-482d-a293-093640f82dc2" resp="#CH" tls:created="2020-08-29T18:51:23.352+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>events of the past; evidence from history</def>
+            </sense>
+        </entry>
+    </div>
 </div>

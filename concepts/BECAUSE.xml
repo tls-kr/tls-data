@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d60b11df-022d-4f3c-be05-f4db9dae4ba5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d60b11df-022d-4f3c-be05-f4db9dae4ba5">
 <head>BECAUSE</head>
     <list type="altnames">
 <item>FOR</item>
@@ -130,10 +131,41 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-4ee37506-ce8d-4e56-a375-06ce8dae560d">S=verbal</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-4ee37506-ce8d-4e56-a375-06ce8dae560d">S=verbal</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-08-16T21:39:34.857+09:00">陋也"it is because they are vulgar": be because of S; be a matter of S, depend on S</def>
             </sense>
-<sense xml:id="uuid-928287dd-414c-48a9-8eeb-b4ef5549e9d2" resp="#CH" tls:created="2020-01-25T05:47:10.356+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-03-01T00:02:19.861+09:00">命也“it is because of fate": be because of N; be because of the reason N; depend on N</def></sense><sense xml:id="uuid-7530be0c-40ab-480d-b0be-0c40abe80de9" resp="#CH" tls:created="2022-02-26T22:12:00.663+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV(0)</tls:syn-func><tls:sem-feat corresp="#uuid-aa677536-5ad0-43fb-a775-365ad0e3fb6b">V=aim</tls:sem-feat></gramGrp><def>because the before-mentioned subject aims to V</def></sense><sense xml:id="uuid-8286b67a-aeab-4e7f-86b6-7aaeab8e7f84" resp="#CH" tls:created="2022-03-01T00:05:11.129+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-09192abc-07f9-47eb-992a-bc07f907ebd1">ppostad.npro{PRED}</tls:syn-func></gramGrp><def>be because of the npro, be the 'fault' of the npro</def></sense><sense xml:id="uuid-0a4e3c6e-f89d-4f2c-8e3c-6ef89def2c36" resp="#CH" tls:created="2022-02-17T18:49:25.533+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-8a993cff-afe5-4e31-993c-ffafe53e316d">S=has explicit subject</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-02-25T01:24:18.255+09:00">馬不進也"The horses would not move forward": "the explanation is"　the fact is; the point is that</def></sense></entry>
+<sense xml:id="uuid-928287dd-414c-48a9-8eeb-b4ef5549e9d2" resp="#CH" tls:created="2020-01-25T05:47:10.356+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-03-01T00:02:19.861+09:00">命也“it is because of fate": be because of N; be because of the reason N; depend on N</def>
+            </sense>
+            <sense xml:id="uuid-7530be0c-40ab-480d-b0be-0c40abe80de9" resp="#CH" tls:created="2022-02-26T22:12:00.663+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV(0)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-aa677536-5ad0-43fb-a775-365ad0e3fb6b">V=aim</tls:sem-feat>
+                </gramGrp>
+                <def>because the before-mentioned subject aims to V</def>
+            </sense>
+            <sense xml:id="uuid-8286b67a-aeab-4e7f-86b6-7aaeab8e7f84" resp="#CH" tls:created="2022-03-01T00:05:11.129+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-09192abc-07f9-47eb-992a-bc07f907ebd1">ppostad.npro{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be because of the npro, be the 'fault' of the npro</def>
+            </sense>
+            <sense xml:id="uuid-0a4e3c6e-f89d-4f2c-8e3c-6ef89def2c36" resp="#CH" tls:created="2022-02-17T18:49:25.533+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-8a993cff-afe5-4e31-993c-ffafe53e316d">S=has explicit subject</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-25T01:24:18.255+09:00">馬不進也"The horses would not move forward": "the explanation is"　the fact is; the point is that</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a14757a7-a47d-46b8-a6b7-07400b359c27">
             <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
 <orth>以</orth>
@@ -167,7 +199,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-cf44b197-f172-4bcd-8bc2-b404d02bf71c">vt0oS1.adS2</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-5fe689a4-fe7c-4f89-811f-1658f52b1f7f">objective</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-5fe689a4-fe7c-4f89-811f-1658f52b1f7f">objective</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2020-04-29T23:28:18.926+09:00">以有功見疑，"was held in suspicion because he had achievements": objective reason: because of S1 S2 occurred/will occur/occurs</def>
             </sense>
 
@@ -200,7 +233,58 @@
 
 
 
-<sense xml:id="uuid-3150b9c0-a54e-4502-94c6-1279ad0883da" resp="#CH" tls:created="2019-12-24T21:33:51.713+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cf44b197-f172-4bcd-8bc2-b404d02bf71c">vt0oS1.adS2</tls:syn-func><tls:sem-feat corresp="#uuid-ee80ba53-f7eb-484d-b807-f36f9e0404a7">subjective</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-04-29T23:35:16.047+09:00">e.g. 以晏短為小們"because Yan was short they built a small gate": on the (subjective) grounds that S</def></sense><sense xml:id="uuid-2d75afd3-ae22-4809-ba9c-d9870ff4bdb1" resp="#CH" tls:created="2019-12-27T00:42:38.596+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-8e688828-f9c6-44fb-a888-28f9c624fb85">vt+Nab.adV</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-29T23:23:59.684+09:00">e.g. 以誹死 "die because of slander" to V because of Nab</def></sense><sense xml:id="uuid-93157cc4-bdd3-4df2-9684-98dd0d94cbd7" resp="#CH" tls:created="2020-01-11T02:41:27.593+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-15d1678a-ea15-4e9c-a381-75b2f8531623">vtoN.postadV</tls:syn-func><tls:sem-feat corresp="#uuid-027383f8-28e7-4e9a-8569-e94874397e03">subjective reason</tls:sem-feat></gramGrp><def>to V on the grounds of N, reasoning in terms of N, on the pretexts of N</def></sense><sense xml:id="uuid-d98f0333-101f-4d35-8f03-33101f1d3569" resp="#CH" tls:created="2020-05-18T06:36:47.746+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2fd70dd-58ed-4fab-9ae9-846d6e2eb2b9">vt+V[0].adV</tls:syn-func></gramGrp><def>because of V-ing; because one V-ed</def></sense><sense xml:id="uuid-0d1af416-ae17-4e07-9af4-16ae172e079b" resp="#zadrapa" tls:created="2020-12-12T23:26:57.91+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0dd4edc0-7e8b-4e1b-b3e9-677c0faa3790">vtoNab{S}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-18T16:07:31.984+09:00">以其有辨也 "it was because they possess the art of distinguishing (between each other)": it is because S; the cause is that S</def></sense><sense xml:id="uuid-215bd5b2-668f-4a1a-9bd5-b2668f4a1a4f" resp="#zadrapa" tls:created="2022-05-24T04:50:45.665+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>be because of V-ing</def></sense><sense xml:id="uuid-cc40e498-4d94-4055-80e4-984d94b05578" resp="#CH" tls:created="2022-08-30T22:29:59.098+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func></gramGrp><def>because of this to V</def></sense></entry>
+<sense xml:id="uuid-3150b9c0-a54e-4502-94c6-1279ad0883da" resp="#CH" tls:created="2019-12-24T21:33:51.713+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cf44b197-f172-4bcd-8bc2-b404d02bf71c">vt0oS1.adS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ee80ba53-f7eb-484d-b807-f36f9e0404a7">subjective</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-29T23:35:16.047+09:00">e.g. 以晏短為小們"because Yan was short they built a small gate": on the (subjective) grounds that S</def>
+            </sense>
+            <sense xml:id="uuid-2d75afd3-ae22-4809-ba9c-d9870ff4bdb1" resp="#CH" tls:created="2019-12-27T00:42:38.596+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-8e688828-f9c6-44fb-a888-28f9c624fb85">vt+Nab.adV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-29T23:23:59.684+09:00">e.g. 以誹死 "die because of slander" to V because of Nab</def>
+            </sense>
+            <sense xml:id="uuid-93157cc4-bdd3-4df2-9684-98dd0d94cbd7" resp="#CH" tls:created="2020-01-11T02:41:27.593+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-15d1678a-ea15-4e9c-a381-75b2f8531623">vtoN.postadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-027383f8-28e7-4e9a-8569-e94874397e03">subjective reason</tls:sem-feat>
+                </gramGrp>
+                <def>to V on the grounds of N, reasoning in terms of N, on the pretexts of N</def>
+            </sense>
+            <sense xml:id="uuid-d98f0333-101f-4d35-8f03-33101f1d3569" resp="#CH" tls:created="2020-05-18T06:36:47.746+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2fd70dd-58ed-4fab-9ae9-846d6e2eb2b9">vt+V[0].adV</tls:syn-func>
+                </gramGrp>
+                <def>because of V-ing; because one V-ed</def>
+            </sense>
+            <sense xml:id="uuid-0d1af416-ae17-4e07-9af4-16ae172e079b" resp="#zadrapa" tls:created="2020-12-12T23:26:57.91+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0dd4edc0-7e8b-4e1b-b3e9-677c0faa3790">vtoNab{S}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-18T16:07:31.984+09:00">以其有辨也 "it was because they possess the art of distinguishing (between each other)": it is because S; the cause is that S</def>
+            </sense>
+            <sense xml:id="uuid-215bd5b2-668f-4a1a-9bd5-b2668f4a1a4f" resp="#zadrapa" tls:created="2022-05-24T04:50:45.665+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>be because of V-ing</def>
+            </sense>
+            <sense xml:id="uuid-cc40e498-4d94-4055-80e4-984d94b05578" resp="#CH" tls:created="2022-08-30T22:29:59.098+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func>
+                </gramGrp>
+                <def>because of this to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-48837960-7fb3-496b-944a-02a4f9c66759">
             <form corresp="#uuid-9c207839-c526-42a5-bbd1-48637a0927c8">
 <orth>即</orth>
@@ -277,7 +361,21 @@
                 </gramGrp>
   <def>because</def>
             </sense>
-<sense xml:id="uuid-e4869002-c330-4525-8993-f2a68db308ab" resp="#CH" tls:created="2019-12-23T21:40:31.707+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func></gramGrp><def>because of the contextually determinate N</def></sense><sense xml:id="uuid-a8e9d3a5-a4e7-4b64-a9d3-a5a4e79b642f" resp="#CH" tls:created="2020-05-18T04:47:53.51+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func></gramGrp><def>because of that; under these conditions</def></sense></entry>
+<sense xml:id="uuid-e4869002-c330-4525-8993-f2a68db308ab" resp="#CH" tls:created="2019-12-23T21:40:31.707+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func>
+                </gramGrp>
+                <def>because of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-a8e9d3a5-a4e7-4b64-a9d3-a5a4e79b642f" resp="#CH" tls:created="2020-05-18T04:47:53.51+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func>
+                </gramGrp>
+                <def>because of that; under these conditions</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a4439f89-bba7-41ae-88f1-2a221a71f9db">
             <form corresp="#uuid-3f58b1f2-248d-4aa0-a6a4-2275fe23618b">
 <orth>從</orth>
@@ -293,7 +391,14 @@
                 </gramGrp>
   <def>because of</def>
             </sense>
-<sense xml:id="uuid-5049f605-12be-4161-89f6-0512be0161fa" resp="#CH" tls:created="2024-02-17T18:44:03.065+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>be because of S</def></sense></entry>
+<sense xml:id="uuid-5049f605-12be-4161-89f6-0512be0161fa" resp="#CH" tls:created="2024-02-17T18:44:03.065+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>be because of S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-04fdddf0-142c-495a-9554-5425ae7dc4f0">
             <form corresp="#uuid-cee00179-0689-42fe-a172-52bfa48c1729">
 <orth>故</orth>
@@ -448,7 +553,35 @@
                 </gramGrp>
   <def>be because</def>
             </sense>
-<sense xml:id="uuid-d3bf267e-0506-4332-bd70-fb636fd70fff" resp="#CH" tls:created="2019-12-10T05:36:38.284+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">v[0]adNPab{S}</tls:syn-func></gramGrp><def>it was because of S</def></sense><sense xml:id="uuid-cbfe9091-8ae0-4636-be90-918ae0763686" resp="#CH" tls:created="2020-05-18T04:45:01.906+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func></gramGrp><def resp="#CH" updated="2024-02-23T01:53:49.624+09:00">V because of this</def></sense><sense xml:id="uuid-7cb897ff-b4a1-4ffd-b897-ffb4a19ffde1" resp="#dsehnal" tls:created="2021-04-29T15:54:05.782+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6df747d4-f6a8-4035-b747-d4f6a840359d">vtoNpro</tls:syn-func></gramGrp><def>be because of this</def></sense><sense xml:id="uuid-1a6e32a9-4a48-4320-ae32-a94a48d32003" resp="#dsehnal" tls:created="2024-01-21T19:58:39.231+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fcf6675f-1ad1-46cc-b90b-c2ed39ed04ac">vt0oN</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2024-01-21T20:03:42.875+09:00">be because of N</def></sense></entry>
+<sense xml:id="uuid-d3bf267e-0506-4332-bd70-fb636fd70fff" resp="#CH" tls:created="2019-12-10T05:36:38.284+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">v[0]adNPab{S}</tls:syn-func>
+                </gramGrp>
+                <def>it was because of S</def>
+            </sense>
+            <sense xml:id="uuid-cbfe9091-8ae0-4636-be90-918ae0763686" resp="#CH" tls:created="2020-05-18T04:45:01.906+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-13b2796a-1d8c-4ee2-88a1-0aaca4254b56">vt(oN.)adV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-23T01:53:49.624+09:00">V because of this</def>
+            </sense>
+            <sense xml:id="uuid-7cb897ff-b4a1-4ffd-b897-ffb4a19ffde1" resp="#dsehnal" tls:created="2021-04-29T15:54:05.782+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6df747d4-f6a8-4035-b747-d4f6a840359d">vtoNpro</tls:syn-func>
+                </gramGrp>
+                <def>be because of this</def>
+            </sense>
+            <sense xml:id="uuid-1a6e32a9-4a48-4320-ae32-a94a48d32003" resp="#dsehnal" tls:created="2024-01-21T19:58:39.231+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fcf6675f-1ad1-46cc-b90b-c2ed39ed04ac">vt0oN</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2024-01-21T20:03:42.875+09:00">be because of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0157795e-50bb-4e2e-9fe5-56e84a8ff318">
             <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
 <orth>用</orth>
@@ -548,9 +681,21 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-a2888afd-96ea-420a-888a-fd96eab20a4e" resp="#CH" tls:created="2022-08-26T18:24:12.509+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e20c2719-df5a-4a2a-8fcd-c10b855c075c">vtoS1.postS2{SUBJ}</tls:syn-func></gramGrp><def>it is because of S</def></sense></entry>
+<sense xml:id="uuid-a2888afd-96ea-420a-888a-fd96eab20a4e" resp="#CH" tls:created="2022-08-26T18:24:12.509+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e20c2719-df5a-4a2a-8fcd-c10b855c075c">vtoS1.postS2{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def>it is because of S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-30cf067c-e831-490d-af07-55d76032e106">
-            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45"><orth>緣</orth><pron xml:lang="zh-Latn-x-pinyin">yuán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron></form>
+            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45">
+                <orth>緣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron>
+            </form>
 <sense xml:id="uuid-171a6c94-256e-4a38-8af1-b30e67b009cc">
 <gramGrp>
                     <pos>V</pos>
@@ -594,7 +739,14 @@
                 </gramGrp>
   <def>because</def>
             </sense>
-<sense xml:id="uuid-c690a18c-c572-45f8-90a1-8cc57215f813" resp="#dsehnal" tls:created="2023-05-14T22:22:08.644+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e96a6481-99fb-4421-8b0b-3eed1e5369eb">vtoS1.adS2</tls:syn-func></gramGrp><def>because of S1, (therefore) S2</def></sense></entry>
+<sense xml:id="uuid-c690a18c-c572-45f8-90a1-8cc57215f813" resp="#dsehnal" tls:created="2023-05-14T22:22:08.644+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e96a6481-99fb-4421-8b0b-3eed1e5369eb">vtoS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>because of S1, (therefore) S2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-95823817-a057-421c-8cd8-19795d25e209">
             <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33">
 <orth>自</orth>
@@ -813,5 +965,51 @@
             </sense>
 </entry>
 
-    <entry type="word" xml:id="uuid-bd5a45e1-66fa-46eb-8ed5-d67792ef4c2f" resp="#CH" tls:created="2019-12-12T07:38:22.515+09:00"><form corresp="#uuid-68383a76-4bb0-42bd-abf4-1567b3ccf244"><orth>在</orth><pron xml:lang="zh-Latn-x-pinyin">zài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯʔ</pron></form><sense xml:id="uuid-531a0b5c-e3b7-4aa0-a0d5-d4787bce5c4c" resp="#CH" tls:created="2019-12-12T07:38:22.515+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-7579a42d-5694-455f-917c-626d5918a255">relational</tls:sem-feat></gramGrp><def>be because of N</def></sense></entry><entry type="word" xml:id="uuid-59efc684-c6e9-4a23-afc6-84c6e94a239c" resp="#CH" tls:created="2020-04-27T00:13:29.518+09:00"><form corresp="#uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>者</orth><pron xml:lang="zh-Latn-x-pinyin">zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljaʔ</pron></form><sense xml:id="uuid-cf10e054-e118-4ce2-90e0-54e1184ce280" resp="#CH" tls:created="2020-04-27T00:13:29.518+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-5161a11c-d83d-4816-9bb8-b19820a40b27">npro.post-S1:adS2</tls:syn-func></gramGrp><def>Since</def></sense></entry><entry type="word" xml:id="uuid-161183d4-353f-42e0-9183-d4353f02e00f" resp="#CH" tls:created="2022-12-03T20:59:54.547+09:00"><form corresp="#uuid-e07fe193-03e5-4249-9fa8-ce8fd1221890"><orth>侯</orth><pron xml:lang="zh-Latn-x-pinyin">hóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">huw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoo</pron></form><sense xml:id="uuid-cbbd1f21-bc63-42c5-bd1f-21bc6342c519" resp="#CH" tls:created="2022-12-03T20:59:54.547+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>be because of S</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-bd5a45e1-66fa-46eb-8ed5-d67792ef4c2f" resp="#CH" tls:created="2019-12-12T07:38:22.515+09:00">
+            <form corresp="#uuid-68383a76-4bb0-42bd-abf4-1567b3ccf244">
+                <orth>在</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-531a0b5c-e3b7-4aa0-a0d5-d4787bce5c4c" resp="#CH" tls:created="2019-12-12T07:38:22.515+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7579a42d-5694-455f-917c-626d5918a255">relational</tls:sem-feat>
+                </gramGrp>
+                <def>be because of N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-59efc684-c6e9-4a23-afc6-84c6e94a239c" resp="#CH" tls:created="2020-04-27T00:13:29.518+09:00">
+            <form corresp="#uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-cf10e054-e118-4ce2-90e0-54e1184ce280" resp="#CH" tls:created="2020-04-27T00:13:29.518+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-5161a11c-d83d-4816-9bb8-b19820a40b27">npro.post-S1:adS2</tls:syn-func>
+                </gramGrp>
+                <def>Since</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-161183d4-353f-42e0-9183-d4353f02e00f" resp="#CH" tls:created="2022-12-03T20:59:54.547+09:00">
+            <form corresp="#uuid-e07fe193-03e5-4249-9fa8-ce8fd1221890">
+                <orth>侯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">huw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoo</pron>
+            </form>
+            <sense xml:id="uuid-cbbd1f21-bc63-42c5-bd1f-21bc6342c519" resp="#CH" tls:created="2022-12-03T20:59:54.547+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>be because of S</def>
+            </sense>
+        </entry>
+    </div>
 </div>

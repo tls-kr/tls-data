@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6d2ba07c-b6ff-4435-ac20-61155c77154c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6d2ba07c-b6ff-4435-ac20-61155c77154c">
 <head>FRUIT</head>
     <list type="translations">
         <item xml:lang="zh">果實</item>
@@ -121,7 +122,14 @@
                 </gramGrp>
   <def>substantial meaning</def>
             </sense>
-<sense xml:id="uuid-723199e8-4c4e-4bcd-b199-e84c4e9bcd1b" resp="#dsehnal" tls:created="2023-05-10T15:02:18.813+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>fruit of N</def></sense></entry>
+<sense xml:id="uuid-723199e8-4c4e-4bcd-b199-e84c4e9bcd1b" resp="#dsehnal" tls:created="2023-05-10T15:02:18.813+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>fruit of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b2d26d35-b29d-4282-8705-dca31c799748">
             <form corresp="#uuid-7a280e0e-9e98-40aa-a93e-9bdcab1aef4a">
 <orth>杏</orth>
@@ -184,7 +192,14 @@ huang
                 </gramGrp>
   <def>abstract fruits&gt; positive results of N</def>
             </sense>
-<sense xml:id="uuid-c1d47a59-1db8-4358-a9fe-07719a23422e" resp="#dsehnal" tls:created="2020-01-09T03:58:11.938+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>fruit-</def></sense></entry>
+<sense xml:id="uuid-c1d47a59-1db8-4358-a9fe-07719a23422e" resp="#dsehnal" tls:created="2020-01-09T03:58:11.938+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>fruit-</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-55264d32-61b9-45ab-a01e-e9f1d554c2e3">
             <form corresp="#uuid-fa07959b-37c8-4c47-9caa-7f745c4bbc75">
 <orth>柰</orth>
@@ -624,5 +639,20 @@ huang
                 <pron xml:lang="zh-x-mc">tsɨ</pron>
             </form>
 </entry>
-    <entry type="word" xml:id="uuid-d63236d8-379d-4aac-b236-d8379d5aac5e" resp="#CH" tls:created="2021-03-27T22:39:04.899+09:00"><form corresp="#uuid-99557453-7f53-4596-802a-82c58067beab"><orth>棃</orth><pron xml:lang="zh-Latn-x-pinyin">lí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ril</pron></form><sense xml:id="uuid-5ae661d7-bc74-4be7-a661-d7bc741be77c" resp="#CH" tls:created="2021-03-27T22:39:04.899+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def resp="#CH" updated="2021-03-27T22:40:16.258+09:00">haw categus cuneata and pinnatifida(?)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d63236d8-379d-4aac-b236-d8379d5aac5e" resp="#CH" tls:created="2021-03-27T22:39:04.899+09:00">
+            <form corresp="#uuid-99557453-7f53-4596-802a-82c58067beab">
+                <orth>棃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ril</pron>
+            </form>
+            <sense xml:id="uuid-5ae661d7-bc74-4be7-a661-d7bc741be77c" resp="#CH" tls:created="2021-03-27T22:39:04.899+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-03-27T22:40:16.258+09:00">haw categus cuneata and pinnatifida(?)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

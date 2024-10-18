@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-18d48e82-a2fa-4945-8258-1cf886fc50c3">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-18d48e82-a2fa-4945-8258-1cf886fc50c3">
 <head>BELIEVE</head>
     <list type="altnames">
 <item>THINK</item>
@@ -31,7 +32,10 @@
     </list>
 <div type="definition">
 <p>ATTITUDE IN-RELATION-TO a THINK:thought to the effect that this THOUGHT is TRUE.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:24:46.143+09:00"><p>THINK THAT SOMETHING IS TRUE.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:24:46.143+09:00">
+            <p>THINK THAT SOMETHING IS TRUE.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[BASIC/MARGINAL]</p>
@@ -375,7 +379,22 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-30T00:15:05.97+09:00">e.g. 以美於徐公 "consider me to be more handsome than Xu" believe that N V-s</def>
             </sense>
-<sense xml:id="uuid-b4886b54-bd07-4726-8c5f-c5da3c419876" resp="#CH" tls:created="2019-12-14T01:13:45.248+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-34d3b636-6156-4f31-93b6-3661562f31c3">DELETE</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp><def>consider N to be (the) N{PRED}</def></sense><sense xml:id="uuid-7b10a8af-3fbd-4550-90a8-af3fbde5504b" resp="#dsehnal" tls:created="2021-05-25T01:06:50.266+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>believe that S</def></sense></entry>
+<sense xml:id="uuid-b4886b54-bd07-4726-8c5f-c5da3c419876" resp="#CH" tls:created="2019-12-14T01:13:45.248+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-34d3b636-6156-4f31-93b6-3661562f31c3">DELETE</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>consider N to be (the) N{PRED}</def>
+            </sense>
+            <sense xml:id="uuid-7b10a8af-3fbd-4550-90a8-af3fbde5504b" resp="#dsehnal" tls:created="2021-05-25T01:06:50.266+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>believe that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ffc7f90d-922b-445a-b934-973ac09ffa67">
             <form corresp="#uuid-df94e791-1aba-4864-ba15-dfebd911c6bb">
 <orth>信</orth>
@@ -432,7 +451,22 @@
                 </gramGrp>
   <def>believe that S</def>
             </sense>
-<sense xml:id="uuid-25ffbfff-7f4e-48bb-bfbf-ff7f4eb8bb6b" resp="#CH" tls:created="2020-05-31T03:50:53.88+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>believe what N said</def></sense><sense xml:id="uuid-8ef4b9a9-eafb-44bd-b4b9-a9eafbb4bda3" resp="#CH" tls:created="2023-08-12T21:22:49.257+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2b6ca9fa-0dea-4b70-aca9-fa0deadb7033">believe in</tls:sem-feat></gramGrp><def>believe in the existence of</def></sense></entry>
+<sense xml:id="uuid-25ffbfff-7f4e-48bb-bfbf-ff7f4eb8bb6b" resp="#CH" tls:created="2020-05-31T03:50:53.88+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>believe what N said</def>
+            </sense>
+            <sense xml:id="uuid-8ef4b9a9-eafb-44bd-b4b9-a9eafbb4bda3" resp="#CH" tls:created="2023-08-12T21:22:49.257+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2b6ca9fa-0dea-4b70-aca9-fa0deadb7033">believe in</tls:sem-feat>
+                </gramGrp>
+                <def>believe in the existence of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f8140531-d9af-4c4b-94b5-f9fe7e187e1d">
             <form corresp="#uuid-b1ef6899-e684-4698-a583-dcc3b98daaa7">
 <orth>度</orth>
@@ -569,7 +603,60 @@
             </sense>
 
 
-<sense xml:id="uuid-1f92c93b-1d4d-45d8-abb0-b21be02dcf90" resp="#CH" tls:created="2019-12-01T04:18:29.471+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func><tls:sem-feat corresp="#uuid-7c62106e-103a-4ec2-a210-6e103a6ec21b">putative; middle voice</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-07T18:33:45.204+09:00">be deemed to be N; be considered as N&gt; come to be considered as, come to count as; count as N</def></sense><sense xml:id="uuid-ae83d605-204a-4213-b63a-396b10cf9416" resp="#CH" tls:created="2019-12-23T22:26:51.445+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoS</tls:syn-func></gramGrp><def resp="#CH" updated="2024-03-09T03:15:52.515+09:00">take it to be the case that S, consider that S; recognise that S</def></sense><sense xml:id="uuid-ec177992-157d-4d84-901a-dad5bfad10d4" resp="#CH" tls:created="2020-01-27T00:29:52.659+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-32009220-e442-4ec9-87ee-2ee964c38531">vttoN1.post-vtoN2{OBJ}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-05T00:24:01.633+09:00">consider N2 to be N1; consider N2 to represent N1</def></sense><sense xml:id="uuid-eaf011a6-d1e4-4fa2-b011-a6d1e4cfa2f4" resp="#CH" tls:created="2022-08-15T16:26:51.382+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c3aa740e-6125-4c44-aa74-0e61257c44b0">vttpostnpro[OBJ].+V</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-15T16:32:51.074+09:00">猶之為平"still consider it to be plain/level": consider npro to V</def></sense><sense xml:id="uuid-2d8ce151-3b40-498b-8ce1-513b40d98b0f" resp="#CH" tls:created="2022-08-28T15:11:03.491+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-773afbb7-916c-4c0b-bafb-b7916c3c0ba5">vttoN1{PIVOT].+N2{PRED}</tls:syn-func><tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat></gramGrp><def>consider N1 to be N2</def></sense><sense xml:id="uuid-678786f5-4267-48b3-8786-f54267a8b327" resp="#CH" tls:created="2022-09-07T17:49:07.028+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be deemed to V</def></sense><sense xml:id="uuid-de90212e-4db4-4095-9021-2e4db4a095c2" resp="#CH" tls:created="2022-09-19T17:02:01.363+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func><tls:sem-feat corresp="#uuid-49595c6d-3d02-4512-995c-6d3d0225120e">putative; middle voice, inchoative</tls:sem-feat></gramGrp><def>get to be deemed an N, get to be considered to be an N</def></sense></entry>
+<sense xml:id="uuid-1f92c93b-1d4d-45d8-abb0-b21be02dcf90" resp="#CH" tls:created="2019-12-01T04:18:29.471+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7c62106e-103a-4ec2-a210-6e103a6ec21b">putative; middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-07T18:33:45.204+09:00">be deemed to be N; be considered as N&gt; come to be considered as, come to count as; count as N</def>
+            </sense>
+            <sense xml:id="uuid-ae83d605-204a-4213-b63a-396b10cf9416" resp="#CH" tls:created="2019-12-23T22:26:51.445+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoS</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-03-09T03:15:52.515+09:00">take it to be the case that S, consider that S; recognise that S</def>
+            </sense>
+            <sense xml:id="uuid-ec177992-157d-4d84-901a-dad5bfad10d4" resp="#CH" tls:created="2020-01-27T00:29:52.659+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-32009220-e442-4ec9-87ee-2ee964c38531">vttoN1.post-vtoN2{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-05T00:24:01.633+09:00">consider N2 to be N1; consider N2 to represent N1</def>
+            </sense>
+            <sense xml:id="uuid-eaf011a6-d1e4-4fa2-b011-a6d1e4cfa2f4" resp="#CH" tls:created="2022-08-15T16:26:51.382+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c3aa740e-6125-4c44-aa74-0e61257c44b0">vttpostnpro[OBJ].+V</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-15T16:32:51.074+09:00">猶之為平"still consider it to be plain/level": consider npro to V</def>
+            </sense>
+            <sense xml:id="uuid-2d8ce151-3b40-498b-8ce1-513b40d98b0f" resp="#CH" tls:created="2022-08-28T15:11:03.491+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-773afbb7-916c-4c0b-bafb-b7916c3c0ba5">vttoN1{PIVOT].+N2{PRED}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat>
+                </gramGrp>
+                <def>consider N1 to be N2</def>
+            </sense>
+            <sense xml:id="uuid-678786f5-4267-48b3-8786-f54267a8b327" resp="#CH" tls:created="2022-09-07T17:49:07.028+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be deemed to V</def>
+            </sense>
+            <sense xml:id="uuid-de90212e-4db4-4095-9021-2e4db4a095c2" resp="#CH" tls:created="2022-09-19T17:02:01.363+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-49595c6d-3d02-4512-995c-6d3d0225120e">putative; middle voice, inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>get to be deemed an N, get to be considered to be an N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a51b2ced-918b-42bd-89ac-43e3379c148c">
             <form corresp="#uuid-04848d38-5528-4d69-9b5e-bec3dc2f0333">
 <orth>視</orth>
@@ -798,7 +885,52 @@
                 </gramGrp>
   <def>consider something contextually determinate N1 as one's own N2</def>
             </sense>
-<sense xml:id="uuid-19be4625-b567-473d-86f8-cac647580212" resp="#CH" tls:created="2019-12-12T20:18:43.55+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c6741a20-7013-46cb-b41a-207013c6cbd4">VPtt(oN1.)+N2{PRED}</tls:syn-func><tls:sem-feat corresp="#uuid-c33bd840-17eb-4e71-bbd8-4017eb3e71cb">understood pivot</tls:sem-feat></gramGrp><def>consider the contextually determinate N1 to be an N2</def></sense><sense xml:id="uuid-5bfe6e34-b43b-4216-be6e-34b43b521629" resp="#CH" tls:created="2020-04-08T03:57:54.481+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-be35f265-0ebc-41e0-8a8c-2e145b8bcd97">VPtt(oN.)+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>believe the contextually determinate N to V</def></sense><sense xml:id="uuid-6a1bd508-7c97-4fc0-9bd5-087c970fc007" resp="#CH" tls:created="2022-08-16T05:12:49.992+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-be35f265-0ebc-41e0-8a8c-2e145b8bcd97">VPtt(oN.)+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-ded1252c-14e0-467d-9125-2c14e0867d42">V[0]=passive</tls:sem-feat></gramGrp><def>deem N to be V-ed</def></sense><sense xml:id="uuid-9e60ff73-4a68-4a06-a0ff-734a68ba0613" resp="#CH" tls:created="2022-08-23T23:14:00.147+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2538cdc2-3913-4660-9c79-75bd1ce13b78">VPttoN1.+N2</tls:syn-func></gramGrp><def>consider the (often topicalise and preposed) N1 to be N2</def></sense><sense xml:id="uuid-c4c21b73-d6ee-465d-821b-73d6ee365d62" resp="#CH" tls:created="2022-08-29T17:10:36.214+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-182dd0a6-9ce8-4d69-add0-a69ce8fd693a">VPtt(oN.)+NPab{PRED}</tls:syn-func></gramGrp><def>consider N to be a case of NPab</def></sense><sense xml:id="uuid-6af4abdb-cb67-467c-b4ab-dbcb67367c6a" resp="#CH" tls:created="2022-09-16T00:35:36.155+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-09cb6ced-a80b-4b43-8b6c-eda80bab4324">VPtt[0](oN).+V</tls:syn-func></gramGrp><def>people consider N to V; one tended to consider the contextually determinate N as V</def></sense></entry>
+<sense xml:id="uuid-19be4625-b567-473d-86f8-cac647580212" resp="#CH" tls:created="2019-12-12T20:18:43.55+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c6741a20-7013-46cb-b41a-207013c6cbd4">VPtt(oN1.)+N2{PRED}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c33bd840-17eb-4e71-bbd8-4017eb3e71cb">understood pivot</tls:sem-feat>
+                </gramGrp>
+                <def>consider the contextually determinate N1 to be an N2</def>
+            </sense>
+            <sense xml:id="uuid-5bfe6e34-b43b-4216-be6e-34b43b521629" resp="#CH" tls:created="2020-04-08T03:57:54.481+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-be35f265-0ebc-41e0-8a8c-2e145b8bcd97">VPtt(oN.)+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>believe the contextually determinate N to V</def>
+            </sense>
+            <sense xml:id="uuid-6a1bd508-7c97-4fc0-9bd5-087c970fc007" resp="#CH" tls:created="2022-08-16T05:12:49.992+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-be35f265-0ebc-41e0-8a8c-2e145b8bcd97">VPtt(oN.)+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ded1252c-14e0-467d-9125-2c14e0867d42">V[0]=passive</tls:sem-feat>
+                </gramGrp>
+                <def>deem N to be V-ed</def>
+            </sense>
+            <sense xml:id="uuid-9e60ff73-4a68-4a06-a0ff-734a68ba0613" resp="#CH" tls:created="2022-08-23T23:14:00.147+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2538cdc2-3913-4660-9c79-75bd1ce13b78">VPttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>consider the (often topicalise and preposed) N1 to be N2</def>
+            </sense>
+            <sense xml:id="uuid-c4c21b73-d6ee-465d-821b-73d6ee365d62" resp="#CH" tls:created="2022-08-29T17:10:36.214+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-182dd0a6-9ce8-4d69-add0-a69ce8fd693a">VPtt(oN.)+NPab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>consider N to be a case of NPab</def>
+            </sense>
+            <sense xml:id="uuid-6af4abdb-cb67-467c-b4ab-dbcb67367c6a" resp="#CH" tls:created="2022-09-16T00:35:36.155+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-09cb6ced-a80b-4b43-8b6c-eda80bab4324">VPtt[0](oN).+V</tls:syn-func>
+                </gramGrp>
+                <def>people consider N to V; one tended to consider the contextually determinate N as V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-122bd0d6-9d74-474d-850f-95b24bb43868">
             <form corresp="#uuid-df94e791-1aba-4864-ba15-dfebd911c6bb #uuid-3f58b1f2-248d-4aa0-a6a4-2275fe23618b">
 <orth>信從</orth>
@@ -1012,5 +1144,35 @@
   <def>in my opinion</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-68e5ec59-3106-4f6d-a5ec-5931065f6d0d" resp="#dsehnal" tls:created="2023-05-09T02:17:05.162+09:00"><form corresp="#uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70"><orth>分</orth><pron xml:lang="zh-Latn-x-pinyin">fèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯns</pron></form><sense xml:id="uuid-cc35d307-b572-4884-b5d3-07b57298846d" resp="#dsehnal" tls:created="2023-05-09T02:17:05.162+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>believe that</def></sense></entry><entry type="word" xml:id="uuid-bc0dc67c-4d9c-4ffd-8dc6-7c4d9cdffd6e" resp="#CH" tls:created="2023-08-03T22:22:52.641+09:00"><form corresp="#uuid-4342b9fe-7e09-40cb-ad1a-fbf479505d5f"><orth>是</orth><pron xml:lang="zh-Latn-x-pinyin">shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljeʔ</pron></form><sense xml:id="uuid-3e6cf174-2d01-4961-acf1-742d01896187" resp="#CH" tls:created="2023-08-03T22:22:52.641+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>consider that S</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-68e5ec59-3106-4f6d-a5ec-5931065f6d0d" resp="#dsehnal" tls:created="2023-05-09T02:17:05.162+09:00">
+            <form corresp="#uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70">
+                <orth>分</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯns</pron>
+            </form>
+            <sense xml:id="uuid-cc35d307-b572-4884-b5d3-07b57298846d" resp="#dsehnal" tls:created="2023-05-09T02:17:05.162+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>believe that</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bc0dc67c-4d9c-4ffd-8dc6-7c4d9cdffd6e" resp="#CH" tls:created="2023-08-03T22:22:52.641+09:00">
+            <form corresp="#uuid-4342b9fe-7e09-40cb-ad1a-fbf479505d5f">
+                <orth>是</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljeʔ</pron>
+            </form>
+            <sense xml:id="uuid-3e6cf174-2d01-4961-acf1-742d01896187" resp="#CH" tls:created="2023-08-03T22:22:52.641+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>consider that S</def>
+            </sense>
+        </entry>
+    </div>
 </div>

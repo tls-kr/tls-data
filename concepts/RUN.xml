@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-44b13d5e-4eb7-4cf9-a3df-9735aa9fcd89">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-44b13d5e-4eb7-4cf9-a3df-9735aa9fcd89">
 <head>RUN</head>
     <list type="altnames">
 <item>SPRINT</item>
@@ -189,7 +190,37 @@
                 </gramGrp>
   <def>make somebody run (e.g. horses), put through their paces (horses)</def>
             </sense>
-<sense xml:id="uuid-ec8888ae-d326-486b-839a-a6bf86ef3ba0" resp="#CH" tls:created="2019-12-20T00:30:17.986+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>as one is running, in the processor running</def></sense><sense xml:id="uuid-e079a449-9b36-4794-b9a4-499b36779477" resp="#twharbsmeier" tls:created="2020-04-13T01:34:18.962+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func></gramGrp><def>run the distance N</def></sense><sense xml:id="uuid-c8b277cb-6665-47ae-b277-cb666577ae2c" resp="#zadrapa" tls:created="2022-05-31T19:29:04.155+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-bd32ce03-4320-4add-a79a-55d012763198">disposition</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-02T15:55:17.124+09:00">running; running speed</def></sense><sense xml:id="uuid-88053d29-7205-4e50-853d-297205ee50ed" resp="#CH" tls:created="2022-09-01T23:01:43.736+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-90f4bdd5-c3e2-4dce-8fcd-08f9341329b2">N=own</tls:sem-feat></gramGrp><def>[his own] running</def></sense></entry>
+<sense xml:id="uuid-ec8888ae-d326-486b-839a-a6bf86ef3ba0" resp="#CH" tls:created="2019-12-20T00:30:17.986+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>as one is running, in the processor running</def>
+            </sense>
+            <sense xml:id="uuid-e079a449-9b36-4794-b9a4-499b36779477" resp="#twharbsmeier" tls:created="2020-04-13T01:34:18.962+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                </gramGrp>
+                <def>run the distance N</def>
+            </sense>
+            <sense xml:id="uuid-c8b277cb-6665-47ae-b277-cb666577ae2c" resp="#zadrapa" tls:created="2022-05-31T19:29:04.155+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-bd32ce03-4320-4add-a79a-55d012763198">disposition</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-02T15:55:17.124+09:00">running; running speed</def>
+            </sense>
+            <sense xml:id="uuid-88053d29-7205-4e50-853d-297205ee50ed" resp="#CH" tls:created="2022-09-01T23:01:43.736+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-90f4bdd5-c3e2-4dce-8fcd-08f9341329b2">N=own</tls:sem-feat>
+                </gramGrp>
+                <def>[his own] running</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cdb1bc9d-4d95-4096-87f5-209750a3d4d2">
             <form corresp="#uuid-5a7f751a-daf7-4b7b-a1ee-57ba4a11568f">
 <orth>跑</orth>
@@ -343,5 +374,34 @@
   <def>run into</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3a691690-13e4-491e-a3cc-2e0508c975c7" resp="#CH" tls:created="2019-12-20T00:28:56.954+09:00"><form corresp="#uuid-a22d346b-5e3c-4167-986d-29306983c065 #uuid-3c2de05a-5eae-4ce3-861d-33a5920394c2"><orth>走觸</orth><pron xml:lang="zh-Latn-x-pinyin">zǒu chù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsuwX tsyhowk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsooʔ thjoɡ</pron></form><sense xml:id="uuid-e51521ca-4dbd-4600-919b-e2074e24de1c" resp="#CH" tls:created="2019-12-20T00:28:56.954+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>hit at high speed, run into</def></sense></entry><entry type="word" xml:id="uuid-bcb9ad60-1521-449f-b9ad-601521849f69"><form><orth>奔</orth><pron xml:lang="zh-Latn-x-pinyin">bēn</pron></form><def/><sense xml:id="uuid-73736ee9-1b28-4d26-b36e-e91b282d26f9" resp="#CH" tls:created="2020-06-28T16:44:33.865+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>gallopping; running</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-3a691690-13e4-491e-a3cc-2e0508c975c7" resp="#CH" tls:created="2019-12-20T00:28:56.954+09:00">
+            <form corresp="#uuid-a22d346b-5e3c-4167-986d-29306983c065 #uuid-3c2de05a-5eae-4ce3-861d-33a5920394c2">
+                <orth>走觸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǒu chù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsuwX tsyhowk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsooʔ thjoɡ</pron>
+            </form>
+            <sense xml:id="uuid-e51521ca-4dbd-4600-919b-e2074e24de1c" resp="#CH" tls:created="2019-12-20T00:28:56.954+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>hit at high speed, run into</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bcb9ad60-1521-449f-b9ad-601521849f69">
+            <form>
+                <orth>奔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bēn</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-73736ee9-1b28-4d26-b36e-e91b282d26f9" resp="#CH" tls:created="2020-06-28T16:44:33.865+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>gallopping; running</def>
+            </sense>
+        </entry>
+    </div>
 </div>

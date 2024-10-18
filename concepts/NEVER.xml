@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-77f765a8-fb37-4e34-94e1-7e10c2e3aea6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-77f765a8-fb37-4e34-94e1-7e10c2e3aea6">
 <head>NEVER</head>
     <list type="altnames">
 <item>NOT EVER</item>
@@ -91,7 +92,8 @@
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def>never; (henceforward/thenceforward) never</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0a43307-db42-403f-8e38-99f47d7dc5e0">
             <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb">
 <orth>無</orth>
@@ -104,10 +106,27 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
-                <tls:sem-feat corresp="#uuid-f7823965-d29e-4ca7-ab59-52cfeb09515c">temporal</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-f7823965-d29e-4ca7-ab59-52cfeb09515c">temporal</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-02-23T22:09:20.39+09:00">at no time; will never (in generalisations); never (無有 there never are any)</def>
             </sense>
-<sense xml:id="uuid-a99b89c4-dacf-4534-9b89-c4dacf2534e4" resp="#CH" tls:created="2020-12-27T00:20:19.096+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-03-12T05:06:28.462+09:00">never!; one should never!</def></sense><sense xml:id="uuid-096f4d6f-e26b-4805-af4d-6fe26ba80571" resp="#CH" tls:created="2024-02-23T22:08:34.031+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat></gramGrp><def>in no case</def></sense></entry>
+<sense xml:id="uuid-a99b89c4-dacf-4534-9b89-c4dacf2534e4" resp="#CH" tls:created="2020-12-27T00:20:19.096+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-03-12T05:06:28.462+09:00">never!; one should never!</def>
+            </sense>
+            <sense xml:id="uuid-096f4d6f-e26b-4805-af4d-6fe26ba80571" resp="#CH" tls:created="2024-02-23T22:08:34.031+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat>
+                </gramGrp>
+                <def>in no case</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8be29dbf-bfd8-47da-bd0b-484b20021382">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2">
 <orth>不一</orth>
@@ -333,5 +352,95 @@
   <def>has never been V-ed ??</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-64797679-8b21-4818-9a11-88671b4b9b96" resp="#CH" tls:created="2019-12-29T07:36:30.33+09:00"><form corresp="#uuid-99fdbd59-79b0-4ed6-8aa8-abe2e7717145 #uuid-5731bdde-9662-487c-a005-34916ab6d2c0"><orth>未嘗</orth><pron xml:lang="zh-Latn-x-pinyin">wèi cháng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jH dzyang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯds djaŋ</pron></form><sense xml:id="uuid-3ac7829b-ce39-4de6-81ec-28a99a3e7870" resp="#CH" tls:created="2019-12-29T07:36:30.33+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def resp="#CH" updated="2024-02-12T21:43:38.382+09:00">never at any time</def></sense></entry><entry type="word" xml:id="uuid-8896ce05-e6b2-4d25-96ce-05e6b2fd2591" resp="#zadrapa" tls:created="2021-01-20T20:07:26.491+09:00"><form corresp="#uuid-6ad5e682-34e2-41a5-8c7c-e5e67fb2c285 #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f"><orth>固不</orth><pron xml:lang="zh-Latn-x-pinyin">gù bù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kuH pjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaas pɯʔ</pron></form><sense xml:id="uuid-7106f711-a5a4-4e24-86f7-11a5a46e2485" resp="#zadrapa" tls:created="2021-01-20T20:07:26.491+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>inherently not, certainly not, principially never</def></sense></entry><entry type="word" xml:id="uuid-3d4587e1-eef0-47ff-8587-e1eef0f7ff20" resp="#CH" tls:created="2021-05-22T17:32:13.422+09:00"><form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-86d435d5-2ec2-42bf-af4d-8c64e5258a94 #uuid-a76a3431-a61f-4f08-926e-9e398bc1a898"><orth>无須臾</orth><pron xml:lang="zh-Latn-x-pinyin">wú xū yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju sju yu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma so lo</pron></form><sense xml:id="uuid-8172e50b-1ed2-4ed7-b2e5-0b1ed2ded765" resp="#CH" tls:created="2021-05-22T17:32:13.422+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>never for a single moment</def></sense></entry><entry type="word" xml:id="uuid-d7b45c95-a214-4ab2-b45c-95a2145ab210" resp="#CH" tls:created="2021-05-22T17:33:38.743+09:00"><form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e"><orth>无</orth><pron xml:lang="zh-Latn-x-pinyin">wú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma</pron></form><sense xml:id="uuid-fff820ae-f5d7-4183-b820-aef5d7718345" resp="#CH" tls:created="2021-05-22T17:33:38.743+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp><def>=無 never</def></sense></entry><entry type="word" xml:id="uuid-f581eeaf-df0f-4b99-81ee-afdf0f9b997b" resp="#CH" tls:created="2021-05-31T22:44:03.102+09:00"><form corresp="#uuid-99fdbd59-79b0-4ed6-8aa8-abe2e7717145 #uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd"><orth>未始</orth><pron xml:lang="zh-Latn-x-pinyin">wèi shǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jH syiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯds lʰɯʔ</pron></form><sense xml:id="uuid-bc263db5-127b-4b2f-a63d-b5127bcb2fd2" resp="#CH" tls:created="2021-05-31T22:44:03.102+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-07T19:04:25.569+09:00">not ever; never so far</def></sense></entry><entry type="word" xml:id="uuid-0db24cb0-707d-40fb-b24c-b0707da0fb50" resp="#CH" tls:created="2021-09-06T23:25:31.961+09:00"><form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127"><orth>无所</orth><pron xml:lang="zh-Latn-x-pinyin">wú suǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju srjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma sqraʔ</pron></form><sense xml:id="uuid-66986c2e-e3d8-4082-986c-2ee3d860827d" resp="#CH" tls:created="2021-09-06T23:25:31.961+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func></gramGrp><def>in no way; under no aspect ever</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-64797679-8b21-4818-9a11-88671b4b9b96" resp="#CH" tls:created="2019-12-29T07:36:30.33+09:00">
+            <form corresp="#uuid-99fdbd59-79b0-4ed6-8aa8-abe2e7717145 #uuid-5731bdde-9662-487c-a005-34916ab6d2c0">
+                <orth>未嘗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèi cháng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jH dzyang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯds djaŋ</pron>
+            </form>
+            <sense xml:id="uuid-3ac7829b-ce39-4de6-81ec-28a99a3e7870" resp="#CH" tls:created="2019-12-29T07:36:30.33+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-12T21:43:38.382+09:00">never at any time</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8896ce05-e6b2-4d25-96ce-05e6b2fd2591" resp="#zadrapa" tls:created="2021-01-20T20:07:26.491+09:00">
+            <form corresp="#uuid-6ad5e682-34e2-41a5-8c7c-e5e67fb2c285 #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f">
+                <orth>固不</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gù bù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuH pjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaas pɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-7106f711-a5a4-4e24-86f7-11a5a46e2485" resp="#zadrapa" tls:created="2021-01-20T20:07:26.491+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>inherently not, certainly not, principially never</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3d4587e1-eef0-47ff-8587-e1eef0f7ff20" resp="#CH" tls:created="2021-05-22T17:32:13.422+09:00">
+            <form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-86d435d5-2ec2-42bf-af4d-8c64e5258a94 #uuid-a76a3431-a61f-4f08-926e-9e398bc1a898">
+                <orth>无須臾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú xū yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju sju yu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma so lo</pron>
+            </form>
+            <sense xml:id="uuid-8172e50b-1ed2-4ed7-b2e5-0b1ed2ded765" resp="#CH" tls:created="2021-05-22T17:32:13.422+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>never for a single moment</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d7b45c95-a214-4ab2-b45c-95a2145ab210" resp="#CH" tls:created="2021-05-22T17:33:38.743+09:00">
+            <form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e">
+                <orth>无</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma</pron>
+            </form>
+            <sense xml:id="uuid-fff820ae-f5d7-4183-b820-aef5d7718345" resp="#CH" tls:created="2021-05-22T17:33:38.743+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def>=無 never</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f581eeaf-df0f-4b99-81ee-afdf0f9b997b" resp="#CH" tls:created="2021-05-31T22:44:03.102+09:00">
+            <form corresp="#uuid-99fdbd59-79b0-4ed6-8aa8-abe2e7717145 #uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd">
+                <orth>未始</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèi shǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jH syiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯds lʰɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-bc263db5-127b-4b2f-a63d-b5127bcb2fd2" resp="#CH" tls:created="2021-05-31T22:44:03.102+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-07T19:04:25.569+09:00">not ever; never so far</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0db24cb0-707d-40fb-b24c-b0707da0fb50" resp="#CH" tls:created="2021-09-06T23:25:31.961+09:00">
+            <form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-931a8e61-8ceb-41f9-ba2a-598aebc7a127">
+                <orth>无所</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú suǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju srjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma sqraʔ</pron>
+            </form>
+            <sense xml:id="uuid-66986c2e-e3d8-4082-986c-2ee3d860827d" resp="#CH" tls:created="2021-09-06T23:25:31.961+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+                <def>in no way; under no aspect ever</def>
+            </sense>
+        </entry>
+    </div>
 </div>

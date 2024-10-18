@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-61395670-a2bd-4fa9-aa78-00a19be1c3dd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-61395670-a2bd-4fa9-aa78-00a19be1c3dd">
 <head>WIND</head>
     <list type="translations">
         <item xml:lang="zh">風</item>
@@ -187,7 +188,14 @@
                 </gramGrp>
   <def>violent wind; storm （=飆）</def>
             </sense>
-<sense xml:id="uuid-e7e7363a-a3ec-4851-a8b9-a2306d5550c8" resp="#CH" tls:created="2020-02-07T18:18:22.822+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>like a whirlwind</def></sense></entry>
+<sense xml:id="uuid-e7e7363a-a3ec-4851-a8b9-a2306d5550c8" resp="#CH" tls:created="2020-02-07T18:18:22.822+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>like a whirlwind</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4b5530d8-30fe-4350-a979-c65eea57b003">
             <form corresp="#uuid-b2520301-df29-4eda-9257-22deda2bdc8e">
 <orth>觱</orth>
@@ -335,7 +343,15 @@
                 </gramGrp>
   <def>it blows, there is wind; it becomes stormy</def>
             </sense>
-<sense xml:id="uuid-365a40b6-087a-40c5-9a40-b6087a20c5c7" resp="#CH" tls:created="2022-09-16T22:24:21.414+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>windy energy, abstract windy force (very common in medical texts, but also outside those)</def></sense></entry>
+<sense xml:id="uuid-365a40b6-087a-40c5-9a40-b6087a20c5c7" resp="#CH" tls:created="2022-09-16T22:24:21.414+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>windy energy, abstract windy force (very common in medical texts, but also outside those)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-016575e2-fefe-4ca0-aa0e-64ea95bba454">
             <form corresp="#uuid-f65fc8c7-fcf5-40d9-89cf-f497392ef972">
 <orth>颸</orth>
@@ -517,5 +533,21 @@
   <def>whirlwind [[Note incidentally that this binome is not normally used adverbially.  Binomes of this sort are frequent. See however ZHUANG 2 who deviates from this rule.]]</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-beaa2df9-db2c-477e-aa2d-f9db2c877e5d" resp="#CH" tls:created="2020-08-07T22:19:01.012+09:00"><form corresp="#uuid-1449f71e-9ea1-432c-abb1-f546d4c0b531"><orth>息</orth><pron xml:lang="zh-Latn-x-pinyin">xī xí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯɡ</pron></form><sense xml:id="uuid-a4d11d10-f6dc-4e69-911d-10f6dc9e69f4" resp="#CH" tls:created="2020-08-07T22:19:01.012+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>derived breathing&gt;blowing:  winds</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-beaa2df9-db2c-477e-aa2d-f9db2c877e5d" resp="#CH" tls:created="2020-08-07T22:19:01.012+09:00">
+            <form corresp="#uuid-1449f71e-9ea1-432c-abb1-f546d4c0b531">
+                <orth>息</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī xí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-a4d11d10-f6dc-4e69-911d-10f6dc9e69f4" resp="#CH" tls:created="2020-08-07T22:19:01.012+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>derived breathing&gt;blowing:  winds</def>
+            </sense>
+        </entry>
+    </div>
 </div>

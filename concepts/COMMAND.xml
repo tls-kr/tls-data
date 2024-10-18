@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c5fa7e5d-c8f8-40b5-935b-4b83b70448e9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c5fa7e5d-c8f8-40b5-935b-4b83b70448e9">
 <head>COMMAND</head>
     <list type="altnames">
 <item>ORDER</item>
@@ -350,7 +351,15 @@
                 </gramGrp>
   <def>issue a command to N (saying S)</def>
             </sense>
-<sense xml:id="uuid-c4a2e565-226e-4c05-a2e5-65226e4c05aa" resp="#CH" tls:created="2021-06-22T18:57:48.916+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>order that S!</def></sense></entry>
+<sense xml:id="uuid-c4a2e565-226e-4c05-a2e5-65226e4c05aa" resp="#CH" tls:created="2021-06-22T18:57:48.916+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>order that S!</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-55cf699a-9a7a-4488-9ff7-dd1d1cbd785a">
             <form corresp="#uuid-cee5727d-382d-4dad-9427-86fe3f8525b6">
 <orth>付</orth>
@@ -446,7 +455,21 @@
                 </gramGrp>
   <def>order about</def>
             </sense>
-<sense xml:id="uuid-872faf50-08a7-4cd0-9a6a-3011dbd90018" resp="#CH" tls:created="2019-10-14T22:18:18.979+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>order people about</def></sense><sense xml:id="uuid-25fc85d0-54c9-4a2b-b541-a0bbfad7552b" resp="#CH" tls:created="2020-01-23T06:12:28.769+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>with one's commands/dispositions</def></sense></entry>
+<sense xml:id="uuid-872faf50-08a7-4cd0-9a6a-3011dbd90018" resp="#CH" tls:created="2019-10-14T22:18:18.979+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>order people about</def>
+            </sense>
+            <sense xml:id="uuid-25fc85d0-54c9-4a2b-b541-a0bbfad7552b" resp="#CH" tls:created="2020-01-23T06:12:28.769+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def>with one's commands/dispositions</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b32d8715-659f-4da2-86c0-a7a858bd69fe">
             <form corresp="#uuid-39f2ae44-d39c-4475-a571-027c20f10e2d">
 <orth>俾</orth>
@@ -469,7 +492,22 @@
                 </gramGrp>
   <def>comand N to V</def>
             </sense>
-<sense xml:id="uuid-7b33e3f1-6958-41ef-b3e3-f16958a1efa0" resp="#CH" tls:created="2023-01-21T22:45:12.778+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.)+V[0]</tls:syn-func></gramGrp><def>order the contextually determinate N to V</def></sense><sense xml:id="uuid-b1a20f59-d011-44a3-a20f-59d011c4a3ea" resp="#dsehnal" tls:created="2024-06-23T04:43:30.984+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4c6745f-42fa-4d4c-9fe9-87da47aac2af">vtoN(.+V[0])</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp><def>command N to do a contextually determinate action</def></sense></entry>
+<sense xml:id="uuid-7b33e3f1-6958-41ef-b3e3-f16958a1efa0" resp="#CH" tls:created="2023-01-21T22:45:12.778+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.)+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>order the contextually determinate N to V</def>
+            </sense>
+            <sense xml:id="uuid-b1a20f59-d011-44a3-a20f-59d011c4a3ea" resp="#dsehnal" tls:created="2024-06-23T04:43:30.984+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4c6745f-42fa-4d4c-9fe9-87da47aac2af">vtoN(.+V[0])</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>command N to do a contextually determinate action</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2adfa0d2-750c-4946-b6d4-e44af6d0a8e8">
             <form corresp="#uuid-26c74f74-1562-4818-aa9e-35ce86cc027b">
 <orth>制</orth>
@@ -587,7 +625,14 @@
                 </gramGrp>
   <def>command that S</def>
             </sense>
-<sense xml:id="uuid-fe3c0071-178f-44bd-aaa6-1898ebd2c8a9" resp="#CH" tls:created="2019-12-11T19:42:09.933+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtt(oN.) V(0)</tls:syn-func></gramGrp><def>command the contextually determinate N to V</def></sense></entry>
+<sense xml:id="uuid-fe3c0071-178f-44bd-aaa6-1898ebd2c8a9" resp="#CH" tls:created="2019-12-11T19:42:09.933+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtt(oN.) V(0)</tls:syn-func>
+                </gramGrp>
+                <def>command the contextually determinate N to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c1686aab-bb4c-406e-8b3e-8b8e3cb18932">
             <form corresp="#uuid-459b0d38-95fa-4d14-a8a8-a032552579a1">
 <orth>命</orth>
@@ -749,7 +794,35 @@
                 </gramGrp>
   <def>be in command of</def>
             </sense>
-<sense xml:id="uuid-b50bd401-586a-4eea-a01f-1ae8bab6ae96" resp="#CH" tls:created="2019-12-24T22:27:30.298+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>commission N, order the performance of the official act N</def></sense><sense xml:id="uuid-a78a0556-b501-471e-8a05-56b501d71e35" resp="#CH" tls:created="2020-03-11T17:20:11.518+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>official order (from N)</def></sense><sense xml:id="uuid-b3e80a9c-027e-409d-a80a-9c027ef09dff" resp="#CH" tls:created="2022-11-28T00:13:31.804+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>issue a command/decree to the effect S; issue the imperative decree S</def></sense><sense xml:id="uuid-7be5e03f-f16a-4ad6-a5e0-3ff16abad68a" resp="#CH" tls:created="2023-01-21T23:11:45.349+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func></gramGrp><def>mandate [from Heaven]</def></sense></entry>
+<sense xml:id="uuid-b50bd401-586a-4eea-a01f-1ae8bab6ae96" resp="#CH" tls:created="2019-12-24T22:27:30.298+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>commission N, order the performance of the official act N</def>
+            </sense>
+            <sense xml:id="uuid-a78a0556-b501-471e-8a05-56b501d71e35" resp="#CH" tls:created="2020-03-11T17:20:11.518+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>official order (from N)</def>
+            </sense>
+            <sense xml:id="uuid-b3e80a9c-027e-409d-a80a-9c027ef09dff" resp="#CH" tls:created="2022-11-28T00:13:31.804+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>issue a command/decree to the effect S; issue the imperative decree S</def>
+            </sense>
+            <sense xml:id="uuid-7be5e03f-f16a-4ad6-a5e0-3ff16abad68a" resp="#CH" tls:created="2023-01-21T23:11:45.349+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>mandate [from Heaven]</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2dfccbee-5c7f-4edc-ad6f-256c9d40561f">
             <form corresp="#uuid-ef6c4ab9-49f2-41c8-83e0-c440fa47cad7">
 <orth>呼</orth>
@@ -821,7 +894,14 @@
                 </gramGrp>
   <def>instructions</def>
             </sense>
-<sense xml:id="uuid-3c357f22-040f-4960-a4bb-269cb69cc713" resp="#CH" tls:created="2019-10-14T22:16:40.572+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>order about, direct</def></sense></entry>
+<sense xml:id="uuid-3c357f22-040f-4960-a4bb-269cb69cc713" resp="#CH" tls:created="2019-10-14T22:16:40.572+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>order about, direct</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-658e8cec-6a17-4634-9ff9-5995a24976ca">
             <form corresp="#uuid-9bb04053-c1b1-4b12-8d8e-4ae084a440ed">
 <orth>教</orth>
@@ -1004,7 +1084,14 @@
                 </gramGrp>
   <def>tell N to V</def>
             </sense>
-<sense xml:id="uuid-bd645028-ba43-4575-a450-28ba43b5756a" resp="#dsehnal" tls:created="2023-05-08T23:58:38.317+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e123832f-202c-49f8-a383-2f202c89f886">vtt(oN.)+VtoS</tls:syn-func></gramGrp><def>to tell the contextually determined N the following</def></sense></entry>
+<sense xml:id="uuid-bd645028-ba43-4575-a450-28ba43b5756a" resp="#dsehnal" tls:created="2023-05-08T23:58:38.317+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e123832f-202c-49f8-a383-2f202c89f886">vtt(oN.)+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>to tell the contextually determined N the following</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-000fe5e8-414c-431a-b51c-39a5bd562ab9">
             <form corresp="#uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce">
 <orth>謂</orth>
@@ -1039,7 +1126,14 @@
                 </gramGrp>
   <def>to address (somebody) and make him to do something; tell (somebody) (to do something)</def>
             </sense>
-<sense xml:id="uuid-c05c683c-4f30-46ec-9c68-3c4f3066ec00" resp="#CH" tls:created="2021-02-27T17:13:34.342+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-47bf65b8-3762-4d1c-81e6-a3a2f26a0200">vttoN.+S</tls:syn-func></gramGrp><def>tell N to ensure that S</def></sense></entry>
+<sense xml:id="uuid-c05c683c-4f30-46ec-9c68-3c4f3066ec00" resp="#CH" tls:created="2021-02-27T17:13:34.342+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-47bf65b8-3762-4d1c-81e6-a3a2f26a0200">vttoN.+S</tls:syn-func>
+                </gramGrp>
+                <def>tell N to ensure that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6cf5c16e-31c1-4c19-9584-aa9d7101ce55">
             <form corresp="#uuid-a3039167-80b2-4b06-8d7a-c948ad3ad0d7">
 <orth>遣</orth>
@@ -1105,7 +1199,14 @@
                 </gramGrp>
   <def>give a signal to;  command through signals; hold overall command of (an army)</def>
             </sense>
-<sense xml:id="uuid-65419751-c416-45f6-8197-51c416e5f615" resp="#CH" tls:created="2020-06-28T17:50:09.892+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>by signals of the hand; by getures of command</def></sense></entry>
+<sense xml:id="uuid-65419751-c416-45f6-8197-51c416e5f615" resp="#CH" tls:created="2020-06-28T17:50:09.892+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>by signals of the hand; by getures of command</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-385d9e18-d394-4dc6-abab-14321276c8e8">
             <form corresp="#uuid-7b3708a0-3495-4669-9e6c-b110abd3bb78 #uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0">
 <orth>仰使</orth>
@@ -1540,8 +1641,86 @@
   <def>being ordered about</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1287943e-b53e-4867-bbfd-f2cd42168319" resp="#CH" tls:created="2019-12-18T23:53:11.51+09:00"><form corresp="#uuid-3ac3cb3c-127f-429d-9770-e278288183e0 #uuid-c688ca7f-20ff-4d59-a1bc-f5e0d3c859f2"><orth>責令</orth><pron xml:lang="zh-Latn-x-pinyin">zé zé zhài lìng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsreak ljengH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skreeɡ ɡ-reŋs
-</pron></form><sense xml:id="uuid-55d53272-d43d-4aff-b7c3-6e4de934db8f" resp="#CH" tls:created="2019-12-18T23:53:11.51+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-be35f265-0ebc-41e0-8a8c-2e145b8bcd97">VPtt(oN.) V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat></gramGrp><def>give official orders for N to V</def></sense></entry><entry type="word" xml:id="uuid-41514358-06d9-4f7b-9143-5806d93f7b4b" resp="#CH" tls:created="2022-03-01T01:04:41.727+09:00"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3"><orth>也</orth><pron xml:lang="zh-Latn-x-pinyin">yě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ</pron></form><sense xml:id="uuid-8d282f21-c2f7-44ce-a82f-21c2f784ceaa" resp="#CH" tls:created="2022-03-01T01:04:41.727+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-bffce75b-0056-4cc7-a631-3b0ca1b749f9">ppostadV(0)</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-25T17:03:22.974+09:00">勿內也"He is not to be let in!": judgment-based imperative, imperative implying a judgment that the order is the right one to give</def></sense></entry><entry xml:id="uuid-59345d2c-f2d0-47ed-b45d-2cf2d057edca"><form corresp="#uuid-26c74f74-1562-4818-aa9e-35ce86cc027b #uuid-91d38b07-5b06-47cc-88d9-624f7c18a502"><orth>制令</orth><pron xml:lang="zh-Latn-x-pinyin">zhì lìng líng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyejH ljeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjeds ɡ-reŋ</pron></form><sense xml:id="uuid-cf44f5f0-f893-4077-8aa8-b9b09f3a18c5" resp="#CH" tls:created="2020-01-31T17:51:36.647+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-24T00:07:00.227+09:00">written decision and orders by the relevant authorities</def></sense></entry><entry type="word" xml:id="uuid-20010ef7-73ad-47bb-810e-f773ad37bb25" resp="#CH" tls:created="2022-11-27T20:25:35.695+09:00"><form corresp="#uuid-651d5e66-86b2-48d4-8fcd-96691bdb570a #uuid-459b0d38-95fa-4d14-a8a8-a032552579a1"><orth>誥命</orth><pron xml:lang="zh-Latn-x-pinyin">gào mìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kawH mjaengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuuɡs mɢreŋs</pron></form><sense xml:id="uuid-cc406c83-f341-49e6-806c-83f34179e638" resp="#CH" tls:created="2022-11-27T20:25:35.695+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>DCD 1: commands and declamations</def></sense></entry><entry type="word" xml:id="uuid-1718ed12-5aa0-4591-98ed-125aa05591e0" resp="#dsehnal" tls:created="2024-01-30T01:49:28.252+09:00"><form corresp="#uuid-8e99c619-edcc-458a-adb3-a2fafca19cb8 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181"><orth>形名</orth><pron xml:lang="zh-Latn-x-pinyin">xíng míng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">heng mjieng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeŋ meŋ</pron></form><sense xml:id="uuid-83c2fd55-d4e7-49a8-82fd-55d4e779a8c2" resp="#dsehnal" tls:created="2024-01-30T01:49:28.252+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>commands of various kinds &lt; 形 = commands made with banners; 名 = commands made with drums and bells (see HDC)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1287943e-b53e-4867-bbfd-f2cd42168319" resp="#CH" tls:created="2019-12-18T23:53:11.51+09:00">
+            <form corresp="#uuid-3ac3cb3c-127f-429d-9770-e278288183e0 #uuid-c688ca7f-20ff-4d59-a1bc-f5e0d3c859f2">
+                <orth>責令</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zé zé zhài lìng
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsreak ljengH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skreeɡ ɡ-reŋs
+</pron>
+            </form>
+            <sense xml:id="uuid-55d53272-d43d-4aff-b7c3-6e4de934db8f" resp="#CH" tls:created="2019-12-18T23:53:11.51+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-be35f265-0ebc-41e0-8a8c-2e145b8bcd97">VPtt(oN.) V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat>
+                </gramGrp>
+                <def>give official orders for N to V</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-41514358-06d9-4f7b-9143-5806d93f7b4b" resp="#CH" tls:created="2022-03-01T01:04:41.727+09:00">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3">
+                <orth>也</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ</pron>
+            </form>
+            <sense xml:id="uuid-8d282f21-c2f7-44ce-a82f-21c2f784ceaa" resp="#CH" tls:created="2022-03-01T01:04:41.727+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-bffce75b-0056-4cc7-a631-3b0ca1b749f9">ppostadV(0)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-25T17:03:22.974+09:00">勿內也"He is not to be let in!": judgment-based imperative, imperative implying a judgment that the order is the right one to give</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-59345d2c-f2d0-47ed-b45d-2cf2d057edca">
+            <form corresp="#uuid-26c74f74-1562-4818-aa9e-35ce86cc027b #uuid-91d38b07-5b06-47cc-88d9-624f7c18a502">
+                <orth>制令</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì lìng líng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyejH ljeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjeds ɡ-reŋ</pron>
+            </form>
+            <sense xml:id="uuid-cf44f5f0-f893-4077-8aa8-b9b09f3a18c5" resp="#CH" tls:created="2020-01-31T17:51:36.647+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-24T00:07:00.227+09:00">written decision and orders by the relevant authorities</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-20010ef7-73ad-47bb-810e-f773ad37bb25" resp="#CH" tls:created="2022-11-27T20:25:35.695+09:00">
+            <form corresp="#uuid-651d5e66-86b2-48d4-8fcd-96691bdb570a #uuid-459b0d38-95fa-4d14-a8a8-a032552579a1">
+                <orth>誥命</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gào mìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kawH mjaengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuuɡs mɢreŋs</pron>
+            </form>
+            <sense xml:id="uuid-cc406c83-f341-49e6-806c-83f34179e638" resp="#CH" tls:created="2022-11-27T20:25:35.695+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>DCD 1: commands and declamations</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1718ed12-5aa0-4591-98ed-125aa05591e0" resp="#dsehnal" tls:created="2024-01-30T01:49:28.252+09:00">
+            <form corresp="#uuid-8e99c619-edcc-458a-adb3-a2fafca19cb8 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181">
+                <orth>形名</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xíng míng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">heng mjieng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeŋ meŋ</pron>
+            </form>
+            <sense xml:id="uuid-83c2fd55-d4e7-49a8-82fd-55d4e779a8c2" resp="#dsehnal" tls:created="2024-01-30T01:49:28.252+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>commands of various kinds &lt; 形 = commands made with banners; 名 = commands made with drums and bells (see HDC)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

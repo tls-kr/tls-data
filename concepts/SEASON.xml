@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a35c3945-885d-4e7c-9f9a-4c952c047661">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a35c3945-885d-4e7c-9f9a-4c952c047661">
 <head>SEASON</head>
     <list type="translations">
         <item xml:lang="zh">時節</item>
@@ -185,7 +186,14 @@
                 </gramGrp>
   <def>in the winter (of that contextually determinate year.</def>
             </sense>
-<sense xml:id="uuid-f24251f5-273f-4765-8251-f5273f0765e0" resp="#zadrapa" tls:created="2023-06-13T22:33:11.852+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>in winter</def></sense></entry>
+<sense xml:id="uuid-f24251f5-273f-4765-8251-f5273f0765e0" resp="#zadrapa" tls:created="2023-06-13T22:33:11.852+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>in winter</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-76c48b50-be0d-4935-ab1e-5d88e6377cb4">
             <form corresp="#uuid-40a5786c-4b92-4256-b897-901f74755fd7">
 <orth>夏</orth>
@@ -238,7 +246,14 @@
                 </gramGrp>
   <def>generally: in summer</def>
             </sense>
-<sense xml:id="uuid-f0805c06-ca1e-4402-805c-06ca1e74026c" resp="#zadrapa" tls:created="2023-06-13T22:32:43.313+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>in summer</def></sense></entry>
+<sense xml:id="uuid-f0805c06-ca1e-4402-805c-06ca1e74026c" resp="#zadrapa" tls:created="2023-06-13T22:32:43.313+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>in summer</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-23d39864-6a66-495d-a932-0860fd8a349c">
             <form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708">
 <orth>天</orth>
@@ -345,7 +360,29 @@
                 </gramGrp>
   <def>indicate the season for a contextually determinate event</def>
             </sense>
-<sense xml:id="uuid-469ff6a2-8d8b-4798-89df-e90cf9fa3801" resp="#dsehnal" tls:created="2019-12-17T06:29:42.385+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(.post-N)</tls:syn-func></gramGrp><def>proper time season</def></sense><sense xml:id="uuid-2ddcfb78-2d99-4078-9cfb-782d993078cb" resp="#CH" tls:created="2020-04-25T00:44:46.76+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>the four seasons, the changing seasons</def></sense><sense xml:id="uuid-4ef43eb1-8287-4cc0-b43e-b182871cc00b" resp="#wilke" tls:created="2022-08-29T05:39:15.525+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>X season, season of/for N; 瓜時 "melon season"</def></sense></entry>
+<sense xml:id="uuid-469ff6a2-8d8b-4798-89df-e90cf9fa3801" resp="#dsehnal" tls:created="2019-12-17T06:29:42.385+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(.post-N)</tls:syn-func>
+                </gramGrp>
+                <def>proper time season</def>
+            </sense>
+            <sense xml:id="uuid-2ddcfb78-2d99-4078-9cfb-782d993078cb" resp="#CH" tls:created="2020-04-25T00:44:46.76+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>the four seasons, the changing seasons</def>
+            </sense>
+            <sense xml:id="uuid-4ef43eb1-8287-4cc0-b43e-b182871cc00b" resp="#wilke" tls:created="2022-08-29T05:39:15.525+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>X season, season of/for N; 瓜時 "melon season"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-15b1743c-cc20-495c-9f2a-dc3669f5e392">
             <form corresp="#uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545">
 <orth>秋</orth>
@@ -500,5 +537,163 @@
   <def>first two weeks of spring</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-460430c0-a410-4c9c-b1f2-bb2fdfffd64c" resp="#zadrapa" tls:created="2019-11-01T00:08:11.44+09:00"><form corresp="#uuid-320850b0-0d0b-485b-b003-d3cb44607988 #uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545"><orth>春秋</orth><pron xml:lang="zh-Latn-x-pinyin">chūn qiū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwin tshjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjun tshiw</pron></form><sense xml:id="uuid-4f518c07-851b-47f8-98a4-cd26c4c0840b" resp="#zadrapa" tls:created="2019-11-01T00:08:11.44+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp><def>according to the seasons of the year, in particular seasons of the year</def></sense></entry><entry type="word" xml:id="uuid-e62de0d1-bc3d-480c-ade0-d1bc3d280ca6" resp="#zadrapa" tls:created="2020-06-02T23:32:08.316+09:00"><form corresp="#uuid-9a3e6563-6679-42a6-978a-254aac371ab5 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03"><orth>四時</orth><pron xml:lang="zh-Latn-x-pinyin">sì shí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sijH dzyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plids ɡljɯ</pron></form><sense xml:id="uuid-053463cf-871b-4b28-b463-cf871bab28b4" resp="#zadrapa" tls:created="2020-06-02T23:32:08.316+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-571d47c2-3f81-44cb-962c-e5fac729aa8a">NP{vadN}</tls:syn-func><tls:sem-feat corresp="#uuid-887fdec5-f18d-4faf-8602-f5c5c2f99a1d">metaphysical</tls:sem-feat></gramGrp><def>the four seasons</def></sense></entry><entry type="word" xml:id="uuid-33377bf9-47ad-4ce7-b77b-f947adcce75f" resp="#chris" tls:created="2022-08-04T11:57:08.182+09:00"><form corresp="#uuid-4ca8ea7a-81cf-44f9-9ecb-2bd1fc6947af #uuid-57bd9390-fe39-446a-aa51-3e76922430f4"><orth>冬至</orth><pron xml:lang="zh-Latn-x-pinyin">dōng zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">towng tsyijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuuŋ kljiɡs</pron></form><sense xml:id="uuid-9e2e0648-1357-4811-ae06-48135748117f" resp="#chris" tls:created="2022-08-04T11:57:08.182+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>Winter solstice</def></sense></entry><entry type="word" xml:id="uuid-e99f6a34-7449-4393-9f6a-347449e3935b" resp="#chris" tls:created="2022-08-04T11:58:21.886+09:00"><form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6"><orth>小寒</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎo hán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX han</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ ɡaan</pron></form><sense xml:id="uuid-1d7b2a3f-3988-4cb2-bb2a-3f39884cb2ed" resp="#chris" tls:created="2022-08-04T11:58:21.886+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>Small cold, one of the 24 seasons</def></sense></entry><entry type="word" xml:id="uuid-cb056f3b-c6ef-4050-856f-3bc6efa05093" resp="#chris" tls:created="2022-08-04T11:59:29.126+09:00"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6"><orth>大寒</orth><pron xml:lang="zh-Latn-x-pinyin">dà hán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dajH han</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads ɡaan</pron></form><sense xml:id="uuid-c061d320-6180-4027-a1d3-2061800027c0" resp="#chris" tls:created="2022-08-04T11:59:29.126+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>Great cold, one of the 24 seasons</def></sense></entry><entry type="word" xml:id="uuid-0ac41513-0bb9-44ca-8415-130bb9f4ca98" resp="#CH" tls:created="2022-08-22T00:35:35.241+09:00"><form corresp="#uuid-4ca8ea7a-81cf-44f9-9ecb-2bd1fc6947af #uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c"><orth>冬日</orth><pron xml:lang="zh-Latn-x-pinyin">dōng rì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">towng nyit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuuŋ mljiɡ</pron></form><sense xml:id="uuid-da7ca8d4-a3ba-4be9-bca8-d4a3bafbe9e8" resp="#CH" tls:created="2022-08-22T00:35:35.241+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func></gramGrp><def>in winter</def></sense></entry><entry type="word" xml:id="uuid-22c566d8-7b6a-483b-8566-d87b6ae83b65" resp="#CH" tls:created="2022-08-26T21:04:23.332+09:00"><form corresp="#uuid-b598e84b-bbd1-403a-973b-cb95c13b5b7e #uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545"><orth>立秋</orth><pron xml:lang="zh-Latn-x-pinyin">lì qiū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lip tshjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rub tshiw</pron></form><sense xml:id="uuid-9e326393-ef7c-4ef6-b263-93ef7ccef6be" resp="#CH" tls:created="2022-08-26T21:04:23.332+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>beginning of spring</def></sense></entry><entry type="word" xml:id="uuid-86a99e79-15d4-4a05-a99e-7915d4fa0543" resp="#CH" tls:created="2022-09-08T23:15:07.049+09:00"><form corresp="#uuid-320850b0-0d0b-485b-b003-d3cb44607988 #uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70"><orth>春分</orth><pron xml:lang="zh-Latn-x-pinyin">chūn fèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwin pjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjun bɯns</pron></form><sense xml:id="uuid-fc1761aa-6729-496c-9761-aa6729496c42" resp="#CH" tls:created="2022-09-08T23:15:07.049+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>spring</def></sense></entry><entry type="word" xml:id="uuid-c247590b-5d46-47e1-8759-0b5d46f7e1d6" resp="#CH" tls:created="2022-09-08T23:15:56.564+09:00"><form corresp="#uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545 #uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70"><orth>秋分</orth><pron xml:lang="zh-Latn-x-pinyin">qiū fèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuw pjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshiw bɯns</pron></form><sense xml:id="uuid-9347bef1-ef88-4852-87be-f1ef88185265" resp="#CH" tls:created="2022-09-08T23:15:56.564+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>autumn</def></sense></entry><entry type="word" xml:id="uuid-b2a65917-833c-4def-a659-17833cfdef7a" resp="#CH" tls:created="2023-02-07T21:00:59.984+09:00"><form corresp="#uuid-40a5786c-4b92-4256-b897-901f74755fd7 #uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c"><orth>夏日</orth><pron xml:lang="zh-Latn-x-pinyin">xià rì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haeH nyit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡraas mljiɡ</pron></form><sense xml:id="uuid-e90a4a35-c4df-4517-8a4a-35c4df2517f3" resp="#CH" tls:created="2023-02-07T21:00:59.984+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>summertime</def></sense><sense xml:id="uuid-a17b7fb4-ae30-432c-bb7f-b4ae30232c71" resp="#zadrapa" tls:created="2023-06-13T22:17:47.151+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func></gramGrp><def>in summer</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-460430c0-a410-4c9c-b1f2-bb2fdfffd64c" resp="#zadrapa" tls:created="2019-11-01T00:08:11.44+09:00">
+            <form corresp="#uuid-320850b0-0d0b-485b-b003-d3cb44607988 #uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545">
+                <orth>春秋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chūn qiū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwin tshjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjun tshiw</pron>
+            </form>
+            <sense xml:id="uuid-4f518c07-851b-47f8-98a4-cd26c4c0840b" resp="#zadrapa" tls:created="2019-11-01T00:08:11.44+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+                <def>according to the seasons of the year, in particular seasons of the year</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e62de0d1-bc3d-480c-ade0-d1bc3d280ca6" resp="#zadrapa" tls:created="2020-06-02T23:32:08.316+09:00">
+            <form corresp="#uuid-9a3e6563-6679-42a6-978a-254aac371ab5 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03">
+                <orth>四時</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì shí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sijH dzyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plids ɡljɯ</pron>
+            </form>
+            <sense xml:id="uuid-053463cf-871b-4b28-b463-cf871bab28b4" resp="#zadrapa" tls:created="2020-06-02T23:32:08.316+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-571d47c2-3f81-44cb-962c-e5fac729aa8a">NP{vadN}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-887fdec5-f18d-4faf-8602-f5c5c2f99a1d">metaphysical</tls:sem-feat>
+                </gramGrp>
+                <def>the four seasons</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-33377bf9-47ad-4ce7-b77b-f947adcce75f" resp="#chris" tls:created="2022-08-04T11:57:08.182+09:00">
+            <form corresp="#uuid-4ca8ea7a-81cf-44f9-9ecb-2bd1fc6947af #uuid-57bd9390-fe39-446a-aa51-3e76922430f4">
+                <orth>冬至</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dōng zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">towng tsyijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuuŋ kljiɡs</pron>
+            </form>
+            <sense xml:id="uuid-9e2e0648-1357-4811-ae06-48135748117f" resp="#chris" tls:created="2022-08-04T11:57:08.182+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>Winter solstice</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e99f6a34-7449-4393-9f6a-347449e3935b" resp="#chris" tls:created="2022-08-04T11:58:21.886+09:00">
+            <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6">
+                <orth>小寒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎo hán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX han</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ ɡaan</pron>
+            </form>
+            <sense xml:id="uuid-1d7b2a3f-3988-4cb2-bb2a-3f39884cb2ed" resp="#chris" tls:created="2022-08-04T11:58:21.886+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>Small cold, one of the 24 seasons</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cb056f3b-c6ef-4050-856f-3bc6efa05093" resp="#chris" tls:created="2022-08-04T11:59:29.126+09:00">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6">
+                <orth>大寒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà hán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dajH han</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads ɡaan</pron>
+            </form>
+            <sense xml:id="uuid-c061d320-6180-4027-a1d3-2061800027c0" resp="#chris" tls:created="2022-08-04T11:59:29.126+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>Great cold, one of the 24 seasons</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0ac41513-0bb9-44ca-8415-130bb9f4ca98" resp="#CH" tls:created="2022-08-22T00:35:35.241+09:00">
+            <form corresp="#uuid-4ca8ea7a-81cf-44f9-9ecb-2bd1fc6947af #uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c">
+                <orth>冬日</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dōng rì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">towng nyit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuuŋ mljiɡ</pron>
+            </form>
+            <sense xml:id="uuid-da7ca8d4-a3ba-4be9-bca8-d4a3bafbe9e8" resp="#CH" tls:created="2022-08-22T00:35:35.241+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func>
+                </gramGrp>
+                <def>in winter</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-22c566d8-7b6a-483b-8566-d87b6ae83b65" resp="#CH" tls:created="2022-08-26T21:04:23.332+09:00">
+            <form corresp="#uuid-b598e84b-bbd1-403a-973b-cb95c13b5b7e #uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545">
+                <orth>立秋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lì qiū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lip tshjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rub tshiw</pron>
+            </form>
+            <sense xml:id="uuid-9e326393-ef7c-4ef6-b263-93ef7ccef6be" resp="#CH" tls:created="2022-08-26T21:04:23.332+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>beginning of spring</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-86a99e79-15d4-4a05-a99e-7915d4fa0543" resp="#CH" tls:created="2022-09-08T23:15:07.049+09:00">
+            <form corresp="#uuid-320850b0-0d0b-485b-b003-d3cb44607988 #uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70">
+                <orth>春分</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chūn fèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwin pjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjun bɯns</pron>
+            </form>
+            <sense xml:id="uuid-fc1761aa-6729-496c-9761-aa6729496c42" resp="#CH" tls:created="2022-09-08T23:15:07.049+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>spring</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c247590b-5d46-47e1-8759-0b5d46f7e1d6" resp="#CH" tls:created="2022-09-08T23:15:56.564+09:00">
+            <form corresp="#uuid-45448c6e-c9ed-4a30-89c9-e6f4b9142545 #uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70">
+                <orth>秋分</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiū fèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuw pjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshiw bɯns</pron>
+            </form>
+            <sense xml:id="uuid-9347bef1-ef88-4852-87be-f1ef88185265" resp="#CH" tls:created="2022-09-08T23:15:56.564+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>autumn</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b2a65917-833c-4def-a659-17833cfdef7a" resp="#CH" tls:created="2023-02-07T21:00:59.984+09:00">
+            <form corresp="#uuid-40a5786c-4b92-4256-b897-901f74755fd7 #uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c">
+                <orth>夏日</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xià rì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haeH nyit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡraas mljiɡ</pron>
+            </form>
+            <sense xml:id="uuid-e90a4a35-c4df-4517-8a4a-35c4df2517f3" resp="#CH" tls:created="2023-02-07T21:00:59.984+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>summertime</def>
+            </sense>
+            <sense xml:id="uuid-a17b7fb4-ae30-432c-bb7f-b4ae30232c71" resp="#zadrapa" tls:created="2023-06-13T22:17:47.151+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func>
+                </gramGrp>
+                <def>in summer</def>
+            </sense>
+        </entry>
+    </div>
 </div>

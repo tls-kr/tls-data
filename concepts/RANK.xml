@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-782a7680-7172-4053-8716-d5a8f2f8029b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-782a7680-7172-4053-8716-d5a8f2f8029b">
 <head>RANK</head>
     <list type="altnames">
 <item>POSITION</item>
@@ -210,7 +211,14 @@
                 </gramGrp>
   <def>concrete relative position in society</def>
             </sense>
-<sense xml:id="uuid-0fc9f9b5-5ac3-4859-b9cf-04ae09d0c8b2" resp="#CH" tls:created="2019-12-16T19:43:02.195+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>the post/rank of N</def></sense></entry>
+<sense xml:id="uuid-0fc9f9b5-5ac3-4859-b9cf-04ae09d0c8b2" resp="#CH" tls:created="2019-12-16T19:43:02.195+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>the post/rank of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1d28fcc6-6587-451b-bbd2-f053fd1c6da9">
             <form corresp="#uuid-3c7013ae-8884-4eb0-b54a-3a90c25a0134">
 <orth>儕</orth>
@@ -392,7 +400,14 @@
                 </gramGrp>
   <def>楚子虔</def>
             </sense>
-<sense xml:id="uuid-400433c9-09f6-44ab-8433-c909f644ab12" resp="#CH" tls:created="2022-11-20T01:15:30.057+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>viscounthood</def></sense></entry>
+<sense xml:id="uuid-400433c9-09f6-44ab-8433-c909f644ab12" resp="#CH" tls:created="2022-11-20T01:15:30.057+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>viscounthood</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c6a2e435-a2e5-47f6-9ce8-59a2af59f930">
             <form corresp="#uuid-b966a52d-9df9-4e93-8dbb-54105b005a81">
 <orth>爵</orth>
@@ -436,7 +451,23 @@
                 </gramGrp>
   <def>rise in rank, be promoted</def>
             </sense>
-<sense xml:id="uuid-eed1d975-cb9e-495f-91d9-75cb9ef95f89" resp="#CH" tls:created="2020-05-20T04:44:42.59+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be given a high rank</def></sense><sense xml:id="uuid-3f84d09f-2838-4ca3-84d0-9f28383ca33f" resp="#CH" tls:created="2020-05-20T04:45:22.523+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>appoint to a high rank</def></sense></entry>
+<sense xml:id="uuid-eed1d975-cb9e-495f-91d9-75cb9ef95f89" resp="#CH" tls:created="2020-05-20T04:44:42.59+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be given a high rank</def>
+            </sense>
+            <sense xml:id="uuid-3f84d09f-2838-4ca3-84d0-9f28383ca33f" resp="#CH" tls:created="2020-05-20T04:45:22.523+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>appoint to a high rank</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5f2c1df6-ad4e-4e0d-bb66-e73d2d7d0ade">
             <form corresp="#uuid-625a10dc-66da-480c-89ec-6e5bae4bcfae">
 <orth>班</orth>
@@ -871,7 +902,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-9d70d58f-fdf0-4f4f-a40d-c2843975bef4">
-            <form corresp="#uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70"><orth>分</orth><pron xml:lang="zh-Latn-x-pinyin">fèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯns</pron></form>
+            <form corresp="#uuid-5b8ff1a4-ec97-451b-8a3e-69700f5cec70">
+                <orth>分</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯns</pron>
+            </form>
 <sense xml:id="uuid-516b049d-d466-4cb1-a8d2-d8ed26cc38a5">
 <gramGrp>
                     <pos>N</pos>
@@ -881,5 +917,130 @@
   <def resp="#zadrapa" updated="2022-05-31T20:34:46.306+09:00">rank; status, dignity of rank; social hierarchy</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-739d21d9-867e-43c4-a871-f8772decb918" resp="#CH" tls:created="2020-02-09T19:33:08.174+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0bac44a2-7a5f-4311-a7d0-3cb52e93a77e" resp="#CH" tls:created="2020-02-09T19:33:08.174+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>derived: rank in the hierarchy of aesthetic or literary excellence</def></sense></entry><entry type="word" xml:id="uuid-c5e0ba9e-e8c9-4c3c-97e6-3a2cc66b06e7" resp="#CH" tls:created="2020-02-09T19:33:31.612+09:00"><form corresp="#uuid-1462af08-f6cd-4610-9635-32ce10e3d9d6 #uuid-13177990-621f-464e-943f-c6b9d5744836"><orth>殿最</orth><pron xml:lang="zh-Latn-x-pinyin">diàn zuì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tenH tswajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯns skoods</pron></form><sense xml:id="uuid-2ff4203d-0f11-467e-8500-0947a3c77855" resp="#CH" tls:created="2020-02-09T19:33:31.612+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>derived: rank in the hierarchy of aesthetic or literary excellence</def></sense></entry><entry type="word" xml:id="uuid-900507c8-1342-467c-8507-c81342867c3b" resp="#CH" tls:created="2020-05-12T23:15:54.761+09:00"><form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4 #uuid-29be220c-b19f-4f4a-9bfd-fdbcc657dc22"><orth>至尊</orth><pron xml:lang="zh-Latn-x-pinyin">zhì zūn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijH tswon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljiɡs tsuun</pron></form><sense xml:id="uuid-f0e8697e-1750-4964-a869-7e1750e964d6" resp="#CH" tls:created="2020-05-12T23:15:54.761+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-02T18:53:18.979+09:00">the man of noblest rank</def></sense></entry><entry type="word" xml:id="uuid-2e34e5ea-282c-497a-b4e5-ea282c197ae1" resp="#CH" tls:created="2020-05-20T04:43:20.861+09:00"><form corresp="#祿:lù"><orth>祿</orth><pron xml:lang="zh-Latn-x-pinyin">lù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-2a26dd79-5126-442a-a6dd-795126042a8c" resp="#CH" tls:created="2020-05-20T04:43:20.861+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be given a salaried position or job</def></sense></entry><entry type="word" xml:id="uuid-2406f90b-a20b-44e9-86f9-0ba20b44e913" resp="#zadrapa" tls:created="2020-06-18T22:37:44.629+09:00"><form corresp="#祿:lu4 #uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a"><orth>祿秩</orth><pron xml:lang="zh-Latn-x-pinyin">lu4 zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- drit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- rliɡ</pron></form><sense xml:id="uuid-bf5ec351-c029-4f9c-9ec3-51c0294f9cfb" resp="#zadrapa" tls:created="2020-06-18T22:37:44.629+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>official position</def></sense></entry><entry type="word" xml:id="uuid-8e786a52-7da5-436a-b86a-527da5836a12" resp="#zadrapa" tls:created="2021-01-14T17:08:57.897+09:00"><form corresp="#uuid-f6e4dfeb-8d3e-4d10-8800-51a0d70607e3 #uuid-3c7c0022-58b5-4c2d-9c40-4f78d4da3bd6"><orth>差等</orth><pron xml:lang="zh-Latn-x-pinyin">chāi děng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsrhea tojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhreel k-lɯɯŋʔ</pron></form><sense xml:id="uuid-3c8951dc-8690-4a82-8951-dc86904a82de" resp="#zadrapa" tls:created="2021-01-14T17:08:57.897+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>social categories, classes</def></sense></entry><entry type="word" xml:id="uuid-fb2efed6-acbe-45e8-aefe-d6acbe65e855" resp="#zadrapa" tls:created="2022-05-30T17:56:04.988+09:00"><form corresp="#uuid-3c7c0022-58b5-4c2d-9c40-4f78d4da3bd6 #uuid-90be6953-f049-448f-9fbc-d10e00544baa"><orth>等位</orth><pron xml:lang="zh-Latn-x-pinyin">děng wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tojX hwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯɯŋʔ ɢrubs</pron></form><sense xml:id="uuid-6e6bc7b5-90c3-4928-abc7-b590c3d92869" resp="#zadrapa" tls:created="2022-05-30T17:56:04.988+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>positions in the official administrative hiearachy</def></sense></entry><entry type="word" xml:id="uuid-6a13444e-189e-4f82-9344-4e189e7f82e6" resp="#CH" tls:created="2022-11-27T19:09:21.11+09:00"><form corresp="#uuid-8aa69765-53da-464d-8d53-6a184330b1da #uuid-9bad1e6b-8012-44fa-9361-adf5aa491542"><orth>序文</orth><pron xml:lang="zh-Latn-x-pinyin">xù wén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX mjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ mɯn</pron></form><sense xml:id="uuid-434fecad-09f4-4db4-8fec-ad09f42db4ad" resp="#CH" tls:created="2022-11-27T19:09:21.11+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>men of graded formal distinction</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-739d21d9-867e-43c4-a871-f8772decb918" resp="#CH" tls:created="2020-02-09T19:33:08.174+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0bac44a2-7a5f-4311-a7d0-3cb52e93a77e" resp="#CH" tls:created="2020-02-09T19:33:08.174+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>derived: rank in the hierarchy of aesthetic or literary excellence</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5e0ba9e-e8c9-4c3c-97e6-3a2cc66b06e7" resp="#CH" tls:created="2020-02-09T19:33:31.612+09:00">
+            <form corresp="#uuid-1462af08-f6cd-4610-9635-32ce10e3d9d6 #uuid-13177990-621f-464e-943f-c6b9d5744836">
+                <orth>殿最</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">diàn zuì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tenH tswajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯns skoods</pron>
+            </form>
+            <sense xml:id="uuid-2ff4203d-0f11-467e-8500-0947a3c77855" resp="#CH" tls:created="2020-02-09T19:33:31.612+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>derived: rank in the hierarchy of aesthetic or literary excellence</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-900507c8-1342-467c-8507-c81342867c3b" resp="#CH" tls:created="2020-05-12T23:15:54.761+09:00">
+            <form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4 #uuid-29be220c-b19f-4f4a-9bfd-fdbcc657dc22">
+                <orth>至尊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì zūn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijH tswon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljiɡs tsuun</pron>
+            </form>
+            <sense xml:id="uuid-f0e8697e-1750-4964-a869-7e1750e964d6" resp="#CH" tls:created="2020-05-12T23:15:54.761+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-02T18:53:18.979+09:00">the man of noblest rank</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2e34e5ea-282c-497a-b4e5-ea282c197ae1" resp="#CH" tls:created="2020-05-20T04:43:20.861+09:00">
+            <form corresp="#祿:lù">
+                <orth>祿</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-2a26dd79-5126-442a-a6dd-795126042a8c" resp="#CH" tls:created="2020-05-20T04:43:20.861+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be given a salaried position or job</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2406f90b-a20b-44e9-86f9-0ba20b44e913" resp="#zadrapa" tls:created="2020-06-18T22:37:44.629+09:00">
+            <form corresp="#祿:lu4 #uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a">
+                <orth>祿秩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lu4 zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- drit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- rliɡ</pron>
+            </form>
+            <sense xml:id="uuid-bf5ec351-c029-4f9c-9ec3-51c0294f9cfb" resp="#zadrapa" tls:created="2020-06-18T22:37:44.629+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>official position</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e786a52-7da5-436a-b86a-527da5836a12" resp="#zadrapa" tls:created="2021-01-14T17:08:57.897+09:00">
+            <form corresp="#uuid-f6e4dfeb-8d3e-4d10-8800-51a0d70607e3 #uuid-3c7c0022-58b5-4c2d-9c40-4f78d4da3bd6">
+                <orth>差等</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chāi děng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsrhea tojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhreel k-lɯɯŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-3c8951dc-8690-4a82-8951-dc86904a82de" resp="#zadrapa" tls:created="2021-01-14T17:08:57.897+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>social categories, classes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fb2efed6-acbe-45e8-aefe-d6acbe65e855" resp="#zadrapa" tls:created="2022-05-30T17:56:04.988+09:00">
+            <form corresp="#uuid-3c7c0022-58b5-4c2d-9c40-4f78d4da3bd6 #uuid-90be6953-f049-448f-9fbc-d10e00544baa">
+                <orth>等位</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">děng wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tojX hwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯɯŋʔ ɢrubs</pron>
+            </form>
+            <sense xml:id="uuid-6e6bc7b5-90c3-4928-abc7-b590c3d92869" resp="#zadrapa" tls:created="2022-05-30T17:56:04.988+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>positions in the official administrative hiearachy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6a13444e-189e-4f82-9344-4e189e7f82e6" resp="#CH" tls:created="2022-11-27T19:09:21.11+09:00">
+            <form corresp="#uuid-8aa69765-53da-464d-8d53-6a184330b1da #uuid-9bad1e6b-8012-44fa-9361-adf5aa491542">
+                <orth>序文</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xù wén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX mjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ mɯn</pron>
+            </form>
+            <sense xml:id="uuid-434fecad-09f4-4db4-8fec-ad09f42db4ad" resp="#CH" tls:created="2022-11-27T19:09:21.11+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>men of graded formal distinction</def>
+            </sense>
+        </entry>
+    </div>
 </div>

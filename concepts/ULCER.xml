@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c0148b85-2506-4691-8908-29a12bf868b7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c0148b85-2506-4691-8908-29a12bf868b7">
 <head>ULCER</head>
     <list type="altnames">
 <item>ULCERATION</item>
@@ -348,7 +349,14 @@
                 </gramGrp>
   <def>be swollen&gt; be gnarled</def>
             </sense>
-<sense xml:id="uuid-9f376aa7-d0b6-41d7-b76a-a7d0b621d7ed" resp="#CH" tls:created="2021-06-05T23:43:25.398+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>people full of ulcers and pimples</def></sense></entry>
+<sense xml:id="uuid-9f376aa7-d0b6-41d7-b76a-a7d0b621d7ed" resp="#CH" tls:created="2021-06-05T23:43:25.398+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>people full of ulcers and pimples</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-87536bef-a532-4d0d-92ee-a8fdbbaa5f34">
             <form corresp="#uuid-2d06db84-6331-4697-9a4a-b311f32df34f #uuid-c6f46551-b4ed-4648-87e3-5f742cae116c">
 <orth>癰疽</orth>
@@ -363,6 +371,28 @@
                 </gramGrp>
   <def>ulcers</def>
             </sense>
-<sense xml:id="uuid-92f86019-c00e-4556-b860-19c00ed55627" resp="#CH" tls:created="2022-12-08T06:04:12.081+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp><def>caused by ulcers</def></sense></entry>
-    <entry type="word" xml:id="uuid-3ca266e4-baf4-4109-a266-e4baf4b1093f" resp="#CH" tls:created="2021-06-18T22:51:36.991+09:00"><form corresp="#uuid-2885f557-f84d-4b32-85f5-57f84deb32c7"><orth>漂</orth><pron xml:lang="zh-Latn-x-pinyin">biāo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-6c6f6a4a-026b-4db5-af6a-4a026b5db5c3" resp="#CH" tls:created="2021-06-18T22:51:36.991+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>=瘭 ulcerous swelling</def></sense></entry></div>
+<sense xml:id="uuid-92f86019-c00e-4556-b860-19c00ed55627" resp="#CH" tls:created="2022-12-08T06:04:12.081+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+                <def>caused by ulcers</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-3ca266e4-baf4-4109-a266-e4baf4b1093f" resp="#CH" tls:created="2021-06-18T22:51:36.991+09:00">
+            <form corresp="#uuid-2885f557-f84d-4b32-85f5-57f84deb32c7">
+                <orth>漂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biāo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-6c6f6a4a-026b-4db5-af6a-4a026b5db5c3" resp="#CH" tls:created="2021-06-18T22:51:36.991+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>=瘭 ulcerous swelling</def>
+            </sense>
+        </entry>
+    </div>
 </div>

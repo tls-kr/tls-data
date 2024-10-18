@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d03f8635-80dc-4b4c-a5d0-e367096493e8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d03f8635-80dc-4b4c-a5d0-e367096493e8">
 <head>CERTAIN</head>
     <list type="altnames">
 <item>UNQUESTIONABLE</item>
@@ -26,7 +27,10 @@
     </list>
 <div type="definition">
 <p>TRUE AND NOT being DOUBTED.</p>
-    <div type="definition" resp="#CH" modified="2023-09-12T16:48:01.309+09:00"><p>TRUE AND NOT DOUBTED.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-12T16:48:01.309+09:00">
+            <p>TRUE AND NOT DOUBTED.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current word for certainty of any kind is bì 必, but the word can also refer to logical necessity.</p>
@@ -156,7 +160,8 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
-                <tls:sem-feat corresp="#uuid-5ae85a4e-5823-417b-b04f-58d7d9f263f5">emphatic</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-5ae85a4e-5823-417b-b04f-58d7d9f263f5">emphatic</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-06-23T07:59:09.608+09:00">surely! (very much like German "doch"</def>
             </sense>
 <sense xml:id="uuid-9fe7415d-532b-4e8b-8092-a2dc3b15faeb">
@@ -251,7 +256,15 @@
                 </gramGrp>
   <def>(of rewards etc) be reliable, be entirely predictable</def>
             </sense>
-<sense xml:id="uuid-4ddbf263-0013-4904-9bf2-630013690471" resp="#CH" tls:created="2022-08-17T21:57:19.76+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt+prep+V(0)</tls:syn-func><tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp><def>be certain that the omitted subject V-s</def></sense></entry>
+<sense xml:id="uuid-4ddbf263-0013-4904-9bf2-630013690471" resp="#CH" tls:created="2022-08-17T21:57:19.76+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt+prep+V(0)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+                <def>be certain that the omitted subject V-s</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6e599a48-8a8a-47c1-ad90-c7ea76267b6c">
             <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710">
 <orth>其</orth>
@@ -267,7 +280,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-06-07T16:46:57.455+09:00">PRESENT: must be deemed to, be so V!, 多麼; FUTURE: will certainly!; will presumably; will according to reasonable expectations</def>
             </sense>
-<sense xml:id="uuid-678699d3-0de9-4f7d-8699-d30de94f7d9f" resp="#CH" tls:created="2022-11-28T07:23:55.505+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-386e301b-13dc-4a14-ae30-1b13dcaa1472">padN{SUBJ}.+V</tls:syn-func></gramGrp><def>it must certainly be N that V-s</def></sense></entry>
+<sense xml:id="uuid-678699d3-0de9-4f7d-8699-d30de94f7d9f" resp="#CH" tls:created="2022-11-28T07:23:55.505+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-386e301b-13dc-4a14-ae30-1b13dcaa1472">padN{SUBJ}.+V</tls:syn-func>
+                </gramGrp>
+                <def>it must certainly be N that V-s</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a596b1e3-6cb4-454b-afb3-c9eaa4ee2bcf">
             <form corresp="#uuid-6ad5e682-34e2-41a5-8c7c-e5e67fb2c285">
 <orth>固</orth>
@@ -291,7 +311,21 @@
                 </gramGrp>
   <def>surely, doubtlessly; certainly; inherently</def>
             </sense>
-<sense xml:id="uuid-afd72ce8-053d-475b-9964-a1d74cc6a2ad" resp="#CH" tls:created="2020-02-06T23:32:44.995+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-27fd0640-6a82-4b7b-b7b0-43fe6137ffb6">vadN{PRED}</tls:syn-func></gramGrp><def>be inherently N; be definitely N</def></sense><sense xml:id="uuid-2d6d5cee-c3a0-4b97-ad5c-eec3a03b9721" resp="#CH" tls:created="2020-02-12T18:02:21.25+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-24957678-0999-4596-8e51-3945e1a7a59a">vadS1.post-S2</tls:syn-func></gramGrp><def>then indubitably, then inherently</def></sense></entry>
+<sense xml:id="uuid-afd72ce8-053d-475b-9964-a1d74cc6a2ad" resp="#CH" tls:created="2020-02-06T23:32:44.995+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-27fd0640-6a82-4b7b-b7b0-43fe6137ffb6">vadN{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be inherently N; be definitely N</def>
+            </sense>
+            <sense xml:id="uuid-2d6d5cee-c3a0-4b97-ad5c-eec3a03b9721" resp="#CH" tls:created="2020-02-12T18:02:21.25+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-24957678-0999-4596-8e51-3945e1a7a59a">vadS1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def>then indubitably, then inherently</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-575638b6-65c9-4f77-a1a0-0fbff90effe6">
             <form corresp="#uuid-59ce5492-61cb-4b97-9fb2-45bf8f3b9b1f">
 <orth>定</orth>
@@ -451,7 +485,15 @@
                 </gramGrp>
   <def>consider as necessary</def>
             </sense>
-<sense xml:id="uuid-a69d6c63-05cc-4227-9d6c-6305ccd227c0" resp="#CH" tls:created="2023-09-22T23:13:17.361+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat></gramGrp><def>be sure of what one is doing</def></sense></entry>
+<sense xml:id="uuid-a69d6c63-05cc-4227-9d6c-6305ccd227c0" resp="#CH" tls:created="2023-09-22T23:13:17.361+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat>
+                </gramGrp>
+                <def>be sure of what one is doing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ba66e4dd-6619-477d-8d27-d3c7cd6ffb43">
             <form corresp="#uuid-e60a2043-d478-458f-b54c-e0136f8d5d5b">
 <orth>恐</orth>
@@ -561,7 +603,14 @@
                 </gramGrp>
   <def>cannot avoid to be Ved</def>
             </sense>
-<sense xml:id="uuid-49d6bb8e-c801-4731-96bb-8ec801773143" resp="#zadrapa" tls:created="2020-12-16T06:06:37.421+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func></gramGrp><def>cannot avoid V-ing</def></sense></entry>
+<sense xml:id="uuid-49d6bb8e-c801-4731-96bb-8ec801773143" resp="#zadrapa" tls:created="2020-12-16T06:06:37.421+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>cannot avoid V-ing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e517d69f-75bd-4d21-b46a-f53dbbc34c5a">
             <form corresp="#uuid-6572f778-b88e-4170-9f05-3eda652316f7 #uuid-69629cac-c2c1-4e4e-973b-f5d11b631144">
 <orth>亦將</orth>
@@ -852,14 +901,89 @@
   <def>ZUO: doubtlessly, no doubt; naturally enough</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-69585218-b1b1-4459-8cf0-88a25a5fe573" resp="#CH" tls:created="2019-12-12T01:39:44.267+09:00"><form corresp="#uuid-638b158e-a200-4a02-91f0-075808ba2dde #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f"><orth>豈不</orth><pron xml:lang="zh-Latn-x-pinyin">qǐ bù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khj+jX pjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯlʔ pɯʔ</pron></form><sense xml:id="uuid-3da85957-f24d-4b07-9af3-eb559b29dfcc" resp="#CH" tls:created="2019-12-12T01:39:44.267+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>certainly, how not?</def></sense></entry><entry type="word" xml:id="uuid-2eaf2e56-8033-43ca-ac5b-237230d9aaf7" resp="#CH" tls:created="2019-12-25T06:56:48.748+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-3fcdbd95-a3fc-4772-9f5b-549894cd078d" resp="#CH" tls:created="2019-12-25T06:56:48.748+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func></gramGrp><def>how could it be that not&gt; surely!</def></sense></entry><entry type="word" xml:id="uuid-ee9ab986-c991-46e2-b571-de19887874fe" resp="#CH" tls:created="2019-12-25T06:56:56.199+09:00"><form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8 #uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb"><orth>得無</orth><pron xml:lang="zh-Latn-x-pinyin">dé
+    <entry type="word" xml:id="uuid-69585218-b1b1-4459-8cf0-88a25a5fe573" resp="#CH" tls:created="2019-12-12T01:39:44.267+09:00">
+            <form corresp="#uuid-638b158e-a200-4a02-91f0-075808ba2dde #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f">
+                <orth>豈不</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǐ bù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khj+jX pjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯlʔ pɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-3da85957-f24d-4b07-9af3-eb559b29dfcc" resp="#CH" tls:created="2019-12-12T01:39:44.267+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>certainly, how not?</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2eaf2e56-8033-43ca-ac5b-237230d9aaf7" resp="#CH" tls:created="2019-12-25T06:56:48.748+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-3fcdbd95-a3fc-4772-9f5b-549894cd078d" resp="#CH" tls:created="2019-12-25T06:56:48.748+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func>
+                </gramGrp>
+                <def>how could it be that not&gt; surely!</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ee9ab986-c991-46e2-b571-de19887874fe" resp="#CH" tls:created="2019-12-25T06:56:56.199+09:00">
+            <form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8 #uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb">
+                <orth>得無</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dé
  dé
  de
  děi
- wú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tok
- mju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯɡ
- ma</pron></form><sense xml:id="uuid-2f6560c0-febd-44a1-86b2-9076c57235c7" resp="#CH" tls:created="2019-12-25T06:56:56.199+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func></gramGrp><def>how could it be that not&gt; surely!</def></sense></entry><entry type="word" xml:id="uuid-471fb79b-0c6c-4922-9fb7-9b0c6c8922bf" resp="#dsehnal" tls:created="2020-05-24T00:26:28.731+09:00"><form corresp="#uuid-89389365-d03f-4e97-8d59-e432e8dc9b31 #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f"><orth>曾不</orth><pron xml:lang="zh-Latn-x-pinyin">zēng
- bù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">
- pjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsɯɯŋ
- pɯʔ</pron></form><sense xml:id="uuid-bb1a243a-97d7-4d75-9a24-3a97d79d7544" resp="#dsehnal" tls:created="2020-05-24T00:26:28.731+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-e7f1e69d-7edf-4e5a-bdef-c5995d0fb79d">PPadS</tls:syn-func></gramGrp><def>indeed not; by no means</def></sense></entry><entry type="word" xml:id="uuid-92fd5793-7d65-4a54-bd57-937d65aa54e8" resp="#zadrapa" tls:created="2020-12-18T05:03:19.376+09:00"><form corresp="#uuid-6572f778-b88e-4170-9f05-3eda652316f7 #uuid-25996ba8-1e36-4438-8c90-d9a399341f8e"><orth>亦必</orth><pron xml:lang="zh-Latn-x-pinyin">yì bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yek pjit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laɡ piɡ</pron></form><sense xml:id="uuid-90334b0a-d4ed-4535-b34b-0ad4ed3535c0" resp="#zadrapa" tls:created="2020-12-18T05:03:19.376+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func></gramGrp><def>inevitably, necessarily</def></sense></entry></div>
+ wú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tok
+ mju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯɡ
+ ma</pron>
+            </form>
+            <sense xml:id="uuid-2f6560c0-febd-44a1-86b2-9076c57235c7" resp="#CH" tls:created="2019-12-25T06:56:56.199+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func>
+                </gramGrp>
+                <def>how could it be that not&gt; surely!</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-471fb79b-0c6c-4922-9fb7-9b0c6c8922bf" resp="#dsehnal" tls:created="2020-05-24T00:26:28.731+09:00">
+            <form corresp="#uuid-89389365-d03f-4e97-8d59-e432e8dc9b31 #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f">
+                <orth>曾不</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zēng
+ bù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">
+ pjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsɯɯŋ
+ pɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-bb1a243a-97d7-4d75-9a24-3a97d79d7544" resp="#dsehnal" tls:created="2020-05-24T00:26:28.731+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-e7f1e69d-7edf-4e5a-bdef-c5995d0fb79d">PPadS</tls:syn-func>
+                </gramGrp>
+                <def>indeed not; by no means</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-92fd5793-7d65-4a54-bd57-937d65aa54e8" resp="#zadrapa" tls:created="2020-12-18T05:03:19.376+09:00">
+            <form corresp="#uuid-6572f778-b88e-4170-9f05-3eda652316f7 #uuid-25996ba8-1e36-4438-8c90-d9a399341f8e">
+                <orth>亦必</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yek pjit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laɡ piɡ</pron>
+            </form>
+            <sense xml:id="uuid-90334b0a-d4ed-4535-b34b-0ad4ed3535c0" resp="#zadrapa" tls:created="2020-12-18T05:03:19.376+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+                <def>inevitably, necessarily</def>
+            </sense>
+        </entry>
+    </div>
 </div>

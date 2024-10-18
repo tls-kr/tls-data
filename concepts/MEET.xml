@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e3e7cd5b-e60e-439d-ac8a-d6bab704184f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e3e7cd5b-e60e-439d-ac8a-d6bab704184f">
 <head>MEET</head>
     <list type="altnames">
 <item>ENCOUNTER</item>
@@ -161,7 +162,15 @@
                 </gramGrp>
   <def>make contact, get together</def>
             </sense>
-<sense xml:id="uuid-7eb154f8-c849-4f84-9c7f-0b8af0b514aa" resp="#CH" tls:created="2019-12-02T22:32:58.989+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>object non-human: get exposed to, run into</def></sense></entry>
+<sense xml:id="uuid-7eb154f8-c849-4f84-9c7f-0b8af0b514aa" resp="#CH" tls:created="2019-12-02T22:32:58.989+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>object non-human: get exposed to, run into</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ca2e452d-f087-4cd5-bea3-25100b010928">
             <form corresp="#uuid-13177990-621f-464e-943f-c6b9d5744836">
 <orth>最</orth>
@@ -302,7 +311,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-11-20T01:12:45.886+09:00">convene a meeting of; take the initiative for a meeting with (another party)</def>
             </sense>
 
@@ -322,7 +332,39 @@
                 </gramGrp>
   <def>attend the contextually determinate meeting</def>
             </sense>
-<sense xml:id="uuid-b83eccdd-37a7-4c28-993a-13a83730b5d0" resp="#dsehnal" tls:created="2020-01-14T04:59:47.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7f8fc8d2-9676-4439-8fc8-d296762439b1">vt1post.vt2oN1:+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat></gramGrp><def>meet with N1 at N2</def></sense><sense xml:id="uuid-fd4bc7ca-01da-465f-8bc7-ca01da065f4a" resp="#CH" tls:created="2023-01-21T06:26:04.893+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be made to meet up, be made to join a meeting</def></sense><sense xml:id="uuid-8bf204bd-b68d-43b2-b204-bdb68da3b2a3" resp="#CH" tls:created="2023-01-21T06:35:32.605+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-c47df637-c198-4dc6-bdf6-37c1989dc69f">N1=plural</tls:sem-feat></gramGrp><def>call to a meeting the persons in N1</def></sense><sense xml:id="uuid-fd6df3a2-32cf-4e6e-adf3-a232cfee6ea3" resp="#dsehnal" tls:created="2024-06-17T02:09:53.546+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-489430cf-9fd6-4f56-9430-cf9fd6af5625">vi2+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>meet at N</def></sense></entry>
+<sense xml:id="uuid-b83eccdd-37a7-4c28-993a-13a83730b5d0" resp="#dsehnal" tls:created="2020-01-14T04:59:47.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7f8fc8d2-9676-4439-8fc8-d296762439b1">vt1post.vt2oN1:+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat>
+                </gramGrp>
+                <def>meet with N1 at N2</def>
+            </sense>
+            <sense xml:id="uuid-fd4bc7ca-01da-465f-8bc7-ca01da065f4a" resp="#CH" tls:created="2023-01-21T06:26:04.893+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be made to meet up, be made to join a meeting</def>
+            </sense>
+            <sense xml:id="uuid-8bf204bd-b68d-43b2-b204-bdb68da3b2a3" resp="#CH" tls:created="2023-01-21T06:35:32.605+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c47df637-c198-4dc6-bdf6-37c1989dc69f">N1=plural</tls:sem-feat>
+                </gramGrp>
+                <def>call to a meeting the persons in N1</def>
+            </sense>
+            <sense xml:id="uuid-fd6df3a2-32cf-4e6e-adf3-a232cfee6ea3" resp="#dsehnal" tls:created="2024-06-17T02:09:53.546+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-489430cf-9fd6-4f56-9430-cf9fd6af5625">vi2+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>meet at N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3e194e9e-b7c6-4fb0-a16d-f5e2b4b4c5c9">
             <form corresp="#uuid-af61d80b-8574-4cd9-91d3-166cea34fd93">
 <orth>洽</orth>
@@ -437,7 +479,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-12-02T20:55:52.931+09:00">meet; come upon; encounter; get to know</def>
             </sense>
-<sense xml:id="uuid-aa825de8-b3ce-41a6-808c-d77ddf930eb6" resp="#CH" tls:created="2019-12-10T06:37:31.338+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>meet the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-aa825de8-b3ce-41a6-808c-d77ddf930eb6" resp="#CH" tls:created="2019-12-10T06:37:31.338+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>meet the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1211304e-b8e2-463c-b95c-0c05e3c56f68">
             <form corresp="#uuid-6bf8045e-dc8d-42a5-bd51-0d180bc3afd5">
 <orth>覯</orth>
@@ -585,7 +634,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
-                <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat>
+                </gramGrp>
   <def>run into a person, come to meet a person</def>
             </sense>
 </entry>
@@ -789,7 +839,29 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-82eebe5c-c842-4372-9cc3-b3e9949ab05e" resp="#CH" tls:created="2020-01-24T18:07:30.186+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>inchoative: go to court; start proceedings at court</def></sense><sense xml:id="uuid-d40b7868-67bc-43b2-8b78-6867bcc3b2d5" resp="#zadrapa" tls:created="2021-05-12T16:06:45.268+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>attend N's court audiences</def></sense><sense xml:id="uuid-68046ab4-960e-4579-846a-b4960e55799d" resp="#CH" tls:created="2023-02-08T03:26:38.57+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>on the occasion of an early morning court session</def></sense></entry>
+<sense xml:id="uuid-82eebe5c-c842-4372-9cc3-b3e9949ab05e" resp="#CH" tls:created="2020-01-24T18:07:30.186+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>inchoative: go to court; start proceedings at court</def>
+            </sense>
+            <sense xml:id="uuid-d40b7868-67bc-43b2-8b78-6867bcc3b2d5" resp="#zadrapa" tls:created="2021-05-12T16:06:45.268+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>attend N's court audiences</def>
+            </sense>
+            <sense xml:id="uuid-68046ab4-960e-4579-846a-b4960e55799d" resp="#CH" tls:created="2023-02-08T03:26:38.57+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def>on the occasion of an early morning court session</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f9b392ce-459c-433e-823d-5f3a8a2358dc">
             <form corresp="#uuid-b9e72c75-5d13-49d2-a742-a81bfc4f4c45">
 <orth>直</orth>

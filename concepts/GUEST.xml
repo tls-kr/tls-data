@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-374533d0-8162-42e9-b525-20722ffb0355">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-374533d0-8162-42e9-b525-20722ffb0355">
 <head>GUEST</head>
     <list type="altnames">
 <item>VISITOR</item>
@@ -198,7 +199,21 @@
                 </gramGrp>
   <def>treat like a proper</def>
             </sense>
-<sense xml:id="uuid-4e77a0a4-2a97-48ef-9304-31c1563a12b1" resp="#CH" tls:created="2019-10-17T20:58:45.549+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>guest</def></sense><sense xml:id="uuid-1c000a2c-7beb-4c62-800a-2c7bebfc62f6" resp="#CH" tls:created="2020-04-09T22:10:39.265+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>retainer of N</def></sense></entry>
+<sense xml:id="uuid-4e77a0a4-2a97-48ef-9304-31c1563a12b1" resp="#CH" tls:created="2019-10-17T20:58:45.549+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>guest</def>
+            </sense>
+            <sense xml:id="uuid-1c000a2c-7beb-4c62-800a-2c7bebfc62f6" resp="#CH" tls:created="2020-04-09T22:10:39.265+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>retainer of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-34df6fda-7a20-4f96-80e1-e026838c4526">
             <form corresp="#uuid-745110ae-14ed-402d-8284-5d59631af439">
 <orth>賓</orth>
@@ -254,7 +269,21 @@
                 </gramGrp>
   <def>OBI 3: be treated as an honoured guest by, be hosted by 賓于.  The host as well as the honoured guest are typically dead ancestors whose rank is symbolised by the relative position of objects representing the different ancestors in the ritual procedure of "hosting".  Through the "hosting" relation, the ritual practice confirms the status of the ancestors involved in the Shāng pantheon. While 賓于 always describes a relationship between dead ancestors, the active verb bīn 賓 "host, entertain, treat as honoured guest" always has a living agent (usually the king) entertaining a dead ancestor.</def>
             </sense>
-<sense xml:id="uuid-ee20b5f7-88d3-4f7d-b4b9-b28bf22813dd" resp="#CH" tls:created="2020-01-23T06:02:34.599+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the guest of the contextually determinate N</def></sense><sense xml:id="uuid-bafbeff8-9ffd-47fe-9a3a-391c9855fe66" resp="#CH" tls:created="2020-01-23T06:03:16.274+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func></gramGrp><def>be an honoured guest of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-ee20b5f7-88d3-4f7d-b4b9-b28bf22813dd" resp="#CH" tls:created="2020-01-23T06:02:34.599+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the guest of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-bafbeff8-9ffd-47fe-9a3a-391c9855fe66" resp="#CH" tls:created="2020-01-23T06:03:16.274+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be an honoured guest of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-62520744-5084-4269-9a24-17cf87e3d746">
             <form corresp="#uuid-f88c4755-7f5b-4f25-8190-8d5a961a2884 #uuid-638f5102-6260-4085-891d-9864102bc27c">
 <orth>坐者</orth>
@@ -270,7 +299,14 @@
                 </gramGrp>
   <def>guests; visitors</def>
             </sense>
-<sense xml:id="uuid-f77d09bf-c16a-4cdf-bd09-bfc16a2cdf4f" resp="#chris" tls:created="2020-02-28T14:37:25.821+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def resp="#chris" updated="2020-02-28T14:38:11.634+09:00">wrongly accused</def></sense></entry>
+<sense xml:id="uuid-f77d09bf-c16a-4cdf-bd09-bfc16a2cdf4f" resp="#chris" tls:created="2020-02-28T14:37:25.821+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#chris" updated="2020-02-28T14:38:11.634+09:00">wrongly accused</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-53e56ef4-12c6-4680-b9a9-096ed4014a0a">
             <form corresp="#uuid-745110ae-14ed-402d-8284-5d59631af439 #uuid-a46a2ed3-8cca-4e44-b03c-3ba9e3806e16">
 <orth>賓主</orth>
@@ -346,7 +382,15 @@
                 </gramGrp>
   <def>treat as a guest of any kind (</def>
             </sense>
-<sense xml:id="uuid-4b1fc4a3-cc32-409f-9fc4-a3cc32509f62" resp="#dsehnal" tls:created="2021-05-03T05:05:35.934+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>guests of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-4b1fc4a3-cc32-409f-9fc4-a3cc32509f62" resp="#dsehnal" tls:created="2021-05-03T05:05:35.934+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>guests of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-84c33e73-3dc7-4202-add6-616e75212aab">
             <form corresp="#uuid-745110ae-14ed-402d-8284-5d59631af439 #uuid-913e4503-2de6-45dc-b1b2-fb5134fe83f5">
 <orth>賓家</orth>
@@ -362,5 +406,51 @@
   <def>guest</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d0d21973-41d7-40b8-9486-08d7238a9852" resp="#CH" tls:created="2020-01-13T18:41:38.925+09:00"><form corresp="#uuid-f17bd091-a2cb-49d4-9113-738bfe1d3577 #uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87"><orth>堂上</orth><pron xml:lang="zh-Latn-x-pinyin">táng shàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dang dzyangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daaŋ ɡljaŋs</pron></form><sense xml:id="uuid-8b99514e-bec7-47d9-9a99-0805693e14d2" resp="#CH" tls:created="2020-01-13T18:41:38.925+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>the guests in the ceremonial hall</def></sense></entry><entry type="word" xml:id="uuid-57f07103-4fac-4248-b071-034fac5248fb" resp="#CH" tls:created="2020-05-12T03:11:39.696+09:00"><form corresp="#uuid-4b7d5114-a0be-4fe1-b37b-bc2083d68c4f #uuid-f17bd091-a2cb-49d4-9113-738bfe1d3577"><orth>滿堂</orth><pron xml:lang="zh-Latn-x-pinyin">mǎn táng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">manX dang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mboonʔ daaŋ</pron></form><sense xml:id="uuid-10f7e9ef-4e43-4c8b-b7e9-ef4e43ec8b2f" resp="#CH" tls:created="2020-05-12T03:11:39.696+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>all of the guests in the hall</def></sense></entry><entry type="word" xml:id="uuid-1cb77ffc-7a89-468b-b77f-fc7a89468b52" resp="#CH" tls:created="2020-05-12T03:18:21.394+09:00"><form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-f17bd091-a2cb-49d4-9113-738bfe1d3577"><orth>一堂</orth><pron xml:lang="zh-Latn-x-pinyin">yī yí，yì táng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jit dang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ daaŋ</pron></form><sense xml:id="uuid-e7b1bffd-1c64-47d3-b1bf-fd1c6467d3c9" resp="#CH" tls:created="2020-05-12T03:18:21.394+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>all the guests in the hall; "the whole hall"</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d0d21973-41d7-40b8-9486-08d7238a9852" resp="#CH" tls:created="2020-01-13T18:41:38.925+09:00">
+            <form corresp="#uuid-f17bd091-a2cb-49d4-9113-738bfe1d3577 #uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87">
+                <orth>堂上</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">táng shàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dang dzyangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daaŋ ɡljaŋs</pron>
+            </form>
+            <sense xml:id="uuid-8b99514e-bec7-47d9-9a99-0805693e14d2" resp="#CH" tls:created="2020-01-13T18:41:38.925+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the guests in the ceremonial hall</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-57f07103-4fac-4248-b071-034fac5248fb" resp="#CH" tls:created="2020-05-12T03:11:39.696+09:00">
+            <form corresp="#uuid-4b7d5114-a0be-4fe1-b37b-bc2083d68c4f #uuid-f17bd091-a2cb-49d4-9113-738bfe1d3577">
+                <orth>滿堂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mǎn táng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">manX dang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mboonʔ daaŋ</pron>
+            </form>
+            <sense xml:id="uuid-10f7e9ef-4e43-4c8b-b7e9-ef4e43ec8b2f" resp="#CH" tls:created="2020-05-12T03:11:39.696+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>all of the guests in the hall</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1cb77ffc-7a89-468b-b77f-fc7a89468b52" resp="#CH" tls:created="2020-05-12T03:18:21.394+09:00">
+            <form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-f17bd091-a2cb-49d4-9113-738bfe1d3577">
+                <orth>一堂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī yí，yì táng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jit dang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ daaŋ</pron>
+            </form>
+            <sense xml:id="uuid-e7b1bffd-1c64-47d3-b1bf-fd1c6467d3c9" resp="#CH" tls:created="2020-05-12T03:18:21.394+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>all the guests in the hall; "the whole hall"</def>
+            </sense>
+        </entry>
+    </div>
 </div>

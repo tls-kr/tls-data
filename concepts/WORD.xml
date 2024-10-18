@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-aecf371d-2cfd-4924-9e21-fee14f8e43e2">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-aecf371d-2cfd-4924-9e21-fee14f8e43e2">
 <head>WORD</head>
     <list type="altnames">
 <item>TERM</item>
@@ -182,7 +183,37 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-07-05T05:55:16.915+09:00">word; words</def>
             </sense>
-<sense xml:id="uuid-31fdfe10-5900-4ef8-91e2-337ca66bb2eb" resp="#CH" tls:created="2020-02-07T17:37:58.3+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-07-05T05:55:51.041+09:00">plural: words, concrete expressions; specifically: the words in poetry</def></sense><sense xml:id="uuid-ef48616a-7543-4df4-8861-6a7543edf41b" resp="#CH" tls:created="2020-02-13T05:27:42.915+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>one's words</def></sense><sense xml:id="uuid-c972c039-c197-4123-b2c0-39c197c12322" resp="#CH" tls:created="2022-09-05T21:08:59.047+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>by the use of words, with words</def></sense><sense xml:id="uuid-3ecc562b-163d-494a-8c56-2b163d994a59" resp="#CH" tls:created="2023-03-14T19:28:50.132+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-3aa476cc-41e2-443d-a770-261d2b41550c">counted</tls:sem-feat></gramGrp><def>word; character</def></sense></entry>
+<sense xml:id="uuid-31fdfe10-5900-4ef8-91e2-337ca66bb2eb" resp="#CH" tls:created="2020-02-07T17:37:58.3+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-07-05T05:55:51.041+09:00">plural: words, concrete expressions; specifically: the words in poetry</def>
+            </sense>
+            <sense xml:id="uuid-ef48616a-7543-4df4-8861-6a7543edf41b" resp="#CH" tls:created="2020-02-13T05:27:42.915+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>one's words</def>
+            </sense>
+            <sense xml:id="uuid-c972c039-c197-4123-b2c0-39c197c12322" resp="#CH" tls:created="2022-09-05T21:08:59.047+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>by the use of words, with words</def>
+            </sense>
+            <sense xml:id="uuid-3ecc562b-163d-494a-8c56-2b163d994a59" resp="#CH" tls:created="2023-03-14T19:28:50.132+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3aa476cc-41e2-443d-a770-261d2b41550c">counted</tls:sem-feat>
+                </gramGrp>
+                <def>word; character</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4f8e6a30-b45a-4bdc-91ad-d97211a40587">
             <form corresp="#uuid-07a426ac-29b0-4f46-bda5-50f6bfcbf5d6">
 <orth>語</orth>
@@ -228,5 +259,36 @@
   <def>word</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-cdf11451-d8e5-451c-afdb-6b4e6f1307db" resp="#CH" tls:created="2020-02-05T19:22:55.146+09:00"><form corresp="#uuid-9bad1e6b-8012-44fa-9361-adf5aa491542"><orth>文</orth><pron xml:lang="zh-Latn-x-pinyin">wén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯn</pron></form><sense xml:id="uuid-5306d483-4472-4940-9ace-c328c2eb0988" resp="#CH" tls:created="2020-02-05T19:22:55.146+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def>expression, word, way of writing</def></sense></entry><entry type="word" xml:id="uuid-3b251a84-637f-4a6e-a51a-84637ffa6e29" resp="#zadrapa" tls:created="2020-06-03T20:54:52.46+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181"><orth>為名</orth><pron xml:lang="zh-Latn-x-pinyin">wéi míng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH mjieng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal meŋ</pron></form><sense xml:id="uuid-f43c6198-2291-447a-bc61-982291d47acf" resp="#zadrapa" tls:created="2020-06-03T20:54:52.46+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-25e688b6-0fea-4d25-a35e-6a6a74599e59">NPpost-N.adS</tls:syn-func></gramGrp><def>N being such kind of expression that S</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-cdf11451-d8e5-451c-afdb-6b4e6f1307db" resp="#CH" tls:created="2020-02-05T19:22:55.146+09:00">
+            <form corresp="#uuid-9bad1e6b-8012-44fa-9361-adf5aa491542">
+                <orth>文</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯn</pron>
+            </form>
+            <sense xml:id="uuid-5306d483-4472-4940-9ace-c328c2eb0988" resp="#CH" tls:created="2020-02-05T19:22:55.146+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def>expression, word, way of writing</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3b251a84-637f-4a6e-a51a-84637ffa6e29" resp="#zadrapa" tls:created="2020-06-03T20:54:52.46+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181">
+                <orth>為名</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi míng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH mjieng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal meŋ</pron>
+            </form>
+            <sense xml:id="uuid-f43c6198-2291-447a-bc61-982291d47acf" resp="#zadrapa" tls:created="2020-06-03T20:54:52.46+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-25e688b6-0fea-4d25-a35e-6a6a74599e59">NPpost-N.adS</tls:syn-func>
+                </gramGrp>
+                <def>N being such kind of expression that S</def>
+            </sense>
+        </entry>
+    </div>
 </div>

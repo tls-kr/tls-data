@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3c29b8da-f85a-408f-98cf-fb78991751d5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3c29b8da-f85a-408f-98cf-fb78991751d5">
 <head>CONTRARY</head>
     <list type="altnames">
 <item>CONTRADICTORY</item>
@@ -205,7 +206,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-09-20T17:24:32.23+09:00">contrary to expectations, against all expectations; conversely; on the contrary; contrary to intentions; on the other hand</def>
             </sense>
-<sense xml:id="uuid-e303b56e-fa34-4e0f-83b5-6efa340e0fad" resp="#zadrapa" tls:created="2021-06-02T21:03:42.333+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>be the opposite of N</def></sense></entry>
+<sense xml:id="uuid-e303b56e-fa34-4e0f-83b5-6efa340e0fad" resp="#zadrapa" tls:created="2021-06-02T21:03:42.333+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be the opposite of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fe514e89-719d-4caf-a069-fa2c2b87ddd7">
             <form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
 <orth>反</orth>
@@ -285,7 +293,14 @@
                 </gramGrp>
   <def>be inconsistent with</def>
             </sense>
-<sense xml:id="uuid-4cef92a5-76cc-4c07-af92-a576ccbc07b9" resp="#CH" tls:created="2023-02-08T00:31:11.901+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c48a2665-96a1-4116-b9d3-22be9eb5a526">vt+prep+Nab</tls:syn-func></gramGrp><def>be logically incompatible or factually inconsistent with</def></sense></entry>
+<sense xml:id="uuid-4cef92a5-76cc-4c07-af92-a576ccbc07b9" resp="#CH" tls:created="2023-02-08T00:31:11.901+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c48a2665-96a1-4116-b9d3-22be9eb5a526">vt+prep+Nab</tls:syn-func>
+                </gramGrp>
+                <def>be logically incompatible or factually inconsistent with</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4225ed7c-110e-40bf-a59b-ab1d83c8773a">
             <form corresp="#uuid-f9a5a381-2e5e-4c0d-abbc-5851846297e6">
 <orth>忤</orth>
@@ -726,5 +741,34 @@
   <def>CHEMLA 2003:</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0ace4513-3288-47cb-8e45-13328877cb13" resp="#dsehnal" tls:created="2020-05-23T21:04:54.505+09:00"><form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3"><orth>相反</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng fǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjang pjonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ panʔ</pron></form><sense xml:id="uuid-a9392d0b-20ea-4c9d-b92d-0b20eafc9d4f" resp="#dsehnal" tls:created="2020-05-23T21:04:54.505+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be contradictory; be in mutual contradiction</def></sense></entry><entry type="word" xml:id="uuid-a20c7411-1647-4fe6-8c74-1116472fe666"><form><orth>反</orth><pron xml:lang="zh-Latn-x-pinyin">fǎn</pron></form><def/><sense xml:id="uuid-c9bcba6f-4341-4b92-bcba-6f43415b920e" resp="#zadrapa" tls:created="2020-05-31T19:59:57.352+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's opposite</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0ace4513-3288-47cb-8e45-13328877cb13" resp="#dsehnal" tls:created="2020-05-23T21:04:54.505+09:00">
+            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
+                <orth>相反</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng fǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjang pjonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ panʔ</pron>
+            </form>
+            <sense xml:id="uuid-a9392d0b-20ea-4c9d-b92d-0b20eafc9d4f" resp="#dsehnal" tls:created="2020-05-23T21:04:54.505+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be contradictory; be in mutual contradiction</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a20c7411-1647-4fe6-8c74-1116472fe666">
+            <form>
+                <orth>反</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎn</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-c9bcba6f-4341-4b92-bcba-6f43415b920e" resp="#zadrapa" tls:created="2020-05-31T19:59:57.352+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's opposite</def>
+            </sense>
+        </entry>
+    </div>
 </div>

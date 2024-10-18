@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-39d06476-e7f4-4e6e-a855-2b6f0a86ae4f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-39d06476-e7f4-4e6e-a855-2b6f0a86ae4f">
 <head>STEAL</head>
     <list type="altnames">
 <item>PURLOIN</item>
@@ -366,7 +367,22 @@
                 </gramGrp>
   <def>steal</def>
             </sense>
-<sense xml:id="uuid-9d45dad3-2693-4e2a-84ea-52159b84d17b" resp="#CH" tls:created="2019-12-25T06:58:35.501+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>start stealing things</def></sense><sense xml:id="uuid-c208785c-abd0-4c67-98e6-3eeb2268f1f0" resp="#dsehnal" tls:created="2020-01-11T01:28:40.32+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>steel things</def></sense></entry>
+<sense xml:id="uuid-9d45dad3-2693-4e2a-84ea-52159b84d17b" resp="#CH" tls:created="2019-12-25T06:58:35.501+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>start stealing things</def>
+            </sense>
+            <sense xml:id="uuid-c208785c-abd0-4c67-98e6-3eeb2268f1f0" resp="#dsehnal" tls:created="2020-01-11T01:28:40.32+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>steel things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ef46e507-c072-482a-aaec-add9bd0370b2">
             <form corresp="#uuid-35a3d12c-a3d3-4558-9a5b-48a4e62a29fe">
 <orth>竊</orth>
@@ -451,7 +467,14 @@
                 </gramGrp>
   <def>steal N1 from N2</def>
             </sense>
-<sense xml:id="uuid-3914f228-e5db-433a-8d7e-3704bc3f6e4e" resp="#CH" tls:created="2019-12-14T19:19:45.472+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>steal things from N</def></sense></entry>
+<sense xml:id="uuid-3914f228-e5db-433a-8d7e-3704bc3f6e4e" resp="#CH" tls:created="2019-12-14T19:19:45.472+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>steal things from N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0280ec66-74ec-4aaf-9118-dc600102af29">
             <form corresp="#uuid-58dc1190-f3f8-4dcb-8383-06f321b23c0f">
 <orth>翦</orth>
@@ -481,7 +504,14 @@
                 </gramGrp>
   <def>steal</def>
             </sense>
-<sense xml:id="uuid-425a7902-1fa8-4de5-8772-86fafaab921b" resp="#CH" tls:created="2019-12-14T19:27:33.684+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>steal things from</def></sense></entry>
+<sense xml:id="uuid-425a7902-1fa8-4de5-8772-86fafaab921b" resp="#CH" tls:created="2019-12-14T19:27:33.684+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>steal things from</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0dd51fde-387f-42a4-96da-5d8cd38606e0">
             <form corresp="#uuid-c4d51bf5-2746-46a4-8005-1788d17d65df #uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
 <orth>偷取</orth>
@@ -599,7 +629,14 @@
                 </gramGrp>
   <def>engage in thievery; steal things</def>
             </sense>
-<sense xml:id="uuid-fc094b41-6807-4faa-894b-416807cfaa29" resp="#CH" tls:created="2021-06-19T17:00:27.525+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>thievish</def></sense></entry>
+<sense xml:id="uuid-fc094b41-6807-4faa-894b-416807cfaa29" resp="#CH" tls:created="2021-06-19T17:00:27.525+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>thievish</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-61108e48-2e73-489d-83a7-5e553d8e17fb">
             <form corresp="#uuid-0ed25404-dd17-4c61-8df9-663122b8bac2 #uuid-ed05528d-34ad-48cd-b037-74b7c73ece94">
 <orth>穿窬</orth>
@@ -642,5 +679,36 @@
   <def>steal, engage in stealing</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-366c6148-3ac4-4b3c-ac61-483ac40b3c4e" resp="#CH" tls:created="2021-03-07T18:09:50.13+09:00"><form corresp="#uuid-6bac5a20-2848-4bd2-83af-703e4a501218"><orth>探</orth><pron xml:lang="zh-Latn-x-pinyin">tàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thom</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kh-luum</pron></form><sense xml:id="uuid-0ab11bc9-c1a8-446d-b11b-c9c1a8e46d94" resp="#CH" tls:created="2021-03-07T18:09:50.13+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>filch; search through and steal the contents of </def></sense></entry><entry type="word" xml:id="uuid-37004ff5-5dad-4d5a-804f-f55dad9d5aaf" resp="#CH" tls:created="2024-02-14T00:45:54.452+09:00"><form corresp="#餂:tiǎn"><orth>餂</orth><pron xml:lang="zh-Latn-x-pinyin">tiǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-d9b78a53-b0b6-4315-b78a-53b0b6a31538" resp="#CH" tls:created="2024-02-14T00:45:54.452+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>pilfer from, use tricks to steal from</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-366c6148-3ac4-4b3c-ac61-483ac40b3c4e" resp="#CH" tls:created="2021-03-07T18:09:50.13+09:00">
+            <form corresp="#uuid-6bac5a20-2848-4bd2-83af-703e4a501218">
+                <orth>探</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thom</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kh-luum</pron>
+            </form>
+            <sense xml:id="uuid-0ab11bc9-c1a8-446d-b11b-c9c1a8e46d94" resp="#CH" tls:created="2021-03-07T18:09:50.13+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>filch; search through and steal the contents of </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-37004ff5-5dad-4d5a-804f-f55dad9d5aaf" resp="#CH" tls:created="2024-02-14T00:45:54.452+09:00">
+            <form corresp="#餂:tiǎn">
+                <orth>餂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-d9b78a53-b0b6-4315-b78a-53b0b6a31538" resp="#CH" tls:created="2024-02-14T00:45:54.452+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>pilfer from, use tricks to steal from</def>
+            </sense>
+        </entry>
+    </div>
 </div>

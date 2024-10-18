@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-bb9ab141-adfb-443f-9908-f7485cbd7560">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-bb9ab141-adfb-443f-9908-f7485cbd7560">
 <head>CHECK</head>
     <list type="altnames">
 <item>MAKE SURE</item>
@@ -153,7 +154,15 @@
                 </gramGrp>
   <def>find satisfactory evidence on; check out; test carefully; get to the bottom of (a person or a matter)</def>
             </sense>
-<sense xml:id="uuid-f8e7f0a4-829f-430f-a7f0-a4829f230f6f" resp="#zadrapa" tls:created="2021-05-27T15:34:44.802+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def>try to get to the bottom of</def></sense></entry>
+<sense xml:id="uuid-f8e7f0a4-829f-430f-a7f0-a4829f230f6f" resp="#zadrapa" tls:created="2021-05-27T15:34:44.802+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def>try to get to the bottom of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5990b1b0-1a94-40ba-961f-d59a38ad8229">
             <form corresp="#uuid-1402ede2-a657-472f-8765-a1ef7e71b4aa">
 <orth>覈</orth>
@@ -223,7 +232,14 @@
                 </gramGrp>
   <def>double-check</def>
             </sense>
-<sense xml:id="uuid-ce06f0f9-e3fa-4fd4-86f0-f9e3fa1fd44e" resp="#CH" tls:created="2020-04-07T20:53:01.967+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>check out systematically; investigate systematically</def></sense></entry>
+<sense xml:id="uuid-ce06f0f9-e3fa-4fd4-86f0-f9e3fa1fd44e" resp="#CH" tls:created="2020-04-07T20:53:01.967+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>check out systematically; investigate systematically</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7b43b764-6c5d-4b5b-9448-5bbdc1390577">
             <form corresp="#uuid-c8edb223-5773-41f1-b955-ee7c86792290 #uuid-1ffc5c6e-6f91-4844-8af8-a8df704701ea">
 <orth>參觀</orth>
@@ -264,5 +280,21 @@
   <def>cross-check and verify (the evidence)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ab96459c-7e06-49c8-9645-9c7e06d9c8fc" resp="#CH" tls:created="2020-06-26T23:08:50.881+09:00"><form corresp="#uuid-1234313e-2ed1-4122-ab69-732013201c2b"><orth>合</orth><pron xml:lang="zh-Latn-x-pinyin">hé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hop</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡloob</pron></form><sense xml:id="uuid-443c43d1-0c58-41cd-bc43-d10c58f1cd8a" resp="#CH" tls:created="2020-06-26T23:08:50.881+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be properly checked</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ab96459c-7e06-49c8-9645-9c7e06d9c8fc" resp="#CH" tls:created="2020-06-26T23:08:50.881+09:00">
+            <form corresp="#uuid-1234313e-2ed1-4122-ab69-732013201c2b">
+                <orth>合</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hop</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡloob</pron>
+            </form>
+            <sense xml:id="uuid-443c43d1-0c58-41cd-bc43-d10c58f1cd8a" resp="#CH" tls:created="2020-06-26T23:08:50.881+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be properly checked</def>
+            </sense>
+        </entry>
+    </div>
 </div>

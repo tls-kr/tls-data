@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8f5f7463-eb3e-45a8-86e9-944698dd565d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8f5f7463-eb3e-45a8-86e9-944698dd565d">
 <head>STRANGE</head>
     <list type="altnames">
 <item>UNUSUAL</item>
@@ -186,7 +187,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-25600d18-0efe-43a2-9efd-4988fb58d013">
-            <form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4"><orth>奇</orth><pron xml:lang="zh-Latn-x-pinyin">qí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron></form>
+            <form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4">
+                <orth>奇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron>
+            </form>
             <def>Qí 奇 (ant. fán 凡 "perfectly ordinary") refers to the positive quality of being remarkable and unusual.
 </def>
 <sense xml:id="uuid-5a56dc0e-2dfe-42ed-87cf-7e4bbe5c2522">
@@ -221,7 +227,15 @@
                 </gramGrp>
   <def>be unusual; be extraordinary</def>
             </sense>
-<sense xml:id="uuid-e5cda444-5f76-44ff-8da4-445f7654fffd" resp="#dsehnal" tls:created="2024-02-01T21:52:31.753+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#">act</tls:sem-feat></gramGrp><def>acting in an extraordinary way</def></sense></entry>
+<sense xml:id="uuid-e5cda444-5f76-44ff-8da4-445f7654fffd" resp="#dsehnal" tls:created="2024-02-01T21:52:31.753+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#">act</tls:sem-feat>
+                </gramGrp>
+                <def>acting in an extraordinary way</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0dd3dd9e-1a51-4852-98d5-3894d0335418">
             <form corresp="#uuid-8dc50e1d-0841-442c-ab68-6355cd104eeb">
 <orth>尤</orth>
@@ -278,7 +292,30 @@
                 </gramGrp>
   <def>strange, monstrous</def>
             </sense>
-<sense xml:id="uuid-e76d5bdd-8d75-4f69-b9eb-be8811324845" resp="#CH" tls:created="2019-11-28T02:48:50.4+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab.t</tls:syn-func></gramGrp><def>the finding strange of someone or something</def></sense><sense xml:id="uuid-4f7333e1-0cb4-4cc7-b333-e10cb4ecc720" resp="#zadrapa" tls:created="2022-02-09T19:56:05.787+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>weird things</def></sense><sense xml:id="uuid-bc0b92fc-0591-405a-8b92-fc0591205a60" resp="#CH" tls:created="2022-08-28T02:50:16.921+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp><def>marvel at</def></sense></entry>
+<sense xml:id="uuid-e76d5bdd-8d75-4f69-b9eb-be8811324845" resp="#CH" tls:created="2019-11-28T02:48:50.4+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab.t</tls:syn-func>
+                </gramGrp>
+                <def>the finding strange of someone or something</def>
+            </sense>
+            <sense xml:id="uuid-4f7333e1-0cb4-4cc7-b333-e10cb4ecc720" resp="#zadrapa" tls:created="2022-02-09T19:56:05.787+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>weird things</def>
+            </sense>
+            <sense xml:id="uuid-bc0b92fc-0591-405a-8b92-fc0591205a60" resp="#CH" tls:created="2022-08-28T02:50:16.921+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+                <def>marvel at</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-43d5be30-f1d6-492a-87c9-1de993bbf003">
             <form corresp="#uuid-d8adc631-8718-42c9-9cc7-19a0023731f7">
 <orth>狂</orth>
@@ -293,7 +330,29 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-06-19T23:28:19.859+09:00">bizarre or strange (person)</def>
             </sense>
-<sense xml:id="uuid-7be49752-a850-4e98-a497-52a8508e9802" resp="#CH" tls:created="2023-06-19T00:39:02.483+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func><tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp><def>consider to be V-ing</def></sense><sense xml:id="uuid-71c20abb-5ab8-4d61-820a-bb5ab88d61f5" resp="#CH" tls:created="2023-06-19T02:28:28.903+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def resp="#CH" updated="2023-06-19T02:29:21.833+09:00">be utterly absurd, be completely "insane"</def></sense><sense xml:id="uuid-2d4d1bb3-7435-4403-8d1b-b37435240331" resp="#CH" tls:created="2023-06-19T23:29:20.554+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be bizarre, be absurd</def></sense></entry>
+<sense xml:id="uuid-7be49752-a850-4e98-a497-52a8508e9802" resp="#CH" tls:created="2023-06-19T00:39:02.483+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+                <def>consider to be V-ing</def>
+            </sense>
+            <sense xml:id="uuid-71c20abb-5ab8-4d61-820a-bb5ab88d61f5" resp="#CH" tls:created="2023-06-19T02:28:28.903+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-06-19T02:29:21.833+09:00">be utterly absurd, be completely "insane"</def>
+            </sense>
+            <sense xml:id="uuid-2d4d1bb3-7435-4403-8d1b-b37435240331" resp="#CH" tls:created="2023-06-19T23:29:20.554+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be bizarre, be absurd</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1d8e924c-a3bf-4d0b-a717-0015a5914e54">
             <form corresp="#uuid-2358b4e4-e373-45a4-ba89-da230502ff10">
 <orth>異</orth>
@@ -353,7 +412,14 @@
                 </gramGrp>
   <def>consider as strange, find very odd; be astonished by</def>
             </sense>
-<sense xml:id="uuid-7eaaee37-379a-4bed-aaee-37379a8beda3" resp="#CH" tls:created="2024-06-27T04:25:57.598+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>disastrous events, strange disasters</def></sense></entry>
+<sense xml:id="uuid-7eaaee37-379a-4bed-aaee-37379a8beda3" resp="#CH" tls:created="2024-06-27T04:25:57.598+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>disastrous events, strange disasters</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a8f4dd11-2c57-4f60-a858-1ff142cc6dc5">
             <form corresp="#uuid-818ca1b3-7eac-4f01-85a2-b88050aca84e">
 <orth>詭</orth>
@@ -390,7 +456,14 @@
                 </gramGrp>
   <def>strange and extravagant</def>
             </sense>
-<sense xml:id="uuid-f2d4aacb-9eab-454b-83ce-2b411283beb8" resp="#CH" tls:created="2020-02-08T07:16:39.247+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be strange and extravagant</def></sense></entry>
+<sense xml:id="uuid-f2d4aacb-9eab-454b-83ce-2b411283beb8" resp="#CH" tls:created="2020-02-08T07:16:39.247+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be strange and extravagant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e93fe759-9a5f-4bb3-b728-f18e655e18ed">
             <form corresp="#uuid-00362f38-f4e6-482c-ba5d-abb9fffebfc2 #uuid-557d356e-2314-48f2-a032-65f1086e4273">
 <orth>倚魁</orth>
@@ -489,5 +562,187 @@
   <def>monstrous event; monstrous occurence; monster</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5ba7b93b-d29b-43b3-a7b9-3bd29b93b3cd" resp="#zadrapa" tls:created="2020-06-18T23:06:32.229+09:00"><form corresp="#uuid-00362f38-f4e6-482c-ba5d-abb9fffebfc2"><orth>倚</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qralʔ</pron></form><sense xml:id="uuid-3d775c1f-c4bc-4683-b75c-1fc4bc1683a7" resp="#zadrapa" tls:created="2020-06-18T23:06:32.229+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat></gramGrp><def>= qí 奇: deviant</def></sense><sense xml:id="uuid-6867718a-0792-4338-a771-8a07920338f0" resp="#zadrapa" tls:created="2022-01-24T21:13:17.734+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-ea144b5d-3b62-4e9c-8bcb-6b377b5cfddf">neutral</tls:sem-feat></gramGrp><def>strange</def></sense></entry><entry type="word" xml:id="uuid-57677b75-f5be-4335-a77b-75f5be23352a"><form><orth>怪</orth><pron xml:lang="zh-Latn-x-pinyin">guài</pron></form><def/><sense xml:id="uuid-048fbe1e-e03b-4341-8fbe-1ee03bd341f0" resp="#zadrapa" tls:created="2020-06-22T22:34:01.131+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>weird things</def></sense></entry><entry type="word" xml:id="uuid-5e9e4826-b9ae-49c1-9e48-26b9ae49c129" resp="#zadrapa" tls:created="2020-12-06T04:07:25.344+09:00"><form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4"><orth>奇</orth><pron xml:lang="zh-Latn-x-pinyin">qí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron></form><sense xml:id="uuid-be119582-75e2-4daf-9195-8275e27daf6e" resp="#zadrapa" tls:created="2020-12-06T04:07:25.344+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>strangely, eccentrically</def></sense></entry><entry type="word" xml:id="uuid-117898dd-6474-476c-b898-dd6474376cd1"><form><orth>密</orth><pron xml:lang="zh-Latn-x-pinyin">mì</pron></form><def/><sense xml:id="uuid-8c0c1abb-ad97-450a-8c1a-bbad97d50a00" resp="#CH" tls:created="2020-12-14T21:55:01.217+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat></gramGrp><def>be more significant than appears on the surface, have non-trivial depth</def></sense></entry><entry type="word" xml:id="uuid-c2b7e651-fd44-435e-b7e6-51fd44435edb" resp="#zadrapa" tls:created="2021-01-14T19:55:34.471+09:00"><form corresp="#uuid-1bc57c2c-4ee1-4037-b3d4-c92141a90340"><orth>琦</orth><pron xml:lang="zh-Latn-x-pinyin">qí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron></form><sense xml:id="uuid-233c487c-05fe-4c3d-bc48-7c05fe6c3d0b" resp="#zadrapa" tls:created="2021-01-14T19:55:34.471+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>(= qí 奇) eccentric</def></sense></entry><entry type="word" xml:id="uuid-dc364c00-e67b-4ae9-b64c-00e67b1ae922" resp="#zadrapa" tls:created="2021-01-19T20:47:22.572+09:00"><form corresp="#uuid-1d517220-946c-4287-9106-2d34c6e3fd8c #uuid-e6f1e303-a97b-4a3e-8ddc-5d3961dc91dc"><orth>訞怪</orth><pron xml:lang="zh-Latn-x-pinyin">yāo guài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jew kweajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrow kruuds</pron></form><sense xml:id="uuid-44aa98ed-35da-4448-aa98-ed35dab448ad" resp="#zadrapa" tls:created="2021-01-19T20:47:22.572+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2021-01-19T20:47:57.385+09:00">(= yao1guai4 妖怪) monstrous, extremely weird</def></sense></entry><entry type="word" xml:id="uuid-c1f199f7-0a95-4d6e-b199-f70a952d6ef7" resp="#zadrapa" tls:created="2021-01-20T00:37:15.465+09:00"><form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c #uuid-196e0be0-fea7-42ed-9356-96eebfd43a8e"><orth>離縰</orth><pron xml:lang="zh-Latn-x-pinyin">lí xǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lje srjeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rel srelʔ</pron></form><sense xml:id="uuid-5871d3f0-ac0c-4082-b1d3-f0ac0c0082e8" resp="#zadrapa" tls:created="2021-01-20T00:37:15.465+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>behave eccentrically (probably = lízong1 離蹤)</def></sense></entry><entry type="word" xml:id="uuid-696f81e0-8e1a-49d8-af81-e08e1a09d8c8" resp="#zadrapa" tls:created="2021-01-20T00:40:38.506+09:00"><form corresp="#uuid-9042d437-19f9-4299-b253-b6173db7ecfa #uuid-22227e50-b35d-4373-9cd3-2ee513f1e0bc"><orth>跂訾</orth><pron xml:lang="zh-Latn-x-pinyin">qí zǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjie tsjeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡe tseʔ</pron></form><sense xml:id="uuid-2c70dcac-56f0-416e-b0dc-ac56f0016ee0" resp="#zadrapa" tls:created="2021-01-20T00:40:38.506+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>behave eccentrically, deliberately dinstinguish oneself from others (possibly = qíci3 歧跐)</def></sense></entry><entry type="word" xml:id="uuid-6ab23c31-f90a-40bd-b23c-31f90a50bd81" resp="#zadrapa" tls:created="2021-01-20T18:58:40.154+09:00"><form corresp="#uuid-2fe9a58c-6ab9-4672-824c-14dfa9529568"><orth>嵬</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngwoj</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡuul</pron></form><sense xml:id="uuid-6e159723-56e1-4c76-9597-2356e1cc763c" resp="#zadrapa" tls:created="2021-01-20T18:58:40.154+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>weird</def></sense><sense xml:id="uuid-0bd1b33e-ee63-4661-91b3-3eee63b661a3" resp="#zadrapa" tls:created="2021-01-20T19:02:01.089+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>weird [appearance]</def></sense></entry><entry type="word" xml:id="uuid-a6933193-5d16-4bfc-9331-935d16cbfc14" resp="#CH" tls:created="2021-02-03T22:58:26.136+09:00"><form corresp="#uuid-09c4714a-8268-473d-89ec-bfa18c70b07d #uuid-e6f1e303-a97b-4a3e-8ddc-5d3961dc91dc"><orth>憰怪</orth><pron xml:lang="zh-Latn-x-pinyin">jué guài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwet kweajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷliid kruuds</pron></form><sense xml:id="uuid-dbb82585-c17c-4dcf-b825-85c17c7dcf60" resp="#CH" tls:created="2021-02-03T22:58:26.136+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>strange things</def></sense></entry><entry type="word" xml:id="uuid-ca28f53f-31cd-45f5-a8f5-3f31cdd5f568" resp="#dsehnal" tls:created="2024-04-23T14:23:43.421+09:00"><form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4 #uuid-c504885f-58dc-4460-b137-9930cd3bd19e"><orth>奇偉</orth><pron xml:lang="zh-Latn-x-pinyin">qí wěi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjw+jX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral ɢulʔ</pron></form><sense xml:id="uuid-d2038771-7b08-4299-8387-717b08e29915" resp="#dsehnal" tls:created="2024-04-23T14:23:43.421+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func><tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat></gramGrp><def>strange; weird</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5ba7b93b-d29b-43b3-a7b9-3bd29b93b3cd" resp="#zadrapa" tls:created="2020-06-18T23:06:32.229+09:00">
+            <form corresp="#uuid-00362f38-f4e6-482c-ba5d-abb9fffebfc2">
+                <orth>倚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qralʔ</pron>
+            </form>
+            <sense xml:id="uuid-3d775c1f-c4bc-4683-b75c-1fc4bc1683a7" resp="#zadrapa" tls:created="2020-06-18T23:06:32.229+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat>
+                </gramGrp>
+                <def>= qí 奇: deviant</def>
+            </sense>
+            <sense xml:id="uuid-6867718a-0792-4338-a771-8a07920338f0" resp="#zadrapa" tls:created="2022-01-24T21:13:17.734+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ea144b5d-3b62-4e9c-8bcb-6b377b5cfddf">neutral</tls:sem-feat>
+                </gramGrp>
+                <def>strange</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-57677b75-f5be-4335-a77b-75f5be23352a">
+            <form>
+                <orth>怪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guài</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-048fbe1e-e03b-4341-8fbe-1ee03bd341f0" resp="#zadrapa" tls:created="2020-06-22T22:34:01.131+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>weird things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5e9e4826-b9ae-49c1-9e48-26b9ae49c129" resp="#zadrapa" tls:created="2020-12-06T04:07:25.344+09:00">
+            <form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4">
+                <orth>奇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron>
+            </form>
+            <sense xml:id="uuid-be119582-75e2-4daf-9195-8275e27daf6e" resp="#zadrapa" tls:created="2020-12-06T04:07:25.344+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>strangely, eccentrically</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-117898dd-6474-476c-b898-dd6474376cd1">
+            <form>
+                <orth>密</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mì</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-8c0c1abb-ad97-450a-8c1a-bbad97d50a00" resp="#CH" tls:created="2020-12-14T21:55:01.217+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>be more significant than appears on the surface, have non-trivial depth</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c2b7e651-fd44-435e-b7e6-51fd44435edb" resp="#zadrapa" tls:created="2021-01-14T19:55:34.471+09:00">
+            <form corresp="#uuid-1bc57c2c-4ee1-4037-b3d4-c92141a90340">
+                <orth>琦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral</pron>
+            </form>
+            <sense xml:id="uuid-233c487c-05fe-4c3d-bc48-7c05fe6c3d0b" resp="#zadrapa" tls:created="2021-01-14T19:55:34.471+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>(= qí 奇) eccentric</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-dc364c00-e67b-4ae9-b64c-00e67b1ae922" resp="#zadrapa" tls:created="2021-01-19T20:47:22.572+09:00">
+            <form corresp="#uuid-1d517220-946c-4287-9106-2d34c6e3fd8c #uuid-e6f1e303-a97b-4a3e-8ddc-5d3961dc91dc">
+                <orth>訞怪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yāo guài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jew kweajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrow kruuds</pron>
+            </form>
+            <sense xml:id="uuid-44aa98ed-35da-4448-aa98-ed35dab448ad" resp="#zadrapa" tls:created="2021-01-19T20:47:22.572+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-01-19T20:47:57.385+09:00">(= yao1guai4 妖怪) monstrous, extremely weird</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c1f199f7-0a95-4d6e-b199-f70a952d6ef7" resp="#zadrapa" tls:created="2021-01-20T00:37:15.465+09:00">
+            <form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c #uuid-196e0be0-fea7-42ed-9356-96eebfd43a8e">
+                <orth>離縰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lí xǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lje srjeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rel srelʔ</pron>
+            </form>
+            <sense xml:id="uuid-5871d3f0-ac0c-4082-b1d3-f0ac0c0082e8" resp="#zadrapa" tls:created="2021-01-20T00:37:15.465+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>behave eccentrically (probably = lízong1 離蹤)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-696f81e0-8e1a-49d8-af81-e08e1a09d8c8" resp="#zadrapa" tls:created="2021-01-20T00:40:38.506+09:00">
+            <form corresp="#uuid-9042d437-19f9-4299-b253-b6173db7ecfa #uuid-22227e50-b35d-4373-9cd3-2ee513f1e0bc">
+                <orth>跂訾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí zǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjie tsjeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡe tseʔ</pron>
+            </form>
+            <sense xml:id="uuid-2c70dcac-56f0-416e-b0dc-ac56f0016ee0" resp="#zadrapa" tls:created="2021-01-20T00:40:38.506+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>behave eccentrically, deliberately dinstinguish oneself from others (possibly = qíci3 歧跐)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6ab23c31-f90a-40bd-b23c-31f90a50bd81" resp="#zadrapa" tls:created="2021-01-20T18:58:40.154+09:00">
+            <form corresp="#uuid-2fe9a58c-6ab9-4672-824c-14dfa9529568">
+                <orth>嵬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngwoj</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡuul</pron>
+            </form>
+            <sense xml:id="uuid-6e159723-56e1-4c76-9597-2356e1cc763c" resp="#zadrapa" tls:created="2021-01-20T18:58:40.154+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>weird</def>
+            </sense>
+            <sense xml:id="uuid-0bd1b33e-ee63-4661-91b3-3eee63b661a3" resp="#zadrapa" tls:created="2021-01-20T19:02:01.089+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>weird [appearance]</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a6933193-5d16-4bfc-9331-935d16cbfc14" resp="#CH" tls:created="2021-02-03T22:58:26.136+09:00">
+            <form corresp="#uuid-09c4714a-8268-473d-89ec-bfa18c70b07d #uuid-e6f1e303-a97b-4a3e-8ddc-5d3961dc91dc">
+                <orth>憰怪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jué guài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwet kweajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷliid kruuds</pron>
+            </form>
+            <sense xml:id="uuid-dbb82585-c17c-4dcf-b825-85c17c7dcf60" resp="#CH" tls:created="2021-02-03T22:58:26.136+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>strange things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ca28f53f-31cd-45f5-a8f5-3f31cdd5f568" resp="#dsehnal" tls:created="2024-04-23T14:23:43.421+09:00">
+            <form corresp="#uuid-a626873d-e566-4433-a931-0f0c0d966ec4 #uuid-c504885f-58dc-4460-b137-9930cd3bd19e">
+                <orth>奇偉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí wěi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjw+jX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡral ɢulʔ</pron>
+            </form>
+            <sense xml:id="uuid-d2038771-7b08-4299-8387-717b08e29915" resp="#dsehnal" tls:created="2024-04-23T14:23:43.421+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-50250116-2439-44de-bf79-9cc41324fa85">negative</tls:sem-feat>
+                </gramGrp>
+                <def>strange; weird</def>
+            </sense>
+        </entry>
+    </div>
 </div>

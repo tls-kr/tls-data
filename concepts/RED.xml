@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cc3e17b5-5dfa-4ff5-811e-870f4f615440">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cc3e17b5-5dfa-4ff5-811e-870f4f615440">
 <head>RED</head>
     <list type="altnames">
 <item>SCARLET</item>
@@ -483,7 +484,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-ab523d6b-805d-4708-9066-da2e0a2e8e30">
-            <form corresp="#uuid-d7ed7f4d-3142-4728-a549-5d1a618bf836"><orth>縕</orth><pron xml:lang="zh-Latn-x-pinyin">yùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'junH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">quns</pron></form>
+            <form corresp="#uuid-d7ed7f4d-3142-4728-a549-5d1a618bf836">
+                <orth>縕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'junH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">quns</pron>
+            </form>
             <def>wēn
 </def>
 <sense xml:id="uuid-37653ef8-d8ad-45f7-9124-57b3a0cb2674">
@@ -603,7 +609,14 @@
                 </gramGrp>
   <def>cause to be left brownish red</def>
             </sense>
-<sense xml:id="uuid-0a1c1b86-1fbd-4c7b-9c1b-861fbd8c7b4e" resp="#dsehnal" tls:created="2023-04-30T02:33:11.438+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>brownish red</def></sense></entry>
+<sense xml:id="uuid-0a1c1b86-1fbd-4c7b-9c1b-861fbd8c7b4e" resp="#dsehnal" tls:created="2023-04-30T02:33:11.438+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>brownish red</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bdf12715-046b-451b-b7b0-759a22428b01">
             <form corresp="#uuid-628486ce-a61a-4437-9736-21a810500639">
 <orth>酡</orth>
@@ -770,5 +783,20 @@
   <def>be all red, be glowing red</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-4f030453-55ee-463d-8304-5355eea63dc0" resp="#zadrapa" tls:created="2023-05-17T18:37:31.044+09:00"><form corresp="#uuid-ae913205-17ad-4849-a231-2086661b2f51"><orth>袾</orth><pron xml:lang="zh-Latn-x-pinyin">zhū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">to</pron></form><sense xml:id="uuid-da3fa142-2938-4820-bfa1-422938f82088" resp="#zadrapa" tls:created="2023-05-17T18:37:31.044+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>red</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-4f030453-55ee-463d-8304-5355eea63dc0" resp="#zadrapa" tls:created="2023-05-17T18:37:31.044+09:00">
+            <form corresp="#uuid-ae913205-17ad-4849-a231-2086661b2f51">
+                <orth>袾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">to</pron>
+            </form>
+            <sense xml:id="uuid-da3fa142-2938-4820-bfa1-422938f82088" resp="#zadrapa" tls:created="2023-05-17T18:37:31.044+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>red</def>
+            </sense>
+        </entry>
+    </div>
 </div>

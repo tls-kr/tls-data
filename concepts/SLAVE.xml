@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5d1aad28-450c-4d55-9efd-ff4af33e1060">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5d1aad28-450c-4d55-9efd-ff4af33e1060">
 <head>SLAVE</head>
     <list type="translations">
         <item xml:lang="zh">奴隸</item>
@@ -255,7 +256,14 @@
                 </gramGrp>
   <def>become a slave, make oneself into a slave</def>
             </sense>
-<sense xml:id="uuid-c7283e74-a2bc-4483-a83e-74a2bcd483d4" resp="#dsehnal" tls:created="2023-05-14T19:55:39.941+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>characterised by slavery</def></sense></entry>
+<sense xml:id="uuid-c7283e74-a2bc-4483-a83e-74a2bcd483d4" resp="#dsehnal" tls:created="2023-05-14T19:55:39.941+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>characterised by slavery</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1263aff6-a081-4972-a33f-9c261e104dee">
             <form corresp="#uuid-399501b0-a2db-4d3a-9dbf-b47a80ce9235">
 <orth>帑</orth>
@@ -358,7 +366,15 @@
                 </gramGrp>
   <def>cause to be a slave, enslave (oneself) 役身</def>
             </sense>
-<sense xml:id="uuid-53fd9ebb-e9e1-4985-bd9e-bbe9e16985d2" resp="#zadrapa" tls:created="2020-05-21T00:03:28.404+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be enslaved by N</def></sense></entry>
+<sense xml:id="uuid-53fd9ebb-e9e1-4985-bd9e-bbe9e16985d2" resp="#zadrapa" tls:created="2020-05-21T00:03:28.404+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be enslaved by N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0a289634-0662-4d59-957e-8c30fe3b5226">
             <form corresp="#uuid-25889cfa-8f93-4023-ade8-c26fe1c72a2a">
 <orth>獲</orth>
@@ -457,7 +473,21 @@
                 </gramGrp>
   <def>serve as slave to</def>
             </sense>
-<sense xml:id="uuid-a7eedb56-83c0-40a0-aedb-5683c090a011" resp="#CH" tls:created="2021-05-28T00:25:19.649+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>a slave of a certain grade (among the slaves) ZUO</def></sense><sense xml:id="uuid-c68f211d-a1f4-4ecc-8f21-1da1f4cecc54" resp="#CH" tls:created="2021-05-28T00:28:22.217+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>vulgar, uncivilised self-deprecatory 隸臣　your vulgar servant</def></sense></entry>
+<sense xml:id="uuid-a7eedb56-83c0-40a0-aedb-5683c090a011" resp="#CH" tls:created="2021-05-28T00:25:19.649+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>a slave of a certain grade (among the slaves) ZUO</def>
+            </sense>
+            <sense xml:id="uuid-c68f211d-a1f4-4ecc-8f21-1da1f4cecc54" resp="#CH" tls:created="2021-05-28T00:28:22.217+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>vulgar, uncivilised self-deprecatory 隸臣　your vulgar servant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0e103338-f818-492e-a1a4-832804c26552">
             <form corresp="#uuid-986e4daf-385c-4c85-8855-9a4e422e9da4 #uuid-2567a27c-7643-4cf8-9da5-5ac6fe236ab5">
 <orth>丫頭</orth>
@@ -982,7 +1012,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-8b6c6579-ccee-4cf9-ac65-79ccee6cf91d">act.pejorative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-8b6c6579-ccee-4cf9-ac65-79ccee6cf91d">act.pejorative</tls:sem-feat>
+                </gramGrp>
   <def>scoundrel; good-for-nothing;</def>
             </sense>
 </entry>

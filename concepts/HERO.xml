@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9bf52f91-bcdb-4158-84d2-cbea220676d7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9bf52f91-bcdb-4158-84d2-cbea220676d7">
 <head>HERO</head>
     <list type="altnames">
 <item>SAGE</item>
@@ -314,7 +315,30 @@
                 </gramGrp>
   <def>Saint (e.g. Saint Thomas)</def>
             </sense>
-<sense xml:id="uuid-92d3271e-8942-442a-9327-1e8942e42a63" resp="#CH" tls:created="2021-07-11T20:29:59.856+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>sage</def></sense><sense xml:id="uuid-6d89f9ae-6a6b-492b-89f9-ae6a6b692bf5" resp="#CH" tls:created="2021-07-12T17:19:03.084+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><tls:sem-feat corresp="#uuid-adddfb8b-0098-41f7-9dfb-8b009881f73f">nominal, plural, definite</tls:sem-feat></gramGrp><def>of the sages</def></sense><sense xml:id="uuid-cfc39ed3-d468-4fb7-839e-d3d4689fb716" resp="#CH" tls:created="2022-09-22T17:10:25.651+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><tls:sem-feat corresp="#uuid-53fda024-2741-4f85-bda0-2427416f85ce">adjectival</tls:sem-feat></gramGrp><def>sagely</def></sense></entry>
+<sense xml:id="uuid-92d3271e-8942-442a-9327-1e8942e42a63" resp="#CH" tls:created="2021-07-11T20:29:59.856+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>sage</def>
+            </sense>
+            <sense xml:id="uuid-6d89f9ae-6a6b-492b-89f9-ae6a6b692bf5" resp="#CH" tls:created="2021-07-12T17:19:03.084+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-adddfb8b-0098-41f7-9dfb-8b009881f73f">nominal, plural, definite</tls:sem-feat>
+                </gramGrp>
+                <def>of the sages</def>
+            </sense>
+            <sense xml:id="uuid-cfc39ed3-d468-4fb7-839e-d3d4689fb716" resp="#CH" tls:created="2022-09-22T17:10:25.651+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-53fda024-2741-4f85-bda0-2427416f85ce">adjectival</tls:sem-feat>
+                </gramGrp>
+                <def>sagely</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-17b8f40c-8044-4414-9d88-94e36d0bdb99">
             <form corresp="#uuid-f5bab13d-170d-40d6-a7e0-ed2234b5cdf0">
 <orth>茂</orth>
@@ -366,7 +390,14 @@
                 </gramGrp>
   <def>HUAINAN, taizu: hero of the third order; hero; SJ: (talented) heroes</def>
             </sense>
-<sense xml:id="uuid-a234248c-4226-41bd-b424-8c422651bd29" resp="#CH" tls:created="2022-09-14T23:59:14.774+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>hero</def></sense></entry>
+<sense xml:id="uuid-a234248c-4226-41bd-b424-8c422651bd29" resp="#CH" tls:created="2022-09-14T23:59:14.774+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>hero</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-69af9b0e-04ba-4ed2-af4e-7526413a794f">
             <form corresp="#uuid-d98ef485-a56e-4540-ad68-94c43d18ad27">
 <orth>賢</orth>
@@ -650,7 +681,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-07-06T15:59:40.804+09:00">be a great man, be a hero</def>
             </sense>
-<sense xml:id="uuid-220906c1-bc29-43a2-851c-d959a40717a8" resp="#CH" tls:created="2019-11-08T00:20:20.958+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>great men (versus 細人　petty men)</def></sense></entry>
+<sense xml:id="uuid-220906c1-bc29-43a2-851c-d959a40717a8" resp="#CH" tls:created="2019-11-08T00:20:20.958+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>great men (versus 細人　petty men)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-997abce9-695d-4035-8866-0ca9fb1a3728">
             <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-b431f41b-3a6b-458a-97cb-dbebd326a04f">
 <orth>大聖</orth>
@@ -725,7 +763,22 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-08-21T22:38:41.289+09:00">authentic person; the veritable man; the man who is true to himself; the man who has realised himself; a person who has truly realised his potential</def>
             </sense>
-<sense xml:id="uuid-ea2f75b8-1ce9-46b5-8d53-9ce2517530f5" resp="#CH" tls:created="2019-10-31T18:30:48.86+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-21T22:38:42.291+09:00">the authentic man; the veritable man; the man true to himself</def></sense><sense xml:id="uuid-50f77bf3-f10c-4eca-b77b-f3f10c4eca6b" resp="#CH" tls:created="2020-04-22T17:35:57.942+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2021-05-31T20:20:48.454+09:00">referential: the (above-mentioned) veritable man</def></sense></entry>
+<sense xml:id="uuid-ea2f75b8-1ce9-46b5-8d53-9ce2517530f5" resp="#CH" tls:created="2019-10-31T18:30:48.86+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-21T22:38:42.291+09:00">the authentic man; the veritable man; the man true to himself</def>
+            </sense>
+            <sense xml:id="uuid-50f77bf3-f10c-4eca-b77b-f3f10c4eca6b" resp="#CH" tls:created="2020-04-22T17:35:57.942+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-05-31T20:20:48.454+09:00">referential: the (above-mentioned) veritable man</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-759a81ee-bf9a-416f-9c1d-eeb5fdd97b92">
             <form corresp="#uuid-016736ec-dc49-4380-949d-4b154ea76807 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
 <orth>神人</orth>
@@ -740,7 +793,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-22T17:41:21.647+09:00">non-referential: divine being; supernaturally endowed person</def>
             </sense>
-<sense xml:id="uuid-7e391830-4ec5-48eb-b918-304ec558ebb8" resp="#CH" tls:created="2020-04-22T17:42:22.685+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>referential: the (contextually determinate) Spiritual Man</def></sense></entry>
+<sense xml:id="uuid-7e391830-4ec5-48eb-b918-304ec558ebb8" resp="#CH" tls:created="2020-04-22T17:42:22.685+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>referential: the (contextually determinate) Spiritual Man</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-00496e4e-de44-486d-8ac8-69faa76ba429">
             <form corresp="#uuid-b431f41b-3a6b-458a-97cb-dbebd326a04f #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
 <orth>聖人</orth>
@@ -815,7 +875,29 @@
                 </gramGrp>
   <def>sages</def>
             </sense>
-<sense xml:id="uuid-a1b69e7e-07c4-4612-b69e-7e07c4861294" resp="#CH" tls:created="2021-03-05T09:07:04.873+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-0255713d-f9c6-48ce-986c-b1656e8cf91e">ironic</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-09-09T22:00:25.6+09:00">the so-called "sage"</def></sense><sense xml:id="uuid-7675bc5b-12bf-4a77-b5bc-5b12bf3a77ec" resp="#CH" tls:created="2021-07-12T21:19:42.329+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-251ce2a0-d292-4e46-9ce2-a0d292ce46a5">NP[=Npr]</tls:syn-func></gramGrp><def>Confucius, the sage</def></sense><sense xml:id="uuid-a74b17a7-2a48-451a-8b17-a72a48c51a00" resp="#zadrapa" tls:created="2022-02-14T19:54:53.327+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>becoming/being a sage, "sageliness"</def></sense></entry>
+<sense xml:id="uuid-a1b69e7e-07c4-4612-b69e-7e07c4861294" resp="#CH" tls:created="2021-03-05T09:07:04.873+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0255713d-f9c6-48ce-986c-b1656e8cf91e">ironic</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-09-09T22:00:25.6+09:00">the so-called "sage"</def>
+            </sense>
+            <sense xml:id="uuid-7675bc5b-12bf-4a77-b5bc-5b12bf3a77ec" resp="#CH" tls:created="2021-07-12T21:19:42.329+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-251ce2a0-d292-4e46-9ce2-a0d292ce46a5">NP[=Npr]</tls:syn-func>
+                </gramGrp>
+                <def>Confucius, the sage</def>
+            </sense>
+            <sense xml:id="uuid-a74b17a7-2a48-451a-8b17-a72a48c51a00" resp="#zadrapa" tls:created="2022-02-14T19:54:53.327+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>becoming/being a sage, "sageliness"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-546c1e02-5283-4d98-859d-cbb7a49c2b75">
             <form corresp="#uuid-b431f41b-3a6b-458a-97cb-dbebd326a04f #uuid-29be220c-b19f-4f4a-9bfd-fdbcc657dc22">
 <orth>聖尊</orth>
@@ -845,7 +927,22 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-05-03T00:30:01.683+09:00">non-referential: the ulitmate man; the perfect man</def>
             </sense>
-<sense xml:id="uuid-803d3bf0-6a39-488e-acfb-920433f84ca5" resp="#CH" tls:created="2019-12-04T21:27:29.487+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp><def>a perfect man</def></sense><sense xml:id="uuid-b5f5feec-7c76-4a46-83b3-e3a31e4dbdd0" resp="#CH" tls:created="2019-12-07T00:02:37.257+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}</tls:syn-func></gramGrp><def>be a perfect person</def></sense></entry>
+<sense xml:id="uuid-803d3bf0-6a39-488e-acfb-920433f84ca5" resp="#CH" tls:created="2019-12-04T21:27:29.487+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+                <def>a perfect man</def>
+            </sense>
+            <sense xml:id="uuid-b5f5feec-7c76-4a46-83b3-e3a31e4dbdd0" resp="#CH" tls:created="2019-12-07T00:02:37.257+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be a perfect person</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-57b008fc-a597-4377-8c15-bf1e364cfd80">
             <form corresp="#uuid-cb338275-8afd-43fc-8914-daeb02c2ce84 #uuid-42d6b9fc-7af1-472e-88de-88cc4b56bcf2">
 <orth>英傑</orth>
@@ -1059,8 +1156,85 @@
   <def>BUDDH: the true man without rank (one of the key terms in 臨濟 Linji's teaching)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-7be7dc09-b9d2-451b-a277-4255b673d8fc" resp="#CH" tls:created="2019-12-17T04:21:41.212+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-824c1279-5a55-4937-8177-8cb4bc8fc44f" resp="#CH" tls:created="2019-12-17T04:21:41.212+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>heroic men</def></sense></entry><entry type="word" xml:id="uuid-6a41152f-8e0c-485f-ae8b-9e202c2ce033" resp="#CH" tls:created="2019-12-17T04:21:49.595+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-b1e8d30e-0c00-4805-a42a-05b06e52398b" resp="#CH" tls:created="2019-12-17T04:21:49.595+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>heroic men</def></sense></entry><entry type="word" xml:id="uuid-4b6fa180-2d9a-4a70-af7c-f02a7646ee36" resp="#CH" tls:created="2019-12-17T04:21:59.958+09:00"><form corresp="#uuid-cb338275-8afd-43fc-8914-daeb02c2ce84 #uuid-361f5afc-a951-4e32-b933-9ac839eb0103"><orth>英俊</orth><pron xml:lang="zh-Latn-x-pinyin">yīng
- jùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jaeng
- tswinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qraŋ
- skluns</pron></form><sense xml:id="uuid-aedd52ff-2076-4183-8d97-34040decc271" resp="#CH" tls:created="2019-12-17T04:21:59.958+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>heroic men</def></sense></entry><entry type="word" xml:id="uuid-b61112ff-9e99-463f-b384-e91497e39558" resp="#CH" tls:created="2019-12-29T07:51:27.196+09:00"><form corresp="#uuid-49aff536-69bf-4b65-b9a5-6a2a84fbc544 #uuid-361f5afc-a951-4e32-b933-9ac839eb0103"><orth>豪俊</orth><pron xml:lang="zh-Latn-x-pinyin">háo jùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haw tswinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoow skluns</pron></form><sense xml:id="uuid-54bc2bf9-f05d-43b6-b79a-c46d101110e5" resp="#CH" tls:created="2019-12-29T07:51:27.196+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>especially distinguished people, outstanding people</def></sense></entry><entry type="word" xml:id="uuid-11f80653-f537-4709-b806-53f5377709ff" resp="#dsehnal" tls:created="2023-06-01T04:31:41.837+09:00"><form corresp="#uuid-33cc60d0-abfc-4f50-b9dc-cd8c97ba4649 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e"><orth>勇士</orth><pron xml:lang="zh-Latn-x-pinyin">yǒng shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yowngX dzriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋʔ dzrɯʔ</pron></form><sense xml:id="uuid-0e28fac7-7668-440a-a8fa-c77668540a8f" resp="#dsehnal" tls:created="2023-06-01T04:31:41.837+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func></gramGrp><def>hero's; belonging to a hero</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-7be7dc09-b9d2-451b-a277-4255b673d8fc" resp="#CH" tls:created="2019-12-17T04:21:41.212+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-824c1279-5a55-4937-8177-8cb4bc8fc44f" resp="#CH" tls:created="2019-12-17T04:21:41.212+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>heroic men</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6a41152f-8e0c-485f-ae8b-9e202c2ce033" resp="#CH" tls:created="2019-12-17T04:21:49.595+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-b1e8d30e-0c00-4805-a42a-05b06e52398b" resp="#CH" tls:created="2019-12-17T04:21:49.595+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>heroic men</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4b6fa180-2d9a-4a70-af7c-f02a7646ee36" resp="#CH" tls:created="2019-12-17T04:21:59.958+09:00">
+            <form corresp="#uuid-cb338275-8afd-43fc-8914-daeb02c2ce84 #uuid-361f5afc-a951-4e32-b933-9ac839eb0103">
+                <orth>英俊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīng
+ jùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jaeng
+ tswinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qraŋ
+ skluns</pron>
+            </form>
+            <sense xml:id="uuid-aedd52ff-2076-4183-8d97-34040decc271" resp="#CH" tls:created="2019-12-17T04:21:59.958+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>heroic men</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b61112ff-9e99-463f-b384-e91497e39558" resp="#CH" tls:created="2019-12-29T07:51:27.196+09:00">
+            <form corresp="#uuid-49aff536-69bf-4b65-b9a5-6a2a84fbc544 #uuid-361f5afc-a951-4e32-b933-9ac839eb0103">
+                <orth>豪俊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">háo jùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haw tswinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoow skluns</pron>
+            </form>
+            <sense xml:id="uuid-54bc2bf9-f05d-43b6-b79a-c46d101110e5" resp="#CH" tls:created="2019-12-29T07:51:27.196+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>especially distinguished people, outstanding people</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-11f80653-f537-4709-b806-53f5377709ff" resp="#dsehnal" tls:created="2023-06-01T04:31:41.837+09:00">
+            <form corresp="#uuid-33cc60d0-abfc-4f50-b9dc-cd8c97ba4649 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
+                <orth>勇士</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒng shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yowngX dzriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋʔ dzrɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-0e28fac7-7668-440a-a8fa-c77668540a8f" resp="#dsehnal" tls:created="2023-06-01T04:31:41.837+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>hero's; belonging to a hero</def>
+            </sense>
+        </entry>
+    </div>
 </div>

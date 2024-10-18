@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d5258d27-9fb9-4a9e-95e1-06474af76fe6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d5258d27-9fb9-4a9e-95e1-06474af76fe6">
 <head>EVEN IF</head>
     <list type="altnames">
 <item>ALTHOUGH</item>
@@ -181,7 +182,14 @@
                 </gramGrp>
   <def>although</def>
             </sense>
-<sense xml:id="uuid-ee1bc44b-bc83-4593-9bc4-4bbc83d593fc" resp="#CH" tls:created="2020-02-12T19:32:30.673+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-eae6fe87-4260-4882-ba08-767a9048688f">vadV1.adV2</tls:syn-func></gramGrp><def>although</def></sense></entry>
+<sense xml:id="uuid-ee1bc44b-bc83-4593-9bc4-4bbc83d593fc" resp="#CH" tls:created="2020-02-12T19:32:30.673+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-eae6fe87-4260-4882-ba08-767a9048688f">vadV1.adV2</tls:syn-func>
+                </gramGrp>
+                <def>although</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6b6d3dd0-da23-4e97-99cf-faebaafa5119">
             <form corresp="#uuid-94f406c1-0921-4151-843c-93da7b45c047">
 <orth>雖</orth>
@@ -237,7 +245,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-03-14T01:45:16.642+09:00">even if; even supposing that</def>
             </sense>
-<sense xml:id="uuid-326c096c-dcfe-40da-ac09-6cdcfed0da3e" resp="#CH" tls:created="2020-02-12T18:41:54.793+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadS1.érS2</tls:syn-func></gramGrp><def>雖... 而 although S1 nonetheless S2</def></sense></entry>
+<sense xml:id="uuid-326c096c-dcfe-40da-ac09-6cdcfed0da3e" resp="#CH" tls:created="2020-02-12T18:41:54.793+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadS1.érS2</tls:syn-func>
+                </gramGrp>
+                <def>雖... 而 although S1 nonetheless S2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-374d25f2-460f-45f6-8579-622c97b6c22f">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-a9fa8a69-991d-4793-8898-af3638799125">
 <orth>不辭</orth>
@@ -329,5 +344,21 @@
   <def>although, even if</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f2c303e0-b48d-4368-8303-e0b48d2368e0" resp="#CH" tls:created="2024-02-14T18:55:17.926+09:00"><form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515"><orth>之</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron></form><sense xml:id="uuid-7ca34085-355f-4d18-a340-85355f8d1819" resp="#CH" tls:created="2024-02-14T18:55:17.926+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3da01147-1248-4445-a011-471248f4453d">npropostadN.-V</tls:syn-func><tls:sem-feat corresp="#uuid-96def379-6e8a-47f7-8ebb-062e11bcb02d">factual</tls:sem-feat></gramGrp><def>even supposing/given that N V-s; even if one assumes that N V-s</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f2c303e0-b48d-4368-8303-e0b48d2368e0" resp="#CH" tls:created="2024-02-14T18:55:17.926+09:00">
+            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
+                <orth>之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-7ca34085-355f-4d18-a340-85355f8d1819" resp="#CH" tls:created="2024-02-14T18:55:17.926+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3da01147-1248-4445-a011-471248f4453d">npropostadN.-V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96def379-6e8a-47f7-8ebb-062e11bcb02d">factual</tls:sem-feat>
+                </gramGrp>
+                <def>even supposing/given that N V-s; even if one assumes that N V-s</def>
+            </sense>
+        </entry>
+    </div>
 </div>

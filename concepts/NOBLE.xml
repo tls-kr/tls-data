@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ddb8ae45-16cf-4034-896a-882bbfb664a8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ddb8ae45-16cf-4034-896a-882bbfb664a8">
 <head>NOBLE</head>
     <list type="altnames">
 <item>ARISTOCRATIC</item>
@@ -349,7 +350,22 @@
                 </gramGrp>
   <def>nobility, high status</def>
             </sense>
-<sense xml:id="uuid-59cf81e7-bba4-4836-a7e1-917f7aa827cc" resp="#CH" tls:created="2019-10-31T18:46:24.956+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>seat of honour</def></sense><sense xml:id="uuid-dc1a0426-69c9-4ce0-9a04-2669c93ce055" resp="#CH" tls:created="2022-11-19T17:16:24.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp><def>the nobler, the more honourable, the more revered</def></sense></entry>
+<sense xml:id="uuid-59cf81e7-bba4-4836-a7e1-917f7aa827cc" resp="#CH" tls:created="2019-10-31T18:46:24.956+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>seat of honour</def>
+            </sense>
+            <sense xml:id="uuid-dc1a0426-69c9-4ce0-9a04-2669c93ce055" resp="#CH" tls:created="2022-11-19T17:16:24.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+                <def>the nobler, the more honourable, the more revered</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8e3590b9-e02e-440e-8abb-72f2c5a6d259">
             <form corresp="#uuid-edfa287b-0941-4528-a8e2-60d62f161731">
 <orth>尚</orth>
@@ -551,7 +567,76 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-11-04T04:11:08.514+09:00">true/genuine nobility</def>
             </sense>
-<sense xml:id="uuid-5fe83224-736f-4fdc-a05a-3a148787475b" resp="#CH" tls:created="2019-11-28T03:16:43.198+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0e79d28-98a4-4232-a79d-2898a4b2321e">vt+prep N</tls:syn-func></gramGrp><def>be more noble than N</def></sense><sense xml:id="uuid-5250faa5-0624-4631-95db-0f7ffe3a9aeb" resp="#CH" tls:created="2019-12-07T00:05:01.441+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be recognised as noble</def></sense><sense xml:id="uuid-77155098-eb27-451a-9550-98eb27e51a5c" resp="#zadrapa" tls:created="2020-12-03T22:05:52.686+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>in terms of nobility</def></sense><sense xml:id="uuid-1ca2d809-6d63-446e-a2d8-096d63546e32" resp="#CH" tls:created="2020-12-15T21:19:16.94+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be noble</def></sense><sense xml:id="uuid-f29e708b-0cbc-4199-9e70-8b0cbce19903" resp="#zadrapa" tls:created="2021-02-11T17:36:19.396+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2021-02-11T17:47:20.637+09:00">  causative: be made noble</def></sense><sense xml:id="uuid-6d46bdc3-591c-422f-86bd-c3591c722f96" resp="#zadrapa" tls:created="2022-05-31T20:03:02.907+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>making others rise in status</def></sense><sense xml:id="uuid-b65aae2a-2935-4963-9aae-2a2935696381" resp="#zadrapa" tls:created="2022-06-17T00:19:46.728+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>make others noble</def></sense><sense xml:id="uuid-bd3ca72f-c3ca-44a7-bca7-2fc3cab4a7ce" resp="#dsehnal" tls:created="2023-07-16T04:09:30.385+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat></gramGrp><def>one's own noble status</def></sense><sense xml:id="uuid-ea66c6f9-91e4-4dd2-a6c6-f991e40dd2ee" resp="#CH" tls:created="2024-04-20T00:16:42.317+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-0b8a684c-8893-4f48-8bf5-95250a8cbdc1">superlative</tls:sem-feat></gramGrp><def>be the noblest</def></sense></entry>
+<sense xml:id="uuid-5fe83224-736f-4fdc-a05a-3a148787475b" resp="#CH" tls:created="2019-11-28T03:16:43.198+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0e79d28-98a4-4232-a79d-2898a4b2321e">vt+prep N</tls:syn-func>
+                </gramGrp>
+                <def>be more noble than N</def>
+            </sense>
+            <sense xml:id="uuid-5250faa5-0624-4631-95db-0f7ffe3a9aeb" resp="#CH" tls:created="2019-12-07T00:05:01.441+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be recognised as noble</def>
+            </sense>
+            <sense xml:id="uuid-77155098-eb27-451a-9550-98eb27e51a5c" resp="#zadrapa" tls:created="2020-12-03T22:05:52.686+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def>in terms of nobility</def>
+            </sense>
+            <sense xml:id="uuid-1ca2d809-6d63-446e-a2d8-096d63546e32" resp="#CH" tls:created="2020-12-15T21:19:16.94+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be noble</def>
+            </sense>
+            <sense xml:id="uuid-f29e708b-0cbc-4199-9e70-8b0cbce19903" resp="#zadrapa" tls:created="2021-02-11T17:36:19.396+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-02-11T17:47:20.637+09:00">  causative: be made noble</def>
+            </sense>
+            <sense xml:id="uuid-6d46bdc3-591c-422f-86bd-c3591c722f96" resp="#zadrapa" tls:created="2022-05-31T20:03:02.907+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>making others rise in status</def>
+            </sense>
+            <sense xml:id="uuid-b65aae2a-2935-4963-9aae-2a2935696381" resp="#zadrapa" tls:created="2022-06-17T00:19:46.728+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>make others noble</def>
+            </sense>
+            <sense xml:id="uuid-bd3ca72f-c3ca-44a7-bca7-2fc3cab4a7ce" resp="#dsehnal" tls:created="2023-07-16T04:09:30.385+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat>
+                </gramGrp>
+                <def>one's own noble status</def>
+            </sense>
+            <sense xml:id="uuid-ea66c6f9-91e4-4dd2-a6c6-f991e40dd2ee" resp="#CH" tls:created="2024-04-20T00:16:42.317+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0b8a684c-8893-4f48-8bf5-95250a8cbdc1">superlative</tls:sem-feat>
+                </gramGrp>
+                <def>be the noblest</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ab4268d1-88ff-49b1-8852-a1526a89a796">
             <form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848">
 <orth>高</orth>
@@ -642,10 +727,25 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-08-17T18:08:40.748+09:00">be dignified, be noble</def>
             </sense>
-<sense xml:id="uuid-e27ade03-ed60-4434-b72c-c564b617e73d" resp="#CH" tls:created="2019-12-05T23:23:46.678+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>consider as noble</def></sense><sense xml:id="uuid-4a292434-aa80-4d30-b291-ea9b5ee37b22" resp="#CH" tls:created="2019-12-16T19:34:26.724+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func></gramGrp><def>in a noble way</def></sense></entry>
+<sense xml:id="uuid-e27ade03-ed60-4434-b72c-c564b617e73d" resp="#CH" tls:created="2019-12-05T23:23:46.678+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>consider as noble</def>
+            </sense>
+            <sense xml:id="uuid-4a292434-aa80-4d30-b291-ea9b5ee37b22" resp="#CH" tls:created="2019-12-16T19:34:26.724+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
+                </gramGrp>
+                <def>in a noble way</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f6f79601-148a-49c5-9816-97b9a2c970ea">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-079455e8-9d91-4e59-a126-8d74d18f9b4e">
 <orth>不俗</orth>
@@ -1015,8 +1115,61 @@
   <def resp="#CH" updated="2021-06-14T17:50:18.225+09:00">dignified</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c44b224f-4a13-44cb-8b22-4f4a13c4cb85" resp="#CH" tls:created="2020-04-21T18:12:09.712+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-cc274e77-a8ae-4b96-a9eb-d55aa936c165"><orth>自貴</orth><pron xml:lang="zh-Latn-x-pinyin">zì guì
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH kjw+jH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids kluds
-</pron></form><sense xml:id="uuid-bc863c95-5870-4cf2-863c-9558709cf228" resp="#CH" tls:created="2020-04-21T18:12:09.712+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp><def>putative: regard oneself as noble</def></sense></entry><entry type="word" xml:id="uuid-9c3897bb-5d48-4ceb-b897-bb5d483ceb24"><form><orth>榮</orth><pron xml:lang="zh-Latn-x-pinyin">róng</pron></form><def/><sense xml:id="uuid-5128d103-e128-4f43-a8d1-03e128bf4386" resp="#CH" tls:created="2020-05-17T23:46:37.988+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>glorious, publicly impressive</def></sense><sense xml:id="uuid-fe3e3cbe-6d20-4142-be3c-be6d20f1421f" resp="#CH" tls:created="2022-09-07T18:35:07.04+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>glorious achievement</def></sense></entry><entry type="word" xml:id="uuid-7923b8b4-ee68-4453-a3b8-b4ee6814538f" resp="#zadrapa" tls:created="2021-01-21T23:48:13.599+09:00"><form corresp="#uuid-cc274e77-a8ae-4b96-a9eb-d55aa936c165 #uuid-dfaa5949-0231-48ca-b416-ecb77ca20b1f"><orth>貴戚</orth><pron xml:lang="zh-Latn-x-pinyin">guì qī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+jH tshek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kluds skhlɯɯwɡ</pron></form><sense xml:id="uuid-4ccbfef0-b3e7-4d64-8bfe-f0b3e79d64ec" resp="#zadrapa" tls:created="2021-01-21T23:48:13.599+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>the highest nobility (the noble and the ruler's relatives)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c44b224f-4a13-44cb-8b22-4f4a13c4cb85" resp="#CH" tls:created="2020-04-21T18:12:09.712+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-cc274e77-a8ae-4b96-a9eb-d55aa936c165">
+                <orth>自貴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì guì
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH kjw+jH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids kluds
+</pron>
+            </form>
+            <sense xml:id="uuid-bc863c95-5870-4cf2-863c-9558709cf228" resp="#CH" tls:created="2020-04-21T18:12:09.712+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
+                <def>putative: regard oneself as noble</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9c3897bb-5d48-4ceb-b897-bb5d483ceb24">
+            <form>
+                <orth>榮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-5128d103-e128-4f43-a8d1-03e128bf4386" resp="#CH" tls:created="2020-05-17T23:46:37.988+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>glorious, publicly impressive</def>
+            </sense>
+            <sense xml:id="uuid-fe3e3cbe-6d20-4142-be3c-be6d20f1421f" resp="#CH" tls:created="2022-09-07T18:35:07.04+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>glorious achievement</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7923b8b4-ee68-4453-a3b8-b4ee6814538f" resp="#zadrapa" tls:created="2021-01-21T23:48:13.599+09:00">
+            <form corresp="#uuid-cc274e77-a8ae-4b96-a9eb-d55aa936c165 #uuid-dfaa5949-0231-48ca-b416-ecb77ca20b1f">
+                <orth>貴戚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guì qī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+jH tshek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kluds skhlɯɯwɡ</pron>
+            </form>
+            <sense xml:id="uuid-4ccbfef0-b3e7-4d64-8bfe-f0b3e79d64ec" resp="#zadrapa" tls:created="2021-01-21T23:48:13.599+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>the highest nobility (the noble and the ruler's relatives)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

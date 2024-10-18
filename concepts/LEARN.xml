@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c6f560f3-a5ca-40a3-bea3-268a0ddcfcd0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c6f560f3-a5ca-40a3-bea3-268a0ddcfcd0">
 <head>LEARN</head>
     <list type="altnames">
 <item>ACQUIRE A KNOWLEDGE OF</item>
@@ -101,7 +102,14 @@
                 </gramGrp>
   <def>TAKE FROM&gt; learn from</def>
             </sense>
-<sense xml:id="uuid-a6eadc5d-57f3-4338-aadc-5d57f3f338b7" resp="#CH" tls:created="2024-02-13T05:21:48.989+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>choose to learn</def></sense></entry>
+<sense xml:id="uuid-a6eadc5d-57f3-4338-aadc-5d57f3f338b7" resp="#CH" tls:created="2024-02-13T05:21:48.989+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>choose to learn</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-21b4a72e-dfc0-4aa8-854a-876d59bc0839">
             <form corresp="#uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
 <orth>學</orth>
@@ -129,10 +137,83 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2023-07-24T16:05:18.564+09:00">have learnt as true; manage to learn (something that is true)</def>
             </sense>
-<sense xml:id="uuid-f670cc16-d892-4f71-b0cc-16d892af711c" resp="#CH" tls:created="2020-04-09T17:52:55.314+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>learnedness; learning; degree of learnedness</def></sense><sense xml:id="uuid-a3380033-3251-4a99-b800-333251ba993a" resp="#CH" tls:created="2021-05-06T00:55:43.641+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive, perfective</tls:sem-feat></gramGrp><def>be (successfully) learnt</def></sense><sense xml:id="uuid-88b06b52-cebd-4865-b06b-52cebda86568" resp="#CH" tls:created="2023-07-22T16:58:40.458+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-07-24T15:55:14.909+09:00">set about learning about; try to learn the skill of Nab</def></sense><sense xml:id="uuid-c91d740e-6258-412e-9d74-0e6258112ea3" resp="#CH" tls:created="2023-07-22T17:16:06.945+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-07-22T17:17:46.727+09:00">(try to) learn N1 from N2</def></sense><sense xml:id="uuid-e337c3b0-ff17-4777-b7c3-b0ff17277728" resp="#CH" tls:created="2023-07-22T17:19:07.552+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>get to learn N1 from N2</def></sense><sense xml:id="uuid-60b0086e-97ac-4a3e-b008-6e97ac8a3e55" resp="#CH" tls:created="2023-07-22T17:36:32.402+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act, conative</tls:sem-feat></gramGrp><def>the act of trying to learn things</def></sense><sense xml:id="uuid-2d5eb392-0cfb-404b-9eb3-920cfb304b64" resp="#CH" tls:created="2023-07-23T00:15:09.487+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>learn how to V</def></sense><sense xml:id="uuid-e924a80d-eaa0-40f7-a4a8-0deaa020f716" resp="#CH" tls:created="2023-07-26T17:08:43.288+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c129076f-32cd-4922-9844-bee5dfa78a5c">vt[oNab]</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>learn something</def></sense><sense xml:id="uuid-97383e52-a763-40be-b83e-52a76380be50" resp="#CH" tls:created="2023-07-26T21:11:19.438+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-98c1fd62-da2c-47e6-81fd-62da2ca7e61d">N=text</tls:sem-feat></gramGrp><def>learn by heart</def></sense></entry>
+<sense xml:id="uuid-f670cc16-d892-4f71-b0cc-16d892af711c" resp="#CH" tls:created="2020-04-09T17:52:55.314+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>learnedness; learning; degree of learnedness</def>
+            </sense>
+            <sense xml:id="uuid-a3380033-3251-4a99-b800-333251ba993a" resp="#CH" tls:created="2021-05-06T00:55:43.641+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive, perfective</tls:sem-feat>
+                </gramGrp>
+                <def>be (successfully) learnt</def>
+            </sense>
+            <sense xml:id="uuid-88b06b52-cebd-4865-b06b-52cebda86568" resp="#CH" tls:created="2023-07-22T16:58:40.458+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-24T15:55:14.909+09:00">set about learning about; try to learn the skill of Nab</def>
+            </sense>
+            <sense xml:id="uuid-c91d740e-6258-412e-9d74-0e6258112ea3" resp="#CH" tls:created="2023-07-22T17:16:06.945+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-22T17:17:46.727+09:00">(try to) learn N1 from N2</def>
+            </sense>
+            <sense xml:id="uuid-e337c3b0-ff17-4777-b7c3-b0ff17277728" resp="#CH" tls:created="2023-07-22T17:19:07.552+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>get to learn N1 from N2</def>
+            </sense>
+            <sense xml:id="uuid-60b0086e-97ac-4a3e-b008-6e97ac8a3e55" resp="#CH" tls:created="2023-07-22T17:36:32.402+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act, conative</tls:sem-feat>
+                </gramGrp>
+                <def>the act of trying to learn things</def>
+            </sense>
+            <sense xml:id="uuid-2d5eb392-0cfb-404b-9eb3-920cfb304b64" resp="#CH" tls:created="2023-07-23T00:15:09.487+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>learn how to V</def>
+            </sense>
+            <sense xml:id="uuid-e924a80d-eaa0-40f7-a4a8-0deaa020f716" resp="#CH" tls:created="2023-07-26T17:08:43.288+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c129076f-32cd-4922-9844-bee5dfa78a5c">vt[oNab]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>learn something</def>
+            </sense>
+            <sense xml:id="uuid-97383e52-a763-40be-b83e-52a76380be50" resp="#CH" tls:created="2023-07-26T21:11:19.438+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98c1fd62-da2c-47e6-81fd-62da2ca7e61d">N=text</tls:sem-feat>
+                </gramGrp>
+                <def>learn by heart</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2d25082c-d724-429e-b1d8-cdeb102b43f8">
             <form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8">
 <orth>得</orth>
@@ -148,7 +229,14 @@
                 </gramGrp>
   <def>get (things) right, learn one's lesson about; get to know about</def>
             </sense>
-<sense xml:id="uuid-dae66671-da2c-4f90-a666-71da2cdf9065" resp="#twharbsmeier" tls:created="2021-02-07T17:57:21.223+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>get (things) right, learn one's lesson about; get to know</def></sense></entry>
+<sense xml:id="uuid-dae66671-da2c-4f90-a666-71da2cdf9065" resp="#twharbsmeier" tls:created="2021-02-07T17:57:21.223+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>get (things) right, learn one's lesson about; get to know</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ecb9e2f3-9757-478d-8aac-5c89fe3afb2a">
             <form corresp="#uuid-afbc5bef-c4c6-475e-bb6f-c1654a7bef5f">
 <orth>聞</orth>
@@ -200,7 +288,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2023-09-21T19:10:49.663+09:00">get to know about; learn about; learn to understand (from an authoritative source); CHECK ATTRIBUTIONS!</def>
             </sense>
 <sense xml:id="uuid-728eb232-4b3e-441b-a531-ab91c8840bc0">
@@ -245,7 +334,66 @@
                 </gramGrp>
   <def>learn or get to know (something N1) from (someone N2)吾曾聞大勇於夫子矣</def>
             </sense>
-<sense xml:id="uuid-d6ebcbb6-cdf6-4389-a6d2-11964b937f12" resp="#CH" tls:created="2019-11-07T18:03:18.869+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c86cb811-e315-484d-94cc-a780af81b8a2">vt+prep+S</tls:syn-func></gramGrp><def>have heard&gt;learnt that S</def></sense><sense xml:id="uuid-0725feeb-6678-44fd-b710-01e6f4832714" resp="#CH" tls:created="2019-12-10T05:13:35.88+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-09-21T19:09:07.891+09:00">manage to get to know about; manage to understand</def></sense><sense xml:id="uuid-4bc1eb21-6230-4a27-837a-08c05951b271" resp="#CH" tls:created="2019-12-21T00:10:08.253+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoNpro.adS</tls:syn-func></gramGrp><def>have heard from an authoritative source</def></sense><sense xml:id="uuid-273393be-0ec9-43f1-b59a-46d716a4366b" resp="#CH" tls:created="2019-12-30T23:33:57.112+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#uuid-d476be66-de4c-4548-882b-9d89f06eff2c"> vto.npro=S</tls:syn-func></gramGrp><def resp="#CH" updated="2020-01-23T02:13:48.591+09:00">have heard it from authoritative sources 聞之S</def></sense><sense xml:id="uuid-21a8a319-9b65-4c50-b49a-499c8878168e" resp="#CH" tls:created="2020-01-23T05:52:49.514+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#twharbsmeier" updated="2020-05-28T23:59:28.189+09:00">N=person: learn about N, be informed about N</def></sense><sense xml:id="uuid-126b11d3-27fc-4990-ab11-d327fcb990d1" resp="#dsehnal" tls:created="2020-05-10T19:36:12.258+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2423ea7c-d281-4428-a3ea-7cd281b428fd">vtonpro=S.+VtoS</tls:syn-func></gramGrp><def>learn from an authoritative source the following which runs as follows</def></sense><sense xml:id="uuid-b1955806-aecb-47de-9558-06aecbf7de28" resp="#zadrapa" tls:created="2020-05-20T22:22:41.578+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>have heard and learnt things (as in 多聞)</def></sense><sense xml:id="uuid-6038e047-4e25-44a6-9a78-e5d596c83a92" resp="#CH" tls:created="2019-12-24T23:47:28.757+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def resp="#CH" updated="2019-12-26T18:38:13.466+09:00">learn about, get to know about, hear about</def></sense></entry>
+<sense xml:id="uuid-d6ebcbb6-cdf6-4389-a6d2-11964b937f12" resp="#CH" tls:created="2019-11-07T18:03:18.869+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c86cb811-e315-484d-94cc-a780af81b8a2">vt+prep+S</tls:syn-func>
+                </gramGrp>
+                <def>have heard&gt;learnt that S</def>
+            </sense>
+            <sense xml:id="uuid-0725feeb-6678-44fd-b710-01e6f4832714" resp="#CH" tls:created="2019-12-10T05:13:35.88+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-09-21T19:09:07.891+09:00">manage to get to know about; manage to understand</def>
+            </sense>
+            <sense xml:id="uuid-4bc1eb21-6230-4a27-837a-08c05951b271" resp="#CH" tls:created="2019-12-21T00:10:08.253+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoNpro.adS</tls:syn-func>
+                </gramGrp>
+                <def>have heard from an authoritative source</def>
+            </sense>
+            <sense xml:id="uuid-273393be-0ec9-43f1-b59a-46d716a4366b" resp="#CH" tls:created="2019-12-30T23:33:57.112+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#uuid-d476be66-de4c-4548-882b-9d89f06eff2c"> vto.npro=S</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-01-23T02:13:48.591+09:00">have heard it from authoritative sources 聞之S</def>
+            </sense>
+            <sense xml:id="uuid-21a8a319-9b65-4c50-b49a-499c8878168e" resp="#CH" tls:created="2020-01-23T05:52:49.514+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#twharbsmeier" updated="2020-05-28T23:59:28.189+09:00">N=person: learn about N, be informed about N</def>
+            </sense>
+            <sense xml:id="uuid-126b11d3-27fc-4990-ab11-d327fcb990d1" resp="#dsehnal" tls:created="2020-05-10T19:36:12.258+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2423ea7c-d281-4428-a3ea-7cd281b428fd">vtonpro=S.+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>learn from an authoritative source the following which runs as follows</def>
+            </sense>
+            <sense xml:id="uuid-b1955806-aecb-47de-9558-06aecbf7de28" resp="#zadrapa" tls:created="2020-05-20T22:22:41.578+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>have heard and learnt things (as in 多聞)</def>
+            </sense>
+            <sense xml:id="uuid-6038e047-4e25-44a6-9a78-e5d596c83a92" resp="#CH" tls:created="2019-12-24T23:47:28.757+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2019-12-26T18:38:13.466+09:00">learn about, get to know about, hear about</def>
+            </sense>
+        </entry>
 
 <entry type="word" xml:id="uuid-1f91964e-b22a-40db-911b-f77dc640cf62">
             <form corresp="#uuid-36739336-a434-4ca1-9a6b-72cd57ba73d4">
@@ -256,7 +404,14 @@
             </form>
             <def>Jìn 進 is to make progress in the process of learning.
 </def>
-<sense xml:id="uuid-255a4b97-a2e8-4ae7-9a4b-97a2e8aae742" resp="#dsehnal" tls:created="2020-05-23T20:14:19.183+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>make progress &gt; master (a doctrine)</def></sense></entry>
+<sense xml:id="uuid-255a4b97-a2e8-4ae7-9a4b-97a2e8aae742" resp="#dsehnal" tls:created="2020-05-23T20:14:19.183+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>make progress &gt; master (a doctrine)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5288cf6c-d504-4f14-a766-f18658ad7fe1">
             <form corresp="#uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4 #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
 <orth>學得</orth>

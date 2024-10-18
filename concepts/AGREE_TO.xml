@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f002b003-9bdd-4311-8438-dfc2e5400855">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f002b003-9bdd-4311-8438-dfc2e5400855">
 <head>AGREE TO</head>
     <list type="altnames">
 <item>WORD</item>
@@ -32,7 +33,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-17T22:43:57.601+09:00">ASSENT that one is WILLING to ACT CONFORMing to someone OTHER:else's REQUEST.  </p></div>
+    <p resp="#CH" modified="2020-10-17T22:43:57.601+09:00">ASSENT that one is WILLING to ACT CONFORMing to someone OTHER:else's REQUEST.  </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ASCENDING/HORIZONTAL/DESCENDING]</p>
@@ -217,7 +219,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-c8ccb409-3ef5-4eb9-8c65-d88e7ceeb93c">
-            <form corresp="#uuid-9af4a8e7-67c9-44c6-9134-dc9e119d10c3"><orth>垂</orth><pron xml:lang="zh-Latn-x-pinyin">chuí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzywe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djol</pron></form>
+            <form corresp="#uuid-9af4a8e7-67c9-44c6-9134-dc9e119d10c3">
+                <orth>垂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzywe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djol</pron>
+            </form>
 <sense xml:id="uuid-49f9b858-fe5d-4734-a62f-5f2bf68b1a74">
 <gramGrp>
                     <pos>V</pos>
@@ -285,7 +292,22 @@
                 </gramGrp>
   <def>agree on (a date and a place),　MC 約好German: verabreden</def>
             </sense>
-<sense xml:id="uuid-bca43d13-bae8-4b91-a43d-13bae86b9157" resp="#dsehnal" tls:created="2021-05-24T19:28:35.218+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c3908909-fa0c-41eb-8617-3404d62459ad">vt+V1.postV2</tls:syn-func></gramGrp><def>agree to V with somebody</def></sense><sense xml:id="uuid-51bc1f98-8711-41a9-bc1f-98871151a92d" resp="#CH" tls:created="2024-02-12T19:10:22.743+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-3f42e0c0-9164-44f6-82e0-c09164f4f622">conform</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-26T00:57:04.405+09:00">agree to follow/conform to</def></sense></entry>
+<sense xml:id="uuid-bca43d13-bae8-4b91-a43d-13bae86b9157" resp="#dsehnal" tls:created="2021-05-24T19:28:35.218+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c3908909-fa0c-41eb-8617-3404d62459ad">vt+V1.postV2</tls:syn-func>
+                </gramGrp>
+                <def>agree to V with somebody</def>
+            </sense>
+            <sense xml:id="uuid-51bc1f98-8711-41a9-bc1f-98871151a92d" resp="#CH" tls:created="2024-02-12T19:10:22.743+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3f42e0c0-9164-44f6-82e0-c09164f4f622">conform</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-26T00:57:04.405+09:00">agree to follow/conform to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e86534a3-eea0-4883-801d-a3023cbcda84">
             <form corresp="#uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2">
 <orth>約</orth>
@@ -384,7 +406,14 @@
                 </gramGrp>
   <def>agree to S; accept S</def>
             </sense>
-<sense xml:id="uuid-a7a44d52-fc41-4500-a44d-52fc41a500da" resp="#CH" tls:created="2020-05-17T02:39:14.165+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3033a944-a4df-4319-bfac-3d7d7126e9dc">vt(+V(0))</tls:syn-func></gramGrp><def>be willing to V</def></sense></entry>
+<sense xml:id="uuid-a7a44d52-fc41-4500-a44d-52fc41a500da" resp="#CH" tls:created="2020-05-17T02:39:14.165+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3033a944-a4df-4319-bfac-3d7d7126e9dc">vt(+V(0))</tls:syn-func>
+                </gramGrp>
+                <def>be willing to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8528a41f-c55b-48b0-b176-7a408cdfce2b">
             <form corresp="#uuid-770a409a-3af2-4f16-9c16-09a9714a11cd">
 <orth>要</orth>
@@ -489,7 +518,14 @@
                 </gramGrp>
   <def>agree with</def>
             </sense>
-<sense xml:id="uuid-06646364-254e-46f9-8690-ec269fe94b97" resp="#CH" tls:created="2019-10-18T22:02:33.266+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt(oN)</tls:syn-func></gramGrp><def>take even the time to say yes</def></sense></entry>
+<sense xml:id="uuid-06646364-254e-46f9-8690-ec269fe94b97" resp="#CH" tls:created="2019-10-18T22:02:33.266+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>take even the time to say yes</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5e5bec76-bef1-4c0e-9875-040d85c8f77f">
             <form corresp="#uuid-215e7fde-e61a-4ca2-9527-430b64738145">
 <orth>辱</orth>
@@ -528,7 +564,14 @@
                 </gramGrp>
   <def>express one's officious agreement</def>
             </sense>
-<sense xml:id="uuid-15ed379d-7aee-4d2e-ad37-9d7aeebd2e16" resp="#CH" tls:created="2022-09-08T23:37:28.372+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-24e02f00-bb8b-4b12-9c3d-029977737e0c">VPi[0]</tls:syn-func></gramGrp><def>I agree, Yes!</def></sense></entry>
+<sense xml:id="uuid-15ed379d-7aee-4d2e-ad37-9d7aeebd2e16" resp="#CH" tls:created="2022-09-08T23:37:28.372+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-24e02f00-bb8b-4b12-9c3d-029977737e0c">VPi[0]</tls:syn-func>
+                </gramGrp>
+                <def>I agree, Yes!</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4a8c1e9a-0deb-4183-a6f8-25c740b65305">
             <form>
 <orth>應喏</orth>
@@ -583,5 +626,20 @@
   <def>agree to (a price etc)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-892f6e65-e3ae-447e-8926-7dd9615c4dba" resp="#CH" tls:created="2019-10-17T20:57:25.178+09:00"><form corresp="#uuid-da888da1-0d6e-4d5c-a711-60c1c713d85b #uuid-032a0c74-e395-448c-93bd-d47ac4e4ff01"><orth>唯諾</orth><pron xml:lang="zh-Latn-x-pinyin">wéi nuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywij nak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lul naaɡ</pron></form><sense xml:id="uuid-38452922-9ae8-476a-ab85-85211646392b" resp="#CH" tls:created="2019-10-17T20:57:25.178+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>agree promptly to do whatever one is asked to do</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-892f6e65-e3ae-447e-8926-7dd9615c4dba" resp="#CH" tls:created="2019-10-17T20:57:25.178+09:00">
+            <form corresp="#uuid-da888da1-0d6e-4d5c-a711-60c1c713d85b #uuid-032a0c74-e395-448c-93bd-d47ac4e4ff01">
+                <orth>唯諾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi nuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywij nak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lul naaɡ</pron>
+            </form>
+            <sense xml:id="uuid-38452922-9ae8-476a-ab85-85211646392b" resp="#CH" tls:created="2019-10-17T20:57:25.178+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>agree promptly to do whatever one is asked to do</def>
+            </sense>
+        </entry>
+    </div>
 </div>

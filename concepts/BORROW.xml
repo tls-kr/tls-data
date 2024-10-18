@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1c314fb6-7546-41cb-9bf2-49708a8ee9b1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1c314fb6-7546-41cb-9bf2-49708a8ee9b1">
 <head>BORROW</head>
     <list type="altnames">
 <item>TAKE AS A LOAN</item>
@@ -150,7 +151,14 @@
                 </gramGrp>
   <def>"borrow" (help N1 etc) (from someone N2)</def>
             </sense>
-<sense xml:id="uuid-7b244bc0-d395-4e16-a44b-c0d3959e1655" resp="#dsehnal" tls:created="2023-05-09T00:32:27.717+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0c097e83-49fe-4714-88f3-bc2aeceeef36">vttoN.+V(0)</tls:syn-func></gramGrp><def>borrow N in order to V; borrow N and perform V</def></sense></entry>
+<sense xml:id="uuid-7b244bc0-d395-4e16-a44b-c0d3959e1655" resp="#dsehnal" tls:created="2023-05-09T00:32:27.717+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0c097e83-49fe-4714-88f3-bc2aeceeef36">vttoN.+V(0)</tls:syn-func>
+                </gramGrp>
+                <def>borrow N in order to V; borrow N and perform V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8783cbb3-c95f-4df0-92cf-9725a8c4dfc4">
             <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce">
 <orth>假</orth>
@@ -199,7 +207,15 @@
                 </gramGrp>
   <def>borrow (something or someone N1) from (the owner N2) 假人於越, also 假道 "askfor/borrow right of way"</def>
             </sense>
-<sense xml:id="uuid-e82b6d71-6a03-478e-ab6d-716a03578e89" resp="#CH" tls:created="2020-05-03T02:54:57.322+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be borrowed from others</def></sense></entry>
+<sense xml:id="uuid-e82b6d71-6a03-478e-ab6d-716a03578e89" resp="#CH" tls:created="2020-05-03T02:54:57.322+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be borrowed from others</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-de0c4bb3-948e-41bd-bd33-1ce034798ac4">
             <form corresp="#uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9">
 <orth>舉</orth>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-df2b12b7-6963-4e65-841e-45983b22081e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-df2b12b7-6963-4e65-841e-45983b22081e">
 <head>DEMOTE</head>
     <list type="altnames">
 <item>DOWNGRADE</item>
@@ -143,7 +144,15 @@
                 </gramGrp>
   <def>demote the contextually determinate person</def>
             </sense>
-<sense xml:id="uuid-6ca2c237-01da-44eb-a8aa-176feea69f5a" resp="#CH" tls:created="2020-01-11T18:46:22.716+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>putative: devalue</def></sense></entry>
+<sense xml:id="uuid-6ca2c237-01da-44eb-a8aa-176feea69f5a" resp="#CH" tls:created="2020-01-11T18:46:22.716+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>putative: devalue</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7fbdbbce-295b-48c5-9b49-4bcbe9692c31">
             <form corresp="#uuid-d2a207cf-dc02-40a4-8b56-1944ac8b3f21">
 <orth>謫</orth>
@@ -224,7 +233,14 @@
                 </gramGrp>
   <def>get demoted</def>
             </sense>
-<sense xml:id="uuid-1bcb93c5-380d-4cc8-8b93-c5380d4cc8d4" resp="#zadrapa" tls:created="2022-06-17T00:19:09.315+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>demote others</def></sense></entry>
+<sense xml:id="uuid-1bcb93c5-380d-4cc8-8b93-c5380d4cc8d4" resp="#zadrapa" tls:created="2022-06-17T00:19:09.315+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>demote others</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2a6fa544-fd02-46e7-94d6-6d6265ac14c4">
             <form corresp="#uuid-37841124-9804-4497-bf0c-4aa42ec4349d">
 <orth>遷</orth>
@@ -303,5 +319,20 @@
   <def>get demoted and kept at a distance</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-11b14340-4a32-4d7b-b143-404a32cd7b98" resp="#zadrapa" tls:created="2021-01-25T18:29:43.102+09:00"><form corresp="#uuid-62626b8e-b8a7-4438-871e-09e52ad7e4fb #uuid-3272a27c-8944-40c9-ae65-477945079f62"><orth>損絀</orth><pron xml:lang="zh-Latn-x-pinyin">sǔn chù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">swonX trwit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">squunʔ krlud</pron></form><sense xml:id="uuid-c6f7019f-2259-49df-b701-9f225949dfb1" resp="#zadrapa" tls:created="2021-01-25T18:29:43.102+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>demote or even expel from office</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-11b14340-4a32-4d7b-b143-404a32cd7b98" resp="#zadrapa" tls:created="2021-01-25T18:29:43.102+09:00">
+            <form corresp="#uuid-62626b8e-b8a7-4438-871e-09e52ad7e4fb #uuid-3272a27c-8944-40c9-ae65-477945079f62">
+                <orth>損絀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sǔn chù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">swonX trwit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">squunʔ krlud</pron>
+            </form>
+            <sense xml:id="uuid-c6f7019f-2259-49df-b701-9f225949dfb1" resp="#zadrapa" tls:created="2021-01-25T18:29:43.102+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>demote or even expel from office</def>
+            </sense>
+        </entry>
+    </div>
 </div>

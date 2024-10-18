@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7472e76e-7322-4060-b8f7-5add17c4966d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7472e76e-7322-4060-b8f7-5add17c4966d">
 <head>HANG</head>
     <list type="altnames">
 <item>SUSPEND</item>
@@ -66,7 +67,12 @@
     </div>
 <div type="words">
 <entry type="word" xml:id="uuid-70f7ba66-29b5-43a5-831a-f143b8db32e1">
-            <form corresp="#uuid-9af4a8e7-67c9-44c6-9134-dc9e119d10c3"><orth>垂</orth><pron xml:lang="zh-Latn-x-pinyin">chuí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzywe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djol</pron></form>
+            <form corresp="#uuid-9af4a8e7-67c9-44c6-9134-dc9e119d10c3">
+                <orth>垂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzywe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djol</pron>
+            </form>
             <def>Chuí 垂 refers to the whole structure that dangles from a high object. Thus, for example, a rope is said to chuí 垂 from a tree, but an object will be said to xuán 懸 "be suspended" on that rope.
 </def>
 <sense xml:id="uuid-a4f54c47-8e57-47c5-9613-e8456c60abf1">
@@ -154,7 +160,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-55c2b930-6ba6-475f-82b9-306ba6d75f0c">active</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-55c2b930-6ba6-475f-82b9-306ba6d75f0c">active</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-08-26T18:35:56.903+09:00">suspended for display; dangling; falling (as of water in a waterfall)</def>
             </sense>
 <sense xml:id="uuid-5a1bcb40-709b-4233-aec6-e9bc61a62775">
@@ -195,7 +202,31 @@
                 </gramGrp>
   <def>suspend N1 in place N2</def>
             </sense>
-<sense xml:id="uuid-2680cf7d-0548-4dd1-9735-8859214eb8a0" resp="#CH" tls:created="2020-02-01T22:30:00.684+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4f850b1-443b-4102-a3e2-09fb44ede988">object=text</tls:sem-feat></gramGrp><def>hang up for everyone to see; publish by public display</def></sense><sense xml:id="uuid-ecd5fb73-7168-4289-95fb-73716852897e" resp="#dsehnal" tls:created="2024-05-19T22:20:43.425+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0663d50c-e1bf-4f80-a3d5-0ce1bf9f807f">vt1oN1.-vt2oN2</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>hang N1 as to create N2</def></sense><sense xml:id="uuid-e044f6df-7bc8-472d-84f6-df7bc8472d3c" resp="#dsehnal" tls:created="2024-05-20T01:48:39.728+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.)+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>hang the contextually determinate thing N1 to the place N2</def></sense></entry>
+<sense xml:id="uuid-2680cf7d-0548-4dd1-9735-8859214eb8a0" resp="#CH" tls:created="2020-02-01T22:30:00.684+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4f850b1-443b-4102-a3e2-09fb44ede988">object=text</tls:sem-feat>
+                </gramGrp>
+                <def>hang up for everyone to see; publish by public display</def>
+            </sense>
+            <sense xml:id="uuid-ecd5fb73-7168-4289-95fb-73716852897e" resp="#dsehnal" tls:created="2024-05-19T22:20:43.425+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0663d50c-e1bf-4f80-a3d5-0ce1bf9f807f">vt1oN1.-vt2oN2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>hang N1 as to create N2</def>
+            </sense>
+            <sense xml:id="uuid-e044f6df-7bc8-472d-84f6-df7bc8472d3c" resp="#dsehnal" tls:created="2024-05-20T01:48:39.728+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.)+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>hang the contextually determinate thing N1 to the place N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-16c504b0-0656-4d32-b3ef-aa8c26db7c2a">
             <form corresp="#uuid-b311d62d-3aa4-4348-bf8e-fe34946f94dd">
 <orth>掛</orth>
@@ -341,5 +372,66 @@
   <def>be suspended, hang, dangle</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-00b10c0a-6c51-45cc-8344-f57071d6a959" resp="#CH" tls:created="2019-10-18T21:16:16.611+09:00"><form corresp="#uuid-9012f7ad-cfe9-4f58-8299-83027d5f52a1"><orth>撥</orth><pron xml:lang="zh-Latn-x-pinyin">bō</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pood</pron></form><sense xml:id="uuid-026f1ada-5a01-4da6-95d1-98123ad7e7f4" resp="#CH" tls:created="2019-10-18T21:16:16.611+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def resp="#CH" updated="2020-03-30T10:55:42.119+09:00">hang loosely, twisting the garment</def></sense><sense xml:id="uuid-ab604d0b-0a9d-4b80-a04d-0b0a9ddb80d9" resp="#chris" tls:created="2020-03-30T18:01:47.887+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c912ed13-eb44-424d-818d-37499c4df5d6">vpro</tls:syn-func><tls:sem-feat corresp="#uuid-b9ac8ad9-68b3-47e7-bd5d-759b78a7adfe">semx</tls:sem-feat></gramGrp><def>This is a test</def></sense></entry><entry type="word" xml:id="uuid-c31460c0-03ae-4eb7-9460-c003ae3eb7fc" resp="#CH" tls:created="2020-04-05T18:51:10.745+09:00"><form corresp="#uuid-d0065c51-75b9-4ded-b8f3-dbee6f4c7a7a #uuid-2434a6fc-0e19-41a0-be70-5ade91d7f494"><orth>銜索</orth><pron xml:lang="zh-Latn-x-pinyin">xián suǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haem sraek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraam sraaɡ</pron></form><sense xml:id="uuid-93d7a1fd-c80e-4a61-97a1-fdc80eca619e" resp="#CH" tls:created="2020-04-05T18:51:10.745+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>hang (pierced dried fish) to dry on a rope</def></sense><sense xml:id="uuid-adfc8b71-fcdb-4479-bc8b-71fcdb84799b" resp="#CH" tls:created="2020-04-05T18:52:39.647+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be pierced and hung out on a rope</def></sense></entry><entry type="word" xml:id="uuid-440d755d-6e25-497a-8d75-5d6e25d97acd" resp="#CH" tls:created="2023-02-13T19:32:44.72+09:00"><form corresp="#uuid-7cf57e1c-ffc2-442e-84ff-bccd9f5bb6fb #uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e"><orth>縣法</orth><pron xml:lang="zh-Latn-x-pinyin">xuán fǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwen pjop</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷeen pab</pron></form><sense xml:id="uuid-dc9be33f-1f76-4a12-9be3-3f1f766a1242" resp="#CH" tls:created="2023-02-13T19:32:44.72+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>publish laws by hanging them up on a wall in the city centre</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-00b10c0a-6c51-45cc-8344-f57071d6a959" resp="#CH" tls:created="2019-10-18T21:16:16.611+09:00">
+            <form corresp="#uuid-9012f7ad-cfe9-4f58-8299-83027d5f52a1">
+                <orth>撥</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bō</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pood</pron>
+            </form>
+            <sense xml:id="uuid-026f1ada-5a01-4da6-95d1-98123ad7e7f4" resp="#CH" tls:created="2019-10-18T21:16:16.611+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-03-30T10:55:42.119+09:00">hang loosely, twisting the garment</def>
+            </sense>
+            <sense xml:id="uuid-ab604d0b-0a9d-4b80-a04d-0b0a9ddb80d9" resp="#chris" tls:created="2020-03-30T18:01:47.887+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c912ed13-eb44-424d-818d-37499c4df5d6">vpro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b9ac8ad9-68b3-47e7-bd5d-759b78a7adfe">semx</tls:sem-feat>
+                </gramGrp>
+                <def>This is a test</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c31460c0-03ae-4eb7-9460-c003ae3eb7fc" resp="#CH" tls:created="2020-04-05T18:51:10.745+09:00">
+            <form corresp="#uuid-d0065c51-75b9-4ded-b8f3-dbee6f4c7a7a #uuid-2434a6fc-0e19-41a0-be70-5ade91d7f494">
+                <orth>銜索</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xián suǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haem sraek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraam sraaɡ</pron>
+            </form>
+            <sense xml:id="uuid-93d7a1fd-c80e-4a61-97a1-fdc80eca619e" resp="#CH" tls:created="2020-04-05T18:51:10.745+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>hang (pierced dried fish) to dry on a rope</def>
+            </sense>
+            <sense xml:id="uuid-adfc8b71-fcdb-4479-bc8b-71fcdb84799b" resp="#CH" tls:created="2020-04-05T18:52:39.647+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be pierced and hung out on a rope</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-440d755d-6e25-497a-8d75-5d6e25d97acd" resp="#CH" tls:created="2023-02-13T19:32:44.72+09:00">
+            <form corresp="#uuid-7cf57e1c-ffc2-442e-84ff-bccd9f5bb6fb #uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e">
+                <orth>縣法</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xuán fǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwen pjop</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷeen pab</pron>
+            </form>
+            <sense xml:id="uuid-dc9be33f-1f76-4a12-9be3-3f1f766a1242" resp="#CH" tls:created="2023-02-13T19:32:44.72+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>publish laws by hanging them up on a wall in the city centre</def>
+            </sense>
+        </entry>
+    </div>
 </div>

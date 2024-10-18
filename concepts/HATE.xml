@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b61cfea3-cee5-41ca-8b35-911615c0a81a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b61cfea3-cee5-41ca-8b35-911615c0a81a">
 <head>HATE</head>
     <list type="altnames">
 <item>LOATHE</item>
@@ -270,7 +271,12 @@
     </div>
 <div type="words">
 <entry type="word" xml:id="uuid-21c58be0-342b-4544-b041-3773a789da1b">
-            <form corresp="#uuid-bf4f10b8-964e-44e8-8f10-b8964e94e8e7"><orth>仇</orth><pron xml:lang="zh-Latn-x-pinyin">chóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-bf4f10b8-964e-44e8-8f10-b8964e94e8e7">
+                <orth>仇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-094e99b4-0fff-484f-97a1-59c1a003ea99">
 <gramGrp>
                     <pos>N</pos>
@@ -297,7 +303,14 @@
                 </gramGrp>
   <def>regard as an enemy, hate</def>
             </sense>
-<sense xml:id="uuid-b63044ed-5b8c-4e2d-b044-ed5b8cce2dff" resp="#CH" tls:created="2022-08-28T17:13:13.653+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>hateful</def></sense></entry>
+<sense xml:id="uuid-b63044ed-5b8c-4e2d-b044-ed5b8cce2dff" resp="#CH" tls:created="2022-08-28T17:13:13.653+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>hateful</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1705e496-b0c8-497d-b31f-3360f7024187">
             <form corresp="#uuid-bb49cac3-8f2c-4299-8853-bf3bb61fa745">
 <orth>厭</orth>
@@ -460,7 +473,31 @@
                 </gramGrp>
   <def>archaic and poetic: resent</def>
             </sense>
-<sense xml:id="uuid-cc5e062c-bc24-4199-9e06-2cbc245199b5" resp="#zadrapa" tls:created="2020-06-16T19:06:33.376+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>resentment</def></sense><sense xml:id="uuid-ae6914dc-acbc-47b5-a914-dcacbcf7b51a" resp="#CH" tls:created="2021-05-05T01:05:07.571+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#">intensitive</tls:sem-feat></gramGrp><def>full of resentment</def></sense><sense xml:id="uuid-fa495d2c-aef3-4edb-895d-2caef30edb94" resp="#CH" tls:created="2021-07-24T17:21:36.266+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>be resentful with regard to; feel resentment regarding</def></sense></entry>
+<sense xml:id="uuid-cc5e062c-bc24-4199-9e06-2cbc245199b5" resp="#zadrapa" tls:created="2020-06-16T19:06:33.376+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>resentment</def>
+            </sense>
+            <sense xml:id="uuid-ae6914dc-acbc-47b5-a914-dcacbcf7b51a" resp="#CH" tls:created="2021-05-05T01:05:07.571+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#">intensitive</tls:sem-feat>
+                </gramGrp>
+                <def>full of resentment</def>
+            </sense>
+            <sense xml:id="uuid-fa495d2c-aef3-4edb-895d-2caef30edb94" resp="#CH" tls:created="2021-07-24T17:21:36.266+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>be resentful with regard to; feel resentment regarding</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9742e047-a652-4a1f-adc1-378c518b4873">
             <form corresp="#uuid-e77edc69-d1c1-4a2c-84bb-9bc48c3e045e">
 <orth>怨</orth>
@@ -477,7 +514,7 @@
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                     <usg type="warring-states-currency">2</usg>
                 </gramGrp>
-  <def resp="#CH" updated="2020-04-27T03:29:58.661+09:00">resentful behaviour against superiors</def>
+  <def resp="#CH" updated="2024-10-06T04:32:45.523+09:00">resentful indignant behaviour against superiors</def>
             </sense>
 <sense xml:id="uuid-c38e2177-1988-43d9-ab17-ef604a691c9a">
 <gramGrp>
@@ -486,7 +523,7 @@
   <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
-  <def resp="#CH" updated="2020-04-27T03:31:26.476+09:00">intense resentment (typically against superiors)</def>
+  <def resp="#CH" updated="2024-10-06T04:33:00.222+09:00">indigation; intense resentment (typically against superiors)</def>
             </sense>
 <sense xml:id="uuid-34505938-4184-4424-b8d7-86b02a95fe41">
 <gramGrp>
@@ -494,7 +531,7 @@
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
-  <def>resentful (words, women etc); spiteful (words)</def>
+  <def resp="#CH" updated="2024-10-06T04:34:51.973+09:00">indignant, resentful (words, women etc); spiteful (words)</def>
             </sense>
 <sense xml:id="uuid-a6f7662f-e7e2-46a1-bb76-b2f33431db77">
 <gramGrp>
@@ -503,7 +540,7 @@
   <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def>become resentful</def>
+  <def resp="#CH" updated="2024-10-06T04:34:50.948+09:00">become indignant, resentful</def>
             </sense>
 <sense xml:id="uuid-136c5448-e961-4e8e-b1d5-1ef622707075">
 <gramGrp>
@@ -518,7 +555,7 @@
   <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def>be resentful (typically towards superiors), be full of resentment;  be full of resentment to each other</def>
+  <def resp="#CH" updated="2024-10-06T04:36:06.594+09:00">be indignant against others; resentful (typically towards superiors), be full of indignation; be full of resentment to each other</def>
             </sense>
 <sense xml:id="uuid-330c86ae-6ee2-4090-869a-02b4c8043d5a">
 <gramGrp>
@@ -526,7 +563,7 @@
   <tls:syn-func corresp="#uuid-c86cb811-e315-484d-94cc-a780af81b8a2">vt+prep+S</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>be resentful that S (which can be a minor sentence and therefore hard to distinguish on any solid basis from a V)</def>
+  <def resp="#CH" updated="2024-10-06T04:35:29.039+09:00">be indignant or resentful that S (which can be a minor sentence and therefore hard to distinguish on any solid basis from a V)</def>
             </sense>
 <sense xml:id="uuid-905c4e2b-44a6-4dce-8a35-56a9c17542da">
 <gramGrp>
@@ -534,7 +571,7 @@
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
-  <def>feel a lasting aggressive anger and hatred for (often superiors); feel intensely resentful about the fact that; resent; gear a grudge against</def>
+  <def resp="#CH" updated="2024-10-06T04:37:05.164+09:00">feel a lasting aggressive indignation and hatred for (often superiors); feel intensely resentful about the fact that; resent; gear a grudge against</def>
             </sense>
 <sense xml:id="uuid-384c66ea-3d83-4c34-a1aa-33fc2d8c07d2">
 <gramGrp>
@@ -542,7 +579,7 @@
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
   <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
                 </gramGrp>
-  <def>cause to hate one&gt;  arouse resentment in</def>
+  <def resp="#CH" updated="2024-10-06T04:37:04.761+09:00">cause to hate one&gt; arouse indignation or resentment in</def>
             </sense>
 <sense xml:id="uuid-1539e5ba-ebda-4b0d-873a-03e099c8cc5d">
 <gramGrp>
@@ -574,7 +611,7 @@
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-d76e92fd-a62d-4b70-82ca-dabb844acc6c">nab.t:+prep+N</tls:syn-func>
                 </gramGrp>
-  <def>hatred for</def>
+  <def resp="#CH" updated="2024-10-06T04:33:53.52+09:00">indignation or hatred for</def>
             </sense>
 <sense xml:id="uuid-5affd54e-a5f5-4656-926b-1f6a9b2484c0">
 <gramGrp>
@@ -582,7 +619,7 @@
   <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
   <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
                 </gramGrp>
-  <def>resent that S</def>
+  <def resp="#CH" updated="2024-10-06T04:37:53.026+09:00">be indignant about S, resent that S</def>
             </sense>
 <sense xml:id="uuid-fe9a08e3-0796-42b5-beb2-d614a49254bd">
 <gramGrp>
@@ -590,7 +627,7 @@
   <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
   <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
                 </gramGrp>
-  <def>feel resentful or hateful towards N</def>
+  <def resp="#CH" updated="2024-10-06T04:35:14.675+09:00">feel indignant resentful or hateful towards N</def>
             </sense>
 <sense xml:id="uuid-a3b35227-c2a2-4312-86cc-df5d9f3c907c">
 <gramGrp>
@@ -598,7 +635,7 @@
   <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
   <tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat>
                 </gramGrp>
-  <def>hatred directed against N</def>
+  <def resp="#CH" updated="2024-10-06T04:33:32.682+09:00">indignation or hatred directed against N</def>
             </sense>
 <sense xml:id="uuid-16aa9214-d5c9-41f1-9fec-8b6fe8cf393f">
 <gramGrp>
@@ -608,7 +645,37 @@
                 </gramGrp>
   <def>hate (actions etc)</def>
             </sense>
-<sense xml:id="uuid-7d8d86e9-5c49-4db3-b689-4c1f6d506d5e" resp="#CH" tls:created="2019-12-05T22:18:19.671+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>hate one's superiors</def></sense><sense xml:id="uuid-1dc69f75-4c37-411c-869f-754c37711cbb" resp="#zadrapa" tls:created="2022-05-23T16:41:45.764+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat></gramGrp><def>the resentful ones</def></sense><sense xml:id="uuid-bd80ceb3-19ea-4945-80ce-b319ea6945ba" resp="#CH" tls:created="2022-08-25T21:23:16.951+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>resentment from the part of the contextually determinate N</def></sense><sense xml:id="uuid-de3a31d3-5ade-4bf0-ba31-d35ade9bf070" resp="#CH" tls:created="2022-08-27T18:00:31.575+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-27T18:01:07.691+09:00">intense resentment suffered</def></sense></entry>
+<sense xml:id="uuid-7d8d86e9-5c49-4db3-b689-4c1f6d506d5e" resp="#CH" tls:created="2019-12-05T22:18:19.671+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>hate one's superiors</def>
+            </sense>
+            <sense xml:id="uuid-1dc69f75-4c37-411c-869f-754c37711cbb" resp="#zadrapa" tls:created="2022-05-23T16:41:45.764+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-06T04:34:07.927+09:00">the indignant and resentful ones</def>
+            </sense>
+            <sense xml:id="uuid-bd80ceb3-19ea-4945-80ce-b319ea6945ba" resp="#CH" tls:created="2022-08-25T21:23:16.951+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>resentment from the part of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-de3a31d3-5ade-4bf0-ba31-d35ade9bf070" resp="#CH" tls:created="2022-08-27T18:00:31.575+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-27T18:01:07.691+09:00">intense resentment suffered</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4be0e75e-b53f-424a-b101-e18522b0924e">
             <form corresp="#uuid-38a37686-ff74-48ab-ad6e-c613fd21bf24">
 <orth>恨</orth>
@@ -746,7 +813,21 @@
                 </gramGrp>
   <def>cause N1 to be hated by N2</def>
             </sense>
-<sense xml:id="uuid-6239a722-50a6-4ba8-86e9-a4b283d063ca" resp="#CH" tls:created="2019-12-15T01:28:40.562+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>take a hostile attitude towards, act hatefully towards</def></sense><sense xml:id="uuid-d2f9225a-bf1b-48e9-b922-5abf1b88e9e9" resp="#zadrapa" tls:created="2021-05-11T17:50:35.594+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func></gramGrp><def>hate the very idea that S might happen</def></sense></entry>
+<sense xml:id="uuid-6239a722-50a6-4ba8-86e9-a4b283d063ca" resp="#CH" tls:created="2019-12-15T01:28:40.562+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>take a hostile attitude towards, act hatefully towards</def>
+            </sense>
+            <sense xml:id="uuid-d2f9225a-bf1b-48e9-b922-5abf1b88e9e9" resp="#zadrapa" tls:created="2021-05-11T17:50:35.594+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
+                </gramGrp>
+                <def>hate the very idea that S might happen</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-14039700-16a0-4ddf-9f08-fc755e948d44">
             <form corresp="#uuid-e589770b-c33e-4e3e-bd40-b8aba95f9c8f">
 <orth>憝</orth>
@@ -831,7 +912,15 @@
                 </gramGrp>
   <def>detest; harbour strong dislike</def>
             </sense>
-<sense xml:id="uuid-02fcffce-f96d-4231-ac0e-06bad72bb0b3" resp="#CH" tls:created="2019-10-12T22:16:31.642+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>feel and behave negatively towards people, hate people</def></sense></entry>
+<sense xml:id="uuid-02fcffce-f96d-4231-ac0e-06bad72bb0b3" resp="#CH" tls:created="2019-10-12T22:16:31.642+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>feel and behave negatively towards people, hate people</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-eaf4a0b3-c60d-4af9-8518-167702822721">
             <form corresp="#uuid-a67797d9-c47e-44aa-bad5-fa0f081f15aa">
 <orth>憾</orth>
@@ -976,7 +1065,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-05-10T02:57:08.804+09:00">feel offended by; be enraged; take exception to</def>
             </sense>
-<sense xml:id="uuid-8d2b554f-3ba4-492a-ab55-4f3ba4d92a60" resp="#CH" tls:created="2020-02-13T02:38:25.614+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0dd4edc0-7e8b-4e1b-b3e9-677c0faa3790">vtoNab{S}</tls:syn-func></gramGrp><def>hate that S</def></sense></entry>
+<sense xml:id="uuid-8d2b554f-3ba4-492a-ab55-4f3ba4d92a60" resp="#CH" tls:created="2020-02-13T02:38:25.614+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0dd4edc0-7e8b-4e1b-b3e9-677c0faa3790">vtoNab{S}</tls:syn-func>
+                </gramGrp>
+                <def>hate that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2da9a4ee-b36a-4671-92cf-a89dfd51ed53">
             <form corresp="#uuid-55262410-645e-4df0-b0a2-71e30d115a46">
 <orth>疾</orth>
@@ -1138,7 +1234,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="register">1</usg>
-                <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
   <def>dislike intensely, find appalling</def>
             </sense>
 <sense xml:id="uuid-ded1090d-cc5f-4943-bea4-11f0776fa603">
@@ -1165,7 +1262,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-05-19T17:10:34.198+09:00">litotes: want to avoid V-ing; dislike V-ing</def>
             </sense>
-<sense xml:id="uuid-25ed6b30-38f0-4449-ad6b-3038f0b44936" resp="#CH" tls:created="2024-08-08T04:58:38.8+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-574cb956-877c-4eaa-9a24-c8641607f917">VPt+V[0]{PASS}</tls:syn-func></gramGrp><def>hate to be V-ed, hate to have V-ing done to oneself</def></sense></entry>
+<sense xml:id="uuid-25ed6b30-38f0-4449-ad6b-3038f0b44936" resp="#CH" tls:created="2024-08-08T04:58:38.8+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-574cb956-877c-4eaa-9a24-c8641607f917">VPt+V[0]{PASS}</tls:syn-func>
+                </gramGrp>
+                <def>hate to be V-ed, hate to have V-ing done to oneself</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1f434000-f42a-4829-8fa8-9d5a9bd5774d">
             <form corresp="#uuid-2564ff44-6005-442d-84a7-b08031f58a06 #uuid-e77edc69-d1c1-4a2c-84bb-9bc48c3e045e">
 <orth>仇怨</orth>
@@ -1419,5 +1523,144 @@
   <def>with great aversion</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-565d99a6-5e8a-4cb7-9d99-a65e8a1cb741" resp="#CH" tls:created="2020-05-03T21:15:34.249+09:00"><form corresp="#uuid-fd9befdd-693e-4012-87bd-c2a36604f862 #uuid-6dbc44e0-4f81-4bcb-9240-5ebb8c40d3a6"><orth>冤結</orth><pron xml:lang="zh-Latn-x-pinyin">yuān jié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jwon ket</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qon kiid</pron></form><sense xml:id="uuid-b3d31b16-ff76-4a48-931b-16ff76fa48d1" resp="#CH" tls:created="2020-05-03T21:15:34.249+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>resentment at injustice suffered</def></sense></entry><entry type="word" xml:id="uuid-4aed817d-a26c-4153-ad81-7da26c915355" resp="#zadrapa" tls:created="2020-05-29T16:21:26.179+09:00"><form corresp="#uuid-9981b499-e76d-4584-b00b-bca7ffd09161 #uuid-a7d5af4b-f927-4471-9d17-58a043f1fb06"><orth>作惡</orth><pron xml:lang="zh-Latn-x-pinyin">zuò wù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsuH 'uH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsaaɡ qaaɡs</pron></form><sense xml:id="uuid-130f2bd5-2560-4e72-8f2b-d525603e7210" resp="#zadrapa" tls:created="2020-05-29T16:21:26.179+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>activity on the basis of one's personal dislikes</def></sense></entry><entry type="word" xml:id="uuid-1ece4765-3fe7-4d05-8e47-653fe7dd05c2" resp="#zadrapa" tls:created="2020-06-11T18:15:55.245+09:00"><form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-a7d5af4b-f927-4471-9d17-58a043f1fb06"><orth>可惡</orth><pron xml:lang="zh-Latn-x-pinyin">kě wù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaX 'uH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ qaaɡs</pron></form><sense xml:id="uuid-0d244cb5-7503-4371-a44c-b57503237145" resp="#zadrapa" tls:created="2020-06-11T18:15:55.245+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>detestability</def></sense></entry><entry type="word" xml:id="uuid-821e410c-5f9e-4f5e-9e41-0c5f9e6f5eb9" resp="#zadrapa" tls:created="2021-02-27T03:47:29.537+09:00"><form corresp="#uuid-e77edc69-d1c1-4a2c-84bb-9bc48c3e045e #uuid-55262410-645e-4df0-b0a2-71e30d115a46"><orth>怨疾</orth><pron xml:lang="zh-Latn-x-pinyin">yuàn jí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jwonH dzit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qons dzid</pron></form><sense xml:id="uuid-ecf67ddd-ad22-415d-b67d-ddad22d15df4" resp="#zadrapa" tls:created="2021-02-27T03:47:29.537+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>resentment</def></sense></entry><entry type="word" xml:id="uuid-8653a0f7-fabc-4d23-93a0-f7fabc4d235a" resp="#zadrapa" tls:created="2022-06-15T20:08:24.197+09:00"><form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c #uuid-55262410-645e-4df0-b0a2-71e30d115a46"><orth>離疾</orth><pron xml:lang="zh-Latn-x-pinyin">lí jí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lje dzit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rel dzid</pron></form><sense xml:id="uuid-ff3f62f6-dc6c-402b-bf62-f6dc6c102b68" resp="#zadrapa" tls:created="2022-06-15T20:08:24.197+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>get estranged and resent</def></sense></entry><entry type="word" xml:id="uuid-e8e8e8fc-7584-4b3c-a8e8-fc75848b3cb5" resp="#zadrapa" tls:created="2022-06-16T04:20:21.384+09:00"><form corresp="#uuid-0f38d0bc-76d5-43d4-ac0e-3bb004f85980 #uuid-0f38d0bc-76d5-43d4-ac0e-3bb004f85980 #uuid-4794a71a-8096-4dc9-a55a-ac8708974d84"><orth>厲厲焉</orth><pron xml:lang="zh-Latn-x-pinyin">lì lì yān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljejH ljejH hjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rads b-rads ɢan</pron></form><sense xml:id="uuid-73dd2f7c-805c-4a18-9d2f-7c805cba180f" resp="#zadrapa" tls:created="2022-06-16T04:20:21.384+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>stative word that evokes the atmosphere of omnipresent hatred</def></sense></entry><entry type="word" xml:id="uuid-2c5830e5-e50b-432b-9830-e5e50b432b55" resp="#wilke" tls:created="2022-09-17T23:24:27.136+09:00"><form corresp="#uuid-a6703e1b-e636-4916-a523-807e4e1137c6"><orth>郤</orth><pron xml:lang="zh-Latn-x-pinyin">xì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjaek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khaɡ</pron></form><sense xml:id="uuid-6fe5b943-1d10-428e-a5b9-431d10428e62" resp="#wilke" tls:created="2022-09-17T23:24:27.136+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>rift; discord</def></sense></entry><entry type="word" xml:id="uuid-cf7739e0-0cbe-42af-b739-e00cbe62af02" resp="#dsehnal" tls:created="2023-05-13T14:45:07.425+09:00"><form corresp="#uuid-e77edc69-d1c1-4a2c-84bb-9bc48c3e045e #uuid-5b6bb7b0-ef5e-421d-96b8-90028205e458"><orth>怨府</orth><pron xml:lang="zh-Latn-x-pinyin">yuàn fǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jwonH pjuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qons poʔ</pron></form><sense xml:id="uuid-d10eaed7-5747-4739-8eae-d7574797394f" resp="#dsehnal" tls:created="2023-05-13T14:45:07.425+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-3cd53bce-7d20-4a3f-b072-4c632fc1a5f3">metaphorical</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-05-13T14:46:57.874+09:00">storehaus full of resentment; a place of concentrated resentment</def></sense></entry><entry type="word" xml:id="uuid-3c2d7e54-eee3-4273-ad7e-54eee3a27329" resp="#dsehnal" tls:created="2023-06-17T16:05:47.709+09:00"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-c4711853-e554-4934-bdf2-97e5b33fbc53"><orth>不喜</orth><pron xml:lang="zh-Latn-x-pinyin">bù xǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjut xiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ qhɯʔ</pron></form><sense xml:id="uuid-f6db256d-d671-44c4-9b25-6dd671f4c446" resp="#dsehnal" tls:created="2023-06-17T16:05:47.709+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-211a86f6-e519-4c87-9a86-f6e519bc87d0">VPt(0)oN</tls:syn-func></gramGrp><def>one hates N; all of us dislike N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-565d99a6-5e8a-4cb7-9d99-a65e8a1cb741" resp="#CH" tls:created="2020-05-03T21:15:34.249+09:00">
+            <form corresp="#uuid-fd9befdd-693e-4012-87bd-c2a36604f862 #uuid-6dbc44e0-4f81-4bcb-9240-5ebb8c40d3a6">
+                <orth>冤結</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuān jié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jwon ket</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qon kiid</pron>
+            </form>
+            <sense xml:id="uuid-b3d31b16-ff76-4a48-931b-16ff76fa48d1" resp="#CH" tls:created="2020-05-03T21:15:34.249+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>resentment at injustice suffered</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4aed817d-a26c-4153-ad81-7da26c915355" resp="#zadrapa" tls:created="2020-05-29T16:21:26.179+09:00">
+            <form corresp="#uuid-9981b499-e76d-4584-b00b-bca7ffd09161 #uuid-a7d5af4b-f927-4471-9d17-58a043f1fb06">
+                <orth>作惡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuò wù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsuH 'uH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsaaɡ qaaɡs</pron>
+            </form>
+            <sense xml:id="uuid-130f2bd5-2560-4e72-8f2b-d525603e7210" resp="#zadrapa" tls:created="2020-05-29T16:21:26.179+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>activity on the basis of one's personal dislikes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1ece4765-3fe7-4d05-8e47-653fe7dd05c2" resp="#zadrapa" tls:created="2020-06-11T18:15:55.245+09:00">
+            <form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-a7d5af4b-f927-4471-9d17-58a043f1fb06">
+                <orth>可惡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kě wù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaX 'uH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ qaaɡs</pron>
+            </form>
+            <sense xml:id="uuid-0d244cb5-7503-4371-a44c-b57503237145" resp="#zadrapa" tls:created="2020-06-11T18:15:55.245+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>detestability</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-821e410c-5f9e-4f5e-9e41-0c5f9e6f5eb9" resp="#zadrapa" tls:created="2021-02-27T03:47:29.537+09:00">
+            <form corresp="#uuid-e77edc69-d1c1-4a2c-84bb-9bc48c3e045e #uuid-55262410-645e-4df0-b0a2-71e30d115a46">
+                <orth>怨疾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuàn jí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jwonH dzit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qons dzid</pron>
+            </form>
+            <sense xml:id="uuid-ecf67ddd-ad22-415d-b67d-ddad22d15df4" resp="#zadrapa" tls:created="2021-02-27T03:47:29.537+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>resentment</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8653a0f7-fabc-4d23-93a0-f7fabc4d235a" resp="#zadrapa" tls:created="2022-06-15T20:08:24.197+09:00">
+            <form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c #uuid-55262410-645e-4df0-b0a2-71e30d115a46">
+                <orth>離疾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lí jí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lje dzit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rel dzid</pron>
+            </form>
+            <sense xml:id="uuid-ff3f62f6-dc6c-402b-bf62-f6dc6c102b68" resp="#zadrapa" tls:created="2022-06-15T20:08:24.197+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>get estranged and resent</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e8e8e8fc-7584-4b3c-a8e8-fc75848b3cb5" resp="#zadrapa" tls:created="2022-06-16T04:20:21.384+09:00">
+            <form corresp="#uuid-0f38d0bc-76d5-43d4-ac0e-3bb004f85980 #uuid-0f38d0bc-76d5-43d4-ac0e-3bb004f85980 #uuid-4794a71a-8096-4dc9-a55a-ac8708974d84">
+                <orth>厲厲焉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lì lì yān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljejH ljejH hjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-rads b-rads ɢan</pron>
+            </form>
+            <sense xml:id="uuid-73dd2f7c-805c-4a18-9d2f-7c805cba180f" resp="#zadrapa" tls:created="2022-06-16T04:20:21.384+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>stative word that evokes the atmosphere of omnipresent hatred</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2c5830e5-e50b-432b-9830-e5e50b432b55" resp="#wilke" tls:created="2022-09-17T23:24:27.136+09:00">
+            <form corresp="#uuid-a6703e1b-e636-4916-a523-807e4e1137c6">
+                <orth>郤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjaek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khaɡ</pron>
+            </form>
+            <sense xml:id="uuid-6fe5b943-1d10-428e-a5b9-431d10428e62" resp="#wilke" tls:created="2022-09-17T23:24:27.136+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>rift; discord</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cf7739e0-0cbe-42af-b739-e00cbe62af02" resp="#dsehnal" tls:created="2023-05-13T14:45:07.425+09:00">
+            <form corresp="#uuid-e77edc69-d1c1-4a2c-84bb-9bc48c3e045e #uuid-5b6bb7b0-ef5e-421d-96b8-90028205e458">
+                <orth>怨府</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuàn fǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jwonH pjuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qons poʔ</pron>
+            </form>
+            <sense xml:id="uuid-d10eaed7-5747-4739-8eae-d7574797394f" resp="#dsehnal" tls:created="2023-05-13T14:45:07.425+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3cd53bce-7d20-4a3f-b072-4c632fc1a5f3">metaphorical</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-05-13T14:46:57.874+09:00">storehaus full of resentment; a place of concentrated resentment</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3c2d7e54-eee3-4273-ad7e-54eee3a27329" resp="#dsehnal" tls:created="2023-06-17T16:05:47.709+09:00">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-c4711853-e554-4934-bdf2-97e5b33fbc53">
+                <orth>不喜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù xǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjut xiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ qhɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-f6db256d-d671-44c4-9b25-6dd671f4c446" resp="#dsehnal" tls:created="2023-06-17T16:05:47.709+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-211a86f6-e519-4c87-9a86-f6e519bc87d0">VPt(0)oN</tls:syn-func>
+                </gramGrp>
+                <def>one hates N; all of us dislike N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

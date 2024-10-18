@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a9fd2251-e044-4c8f-85c5-23950bfa7741">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a9fd2251-e044-4c8f-85c5-23950bfa7741">
 <head>SLEEP</head>
     <list type="altnames">
 <item>BE ASLEEP</item>
@@ -808,5 +809,42 @@
   <def>fall asleep</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-59423742-ccd8-493a-8237-42ccd8593a73"><form><orth>枕</orth><pron xml:lang="zh-Latn-x-pinyin">zhèn</pron></form><def/><sense xml:id="uuid-52d25fb6-2ef5-4558-925f-b62ef58558ac" resp="#twharbsmeier" tls:created="2020-06-28T17:03:42.865+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>sleep</def></sense></entry><entry type="word" xml:id="uuid-fe405ca4-a0cb-4c67-805c-a4a0cb2c67f6" resp="#CH" tls:created="2022-11-07T18:42:35.911+09:00"><form corresp="#uuid-1449f71e-9ea1-432c-abb1-f546d4c0b531"><orth>息</orth><pron xml:lang="zh-Latn-x-pinyin">xī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯɡ</pron></form><sense xml:id="uuid-5ebbe334-37ab-41e6-bbe3-3437abb1e6b7" resp="#CH" tls:created="2022-11-07T18:42:35.911+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>sleep (peacefully)</def></sense><sense xml:id="uuid-365be62e-2648-4992-9be6-2e26481992ba" resp="#CH" tls:created="2023-07-28T03:51:51.796+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>sleeping; resting in sleep</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-59423742-ccd8-493a-8237-42ccd8593a73">
+            <form>
+                <orth>枕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhèn</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-52d25fb6-2ef5-4558-925f-b62ef58558ac" resp="#twharbsmeier" tls:created="2020-06-28T17:03:42.865+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>sleep</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fe405ca4-a0cb-4c67-805c-a4a0cb2c67f6" resp="#CH" tls:created="2022-11-07T18:42:35.911+09:00">
+            <form corresp="#uuid-1449f71e-9ea1-432c-abb1-f546d4c0b531">
+                <orth>息</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-5ebbe334-37ab-41e6-bbe3-3437abb1e6b7" resp="#CH" tls:created="2022-11-07T18:42:35.911+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>sleep (peacefully)</def>
+            </sense>
+            <sense xml:id="uuid-365be62e-2648-4992-9be6-2e26481992ba" resp="#CH" tls:created="2023-07-28T03:51:51.796+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>sleeping; resting in sleep</def>
+            </sense>
+        </entry>
+    </div>
 </div>

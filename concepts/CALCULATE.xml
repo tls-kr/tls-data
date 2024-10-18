@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d6bcfb2f-af3b-49e2-9fce-98c0546bd1ab">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d6bcfb2f-af3b-49e2-9fce-98c0546bd1ab">
 <head>CALCULATE</head>
     <list type="altnames">
 <item>COMPUTE</item>
@@ -314,7 +315,23 @@
                 </gramGrp>
   <def>calculate precisely, assess properly, measure; contrast: liàng 量 a measure; a standard</def>
             </sense>
-<sense xml:id="uuid-7575568e-e7c3-4f76-b556-8ee7c33f761a" resp="#zadrapa" tls:created="2023-05-25T21:43:22.002+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>to be calculated, measured</def></sense><sense xml:id="uuid-2b1415a9-0173-43a1-9415-a9017323a102" resp="#dsehnal" tls:created="2024-01-28T04:09:41.624+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-97317e2f-40f5-4b48-b03c-6f0bca6b18cb">deverbal</tls:sem-feat></gramGrp><def>calculations; measuring (of quantity)</def></sense></entry>
+<sense xml:id="uuid-7575568e-e7c3-4f76-b556-8ee7c33f761a" resp="#zadrapa" tls:created="2023-05-25T21:43:22.002+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>to be calculated, measured</def>
+            </sense>
+            <sense xml:id="uuid-2b1415a9-0173-43a1-9415-a9017323a102" resp="#dsehnal" tls:created="2024-01-28T04:09:41.624+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-97317e2f-40f5-4b48-b03c-6f0bca6b18cb">deverbal</tls:sem-feat>
+                </gramGrp>
+                <def>calculations; measuring (of quantity)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-aeafacb5-4456-4963-9f03-e3493d869411">
             <form corresp="#uuid-04eb6ef8-1900-411e-bfda-c184a22ed4a3">
 <orth>開</orth>
@@ -425,7 +442,22 @@
                 </gramGrp>
   <def>(statistical) calculations (as part of a proper bureaucratic planning exercise)</def>
             </sense>
-<sense xml:id="uuid-9c6b388e-d95e-48b8-ab38-8ed95e58b8ad" resp="#zadrapa" tls:created="2022-05-22T04:44:00.433+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>excercise (statistical) calculations (as part of a proper bureaucratic planning exercise)</def></sense></entry>
+<sense xml:id="uuid-9c6b388e-d95e-48b8-ab38-8ed95e58b8ad" resp="#zadrapa" tls:created="2022-05-22T04:44:00.433+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>excercise (statistical) calculations (as part of a proper bureaucratic planning exercise)</def>
+            </sense>
+            <sense xml:id="uuid-b6d0b110-5cbb-4edd-90b1-105cbb7edd84" resp="#zadrapa" tls:created="2024-10-03T18:24:25.962+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f74acc63-f01d-46a4-8899-5aa19d83a756">NPab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-92a47e95-e66f-4bba-a47e-95e66ffbba0d">N=object</tls:sem-feat>
+                </gramGrp>
+                <def>calculations of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-edfc50dd-7a30-4a07-9cf2-d23c7cfd9889">
             <form corresp="#uuid-16d1de8c-ab29-489e-9326-4411df22a5bb #uuid-a211a17b-d531-4184-8e39-f53ea29c3361">
 <orth>計算</orth>
@@ -553,5 +585,20 @@
   <def>CHEMLA 2003:</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c9a4bb61-ec16-4eda-a4bb-61ec168edafa" resp="#dsehnal" tls:created="2021-05-06T01:48:54.161+09:00"><form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-50e36638-bac7-48f9-9325-b456f65c7d20"><orth>一轉</orth><pron xml:lang="zh-Latn-x-pinyin">yī zhuàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jit trjwenH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ tons</pron></form><sense xml:id="uuid-b6cd092b-0f1d-4a3e-8d09-2b0f1dfa3e82" resp="#dsehnal" tls:created="2021-05-06T01:48:54.161+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>perform one contextually determinate calculation</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c9a4bb61-ec16-4eda-a4bb-61ec168edafa" resp="#dsehnal" tls:created="2021-05-06T01:48:54.161+09:00">
+            <form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-50e36638-bac7-48f9-9325-b456f65c7d20">
+                <orth>一轉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī zhuàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jit trjwenH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ tons</pron>
+            </form>
+            <sense xml:id="uuid-b6cd092b-0f1d-4a3e-8d09-2b0f1dfa3e82" resp="#dsehnal" tls:created="2021-05-06T01:48:54.161+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>perform one contextually determinate calculation</def>
+            </sense>
+        </entry>
+    </div>
 </div>

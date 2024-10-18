@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-72833a4e-d1ec-471f-806c-64c1e3317aaf">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-72833a4e-d1ec-471f-806c-64c1e3317aaf">
 <head>ONLY</head>
     <list type="altnames">
 <item>AT MOST</item>
@@ -172,7 +173,15 @@
                 </gramGrp>
   <def>only the (preceding) subject</def>
             </sense>
-<sense xml:id="uuid-a43e20fb-371e-48b2-be20-fb371ec8b24c" resp="#CH" tls:created="2022-08-21T22:49:09.187+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-03e8fbe6-0e5e-4dd6-a308-9950812348d7">pad.VtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat></gramGrp><def>only the object</def></sense></entry>
+<sense xml:id="uuid-a43e20fb-371e-48b2-be20-fb371ec8b24c" resp="#CH" tls:created="2022-08-21T22:49:09.187+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-03e8fbe6-0e5e-4dd6-a308-9950812348d7">pad.VtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat>
+                </gramGrp>
+                <def>only the object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a3d673c3-27dc-4248-88dc-70f64f01307d">
             <form corresp="#uuid-4e058984-bc21-4be9-a8f3-15cf02946365">
 <orth>偏</orth>
@@ -259,7 +268,21 @@
                 </gramGrp>
   <def>to be; to be only (the object in question)</def>
             </sense>
-<sense xml:id="uuid-3e225614-1918-4f55-a256-141918ff55f7" resp="#CH" tls:created="2022-09-18T21:49:49.767+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-553fd5b8-d1c8-46d6-89e8-af5a78fa7474">vt+N{SUBJ}.+V{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2024-07-18T00:50:24.509+09:00">only N V-s</def></sense><sense xml:id="uuid-4791960d-28fc-4cbf-9196-0d28fcdcbf56" resp="#CH" tls:created="2024-02-20T04:02:12.988+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9bf0cb66-ea50-479c-b0cb-66ea50c79c4a">v[0]+N.+N{PRED}</tls:syn-func></gramGrp><def>it is only N that is the N{PRED}</def></sense></entry>
+<sense xml:id="uuid-3e225614-1918-4f55-a256-141918ff55f7" resp="#CH" tls:created="2022-09-18T21:49:49.767+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-553fd5b8-d1c8-46d6-89e8-af5a78fa7474">vt+N{SUBJ}.+V{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-07-18T00:50:24.509+09:00">only N V-s</def>
+            </sense>
+            <sense xml:id="uuid-4791960d-28fc-4cbf-9196-0d28fcdcbf56" resp="#CH" tls:created="2024-02-20T04:02:12.988+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9bf0cb66-ea50-479c-b0cb-66ea50c79c4a">v[0]+N.+N{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>it is only N that is the N{PRED}</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3d481ab6-f13e-4df1-b29b-3d309e7745f0">
             <form corresp="#uuid-da888da1-0d6e-4d5c-a711-60c1c713d85b">
 <orth>唯</orth>
@@ -390,7 +413,23 @@
                 </gramGrp>
   <def>only; just; merely　(negated as 非徒 rarely 不徒)</def>
             </sense>
-<sense xml:id="uuid-b25fdd96-8d49-454f-abe6-96e716ea92de" resp="#CH" tls:created="2020-02-12T00:09:08.634+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">padN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def> pointless</def></sense><sense xml:id="uuid-87b86e28-3628-4691-9743-4d4fe121f730" resp="#CH" tls:created="2020-02-12T00:47:48.219+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">padVtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat></gramGrp><def>only the object</def></sense></entry>
+<sense xml:id="uuid-b25fdd96-8d49-454f-abe6-96e716ea92de" resp="#CH" tls:created="2020-02-12T00:09:08.634+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">padN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def> pointless</def>
+            </sense>
+            <sense xml:id="uuid-87b86e28-3628-4691-9743-4d4fe121f730" resp="#CH" tls:created="2020-02-12T00:47:48.219+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">padVtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat>
+                </gramGrp>
+                <def>only the object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fd253ecf-144b-430c-ac29-803b5cb6d665">
             <form corresp="#uuid-6556964e-355c-4f58-93fa-31077a01ad93">
 <orth>止</orth>
@@ -595,7 +634,21 @@
                 <pron xml:lang="zh-x-oc">k-lul</pron>
                 <pron xml:lang="zh-x-mc">ji</pron>
             </form>
-<sense xml:id="uuid-ed945def-8d2d-41ac-945d-ef8d2d41ac5b" resp="#CH" tls:created="2022-11-27T23:06:05.226+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25270f92-78eb-4334-a1b2-61ee030801df">vtoN.adVt</tls:syn-func></gramGrp><def resp="#CH" updated="2022-11-27T23:31:38.229+09:00">維后稷轂用蒸"sacrifice to the ancestors only/exactly by the use of Hou Ji's grain": Vt only/exactly by the use of N</def></sense><sense xml:id="uuid-64b59e85-f492-4f68-b59e-85f4920f6802" resp="#CH" tls:created="2022-11-28T02:38:43.178+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>be only a case of</def></sense></entry>
+<sense xml:id="uuid-ed945def-8d2d-41ac-945d-ef8d2d41ac5b" resp="#CH" tls:created="2022-11-27T23:06:05.226+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25270f92-78eb-4334-a1b2-61ee030801df">vtoN.adVt</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-11-27T23:31:38.229+09:00">維后稷轂用蒸"sacrifice to the ancestors only/exactly by the use of Hou Ji's grain": Vt only/exactly by the use of N</def>
+            </sense>
+            <sense xml:id="uuid-64b59e85-f492-4f68-b59e-85f4920f6802" resp="#CH" tls:created="2022-11-28T02:38:43.178+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be only a case of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b56a467f-b9cf-461b-880a-eb680854c94c">
             <form corresp="#uuid-7c88fece-5607-45d0-8d33-133b97cc251d">
 <orth>耳</orth>
@@ -611,7 +664,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-26T01:48:02.166+09:00">and that is all, contraction of 而已 (quantifies over only the subject, sometimes the whole sentence preceding it, rarely only the object, rarely the whole verb phrase, and also rarely the main verb only. 阿almost never, apparently, the object in the VP only. </def>
             </sense>
-<sense xml:id="uuid-170a2049-59ff-4ca2-8a20-4959ff3ca2f8" resp="#CH" tls:created="2022-08-27T16:38:33.405+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def>only the object</def></sense></entry>
+<sense xml:id="uuid-170a2049-59ff-4ca2-8a20-4959ff3ca2f8" resp="#CH" tls:created="2022-08-27T16:38:33.405+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def>only the object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-538f6194-80e8-466c-83e0-5085f4b0d05b">
             <form corresp="#uuid-29018f54-1dad-4704-866c-1e76290c458b">
 <orth>適</orth>
@@ -641,7 +701,14 @@
                 </gramGrp>
   <def>only, just</def>
             </sense>
-<sense xml:id="uuid-187dea2b-3cbd-4557-bdea-2b3cbdb55723" resp="#CH" tls:created="2022-09-16T20:14:03.568+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>not exceed N, be only N in size/amount etc.</def></sense></entry>
+<sense xml:id="uuid-187dea2b-3cbd-4557-bdea-2b3cbdb55723" resp="#CH" tls:created="2022-09-16T20:14:03.568+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>not exceed N, be only N in size/amount etc.</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-41d1a4ba-b139-4ceb-9d12-fe8571d14052">
             <form corresp="#uuid-41c10702-1f3a-47e5-964c-af859bd6f708 #uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6">
 <orth>但知</orth>
@@ -749,5 +816,109 @@
   <def>only N V-s</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f837326b-471a-428f-af50-305bf8cde821" resp="#CH" tls:created="2020-01-01T20:40:03.569+09:00"><form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-da888da1-0d6e-4d5c-a711-60c1c713d85b"><orth>其唯</orth><pron xml:lang="zh-Latn-x-pinyin">qí wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gi ywij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ k-lul</pron></form><sense xml:id="uuid-dda34042-0ee2-4970-8ece-a3c04ff45147" resp="#CH" tls:created="2020-01-01T20:40:03.569+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt N{SUBJECT}</tls:syn-func></gramGrp><def>(presumably) only N is a case in point, only N is like this</def></sense></entry><entry type="word" xml:id="uuid-386fbea9-8170-474e-afbe-a98170374e4e"><form><orth>唯</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron></form><def/><sense xml:id="uuid-155eb3b0-262c-439b-9eb3-b0262c039b9c" resp="#zadrapa" tls:created="2020-06-03T03:37:55.447+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-f7bb1c1e-b863-4110-bb1c-1eb8630110f6">vt0oN{OBJ}.+V{PRED}</tls:syn-func></gramGrp><def>it is only N that the subject V-s</def></sense></entry><entry type="word" xml:id="uuid-7851c8db-cb99-4e51-91c8-dbcb990e515c" resp="#CH" tls:created="2021-02-26T01:59:46.162+09:00"><form corresp="#uuid-44ce0014-152d-4754-addd-cccc5e81e995"><orth>翅</orth><pron xml:lang="zh-Latn-x-pinyin">chì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjes</pron></form><sense xml:id="uuid-5d73cffd-65ec-4128-b3cf-fd65ecc1288a" resp="#CH" tls:created="2021-02-26T01:59:46.162+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp><def>=啻 only</def></sense></entry><entry type="word" xml:id="uuid-a8107d9e-02f6-46fa-907d-9e02f666fa84" resp="#zadrapa" tls:created="2021-05-19T04:30:14.102+09:00"><form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5 #uuid-529f8218-5e47-4e9b-b4ee-7bc9b8191f4c"><orth>然後</orth><pron xml:lang="zh-Latn-x-pinyin">rán hòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyen huwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njen ɡoos</pron></form><sense xml:id="uuid-5d4303c4-510e-4dae-8303-c4510e6dae79" resp="#zadrapa" tls:created="2021-05-19T04:30:14.102+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-e1a49f89-df63-44cb-b036-31ec7267e6ab">PPadV.postN{SUBJ}</tls:syn-func></gramGrp><def>it is only N that V-s</def></sense></entry><entry type="word" xml:id="uuid-da52ae6f-b39c-4bd7-92ae-6fb39c4bd72e" resp="#CH" tls:created="2022-09-18T03:35:12.113+09:00"><form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2"><orth>一</orth><pron xml:lang="zh-Latn-x-pinyin">yī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ</pron></form><sense xml:id="uuid-ba404391-cd44-48f2-8043-91cd4408f255" resp="#CH" tls:created="2022-09-18T03:35:12.113+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def resp="#CH" updated="2024-01-12T07:06:22.501+09:00">the one and only, only N</def></sense><sense xml:id="uuid-68768cc8-0127-42a6-b68c-c80127c2a68f" resp="#CH" tls:created="2024-01-05T19:53:03.988+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c577bded-6859-4762-8155-77361ad65040">v[adN]ad.VtoN</tls:syn-func><tls:sem-feat corresp="#uuid-33d89145-3a27-4033-9891-453a27103352">restrictive object quantifier</tls:sem-feat></gramGrp><def>as the only object 一成純　“achieves only purity"</def></sense><sense xml:id="uuid-9a8b30f1-08b8-406d-8b30-f108b8806d95" resp="#CH" tls:created="2024-01-15T20:32:17.065+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>only</def></sense></entry><entry type="word" xml:id="uuid-67f61079-24e9-4f0a-b610-7924e9ef0a57" resp="#zadrapa" tls:created="2023-05-23T18:54:00.265+09:00"><form corresp="#uuid-00e22256-d177-459e-bd67-efa461a8d045 #uuid-64319e04-3cc5-46d8-9ec3-87aeb293a479"><orth>非特</orth><pron xml:lang="zh-Latn-x-pinyin">fēi tè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pj+j dok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯl ɡ-lɯɯɡ</pron></form><sense xml:id="uuid-52e973b0-01e8-406f-a973-b001e8906f1e" resp="#zadrapa" tls:created="2023-05-23T18:54:00.265+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func></gramGrp><def>not only; not simply, not just</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f837326b-471a-428f-af50-305bf8cde821" resp="#CH" tls:created="2020-01-01T20:40:03.569+09:00">
+            <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-da888da1-0d6e-4d5c-a711-60c1c713d85b">
+                <orth>其唯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gi ywij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ k-lul</pron>
+            </form>
+            <sense xml:id="uuid-dda34042-0ee2-4970-8ece-a3c04ff45147" resp="#CH" tls:created="2020-01-01T20:40:03.569+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt N{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>(presumably) only N is a case in point, only N is like this</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-386fbea9-8170-474e-afbe-a98170374e4e">
+            <form>
+                <orth>唯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-155eb3b0-262c-439b-9eb3-b0262c039b9c" resp="#zadrapa" tls:created="2020-06-03T03:37:55.447+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-f7bb1c1e-b863-4110-bb1c-1eb8630110f6">vt0oN{OBJ}.+V{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>it is only N that the subject V-s</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7851c8db-cb99-4e51-91c8-dbcb990e515c" resp="#CH" tls:created="2021-02-26T01:59:46.162+09:00">
+            <form corresp="#uuid-44ce0014-152d-4754-addd-cccc5e81e995">
+                <orth>翅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhjes</pron>
+            </form>
+            <sense xml:id="uuid-5d73cffd-65ec-4128-b3cf-fd65ecc1288a" resp="#CH" tls:created="2021-02-26T01:59:46.162+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def>=啻 only</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a8107d9e-02f6-46fa-907d-9e02f666fa84" resp="#zadrapa" tls:created="2021-05-19T04:30:14.102+09:00">
+            <form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5 #uuid-529f8218-5e47-4e9b-b4ee-7bc9b8191f4c">
+                <orth>然後</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rán hòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyen huwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njen ɡoos</pron>
+            </form>
+            <sense xml:id="uuid-5d4303c4-510e-4dae-8303-c4510e6dae79" resp="#zadrapa" tls:created="2021-05-19T04:30:14.102+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-e1a49f89-df63-44cb-b036-31ec7267e6ab">PPadV.postN{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def>it is only N that V-s</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-da52ae6f-b39c-4bd7-92ae-6fb39c4bd72e" resp="#CH" tls:created="2022-09-18T03:35:12.113+09:00">
+            <form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2">
+                <orth>一</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ</pron>
+            </form>
+            <sense xml:id="uuid-ba404391-cd44-48f2-8043-91cd4408f255" resp="#CH" tls:created="2022-09-18T03:35:12.113+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-01-12T07:06:22.501+09:00">the one and only, only N</def>
+            </sense>
+            <sense xml:id="uuid-68768cc8-0127-42a6-b68c-c80127c2a68f" resp="#CH" tls:created="2024-01-05T19:53:03.988+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c577bded-6859-4762-8155-77361ad65040">v[adN]ad.VtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-33d89145-3a27-4033-9891-453a27103352">restrictive object quantifier</tls:sem-feat>
+                </gramGrp>
+                <def>as the only object 一成純　“achieves only purity"</def>
+            </sense>
+            <sense xml:id="uuid-9a8b30f1-08b8-406d-8b30-f108b8806d95" resp="#CH" tls:created="2024-01-15T20:32:17.065+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>only</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-67f61079-24e9-4f0a-b610-7924e9ef0a57" resp="#zadrapa" tls:created="2023-05-23T18:54:00.265+09:00">
+            <form corresp="#uuid-00e22256-d177-459e-bd67-efa461a8d045 #uuid-64319e04-3cc5-46d8-9ec3-87aeb293a479">
+                <orth>非特</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fēi tè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pj+j dok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯl ɡ-lɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-52e973b0-01e8-406f-a973-b001e8906f1e" resp="#zadrapa" tls:created="2023-05-23T18:54:00.265+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+                <def>not only; not simply, not just</def>
+            </sense>
+        </entry>
+    </div>
 </div>

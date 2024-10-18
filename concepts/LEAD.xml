@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-70cd50b6-aa7d-4ffd-b4d1-55dfc2b46d02">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-70cd50b6-aa7d-4ffd-b4d1-55dfc2b46d02">
 <head>LEAD</head>
     <list type="altnames">
 <item>GUIDE</item>
@@ -231,7 +232,14 @@
                 </gramGrp>
   <def>be in charge of (of oneself)</def>
             </sense>
-<sense xml:id="uuid-3861c4a7-2b7c-46be-a1c4-a72b7c06be6e" resp="#CH" tls:created="2022-11-19T23:07:27.241+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2022-11-20T00:23:43.472+09:00">be in charge of</def></sense></entry>
+<sense xml:id="uuid-3861c4a7-2b7c-46be-a1c4-a72b7c06be6e" resp="#CH" tls:created="2022-11-19T23:07:27.241+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-11-20T00:23:43.472+09:00">be in charge of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-64ff411c-5d5d-4b3e-9333-fa37e05e7ace">
             <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
 <orth>人</orth>
@@ -511,7 +519,29 @@
                 </gramGrp>
   <def>lead</def>
             </sense>
-<sense xml:id="uuid-3bd79fb3-3829-4720-a3e4-25ed2d29d635" resp="#CH" tls:created="2019-12-12T05:22:44.612+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-0848f9ca-69f1-4e8a-8560-214fa1aaf1d8">object=nonhu</tls:sem-feat></gramGrp><def>guide along</def></sense><sense xml:id="uuid-52736bc4-61a0-42eb-b36b-c461a022ebc2" resp="#zadrapa" tls:created="2020-12-21T18:18:01.491+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>guide N, provide one's guidance to N</def></sense><sense xml:id="uuid-5a89acba-b2c3-4c48-89ac-bab2c3fc48fb" resp="#CH" tls:created="2021-02-09T01:00:37.742+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>guide the understood object N along</def></sense></entry>
+<sense xml:id="uuid-3bd79fb3-3829-4720-a3e4-25ed2d29d635" resp="#CH" tls:created="2019-12-12T05:22:44.612+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0848f9ca-69f1-4e8a-8560-214fa1aaf1d8">object=nonhu</tls:sem-feat>
+                </gramGrp>
+                <def>guide along</def>
+            </sense>
+            <sense xml:id="uuid-52736bc4-61a0-42eb-b36b-c461a022ebc2" resp="#zadrapa" tls:created="2020-12-21T18:18:01.491+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>guide N, provide one's guidance to N</def>
+            </sense>
+            <sense xml:id="uuid-5a89acba-b2c3-4c48-89ac-bab2c3fc48fb" resp="#CH" tls:created="2021-02-09T01:00:37.742+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>guide the understood object N along</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b8e48df1-5a7d-4dbf-9c9f-b1880fa82d51">
             <form corresp="#uuid-84ca9a9b-3ef8-469a-acff-d46cb50e55db">
 <orth>帥</orth>
@@ -677,7 +707,15 @@
                 </gramGrp>
   <def>lead somebody to a place</def>
             </sense>
-<sense xml:id="uuid-ce2db3cc-15c9-4a96-adb3-cc15c98a966e" resp="#dsehnal" tls:created="2023-07-01T22:05:26.246+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-afef2909-dae0-4c82-af29-09dae0bc8291">vtt(oN1).+vtoN2</tls:syn-func><tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat></gramGrp><def>lead the contextually determinate N1 to the place N2</def></sense></entry>
+<sense xml:id="uuid-ce2db3cc-15c9-4a96-adb3-cc15c98a966e" resp="#dsehnal" tls:created="2023-07-01T22:05:26.246+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-afef2909-dae0-4c82-af29-09dae0bc8291">vtt(oN1).+vtoN2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-64680f0a-c653-46cb-820e-3f4936ff0225">N2=place</tls:sem-feat>
+                </gramGrp>
+                <def>lead the contextually determinate N1 to the place N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2c3371c2-84d2-4cff-9792-4212a6e45560">
             <form corresp="#uuid-17b77d1a-7753-453a-b3f3-c3a9a4139c7a">
 <orth>戾</orth>
@@ -889,7 +927,14 @@
                 </gramGrp>
   <def>leading</def>
             </sense>
-<sense xml:id="uuid-3bf2cd9b-6761-4165-b128-4d327fee453a" resp="#CH" tls:created="2019-12-03T19:18:44.794+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def>be in the lead, be dominant</def></sense></entry>
+<sense xml:id="uuid-3bf2cd9b-6761-4165-b128-4d327fee453a" resp="#CH" tls:created="2019-12-03T19:18:44.794+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def>be in the lead, be dominant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b36c0d0f-0e8d-46c5-b37d-cbb67fcc07dd">
             <form corresp="#uuid-1e29b092-b705-4b39-8ea8-72da0016501d">
 <orth>領</orth>
@@ -1239,9 +1284,137 @@
                 </gramGrp>
   <def>lead</def>
             </sense>
-<sense xml:id="uuid-6319ee11-b971-437d-99ee-11b971437d67" resp="#CH" tls:created="2022-09-15T00:04:41.3+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>the vanguard</def></sense></entry>
-    <entry type="word" xml:id="uuid-f2531023-3138-48f7-af81-b02bbc89df36" resp="#CH" tls:created="2019-10-17T18:41:10.184+09:00"><form corresp="#uuid-f7792e89-6029-42e2-999d-b6f8cf133e7c #uuid-70d3109a-0274-4314-b806-31b7e45be6a6"><orth>提攜</orth><pron xml:lang="zh-Latn-x-pinyin">tí xié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- hwej</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-lee ɡʷlee</pron></form><sense xml:id="uuid-395c7efb-e9e6-4ed4-9a41-3e39dfd9064c" resp="#CH" tls:created="2019-10-17T18:41:10.184+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>lead along by the hand, supporting physically</def></sense></entry><entry type="word" xml:id="uuid-243631dd-723f-4250-a720-623c8ee935cc" resp="#CH" tls:created="2019-11-06T17:34:08.845+09:00"><form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9 #uuid-b20a26b1-8eef-484a-9af4-448ce9d781c4"><orth>先引</orth><pron xml:lang="zh-Latn-x-pinyin">xiān yǐn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sen yinX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn liŋʔ</pron></form><sense xml:id="uuid-8361aea5-5f42-4e44-a75e-76a1f7a5fc49" resp="#CH" tls:created="2019-11-06T17:34:08.845+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>lead each other along</def></sense></entry><entry type="word" xml:id="uuid-4f6bfc0f-42ca-465e-abfc-0f42ca465e38" resp="#CH" tls:created="2020-02-24T08:30:26.293+09:00"><form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-64f3232a-4076-45ea-889b-9704df07af94"><orth>三老</orth><pron xml:lang="zh-Latn-x-pinyin">sān lǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sam lawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam ɡ-ruuʔ</pron></form></entry><entry type="word" xml:id="uuid-4a668f52-14b5-406a-a68f-5214b5e06a1f" resp="#CH" tls:created="2020-02-24T22:12:34.994+09:00"><form corresp="#uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2 #uuid-6b22adba-f541-40fe-8994-ffb7e9450096"><orth>里正</orth><pron xml:lang="zh-Latn-x-pinyin">lǐ zhēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">liX tsyeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ tjeŋ</pron></form></entry><entry type="word" xml:id="uuid-caff292a-8bf8-4cc7-bf29-2a8bf84cc7a9" resp="#CH" tls:created="2020-02-24T22:12:54.05+09:00"><form corresp="#uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2 #uuid-c999ab91-bd63-4c68-8ac7-a4806975fe85"><orth>里正</orth><pron xml:lang="zh-Latn-x-pinyin">lǐ zhèng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">liX tsyengH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ tjeŋs
-</pron></form><sense xml:id="uuid-3424e0ea-5eb9-428f-a4e0-ea5eb9228fd1" resp="#CH" tls:created="2020-02-24T22:12:54.05+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>leader of a hamlet, locally chosen (not publicly appointed by the state administration) </def></sense></entry><entry type="word" xml:id="uuid-efd731ef-f85a-4e9b-9731-eff85aee9b09" resp="#CH" tls:created="2020-02-24T22:14:58.199+09:00"><form corresp="#uuid-1864314e-bd92-40b9-9ebb-213709f8951a #uuid-64f3232a-4076-45ea-889b-9704df07af94"><orth>伍老</orth><pron xml:lang="zh-Latn-x-pinyin">wǔ lǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nguX lawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ ɡ-ruuʔ</pron></form><sense xml:id="uuid-d764090a-152d-429e-a409-0a152de29e9f" resp="#CH" tls:created="2020-02-24T22:14:58.199+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>local leader of a small group of families (locally chosen, not government appointed)</def></sense></entry><entry type="word" xml:id="uuid-c6982979-0d43-4e09-9829-790d435e0953"><form><orth>唱</orth><pron xml:lang="zh-Latn-x-pinyin">chàng</pron></form><def/><sense xml:id="uuid-a0eee173-24f3-4935-aee1-7324f3d93576" resp="#zadrapa" tls:created="2021-01-15T05:50:11.609+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>set the tune for N &gt; lead the way in N</def></sense></entry><entry type="word" xml:id="uuid-b2f79a16-ae65-40e6-b79a-16ae65e0e627" resp="#CH" tls:created="2021-07-12T20:53:38.756+09:00"><form corresp="#uuid-ccc06c27-243d-4176-b6ab-794158e9483c"><orth>總</orth><pron xml:lang="zh-Latn-x-pinyin">zǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skooŋʔ</pron></form><sense xml:id="uuid-de58a7c4-7455-46f7-98a7-c4745536f765" resp="#CH" tls:created="2021-07-12T20:53:38.756+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>leading</def></sense></entry><entry type="word" xml:id="uuid-6e37c6ca-1cee-4463-b7c6-ca1cee6463bd" resp="#zadrapa" tls:created="2022-06-16T04:15:34.678+09:00"><form corresp="#uuid-d7832559-b8fb-4adf-81cf-25c69363a2e8 #uuid-124014fa-5c9d-4ac6-826e-51e69c5c0167"><orth>率貫</orth><pron xml:lang="zh-Latn-x-pinyin">shuài guān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">srwit kwan</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">srud koon</pron></form><sense xml:id="uuid-d9515f79-8e4e-4dfc-915f-798e4ecdfc34" resp="#zadrapa" tls:created="2022-06-16T04:15:34.678+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>lead</def></sense></entry></div>
+<sense xml:id="uuid-6319ee11-b971-437d-99ee-11b971437d67" resp="#CH" tls:created="2022-09-15T00:04:41.3+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>the vanguard</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-f2531023-3138-48f7-af81-b02bbc89df36" resp="#CH" tls:created="2019-10-17T18:41:10.184+09:00">
+            <form corresp="#uuid-f7792e89-6029-42e2-999d-b6f8cf133e7c #uuid-70d3109a-0274-4314-b806-31b7e45be6a6">
+                <orth>提攜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tí xié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- hwej</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-lee ɡʷlee</pron>
+            </form>
+            <sense xml:id="uuid-395c7efb-e9e6-4ed4-9a41-3e39dfd9064c" resp="#CH" tls:created="2019-10-17T18:41:10.184+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>lead along by the hand, supporting physically</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-243631dd-723f-4250-a720-623c8ee935cc" resp="#CH" tls:created="2019-11-06T17:34:08.845+09:00">
+            <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9 #uuid-b20a26b1-8eef-484a-9af4-448ce9d781c4">
+                <orth>先引</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān yǐn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sen yinX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn liŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-8361aea5-5f42-4e44-a75e-76a1f7a5fc49" resp="#CH" tls:created="2019-11-06T17:34:08.845+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>lead each other along</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4f6bfc0f-42ca-465e-abfc-0f42ca465e38" resp="#CH" tls:created="2020-02-24T08:30:26.293+09:00">
+            <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-64f3232a-4076-45ea-889b-9704df07af94">
+                <orth>三老</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sān lǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sam lawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam ɡ-ruuʔ</pron>
+            </form>
+        </entry>
+        <entry type="word" xml:id="uuid-4a668f52-14b5-406a-a68f-5214b5e06a1f" resp="#CH" tls:created="2020-02-24T22:12:34.994+09:00">
+            <form corresp="#uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2 #uuid-6b22adba-f541-40fe-8994-ffb7e9450096">
+                <orth>里正</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǐ zhēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">liX tsyeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ tjeŋ</pron>
+            </form>
+        </entry>
+        <entry type="word" xml:id="uuid-caff292a-8bf8-4cc7-bf29-2a8bf84cc7a9" resp="#CH" tls:created="2020-02-24T22:12:54.05+09:00">
+            <form corresp="#uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2 #uuid-c999ab91-bd63-4c68-8ac7-a4806975fe85">
+                <orth>里正</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǐ zhèng
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">liX tsyengH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ tjeŋs
+</pron>
+            </form>
+            <sense xml:id="uuid-3424e0ea-5eb9-428f-a4e0-ea5eb9228fd1" resp="#CH" tls:created="2020-02-24T22:12:54.05+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>leader of a hamlet, locally chosen (not publicly appointed by the state administration) </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-efd731ef-f85a-4e9b-9731-eff85aee9b09" resp="#CH" tls:created="2020-02-24T22:14:58.199+09:00">
+            <form corresp="#uuid-1864314e-bd92-40b9-9ebb-213709f8951a #uuid-64f3232a-4076-45ea-889b-9704df07af94">
+                <orth>伍老</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǔ lǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nguX lawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ ɡ-ruuʔ</pron>
+            </form>
+            <sense xml:id="uuid-d764090a-152d-429e-a409-0a152de29e9f" resp="#CH" tls:created="2020-02-24T22:14:58.199+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>local leader of a small group of families (locally chosen, not government appointed)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c6982979-0d43-4e09-9829-790d435e0953">
+            <form>
+                <orth>唱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chàng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-a0eee173-24f3-4935-aee1-7324f3d93576" resp="#zadrapa" tls:created="2021-01-15T05:50:11.609+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>set the tune for N &gt; lead the way in N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b2f79a16-ae65-40e6-b79a-16ae65e0e627" resp="#CH" tls:created="2021-07-12T20:53:38.756+09:00">
+            <form corresp="#uuid-ccc06c27-243d-4176-b6ab-794158e9483c">
+                <orth>總</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skooŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-de58a7c4-7455-46f7-98a7-c4745536f765" resp="#CH" tls:created="2021-07-12T20:53:38.756+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>leading</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6e37c6ca-1cee-4463-b7c6-ca1cee6463bd" resp="#zadrapa" tls:created="2022-06-16T04:15:34.678+09:00">
+            <form corresp="#uuid-d7832559-b8fb-4adf-81cf-25c69363a2e8 #uuid-124014fa-5c9d-4ac6-826e-51e69c5c0167">
+                <orth>率貫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuài guān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srwit kwan</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">srud koon</pron>
+            </form>
+            <sense xml:id="uuid-d9515f79-8e4e-4dfc-915f-798e4ecdfc34" resp="#zadrapa" tls:created="2022-06-16T04:15:34.678+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>lead</def>
+            </sense>
+        </entry>
+    </div>
 </div>

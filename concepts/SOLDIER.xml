@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e83e8799-6130-475b-92a5-924e740a449e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e83e8799-6130-475b-92a5-924e740a449e">
 <head>SOLDIER</head>
     <list type="altnames">
 <item>FIGHTER</item>
@@ -250,7 +251,14 @@
                 </gramGrp>
   <def>troops; foot-soldier, ordinary infantry soldier 一卒</def>
             </sense>
-<sense xml:id="uuid-69766195-a098-44dc-b661-95a098a4dcb1" resp="#dsehnal" tls:created="2023-12-03T23:10:20.978+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>one's soldier</def></sense></entry>
+<sense xml:id="uuid-69766195-a098-44dc-b661-95a098a4dcb1" resp="#dsehnal" tls:created="2023-12-03T23:10:20.978+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>one's soldier</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-41cab71a-5df8-4f71-8f81-96536940f038">
             <form corresp="#uuid-2681e56e-ff78-4a69-8d0e-b83326d26f1b">
 <orth>和</orth>
@@ -301,7 +309,14 @@
                 </gramGrp>
   <def>officer on a war chariot who is protected by shield and helmet</def>
             </sense>
-<sense xml:id="uuid-a06b06af-c462-456a-ab06-afc462656a21" resp="#CH" tls:created="2020-05-31T01:30:09.739+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>one's officers</def></sense></entry>
+<sense xml:id="uuid-a06b06af-c462-456a-ab06-afc462656a21" resp="#CH" tls:created="2020-05-31T01:30:09.739+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>one's officers</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a58ff52d-acda-4e67-bfc6-fb99563fbf56">
             <form corresp="#uuid-f5e509df-4b10-42ea-a032-1babfdee10f1">
 <orth>弩</orth>
@@ -993,5 +1008,96 @@
   <def>soldier</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d10a4ec1-53b3-460c-b492-54fbf541a939" resp="#dsehnal" tls:created="2019-12-05T21:51:45.213+09:00"><form corresp="#uuid-06f922ee-fb6e-4b31-b922-eefb6eeb3111 #uuid-a5522b17-1934-45f4-b25b-78eba5fe732b #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e"><orth>被甲之士</orth><pron xml:lang="zh-Latn-x-pinyin">pī jiǎ zhī shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- kaep tsyi dzriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- kraab kljɯ dzrɯʔ</pron></form><sense xml:id="uuid-49f6853b-ec27-4a57-bd94-615bf1282d57" resp="#dsehnal" tls:created="2019-12-05T21:51:45.213+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>(his) soldier wearing armour  </def></sense></entry><entry type="word" xml:id="uuid-fbee2937-13f1-46cb-ae29-3713f126cb63" resp="#dsehnal" tls:created="2020-05-02T23:00:31.958+09:00"><form corresp="#uuid-0b8dea74-8a9e-4899-b1a2-38988a4d58dc #uuid-a5522b17-1934-45f4-b25b-78eba5fe732b"><orth>伏甲</orth><pron xml:lang="zh-Latn-x-pinyin">fú jiǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjuwk kaep</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯɡ kraab</pron></form><sense xml:id="uuid-84f8d1a4-b3ea-45e9-b8d1-a4b3eab5e9a1" resp="#dsehnal" tls:created="2020-05-02T23:00:31.958+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>hidden heavy armoured soldiers</def></sense></entry><entry type="word" xml:id="uuid-8882c357-e0c0-41db-82c3-57e0c051db3f" resp="#CH" tls:created="2021-05-13T17:27:47.914+09:00"><form corresp="#uuid-96e5a3df-5a17-4428-a4f3-c4d97bbc9e8c #uuid-722c8aca-9859-4f59-994f-de930870deb7"><orth>卒徒</orth><pron xml:lang="zh-Latn-x-pinyin">zú tú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tswit du</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skuud daa</pron></form><sense xml:id="uuid-687e2c10-c4c6-495b-be2c-10c4c6695bfc" resp="#CH" tls:created="2021-05-13T17:27:47.914+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>armed guard</def></sense></entry><entry type="word" xml:id="uuid-82f361e2-21e7-431e-b361-e221e7e31e06" resp="#zadrapa" tls:created="2022-06-15T19:51:46.049+09:00"><form corresp="#uuid-051dd32e-5290-47d8-8eeb-b1facd5c1021 #uuid-f07d360d-d40a-4593-9be2-76fc6228c1c8"><orth>爪牙</orth><pron xml:lang="zh-Latn-x-pinyin">zhǎo yá</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsraewX ngae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- ŋɡraa</pron></form><sense xml:id="uuid-581dd72a-cc9e-4b73-9dd7-2acc9e1b739a" resp="#zadrapa" tls:created="2022-06-15T19:51:46.049+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>elite soldier</def></sense></entry><entry type="word" xml:id="uuid-40d07d0e-0a03-4ab5-907d-0e0a037ab545" resp="#CH" tls:created="2022-07-31T17:42:11.882+09:00"><form corresp="#uuid-29018f54-1dad-4704-866c-1e76290c458b #uuid-31c0078a-c07b-4d1a-8c16-c8ba17d6c7a6"><orth>適戍</orth><pron xml:lang="zh-Latn-x-pinyin">shì shù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syek syuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qljeɡ qhjos</pron></form><sense xml:id="uuid-9bc9d204-4cf5-4a9b-89d2-044cf59a9b68" resp="#CH" tls:created="2022-07-31T17:42:11.882+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>border guards</def></sense></entry><entry type="word" xml:id="uuid-24a73b7f-0a2b-4af9-a73b-7f0a2b4af930" resp="#dsehnal" tls:created="2023-12-18T01:28:05.434+09:00"><form corresp="#uuid-1c1668c0-30e4-440b-b740-bd4a36b94699 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e"><orth>軍士</orth><pron xml:lang="zh-Latn-x-pinyin">jūn shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjun dzriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kun dzrɯʔ</pron></form><sense xml:id="uuid-6fca1a2e-c34c-4cc0-8a1a-2ec34c7cc04d" resp="#dsehnal" tls:created="2023-12-18T01:28:05.434+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>soldiers</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d10a4ec1-53b3-460c-b492-54fbf541a939" resp="#dsehnal" tls:created="2019-12-05T21:51:45.213+09:00">
+            <form corresp="#uuid-06f922ee-fb6e-4b31-b922-eefb6eeb3111 #uuid-a5522b17-1934-45f4-b25b-78eba5fe732b #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
+                <orth>被甲之士</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pī jiǎ zhī shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- kaep tsyi dzriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- kraab kljɯ dzrɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-49f6853b-ec27-4a57-bd94-615bf1282d57" resp="#dsehnal" tls:created="2019-12-05T21:51:45.213+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>(his) soldier wearing armour  </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fbee2937-13f1-46cb-ae29-3713f126cb63" resp="#dsehnal" tls:created="2020-05-02T23:00:31.958+09:00">
+            <form corresp="#uuid-0b8dea74-8a9e-4899-b1a2-38988a4d58dc #uuid-a5522b17-1934-45f4-b25b-78eba5fe732b">
+                <orth>伏甲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú jiǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjuwk kaep</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯɡ kraab</pron>
+            </form>
+            <sense xml:id="uuid-84f8d1a4-b3ea-45e9-b8d1-a4b3eab5e9a1" resp="#dsehnal" tls:created="2020-05-02T23:00:31.958+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>hidden heavy armoured soldiers</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8882c357-e0c0-41db-82c3-57e0c051db3f" resp="#CH" tls:created="2021-05-13T17:27:47.914+09:00">
+            <form corresp="#uuid-96e5a3df-5a17-4428-a4f3-c4d97bbc9e8c #uuid-722c8aca-9859-4f59-994f-de930870deb7">
+                <orth>卒徒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zú tú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tswit du</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skuud daa</pron>
+            </form>
+            <sense xml:id="uuid-687e2c10-c4c6-495b-be2c-10c4c6695bfc" resp="#CH" tls:created="2021-05-13T17:27:47.914+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>armed guard</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-82f361e2-21e7-431e-b361-e221e7e31e06" resp="#zadrapa" tls:created="2022-06-15T19:51:46.049+09:00">
+            <form corresp="#uuid-051dd32e-5290-47d8-8eeb-b1facd5c1021 #uuid-f07d360d-d40a-4593-9be2-76fc6228c1c8">
+                <orth>爪牙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǎo yá</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsraewX ngae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- ŋɡraa</pron>
+            </form>
+            <sense xml:id="uuid-581dd72a-cc9e-4b73-9dd7-2acc9e1b739a" resp="#zadrapa" tls:created="2022-06-15T19:51:46.049+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>elite soldier</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-40d07d0e-0a03-4ab5-907d-0e0a037ab545" resp="#CH" tls:created="2022-07-31T17:42:11.882+09:00">
+            <form corresp="#uuid-29018f54-1dad-4704-866c-1e76290c458b #uuid-31c0078a-c07b-4d1a-8c16-c8ba17d6c7a6">
+                <orth>適戍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shì shù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syek syuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qljeɡ qhjos</pron>
+            </form>
+            <sense xml:id="uuid-9bc9d204-4cf5-4a9b-89d2-044cf59a9b68" resp="#CH" tls:created="2022-07-31T17:42:11.882+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>border guards</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-24a73b7f-0a2b-4af9-a73b-7f0a2b4af930" resp="#dsehnal" tls:created="2023-12-18T01:28:05.434+09:00">
+            <form corresp="#uuid-1c1668c0-30e4-440b-b740-bd4a36b94699 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
+                <orth>軍士</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jūn shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjun dzriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kun dzrɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-6fca1a2e-c34c-4cc0-8a1a-2ec34c7cc04d" resp="#dsehnal" tls:created="2023-12-18T01:28:05.434+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>soldiers</def>
+            </sense>
+        </entry>
+    </div>
 </div>

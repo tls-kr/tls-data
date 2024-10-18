@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2dd10736-3bd5-4c17-98b2-985a8bb88994">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2dd10736-3bd5-4c17-98b2-985a8bb88994">
 <head>ALSO</head>
     <list type="altnames">
 <item>MOREOVER</item>
@@ -18,7 +19,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-11-06T19:15:12.623+09:00">ADDING SOMETHING to what has ALREADY been SAID OR been REFERRED TO. </p></div>
+    <p resp="#CH" modified="2020-11-06T19:15:12.623+09:00">ADDING SOMETHING to what has ALREADY been SAID OR been REFERRED TO. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[OBJECT-SCOPE/PREDICATE-SCOPE/SUBJECT-SCOPE]</p>
@@ -200,7 +202,8 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-de56e4a3-4283-4e36-92c2-96df86897260">padV.postN{SUBJ}:postS</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-eaf9491b-dfa1-4661-b949-1bdfa176616a">scope: subject</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-eaf9491b-dfa1-4661-b949-1bdfa176616a">scope: subject</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-02-26T00:59:56.062+09:00">the subject likewise; also the subject</def>
             </sense>
 <sense xml:id="uuid-64af31b8-2dcd-4c48-8268-d01f4336c92f">
@@ -220,14 +223,29 @@
                 </gramGrp>
   <def>likewise, also (sometimes with omitted antecedent, as in 盜亦有道乎？)</def>
             </sense>
-<sense xml:id="uuid-74930461-841f-4ef8-b0e4-5851d9cfab95" resp="#CH" tls:created="2020-02-10T18:10:28.334+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-d4e1570d-69fc-493c-b2ec-d1f0f5b56e05">padS1.post-S2:postS3</tls:syn-func></gramGrp><def>if S2, S1 likewise holds , as in S3</def></sense><sense xml:id="uuid-57476f87-6948-41a4-876f-876948b1a42d" resp="#zadrapa" tls:created="2020-05-25T19:36:05.536+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-d4e1570d-69fc-493c-b2ec-d1f0f5b56e05">padS1.post-S2</tls:syn-func></gramGrp><def resp="#CH" updated="2024-02-14T04:54:32.097+09:00">likewise, also, as under the circumstances specified in S2</def></sense><sense xml:id="uuid-d9d12d51-0bfa-4aea-a584-50f1b66fcbd7">
+<sense xml:id="uuid-74930461-841f-4ef8-b0e4-5851d9cfab95" resp="#CH" tls:created="2020-02-10T18:10:28.334+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-d4e1570d-69fc-493c-b2ec-d1f0f5b56e05">padS1.post-S2:postS3</tls:syn-func>
+                </gramGrp>
+                <def>if S2, S1 likewise holds , as in S3</def>
+            </sense>
+            <sense xml:id="uuid-57476f87-6948-41a4-876f-876948b1a42d" resp="#zadrapa" tls:created="2020-05-25T19:36:05.536+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-d4e1570d-69fc-493c-b2ec-d1f0f5b56e05">padS1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-14T04:54:32.097+09:00">likewise, also, as under the circumstances specified in S2</def>
+            </sense>
+            <sense xml:id="uuid-d9d12d51-0bfa-4aea-a584-50f1b66fcbd7">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
   <tls:sem-feat corresp="#uuid-d82256cd-a1c1-4a58-b15f-615a92237386">question</tls:sem-feat>
                 </gramGrp>
   <def>And N 亦如何 "and how is N"</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-edd41367-fb51-41e8-89af-682f171856f0">
             <form corresp="#uuid-56a38616-10e8-4eea-8f2c-e45726be1d59">
 <orth>兼</orth>
@@ -268,7 +286,8 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-925d397f-870d-467f-a70b-09317a5160ae">padV.post-S</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-1f3bba21-cdd9-41c6-bbba-21cdd991c65e">ref=predicate</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-1f3bba21-cdd9-41c6-bbba-21cdd991c65e">ref=predicate</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-02-25T23:05:39.214+09:00">also the predicate </def>
             </sense>
 
@@ -287,7 +306,23 @@
                 </gramGrp>
   <def>also the object N</def>
             </sense>
-<sense xml:id="uuid-44fddd1c-eaf5-4383-bddd-1ceaf5d383fa" resp="#CH" tls:created="2020-04-07T21:00:02.475+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-6899efc6-e965-4176-885a-931fe5b1c8c8">padS1.postS2</tls:syn-func><tls:sem-feat corresp="#uuid-03d40aba-0460-467e-a915-123812b348a5">contrastive</tls:sem-feat></gramGrp><def>but also; but there again</def></sense><sense xml:id="uuid-6b625c44-0772-44ea-a25c-440772e4ea2c" resp="#zadrapa" tls:created="2020-06-23T16:11:18.728+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-f6980e39-6a66-40ea-899f-95eaf0384097">padV.postN{SUBJ}:post-S</tls:syn-func><tls:sem-feat corresp="#uuid-d579c8ae-df31-4e0c-941f-27b2e0b784f9">reference=subject</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-25T23:02:54.342+09:00">also the subject</def></sense></entry>
+<sense xml:id="uuid-44fddd1c-eaf5-4383-bddd-1ceaf5d383fa" resp="#CH" tls:created="2020-04-07T21:00:02.475+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-6899efc6-e965-4176-885a-931fe5b1c8c8">padS1.postS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-03d40aba-0460-467e-a915-123812b348a5">contrastive</tls:sem-feat>
+                </gramGrp>
+                <def>but also; but there again</def>
+            </sense>
+            <sense xml:id="uuid-6b625c44-0772-44ea-a25c-440772e4ea2c" resp="#zadrapa" tls:created="2020-06-23T16:11:18.728+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-f6980e39-6a66-40ea-899f-95eaf0384097">padV.postN{SUBJ}:post-S</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d579c8ae-df31-4e0c-941f-27b2e0b784f9">reference=subject</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-25T23:02:54.342+09:00">also the subject</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-85ebbc47-19fc-4161-bd6e-f8ef19ce488c">
             <form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
 <orth>反</orth>
@@ -377,7 +412,14 @@
                 </gramGrp>
   <def>alongside, alike, also</def>
             </sense>
-<sense xml:id="uuid-726ccd99-20e8-493a-accd-9920e8e93ab3" resp="#barbara.hendrischke" tls:created="2020-05-02T18:58:38.837+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>be also in/among the N</def></sense></entry>
+<sense xml:id="uuid-726ccd99-20e8-493a-accd-9920e8e93ab3" resp="#barbara.hendrischke" tls:created="2020-05-02T18:58:38.837+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>be also in/among the N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f5420e77-9685-4737-91a0-870dc51c08f6">
             <form corresp="#uuid-287e123a-74f0-401a-9327-afadd14e99c5 #uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3">
 <orth>且也</orth>
@@ -464,5 +506,50 @@
   <def>sentence connective: another time, at another occasion</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-21266ed1-9477-4e6e-a66e-d194772e6ef1" resp="#zadrapa" tls:created="2022-05-31T19:19:27.267+09:00"><form corresp="#uuid-6572f778-b88e-4170-9f05-3eda652316f7 #uuid-287e123a-74f0-401a-9327-afadd14e99c5"><orth>亦且</orth><pron xml:lang="zh-Latn-x-pinyin">yì qiě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yek tsjo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laɡ --</pron></form><sense xml:id="uuid-f8ed7567-383a-497f-ad75-67383a397f7f" resp="#zadrapa" tls:created="2022-05-31T19:19:27.267+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func></gramGrp><def>and morever</def></sense></entry><entry type="word" xml:id="uuid-1bb5586f-5629-4afe-b558-6f5629eafece" resp="#CH" tls:created="2022-08-26T20:17:53.949+09:00"><form corresp="#uuid-79977a0a-7a09-419a-977a-0a7a09819af2"><orth>還</orth><pron xml:lang="zh-Latn-x-pinyin">hái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-ad0b10fd-d9f4-4202-8b10-fdd9f402029e" resp="#CH" tls:created="2022-08-26T20:17:53.949+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-25T18:46:33.897+09:00">post-Buddhist!!!: in addition, at the same time also 待考</def></sense></entry><entry type="word" xml:id="uuid-1203d8a5-f938-42ac-83d8-a5f93862ac5a" resp="#zadrapa" tls:created="2023-05-16T21:23:40.286+09:00"><form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-2309918c-dc53-4469-8d42-eceba86720d0"><orth>而且</orth><pron xml:lang="zh-Latn-x-pinyin">ér jū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyi tsjo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ ska</pron></form><sense xml:id="uuid-f2a07904-0e5d-4409-a079-040e5d340958" resp="#zadrapa" tls:created="2023-05-16T21:23:40.286+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func></gramGrp><def>and moreover</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-21266ed1-9477-4e6e-a66e-d194772e6ef1" resp="#zadrapa" tls:created="2022-05-31T19:19:27.267+09:00">
+            <form corresp="#uuid-6572f778-b88e-4170-9f05-3eda652316f7 #uuid-287e123a-74f0-401a-9327-afadd14e99c5">
+                <orth>亦且</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì qiě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yek tsjo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laɡ --</pron>
+            </form>
+            <sense xml:id="uuid-f8ed7567-383a-497f-ad75-67383a397f7f" resp="#zadrapa" tls:created="2022-05-31T19:19:27.267+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+                <def>and morever</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1bb5586f-5629-4afe-b558-6f5629eafece" resp="#CH" tls:created="2022-08-26T20:17:53.949+09:00">
+            <form corresp="#uuid-79977a0a-7a09-419a-977a-0a7a09819af2">
+                <orth>還</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-ad0b10fd-d9f4-4202-8b10-fdd9f402029e" resp="#CH" tls:created="2022-08-26T20:17:53.949+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-25T18:46:33.897+09:00">post-Buddhist!!!: in addition, at the same time also 待考</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1203d8a5-f938-42ac-83d8-a5f93862ac5a" resp="#zadrapa" tls:created="2023-05-16T21:23:40.286+09:00">
+            <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-2309918c-dc53-4469-8d42-eceba86720d0">
+                <orth>而且</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ér jū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyi tsjo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ ska</pron>
+            </form>
+            <sense xml:id="uuid-f2a07904-0e5d-4409-a079-040e5d340958" resp="#zadrapa" tls:created="2023-05-16T21:23:40.286+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func>
+                </gramGrp>
+                <def>and moreover</def>
+            </sense>
+        </entry>
+    </div>
 </div>

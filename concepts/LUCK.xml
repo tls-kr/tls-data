@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6ad730e2-d52e-4485-b2f9-b5aed7df88b5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6ad730e2-d52e-4485-b2f9-b5aed7df88b5">
 <head>LUCK</head>
     <list type="altnames">
 <item>FORTUNATE</item>
@@ -167,7 +168,14 @@
                 </gramGrp>
   <def>enjoy good fortune</def>
             </sense>
-<sense xml:id="uuid-98f8358a-b4c4-4aa0-b835-8ab4c4caa015" resp="#CH" tls:created="2022-11-28T08:20:22.164+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>bring good luck to; send blessings to</def></sense></entry>
+<sense xml:id="uuid-98f8358a-b4c4-4aa0-b835-8ab4c4caa015" resp="#CH" tls:created="2022-11-28T08:20:22.164+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>bring good luck to; send blessings to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ec45dfc3-9e3f-4a4e-88e7-3d7e33e27253">
             <form corresp="#uuid-4f8623ca-9e31-4b6f-882a-24c9a06cd8f6">
 <orth>佑</orth>
@@ -443,7 +451,14 @@
                 </gramGrp>
   <def>blessings (from Heaven); good fortune</def>
             </sense>
-<sense xml:id="uuid-2c0f1fad-7a1a-46b9-8f1f-ad7a1a36b9d1" resp="#CH" tls:created="2020-03-27T23:21:04.929+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2020-03-27T23:22:25.082+09:00">be something that spells good fortune; augure well.</def></sense></entry>
+<sense xml:id="uuid-2c0f1fad-7a1a-46b9-8f1f-ad7a1a36b9d1" resp="#CH" tls:created="2020-03-27T23:21:04.929+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-03-27T23:22:25.082+09:00">be something that spells good fortune; augure well.</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-700a2774-f601-4540-9511-c7b960012109">
             <form corresp="#uuid-ec66d029-10db-45b6-bcef-e7a8e33bc3ce">
 <orth>福</orth>
@@ -503,7 +518,14 @@
                 </gramGrp>
   <def>cause  (oneself) to be happy</def>
             </sense>
-<sense xml:id="uuid-90ace167-c84d-42c7-ace1-67c84d12c7a0" resp="#zadrapa" tls:created="2021-01-25T19:14:50.896+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d06c3a3d-4cc3-400e-91e8-10b93e46459a">nab.adN</tls:syn-func></gramGrp><def>fortunate</def></sense></entry>
+<sense xml:id="uuid-90ace167-c84d-42c7-ace1-67c84d12c7a0" resp="#zadrapa" tls:created="2021-01-25T19:14:50.896+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d06c3a3d-4cc3-400e-91e8-10b93e46459a">nab.adN</tls:syn-func>
+                </gramGrp>
+                <def>fortunate</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-59b47458-cb66-4252-a1eb-ffbd6f0a15b6">
             <form corresp="#uuid-86c373cb-6ffd-40d1-8c23-3082d45df124">
 <orth>衷</orth>
@@ -836,8 +858,38 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b3f0f883-ce22-410f-b0f8-83ce22810f62" resp="#CH" tls:created="2020-04-22T21:29:55.983+09:00"><form corresp="#uuid-2b950e2e-e003-4c98-9a16-c27f164c7f2d #uuid-ec66d029-10db-45b6-bcef-e7a8e33bc3ce"><orth>吉福</orth><pron xml:lang="zh-Latn-x-pinyin">jí
- fú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjit
- pjuwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kid
- pɯɡ</pron></form><sense xml:id="uuid-df0b266f-8487-4cfb-8b26-6f84871cfbd8" resp="#CH" tls:created="2020-04-22T21:29:55.983+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>good fortune</def></sense></entry><entry type="word" xml:id="uuid-0485309e-a3f8-4503-8530-9ea3f89503a7" resp="#CH" tls:created="2021-06-24T18:42:54.471+09:00"><form corresp="#uuid-0fa9c216-679b-4280-bd3d-c0717fd076a4"><orth>妙</orth><pron xml:lang="zh-Latn-x-pinyin">miào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjiewH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mews</pron></form><sense xml:id="uuid-a8eb3108-791e-498b-ab31-08791ee98b91" resp="#CH" tls:created="2021-06-24T18:42:54.471+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>felicity</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b3f0f883-ce22-410f-b0f8-83ce22810f62" resp="#CH" tls:created="2020-04-22T21:29:55.983+09:00">
+            <form corresp="#uuid-2b950e2e-e003-4c98-9a16-c27f164c7f2d #uuid-ec66d029-10db-45b6-bcef-e7a8e33bc3ce">
+                <orth>吉福</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí
+ fú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjit
+ pjuwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kid
+ pɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-df0b266f-8487-4cfb-8b26-6f84871cfbd8" resp="#CH" tls:created="2020-04-22T21:29:55.983+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>good fortune</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0485309e-a3f8-4503-8530-9ea3f89503a7" resp="#CH" tls:created="2021-06-24T18:42:54.471+09:00">
+            <form corresp="#uuid-0fa9c216-679b-4280-bd3d-c0717fd076a4">
+                <orth>妙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">miào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjiewH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mews</pron>
+            </form>
+            <sense xml:id="uuid-a8eb3108-791e-498b-ab31-08791ee98b91" resp="#CH" tls:created="2021-06-24T18:42:54.471+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>felicity</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3cd96736-2a00-463b-834c-e4f0c76319cf">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3cd96736-2a00-463b-834c-e4f0c76319cf">
 <head>NIGHT</head>
     <list type="altnames">
 <item>NIGHTTIME</item>
@@ -155,7 +156,14 @@
                 </gramGrp>
   <def>at night; tonight</def>
             </sense>
-<sense xml:id="uuid-c0bda585-d50a-48f1-bda5-85d50a88f17c" resp="#dsehnal" tls:created="2023-06-01T17:09:26.655+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func></gramGrp><def>NUM nights</def></sense></entry>
+<sense xml:id="uuid-c0bda585-d50a-48f1-bda5-85d50a88f17c" resp="#dsehnal" tls:created="2023-06-01T17:09:26.655+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>NUM nights</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8b48b4fd-c16f-4229-b145-3c0078b6e9f9">
             <form corresp="#uuid-a77afa11-50b7-416a-853e-e10b12372781">
 <orth>夜</orth>
@@ -219,7 +227,14 @@
                 </gramGrp>
   <def>at night</def>
             </sense>
-<sense xml:id="uuid-081fed6c-2c87-422d-9fed-6c2c87522d45" resp="#dsehnal" tls:created="2024-05-19T22:35:50.223+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func></gramGrp><def>night characterised by the feature V</def></sense></entry>
+<sense xml:id="uuid-081fed6c-2c87-422d-9fed-6c2c87522d45" resp="#dsehnal" tls:created="2024-05-19T22:35:50.223+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func>
+                </gramGrp>
+                <def>night characterised by the feature V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f4788329-b12e-4b92-a255-3dc5e0afddd9">
             <form corresp="#uuid-3ec4886a-b1ed-449b-8cdc-819bdc87d900">
 <orth>宵</orth>
@@ -359,5 +374,35 @@
   <def>all night</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1f75513c-fe2d-4b34-b551-3cfe2ddb34ce" resp="#CH" tls:created="2021-03-30T00:19:51.5+09:00"><form corresp="#uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625 #uuid-50752804-ed23-4d4b-901e-c2e6b8bf005b"><orth>通昔</orth><pron xml:lang="zh-Latn-x-pinyin">tōng xī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thuwng sjek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kh-looŋ sqaɡ</pron></form><sense xml:id="uuid-5871b8a7-4561-408d-b1b8-a74561408d0b" resp="#CH" tls:created="2021-03-30T00:19:51.5+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp><def>all night through</def></sense></entry><entry type="word" xml:id="uuid-247ba02b-4205-40f6-bba0-2b4205f0f634" resp="#CH" tls:created="2022-01-29T03:46:36.244+09:00"><form corresp="#uuid-50752804-ed23-4d4b-901e-c2e6b8bf005b #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>昔者</orth><pron xml:lang="zh-Latn-x-pinyin">xī zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjek tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaɡ kljaʔ</pron></form><sense xml:id="uuid-2c68593c-b88d-4a07-a859-3cb88d5a0745" resp="#CH" tls:created="2022-01-29T03:46:36.244+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func></gramGrp><def>yesterday night; the other night</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1f75513c-fe2d-4b34-b551-3cfe2ddb34ce" resp="#CH" tls:created="2021-03-30T00:19:51.5+09:00">
+            <form corresp="#uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625 #uuid-50752804-ed23-4d4b-901e-c2e6b8bf005b">
+                <orth>通昔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tōng xī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thuwng sjek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kh-looŋ sqaɡ</pron>
+            </form>
+            <sense xml:id="uuid-5871b8a7-4561-408d-b1b8-a74561408d0b" resp="#CH" tls:created="2021-03-30T00:19:51.5+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+                <def>all night through</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-247ba02b-4205-40f6-bba0-2b4205f0f634" resp="#CH" tls:created="2022-01-29T03:46:36.244+09:00">
+            <form corresp="#uuid-50752804-ed23-4d4b-901e-c2e6b8bf005b #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>昔者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjek tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaɡ kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-2c68593c-b88d-4a07-a859-3cb88d5a0745" resp="#CH" tls:created="2022-01-29T03:46:36.244+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-02c38bc6-493a-4bef-8b5e-2c5b3d623908">NPadS</tls:syn-func>
+                </gramGrp>
+                <def>yesterday night; the other night</def>
+            </sense>
+        </entry>
+    </div>
 </div>

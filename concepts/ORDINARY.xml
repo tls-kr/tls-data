@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-56973850-4909-4c69-95b8-66002ca50cba">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-56973850-4909-4c69-95b8-66002ca50cba">
 <head>ORDINARY</head>
     <list type="altnames">
 <item>USUAL</item>
@@ -194,7 +195,14 @@
                 </gramGrp>
   <def>be ordinary; be common</def>
             </sense>
-<sense xml:id="uuid-3378c370-c181-433b-a5e9-77c32aa6a64f" resp="#CH" tls:created="2019-11-08T01:50:36.058+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadV</tls:syn-func></gramGrp><def>ordinarily</def></sense></entry>
+<sense xml:id="uuid-3378c370-c181-433b-a5e9-77c32aa6a64f" resp="#CH" tls:created="2019-11-08T01:50:36.058+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadV</tls:syn-func>
+                </gramGrp>
+                <def>ordinarily</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-18462ac6-f900-4996-8f26-9fef6529e839">
             <form corresp="#uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
 <orth>常</orth>
@@ -514,7 +522,15 @@
                 </gramGrp>
   <def>ordinary person</def>
             </sense>
-<sense xml:id="uuid-c112c54c-3a01-43a4-adb7-5baf0186c7ca" resp="#dsehnal" tls:created="2019-10-12T05:58:04.529+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func><tls:sem-feat corresp="#uuid-9595a9ef-994e-4b18-8ad1-4187407e538e">apposition</tls:sem-feat></gramGrp><def>ordinary man Npr</def></sense></entry>
+<sense xml:id="uuid-c112c54c-3a01-43a4-adb7-5baf0186c7ca" resp="#dsehnal" tls:created="2019-10-12T05:58:04.529+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9595a9ef-994e-4b18-8ad1-4187407e538e">apposition</tls:sem-feat>
+                </gramGrp>
+                <def>ordinary man Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fbb08921-4a9f-4213-a028-cde6f194ac4a">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-2fb89168-3735-4fce-828b-13d3a3112365">
 <orth>不仁</orth>
@@ -868,7 +884,23 @@
                 </gramGrp>
   <def>ordinary people</def>
             </sense>
-<sense xml:id="uuid-7ff8477a-b1e2-4ae2-b847-7ab1e2fae2ef" resp="#CH" tls:created="2020-04-11T17:42:47.581+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat></gramGrp><def>being a gentleman</def></sense><sense xml:id="uuid-bdfb76cb-d0af-49fa-bb76-cbd0af99fa2b" resp="#CH" tls:created="2021-07-01T20:01:34.527+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-62a630be-58ae-44f4-b858-a7540b2de8d3">moral</tls:sem-feat></gramGrp><def>morally inferior person (not necessarily of low status): petty man</def></sense></entry>
+<sense xml:id="uuid-7ff8477a-b1e2-4ae2-b847-7ab1e2fae2ef" resp="#CH" tls:created="2020-04-11T17:42:47.581+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat>
+                </gramGrp>
+                <def>being a gentleman</def>
+            </sense>
+            <sense xml:id="uuid-bdfb76cb-d0af-49fa-bb76-cbd0af99fa2b" resp="#CH" tls:created="2021-07-01T20:01:34.527+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-62a630be-58ae-44f4-b858-a7540b2de8d3">moral</tls:sem-feat>
+                </gramGrp>
+                <def>morally inferior person (not necessarily of low status): petty man</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-361a4280-213e-448b-9f02-87386adc499e">
             <form corresp="#uuid-58b18972-d7a6-4d6f-af93-63b7b798f08c #uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
 <orth>日用</orth>
@@ -953,7 +985,15 @@
                 </gramGrp>
   <def>the concept of an ordinary person</def>
             </sense>
-<sense xml:id="uuid-e7cea37e-e50b-4836-8ea3-7ee50ba8362d" resp="#CH" tls:created="2020-05-31T22:48:50.535+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func><tls:sem-feat corresp="#uuid-d579c8ae-df31-4e0c-941f-27b2e0b784f9">reference=subject</tls:sem-feat></gramGrp><def>like a commoner</def></sense></entry>
+<sense xml:id="uuid-e7cea37e-e50b-4836-8ea3-7ee50ba8362d" resp="#CH" tls:created="2020-05-31T22:48:50.535+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d579c8ae-df31-4e0c-941f-27b2e0b784f9">reference=subject</tls:sem-feat>
+                </gramGrp>
+                <def>like a commoner</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cff501df-9ad8-4302-99d1-6e80cde829b1">
             <form corresp="#uuid-8e917f21-3a4a-4073-983b-835617c32fe9 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
 <orth>細人</orth>
@@ -972,7 +1012,21 @@
                 </gramGrp>
   <def>ordinary person</def>
             </sense>
-<sense xml:id="uuid-f3fc88cc-6018-4adf-bb71-66f212ce6a49" resp="#CH" tls:created="2019-11-08T00:21:30.704+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>petty men (versus 大人)</def></sense><sense xml:id="uuid-5fb283ab-d73d-4cba-b283-abd73dacbaf4" resp="#CH" tls:created="2021-06-28T20:38:11.716+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}</tls:syn-func></gramGrp><def>be petty fellows, be a petty man; American: be pecayune</def></sense></entry>
+<sense xml:id="uuid-f3fc88cc-6018-4adf-bb71-66f212ce6a49" resp="#CH" tls:created="2019-11-08T00:21:30.704+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>petty men (versus 大人)</def>
+            </sense>
+            <sense xml:id="uuid-5fb283ab-d73d-4cba-b283-abd73dacbaf4" resp="#CH" tls:created="2021-06-28T20:38:11.716+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be petty fellows, be a petty man; American: be pecayune</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4e718150-d17c-4548-b175-389390c5b7f2">
             <form corresp="#uuid-14933090-8c1b-4896-b1d7-361dfca75ff7 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>群子</orth>
@@ -1005,8 +1059,135 @@
   <def resp="#CH" updated="2020-12-06T22:22:30.335+09:00">ordinary; common; undistinguished; unadorned</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-38498e63-f646-4995-a48b-25f88f00cbdb" resp="#CH" tls:created="2019-12-17T04:48:57.398+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-f2fc851d-2f07-46ad-a32c-8938b381e6fd" resp="#CH" tls:created="2019-12-17T04:48:57.398+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be ordinary, be of ordinary talent and worth</def></sense></entry><entry type="word" xml:id="uuid-93fac855-04e7-4118-855f-6f810f3029ff" resp="#CH" tls:created="2019-12-17T04:49:04.783+09:00"><form corresp="#uuid-c9cb923f-68c7-40f0-9eb3-dc85b6a69056"><orth>罷</orth><pron xml:lang="zh-Latn-x-pinyin">pí
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bje
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bral
-</pron></form><sense xml:id="uuid-71ab06a9-0fae-4ff1-80b5-3cddfeef52bb" resp="#CH" tls:created="2019-12-17T04:49:04.783+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be ordinary, be of ordinary talent and worth</def></sense><sense xml:id="uuid-ff260744-9cf9-4a1d-a607-449cf9da1da1" resp="#zadrapa" tls:created="2020-12-18T05:35:05.143+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>the ordinary ones, those of less talent</def></sense></entry><entry type="word" xml:id="uuid-99ede2d1-78d9-4e94-ade2-d178d9be94a1" resp="#CH" tls:created="2020-04-02T20:46:15.188+09:00"><form corresp="#uuid-ee5018a5-6d0a-44d6-8acc-9ab7b28306d5"><orth>仄</orth><pron xml:lang="zh-Latn-x-pinyin">zè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsrik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsrɯɡ</pron></form><sense xml:id="uuid-aec49c31-11d1-49b0-849c-3111d1e9b0c0" resp="#CH" tls:created="2020-04-02T20:46:15.188+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>perfectly ordinary</def></sense></entry><entry type="word" xml:id="uuid-0f2b4f6b-f3ba-4eb6-ab4f-6bf3ba3eb6b2" resp="#CH" tls:created="2020-04-02T20:48:47.531+09:00"><form corresp="#uuid-ee5018a5-6d0a-44d6-8acc-9ab7b28306d5 #陋:lòu"><orth>仄陋</orth><pron xml:lang="zh-Latn-x-pinyin">zè lòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsrik --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsrɯɡ --</pron></form><sense xml:id="uuid-3e22b99c-6253-4e33-a2b9-9c6253ce3376" resp="#CH" tls:created="2020-04-02T20:48:47.531+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>self-deprecatory: perfectly ordinary</def></sense></entry><entry type="word" xml:id="uuid-22fda0bf-2624-45f0-bda0-bf2624e5f05e" resp="#CH" tls:created="2021-02-14T21:18:33.24+09:00"><form corresp="#uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>常人</orth><pron xml:lang="zh-Latn-x-pinyin">cháng rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyang nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djaŋ njin</pron></form><sense xml:id="uuid-58409ba8-9767-47f5-809b-a89767a7f50e" resp="#CH" tls:created="2021-02-14T21:18:33.24+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2021-02-14T21:19:08.679+09:00">non-referential: an ordinary person</def></sense></entry><entry type="word" xml:id="uuid-21932cd9-07c6-4601-932c-d907c66601a1" resp="#zadrapa" tls:created="2022-05-12T19:29:29.459+09:00"><form corresp="#uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7 #uuid-9b0c3993-d064-41cf-b64a-1ca2076681d7"><orth>中庸</orth><pron xml:lang="zh-Latn-x-pinyin">zhōng yōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trjuwng yowng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krluŋ k-loŋ</pron></form><sense xml:id="uuid-fb82af52-20ec-4a45-82af-5220ec2a45d2" resp="#zadrapa" tls:created="2022-05-12T19:29:29.459+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>mediocre</def></sense></entry><entry type="word" xml:id="uuid-a978c77d-4334-47c9-b8c7-7d4334c7c9c9" resp="#zadrapa" tls:created="2022-06-15T21:33:30.904+09:00"><form corresp="#uuid-cde4523d-ac14-4e19-b362-7e571dcfc711"><orth>傭</orth><pron xml:lang="zh-Latn-x-pinyin">yōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yowng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋ</pron></form><sense xml:id="uuid-b0201a2f-1204-429f-a01a-2f1204a29f40" resp="#zadrapa" tls:created="2022-06-15T21:33:30.904+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>ordinary</def></sense></entry><entry type="word" xml:id="uuid-ff1adb3d-2210-485e-9adb-3d2210c85e13" resp="#Valerie.Kiel" tls:created="2023-03-16T05:43:27.71+09:00"><form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2"><orth>諸</orth><pron xml:lang="zh-Latn-x-pinyin">zhū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klja</pron></form><sense xml:id="uuid-d02cc8a2-5d38-4efb-acc8-a25d386efb76" resp="#Valerie.Kiel" tls:created="2023-03-16T05:43:27.71+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-b559fe37-af5e-434c-b149-a645c2273f41">padN</tls:syn-func></gramGrp><def>(only) one of the set of N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-38498e63-f646-4995-a48b-25f88f00cbdb" resp="#CH" tls:created="2019-12-17T04:48:57.398+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-f2fc851d-2f07-46ad-a32c-8938b381e6fd" resp="#CH" tls:created="2019-12-17T04:48:57.398+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be ordinary, be of ordinary talent and worth</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-93fac855-04e7-4118-855f-6f810f3029ff" resp="#CH" tls:created="2019-12-17T04:49:04.783+09:00">
+            <form corresp="#uuid-c9cb923f-68c7-40f0-9eb3-dc85b6a69056">
+                <orth>罷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pí
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bje
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bral
+</pron>
+            </form>
+            <sense xml:id="uuid-71ab06a9-0fae-4ff1-80b5-3cddfeef52bb" resp="#CH" tls:created="2019-12-17T04:49:04.783+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be ordinary, be of ordinary talent and worth</def>
+            </sense>
+            <sense xml:id="uuid-ff260744-9cf9-4a1d-a607-449cf9da1da1" resp="#zadrapa" tls:created="2020-12-18T05:35:05.143+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the ordinary ones, those of less talent</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-99ede2d1-78d9-4e94-ade2-d178d9be94a1" resp="#CH" tls:created="2020-04-02T20:46:15.188+09:00">
+            <form corresp="#uuid-ee5018a5-6d0a-44d6-8acc-9ab7b28306d5">
+                <orth>仄</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsrik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsrɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-aec49c31-11d1-49b0-849c-3111d1e9b0c0" resp="#CH" tls:created="2020-04-02T20:46:15.188+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>perfectly ordinary</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0f2b4f6b-f3ba-4eb6-ab4f-6bf3ba3eb6b2" resp="#CH" tls:created="2020-04-02T20:48:47.531+09:00">
+            <form corresp="#uuid-ee5018a5-6d0a-44d6-8acc-9ab7b28306d5 #陋:lòu">
+                <orth>仄陋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zè lòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsrik --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsrɯɡ --</pron>
+            </form>
+            <sense xml:id="uuid-3e22b99c-6253-4e33-a2b9-9c6253ce3376" resp="#CH" tls:created="2020-04-02T20:48:47.531+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>self-deprecatory: perfectly ordinary</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-22fda0bf-2624-45f0-bda0-bf2624e5f05e" resp="#CH" tls:created="2021-02-14T21:18:33.24+09:00">
+            <form corresp="#uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>常人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cháng rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyang nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djaŋ njin</pron>
+            </form>
+            <sense xml:id="uuid-58409ba8-9767-47f5-809b-a89767a7f50e" resp="#CH" tls:created="2021-02-14T21:18:33.24+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-02-14T21:19:08.679+09:00">non-referential: an ordinary person</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-21932cd9-07c6-4601-932c-d907c66601a1" resp="#zadrapa" tls:created="2022-05-12T19:29:29.459+09:00">
+            <form corresp="#uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7 #uuid-9b0c3993-d064-41cf-b64a-1ca2076681d7">
+                <orth>中庸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōng yōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trjuwng yowng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krluŋ k-loŋ</pron>
+            </form>
+            <sense xml:id="uuid-fb82af52-20ec-4a45-82af-5220ec2a45d2" resp="#zadrapa" tls:created="2022-05-12T19:29:29.459+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>mediocre</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a978c77d-4334-47c9-b8c7-7d4334c7c9c9" resp="#zadrapa" tls:created="2022-06-15T21:33:30.904+09:00">
+            <form corresp="#uuid-cde4523d-ac14-4e19-b362-7e571dcfc711">
+                <orth>傭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yowng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋ</pron>
+            </form>
+            <sense xml:id="uuid-b0201a2f-1204-429f-a01a-2f1204a29f40" resp="#zadrapa" tls:created="2022-06-15T21:33:30.904+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>ordinary</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ff1adb3d-2210-485e-9adb-3d2210c85e13" resp="#Valerie.Kiel" tls:created="2023-03-16T05:43:27.71+09:00">
+            <form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2">
+                <orth>諸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klja</pron>
+            </form>
+            <sense xml:id="uuid-d02cc8a2-5d38-4efb-acc8-a25d386efb76" resp="#Valerie.Kiel" tls:created="2023-03-16T05:43:27.71+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-b559fe37-af5e-434c-b149-a645c2273f41">padN</tls:syn-func>
+                </gramGrp>
+                <def>(only) one of the set of N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

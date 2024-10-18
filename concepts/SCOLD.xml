@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-274dd192-78a3-45df-9faf-fe824f64633a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-274dd192-78a3-45df-9faf-fe824f64633a">
 <head>SCOLD</head>
     <list type="altnames">
 <item>SWEAR AT</item>
@@ -314,7 +315,14 @@
                 </gramGrp>
   <def>swear at and deride; scold, curse</def>
             </sense>
-<sense xml:id="uuid-679f23da-8e50-4fb0-9f23-da8e503fb0fb" resp="#dsehnal" tls:created="2023-05-09T02:23:15.508+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func></gramGrp><def>scold N saying:</def></sense></entry>
+<sense xml:id="uuid-679f23da-8e50-4fb0-9f23-da8e503fb0fb" resp="#dsehnal" tls:created="2023-05-09T02:23:15.508+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>scold N saying:</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ba2086b5-c055-4b67-89ec-65e10e89dc20">
             <form corresp="#uuid-7e333fd0-767f-4353-9f41-72fc8d6a3b7e">
 <orth>呵</orth>
@@ -676,5 +684,21 @@
   <def>scold in a way that implies thinking little of one's opponent &gt; scold disrespectfully</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-6226b5cb-54d6-4881-a6b5-cb54d6a88170" resp="#zadrapa" tls:created="2021-01-20T18:27:30.42+09:00"><form corresp="#䜁:xi3 #uuid-09b96a26-a1a1-435a-a55e-6af0abfd3485"><orth>䜁訽</orth><pron xml:lang="zh-Latn-x-pinyin">xi3 hòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- xuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- qhoos</pron></form><sense xml:id="uuid-ca3a1e7d-8b01-4267-ba1e-7d8b01626742" resp="#zadrapa" tls:created="2021-01-20T18:27:30.42+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2021-01-20T18:28:18.188+09:00">(= xi3gou4 謑詬) public insults of all kinds</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-6226b5cb-54d6-4881-a6b5-cb54d6a88170" resp="#zadrapa" tls:created="2021-01-20T18:27:30.42+09:00">
+            <form corresp="#䜁:xi3 #uuid-09b96a26-a1a1-435a-a55e-6af0abfd3485">
+                <orth>䜁訽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xi3 hòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- xuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- qhoos</pron>
+            </form>
+            <sense xml:id="uuid-ca3a1e7d-8b01-4267-ba1e-7d8b01626742" resp="#zadrapa" tls:created="2021-01-20T18:27:30.42+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-01-20T18:28:18.188+09:00">(= xi3gou4 謑詬) public insults of all kinds</def>
+            </sense>
+        </entry>
+    </div>
 </div>

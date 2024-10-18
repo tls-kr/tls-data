@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1ab0d35c-7045-429c-b240-b3f1819dbdb1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1ab0d35c-7045-429c-b240-b3f1819dbdb1">
 <head>STRIVE FOR</head>
     <list type="altnames">
 <item>AIM</item>
@@ -106,7 +107,14 @@
                 </gramGrp>
   <def>have as one's main concern; make something one's own business; show concern for</def>
             </sense>
-<sense xml:id="uuid-3ba7838b-a545-4025-a783-8ba5452025ad" resp="#CH" tls:created="2020-05-06T00:08:14.964+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>have as one's task to V</def></sense></entry>
+<sense xml:id="uuid-3ba7838b-a545-4025-a783-8ba5452025ad" resp="#CH" tls:created="2020-05-06T00:08:14.964+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>have as one's task to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7c92694e-8ec9-4b10-8e9d-fe454c6f4387">
             <form corresp="#uuid-b0c01715-adaa-494d-af1b-a7f73033eaff">
 <orth>力</orth>
@@ -209,7 +217,22 @@
                 </gramGrp>
   <def>have N as your main concern!</def>
             </sense>
-<sense xml:id="uuid-f0d61eb9-1923-4877-88a0-bb3114449348" resp="#CH" tls:created="2019-12-08T04:41:26.527+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>one's main concern</def></sense><sense xml:id="uuid-0bd45176-9c59-465c-9f4e-b729040845a9" resp="#CH" tls:created="2019-12-17T04:14:50.467+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoV(0)</tls:syn-func></gramGrp><def>do one's best to V</def></sense></entry>
+<sense xml:id="uuid-f0d61eb9-1923-4877-88a0-bb3114449348" resp="#CH" tls:created="2019-12-08T04:41:26.527+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>one's main concern</def>
+            </sense>
+            <sense xml:id="uuid-0bd45176-9c59-465c-9f4e-b729040845a9" resp="#CH" tls:created="2019-12-17T04:14:50.467+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoV(0)</tls:syn-func>
+                </gramGrp>
+                <def>do one's best to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-76ea1882-445f-4afc-a2c0-fe381bfe0fb3">
             <form corresp="#uuid-22182188-70f5-47d8-842c-29ff8ebb4402">
 <orth>業</orth>
@@ -243,7 +266,43 @@
                 </gramGrp>
   <def>seek to V (often difficult to distinguish from TRY...)</def>
             </sense>
-<sense xml:id="uuid-7e153d6b-78af-443c-9119-3a8ab3eae59e" resp="#CH" tls:created="2019-11-27T22:34:22.523+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func></gramGrp><def>strive for</def></sense><sense xml:id="uuid-9e125894-5005-4621-9258-9450056621a3" resp="#CH" tls:created="2022-02-18T20:48:49.341+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab.post-N{SUBJ}</tls:syn-func><tls:sem-feat corresp="#uuid-7bbb1c42-06ca-4f3b-81e5-682c75fe8eaa">object</tls:sem-feat></gramGrp><def>=所求 what the N strives for&gt; aims, aspirations</def></sense><sense xml:id="uuid-6db131a5-41c6-4a50-b131-a541c67a50a7" resp="#zadrapa" tls:created="2022-10-21T21:13:13.33+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>aim, aspiration</def></sense><sense xml:id="uuid-e8b7c78f-1d2d-4f7e-b7c7-8f1d2d8f7eb1" resp="#zadrapa" tls:created="2023-05-23T04:30:59.932+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>to strive for</def></sense><sense xml:id="uuid-68f21e03-02c4-4b41-b21e-0302c4db4126" resp="#dsehnal" tls:created="2023-06-02T18:47:04.394+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>strive for things;</def></sense></entry>
+<sense xml:id="uuid-7e153d6b-78af-443c-9119-3a8ab3eae59e" resp="#CH" tls:created="2019-11-27T22:34:22.523+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                </gramGrp>
+                <def>strive for</def>
+            </sense>
+            <sense xml:id="uuid-9e125894-5005-4621-9258-9450056621a3" resp="#CH" tls:created="2022-02-18T20:48:49.341+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab.post-N{SUBJ}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7bbb1c42-06ca-4f3b-81e5-682c75fe8eaa">object</tls:sem-feat>
+                </gramGrp>
+                <def>=所求 what the N strives for&gt; aims, aspirations</def>
+            </sense>
+            <sense xml:id="uuid-6db131a5-41c6-4a50-b131-a541c67a50a7" resp="#zadrapa" tls:created="2022-10-21T21:13:13.33+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>aim, aspiration</def>
+            </sense>
+            <sense xml:id="uuid-e8b7c78f-1d2d-4f7e-b7c7-8f1d2d8f7eb1" resp="#zadrapa" tls:created="2023-05-23T04:30:59.932+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>to strive for</def>
+            </sense>
+            <sense xml:id="uuid-68f21e03-02c4-4b41-b21e-0302c4db4126" resp="#dsehnal" tls:created="2023-06-02T18:47:04.394+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>strive for things;</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-27faebbe-d70d-4c43-832b-4f6a7e3b0e17">
             <form corresp="#uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb">
 <orth>行</orth>
@@ -278,5 +337,37 @@
   <def>run after, strive for LUNHENG</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c73e9b01-aca1-4dcb-8791-9f620ecc34ba" resp="#CH" tls:created="2019-12-08T04:42:15.454+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-82d4c6aa-180a-4c4c-a710-5f5102c57359" resp="#CH" tls:created="2019-12-08T04:42:15.454+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>urgent main concern</def></sense></entry><entry type="word" xml:id="uuid-7191fbac-251c-4377-bc47-9831f789fbd0" resp="#CH" tls:created="2019-12-08T04:42:25.332+09:00"><form corresp="#uuid-10bad398-6a91-4bfd-9d49-671295404c15"><orth>趨</orth><pron xml:lang="zh-Latn-x-pinyin">qū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsho</pron></form><sense xml:id="uuid-8c33cd62-b748-4929-824e-12a8660b0f3a" resp="#CH" tls:created="2019-12-08T04:42:25.332+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>urgent main concern</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c73e9b01-aca1-4dcb-8791-9f620ecc34ba" resp="#CH" tls:created="2019-12-08T04:42:15.454+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-82d4c6aa-180a-4c4c-a710-5f5102c57359" resp="#CH" tls:created="2019-12-08T04:42:15.454+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>urgent main concern</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7191fbac-251c-4377-bc47-9831f789fbd0" resp="#CH" tls:created="2019-12-08T04:42:25.332+09:00">
+            <form corresp="#uuid-10bad398-6a91-4bfd-9d49-671295404c15">
+                <orth>趨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsho</pron>
+            </form>
+            <sense xml:id="uuid-8c33cd62-b748-4929-824e-12a8660b0f3a" resp="#CH" tls:created="2019-12-08T04:42:25.332+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-29c1ac5b-1886-4704-9532-b55e2c189bd2">nab(.post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>urgent main concern</def>
+            </sense>
+        </entry>
+    </div>
 </div>

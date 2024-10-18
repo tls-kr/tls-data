@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4f5a4eb2-575b-4ec1-a41d-5977f43709e6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4f5a4eb2-575b-4ec1-a41d-5977f43709e6">
 <head>BIG</head>
     <list type="altnames">
 <item>LARGE</item>
@@ -298,7 +299,14 @@
                 </gramGrp>
   <def>very rare: imposing; magnificent</def>
             </sense>
-<sense xml:id="uuid-f1f6e6ae-2a0c-423d-b6e6-ae2a0c523d43" resp="#CH" tls:created="2021-07-19T19:32:20.958+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ea7b4cf1-fe27-4ed9-afb0-7f7fa9950f84">n{PRED}</tls:syn-func></gramGrp><def>be a giant</def></sense></entry>
+<sense xml:id="uuid-f1f6e6ae-2a0c-423d-b6e6-ae2a0c523d43" resp="#CH" tls:created="2021-07-19T19:32:20.958+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ea7b4cf1-fe27-4ed9-afb0-7f7fa9950f84">n{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be a giant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6fa6a066-1115-483d-9f65-215f018828c6">
             <form corresp="#uuid-31510ee6-f60d-43bf-adc2-945d2484967b">
 <orth>嚭</orth>
@@ -507,7 +515,43 @@
                 </gramGrp>
   <def>be substantial, be significant; be big</def>
             </sense>
-<sense xml:id="uuid-83cab633-581e-4c47-8c1a-966e82320f63" resp="#CH" tls:created="2019-12-04T19:22:46.287+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>what is big</def></sense><sense xml:id="uuid-e468b32b-c0f0-4fa8-a8b3-2bc0f0afa8bb" resp="#CH" tls:created="2020-04-11T22:17:34.674+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-eb362e25-99fd-4526-a3ea-428eccf6c681">non-restrictive</tls:sem-feat></gramGrp><def>the known-to-be-big N; the N which, as is well known, is big</def></sense><sense xml:id="uuid-9386174c-bd7d-497a-8617-4cbd7df97acf" resp="#CH" tls:created="2021-06-20T16:51:55.152+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-df67c06f-c5fc-4f11-893b-fc307b4bfa45">v(adN)</tls:syn-func></gramGrp><def>one big contextually determinate N</def></sense><sense xml:id="uuid-3e8b7a03-52df-4032-8b7a-0352df20323d" resp="#CH" tls:created="2022-08-02T23:57:02.238+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-16T03:08:25.78+09:00">on a large scale; far and wide</def></sense><sense xml:id="uuid-03b4c30c-0e60-4abb-b4c3-0c0e605abb85" resp="#dsehnal" tls:created="2023-07-08T20:21:45.101+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func></gramGrp><def>be of N size</def></sense></entry>
+<sense xml:id="uuid-83cab633-581e-4c47-8c1a-966e82320f63" resp="#CH" tls:created="2019-12-04T19:22:46.287+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what is big</def>
+            </sense>
+            <sense xml:id="uuid-e468b32b-c0f0-4fa8-a8b3-2bc0f0afa8bb" resp="#CH" tls:created="2020-04-11T22:17:34.674+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-eb362e25-99fd-4526-a3ea-428eccf6c681">non-restrictive</tls:sem-feat>
+                </gramGrp>
+                <def>the known-to-be-big N; the N which, as is well known, is big</def>
+            </sense>
+            <sense xml:id="uuid-9386174c-bd7d-497a-8617-4cbd7df97acf" resp="#CH" tls:created="2021-06-20T16:51:55.152+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-df67c06f-c5fc-4f11-893b-fc307b4bfa45">v(adN)</tls:syn-func>
+                </gramGrp>
+                <def>one big contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-3e8b7a03-52df-4032-8b7a-0352df20323d" resp="#CH" tls:created="2022-08-02T23:57:02.238+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-16T03:08:25.78+09:00">on a large scale; far and wide</def>
+            </sense>
+            <sense xml:id="uuid-03b4c30c-0e60-4abb-b4c3-0c0e605abb85" resp="#dsehnal" tls:created="2023-07-08T20:21:45.101+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                </gramGrp>
+                <def>be of N size</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-97fc9ea7-cdfc-45d0-9676-1d8497c577ec">
             <form corresp="#uuid-7178b052-9651-4db0-85d8-ad29ddb578a2">
 <orth>嬴</orth>
@@ -579,7 +623,14 @@
                 </gramGrp>
   <def>be large, be broad, be extensive</def>
             </sense>
-<sense xml:id="uuid-df830027-f24a-4dfc-bbaa-423b94930335" resp="#CH" tls:created="2019-12-16T20:48:27.669+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>be more substantial</def></sense></entry>
+<sense xml:id="uuid-df830027-f24a-4dfc-bbaa-423b94930335" resp="#CH" tls:created="2019-12-16T20:48:27.669+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>be more substantial</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-302d3a92-671c-404a-af12-f0dab2bfb669">
             <form corresp="#uuid-18f4cb30-6269-425b-ba7e-d322cc6d77b3">
 <orth>巨</orth>
@@ -978,7 +1029,14 @@
                 </gramGrp>
   <def>tall and impressive; be huge 魁然</def>
             </sense>
-<sense xml:id="uuid-8a80d1b2-1708-46a6-b804-5e9807c6c294" resp="#CH" tls:created="2019-11-28T02:29:17.583+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-60499afc-945d-4e57-8f2e-67f84e82b95d">v-p.adV</tls:syn-func></gramGrp><def>impressively</def></sense></entry>
+<sense xml:id="uuid-8a80d1b2-1708-46a6-b804-5e9807c6c294" resp="#CH" tls:created="2019-11-28T02:29:17.583+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-60499afc-945d-4e57-8f2e-67f84e82b95d">v-p.adV</tls:syn-func>
+                </gramGrp>
+                <def>impressively</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-834e3ecb-98dd-4579-9515-f24c348383a7">
             <form corresp="#uuid-8894e80b-becb-4729-a4bc-1cd3c5e9e8e2 #uuid-00e57a2c-f5ae-4869-9dfa-6061702075a6">
 <orth>丈尺</orth>
@@ -1255,5 +1313,73 @@
   <def>FANGYAN: be big</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f23a57ed-5e3d-4add-bcdf-4a4f54765e99" resp="#zadrapa" tls:created="2019-10-22T19:29:38.332+09:00"><form corresp="#uuid-289673fe-cfd2-45d8-8fa9-20d536ddba87"><orth>覺</orth><pron xml:lang="zh-Latn-x-pinyin">jué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kruuɡ</pron></form><sense xml:id="uuid-88f08d93-63f3-4f0f-9362-762ac6b46e7e" resp="#zadrapa" tls:created="2019-10-22T19:29:38.332+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>big, great: a marginal, archaic usage known from the Book of Odes</def></sense></entry><entry type="word" xml:id="uuid-a7bdb3e6-37c6-44d9-bdb3-e637c664d992"><form><orth>逢</orth><pron xml:lang="zh-Latn-x-pinyin">féng</pron></form><def/><sense xml:id="uuid-a46076b3-8faa-4264-a076-b38faa826442" resp="#zadrapa" tls:created="2021-01-20T16:56:57.544+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>large, broad (e.g. garment)</def></sense><sense xml:id="uuid-07eaa2b4-8723-4fde-aaa2-b487235fdef2" resp="#zadrapa" tls:created="2022-01-11T20:53:57.227+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>large, broad (e.g. garment)</def></sense></entry><entry type="word" xml:id="uuid-1f101e51-1b99-46ad-901e-511b9926adae" resp="#dsehnal" tls:created="2023-11-26T20:04:19.705+09:00"><form corresp="#uuid-5c04abb4-6430-4fff-b0f3-6accf762545d"><orth>丘</orth><pron xml:lang="zh-Latn-x-pinyin">qiū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ</pron></form><sense xml:id="uuid-d4419662-52a1-460f-8196-6252a1560f57" resp="#dsehnal" tls:created="2023-11-26T20:04:19.705+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><tls:sem-feat corresp="#uuid-3cd53bce-7d20-4a3f-b072-4c632fc1a5f3">metaphorical</tls:sem-feat></gramGrp><def>like a hill &gt; big</def></sense></entry><entry type="word" xml:id="uuid-8eb64723-3f4a-4e65-b647-233f4afe65f1" resp="#CH" tls:created="2024-05-29T19:08:11.953+09:00"><form corresp="#uuid-086aacb0-e9b5-4968-89ed-60f6652ace81"><orth>封</orth><pron xml:lang="zh-Latn-x-pinyin">fēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjowng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">poŋ</pron></form><sense xml:id="uuid-04a6f57e-c9a7-425b-a6f5-7ec9a7d25b85" resp="#CH" tls:created="2024-05-29T19:08:11.953+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-2fbc0067-308d-4101-bc00-67308d2101c2">archaic</tls:sem-feat></gramGrp><def>big, tall</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f23a57ed-5e3d-4add-bcdf-4a4f54765e99" resp="#zadrapa" tls:created="2019-10-22T19:29:38.332+09:00">
+            <form corresp="#uuid-289673fe-cfd2-45d8-8fa9-20d536ddba87">
+                <orth>覺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-88f08d93-63f3-4f0f-9362-762ac6b46e7e" resp="#zadrapa" tls:created="2019-10-22T19:29:38.332+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>big, great: a marginal, archaic usage known from the Book of Odes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a7bdb3e6-37c6-44d9-bdb3-e637c664d992">
+            <form>
+                <orth>逢</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">féng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-a46076b3-8faa-4264-a076-b38faa826442" resp="#zadrapa" tls:created="2021-01-20T16:56:57.544+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>large, broad (e.g. garment)</def>
+            </sense>
+            <sense xml:id="uuid-07eaa2b4-8723-4fde-aaa2-b487235fdef2" resp="#zadrapa" tls:created="2022-01-11T20:53:57.227+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>large, broad (e.g. garment)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1f101e51-1b99-46ad-901e-511b9926adae" resp="#dsehnal" tls:created="2023-11-26T20:04:19.705+09:00">
+            <form corresp="#uuid-5c04abb4-6430-4fff-b0f3-6accf762545d">
+                <orth>丘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ</pron>
+            </form>
+            <sense xml:id="uuid-d4419662-52a1-460f-8196-6252a1560f57" resp="#dsehnal" tls:created="2023-11-26T20:04:19.705+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3cd53bce-7d20-4a3f-b072-4c632fc1a5f3">metaphorical</tls:sem-feat>
+                </gramGrp>
+                <def>like a hill &gt; big</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8eb64723-3f4a-4e65-b647-233f4afe65f1" resp="#CH" tls:created="2024-05-29T19:08:11.953+09:00">
+            <form corresp="#uuid-086aacb0-e9b5-4968-89ed-60f6652ace81">
+                <orth>封</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjowng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">poŋ</pron>
+            </form>
+            <sense xml:id="uuid-04a6f57e-c9a7-425b-a6f5-7ec9a7d25b85" resp="#CH" tls:created="2024-05-29T19:08:11.953+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2fbc0067-308d-4101-bc00-67308d2101c2">archaic</tls:sem-feat>
+                </gramGrp>
+                <def>big, tall</def>
+            </sense>
+        </entry>
+    </div>
 </div>

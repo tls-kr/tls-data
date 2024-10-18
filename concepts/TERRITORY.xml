@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f86b1c37-9359-4168-b055-97c6cd092ad3">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f86b1c37-9359-4168-b055-97c6cd092ad3">
 <head>TERRITORY</head>
     <list type="translations">
         <item xml:lang="zh">領域</item>
@@ -204,7 +205,14 @@
                 </gramGrp>
   <def>territory; the place where one is living</def>
             </sense>
-<sense xml:id="uuid-d0c09fd3-ab52-44a2-809f-d3ab5254a243" resp="#dsehnal" tls:created="2020-05-20T19:54:05.428+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's territory</def></sense></entry>
+<sense xml:id="uuid-d0c09fd3-ab52-44a2-809f-d3ab5254a243" resp="#dsehnal" tls:created="2020-05-20T19:54:05.428+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's territory</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6caaf498-bb70-469d-87de-3e54a4fa98bb">
             <form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e">
 <orth>地</orth>
@@ -229,7 +237,28 @@
                 </gramGrp>
   <def>my territory</def>
             </sense>
-<sense xml:id="uuid-acc50fec-65c1-4b6d-9edd-387234e6af52" resp="#CH" tls:created="2019-12-31T02:52:19.195+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>territory of N</def></sense><sense xml:id="uuid-b2b52af2-1d4f-4dc8-b52a-f21d4fbdc82b" resp="#CH" tls:created="2022-08-15T19:09:37.981+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-48a162a6-cf7b-45a3-a162-a6cf7b05a3ee">n-N{SIZE}</tls:syn-func></gramGrp><def>territory of the size N</def></sense><sense xml:id="uuid-e93460bf-d585-4107-b460-bfd58591078b" resp="#CH" tls:created="2022-09-18T16:36:48.039+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N/V</tls:syn-func></gramGrp><def>terrain of the N/V kind</def></sense></entry>
+<sense xml:id="uuid-acc50fec-65c1-4b6d-9edd-387234e6af52" resp="#CH" tls:created="2019-12-31T02:52:19.195+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>territory of N</def>
+            </sense>
+            <sense xml:id="uuid-b2b52af2-1d4f-4dc8-b52a-f21d4fbdc82b" resp="#CH" tls:created="2022-08-15T19:09:37.981+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-48a162a6-cf7b-45a3-a162-a6cf7b05a3ee">n-N{SIZE}</tls:syn-func>
+                </gramGrp>
+                <def>territory of the size N</def>
+            </sense>
+            <sense xml:id="uuid-e93460bf-d585-4107-b460-bfd58591078b" resp="#CH" tls:created="2022-09-18T16:36:48.039+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N/V</tls:syn-func>
+                </gramGrp>
+                <def>terrain of the N/V kind</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a461b7f9-6aea-4385-94f2-29aed7c22ec3">
             <form corresp="#uuid-bbce3357-7aa9-40c7-85ca-782f2c15b7d3">
 <orth>域</orth>
@@ -640,5 +669,80 @@
   <def>subsidiary territory</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-cfefaa0f-eccc-41fc-afaa-0feccce1fc02" resp="#zadrapa" tls:created="2020-06-18T17:04:48.989+09:00"><form corresp="#uuid-912548b1-fb97-424b-8c78-65bf05f0ee71 #uuid-99a78133-4b1d-4555-832a-7eb150cd3333"><orth>田邑</orth><pron xml:lang="zh-Latn-x-pinyin">tián yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">den 'ip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-liiŋ qrɯb</pron></form><sense xml:id="uuid-35f7c3ca-167b-4ae6-b7c3-ca167b6ae655" resp="#zadrapa" tls:created="2020-06-18T17:04:48.989+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>populated territory with a city as its administrative centre, constituting a fief or at least the basis for tax revenue for members of gentry</def></sense></entry><entry type="word" xml:id="uuid-fe2f2517-52df-4d7f-af25-1752df8d7f0c"><form><orth>藩</orth><pron xml:lang="zh-Latn-x-pinyin">fān</pron></form><def/><sense xml:id="uuid-f208ed2f-98ee-40a7-88ed-2f98ee20a72e" resp="#CH" tls:created="2021-02-27T18:34:16.866+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>realm, region</def></sense></entry><entry type="word" xml:id="uuid-827eff1c-e87f-4820-beff-1ce87f082000" resp="#CH" tls:created="2021-03-07T20:27:50.984+09:00"><form corresp="#uuid-9a3e6563-6679-42a6-978a-254aac371ab5 #uuid-751efabc-0b1f-4bf2-8beb-b9f206d55a2f"><orth>四竟</orth><pron xml:lang="zh-Latn-x-pinyin">sì jìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sijH kjaengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plids kraŋs</pron></form><sense xml:id="uuid-c1260d0a-52b8-4529-a60d-0a52b8952961" resp="#CH" tls:created="2021-03-07T20:27:50.984+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>=四境 the complete territory between all the boundaries of the territory</def></sense></entry><entry type="word" xml:id="uuid-49b97d4c-0a27-47f3-b97d-4c0a27e7f37d" resp="#zadrapa" tls:created="2022-02-18T22:39:52.04+09:00"><form corresp="#uuid-959284df-956a-4a7b-9397-eaa54c7d5667 #uuid-4d257b40-91ea-4eae-8c75-4567706ed342"><orth>宮庭</orth><pron xml:lang="zh-Latn-x-pinyin">gōng tíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwng deng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuŋ deeŋ</pron></form><sense xml:id="uuid-c5a4af84-95d1-4a0b-a4af-8495d1da0bb4" resp="#zadrapa" tls:created="2022-02-18T22:39:52.04+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>abstract space within certain limits</def></sense></entry><entry type="word" xml:id="uuid-37a970a6-77cb-45fb-a970-a677cb85fbea" resp="#CH" tls:created="2022-09-21T16:44:33.659+09:00"><form corresp="#uuid-90b714f7-877f-482e-9f11-a2bf53dc7fbf #uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285"><orth>尋常</orth><pron xml:lang="zh-Latn-x-pinyin">xún cháng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zim dzyang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljum djaŋ</pron></form><sense xml:id="uuid-e874eccb-ca5b-4afb-b4ec-cbca5b0afb06" resp="#CH" tls:created="2022-09-21T16:44:33.659+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>a territory of minimal size</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-cfefaa0f-eccc-41fc-afaa-0feccce1fc02" resp="#zadrapa" tls:created="2020-06-18T17:04:48.989+09:00">
+            <form corresp="#uuid-912548b1-fb97-424b-8c78-65bf05f0ee71 #uuid-99a78133-4b1d-4555-832a-7eb150cd3333">
+                <orth>田邑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tián yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">den 'ip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-liiŋ qrɯb</pron>
+            </form>
+            <sense xml:id="uuid-35f7c3ca-167b-4ae6-b7c3-ca167b6ae655" resp="#zadrapa" tls:created="2020-06-18T17:04:48.989+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>populated territory with a city as its administrative centre, constituting a fief or at least the basis for tax revenue for members of gentry</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fe2f2517-52df-4d7f-af25-1752df8d7f0c">
+            <form>
+                <orth>藩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fān</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-f208ed2f-98ee-40a7-88ed-2f98ee20a72e" resp="#CH" tls:created="2021-02-27T18:34:16.866+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>realm, region</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-827eff1c-e87f-4820-beff-1ce87f082000" resp="#CH" tls:created="2021-03-07T20:27:50.984+09:00">
+            <form corresp="#uuid-9a3e6563-6679-42a6-978a-254aac371ab5 #uuid-751efabc-0b1f-4bf2-8beb-b9f206d55a2f">
+                <orth>四竟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì jìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sijH kjaengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plids kraŋs</pron>
+            </form>
+            <sense xml:id="uuid-c1260d0a-52b8-4529-a60d-0a52b8952961" resp="#CH" tls:created="2021-03-07T20:27:50.984+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>=四境 the complete territory between all the boundaries of the territory</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-49b97d4c-0a27-47f3-b97d-4c0a27e7f37d" resp="#zadrapa" tls:created="2022-02-18T22:39:52.04+09:00">
+            <form corresp="#uuid-959284df-956a-4a7b-9397-eaa54c7d5667 #uuid-4d257b40-91ea-4eae-8c75-4567706ed342">
+                <orth>宮庭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng tíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwng deng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuŋ deeŋ</pron>
+            </form>
+            <sense xml:id="uuid-c5a4af84-95d1-4a0b-a4af-8495d1da0bb4" resp="#zadrapa" tls:created="2022-02-18T22:39:52.04+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>abstract space within certain limits</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-37a970a6-77cb-45fb-a970-a677cb85fbea" resp="#CH" tls:created="2022-09-21T16:44:33.659+09:00">
+            <form corresp="#uuid-90b714f7-877f-482e-9f11-a2bf53dc7fbf #uuid-08f4ae72-fbe2-480f-ba8b-797bd621e285">
+                <orth>尋常</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xún cháng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zim dzyang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljum djaŋ</pron>
+            </form>
+            <sense xml:id="uuid-e874eccb-ca5b-4afb-b4ec-cbca5b0afb06" resp="#CH" tls:created="2022-09-21T16:44:33.659+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>a territory of minimal size</def>
+            </sense>
+        </entry>
+    </div>
 </div>

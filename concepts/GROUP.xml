@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f0e7b237-8209-4441-a19a-5a6046703e53">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f0e7b237-8209-4441-a19a-5a6046703e53">
 <head>GROUP</head>
     <list type="altnames">
 <item>CLASS</item>
@@ -315,7 +316,22 @@
                 </gramGrp>
   <def>form a flock</def>
             </sense>
-<sense xml:id="uuid-64a5106c-fe70-4cd8-a510-6cfe70ccd8bc" resp="#zadrapa" tls:created="2022-06-01T22:15:26.527+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>organise people in a society</def></sense><sense xml:id="uuid-7318dae9-cb5c-4058-98da-e9cb5c70587e" resp="#zadrapa" tls:created="2023-05-23T21:55:11.12+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>social interaction</def></sense></entry>
+<sense xml:id="uuid-64a5106c-fe70-4cd8-a510-6cfe70ccd8bc" resp="#zadrapa" tls:created="2022-06-01T22:15:26.527+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>organise people in a society</def>
+            </sense>
+            <sense xml:id="uuid-7318dae9-cb5c-4058-98da-e9cb5c70587e" resp="#zadrapa" tls:created="2023-05-23T21:55:11.12+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>social interaction</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a4642fb3-f9a3-4f03-b676-8d6cd9d9a335">
             <form corresp="#uuid-bfd01c3d-b1e2-4395-8576-37ac13467046">
 <orth>肆</orth>
@@ -378,5 +394,27 @@
   <def>community, group; assembly</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-151d0e16-e6ac-42dc-9d0e-16e6ac62dc5e"><form><orth>屬</orth><pron xml:lang="zh-Latn-x-pinyin">shǔ</pron></form><def/><sense xml:id="uuid-5c3191e4-5155-4984-b191-e451553984bf" resp="#zadrapa" tls:created="2020-12-01T22:53:42.253+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func><tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2020-12-01T22:56:32.163+09:00">a group of people characterized by V-ing</def></sense><sense xml:id="uuid-7a77c939-b8d4-4c40-b7c9-39b8d4ec4042" resp="#zadrapa" tls:created="2023-06-13T20:33:21.444+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-48670316-2952-4035-aeaa-6665f5329cb9">nab.t:post.-N+zhi</tls:syn-func></gramGrp><def>生民之屬: the group of people consisting of N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-151d0e16-e6ac-42dc-9d0e-16e6ac62dc5e">
+            <form>
+                <orth>屬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǔ</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-5c3191e4-5155-4984-b191-e451553984bf" resp="#zadrapa" tls:created="2020-12-01T22:53:42.253+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-12-01T22:56:32.163+09:00">a group of people characterized by V-ing</def>
+            </sense>
+            <sense xml:id="uuid-7a77c939-b8d4-4c40-b7c9-39b8d4ec4042" resp="#zadrapa" tls:created="2023-06-13T20:33:21.444+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-48670316-2952-4035-aeaa-6665f5329cb9">nab.t:post.-N+zhi</tls:syn-func>
+                </gramGrp>
+                <def>生民之屬: the group of people consisting of N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d7e3f861-c3e0-4b4c-8bc7-3781a10eeb61">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d7e3f861-c3e0-4b4c-8bc7-3781a10eeb61">
 <head>SELL</head>
     <list type="altnames">
 <item>PUT UP FOR SALE</item>
@@ -446,7 +447,38 @@
                 </gramGrp>
   <def>sell (oneself) for the price of N2</def>
             </sense>
-<sense xml:id="uuid-af8d074a-833e-4f2b-8d07-4a833eaf2b88" resp="#zadrapa" tls:created="2021-05-27T16:21:42.988+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def>try to sell off</def></sense><sense xml:id="uuid-b8c499fa-3e40-4485-8499-fa3e40a48566" resp="#dsehnal" tls:created="2023-05-14T18:21:12.668+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c1fd2fbb-03b8-475d-9a14-7f40de36136b">vtoN1.+VtoN2</tls:syn-func><tls:sem-feat corresp="#"/></gramGrp><def resp="#dsehnal" updated="2023-05-14T18:27:36.767+09:00">sell N1 as N2</def></sense><sense xml:id="uuid-ffaa5b58-c947-44ef-aa5b-58c94764efe0" resp="#dsehnal" tls:created="2023-06-17T19:06:55.05+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>sell</def></sense><sense xml:id="uuid-5696e743-6fa6-4cff-96e7-436fa6acffe5" resp="#dsehnal" tls:created="2023-11-26T19:48:54.398+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>sell goods</def></sense></entry>
+<sense xml:id="uuid-af8d074a-833e-4f2b-8d07-4a833eaf2b88" resp="#zadrapa" tls:created="2021-05-27T16:21:42.988+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def>try to sell off</def>
+            </sense>
+            <sense xml:id="uuid-b8c499fa-3e40-4485-8499-fa3e40a48566" resp="#dsehnal" tls:created="2023-05-14T18:21:12.668+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c1fd2fbb-03b8-475d-9a14-7f40de36136b">vtoN1.+VtoN2</tls:syn-func>
+                    <tls:sem-feat corresp="#"/>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-05-14T18:27:36.767+09:00">sell N1 as N2</def>
+            </sense>
+            <sense xml:id="uuid-ffaa5b58-c947-44ef-aa5b-58c94764efe0" resp="#dsehnal" tls:created="2023-06-17T19:06:55.05+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>sell</def>
+            </sense>
+            <sense xml:id="uuid-5696e743-6fa6-4cff-96e7-436fa6acffe5" resp="#dsehnal" tls:created="2023-11-26T19:48:54.398+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>sell goods</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4c20fa3c-3388-451b-9711-4e727680bc1b">
             <form corresp="#uuid-25ba808a-96d3-4ed3-97a7-f195bbd3dc65">
 <orth>酤</orth>
@@ -473,7 +505,15 @@
                 </gramGrp>
   <def>sell, trade in</def>
             </sense>
-<sense xml:id="uuid-5e47ce28-f39f-40f0-87ce-28f39f30f000" resp="#CH" tls:created="2022-08-18T00:08:23.344+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>the activity of selling wine</def></sense></entry>
+<sense xml:id="uuid-5e47ce28-f39f-40f0-87ce-28f39f30f000" resp="#CH" tls:created="2022-08-18T00:08:23.344+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>the activity of selling wine</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-45ea1202-7c8d-477f-b3ed-e565aee357ab">
             <form corresp="#uuid-ebc23501-71bc-4ebc-b283-675e0413cb5f #uuid-1801511e-cfd9-43ba-a842-70498e4b6784">
 <orth>衒賣</orth>
@@ -504,5 +544,21 @@
   <def>sell the contextually determinate object to the contextually determinate buyer (probably not here: offer for sale???)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-85d0dc3b-f238-4515-90dc-3bf238d51522" resp="#zadrapa" tls:created="2022-02-11T20:39:23.369+09:00"><form corresp="#uuid-743700e2-21e8-407c-a3d3-71cdb0673ef4 #uuid-462c7040-c08a-4f26-a238-6105293eeb7e"><orth>反貨</orth><pron xml:lang="zh-Latn-x-pinyin">fān huò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjon xwaH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phan hŋʷaals</pron></form><sense xml:id="uuid-a9d9ca23-d98e-4674-99ca-23d98e8674bd" resp="#zadrapa" tls:created="2022-02-11T20:39:23.369+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>= fan4huo4 販貨: selling of goods, commerce</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-85d0dc3b-f238-4515-90dc-3bf238d51522" resp="#zadrapa" tls:created="2022-02-11T20:39:23.369+09:00">
+            <form corresp="#uuid-743700e2-21e8-407c-a3d3-71cdb0673ef4 #uuid-462c7040-c08a-4f26-a238-6105293eeb7e">
+                <orth>反貨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fān huò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjon xwaH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phan hŋʷaals</pron>
+            </form>
+            <sense xml:id="uuid-a9d9ca23-d98e-4674-99ca-23d98e8674bd" resp="#zadrapa" tls:created="2022-02-11T20:39:23.369+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>= fan4huo4 販貨: selling of goods, commerce</def>
+            </sense>
+        </entry>
+    </div>
 </div>

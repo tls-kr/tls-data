@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d2308761-87e9-44b9-8b7d-1e24876a5924">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d2308761-87e9-44b9-8b7d-1e24876a5924">
 <head>REGION</head>
     <list type="altnames">
 <item>DISTRICT</item>
@@ -107,7 +108,14 @@
                 </gramGrp>
   <def>region</def>
             </sense>
-<sense xml:id="uuid-ee5cd184-a78a-41a8-824e-fa4ee608de61" resp="#CH" tls:created="2019-10-17T16:00:55.353+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func></gramGrp><def>the people of the region</def></sense></entry>
+<sense xml:id="uuid-ee5cd184-a78a-41a8-824e-fa4ee608de61" resp="#CH" tls:created="2019-10-17T16:00:55.353+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the people of the region</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9801ac61-4435-4f25-896f-a12df03d34ba">
             <form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f">
 <orth>曲</orth>
@@ -148,7 +156,14 @@
                 </gramGrp>
   <def>locally, parochially</def>
             </sense>
-<sense xml:id="uuid-c2fd7d79-5b4c-4f1d-b242-0de4301e76be" resp="#CH" tls:created="2019-12-01T04:54:10.781+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>parochial small place, local region</def></sense></entry>
+<sense xml:id="uuid-c2fd7d79-5b4c-4f1d-b242-0de4301e76be" resp="#CH" tls:created="2019-12-01T04:54:10.781+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>parochial small place, local region</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7129ec9a-4a82-4e44-8947-b2da99722668">
             <form corresp="#uuid-b079fe55-8453-426a-bdcb-61d45134edeb">
 <orth>界</orth>
@@ -171,7 +186,14 @@
                 </gramGrp>
   <def>[BUDDH] realm 欲界、色界、無色界</def>
             </sense>
-<sense xml:id="uuid-f2d9d31b-9ccf-4894-99d3-1b9ccf08947d" resp="#dsehnal" tls:created="2023-06-02T23:01:07.522+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>within the boundaries of N; on the boundary of N</def></sense></entry>
+<sense xml:id="uuid-f2d9d31b-9ccf-4894-99d3-1b9ccf08947d" resp="#dsehnal" tls:created="2023-06-02T23:01:07.522+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>within the boundaries of N; on the boundary of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b75ed355-7704-4ffc-a359-763c362ecd74">
             <form corresp="#uuid-a2a5773d-9785-49d1-ae4b-47b648bddb7c">
 <orth>省</orth>
@@ -213,7 +235,21 @@
                 </gramGrp>
   <def>make into a district</def>
             </sense>
-<sense xml:id="uuid-5e740b95-9e38-43bb-b40b-959e3863bb71" resp="#CH" tls:created="2022-09-01T17:03:39.45+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-85043f3f-f41d-433b-8bea-c49352206a4e">nadS</tls:syn-func></gramGrp><def>in the district</def></sense><sense xml:id="uuid-154286c7-64af-4a4d-8286-c764affa4d2d" resp="#dsehnal" tls:created="2023-06-02T22:56:47.472+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func></gramGrp><def>the district Npr</def></sense></entry>
+<sense xml:id="uuid-5e740b95-9e38-43bb-b40b-959e3863bb71" resp="#CH" tls:created="2022-09-01T17:03:39.45+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-85043f3f-f41d-433b-8bea-c49352206a4e">nadS</tls:syn-func>
+                </gramGrp>
+                <def>in the district</def>
+            </sense>
+            <sense xml:id="uuid-154286c7-64af-4a4d-8286-c764affa4d2d" resp="#dsehnal" tls:created="2023-06-02T22:56:47.472+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                </gramGrp>
+                <def>the district Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a0ff3447-7403-4ceb-ad68-060088a5d18c">
             <form corresp="#uuid-012329d2-8a81-4a4f-ac3a-03885a49d6d6">
 <orth>道</orth>
@@ -245,7 +281,14 @@
                 </gramGrp>
   <def>province as instituted by the Qín</def>
             </sense>
-<sense xml:id="uuid-f70e68e7-757f-48a6-8e68-e7757f18a601" resp="#dsehnal" tls:created="2021-04-15T22:17:39.349+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the contextually determinate commandery</def></sense></entry>
+<sense xml:id="uuid-f70e68e7-757f-48a6-8e68-e7757f18a601" resp="#dsehnal" tls:created="2021-04-15T22:17:39.349+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the contextually determinate commandery</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-63faf8ce-c0df-4f61-86b5-3dfd393546f1">
             <form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa">
 <orth>鄉</orth>
@@ -326,5 +369,124 @@
   <def resp="#CH" updated="2022-09-16T21:17:33.261+09:00">official administrative regions</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-7d94c751-26e6-4cb9-8f4c-b2355fbec1b5" resp="#CH" tls:created="2019-11-28T03:02:48.57+09:00"><form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc"><orth>方</orth><pron xml:lang="zh-Latn-x-pinyin">fāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋ</pron></form><sense xml:id="uuid-48850854-0c68-462a-b569-092c1486dcde" resp="#CH" tls:created="2019-11-28T03:02:48.57+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>realm, region</def></sense><sense xml:id="uuid-8dd6be04-0bc5-4bff-84ec-1249587cafb0" resp="#CH" tls:created="2019-12-11T18:12:24.661+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>region</def></sense></entry><entry type="word" xml:id="uuid-df03b67c-2430-4dd5-b23c-e1f6b46c43f2" resp="#CH" tls:created="2019-11-28T03:04:42.822+09:00"><form corresp="#uuid-bbce3357-7aa9-40c7-85ca-782f2c15b7d3"><orth>域</orth><pron xml:lang="zh-Latn-x-pinyin">yù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷrɯɡ</pron></form><sense xml:id="uuid-1560e96e-6fd7-43d3-ab55-a9f621c55a1d" resp="#CH" tls:created="2019-11-28T03:04:42.822+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>realm of the universe; part of the world</def></sense></entry><entry type="word" xml:id="uuid-a5fbd3a6-ad47-4171-bbd3-a6ad47417169" resp="#zadrapa" tls:created="2022-05-30T15:56:34.736+09:00"><form corresp="#uuid-05a59d2c-7560-4195-a9b2-ecec341d0166 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b"><orth>北海</orth><pron xml:lang="zh-Latn-x-pinyin">běi hǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pok xojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯɡ hmlɯɯʔ</pron></form><sense xml:id="uuid-7f020a9e-e06a-4bdd-820a-9ee06acbddb5" resp="#zadrapa" tls:created="2022-05-30T15:56:34.736+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func></gramGrp><def>Far North, territories north of the central states</def></sense></entry><entry type="word" xml:id="uuid-0d4e5766-e489-4d8f-8e57-66e489ad8f5b" resp="#zadrapa" tls:created="2022-05-30T15:57:09.4+09:00"><form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b"><orth>南海</orth><pron xml:lang="zh-Latn-x-pinyin">nán hǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nom xojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">noom hmlɯɯʔ</pron></form><sense xml:id="uuid-55b67ed9-2e21-4b21-b67e-d92e218b2111" resp="#zadrapa" tls:created="2022-05-30T15:57:09.4+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func></gramGrp><def>Far South, territories south of the central states</def></sense></entry><entry type="word" xml:id="uuid-b4738ce8-f10c-4000-b38c-e8f10cf0006f" resp="#zadrapa" tls:created="2022-05-30T15:58:21.213+09:00"><form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b"><orth>東海</orth><pron xml:lang="zh-Latn-x-pinyin">dōng hǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tuwng xojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tooŋ hmlɯɯʔ</pron></form><sense xml:id="uuid-55551982-8ed2-4db7-9519-828ed2ddb7d5" resp="#zadrapa" tls:created="2022-05-30T15:58:21.213+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2022-05-30T15:59:22.531+09:00">Far East, territories east of the central states or at least on their eastern periphery</def></sense><sense xml:id="uuid-1b9b1aa5-4908-4555-9b1a-a54908f55555" resp="#dsehnal" tls:created="2023-06-08T03:04:07.107+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d7af5aec-67fc-4c7e-af5a-ec67fcfc7e52">npostNpr.adN</tls:syn-func></gramGrp><def>from the Dōnghǎi region</def></sense></entry><entry type="word" xml:id="uuid-220b9449-345b-4d63-8b94-49345bfd63e1" resp="#zadrapa" tls:created="2022-05-30T15:59:04.365+09:00"><form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b"><orth>西海</orth><pron xml:lang="zh-Latn-x-pinyin">xī hǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sej xojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqɯɯl hmlɯɯʔ</pron></form><sense xml:id="uuid-9f909c2d-ab65-480b-909c-2dab65e80bf4" resp="#zadrapa" tls:created="2022-05-30T15:59:04.365+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func></gramGrp><def>Far West, territories west of the central states</def></sense></entry><entry type="word" xml:id="uuid-64038430-89f2-46d4-8384-3089f226d44b" resp="#zadrapa" tls:created="2022-06-07T04:24:34.687+09:00"><form corresp="#uuid-875ca067-c285-434c-91df-40d7f2498d27 #uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2"><orth>州里</orth><pron xml:lang="zh-Latn-x-pinyin">zhōu lǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuw liX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kju ɡ-rɯʔ</pron></form><sense xml:id="uuid-b2ad99e3-635a-48fa-ad99-e3635a18fafb" resp="#zadrapa" tls:created="2022-06-07T04:24:34.687+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>administrative units of various sizes</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-7d94c751-26e6-4cb9-8f4c-b2355fbec1b5" resp="#CH" tls:created="2019-11-28T03:02:48.57+09:00">
+            <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
+                <orth>方</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋ</pron>
+            </form>
+            <sense xml:id="uuid-48850854-0c68-462a-b569-092c1486dcde" resp="#CH" tls:created="2019-11-28T03:02:48.57+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>realm, region</def>
+            </sense>
+            <sense xml:id="uuid-8dd6be04-0bc5-4bff-84ec-1249587cafb0" resp="#CH" tls:created="2019-12-11T18:12:24.661+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>region</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-df03b67c-2430-4dd5-b23c-e1f6b46c43f2" resp="#CH" tls:created="2019-11-28T03:04:42.822+09:00">
+            <form corresp="#uuid-bbce3357-7aa9-40c7-85ca-782f2c15b7d3">
+                <orth>域</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷrɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-1560e96e-6fd7-43d3-ab55-a9f621c55a1d" resp="#CH" tls:created="2019-11-28T03:04:42.822+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>realm of the universe; part of the world</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a5fbd3a6-ad47-4171-bbd3-a6ad47417169" resp="#zadrapa" tls:created="2022-05-30T15:56:34.736+09:00">
+            <form corresp="#uuid-05a59d2c-7560-4195-a9b2-ecec341d0166 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b">
+                <orth>北海</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">běi hǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pok xojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯɡ hmlɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-7f020a9e-e06a-4bdd-820a-9ee06acbddb5" resp="#zadrapa" tls:created="2022-05-30T15:56:34.736+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                </gramGrp>
+                <def>Far North, territories north of the central states</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0d4e5766-e489-4d8f-8e57-66e489ad8f5b" resp="#zadrapa" tls:created="2022-05-30T15:57:09.4+09:00">
+            <form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b">
+                <orth>南海</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nán hǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nom xojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">noom hmlɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-55b67ed9-2e21-4b21-b67e-d92e218b2111" resp="#zadrapa" tls:created="2022-05-30T15:57:09.4+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                </gramGrp>
+                <def>Far South, territories south of the central states</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b4738ce8-f10c-4000-b38c-e8f10cf0006f" resp="#zadrapa" tls:created="2022-05-30T15:58:21.213+09:00">
+            <form corresp="#uuid-f9deb1f1-0083-4ec9-85d4-9830362bb052 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b">
+                <orth>東海</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dōng hǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tuwng xojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tooŋ hmlɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-55551982-8ed2-4db7-9519-828ed2ddb7d5" resp="#zadrapa" tls:created="2022-05-30T15:58:21.213+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-05-30T15:59:22.531+09:00">Far East, territories east of the central states or at least on their eastern periphery</def>
+            </sense>
+            <sense xml:id="uuid-1b9b1aa5-4908-4555-9b1a-a54908f55555" resp="#dsehnal" tls:created="2023-06-08T03:04:07.107+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d7af5aec-67fc-4c7e-af5a-ec67fcfc7e52">npostNpr.adN</tls:syn-func>
+                </gramGrp>
+                <def>from the Dōnghǎi region</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-220b9449-345b-4d63-8b94-49345bfd63e1" resp="#zadrapa" tls:created="2022-05-30T15:59:04.365+09:00">
+            <form corresp="#uuid-4e38a05e-2438-4c23-acdd-03ac49223167 #uuid-ee5e8b89-0b67-44ed-804d-8b0bf3fcc14b">
+                <orth>西海</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī hǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sej xojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqɯɯl hmlɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-9f909c2d-ab65-480b-909c-2dab65e80bf4" resp="#zadrapa" tls:created="2022-05-30T15:59:04.365+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                </gramGrp>
+                <def>Far West, territories west of the central states</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-64038430-89f2-46d4-8384-3089f226d44b" resp="#zadrapa" tls:created="2022-06-07T04:24:34.687+09:00">
+            <form corresp="#uuid-875ca067-c285-434c-91df-40d7f2498d27 #uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2">
+                <orth>州里</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhōu lǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuw liX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kju ɡ-rɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-b2ad99e3-635a-48fa-ad99-e3635a18fafb" resp="#zadrapa" tls:created="2022-06-07T04:24:34.687+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>administrative units of various sizes</def>
+            </sense>
+        </entry>
+    </div>
 </div>

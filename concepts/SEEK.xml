@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-08f62a42-0871-4eb7-a6e1-92e00657c53e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-08f62a42-0871-4eb7-a6e1-92e00657c53e">
 <head>SEEK</head>
     <list type="altnames">
 <item>SEARCH</item>
@@ -219,7 +220,14 @@
                 </gramGrp>
   <def>look for (a person)</def>
             </sense>
-<sense xml:id="uuid-123f2ccc-c201-443c-bf2c-ccc201943c62" resp="#CH" tls:created="2020-05-03T02:25:44.242+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>seek after, pursue</def></sense></entry>
+<sense xml:id="uuid-123f2ccc-c201-443c-bf2c-ccc201943c62" resp="#CH" tls:created="2020-05-03T02:25:44.242+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>seek after, pursue</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-53d8c13a-c787-4152-b3dd-970763f48549">
             <form corresp="#uuid-ff9613a7-d4c1-408d-ac24-7d6b14315284">
 <orth>就</orth>
@@ -477,7 +485,52 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-13T21:22:13.409+09:00">seek N1 from N2, look for it in N2</def>
             </sense>
-<sense xml:id="uuid-2cd46628-c380-449a-843d-cf5310750d5c" resp="#CH" tls:created="2019-10-31T17:43:13.332+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>seek the company or friendship of</def></sense><sense xml:id="uuid-b4f1e1e3-bcc0-4001-b1e1-e3bcc0600131" resp="#CH" tls:created="2020-02-13T07:37:13.906+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp><def>seek for oneself (?)</def></sense><sense xml:id="uuid-d40e187c-e732-43c3-8e18-7ce732b3c36e" resp="#CH" tls:created="2020-04-09T18:02:24.171+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>try to find (a concrete physical object)</def></sense><sense xml:id="uuid-85e27aa7-3ed3-4684-a27a-a73ed32684b9" resp="#CH" tls:created="2022-08-17T19:56:39.644+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func></gramGrp><def>求得"seek to obtain": seek to</def></sense><sense xml:id="uuid-fa60153b-6e0c-4952-a015-3b6e0c395220" resp="#CH" tls:created="2022-08-18T16:53:48.601+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act of seeking</tls:sem-feat></gramGrp><def>seeking</def></sense><sense xml:id="uuid-ff804f1c-eea5-4454-804f-1ceea5c4548d" resp="#dsehnal" tls:created="2023-06-02T19:12:58.315+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-5b74642c-41bc-4eb2-ac7e-5ce239b5a658">positive</tls:sem-feat></gramGrp><def>seek to get things; aspire on things; try to get</def></sense></entry>
+<sense xml:id="uuid-2cd46628-c380-449a-843d-cf5310750d5c" resp="#CH" tls:created="2019-10-31T17:43:13.332+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>seek the company or friendship of</def>
+            </sense>
+            <sense xml:id="uuid-b4f1e1e3-bcc0-4001-b1e1-e3bcc0600131" resp="#CH" tls:created="2020-02-13T07:37:13.906+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
+                <def>seek for oneself (?)</def>
+            </sense>
+            <sense xml:id="uuid-d40e187c-e732-43c3-8e18-7ce732b3c36e" resp="#CH" tls:created="2020-04-09T18:02:24.171+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>try to find (a concrete physical object)</def>
+            </sense>
+            <sense xml:id="uuid-85e27aa7-3ed3-4684-a27a-a73ed32684b9" resp="#CH" tls:created="2022-08-17T19:56:39.644+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func>
+                </gramGrp>
+                <def>求得"seek to obtain": seek to</def>
+            </sense>
+            <sense xml:id="uuid-fa60153b-6e0c-4952-a015-3b6e0c395220" resp="#CH" tls:created="2022-08-18T16:53:48.601+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act of seeking</tls:sem-feat>
+                </gramGrp>
+                <def>seeking</def>
+            </sense>
+            <sense xml:id="uuid-ff804f1c-eea5-4454-804f-1ceea5c4548d" resp="#dsehnal" tls:created="2023-06-02T19:12:58.315+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5b74642c-41bc-4eb2-ac7e-5ce239b5a658">positive</tls:sem-feat>
+                </gramGrp>
+                <def>seek to get things; aspire on things; try to get</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-80ba78ff-792d-41b8-9665-15377fd370eb">
             <form corresp="#uuid-ecce0d05-774e-4fa8-8cd2-582cd9ca242c">
 <orth>爭</orth>
@@ -495,7 +548,22 @@
                 </gramGrp>
   <def>endeavour (to do something); try hard</def>
             </sense>
-<sense xml:id="uuid-93713d7a-8b47-42a0-84fb-ffabf7f8573f" resp="#CH" tls:created="2019-12-04T23:53:14.184+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-15T07:09:11.273+09:00">fight or struggle to obtain</def></sense><sense xml:id="uuid-77d9baee-9152-468f-99ba-ee9152d68faf" resp="#zadrapa" tls:created="2021-06-02T20:35:25.942+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be sought hard</def></sense></entry>
+<sense xml:id="uuid-93713d7a-8b47-42a0-84fb-ffabf7f8573f" resp="#CH" tls:created="2019-12-04T23:53:14.184+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-15T07:09:11.273+09:00">fight or struggle to obtain</def>
+            </sense>
+            <sense xml:id="uuid-77d9baee-9152-468f-99ba-ee9152d68faf" resp="#zadrapa" tls:created="2021-06-02T20:35:25.942+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be sought hard</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f22adccf-754d-4397-8c84-be4b28f3f4f5">
             <form corresp="#uuid-4343a1ca-1070-42ba-b9ea-e49d224811a5">
 <orth>牟</orth>
@@ -730,7 +798,15 @@
                 </gramGrp>
   <def>be pursued</def>
             </sense>
-<sense xml:id="uuid-cadc06d5-3829-4f65-89ae-a329130094bc" resp="#CH" tls:created="2019-12-02T18:49:53.336+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>pursue as valuable (physical things)</def></sense></entry>
+<sense xml:id="uuid-cadc06d5-3829-4f65-89ae-a329130094bc" resp="#CH" tls:created="2019-12-02T18:49:53.336+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>pursue as valuable (physical things)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-33b2ea80-fd65-462e-b083-ade5f2658485">
             <form corresp="#uuid-32e15416-237c-4b18-b7b4-fccf5e0ddfd6">
 <orth>采</orth>
@@ -1116,11 +1192,102 @@
   <def>seek in a confused way; aimlessly strive after</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-163fd90a-ff27-441c-9fe3-624908f29a1c" resp="#CH" tls:created="2019-12-02T00:04:27.59+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6291597f-4d0d-4bae-a69e-3d86ccdf1995" resp="#CH" tls:created="2019-12-02T00:04:27.59+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func></gramGrp><def>seek to obtain (things)&gt; seek gain</def></sense></entry><entry type="word" xml:id="uuid-a7bf2cd2-efc1-48ac-a68e-4c49bcd7a57d" resp="#CH" tls:created="2019-12-02T00:04:42.148+09:00"><form corresp="#uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75 #uuid-2f255ab2-0652-443e-94c1-e442903989f8"><orth>求得</orth><pron xml:lang="zh-Latn-x-pinyin">qiú dé
+    <entry type="word" xml:id="uuid-163fd90a-ff27-441c-9fe3-624908f29a1c" resp="#CH" tls:created="2019-12-02T00:04:27.59+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6291597f-4d0d-4bae-a69e-3d86ccdf1995" resp="#CH" tls:created="2019-12-02T00:04:27.59+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                </gramGrp>
+                <def>seek to obtain (things)&gt; seek gain</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a7bf2cd2-efc1-48ac-a68e-4c49bcd7a57d" resp="#CH" tls:created="2019-12-02T00:04:42.148+09:00">
+            <form corresp="#uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75 #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+                <orth>求得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiú dé
  dé
  de
  děi
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjuw tok
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡu tɯɯɡ
-</pron></form><sense xml:id="uuid-7d4f48eb-888c-4565-bf3d-e0c48f89f475" resp="#CH" tls:created="2019-12-02T00:04:42.148+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func></gramGrp><def>seek to obtain (things)&gt; seek gain</def></sense></entry><entry type="word" xml:id="uuid-9c653d47-b466-40a7-a36b-405b3d244d1e" resp="#CH" tls:created="2019-12-07T19:41:35.426+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-8382143c-c66e-4d92-883c-d83049ee245b" resp="#CH" tls:created="2019-12-07T19:41:35.426+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>seek aggressively to obtain things</def></sense></entry><entry type="word" xml:id="uuid-b2e7ad2e-bb31-47c9-b641-c9e6038f8f67" resp="#CH" tls:created="2019-12-07T19:41:45.199+09:00"><form corresp="#uuid-ecce0d05-774e-4fa8-8cd2-582cd9ca242c #uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75"><orth>爭求</orth><pron xml:lang="zh-Latn-x-pinyin">zhēng qiú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsreang gjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skreeŋ ɡu</pron></form><sense xml:id="uuid-9768d807-7f4e-496e-9474-4ddb28dc0c83" resp="#CH" tls:created="2019-12-07T19:41:45.199+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>seek aggressively to obtain things</def></sense></entry><entry type="word" xml:id="uuid-a2d20b57-7493-4fe6-920b-577493efe6a8" resp="#CH" tls:created="2021-06-20T18:20:16.454+09:00"><form corresp="#uuid-a90ebdad-4619-420c-a40c-67516972eec0"><orth>殉</orth><pron xml:lang="zh-Latn-x-pinyin">xùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zwinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢʷlins</pron></form><sense xml:id="uuid-9e1eb213-592d-49af-9eb2-13592db9afe2" resp="#CH" tls:created="2021-06-20T18:20:16.454+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>pursue</def></sense></entry><entry type="word" xml:id="uuid-a5476afc-b460-4d96-876a-fcb4605d96b1" resp="#Valerie.Kiel" tls:created="2021-07-05T05:59:40.389+09:00"><form corresp="#uuid-cbdf7459-9fba-4327-a449-42218e8b9ca0"><orth>訪</orth><pron xml:lang="zh-Latn-x-pinyin">fǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaŋs</pron></form><sense xml:id="uuid-93f8149f-dea9-47fd-b814-9fdea9c7fd5a" resp="#Valerie.Kiel" tls:created="2021-07-05T05:59:40.389+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>seek out N</def></sense></entry></div>
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjuw tok
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡu tɯɯɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-7d4f48eb-888c-4565-bf3d-e0c48f89f475" resp="#CH" tls:created="2019-12-02T00:04:42.148+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                </gramGrp>
+                <def>seek to obtain (things)&gt; seek gain</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9c653d47-b466-40a7-a36b-405b3d244d1e" resp="#CH" tls:created="2019-12-07T19:41:35.426+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-8382143c-c66e-4d92-883c-d83049ee245b" resp="#CH" tls:created="2019-12-07T19:41:35.426+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>seek aggressively to obtain things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b2e7ad2e-bb31-47c9-b641-c9e6038f8f67" resp="#CH" tls:created="2019-12-07T19:41:45.199+09:00">
+            <form corresp="#uuid-ecce0d05-774e-4fa8-8cd2-582cd9ca242c #uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75">
+                <orth>爭求</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhēng qiú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsreang gjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skreeŋ ɡu</pron>
+            </form>
+            <sense xml:id="uuid-9768d807-7f4e-496e-9474-4ddb28dc0c83" resp="#CH" tls:created="2019-12-07T19:41:45.199+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>seek aggressively to obtain things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a2d20b57-7493-4fe6-920b-577493efe6a8" resp="#CH" tls:created="2021-06-20T18:20:16.454+09:00">
+            <form corresp="#uuid-a90ebdad-4619-420c-a40c-67516972eec0">
+                <orth>殉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zwinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢʷlins</pron>
+            </form>
+            <sense xml:id="uuid-9e1eb213-592d-49af-9eb2-13592db9afe2" resp="#CH" tls:created="2021-06-20T18:20:16.454+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>pursue</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a5476afc-b460-4d96-876a-fcb4605d96b1" resp="#Valerie.Kiel" tls:created="2021-07-05T05:59:40.389+09:00">
+            <form corresp="#uuid-cbdf7459-9fba-4327-a449-42218e8b9ca0">
+                <orth>訪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaŋs</pron>
+            </form>
+            <sense xml:id="uuid-93f8149f-dea9-47fd-b814-9fdea9c7fd5a" resp="#Valerie.Kiel" tls:created="2021-07-05T05:59:40.389+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>seek out N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

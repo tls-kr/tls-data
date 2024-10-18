@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-73fa76fc-dcb1-4370-aa28-9afb6212e716">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-73fa76fc-dcb1-4370-aa28-9afb6212e716">
 <head>FLOW</head>
     <list type="altnames">
 <item>RUN</item>
@@ -282,7 +283,38 @@
                 </gramGrp>
   <def>flow in (a direction); flow over a surface</def>
             </sense>
-<sense xml:id="uuid-43182461-9f57-4081-9824-619f574081f5" resp="#CH" tls:created="2020-02-13T05:29:12.6+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>flow out towards</def></sense><sense xml:id="uuid-b6b6119e-ba69-4f2b-b611-9eba698f2bea" resp="#CH" tls:created="2020-02-14T04:45:42.436+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>flow through</def></sense><sense xml:id="uuid-a899090f-c9ff-47ff-9909-0fc9ff57ff53" resp="#dsehnal" tls:created="2024-05-19T22:06:58.784+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0663d50c-e1bf-4f80-a3d5-0ce1bf9f807f">vt1oN1.-vt2oN2</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>let N1 to flow as to create N2</def></sense><sense xml:id="uuid-367ba0d7-78f6-4f7e-bba0-d778f60f7e91" resp="#dsehnal" tls:created="2024-06-10T01:18:45.325+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-a0f078e3-bab7-4750-b078-e3bab7f75095">inchoative,act</tls:sem-feat></gramGrp><def>start flowing</def></sense></entry>
+<sense xml:id="uuid-43182461-9f57-4081-9824-619f574081f5" resp="#CH" tls:created="2020-02-13T05:29:12.6+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>flow out towards</def>
+            </sense>
+            <sense xml:id="uuid-b6b6119e-ba69-4f2b-b611-9eba698f2bea" resp="#CH" tls:created="2020-02-14T04:45:42.436+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>flow through</def>
+            </sense>
+            <sense xml:id="uuid-a899090f-c9ff-47ff-9909-0fc9ff57ff53" resp="#dsehnal" tls:created="2024-05-19T22:06:58.784+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0663d50c-e1bf-4f80-a3d5-0ce1bf9f807f">vt1oN1.-vt2oN2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>let N1 to flow as to create N2</def>
+            </sense>
+            <sense xml:id="uuid-367ba0d7-78f6-4f7e-bba0-d778f60f7e91" resp="#dsehnal" tls:created="2024-06-10T01:18:45.325+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a0f078e3-bab7-4750-b078-e3bab7f75095">inchoative,act</tls:sem-feat>
+                </gramGrp>
+                <def>start flowing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-37ee7e50-bdf9-4336-8a2c-ba41132bccbc">
             <form corresp="#uuid-e8e33fdb-61e8-48ab-a314-8ef704aa1183">
 <orth>混</orth>
@@ -323,7 +355,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-14T18:05:53.927+09:00">gyrate, whirl; gush forth, gush out</def>
             </sense>
-<sense xml:id="uuid-0cac3b9d-ada6-4835-ac3b-9dada6a8357f" resp="#CH" tls:created="2024-02-14T18:06:38.797+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>gyrating; whirling</def></sense></entry>
+<sense xml:id="uuid-0cac3b9d-ada6-4835-ac3b-9dada6a8357f" resp="#CH" tls:created="2024-02-14T18:06:38.797+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>gyrating; whirling</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c3a1851b-ae3b-41aa-817c-141efdc8bef6">
             <form corresp="#uuid-dd607e41-7cb7-44a1-b11e-88617bb2fd2d">
 <orth>滔</orth>
@@ -604,7 +643,15 @@
                 </gramGrp>
   <def>pass along, pass on; keep flowing</def>
             </sense>
-<sense xml:id="uuid-791fd9e7-13de-4bbc-9fd9-e713de7bbc3b" resp="#CH" tls:created="2020-12-22T00:55:06.173+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>the passing of things</def></sense></entry>
+<sense xml:id="uuid-791fd9e7-13de-4bbc-9fd9-e713de7bbc3b" resp="#CH" tls:created="2020-12-22T00:55:06.173+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>the passing of things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-80a6b6c1-1187-4080-af41-4d5a785316f9">
             <form corresp="#uuid-eb255749-0d09-44e0-85ed-6e8f67c32adc">
 <orth>遂</orth>
@@ -738,8 +785,173 @@
   <def>flow fast, flow along quickly</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9d0f09be-736f-449d-b563-9c1056292638" resp="#CH" tls:created="2019-12-12T05:20:50.048+09:00"><form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243"><orth>䟽</orth><pron xml:lang="zh-Latn-x-pinyin">shū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqra</pron></form><sense xml:id="uuid-0c069585-f32c-4923-8561-c6acbde23e74" resp="#CH" tls:created="2019-12-12T05:20:50.048+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>=疏 cause to flow differently&gt; divert CHECK THIS!</def></sense></entry><entry type="word" xml:id="uuid-67361b00-9f56-4acb-90a1-1ada1a1a7f38" resp="#CH" tls:created="2020-02-06T20:13:11.289+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-9ef530be-b6b6-42ba-b567-cffff2fdd7b0" resp="#CH" tls:created="2020-02-06T20:13:11.289+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>flow freely from</def></sense></entry><entry type="word" xml:id="uuid-1f8f9d13-4022-4bc5-8467-cf8c02ac38a3" resp="#CH" tls:created="2020-02-06T20:13:27.033+09:00"><form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913 #uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c"><orth>流離</orth><pron xml:lang="zh-Latn-x-pinyin">liú lí
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljuw lje
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ru b-rel
-</pron></form><sense xml:id="uuid-bd432761-d149-4c66-88df-bd2e0444e1fb" resp="#CH" tls:created="2020-02-06T20:13:27.033+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>flow freely from</def></sense></entry><entry type="word" xml:id="uuid-633f0c90-e205-46f5-bf0c-90e20586f5d8" resp="#CH" tls:created="2021-04-06T02:08:10.324+09:00"><form corresp="#uuid-b9c7d96b-7cc9-494c-9288-ae00ea1fb5aa #uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913"><orth>涇流</orth><pron xml:lang="zh-Latn-x-pinyin">jīng liú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keng ljuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keeŋ ru</pron></form><sense xml:id="uuid-eef9a2c1-d94c-4480-b9a2-c1d94c7480d0" resp="#CH" tls:created="2021-04-06T02:08:10.324+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>rapid movement of flood</def></sense></entry><entry type="word" xml:id="uuid-ecb51c39-4479-4905-b51c-394479090583" resp="#CH" tls:created="2021-04-06T02:08:10.549+09:00"><form corresp="#uuid-b9c7d96b-7cc9-494c-9288-ae00ea1fb5aa #uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913"><orth>涇流</orth><pron xml:lang="zh-Latn-x-pinyin">jīng liú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keng ljuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keeŋ ru</pron></form><sense xml:id="uuid-76dd1485-9734-446f-9d14-859734146fdf" resp="#CH" tls:created="2021-04-06T02:08:10.549+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>rapid movement of flood</def></sense></entry><entry type="word" xml:id="uuid-5b0094a1-03da-4e42-8094-a103da0e4202" resp="#CH" tls:created="2021-05-27T17:51:05.338+09:00"><form corresp="#uuid-5c610b4a-7692-4ee2-8c37-0bd5afd132ec"><orth>汋</orth><pron xml:lang="zh-Latn-x-pinyin">zhuó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzraewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sbreewɡ</pron></form><sense xml:id="uuid-677e5629-ba90-4341-be56-29ba90734166" resp="#CH" tls:created="2021-05-27T17:51:05.338+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>flow along, move along; gush forth</def></sense><sense xml:id="uuid-f11fda48-691c-4c70-9fda-48691c1c70d2" resp="#CH" tls:created="2021-05-27T17:54:28.935+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#">process</tls:sem-feat></gramGrp><def>the gurgling along (of water), the swishing along (of water)</def></sense></entry><entry type="word" xml:id="uuid-01ec134c-3123-4e1f-ac13-4c31231e1fb5" resp="#CH" tls:created="2021-09-19T16:54:48.566+09:00"><form corresp="#uuid-2cb6c010-78ed-44d1-a93d-ced247825273"><orth>順</orth><pron xml:lang="zh-Latn-x-pinyin">shùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zywinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢjuns</pron></form><sense xml:id="uuid-d38d3d49-c729-4fff-8d3d-49c7294fffd7" resp="#CH" tls:created="2021-09-19T16:54:48.566+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>the flow of time</def></sense></entry><entry type="word" xml:id="uuid-56a600ea-b58d-4a3d-a600-eab58dea3de8" resp="#zadrapa" tls:created="2022-06-03T17:41:21.339+09:00"><form corresp="#uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb"><orth>行</orth><pron xml:lang="zh-Latn-x-pinyin">xíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraaŋ</pron></form><sense xml:id="uuid-8b1def69-1e22-49fd-9def-691e2239fdaf" resp="#zadrapa" tls:created="2022-06-03T17:41:21.339+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-11T19:41:28.716+09:00">make N flow naturally away; drain N</def></sense><sense xml:id="uuid-912b7015-ac35-4f18-ab70-15ac35ef180b" resp="#CH" tls:created="2024-02-11T19:44:38.363+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func></gramGrp><def>cause the contextually determinate N1 to flow in the direction of N2</def></sense><sense xml:id="uuid-826436ce-5319-471f-a436-ce5319771f4f" resp="#CH" tls:created="2024-02-11T19:53:18.427+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>let things naturally flow where they have no trouble/meet no resistance</def></sense></entry><entry type="word" xml:id="uuid-4258433c-fd6e-4dc0-9843-3cfd6e9dc0bf" resp="#CH" tls:created="2024-02-13T05:18:08.477+09:00"><form corresp="#uuid-7326fb18-aff5-4ed6-a3fe-fec0bdb33d8f"><orth>放</orth><pron xml:lang="zh-Latn-x-pinyin">fàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋs</pron></form><sense xml:id="uuid-9015160f-b1a2-463a-9516-0fb1a2163a44" resp="#CH" tls:created="2024-02-13T05:18:08.477+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>flow briskly towards N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9d0f09be-736f-449d-b563-9c1056292638" resp="#CH" tls:created="2019-12-12T05:20:50.048+09:00">
+            <form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243">
+                <orth>䟽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqra</pron>
+            </form>
+            <sense xml:id="uuid-0c069585-f32c-4923-8561-c6acbde23e74" resp="#CH" tls:created="2019-12-12T05:20:50.048+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>=疏 cause to flow differently&gt; divert CHECK THIS!</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-67361b00-9f56-4acb-90a1-1ada1a1a7f38" resp="#CH" tls:created="2020-02-06T20:13:11.289+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-9ef530be-b6b6-42ba-b567-cffff2fdd7b0" resp="#CH" tls:created="2020-02-06T20:13:11.289+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>flow freely from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1f8f9d13-4022-4bc5-8467-cf8c02ac38a3" resp="#CH" tls:created="2020-02-06T20:13:27.033+09:00">
+            <form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913 #uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c">
+                <orth>流離</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liú lí
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljuw lje
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ru b-rel
+</pron>
+            </form>
+            <sense xml:id="uuid-bd432761-d149-4c66-88df-bd2e0444e1fb" resp="#CH" tls:created="2020-02-06T20:13:27.033+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>flow freely from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-633f0c90-e205-46f5-bf0c-90e20586f5d8" resp="#CH" tls:created="2021-04-06T02:08:10.324+09:00">
+            <form corresp="#uuid-b9c7d96b-7cc9-494c-9288-ae00ea1fb5aa #uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
+                <orth>涇流</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīng liú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keng ljuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keeŋ ru</pron>
+            </form>
+            <sense xml:id="uuid-eef9a2c1-d94c-4480-b9a2-c1d94c7480d0" resp="#CH" tls:created="2021-04-06T02:08:10.324+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>rapid movement of flood</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ecb51c39-4479-4905-b51c-394479090583" resp="#CH" tls:created="2021-04-06T02:08:10.549+09:00">
+            <form corresp="#uuid-b9c7d96b-7cc9-494c-9288-ae00ea1fb5aa #uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
+                <orth>涇流</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīng liú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keng ljuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keeŋ ru</pron>
+            </form>
+            <sense xml:id="uuid-76dd1485-9734-446f-9d14-859734146fdf" resp="#CH" tls:created="2021-04-06T02:08:10.549+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>rapid movement of flood</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5b0094a1-03da-4e42-8094-a103da0e4202" resp="#CH" tls:created="2021-05-27T17:51:05.338+09:00">
+            <form corresp="#uuid-5c610b4a-7692-4ee2-8c37-0bd5afd132ec">
+                <orth>汋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzraewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sbreewɡ</pron>
+            </form>
+            <sense xml:id="uuid-677e5629-ba90-4341-be56-29ba90734166" resp="#CH" tls:created="2021-05-27T17:51:05.338+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>flow along, move along; gush forth</def>
+            </sense>
+            <sense xml:id="uuid-f11fda48-691c-4c70-9fda-48691c1c70d2" resp="#CH" tls:created="2021-05-27T17:54:28.935+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#">process</tls:sem-feat>
+                </gramGrp>
+                <def>the gurgling along (of water), the swishing along (of water)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-01ec134c-3123-4e1f-ac13-4c31231e1fb5" resp="#CH" tls:created="2021-09-19T16:54:48.566+09:00">
+            <form corresp="#uuid-2cb6c010-78ed-44d1-a93d-ced247825273">
+                <orth>順</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zywinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢjuns</pron>
+            </form>
+            <sense xml:id="uuid-d38d3d49-c729-4fff-8d3d-49c7294fffd7" resp="#CH" tls:created="2021-09-19T16:54:48.566+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>the flow of time</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-56a600ea-b58d-4a3d-a600-eab58dea3de8" resp="#zadrapa" tls:created="2022-06-03T17:41:21.339+09:00">
+            <form corresp="#uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb">
+                <orth>行</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-8b1def69-1e22-49fd-9def-691e2239fdaf" resp="#zadrapa" tls:created="2022-06-03T17:41:21.339+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-11T19:41:28.716+09:00">make N flow naturally away; drain N</def>
+            </sense>
+            <sense xml:id="uuid-912b7015-ac35-4f18-ab70-15ac35ef180b" resp="#CH" tls:created="2024-02-11T19:44:38.363+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>cause the contextually determinate N1 to flow in the direction of N2</def>
+            </sense>
+            <sense xml:id="uuid-826436ce-5319-471f-a436-ce5319771f4f" resp="#CH" tls:created="2024-02-11T19:53:18.427+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>let things naturally flow where they have no trouble/meet no resistance</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4258433c-fd6e-4dc0-9843-3cfd6e9dc0bf" resp="#CH" tls:created="2024-02-13T05:18:08.477+09:00">
+            <form corresp="#uuid-7326fb18-aff5-4ed6-a3fe-fec0bdb33d8f">
+                <orth>放</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋs</pron>
+            </form>
+            <sense xml:id="uuid-9015160f-b1a2-463a-9516-0fb1a2163a44" resp="#CH" tls:created="2024-02-13T05:18:08.477+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>flow briskly towards N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

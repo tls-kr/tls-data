@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ebcfdb81-b800-430b-93fa-bd19e1e371ed">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ebcfdb81-b800-430b-93fa-bd19e1e371ed">
 <head>MINISTER</head>
     <list type="translations">
         <item xml:lang="zh">大臣</item>
@@ -309,7 +310,43 @@
                 </gramGrp>
   <def>make N1 prime minister in N2</def>
             </sense>
-<sense xml:id="uuid-ebf6db07-2123-4967-83a6-cee4132c3afb" resp="#CH" tls:created="2019-12-25T07:39:05.766+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f9149ec1-0d9b-49e7-aab3-a5375653f36c">npost-N{PLACE}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-16T19:41:27.308+09:00">chief minister of N</def></sense><sense xml:id="uuid-a3f05847-0904-4d2c-b058-4709049d2c86" resp="#CH" tls:created="2020-02-21T23:08:14.025+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>prime ministership of the contextually determinate state of N</def></sense><sense xml:id="uuid-27998da4-b63b-4c75-998d-a4b63b5c7581" resp="#CH" tls:created="2020-04-28T03:15:53.658+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-16T19:40:09.992+09:00">act as chief minister in N</def></sense><sense xml:id="uuid-402edd29-754d-456f-aedd-29754d856f50" resp="#CH" tls:created="2020-05-04T00:59:18.643+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-16T19:40:19.51+09:00">become a chief minister</def></sense><sense xml:id="uuid-3dd148c7-f911-4153-9148-c7f9117153d6" resp="#dsehnal" tls:created="2020-06-10T22:27:57.484+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-16T19:41:34.276+09:00">chief minister of Npr</def></sense></entry>
+<sense xml:id="uuid-ebf6db07-2123-4967-83a6-cee4132c3afb" resp="#CH" tls:created="2019-12-25T07:39:05.766+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f9149ec1-0d9b-49e7-aab3-a5375653f36c">npost-N{PLACE}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-16T19:41:27.308+09:00">chief minister of N</def>
+            </sense>
+            <sense xml:id="uuid-a3f05847-0904-4d2c-b058-4709049d2c86" resp="#CH" tls:created="2020-02-21T23:08:14.025+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>prime ministership of the contextually determinate state of N</def>
+            </sense>
+            <sense xml:id="uuid-27998da4-b63b-4c75-998d-a4b63b5c7581" resp="#CH" tls:created="2020-04-28T03:15:53.658+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-16T19:40:09.992+09:00">act as chief minister in N</def>
+            </sense>
+            <sense xml:id="uuid-402edd29-754d-456f-aedd-29754d856f50" resp="#CH" tls:created="2020-05-04T00:59:18.643+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-16T19:40:19.51+09:00">become a chief minister</def>
+            </sense>
+            <sense xml:id="uuid-3dd148c7-f911-4153-9148-c7f9117153d6" resp="#dsehnal" tls:created="2020-06-10T22:27:57.484+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-16T19:41:34.276+09:00">chief minister of Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-70bf1bb0-153c-4091-b51d-343fe01e96ff">
             <form corresp="#uuid-f97584af-067f-4b72-a600-a47df1634908">
 <orth>臣</orth>
@@ -402,7 +439,58 @@
                 </gramGrp>
   <def>ministerhood, role of a minister</def>
             </sense>
-<sense xml:id="uuid-88ee9aa0-62d1-4393-ab5a-7b73897d24bf" resp="#CH" tls:created="2019-12-14T05:16:05.911+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>somebody's minister</def></sense><sense xml:id="uuid-0279e62d-ef59-4017-a60c-54a6666dd18a" resp="#CH" tls:created="2020-01-13T22:28:03.239+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>definite: the ministers of the contextually determinate N</def></sense><sense xml:id="uuid-9d876a35-eb44-4065-8d03-eb2945f2d772" resp="#CH" tls:created="2020-01-23T05:57:19.128+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func></gramGrp><def resp="#twharbsmeier" updated="2020-04-15T22:39:57.897+09:00">be the minister of the contextually determinate N</def></sense><sense xml:id="uuid-2816e3bf-7b7c-496f-96e3-bf7b7c196f91" resp="#twharbsmeier" tls:created="2020-04-04T05:27:39.518+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ea7b4cf1-fe27-4ed9-afb0-7f7fa9950f84">n{PRED}</tls:syn-func></gramGrp><def>be a servant, public servant; minister</def></sense><sense xml:id="uuid-ef3b696b-f762-4790-bb69-6bf762379045" resp="#zadrapa" tls:created="2021-05-16T04:53:17.752+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-dbf270c9-0ec8-4757-8bd3-e79cd2fbc0e8">ideal</tls:sem-feat></gramGrp><def>an ideal minister</def></sense><sense xml:id="uuid-59218d42-abf4-4065-a18d-42abf4a0659e" resp="#CH" tls:created="2022-09-22T20:08:09.644+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>employ the contextually determinate N as a minister</def></sense><sense xml:id="uuid-3360851e-ecce-4854-a085-1eeccea8547c" resp="#dsehnal" tls:created="2024-05-19T17:53:58.135+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func><tls:sem-feat corresp="#uuid-8bfe5b73-f4a5-49bb-8818-7aac01b0010f">restrictive</tls:sem-feat></gramGrp><def>ministers characterised by the feature V</def></sense></entry>
+<sense xml:id="uuid-88ee9aa0-62d1-4393-ab5a-7b73897d24bf" resp="#CH" tls:created="2019-12-14T05:16:05.911+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>somebody's minister</def>
+            </sense>
+            <sense xml:id="uuid-0279e62d-ef59-4017-a60c-54a6666dd18a" resp="#CH" tls:created="2020-01-13T22:28:03.239+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>definite: the ministers of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-9d876a35-eb44-4065-8d03-eb2945f2d772" resp="#CH" tls:created="2020-01-23T05:57:19.128+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#twharbsmeier" updated="2020-04-15T22:39:57.897+09:00">be the minister of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-2816e3bf-7b7c-496f-96e3-bf7b7c196f91" resp="#twharbsmeier" tls:created="2020-04-04T05:27:39.518+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ea7b4cf1-fe27-4ed9-afb0-7f7fa9950f84">n{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be a servant, public servant; minister</def>
+            </sense>
+            <sense xml:id="uuid-ef3b696b-f762-4790-bb69-6bf762379045" resp="#zadrapa" tls:created="2021-05-16T04:53:17.752+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-dbf270c9-0ec8-4757-8bd3-e79cd2fbc0e8">ideal</tls:sem-feat>
+                </gramGrp>
+                <def>an ideal minister</def>
+            </sense>
+            <sense xml:id="uuid-59218d42-abf4-4065-a18d-42abf4a0659e" resp="#CH" tls:created="2022-09-22T20:08:09.644+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>employ the contextually determinate N as a minister</def>
+            </sense>
+            <sense xml:id="uuid-3360851e-ecce-4854-a085-1eeccea8547c" resp="#dsehnal" tls:created="2024-05-19T17:53:58.135+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-8bfe5b73-f4a5-49bb-8818-7aac01b0010f">restrictive</tls:sem-feat>
+                </gramGrp>
+                <def>ministers characterised by the feature V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-221b175e-28d2-4d5e-bee5-eee7d9eb803b">
             <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-70c383f8-2df7-4ea7-b7de-c35874bb4e03">
 <orth>三公</orth>
@@ -426,7 +514,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-12-17T04:35:39.935+09:00">Threefold Lord; a senior Lord, an honorary official with moral duties. ranking above the feudal lords and right next to the Emperor</def>
             </sense>
-<sense xml:id="uuid-9fed38bd-6359-4588-bd2f-56be6402221d" resp="#CH" tls:created="2019-11-28T05:58:01.477+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func></gramGrp><def resp="#CH" updated="2023-12-21T17:59:03.475+09:00">the position or status of Senior minister, or of a Threefold Lord</def></sense></entry>
+<sense xml:id="uuid-9fed38bd-6359-4588-bd2f-56be6402221d" resp="#CH" tls:created="2019-11-28T05:58:01.477+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-12-21T17:59:03.475+09:00">the position or status of Senior minister, or of a Threefold Lord</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1232e406-4985-4726-9f25-12d0800140a5">
             <form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87 #uuid-229a30d6-7e82-4e03-9608-fb1479a6c86e">
 <orth>上卿</orth>
@@ -467,7 +562,15 @@
                 </gramGrp>
   <def>prime minister</def>
             </sense>
-<sense xml:id="uuid-0f268f09-90c7-4eb8-a68f-0990c79eb8b9" resp="#dsehnal" tls:created="2021-05-27T01:02:11.312+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d0e1655f-4b4e-4303-95f7-82b1e14a5931">NPpost-Npr</tls:syn-func><tls:sem-feat corresp="#uuid-4b4da480-c7d4-48f9-9534-cb3826f3fb86">title</tls:sem-feat></gramGrp><def>prime minister Npr</def></sense></entry>
+<sense xml:id="uuid-0f268f09-90c7-4eb8-a68f-0990c79eb8b9" resp="#dsehnal" tls:created="2021-05-27T01:02:11.312+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d0e1655f-4b4e-4303-95f7-82b1e14a5931">NPpost-Npr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4b4da480-c7d4-48f9-9534-cb3826f3fb86">title</tls:sem-feat>
+                </gramGrp>
+                <def>prime minister Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2a5dc658-7cac-455c-b3d6-79e0374ba743">
             <form corresp="#uuid-7724a604-307a-4b9a-af74-1dc72116d850 #uuid-229a30d6-7e82-4e03-9608-fb1479a6c86e">
 <orth>九卿</orth>
@@ -515,7 +618,23 @@
                 </gramGrp>
   <def>minister</def>
             </sense>
-<sense xml:id="uuid-aea9a73f-0777-40eb-a9a7-3f0777e0ebf8" resp="#CH" tls:created="2020-04-01T19:43:43.389+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-b2e95acf-b843-4f14-ae40-63ccdfb6f835">NPab{PRED}</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>acting as a minister of someone else</def></sense><sense xml:id="uuid-74287ce8-b078-4979-a87c-e8b078c979f8" resp="#dsehnal" tls:created="2024-05-18T23:38:15.919+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>his ministers</def></sense></entry>
+<sense xml:id="uuid-aea9a73f-0777-40eb-a9a7-3f0777e0ebf8" resp="#CH" tls:created="2020-04-01T19:43:43.389+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-b2e95acf-b843-4f14-ae40-63ccdfb6f835">NPab{PRED}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>acting as a minister of someone else</def>
+            </sense>
+            <sense xml:id="uuid-74287ce8-b078-4979-a87c-e8b078c979f8" resp="#dsehnal" tls:created="2024-05-18T23:38:15.919+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>his ministers</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9cce21d1-45eb-4b21-b365-651f103968e8">
             <form corresp="#uuid-c688ca7f-20ff-4d59-a1bc-f5e0d3c859f2 #uuid-05d14852-c607-4d63-a487-17403c74b872">
 <orth>令尹</orth>
@@ -566,7 +685,15 @@
                 </gramGrp>
   <def>prime minstership</def>
             </sense>
-<sense xml:id="uuid-70539563-f500-4fc8-9395-63f5008fc8d7" resp="#dsehnal" tls:created="2020-05-10T00:48:35.671+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat></gramGrp><def>prime minister of Chu</def></sense></entry>
+<sense xml:id="uuid-70539563-f500-4fc8-9395-63f5008fc8d7" resp="#dsehnal" tls:created="2020-05-10T00:48:35.671+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat>
+                </gramGrp>
+                <def>prime minister of Chu</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2058f7aa-f40c-40e8-84ba-877fb85fcbce">
             <form corresp="#uuid-a1d09b8d-ed3d-4d4d-ac7e-42ea17e350f7 #uuid-64f3232a-4076-45ea-889b-9704df07af94">
 <orth>元老</orth>
@@ -649,7 +776,15 @@
                 </gramGrp>
   <def>those facing north&gt; ministers facing north</def>
             </sense>
-<sense xml:id="uuid-02da2ab4-4396-4888-9a2a-b44396d888dd" resp="#zadrapa" tls:created="2021-05-12T16:03:38.127+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>become a minister, turn into a subject</def></sense></entry>
+<sense xml:id="uuid-02da2ab4-4396-4888-9a2a-b44396d888dd" resp="#zadrapa" tls:created="2021-05-12T16:03:38.127+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>become a minister, turn into a subject</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-03323fdc-fdc6-496b-a2c9-c867c956dcdd">
             <form corresp="#uuid-229a30d6-7e82-4e03-9608-fb1479a6c86e #uuid-237e08ce-7e96-4025-a458-126b4ea4bde1">
 <orth>卿相</orth>
@@ -665,7 +800,15 @@
                 </gramGrp>
   <def>Chief minister; First minister</def>
             </sense>
-<sense xml:id="uuid-953840e5-ecd2-4901-b840-e5ecd209016e" resp="#zadrapa" tls:created="2022-05-12T19:51:39.804+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-76a3454c-a084-47af-b1b2-9839a8900995">general</tls:sem-feat></gramGrp><def>the highest officials in the state</def></sense></entry>
+<sense xml:id="uuid-953840e5-ecd2-4901-b840-e5ecd209016e" resp="#zadrapa" tls:created="2022-05-12T19:51:39.804+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-76a3454c-a084-47af-b1b2-9839a8900995">general</tls:sem-feat>
+                </gramGrp>
+                <def>the highest officials in the state</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a694dd55-5cba-4dcb-89f1-b046181f0fc1">
             <form corresp="#uuid-fb971851-9c85-4611-ba43-1712c1eade82 #uuid-05d14852-c607-4d63-a487-17403c74b872">
 <orth>右尹</orth>
@@ -727,7 +870,21 @@
                 </gramGrp>
   <def>Minister of Justice Npr</def>
             </sense>
-<sense xml:id="uuid-609050e1-4864-4e9f-9050-e14864ae9f16" resp="#zadrapa" tls:created="2021-05-14T21:14:35.226+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>Minister of Justice in the state N</def></sense><sense xml:id="uuid-fa138519-9038-48a6-9385-199038a8a6df" resp="#CH" tls:created="2022-08-26T21:07:43.188+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>minister of justice</def></sense></entry>
+<sense xml:id="uuid-609050e1-4864-4e9f-9050-e14864ae9f16" resp="#zadrapa" tls:created="2021-05-14T21:14:35.226+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>Minister of Justice in the state N</def>
+            </sense>
+            <sense xml:id="uuid-fa138519-9038-48a6-9385-199038a8a6df" resp="#CH" tls:created="2022-08-26T21:07:43.188+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>minister of justice</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7ef4c176-7613-414f-bcb2-d05572880900">
             <form corresp="#uuid-c8a6cacd-e4c4-406b-b5d1-4a9d8c3099bd #uuid-722c8aca-9859-4f59-994f-de930870deb7">
 <orth>司徒</orth>
@@ -910,7 +1067,22 @@
                 </gramGrp>
   <def>the senior minister</def>
             </sense>
-<sense xml:id="uuid-bf19127c-68da-48cd-bcdb-c2a702972eee" resp="#dsehnal" tls:created="2019-12-17T02:24:05.262+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>senior ministers of the contextually determinate ruler</def></sense><sense xml:id="uuid-16fc1f84-a285-46f6-bc1f-84a285e6f699" resp="#CH" tls:created="2023-07-13T16:05:34.443+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>其大臣 “his senior minister"</def></sense></entry>
+<sense xml:id="uuid-bf19127c-68da-48cd-bcdb-c2a702972eee" resp="#dsehnal" tls:created="2019-12-17T02:24:05.262+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>senior ministers of the contextually determinate ruler</def>
+            </sense>
+            <sense xml:id="uuid-16fc1f84-a285-46f6-bc1f-84a285e6f699" resp="#CH" tls:created="2023-07-13T16:05:34.443+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>其大臣 “his senior minister"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7fed49c4-8c1e-439f-ace5-61509767e7e1">
             <form corresp="#uuid-8840febf-a68a-4d05-b42d-4681834b0dea #uuid-eb436cd7-6e61-4e8e-9bb5-e962a7293fc7">
 <orth>太宰</orth>
@@ -1040,7 +1212,38 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-11T01:10:58.547+09:00">in the servant-minister close entourage</def>
             </sense>
-<sense xml:id="uuid-46bdc3c3-0d88-46b1-a6dd-eaa65cfb5e84" resp="#CH" tls:created="2019-12-12T07:22:25.321+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-11T01:10:42.253+09:00">the aforementioned member of (N's) close entourage</def></sense><sense xml:id="uuid-b69954ae-ab33-417e-9b9d-b4826e6d96c3" resp="#CH" tls:created="2019-12-24T23:59:41.712+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-4e36ef0d-dcb2-48b8-a74a-daa9f2a54b2d">singular</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-05-18T06:23:12.451+09:00">indefinite: a member of his senior group of advisors/ministers</def></sense><sense xml:id="uuid-1d89e789-bb1c-494b-9bfc-68d01437ef27" resp="#CH" tls:created="2020-01-11T19:28:36.273+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>vaguely universal quantification: the ministers (of N), the entourage; some members of the entourage (of N)</def></sense><sense xml:id="uuid-04119d16-98d2-42a7-b3c8-1371cba49eb3" resp="#dsehnal" tls:created="2020-01-14T05:33:20.015+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-04-11T01:11:09.536+09:00">N's close entourage</def></sense></entry>
+<sense xml:id="uuid-46bdc3c3-0d88-46b1-a6dd-eaa65cfb5e84" resp="#CH" tls:created="2019-12-12T07:22:25.321+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-11T01:10:42.253+09:00">the aforementioned member of (N's) close entourage</def>
+            </sense>
+            <sense xml:id="uuid-b69954ae-ab33-417e-9b9d-b4826e6d96c3" resp="#CH" tls:created="2019-12-24T23:59:41.712+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e36ef0d-dcb2-48b8-a74a-daa9f2a54b2d">singular</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-18T06:23:12.451+09:00">indefinite: a member of his senior group of advisors/ministers</def>
+            </sense>
+            <sense xml:id="uuid-1d89e789-bb1c-494b-9bfc-68d01437ef27" resp="#CH" tls:created="2020-01-11T19:28:36.273+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>vaguely universal quantification: the ministers (of N), the entourage; some members of the entourage (of N)</def>
+            </sense>
+            <sense xml:id="uuid-04119d16-98d2-42a7-b3c8-1371cba49eb3" resp="#dsehnal" tls:created="2020-01-14T05:33:20.015+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-11T01:11:09.536+09:00">N's close entourage</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-71aeece6-a7d7-4d1a-9b2a-61437c56d85a">
             <form corresp="#uuid-e81f9695-c0ad-4f92-bc58-9f5785c4db5b #uuid-f97584af-067f-4b72-a600-a47df1634908">
 <orth>廷臣</orth>
@@ -1360,5 +1563,68 @@
   <def>a minister</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-97c67aa4-bf33-487b-b7af-940b89193cf2" resp="#CH" tls:created="2020-01-13T03:24:57.719+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6e18c805-e4a2-4faa-bdbc-9136183f1b8b" resp="#CH" tls:created="2020-01-13T03:24:57.719+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>the ministers; the senior officials at court</def></sense></entry><entry type="word" xml:id="uuid-982045ac-1785-4d7b-a8f5-5f7aa1d50adc" resp="#CH" tls:created="2020-01-13T03:25:09.28+09:00"><form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2 #uuid-f97584af-067f-4b72-a600-a47df1634908"><orth>諸臣</orth><pron xml:lang="zh-Latn-x-pinyin">zhū chén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyo dzyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klja ɡjiŋ</pron></form><sense xml:id="uuid-eace2de0-69a8-42a9-97a4-4de1275e6fdd" resp="#CH" tls:created="2020-01-13T03:25:09.28+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>the ministers; the senior officials at court</def></sense></entry><entry type="word" xml:id="uuid-0071a17b-254b-42af-b1a1-7b254bd2afaa" resp="#zadrapa" tls:created="2022-05-29T04:23:32.136+09:00"><form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>人</orth><pron xml:lang="zh-Latn-x-pinyin">rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin</pron></form><sense xml:id="uuid-78ea3bd1-c60c-4b7d-aa3b-d1c60ccb7de7" resp="#zadrapa" tls:created="2022-05-29T04:23:32.136+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>king's assistant, as in 王者之人 "the true king's 'people' &gt; closest assistants"</def></sense></entry><entry type="word" xml:id="uuid-10a9dfab-09e1-42d1-a9df-ab09e182d12c" resp="#CH" tls:created="2023-12-21T18:10:08.004+09:00"><form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-b6b3731f-1ddd-487d-ac79-750ddf67fe8d"><orth>三孤</orth><pron xml:lang="zh-Latn-x-pinyin">sān gū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sam ku</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam kʷaa</pron></form><sense xml:id="uuid-2cb818c4-626b-4213-b818-c4626bc2138a" resp="#CH" tls:created="2023-12-21T18:10:08.004+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>position of the Minor Minister, also referred to as 少師.</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-97c67aa4-bf33-487b-b7af-940b89193cf2" resp="#CH" tls:created="2020-01-13T03:24:57.719+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6e18c805-e4a2-4faa-bdbc-9136183f1b8b" resp="#CH" tls:created="2020-01-13T03:24:57.719+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>the ministers; the senior officials at court</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-982045ac-1785-4d7b-a8f5-5f7aa1d50adc" resp="#CH" tls:created="2020-01-13T03:25:09.28+09:00">
+            <form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2 #uuid-f97584af-067f-4b72-a600-a47df1634908">
+                <orth>諸臣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhū chén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyo dzyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klja ɡjiŋ</pron>
+            </form>
+            <sense xml:id="uuid-eace2de0-69a8-42a9-97a4-4de1275e6fdd" resp="#CH" tls:created="2020-01-13T03:25:09.28+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>the ministers; the senior officials at court</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0071a17b-254b-42af-b1a1-7b254bd2afaa" resp="#zadrapa" tls:created="2022-05-29T04:23:32.136+09:00">
+            <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin</pron>
+            </form>
+            <sense xml:id="uuid-78ea3bd1-c60c-4b7d-aa3b-d1c60ccb7de7" resp="#zadrapa" tls:created="2022-05-29T04:23:32.136+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>king's assistant, as in 王者之人 "the true king's 'people' &gt; closest assistants"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-10a9dfab-09e1-42d1-a9df-ab09e182d12c" resp="#CH" tls:created="2023-12-21T18:10:08.004+09:00">
+            <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-b6b3731f-1ddd-487d-ac79-750ddf67fe8d">
+                <orth>三孤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sān gū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sam ku</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">saam kʷaa</pron>
+            </form>
+            <sense xml:id="uuid-2cb818c4-626b-4213-b818-c4626bc2138a" resp="#CH" tls:created="2023-12-21T18:10:08.004+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>position of the Minor Minister, also referred to as 少師.</def>
+            </sense>
+        </entry>
+    </div>
 </div>

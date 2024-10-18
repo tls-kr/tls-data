@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-48817188-ab53-44fb-8065-9692355be291">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-48817188-ab53-44fb-8065-9692355be291">
 <head>PASSIVE MARKER</head>
     <list type="translations">
         <item xml:lang="zh">被動號</item>
@@ -9,7 +10,14 @@
 <p>WORD WHICH SHOWS PASSIVE FUNCTION. [NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p>
     </div>
 <div type="notes">
-<div type="old-chinese-criteria" resp="#CH" modified="2022-07-23T19:30:26.175+09:00"><p>1. The most current general marker of the passive is jiàn 見 which means literally "be exposed to, face".</p><p>2. Passives in wéi 為 "be the object of" abstractly indicates that the verb it modifies is neutrally passive.</p><p>3. Passives in bèi 被 "suffer" typically refers to the suffering of something undesirable.</p><p>4. Passives in qǔ 取 "bring upon onesel" typically refers to the suffering of something undesirable by one's own fault.</p><p>5. Passives in zāo 遭 "come upon" and yù 遇 "run into" refer to running into what tend to be undesirable situations one is exposed to.</p><p>&lt;div&gt;6. Passives in shòu 受 "receive" refers to an agent being the recipient of some impact from the outside.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7. For passives in yú 於 see the entry under SUFFER.&lt;br&gt;&lt;/div&gt;&lt;br&gt;NB: Note that the notion of the passive is notoriously hard to define for a language like classical Chinese. What some grammarians view as passive constructions will be construed by others as periphrastic ways of expressing with various transitive verbs what other other languages express with passive forms. </p></div>
+<div type="old-chinese-criteria" resp="#CH" modified="2022-07-23T19:30:26.175+09:00">
+            <p>1. The most current general marker of the passive is jiàn 見 which means literally "be exposed to, face".</p>
+            <p>2. Passives in wéi 為 "be the object of" abstractly indicates that the verb it modifies is neutrally passive.</p>
+            <p>3. Passives in bèi 被 "suffer" typically refers to the suffering of something undesirable.</p>
+            <p>4. Passives in qǔ 取 "bring upon onesel" typically refers to the suffering of something undesirable by one's own fault.</p>
+            <p>5. Passives in zāo 遭 "come upon" and yù 遇 "run into" refer to running into what tend to be undesirable situations one is exposed to.</p>
+            <p>&lt;div&gt;6. Passives in shòu 受 "receive" refers to an agent being the recipient of some impact from the outside.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;7. For passives in yú 於 see the entry under SUFFER.&lt;br&gt;&lt;/div&gt;&lt;br&gt;NB: Note that the notion of the passive is notoriously hard to define for a language like classical Chinese. What some grammarians view as passive constructions will be construed by others as periphrastic ways of expressing with various transitive verbs what other other languages express with passive forms. </p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>LU JIANMING</p>
         </div>
@@ -217,7 +225,22 @@
   <def resp="#CH" updated="2022-09-16T21:26:57.865+09:00">為人戮"be killed by others"，為天下笑"become the laughing stock of the world, be the laughing stock of the world": marker of passive </def>
             </sense>
 
-<sense xml:id="uuid-c03958bb-b536-4bee-82f4-547485dc95a8" resp="#CH" tls:created="2019-12-19T19:44:25.899+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-1a8be3c0-1f85-462a-8be3-c01f85d62a13">vt+.N所Vt</tls:syn-func></gramGrp><def>be V-ed by N</def></sense><sense xml:id="uuid-ac0c4338-965f-4670-8c43-38965f267019" resp="#zadrapa" tls:created="2022-05-31T19:42:43.665+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-73761cec-9c0f-41e0-83fe-b7e107452f86">vt(oN.)adVt</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-03T22:13:26.959+09:00">為笑"be laughed at (by others)": be Vt-ed by the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-c03958bb-b536-4bee-82f4-547485dc95a8" resp="#CH" tls:created="2019-12-19T19:44:25.899+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-1a8be3c0-1f85-462a-8be3-c01f85d62a13">vt+.N所Vt</tls:syn-func>
+                </gramGrp>
+                <def>be V-ed by N</def>
+            </sense>
+            <sense xml:id="uuid-ac0c4338-965f-4670-8c43-38965f267019" resp="#zadrapa" tls:created="2022-05-31T19:42:43.665+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-73761cec-9c0f-41e0-83fe-b7e107452f86">vt(oN.)adVt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-03T22:13:26.959+09:00">為笑"be laughed at (by others)": be Vt-ed by the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e711eb85-a9d5-4be0-b138-a6655bfca6f4">
             <form corresp="#uuid-067ccb92-367e-4550-b656-f8751cc3a917">
 <orth>由</orth>
@@ -379,5 +402,35 @@
   <def>be exposed to NPab-ing  &gt; passive marker</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2d6e6900-f684-4b74-ae69-00f6846b745e" resp="#zadrapa" tls:created="2021-05-19T19:36:16.756+09:00"><form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>乎</orth><pron xml:lang="zh-Latn-x-pinyin">hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron></form><sense xml:id="uuid-1be86b6f-85e6-4f39-a86b-6f85e6ff39bf" resp="#zadrapa" tls:created="2021-05-19T19:36:16.756+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ebbe28ed-bdcc-468c-bc28-51ba2a7f215b">vt[0]oN.postadV{PASS}</tls:syn-func></gramGrp><def>preposition introducing the agent in a passive construction</def></sense></entry><entry type="word" xml:id="uuid-6dab2fec-f2fe-4a6b-ab2f-ecf2fe4a6b95" resp="#CH" tls:created="2023-07-06T15:04:53.828+09:00"><form corresp="#uuid-4794a71a-8096-4dc9-a55a-ac8708974d84"><orth>焉</orth><pron xml:lang="zh-Latn-x-pinyin">yān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢan</pron></form><sense xml:id="uuid-c0cc21e9-3c9a-4b7c-8c21-e93c9abb7c91" resp="#CH" tls:created="2023-07-06T15:04:53.828+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func></gramGrp><def>(be V-ed) by N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2d6e6900-f684-4b74-ae69-00f6846b745e" resp="#zadrapa" tls:created="2021-05-19T19:36:16.756+09:00">
+            <form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-1be86b6f-85e6-4f39-a86b-6f85e6ff39bf" resp="#zadrapa" tls:created="2021-05-19T19:36:16.756+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ebbe28ed-bdcc-468c-bc28-51ba2a7f215b">vt[0]oN.postadV{PASS}</tls:syn-func>
+                </gramGrp>
+                <def>preposition introducing the agent in a passive construction</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6dab2fec-f2fe-4a6b-ab2f-ecf2fe4a6b95" resp="#CH" tls:created="2023-07-06T15:04:53.828+09:00">
+            <form corresp="#uuid-4794a71a-8096-4dc9-a55a-ac8708974d84">
+                <orth>焉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢan</pron>
+            </form>
+            <sense xml:id="uuid-c0cc21e9-3c9a-4b7c-8c21-e93c9abb7c91" resp="#CH" tls:created="2023-07-06T15:04:53.828+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
+                </gramGrp>
+                <def>(be V-ed) by N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

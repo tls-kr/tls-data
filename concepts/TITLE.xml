@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1445093e-a5b6-4b45-85be-e4073438c61f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1445093e-a5b6-4b45-85be-e4073438c61f">
 <head>TITLE</head>
     <list type="altnames">
 <item>DESIGNATION</item>
@@ -84,7 +85,14 @@
                 </gramGrp>
   <def>title; mere title;  job assignment  NB: WRONG SYNONYM GROUP!</def>
             </sense>
-<sense xml:id="uuid-7b90068b-1aa2-4c62-b44f-e109ff7d40ed" resp="#CH" tls:created="2019-12-27T23:43:03.967+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>the title belonging to N</def></sense></entry>
+<sense xml:id="uuid-7b90068b-1aa2-4c62-b44f-e109ff7d40ed" resp="#CH" tls:created="2019-12-27T23:43:03.967+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>the title belonging to N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c4c8aef5-eab6-493c-8a92-731088077cad">
             <form corresp="#uuid-eb436cd7-6e61-4e8e-9bb5-e962a7293fc7">
 <orth>宰</orth>
@@ -306,7 +314,14 @@
                 </gramGrp>
   <def>Sima Qian 司馬遷</def>
             </sense>
-<sense xml:id="uuid-52b52973-795d-418a-af76-2b0464edbba4" resp="#CH" tls:created="2020-01-24T19:09:31.875+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> NP=NPpr </tls:syn-func></gramGrp><def>Great Archivist Npr</def></sense></entry>
+<sense xml:id="uuid-52b52973-795d-418a-af76-2b0464edbba4" resp="#CH" tls:created="2020-01-24T19:09:31.875+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> NP=NPpr </tls:syn-func>
+                </gramGrp>
+                <def>Great Archivist Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a5e8e4e3-9257-43ae-95dd-81709927683e">
             <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
 <orth>大師</orth>
@@ -495,8 +510,128 @@
   <def>doorkeeper, janitor</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ef34c72f-45af-4a14-b4c7-2f45af1a14fd" resp="#CH" tls:created="2020-02-13T20:29:33.613+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-fe9ed499-c389-4b2c-9ed4-99c3898b2c39" resp="#CH" tls:created="2020-02-13T20:29:33.613+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>Clan Director</def></sense></entry><entry type="word" xml:id="uuid-c5790325-faf6-4277-b903-25faf62277c2" resp="#CH" tls:created="2020-02-13T20:29:41.304+09:00"><form corresp="#uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-c95274cd-bf70-417e-9420-a577f5674277"><orth>秩宗</orth><pron xml:lang="zh-Latn-x-pinyin">zhì zōng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drit tsowng
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rliɡ tsuuŋ
-</pron></form><sense xml:id="uuid-59d30b5d-bf6e-4c8d-930b-5dbf6e4c8da5" resp="#CH" tls:created="2020-02-13T20:29:41.304+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>Clan Director</def></sense></entry><entry type="word" xml:id="uuid-e1dd3a4a-338b-4da3-9d3a-4a338bfda3a6" resp="#zadrapa" tls:created="2022-06-06T18:25:15.297+09:00"><form corresp="#uuid-eb436cd7-6e61-4e8e-9bb5-e962a7293fc7 #uuid-b966a52d-9df9-4e93-8dbb-54105b005a81"><orth>宰爵</orth><pron xml:lang="zh-Latn-x-pinyin">zǎi jué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsojX tsjak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsɯɯʔ tsewɡ</pron></form><sense xml:id="uuid-a73ec4dd-bde6-4d22-bec4-ddbde69d2209" resp="#zadrapa" tls:created="2022-06-06T18:25:15.297+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>master of ceremonies</def></sense></entry><entry type="word" xml:id="uuid-216aaed1-f229-4514-aaae-d1f229751475" resp="#zadrapa" tls:created="2022-06-06T21:51:28.767+09:00"><form corresp="#uuid-751ac14e-d615-4744-b561-4d701959e41a #uuid-912548b1-fb97-424b-8c78-65bf05f0ee71"><orth>治田</orth><pron xml:lang="zh-Latn-x-pinyin">zhì tián</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">driH den</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯs ɡ-liiŋ</pron></form><sense xml:id="uuid-8666fcb2-9859-4162-a6fc-b29859216215" resp="#zadrapa" tls:created="2022-06-06T21:51:28.767+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>supervisor over agriculture</def></sense></entry><entry type="word" xml:id="uuid-b9a6db5a-17dc-4a5d-a6db-5a17dc3a5d18" resp="#zadrapa" tls:created="2022-06-07T04:39:23.526+09:00"><form corresp="#uuid-3058951c-4ea7-4eff-8026-e1722efc9190 #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c"><orth>虞師</orth><pron xml:lang="zh-Latn-x-pinyin">yú shī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngju srij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋʷa sril</pron></form><sense xml:id="uuid-ff3b63b6-4a66-423b-bb63-b64a66823b04" resp="#zadrapa" tls:created="2022-06-07T04:39:23.526+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>supreme manager of natural resources</def></sense></entry><entry type="word" xml:id="uuid-f95b298b-6ef3-4c04-9b29-8b6ef3fc04f8" resp="#zadrapa" tls:created="2022-06-07T16:34:12.253+09:00"><form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c"><orth>鄉師</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng shī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjang srij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ sril</pron></form><sense xml:id="uuid-ef9b0ee4-25d2-4f99-9b0e-e425d26f9971" resp="#zadrapa" tls:created="2022-06-07T16:34:12.253+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>master of rural communities</def></sense></entry><entry type="word" xml:id="uuid-6c10bf08-e274-4652-90bf-08e274d65267" resp="#zadrapa" tls:created="2022-06-07T16:37:13.124+09:00"><form corresp="#uuid-751ac14e-d615-4744-b561-4d701959e41a #uuid-01953c22-4b9b-4809-9772-1625322c0e41"><orth>治市</orth><pron xml:lang="zh-Latn-x-pinyin">zhì shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">driH dzyiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯs djɯʔ</pron></form><sense xml:id="uuid-936e49ff-2d03-4946-ae49-ff2d03b946b6" resp="#zadrapa" tls:created="2022-06-07T16:37:13.124+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>director of markets</def></sense></entry><entry type="word" xml:id="uuid-8b0ce09f-9608-4406-8ce0-9f9608a40617" resp="#CH" tls:created="2022-11-27T19:11:55.673+09:00"><form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-0ce356ec-2b46-4b12-8133-1bdca46c85b2"><orth>小史</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎo shǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX sriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ srɯʔ</pron></form><sense xml:id="uuid-a775a948-6c10-413b-b5a9-486c10213b1e" resp="#CH" tls:created="2022-11-27T19:11:55.673+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func></gramGrp><def>minor archivist/literate officer</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ef34c72f-45af-4a14-b4c7-2f45af1a14fd" resp="#CH" tls:created="2020-02-13T20:29:33.613+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-fe9ed499-c389-4b2c-9ed4-99c3898b2c39" resp="#CH" tls:created="2020-02-13T20:29:33.613+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>Clan Director</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5790325-faf6-4277-b903-25faf62277c2" resp="#CH" tls:created="2020-02-13T20:29:41.304+09:00">
+            <form corresp="#uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-c95274cd-bf70-417e-9420-a577f5674277">
+                <orth>秩宗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì zōng
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drit tsowng
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rliɡ tsuuŋ
+</pron>
+            </form>
+            <sense xml:id="uuid-59d30b5d-bf6e-4c8d-930b-5dbf6e4c8da5" resp="#CH" tls:created="2020-02-13T20:29:41.304+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>Clan Director</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e1dd3a4a-338b-4da3-9d3a-4a338bfda3a6" resp="#zadrapa" tls:created="2022-06-06T18:25:15.297+09:00">
+            <form corresp="#uuid-eb436cd7-6e61-4e8e-9bb5-e962a7293fc7 #uuid-b966a52d-9df9-4e93-8dbb-54105b005a81">
+                <orth>宰爵</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǎi jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsojX tsjak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsɯɯʔ tsewɡ</pron>
+            </form>
+            <sense xml:id="uuid-a73ec4dd-bde6-4d22-bec4-ddbde69d2209" resp="#zadrapa" tls:created="2022-06-06T18:25:15.297+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>master of ceremonies</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-216aaed1-f229-4514-aaae-d1f229751475" resp="#zadrapa" tls:created="2022-06-06T21:51:28.767+09:00">
+            <form corresp="#uuid-751ac14e-d615-4744-b561-4d701959e41a #uuid-912548b1-fb97-424b-8c78-65bf05f0ee71">
+                <orth>治田</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì tián</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">driH den</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯs ɡ-liiŋ</pron>
+            </form>
+            <sense xml:id="uuid-8666fcb2-9859-4162-a6fc-b29859216215" resp="#zadrapa" tls:created="2022-06-06T21:51:28.767+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>supervisor over agriculture</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b9a6db5a-17dc-4a5d-a6db-5a17dc3a5d18" resp="#zadrapa" tls:created="2022-06-07T04:39:23.526+09:00">
+            <form corresp="#uuid-3058951c-4ea7-4eff-8026-e1722efc9190 #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
+                <orth>虞師</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú shī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngju srij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋʷa sril</pron>
+            </form>
+            <sense xml:id="uuid-ff3b63b6-4a66-423b-bb63-b64a66823b04" resp="#zadrapa" tls:created="2022-06-07T04:39:23.526+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>supreme manager of natural resources</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f95b298b-6ef3-4c04-9b29-8b6ef3fc04f8" resp="#zadrapa" tls:created="2022-06-07T16:34:12.253+09:00">
+            <form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
+                <orth>鄉師</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng shī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjang srij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ sril</pron>
+            </form>
+            <sense xml:id="uuid-ef9b0ee4-25d2-4f99-9b0e-e425d26f9971" resp="#zadrapa" tls:created="2022-06-07T16:34:12.253+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>master of rural communities</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6c10bf08-e274-4652-90bf-08e274d65267" resp="#zadrapa" tls:created="2022-06-07T16:37:13.124+09:00">
+            <form corresp="#uuid-751ac14e-d615-4744-b561-4d701959e41a #uuid-01953c22-4b9b-4809-9772-1625322c0e41">
+                <orth>治市</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">driH dzyiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯs djɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-936e49ff-2d03-4946-ae49-ff2d03b946b6" resp="#zadrapa" tls:created="2022-06-07T16:37:13.124+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>director of markets</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8b0ce09f-9608-4406-8ce0-9f9608a40617" resp="#CH" tls:created="2022-11-27T19:11:55.673+09:00">
+            <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-0ce356ec-2b46-4b12-8133-1bdca46c85b2">
+                <orth>小史</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎo shǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX sriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ srɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-a775a948-6c10-413b-b5a9-486c10213b1e" resp="#CH" tls:created="2022-11-27T19:11:55.673+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func>
+                </gramGrp>
+                <def>minor archivist/literate officer</def>
+            </sense>
+        </entry>
+    </div>
 </div>

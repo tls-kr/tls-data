@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4032bd30-62b2-4abb-b9d8-16b747fa885a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4032bd30-62b2-4abb-b9d8-16b747fa885a">
 <head>ONLY THEN</head>
     <list type="translations">
         <item xml:lang="zh">方</item>
@@ -135,7 +136,14 @@
                 </gramGrp>
   <def>then, at that point</def>
             </sense>
-<sense xml:id="uuid-814e43ed-a8e8-4f9f-8e43-eda8e88f9f0e" resp="#dsehnal" tls:created="2023-06-24T16:37:27.377+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp><def>only then (cf. modern 才)</def></sense></entry>
+<sense xml:id="uuid-814e43ed-a8e8-4f9f-8e43-eda8e88f9f0e" resp="#dsehnal" tls:created="2023-06-24T16:37:27.377+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def>only then (cf. modern 才)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-977a87b9-84eb-4c06-9421-a4dd75675891">
             <form corresp="#uuid-dc2d4f29-288b-475b-ae53-9d0eef7818a1">
 <orth>經</orth>
@@ -255,7 +263,8 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-a9e51915-33f6-4995-9e68-d369df016b99">PPadV.postS</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-f7823965-d29e-4ca7-ab59-52cfeb09515c">temporal</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-f7823965-d29e-4ca7-ab59-52cfeb09515c">temporal</tls:sem-feat>
+                </gramGrp>
   <def>only then; after</def>
             </sense>
 <sense xml:id="uuid-04178578-1bdb-4aaf-b6e2-a4ca33189396">
@@ -273,7 +282,22 @@
                 </gramGrp>
   <def>V only after the time N has passed</def>
             </sense>
-<sense xml:id="uuid-d0022c11-8ad8-4f94-bc50-2851d585130c" resp="#CH" tls:created="2019-12-16T21:55:39.367+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">PPpostV1.adV2</tls:syn-func></gramGrp><def>V2 only after having V1ed, to V1 and only after that V2</def></sense><sense xml:id="uuid-2e23c48e-233d-4d47-8b61-9334b608fa2f" resp="#dsehnal" tls:created="2019-12-17T06:04:25.11+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-a510a6c7-337a-4c5e-95b4-ec8b5b99b6e3">PPpostS1.adS2</tls:syn-func><tls:sem-feat corresp="#uuid-dcdf1d0d-3149-4d15-9abe-7cfe96419413">logic</tls:sem-feat></gramGrp><def>only then; only after the logical condition S1</def></sense></entry>
+<sense xml:id="uuid-d0022c11-8ad8-4f94-bc50-2851d585130c" resp="#CH" tls:created="2019-12-16T21:55:39.367+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">PPpostV1.adV2</tls:syn-func>
+                </gramGrp>
+                <def>V2 only after having V1ed, to V1 and only after that V2</def>
+            </sense>
+            <sense xml:id="uuid-2e23c48e-233d-4d47-8b61-9334b608fa2f" resp="#dsehnal" tls:created="2019-12-17T06:04:25.11+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-a510a6c7-337a-4c5e-95b4-ec8b5b99b6e3">PPpostS1.adS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-dcdf1d0d-3149-4d15-9abe-7cfe96419413">logic</tls:sem-feat>
+                </gramGrp>
+                <def>only then; only after the logical condition S1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-94373fb3-ef86-482f-932b-b6a6623439e4">
             <form corresp="#uuid-9bbb9d85-e760-4462-bd4e-779a8bb1b5da #uuid-c2a874a5-484c-427c-9eda-9751bd03d05f #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
 <orth>爾乃方</orth>
@@ -289,5 +313,35 @@
   <def>only then, only after that</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c97b92bd-14ae-4967-bd3d-b8b67c02f2ad" resp="#CH" tls:created="2019-12-13T22:04:44.169+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0e826b6c-2fa1-4f35-9975-45376acbc50f" resp="#CH" tls:created="2019-12-13T22:04:44.169+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">PPadS1.post-S2</tls:syn-func></gramGrp><def>=而後　only then</def></sense></entry><entry type="word" xml:id="uuid-08ac636e-b573-4044-b648-edda0ceaadd1" resp="#CH" tls:created="2019-12-13T22:05:01.247+09:00"><form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-ea9566f7-609d-4041-8608-1e7d3935d092"><orth>而后</orth><pron xml:lang="zh-Latn-x-pinyin">ér hòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyi huwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ ɡooʔ</pron></form><sense xml:id="uuid-a31d8b4a-20f0-4e09-a2c8-be8bec88e8c5" resp="#CH" tls:created="2019-12-13T22:05:01.247+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">PPadS1.post-S2</tls:syn-func></gramGrp><def>=而後　only then</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c97b92bd-14ae-4967-bd3d-b8b67c02f2ad" resp="#CH" tls:created="2019-12-13T22:04:44.169+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0e826b6c-2fa1-4f35-9975-45376acbc50f" resp="#CH" tls:created="2019-12-13T22:04:44.169+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">PPadS1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def>=而後　only then</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-08ac636e-b573-4044-b648-edda0ceaadd1" resp="#CH" tls:created="2019-12-13T22:05:01.247+09:00">
+            <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-ea9566f7-609d-4041-8608-1e7d3935d092">
+                <orth>而后</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ér hòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyi huwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ ɡooʔ</pron>
+            </form>
+            <sense xml:id="uuid-a31d8b4a-20f0-4e09-a2c8-be8bec88e8c5" resp="#CH" tls:created="2019-12-13T22:05:01.247+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">PPadS1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def>=而後　only then</def>
+            </sense>
+        </entry>
+    </div>
 </div>

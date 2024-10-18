@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6a18fc60-aad3-4018-83a2-bc9a31510642">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6a18fc60-aad3-4018-83a2-bc9a31510642">
 <head>ROPE</head>
     <list type="altnames">
 <item>CORD</item>
@@ -145,7 +146,14 @@
             </form>
             <def>Huī 徽 and mò (written like 絲 and 墨) both refer to the crude ropes which were usually used for punishments. The former can be also used like a verb "to bind", the latter can also refer to the crude rope used for other purposes, like a reins for instance.
 </def>
-<sense xml:id="uuid-6744683a-756f-4009-8468-3a756f5009b7" resp="#CH" tls:created="2020-02-12T17:25:25.042+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>rope (used on the 琴 to hold the strings in place)</def></sense></entry>
+<sense xml:id="uuid-6744683a-756f-4009-8468-3a756f5009b7" resp="#CH" tls:created="2020-02-12T17:25:25.042+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>rope (used on the 琴 to hold the strings in place)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ed7c9f3d-7832-4c65-8cb5-73d1f7eb1c4e">
             <form corresp="#uuid-04a63f6e-6437-4f31-a7a6-b496c1d1bba4">
 <orth>糾</orth>
@@ -638,5 +646,36 @@
   <def>silk cord</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d7ab83b0-92f1-40a3-ab83-b092f180a36a" resp="#CH" tls:created="2021-03-07T18:24:22.354+09:00"><form corresp="#uuid-4ec98938-348d-480b-b18b-235b88307961 #uuid-cb584413-d9ea-4d1c-94a1-9fa0ee1ce5e3"><orth>緘縢</orth><pron xml:lang="zh-Latn-x-pinyin">jiān téng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keam dong</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kroom lɯɯŋ</pron></form><sense xml:id="uuid-41e30348-170f-4a5a-a303-48170f8a5af2" resp="#CH" tls:created="2021-03-07T18:24:22.354+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-ca124ecf-2640-430a-be5d-638fafcacb24">generalised</tls:sem-feat></gramGrp><def>ropes (of any kind)</def></sense></entry><entry type="word" xml:id="uuid-18e95232-e7c6-47c2-a952-32e7c677c266" resp="#CH" tls:created="2023-02-18T19:02:26.381+09:00"><form corresp="#uuid-cd73dc35-7322-425b-8161-36b63618d82d"><orth>維</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lul</pron></form><sense xml:id="uuid-d28685c7-8792-4ede-8685-c787922edef7" resp="#CH" tls:created="2023-02-18T19:02:26.381+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>rope holding paddles in boats</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d7ab83b0-92f1-40a3-ab83-b092f180a36a" resp="#CH" tls:created="2021-03-07T18:24:22.354+09:00">
+            <form corresp="#uuid-4ec98938-348d-480b-b18b-235b88307961 #uuid-cb584413-d9ea-4d1c-94a1-9fa0ee1ce5e3">
+                <orth>緘縢</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān téng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keam dong</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kroom lɯɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-41e30348-170f-4a5a-a303-48170f8a5af2" resp="#CH" tls:created="2021-03-07T18:24:22.354+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ca124ecf-2640-430a-be5d-638fafcacb24">generalised</tls:sem-feat>
+                </gramGrp>
+                <def>ropes (of any kind)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-18e95232-e7c6-47c2-a952-32e7c677c266" resp="#CH" tls:created="2023-02-18T19:02:26.381+09:00">
+            <form corresp="#uuid-cd73dc35-7322-425b-8161-36b63618d82d">
+                <orth>維</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lul</pron>
+            </form>
+            <sense xml:id="uuid-d28685c7-8792-4ede-8685-c787922edef7" resp="#CH" tls:created="2023-02-18T19:02:26.381+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>rope holding paddles in boats</def>
+            </sense>
+        </entry>
+    </div>
 </div>

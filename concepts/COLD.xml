@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-761ae21c-3456-4f23-90b6-6f38c842f6fc">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-761ae21c-3456-4f23-90b6-6f38c842f6fc">
 <head>COLD</head>
     <list type="altnames">
 <item>CHILLY</item>
@@ -376,7 +377,14 @@
                 </gramGrp>
   <def>allow or cause to freeze</def>
             </sense>
-<sense xml:id="uuid-38393175-b93e-46e2-b931-75b93eb6e246" resp="#zadrapa" tls:created="2020-12-01T23:17:46.085+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>freezing, suffering from cold</def></sense></entry>
+<sense xml:id="uuid-38393175-b93e-46e2-b931-75b93eb6e246" resp="#zadrapa" tls:created="2020-12-01T23:17:46.085+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>freezing, suffering from cold</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db66f791-a4e3-4607-a0e8-5494eee983b4">
             <form corresp="#uuid-64c5a85c-70fe-47f2-9810-549df9c6022c">
 <orth>淒</orth>
@@ -596,7 +604,36 @@
                 </gramGrp>
   <def>people suffering from cold</def>
             </sense>
-<sense xml:id="uuid-3ec578a5-6598-4a9f-808d-65212318ef30" resp="#CH" tls:created="2019-12-10T18:42:09.395+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>cause to be cold; cause to feel cold</def></sense><sense xml:id="uuid-203ff49a-0cce-4369-bdab-c5497f80e0bb" resp="#CH" tls:created="2019-12-11T18:27:06.617+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def resp="#CH" updated="2020-05-14T02:47:36.959+09:00">feel cold because one does not have enough clothes to keep oneself warm</def></sense><sense xml:id="uuid-2360a35e-673d-47db-a0a3-5e673d37dbaa" resp="#CH" tls:created="2020-12-15T21:16:35.109+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func></gramGrp><def>oneself getting cold</def></sense><sense xml:id="uuid-c6a024f6-7c4d-40fe-a024-f67c4d20fe35" resp="#dsehnal" tls:created="2023-04-30T02:56:48.946+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat></gramGrp><def>cold nature; chilling feature</def></sense></entry>
+<sense xml:id="uuid-3ec578a5-6598-4a9f-808d-65212318ef30" resp="#CH" tls:created="2019-12-10T18:42:09.395+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>cause to be cold; cause to feel cold</def>
+            </sense>
+            <sense xml:id="uuid-203ff49a-0cce-4369-bdab-c5497f80e0bb" resp="#CH" tls:created="2019-12-11T18:27:06.617+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-14T02:47:36.959+09:00">feel cold because one does not have enough clothes to keep oneself warm</def>
+            </sense>
+            <sense xml:id="uuid-2360a35e-673d-47db-a0a3-5e673d37dbaa" resp="#CH" tls:created="2020-12-15T21:16:35.109+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
+                </gramGrp>
+                <def>oneself getting cold</def>
+            </sense>
+            <sense xml:id="uuid-c6a024f6-7c4d-40fe-a024-f67c4d20fe35" resp="#dsehnal" tls:created="2023-04-30T02:56:48.946+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat>
+                </gramGrp>
+                <def>cold nature; chilling feature</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9f968c71-e9bc-430e-875d-dd6be45dd710">
             <form corresp="#uuid-327900ac-3f8f-474c-8cd3-c2280483eb32">
 <orth>栗</orth>
@@ -795,5 +832,20 @@
   <def>BUDDH: coolness (often used as description of nirvāṇa 涅槃); SANSKRIT śītī-bhāva, PALI sīti-bhāva</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-34e1b45e-be80-4303-a1b4-5ebe8093036a" resp="#zadrapa" tls:created="2023-06-16T17:27:33.571+09:00"><form corresp="#uuid-6d97acce-82c7-497e-8e1d-00bb94944a66 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6"><orth>凍寒</orth><pron xml:lang="zh-Latn-x-pinyin">dòng hán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tuwngH han</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tooŋs ɡaan</pron></form><sense xml:id="uuid-1dfb8f4e-295d-4e3d-bb8f-4e295d4e3d35" resp="#zadrapa" tls:created="2023-06-16T17:27:33.571+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>to freeze, feel cold</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-34e1b45e-be80-4303-a1b4-5ebe8093036a" resp="#zadrapa" tls:created="2023-06-16T17:27:33.571+09:00">
+            <form corresp="#uuid-6d97acce-82c7-497e-8e1d-00bb94944a66 #uuid-23b47fd8-2929-424f-b8bc-482da10682d6">
+                <orth>凍寒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dòng hán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tuwngH han</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tooŋs ɡaan</pron>
+            </form>
+            <sense xml:id="uuid-1dfb8f4e-295d-4e3d-bb8f-4e295d4e3d35" resp="#zadrapa" tls:created="2023-06-16T17:27:33.571+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>to freeze, feel cold</def>
+            </sense>
+        </entry>
+    </div>
 </div>

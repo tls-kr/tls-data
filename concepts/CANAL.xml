@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-565ea53a-7762-4513-bd64-023a47f68637">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-565ea53a-7762-4513-bd64-023a47f68637">
 <head>CANAL</head>
     <list type="altnames">
 <item>INLAND WATERWAY</item>
@@ -214,7 +215,14 @@
                 </gramGrp>
   <def>Jia Yi, dao Quyuan: small canal, drain (which cannot hold a large fish)</def>
             </sense>
-<sense xml:id="uuid-aaf4662e-85ec-4682-b466-2e85ec16826e" resp="#zadrapa" tls:created="2020-05-26T21:41:16.813+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>canal</def></sense></entry>
+<sense xml:id="uuid-aaf4662e-85ec-4682-b466-2e85ec16826e" resp="#zadrapa" tls:created="2020-05-26T21:41:16.813+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>canal</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c8748e83-6acc-4b0f-95d8-87afc2ae7919">
             <form corresp="#uuid-c64dae61-1111-4756-b6fc-5af857fa380b">
 <orth>畎</orth>
@@ -330,5 +338,34 @@
   <def>ditches and canals, small waterways</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-85da4cac-d0c6-416f-9a4c-acd0c6116fea"><form><orth>浸</orth><pron xml:lang="zh-Latn-x-pinyin">jìn</pron></form><def/><sense xml:id="uuid-950792a9-86d1-40af-8792-a986d120af80" resp="#CH" tls:created="2020-05-16T22:12:03.076+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>irrigation canal</def></sense></entry><entry type="word" xml:id="uuid-64d68d3e-73fe-4390-968d-3e73feb390cd" resp="#zadrapa" tls:created="2022-06-03T16:07:31.222+09:00"><form corresp="#uuid-8405107d-393e-4561-a04a-371892afd178 #uuid-bc1e388f-dc4c-497b-accf-5f756f9ad681"><orth>溝澮</orth><pron xml:lang="zh-Latn-x-pinyin">gōu kuài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kuw kwajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koo --</pron></form><sense xml:id="uuid-0e2a3468-12ac-4347-aa34-6812acd34753" resp="#zadrapa" tls:created="2022-06-03T16:07:31.222+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>canals of any kind</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-85da4cac-d0c6-416f-9a4c-acd0c6116fea">
+            <form>
+                <orth>浸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jìn</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-950792a9-86d1-40af-8792-a986d120af80" resp="#CH" tls:created="2020-05-16T22:12:03.076+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>irrigation canal</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-64d68d3e-73fe-4390-968d-3e73feb390cd" resp="#zadrapa" tls:created="2022-06-03T16:07:31.222+09:00">
+            <form corresp="#uuid-8405107d-393e-4561-a04a-371892afd178 #uuid-bc1e388f-dc4c-497b-accf-5f756f9ad681">
+                <orth>溝澮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōu kuài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuw kwajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koo --</pron>
+            </form>
+            <sense xml:id="uuid-0e2a3468-12ac-4347-aa34-6812acd34753" resp="#zadrapa" tls:created="2022-06-03T16:07:31.222+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>canals of any kind</def>
+            </sense>
+        </entry>
+    </div>
 </div>

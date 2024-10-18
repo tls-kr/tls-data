@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a9ce2789-dac0-45ea-8428-c483b4ffb65c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a9ce2789-dac0-45ea-8428-c483b4ffb65c">
 <head>DISAGREE</head>
     <list type="altnames">
 <item>TAKE ISSUE WITH</item>
@@ -91,7 +92,14 @@
                 </gramGrp>
   <def>contend against, contend that something is untrue</def>
             </sense>
-<sense xml:id="uuid-057113f3-b7ee-4bbc-b113-f3b7ee3bbcdb" resp="#zadrapa" tls:created="2020-06-09T17:54:23.148+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>dispute, disagreement</def></sense></entry>
+<sense xml:id="uuid-057113f3-b7ee-4bbc-b113-f3b7ee3bbcdb" resp="#zadrapa" tls:created="2020-06-09T17:54:23.148+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>dispute, disagreement</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0ffcd7f-91ce-4232-9f54-f7023330852d">
             <form corresp="#uuid-2358b4e4-e373-45a4-ba89-da230502ff10">
 <orth>異</orth>
@@ -210,7 +218,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-01-11T01:17:59.603+09:00">be in disaccord with, irritate</def>
             </sense>
-<sense xml:id="uuid-2b803218-dbe6-4344-8362-97e388cb774b" resp="#CH" tls:created="2020-01-11T22:15:03.32+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be disagreed with, be opposed</def></sense></entry>
+<sense xml:id="uuid-2b803218-dbe6-4344-8362-97e388cb774b" resp="#CH" tls:created="2020-01-11T22:15:03.32+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be disagreed with, be opposed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-755e9a60-326a-4614-a794-13cde5c74f3a">
             <form corresp="#uuid-00e22256-d177-459e-bd67-efa461a8d045">
 <orth>非</orth>
@@ -238,7 +254,23 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-09T17:38:08.486+09:00">regard as wrong, disagree with</def>
             </sense>
-<sense xml:id="uuid-92935645-0db7-4388-81cb-b1b2ac8ea844" resp="#CH" tls:created="2019-11-28T02:38:33.421+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>disapprove of</def></sense><sense xml:id="uuid-fe0bdbfd-1b2b-4230-bbcb-3cd38a3654a7" resp="#CH" tls:created="2019-11-28T02:45:24.592+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat></gramGrp><def>disapproval, disagreement</def></sense><sense xml:id="uuid-f31f6be7-f63d-4912-9588-2610fcbe7a63">
+<sense xml:id="uuid-92935645-0db7-4388-81cb-b1b2ac8ea844" resp="#CH" tls:created="2019-11-28T02:38:33.421+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>disapprove of</def>
+            </sense>
+            <sense xml:id="uuid-fe0bdbfd-1b2b-4230-bbcb-3cd38a3654a7" resp="#CH" tls:created="2019-11-28T02:45:24.592+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-98e7674b-b362-466f-9568-d0c14470282a">psych</tls:sem-feat>
+                </gramGrp>
+                <def>disapproval, disagreement</def>
+            </sense>
+            <sense xml:id="uuid-f31f6be7-f63d-4912-9588-2610fcbe7a63">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
@@ -246,12 +278,28 @@
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-08-10T21:10:02.646+09:00">consider wrong, disapprove</def>
-            </sense></entry>
-    <entry type="word" xml:id="uuid-bd172192-36ad-44f1-84b3-d59f19eb9a86" resp="#CH" tls:created="2019-12-02T07:04:34.616+09:00"><form corresp="#uuid-ce3efa91-546b-4de5-8fd4-c8fd24358df8 #uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c"><orth>乖離</orth><pron xml:lang="zh-Latn-x-pinyin">guāi
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-bd172192-36ad-44f1-84b3-d59f19eb9a86" resp="#CH" tls:created="2019-12-02T07:04:34.616+09:00">
+            <form corresp="#uuid-ce3efa91-546b-4de5-8fd4-c8fd24358df8 #uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c">
+                <orth>乖離</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guāi
  lí
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kweaj
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kweaj
  lje
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷreed
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷreed
  b-rel
-</pron></form><sense xml:id="uuid-baa6b9b8-8609-4ce5-afda-0948291b2b77" resp="#CH" tls:created="2019-12-02T07:04:34.616+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0bb3127-d0ae-4ab3-86bb-0a20cf29c161">VPi2</tls:syn-func></gramGrp><def>are in conflict with each other</def></sense></entry></div>
+</pron>
+            </form>
+            <sense xml:id="uuid-baa6b9b8-8609-4ce5-afda-0948291b2b77" resp="#CH" tls:created="2019-12-02T07:04:34.616+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0bb3127-d0ae-4ab3-86bb-0a20cf29c161">VPi2</tls:syn-func>
+                </gramGrp>
+                <def>are in conflict with each other</def>
+            </sense>
+        </entry>
+    </div>
 </div>

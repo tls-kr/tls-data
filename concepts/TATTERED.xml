@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-83b720d9-c260-4f83-9557-ebcf5d5a06f8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-83b720d9-c260-4f83-9557-ebcf5d5a06f8">
 <head>TATTERED</head>
     <list type="altnames">
 <item>RIPPED</item>
@@ -118,7 +119,15 @@
                 </gramGrp>
   <def>tattered thing</def>
             </sense>
-<sense xml:id="uuid-05c2b5ad-5590-4ed6-82b5-ad55900ed650" resp="#zadrapa" tls:created="2022-06-15T20:27:30.661+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>tatteredness</def></sense></entry>
+<sense xml:id="uuid-05c2b5ad-5590-4ed6-82b5-ad55900ed650" resp="#zadrapa" tls:created="2022-06-15T20:27:30.661+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>tatteredness</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b31d94b5-4d29-4256-a443-d64f49906bc5">
             <form corresp="#uuid-02578ff4-ec9b-413b-a2ec-99ebd04bc1f5">
 <orth>毀</orth>
@@ -299,5 +308,20 @@
   <def>coarse and tattered</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fca332b3-5608-4ff4-a332-b35608dff4cb" resp="#zadrapa" tls:created="2023-05-24T23:17:02.956+09:00"><form corresp="#uuid-343f27c1-3e69-4c4d-bf27-c13e690c4d58 #uuid-c7b5a86d-3a57-4798-ba07-983bc4a1d61a"><orth>靡敝</orth><pron xml:lang="zh-Latn-x-pinyin">mí bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- beds</pron></form><sense xml:id="uuid-3488d866-e3e2-4ed3-88d8-66e3e28ed305" resp="#zadrapa" tls:created="2023-05-24T23:17:02.956+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>to ruin</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-fca332b3-5608-4ff4-a332-b35608dff4cb" resp="#zadrapa" tls:created="2023-05-24T23:17:02.956+09:00">
+            <form corresp="#uuid-343f27c1-3e69-4c4d-bf27-c13e690c4d58 #uuid-c7b5a86d-3a57-4798-ba07-983bc4a1d61a">
+                <orth>靡敝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mí bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- beds</pron>
+            </form>
+            <sense xml:id="uuid-3488d866-e3e2-4ed3-88d8-66e3e28ed305" resp="#zadrapa" tls:created="2023-05-24T23:17:02.956+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>to ruin</def>
+            </sense>
+        </entry>
+    </div>
 </div>

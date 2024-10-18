@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5d364512-5035-44d8-ace6-d40fef6f7b5d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5d364512-5035-44d8-ace6-d40fef6f7b5d">
 <head>PERMIT</head>
     <list type="altnames">
 <item>ALLOW</item>
@@ -214,7 +215,15 @@
                 </gramGrp>
   <def>let (someone do something) NB: the un-negated cases are crucial. The negated cases can possibly be explained by NEG-raising.)</def>
             </sense>
-<sense xml:id="uuid-457c838c-9217-474c-bc83-8c9217a74ce4" resp="#CH" tls:created="2020-04-05T19:50:38.576+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vtt(oN.+V[0])</tls:syn-func><tls:sem-feat corresp="#uuid-6fd95f81-24b8-4592-8a92-9e267d184a79">subject=inanimate</tls:sem-feat></gramGrp><def>allow N to V</def></sense></entry>
+<sense xml:id="uuid-457c838c-9217-474c-bc83-8c9217a74ce4" resp="#CH" tls:created="2020-04-05T19:50:38.576+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vtt(oN.+V[0])</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6fd95f81-24b8-4592-8a92-9e267d184a79">subject=inanimate</tls:sem-feat>
+                </gramGrp>
+                <def>allow N to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7fecacf0-1f2f-47ec-b3de-985211d2db2d">
             <form corresp="#uuid-3c8386f6-1f0d-43a6-9209-ec8d132c60ce">
 <orth>假</orth>
@@ -269,7 +278,29 @@
                 </gramGrp>
   <def>permit the contextually determinate Nab asked for</def>
             </sense>
-<sense xml:id="uuid-8de91d7b-e767-4d9f-98a9-28e9a5d7e8c2" resp="#CH" tls:created="2020-01-13T04:49:23.676+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoV(0)</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>=可以？　be permitted to V</def></sense><sense xml:id="uuid-f93714ff-7f8e-4c15-bab0-40b36f34a185" resp="#CH" tls:created="2020-01-13T04:55:23.747+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt[0](oV(0))</tls:syn-func></gramGrp><def>You are permitted to do the contextually determinate act V</def></sense><sense xml:id="uuid-384130be-2924-4c8b-8130-be29240c8b92" resp="#dsehnal" tls:created="2023-06-24T16:42:30.34+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>you are permitted to V (cf. German "dürfen")</def></sense></entry>
+<sense xml:id="uuid-8de91d7b-e767-4d9f-98a9-28e9a5d7e8c2" resp="#CH" tls:created="2020-01-13T04:49:23.676+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoV(0)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>=可以？　be permitted to V</def>
+            </sense>
+            <sense xml:id="uuid-f93714ff-7f8e-4c15-bab0-40b36f34a185" resp="#CH" tls:created="2020-01-13T04:55:23.747+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt[0](oV(0))</tls:syn-func>
+                </gramGrp>
+                <def>You are permitted to do the contextually determinate act V</def>
+            </sense>
+            <sense xml:id="uuid-384130be-2924-4c8b-8130-be29240c8b92" resp="#dsehnal" tls:created="2023-06-24T16:42:30.34+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>you are permitted to V (cf. German "dürfen")</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-aba8ec09-6a7d-478b-8073-19fd7e2bca66">
             <form corresp="#uuid-cd8a8d09-c46f-4c27-b187-2a37bbefdf9e">
 <orth>容</orth>
@@ -325,7 +356,14 @@
                 </gramGrp>
   <def>give free rein (to oneself)</def>
             </sense>
-<sense xml:id="uuid-0c052ab4-9b4b-4dcf-852a-b49b4b9dcf3b" resp="#zadrapa" tls:created="2020-12-04T05:48:37.601+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>allow or permit the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-0c052ab4-9b4b-4dcf-852a-b49b4b9dcf3b" resp="#zadrapa" tls:created="2020-12-04T05:48:37.601+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>allow or permit the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-14243286-4a3c-4ccc-ae92-d35254a53711">
             <form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8">
 <orth>得</orth>
@@ -443,7 +481,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-11-19T23:29:24.736+09:00">permit/allow a contextually determinate person to V; go along with </def>
             </sense>
-<sense xml:id="uuid-26391c6c-d7ef-43fb-b91c-6cd7efe3fbf3" resp="#CH" tls:created="2022-11-19T23:30:35.814+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-1d4cdb2e-334a-4d10-8cdb-2e334a7d103c">vtoNab[S]</tls:syn-func></gramGrp><def resp="#CH" updated="2022-11-19T23:34:23.954+09:00">not permit (the occurence of) S</def></sense></entry>
+<sense xml:id="uuid-26391c6c-d7ef-43fb-b91c-6cd7efe3fbf3" resp="#CH" tls:created="2022-11-19T23:30:35.814+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-1d4cdb2e-334a-4d10-8cdb-2e334a7d103c">vtoNab[S]</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-11-19T23:34:23.954+09:00">not permit (the occurence of) S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6881aff6-067d-4228-9f04-bb3d98e8fea5">
             <form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
 <orth>許</orth>
@@ -523,7 +568,14 @@
                 </gramGrp>
   <def>grant N1 the desired thing N2</def>
             </sense>
-<sense xml:id="uuid-3e848ba2-f530-41ff-848b-a2f53091ffd0" resp="#CH" tls:created="2021-03-24T07:18:48.956+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c6f168c0-c38b-4b2d-b168-c0c38bdb2db5">vtt(oN. V[0])</tls:syn-func></gramGrp><def resp="#CH" updated="2021-03-24T07:19:58.684+09:00">pivot: permit the contextually determinate N to perform the contextually determinate act V</def></sense></entry>
+<sense xml:id="uuid-3e848ba2-f530-41ff-848b-a2f53091ffd0" resp="#CH" tls:created="2021-03-24T07:18:48.956+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c6f168c0-c38b-4b2d-b168-c0c38bdb2db5">vtt(oN. V[0])</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-03-24T07:19:58.684+09:00">pivot: permit the contextually determinate N to perform the contextually determinate act V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d4ccd89f-0de3-4929-8abc-371693064097">
             <form corresp="#uuid-b786976b-0242-4759-9415-9e21050daed5">
 <orth>賜</orth>
@@ -649,5 +701,21 @@
   <def>permit, give the permission for (with contextually determinate object)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ae7e022f-b5fd-4d1c-be02-2fb5fd0d1c2a" resp="#schwermann" tls:created="2022-02-02T02:24:47.784+09:00"><form corresp="#uuid-91d38b07-5b06-47cc-88d9-624f7c18a502"><orth>令</orth><pron xml:lang="zh-Latn-x-pinyin">lìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-reŋ</pron></form><sense xml:id="uuid-5108b6d5-b018-472f-88b6-d5b018072f64" resp="#schwermann" tls:created="2022-02-02T02:24:47.784+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.) V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>allow the understood N to V, let the understood N V</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ae7e022f-b5fd-4d1c-be02-2fb5fd0d1c2a" resp="#schwermann" tls:created="2022-02-02T02:24:47.784+09:00">
+            <form corresp="#uuid-91d38b07-5b06-47cc-88d9-624f7c18a502">
+                <orth>令</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-reŋ</pron>
+            </form>
+            <sense xml:id="uuid-5108b6d5-b018-472f-88b6-d5b018072f64" resp="#schwermann" tls:created="2022-02-02T02:24:47.784+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.) V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>allow the understood N to V, let the understood N V</def>
+            </sense>
+        </entry>
+    </div>
 </div>

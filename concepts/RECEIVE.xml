@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-178d0e00-bad0-4692-b215-571a38a096a8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-178d0e00-bad0-4692-b215-571a38a096a8">
 <head>RECEIVE</head>
     <list type="altnames">
 <item>BE GIVEN</item>
@@ -178,7 +179,28 @@
                 </gramGrp>
   <def>receive N1 from N2</def>
             </sense>
-<sense xml:id="uuid-f76eee73-6fdd-497d-aeee-736fdd997d88" resp="#twharbsmeier" tls:created="2020-06-18T18:15:40.593+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>N = giver: receive, get, obtain from N</def></sense><sense xml:id="uuid-4dfd7350-5212-46a4-bd73-50521266a4db" resp="#CH" tls:created="2022-08-27T17:05:38.209+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>receiving</def></sense><sense xml:id="uuid-7a64be7a-ebe4-4c42-a4be-7aebe47c4241" resp="#dsehnal" tls:created="2024-05-05T03:43:53.287+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(.+prep+N2)</tls:syn-func></gramGrp><def>receive N1 from the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-f76eee73-6fdd-497d-aeee-736fdd997d88" resp="#twharbsmeier" tls:created="2020-06-18T18:15:40.593+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>N = giver: receive, get, obtain from N</def>
+            </sense>
+            <sense xml:id="uuid-4dfd7350-5212-46a4-bd73-50521266a4db" resp="#CH" tls:created="2022-08-27T17:05:38.209+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>receiving</def>
+            </sense>
+            <sense xml:id="uuid-7a64be7a-ebe4-4c42-a4be-7aebe47c4241" resp="#dsehnal" tls:created="2024-05-05T03:43:53.287+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(.+prep+N2)</tls:syn-func>
+                </gramGrp>
+                <def>receive N1 from the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2d0a8a4a-74ee-4145-8a33-e7a93b861771">
             <form corresp="#uuid-2701f426-6c08-458a-a43d-14697e6fc8e8">
 <orth>奉</orth>
@@ -328,7 +350,14 @@
                 </gramGrp>
   <def>take over duties from N in V-ing</def>
             </sense>
-<sense xml:id="uuid-a785bbe2-b96c-4e6a-85bb-e2b96cae6ae9" resp="#CH" tls:created="2023-08-08T05:40:59.591+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>receive N1 from N2</def></sense></entry>
+<sense xml:id="uuid-a785bbe2-b96c-4e6a-85bb-e2b96cae6ae9" resp="#CH" tls:created="2023-08-08T05:40:59.591+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>receive N1 from N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3765c1ca-7e10-48d8-816a-c293f008ca80">
             <form corresp="#uuid-b6458fb7-54cf-44b6-9cd7-ad4e5a465798">
 <orth>納</orth>
@@ -426,7 +455,14 @@
                 </gramGrp>
   <def>to receive (benefits)</def>
             </sense>
-<sense xml:id="uuid-ea688803-2956-418c-a888-032956c18c74" resp="#CH" tls:created="2020-02-13T03:00:36.479+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-15T00:11:38.75+09:00">be exposed to, be the subject of (accusations and disasters etc.)</def></sense></entry>
+<sense xml:id="uuid-ea688803-2956-418c-a888-032956c18c74" resp="#CH" tls:created="2020-02-13T03:00:36.479+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-15T00:11:38.75+09:00">be exposed to, be the subject of (accusations and disasters etc.)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a0664271-2532-479a-8499-fc7919eda881">
             <form corresp="#uuid-7f871dac-3bda-4767-a3ff-16dff2ce58ee">
 <orth>被</orth>
@@ -545,5 +581,50 @@
   <def>receive</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ccc40522-0518-43bd-8112-38af7a6f416f" resp="#CH" tls:created="2019-10-14T19:26:46.484+09:00"><form corresp="#uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6"><orth>來</orth><pron xml:lang="zh-Latn-x-pinyin">lái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">loj</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">m-rɯɯ</pron></form><sense xml:id="uuid-96be0182-30d9-409a-a16a-2023633f25ff" resp="#CH" tls:created="2019-10-14T19:26:46.484+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>have presents coming to one</def></sense></entry><entry type="word" xml:id="uuid-a97f0f8e-347a-485c-bf0f-8e347a585c97" resp="#zadrapa" tls:created="2022-06-17T00:10:56.033+09:00"><form corresp="#uuid-752ae0dc-b039-4d82-9ad2-07ed9475c349 #uuid-1af4f83c-5e32-43c0-9616-54d4478fcab5"><orth>并閱</orth><pron xml:lang="zh-Latn-x-pinyin">bīng yuè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">peŋ lod</pron></form><sense xml:id="uuid-e63800ec-551a-44e9-b800-ec551a24e9fe" resp="#zadrapa" tls:created="2022-06-17T00:10:56.033+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>receive, accept</def></sense></entry><entry type="word" xml:id="uuid-9a77c9be-aa66-4505-b7c9-beaa66f50551" resp="#CH" tls:created="2022-09-05T22:10:12.65+09:00"><form corresp="#uuid-2701f426-6c08-458a-a43d-14697e6fc8e8 #uuid-35496ae0-38af-446e-afca-6b472a46c411"><orth>奉持</orth><pron xml:lang="zh-Latn-x-pinyin">fèng chí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjowngX dri</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">boŋʔ ɡrlɯ</pron></form><sense xml:id="uuid-54759235-dcf6-4ef9-b592-35dcf6cef971" resp="#CH" tls:created="2022-09-05T22:10:12.65+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func></gramGrp><def>politely receive instructions from N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ccc40522-0518-43bd-8112-38af7a6f416f" resp="#CH" tls:created="2019-10-14T19:26:46.484+09:00">
+            <form corresp="#uuid-9ef8de95-a9bb-45e9-a9eb-4ba693fb26c6">
+                <orth>來</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">loj</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">m-rɯɯ</pron>
+            </form>
+            <sense xml:id="uuid-96be0182-30d9-409a-a16a-2023633f25ff" resp="#CH" tls:created="2019-10-14T19:26:46.484+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>have presents coming to one</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a97f0f8e-347a-485c-bf0f-8e347a585c97" resp="#zadrapa" tls:created="2022-06-17T00:10:56.033+09:00">
+            <form corresp="#uuid-752ae0dc-b039-4d82-9ad2-07ed9475c349 #uuid-1af4f83c-5e32-43c0-9616-54d4478fcab5">
+                <orth>并閱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bīng yuè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">peŋ lod</pron>
+            </form>
+            <sense xml:id="uuid-e63800ec-551a-44e9-b800-ec551a24e9fe" resp="#zadrapa" tls:created="2022-06-17T00:10:56.033+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>receive, accept</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9a77c9be-aa66-4505-b7c9-beaa66f50551" resp="#CH" tls:created="2022-09-05T22:10:12.65+09:00">
+            <form corresp="#uuid-2701f426-6c08-458a-a43d-14697e6fc8e8 #uuid-35496ae0-38af-446e-afca-6b472a46c411">
+                <orth>奉持</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèng chí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjowngX dri</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">boŋʔ ɡrlɯ</pron>
+            </form>
+            <sense xml:id="uuid-54759235-dcf6-4ef9-b592-35dcf6cef971" resp="#CH" tls:created="2022-09-05T22:10:12.65+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>politely receive instructions from N</def>
+            </sense>
+        </entry>
+    </div>
 </div>
