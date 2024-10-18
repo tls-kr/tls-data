@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="document.rnc" type="application/relax-ng-compact-syntax"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!--<?xml-model href="document.rnc" type="application/relax-ng-compact-syntax"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -63,9 +64,11 @@
             </titleStmt>
             <publicationStmt>
                 <distributor> 
-                    <orgName> SAT Daizōkyō Database Committee </orgName></distributor>
+                    <orgName> SAT Daizōkyō Database Committee </orgName>
+                </distributor>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</licence></availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</licence>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -45650,10 +45653,17 @@
                     <idno> 389 </idno>
                     <title xml:lang="ja-Latn"> BUTSU SUI HATSUNEHAN RYAKUSETSU KYŌKAI KYŌ </title>
                     <title xml:lang="zh-Latn"> Fo chui ban nie pan lüe shuo jiao jie jing </title>
-                    <title xml:lang="zh"><choice><corr>佛埀般涅槃略説教誡經</corr><sic>佛垂般涅槃略説誡經</sic></choice> </title>
+                    <title xml:lang="zh">
+                        <choice>
+                            <corr>佛埀般涅槃略説教誡經</corr>
+                            <sic>佛垂般涅槃略説誡經</sic>
+                        </choice> </title>
                     <name corresp="#TP557" type="trans"/>
                     <note> BUTSU SUI HATSUNEHAN RYAKUSETSU KYŌKAI KYŌ (Fo chui ban nie pan lüe shuo
-                        jiao jie jing) <choice><corr>佛埀般涅槃略説教誡經</corr><sic>佛垂般涅槃略説誡經</sic></choice> Kumarajū 鳩摩羅什 jiu1 mo2 luo2 shi2 (Kumārajīva). S.
+                        jiao jie jing) <choice>
+                            <corr>佛埀般涅槃略説教誡經</corr>
+                            <sic>佛垂般涅槃略説誡經</sic>
+                        </choice> Kumarajū 鳩摩羅什 jiu1 mo2 luo2 shi2 (Kumārajīva). S.
                         XIII 10; 卍 VIII 10; Nj. 122; Kyik., kyōjū-bu III; K. 453, K.S. 50.
                         *[Butsu]yuikyōgyō, *Butsurinhatsunehangyō, *Ryakusetsukyōkaikyō. 姚秦 24
                     </note>
@@ -45833,7 +45843,10 @@
                     <idno> 402 </idno>
                     <title xml:lang="ja-Latn"> HŌSHŌDARANI KYŌ </title>
                     <title xml:lang="zh-Latn"> Bao xing tuo luo ni jing </title>
-                    <title xml:lang="zh"> 寶<choice><corr>星</corr><sic>生</sic></choice>陀羅尼經 </title>
+                    <title xml:lang="zh"> 寶<choice>
+                            <corr>星</corr>
+                            <sic>生</sic>
+                        </choice>陀羅尼經 </title>
                     <title xml:lang="sa-Latn"> ±[Mahāsaṃnipāta]ratnaketudhārañī </title>
                     <name corresp="#TP328" type="trans"/>
                     <note> HŌSHŌDARANI KYŌ (Bao xing tuo luo ni jing) 寶星陀羅尼經
@@ -45856,11 +45869,17 @@
                     <idno> 404 </idno>
                     <title xml:lang="ja-Latn"> DAISHŪ DAIKOKŪZŌBOSATSU SHOMON GYŌ </title>
                     <title xml:lang="zh-Latn"> Da ji da xu kong zang pu sa suo wen jing </title>
-                    <title xml:lang="zh"> 大集<choice><corr>大</corr><sic/></choice>虚空藏菩薩所問經 </title>
+                    <title xml:lang="zh"> 大集<choice>
+                            <corr>大</corr>
+                            <sic/>
+                        </choice>虚空藏菩薩所問經 </title>
                     <title xml:lang="sa-Latn"> ±Gagañagañja[paripṛcchā] </title>
                     <name corresp="#TP243" type="trans"/>
                     <note> DAISHŪ DAIKOKŪZŌBOSATSU SHOMON GYŌ (Da ji da xu kong zang pu sa suo wen
-                        jing) 大集<choice><corr>大</corr><sic/></choice>虚空藏菩薩所問經 ±Gagañagañja[paripṛcchā] 不空 bu4 kong1 (Amoghavajra). S.
+                        jing) 大集<choice>
+                            <corr>大</corr>
+                            <sic/>
+                        </choice>虚空藏菩薩所問經 ±Gagañagañja[paripṛcchā] 不空 bu4 kong1 (Amoghavajra). S.
                         XXV 9; Z. I II 5; K. 1339. *Kokūzōbosatsukyō. Cf. 397 (8) 唐 65 </note>
                 </bibl>
                 <bibl xml:id="T405">
@@ -46524,10 +46543,16 @@
                     <idno> 471 </idno>
                     <title xml:lang="ja-Latn"> MONJUSHIRI GYŌ KYŌ </title>
                     <title xml:lang="zh-Latn"> Wen shu shi li xing jing </title>
-                    <title xml:lang="zh">文殊<choice><corr>師利</corr><sic/></choice>行經</title>
+                    <title xml:lang="zh">文殊<choice>
+                            <corr>師利</corr>
+                            <sic/>
+                        </choice>行經</title>
                     <title xml:lang="sa-Latn"> ±Mañjuśrīvihārasūtra </title>
                     <name corresp="#TP394" type="trans"/>
-                    <note> MONJUSHIRI GYŌ KYŌ (Wen shu shi li xing jing)  <choice><corr>文殊師利行經</corr><sic>文殊行經</sic></choice> ±Mañjuśrīvihārasūtra
+                    <note> MONJUSHIRI GYŌ KYŌ (Wen shu shi li xing jing)  <choice>
+                            <corr>文殊師利行經</corr>
+                            <sic>文殊行經</sic>
+                        </choice> ±Mañjuśrīvihārasūtra
                         豆那掘多 dou4 na3 jue2 duo1 (Jñānagupta). S. VI 2; 卍 X 7; Nj. 287; Kyik.,
                         kyōjū-bu XIV; K. 267. *Monjugyōkyō. Cf. 470 隋 19 </note>
                 </bibl>
@@ -46873,7 +46898,10 @@
                     <idno> 2675 </idno>
                     <title xml:lang="zh-Latn"> Wei xin chao </title>
                     <title xml:lang="ja-Latn"> YUISHIN SHŌ </title>
-                    <title xml:lang="zh"> 唯信<choice><corr>鈔</corr><sic>抄</sic></choice> </title>
+                    <title xml:lang="zh"> 唯信<choice>
+                            <corr>鈔</corr>
+                            <sic>抄</sic>
+                        </choice> </title>
                     <name corresp="#TP756" type="author"/>
                     <note> YUISHIN SHŌ (Wei xin chao) 唯信抄 Shōkaku 聖覺 sheng4 jue2 Cf. 2658 日本 </note>
                 </bibl>
@@ -47050,7 +47078,10 @@
                     <idno> 524 </idno>
                     <title xml:lang="ja-Latn"> BUTSU I UDENNŌ SETSU ŌBŌ SHŌRON GYŌ </title>
                     <title xml:lang="zh-Latn"> Fo wei you tian wang shuo wang fa zheng lun jing </title>
-                    <title xml:lang="zh"> 佛爲優填王説<choice><corr>王法政論</corr><sic>［五法政論］</sic></choice>經 </title>
+                    <title xml:lang="zh"> 佛爲優填王説<choice>
+                            <corr>王法政論</corr>
+                            <sic>［五法政論］</sic>
+                        </choice>經 </title>
                     <name corresp="#TP243" type="trans"/>
                     <note> BUTSU I UDENNŌ SETSU ŌBŌ SHŌRON GYŌ (Fo wei you tian wang shuo wang fa
                         zheng lun jing) 佛爲優填王説王法政論經 Fukū 不空 bu4 kong1 (Amoghavajra). S. XXV 15; 卍
@@ -47061,7 +47092,10 @@
                     <idno> 525 </idno>
                     <title xml:lang="ja-Latn"> CHŌJA SHIŌNŌ SANSHO KYŌ </title>
                     <title xml:lang="zh-Latn"> Zhang zhe zi ao nao san chu jing </title>
-                    <title xml:lang="zh"> 長者子懊惱<choice><corr>三</corr><sic>二</sic></choice>處經 </title>
+                    <title xml:lang="zh"> 長者子懊惱<choice>
+                            <corr>三</corr>
+                            <sic>二</sic>
+                        </choice>處經 </title>
                     <name corresp="#TP13" type="trans"/>
                     <note> CHŌJA SHIŌNŌ SANSHO KYŌ (Zhang zhe zi ao nao san chu jing) 長者子懊惱三處經 An
                         Seikō 安世高. S. XIV 7; 卍 XIV 10; Nj. 694; K. 815. *[Ōnō]sanshokyō,
@@ -47125,7 +47159,10 @@
                 </bibl>
                 <bibl xml:id="T532">
                     <idno> 532 </idno>
-                    <title xml:lang="zh"> 私呵<choice><corr/><sic>[三]</sic></choice>昧經 </title>
+                    <title xml:lang="zh"> 私呵<choice>
+                            <corr/>
+                            <sic>[三]</sic>
+                        </choice>昧經 </title>
                     <title xml:lang="ja-Latn"> SHIKAMAI KYŌ </title>
                     <title xml:lang="zh-Latn"> Si he mei jing </title>
                     <name corresp="#TP714" type="trans"/>
@@ -47169,7 +47206,10 @@
                     <idno> 536 </idno>
                     <title xml:lang="ja-Latn"> SHINNICHI NI HONGYŌ </title>
                     <title xml:lang="zh-Latn"> Shen ri er ben jing </title>
-                    <title xml:lang="zh"> 申日<choice><corr>兒</corr><sic>兜</sic></choice>本經 </title>
+                    <title xml:lang="zh"> 申日<choice>
+                            <corr>兒</corr>
+                            <sic>兜</sic>
+                        </choice>本經 </title>
                     <title xml:lang="sa-Latn"> ±Candraprabhakumārasūtra </title>
                     <name corresp="#TP307" type="trans"/>
                     <note> SHINNICHI NI HONGYŌ (Shen ri er ben jing) 申日兒本經 ±Candraprabhakumārasūtra
@@ -47777,7 +47817,10 @@
                     <title xml:lang="ja-Latn"> r SHABENAHŌTENSHI JU SANKIE GYAKUMEN AKUDŌ KYŌ </title>
                     <title xml:lang="zh-Latn"> Jie wa nang fa tian zi shou san gui yi huo mian e dao
                         jing </title>
-                    <title xml:lang="zh"> 嗟韈曩法天子受<choice><corr>三</corr><sic/></choice>歸依獲免惡道經 </title>
+                    <title xml:lang="zh"> 嗟韈曩法天子受<choice>
+                            <corr>三</corr>
+                            <sic/>
+                        </choice>歸依獲免惡道經 </title>
                     <title xml:lang="sa-Latn"> *Sūkarikāvadāna </title>
                     <name corresp="#TP376" type="trans"/>
                     <note> r SHABENAHŌTENSHI JU SANKIE GYAKUMEN AKUDŌ KYŌ (Jie wa nang fa tian zi
@@ -50884,7 +50927,10 @@
                     <idno> 898 </idno>
                     <title xml:lang="ja-Latn"> BINAYA KYŌ </title>
                     <title xml:lang="zh-Latn"> Pi nai ye jing </title>
-                    <title xml:lang="zh"> 毘奈耶<choice><corr>經</corr><sic/></choice> </title>
+                    <title xml:lang="zh"> 毘奈耶<choice>
+                            <corr>經</corr>
+                            <sic/>
+                        </choice> </title>
                     <note> BINAYA KYŌ (Pi nai ye jing) 毘奈耶經 An. 618-805 S. XXV 4; Z. I II 4; Kyik.,
                         mikkyō-bu II. *Binayaritsuzōkyō. </note>
                 </bibl>

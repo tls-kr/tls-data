@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-739263b4-9ea6-4c1e-acc2-cd7bec17ff50">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-739263b4-9ea6-4c1e-acc2-cd7bec17ff50">
 <head>FRIEND</head>
     <list type="altnames">
 <item>FRIENDSHIP</item>
@@ -356,7 +357,21 @@
                 </gramGrp>
   <def>good relations; friendship</def>
             </sense>
-<sense xml:id="uuid-37f1559d-9ddb-40c5-962d-4450bf29cc1d" resp="#CH" tls:created="2019-10-22T20:36:14.96+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>have friendly relations with each other</def></sense><sense xml:id="uuid-b3df602f-f5fe-41db-9f60-2ff5fe81db71" resp="#dsehnal" tls:created="2023-12-05T00:16:57.841+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func></gramGrp><def>one's allies</def></sense></entry>
+<sense xml:id="uuid-37f1559d-9ddb-40c5-962d-4450bf29cc1d" resp="#CH" tls:created="2019-10-22T20:36:14.96+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have friendly relations with each other</def>
+            </sense>
+            <sense xml:id="uuid-b3df602f-f5fe-41db-9f60-2ff5fe81db71" resp="#dsehnal" tls:created="2023-12-05T00:16:57.841+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>one's allies</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ce54de11-620c-4998-b7ef-37adade5bd61">
             <form corresp="#uuid-2564ff44-6005-442d-84a7-b08031f58a06">
 <orth>仇</orth>
@@ -490,7 +505,15 @@
                 </gramGrp>
   <def>partner or companion of the same rank or generation</def>
             </sense>
-<sense xml:id="uuid-095ae715-e563-49e1-9f3d-97e211463eed" resp="#CH" tls:created="2019-10-20T20:04:13.557+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary companion piece</def></sense></entry>
+<sense xml:id="uuid-095ae715-e563-49e1-9f3d-97e211463eed" resp="#CH" tls:created="2019-10-20T20:04:13.557+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary companion piece</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-21e1e21a-e6be-48be-9214-6bcafbb86d6c">
             <form corresp="#uuid-f3bc0101-37b0-434c-b244-8cb722dad9ff">
 <orth>匹</orth>
@@ -592,7 +615,28 @@
                 </gramGrp>
   <def>be on friendly terms with</def>
             </sense>
-<sense xml:id="uuid-2f874543-6541-4b28-9cf8-0b0750cdc635" resp="#zadrapa" tls:created="2020-01-21T23:02:23.289+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's friend</def></sense><sense xml:id="uuid-1ec9e8c7-1664-44c3-b6ec-fb60d9b2eb70" resp="#CH" tls:created="2020-01-23T05:59:56.601+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func></gramGrp><def>be a friend of the contextually determinate N</def></sense><sense xml:id="uuid-269bff57-9b26-4706-ad0b-e3d64ca7600d" resp="#CH" tls:created="2020-01-23T06:00:51.175+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>friend of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-2f874543-6541-4b28-9cf8-0b0750cdc635" resp="#zadrapa" tls:created="2020-01-21T23:02:23.289+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's friend</def>
+            </sense>
+            <sense xml:id="uuid-1ec9e8c7-1664-44c3-b6ec-fb60d9b2eb70" resp="#CH" tls:created="2020-01-23T05:59:56.601+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be a friend of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-269bff57-9b26-4706-ad0b-e3d64ca7600d" resp="#CH" tls:created="2020-01-23T06:00:51.175+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>friend of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-498ba2a2-fcba-41c1-96b5-de47070d1343">
             <form corresp="#uuid-a4db1079-3e1b-4dc8-bf2b-64908c6a0d42">
 <orth>同</orth>
@@ -639,9 +683,35 @@
                 </gramGrp>
   <def>good diplomatic relations</def>
             </sense>
-<sense xml:id="uuid-6aec3387-8264-4e55-ac33-8782643e5583" resp="#dsehnal" tls:created="2020-04-28T03:52:51.753+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>in a friendly manner</def></sense><sense xml:id="uuid-4047590e-968e-44a5-8759-0e968eb4a5b7" resp="#zadrapa" tls:created="2020-06-16T19:01:13.442+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>friendly</def></sense><sense xml:id="uuid-ab352e0d-3e9b-47e7-b52e-0d3e9be7e783" resp="#zadrapa" tls:created="2022-05-16T16:32:18.485+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>friendly intentions or deeds</def></sense></entry>
+<sense xml:id="uuid-6aec3387-8264-4e55-ac33-8782643e5583" resp="#dsehnal" tls:created="2020-04-28T03:52:51.753+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>in a friendly manner</def>
+            </sense>
+            <sense xml:id="uuid-4047590e-968e-44a5-8759-0e968eb4a5b7" resp="#zadrapa" tls:created="2020-06-16T19:01:13.442+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>friendly</def>
+            </sense>
+            <sense xml:id="uuid-ab352e0d-3e9b-47e7-b52e-0d3e9be7e783" resp="#zadrapa" tls:created="2022-05-16T16:32:18.485+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>friendly intentions or deeds</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-074503a0-8465-46ac-be25-d1f398946aee">
-            <form corresp="#uuid-78ceb5d2-abd7-45bd-ae8d-5b04e4d5bfac"><orth>好</orth><pron xml:lang="zh-Latn-x-pinyin">hǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhuuʔ</pron></form>
+            <form corresp="#uuid-78ceb5d2-abd7-45bd-ae8d-5b04e4d5bfac">
+                <orth>好</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhuuʔ</pron>
+            </form>
 <sense xml:id="uuid-1e706404-b782-41dd-91dc-a0e8140f4569">
 <gramGrp>
                     <pos>N</pos>
@@ -685,7 +755,14 @@
                 </gramGrp>
   <def>object of friendship 舊好</def>
             </sense>
-<sense xml:id="uuid-6703a11e-8e7a-4cd7-83a1-1e8e7afcd729" resp="#zadrapa" tls:created="2021-02-11T18:29:44.066+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>friendly</def></sense></entry>
+<sense xml:id="uuid-6703a11e-8e7a-4cd7-83a1-1e8e7afcd729" resp="#zadrapa" tls:created="2021-02-11T18:29:44.066+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>friendly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-52975c08-f3ed-48ae-9f28-bf22f7008fa0">
             <form corresp="#uuid-67c3fd56-3f79-4623-84ad-99068a8d6f18">
 <orth>媚</orth>
@@ -1042,7 +1119,14 @@
                 </gramGrp>
   <def>factional favouritism, partisanship</def>
             </sense>
-<sense xml:id="uuid-731b07dd-5d24-4295-9b07-dd5d24229599" resp="#zadrapa" tls:created="2020-12-15T19:48:54.136+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>friendly associate oneself with N</def></sense></entry>
+<sense xml:id="uuid-731b07dd-5d24-4295-9b07-dd5d24229599" resp="#zadrapa" tls:created="2020-12-15T19:48:54.136+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>friendly associate oneself with N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-63ebaa42-392c-4471-bbd0-992abf4839c0">
             <form corresp="#uuid-50893144-9763-4932-a328-e670f2ed9fc2 #uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95">
 <orth>交友</orth>
@@ -1569,7 +1653,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-                <tls:sem-feat corresp="#">plural</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#">plural</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2023-09-09T18:07:51.809+09:00">acquaintances</def>
             </sense>
 <sense xml:id="uuid-3382437c-c718-474f-bb43-7e775ece2f09">
@@ -1937,5 +2022,210 @@
   <def>SHIJI: informal: friend</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b09eb2da-635d-4cf9-a23b-6c490c79d9a6" resp="#CH" tls:created="2019-10-17T16:13:57.605+09:00"><form corresp="#uuid-99ded5fd-627f-48cc-9764-8a1fe3728f61 #uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95"><orth>執友</orth><pron xml:lang="zh-Latn-x-pinyin">zhí yǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyip hjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjib ɢʷɯʔ</pron></form><sense xml:id="uuid-c76aa7de-dc7e-46f3-baab-5cb9bc868883" resp="#CH" tls:created="2019-10-17T16:13:57.605+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>offfice colleagues</def></sense></entry><entry type="word" xml:id="uuid-98272f1c-21e7-43e3-add8-53ebfcac7095" resp="#CH" tls:created="2019-10-17T16:15:56.408+09:00"><form corresp="#uuid-50893144-9763-4932-a328-e670f2ed9fc2 #uuid-fbc9c501-30dc-4992-9d1e-f5ec90d6d659"><orth>交遊</orth><pron xml:lang="zh-Latn-x-pinyin">jiāo yóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaew yuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreew lu</pron></form><sense xml:id="uuid-fc6a4982-c79e-41da-8b2d-1b6ba99803db" resp="#CH" tls:created="2019-10-17T16:15:56.408+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-02T02:51:07.561+09:00">travel companion; friends in different places</def></sense></entry><entry type="word" xml:id="uuid-5256ba76-de66-40d8-b415-990c5093eabc" resp="#CH" tls:created="2019-10-17T16:19:03.204+09:00"><form corresp="#uuid-99ded5fd-627f-48cc-9764-8a1fe3728f61"><orth>執</orth><pron xml:lang="zh-Latn-x-pinyin">zhí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjib</pron></form><sense xml:id="uuid-132a1a1a-bbea-47d9-901c-bc1402cbaf25" resp="#CH" tls:created="2019-10-17T16:19:03.204+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp><def>associate, colleague or friend</def></sense></entry><entry type="word" xml:id="uuid-d9553576-1cfc-4b2c-ad08-052662b94ff2" resp="#CH" tls:created="2019-12-06T21:35:23.601+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-220196b5-bf69-4c6f-a7d9-e07414a61674" resp="#CH" tls:created="2019-12-06T21:35:23.601+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>become friends</def></sense></entry><entry type="word" xml:id="uuid-f1270f7b-68f4-474f-8304-a2830bf80b31" resp="#CH" tls:created="2019-12-06T21:35:59.126+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95"><orth>為友</orth><pron xml:lang="zh-Latn-x-pinyin">wéi yǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH hjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal ɢʷɯʔ</pron></form><sense xml:id="uuid-0ed0db8b-ef44-450f-848c-c0a4b7c02c4a" resp="#CH" tls:created="2019-12-06T21:35:59.126+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>become friends with N</def></sense></entry><entry type="word" xml:id="uuid-294e0387-4f50-47f0-a81f-aa3417bca614" resp="#CH" tls:created="2019-12-07T04:16:42.368+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-f32a1e5d-2c67-4b4d-b976-79f624345b50"><orth>為儔</orth><pron xml:lang="zh-Latn-x-pinyin">wéi chóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH drjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal du</pron></form><sense xml:id="uuid-6652e7a4-0852-4a59-afea-aabf0bf139f0" resp="#CH" tls:created="2019-12-07T04:16:42.368+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ecbbe1c7-cb4c-4ef3-82d3-f6da63f1da20">VPi.post-Vt N</tls:syn-func></gramGrp><def>make friends with, be friends with</def></sense></entry><entry type="word" xml:id="uuid-48cb260d-f815-42b6-b613-ee63467b7f1c" resp="#CH" tls:created="2019-12-07T04:19:04.704+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-affb4b07-e0fd-4d72-932d-8642d04e23aa" resp="#CH" tls:created="2019-12-07T04:19:04.704+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ecbbe1c7-cb4c-4ef3-82d3-f6da63f1da20">VPi.post-Vt N</tls:syn-func></gramGrp><def>be friendly neighbours with</def></sense></entry><entry type="word" xml:id="uuid-280268bd-09e0-4b72-9df9-c43cd0da9e89" resp="#CH" tls:created="2019-12-07T04:19:17.023+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-5ba0da1c-7663-4a07-b80f-18dab23e6ac4"><orth>為鄰</orth><pron xml:lang="zh-Latn-x-pinyin">wéi lín</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH lin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal rin</pron></form><sense xml:id="uuid-78be6b9d-77da-4b37-9f45-44adefdac084" resp="#CH" tls:created="2019-12-07T04:19:17.023+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ecbbe1c7-cb4c-4ef3-82d3-f6da63f1da20">VPi.post-Vt N</tls:syn-func></gramGrp><def>be friendly neighbours with</def></sense></entry><entry type="word" xml:id="uuid-9fe068ee-7792-4a7e-a068-ee77920a7e60" resp="#zadrapa" tls:created="2020-05-20T16:49:04.288+09:00"><form corresp="#uuid-35929036-2ee5-4ecf-abde-28f9c99dd1ef #uuid-35929036-2ee5-4ecf-abde-28f9c99dd1ef"><orth>潝潝</orth><pron xml:lang="zh-Latn-x-pinyin">xī yà xī yà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xip xip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- --</pron></form><sense xml:id="uuid-30c3865a-d380-4704-8386-5ad380e70407" resp="#zadrapa" tls:created="2020-05-20T16:49:04.288+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def>evokes the image of flocking together in conformity</def></sense></entry><entry type="word" xml:id="uuid-ecf26749-b7d6-4c3e-b267-49b7d63c3e3e" resp="#CH" tls:created="2020-06-02T03:14:35.703+09:00"><form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-699ace48-e0a8-4f06-96d2-a1650a849635 #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>知己者</orth><pron xml:lang="zh-Latn-x-pinyin">zhī jǐ zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trje kiX tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te kɯʔ kljaʔ</pron></form><sense xml:id="uuid-18aacd19-28e9-4f16-aacd-1928e9ef1604" resp="#CH" tls:created="2020-06-02T03:14:35.703+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>someone who really understands one</def></sense></entry><entry type="word" xml:id="uuid-088ad904-bf8c-4d46-8ad9-04bf8c3d4607" resp="#dsehnal" tls:created="2021-04-16T15:45:33.769+09:00"><form corresp="#uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>友人</orth><pron xml:lang="zh-Latn-x-pinyin">yǒu rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ njin</pron></form><sense xml:id="uuid-564e6882-99c4-4bcb-8e68-8299c49bcbb8" resp="#dsehnal" tls:created="2021-04-16T15:45:33.769+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2021-04-17T01:30:24.272+09:00">one's friend; his friend; my friend etc.</def></sense><sense xml:id="uuid-0bc6c82d-3a58-443b-86c8-2d3a58d43b8c" resp="#dsehnal" tls:created="2021-04-17T01:47:04.221+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NP[post-N]adN</tls:syn-func></gramGrp><def>[my] friend's</def></sense></entry><entry type="word" xml:id="uuid-edaaa31d-165f-4d17-aaa3-1d165f6d1718" resp="#CH" tls:created="2021-11-11T03:36:41.604+09:00"><form corresp="#uuid-2d6b0894-6320-4ac3-a736-f2628663a541 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>愛人</orth><pron xml:lang="zh-Latn-x-pinyin">ài rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'ojH nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɯds njin</pron></form><sense xml:id="uuid-7e22c992-aca1-4a40-a2c9-92aca1ea4096" resp="#CH" tls:created="2021-11-11T03:36:41.604+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def>beloved person; more recent: 1. lover; 2. spouse</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b09eb2da-635d-4cf9-a23b-6c490c79d9a6" resp="#CH" tls:created="2019-10-17T16:13:57.605+09:00">
+            <form corresp="#uuid-99ded5fd-627f-48cc-9764-8a1fe3728f61 #uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95">
+                <orth>執友</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhí yǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyip hjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjib ɢʷɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-c76aa7de-dc7e-46f3-baab-5cb9bc868883" resp="#CH" tls:created="2019-10-17T16:13:57.605+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>offfice colleagues</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98272f1c-21e7-43e3-add8-53ebfcac7095" resp="#CH" tls:created="2019-10-17T16:15:56.408+09:00">
+            <form corresp="#uuid-50893144-9763-4932-a328-e670f2ed9fc2 #uuid-fbc9c501-30dc-4992-9d1e-f5ec90d6d659">
+                <orth>交遊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiāo yóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaew yuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreew lu</pron>
+            </form>
+            <sense xml:id="uuid-fc6a4982-c79e-41da-8b2d-1b6ba99803db" resp="#CH" tls:created="2019-10-17T16:15:56.408+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-02T02:51:07.561+09:00">travel companion; friends in different places</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5256ba76-de66-40d8-b415-990c5093eabc" resp="#CH" tls:created="2019-10-17T16:19:03.204+09:00">
+            <form corresp="#uuid-99ded5fd-627f-48cc-9764-8a1fe3728f61">
+                <orth>執</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjib</pron>
+            </form>
+            <sense xml:id="uuid-132a1a1a-bbea-47d9-901c-bc1402cbaf25" resp="#CH" tls:created="2019-10-17T16:19:03.204+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+                <def>associate, colleague or friend</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d9553576-1cfc-4b2c-ad08-052662b94ff2" resp="#CH" tls:created="2019-12-06T21:35:23.601+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-220196b5-bf69-4c6f-a7d9-e07414a61674" resp="#CH" tls:created="2019-12-06T21:35:23.601+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>become friends</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f1270f7b-68f4-474f-8304-a2830bf80b31" resp="#CH" tls:created="2019-12-06T21:35:59.126+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95">
+                <orth>為友</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi yǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH hjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal ɢʷɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-0ed0db8b-ef44-450f-848c-c0a4b7c02c4a" resp="#CH" tls:created="2019-12-06T21:35:59.126+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>become friends with N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-294e0387-4f50-47f0-a81f-aa3417bca614" resp="#CH" tls:created="2019-12-07T04:16:42.368+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-f32a1e5d-2c67-4b4d-b976-79f624345b50">
+                <orth>為儔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi chóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH drjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal du</pron>
+            </form>
+            <sense xml:id="uuid-6652e7a4-0852-4a59-afea-aabf0bf139f0" resp="#CH" tls:created="2019-12-07T04:16:42.368+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ecbbe1c7-cb4c-4ef3-82d3-f6da63f1da20">VPi.post-Vt N</tls:syn-func>
+                </gramGrp>
+                <def>make friends with, be friends with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-48cb260d-f815-42b6-b613-ee63467b7f1c" resp="#CH" tls:created="2019-12-07T04:19:04.704+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-affb4b07-e0fd-4d72-932d-8642d04e23aa" resp="#CH" tls:created="2019-12-07T04:19:04.704+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ecbbe1c7-cb4c-4ef3-82d3-f6da63f1da20">VPi.post-Vt N</tls:syn-func>
+                </gramGrp>
+                <def>be friendly neighbours with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-280268bd-09e0-4b72-9df9-c43cd0da9e89" resp="#CH" tls:created="2019-12-07T04:19:17.023+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-5ba0da1c-7663-4a07-b80f-18dab23e6ac4">
+                <orth>為鄰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi lín</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH lin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal rin</pron>
+            </form>
+            <sense xml:id="uuid-78be6b9d-77da-4b37-9f45-44adefdac084" resp="#CH" tls:created="2019-12-07T04:19:17.023+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ecbbe1c7-cb4c-4ef3-82d3-f6da63f1da20">VPi.post-Vt N</tls:syn-func>
+                </gramGrp>
+                <def>be friendly neighbours with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9fe068ee-7792-4a7e-a068-ee77920a7e60" resp="#zadrapa" tls:created="2020-05-20T16:49:04.288+09:00">
+            <form corresp="#uuid-35929036-2ee5-4ecf-abde-28f9c99dd1ef #uuid-35929036-2ee5-4ecf-abde-28f9c99dd1ef">
+                <orth>潝潝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī yà xī yà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xip xip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- --</pron>
+            </form>
+            <sense xml:id="uuid-30c3865a-d380-4704-8386-5ad380e70407" resp="#zadrapa" tls:created="2020-05-20T16:49:04.288+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def>evokes the image of flocking together in conformity</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ecf26749-b7d6-4c3e-b267-49b7d63c3e3e" resp="#CH" tls:created="2020-06-02T03:14:35.703+09:00">
+            <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-699ace48-e0a8-4f06-96d2-a1650a849635 #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>知己者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī jǐ zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trje kiX tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te kɯʔ kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-18aacd19-28e9-4f16-aacd-1928e9ef1604" resp="#CH" tls:created="2020-06-02T03:14:35.703+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>someone who really understands one</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-088ad904-bf8c-4d46-8ad9-04bf8c3d4607" resp="#dsehnal" tls:created="2021-04-16T15:45:33.769+09:00">
+            <form corresp="#uuid-1e52347a-8712-4bec-b04f-00ebae2d0f95 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>友人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒu rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ njin</pron>
+            </form>
+            <sense xml:id="uuid-564e6882-99c4-4bcb-8e68-8299c49bcbb8" resp="#dsehnal" tls:created="2021-04-16T15:45:33.769+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2021-04-17T01:30:24.272+09:00">one's friend; his friend; my friend etc.</def>
+            </sense>
+            <sense xml:id="uuid-0bc6c82d-3a58-443b-86c8-2d3a58d43b8c" resp="#dsehnal" tls:created="2021-04-17T01:47:04.221+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NP[post-N]adN</tls:syn-func>
+                </gramGrp>
+                <def>[my] friend's</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-edaaa31d-165f-4d17-aaa3-1d165f6d1718" resp="#CH" tls:created="2021-11-11T03:36:41.604+09:00">
+            <form corresp="#uuid-2d6b0894-6320-4ac3-a736-f2628663a541 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>愛人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ài rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'ojH nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯɯds njin</pron>
+            </form>
+            <sense xml:id="uuid-7e22c992-aca1-4a40-a2c9-92aca1ea4096" resp="#CH" tls:created="2021-11-11T03:36:41.604+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>beloved person; more recent: 1. lover; 2. spouse</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9b8da935-9254-43af-8da9-359254f3af0e" resp="#zadrapa" tls:created="2024-10-11T17:55:05.399+09:00">
+            <form corresp="#uuid-cee00179-0689-42fe-a172-52bfa48c1729 #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>故者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gù zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuH tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kaas kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-f00f93ad-dd61-41e8-8f93-addd6161e8b6" resp="#zadrapa" tls:created="2024-10-11T17:55:05.399+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>old acquaintances</def>
+            </sense>
+        </entry>
+    </div>
 </div>

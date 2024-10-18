@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f4622c23-c8f6-4d2c-bf42-efee4f34a1ba">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f4622c23-c8f6-4d2c-bf42-efee4f34a1ba">
 <head>HAPPY</head>
     <list type="altnames">
 <item>CHEERFUL</item>
@@ -417,7 +418,15 @@
                 </gramGrp>
   <def>be pleased; be happy (不怡 "be displeased; be in a bad mood; be dissatisfied")</def>
             </sense>
-<sense xml:id="uuid-e1558988-5b36-42df-9589-885b36c2dfa3" resp="#dsehnal" tls:created="2024-05-26T03:05:46.857+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>make N happy</def></sense></entry>
+<sense xml:id="uuid-e1558988-5b36-42df-9589-885b36c2dfa3" resp="#dsehnal" tls:created="2024-05-26T03:05:46.857+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>make N happy</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e06da2a7-5b70-47aa-ac60-593d622217b8">
             <form corresp="#uuid-2b950e2e-e003-4c98-9a16-c27f164c7f2d">
 <orth>吉</orth>
@@ -527,7 +536,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-06-27T18:27:03.593+09:00">make oneself happy</def>
             </sense>
-<sense xml:id="uuid-ff1bed70-da4e-461a-9bed-70da4ec61aec" resp="#dsehnal" tls:created="2024-06-22T19:15:17.475+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f74acc63-f01d-46a4-8899-5aa19d83a756">NPab.post-N</tls:syn-func></gramGrp><def>pleasure of N</def></sense></entry>
+<sense xml:id="uuid-ff1bed70-da4e-461a-9bed-70da4ec61aec" resp="#dsehnal" tls:created="2024-06-22T19:15:17.475+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f74acc63-f01d-46a4-8899-5aa19d83a756">NPab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>pleasure of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cff4c515-e45d-4110-9069-d633c0307242">
             <form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4">
 <orth>安</orth>
@@ -1002,7 +1018,14 @@
                 </gramGrp>
   <def>feel deeply communictively happy with or in</def>
             </sense>
-<sense xml:id="uuid-ff849263-0157-40e8-8492-630157e0e809" resp="#dsehnal" tls:created="2020-05-16T15:49:22.298+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0dd4edc0-7e8b-4e1b-b3e9-677c0faa3790">vtoNab{S}</tls:syn-func></gramGrp><def>be happy about the fact S</def></sense></entry>
+<sense xml:id="uuid-ff849263-0157-40e8-8492-630157e0e809" resp="#dsehnal" tls:created="2020-05-16T15:49:22.298+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0dd4edc0-7e8b-4e1b-b3e9-677c0faa3790">vtoNab{S}</tls:syn-func>
+                </gramGrp>
+                <def>be happy about the fact S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-63201c46-fb9e-4e86-ba1a-b56691d9eda8">
             <form corresp="#uuid-ef705789-bba8-4661-acf3-dd7f361015a7">
 <orth>甜</orth>
@@ -1033,7 +1056,14 @@
                 </gramGrp>
   <def>be in good shape, be happy</def>
             </sense>
-<sense xml:id="uuid-fc1747a7-b555-45b0-9bef-37fd86f80414" resp="#CH" tls:created="2019-11-28T19:21:47.849+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a83c5ff7-f773-421d-b814-f161c6c50be8">nab.post-V{NUM}</tls:syn-func></gramGrp><def>blessings</def></sense></entry>
+<sense xml:id="uuid-fc1747a7-b555-45b0-9bef-37fd86f80414" resp="#CH" tls:created="2019-11-28T19:21:47.849+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a83c5ff7-f773-421d-b814-f161c6c50be8">nab.post-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>blessings</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b65d8197-ada3-43cf-995f-820482f847ee">
             <form corresp="#uuid-7b040c60-1287-45ef-8e7c-695ec5c8318a">
 <orth>祥</orth>
@@ -1204,7 +1234,14 @@
                 </gramGrp>
   <def>easy happiness</def>
             </sense>
-<sense xml:id="uuid-7511ada7-4b63-40f5-91ad-a74b6310f53f" resp="#CH" tls:created="2021-06-26T18:02:56.579+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>have an easy and happy time</def></sense></entry>
+<sense xml:id="uuid-7511ada7-4b63-40f5-91ad-a74b6310f53f" resp="#CH" tls:created="2021-06-26T18:02:56.579+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>have an easy and happy time</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-58fbf25a-48cb-4288-832c-e33ff4c1115f">
             <form corresp="#uuid-9981b499-e76d-4584-b00b-bca7ffd09161 #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f">
 <orth>作樂</orth>
@@ -1593,7 +1630,15 @@
                 </gramGrp>
   <def>feel happy and at ease to</def>
             </sense>
-<sense xml:id="uuid-a874ae29-59f7-4ae8-b4ae-2959f73ae8b6" resp="#zadrapa" tls:created="2022-05-30T19:17:45.05+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>make N feel comfortable and happy</def></sense></entry>
+<sense xml:id="uuid-a874ae29-59f7-4ae8-b4ae-2959f73ae8b6" resp="#zadrapa" tls:created="2022-05-30T19:17:45.05+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>make N feel comfortable and happy</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1c6b799a-38f1-4ef7-94bf-91d2d3767053">
             <form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4 #uuid-3693361a-b104-458e-b65e-7f12936eafe7">
 <orth>安隱</orth>
@@ -2428,7 +2473,14 @@
                 </gramGrp>
   <def>with happy enthusiasm</def>
             </sense>
-<sense xml:id="uuid-8e0635cd-1aac-4f86-8635-cd1aac1f86ca" resp="#zadrapa" tls:created="2020-12-20T03:10:35.798+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>happy enthusiasm</def></sense></entry>
+<sense xml:id="uuid-8e0635cd-1aac-4f86-8635-cd1aac1f86ca" resp="#zadrapa" tls:created="2020-12-20T03:10:35.798+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>happy enthusiasm</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f6f8a797-29a6-4f67-956d-55e524b152f2">
             <form corresp="#uuid-aaf476cd-40f2-456a-8405-1a2d2b75250c #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f">
 <orth>歡樂</orth>
@@ -2760,10 +2812,19 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
   <def>find one's happiness in</def>
             </sense>
-<sense xml:id="uuid-cb2b51b7-f782-42ad-b8b4-9ebb0a6592ae" resp="#CH" tls:created="2019-12-25T08:14:55.218+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-06-25T17:00:54.864+09:00">be fully satisfied; have a grip on oneself</def></sense></entry>
+<sense xml:id="uuid-cb2b51b7-f782-42ad-b8b4-9ebb0a6592ae" resp="#CH" tls:created="2019-12-25T08:14:55.218+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-25T17:00:54.864+09:00">be fully satisfied; have a grip on oneself</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-66f95c26-198c-47b1-a49f-92bded57653c">
             <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-16c7996c-7cca-4f7e-9ca4-500093e9b126">
 <orth>自怡</orth>
@@ -3349,5 +3410,110 @@
   <def>blessedness by supernatural generosity; blessing</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-38ffb8e9-0206-488f-bfb8-e90206d88f7e" resp="#dsehnal" tls:created="2020-04-07T03:44:50.797+09:00"><form corresp="#uuid-d142033d-a27d-4555-9c79-873ce070d360 #uuid-d142033d-a27d-4555-9c79-873ce070d360 #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>栩栩然</orth><pron xml:lang="zh-Latn-x-pinyin">xǔ xǔ rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjuX xjuX nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhʷlaʔ qhʷlaʔ njen</pron></form><sense xml:id="uuid-c10299c3-f33b-45ec-8299-c3f33b05ecb4" resp="#dsehnal" tls:created="2020-04-07T03:44:50.797+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>free and happy</def></sense></entry><entry type="word" xml:id="uuid-cc40aec2-e846-4bb8-80ae-c2e846bbb89f" resp="#zadrapa" tls:created="2020-05-21T17:02:30.965+09:00"><form corresp="#uuid-a4b184f7-0390-47e3-8c79-eaa1b96e8a80 #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f"><orth>饒樂</orth><pron xml:lang="zh-Latn-x-pinyin">ráo lè luò，liáo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyew lak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">nɢjew ɡ-raawɡ</pron></form><sense xml:id="uuid-a6ddbe1b-cb98-43f1-9dbe-1bcb9853f175" resp="#zadrapa" tls:created="2020-05-21T17:02:30.965+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>joyful, highly pleasant</def></sense></entry><entry type="word" xml:id="uuid-606fb7cf-0720-4744-afb7-cf07208744eb" resp="#CH" tls:created="2020-12-15T17:52:58.039+09:00"><form corresp="#uuid-cc594f19-d570-44f2-a956-c96fb9fb1efb #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f"><orth>康樂</orth><pron xml:lang="zh-Latn-x-pinyin">kāng lè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khang lak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaaŋ ɡ-raawɡ</pron></form><sense xml:id="uuid-79367547-1d60-4327-b675-471d60a327c6" resp="#CH" tls:created="2020-12-15T17:52:58.039+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>happy vigour</def></sense></entry><entry type="word" xml:id="uuid-f7eb2a48-6a6e-4cc4-ab2a-486a6efcc4f2" resp="#zadrapa" tls:created="2021-06-22T16:07:51.34+09:00"><form corresp="#uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f"><orth>樂樂</orth><pron xml:lang="zh-Latn-x-pinyin">lè lè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lak lak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-raawɡ ɡ-raawɡ</pron></form><sense xml:id="uuid-8e15a8fc-dc15-494c-95a8-fcdc15c94cd3" resp="#zadrapa" tls:created="2021-06-22T16:07:51.34+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def>evokes perfect joy</def></sense></entry><entry type="word" xml:id="uuid-4f6be434-226c-4ed3-abe4-34226c0ed3e0" resp="#zadrapa" tls:created="2021-06-22T16:12:12.913+09:00"><form corresp="#uuid-e396f22d-2ebc-47ff-9b8e-fad4a7cd3067 #uuid-e396f22d-2ebc-47ff-9b8e-fad4a7cd3067"><orth>熙熙</orth><pron xml:lang="zh-Latn-x-pinyin">xī xī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xi xi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhlɯ qhlɯ</pron></form><sense xml:id="uuid-ea443be7-e363-4c1a-843b-e7e3631c1a0f" resp="#zadrapa" tls:created="2021-06-22T16:12:12.913+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def>very happy</def></sense></entry><entry type="word" xml:id="uuid-2672ae38-dff0-4f36-b2ae-38dff07f3648" resp="#zadrapa" tls:created="2022-01-20T20:47:19.152+09:00"><form corresp="#uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9 #uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9"><orth>揚揚</orth><pron xml:lang="zh-Latn-x-pinyin">yáng yáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yang yang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laŋ k-laŋ</pron></form><sense xml:id="uuid-b9daca8f-96c5-46e9-9aca-8f96c5a6e95f" resp="#zadrapa" tls:created="2022-01-20T20:47:19.152+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def>feel happy and satisfied</def></sense></entry><entry type="word" xml:id="uuid-ed991a0f-5e78-4d22-991a-0f5e78dd22d2" resp="#CH" tls:created="2022-08-24T20:49:57.673+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-c4711853-e554-4934-bdf2-97e5b33fbc53"><orth>自喜</orth><pron xml:lang="zh-Latn-x-pinyin">zì xǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH xiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids qhɯʔ</pron></form><sense xml:id="uuid-0ae42e60-43ba-4c7a-a42e-6043bacc7a2b" resp="#CH" tls:created="2022-08-24T20:49:57.673+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-24T20:50:56.946+09:00">be naturally happy, be naturally pleased with oneself</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-38ffb8e9-0206-488f-bfb8-e90206d88f7e" resp="#dsehnal" tls:created="2020-04-07T03:44:50.797+09:00">
+            <form corresp="#uuid-d142033d-a27d-4555-9c79-873ce070d360 #uuid-d142033d-a27d-4555-9c79-873ce070d360 #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>栩栩然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xǔ xǔ rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjuX xjuX nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhʷlaʔ qhʷlaʔ njen</pron>
+            </form>
+            <sense xml:id="uuid-c10299c3-f33b-45ec-8299-c3f33b05ecb4" resp="#dsehnal" tls:created="2020-04-07T03:44:50.797+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>free and happy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cc40aec2-e846-4bb8-80ae-c2e846bbb89f" resp="#zadrapa" tls:created="2020-05-21T17:02:30.965+09:00">
+            <form corresp="#uuid-a4b184f7-0390-47e3-8c79-eaa1b96e8a80 #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f">
+                <orth>饒樂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ráo lè luò，liáo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyew lak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">nɢjew ɡ-raawɡ</pron>
+            </form>
+            <sense xml:id="uuid-a6ddbe1b-cb98-43f1-9dbe-1bcb9853f175" resp="#zadrapa" tls:created="2020-05-21T17:02:30.965+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>joyful, highly pleasant</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-606fb7cf-0720-4744-afb7-cf07208744eb" resp="#CH" tls:created="2020-12-15T17:52:58.039+09:00">
+            <form corresp="#uuid-cc594f19-d570-44f2-a956-c96fb9fb1efb #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f">
+                <orth>康樂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kāng lè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khang lak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaaŋ ɡ-raawɡ</pron>
+            </form>
+            <sense xml:id="uuid-79367547-1d60-4327-b675-471d60a327c6" resp="#CH" tls:created="2020-12-15T17:52:58.039+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>happy vigour</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f7eb2a48-6a6e-4cc4-ab2a-486a6efcc4f2" resp="#zadrapa" tls:created="2021-06-22T16:07:51.34+09:00">
+            <form corresp="#uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f #uuid-1f0473d0-bab4-4f98-8738-da471ff6f59f">
+                <orth>樂樂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lè lè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lak lak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-raawɡ ɡ-raawɡ</pron>
+            </form>
+            <sense xml:id="uuid-8e15a8fc-dc15-494c-95a8-fcdc15c94cd3" resp="#zadrapa" tls:created="2021-06-22T16:07:51.34+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def>evokes perfect joy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4f6be434-226c-4ed3-abe4-34226c0ed3e0" resp="#zadrapa" tls:created="2021-06-22T16:12:12.913+09:00">
+            <form corresp="#uuid-e396f22d-2ebc-47ff-9b8e-fad4a7cd3067 #uuid-e396f22d-2ebc-47ff-9b8e-fad4a7cd3067">
+                <orth>熙熙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī xī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xi xi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhlɯ qhlɯ</pron>
+            </form>
+            <sense xml:id="uuid-ea443be7-e363-4c1a-843b-e7e3631c1a0f" resp="#zadrapa" tls:created="2021-06-22T16:12:12.913+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def>very happy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2672ae38-dff0-4f36-b2ae-38dff07f3648" resp="#zadrapa" tls:created="2022-01-20T20:47:19.152+09:00">
+            <form corresp="#uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9 #uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9">
+                <orth>揚揚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yáng yáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yang yang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laŋ k-laŋ</pron>
+            </form>
+            <sense xml:id="uuid-b9daca8f-96c5-46e9-9aca-8f96c5a6e95f" resp="#zadrapa" tls:created="2022-01-20T20:47:19.152+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def>feel happy and satisfied</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ed991a0f-5e78-4d22-991a-0f5e78dd22d2" resp="#CH" tls:created="2022-08-24T20:49:57.673+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-c4711853-e554-4934-bdf2-97e5b33fbc53">
+                <orth>自喜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì xǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH xiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids qhɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-0ae42e60-43ba-4c7a-a42e-6043bacc7a2b" resp="#CH" tls:created="2022-08-24T20:49:57.673+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-24T20:50:56.946+09:00">be naturally happy, be naturally pleased with oneself</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-25118dda-1ad5-474a-bfb1-f766ef011637">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-25118dda-1ad5-474a-bfb1-f766ef011637">
 <head>DESTROY</head>
     <list type="altnames">
 <item>DEMOLISH</item>
@@ -281,7 +282,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat>
+                </gramGrp>
   <def>those doomed to destruction; that which is doomed to disappear</def>
             </sense>
 <sense xml:id="uuid-c129f165-a8df-4903-ab14-0639bc81bd52">
@@ -361,7 +363,31 @@
                 </gramGrp>
   <def>be destroyed by</def>
             </sense>
-<sense xml:id="uuid-434a8570-cc85-4a02-af17-37f1fbf43aa1" resp="#CH" tls:created="2019-12-09T00:59:12.611+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-17T19:20:37.29+09:00">be bound to get undone; be gound to get ruined</def></sense><sense xml:id="uuid-404f2ba1-e72e-4842-8f2b-a1e72e98421d" resp="#CH" tls:created="2020-05-18T21:54:28.87+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>event: get destroyed; be ruined; get annihilated</def></sense><sense xml:id="uuid-215a452e-965f-44d8-9a45-2e965fc4d84c" resp="#CH" tls:created="2022-09-16T21:39:21.697+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-96e19999-b4f5-4323-96c1-8371e72b18fd">future</tls:sem-feat></gramGrp><def>imminent ruin</def></sense></entry>
+<sense xml:id="uuid-434a8570-cc85-4a02-af17-37f1fbf43aa1" resp="#CH" tls:created="2019-12-09T00:59:12.611+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-17T19:20:37.29+09:00">be bound to get undone; be gound to get ruined</def>
+            </sense>
+            <sense xml:id="uuid-404f2ba1-e72e-4842-8f2b-a1e72e98421d" resp="#CH" tls:created="2020-05-18T21:54:28.87+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>event: get destroyed; be ruined; get annihilated</def>
+            </sense>
+            <sense xml:id="uuid-215a452e-965f-44d8-9a45-2e965fc4d84c" resp="#CH" tls:created="2022-09-16T21:39:21.697+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96e19999-b4f5-4323-96c1-8371e72b18fd">future</tls:sem-feat>
+                </gramGrp>
+                <def>imminent ruin</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-979b5ce1-0d81-42f8-a451-481d3ab78da3">
             <form corresp="#uuid-3c6a9a6e-70ff-4075-9521-0cabbe207874">
 <orth>喪</orth>
@@ -473,7 +499,15 @@
                 </gramGrp>
   <def>[CAUSE TO FALL AND BE DESTROYED&gt;] destroy, have destroyed 隊其師 "have destroyed the army"</def>
             </sense>
-<sense xml:id="uuid-f98899d8-e1b6-43ca-8899-d8e1b633ca19" resp="#zadrapa" tls:created="2022-05-16T17:49:22.026+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>become corrupted, fail</def></sense></entry>
+<sense xml:id="uuid-f98899d8-e1b6-43ca-8899-d8e1b633ca19" resp="#zadrapa" tls:created="2022-05-16T17:49:22.026+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>become corrupted, fail</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e2f6a99b-4bbb-4128-9c17-7f2962920161">
             <form corresp="#uuid-4841b286-0d11-4064-85c6-0acd8c8f9ba8">
 <orth>壞</orth>
@@ -664,7 +698,15 @@
                 </gramGrp>
   <def>destroy (GY); attack and destroy</def>
             </sense>
-<sense xml:id="uuid-46902760-4034-4d27-abfc-78982e051c6c" resp="#CH" tls:created="2020-02-06T20:03:22.946+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-12-24T22:31:56.07+09:00">"crush&gt; gain the upper hand on" with the literary force of the brush</def></sense></entry>
+<sense xml:id="uuid-46902760-4034-4d27-abfc-78982e051c6c" resp="#CH" tls:created="2020-02-06T20:03:22.946+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-12-24T22:31:56.07+09:00">"crush&gt; gain the upper hand on" with the literary force of the brush</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-12ddbb3c-b2b3-4f53-9e1f-ccb16b5ff853">
             <form corresp="#uuid-e8c79343-e431-4a15-a449-9de8b55c2ef9">
 <orth>推</orth>
@@ -929,7 +971,23 @@
                 </gramGrp>
   <def>destroy (oneself)</def>
             </sense>
-<sense xml:id="uuid-b00b507c-9efa-412e-8b50-7c9efa912e35" resp="#zadrapa" tls:created="2020-05-27T04:22:30.242+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2022-05-24T19:14:13.902+09:00">deliberate maltreatment (typically during the period of ritual mourning)</def></sense><sense xml:id="uuid-564ae7c6-ac72-4b2f-8ae7-c6ac72cb2fbb" resp="#zadrapa" tls:created="2022-05-24T19:14:33.848+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2022-05-27T01:33:55.254+09:00">be ruined; be destroyed</def></sense></entry>
+<sense xml:id="uuid-b00b507c-9efa-412e-8b50-7c9efa912e35" resp="#zadrapa" tls:created="2020-05-27T04:22:30.242+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-05-24T19:14:13.902+09:00">deliberate maltreatment (typically during the period of ritual mourning)</def>
+            </sense>
+            <sense xml:id="uuid-564ae7c6-ac72-4b2f-8ae7-c6ac72cb2fbb" resp="#zadrapa" tls:created="2022-05-24T19:14:33.848+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-05-27T01:33:55.254+09:00">be ruined; be destroyed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-878ef927-f958-45a5-bf0d-21b8c70b9dd8">
             <form>
 <orth>氓泯</orth>
@@ -1013,7 +1071,14 @@
                 </gramGrp>
   <def>CHEMLA 2003:</def>
             </sense>
-<sense xml:id="uuid-cd80229a-ace1-4156-8022-9aace131564b" resp="#CH" tls:created="2021-06-16T23:43:57.457+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>cause the ruin/destruction of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-cd80229a-ace1-4156-8022-9aace131564b" resp="#CH" tls:created="2021-06-16T23:43:57.457+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>cause the ruin/destruction of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-55614ef6-1408-47e5-b609-8469ede00218">
             <form corresp="#uuid-f09eaee3-fb48-4bee-bfaf-65c7637ebdf8">
 <orth>滅</orth>
@@ -1135,7 +1200,14 @@
                 </gramGrp>
   <def>destoy (oneself)</def>
             </sense>
-<sense xml:id="uuid-28a024af-10ef-4987-a024-af10ef4987fb" resp="#CH" tls:created="2020-04-13T03:57:13.115+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>doomed to destruction, headed for destruction</def></sense></entry>
+<sense xml:id="uuid-28a024af-10ef-4987-a024-af10ef4987fb" resp="#CH" tls:created="2020-04-13T03:57:13.115+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>doomed to destruction, headed for destruction</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-325c5fc2-b435-4dbf-8b23-b47d18bdfcf3">
             <form corresp="#uuid-a91a15eb-4907-418f-8e8c-4be655b74159">
 <orth>燬</orth>
@@ -1183,7 +1255,15 @@
                 </gramGrp>
   <def>destroy</def>
             </sense>
-<sense xml:id="uuid-011d822e-61c4-451e-8414-363b638c752f" resp="#CH" tls:created="2019-11-08T00:28:14.938+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>anihilate and remove</def></sense></entry>
+<sense xml:id="uuid-011d822e-61c4-451e-8414-363b638c752f" resp="#CH" tls:created="2019-11-08T00:28:14.938+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>anihilate and remove</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-073b7a18-4ede-442a-826d-91691679269a">
             <form corresp="#uuid-87a57d85-ca0f-4df3-85e3-c980dc5676a7">
 <orth>破</orth>
@@ -1418,7 +1498,23 @@
                 </gramGrp>
   <def>seriously impair (oneself)</def>
             </sense>
-<sense xml:id="uuid-9d988d13-133a-4bfe-8a29-ad739ebd8d35" resp="#dsehnal" tls:created="2019-10-12T05:36:14.682+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtadN</tls:syn-func><tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat></gramGrp><def>damaged N; crippled N</def></sense><sense xml:id="uuid-833f9e6d-c56d-4e94-bf9e-6dc56d6e946c" resp="#dsehnal" tls:created="2023-07-16T04:22:32.972+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-2330e893-9365-4b19-b0e8-9393650b19b5">nabpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-cda3362d-94fd-4ec9-8c61-4d93d3ec2e4d">N=subject</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-07-16T04:42:53.086+09:00">destructive effect caused by N; N's destructive force</def></sense></entry>
+<sense xml:id="uuid-9d988d13-133a-4bfe-8a29-ad739ebd8d35" resp="#dsehnal" tls:created="2019-10-12T05:36:14.682+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat>
+                </gramGrp>
+                <def>damaged N; crippled N</def>
+            </sense>
+            <sense xml:id="uuid-833f9e6d-c56d-4e94-bf9e-6dc56d6e946c" resp="#dsehnal" tls:created="2023-07-16T04:22:32.972+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-2330e893-9365-4b19-b0e8-9393650b19b5">nabpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cda3362d-94fd-4ec9-8c61-4d93d3ec2e4d">N=subject</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-07-16T04:42:53.086+09:00">destructive effect caused by N; N's destructive force</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c029e4a7-0b9e-4c9d-86dc-419cf610c2ec">
             <form corresp="#uuid-4764df4a-8ed4-4378-b015-71a7db4f416d">
 <orth>踣</orth>
@@ -1567,7 +1663,22 @@
                 </gramGrp>
   <def>be toppled; get destroyed; get overturned</def>
             </sense>
-<sense xml:id="uuid-a1c950b3-3fb6-4327-8950-b33fb69327c6" resp="#zadrapa" tls:created="2022-05-23T02:29:09.732+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat></gramGrp><def>destruction, fall (typically of a state)</def></sense><sense xml:id="uuid-3622115d-0386-4bfc-a211-5d03864bfc9b" resp="#zadrapa" tls:created="2022-06-10T20:48:02.935+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2022-06-10T22:15:36.971+09:00">(try to) overturn the state</def></sense></entry>
+<sense xml:id="uuid-a1c950b3-3fb6-4327-8950-b33fb69327c6" resp="#zadrapa" tls:created="2022-05-23T02:29:09.732+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat>
+                </gramGrp>
+                <def>destruction, fall (typically of a state)</def>
+            </sense>
+            <sense xml:id="uuid-3622115d-0386-4bfc-a211-5d03864bfc9b" resp="#zadrapa" tls:created="2022-06-10T20:48:02.935+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-06-10T22:15:36.971+09:00">(try to) overturn the state</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-86a77f61-c4a6-4634-bab3-49642e88d6d8">
             <form corresp="#uuid-7f5fb50c-722f-4d12-b12e-1e4443478c3a #uuid-87a57d85-ca0f-4df3-85e3-c980dc5676a7">
 <orth>剖破</orth>
@@ -1798,7 +1909,21 @@
                 </gramGrp>
   <def>get destroyed or maimed</def>
             </sense>
-<sense xml:id="uuid-7c3411d6-e487-419e-b411-d6e487419e1f" resp="#zadrapa" tls:created="2022-06-10T22:07:36.679+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>destroy and maim</def></sense><sense xml:id="uuid-b634fab0-fb95-4933-b4fa-b0fb95a9333e" resp="#dsehnal" tls:created="2024-02-05T20:55:23.798+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>catch and destroy the pray</def></sense></entry>
+<sense xml:id="uuid-7c3411d6-e487-419e-b411-d6e487419e1f" resp="#zadrapa" tls:created="2022-06-10T22:07:36.679+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>destroy and maim</def>
+            </sense>
+            <sense xml:id="uuid-b634fab0-fb95-4933-b4fa-b0fb95a9333e" resp="#dsehnal" tls:created="2024-02-05T20:55:23.798+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>catch and destroy the pray</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2f052ed4-9e7a-46ef-af4b-bcbc3c074ef2">
             <form corresp="#uuid-788096b6-46ba-4500-9572-473e86be75fe #uuid-b5af6e67-ab6f-4bf7-a18a-978223e2e8c9">
 <orth>消去</orth>
@@ -1854,7 +1979,14 @@
                 </gramGrp>
   <def>be ruined, get destroyed</def>
             </sense>
-<sense xml:id="uuid-20815a8c-b710-41d0-815a-8cb71041d0e4" resp="#zadrapa" tls:created="2022-05-23T02:29:55.054+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>ruin, annihilation</def></sense></entry>
+<sense xml:id="uuid-20815a8c-b710-41d0-815a-8cb71041d0e4" resp="#zadrapa" tls:created="2022-05-23T02:29:55.054+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>ruin, annihilation</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3d85a4a8-1a52-4570-bd41-b469cfae936c">
             <form corresp="#uuid-f09eaee3-fb48-4bee-bfaf-65c7637ebdf8 #uuid-c76e08cb-be4a-443b-9fdb-bbf12c9922d3">
 <orth>滅盡</orth>
@@ -2164,29 +2296,149 @@
   <def>be destroyed</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f09332c8-c1ac-4ced-a63b-8ab9b3d506d2" resp="#CH" tls:created="2019-12-07T04:08:23.215+09:00"><form corresp="#uuid-c958716d-18d6-4271-aed3-65800cb7a088"><orth>殞</orth><pron xml:lang="zh-Latn-x-pinyin">yǔn
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwinX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢunʔ
-</pron></form><sense xml:id="uuid-23954878-91b7-44c7-81cd-dbd2bb1c6dce" resp="#CH" tls:created="2019-12-07T04:08:23.215+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>damage heavily</def></sense></entry><entry type="word" xml:id="uuid-10e0834b-4a36-4ab2-bfe9-4831d1a5775a" resp="#dsehnal" tls:created="2019-12-15T01:51:31.445+09:00"><form corresp="#uuid-cc05639b-e353-4bb1-829f-9d6224fbd0a5"><orth>潰</orth><pron xml:lang="zh-Latn-x-pinyin">kuì
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwojH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡluuds
-</pron></form><sense xml:id="uuid-4e9c84f7-8fd9-427d-a0f7-8e1da930dd57" resp="#dsehnal" tls:created="2019-12-15T01:51:31.445+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>break through (the siege) </def></sense></entry><entry type="word" xml:id="uuid-b7dd8d96-b10a-4ed2-9d8d-96b10abed262" resp="#CH" tls:created="2020-08-29T23:44:25.845+09:00"><form corresp="#uuid-8817e9ab-5c2e-455f-bcf5-a2beca1a4a2c #uuid-2a93a0fc-7914-4627-b901-2a0d72cad242"><orth>亂傾</orth><pron xml:lang="zh-Latn-x-pinyin">luàn
+    <entry type="word" xml:id="uuid-f09332c8-c1ac-4ced-a63b-8ab9b3d506d2" resp="#CH" tls:created="2019-12-07T04:08:23.215+09:00">
+            <form corresp="#uuid-c958716d-18d6-4271-aed3-65800cb7a088">
+                <orth>殞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔn
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwinX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢunʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-23954878-91b7-44c7-81cd-dbd2bb1c6dce" resp="#CH" tls:created="2019-12-07T04:08:23.215+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>damage heavily</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-10e0834b-4a36-4ab2-bfe9-4831d1a5775a" resp="#dsehnal" tls:created="2019-12-15T01:51:31.445+09:00">
+            <form corresp="#uuid-cc05639b-e353-4bb1-829f-9d6224fbd0a5">
+                <orth>潰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kuì
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwojH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡluuds
+</pron>
+            </form>
+            <sense xml:id="uuid-4e9c84f7-8fd9-427d-a0f7-8e1da930dd57" resp="#dsehnal" tls:created="2019-12-15T01:51:31.445+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>break through (the siege) </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b7dd8d96-b10a-4ed2-9d8d-96b10abed262" resp="#CH" tls:created="2020-08-29T23:44:25.845+09:00">
+            <form corresp="#uuid-8817e9ab-5c2e-455f-bcf5-a2beca1a4a2c #uuid-2a93a0fc-7914-4627-b901-2a0d72cad242">
+                <orth>亂傾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">luàn
  qīng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lwanH
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lwanH
  khjwieng
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-roons
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-roons
  khʷleŋ
-</pron></form><sense xml:id="uuid-3f6f9766-6575-4cee-af97-666575dcee65" resp="#CH" tls:created="2020-08-29T23:44:25.845+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3362361a-7a61-4172-a122-8b87e3963d2c">VPi0</tls:syn-func></gramGrp><def>there will be misrule and the overturning of government, there will be chaos and ruin.</def></sense></entry><entry type="word" xml:id="uuid-cc249c92-6938-47d7-a49c-926938e7d73d" resp="#zadrapa" tls:created="2021-06-07T05:02:03.504+09:00"><form corresp="#uuid-05f223fc-243a-4ec8-b62e-bd402100bb91 #uuid-b07eb111-2a86-43f0-a1d7-8e3d85586aba"><orth>粹折</orth><pron xml:lang="zh-Latn-x-pinyin">cuì zhé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">swijH tsyet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">squds kljed</pron></form><sense xml:id="uuid-11270282-dad0-43f8-a702-82dad023f8a8" resp="#zadrapa" tls:created="2021-06-07T05:02:03.504+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2021-06-09T04:46:01.848+09:00">= sui4zhé 碎折: getting ruined &gt; self-destruction</def></sense></entry><entry xml:id="uuid-00ee5210-9a90-41e9-ae52-109a9031e9b0"><form corresp="#uuid-e257c37d-bb08-40c2-8a6d-66460a7a1b18">
+</pron>
+            </form>
+            <sense xml:id="uuid-3f6f9766-6575-4cee-af97-666575dcee65" resp="#CH" tls:created="2020-08-29T23:44:25.845+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3362361a-7a61-4172-a122-8b87e3963d2c">VPi0</tls:syn-func>
+                </gramGrp>
+                <def>there will be misrule and the overturning of government, there will be chaos and ruin.</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cc249c92-6938-47d7-a49c-926938e7d73d" resp="#zadrapa" tls:created="2021-06-07T05:02:03.504+09:00">
+            <form corresp="#uuid-05f223fc-243a-4ec8-b62e-bd402100bb91 #uuid-b07eb111-2a86-43f0-a1d7-8e3d85586aba">
+                <orth>粹折</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cuì zhé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">swijH tsyet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">squds kljed</pron>
+            </form>
+            <sense xml:id="uuid-11270282-dad0-43f8-a702-82dad023f8a8" resp="#zadrapa" tls:created="2021-06-07T05:02:03.504+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-06-09T04:46:01.848+09:00">= sui4zhé 碎折: getting ruined &gt; self-destruction</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-00ee5210-9a90-41e9-ae52-109a9031e9b0">
+            <form corresp="#uuid-e257c37d-bb08-40c2-8a6d-66460a7a1b18">
 <orth>廢</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">fèi</pron>
                 <pron xml:lang="zh-x-oc">pods</pron>
                 <pron xml:lang="zh-x-mc">pi̯ɐi</pron>
-            </form><sense xml:id="uuid-b7a923af-84f0-4495-85e6-a2816917c86e">
+            </form>
+            <sense xml:id="uuid-b7a923af-84f0-4495-85e6-a2816917c86e">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
   <def>mess up, foul up; cause to stop flourishing, cause to fail; cause to be discarded</def>
-            </sense><sense xml:id="uuid-9f4e6d78-a0c6-43f3-8e6d-78a0c613f32d" resp="#zadrapa" tls:created="2022-05-16T17:46:56.808+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-aa4eeac5-49f8-4634-82fe-7314e75adbc1">middle</tls:sem-feat></gramGrp><def>get messed up</def></sense></entry><entry type="word" xml:id="uuid-628ad38b-a3af-4a80-8ad3-8ba3af8a8008" resp="#CH" tls:created="2022-09-21T20:19:25.169+09:00"><form corresp="#uuid-f09eaee3-fb48-4bee-bfaf-65c7637ebdf8 #uuid-c3c00131-803e-4832-ac3e-f84721d76085"><orth>滅抑</orth><pron xml:lang="zh-Latn-x-pinyin">miè yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjiet 'ik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">med qɯɡ</pron></form><sense xml:id="uuid-dde97473-966b-41cd-a974-73966b41cd21" resp="#CH" tls:created="2022-09-21T20:19:25.169+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>get utterly destroyed, get completely undone</def></sense></entry><entry type="word" xml:id="uuid-0b55a5f7-5298-4ae7-95a5-f752982ae7de" resp="#dsehnal" tls:created="2023-05-13T19:11:05.708+09:00"><form corresp="#uuid-d5f94243-2e42-441b-83f3-adfc74a8d5b6 #uuid-66c1ca5c-9192-4fcd-961b-cc92e08d8c95"><orth>死敗</orth><pron xml:lang="zh-Latn-x-pinyin">sǐ bài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sijX baejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pliʔ praads</pron></form><sense xml:id="uuid-bc3da0e1-8f40-44e4-bda0-e18f4074e4ba" resp="#dsehnal" tls:created="2023-05-13T19:11:05.708+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>lead to one's absolute destruction (&lt;death and defeat)</def></sense></entry></div>
+            </sense>
+            <sense xml:id="uuid-9f4e6d78-a0c6-43f3-8e6d-78a0c613f32d" resp="#zadrapa" tls:created="2022-05-16T17:46:56.808+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-aa4eeac5-49f8-4634-82fe-7314e75adbc1">middle</tls:sem-feat>
+                </gramGrp>
+                <def>get messed up</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-628ad38b-a3af-4a80-8ad3-8ba3af8a8008" resp="#CH" tls:created="2022-09-21T20:19:25.169+09:00">
+            <form corresp="#uuid-f09eaee3-fb48-4bee-bfaf-65c7637ebdf8 #uuid-c3c00131-803e-4832-ac3e-f84721d76085">
+                <orth>滅抑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">miè yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjiet 'ik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">med qɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-dde97473-966b-41cd-a974-73966b41cd21" resp="#CH" tls:created="2022-09-21T20:19:25.169+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>get utterly destroyed, get completely undone</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0b55a5f7-5298-4ae7-95a5-f752982ae7de" resp="#dsehnal" tls:created="2023-05-13T19:11:05.708+09:00">
+            <form corresp="#uuid-d5f94243-2e42-441b-83f3-adfc74a8d5b6 #uuid-66c1ca5c-9192-4fcd-961b-cc92e08d8c95">
+                <orth>死敗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sǐ bài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sijX baejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pliʔ praads</pron>
+            </form>
+            <sense xml:id="uuid-bc3da0e1-8f40-44e4-bda0-e18f4074e4ba" resp="#dsehnal" tls:created="2023-05-13T19:11:05.708+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>lead to one's absolute destruction (&lt;death and defeat)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2cfaa0aa-5e22-44e8-baa0-aa5e2264e82c" resp="#zadrapa" tls:created="2024-10-02T18:35:51.788+09:00">
+            <form corresp="#uuid-f58df4f9-6004-44d1-a3f6-f96fd20da291">
+                <orth>露</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">luH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-raaɡs</pron>
+            </form>
+            <sense xml:id="uuid-2306e093-49e1-416d-86e0-9349e1916d4a" resp="#zadrapa" tls:created="2024-10-02T18:35:51.788+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be in a bad shape, dilapidated</def>
+            </sense>
+        </entry>
+    </div>
 </div>
