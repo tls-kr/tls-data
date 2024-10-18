@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b9e6c405-60f5-431f-b916-b8fb48c11036">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b9e6c405-60f5-431f-b916-b8fb48c11036">
 <head>BRIDLE</head>
     <list type="altnames">
 <item>HARNESS</item>
@@ -143,7 +144,22 @@
                 </gramGrp>
   <def>reins made of leather straps</def>
             </sense>
-<sense xml:id="uuid-0f27cc32-cbf9-48ac-a7cc-32cbf9a8ac0b" resp="#CH" tls:created="2022-08-02T21:31:52.009+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be kept on leash</def></sense><sense xml:id="uuid-6f2811f4-3fc6-4bc2-a811-f43fc6dbc256" resp="#dsehnal" tls:created="2024-04-28T19:47:53.725+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>put the leash on (typically head)</def></sense></entry>
+<sense xml:id="uuid-0f27cc32-cbf9-48ac-a7cc-32cbf9a8ac0b" resp="#CH" tls:created="2022-08-02T21:31:52.009+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be kept on leash</def>
+            </sense>
+            <sense xml:id="uuid-6f2811f4-3fc6-4bc2-a811-f43fc6dbc256" resp="#dsehnal" tls:created="2024-04-28T19:47:53.725+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>put the leash on (typically head)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-af5a5ba9-f3a2-4abf-b4c2-1951156e0235">
             <form corresp="#uuid-d0065c51-75b9-4ded-b8f3-dbee6f4c7a7a">
 <orth>銜</orth>
@@ -230,5 +246,20 @@
   <def>bridle</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-4eb17d18-75c7-473e-b17d-1875c7873e1d" resp="#CH" tls:created="2022-07-29T04:27:46.745+09:00"><form corresp="#uuid-0ace29c4-f16b-4a8e-a5f0-574d5f176d0b #uuid-d0065c51-75b9-4ded-b8f3-dbee6f4c7a7a"><orth>鏑銜</orth><pron xml:lang="zh-Latn-x-pinyin">dí xián</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tek haem</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-leeɡ ɢraam</pron></form><sense xml:id="uuid-3ad97722-fc6f-422a-9977-22fc6f122aef" resp="#CH" tls:created="2022-07-29T04:27:46.745+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>bit (part of a horse's bridle)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-4eb17d18-75c7-473e-b17d-1875c7873e1d" resp="#CH" tls:created="2022-07-29T04:27:46.745+09:00">
+            <form corresp="#uuid-0ace29c4-f16b-4a8e-a5f0-574d5f176d0b #uuid-d0065c51-75b9-4ded-b8f3-dbee6f4c7a7a">
+                <orth>鏑銜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dí xián</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tek haem</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-leeɡ ɢraam</pron>
+            </form>
+            <sense xml:id="uuid-3ad97722-fc6f-422a-9977-22fc6f122aef" resp="#CH" tls:created="2022-07-29T04:27:46.745+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>bit (part of a horse's bridle)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

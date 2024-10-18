@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f3a9a273-a8dd-442a-affc-427d1514772d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f3a9a273-a8dd-442a-affc-427d1514772d">
 <head>DISMISS</head>
     <list type="altnames">
 <item>GIVE SOMEONE THEIR NOTICE</item>
@@ -214,7 +215,15 @@
                 </gramGrp>
   <def>cause to be dismissed</def>
             </sense>
-<sense xml:id="uuid-b8c8f66a-fa6c-4ef1-88f6-6afa6c8ef188" resp="#zadrapa" tls:created="2022-03-29T19:58:32.904+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be dismissed from office</def></sense></entry>
+<sense xml:id="uuid-b8c8f66a-fa6c-4ef1-88f6-6afa6c8ef188" resp="#zadrapa" tls:created="2022-03-29T19:58:32.904+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be dismissed from office</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3f6d4ec0-ef2a-4987-954f-4a2f8b9b22c2">
             <form corresp="#uuid-637caa54-5dad-44a6-9eef-e4daecf51850">
 <orth>斥</orth>
@@ -295,5 +304,35 @@
   <def>to get dismissed; to stay without appointnent</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b25b418c-148f-4be1-9b41-8c148fabe136" resp="#CH" tls:created="2020-05-05T19:41:45.462+09:00"><form corresp="#uuid-dc777985-0c90-49f3-9023-e95369044bbe"><orth>黜</orth><pron xml:lang="zh-Latn-x-pinyin">chù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trhwit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khrlud</pron></form><sense xml:id="uuid-dd94d19c-2018-41b5-94d1-9c201821b501" resp="#CH" tls:created="2020-05-05T19:41:45.462+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>dismiss from active service (troops)</def></sense></entry><entry type="word" xml:id="uuid-0f3a7e26-80c0-4da0-ba7e-2680c0dda041" resp="#CH" tls:created="2021-05-31T18:33:16.122+09:00"><form corresp="#uuid-b5af6e67-ab6f-4bf7-a18a-978223e2e8c9"><orth>去</orth><pron xml:lang="zh-Latn-x-pinyin">qù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khaʔ</pron></form><sense xml:id="uuid-0a5492d0-b4f5-45a0-9492-d0b4f565a065" resp="#CH" tls:created="2021-05-31T18:33:16.122+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>dismiss from office</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b25b418c-148f-4be1-9b41-8c148fabe136" resp="#CH" tls:created="2020-05-05T19:41:45.462+09:00">
+            <form corresp="#uuid-dc777985-0c90-49f3-9023-e95369044bbe">
+                <orth>黜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trhwit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khrlud</pron>
+            </form>
+            <sense xml:id="uuid-dd94d19c-2018-41b5-94d1-9c201821b501" resp="#CH" tls:created="2020-05-05T19:41:45.462+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>dismiss from active service (troops)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0f3a7e26-80c0-4da0-ba7e-2680c0dda041" resp="#CH" tls:created="2021-05-31T18:33:16.122+09:00">
+            <form corresp="#uuid-b5af6e67-ab6f-4bf7-a18a-978223e2e8c9">
+                <orth>去</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khaʔ</pron>
+            </form>
+            <sense xml:id="uuid-0a5492d0-b4f5-45a0-9492-d0b4f565a065" resp="#CH" tls:created="2021-05-31T18:33:16.122+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>dismiss from office</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8620c59b-7e9a-41b2-a17f-feb7cfd0fc45">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8620c59b-7e9a-41b2-a17f-feb7cfd0fc45">
 <head>SCHOOL</head>
     <list type="translations">
         <item xml:lang="zh">學校</item>
@@ -200,7 +201,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-07-29T20:13:55.195+09:00">(sometimes officially organised) school; college (also for seniors and retirees, as teachers)</def>
             </sense>
-<sense xml:id="uuid-0b34565c-05f4-4215-a4e0-fd8167f41cb2" resp="#CH" tls:created="2019-10-14T22:08:23.181+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def>go to school</def></sense></entry>
+<sense xml:id="uuid-0b34565c-05f4-4215-a4e0-fd8167f41cb2" resp="#CH" tls:created="2019-10-14T22:08:23.181+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def>go to school</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dc3b759b-7010-4f82-b534-4dc5452f9e1c">
             <form corresp="#uuid-8aa69765-53da-464d-8d53-6a184330b1da">
 <orth>序</orth>
@@ -387,5 +395,65 @@
   <def>post-Han: imperial school/university established at the capital under the Sui dynasty</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-563b46c6-251b-4043-bb46-c6251b404333" resp="#CH" tls:created="2020-04-22T17:55:48.901+09:00"><form corresp="#戶:hù"><orth>戶</orth><pron xml:lang="zh-Latn-x-pinyin">hù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-c747564c-9cef-496b-8756-4c9cef096b18" resp="#CH" tls:created="2020-04-22T17:55:48.901+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>school of thought, tradition of thinking</def></sense></entry><entry type="word" xml:id="uuid-18bd59e6-4ae9-4327-bd59-e64ae933278f" resp="#CH" tls:created="2020-04-24T00:24:08.663+09:00"><form corresp="#uuid-25c83d84-2bfe-48ea-b24d-83789f0f8449 #宮:gōng"><orth>泮宮</orth><pron xml:lang="zh-Latn-x-pinyin">pàn gōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phanH --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaans --</pron></form><sense xml:id="uuid-e0d99807-005e-43c8-9998-07005ee3c890" resp="#CH" tls:created="2020-04-24T00:24:08.663+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>legendary "academy" in early Zhou times</def></sense></entry><entry type="word" xml:id="uuid-17d3b07b-d872-481c-93b0-7bd872b81c3b" resp="#dsehnal" tls:created="2021-05-03T14:48:10.497+09:00"><form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-e2bc8c65-246b-4b87-bf92-9a624cdbcea7"><orth>門下</orth><pron xml:lang="zh-Latn-x-pinyin">mén xià</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mwon haeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯɯn ɢraaʔ</pron></form><sense xml:id="uuid-d68deb36-a2d2-4b2e-8deb-36a2d2bb2e80" resp="#dsehnal" tls:created="2021-05-03T14:48:10.497+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2021-05-07T02:44:15.505+09:00">N's students</def></sense></entry><entry type="word" xml:id="uuid-77ba3981-8dba-4393-ba39-818dba039367" resp="#CH" tls:created="2023-07-29T17:26:21.398+09:00"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4"><orth>大學</orth><pron xml:lang="zh-Latn-x-pinyin">dà xué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dajH haewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads ɡruuɡ</pron></form><sense xml:id="uuid-b914b93c-93a1-4723-94b9-3c93a1472312" resp="#CH" tls:created="2023-07-29T17:26:21.398+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>school for grown-ups</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-563b46c6-251b-4043-bb46-c6251b404333" resp="#CH" tls:created="2020-04-22T17:55:48.901+09:00">
+            <form corresp="#戶:hù">
+                <orth>戶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-c747564c-9cef-496b-8756-4c9cef096b18" resp="#CH" tls:created="2020-04-22T17:55:48.901+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>school of thought, tradition of thinking</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-18bd59e6-4ae9-4327-bd59-e64ae933278f" resp="#CH" tls:created="2020-04-24T00:24:08.663+09:00">
+            <form corresp="#uuid-25c83d84-2bfe-48ea-b24d-83789f0f8449 #宮:gōng">
+                <orth>泮宮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pàn gōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phanH --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaans --</pron>
+            </form>
+            <sense xml:id="uuid-e0d99807-005e-43c8-9998-07005ee3c890" resp="#CH" tls:created="2020-04-24T00:24:08.663+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>legendary "academy" in early Zhou times</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-17d3b07b-d872-481c-93b0-7bd872b81c3b" resp="#dsehnal" tls:created="2021-05-03T14:48:10.497+09:00">
+            <form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-e2bc8c65-246b-4b87-bf92-9a624cdbcea7">
+                <orth>門下</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mén xià</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mwon haeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯɯn ɢraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-d68deb36-a2d2-4b2e-8deb-36a2d2bb2e80" resp="#dsehnal" tls:created="2021-05-03T14:48:10.497+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2021-05-07T02:44:15.505+09:00">N's students</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-77ba3981-8dba-4393-ba39-818dba039367" resp="#CH" tls:created="2023-07-29T17:26:21.398+09:00">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
+                <orth>大學</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà xué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dajH haewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads ɡruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-b914b93c-93a1-4723-94b9-3c93a1472312" resp="#CH" tls:created="2023-07-29T17:26:21.398+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>school for grown-ups</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6f428244-f5ad-4f76-b75c-a630dfefe5ff">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6f428244-f5ad-4f76-b75c-a630dfefe5ff">
 <head>DRUG</head>
     <list type="altnames">
 <item>MEDICINE</item>
@@ -201,7 +202,15 @@
                 </gramGrp>
   <def>medicine, medication; (dig for) medicinal roots, herbs or mushrooms</def>
             </sense>
-<sense xml:id="uuid-b05a709a-6e74-40c9-a7aa-0e75ec7f0b37" resp="#CH" tls:created="2020-01-11T04:33:16.294+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a51b30e7-dffc-4a3d-b4f7-2dccf9eee4a9">nmadN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>medicinal; curative</def></sense></entry>
+<sense xml:id="uuid-b05a709a-6e74-40c9-a7aa-0e75ec7f0b37" resp="#CH" tls:created="2020-01-11T04:33:16.294+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a51b30e7-dffc-4a3d-b4f7-2dccf9eee4a9">nmadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>medicinal; curative</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db993ff5-7462-4b12-8876-253623cf0b05">
             <form corresp="#uuid-9c8ab241-6d21-4754-b6e0-c59fb0b7683f #uuid-1104fc6a-2020-4bfd-8341-fabcd4ecb826">
 <orth>毒藥</orth>
@@ -248,5 +257,21 @@
   <def>medical potions</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-57f8c6a9-b66c-4b63-b8c6-a9b66c4b631e" resp="#dsehnal" tls:created="2023-04-30T03:49:29.433+09:00"><form corresp="#uuid-a4dd7619-4b93-409c-b470-772ac0d8ab63"><orth>散</orth><pron xml:lang="zh-Latn-x-pinyin">sǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sanX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaanʔ</pron></form><sense xml:id="uuid-0bd16cad-1ebd-41a8-916c-ad1ebd21a8d7" resp="#dsehnal" tls:created="2023-04-30T03:49:29.433+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-02dab1c8-4289-431e-9ab1-c84289631e2d">nmpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat></gramGrp><def>powder consisting of N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-57f8c6a9-b66c-4b63-b8c6-a9b66c4b631e" resp="#dsehnal" tls:created="2023-04-30T03:49:29.433+09:00">
+            <form corresp="#uuid-a4dd7619-4b93-409c-b470-772ac0d8ab63">
+                <orth>散</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sanX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaanʔ</pron>
+            </form>
+            <sense xml:id="uuid-0bd16cad-1ebd-41a8-916c-ad1ebd21a8d7" resp="#dsehnal" tls:created="2023-04-30T03:49:29.433+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-02dab1c8-4289-431e-9ab1-c84289631e2d">nmpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat>
+                </gramGrp>
+                <def>powder consisting of N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

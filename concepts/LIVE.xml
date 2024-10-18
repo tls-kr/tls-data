@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7921ef00-d94a-45f2-99c2-032eee73eb83">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7921ef00-d94a-45f2-99c2-032eee73eb83">
 <head>LIVE</head>
     <list type="altnames">
 <item>ALIVE</item>
@@ -297,7 +298,22 @@
                 </gramGrp>
   <def>allotted lifespan; life</def>
             </sense>
-<sense xml:id="uuid-40102428-1eb2-4cde-8661-6a45963a9bbd" resp="#CH" tls:created="2020-01-14T19:53:28.076+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>continuing existence, life</def></sense><sense xml:id="uuid-f089a74e-0411-4539-89a7-4e04117539b4" resp="#CH" tls:created="2022-08-21T22:46:35.485+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>life</def></sense></entry>
+<sense xml:id="uuid-40102428-1eb2-4cde-8661-6a45963a9bbd" resp="#CH" tls:created="2020-01-14T19:53:28.076+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>continuing existence, life</def>
+            </sense>
+            <sense xml:id="uuid-f089a74e-0411-4539-89a7-4e04117539b4" resp="#CH" tls:created="2022-08-21T22:46:35.485+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>life</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-16d965ce-e657-4f0d-a2a1-ba7b00cf89da">
             <form corresp="#uuid-68383a76-4bb0-42bd-abf4-1567b3ccf244">
 <orth>在</orth>
@@ -333,7 +349,14 @@
                 </gramGrp>
   <def>lifetime, span of life (long OR short)</def>
             </sense>
-<sense xml:id="uuid-110984a1-4ee0-4321-8984-a14ee01321e4" resp="#dsehnal" tls:created="2023-07-08T19:46:05.192+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-60e916e4-a3c0-40f7-a916-e4a3c070f7fc">vt+.V{NUM}adN</tls:syn-func></gramGrp><def>reach the NUM age; live until NUM years</def></sense></entry>
+<sense xml:id="uuid-110984a1-4ee0-4321-8984-a14ee01321e4" resp="#dsehnal" tls:created="2023-07-08T19:46:05.192+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-60e916e4-a3c0-40f7-a916-e4a3c070f7fc">vt+.V{NUM}adN</tls:syn-func>
+                </gramGrp>
+                <def>reach the NUM age; live until NUM years</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-815e1c33-a09d-4dd5-9139-a1cf32c997c5">
             <form corresp="#uuid-800256db-d38e-4e69-9537-b54fa0fd8e61">
 <orth>存</orth>
@@ -430,7 +453,15 @@
                 </gramGrp>
   <def>keep (oneself) alive</def>
             </sense>
-<sense xml:id="uuid-554bb390-050d-4c3e-8bb3-90050dac3e3c" resp="#dsehnal" tls:created="2023-07-08T18:39:05.623+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to life</def></sense></entry>
+<sense xml:id="uuid-554bb390-050d-4c3e-8bb3-90050dac3e3c" resp="#dsehnal" tls:created="2023-07-08T18:39:05.623+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to life</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-613c6686-8d21-4eb3-b222-992c48bb75b1">
             <form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded">
 <orth>生</orth>
@@ -574,7 +605,22 @@
                 </gramGrp>
   <def>vitality; living quality</def>
             </sense>
-<sense xml:id="uuid-fb9629ad-3a29-4b3c-958a-6eb13605f673" resp="#zadrapa" tls:created="2019-12-02T18:57:53.725+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>live in (place N)</def></sense><sense xml:id="uuid-b1f3a894-5f6e-40e6-b3a8-945f6e10e60f" resp="#zadrapa" tls:created="2022-05-31T19:58:28.245+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>letting live</def></sense></entry>
+<sense xml:id="uuid-fb9629ad-3a29-4b3c-958a-6eb13605f673" resp="#zadrapa" tls:created="2019-12-02T18:57:53.725+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>live in (place N)</def>
+            </sense>
+            <sense xml:id="uuid-b1f3a894-5f6e-40e6-b3a8-945f6e10e60f" resp="#zadrapa" tls:created="2022-05-31T19:58:28.245+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>letting live</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3b6bdfce-a184-4116-88b7-1a7bce6288f0">
             <form corresp="#uuid-04848d38-5528-4d69-9b5e-bec3dc2f0333">
 <orth>視</orth>
@@ -697,7 +743,14 @@
                 </gramGrp>
   <def>one's whole life</def>
             </sense>
-<sense xml:id="uuid-7bed68b9-f7ee-4d75-ad68-b9f7ee4d75fb" resp="#dsehnal" tls:created="2024-06-22T22:39:31.595+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-b2e95acf-b843-4f14-ae40-63ccdfb6f835">NPab{PRED}</tls:syn-func></gramGrp><def>the whole life is over</def></sense></entry>
+<sense xml:id="uuid-7bed68b9-f7ee-4d75-ad68-b9f7ee4d75fb" resp="#dsehnal" tls:created="2024-06-22T22:39:31.595+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-b2e95acf-b843-4f14-ae40-63ccdfb6f835">NPab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>the whole life is over</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d403cc15-5a5f-47de-8547-54ef2755ac48">
             <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-459b0d38-95fa-4d14-a8a8-a032552579a1">
 <orth>人命</orth>
@@ -943,7 +996,15 @@
                 </gramGrp>
   <def>survivability (of a terrain)</def>
             </sense>
-<sense xml:id="uuid-5fd53896-ee1c-4032-a0d0-5711b7a1189f" resp="#CH" tls:created="2019-11-08T00:55:09.571+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-9d9b0497-73ee-465e-be59-c80a4dc530d8">additive</tls:sem-feat></gramGrp><def>life and death</def></sense></entry>
+<sense xml:id="uuid-5fd53896-ee1c-4032-a0d0-5711b7a1189f" resp="#CH" tls:created="2019-11-08T00:55:09.571+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9d9b0497-73ee-465e-be59-c80a4dc530d8">additive</tls:sem-feat>
+                </gramGrp>
+                <def>life and death</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0246d1ae-4194-4b69-9c8c-11b48ac22770">
             <form corresp="#uuid-f9950fcb-7763-41be-a0d9-6cad1541b6e6 #uuid-de384d51-47f4-44d9-8910-20aef1caaded">
 <orth>治生</orth>
@@ -1244,11 +1305,180 @@
   <def>come to life; live</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-21eab8bd-ddf0-4a26-aab8-bdddf0da26c8" resp="#zadrapa" tls:created="2020-02-13T21:33:27.589+09:00"><form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>生乎</orth><pron xml:lang="zh-Latn-x-pinyin">shēng hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sraeng hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraaŋ ɢaa</pron></form><sense xml:id="uuid-fbe2808c-a2a5-410e-a280-8ca2a5910eec" resp="#zadrapa" tls:created="2020-02-13T21:33:27.589+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>while alive</def></sense></entry><entry type="word" xml:id="uuid-7b85e209-ca8a-4187-85e2-09ca8a91872f" resp="#CH" tls:created="2020-03-31T22:21:06.234+09:00"><form corresp="#uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9 #uuid-843121ff-f778-4be2-a643-71a2a1dc6acb"><orth>舉火</orth><pron xml:lang="zh-Latn-x-pinyin">jǔ huǒ
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjoX xwaX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klaʔ qphaalʔ
-</pron></form><sense xml:id="uuid-e9d39682-fff0-49dc-9396-82fff009dcf0" resp="#CH" tls:created="2020-03-31T22:21:06.234+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>make a living</def></sense></entry><entry type="word" xml:id="uuid-98f633be-824b-4829-b633-be824b382913" resp="#CH" tls:created="2020-05-04T03:22:01.584+09:00"><form corresp="#uuid-e1944f01-dea7-4595-b088-155a7f2067b6 #uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c"><orth>全身</orth><pron xml:lang="zh-Latn-x-pinyin">quán shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjwen syin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡon qhjin</pron></form><sense xml:id="uuid-8466ee73-3f76-47b3-a6ee-733f7627b371" resp="#CH" tls:created="2020-05-04T03:22:01.584+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#CH" updated="2020-05-04T03:22:36.446+09:00">preserve one's life; survive</def></sense></entry><entry type="word" xml:id="uuid-852cb289-2592-498e-acb2-892592498e9f" resp="#zadrapa" tls:created="2020-06-18T22:33:49.175+09:00"><form corresp="#uuid-8b83822b-0499-4aa5-b092-e53ccfdfefbf #uuid-04848d38-5528-4d69-9b5e-bec3dc2f0333"><orth>久視</orth><pron xml:lang="zh-Latn-x-pinyin">jiǔ shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwX dzyijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klɯʔ ɡljils</pron></form><sense xml:id="uuid-cf863eae-b27a-4b01-863e-aeb27a7b0122" resp="#zadrapa" tls:created="2020-06-18T22:33:49.175+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-a0e4b8b1-ffc3-42ca-9f07-5959dc5aed95">idiom</tls:sem-feat></gramGrp><def>to live a long life</def></sense></entry><entry type="word" xml:id="uuid-e0f3a8c2-ce3b-429f-b3a8-c2ce3be29fd5" resp="#zadrapa" tls:created="2020-06-18T22:34:26.687+09:00"><form corresp="#uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec #uuid-de384d51-47f4-44d9-8910-20aef1caaded"><orth>長生</orth><pron xml:lang="zh-Latn-x-pinyin">cháng shēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drjang sraeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrlaŋ sraaŋ</pron></form><sense xml:id="uuid-27c27d70-1d6d-4ec3-827d-701d6dbec3e8" resp="#zadrapa" tls:created="2020-06-18T22:34:26.687+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>to live a long life</def></sense></entry><entry type="word" xml:id="uuid-cdb81b5b-2d8d-4a07-b81b-5b2d8dfa07cb" resp="#zadrapa" tls:created="2020-06-18T22:34:57.199+09:00"><form corresp="#uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec #uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-8b83822b-0499-4aa5-b092-e53ccfdfefbf #uuid-04848d38-5528-4d69-9b5e-bec3dc2f0333"><orth>長生久視</orth><pron xml:lang="zh-Latn-x-pinyin">cháng shēng jiǔ shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drjang sraeng kjuwX dzyijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrlaŋ sraaŋ klɯʔ ɡljils</pron></form><sense xml:id="uuid-9940bbd0-c1a5-4160-80bb-d0c1a5f16032" resp="#zadrapa" tls:created="2020-06-18T22:34:57.199+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-a0e4b8b1-ffc3-42ca-9f07-5959dc5aed95">idiom</tls:sem-feat></gramGrp><def>to live a long life</def></sense></entry><entry type="word" xml:id="uuid-11e60a73-7852-49d2-a60a-737852b9d214" resp="#zadrapa" tls:created="2020-06-22T04:57:26.111+09:00"><form corresp="#uuid-c4d51bf5-2746-46a4-8005-1788d17d65df #uuid-de384d51-47f4-44d9-8910-20aef1caaded"><orth>偷生</orth><pron xml:lang="zh-Latn-x-pinyin">tōu
- shēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thuw
- sraeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰoo
- sraaŋ</pron></form><sense xml:id="uuid-ea1c4f31-b8ef-4b8a-9c4f-31b8ef1b8a05" resp="#zadrapa" tls:created="2020-06-22T04:57:26.111+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>to muddle along</def></sense></entry><entry type="word" xml:id="uuid-58181389-7e3c-4ee1-9813-897e3c0ee1fa" resp="#CH" tls:created="2020-06-30T22:36:32.466+09:00"><form corresp="#uuid-3857cdbc-9fec-40e3-abe8-c48aa2bae51c #uuid-de384d51-47f4-44d9-8910-20aef1caaded"><orth>含生</orth><pron xml:lang="zh-Latn-x-pinyin">hán shēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hom sraeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡlɯɯm sraaŋ</pron></form><sense xml:id="uuid-0d58e170-c465-4b2e-98e1-70c4652b2edd" resp="#CH" tls:created="2020-06-30T22:36:32.466+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>living creatures</def></sense></entry><entry type="word" xml:id="uuid-aeb03b97-6326-4948-b03b-976326394873" resp="#CH" tls:created="2020-08-07T17:13:36.04+09:00"><form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991"><orth>有</orth><pron xml:lang="zh-Latn-x-pinyin">yǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ</pron></form><sense xml:id="uuid-a46a0816-0d2b-442b-aa08-160d2b942b41" resp="#CH" tls:created="2020-08-07T17:13:36.04+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e035037b-d539-4336-a4d0-d2b2a1b1ca64">vi N{SUBJ}</tls:syn-func></gramGrp><def>exist as a living being, live</def></sense></entry><entry type="word" xml:id="uuid-c4e55729-271f-4920-a557-29271fc920ea" resp="#CH" tls:created="2020-12-15T03:52:35.289+09:00"><form corresp="#uuid-c95479ed-0da6-47fe-a739-8f1cfc228966 #uuid-ab7ec95f-8245-4e75-894d-3b9d6a929bc2"><orth>年壽</orth><pron xml:lang="zh-Latn-x-pinyin">nián shòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nen dzyuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">niin djuʔ</pron></form><sense xml:id="uuid-a2c8c5ab-05ae-49c4-88c5-ab05aed9c451" resp="#CH" tls:created="2020-12-15T03:52:35.289+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-dd37c44b-5a41-45e6-a045-090d47ae4923">time</tls:sem-feat></gramGrp><def>lifespan</def></sense></entry><entry type="word" xml:id="uuid-5fa87ddf-91ba-4055-a87d-df91bad05535" resp="#dsehnal" tls:created="2023-07-08T16:26:13.003+09:00"><form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f"><orth>生平</orth><pron xml:lang="zh-Latn-x-pinyin">shēng píng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sraeng bjaeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraaŋ breŋ</pron></form><sense xml:id="uuid-7507023b-0805-498c-8702-3b0805a98c17" resp="#dsehnal" tls:created="2023-07-08T16:26:13.003+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func></gramGrp><def>living; being of the time when sb. was alive </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-21eab8bd-ddf0-4a26-aab8-bdddf0da26c8" resp="#zadrapa" tls:created="2020-02-13T21:33:27.589+09:00">
+            <form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>生乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēng hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sraeng hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraaŋ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-fbe2808c-a2a5-410e-a280-8ca2a5910eec" resp="#zadrapa" tls:created="2020-02-13T21:33:27.589+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>while alive</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7b85e209-ca8a-4187-85e2-09ca8a91872f" resp="#CH" tls:created="2020-03-31T22:21:06.234+09:00">
+            <form corresp="#uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9 #uuid-843121ff-f778-4be2-a643-71a2a1dc6acb">
+                <orth>舉火</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jǔ huǒ
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjoX xwaX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klaʔ qphaalʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-e9d39682-fff0-49dc-9396-82fff009dcf0" resp="#CH" tls:created="2020-03-31T22:21:06.234+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>make a living</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98f633be-824b-4829-b633-be824b382913" resp="#CH" tls:created="2020-05-04T03:22:01.584+09:00">
+            <form corresp="#uuid-e1944f01-dea7-4595-b088-155a7f2067b6 #uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c">
+                <orth>全身</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">quán shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjwen syin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡon qhjin</pron>
+            </form>
+            <sense xml:id="uuid-8466ee73-3f76-47b3-a6ee-733f7627b371" resp="#CH" tls:created="2020-05-04T03:22:01.584+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-04T03:22:36.446+09:00">preserve one's life; survive</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-852cb289-2592-498e-acb2-892592498e9f" resp="#zadrapa" tls:created="2020-06-18T22:33:49.175+09:00">
+            <form corresp="#uuid-8b83822b-0499-4aa5-b092-e53ccfdfefbf #uuid-04848d38-5528-4d69-9b5e-bec3dc2f0333">
+                <orth>久視</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiǔ shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwX dzyijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klɯʔ ɡljils</pron>
+            </form>
+            <sense xml:id="uuid-cf863eae-b27a-4b01-863e-aeb27a7b0122" resp="#zadrapa" tls:created="2020-06-18T22:33:49.175+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a0e4b8b1-ffc3-42ca-9f07-5959dc5aed95">idiom</tls:sem-feat>
+                </gramGrp>
+                <def>to live a long life</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e0f3a8c2-ce3b-429f-b3a8-c2ce3be29fd5" resp="#zadrapa" tls:created="2020-06-18T22:34:26.687+09:00">
+            <form corresp="#uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec #uuid-de384d51-47f4-44d9-8910-20aef1caaded">
+                <orth>長生</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cháng shēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drjang sraeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrlaŋ sraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-27c27d70-1d6d-4ec3-827d-701d6dbec3e8" resp="#zadrapa" tls:created="2020-06-18T22:34:26.687+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>to live a long life</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cdb81b5b-2d8d-4a07-b81b-5b2d8dfa07cb" resp="#zadrapa" tls:created="2020-06-18T22:34:57.199+09:00">
+            <form corresp="#uuid-a3a65359-a600-4d8e-bb88-c8b79c558eec #uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-8b83822b-0499-4aa5-b092-e53ccfdfefbf #uuid-04848d38-5528-4d69-9b5e-bec3dc2f0333">
+                <orth>長生久視</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cháng shēng jiǔ shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drjang sraeng kjuwX dzyijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrlaŋ sraaŋ klɯʔ ɡljils</pron>
+            </form>
+            <sense xml:id="uuid-9940bbd0-c1a5-4160-80bb-d0c1a5f16032" resp="#zadrapa" tls:created="2020-06-18T22:34:57.199+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a0e4b8b1-ffc3-42ca-9f07-5959dc5aed95">idiom</tls:sem-feat>
+                </gramGrp>
+                <def>to live a long life</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-11e60a73-7852-49d2-a60a-737852b9d214" resp="#zadrapa" tls:created="2020-06-22T04:57:26.111+09:00">
+            <form corresp="#uuid-c4d51bf5-2746-46a4-8005-1788d17d65df #uuid-de384d51-47f4-44d9-8910-20aef1caaded">
+                <orth>偷生</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tōu
+ shēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thuw
+ sraeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰoo
+ sraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-ea1c4f31-b8ef-4b8a-9c4f-31b8ef1b8a05" resp="#zadrapa" tls:created="2020-06-22T04:57:26.111+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>to muddle along</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-58181389-7e3c-4ee1-9813-897e3c0ee1fa" resp="#CH" tls:created="2020-06-30T22:36:32.466+09:00">
+            <form corresp="#uuid-3857cdbc-9fec-40e3-abe8-c48aa2bae51c #uuid-de384d51-47f4-44d9-8910-20aef1caaded">
+                <orth>含生</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hán shēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hom sraeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡlɯɯm sraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-0d58e170-c465-4b2e-98e1-70c4652b2edd" resp="#CH" tls:created="2020-06-30T22:36:32.466+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>living creatures</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-aeb03b97-6326-4948-b03b-976326394873" resp="#CH" tls:created="2020-08-07T17:13:36.04+09:00">
+            <form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991">
+                <orth>有</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-a46a0816-0d2b-442b-aa08-160d2b942b41" resp="#CH" tls:created="2020-08-07T17:13:36.04+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e035037b-d539-4336-a4d0-d2b2a1b1ca64">vi N{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def>exist as a living being, live</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c4e55729-271f-4920-a557-29271fc920ea" resp="#CH" tls:created="2020-12-15T03:52:35.289+09:00">
+            <form corresp="#uuid-c95479ed-0da6-47fe-a739-8f1cfc228966 #uuid-ab7ec95f-8245-4e75-894d-3b9d6a929bc2">
+                <orth>年壽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nián shòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nen dzyuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">niin djuʔ</pron>
+            </form>
+            <sense xml:id="uuid-a2c8c5ab-05ae-49c4-88c5-ab05aed9c451" resp="#CH" tls:created="2020-12-15T03:52:35.289+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-dd37c44b-5a41-45e6-a045-090d47ae4923">time</tls:sem-feat>
+                </gramGrp>
+                <def>lifespan</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5fa87ddf-91ba-4055-a87d-df91bad05535" resp="#dsehnal" tls:created="2023-07-08T16:26:13.003+09:00">
+            <form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded #uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f">
+                <orth>生平</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēng píng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sraeng bjaeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraaŋ breŋ</pron>
+            </form>
+            <sense xml:id="uuid-7507023b-0805-498c-8702-3b0805a98c17" resp="#dsehnal" tls:created="2023-07-08T16:26:13.003+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func>
+                </gramGrp>
+                <def>living; being of the time when sb. was alive </def>
+            </sense>
+        </entry>
+    </div>
 </div>

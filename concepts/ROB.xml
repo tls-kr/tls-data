@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-54308afc-6d8a-4aad-9aad-87e1e76d022b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-54308afc-6d8a-4aad-9aad-87e1e76d022b">
 <head>ROB</head>
     <list type="altnames">
 <item>BURGLE</item>
@@ -179,7 +180,15 @@
                 </gramGrp>
   <def>to rob (somebody N1) (of something N2), to take (something N1) away (from someone N2) by force</def>
             </sense>
-<sense xml:id="uuid-186ed5cd-d5fa-4d07-aed5-cdd5fa7d07ed" resp="#zadrapa" tls:created="2022-06-20T22:06:03.074+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func><tls:sem-feat corresp="#">passive</tls:sem-feat></gramGrp><def>by robbed of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-186ed5cd-d5fa-4d07-aed5-cdd5fa7d07ed" resp="#zadrapa" tls:created="2022-06-20T22:06:03.074+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#">passive</tls:sem-feat>
+                </gramGrp>
+                <def>by robbed of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f800a6fd-deb5-4c43-ada9-8c3a911fe094">
             <form corresp="#uuid-3c7a0662-be60-4304-ba8d-12bdad4f1a0b">
 <orth>戔</orth>
@@ -366,9 +375,47 @@
   <def>rob (things)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fb68437e-385d-4b39-a843-7e385d6b397f" resp="#zadrapa" tls:created="2020-06-01T18:20:44.521+09:00"><form corresp="#uuid-b23c5e15-4713-4760-8fe6-f60c1f04a2f3 #uuid-dfdd6ead-9c1c-4fc1-bab8-ab654fc26794"><orth>攫盜</orth><pron xml:lang="zh-Latn-x-pinyin">jué dào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjwak dawH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷaɡ daaws</pron></form><sense xml:id="uuid-49b7ee6c-be60-41a0-b7ee-6cbe60d1a03b" resp="#zadrapa" tls:created="2020-06-01T18:20:44.521+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>to rob others</def></sense></entry><entry type="word" xml:id="uuid-8e400085-8dd1-4fcf-8000-858dd18fcf07" resp="#zadrapa" tls:created="2020-06-22T05:20:56.303+09:00"><form corresp="#uuid-b98c55f3-8617-43b2-b7a6-5f2cc6a9494a #uuid-dfdd6ead-9c1c-4fc1-bab8-ab654fc26794"><orth>突盜</orth><pron xml:lang="zh-Latn-x-pinyin">tū
+    <entry type="word" xml:id="uuid-fb68437e-385d-4b39-a843-7e385d6b397f" resp="#zadrapa" tls:created="2020-06-01T18:20:44.521+09:00">
+            <form corresp="#uuid-b23c5e15-4713-4760-8fe6-f60c1f04a2f3 #uuid-dfdd6ead-9c1c-4fc1-bab8-ab654fc26794">
+                <orth>攫盜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jué dào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjwak dawH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷaɡ daaws</pron>
+            </form>
+            <sense xml:id="uuid-49b7ee6c-be60-41a0-b7ee-6cbe60d1a03b" resp="#zadrapa" tls:created="2020-06-01T18:20:44.521+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>to rob others</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e400085-8dd1-4fcf-8000-858dd18fcf07" resp="#zadrapa" tls:created="2020-06-22T05:20:56.303+09:00">
+            <form corresp="#uuid-b98c55f3-8617-43b2-b7a6-5f2cc6a9494a #uuid-dfdd6ead-9c1c-4fc1-bab8-ab654fc26794">
+                <orth>突盜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tū
  tú
- dào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dwot
- dawH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">duud
- daaws</pron></form><sense xml:id="uuid-30d231ea-836d-401c-9231-ea836de01c91" resp="#zadrapa" tls:created="2020-06-22T05:20:56.303+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>to break in and rob</def></sense><sense xml:id="uuid-6c9afee7-651f-4f4f-9afe-e7651f9f4fd1" resp="#zadrapa" tls:created="2020-06-22T22:32:50.393+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>robbery</def></sense></entry></div>
+ dào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dwot
+ dawH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">duud
+ daaws</pron>
+            </form>
+            <sense xml:id="uuid-30d231ea-836d-401c-9231-ea836de01c91" resp="#zadrapa" tls:created="2020-06-22T05:20:56.303+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>to break in and rob</def>
+            </sense>
+            <sense xml:id="uuid-6c9afee7-651f-4f4f-9afe-e7651f9f4fd1" resp="#zadrapa" tls:created="2020-06-22T22:32:50.393+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>robbery</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-322fce0c-8393-4268-a95d-15a08ce2a77f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-322fce0c-8393-4268-a95d-15a08ce2a77f">
 <head>WEAK</head>
     <list type="altnames">
 <item>FRAIL</item>
@@ -357,7 +358,23 @@
                 </gramGrp>
   <def>be weaker than</def>
             </sense>
-<sense xml:id="uuid-6abc388e-9bb6-4e96-bc38-8e9bb66e96d5" resp="#zadrapa" tls:created="2022-05-23T19:01:41.172+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>to weaken the contextually determinate N</def></sense><sense xml:id="uuid-6e5e99f1-c011-4f09-9e99-f1c0112f09ce" resp="#CH" tls:created="2022-09-21T23:58:00.02+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>pretend to be weak</def></sense></entry>
+<sense xml:id="uuid-6abc388e-9bb6-4e96-bc38-8e9bb66e96d5" resp="#zadrapa" tls:created="2022-05-23T19:01:41.172+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>to weaken the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-6e5e99f1-c011-4f09-9e99-f1c0112f09ce" resp="#CH" tls:created="2022-09-21T23:58:00.02+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>pretend to be weak</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-52585588-a429-4b01-8a4c-c05757fc8959">
             <form corresp="#uuid-e53a4783-ff5c-4ba0-9758-c68373df8f8b">
 <orth>怠</orth>
@@ -442,7 +459,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-f7b75e1f-23f4-41e5-825c-c0e7d810cce0">
-            <form corresp="#uuid-725fdf04-87c1-45c4-b975-522d96bcad5e"><orth>羸</orth><pron xml:lang="zh-Latn-x-pinyin">léi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rol</pron></form>
+            <form corresp="#uuid-725fdf04-87c1-45c4-b975-522d96bcad5e">
+                <orth>羸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">léi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rol</pron>
+            </form>
             <def>Léi 羸 (ant. jiàn 健 "strong and healthy") typically refers to physical weakness in humans.
 3. Bào 薄 (ant. zhuàng 壯 "strong and vigorous") can refer to a low or weak intensity of something.
 </def>
@@ -529,7 +551,46 @@ using up available resources.
                 </gramGrp>
   <def resp="#CH" updated="2021-03-29T20:12:54.197+09:00">be weak and easily broken 說文：易斷</def>
             </sense>
-<sense xml:id="uuid-db4f5754-8b30-4cc8-8f57-548b30ecc8de" resp="#CH" tls:created="2021-03-29T20:02:40.663+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-03-29T21:38:43.824+09:00">brittle&gt; be of weak constitution, get easily broken; be vulnerable</def></sense><sense xml:id="uuid-9441d15f-095c-4892-81d1-5f095ce89277" resp="#CH" tls:created="2021-03-29T20:16:17.611+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be powerless</def></sense><sense xml:id="uuid-c0b00f9d-40f0-40d2-b00f-9d40f080d238" resp="#CH" tls:created="2021-03-29T20:19:12.855+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>the powerless</def></sense><sense xml:id="uuid-0007d2d1-6e1f-4d18-87d2-d16e1f6d1832" resp="#CH" tls:created="2021-03-29T20:42:35.744+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>brittleness&gt; weak cohesion, softness</def></sense><sense xml:id="uuid-1b56c1c4-1afd-41c2-96c1-c41afd41c21c" resp="#CH" tls:created="2021-03-29T21:10:27.854+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>brittle</def></sense></entry>
+<sense xml:id="uuid-db4f5754-8b30-4cc8-8f57-548b30ecc8de" resp="#CH" tls:created="2021-03-29T20:02:40.663+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-03-29T21:38:43.824+09:00">brittle&gt; be of weak constitution, get easily broken; be vulnerable</def>
+            </sense>
+            <sense xml:id="uuid-9441d15f-095c-4892-81d1-5f095ce89277" resp="#CH" tls:created="2021-03-29T20:16:17.611+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be powerless</def>
+            </sense>
+            <sense xml:id="uuid-c0b00f9d-40f0-40d2-b00f-9d40f080d238" resp="#CH" tls:created="2021-03-29T20:19:12.855+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>the powerless</def>
+            </sense>
+            <sense xml:id="uuid-0007d2d1-6e1f-4d18-87d2-d16e1f6d1832" resp="#CH" tls:created="2021-03-29T20:42:35.744+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>brittleness&gt; weak cohesion, softness</def>
+            </sense>
+            <sense xml:id="uuid-1b56c1c4-1afd-41c2-96c1-c41afd41c21c" resp="#CH" tls:created="2021-03-29T21:10:27.854+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>brittle</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-92b96df9-7682-45e8-90d0-9a674fc88595">
             <form corresp="#uuid-dac17bd9-ba01-423b-a098-77fe349f5239">
 <orth>裸</orth>
@@ -565,7 +626,12 @@ using up available resources.
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-9c40544d-fe2a-47c9-b02c-fa3fd30ff290">
-            <form corresp="#uuid-57b6121b-6b21-47ee-b612-1b6b2107ee2d"><orth>薄</orth><pron xml:lang="zh-Latn-x-pinyin">báo/bó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-57b6121b-6b21-47ee-b612-1b6b2107ee2d">
+                <orth>薄</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">báo/bó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Bào 薄 (ant. zhuàng 壯 "strong and vigorous") can refer to a low or weak intensity of something.
 </def>
 <sense xml:id="uuid-7eca7ad8-ce86-4694-a065-f736f260d742">
@@ -601,7 +667,14 @@ using up available resources.
                 </gramGrp>
   <def>be weak with respect to</def>
             </sense>
-<sense xml:id="uuid-a2b3e389-d4c1-4fb4-b3e3-89d4c17fb462" resp="#dsehnal" tls:created="2024-04-23T03:07:46.747+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5c2d78cc-aedf-4ae0-993e-e7cc34f2b4f8">vi+prep+N</tls:syn-func></gramGrp><def>be insufficient in respect to N</def></sense></entry>
+<sense xml:id="uuid-a2b3e389-d4c1-4fb4-b3e3-89d4c17fb462" resp="#dsehnal" tls:created="2024-04-23T03:07:46.747+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5c2d78cc-aedf-4ae0-993e-e7cc34f2b4f8">vi+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>be insufficient in respect to N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1fe43d4c-501c-49e8-a9f0-4ec56b2e90bf">
             <form corresp="#uuid-3f5cd02c-7674-4bfd-875f-5687695e6a67">
 <orth>虧</orth>
@@ -624,7 +697,14 @@ using up available resources.
                 </gramGrp>
   <def>be inferior to</def>
             </sense>
-<sense xml:id="uuid-ac5cba99-9a9c-461d-8432-5fc7b4f290a3" resp="#CH" tls:created="2019-12-01T21:39:33.792+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def>weaken</def></sense></entry>
+<sense xml:id="uuid-ac5cba99-9a9c-461d-8432-5fc7b4f290a3" resp="#CH" tls:created="2019-12-01T21:39:33.792+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def>weaken</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-842f94fd-044b-45b1-928e-2d2f5e92ee41">
             <form corresp="#uuid-8144d179-f1e3-4522-bffc-f93b93152966">
 <orth>衰</orth>
@@ -659,7 +739,23 @@ using up available resources.
                 </gramGrp>
   <def>become weaker (of sounds etc)</def>
             </sense>
-<sense xml:id="uuid-8c6eecd1-a70e-4d19-89ef-af0dc6182780" resp="#CH" tls:created="2019-12-04T07:37:22.4+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>weakness</def></sense><sense xml:id="uuid-37e1bb1f-0bc1-4850-a1bb-1f0bc1f850ea" resp="#CH" tls:created="2020-05-18T04:43:57.199+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>weaken</def></sense></entry>
+<sense xml:id="uuid-8c6eecd1-a70e-4d19-89ef-af0dc6182780" resp="#CH" tls:created="2019-12-04T07:37:22.4+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>weakness</def>
+            </sense>
+            <sense xml:id="uuid-37e1bb1f-0bc1-4850-a1bb-1f0bc1f850ea" resp="#CH" tls:created="2020-05-18T04:43:57.199+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>weaken</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-08cd5ef6-7f9f-47dd-837f-ca4301b57df7">
             <form corresp="#uuid-9a936c91-9608-44c6-ad8d-cb347a1c4341">
 <orth>軟</orth>
@@ -729,7 +825,14 @@ using up available resources.
                 </gramGrp>
   <def>weak point or state of weakness</def>
             </sense>
-<sense xml:id="uuid-c8fd32ef-f057-4d3c-bd32-eff0577d3cbb" resp="#dsehnal" tls:created="2023-12-17T21:16:23.167+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>have cracks or other week points</def></sense></entry>
+<sense xml:id="uuid-c8fd32ef-f057-4d3c-bd32-eff0577d3cbb" resp="#dsehnal" tls:created="2023-12-17T21:16:23.167+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>have cracks or other week points</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e730cef1-d41e-4424-8611-384c3432a9e6">
             <form corresp="#uuid-42070654-1db9-40f7-a25f-05ddd4d2d38e #uuid-4d9ad900-b9f4-4297-808a-ac1b45292f9c">
 <orth>削弱</orth>
@@ -806,7 +909,14 @@ using up available resources.
                 </gramGrp>
   <def>those who have no one to appeal to; the helpless</def>
             </sense>
-<sense xml:id="uuid-3c3f81bc-37c8-40e5-bf81-bc37c820e5e3" resp="#CH" tls:created="2022-11-28T08:07:22.366+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>have no one to turn to (for support)</def></sense></entry>
+<sense xml:id="uuid-3c3f81bc-37c8-40e5-bf81-bc37c820e5e3" resp="#CH" tls:created="2022-11-28T08:07:22.366+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>have no one to turn to (for support)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b8beabb9-eab4-4a41-8e9d-e7f0cf0fa13b">
             <form corresp="#uuid-725fdf04-87c1-45c4-b975-522d96bcad5e #uuid-7942a088-eb35-4301-b701-6a4f3310fe87">
 <orth>羸劣</orth>
@@ -961,5 +1071,257 @@ using up available resources.
   <def>weak in colour, faded</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-66ae7707-8ebe-4671-8165-eb3570048f80" resp="#CH" tls:created="2019-12-07T22:10:15.588+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-fa73b932-bffa-4b1e-93ed-0ae24855a6d0" resp="#CH" tls:created="2019-12-07T22:10:15.588+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>weaken&gt; slacken</def></sense></entry><entry type="word" xml:id="uuid-d52ef73e-583b-40da-ab44-9db9251cf73f" resp="#CH" tls:created="2019-12-07T22:10:33.172+09:00"><form corresp="#uuid-aa897121-69d2-4be2-b07a-9137b145e508 #uuid-f8a7728d-5c32-4758-9682-73e782880dc8"><orth>令緩</orth><pron xml:lang="zh-Latn-x-pinyin">lìng huǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lengH hwanX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-reeŋs ɢʷaanʔ</pron></form><sense xml:id="uuid-0638ae52-b72c-4d71-a679-fdd70e68decc" resp="#CH" tls:created="2019-12-07T22:10:33.172+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>weaken&gt; slacken</def></sense></entry><entry type="word" xml:id="uuid-d9b727f1-91b4-4389-a8e4-76cb8e1390d3" resp="#CH" tls:created="2020-01-13T18:57:03.942+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0cbed4f1-4603-4f90-b3df-7dc6fb8977f2" resp="#CH" tls:created="2020-01-13T18:57:03.942+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>deficiency, insufficiency; failure of excellence</def></sense></entry><entry type="word" xml:id="uuid-52dd0dc2-e0b5-4931-9e3d-56b0edb91c8c" resp="#CH" tls:created="2020-01-13T18:57:17.01+09:00"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-9c10d3ad-bc3d-4cd2-b8c3-2c5452ed803a"><orth>不善</orth><pron xml:lang="zh-Latn-x-pinyin">bù shàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjut dzyenX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ ɡjenʔ</pron></form><sense xml:id="uuid-6313d9ec-b610-4682-95ab-1decbc2e656d" resp="#CH" tls:created="2020-01-13T18:57:17.01+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>deficiency, insufficiency; failure of excellence</def></sense><sense xml:id="uuid-6e9cc5e9-4f2a-43d4-b9a2-296e17b6715f" resp="#CH" tls:created="2020-01-13T19:02:53.037+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>deficiency, insufficient features of excellence</def></sense><sense xml:id="uuid-7e1ac804-a2fe-44ce-9ac8-04a2feb4ce2d" resp="#CH" tls:created="2020-05-18T04:25:22.537+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func></gramGrp><def>those who are less than good</def></sense></entry><entry type="word" xml:id="uuid-92e4b891-bb89-4545-a4b8-91bb89854598" resp="#CH" tls:created="2020-08-28T00:31:17.871+09:00"><form corresp="#uuid-f74875f5-786d-4a10-888d-9a5d8fb1324d #uuid-4d9ad900-b9f4-4297-808a-ac1b45292f9c"><orth>微弱</orth><pron xml:lang="zh-Latn-x-pinyin">wēi wéi ruò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mj+j nyae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯl njewɡ</pron></form><sense xml:id="uuid-a526c6ae-e323-422d-a6c6-aee323322d4a" resp="#CH" tls:created="2020-08-28T00:31:17.871+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be (politically etc) weak</def></sense></entry><entry type="word" xml:id="uuid-24aff604-72d5-48d0-aff6-0472d5e8d0a3" resp="#zadrapa" tls:created="2020-12-13T05:30:57.972+09:00"><form corresp="#uuid-fea04e4f-6dc3-460f-9f17-9fa72e39530c"><orth>褫</orth><pron xml:lang="zh-Latn-x-pinyin">chí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drje</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rle</pron></form><sense xml:id="uuid-310fb411-0eb5-404d-8fb4-110eb5a04dda" resp="#zadrapa" tls:created="2020-12-13T05:30:57.972+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>(= chí 弛) slacken</def></sense></entry><entry type="word" xml:id="uuid-65a5f8d5-9240-4390-a5f8-d59240a390e3" resp="#CH" tls:created="2021-03-10T00:46:35.709+09:00"><form corresp="#uuid-86506f5f-1cf3-469b-af92-de05204f2677 #uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2"><orth>淖約</orth><pron xml:lang="zh-Latn-x-pinyin">nào yuē</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nraewH 'jak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rneewɡs qplewɡ</pron></form><sense xml:id="uuid-c3732840-9bba-4685-b328-409bba5685bd" resp="#CH" tls:created="2021-03-10T00:46:35.709+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be vulnerable and weak</def></sense></entry><entry type="word" xml:id="uuid-2a1491e4-66d3-422f-9491-e466d3922fc1" resp="#CH" tls:created="2021-03-10T00:48:55.967+09:00"><form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7"><orth>柔</orth><pron xml:lang="zh-Latn-x-pinyin">róu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju</pron></form><sense xml:id="uuid-6aa386da-a677-4266-a386-daa677c26624" resp="#CH" tls:created="2021-03-10T00:48:55.967+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>causative: be (further) weakened</def></sense><sense xml:id="uuid-f836c78e-abb8-4e37-b6c7-8eabb8be37ab" resp="#CH" tls:created="2022-08-11T19:26:58.997+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-09T23:29:20.78+09:00">weakness, feebleness</def></sense><sense xml:id="uuid-a2695c87-4922-420d-a95c-874922a20dba" resp="#CH" tls:created="2022-09-09T23:30:14.911+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be feeble</def></sense></entry><entry type="word" xml:id="uuid-8255d3c8-55b6-4f7c-95d3-c855b69f7c78" resp="#CH" tls:created="2021-03-29T20:17:11.424+09:00"><form corresp="#uuid-3ea84dca-7211-44a2-a6fc-dda143837df9 #uuid-4d9ad900-b9f4-4297-808a-ac1b45292f9c"><orth>脆弱</orth><pron xml:lang="zh-Latn-x-pinyin">cuì ruò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjwejH nyae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshods njewɡ</pron></form><sense xml:id="uuid-33c191a7-b43c-4e1d-8191-a7b43c3e1de7" resp="#CH" tls:created="2021-03-29T20:17:11.424+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be powerless</def></sense></entry><entry type="word" xml:id="uuid-e3f9e27e-860d-4cbd-b9e2-7e860d0cbd76" resp="#CH" tls:created="2022-09-09T17:12:22.77+09:00"><form corresp="#uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482"><orth>懦</orth><pron xml:lang="zh-Latn-x-pinyin">nuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nwaH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">nools</pron></form><sense xml:id="uuid-0d9678c8-1dfb-4df1-9678-c81dfb7df116" resp="#CH" tls:created="2022-09-09T17:12:22.77+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def resp="#CH" updated="2023-07-12T17:31:41.294+09:00">be feeble; be frail; appear weak</def></sense></entry><entry type="word" xml:id="uuid-bba1c488-d0f7-4687-a1c4-88d0f7d687de" resp="#CH" tls:created="2022-09-09T23:38:32.104+09:00"><form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7 #uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482"><orth>柔懦</orth><pron xml:lang="zh-Latn-x-pinyin">róu nuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw nwaH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju nools</pron></form><sense xml:id="uuid-0a21a3b2-9787-4562-a1a3-b29787056215" resp="#CH" tls:created="2022-09-09T23:38:32.104+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be frail and feeble</def></sense><sense xml:id="uuid-03bec640-ad7f-4add-bec6-40ad7f6add4a" resp="#CH" tls:created="2022-09-09T23:39:32.15+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def resp="#CH" updated="2023-07-13T16:18:40.481+09:00">weakness, feebleness; pusillanimity; lack of political strength</def></sense></entry><entry type="word" xml:id="uuid-18ce7845-cecf-42e2-8e78-45cecf92e285" resp="#CH" tls:created="2022-09-09T23:38:33.412+09:00"><form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7 #uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482"><orth>柔懦</orth><pron xml:lang="zh-Latn-x-pinyin">róu nuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw nwaH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju nools</pron></form><sense xml:id="uuid-07af14ad-7ca7-4aa2-af14-ad7ca78aa279" resp="#CH" tls:created="2022-09-09T23:38:33.412+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be frail and feeble</def></sense></entry><entry type="word" xml:id="uuid-b45ef36b-0b6d-472f-9ef3-6b0b6d172f0d" resp="#CH" tls:created="2022-09-09T23:38:34.586+09:00"><form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7 #uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482"><orth>柔懦</orth><pron xml:lang="zh-Latn-x-pinyin">róu nuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw nwaH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju nools</pron></form><sense xml:id="uuid-1b628877-a6c7-48d9-a288-77a6c7d8d903" resp="#CH" tls:created="2022-09-09T23:38:34.586+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be frail and feeble</def></sense></entry><entry type="word" xml:id="uuid-40fe9b53-7c4a-4f13-be9b-537c4a9f13f7" resp="#dsehnal" tls:created="2024-05-26T00:57:35.594+09:00"><form corresp="#uuid-77ac056a-7161-4188-94cd-bfd328ddb37a #uuid-f74875f5-786d-4a10-888d-9a5d8fb1324d"><orth>熹微</orth><pron xml:lang="zh-Latn-x-pinyin">xī wēi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xi mj+j</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯ mɯl</pron></form><sense xml:id="uuid-f24829b3-c01f-47ab-8829-b3c01ff7abdb" resp="#dsehnal" tls:created="2024-05-26T00:57:35.594+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>weak (of light)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-66ae7707-8ebe-4671-8165-eb3570048f80" resp="#CH" tls:created="2019-12-07T22:10:15.588+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-fa73b932-bffa-4b1e-93ed-0ae24855a6d0" resp="#CH" tls:created="2019-12-07T22:10:15.588+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>weaken&gt; slacken</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d52ef73e-583b-40da-ab44-9db9251cf73f" resp="#CH" tls:created="2019-12-07T22:10:33.172+09:00">
+            <form corresp="#uuid-aa897121-69d2-4be2-b07a-9137b145e508 #uuid-f8a7728d-5c32-4758-9682-73e782880dc8">
+                <orth>令緩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lìng huǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lengH hwanX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-reeŋs ɢʷaanʔ</pron>
+            </form>
+            <sense xml:id="uuid-0638ae52-b72c-4d71-a679-fdd70e68decc" resp="#CH" tls:created="2019-12-07T22:10:33.172+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>weaken&gt; slacken</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d9b727f1-91b4-4389-a8e4-76cb8e1390d3" resp="#CH" tls:created="2020-01-13T18:57:03.942+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0cbed4f1-4603-4f90-b3df-7dc6fb8977f2" resp="#CH" tls:created="2020-01-13T18:57:03.942+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>deficiency, insufficiency; failure of excellence</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-52dd0dc2-e0b5-4931-9e3d-56b0edb91c8c" resp="#CH" tls:created="2020-01-13T18:57:17.01+09:00">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-9c10d3ad-bc3d-4cd2-b8c3-2c5452ed803a">
+                <orth>不善</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù shàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjut dzyenX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ ɡjenʔ</pron>
+            </form>
+            <sense xml:id="uuid-6313d9ec-b610-4682-95ab-1decbc2e656d" resp="#CH" tls:created="2020-01-13T18:57:17.01+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>deficiency, insufficiency; failure of excellence</def>
+            </sense>
+            <sense xml:id="uuid-6e9cc5e9-4f2a-43d4-b9a2-296e17b6715f" resp="#CH" tls:created="2020-01-13T19:02:53.037+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>deficiency, insufficient features of excellence</def>
+            </sense>
+            <sense xml:id="uuid-7e1ac804-a2fe-44ce-9ac8-04a2feb4ce2d" resp="#CH" tls:created="2020-05-18T04:25:22.537+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>those who are less than good</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-92e4b891-bb89-4545-a4b8-91bb89854598" resp="#CH" tls:created="2020-08-28T00:31:17.871+09:00">
+            <form corresp="#uuid-f74875f5-786d-4a10-888d-9a5d8fb1324d #uuid-4d9ad900-b9f4-4297-808a-ac1b45292f9c">
+                <orth>微弱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wēi wéi ruò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mj+j nyae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯl njewɡ</pron>
+            </form>
+            <sense xml:id="uuid-a526c6ae-e323-422d-a6c6-aee323322d4a" resp="#CH" tls:created="2020-08-28T00:31:17.871+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be (politically etc) weak</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-24aff604-72d5-48d0-aff6-0472d5e8d0a3" resp="#zadrapa" tls:created="2020-12-13T05:30:57.972+09:00">
+            <form corresp="#uuid-fea04e4f-6dc3-460f-9f17-9fa72e39530c">
+                <orth>褫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drje</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rle</pron>
+            </form>
+            <sense xml:id="uuid-310fb411-0eb5-404d-8fb4-110eb5a04dda" resp="#zadrapa" tls:created="2020-12-13T05:30:57.972+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>(= chí 弛) slacken</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-65a5f8d5-9240-4390-a5f8-d59240a390e3" resp="#CH" tls:created="2021-03-10T00:46:35.709+09:00">
+            <form corresp="#uuid-86506f5f-1cf3-469b-af92-de05204f2677 #uuid-da3a791f-59b9-4ad0-82c6-e57d6c548fe2">
+                <orth>淖約</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nào yuē</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nraewH 'jak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rneewɡs qplewɡ</pron>
+            </form>
+            <sense xml:id="uuid-c3732840-9bba-4685-b328-409bba5685bd" resp="#CH" tls:created="2021-03-10T00:46:35.709+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be vulnerable and weak</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2a1491e4-66d3-422f-9491-e466d3922fc1" resp="#CH" tls:created="2021-03-10T00:48:55.967+09:00">
+            <form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7">
+                <orth>柔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju</pron>
+            </form>
+            <sense xml:id="uuid-6aa386da-a677-4266-a386-daa677c26624" resp="#CH" tls:created="2021-03-10T00:48:55.967+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>causative: be (further) weakened</def>
+            </sense>
+            <sense xml:id="uuid-f836c78e-abb8-4e37-b6c7-8eabb8be37ab" resp="#CH" tls:created="2022-08-11T19:26:58.997+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-09T23:29:20.78+09:00">weakness, feebleness</def>
+            </sense>
+            <sense xml:id="uuid-a2695c87-4922-420d-a95c-874922a20dba" resp="#CH" tls:created="2022-09-09T23:30:14.911+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be feeble</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8255d3c8-55b6-4f7c-95d3-c855b69f7c78" resp="#CH" tls:created="2021-03-29T20:17:11.424+09:00">
+            <form corresp="#uuid-3ea84dca-7211-44a2-a6fc-dda143837df9 #uuid-4d9ad900-b9f4-4297-808a-ac1b45292f9c">
+                <orth>脆弱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cuì ruò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjwejH nyae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshods njewɡ</pron>
+            </form>
+            <sense xml:id="uuid-33c191a7-b43c-4e1d-8191-a7b43c3e1de7" resp="#CH" tls:created="2021-03-29T20:17:11.424+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be powerless</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e3f9e27e-860d-4cbd-b9e2-7e860d0cbd76" resp="#CH" tls:created="2022-09-09T17:12:22.77+09:00">
+            <form corresp="#uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482">
+                <orth>懦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nwaH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">nools</pron>
+            </form>
+            <sense xml:id="uuid-0d9678c8-1dfb-4df1-9678-c81dfb7df116" resp="#CH" tls:created="2022-09-09T17:12:22.77+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-12T17:31:41.294+09:00">be feeble; be frail; appear weak</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bba1c488-d0f7-4687-a1c4-88d0f7d687de" resp="#CH" tls:created="2022-09-09T23:38:32.104+09:00">
+            <form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7 #uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482">
+                <orth>柔懦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róu nuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw nwaH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju nools</pron>
+            </form>
+            <sense xml:id="uuid-0a21a3b2-9787-4562-a1a3-b29787056215" resp="#CH" tls:created="2022-09-09T23:38:32.104+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be frail and feeble</def>
+            </sense>
+            <sense xml:id="uuid-03bec640-ad7f-4add-bec6-40ad7f6add4a" resp="#CH" tls:created="2022-09-09T23:39:32.15+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-13T16:18:40.481+09:00">weakness, feebleness; pusillanimity; lack of political strength</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-18ce7845-cecf-42e2-8e78-45cecf92e285" resp="#CH" tls:created="2022-09-09T23:38:33.412+09:00">
+            <form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7 #uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482">
+                <orth>柔懦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róu nuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw nwaH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju nools</pron>
+            </form>
+            <sense xml:id="uuid-07af14ad-7ca7-4aa2-af14-ad7ca78aa279" resp="#CH" tls:created="2022-09-09T23:38:33.412+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be frail and feeble</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b45ef36b-0b6d-472f-9ef3-6b0b6d172f0d" resp="#CH" tls:created="2022-09-09T23:38:34.586+09:00">
+            <form corresp="#uuid-e87d113b-4faf-44e1-a37e-0a9a562886d7 #uuid-18efcfd6-c4a7-426b-b5f4-7b1a26bcb482">
+                <orth>柔懦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">róu nuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyuw nwaH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mlju nools</pron>
+            </form>
+            <sense xml:id="uuid-1b628877-a6c7-48d9-a288-77a6c7d8d903" resp="#CH" tls:created="2022-09-09T23:38:34.586+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be frail and feeble</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-40fe9b53-7c4a-4f13-be9b-537c4a9f13f7" resp="#dsehnal" tls:created="2024-05-26T00:57:35.594+09:00">
+            <form corresp="#uuid-77ac056a-7161-4188-94cd-bfd328ddb37a #uuid-f74875f5-786d-4a10-888d-9a5d8fb1324d">
+                <orth>熹微</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī wēi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xi mj+j</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯ mɯl</pron>
+            </form>
+            <sense xml:id="uuid-f24829b3-c01f-47ab-8829-b3c01ff7abdb" resp="#dsehnal" tls:created="2024-05-26T00:57:35.594+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>weak (of light)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

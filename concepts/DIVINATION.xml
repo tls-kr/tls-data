@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-75cc4c9e-41c1-4420-a0f7-3049e4ae97c9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-75cc4c9e-41c1-4420-a0f7-3049e4ae97c9">
 <head>DIVINATION</head>
     <list type="translations">
         <item xml:lang="zh">占卜</item>
@@ -7,7 +8,10 @@
     </list>
 <div type="definition">
 <p>GUESSING the TRUE ANSWER to IMPORTANT QUESTIONS by ASKING DEITIES.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:31:23.559+09:00"><p>TRY TO PREDICT THE FUTURE USING SUPERNATURAL MEANS.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:31:23.559+09:00">
+            <p>TRY TO PREDICT THE FUTURE USING SUPERNATURAL MEANS.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for any form of divination is zhān 占.</p>
@@ -301,7 +305,22 @@
                 </gramGrp>
   <def>conduct divination on the contextually determinate matter N</def>
             </sense>
-<sense xml:id="uuid-fa441892-3a44-4259-baec-4156c266d50e" resp="#CH" tls:created="2020-01-04T21:50:20.244+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vttoN1. N2</tls:syn-func></gramGrp><def>divine the auspiciousness of N1 in the place N2</def></sense><sense xml:id="uuid-10f0a2f5-9b7f-4e27-b0a2-f59b7ffe2786" resp="#dsehnal" tls:created="2024-05-25T23:25:03.568+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-6dc7fe58-3a31-4e0c-8040-5e550f29b0c4">iussive</tls:sem-feat></gramGrp><def>order that a divination on whether to V should be made</def></sense></entry>
+<sense xml:id="uuid-fa441892-3a44-4259-baec-4156c266d50e" resp="#CH" tls:created="2020-01-04T21:50:20.244+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>divine the auspiciousness of N1 in the place N2</def>
+            </sense>
+            <sense xml:id="uuid-10f0a2f5-9b7f-4e27-b0a2-f59b7ffe2786" resp="#dsehnal" tls:created="2024-05-25T23:25:03.568+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6dc7fe58-3a31-4e0c-8040-5e550f29b0c4">iussive</tls:sem-feat>
+                </gramGrp>
+                <def>order that a divination on whether to V should be made</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-472ae8d8-aa15-4618-9cc5-8f0b991112e2">
             <form corresp="#uuid-33af680c-b23a-4c4f-9fa4-b93473389148">
 <orth>占</orth>
@@ -668,5 +687,58 @@
   <def>Keightley Sources 1978: 119 note 124:  OBI: a notation indicating that the divination was used but whose precise meaning is not fully understood. The phrase is currently used in divination about hunting and campaigning. See Hu Houxuan "On the distinction between 茲用and 茲御" 1939. 茲用was never used when the King was recorded as diviner.</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1b47365d-069e-4971-8736-5d069e6971f9" resp="#dsehnal" tls:created="2021-05-06T01:34:16.316+09:00"><form corresp="#uuid-a60228e3-d991-4d4c-a5da-412a6e2f1061"><orth>筭</orth><pron xml:lang="zh-Latn-x-pinyin">suàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">swanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqloons</pron></form><sense xml:id="uuid-a93bf3ad-5686-410b-bbf3-ad5686e10bc4" resp="#dsehnal" tls:created="2021-05-06T01:34:16.316+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>perform the contextually determinate divination</def></sense><sense xml:id="uuid-667dcee5-3af9-43ee-bdce-e53af953ee20" resp="#dsehnal" tls:created="2021-05-06T01:43:34.174+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>calculate &gt; perform divination as far as N is concerned</def></sense></entry><entry type="word" xml:id="uuid-3440db4b-f359-44d0-80db-4bf359b4d008" resp="#dsehnal" tls:created="2021-05-06T15:17:30.531+09:00"><form corresp="#uuid-50e36638-bac7-48f9-9325-b456f65c7d20 #uuid-b464345f-fe85-4ba2-8b3f-97d5bee90994"><orth>轉式</orth><pron xml:lang="zh-Latn-x-pinyin">zhuàn shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trjwenH syik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tons lʰɯɡ</pron></form><sense xml:id="uuid-a1746fac-d1da-4333-b46f-acd1dae3339a" resp="#dsehnal" tls:created="2021-05-06T15:17:30.531+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>revolve the divining compass </def></sense></entry><entry type="word" xml:id="uuid-4d8bc35e-5abb-43b7-8bc3-5e5abbc3b76b" resp="#zadrapa" tls:created="2022-06-07T15:48:42.963+09:00"><form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-f53f253b-d390-4e01-856a-d574e699966f"><orth>五卜</orth><pron xml:lang="zh-Latn-x-pinyin">wǔ bǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nguX puwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ pooɡ</pron></form><sense xml:id="uuid-38f4b3b1-a489-4f7e-b4b3-b1a489af7eff" resp="#zadrapa" tls:created="2022-06-07T15:48:42.963+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>the five kinds of divination; divination in general</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1b47365d-069e-4971-8736-5d069e6971f9" resp="#dsehnal" tls:created="2021-05-06T01:34:16.316+09:00">
+            <form corresp="#uuid-a60228e3-d991-4d4c-a5da-412a6e2f1061">
+                <orth>筭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">swanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqloons</pron>
+            </form>
+            <sense xml:id="uuid-a93bf3ad-5686-410b-bbf3-ad5686e10bc4" resp="#dsehnal" tls:created="2021-05-06T01:34:16.316+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>perform the contextually determinate divination</def>
+            </sense>
+            <sense xml:id="uuid-667dcee5-3af9-43ee-bdce-e53af953ee20" resp="#dsehnal" tls:created="2021-05-06T01:43:34.174+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>calculate &gt; perform divination as far as N is concerned</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3440db4b-f359-44d0-80db-4bf359b4d008" resp="#dsehnal" tls:created="2021-05-06T15:17:30.531+09:00">
+            <form corresp="#uuid-50e36638-bac7-48f9-9325-b456f65c7d20 #uuid-b464345f-fe85-4ba2-8b3f-97d5bee90994">
+                <orth>轉式</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuàn shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trjwenH syik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tons lʰɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-a1746fac-d1da-4333-b46f-acd1dae3339a" resp="#dsehnal" tls:created="2021-05-06T15:17:30.531+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>revolve the divining compass </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4d8bc35e-5abb-43b7-8bc3-5e5abbc3b76b" resp="#zadrapa" tls:created="2022-06-07T15:48:42.963+09:00">
+            <form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-f53f253b-d390-4e01-856a-d574e699966f">
+                <orth>五卜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǔ bǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nguX puwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ pooɡ</pron>
+            </form>
+            <sense xml:id="uuid-38f4b3b1-a489-4f7e-b4b3-b1a489af7eff" resp="#zadrapa" tls:created="2022-06-07T15:48:42.963+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>the five kinds of divination; divination in general</def>
+            </sense>
+        </entry>
+    </div>
 </div>

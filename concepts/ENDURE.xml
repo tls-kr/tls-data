@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-77b4a72e-50b0-47a2-832f-4906b8d3165b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-77b4a72e-50b0-47a2-832f-4906b8d3165b">
 <head>ENDURE</head>
     <list type="altnames">
 <item>UNDERGO</item>
@@ -225,7 +226,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-088ff102-a710-406f-8ff1-02a710a06f93">N=own suffering</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-088ff102-a710-406f-8ff1-02a710a06f93">N=own suffering</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-02-13T22:32:31.541+09:00">be able to endure or sustain (pain, adversity, unpleasant things or people); put up with </def>
             </sense>
 <sense xml:id="uuid-279c6ea2-76a9-4e75-8987-e7faa5c96120">
@@ -261,7 +263,31 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-05-11T21:38:29.267+09:00">e.g. 不忍其然 "could not bear tht this was so": bear with the fact, that</def>
             </sense>
-<sense xml:id="uuid-d661621a-a82e-458e-a162-1aa82ee58e42" resp="#CH" tls:created="2022-09-07T16:52:58.553+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func><tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat></gramGrp><def>be able to bear being V-ed</def></sense><sense xml:id="uuid-27782296-3a8d-4588-b822-963a8d6588da" resp="#dsehnal" tls:created="2023-06-24T17:55:28.257+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-8362a181-561a-44d0-a2a1-81561a94d0b6">vtt(+V[0])+N</tls:syn-func><tls:sem-feat corresp="#uuid-3b631838-1e4e-40ed-b2e1-18ad0167d26e">N=time</tls:sem-feat></gramGrp><def>bear a contextually determinate situation for N time</def></sense><sense xml:id="uuid-8aee0183-8a28-4f12-ae01-838a284f1201" resp="#CH" tls:created="2024-02-13T22:16:39.675+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-45186ee2-89d2-4d00-986e-e289d26d00cb">N=misfortune of others</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-13T22:30:11.224+09:00">be able to tolerate; be willing to bear with; be able to bear with</def></sense></entry>
+<sense xml:id="uuid-d661621a-a82e-458e-a162-1aa82ee58e42" resp="#CH" tls:created="2022-09-07T16:52:58.553+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat>
+                </gramGrp>
+                <def>be able to bear being V-ed</def>
+            </sense>
+            <sense xml:id="uuid-27782296-3a8d-4588-b822-963a8d6588da" resp="#dsehnal" tls:created="2023-06-24T17:55:28.257+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-8362a181-561a-44d0-a2a1-81561a94d0b6">vtt(+V[0])+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3b631838-1e4e-40ed-b2e1-18ad0167d26e">N=time</tls:sem-feat>
+                </gramGrp>
+                <def>bear a contextually determinate situation for N time</def>
+            </sense>
+            <sense xml:id="uuid-8aee0183-8a28-4f12-ae01-838a284f1201" resp="#CH" tls:created="2024-02-13T22:16:39.675+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-45186ee2-89d2-4d00-986e-e289d26d00cb">N=misfortune of others</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-13T22:30:11.224+09:00">be able to tolerate; be willing to bear with; be able to bear with</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7709e0a4-8612-4456-ad8b-c76250a33a7a">
             <form corresp="#uuid-5b32b6b0-d9d8-49f6-a149-b3443dd86844">
 <orth>支</orth>
@@ -279,7 +305,15 @@
                 </gramGrp>
   <def>be able to bear with, be able to stand; be able to put up effective resistence</def>
             </sense>
-<sense xml:id="uuid-a858b587-507a-4746-98b5-87507a07464b" resp="#CH" tls:created="2020-12-02T21:12:52.387+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be endured</def></sense></entry>
+<sense xml:id="uuid-a858b587-507a-4746-98b5-87507a07464b" resp="#CH" tls:created="2020-12-02T21:12:52.387+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be endured</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4b69bbd8-d913-4503-ac52-963e3acd9940">
             <form corresp="#uuid-7cd821c2-4a31-4b07-9e1d-be1174f928f3">
 <orth>耐</orth>
@@ -312,7 +346,14 @@
                 </gramGrp>
   <def>be able to tolerate, be able to sustain, be able to live in SUWEN能冬不能夏; HANSHU 中國之人不能其水土也</def>
             </sense>
-<sense xml:id="uuid-e72dbd80-b8d8-478b-adbd-80b8d8c78b4e" resp="#zadrapa" tls:created="2020-06-02T17:22:11.617+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>be willing to V, accept V-ing</def></sense></entry>
+<sense xml:id="uuid-e72dbd80-b8d8-478b-adbd-80b8d8c78b4e" resp="#zadrapa" tls:created="2020-06-02T17:22:11.617+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>be willing to V, accept V-ing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-84d7ac95-dde9-49ec-b25c-278f4337adf0">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-8a839c2f-336c-435a-888e-6da3b149e0e5">
 <orth>不終</orth>
@@ -373,7 +414,22 @@
                 </gramGrp>
   <def>endure, bear with; brook</def>
             </sense>
-<sense xml:id="uuid-409385bd-247b-4cd0-8b71-9458318a32f7" resp="#CH" tls:created="2019-12-07T04:17:51.649+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func></gramGrp><def>can bear to V</def></sense><sense xml:id="uuid-55a0f648-56ef-489a-a0f6-4856ef889a2d" resp="#CH" tls:created="2020-12-02T21:11:32.032+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be borne with, be put up with</def></sense></entry>
+<sense xml:id="uuid-409385bd-247b-4cd0-8b71-9458318a32f7" resp="#CH" tls:created="2019-12-07T04:17:51.649+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func>
+                </gramGrp>
+                <def>can bear to V</def>
+            </sense>
+            <sense xml:id="uuid-55a0f648-56ef-489a-a0f6-4856ef889a2d" resp="#CH" tls:created="2020-12-02T21:11:32.032+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be borne with, be put up with</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5b71e380-55f4-4629-964b-c92323545c82">
             <form corresp="#uuid-7956102e-4f68-4cd7-b24c-33aed9e56072">
 <orth>受</orth>

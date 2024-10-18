@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1bc82b48-48b1-4d9c-879f-714019e8cbd1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1bc82b48-48b1-4d9c-879f-714019e8cbd1">
 <head>FIGHT</head>
     <list type="altnames">
 <item>STRUGGLE</item>
@@ -285,10 +286,26 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-a78375c7-535a-4ee7-b31e-71c06e28ce76">vtpost-.VtoN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-1e78a555-1dc9-4c36-b8a5-551dc9ec367a">against</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-1e78a555-1dc9-4c36-b8a5-551dc9ec367a">against</tls:sem-feat>
+                </gramGrp>
   <def>fight against</def>
             </sense>
-<sense xml:id="uuid-75379900-e9e0-46c4-b799-00e9e076c40e" resp="#CH" tls:created="2022-08-19T18:51:51.002+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a78375c7-535a-4ee7-b31e-71c06e28ce76">vtpost-.VtoN</tls:syn-func><tls:sem-feat corresp="#uuid-ea36d5d5-f89a-4526-95e4-cbcda9551cb5">為“for” N</tls:sem-feat></gramGrp><def>fight (for N)</def></sense><sense xml:id="uuid-9c501272-74bb-4fe0-9012-7274bb8fe071" resp="#dsehnal" tls:created="2023-12-17T06:27:41.78+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>fight the N</def></sense></entry>
+<sense xml:id="uuid-75379900-e9e0-46c4-b799-00e9e076c40e" resp="#CH" tls:created="2022-08-19T18:51:51.002+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a78375c7-535a-4ee7-b31e-71c06e28ce76">vtpost-.VtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ea36d5d5-f89a-4526-95e4-cbcda9551cb5">為“for” N</tls:sem-feat>
+                </gramGrp>
+                <def>fight (for N)</def>
+            </sense>
+            <sense xml:id="uuid-9c501272-74bb-4fe0-9012-7274bb8fe071" resp="#dsehnal" tls:created="2023-12-17T06:27:41.78+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>fight the N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ad8e82f5-9195-4c58-8f19-587cdabe8fcb">
             <form corresp="#uuid-8c9beba5-c114-49d5-babc-d662f6c472f7">
 <orth>搏</orth>
@@ -303,7 +320,14 @@
                 </gramGrp>
   <def>wrestle (with one's bare hands); beat, strike; fight for</def>
             </sense>
-<sense xml:id="uuid-eba8c2c6-ff16-4823-8c6d-e4f5b55ebcc3" resp="#CH" tls:created="2019-12-23T21:26:52.746+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>pick a fight with the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-eba8c2c6-ff16-4823-8c6d-e4f5b55ebcc3" resp="#CH" tls:created="2019-12-23T21:26:52.746+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>pick a fight with the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e22e6907-3ac8-49a0-9d1a-042f05cc9382">
             <form corresp="#uuid-cbe6c249-c9ee-4194-a31c-5cf8911ee338">
 <orth>格</orth>
@@ -319,7 +343,14 @@
                 </gramGrp>
   <def>put up a fight</def>
             </sense>
-<sense xml:id="uuid-49577980-4a8d-4fa7-9779-804a8d0fa7c0" resp="#dsehnal" tls:created="2024-05-18T20:41:38.517+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>fight with N</def></sense></entry>
+<sense xml:id="uuid-49577980-4a8d-4fa7-9779-804a8d0fa7c0" resp="#dsehnal" tls:created="2024-05-18T20:41:38.517+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>fight with N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6e09c240-f620-4505-a775-cc160529b2b8">
             <form corresp="#uuid-d5f94243-2e42-441b-83f3-adfc74a8d5b6">
 <orth>死</orth>
@@ -407,7 +438,22 @@
                 </gramGrp>
   <def>quarrel with the contextually determinate N</def>
             </sense>
-<sense xml:id="uuid-39a115db-9440-432f-bc1a-72fa7bffd8f5" resp="#CH" tls:created="2019-12-03T18:58:14.221+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-00aa80ee-65a7-424e-99d3-769ada33f65b">passive</tls:sem-feat></gramGrp><def>object=issue: get fought over</def></sense><sense xml:id="uuid-5ab4d6dd-0bb6-49df-acc1-4c85d68d442f" resp="#CH" tls:created="2019-12-07T19:40:15.922+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func></gramGrp><def>fight to be able to V</def></sense></entry>
+<sense xml:id="uuid-39a115db-9440-432f-bc1a-72fa7bffd8f5" resp="#CH" tls:created="2019-12-03T18:58:14.221+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-00aa80ee-65a7-424e-99d3-769ada33f65b">passive</tls:sem-feat>
+                </gramGrp>
+                <def>object=issue: get fought over</def>
+            </sense>
+            <sense xml:id="uuid-5ab4d6dd-0bb6-49df-acc1-4c85d68d442f" resp="#CH" tls:created="2019-12-07T19:40:15.922+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func>
+                </gramGrp>
+                <def>fight to be able to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2b4598c2-f113-4488-9f6e-07fd99b10d21">
             <form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
 <orth>當</orth>
@@ -708,5 +754,74 @@
   <def>unmarked subject nominalisation: (those who) box each other &gt; boxers / wrestlers(?)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fd56fc9d-0a20-495b-96fc-9d0a20695bb4" resp="#CH" tls:created="2020-04-10T16:35:56.576+09:00"><form corresp="#uuid-b3d6d91f-52da-485b-83be-15dc8c5e4f5b"><orth>鬭</orth><pron xml:lang="zh-Latn-x-pinyin">dòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">toos</pron></form><sense xml:id="uuid-95bd7b6c-a409-4419-bd7b-6ca409d419d7" resp="#CH" tls:created="2020-04-10T16:35:56.576+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2021-01-22T00:20:31.232+09:00">= 鬥鬬鬭 fight back against the contextually determinate N</def></sense><sense xml:id="uuid-8b9079d0-9926-4251-9079-d099268251ce" resp="#CH" tls:created="2020-05-17T23:39:51.939+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be given to fighting; be ever ready to fight</def></sense><sense xml:id="uuid-f837924c-34a6-4575-b792-4c34a67575bf" resp="#zadrapa" tls:created="2020-06-17T16:20:12.553+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>fighting, fights</def></sense><sense xml:id="uuid-d6163877-3d44-42e7-9638-773d44c2e708" resp="#zadrapa" tls:created="2021-01-24T04:47:53.772+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-72556ebe-489c-410f-8b7d-01f57513a3e5">vt1post.vt2oN</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2022-05-23T15:54:37.038+09:00">與之鬥 fight with; 為我鬭 fight for</def></sense><sense xml:id="uuid-518f69e2-7675-4674-8f69-e276752674f3" resp="#CH" tls:created="2022-08-03T21:52:17.662+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-e2479e65-47f2-47ef-879e-6547f297ef43">N=others</tls:sem-feat></gramGrp><def>fight against others</def></sense><sense xml:id="uuid-1302d033-b005-4a24-82d0-33b005aa2414" resp="#dsehnal" tls:created="2024-01-30T01:44:56.796+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause N to fight</def></sense></entry><entry type="word" xml:id="uuid-8aa85b3f-fd36-48d5-a85b-3ffd3648d5af" resp="#CH" tls:created="2021-03-10T00:44:19.498+09:00"><form corresp="#uuid-61255a76-e4be-41f8-8081-9985634e02da #uuid-42906930-31d1-4360-baa5-ed14eb90c285"><orth>囚殺</orth><pron xml:lang="zh-Latn-x-pinyin">qiú shā</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjuw sreat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lju sreed</pron></form><sense xml:id="uuid-89f16c37-5932-4a2b-b16c-3759329a2b06" resp="#CH" tls:created="2021-03-10T00:44:19.498+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>try to control each other violently; be at each other's throats</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-fd56fc9d-0a20-495b-96fc-9d0a20695bb4" resp="#CH" tls:created="2020-04-10T16:35:56.576+09:00">
+            <form corresp="#uuid-b3d6d91f-52da-485b-83be-15dc8c5e4f5b">
+                <orth>鬭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">toos</pron>
+            </form>
+            <sense xml:id="uuid-95bd7b6c-a409-4419-bd7b-6ca409d419d7" resp="#CH" tls:created="2020-04-10T16:35:56.576+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-01-22T00:20:31.232+09:00">= 鬥鬬鬭 fight back against the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-8b9079d0-9926-4251-9079-d099268251ce" resp="#CH" tls:created="2020-05-17T23:39:51.939+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be given to fighting; be ever ready to fight</def>
+            </sense>
+            <sense xml:id="uuid-f837924c-34a6-4575-b792-4c34a67575bf" resp="#zadrapa" tls:created="2020-06-17T16:20:12.553+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>fighting, fights</def>
+            </sense>
+            <sense xml:id="uuid-d6163877-3d44-42e7-9638-773d44c2e708" resp="#zadrapa" tls:created="2021-01-24T04:47:53.772+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-72556ebe-489c-410f-8b7d-01f57513a3e5">vt1post.vt2oN</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-05-23T15:54:37.038+09:00">與之鬥 fight with; 為我鬭 fight for</def>
+            </sense>
+            <sense xml:id="uuid-518f69e2-7675-4674-8f69-e276752674f3" resp="#CH" tls:created="2022-08-03T21:52:17.662+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e2479e65-47f2-47ef-879e-6547f297ef43">N=others</tls:sem-feat>
+                </gramGrp>
+                <def>fight against others</def>
+            </sense>
+            <sense xml:id="uuid-1302d033-b005-4a24-82d0-33b005aa2414" resp="#dsehnal" tls:created="2024-01-30T01:44:56.796+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause N to fight</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8aa85b3f-fd36-48d5-a85b-3ffd3648d5af" resp="#CH" tls:created="2021-03-10T00:44:19.498+09:00">
+            <form corresp="#uuid-61255a76-e4be-41f8-8081-9985634e02da #uuid-42906930-31d1-4360-baa5-ed14eb90c285">
+                <orth>囚殺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiú shā</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjuw sreat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lju sreed</pron>
+            </form>
+            <sense xml:id="uuid-89f16c37-5932-4a2b-b16c-3759329a2b06" resp="#CH" tls:created="2021-03-10T00:44:19.498+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>try to control each other violently; be at each other's throats</def>
+            </sense>
+        </entry>
+    </div>
 </div>

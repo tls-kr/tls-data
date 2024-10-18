@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-418ea48e-b91f-4303-8076-be3ca87f9da5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-418ea48e-b91f-4303-8076-be3ca87f9da5">
 <head>COPULA</head>
     <list type="translations">
         <item xml:lang="zh">繫詞</item>
@@ -333,7 +334,14 @@
                 </gramGrp>
   <def>V and become/be N   喚作</def>
             </sense>
-<sense xml:id="uuid-fa50b8d8-6fcf-45aa-90b8-d86fcf05aa61" resp="#CH" tls:created="2020-04-08T00:05:46.294+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func></gramGrp><def>be</def></sense></entry>
+<sense xml:id="uuid-fa50b8d8-6fcf-45aa-90b8-d86fcf05aa61" resp="#CH" tls:created="2020-04-08T00:05:46.294+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
+                </gramGrp>
+                <def>be</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b1a1434b-1876-4f61-9348-3ad6a39d3ac9">
             <form corresp="#uuid-536ca9f0-9005-4627-b64e-0c2385d93ce6">
 <orth>係</orth>
@@ -447,7 +455,15 @@
                 </gramGrp>
   <def>to be none other than 即+NP+是</def>
             </sense>
-<sense xml:id="uuid-e730573c-03f5-408a-b057-3c03f5c08a3f" resp="#CH" tls:created="2022-11-28T07:16:00.483+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-c1eb6551-34f2-4e6c-ab65-5134f29e6c82">emphasising subject</tls:sem-feat></gramGrp><def>be the one who; be the ones who</def></sense></entry>
+<sense xml:id="uuid-e730573c-03f5-408a-b057-3c03f5c08a3f" resp="#CH" tls:created="2022-11-28T07:16:00.483+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c1eb6551-34f2-4e6c-ab65-5134f29e6c82">emphasising subject</tls:sem-feat>
+                </gramGrp>
+                <def>be the one who; be the ones who</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9ff74d5b-4879-41aa-8126-3dc3caf07292">
             <form>
 <orth>叀</orth>
@@ -524,7 +540,12 @@
             </form>
             <def>Classical Chinese had several common copulas at an early stage: wéi 維/唯/惟 (ant. fēi 非 "is not") was common in SHI and SHU, but discontinued later.
 </def>
-            <form corresp="#uuid-f6ff1284-0ee0-4e0c-bf12-840ee07e0c22"><orth>隹</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-f6ff1284-0ee0-4e0c-bf12-840ee07e0c22">
+                <orth>隹</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Classical Chinese had several common copulas at an early stage: wéi 維/唯/惟 (ant. fēi 非 "is not") was common in SHI and SHU, but discontinued later.
 </def>
 <sense xml:id="uuid-b3f791bb-c873-4046-9e74-712489d09d01">
@@ -577,7 +598,22 @@
                 </gramGrp>
   <def>be the one who V-s</def>
             </sense>
-<sense xml:id="uuid-4738dc9f-c23d-440e-a60d-60f5523d98ea" resp="#CH" tls:created="2019-12-12T20:33:10.43+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6c8510ea-db8b-4842-8215-0364fbbdefd7">vt0 Nab{S}</tls:syn-func></gramGrp><def>It was all a matter of S</def></sense><sense xml:id="uuid-4d1b7013-a768-4d91-9b70-13a768fd91f2" resp="#dsehnal" tls:created="2024-05-25T20:18:33.352+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3be8c795-d752-4595-a8c7-95d752059592">vt+N{OBJ}:+npro.+Vt</tls:syn-func><tls:sem-feat corresp="#uuid-35e5df6a-0bda-4c48-a5df-6a0bda7c486d">inversion, emphatic</tls:sem-feat></gramGrp><def>it is N which is the object of Vt</def></sense></entry>
+<sense xml:id="uuid-4738dc9f-c23d-440e-a60d-60f5523d98ea" resp="#CH" tls:created="2019-12-12T20:33:10.43+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6c8510ea-db8b-4842-8215-0364fbbdefd7">vt0 Nab{S}</tls:syn-func>
+                </gramGrp>
+                <def>It was all a matter of S</def>
+            </sense>
+            <sense xml:id="uuid-4d1b7013-a768-4d91-9b70-13a768fd91f2" resp="#dsehnal" tls:created="2024-05-25T20:18:33.352+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3be8c795-d752-4595-a8c7-95d752059592">vt+N{OBJ}:+npro.+Vt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-35e5df6a-0bda-4c48-a5df-6a0bda7c486d">inversion, emphatic</tls:sem-feat>
+                </gramGrp>
+                <def>it is N which is the object of Vt</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0454a8c0-e91e-478b-b0f8-fd82b82c173c">
             <form corresp="#uuid-25996ba8-1e36-4438-8c90-d9a399341f8e">
 <orth>必</orth>
@@ -806,7 +842,45 @@
                 </gramGrp>
   <def>verbal complement</def>
             </sense>
-<sense xml:id="uuid-0463fcab-3cd5-4719-a39c-12f42f105ee5" resp="#CH" tls:created="2019-12-24T04:09:25.59+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-cf7ace53-434b-44d0-bace-53434b44d007">vt+npro</tls:syn-func><tls:sem-feat corresp="#uuid-23be292a-ae29-42d0-930f-4c4e2cbd53b9">identical</tls:sem-feat></gramGrp><def>be identical with npro, be identifiable as npro</def></sense><sense xml:id="uuid-b1f89f72-d659-497f-a67b-12eb3472de43" resp="#CH" tls:created="2019-12-24T04:11:07.09+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-33c07fec-56c1-4ef0-807f-ec56c16ef07d">vt+Npr</tls:syn-func><tls:sem-feat corresp="#uuid-23be292a-ae29-42d0-930f-4c4e2cbd53b9">identical</tls:sem-feat></gramGrp><def>be none other than</def></sense><sense xml:id="uuid-b82b47be-d891-4795-9a2b-a0e20e0b6bd6" resp="#CH" tls:created="2020-01-13T04:33:07.543+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b8ac60f5-afa7-4bca-925c-c6f6a1ba2476">vt+N.adV</tls:syn-func></gramGrp><def>being an N to V; as an N to V</def></sense><sense xml:id="uuid-4e3faba7-9403-491e-bfab-a79403791e6b" resp="#dsehnal" tls:created="2020-05-21T05:00:39.582+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c359f8b3-3580-43ee-b348-76472e387f16">vtt+N1.oN2</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-04-29T17:00:34.889+09:00">be N2 in relation to N1; cf. Russian я буду ЕМУ женой</def></sense><sense xml:id="uuid-93397b1e-1daf-4bbb-b97b-1e1dafbbbb93" resp="#zadrapa" tls:created="2022-05-30T16:23:48.542+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0].adS</tls:syn-func><tls:sem-feat corresp="#uuid-2fb6ff33-8ac7-4519-a88f-6b560a8f804f">concessive</tls:sem-feat></gramGrp><def>may well count as V-ing (nonetheless ...)</def></sense></entry>
+<sense xml:id="uuid-0463fcab-3cd5-4719-a39c-12f42f105ee5" resp="#CH" tls:created="2019-12-24T04:09:25.59+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-cf7ace53-434b-44d0-bace-53434b44d007">vt+npro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-23be292a-ae29-42d0-930f-4c4e2cbd53b9">identical</tls:sem-feat>
+                </gramGrp>
+                <def>be identical with npro, be identifiable as npro</def>
+            </sense>
+            <sense xml:id="uuid-b1f89f72-d659-497f-a67b-12eb3472de43" resp="#CH" tls:created="2019-12-24T04:11:07.09+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-33c07fec-56c1-4ef0-807f-ec56c16ef07d">vt+Npr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-23be292a-ae29-42d0-930f-4c4e2cbd53b9">identical</tls:sem-feat>
+                </gramGrp>
+                <def>be none other than</def>
+            </sense>
+            <sense xml:id="uuid-b82b47be-d891-4795-9a2b-a0e20e0b6bd6" resp="#CH" tls:created="2020-01-13T04:33:07.543+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b8ac60f5-afa7-4bca-925c-c6f6a1ba2476">vt+N.adV</tls:syn-func>
+                </gramGrp>
+                <def>being an N to V; as an N to V</def>
+            </sense>
+            <sense xml:id="uuid-4e3faba7-9403-491e-bfab-a79403791e6b" resp="#dsehnal" tls:created="2020-05-21T05:00:39.582+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c359f8b3-3580-43ee-b348-76472e387f16">vtt+N1.oN2</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-04-29T17:00:34.889+09:00">be N2 in relation to N1; cf. Russian я буду ЕМУ женой</def>
+            </sense>
+            <sense xml:id="uuid-93397b1e-1daf-4bbb-b97b-1e1dafbbbb93" resp="#zadrapa" tls:created="2022-05-30T16:23:48.542+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0].adS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2fb6ff33-8ac7-4519-a88f-6b560a8f804f">concessive</tls:sem-feat>
+                </gramGrp>
+                <def>may well count as V-ing (nonetheless ...)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-42743216-9201-4565-955a-95212ffca679">
             <form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
 <orth>當</orth>
@@ -856,7 +930,22 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-11-27T23:34:31.283+09:00">to be only/exactly</def>
             </sense>
-<sense xml:id="uuid-558d5f87-8d70-4567-8d5f-878d70d56753" resp="#dsehnal" tls:created="2024-05-18T18:44:21.475+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func></gramGrp><def>be Vish; be of V quality</def></sense><sense xml:id="uuid-b778add1-f436-4f02-b8ad-d1f436af02f8" resp="#dsehnal" tls:created="2024-06-23T04:50:58.637+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e7635ba3-c025-4704-93f0-ca28bd0b146f">vt+N1.+VtoN2</tls:syn-func><tls:sem-feat corresp="#uuid-09edc36a-eb27-4ece-adc3-6aeb272ece8f">N1=pivot</tls:sem-feat></gramGrp><def>it was N1 who did N2</def></sense></entry>
+<sense xml:id="uuid-558d5f87-8d70-4567-8d5f-878d70d56753" resp="#dsehnal" tls:created="2024-05-18T18:44:21.475+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func>
+                </gramGrp>
+                <def>be Vish; be of V quality</def>
+            </sense>
+            <sense xml:id="uuid-b778add1-f436-4f02-b8ad-d1f436af02f8" resp="#dsehnal" tls:created="2024-06-23T04:50:58.637+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e7635ba3-c025-4704-93f0-ca28bd0b146f">vt+N1.+VtoN2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-09edc36a-eb27-4ece-adc3-6aeb272ece8f">N1=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>it was N1 who did N2</def>
+            </sense>
+        </entry>
 
 <entry type="word" xml:id="uuid-86a28725-182c-4932-a345-44942b848709">
             <form corresp="#uuid-68cdab22-fbe1-497d-ab66-2003a9e87f51">
@@ -983,5 +1072,28 @@
   <def>disyllabic copula used for forming alternative questions: 為當 X (為當) Y 'is it X or is it Y' (there are several patterns, 為當 X 為复 Y;  see also 為, 為复, and 為是 is this function)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-76c912fe-abb2-40f6-8912-feabb280f661" resp="#zadrapa" tls:created="2020-06-04T22:55:30.765+09:00"><form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>然</orth><pron xml:lang="zh-Latn-x-pinyin">rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njen</pron></form><sense xml:id="uuid-022783ea-4714-4f09-a783-ea47142f09de" resp="#zadrapa" tls:created="2020-06-04T22:55:30.765+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def resp="#chris" updated="2022-12-01T14:05:55.842+09:00">to cause the contextually determinate N to be so; make things so; bring this about</def></sense><sense xml:id="uuid-1340547a-996b-432c-8054-7a996bf32c10" resp="#zadrapa" tls:created="2020-06-22T22:28:41.013+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be so, be like that</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-76c912fe-abb2-40f6-8912-feabb280f661" resp="#zadrapa" tls:created="2020-06-04T22:55:30.765+09:00">
+            <form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njen</pron>
+            </form>
+            <sense xml:id="uuid-022783ea-4714-4f09-a783-ea47142f09de" resp="#zadrapa" tls:created="2020-06-04T22:55:30.765+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#chris" updated="2022-12-01T14:05:55.842+09:00">to cause the contextually determinate N to be so; make things so; bring this about</def>
+            </sense>
+            <sense xml:id="uuid-1340547a-996b-432c-8054-7a996bf32c10" resp="#zadrapa" tls:created="2020-06-22T22:28:41.013+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be so, be like that</def>
+            </sense>
+        </entry>
+    </div>
 </div>

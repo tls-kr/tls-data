@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-fb1df69b-23c3-4d03-ae97-5af1b41a8f6c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-fb1df69b-23c3-4d03-ae97-5af1b41a8f6c">
 <head>HAPPEN</head>
     <list type="altnames">
 <item>OCCUR</item>
@@ -163,7 +164,23 @@
                 <pron xml:lang="zh-x-oc">khljud</pron>
                 <pron xml:lang="zh-x-mc">tɕhʷit</pron>
             </form>
-<sense xml:id="uuid-5aac755d-01b1-47f7-ac75-5d01b1e7f790" resp="#CH" tls:created="2020-05-10T23:37:45.278+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e035037b-d539-4336-a4d0-d2b2a1b1ca64">vi+N{SUBJ}</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>pass by (of lengths of time)</def></sense><sense xml:id="uuid-6c02b280-1d82-4f73-82b2-801d82bf73a8" resp="#CH" tls:created="2021-04-12T17:45:07.866+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>come to pass</def></sense></entry>
+<sense xml:id="uuid-5aac755d-01b1-47f7-ac75-5d01b1e7f790" resp="#CH" tls:created="2020-05-10T23:37:45.278+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e035037b-d539-4336-a4d0-d2b2a1b1ca64">vi+N{SUBJ}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>pass by (of lengths of time)</def>
+            </sense>
+            <sense xml:id="uuid-6c02b280-1d82-4f73-82b2-801d82bf73a8" resp="#CH" tls:created="2021-04-12T17:45:07.866+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>come to pass</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2846b676-ca14-456a-beef-991f596728e8">
             <form corresp="#uuid-1bbb95ea-239a-4aef-90ff-8d37da84cddd">
 <orth>及</orth>
@@ -234,7 +251,21 @@
                 </gramGrp>
   <def>it happens, that S</def>
             </sense>
-<sense xml:id="uuid-2e9dae3c-a5d8-49eb-99e1-daeb9b8fe737" resp="#CH" tls:created="2020-01-27T01:41:05.327+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtpost.Nab{S}{SUBJECT}</tls:syn-func></gramGrp><def>未嘗有 “this has never happened" the event described in S has never happened.</def></sense><sense xml:id="uuid-48046b58-f0bb-44c6-846b-58f0bb94c6a5" resp="#dsehnal" tls:created="2024-05-05T01:33:23.905+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-20a2a770-5cd2-4296-8763-e3485c94530c">vadV.postN{SUBJ}</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2024-05-31T04:26:59.517+09:00">it happens that N Vs; it happened to N that he Ved</def></sense></entry>
+<sense xml:id="uuid-2e9dae3c-a5d8-49eb-99e1-daeb9b8fe737" resp="#CH" tls:created="2020-01-27T01:41:05.327+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtpost.Nab{S}{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>未嘗有 “this has never happened" the event described in S has never happened.</def>
+            </sense>
+            <sense xml:id="uuid-48046b58-f0bb-44c6-846b-58f0bb94c6a5" resp="#dsehnal" tls:created="2024-05-05T01:33:23.905+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-20a2a770-5cd2-4296-8763-e3485c94530c">vadV.postN{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2024-05-31T04:26:59.517+09:00">it happens that N Vs; it happened to N that he Ved</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b342db63-6703-4b9e-8fb6-cf3e8bacb563">
             <form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
 <orth>然</orth>
@@ -288,7 +319,21 @@
                 </gramGrp>
   <def>(an amount of time) passed</def>
             </sense>
-<sense xml:id="uuid-f0ba01e4-8f09-457f-ba01-e48f09257fe5" resp="#dsehnal" tls:created="2023-07-01T19:40:09.488+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-eff96969-dfb1-4cc3-9784-3851c19c3f27">vt0oN.adS</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-07-01T20:08:58.736+09:00">during the N length of time</def></sense><sense xml:id="uuid-a1216d25-347c-451d-a16d-25347c951d95" resp="#dsehnal" tls:created="2023-07-01T20:13:33.224+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-203c075a-514b-42bc-bc07-5a514be2bc87">vt0oN.postS1:adS2</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-07-01T20:16:02.667+09:00">it elapsed N period of time after S1 and S2 happened</def></sense></entry>
+<sense xml:id="uuid-f0ba01e4-8f09-457f-ba01-e48f09257fe5" resp="#dsehnal" tls:created="2023-07-01T19:40:09.488+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-eff96969-dfb1-4cc3-9784-3851c19c3f27">vt0oN.adS</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-07-01T20:08:58.736+09:00">during the N length of time</def>
+            </sense>
+            <sense xml:id="uuid-a1216d25-347c-451d-a16d-25347c951d95" resp="#dsehnal" tls:created="2023-07-01T20:13:33.224+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-203c075a-514b-42bc-bc07-5a514be2bc87">vt0oN.postS1:adS2</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-07-01T20:16:02.667+09:00">it elapsed N period of time after S1 and S2 happened</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c4d04345-1a95-4fa7-9b7d-4d96c5f8bb0d">
             <form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4">
 <orth>至</orth>
@@ -317,7 +362,22 @@
                 </gramGrp>
   <def>get to the point of S being or becoming the case</def>
             </sense>
-<sense xml:id="uuid-c5433709-7f02-4f0d-bd26-d575d355f78e" resp="#CH" tls:created="2020-01-05T18:36:02.283+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def resp="#CH" updated="2020-05-18T20:27:10.363+09:00">come to pass; arise</def></sense><sense xml:id="uuid-4163b223-30a9-4a1a-8d1c-209330878ea2" resp="#CH" tls:created="2020-01-06T22:25:13.565+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>the occurrence of N</def></sense></entry>
+<sense xml:id="uuid-c5433709-7f02-4f0d-bd26-d575d355f78e" resp="#CH" tls:created="2020-01-05T18:36:02.283+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-18T20:27:10.363+09:00">come to pass; arise</def>
+            </sense>
+            <sense xml:id="uuid-4163b223-30a9-4a1a-8d1c-209330878ea2" resp="#CH" tls:created="2020-01-06T22:25:13.565+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>the occurrence of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a6eba0fb-15a9-46c2-afb6-53969e0d4fa6">
             <form corresp="#uuid-81aa677b-e873-4016-ae47-708d7568570c">
 <orth>致</orth>
@@ -408,12 +468,14 @@
   <def>(of seasons or occasions) happen again, recur</def>
             </sense>
 </entry>
-    <entry xml:id="uuid-a16b110f-3be2-4c50-ab11-0f3be2cc502b"><form corresp="#uuid-3c1ffa36-6540-43f6-b41e-2cff475d703c">
+    <entry xml:id="uuid-a16b110f-3be2-4c50-ab11-0f3be2cc502b">
+            <form corresp="#uuid-3c1ffa36-6540-43f6-b41e-2cff475d703c">
 <orth>處</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">chǔ</pron>
                 <pron xml:lang="zh-x-oc">khljaʔ</pron>
                 <pron xml:lang="zh-x-mc">tɕhi̯ɤ</pron>
-            </form><sense xml:id="uuid-ad397ff1-0a01-4d47-99bd-073611cd1eb5">
+            </form>
+            <sense xml:id="uuid-ad397ff1-0a01-4d47-99bd-073611cd1eb5">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-e035037b-d539-4336-a4d0-d2b2a1b1ca64">vi+N{SUBJ}</tls:syn-func>
@@ -421,5 +483,7 @@
                     <usg type="warring-states-currency">2</usg>
                 </gramGrp>
   <def resp="#CH" updated="2020-04-28T18:23:55.816+09:00">should perhaps be vi N{SUBJ}.adS after such-and-such a time</def>
-            </sense></entry></div>
+            </sense>
+        </entry>
+    </div>
 </div>

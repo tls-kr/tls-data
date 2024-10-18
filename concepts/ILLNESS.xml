@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b1da0fff-9261-4ff0-a8cf-b163acef96ee">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b1da0fff-9261-4ff0-a8cf-b163acef96ee">
 <head>ILLNESS</head>
     <list type="altnames">
 <item>DISEASE</item>
@@ -687,7 +688,22 @@
                 </gramGrp>
   <def>"pain in the neck"; unhealthy state (of a country etc)</def>
             </sense>
-<sense xml:id="uuid-e82ae63f-218e-4286-a322-75c6a83dbb25" resp="#CH" tls:created="2019-12-14T02:11:13.605+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>abstract: illness</def></sense><sense xml:id="uuid-b95006a3-dfbe-4b80-9006-a3dfbe6b8043" resp="#dsehnal" tls:created="2021-04-16T15:49:08.409+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-28da3f70-d8d6-459c-aa52-5c1005cf2bdd">vpostadN</tls:syn-func></gramGrp><def>N who was sick; a sick N</def></sense></entry>
+<sense xml:id="uuid-e82ae63f-218e-4286-a322-75c6a83dbb25" resp="#CH" tls:created="2019-12-14T02:11:13.605+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>abstract: illness</def>
+            </sense>
+            <sense xml:id="uuid-b95006a3-dfbe-4b80-9006-a3dfbe6b8043" resp="#dsehnal" tls:created="2021-04-16T15:49:08.409+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-28da3f70-d8d6-459c-aa52-5c1005cf2bdd">vpostadN</tls:syn-func>
+                </gramGrp>
+                <def>N who was sick; a sick N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4b6a4a46-211d-4daf-8e00-c78a0d75f244">
             <form corresp="#uuid-ad211cc3-b576-42bf-a6ca-b77fa57063b0">
 <orth>疹</orth>
@@ -1202,5 +1218,65 @@
   <def>＝癆 illness</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-c5f1ad5e-f8e4-4b13-b1ad-5ef8e4fb1394" resp="#zadrapa" tls:created="2020-06-23T16:21:06.116+09:00"><form corresp="#uuid-55262410-645e-4df0-b0a2-71e30d115a46 #uuid-92f29a2b-3594-46e4-8f04-d3526008846f"><orth>疾養</orth><pron xml:lang="zh-Latn-x-pinyin">jí yǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzit yangX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzid laŋʔ</pron></form><sense xml:id="uuid-b3309026-07a4-447a-b090-2607a4647a6a" resp="#zadrapa" tls:created="2020-06-23T16:21:06.116+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2020-06-23T16:21:55.08+09:00">= 疾癢: pain, itching and similar troublesome body conditions in general</def></sense></entry><entry type="word" xml:id="uuid-79ac6dc5-67b7-4a83-ac6d-c567b79a838e"><form><orth>偏</orth><pron xml:lang="zh-Latn-x-pinyin">piān</pron></form><def/><sense xml:id="uuid-7a16a19c-b914-49a2-96a1-9cb91429a24a" resp="#zadrapa" tls:created="2020-12-06T00:52:25.925+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be hemiplegic</def></sense></entry><entry type="word" xml:id="uuid-a71f6eae-edd2-4869-9f6e-aeedd23869e0" resp="#zadrapa" tls:created="2022-05-13T20:47:36.316+09:00"><form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-55262410-645e-4df0-b0a2-71e30d115a46"><orth>五疾</orth><pron xml:lang="zh-Latn-x-pinyin">wǔ jí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nguX dzit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ dzid</pron></form><sense xml:id="uuid-fe2f413f-cb96-4cf9-af41-3fcb96acf944" resp="#zadrapa" tls:created="2022-05-13T20:47:36.316+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat></gramGrp><def>person(s) afflicted by one of the five handicaps</def></sense></entry><entry type="word" xml:id="uuid-2ebd898d-5877-40d6-bd89-8d587760d6f8" resp="#zadrapa" tls:created="2023-06-13T21:45:24.58+09:00"><form corresp="#uuid-113c4b70-d582-4e85-8f61-8d912697c41d"><orth>瘥</orth><pron xml:lang="zh-Latn-x-pinyin">cuó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dza</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡaal</pron></form><sense xml:id="uuid-19a01c21-ee48-49a1-a01c-21ee48d9a10e" resp="#zadrapa" tls:created="2023-06-13T21:45:24.58+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>to plague people with illnesses</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-c5f1ad5e-f8e4-4b13-b1ad-5ef8e4fb1394" resp="#zadrapa" tls:created="2020-06-23T16:21:06.116+09:00">
+            <form corresp="#uuid-55262410-645e-4df0-b0a2-71e30d115a46 #uuid-92f29a2b-3594-46e4-8f04-d3526008846f">
+                <orth>疾養</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí yǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzit yangX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzid laŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-b3309026-07a4-447a-b090-2607a4647a6a" resp="#zadrapa" tls:created="2020-06-23T16:21:06.116+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-06-23T16:21:55.08+09:00">= 疾癢: pain, itching and similar troublesome body conditions in general</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-79ac6dc5-67b7-4a83-ac6d-c567b79a838e">
+            <form>
+                <orth>偏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">piān</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-7a16a19c-b914-49a2-96a1-9cb91429a24a" resp="#zadrapa" tls:created="2020-12-06T00:52:25.925+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be hemiplegic</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a71f6eae-edd2-4869-9f6e-aeedd23869e0" resp="#zadrapa" tls:created="2022-05-13T20:47:36.316+09:00">
+            <form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-55262410-645e-4df0-b0a2-71e30d115a46">
+                <orth>五疾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǔ jí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nguX dzit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ dzid</pron>
+            </form>
+            <sense xml:id="uuid-fe2f413f-cb96-4cf9-af41-3fcb96acf944" resp="#zadrapa" tls:created="2022-05-13T20:47:36.316+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e377e0e-02e8-437f-86ce-f041186bc7aa">human</tls:sem-feat>
+                </gramGrp>
+                <def>person(s) afflicted by one of the five handicaps</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2ebd898d-5877-40d6-bd89-8d587760d6f8" resp="#zadrapa" tls:created="2023-06-13T21:45:24.58+09:00">
+            <form corresp="#uuid-113c4b70-d582-4e85-8f61-8d912697c41d">
+                <orth>瘥</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cuó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dza</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡaal</pron>
+            </form>
+            <sense xml:id="uuid-19a01c21-ee48-49a1-a01c-21ee48d9a10e" resp="#zadrapa" tls:created="2023-06-13T21:45:24.58+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>to plague people with illnesses</def>
+            </sense>
+        </entry>
+    </div>
 </div>

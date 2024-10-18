@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb0e1ecf-18e6-47a5-a6e4-c01dcbe9061c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb0e1ecf-18e6-47a5-a6e4-c01dcbe9061c">
 <head>WARFARE</head>
     <list type="altnames">
 <item>FIGHTING</item>
@@ -277,7 +278,14 @@
                 </gramGrp>
   <def>engage in formal warfare</def>
             </sense>
-<sense xml:id="uuid-10e6a74b-cc21-4a1f-a6a7-4bcc216a1f93" resp="#dsehnal" tls:created="2023-11-26T19:23:55.068+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>war; warfare</def></sense></entry>
+<sense xml:id="uuid-10e6a74b-cc21-4a1f-a6a7-4bcc216a1f93" resp="#dsehnal" tls:created="2023-11-26T19:23:55.068+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>war; warfare</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5d0deb7-f954-4c81-b8b8-10f3194a45a9">
             <form corresp="#uuid-c80e4d55-a658-472e-a112-779936b9e81a">
 <orth>戎</orth>
@@ -362,7 +370,23 @@
                 </gramGrp>
   <def>military; martial; military-minded</def>
             </sense>
-<sense xml:id="uuid-4b6fea75-fd01-4b61-afea-75fd019b6175" resp="#CH" tls:created="2022-08-23T20:05:31.146+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-09-23T17:03:24.538+09:00">be qualified in matters military; show prowess in military affairs or in warfare</def></sense><sense xml:id="uuid-eaceb92c-3561-4831-8eb9-2c3561183154" resp="#CH" tls:created="2022-09-16T06:32:43.024+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>military person; person working in the military field</def></sense></entry>
+<sense xml:id="uuid-4b6fea75-fd01-4b61-afea-75fd019b6175" resp="#CH" tls:created="2022-08-23T20:05:31.146+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-09-23T17:03:24.538+09:00">be qualified in matters military; show prowess in military affairs or in warfare</def>
+            </sense>
+            <sense xml:id="uuid-eaceb92c-3561-4831-8eb9-2c3561183154" resp="#CH" tls:created="2022-09-16T06:32:43.024+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>military person; person working in the military field</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a4fc87db-3c9d-46bb-b145-1d8171c245ce">
             <form corresp="#uuid-4c74aa74-6e7e-42a0-9900-df8b330e95cc #uuid-d307a42b-ae69-440d-90d2-6ad4619f0c56">
 <orth>干戈</orth>
@@ -416,5 +440,58 @@
   <def>military service</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-69a9371d-f33c-4d6e-a937-1df33cdd6e59" resp="#CH" tls:created="2020-04-22T22:21:46.25+09:00"><form corresp="#uuid-1d8b3908-8d05-4fee-93e1-9cddfaa8adce #uuid-a127fa81-32cb-49a0-848b-2f87b82e1db4"><orth>兵事</orth><pron xml:lang="zh-Latn-x-pinyin">bīng shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjaeng dzriH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">praŋ dzrɯs</pron></form><sense xml:id="uuid-78baee9e-60c3-42b0-baee-9e60c392b0ea" resp="#CH" tls:created="2020-04-22T22:21:46.25+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>military undertakings</def></sense></entry><entry type="word" xml:id="uuid-1a628ce6-2917-41c5-a28c-e62917f1c5e9" resp="#CH" tls:created="2020-05-15T20:09:01.041+09:00"><form corresp="#uuid-4fa57c26-8e55-48d9-97b2-c935988fe676 #uuid-4307cb5e-1815-4b23-bff4-19d812d0dba7"><orth>金革</orth><pron xml:lang="zh-Latn-x-pinyin">jīn gé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kim keak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krɯm krɯɯɡ</pron></form><sense xml:id="uuid-0c589aa9-b27c-4048-989a-a9b27c6048e0" resp="#CH" tls:created="2020-05-15T20:09:01.041+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>military action</def></sense></entry><entry type="word" xml:id="uuid-ab6d2e2d-277b-4718-ad2e-2d277b571829" resp="#dsehnal" tls:created="2023-11-26T01:03:42.125+09:00"><form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220 #uuid-1d8b3908-8d05-4fee-93e1-9cddfaa8adce"><orth>用兵</orth><pron xml:lang="zh-Latn-x-pinyin">yòng bīng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yowngH pjaeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋs praŋ</pron></form><sense xml:id="uuid-ab18d3bd-627e-47c2-98d3-bd627e97c2d7" resp="#dsehnal" tls:created="2023-11-26T01:03:42.125+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>make war</def></sense><sense xml:id="uuid-b643fa4b-389f-48ff-83fa-4b389f88ffd4" resp="#dsehnal" tls:created="2023-12-03T22:59:18.53+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>concerning warfare; dealing with warfare</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-69a9371d-f33c-4d6e-a937-1df33cdd6e59" resp="#CH" tls:created="2020-04-22T22:21:46.25+09:00">
+            <form corresp="#uuid-1d8b3908-8d05-4fee-93e1-9cddfaa8adce #uuid-a127fa81-32cb-49a0-848b-2f87b82e1db4">
+                <orth>兵事</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bīng shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjaeng dzriH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">praŋ dzrɯs</pron>
+            </form>
+            <sense xml:id="uuid-78baee9e-60c3-42b0-baee-9e60c392b0ea" resp="#CH" tls:created="2020-04-22T22:21:46.25+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>military undertakings</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1a628ce6-2917-41c5-a28c-e62917f1c5e9" resp="#CH" tls:created="2020-05-15T20:09:01.041+09:00">
+            <form corresp="#uuid-4fa57c26-8e55-48d9-97b2-c935988fe676 #uuid-4307cb5e-1815-4b23-bff4-19d812d0dba7">
+                <orth>金革</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīn gé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kim keak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krɯm krɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-0c589aa9-b27c-4048-989a-a9b27c6048e0" resp="#CH" tls:created="2020-05-15T20:09:01.041+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>military action</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ab6d2e2d-277b-4718-ad2e-2d277b571829" resp="#dsehnal" tls:created="2023-11-26T01:03:42.125+09:00">
+            <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220 #uuid-1d8b3908-8d05-4fee-93e1-9cddfaa8adce">
+                <orth>用兵</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòng bīng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yowngH pjaeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋs praŋ</pron>
+            </form>
+            <sense xml:id="uuid-ab18d3bd-627e-47c2-98d3-bd627e97c2d7" resp="#dsehnal" tls:created="2023-11-26T01:03:42.125+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>make war</def>
+            </sense>
+            <sense xml:id="uuid-b643fa4b-389f-48ff-83fa-4b389f88ffd4" resp="#dsehnal" tls:created="2023-12-03T22:59:18.53+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>concerning warfare; dealing with warfare</def>
+            </sense>
+        </entry>
+    </div>
 </div>

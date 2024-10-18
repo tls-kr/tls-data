@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-17840308-f823-4860-a828-a902c9e83fa9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-17840308-f823-4860-a828-a902c9e83fa9">
 <head>TRANSMIT</head>
     <list type="altnames">
 <item>HAND ON</item>
@@ -24,7 +25,10 @@
     </list>
 <div type="definition">
 <p>RECORD OR REPORT so as to CAUSE LATER GENERATIONS TO KNOW something.</p>
-    <div type="definition" resp="#CH" modified="2023-09-12T17:07:47.081+09:00"><p>CAUSE LATER GENERATIONS TO KNOW OR HAVE something IMPORTANT.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-12T17:07:47.081+09:00">
+            <p>CAUSE LATER GENERATIONS TO KNOW OR HAVE something IMPORTANT.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for handing down something traditional is chuán 傳.</p>
@@ -236,7 +240,45 @@
                 </gramGrp>
   <def>transmit N1 to the place N2</def>
             </sense>
-<sense xml:id="uuid-b032771f-fa13-4ace-a3f8-c384ca9b4178" resp="#CH" tls:created="2019-10-14T22:30:40.898+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-28839d02-248e-41ef-85f3-c89eb439970f">vtt[oN1. prep N2]</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>delegate things to others, delegate tasks to others</def></sense><sense xml:id="uuid-29c34ed4-b381-411d-834e-d4b381811d6d" resp="#zadrapa" tls:created="2020-05-29T16:48:30.564+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>transmission, handing down</def></sense><sense xml:id="uuid-574c42de-a7fb-4d88-8c42-dea7fb1d886c" resp="#CH" tls:created="2020-12-15T17:41:30.382+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-79d258a8-9942-48d7-8747-cc59c1c62bfe">vtt[oN1.]+prep+N2</tls:syn-func></gramGrp><def>be transmitted to N2</def></sense><sense xml:id="uuid-1f5a6bb9-4e0d-4bc7-9a6b-b94e0d3bc7d3" resp="#dsehnal" tls:created="2023-05-01T02:15:13.927+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-889f28b9-a520-4605-8ba6-fa2ba2d11be3">vt0oS</tls:syn-func><tls:sem-feat corresp="#"/></gramGrp><def>it is said/transmitted that S</def></sense><sense xml:id="uuid-09f8d1e1-2e41-4c4f-b8d1-e12e418c4ff2" resp="#dsehnal" tls:created="2023-06-08T20:10:24.964+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c5a484da-b28b-4783-a484-dab28b6783fb">vtt(oN1.)+[N2:]+vtoS</tls:syn-func></gramGrp><def>transmit the contextually determinate event N1 to people by saying S</def></sense></entry>
+<sense xml:id="uuid-b032771f-fa13-4ace-a3f8-c384ca9b4178" resp="#CH" tls:created="2019-10-14T22:30:40.898+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-28839d02-248e-41ef-85f3-c89eb439970f">vtt[oN1. prep N2]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>delegate things to others, delegate tasks to others</def>
+            </sense>
+            <sense xml:id="uuid-29c34ed4-b381-411d-834e-d4b381811d6d" resp="#zadrapa" tls:created="2020-05-29T16:48:30.564+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>transmission, handing down</def>
+            </sense>
+            <sense xml:id="uuid-574c42de-a7fb-4d88-8c42-dea7fb1d886c" resp="#CH" tls:created="2020-12-15T17:41:30.382+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-79d258a8-9942-48d7-8747-cc59c1c62bfe">vtt[oN1.]+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>be transmitted to N2</def>
+            </sense>
+            <sense xml:id="uuid-1f5a6bb9-4e0d-4bc7-9a6b-b94e0d3bc7d3" resp="#dsehnal" tls:created="2023-05-01T02:15:13.927+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-889f28b9-a520-4605-8ba6-fa2ba2d11be3">vt0oS</tls:syn-func>
+                    <tls:sem-feat corresp="#"/>
+                </gramGrp>
+                <def>it is said/transmitted that S</def>
+            </sense>
+            <sense xml:id="uuid-09f8d1e1-2e41-4c4f-b8d1-e12e418c4ff2" resp="#dsehnal" tls:created="2023-06-08T20:10:24.964+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c5a484da-b28b-4783-a484-dab28b6783fb">vtt(oN1.)+[N2:]+vtoS</tls:syn-func>
+                </gramGrp>
+                <def>transmit the contextually determinate event N1 to people by saying S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c010aa49-15c8-41f7-9c2a-da8190fb06cb">
             <form corresp="#uuid-3e6ea9cc-775d-4c5b-b094-0eda7dbabe72">
 <orth>囑</orth>
@@ -261,7 +303,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-ae061d43-ec51-402b-a0e9-d3170be16995">
-            <form corresp="#uuid-9af4a8e7-67c9-44c6-9134-dc9e119d10c3"><orth>垂</orth><pron xml:lang="zh-Latn-x-pinyin">chuí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzywe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djol</pron></form>
+            <form corresp="#uuid-9af4a8e7-67c9-44c6-9134-dc9e119d10c3">
+                <orth>垂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzywe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djol</pron>
+            </form>
             <def>Chuí 垂 refers to the intentional continuation of a tradition, the causing that tradition not to be disrupted.
 </def>
 <sense xml:id="uuid-59aa2a62-4954-4327-96e6-ca7a82c37f41">
@@ -331,7 +378,15 @@
                 </gramGrp>
   <def>hand on, pass on N1 to others.</def>
             </sense>
-<sense xml:id="uuid-2d97401a-7d64-410d-9740-1a7d64310d1b" resp="#dsehnal" tls:created="2023-05-08T23:08:09.092+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.)+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-52acfe60-c9eb-4064-8f46-975338866a10">N1=recipient</tls:sem-feat></gramGrp><def>transmit to the contextually determinate person N1 the object N2</def></sense></entry>
+<sense xml:id="uuid-2d97401a-7d64-410d-9740-1a7d64310d1b" resp="#dsehnal" tls:created="2023-05-08T23:08:09.092+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.)+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-52acfe60-c9eb-4064-8f46-975338866a10">N1=recipient</tls:sem-feat>
+                </gramGrp>
+                <def>transmit to the contextually determinate person N1 the object N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5b078b0e-4a79-4b2e-b8bb-bb5c89c79364">
             <form corresp="#uuid-62efe20c-e4e1-4fac-b6b2-37396ae70220">
 <orth>接</orth>
@@ -410,7 +465,23 @@
                 </gramGrp>
   <def>transmit (an order etc)</def>
             </sense>
-<sense xml:id="uuid-8c2f46f6-fb9f-40fe-af46-f6fb9f60fe73" resp="#CH" tls:created="2020-05-17T23:35:23.399+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>undesirable object: inflict N1 on N2</def></sense><sense xml:id="uuid-2c46b3d0-2a3d-4ba9-86b3-d02a3d3ba988" resp="#dsehnal" tls:created="2024-05-02T23:26:01.959+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-2943d1c6-fb5b-4257-b46c-c13eea4e46eb">N1=gift.N2=recipient</tls:sem-feat></gramGrp><def>transmit N1 to N2</def></sense></entry>
+<sense xml:id="uuid-8c2f46f6-fb9f-40fe-af46-f6fb9f60fe73" resp="#CH" tls:created="2020-05-17T23:35:23.399+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>undesirable object: inflict N1 on N2</def>
+            </sense>
+            <sense xml:id="uuid-2c46b3d0-2a3d-4ba9-86b3-d02a3d3ba988" resp="#dsehnal" tls:created="2024-05-02T23:26:01.959+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2943d1c6-fb5b-4257-b46c-c13eea4e46eb">N1=gift.N2=recipient</tls:sem-feat>
+                </gramGrp>
+                <def>transmit N1 to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2e76b3ce-8307-47ef-b38f-d5d78a9755f3">
             <form corresp="#uuid-8011a4d5-d499-4c46-a601-544b943c87dc">
 <orth>詣</orth>
@@ -491,7 +562,14 @@
                 </gramGrp>
   <def>pass on the contextually determinate N1 to N2</def>
             </sense>
-<sense xml:id="uuid-49483057-5903-4e45-8a6c-3fb9b6b20fc8" resp="#CH" tls:created="2020-01-24T19:33:26.313+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>transmit N1 to N2</def></sense></entry>
+<sense xml:id="uuid-49483057-5903-4e45-8a6c-3fb9b6b20fc8" resp="#CH" tls:created="2020-01-24T19:33:26.313+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>transmit N1 to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-31764882-9ab7-4559-83ed-7635ffffe8b1">
             <form corresp="#uuid-95612809-a475-4311-8094-3865caba1461">
 <orth>述</orth>
@@ -533,7 +611,14 @@
                 </gramGrp>
   <def>transmission</def>
             </sense>
-<sense xml:id="uuid-47c13c93-980d-49c0-813c-93980dd9c0e0" resp="#Valerie.Kiel" tls:created="2021-07-05T05:34:21.684+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>transmit N</def></sense></entry>
+<sense xml:id="uuid-47c13c93-980d-49c0-813c-93980dd9c0e0" resp="#Valerie.Kiel" tls:created="2021-07-05T05:34:21.684+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>transmit N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7d19ec1c-ad28-4463-8d37-57f1e2ca8e97">
             <form corresp="#uuid-ffd4c123-410c-49c3-9328-ab8779a4ecd1">
 <orth>遞</orth>
@@ -579,10 +664,26 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-09-16T04:07:22.561+09:00">transmitted (from antiquity etc) 遺言</def>
             </sense>
-<sense xml:id="uuid-0750fcfc-4963-4703-90fc-fc496367031b" resp="#CH" tls:created="2020-02-13T02:52:20.484+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>send a message of</def></sense><sense xml:id="uuid-25439785-1d99-44f6-8397-851d99f4f664" resp="#CH" tls:created="2022-09-16T04:06:48.595+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>transmitted, handed-down; inherited</def></sense></entry>
+<sense xml:id="uuid-0750fcfc-4963-4703-90fc-fc496367031b" resp="#CH" tls:created="2020-02-13T02:52:20.484+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>send a message of</def>
+            </sense>
+            <sense xml:id="uuid-25439785-1d99-44f6-8397-851d99f4f664" resp="#CH" tls:created="2022-09-16T04:06:48.595+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>transmitted, handed-down; inherited</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fc820ca7-89a8-48b1-9151-503bd32e3d72">
             <form corresp="#uuid-116f76e4-12f2-45f0-99be-a12bccfa72ba">
 <orth>騰</orth>
@@ -815,17 +916,142 @@
   <def>transmit messages</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3f9778bb-c919-4755-9d79-0f2fe9006370" resp="#CH" tls:created="2019-11-28T18:59:44.532+09:00"><form corresp="#uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9"><orth>揚</orth><pron xml:lang="zh-Latn-x-pinyin">yáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laŋ</pron></form><sense xml:id="uuid-719713a8-aa37-41a3-8bbe-9fb7678e6c0b" resp="#CH" tls:created="2019-11-28T18:59:44.532+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1. prep N2</tls:syn-func></gramGrp><def>transmit N1 to N2</def></sense></entry><entry type="word" xml:id="uuid-c83bc5b5-e16b-483a-b09d-3fab42dc3531" resp="#CH" tls:created="2019-11-29T19:01:28.154+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-c4138ab9-2334-489a-971a-36fec40858ed" resp="#CH" tls:created="2019-11-29T19:01:28.154+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>orally transmit</def></sense></entry><entry type="word" xml:id="uuid-4df5792d-cdc0-41d2-862e-c38e8bf581ce" resp="#CH" tls:created="2019-11-29T19:01:46.086+09:00"><form corresp="#uuid-50da5830-5134-4b24-8b52-bf44679f9f44 #uuid-012329d2-8a81-4a4f-ac3a-03885a49d6d6"><orth>傳道</orth><pron xml:lang="zh-Latn-x-pinyin">chuán dào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drjwen dawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">don ɡ-luuʔ</pron></form><sense xml:id="uuid-e5acccf4-e024-475f-9e0c-fe895c21b628" resp="#CH" tls:created="2019-11-29T19:01:46.086+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>orally transmit</def></sense></entry><entry type="word" xml:id="uuid-85aa7c3a-c160-43f5-8867-9fde39321f71" resp="#CH" tls:created="2019-12-04T19:36:04.106+09:00"><form corresp="#uuid-46e07426-7752-4c2b-916c-daf1b8e6cc5a"><orth>播</orth><pron xml:lang="zh-Latn-x-pinyin">bō</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">paH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paals</pron></form><sense xml:id="uuid-9a2fba56-65aa-4c2a-b6b3-02b4bfbf455d" resp="#CH" tls:created="2019-12-04T19:36:04.106+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>pass on to</def></sense></entry><entry type="word" xml:id="uuid-af70ae77-1db6-4040-b0ae-771db630400f" resp="#CH" tls:created="2020-12-15T03:41:38.719+09:00"><form corresp="#uuid-e18e2c3b-93b0-4203-80c7-01cb372cf3b4"><orth>移</orth><pron xml:lang="zh-Latn-x-pinyin">yí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ye</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lal</pron></form><sense xml:id="uuid-561a1868-0a7c-430a-9a18-680a7c730aed" resp="#CH" tls:created="2020-12-15T03:41:38.719+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func></gramGrp><def>transmit the contextually determinate object N1 to N2</def></sense></entry><entry type="word" xml:id="uuid-cc2f227b-5182-44f5-af22-7b518204f57b" resp="#CH" tls:created="2021-06-21T03:34:26.512+09:00"><form corresp="#uuid-bae3755f-f242-44f7-82de-032ae1fd723b"><orth>載</orth><pron xml:lang="zh-Latn-x-pinyin">zài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsojH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯɯs</pron></form><sense xml:id="uuid-c4c0a376-4ee1-4099-80a3-764ee1809920" resp="#CH" tls:created="2021-06-21T03:34:26.512+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>transmitted</def></sense></entry><entry type="word" xml:id="uuid-07d7ebee-2d23-4c68-97eb-ee2d23ec6899" resp="#CH" tls:created="2022-11-28T02:17:49.498+09:00"><form corresp="#uuid-0b88034e-569d-4f2c-84d8-97445d544e6f #uuid-81aa677b-e873-4016-ae47-708d7568570c"><orth>剋致</orth><pron xml:lang="zh-Latn-x-pinyin">kè zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khok trijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯɯɡ k-liɡs</pron></form><sense xml:id="uuid-53bfbfc4-52c0-4c43-bfbf-c452c0ec4385" resp="#CH" tls:created="2022-11-28T02:17:49.498+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>decisively transmit, authoritatively transmit</def></sense></entry><entry xml:id="uuid-2eeb4284-0c4c-4771-ab42-840c4c37718c"><form corresp="#uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
+    <entry type="word" xml:id="uuid-3f9778bb-c919-4755-9d79-0f2fe9006370" resp="#CH" tls:created="2019-11-28T18:59:44.532+09:00">
+            <form corresp="#uuid-8e3c6a95-ad4d-452d-be3c-a9975eeaafa9">
+                <orth>揚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laŋ</pron>
+            </form>
+            <sense xml:id="uuid-719713a8-aa37-41a3-8bbe-9fb7678e6c0b" resp="#CH" tls:created="2019-11-28T18:59:44.532+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1. prep N2</tls:syn-func>
+                </gramGrp>
+                <def>transmit N1 to N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c83bc5b5-e16b-483a-b09d-3fab42dc3531" resp="#CH" tls:created="2019-11-29T19:01:28.154+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-c4138ab9-2334-489a-971a-36fec40858ed" resp="#CH" tls:created="2019-11-29T19:01:28.154+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>orally transmit</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4df5792d-cdc0-41d2-862e-c38e8bf581ce" resp="#CH" tls:created="2019-11-29T19:01:46.086+09:00">
+            <form corresp="#uuid-50da5830-5134-4b24-8b52-bf44679f9f44 #uuid-012329d2-8a81-4a4f-ac3a-03885a49d6d6">
+                <orth>傳道</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chuán dào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drjwen dawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">don ɡ-luuʔ</pron>
+            </form>
+            <sense xml:id="uuid-e5acccf4-e024-475f-9e0c-fe895c21b628" resp="#CH" tls:created="2019-11-29T19:01:46.086+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>orally transmit</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-85aa7c3a-c160-43f5-8867-9fde39321f71" resp="#CH" tls:created="2019-12-04T19:36:04.106+09:00">
+            <form corresp="#uuid-46e07426-7752-4c2b-916c-daf1b8e6cc5a">
+                <orth>播</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bō</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">paH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paals</pron>
+            </form>
+            <sense xml:id="uuid-9a2fba56-65aa-4c2a-b6b3-02b4bfbf455d" resp="#CH" tls:created="2019-12-04T19:36:04.106+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>pass on to</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-af70ae77-1db6-4040-b0ae-771db630400f" resp="#CH" tls:created="2020-12-15T03:41:38.719+09:00">
+            <form corresp="#uuid-e18e2c3b-93b0-4203-80c7-01cb372cf3b4">
+                <orth>移</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ye</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lal</pron>
+            </form>
+            <sense xml:id="uuid-561a1868-0a7c-430a-9a18-680a7c730aed" resp="#CH" tls:created="2020-12-15T03:41:38.719+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>transmit the contextually determinate object N1 to N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cc2f227b-5182-44f5-af22-7b518204f57b" resp="#CH" tls:created="2021-06-21T03:34:26.512+09:00">
+            <form corresp="#uuid-bae3755f-f242-44f7-82de-032ae1fd723b">
+                <orth>載</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsojH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯɯs</pron>
+            </form>
+            <sense xml:id="uuid-c4c0a376-4ee1-4099-80a3-764ee1809920" resp="#CH" tls:created="2021-06-21T03:34:26.512+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>transmitted</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-07d7ebee-2d23-4c68-97eb-ee2d23ec6899" resp="#CH" tls:created="2022-11-28T02:17:49.498+09:00">
+            <form corresp="#uuid-0b88034e-569d-4f2c-84d8-97445d544e6f #uuid-81aa677b-e873-4016-ae47-708d7568570c">
+                <orth>剋致</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kè zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khok trijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯɯɡ k-liɡs</pron>
+            </form>
+            <sense xml:id="uuid-53bfbfc4-52c0-4c43-bfbf-c452c0ec4385" resp="#CH" tls:created="2022-11-28T02:17:49.498+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>decisively transmit, authoritatively transmit</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-2eeb4284-0c4c-4771-ab42-840c4c37718c">
+            <form corresp="#uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
 <orth>達</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">dá</pron>
                 <pron xml:lang="zh-x-oc">daad</pron>
                 <pron xml:lang="zh-x-mc">dɑt</pron>
-            </form><sense xml:id="uuid-7cca389e-cf31-4574-acdd-2131a59b7fda">
+            </form>
+            <sense xml:id="uuid-7cca389e-cf31-4574-acdd-2131a59b7fda">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
   <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
                 </gramGrp>
   <def>cause to reach &gt; deliver</def>
-            </sense><sense xml:id="uuid-97f5682f-fad3-48e6-b568-2ffad338e63e" resp="#CH" tls:created="2024-02-13T22:28:41.432+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-20T21:34:46.741+09:00">transfer or extend the contextually determinate N1 to N2</def></sense><sense xml:id="uuid-addc9763-e88b-44c0-9c97-63e88b44c034" resp="#CH" tls:created="2024-02-20T21:36:20.658+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>transmit N1 to N2</def></sense></entry></div>
+            </sense>
+            <sense xml:id="uuid-97f5682f-fad3-48e6-b568-2ffad338e63e" resp="#CH" tls:created="2024-02-13T22:28:41.432+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-20T21:34:46.741+09:00">transfer or extend the contextually determinate N1 to N2</def>
+            </sense>
+            <sense xml:id="uuid-addc9763-e88b-44c0-9c97-63e88b44c034" resp="#CH" tls:created="2024-02-20T21:36:20.658+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>transmit N1 to N2</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a41db1ff-370e-44b7-a0a8-c9aec19eb577">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a41db1ff-370e-44b7-a0a8-c9aec19eb577">
 <head>DISGRACE</head>
     <list type="altnames">
 <item>DISHONOR</item>
@@ -217,7 +218,15 @@
                 </gramGrp>
   <def>[find ugly&gt;] be ashamed of (a situation) 甚醜之</def>
             </sense>
-<sense xml:id="uuid-a931861b-9e1b-4f4b-b186-1b9e1bdf4b52" resp="#CH" tls:created="2020-05-24T01:05:54.465+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat></gramGrp><def>be exposed to public disgrace</def></sense></entry>
+<sense xml:id="uuid-a931861b-9e1b-4f4b-b186-1b9e1bdf4b52" resp="#CH" tls:created="2020-05-24T01:05:54.465+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat>
+                </gramGrp>
+                <def>be exposed to public disgrace</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7357221a-7414-49c6-b9b1-475818258804">
             <form corresp="#uuid-ccee35bf-188b-4a43-9768-559567edf6fe #uuid-215e7fde-e61a-4ca2-9527-430b64738145">
 <orth>恥辱</orth>
@@ -253,7 +262,7 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                 </gramGrp>
-  <def resp="#CH" updated="2023-10-23T04:36:36.468+09:00">ignominiouscharacterised by a sense of public humiliation and shame</def>
+  <def resp="#zadrapa" updated="2024-10-03T18:42:46.436+09:00">ignominious, characterised by a sense of public humiliation and shame</def>
             </sense>
 <sense xml:id="uuid-a0dc9a2b-c1a7-4e01-8c48-ae52622a1baf">
 <gramGrp>
@@ -322,5 +331,28 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-18T08:08:56.226+09:00">ignominy; humiliating public shame</def>
             </sense>
-<sense xml:id="uuid-28411cde-1c9b-43a8-b92e-f04fea444fc6" resp="#CH" tls:created="2019-12-09T05:35:38.79+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab(-post-N)</tls:syn-func></gramGrp><def resp="#CH" updated="2023-10-23T04:36:06.993+09:00">ignominy; disgrace</def></sense><sense xml:id="uuid-a84d76e3-578f-45ec-8d76-e3578f65ec95" resp="#CH" tls:created="2020-04-10T16:30:48.438+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2023-10-23T04:36:23.901+09:00">be an ignominy; be a shameful public disgrace</def></sense><sense xml:id="uuid-b2447ef0-ed34-4fe5-847e-f0ed348fe56c" resp="#zadrapa" tls:created="2021-06-02T22:04:25.56+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-0afaf3e3-1928-4000-a3b5-5268309adb0d">subject=nonhuman</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-03T22:23:10.102+09:00">be disgraceful</def></sense></entry></div>
+<sense xml:id="uuid-28411cde-1c9b-43a8-b92e-f04fea444fc6" resp="#CH" tls:created="2019-12-09T05:35:38.79+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab(-post-N)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-10-23T04:36:06.993+09:00">ignominy; disgrace</def>
+            </sense>
+            <sense xml:id="uuid-a84d76e3-578f-45ec-8d76-e3578f65ec95" resp="#CH" tls:created="2020-04-10T16:30:48.438+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-10-23T04:36:23.901+09:00">be an ignominy; be a shameful public disgrace</def>
+            </sense>
+            <sense xml:id="uuid-b2447ef0-ed34-4fe5-847e-f0ed348fe56c" resp="#zadrapa" tls:created="2021-06-02T22:04:25.56+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0afaf3e3-1928-4000-a3b5-5268309adb0d">subject=nonhuman</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-03T22:23:10.102+09:00">be disgraceful</def>
+            </sense>
+        </entry>
+    </div>
 </div>

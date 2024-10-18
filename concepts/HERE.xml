@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-04482dbe-a266-41c0-b7f0-e0ba31a4763f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-04482dbe-a266-41c0-b7f0-e0ba31a4763f">
 <head>HERE</head>
     <list type="altnames">
 <item>IN THIS PLACE</item>
@@ -82,7 +83,14 @@
                 </gramGrp>
   <def>here, this place (also non-referential: 有人於斯) idiom 於斯乎</def>
             </sense>
-<sense xml:id="uuid-c4ee11d7-5225-464e-9433-4141bcddffd1" resp="#CH" tls:created="2019-12-07T05:18:51.86+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9d96c289-7fb9-4012-b028-f89a2a09ed7a">npro[.adN]</tls:syn-func></gramGrp><def>this [place]&gt; here</def></sense></entry>
+<sense xml:id="uuid-c4ee11d7-5225-464e-9433-4141bcddffd1" resp="#CH" tls:created="2019-12-07T05:18:51.86+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9d96c289-7fb9-4012-b028-f89a2a09ed7a">npro[.adN]</tls:syn-func>
+                </gramGrp>
+                <def>this [place]&gt; here</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9b6f3085-9b90-4f10-9fbb-7161c312bf53">
             <form corresp="#uuid-4342b9fe-7e09-40cb-ad1a-fbf479505d5f">
 <orth>是</orth>
@@ -127,7 +135,38 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-02-04T00:09:04.837+09:00">concrete: here</def>
             </sense>
-<sense xml:id="uuid-1569f2fd-8f39-44f1-ba1d-31bd7181fdbe" resp="#CH" tls:created="2019-12-18T04:24:57.087+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func><tls:sem-feat corresp="#uuid-7bbb1c42-06ca-4f3b-81e5-682c75fe8eaa">object</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-02-04T00:11:29.54+09:00">this abstract place in a text</def></sense><sense xml:id="uuid-ee2d6cb4-d7cc-44c2-ad6c-b4d7cce4c2ad" resp="#CH" tls:created="2020-02-13T02:07:13.718+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func></gramGrp><def>here-present</def></sense><sense xml:id="uuid-1a3b8b8d-bc8a-4dca-bb8b-8dbc8aedca78" resp="#dsehnal" tls:created="2020-05-09T04:59:32.597+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>this contextually determinate place &gt; here</def></sense><sense xml:id="uuid-91d24d21-110e-49d2-924d-21110e69d27a" resp="#dsehnal" tls:created="2023-04-29T23:04:17.961+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func><tls:sem-feat corresp="#">derived</tls:sem-feat></gramGrp><def>this side; this respect</def></sense></entry>
+<sense xml:id="uuid-1569f2fd-8f39-44f1-ba1d-31bd7181fdbe" resp="#CH" tls:created="2019-12-18T04:24:57.087+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7bbb1c42-06ca-4f3b-81e5-682c75fe8eaa">object</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-02-04T00:11:29.54+09:00">this abstract place in a text</def>
+            </sense>
+            <sense xml:id="uuid-ee2d6cb4-d7cc-44c2-ad6c-b4d7cce4c2ad" resp="#CH" tls:created="2020-02-13T02:07:13.718+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                </gramGrp>
+                <def>here-present</def>
+            </sense>
+            <sense xml:id="uuid-1a3b8b8d-bc8a-4dca-bb8b-8dbc8aedca78" resp="#dsehnal" tls:created="2020-05-09T04:59:32.597+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>this contextually determinate place &gt; here</def>
+            </sense>
+            <sense xml:id="uuid-91d24d21-110e-49d2-924d-21110e69d27a" resp="#dsehnal" tls:created="2023-04-29T23:04:17.961+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func>
+                    <tls:sem-feat corresp="#">derived</tls:sem-feat>
+                </gramGrp>
+                <def>this side; this respect</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cfabace7-9041-4237-85cb-59fd2be2e75b">
             <form corresp="#uuid-7789243a-2476-4e98-90ec-d1cc9ad00144">
 <orth>茲</orth>
@@ -144,7 +183,14 @@
                 </gramGrp>
   <def>this place</def>
             </sense>
-<sense xml:id="uuid-5f057eca-5d71-4e3f-83b8-47cfadb8b8c2" resp="#CH" tls:created="2019-12-07T04:13:13.033+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f834eda-ce59-4254-a002-582400765af9">npro[adN.]postVt</tls:syn-func></gramGrp><def>this [place]&gt; here</def></sense></entry>
+<sense xml:id="uuid-5f057eca-5d71-4e3f-83b8-47cfadb8b8c2" resp="#CH" tls:created="2019-12-07T04:13:13.033+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f834eda-ce59-4254-a002-582400765af9">npro[adN.]postVt</tls:syn-func>
+                </gramGrp>
+                <def>this [place]&gt; here</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bfcd3bdf-79ad-4e37-8c5c-517cdf38461a">
             <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-d54c0f55-4499-4b3a-a808-4d48f39d29b7">
 <orth>其中</orth>
@@ -343,5 +389,35 @@
   <def>DOES IT EVER MEAN THAT???????</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3bf79832-33eb-4a45-beed-af78c737d42f" resp="#CH" tls:created="2019-12-28T06:34:07.77+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-9bc6d20b-c070-4af0-9249-5e8dc24fd868" resp="#CH" tls:created="2019-12-28T06:34:07.77+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func></gramGrp><def>here, to this place</def></sense></entry><entry type="word" xml:id="uuid-72c641e5-f0b3-4e22-b6a0-5cfef1a00bf2" resp="#CH" tls:created="2019-12-28T06:34:16.704+09:00"><form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515"><orth>之</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron></form><sense xml:id="uuid-66c2e5e7-e4db-4a3f-8919-ae079f4b4fa1" resp="#CH" tls:created="2019-12-28T06:34:16.704+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func></gramGrp><def>here, to this place</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-3bf79832-33eb-4a45-beed-af78c737d42f" resp="#CH" tls:created="2019-12-28T06:34:07.77+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-9bc6d20b-c070-4af0-9249-5e8dc24fd868" resp="#CH" tls:created="2019-12-28T06:34:07.77+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func>
+                </gramGrp>
+                <def>here, to this place</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-72c641e5-f0b3-4e22-b6a0-5cfef1a00bf2" resp="#CH" tls:created="2019-12-28T06:34:16.704+09:00">
+            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
+                <orth>之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-66c2e5e7-e4db-4a3f-8919-ae079f4b4fa1" resp="#CH" tls:created="2019-12-28T06:34:16.704+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-aaab350d-f2c6-4568-a284-3fdb7f210a5e">npro.postVt</tls:syn-func>
+                </gramGrp>
+                <def>here, to this place</def>
+            </sense>
+        </entry>
+    </div>
 </div>

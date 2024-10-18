@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0d0c9fac-6b83-49a6-ab51-982001f18933">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0d0c9fac-6b83-49a6-ab51-982001f18933">
 <head>DRIVE</head>
     <list type="altnames">
 <item>OPERATE</item>
@@ -198,7 +199,38 @@
                 </gramGrp>
   <def>driver</def>
             </sense>
-<sense xml:id="uuid-c25ed95c-00dc-45e1-8c3c-fdab4f1277bb" resp="#CH" tls:created="2019-12-01T04:06:45.045+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be steered and controlled</def></sense><sense xml:id="uuid-6b9e991b-157b-419c-bcc8-c4f9f0580dde" resp="#CH" tls:created="2019-12-25T19:57:10.23+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">v[adN1.](post-N2)</tls:syn-func></gramGrp><def>the driver of N2</def></sense><sense xml:id="uuid-ddc23085-8edc-4a9a-8230-858edc5a9ad1" resp="#CH" tls:created="2022-12-01T03:20:18.091+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-79a4092d-0839-4927-a409-2d0839a92765">art of</tls:sem-feat></gramGrp><def>art of artistic charioteering</def></sense><sense xml:id="uuid-983ce5d6-2ab6-4414-bce5-d62ab6e4146d" resp="#chris" tls:created="2022-12-01T14:07:42.314+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#">art of</tls:sem-feat></gramGrp><def>art of artistic charioteering</def></sense></entry>
+<sense xml:id="uuid-c25ed95c-00dc-45e1-8c3c-fdab4f1277bb" resp="#CH" tls:created="2019-12-01T04:06:45.045+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be steered and controlled</def>
+            </sense>
+            <sense xml:id="uuid-6b9e991b-157b-419c-bcc8-c4f9f0580dde" resp="#CH" tls:created="2019-12-25T19:57:10.23+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">v[adN1.](post-N2)</tls:syn-func>
+                </gramGrp>
+                <def>the driver of N2</def>
+            </sense>
+            <sense xml:id="uuid-ddc23085-8edc-4a9a-8230-858edc5a9ad1" resp="#CH" tls:created="2022-12-01T03:20:18.091+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-79a4092d-0839-4927-a409-2d0839a92765">art of</tls:sem-feat>
+                </gramGrp>
+                <def>art of artistic charioteering</def>
+            </sense>
+            <sense xml:id="uuid-983ce5d6-2ab6-4414-bce5-d62ab6e4146d" resp="#chris" tls:created="2022-12-01T14:07:42.314+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#">art of</tls:sem-feat>
+                </gramGrp>
+                <def>art of artistic charioteering</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fe25bebb-8821-42e3-a9f6-08347ae2065d">
             <form corresp="#uuid-52f8d7e2-fde7-45e6-b0c5-cf8d319b0b3e">
 <orth>捉</orth>
@@ -366,6 +398,13 @@
                 </gramGrp>
   <def>ZUO: driver</def>
             </sense>
-<sense xml:id="uuid-fb54ea1a-f6e8-47ba-94ea-1af6e8a7ba01" resp="#zadrapa" tls:created="2023-05-23T21:14:11.309+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>to drive one's chariot (SHI)</def></sense></entry>
+<sense xml:id="uuid-fb54ea1a-f6e8-47ba-94ea-1af6e8a7ba01" resp="#zadrapa" tls:created="2023-05-23T21:14:11.309+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>to drive one's chariot (SHI)</def>
+            </sense>
+        </entry>
     </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2f29a73e-417d-4d37-b137-647c994f8594">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2f29a73e-417d-4d37-b137-647c994f8594">
 <head>FLEE</head>
     <list type="altnames">
 <item>ESCAPE</item>
@@ -233,7 +234,15 @@
                 </gramGrp>
   <def>flee!; escape!</def>
             </sense>
-<sense xml:id="uuid-a0929afd-9ee4-4d4f-929a-fd9ee42d4f0f" resp="#CH" tls:created="2022-09-01T18:15:39.919+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>escape from (difficulties etc)</def></sense></entry>
+<sense xml:id="uuid-a0929afd-9ee4-4d4f-929a-fd9ee42d4f0f" resp="#CH" tls:created="2022-09-01T18:15:39.919+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>escape from (difficulties etc)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4a371708-e500-4840-a3ef-93e40dc787d0">
             <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
 <orth>出</orth>
@@ -259,7 +268,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-285e9272-4af7-49b8-9ee3-ad670b52d609">
-            <form corresp="#uuid-05a59d2c-7560-4195-a9b2-ecec341d0166"><orth>北</orth><pron xml:lang="zh-Latn-x-pinyin">běi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯɡ</pron></form>
+            <form corresp="#uuid-05a59d2c-7560-4195-a9b2-ecec341d0166">
+                <orth>北</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">běi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯɡ</pron>
+            </form>
             <def>Bèi 北 is to flee during a battle engagement.
 </def>
 <sense xml:id="uuid-4d585f08-0892-4427-8d21-d8db1f1aa904">
@@ -361,7 +375,15 @@
                 </gramGrp>
   <def>flee</def>
             </sense>
-<sense xml:id="uuid-671e8ce6-a948-445c-9e8c-e6a948a45c09" resp="#CH" tls:created="2022-09-17T02:50:14.704+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>flee to N</def></sense></entry>
+<sense xml:id="uuid-671e8ce6-a948-445c-9e8c-e6a948a45c09" resp="#CH" tls:created="2022-09-17T02:50:14.704+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>flee to N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bc316639-92a3-4279-b361-033c3b19fa22">
             <form corresp="#uuid-b70766fd-8fa3-4174-9134-d39d5f504d70">
 <orth>如</orth>
@@ -541,7 +563,28 @@
                 </gramGrp>
   <def>cause to flee</def>
             </sense>
-<sense xml:id="uuid-85fa5dfe-7f95-4678-932e-2fdd2db0f139" resp="#CH" tls:created="2019-12-16T22:21:00.1+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func></gramGrp><def>be an act of fleeing</def></sense><sense xml:id="uuid-61091355-0678-4885-8913-550678a885b2" resp="#CH" tls:created="2020-03-08T02:52:47.739+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func></gramGrp><def/></sense><sense xml:id="uuid-7c40b7fd-1f31-4895-80b7-fd1f311895d7" resp="#CH" tls:created="2020-03-08T02:53:37.704+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func></gramGrp><def>flee to N in order to V</def></sense></entry>
+<sense xml:id="uuid-85fa5dfe-7f95-4678-932e-2fdd2db0f139" resp="#CH" tls:created="2019-12-16T22:21:00.1+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be an act of fleeing</def>
+            </sense>
+            <sense xml:id="uuid-61091355-0678-4885-8913-550678a885b2" resp="#CH" tls:created="2020-03-08T02:52:47.739+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+            <sense xml:id="uuid-7c40b7fd-1f31-4895-80b7-fd1f311895d7" resp="#CH" tls:created="2020-03-08T02:53:37.704+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func>
+                </gramGrp>
+                <def>flee to N in order to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-779f29d2-230d-4e75-af0d-37d45a78f2d6">
             <form corresp="#uuid-c08005f7-53ef-437f-8436-0236c3ff9acb">
 <orth>逃</orth>
@@ -627,7 +670,15 @@
                 </gramGrp>
   <def>flee from the situation N</def>
             </sense>
-<sense xml:id="uuid-3badc1e0-5151-45b4-adc1-e0515115b40b" resp="#CH" tls:created="2020-05-03T04:30:02.377+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>one's flight; one's having to go into exile</def></sense></entry>
+<sense xml:id="uuid-3badc1e0-5151-45b4-adc1-e0515115b40b" resp="#CH" tls:created="2020-05-03T04:30:02.377+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>one's flight; one's having to go into exile</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3d6a66b8-6870-4fca-8f06-47e2ea3250b9">
             <form corresp="#uuid-8f27e2a3-a9cb-41f1-bce2-cbaef7ae645a">
 <orth>逋</orth>
@@ -748,7 +799,14 @@
                 </gramGrp>
   <def>flee and hide from</def>
             </sense>
-<sense xml:id="uuid-a2d863f1-b287-43d3-9863-f1b28713d3a2" resp="#CH" tls:created="2021-03-27T02:05:38.419+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>hide from the contextually determinate N, keep ways from</def></sense></entry>
+<sense xml:id="uuid-a2d863f1-b287-43d3-9863-f1b28713d3a2" resp="#CH" tls:created="2021-03-27T02:05:38.419+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>hide from the contextually determinate N, keep ways from</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a0b23a3b-7526-4f34-81ae-f2d21e8126ab">
             <form corresp="#uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c">
 <orth>離</orth>
@@ -919,7 +977,15 @@
                 </gramGrp>
   <def>flee to</def>
             </sense>
-<sense xml:id="uuid-b63b4259-16c8-476f-bb42-5916c8976fdd" resp="#dsehnal" tls:created="2023-05-13T18:31:59.155+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-05-13T18:34:43.804+09:00">cause people to flee; expell somebody N</def></sense></entry>
+<sense xml:id="uuid-b63b4259-16c8-476f-bb42-5916c8976fdd" resp="#dsehnal" tls:created="2023-05-13T18:31:59.155+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-05-13T18:34:43.804+09:00">cause people to flee; expell somebody N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f673094d-cc75-4858-b8b9-f52e65f5a403">
             <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-2d2f7b6c-dbf8-4377-b87a-e72d9fe6f64c">
 <orth>出離</orth>
@@ -1279,7 +1345,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-08-15T23:41:24.9+09:00">get away; escape; run away</def>
             </sense>
 <sense xml:id="uuid-749a1636-e26b-48d0-a885-81b8494dc94b">
@@ -1291,7 +1358,14 @@
                 </gramGrp>
   <def>flee to (a place)</def>
             </sense>
-<sense xml:id="uuid-efb0b156-7e06-43d5-b0b1-567e06b3d591" resp="#zadrapa" tls:created="2022-05-12T20:08:42.236+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>prone to run away</def></sense></entry>
+<sense xml:id="uuid-efb0b156-7e06-43d5-b0b1-567e06b3d591" resp="#zadrapa" tls:created="2022-05-12T20:08:42.236+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>prone to run away</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ee485b7d-ba94-4d32-8d16-b4c6b4ed5079">
             <form corresp="#uuid-45fd442a-f46f-4f1c-8d40-f3b52ce9345e #uuid-827fc8a5-b76b-4a8f-b089-157ba660ab3f">
 <orth>避去</orth>
@@ -1341,5 +1415,164 @@
   <def>surrender so as to run away; desert in battle</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-40e1f892-b6ea-4c56-873b-57828307e59c" resp="#CH" tls:created="2019-12-16T19:02:26.585+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-bd59afbe-df3c-4e04-80a3-3cabcc8ea98d" resp="#CH" tls:created="2019-12-16T19:02:26.585+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>flee from</def></sense></entry><entry type="word" xml:id="uuid-48d254b0-7015-4c93-a00e-6eb0e11ead07" resp="#CH" tls:created="2019-12-16T19:02:26.691+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-c7a653a1-dd74-4d85-9697-b7678cd40c4b" resp="#CH" tls:created="2019-12-16T19:02:26.691+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>flee from</def></sense></entry><entry type="word" xml:id="uuid-7bd6bc43-9942-4e1d-a3d4-77f66c46e175" resp="#CH" tls:created="2019-12-16T19:03:00.952+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-91744d6f-4b7c-4960-bafc-c8f3ffc2e654" resp="#CH" tls:created="2019-12-16T19:03:00.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>try to escape from, try to flee from, run away from</def></sense></entry><entry type="word" xml:id="uuid-21a3f95b-d22f-4e34-ad3d-05250f1f772a" resp="#CH" tls:created="2019-12-16T19:03:15.021+09:00"><form corresp="#uuid-45fd442a-f46f-4f1c-8d40-f3b52ce9345e"><orth>避</orth><pron xml:lang="zh-Latn-x-pinyin">bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjieH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">beɡs</pron></form><sense xml:id="uuid-57d67260-ede4-44c2-8b1c-2a0c21a78fe9" resp="#CH" tls:created="2019-12-16T19:03:15.021+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>try to escape from, try to flee from, run away from</def></sense></entry><entry type="word" xml:id="uuid-9c615e78-f68a-4ae6-a15e-78f68adae645" resp="#CH" tls:created="2020-06-03T21:27:13.624+09:00"><form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-67bcf04e-0322-4762-8ba8-a73c49f0127e"><orth>出犇</orth><pron xml:lang="zh-Latn-x-pinyin">chū bēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH pwon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud pɯɯn</pron></form><sense xml:id="uuid-38364609-52b5-42db-b646-0952b522dbbe" resp="#CH" tls:created="2020-06-03T21:27:13.624+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>=出奔 run away; flee</def></sense></entry><entry type="word" xml:id="uuid-54bda11d-02e6-4af1-bda1-1d02e65af1a8" resp="#CH" tls:created="2020-06-03T21:28:01.646+09:00"><form corresp="#uuid-67bcf04e-0322-4762-8ba8-a73c49f0127e"><orth>犇</orth><pron xml:lang="zh-Latn-x-pinyin">bēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pwon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯn</pron></form><sense xml:id="uuid-50ed40ac-5b7c-419b-ad40-ac5b7ce19be2" resp="#CH" tls:created="2020-06-03T21:28:01.646+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>=奔　flee</def></sense><sense xml:id="uuid-80472205-a1b2-4364-8722-05a1b2536404" resp="#wilke" tls:created="2022-07-29T23:31:46.803+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#wilke" updated="2022-07-29T23:32:30.991+09:00">flee to (a place)</def></sense></entry><entry type="word" xml:id="uuid-90afccff-c22a-454c-afcc-ffc22a254c80" resp="#twharbsmeier" tls:created="2021-01-25T04:55:43.686+09:00"><form corresp="#uuid-45fd442a-f46f-4f1c-8d40-f3b52ce9345e #uuid-c08005f7-53ef-437f-8436-0236c3ff9acb"><orth>避逃</orth><pron xml:lang="zh-Latn-x-pinyin">bì táo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjieH daw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">beɡs ɡ-laaw</pron></form><sense xml:id="uuid-4dc1b4bd-4921-4e25-81b4-bd49212e25eb" resp="#twharbsmeier" tls:created="2021-01-25T04:55:43.686+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>escape from</def></sense></entry><entry type="word" xml:id="uuid-f7803c88-110d-4b4b-803c-88110d2b4b93" resp="#CH" tls:created="2021-05-26T18:36:14.345+09:00"><form corresp="#uuid-9e355a67-cb97-45b3-bf23-0389527848b4 #uuid-04b15c32-91e1-40a7-820a-0239bf57929f"><orth>奔逸</orth><pron xml:lang="zh-Latn-x-pinyin">bēn yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pwon yit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯn lid</pron></form><sense xml:id="uuid-db314b6f-4e2a-433d-b14b-6f4e2aa33d7a" resp="#CH" tls:created="2021-05-26T18:36:14.345+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>rush off unrestrained</def></sense></entry><entry type="word" xml:id="uuid-945512d4-6a8d-4ae7-9512-d46a8d1ae75b" resp="#CH" tls:created="2022-08-15T23:36:05.957+09:00"><form corresp="#uuid-9e355a67-cb97-45b3-bf23-0389527848b4 #uuid-a22d346b-5e3c-4167-986d-29306983c065"><orth>奔走</orth><pron xml:lang="zh-Latn-x-pinyin">bēn zǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pwon tsuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯn tsooʔ</pron></form><sense xml:id="uuid-abdb41c1-dc33-4885-9b41-c1dc336885e8" resp="#CH" tls:created="2022-08-15T23:36:05.957+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>flee, run away</def></sense></entry><entry type="word" xml:id="uuid-83a62a43-5173-4bed-a62a-4351731bed3c" resp="#schwermann" tls:created="2022-11-29T01:44:31.955+09:00"><form corresp="#uuid-38bed54c-612b-48ee-8407-f013e8b0bbb9"><orth>逝</orth><pron xml:lang="zh-Latn-x-pinyin">shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljeds</pron></form><sense xml:id="uuid-7bc1bf10-5978-4d3f-81bf-105978ad3f81" resp="#schwermann" tls:created="2022-11-29T01:44:31.955+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>run away (from the contextually determinate place); make off, flee; leave the scene</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-40e1f892-b6ea-4c56-873b-57828307e59c" resp="#CH" tls:created="2019-12-16T19:02:26.585+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-bd59afbe-df3c-4e04-80a3-3cabcc8ea98d" resp="#CH" tls:created="2019-12-16T19:02:26.585+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>flee from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-48d254b0-7015-4c93-a00e-6eb0e11ead07" resp="#CH" tls:created="2019-12-16T19:02:26.691+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-c7a653a1-dd74-4d85-9697-b7678cd40c4b" resp="#CH" tls:created="2019-12-16T19:02:26.691+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>flee from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7bd6bc43-9942-4e1d-a3d4-77f66c46e175" resp="#CH" tls:created="2019-12-16T19:03:00.952+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-91744d6f-4b7c-4960-bafc-c8f3ffc2e654" resp="#CH" tls:created="2019-12-16T19:03:00.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>try to escape from, try to flee from, run away from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-21a3f95b-d22f-4e34-ad3d-05250f1f772a" resp="#CH" tls:created="2019-12-16T19:03:15.021+09:00">
+            <form corresp="#uuid-45fd442a-f46f-4f1c-8d40-f3b52ce9345e">
+                <orth>避</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjieH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">beɡs</pron>
+            </form>
+            <sense xml:id="uuid-57d67260-ede4-44c2-8b1c-2a0c21a78fe9" resp="#CH" tls:created="2019-12-16T19:03:15.021+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>try to escape from, try to flee from, run away from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9c615e78-f68a-4ae6-a15e-78f68adae645" resp="#CH" tls:created="2020-06-03T21:27:13.624+09:00">
+            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-67bcf04e-0322-4762-8ba8-a73c49f0127e">
+                <orth>出犇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chū bēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH pwon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud pɯɯn</pron>
+            </form>
+            <sense xml:id="uuid-38364609-52b5-42db-b646-0952b522dbbe" resp="#CH" tls:created="2020-06-03T21:27:13.624+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>=出奔 run away; flee</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-54bda11d-02e6-4af1-bda1-1d02e65af1a8" resp="#CH" tls:created="2020-06-03T21:28:01.646+09:00">
+            <form corresp="#uuid-67bcf04e-0322-4762-8ba8-a73c49f0127e">
+                <orth>犇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pwon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯn</pron>
+            </form>
+            <sense xml:id="uuid-50ed40ac-5b7c-419b-ad40-ac5b7ce19be2" resp="#CH" tls:created="2020-06-03T21:28:01.646+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>=奔　flee</def>
+            </sense>
+            <sense xml:id="uuid-80472205-a1b2-4364-8722-05a1b2536404" resp="#wilke" tls:created="2022-07-29T23:31:46.803+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#wilke" updated="2022-07-29T23:32:30.991+09:00">flee to (a place)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-90afccff-c22a-454c-afcc-ffc22a254c80" resp="#twharbsmeier" tls:created="2021-01-25T04:55:43.686+09:00">
+            <form corresp="#uuid-45fd442a-f46f-4f1c-8d40-f3b52ce9345e #uuid-c08005f7-53ef-437f-8436-0236c3ff9acb">
+                <orth>避逃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bì táo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjieH daw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">beɡs ɡ-laaw</pron>
+            </form>
+            <sense xml:id="uuid-4dc1b4bd-4921-4e25-81b4-bd49212e25eb" resp="#twharbsmeier" tls:created="2021-01-25T04:55:43.686+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>escape from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f7803c88-110d-4b4b-803c-88110d2b4b93" resp="#CH" tls:created="2021-05-26T18:36:14.345+09:00">
+            <form corresp="#uuid-9e355a67-cb97-45b3-bf23-0389527848b4 #uuid-04b15c32-91e1-40a7-820a-0239bf57929f">
+                <orth>奔逸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bēn yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pwon yit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯn lid</pron>
+            </form>
+            <sense xml:id="uuid-db314b6f-4e2a-433d-b14b-6f4e2aa33d7a" resp="#CH" tls:created="2021-05-26T18:36:14.345+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>rush off unrestrained</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-945512d4-6a8d-4ae7-9512-d46a8d1ae75b" resp="#CH" tls:created="2022-08-15T23:36:05.957+09:00">
+            <form corresp="#uuid-9e355a67-cb97-45b3-bf23-0389527848b4 #uuid-a22d346b-5e3c-4167-986d-29306983c065">
+                <orth>奔走</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bēn zǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pwon tsuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯn tsooʔ</pron>
+            </form>
+            <sense xml:id="uuid-abdb41c1-dc33-4885-9b41-c1dc336885e8" resp="#CH" tls:created="2022-08-15T23:36:05.957+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>flee, run away</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-83a62a43-5173-4bed-a62a-4351731bed3c" resp="#schwermann" tls:created="2022-11-29T01:44:31.955+09:00">
+            <form corresp="#uuid-38bed54c-612b-48ee-8407-f013e8b0bbb9">
+                <orth>逝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljeds</pron>
+            </form>
+            <sense xml:id="uuid-7bc1bf10-5978-4d3f-81bf-105978ad3f81" resp="#schwermann" tls:created="2022-11-29T01:44:31.955+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>run away (from the contextually determinate place); make off, flee; leave the scene</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-22554eec-b80f-44ae-9918-f7be39e2287b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-22554eec-b80f-44ae-9918-f7be39e2287b">
 <head>HEAR</head>
     <list type="altnames">
 <item>PERCEIVE</item>
@@ -262,9 +263,65 @@
                 </gramGrp>
   <def>hear that S</def>
             </sense>
-<sense xml:id="uuid-6ede0c78-f624-4857-afd4-83d6fbdb5eea" resp="#zadrapa" tls:created="2019-11-25T20:52:18.987+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>what one hears</def></sense><sense xml:id="uuid-60d74ee6-7244-4e63-a09b-5077ac728ab3" resp="#CH" tls:created="2019-12-04T19:26:58.584+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>hear about N; have heard about N</def></sense><sense xml:id="uuid-88ac7048-691c-4d09-93ff-d422978693ab" resp="#CH" tls:created="2019-12-30T23:35:25.081+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vto.Npro=S</tls:syn-func></gramGrp><def>have heard from good sources that S 吾聞之</def></sense><sense xml:id="uuid-2a4f2295-7413-4045-ac0f-b7b0111ec9f0" resp="#CH" tls:created="2020-01-11T04:36:37.73+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vttoN1. prep N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be heard by</def></sense><sense xml:id="uuid-75910444-d8e4-4e9b-9b5d-f8dd3a8e63f5" resp="#CH" tls:created="2020-01-23T02:15:22.738+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vto.npro=S</tls:syn-func></gramGrp><def>have heard it said that S</def></sense><sense xml:id="uuid-67b4b477-12d8-4bd9-b4b4-7712d86bd9f0" resp="#CH" tls:created="2021-03-07T20:14:39.627+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat></gramGrp><def>get to hear clearly</def></sense><sense xml:id="uuid-465bca18-9b81-44e3-9bca-189b8124e3bd" resp="#zadrapa" tls:created="2022-02-08T22:01:41.559+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>hear things</def></sense></entry>
+<sense xml:id="uuid-6ede0c78-f624-4857-afd4-83d6fbdb5eea" resp="#zadrapa" tls:created="2019-11-25T20:52:18.987+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>what one hears</def>
+            </sense>
+            <sense xml:id="uuid-60d74ee6-7244-4e63-a09b-5077ac728ab3" resp="#CH" tls:created="2019-12-04T19:26:58.584+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>hear about N; have heard about N</def>
+            </sense>
+            <sense xml:id="uuid-88ac7048-691c-4d09-93ff-d422978693ab" resp="#CH" tls:created="2019-12-30T23:35:25.081+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vto.Npro=S</tls:syn-func>
+                </gramGrp>
+                <def>have heard from good sources that S 吾聞之</def>
+            </sense>
+            <sense xml:id="uuid-2a4f2295-7413-4045-ac0f-b7b0111ec9f0" resp="#CH" tls:created="2020-01-11T04:36:37.73+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vttoN1. prep N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be heard by</def>
+            </sense>
+            <sense xml:id="uuid-75910444-d8e4-4e9b-9b5d-f8dd3a8e63f5" resp="#CH" tls:created="2020-01-23T02:15:22.738+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vto.npro=S</tls:syn-func>
+                </gramGrp>
+                <def>have heard it said that S</def>
+            </sense>
+            <sense xml:id="uuid-67b4b477-12d8-4bd9-b4b4-7712d86bd9f0" resp="#CH" tls:created="2021-03-07T20:14:39.627+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat>
+                </gramGrp>
+                <def>get to hear clearly</def>
+            </sense>
+            <sense xml:id="uuid-465bca18-9b81-44e3-9bca-189b8124e3bd" resp="#zadrapa" tls:created="2022-02-08T22:01:41.559+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>hear things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-928495cb-886a-4076-bf77-18d2db42e0e1">
-            <form corresp="#uuid-a7f14c31-cea4-46c4-89c9-604a01a5c6b0"><orth>聰</orth><pron xml:lang="zh-Latn-x-pinyin">cōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhooŋ</pron></form>
+            <form corresp="#uuid-a7f14c31-cea4-46c4-89c9-604a01a5c6b0">
+                <orth>聰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhooŋ</pron>
+            </form>
 <sense xml:id="uuid-00dc185c-201c-4cc5-8ef4-7a47e9e423b9">
 <gramGrp>
                     <pos>V</pos>
@@ -272,7 +329,14 @@
                 </gramGrp>
   <def>be clear of hearing</def>
             </sense>
-<sense xml:id="uuid-27208c63-38f6-48fe-a08c-6338f6a8fefc" resp="#dsehnal" tls:created="2024-01-21T20:17:07.622+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>clear and acute (of hearing)</def></sense></entry>
+<sense xml:id="uuid-27208c63-38f6-48fe-a08c-6338f6a8fefc" resp="#dsehnal" tls:created="2024-01-21T20:17:07.622+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>clear and acute (of hearing)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-210f823a-8a17-46b3-bf56-55be7e3a3663">
             <form corresp="#uuid-50da5830-5134-4b24-8b52-bf44679f9f44 #uuid-afbc5bef-c4c6-475e-bb6f-c1654a7bef5f">
 <orth>傳聞</orth>
@@ -357,5 +421,67 @@
   <def>hear about</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-72518265-099d-419a-9182-65099d719afa" resp="#CH" tls:created="2020-04-11T01:20:09.94+09:00"><form corresp="#uuid-fd7d0e25-fd3a-4fea-9d7d-597f13ae5f1a #uuid-314beff2-2d71-4671-8bfb-3d3d4b16164a"><orth>側聞</orth><pron xml:lang="zh-Latn-x-pinyin">cè wèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsrik mjunH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skrɯɡ mɯns</pron></form><sense xml:id="uuid-abc373eb-f58a-4062-8373-ebf58af062e1" resp="#CH" tls:created="2020-04-11T01:20:09.94+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func><tls:sem-feat corresp="#uuid-801ee8d9-7339-4aa1-ae18-036f9997e6e2">polite</tls:sem-feat></gramGrp><def>overhear from the sidelines, overhear as an outsider that S</def></sense></entry><entry type="word" xml:id="uuid-9aa7496f-7640-43c6-a749-6f7640d3c690" resp="#CH" tls:created="2021-03-07T20:12:13.579+09:00"><form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-afbc5bef-c4c6-475e-bb6f-c1654a7bef5f"><orth>相聞</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng wén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjang mjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ mɯn</pron></form><sense xml:id="uuid-88860542-7b02-4877-8605-427b0268772d" resp="#CH" tls:created="2021-03-07T20:12:13.579+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be audible to each other (and thus constitute a dense population)</def></sense></entry><entry type="word" xml:id="uuid-0f1043ef-2ba5-420e-9043-ef2ba5720ecb" resp="#CH" tls:created="2024-03-06T17:57:08.603+09:00"><form corresp="#uuid-314beff2-2d71-4671-8bfb-3d3d4b16164a #uuid-524214fa-d098-4975-94b4-9556edfa323b"><orth>聞諸</orth><pron xml:lang="zh-Latn-x-pinyin">wèn zhē</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjunH tsyae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯns klja</pron></form><sense xml:id="uuid-645fb10b-d209-4bb9-9fb1-0bd2098bb988" resp="#CH" tls:created="2024-03-06T17:57:08.603+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>have it from the mouth of N; have heard it directly from</def></sense></entry><entry type="word" xml:id="uuid-c5c1d11c-f4a7-4b67-81d1-1cf4a78b67cb" resp="#CH" tls:created="2024-03-06T18:31:13.518+09:00"><form corresp="#uuid-314beff2-2d71-4671-8bfb-3d3d4b16164a #uuid-f9972491-2a8b-4ba4-a7e7-6e87ada99769"><orth>聞之</orth><pron xml:lang="zh-Latn-x-pinyin">wèn zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjunH tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯns kljɯ</pron></form><sense xml:id="uuid-6028a44b-e7b6-4448-a8a4-4be7b64448a7" resp="#CH" tls:created="2024-03-06T18:31:13.518+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>have been told, have heard that 吾聞之 “I'm told"</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-72518265-099d-419a-9182-65099d719afa" resp="#CH" tls:created="2020-04-11T01:20:09.94+09:00">
+            <form corresp="#uuid-fd7d0e25-fd3a-4fea-9d7d-597f13ae5f1a #uuid-314beff2-2d71-4671-8bfb-3d3d4b16164a">
+                <orth>側聞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cè wèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsrik mjunH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skrɯɡ mɯns</pron>
+            </form>
+            <sense xml:id="uuid-abc373eb-f58a-4062-8373-ebf58af062e1" resp="#CH" tls:created="2020-04-11T01:20:09.94+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2560eab-8090-475f-9b7a-c80bd21d4938">VPtoS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-801ee8d9-7339-4aa1-ae18-036f9997e6e2">polite</tls:sem-feat>
+                </gramGrp>
+                <def>overhear from the sidelines, overhear as an outsider that S</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9aa7496f-7640-43c6-a749-6f7640d3c690" resp="#CH" tls:created="2021-03-07T20:12:13.579+09:00">
+            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-afbc5bef-c4c6-475e-bb6f-c1654a7bef5f">
+                <orth>相聞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng wén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjang mjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ mɯn</pron>
+            </form>
+            <sense xml:id="uuid-88860542-7b02-4877-8605-427b0268772d" resp="#CH" tls:created="2021-03-07T20:12:13.579+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be audible to each other (and thus constitute a dense population)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0f1043ef-2ba5-420e-9043-ef2ba5720ecb" resp="#CH" tls:created="2024-03-06T17:57:08.603+09:00">
+            <form corresp="#uuid-314beff2-2d71-4671-8bfb-3d3d4b16164a #uuid-524214fa-d098-4975-94b4-9556edfa323b">
+                <orth>聞諸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèn zhē</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjunH tsyae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯns klja</pron>
+            </form>
+            <sense xml:id="uuid-645fb10b-d209-4bb9-9fb1-0bd2098bb988" resp="#CH" tls:created="2024-03-06T17:57:08.603+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>have it from the mouth of N; have heard it directly from</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5c1d11c-f4a7-4b67-81d1-1cf4a78b67cb" resp="#CH" tls:created="2024-03-06T18:31:13.518+09:00">
+            <form corresp="#uuid-314beff2-2d71-4671-8bfb-3d3d4b16164a #uuid-f9972491-2a8b-4ba4-a7e7-6e87ada99769">
+                <orth>聞之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèn zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjunH tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯns kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-6028a44b-e7b6-4448-a8a4-4be7b64448a7" resp="#CH" tls:created="2024-03-06T18:31:13.518+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have been told, have heard that 吾聞之 “I'm told"</def>
+            </sense>
+        </entry>
+    </div>
 </div>

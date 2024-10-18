@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0a955378-7787-4695-b9d0-15e4f4f22c3e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0a955378-7787-4695-b9d0-15e4f4f22c3e">
 <head>METHOD</head>
     <list type="altnames">
 <item>PROCEDURE</item>
@@ -19,7 +20,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:29:52.005+09:00">SYSTEM of ACTS USING which one is ABLE to SUCCEED IN a TASK. </p></div>
+    <p resp="#CH" modified="2021-03-18T18:29:52.005+09:00">SYSTEM of ACTS USING which one is ABLE to SUCCEED IN a TASK. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The most general word for method or technique is shù 術, and the professional technique here referred is typically publicly accessible.</p>
@@ -354,7 +356,21 @@
                 </gramGrp>
   <def>professional, specialised</def>
             </sense>
-<sense xml:id="uuid-9ebcca4c-9cea-426c-a12e-e11166894a4a" resp="#CH" tls:created="2020-02-07T20:14:40.176+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>prescribed standard or literary recipe</def></sense><sense xml:id="uuid-c9d7c32b-0aee-40da-97c3-2b0aee70da86" resp="#CH" tls:created="2021-10-07T04:56:06.82+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>have sound principles; be principled</def></sense></entry>
+<sense xml:id="uuid-9ebcca4c-9cea-426c-a12e-e11166894a4a" resp="#CH" tls:created="2020-02-07T20:14:40.176+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>prescribed standard or literary recipe</def>
+            </sense>
+            <sense xml:id="uuid-c9d7c32b-0aee-40da-97c3-2b0aee70da86" resp="#CH" tls:created="2021-10-07T04:56:06.82+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>have sound principles; be principled</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-104cb724-ec09-4dc7-acda-908a622339f0">
             <form corresp="#uuid-45ad686c-5637-4415-9838-f6fccab6e682">
 <orth>權</orth>
@@ -429,14 +445,30 @@
                 </gramGrp>
   <def>BUDDH: the method&gt;  the Buddhist teaching; SANSKRIT: dharma</def>
             </sense>
-<sense xml:id="uuid-dd411787-a375-4dce-8117-87a3756dce6b" resp="#CH" tls:created="2022-12-02T01:24:11.183+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-cd69f73d-3126-4a11-a9f7-3d31269a113f">administration</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-12-02T01:31:40.904+09:00">law-based administrative procedures; proper legal process</def></sense><sense xml:id="uuid-9caa70a4-9e12-4c36-aa70-a49e12dc36c6" resp="#CH" tls:created="2023-02-13T00:36:35.533+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2023-02-23T00:29:02.307+09:00">standard procedure; standard preferred method, standard technique</def></sense><sense xml:id="uuid-d9029bbb-bc1e-465a-8059-be58cece0010">
+<sense xml:id="uuid-dd411787-a375-4dce-8117-87a3756dce6b" resp="#CH" tls:created="2022-12-02T01:24:11.183+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cd69f73d-3126-4a11-a9f7-3d31269a113f">administration</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-12-02T01:31:40.904+09:00">law-based administrative procedures; proper legal process</def>
+            </sense>
+            <sense xml:id="uuid-9caa70a4-9e12-4c36-aa70-a49e12dc36c6" resp="#CH" tls:created="2023-02-13T00:36:35.533+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-02-23T00:29:02.307+09:00">standard procedure; standard preferred method, standard technique</def>
+            </sense>
+            <sense xml:id="uuid-d9029bbb-bc1e-465a-8059-be58cece0010">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
   <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
                 </gramGrp>
   <def resp="#CH" updated="2023-02-13T00:29:32.775+09:00">先王之法"norms and procedures of the first kings":(non-penal) norms and procedures; laws and administrative rules; set of explicit rules governing a social group; norms</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a9c9ee23-f755-49ea-a83c-7648c67c210d">
             <form corresp="#uuid-b0f78e9d-8436-4cbe-a110-9a39cac62d04">
 <orth>端</orth>
@@ -497,7 +529,36 @@
                 </gramGrp>
   <def>transmit or present one's method/philosophy (????)</def>
             </sense>
-<sense xml:id="uuid-fc210cba-ce71-4f31-a9b4-6a53e6962c75" resp="#CH" tls:created="2019-11-15T02:01:40.43+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func></gramGrp><def resp="#CH" updated="2020-08-16T20:17:44.311+09:00">proper technique, proper method of V-ing</def></sense><sense xml:id="uuid-8352184e-9e02-4b83-a7e8-2dc305258913" resp="#CH" tls:created="2019-12-06T20:57:07.607+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-04-14T18:24:54.225+09:00">technique; appropriate methods; methodology; art</def></sense><sense xml:id="uuid-67f97c38-c792-4308-b97c-38c792c308f3" resp="#twharbsmeier" tls:created="2020-04-15T22:51:23.387+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>technique; appropriate methods; methodology; art</def></sense><sense xml:id="uuid-e73e4fb5-dd03-40d5-be4f-b5dd0390d58a" resp="#CH" tls:created="2022-05-30T01:41:28.364+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>methodically，systematically, using a definite technique</def></sense></entry>
+<sense xml:id="uuid-fc210cba-ce71-4f31-a9b4-6a53e6962c75" resp="#CH" tls:created="2019-11-15T02:01:40.43+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-08-16T20:17:44.311+09:00">proper technique, proper method of V-ing</def>
+            </sense>
+            <sense xml:id="uuid-8352184e-9e02-4b83-a7e8-2dc305258913" resp="#CH" tls:created="2019-12-06T20:57:07.607+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-14T18:24:54.225+09:00">technique; appropriate methods; methodology; art</def>
+            </sense>
+            <sense xml:id="uuid-67f97c38-c792-4308-b97c-38c792c308f3" resp="#twharbsmeier" tls:created="2020-04-15T22:51:23.387+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>technique; appropriate methods; methodology; art</def>
+            </sense>
+            <sense xml:id="uuid-e73e4fb5-dd03-40d5-be4f-b5dd0390d58a" resp="#CH" tls:created="2022-05-30T01:41:28.364+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>methodically，systematically, using a definite technique</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2312bfc2-d93e-4240-979f-199503b388d5">
             <form corresp="#uuid-59f7f19e-4dab-49d4-a6d1-e0b7151035fe">
 <orth>路</orth>
@@ -590,7 +651,7 @@
                     <usg type="valuation">+</usg>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
-  <def>the (morally correct) Way; the proper non-substance-like abstract metaphysical principle ensuring that all is well in the world</def>
+  <def resp="#CH" updated="2024-09-21T20:18:02.936+09:00">大道　the (morally correct) Way; the proper non-substance-like abstract metaphysical principle ensuring that all is well in the world</def>
             </sense>
 <sense xml:id="uuid-fb72f1a5-6178-4456-af09-a27a84e1aa10">
 <gramGrp>
@@ -599,7 +660,7 @@
   <tls:sem-feat corresp="#uuid-cc0c4e24-aff2-438e-8c4e-24aff2a38e8c">special method</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>mass noun that can be counted and specified as being somebody's: way, or the way of doing something;  ways (of the world)</def>
+  <def resp="#CH" updated="2024-09-21T20:18:00.588+09:00">小道　mass noun that can be counted and specified as being somebody's: way, or the way of doing something; ways (of the world)</def>
             </sense>
 <sense xml:id="uuid-7433cde4-f1e8-4c63-abb6-171db31929ce">
 <gramGrp>
@@ -623,7 +684,112 @@
                 </gramGrp>
   <def>take as one's method/way/Way</def>
             </sense>
-<sense xml:id="uuid-b56da1c2-d33a-43a5-af61-a13b55605efe" resp="#CH" tls:created="2019-12-08T04:30:42.225+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def resp="#twharbsmeier" updated="2020-04-16T01:03:10.993+09:00">the proper Way for an N</def></sense><sense xml:id="uuid-e5a3e392-d3b3-4252-88df-28cb4f7be78d" resp="#CH" tls:created="2019-12-09T19:40:46.52+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>negative: way of behaviour</def></sense><sense xml:id="uuid-c34cdedb-c7a5-4010-95b0-7491375e9629" resp="#CH" tls:created="2020-01-11T04:37:59.769+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func></gramGrp><def>be the proper Way</def></sense><sense xml:id="uuid-e8992bf0-6a75-43ab-992b-f06a7513abf9" resp="#CH" tls:created="2020-04-14T18:09:18.896+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>in accordance with the way</def></sense><sense xml:id="uuid-c281fafd-63d0-42a6-81fa-fd63d092a616" resp="#CH" tls:created="2020-08-16T20:18:51.985+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func></gramGrp><def resp="#CH" updated="2021-07-09T23:48:40.092+09:00">(the proper) way to V</def></sense><sense xml:id="uuid-50049f74-3b28-4b2c-849f-743b28db2c3d" resp="#CH" tls:created="2020-08-16T20:20:58.547+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-94a2e04d-fa3a-4686-a2e0-4dfa3a06866b">nab.post-Nab</tls:syn-func></gramGrp><def resp="#CH" updated="2021-07-09T23:50:19.988+09:00">the proper way of Nab-ing</def></sense><sense xml:id="uuid-45de6087-fa95-4dcf-9e60-87fa952dcf2c" resp="#CH" tls:created="2021-04-03T18:35:26.382+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e50bc283-bf9d-4693-8bc2-83bf9d2693df">nab.c:post-N</tls:syn-func><tls:sem-feat corresp="#uuid-9925d021-2d53-48c5-baeb-e1cfe9cf683b">N=plur</tls:sem-feat></gramGrp><def>countable: (different ways) of the various N (?)</def></sense><sense xml:id="uuid-61c0204e-32aa-4276-8020-4e32aa92767b" resp="#CH" tls:created="2021-05-05T01:27:41.134+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-cc93029c-2a8c-42de-9302-9c2a8cc2de4e">nab.post-npro</tls:syn-func><tls:sem-feat corresp="#uuid-dd2603c9-f1da-4835-a603-c9f1da283508">restricted</tls:sem-feat></gramGrp><def>(this) Way</def></sense><sense xml:id="uuid-2aa96bf6-6dd3-4511-a96b-f66dd3551190" resp="#zadrapa" tls:created="2021-05-18T15:47:23.95+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#">concept</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2021-05-18T15:49:52.868+09:00">the concept of "the correct way"</def></sense><sense xml:id="uuid-9c7e5936-c0c3-4387-be59-36c0c3c387de" resp="#zadrapa" tls:created="2022-02-18T18:59:09.757+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>with respect to methods</def></sense><sense xml:id="uuid-788cb33b-5ad2-4e03-8cb3-3b5ad27e031a" resp="#CH" tls:created="2022-08-24T00:26:15.055+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-072d8f77-a22b-4ab3-ad8f-77a22b8ab314">nab.post-Npr</tls:syn-func></gramGrp><def>the methods of Npr; the ideology of Npr</def></sense><sense xml:id="uuid-d07e1e84-b6cd-47ff-be1e-84b6cd37ffa0" resp="#CH" tls:created="2022-09-17T00:51:25.947+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-72d73dc2-b588-455b-973d-c2b588555b3b">Way</tls:sem-feat></gramGrp><def>the ideal way of handling life, the Way</def></sense><sense xml:id="uuid-66076b48-1f66-433e-876b-481f66e33e86" resp="#dsehnal" tls:created="2023-05-13T16:58:04.442+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-62a630be-58ae-44f4-b858-a7540b2de8d3">moral</tls:sem-feat></gramGrp><def>somebody's morally correct standards and methods</def></sense><sense xml:id="uuid-dc1600b9-928e-4b2f-9600-b9928e5b2f72" resp="#CH" tls:created="2024-07-22T21:47:47.926+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f19ed845-d4af-4efe-9ed8-45d4af0efe5c">ways</tls:sem-feat></gramGrp><def>LY 1.11 父之道“way of doing things”： routines; ways of behaviour</def></sense></entry>
+<sense xml:id="uuid-b56da1c2-d33a-43a5-af61-a13b55605efe" resp="#CH" tls:created="2019-12-08T04:30:42.225+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#twharbsmeier" updated="2020-04-16T01:03:10.993+09:00">the proper Way for an N</def>
+            </sense>
+            <sense xml:id="uuid-e5a3e392-d3b3-4252-88df-28cb4f7be78d" resp="#CH" tls:created="2019-12-09T19:40:46.52+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-09-21T20:18:16.77+09:00">小道 negative: way of behaviour</def>
+            </sense>
+            <sense xml:id="uuid-c34cdedb-c7a5-4010-95b0-7491375e9629" resp="#CH" tls:created="2020-01-11T04:37:59.769+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be the proper Way</def>
+            </sense>
+            <sense xml:id="uuid-e8992bf0-6a75-43ab-992b-f06a7513abf9" resp="#CH" tls:created="2020-04-14T18:09:18.896+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-09-21T20:18:55.384+09:00">小道　in accordance with the way</def>
+            </sense>
+            <sense xml:id="uuid-c281fafd-63d0-42a6-81fa-fd63d092a616" resp="#CH" tls:created="2020-08-16T20:18:51.985+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-68973f54-02fb-41b8-bdca-5ec6b420de05">nab.post-V</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-07-09T23:48:40.092+09:00">(the proper) way to V</def>
+            </sense>
+            <sense xml:id="uuid-50049f74-3b28-4b2c-849f-743b28db2c3d" resp="#CH" tls:created="2020-08-16T20:20:58.547+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-94a2e04d-fa3a-4686-a2e0-4dfa3a06866b">nab.post-Nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-07-09T23:50:19.988+09:00">the proper way of Nab-ing</def>
+            </sense>
+            <sense xml:id="uuid-45de6087-fa95-4dcf-9e60-87fa952dcf2c" resp="#CH" tls:created="2021-04-03T18:35:26.382+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e50bc283-bf9d-4693-8bc2-83bf9d2693df">nab.c:post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9925d021-2d53-48c5-baeb-e1cfe9cf683b">N=plur</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-09-21T20:19:36.944+09:00">小道　countable: (different ways) of the various N (?)</def>
+            </sense>
+            <sense xml:id="uuid-61c0204e-32aa-4276-8020-4e32aa92767b" resp="#CH" tls:created="2021-05-05T01:27:41.134+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-cc93029c-2a8c-42de-9302-9c2a8cc2de4e">nab.post-npro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-dd2603c9-f1da-4835-a603-c9f1da283508">restricted</tls:sem-feat>
+                </gramGrp>
+                <def>(this) Way</def>
+            </sense>
+            <sense xml:id="uuid-2aa96bf6-6dd3-4511-a96b-f66dd3551190" resp="#zadrapa" tls:created="2021-05-18T15:47:23.95+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#">concept</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-05-18T15:49:52.868+09:00">the concept of "the correct way"</def>
+            </sense>
+            <sense xml:id="uuid-9c7e5936-c0c3-4387-be59-36c0c3c387de" resp="#zadrapa" tls:created="2022-02-18T18:59:09.757+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-09-21T20:19:13.445+09:00">小道　with respect to methods</def>
+            </sense>
+            <sense xml:id="uuid-788cb33b-5ad2-4e03-8cb3-3b5ad27e031a" resp="#CH" tls:created="2022-08-24T00:26:15.055+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-072d8f77-a22b-4ab3-ad8f-77a22b8ab314">nab.post-Npr</tls:syn-func>
+                </gramGrp>
+                <def>the methods of Npr; the ideology of Npr</def>
+            </sense>
+            <sense xml:id="uuid-d07e1e84-b6cd-47ff-be1e-84b6cd37ffa0" resp="#CH" tls:created="2022-09-17T00:51:25.947+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-72d73dc2-b588-455b-973d-c2b588555b3b">Way</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-09-21T20:18:36.605+09:00">大道 the ideal way of handling life, the Way</def>
+            </sense>
+            <sense xml:id="uuid-66076b48-1f66-433e-876b-481f66e33e86" resp="#dsehnal" tls:created="2023-05-13T16:58:04.442+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-037caa6b-768b-4de5-bcaa-6b768bfde5c6">nab[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-62a630be-58ae-44f4-b858-a7540b2de8d3">moral</tls:sem-feat>
+                </gramGrp>
+                <def>somebody's morally correct standards and methods</def>
+            </sense>
+            <sense xml:id="uuid-dc1600b9-928e-4b2f-9600-b9928e5b2f72" resp="#CH" tls:created="2024-07-22T21:47:47.926+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f19ed845-d4af-4efe-9ed8-45d4af0efe5c">ways</tls:sem-feat>
+                </gramGrp>
+                <def>LY 1.11 父之道“way of doing things”： routines; ways of behaviour</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a11a68a7-b1f3-4dca-aa9c-eb4ecac3f87d">
             <form corresp="#uuid-5ebd0b82-459c-41a9-8e07-7556ee85d9c1">
 <orth>風</orth>
@@ -837,7 +1003,36 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-09-06T19:57:40.449+09:00">the means by which N V-s; the ways in which N V-s; the method by which N V-s</def>
             </sense>
-<sense xml:id="uuid-d4a6575d-aab5-47d3-a722-29bfd293b706" resp="#zadrapa" tls:created="2019-10-26T04:17:26.051+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e426cd64-014e-44a6-a6cd-64014e64a654">npro-vt.-V:postN{SUBJ}之</tls:syn-func></gramGrp><def>the means by which, the way in which</def></sense><sense xml:id="uuid-70b5b32d-b2e1-428e-b5b3-2db2e1b28efc" resp="#CH" tls:created="2020-04-28T20:45:30.381+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d095f424-3a6e-4ade-95f4-243a6eaade01">npro-vt.-V</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-28T20:48:54.43+09:00">the means or method by which the explicit or implicit subject of V V-s: that by means of which</def></sense><sense xml:id="uuid-bf3d9594-2dd5-44a3-bd95-942dd584a3b4" resp="#CH" tls:created="2022-09-01T18:17:03.669+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-06T20:03:08.764+09:00">how to, using what (the subject) V-s</def></sense><sense xml:id="uuid-f6d5c268-cef0-4365-95c2-68cef0a3655e" resp="#CH" tls:created="2022-09-28T17:47:15.024+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-1c447268-e54e-4054-8472-68e54e905440">NPadV{PASS}.postN{SUBJ}之</tls:syn-func><tls:sem-feat corresp="#uuid-b6acc293-3b56-4f6a-acc2-933b564f6a3b">the way how</tls:sem-feat></gramGrp><def>鬼神之所以立"the way the ghosts and spirits were established": the way in which</def></sense></entry>
+<sense xml:id="uuid-d4a6575d-aab5-47d3-a722-29bfd293b706" resp="#zadrapa" tls:created="2019-10-26T04:17:26.051+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e426cd64-014e-44a6-a6cd-64014e64a654">npro-vt.-V:postN{SUBJ}之</tls:syn-func>
+                </gramGrp>
+                <def>the means by which, the way in which</def>
+            </sense>
+            <sense xml:id="uuid-70b5b32d-b2e1-428e-b5b3-2db2e1b28efc" resp="#CH" tls:created="2020-04-28T20:45:30.381+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d095f424-3a6e-4ade-95f4-243a6eaade01">npro-vt.-V</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-28T20:48:54.43+09:00">the means or method by which the explicit or implicit subject of V V-s: that by means of which</def>
+            </sense>
+            <sense xml:id="uuid-bf3d9594-2dd5-44a3-bd95-942dd584a3b4" resp="#CH" tls:created="2022-09-01T18:17:03.669+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-291cb04a-a7fc-4fcf-b676-a103aac9ed9a">NPadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-06T20:03:08.764+09:00">how to, using what (the subject) V-s</def>
+            </sense>
+            <sense xml:id="uuid-f6d5c268-cef0-4365-95c2-68cef0a3655e" resp="#CH" tls:created="2022-09-28T17:47:15.024+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-1c447268-e54e-4054-8472-68e54e905440">NPadV{PASS}.postN{SUBJ}之</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b6acc293-3b56-4f6a-acc2-933b564f6a3b">the way how</tls:sem-feat>
+                </gramGrp>
+                <def>鬼神之所以立"the way the ghosts and spirits were established": the way in which</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0cc8763-10d8-4ce7-bd4f-4f03629cf13c">
             <form corresp="#uuid-005e2d6e-3ed2-4790-8c36-b2081e6d928d #uuid-7b986470-cb30-4044-91f0-987f59366b4d">
 <orth>手腳</orth>
@@ -1028,7 +1223,15 @@
                 </gramGrp>
   <def>informed by the law-based art of government</def>
             </sense>
-<sense xml:id="uuid-9920f7ec-dd6a-4a79-9df2-ec7e5c8f165a" resp="#CH" tls:created="2020-01-04T01:21:29.204+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>method and techniques&gt; methods, procedures</def></sense></entry>
+<sense xml:id="uuid-9920f7ec-dd6a-4a79-9df2-ec7e5c8f165a" resp="#CH" tls:created="2020-01-04T01:21:29.204+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>method and techniques&gt; methods, procedures</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-00cf895c-fe73-4529-89e8-0d62b97a0f3a">
             <form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b">
 <orth>法門</orth>
@@ -1174,7 +1377,21 @@
                 </gramGrp>
   <def resp="#Valerie.Kiel" updated="2022-09-11T00:50:14.334+09:00">methods of the Dao, professional skills</def>
             </sense>
-<sense xml:id="uuid-330ade0b-dc86-4b9a-8ade-0bdc862b9ae8" resp="#CH" tls:created="2022-08-27T20:40:19.791+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func></gramGrp><def>(the N) constituted by the philosophy of the Way</def></sense><sense xml:id="uuid-64314c16-5a2a-47a5-b14c-165a2a47a59a" resp="#Valerie.Kiel" tls:created="2022-09-11T00:54:30.576+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>the correct way; the correct/proper technique</def></sense></entry>
+<sense xml:id="uuid-330ade0b-dc86-4b9a-8ade-0bdc862b9ae8" resp="#CH" tls:created="2022-08-27T20:40:19.791+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func>
+                </gramGrp>
+                <def>(the N) constituted by the philosophy of the Way</def>
+            </sense>
+            <sense xml:id="uuid-64314c16-5a2a-47a5-b14c-165a2a47a59a" resp="#Valerie.Kiel" tls:created="2022-09-11T00:54:30.576+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>the correct way; the correct/proper technique</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-06b4d746-599e-4044-86ab-d4162c06dcba">
             <form corresp="#uuid-ce946679-e50e-4991-a24a-3a214d57dcfc #uuid-ab11b041-3ba1-496b-ad1e-f9d5b1112cf8">
 <orth>都術</orth>
@@ -1378,8 +1595,251 @@
   <def>method to do so</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-6cc7b5a8-6f96-4b16-920f-baa9b8a90cdf" resp="#CH" tls:created="2019-12-04T00:05:03.628+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0ec417e9-2d7e-47bf-8846-ba7c3adcfaa9" resp="#CH" tls:created="2019-12-04T00:05:03.628+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-523feb6c-418f-43d7-a46c-d14351943136">NPab.adV</tls:syn-func></gramGrp><def>by this method</def></sense></entry><entry type="word" xml:id="uuid-db587e84-8749-4e3e-910c-fff58f03f7f2" resp="#CH" tls:created="2019-12-04T00:05:16.241+09:00"><form corresp="#uuid-aa70f069-1415-44be-8495-b9837c26b22d #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c"><orth>聊以</orth><pron xml:lang="zh-Latn-x-pinyin">liáo yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lew yiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-ruu k-lɯʔ</pron></form><sense xml:id="uuid-68027125-4029-4173-a4d2-489fbaf707b0" resp="#CH" tls:created="2019-12-04T00:05:16.241+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-523feb6c-418f-43d7-a46c-d14351943136">NPab.adV</tls:syn-func></gramGrp><def>by this method</def></sense></entry><entry type="word" xml:id="uuid-4d2c7026-83f7-4c8c-935b-1a72314fabc0" resp="#CH" tls:created="2019-12-05T23:16:29.904+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-8fdccbbc-1c5f-496a-98c4-f624cf1ba14e" resp="#CH" tls:created="2019-12-05T23:16:29.904+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>method to be used</def></sense></entry><entry type="word" xml:id="uuid-a5ee1e6a-c5e0-4143-9271-3c343c8270e6" resp="#CH" tls:created="2020-01-31T05:41:22.982+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-ad532853-c0cf-42a5-ace0-8ed1a1eba611" resp="#CH" tls:created="2020-01-31T05:41:22.982+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>systematic administrative procedures</def></sense></entry><entry type="word" xml:id="uuid-e1ef750d-a5c5-40db-9946-333c3660f97c" resp="#CH" tls:created="2020-01-31T05:41:37.769+09:00"><form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-b1ef6899-e684-4698-a583-dcc3b98daaa7"><orth>法度</orth><pron xml:lang="zh-Latn-x-pinyin">fǎ duó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjop dak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pab ɡ-laaɡ</pron></form><sense xml:id="uuid-f0ccb51a-7c40-417f-b9ee-d2d859dd9431" resp="#CH" tls:created="2020-01-31T05:41:37.769+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>systematic administrative procedures</def></sense><sense xml:id="uuid-e73ebeb4-15e9-4ed2-91e3-4c422c688f17" resp="#CH" tls:created="2020-01-31T18:21:50.345+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>read fǎ dù follow systematic administrative procedures</def></sense><sense xml:id="uuid-6c461995-fd00-4ec2-a442-9c05e0fd67ed" resp="#CH" tls:created="2020-01-31T21:53:38.979+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be in accordance with prescribed systematic administrative rules</def></sense></entry><entry type="word" xml:id="uuid-b751d0aa-6675-4412-8d56-99f5a2f4cfa1" resp="#CH" tls:created="2020-02-07T20:16:59.969+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-fc53b9cc-93ea-4e76-9874-4e473c082105" resp="#CH" tls:created="2020-02-07T20:16:59.969+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>precise circle: prescribed (traditional) literary method</def></sense></entry><entry type="word" xml:id="uuid-7843ea59-ee1b-4f75-8097-b4f1aafc35d3" resp="#CH" tls:created="2020-02-07T20:17:07.225+09:00"><form corresp="#uuid-330e25a2-1611-4048-b2cb-ec2e25ca905b"><orth>圓</orth><pron xml:lang="zh-Latn-x-pinyin">yuán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢon</pron></form><sense xml:id="uuid-60e36388-5e62-4ea2-ac4e-8bd67beac5ab" resp="#CH" tls:created="2020-02-07T20:17:07.225+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>precise circle: prescribed (traditional) literary method</def></sense></entry><entry type="word" xml:id="uuid-df20fbb2-7bb4-48ca-a0fb-b27bb4a8cadc" resp="#CH" tls:created="2020-04-07T21:23:10.39+09:00"><form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220"><orth>用</orth><pron xml:lang="zh-Latn-x-pinyin">yòng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yowngH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋs
-</pron></form><sense xml:id="uuid-6cc54a63-d691-4528-854a-63d69185285d" resp="#CH" tls:created="2020-04-07T21:23:10.39+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>concrete procedure, practical method</def></sense></entry><entry type="word" xml:id="uuid-1a60a334-2e41-4bd2-a0a3-342e416bd2eb" resp="#zadrapa" tls:created="2020-12-13T05:33:03.148+09:00"><form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-b07a1131-b630-42e1-a150-f8467bcf1af7"><orth>法數</orth><pron xml:lang="zh-Latn-x-pinyin">fǎ shù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjop srjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pab sqros</pron></form><sense xml:id="uuid-b70b51a2-3ec1-4ecf-8b51-a23ec1fecfda" resp="#zadrapa" tls:created="2020-12-13T05:33:03.148+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>methods and rules of administration</def></sense></entry><entry type="word" xml:id="uuid-1020262c-7f31-4fbe-a026-2c7f31dfbee6" resp="#zadrapa" tls:created="2021-01-15T17:28:36.555+09:00"><form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc #uuid-5e347af4-858f-4384-88f1-3a4dfa37f8ab"><orth>方略</orth><pron xml:lang="zh-Latn-x-pinyin">fāng lǜe</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjang ljak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋ ɡ-raɡ</pron></form><sense xml:id="uuid-75753acf-a812-4783-b53a-cfa8125783ea" resp="#zadrapa" tls:created="2021-01-15T17:28:36.555+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>methods of government (including both strategies and tactics)</def></sense></entry><entry type="word" xml:id="uuid-08ea6936-3cf5-4b4b-aa69-363cf50b4b1c" resp="#CH" tls:created="2021-05-22T20:20:37.83+09:00"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc"><orth>大方</orth><pron xml:lang="zh-Latn-x-pinyin">dà fāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dajH pjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads paŋ</pron></form><sense xml:id="uuid-d23c3f92-13cd-4a01-bc3f-9213cdfa012f" resp="#CH" tls:created="2021-05-22T20:20:37.83+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e36ef0d-dcb2-48b8-a74a-daa9f2a54b2d">singular</tls:sem-feat></gramGrp><def>Great Procedure, Supreme Method, Ultimate Recipe for the Good Life</def></sense></entry><entry type="word" xml:id="uuid-73c97257-d782-4f4d-8972-57d782cf4d42" resp="#CH" tls:created="2021-06-07T15:38:51.375+09:00"><form corresp="#uuid-dc2d4f29-288b-475b-ae53-9d0eef7818a1"><orth>經</orth><pron xml:lang="zh-Latn-x-pinyin">jīng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keeŋ</pron></form><sense xml:id="uuid-8c69da18-ba8e-4852-a9da-18ba8ee852bd" resp="#CH" tls:created="2021-06-07T15:38:51.375+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>standard method</def></sense></entry><entry type="word" xml:id="uuid-1a0cba81-cb17-4b13-8cba-81cb176b130f" resp="#CH" tls:created="2022-08-18T01:25:47.318+09:00"><form corresp="#uuid-747e8532-e8bd-4f01-b43e-ad5025ef888a #uuid-b07a1131-b630-42e1-a150-f8467bcf1af7"><orth>度數</orth><pron xml:lang="zh-Latn-x-pinyin">dù shù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">duH srjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaɡs sqros</pron></form><sense xml:id="uuid-7e9a75b2-8d76-44f8-9a75-b28d76b4f88d" resp="#CH" tls:created="2022-08-18T01:25:47.318+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>exact effective method</def></sense></entry><entry type="word" xml:id="uuid-031e3cb9-9da2-43b4-9e3c-b99da203b450" resp="#CH" tls:created="2022-09-09T19:29:46.297+09:00"><form corresp="#uuid-70c383f8-2df7-4ea7-b7de-c35874bb4e03 #uuid-012329d2-8a81-4a4f-ac3a-03885a49d6d6"><orth>公道</orth><pron xml:lang="zh-Latn-x-pinyin">gōng dào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kuwng dawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klooŋ ɡ-luuʔ</pron></form><sense xml:id="uuid-a45d3d83-f253-4620-9d3d-83f2534620c6" resp="#CH" tls:created="2022-09-09T19:29:46.297+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-09T19:35:45.558+09:00">the Way of the public good, the Way of public interest; the Way of impartiality</def></sense></entry><entry type="word" xml:id="uuid-e7548ba4-b9fa-450a-948b-a4b9fad50a8e" resp="#CH" tls:created="2023-02-13T05:21:11.647+09:00"><form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-26c74f74-1562-4818-aa9e-35ce86cc027b"><orth>法制</orth><pron xml:lang="zh-Latn-x-pinyin">fǎ zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjop tsyejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pab kjeds</pron></form><sense xml:id="uuid-fdc846aa-1018-4881-8846-aa10180881c4" resp="#CH" tls:created="2023-02-13T05:21:11.647+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>system of norms</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-6cc7b5a8-6f96-4b16-920f-baa9b8a90cdf" resp="#CH" tls:created="2019-12-04T00:05:03.628+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0ec417e9-2d7e-47bf-8846-ba7c3adcfaa9" resp="#CH" tls:created="2019-12-04T00:05:03.628+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-523feb6c-418f-43d7-a46c-d14351943136">NPab.adV</tls:syn-func>
+                </gramGrp>
+                <def>by this method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-db587e84-8749-4e3e-910c-fff58f03f7f2" resp="#CH" tls:created="2019-12-04T00:05:16.241+09:00">
+            <form corresp="#uuid-aa70f069-1415-44be-8495-b9837c26b22d #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+                <orth>聊以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liáo yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lew yiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">b-ruu k-lɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-68027125-4029-4173-a4d2-489fbaf707b0" resp="#CH" tls:created="2019-12-04T00:05:16.241+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-523feb6c-418f-43d7-a46c-d14351943136">NPab.adV</tls:syn-func>
+                </gramGrp>
+                <def>by this method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4d2c7026-83f7-4c8c-935b-1a72314fabc0" resp="#CH" tls:created="2019-12-05T23:16:29.904+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-8fdccbbc-1c5f-496a-98c4-f624cf1ba14e" resp="#CH" tls:created="2019-12-05T23:16:29.904+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>method to be used</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a5ee1e6a-c5e0-4143-9271-3c343c8270e6" resp="#CH" tls:created="2020-01-31T05:41:22.982+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-ad532853-c0cf-42a5-ace0-8ed1a1eba611" resp="#CH" tls:created="2020-01-31T05:41:22.982+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>systematic administrative procedures</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e1ef750d-a5c5-40db-9946-333c3660f97c" resp="#CH" tls:created="2020-01-31T05:41:37.769+09:00">
+            <form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-b1ef6899-e684-4698-a583-dcc3b98daaa7">
+                <orth>法度</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎ duó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjop dak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pab ɡ-laaɡ</pron>
+            </form>
+            <sense xml:id="uuid-f0ccb51a-7c40-417f-b9ee-d2d859dd9431" resp="#CH" tls:created="2020-01-31T05:41:37.769+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>systematic administrative procedures</def>
+            </sense>
+            <sense xml:id="uuid-e73ebeb4-15e9-4ed2-91e3-4c422c688f17" resp="#CH" tls:created="2020-01-31T18:21:50.345+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>read fǎ dù follow systematic administrative procedures</def>
+            </sense>
+            <sense xml:id="uuid-6c461995-fd00-4ec2-a442-9c05e0fd67ed" resp="#CH" tls:created="2020-01-31T21:53:38.979+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be in accordance with prescribed systematic administrative rules</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b751d0aa-6675-4412-8d56-99f5a2f4cfa1" resp="#CH" tls:created="2020-02-07T20:16:59.969+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-fc53b9cc-93ea-4e76-9874-4e473c082105" resp="#CH" tls:created="2020-02-07T20:16:59.969+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>precise circle: prescribed (traditional) literary method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7843ea59-ee1b-4f75-8097-b4f1aafc35d3" resp="#CH" tls:created="2020-02-07T20:17:07.225+09:00">
+            <form corresp="#uuid-330e25a2-1611-4048-b2cb-ec2e25ca905b">
+                <orth>圓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢon</pron>
+            </form>
+            <sense xml:id="uuid-60e36388-5e62-4ea2-ac4e-8bd67beac5ab" resp="#CH" tls:created="2020-02-07T20:17:07.225+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>precise circle: prescribed (traditional) literary method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-df20fbb2-7bb4-48ca-a0fb-b27bb4a8cadc" resp="#CH" tls:created="2020-04-07T21:23:10.39+09:00">
+            <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
+                <orth>用</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòng
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yowngH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋs
+</pron>
+            </form>
+            <sense xml:id="uuid-6cc54a63-d691-4528-854a-63d69185285d" resp="#CH" tls:created="2020-04-07T21:23:10.39+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>concrete procedure, practical method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1a60a334-2e41-4bd2-a0a3-342e416bd2eb" resp="#zadrapa" tls:created="2020-12-13T05:33:03.148+09:00">
+            <form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-b07a1131-b630-42e1-a150-f8467bcf1af7">
+                <orth>法數</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎ shù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjop srjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pab sqros</pron>
+            </form>
+            <sense xml:id="uuid-b70b51a2-3ec1-4ecf-8b51-a23ec1fecfda" resp="#zadrapa" tls:created="2020-12-13T05:33:03.148+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>methods and rules of administration</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1020262c-7f31-4fbe-a026-2c7f31dfbee6" resp="#zadrapa" tls:created="2021-01-15T17:28:36.555+09:00">
+            <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc #uuid-5e347af4-858f-4384-88f1-3a4dfa37f8ab">
+                <orth>方略</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fāng lǜe</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjang ljak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">paŋ ɡ-raɡ</pron>
+            </form>
+            <sense xml:id="uuid-75753acf-a812-4783-b53a-cfa8125783ea" resp="#zadrapa" tls:created="2021-01-15T17:28:36.555+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>methods of government (including both strategies and tactics)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-08ea6936-3cf5-4b4b-aa69-363cf50b4b1c" resp="#CH" tls:created="2021-05-22T20:20:37.83+09:00">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
+                <orth>大方</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà fāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dajH pjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads paŋ</pron>
+            </form>
+            <sense xml:id="uuid-d23c3f92-13cd-4a01-bc3f-9213cdfa012f" resp="#CH" tls:created="2021-05-22T20:20:37.83+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e36ef0d-dcb2-48b8-a74a-daa9f2a54b2d">singular</tls:sem-feat>
+                </gramGrp>
+                <def>Great Procedure, Supreme Method, Ultimate Recipe for the Good Life</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-73c97257-d782-4f4d-8972-57d782cf4d42" resp="#CH" tls:created="2021-06-07T15:38:51.375+09:00">
+            <form corresp="#uuid-dc2d4f29-288b-475b-ae53-9d0eef7818a1">
+                <orth>經</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jīng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">keeŋ</pron>
+            </form>
+            <sense xml:id="uuid-8c69da18-ba8e-4852-a9da-18ba8ee852bd" resp="#CH" tls:created="2021-06-07T15:38:51.375+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>standard method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1a0cba81-cb17-4b13-8cba-81cb176b130f" resp="#CH" tls:created="2022-08-18T01:25:47.318+09:00">
+            <form corresp="#uuid-747e8532-e8bd-4f01-b43e-ad5025ef888a #uuid-b07a1131-b630-42e1-a150-f8467bcf1af7">
+                <orth>度數</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dù shù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">duH srjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaɡs sqros</pron>
+            </form>
+            <sense xml:id="uuid-7e9a75b2-8d76-44f8-9a75-b28d76b4f88d" resp="#CH" tls:created="2022-08-18T01:25:47.318+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>exact effective method</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-031e3cb9-9da2-43b4-9e3c-b99da203b450" resp="#CH" tls:created="2022-09-09T19:29:46.297+09:00">
+            <form corresp="#uuid-70c383f8-2df7-4ea7-b7de-c35874bb4e03 #uuid-012329d2-8a81-4a4f-ac3a-03885a49d6d6">
+                <orth>公道</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gōng dào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kuwng dawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klooŋ ɡ-luuʔ</pron>
+            </form>
+            <sense xml:id="uuid-a45d3d83-f253-4620-9d3d-83f2534620c6" resp="#CH" tls:created="2022-09-09T19:29:46.297+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-09T19:35:45.558+09:00">the Way of the public good, the Way of public interest; the Way of impartiality</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e7548ba4-b9fa-450a-948b-a4b9fad50a8e" resp="#CH" tls:created="2023-02-13T05:21:11.647+09:00">
+            <form corresp="#uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e #uuid-26c74f74-1562-4818-aa9e-35ce86cc027b">
+                <orth>法制</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎ zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjop tsyejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pab kjeds</pron>
+            </form>
+            <sense xml:id="uuid-fdc846aa-1018-4881-8846-aa10180881c4" resp="#CH" tls:created="2023-02-13T05:21:11.647+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>system of norms</def>
+            </sense>
+        </entry>
+    </div>
 </div>

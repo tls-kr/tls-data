@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-946d8783-29a5-45ad-b92b-ac2dc9bdf938">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-946d8783-29a5-45ad-b92b-ac2dc9bdf938">
 <head>MONEY</head>
     <list type="altnames">
 <item>COIN</item>
@@ -462,7 +463,14 @@
                 </gramGrp>
   <def>20 liǎng 兩 of cash, a tael</def>
             </sense>
-<sense xml:id="uuid-72095485-7044-4068-8954-857044f068f2" resp="#zadrapa" tls:created="2021-05-27T16:05:12.456+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bc100ea1-3a92-41fa-bd30-a40f6b3d37f2">ncpost-V{NUM}.adN</tls:syn-func></gramGrp><def>20 liǎng 兩 of cash</def></sense></entry>
+<sense xml:id="uuid-72095485-7044-4068-8954-857044f068f2" resp="#zadrapa" tls:created="2021-05-27T16:05:12.456+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bc100ea1-3a92-41fa-bd30-a40f6b3d37f2">ncpost-V{NUM}.adN</tls:syn-func>
+                </gramGrp>
+                <def>20 liǎng 兩 of cash</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c61059e3-d820-4d45-8321-757344f9e5d7">
             <form corresp="#uuid-8aa6fc4f-a5d1-4e2f-976c-dcc761a32a3f">
 <orth>爰</orth>
@@ -588,7 +596,14 @@
                 </gramGrp>
   <def>cash</def>
             </sense>
-<sense xml:id="uuid-fcc8866d-4640-4766-8886-6d4640b766dc" resp="#CH" tls:created="2022-08-27T00:39:43.231+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>money, cash</def></sense></entry>
+<sense xml:id="uuid-fcc8866d-4640-4766-8886-6d4640b766dc" resp="#CH" tls:created="2022-08-27T00:39:43.231+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>money, cash</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b2e4c19f-f3de-482a-ba9b-2ec29a92b9bf">
             <form corresp="#uuid-14ebd3ae-55ac-4f15-9072-b93cd05114c8">
 <orth>錢</orth>
@@ -623,7 +638,14 @@
                 </gramGrp>
   <def>money</def>
             </sense>
-<sense xml:id="uuid-d91c33d6-39a4-48d7-9c33-d639a4c8d7ed" resp="#dsehnal" tls:created="2023-06-17T19:17:15.202+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ecd9a8e8-fa1d-4f39-99a8-e8fa1dbf3991">nc-V{NUM}</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-07-16T00:44:36.249+09:00">money in NUM amount</def></sense></entry>
+<sense xml:id="uuid-d91c33d6-39a4-48d7-9c33-d639a4c8d7ed" resp="#dsehnal" tls:created="2023-06-17T19:17:15.202+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ecd9a8e8-fa1d-4f39-99a8-e8fa1dbf3991">nc-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-07-16T00:44:36.249+09:00">money in NUM amount</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cb9449b9-a2fb-438e-8849-01b76a8331f9">
             <form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-76aef6c2-de89-4610-b9fb-e7eeefe60579">
 <orth>五銖</orth>

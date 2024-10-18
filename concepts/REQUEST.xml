@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8776e03b-d58b-43cd-b694-22237290bbeb">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8776e03b-d58b-43cd-b694-22237290bbeb">
 <head>REQUEST</head>
     <list type="altnames">
 <item>APPEAL</item>
@@ -277,7 +278,30 @@
                 </gramGrp>
   <def>ask the contextually determinate N2 for N1</def>
             </sense>
-<sense xml:id="uuid-43a27257-fe45-451a-94a6-e53772315723" resp="#dsehnal" tls:created="2019-12-16T21:37:37.271+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtt(oN1). prep N2</tls:syn-func></gramGrp><def resp="#CH" updated="2024-07-17T15:32:56.343+09:00">seek/request/ask the contextually determinate N1 (support, help etc) from N2</def></sense><sense xml:id="uuid-3d5f5972-f166-49fd-9f59-72f16639fd92" resp="#dsehnal" tls:created="2020-05-23T21:50:39.836+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-f09982b9-46a3-45dd-b55a-eeecd22a9f4f">N=thing</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-02-23T00:28:01.455+09:00">ask for; beg for; request a thing N</def></sense><sense xml:id="uuid-2b156f7d-22c3-4685-956f-7d22c3f68522" resp="#dsehnal" tls:created="2023-07-08T18:22:12.593+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.)+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp><def>ask the contextually determinate N to V</def></sense></entry>
+<sense xml:id="uuid-43a27257-fe45-451a-94a6-e53772315723" resp="#dsehnal" tls:created="2019-12-16T21:37:37.271+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtt(oN1). prep N2</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-07-17T15:32:56.343+09:00">seek/request/ask the contextually determinate N1 (support, help etc) from N2</def>
+            </sense>
+            <sense xml:id="uuid-3d5f5972-f166-49fd-9f59-72f16639fd92" resp="#dsehnal" tls:created="2020-05-23T21:50:39.836+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f09982b9-46a3-45dd-b55a-eeecd22a9f4f">N=thing</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-02-23T00:28:01.455+09:00">ask for; beg for; request a thing N</def>
+            </sense>
+            <sense xml:id="uuid-2b156f7d-22c3-4685-956f-7d22c3f68522" resp="#dsehnal" tls:created="2023-07-08T18:22:12.593+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.)+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>ask the contextually determinate N to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e3119f29-aaa7-44c3-8080-288cf5fad5e0">
             <form corresp="#uuid-d262d717-20f1-49b4-9803-875a0c8bd00b">
 <orth>索</orth>
@@ -551,7 +575,30 @@
                 </gramGrp>
   <def>intercede</def>
             </sense>
-<sense xml:id="uuid-e263278e-d021-4306-80cd-3d213aad216a" resp="#CH" tls:created="2019-12-13T20:11:33.783+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt0(oNpro2.) V0</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">Npro2=pivot</tls:sem-feat></gramGrp><def>overall subject obligatorily understood as npro1 "I": let us V</def></sense><sense xml:id="uuid-b3baa0a2-1b09-48c5-88d3-8938542ad145" resp="#CH" tls:created="2020-01-23T02:09:57.316+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3f58915d-0fd8-4b5d-9891-5d0fd89b5dae">vt+V[0] .postnrpo1{SUBJECT}</tls:syn-func></gramGrp><def>may I ask to V</def></sense><sense xml:id="uuid-9cadd6e0-dd85-4aab-add6-e0dd857aab01" resp="#CH" tls:created="2022-08-23T20:17:23.762+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-dc498576-1680-4c1f-8985-7616801c1fe8">N=project</tls:sem-feat></gramGrp><def>ask permission about something</def></sense></entry>
+<sense xml:id="uuid-e263278e-d021-4306-80cd-3d213aad216a" resp="#CH" tls:created="2019-12-13T20:11:33.783+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt0(oNpro2.) V0</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">Npro2=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>overall subject obligatorily understood as npro1 "I": let us V</def>
+            </sense>
+            <sense xml:id="uuid-b3baa0a2-1b09-48c5-88d3-8938542ad145" resp="#CH" tls:created="2020-01-23T02:09:57.316+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3f58915d-0fd8-4b5d-9891-5d0fd89b5dae">vt+V[0] .postnrpo1{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>may I ask to V</def>
+            </sense>
+            <sense xml:id="uuid-9cadd6e0-dd85-4aab-add6-e0dd857aab01" resp="#CH" tls:created="2022-08-23T20:17:23.762+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-dc498576-1680-4c1f-8985-7616801c1fe8">N=project</tls:sem-feat>
+                </gramGrp>
+                <def>ask permission about something</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b83a9651-3111-4135-8462-a9697f3b8c9f">
             <form corresp="#uuid-ed694f6b-c482-40ad-ae71-c1c92d0f421a">
 <orth>謁</orth>
@@ -711,7 +758,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-ab02012b-f236-4db5-bd9e-59ff4fee24d5">
-            <form corresp="#uuid-7f235be9-d766-4047-a35b-e9d766f04755"><orth>將</orth><pron xml:lang="zh-Latn-x-pinyin">qiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-7f235be9-d766-4047-a35b-e9d766f04755">
+                <orth>將</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-b6e26c74-af6a-45b9-a4b2-ac532531bc0b">
 <gramGrp>
                     <pos>V</pos>
@@ -720,5 +772,65 @@
   <def>read qia1ng: hope and ask for N to V (SHI)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0665ba16-575a-45e4-954c-4051c1ffa7f9" resp="#CH" tls:created="2020-01-23T05:51:37.853+09:00"><form corresp="#uuid-10daefb2-5677-451a-a651-14b6fa71c19c #uuid-a1df0799-1de7-438e-8690-66b43757c5cc"><orth>願請</orth><pron xml:lang="zh-Latn-x-pinyin">yuàn qíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjwonH dzjeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡons dzeŋ</pron></form><sense xml:id="uuid-c9728b14-c4fb-4ff1-bc23-5936307edc37" resp="#CH" tls:created="2020-01-23T05:51:37.853+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPt[0]oV(0)</tls:syn-func></gramGrp><def>May I politely (lit: hopefully) beg permission to V</def></sense></entry><entry type="word" xml:id="uuid-fb16441a-f7cc-46d8-9644-1af7ccd6d884" resp="#CH" tls:created="2020-06-03T21:47:57.075+09:00"><form corresp="#uuid-010b482a-10ee-43d9-b340-acd4861b7fdb #uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3"><orth>請而反</orth><pron xml:lang="zh-Latn-x-pinyin">qǐng ér fǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjengX nyi pjonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋʔ njɯ panʔ</pron></form><sense xml:id="uuid-4e901169-063b-446f-9011-69063bd46ffd" resp="#CH" tls:created="2020-06-03T21:47:57.075+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>beg N to return</def></sense></entry><entry type="word" xml:id="uuid-c843e535-1c82-41a6-83e5-351c8221a62d" resp="#dsehnal" tls:created="2023-07-15T01:50:29.989+09:00"><form corresp="#uuid-010b482a-10ee-43d9-b340-acd4861b7fdb #uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75"><orth>請求</orth><pron xml:lang="zh-Latn-x-pinyin">qǐng qiú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjengX gjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋʔ ɡu</pron></form><sense xml:id="uuid-43046e26-883f-4b17-846e-26883f5b1708" resp="#dsehnal" tls:created="2023-07-15T01:50:29.989+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>ask for N; look for N</def></sense></entry><entry type="word" xml:id="uuid-e8e870f9-e468-4b77-a870-f9e468cb7775" resp="#dsehnal" tls:created="2023-07-16T01:17:36.665+09:00"><form corresp="#uuid-46424b48-764a-4fa1-9246-c6a0db619657 #uuid-010b482a-10ee-43d9-b340-acd4861b7fdb"><orth>告請</orth><pron xml:lang="zh-Latn-x-pinyin">gù qǐng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kowk tshjengX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- tsheŋʔ</pron></form><sense xml:id="uuid-bbdd4e13-f5f3-4471-9d4e-13f5f38471ef" resp="#dsehnal" tls:created="2023-07-16T01:17:36.665+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>request formally from the authorities </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0665ba16-575a-45e4-954c-4051c1ffa7f9" resp="#CH" tls:created="2020-01-23T05:51:37.853+09:00">
+            <form corresp="#uuid-10daefb2-5677-451a-a651-14b6fa71c19c #uuid-a1df0799-1de7-438e-8690-66b43757c5cc">
+                <orth>願請</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuàn qíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjwonH dzjeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡons dzeŋ</pron>
+            </form>
+            <sense xml:id="uuid-c9728b14-c4fb-4ff1-bc23-5936307edc37" resp="#CH" tls:created="2020-01-23T05:51:37.853+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPt[0]oV(0)</tls:syn-func>
+                </gramGrp>
+                <def>May I politely (lit: hopefully) beg permission to V</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fb16441a-f7cc-46d8-9644-1af7ccd6d884" resp="#CH" tls:created="2020-06-03T21:47:57.075+09:00">
+            <form corresp="#uuid-010b482a-10ee-43d9-b340-acd4861b7fdb #uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
+                <orth>請而反</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǐng ér fǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjengX nyi pjonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋʔ njɯ panʔ</pron>
+            </form>
+            <sense xml:id="uuid-4e901169-063b-446f-9011-69063bd46ffd" resp="#CH" tls:created="2020-06-03T21:47:57.075+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>beg N to return</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c843e535-1c82-41a6-83e5-351c8221a62d" resp="#dsehnal" tls:created="2023-07-15T01:50:29.989+09:00">
+            <form corresp="#uuid-010b482a-10ee-43d9-b340-acd4861b7fdb #uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75">
+                <orth>請求</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǐng qiú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjengX gjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheŋʔ ɡu</pron>
+            </form>
+            <sense xml:id="uuid-43046e26-883f-4b17-846e-26883f5b1708" resp="#dsehnal" tls:created="2023-07-15T01:50:29.989+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>ask for N; look for N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e8e870f9-e468-4b77-a870-f9e468cb7775" resp="#dsehnal" tls:created="2023-07-16T01:17:36.665+09:00">
+            <form corresp="#uuid-46424b48-764a-4fa1-9246-c6a0db619657 #uuid-010b482a-10ee-43d9-b340-acd4861b7fdb">
+                <orth>告請</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gù qǐng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kowk tshjengX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- tsheŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-bbdd4e13-f5f3-4471-9d4e-13f5f38471ef" resp="#dsehnal" tls:created="2023-07-16T01:17:36.665+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>request formally from the authorities </def>
+            </sense>
+        </entry>
+    </div>
 </div>

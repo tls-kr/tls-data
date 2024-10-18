@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6b13f33a-3f2a-427d-9107-924f9efc4ab1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6b13f33a-3f2a-427d-9107-924f9efc4ab1">
 <head>CAPITAL CITY</head>
     <list type="translations">
         <item xml:lang="zh">國都</item>
@@ -222,7 +223,14 @@
                 </gramGrp>
   <def>Western Zhou inscriptions, SHU, occasionally: capital</def>
             </sense>
-<sense xml:id="uuid-b83df9e1-bc89-428a-bdf9-e1bc89b28a99" resp="#CH" tls:created="2020-03-11T18:18:56.157+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#">+vt+prep+N</tls:syn-func></gramGrp><def>establish one's capital at N</def></sense></entry>
+<sense xml:id="uuid-b83df9e1-bc89-428a-bdf9-e1bc89b28a99" resp="#CH" tls:created="2020-03-11T18:18:56.157+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#">+vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>establish one's capital at N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d5c15d69-0ee8-4396-a6c6-13ace5a0e6f5">
             <form corresp="#uuid-ce946679-e50e-4991-a24a-3a214d57dcfc">
 <orth>都</orth>
@@ -286,5 +294,20 @@
   <def>capital</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-073ed1f3-409d-4462-bed1-f3409d346287" resp="#zadrapa" tls:created="2022-02-14T21:34:22.995+09:00"><form corresp="#uuid-ce946679-e50e-4991-a24a-3a214d57dcfc #uuid-ba086483-4a6c-43de-800a-e37e8258b43a"><orth>都國</orth><pron xml:lang="zh-Latn-x-pinyin">dū guó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tu kwok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laa kʷɯɯɡ</pron></form><sense xml:id="uuid-aacafdc2-f376-45c5-8afd-c2f37615c52e" resp="#zadrapa" tls:created="2022-02-14T21:34:22.995+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>the capital city; a metropole</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-073ed1f3-409d-4462-bed1-f3409d346287" resp="#zadrapa" tls:created="2022-02-14T21:34:22.995+09:00">
+            <form corresp="#uuid-ce946679-e50e-4991-a24a-3a214d57dcfc #uuid-ba086483-4a6c-43de-800a-e37e8258b43a">
+                <orth>都國</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dū guó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tu kwok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laa kʷɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-aacafdc2-f376-45c5-8afd-c2f37615c52e" resp="#zadrapa" tls:created="2022-02-14T21:34:22.995+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>the capital city; a metropole</def>
+            </sense>
+        </entry>
+    </div>
 </div>

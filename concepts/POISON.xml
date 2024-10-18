@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7c0ce838-e16f-42e0-b6c7-96e69f56c72b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7c0ce838-e16f-42e0-b6c7-96e69f56c72b">
 <head>POISON</head>
     <list type="altnames">
 <item>TOXIN</item>
@@ -187,7 +188,15 @@
                 </gramGrp>
   <def>cause to become poisonous</def>
             </sense>
-<sense xml:id="uuid-24dc771d-23d0-434b-9c77-1d23d0834bd1" resp="#dsehnal" tls:created="2023-04-30T02:55:47.191+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat></gramGrp><def>poisonous nature</def></sense></entry>
+<sense xml:id="uuid-24dc771d-23d0-434b-9c77-1d23d0834bd1" resp="#dsehnal" tls:created="2023-04-30T02:55:47.191+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6b3d185c-9736-417f-a9d5-56b37e44600d">medical</tls:sem-feat>
+                </gramGrp>
+                <def>poisonous nature</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-461820ce-ce45-4946-89a4-8f92c50aaf6f">
             <form corresp="#uuid-739e8c6a-875c-4db8-8607-a1dcd91d9b92">
 <orth>葯</orth>
@@ -238,7 +247,12 @@
             </form>
             <def>Zhèn 酖 refers specifically to wine poisoned with poison won from the zhèn 鴆 bird.
 </def>
-            <form corresp="#uuid-c7f0d75e-d912-4e16-b0d7-5ed9121e1643"><orth>酖</orth><pron xml:lang="zh-Latn-x-pinyin">zhèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-c7f0d75e-d912-4e16-b0d7-5ed9121e1643">
+                <orth>酖</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Zhèn 酖 refers specifically to wine poisoned with poison won from the zhèn 鴆 bird.
 </def>
 <sense xml:id="uuid-a33e674b-9541-4904-b623-2c63b2419b80">
@@ -348,5 +362,20 @@
   <def>vicious poison</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-19ff5bf3-351f-43e7-bf5b-f3351fc3e7a1" resp="#zadrapa" tls:created="2022-05-31T21:40:06.251+09:00"><form corresp="#uuid-9c8ab241-6d21-4754-b6e0-c59fb0b7683f #uuid-1104fc6a-2020-4bfd-8341-fabcd4ecb826"><orth>毒藥</orth><pron xml:lang="zh-Latn-x-pinyin">dú yào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dowk yak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">duuɡ k-lawɡ</pron></form><sense xml:id="uuid-e9f12c5b-0448-46c8-b12c-5b0448d6c8b8" resp="#zadrapa" tls:created="2022-05-31T21:40:06.251+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>toxic drugs (used i.e. in fishing)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-19ff5bf3-351f-43e7-bf5b-f3351fc3e7a1" resp="#zadrapa" tls:created="2022-05-31T21:40:06.251+09:00">
+            <form corresp="#uuid-9c8ab241-6d21-4754-b6e0-c59fb0b7683f #uuid-1104fc6a-2020-4bfd-8341-fabcd4ecb826">
+                <orth>毒藥</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dú yào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dowk yak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">duuɡ k-lawɡ</pron>
+            </form>
+            <sense xml:id="uuid-e9f12c5b-0448-46c8-b12c-5b0448d6c8b8" resp="#zadrapa" tls:created="2022-05-31T21:40:06.251+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>toxic drugs (used i.e. in fishing)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

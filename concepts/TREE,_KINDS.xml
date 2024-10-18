@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b5e991a9-bcc5-4224-97bc-5cd4c591d0a9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b5e991a9-bcc5-4224-97bc-5cd4c591d0a9">
 <head>TREE, KINDS</head>
     <list type="translations">
         <item xml:lang="zh">樹類</item>
@@ -279,7 +280,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-a8c03477-2a26-4f7a-8bd3-8af708591c56">
-            <form corresp="#uuid-9e3efa3f-d56d-490e-befa-3fd56d390e9a"><orth>柏</orth><pron xml:lang="zh-Latn-x-pinyin">bǎi/bó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-9e3efa3f-d56d-490e-befa-3fd56d390e9a">
+                <orth>柏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bǎi/bó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-3e033998-4d88-4cce-9f9e-fa5b24625468">
 <gramGrp>
                     <pos>N</pos>
@@ -481,7 +487,15 @@
                 </gramGrp>
   <def>work on the mulberry trees; join the work in the mulberry trees</def>
             </sense>
-<sense xml:id="uuid-7fcbbdf9-f250-448e-8bbd-f9f250848e3f" resp="#dsehnal" tls:created="2020-05-11T17:39:45.16+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-1777a51a-3dba-4d9d-810b-f704c2419d17">N=woman</tls:sem-feat></gramGrp><def>working on the mulberry trees</def></sense></entry>
+<sense xml:id="uuid-7fcbbdf9-f250-448e-8bbd-f9f250848e3f" resp="#dsehnal" tls:created="2020-05-11T17:39:45.16+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1777a51a-3dba-4d9d-810b-f704c2419d17">N=woman</tls:sem-feat>
+                </gramGrp>
+                <def>working on the mulberry trees</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-edee0c4d-4ada-4a65-861e-96796ae2a276">
             <form corresp="#uuid-f9f1722d-0962-4503-91cd-900ba7250d07">
 <orth>條</orth>
@@ -966,5 +980,20 @@
   <def>a kind of tree (K. plum tree)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8412ec5e-e081-4c47-8460-f64edb5e5991" resp="#zadrapa" tls:created="2019-11-26T22:33:01.248+09:00"><form corresp="#uuid-9e9fc43f-e6b8-4e2d-99a0-42bbfa948f02 #uuid-4c74aa74-6e7e-42a0-9900-df8b330e95cc"><orth>射干</orth><pron xml:lang="zh-Latn-x-pinyin">yè gān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yaeH kan</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">laɡs kaan</pron></form><sense xml:id="uuid-26a014ca-e45f-4fb5-b370-684d9d7fd8e7" resp="#zadrapa" tls:created="2019-11-26T22:33:01.248+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func></gramGrp><def>mythical tree</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-8412ec5e-e081-4c47-8460-f64edb5e5991" resp="#zadrapa" tls:created="2019-11-26T22:33:01.248+09:00">
+            <form corresp="#uuid-9e9fc43f-e6b8-4e2d-99a0-42bbfa948f02 #uuid-4c74aa74-6e7e-42a0-9900-df8b330e95cc">
+                <orth>射干</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yè gān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yaeH kan</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">laɡs kaan</pron>
+            </form>
+            <sense xml:id="uuid-26a014ca-e45f-4fb5-b370-684d9d7fd8e7" resp="#zadrapa" tls:created="2019-11-26T22:33:01.248+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-c43c0bab-2810-42a4-a6be-e4641d9b6632">NPpr</tls:syn-func>
+                </gramGrp>
+                <def>mythical tree</def>
+            </sense>
+        </entry>
+    </div>
 </div>

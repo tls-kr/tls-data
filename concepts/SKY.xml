@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-96cef6b3-c174-4fc1-b8d0-a9ab7cbb961c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-96cef6b3-c174-4fc1-b8d0-a9ab7cbb961c">
 <head>SKY</head>
     <list type="altnames">
 <item>HEAVEN</item>
@@ -25,7 +26,10 @@
     </list>
 <div type="definition">
 <p>PLACE in SPACE CONTAINING the SUN, the MOON and the STARS.</p>
-    <div type="definition" resp="#CH" modified="2021-04-07T03:25:00.379+09:00"><p>PLACE CONTAINING the SUN, the MOON and the STARS.</p></div></div>
+    <div type="definition" resp="#CH" modified="2021-04-07T03:25:00.379+09:00">
+            <p>PLACE CONTAINING the SUN, the MOON and the STARS.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current word for the sky, and for Heaven, is tiān 天 (ant. dì 地 "earth").</p>
@@ -184,7 +188,15 @@
   <def>from the sky</def>
             </sense>
 
-<sense xml:id="uuid-896bbdbd-cd33-40c1-abbd-bdcd33e0c14c" resp="#dsehnal" tls:created="2023-05-14T22:17:59.697+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func><tls:sem-feat corresp="#">N=place</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-08-08T04:54:24.885+09:00">in the sky</def></sense></entry>
+<sense xml:id="uuid-896bbdbd-cd33-40c1-abbd-bdcd33e0c14c" resp="#dsehnal" tls:created="2023-05-14T22:17:59.697+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                    <tls:sem-feat corresp="#">N=place</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-08-08T04:54:24.885+09:00">in the sky</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c3f0a293-b99f-4261-94fb-79a29f16ec5b">
             <form corresp="#uuid-18d770dc-8338-4a2a-9995-1e25ab1b48e6">
 <orth>宇</orth>
@@ -414,5 +426,50 @@
   <def>sky 碧虛 "greenish-blue sky"</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-4c558660-b56b-40c1-b255-fb37e1447839" resp="#CH" tls:created="2019-11-29T19:04:40.459+09:00"><form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87"><orth>上</orth><pron xml:lang="zh-Latn-x-pinyin">shàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs</pron></form><sense xml:id="uuid-ab0bc3f3-41b8-4bb9-8331-ee88c4d8ad5e" resp="#CH" tls:created="2019-11-29T19:04:40.459+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>sky</def></sense></entry><entry type="word" xml:id="uuid-764291a9-c646-45b7-b266-164c365f4d43" resp="#CH" tls:created="2019-11-29T19:05:02.59+09:00"><form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87"><orth>上</orth><pron xml:lang="zh-Latn-x-pinyin">shàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs</pron></form><sense xml:id="uuid-aca78e9a-34a2-4236-884f-770aeb2e918c" resp="#CH" tls:created="2019-11-29T19:05:02.59+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func></gramGrp><def>what is above&gt; sky</def></sense></entry><entry type="word" xml:id="uuid-c5c63f85-d2e6-48dc-863f-85d2e648dc42" resp="#CH" tls:created="2023-08-28T20:42:37.243+09:00"><form corresp="#uuid-00aa9f16-e4e4-4755-a3d3-40f278a91d60 #uuid-43e0256e-579f-43ab-ab11-d70174151708"><orth>上天</orth><pron xml:lang="zh-Latn-x-pinyin">shang4 tiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH then</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs lʰiin</pron></form><sense xml:id="uuid-b6c9aba8-7ff9-45fa-89ab-a87ff955fa1d" resp="#CH" tls:created="2023-08-28T20:42:37.243+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2023-08-28T20:49:11.946+09:00">the sky above ，彼蒼蒼之上天</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-4c558660-b56b-40c1-b255-fb37e1447839" resp="#CH" tls:created="2019-11-29T19:04:40.459+09:00">
+            <form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87">
+                <orth>上</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs</pron>
+            </form>
+            <sense xml:id="uuid-ab0bc3f3-41b8-4bb9-8331-ee88c4d8ad5e" resp="#CH" tls:created="2019-11-29T19:04:40.459+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>sky</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-764291a9-c646-45b7-b266-164c365f4d43" resp="#CH" tls:created="2019-11-29T19:05:02.59+09:00">
+            <form corresp="#uuid-bfff06fd-5ecd-4819-82e6-c7ebb7cc1f87">
+                <orth>上</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs</pron>
+            </form>
+            <sense xml:id="uuid-aca78e9a-34a2-4236-884f-770aeb2e918c" resp="#CH" tls:created="2019-11-29T19:05:02.59+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what is above&gt; sky</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5c63f85-d2e6-48dc-863f-85d2e648dc42" resp="#CH" tls:created="2023-08-28T20:42:37.243+09:00">
+            <form corresp="#uuid-00aa9f16-e4e4-4755-a3d3-40f278a91d60 #uuid-43e0256e-579f-43ab-ab11-d70174151708">
+                <orth>上天</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shang4 tiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangH then</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋs lʰiin</pron>
+            </form>
+            <sense xml:id="uuid-b6c9aba8-7ff9-45fa-89ab-a87ff955fa1d" resp="#CH" tls:created="2023-08-28T20:42:37.243+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-08-28T20:49:11.946+09:00">the sky above ，彼蒼蒼之上天</def>
+            </sense>
+        </entry>
+    </div>
 </div>

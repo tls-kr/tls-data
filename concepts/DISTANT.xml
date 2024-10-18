@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2f82079e-afca-4f46-be9a-15d3981ed027">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2f82079e-afca-4f46-be9a-15d3981ed027">
 <head>DISTANT</head>
     <list type="altnames">
 <item>FARAWAY</item>
@@ -220,7 +221,22 @@
                 </gramGrp>
   <def>at a distance of a length N2 from a place N1</def>
             </sense>
-<sense xml:id="uuid-1c508dab-8f56-410e-908d-ab8f56110ed0" resp="#dsehnal" tls:created="2020-05-10T14:29:51.251+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fe27076f-d09c-4389-a1c3-c36bcf975082">vtoN1.postN2:+V</tls:syn-func></gramGrp><def>N2 is far away N1 to the extent of V</def></sense><sense xml:id="uuid-b9a267ae-dc0f-4e7e-a267-aedc0f8e7e71" resp="#CH" tls:created="2020-08-29T17:38:58.781+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>keep at a distance; keep abay</def></sense></entry>
+<sense xml:id="uuid-1c508dab-8f56-410e-908d-ab8f56110ed0" resp="#dsehnal" tls:created="2020-05-10T14:29:51.251+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fe27076f-d09c-4389-a1c3-c36bcf975082">vtoN1.postN2:+V</tls:syn-func>
+                </gramGrp>
+                <def>N2 is far away N1 to the extent of V</def>
+            </sense>
+            <sense xml:id="uuid-b9a267ae-dc0f-4e7e-a267-aedc0f8e7e71" resp="#CH" tls:created="2020-08-29T17:38:58.781+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>keep at a distance; keep abay</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dda9ebe5-bd05-40af-85ea-86d827e2f1ec">
             <form corresp="#uuid-44b0081e-981c-485c-9a52-6da0aa731df1">
 <orth>坰</orth>
@@ -537,7 +553,23 @@
                 </gramGrp>
   <def>at a distance</def>
             </sense>
-<sense xml:id="uuid-e3472dbf-5401-48f6-8553-e4cb97fd0a16" resp="#CH" tls:created="2019-10-12T23:02:34.406+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>maintain a ritually proper distance to others</def></sense><sense xml:id="uuid-c847c133-0f5b-4e7a-87c1-330f5bbe7ab3" resp="#dsehnal" tls:created="2022-11-14T01:08:27.617+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be on distant terms, not be on intimate terms; have hostile relations</def></sense></entry>
+<sense xml:id="uuid-e3472dbf-5401-48f6-8553-e4cb97fd0a16" resp="#CH" tls:created="2019-10-12T23:02:34.406+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>maintain a ritually proper distance to others</def>
+            </sense>
+            <sense xml:id="uuid-c847c133-0f5b-4e7a-87c1-330f5bbe7ab3" resp="#dsehnal" tls:created="2022-11-14T01:08:27.617+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be on distant terms, not be on intimate terms; have hostile relations</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b92a5b71-2b22-42eb-af5d-55921b9eb09e">
             <form corresp="#uuid-2255862a-261c-4489-96ef-69c0efd98be0">
 <orth>眇</orth>
@@ -560,7 +592,15 @@
                 </gramGrp>
   <def>be distant</def>
             </sense>
-<sense xml:id="uuid-f7d18646-63fa-40fd-a21d-f8448d0e720e" resp="#CH" tls:created="2020-02-04T18:33:41.775+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0f9954b0-2db1-4ed0-8640-3ee37ef149c1">vvi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>reach far into the (metaphysical) distance</def></sense></entry>
+<sense xml:id="uuid-f7d18646-63fa-40fd-a21d-f8448d0e720e" resp="#CH" tls:created="2020-02-04T18:33:41.775+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0f9954b0-2db1-4ed0-8640-3ee37ef149c1">vvi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>reach far into the (metaphysical) distance</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0a3dccb8-627a-4f4d-acce-92b739b5e83f">
             <form corresp="#uuid-5590ad14-e0fb-4edc-996b-f5b7b83e7d5c">
 <orth>絕</orth>
@@ -839,7 +879,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2023-08-13T00:07:33.256+09:00">greatly; by a wide margin; by a long shot</def>
             </sense>
 <sense xml:id="uuid-b74fee0b-d8c3-4493-9040-7149e543b179">
@@ -955,7 +996,82 @@
                 </gramGrp>
   <def>with a long future perspective; with a long-term perspective; be far-reaching</def>
             </sense>
-<sense xml:id="uuid-88bd4d41-155d-4473-99d2-c0f19de1426e" resp="#CH" tls:created="2019-11-28T23:31:55.196+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt1post-vt2oN</tls:syn-func></gramGrp><def>be distant from 與X遠　“be far away from X"</def></sense><sense xml:id="uuid-420d2135-1630-4557-b95e-398a2d4329ab" resp="#CH" tls:created="2019-12-09T05:30:09.963+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt(oN.)[adN]</tls:syn-func></gramGrp><def>those who are distant</def></sense><sense xml:id="uuid-f61a8059-3c10-4d73-a370-6530d1941f8f" resp="#CH" tls:created="2019-12-11T20:46:32.521+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>those people who are physically distant from the contextually determinate N</def></sense><sense xml:id="uuid-4d250c80-6052-4db4-a50c-8060524db44c" resp="#CH" tls:created="2020-02-14T04:18:54.076+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>constitute a long distance</def></sense><sense xml:id="uuid-0c32e06d-2be9-429a-b2e0-6d2be9429a5c" resp="#CH" tls:created="2020-04-04T04:20:46.122+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>(of a journey to travel): be far</def></sense><sense xml:id="uuid-108f9d43-e790-470a-8f9d-43e790970a76" resp="#CH" tls:created="2020-12-02T21:01:02.907+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>(the fact of) being far away</def></sense><sense xml:id="uuid-835b1408-aae3-4604-9b14-08aae3360456" resp="#CH" tls:created="2020-12-16T22:39:38.397+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>be distant from oneself or from the current subject of the phrase</def></sense><sense xml:id="uuid-5f5d932b-946b-418e-9d93-2b946bf18e66" resp="#zadrapa" tls:created="2020-12-16T23:44:40.41+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>from a distant past</def></sense><sense xml:id="uuid-97624ea0-a2af-4016-a24e-a0a2afe016ca" resp="#zadrapa" tls:created="2021-02-27T04:38:09.032+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>become more and more distant</def></sense><sense xml:id="uuid-6c79c3b7-d4c7-4121-b9c3-b7d4c7b12138" resp="#zadrapa" tls:created="2021-03-01T05:06:03.767+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2024-06-15T02:44:33.108+09:00">change: become more and more distant (from the very goal; from other things or people)</def></sense></entry>
+<sense xml:id="uuid-88bd4d41-155d-4473-99d2-c0f19de1426e" resp="#CH" tls:created="2019-11-28T23:31:55.196+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt1post-vt2oN</tls:syn-func>
+                </gramGrp>
+                <def>be distant from 與X遠　“be far away from X"</def>
+            </sense>
+            <sense xml:id="uuid-420d2135-1630-4557-b95e-398a2d4329ab" resp="#CH" tls:created="2019-12-09T05:30:09.963+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt(oN.)[adN]</tls:syn-func>
+                </gramGrp>
+                <def>those who are distant</def>
+            </sense>
+            <sense xml:id="uuid-f61a8059-3c10-4d73-a370-6530d1941f8f" resp="#CH" tls:created="2019-12-11T20:46:32.521+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>those people who are physically distant from the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-4d250c80-6052-4db4-a50c-8060524db44c" resp="#CH" tls:created="2020-02-14T04:18:54.076+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>constitute a long distance</def>
+            </sense>
+            <sense xml:id="uuid-0c32e06d-2be9-429a-b2e0-6d2be9429a5c" resp="#CH" tls:created="2020-04-04T04:20:46.122+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>(of a journey to travel): be far</def>
+            </sense>
+            <sense xml:id="uuid-108f9d43-e790-470a-8f9d-43e790970a76" resp="#CH" tls:created="2020-12-02T21:01:02.907+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>(the fact of) being far away</def>
+            </sense>
+            <sense xml:id="uuid-835b1408-aae3-4604-9b14-08aae3360456" resp="#CH" tls:created="2020-12-16T22:39:38.397+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>be distant from oneself or from the current subject of the phrase</def>
+            </sense>
+            <sense xml:id="uuid-5f5d932b-946b-418e-9d93-2b946bf18e66" resp="#zadrapa" tls:created="2020-12-16T23:44:40.41+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>from a distant past</def>
+            </sense>
+            <sense xml:id="uuid-97624ea0-a2af-4016-a24e-a0a2afe016ca" resp="#zadrapa" tls:created="2021-02-27T04:38:09.032+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>become more and more distant</def>
+            </sense>
+            <sense xml:id="uuid-6c79c3b7-d4c7-4121-b9c3-b7d4c7b12138" resp="#zadrapa" tls:created="2021-03-01T05:06:03.767+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2024-06-15T02:44:33.108+09:00">change: become more and more distant (from the very goal; from other things or people)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a830b36f-1339-4654-8494-af342d32f4a8">
             <form corresp="#uuid-d28a9a2d-bc75-4751-8a97-bf1246773f31">
 <orth>遙</orth>
@@ -1095,7 +1211,15 @@
                 </gramGrp>
   <def>be distant in time</def>
             </sense>
-<sense xml:id="uuid-c433f1d7-9262-483e-85c3-37a8d0e48cee" resp="#CH" tls:created="2020-02-06T23:18:54.429+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-39d833a4-f046-4079-bfe5-363360cdc361">vi-p</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>be absent-minded; have distant preoccupations</def></sense></entry>
+<sense xml:id="uuid-c433f1d7-9262-483e-85c3-37a8d0e48cee" resp="#CH" tls:created="2020-02-06T23:18:54.429+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-39d833a4-f046-4079-bfe5-363360cdc361">vi-p</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>be absent-minded; have distant preoccupations</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a6746dc1-562f-4348-b798-7e7d52782bcd">
             <form corresp="#uuid-03072e2c-fe50-4c44-a8c6-5fbfb866481e">
 <orth>釗</orth>
@@ -1111,7 +1235,12 @@
             </form>
 </entry>
 <entry type="word" xml:id="uuid-9424d58b-8e60-4fa3-9ab6-e65ef0d7b3e3">
-            <form corresp="#uuid-5d446150-a20e-4fa2-a417-1e0a3c371a0d"><orth>間</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreens</pron></form>
+            <form corresp="#uuid-5d446150-a20e-4fa2-a417-1e0a3c371a0d">
+                <orth>間</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreens</pron>
+            </form>
             <form>
 <orth>間閒</orth>
                 <pron xml:lang="zh-Latn-x-pinyin"/>
@@ -1169,7 +1298,15 @@
                 </gramGrp>
   <def>become distant from one</def>
             </sense>
-<sense xml:id="uuid-e00f1228-97c8-40ac-87a8-74e608157d2c" resp="#CH" tls:created="2020-02-10T19:24:49.449+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>maintaining a distance from, standing apart from</def></sense></entry>
+<sense xml:id="uuid-e00f1228-97c8-40ac-87a8-74e608157d2c" resp="#CH" tls:created="2020-02-10T19:24:49.449+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>maintaining a distance from, standing apart from</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3e05f0b0-d4ba-47f2-be1e-0a2fc6205008">
             <form corresp="#uuid-b5a460e3-0cd2-4ae2-83e7-70aeea41e8e0 #uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3">
 <orth>僻遠</orth>
@@ -1325,7 +1462,14 @@
                 </gramGrp>
   <def>(temporally) far away; far (in the past or future)</def>
             </sense>
-<sense xml:id="uuid-11e7cb9f-52f6-4a16-8241-3fc34b959cfc" resp="#CH" tls:created="2019-12-11T20:29:07.015+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPt[oN]</tls:syn-func></gramGrp><def>be (spatially) far away from here</def></sense></entry>
+<sense xml:id="uuid-11e7cb9f-52f6-4a16-8241-3fc34b959cfc" resp="#CH" tls:created="2019-12-11T20:29:07.015+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>be (spatially) far away from here</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5a631dac-0746-4003-8af9-e40bf212d4ee">
             <form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243 #uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3">
 <orth>疏遠</orth>
@@ -1546,5 +1690,214 @@
   <def>at a distance of N2 from N1</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-7235f05b-5a1e-4829-8af9-926f41ebd25f" resp="#dsehnal" tls:created="2019-12-12T05:27:34.196+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-38274c7f-6d7b-409a-91d3-f112dec43a2c" resp="#dsehnal" tls:created="2019-12-12T05:27:34.196+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat></gramGrp><def>distance of one thousand Li</def></sense></entry><entry type="word" xml:id="uuid-a7420325-c654-4e05-8b64-899ebdf7d09e" resp="#dsehnal" tls:created="2019-12-12T05:27:52.378+09:00"><form corresp="#uuid-f8fe7cb5-faea-4943-b003-8338a85bac09 #uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2"><orth>千里</orth><pron xml:lang="zh-Latn-x-pinyin">qiān lǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshen liX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiin ɡ-rɯʔ</pron></form><sense xml:id="uuid-31e84167-118b-4ffd-9410-c9188dd11db7" resp="#dsehnal" tls:created="2019-12-12T05:27:52.378+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat></gramGrp><def>distance of one thousand Li</def></sense><sense xml:id="uuid-81947f31-ab2b-41c4-947f-31ab2b11c441" resp="#CH" tls:created="2020-04-04T19:25:04.718+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-2c776536-43e0-43f7-82fb-0b812718bcc3">NPpostadV</tls:syn-func></gramGrp><def>by a very long distance</def></sense><sense xml:id="uuid-d2c253cf-75f9-4576-8253-cf75f9d57624" resp="#zadrapa" tls:created="2020-05-25T05:19:03.259+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>to travel thousand miles, to travel a very long distance</def></sense></entry><entry type="word" xml:id="uuid-975640f9-2f2f-46ff-9f40-1786aa441c45" resp="#CH" tls:created="2020-02-06T23:54:17.796+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-0b259e7e-8c15-41cd-b2dd-160fbf5977c6" resp="#CH" tls:created="2020-02-06T23:54:17.796+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VP[adN]</tls:syn-func></gramGrp><def>what towers remote, what is imposing and remote</def></sense></entry><entry type="word" xml:id="uuid-707923a8-213c-471c-b306-568c9530e6c3" resp="#CH" tls:created="2020-02-06T23:54:27.088+09:00"><form corresp="#uuid-df610d35-881a-4342-8557-b5756eb6ce12 #uuid-90545a13-2276-42df-bd0f-380125204aaf"><orth>緜邈</orth><pron xml:lang="zh-Latn-x-pinyin">mián miǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjien maewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">men mreewɡ</pron></form><sense xml:id="uuid-eb12f5d0-9b17-4119-a26d-746bedda0e68" resp="#CH" tls:created="2020-02-06T23:54:27.088+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VP[adN]</tls:syn-func></gramGrp><def>what towers remote, what is imposing and remote</def></sense></entry><entry type="word" xml:id="uuid-38e70484-e3d7-4a6d-a704-84e3d7da6d72" resp="#zadrapa" tls:created="2020-05-26T22:28:05.936+09:00"><form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243"><orth>䟽</orth><pron xml:lang="zh-Latn-x-pinyin">shū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqra</pron></form><sense xml:id="uuid-1c9875bc-6203-48eb-9875-bc620338ebd1" resp="#zadrapa" tls:created="2020-05-26T22:28:05.936+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>= 疏, keep N at bay, get estranged with N</def></sense><sense xml:id="uuid-35d038c8-9ac1-4c5e-9038-c89ac16c5e93" resp="#zadrapa" tls:created="2020-06-03T21:35:49.677+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func><tls:sem-feat corresp="#uuid-abe5bd53-1f0c-42f7-a5bd-531f0cb2f72e">change, figurative</tls:sem-feat></gramGrp><def>= shu1 疏: to get estranged from each other</def></sense><sense xml:id="uuid-43dce9f7-726c-44ac-9ce9-f7726c34ac05" resp="#CH" tls:created="2022-09-23T18:28:12.744+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>be (relatively more) distant from each other</def></sense></entry><entry type="word" xml:id="uuid-fa72e16e-9dd5-459d-b2e1-6e9dd5159de3" resp="#zadrapa" tls:created="2020-12-02T20:23:14.318+09:00"><form corresp="#uuid-21fca69c-0455-4ef2-a90c-0c530578230c #uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3"><orth>姚遠</orth><pron xml:lang="zh-Latn-x-pinyin">yáo yuǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjwonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lew ɢʷanʔ</pron></form><sense xml:id="uuid-cd0c5bf2-c3ba-4451-8c5b-f2c3ba0451e7" resp="#zadrapa" tls:created="2020-12-02T20:23:14.318+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>(= 遙遠) be far-reaching</def></sense></entry><entry type="word" xml:id="uuid-2854400b-688d-402e-9440-0b688dd02ebf" resp="#zadrapa" tls:created="2021-01-25T06:34:15.914+09:00"><form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243 #uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3"><orth>䟽遠</orth><pron xml:lang="zh-Latn-x-pinyin">shū yuǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjwonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqra ɢʷanʔ</pron></form><sense xml:id="uuid-317b4ab7-997d-4fc9-bb4a-b7997d0fc9e4" resp="#zadrapa" tls:created="2021-01-25T06:34:15.914+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>(= shu1yuan4 疏遠), keep N at bay, get estranged with N</def></sense><sense xml:id="uuid-14d6cd55-9481-44a0-96cd-55948124a05f" resp="#dsehnal" tls:created="2022-11-14T02:01:14.502+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>somebody at distant relations</def></sense></entry><entry type="word" xml:id="uuid-5b431e38-d2ba-492d-831e-38d2ba492d28" resp="#CH" tls:created="2021-02-27T17:04:12.153+09:00"><form corresp="#uuid-d28a9a2d-bc75-4751-8a97-bf1246773f31 #uuid-00408dae-1937-4e9b-bb53-aa999b63a315"><orth>遙蕩</orth><pron xml:lang="zh-Latn-x-pinyin">yáo tàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- thangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lew kh-laaŋs</pron></form><sense xml:id="uuid-f92c43d0-ab35-4ea7-ac43-d0ab353ea71a" resp="#CH" tls:created="2021-02-27T17:04:12.153+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func><tls:sem-feat corresp="#uuid-51e34132-6b64-4edd-861d-a83e3ff87306">poetic</tls:sem-feat></gramGrp><def>distant; far-away</def></sense></entry><entry type="word" xml:id="uuid-19ebcccd-94eb-459f-abcc-cd94ebb59fb6" resp="#zadrapa" tls:created="2022-05-30T04:03:17.734+09:00"><form corresp="#uuid-3693361a-b104-458e-b65e-7f12936eafe7 #uuid-0924d526-29f5-4594-b94f-1755cfb1bd41"><orth>隱僻</orth><pron xml:lang="zh-Latn-x-pinyin">yǐn pì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'j+nX phjiek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯnʔ pheɡ</pron></form><sense xml:id="uuid-c24b2e39-9858-4082-8b2e-399858e082b5" resp="#zadrapa" tls:created="2022-05-30T04:03:17.734+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>remote and uncivilised</def></sense></entry><entry type="word" xml:id="uuid-2040eb82-11ce-42bc-80eb-8211ce52bc95" resp="#dsehnal" tls:created="2024-06-15T02:53:31.471+09:00"><form corresp="#uuid-4e058984-bc21-4be9-a8f3-15cf02946365"><orth>偏</orth><pron xml:lang="zh-Latn-x-pinyin">piān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjien</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phen</pron></form><sense xml:id="uuid-6ac1605b-94b2-4b0a-8160-5b94b2ab0a97" resp="#dsehnal" tls:created="2024-06-15T02:53:31.471+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>become remote </def></sense></entry><entry type="word" xml:id="uuid-9e8c10cc-dfee-4da5-8c10-ccdfeefda591" resp="#dsehnal" tls:created="2024-06-15T03:10:40.135+09:00"><form corresp="#uuid-4b61df58-ef5f-4f61-b98c-42274c16903c #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>悠然</orth><pron xml:lang="zh-Latn-x-pinyin">yōu rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yuw nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯw njen</pron></form><sense xml:id="uuid-b966e49b-9ad4-48e0-a6e4-9b9ad468e02d" resp="#dsehnal" tls:created="2024-06-15T03:10:40.135+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>in a distance; far away</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-7235f05b-5a1e-4829-8af9-926f41ebd25f" resp="#dsehnal" tls:created="2019-12-12T05:27:34.196+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-38274c7f-6d7b-409a-91d3-f112dec43a2c" resp="#dsehnal" tls:created="2019-12-12T05:27:34.196+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>distance of one thousand Li</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a7420325-c654-4e05-8b64-899ebdf7d09e" resp="#dsehnal" tls:created="2019-12-12T05:27:52.378+09:00">
+            <form corresp="#uuid-f8fe7cb5-faea-4943-b003-8338a85bac09 #uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2">
+                <orth>千里</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiān lǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshen liX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiin ɡ-rɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-31e84167-118b-4ffd-9410-c9188dd11db7" resp="#dsehnal" tls:created="2019-12-12T05:27:52.378+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-20e72b12-d3da-4d93-82a7-4d85d052a415">abstract</tls:sem-feat>
+                </gramGrp>
+                <def>distance of one thousand Li</def>
+            </sense>
+            <sense xml:id="uuid-81947f31-ab2b-41c4-947f-31ab2b11c441" resp="#CH" tls:created="2020-04-04T19:25:04.718+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-2c776536-43e0-43f7-82fb-0b812718bcc3">NPpostadV</tls:syn-func>
+                </gramGrp>
+                <def>by a very long distance</def>
+            </sense>
+            <sense xml:id="uuid-d2c253cf-75f9-4576-8253-cf75f9d57624" resp="#zadrapa" tls:created="2020-05-25T05:19:03.259+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>to travel thousand miles, to travel a very long distance</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-975640f9-2f2f-46ff-9f40-1786aa441c45" resp="#CH" tls:created="2020-02-06T23:54:17.796+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-0b259e7e-8c15-41cd-b2dd-160fbf5977c6" resp="#CH" tls:created="2020-02-06T23:54:17.796+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what towers remote, what is imposing and remote</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-707923a8-213c-471c-b306-568c9530e6c3" resp="#CH" tls:created="2020-02-06T23:54:27.088+09:00">
+            <form corresp="#uuid-df610d35-881a-4342-8557-b5756eb6ce12 #uuid-90545a13-2276-42df-bd0f-380125204aaf">
+                <orth>緜邈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mián miǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjien maewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">men mreewɡ</pron>
+            </form>
+            <sense xml:id="uuid-eb12f5d0-9b17-4119-a26d-746bedda0e68" resp="#CH" tls:created="2020-02-06T23:54:27.088+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what towers remote, what is imposing and remote</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-38e70484-e3d7-4a6d-a704-84e3d7da6d72" resp="#zadrapa" tls:created="2020-05-26T22:28:05.936+09:00">
+            <form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243">
+                <orth>䟽</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqra</pron>
+            </form>
+            <sense xml:id="uuid-1c9875bc-6203-48eb-9875-bc620338ebd1" resp="#zadrapa" tls:created="2020-05-26T22:28:05.936+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>= 疏, keep N at bay, get estranged with N</def>
+            </sense>
+            <sense xml:id="uuid-35d038c8-9ac1-4c5e-9038-c89ac16c5e93" resp="#zadrapa" tls:created="2020-06-03T21:35:49.677+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-abe5bd53-1f0c-42f7-a5bd-531f0cb2f72e">change, figurative</tls:sem-feat>
+                </gramGrp>
+                <def>= shu1 疏: to get estranged from each other</def>
+            </sense>
+            <sense xml:id="uuid-43dce9f7-726c-44ac-9ce9-f7726c34ac05" resp="#CH" tls:created="2022-09-23T18:28:12.744+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>be (relatively more) distant from each other</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fa72e16e-9dd5-459d-b2e1-6e9dd5159de3" resp="#zadrapa" tls:created="2020-12-02T20:23:14.318+09:00">
+            <form corresp="#uuid-21fca69c-0455-4ef2-a90c-0c530578230c #uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3">
+                <orth>姚遠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yáo yuǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjwonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lew ɢʷanʔ</pron>
+            </form>
+            <sense xml:id="uuid-cd0c5bf2-c3ba-4451-8c5b-f2c3ba0451e7" resp="#zadrapa" tls:created="2020-12-02T20:23:14.318+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>(= 遙遠) be far-reaching</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2854400b-688d-402e-9440-0b688dd02ebf" resp="#zadrapa" tls:created="2021-01-25T06:34:15.914+09:00">
+            <form corresp="#uuid-a09005af-0806-4a40-bb68-a4edff679243 #uuid-1dc87af6-6c96-4c97-8906-798f1bf58fc3">
+                <orth>䟽遠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shū yuǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjwonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqra ɢʷanʔ</pron>
+            </form>
+            <sense xml:id="uuid-317b4ab7-997d-4fc9-bb4a-b7997d0fc9e4" resp="#zadrapa" tls:created="2021-01-25T06:34:15.914+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>(= shu1yuan4 疏遠), keep N at bay, get estranged with N</def>
+            </sense>
+            <sense xml:id="uuid-14d6cd55-9481-44a0-96cd-55948124a05f" resp="#dsehnal" tls:created="2022-11-14T02:01:14.502+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>somebody at distant relations</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5b431e38-d2ba-492d-831e-38d2ba492d28" resp="#CH" tls:created="2021-02-27T17:04:12.153+09:00">
+            <form corresp="#uuid-d28a9a2d-bc75-4751-8a97-bf1246773f31 #uuid-00408dae-1937-4e9b-bb53-aa999b63a315">
+                <orth>遙蕩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yáo tàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- thangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lew kh-laaŋs</pron>
+            </form>
+            <sense xml:id="uuid-f92c43d0-ab35-4ea7-ac43-d0ab353ea71a" resp="#CH" tls:created="2021-02-27T17:04:12.153+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-51e34132-6b64-4edd-861d-a83e3ff87306">poetic</tls:sem-feat>
+                </gramGrp>
+                <def>distant; far-away</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-19ebcccd-94eb-459f-abcc-cd94ebb59fb6" resp="#zadrapa" tls:created="2022-05-30T04:03:17.734+09:00">
+            <form corresp="#uuid-3693361a-b104-458e-b65e-7f12936eafe7 #uuid-0924d526-29f5-4594-b94f-1755cfb1bd41">
+                <orth>隱僻</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐn pì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'j+nX phjiek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯnʔ pheɡ</pron>
+            </form>
+            <sense xml:id="uuid-c24b2e39-9858-4082-8b2e-399858e082b5" resp="#zadrapa" tls:created="2022-05-30T04:03:17.734+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>remote and uncivilised</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2040eb82-11ce-42bc-80eb-8211ce52bc95" resp="#dsehnal" tls:created="2024-06-15T02:53:31.471+09:00">
+            <form corresp="#uuid-4e058984-bc21-4be9-a8f3-15cf02946365">
+                <orth>偏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">piān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjien</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phen</pron>
+            </form>
+            <sense xml:id="uuid-6ac1605b-94b2-4b0a-8160-5b94b2ab0a97" resp="#dsehnal" tls:created="2024-06-15T02:53:31.471+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>become remote </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9e8c10cc-dfee-4da5-8c10-ccdfeefda591" resp="#dsehnal" tls:created="2024-06-15T03:10:40.135+09:00">
+            <form corresp="#uuid-4b61df58-ef5f-4f61-b98c-42274c16903c #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>悠然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yōu rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yuw nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯw njen</pron>
+            </form>
+            <sense xml:id="uuid-b966e49b-9ad4-48e0-a6e4-9b9ad468e02d" resp="#dsehnal" tls:created="2024-06-15T03:10:40.135+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>in a distance; far away</def>
+            </sense>
+        </entry>
+    </div>
 </div>

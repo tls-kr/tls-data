@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f2255f9d-53ec-4ff8-b8b3-971c28fdd77c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f2255f9d-53ec-4ff8-b8b3-971c28fdd77c">
 <head>ENEMY</head>
     <list type="altnames">
 <item>OPPONENT</item>
@@ -167,7 +168,12 @@
     </div>
 <div type="words">
 <entry type="word" xml:id="uuid-dc61bb01-0429-4717-9f2d-4d29a36569a4">
-            <form corresp="#uuid-bf4f10b8-964e-44e8-8f10-b8964e94e8e7"><orth>仇</orth><pron xml:lang="zh-Latn-x-pinyin">chóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-bf4f10b8-964e-44e8-8f10-b8964e94e8e7">
+                <orth>仇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Qiú 仇 "fiend" (ant. qīn 親 "someone close to one") refers to a mortal enemy with whom one has a serious feud.
 </def>
             <form corresp="#uuid-9caf3681-df41-4625-83f0-db59a753048c">
@@ -253,7 +259,21 @@
                 </gramGrp>
   <def>foreign enemy; enemy; mostly plural: the enemy(!)</def>
             </sense>
-<sense xml:id="uuid-b640af1f-83dc-4ca4-ad21-26aa6995bc51" resp="#CH" tls:created="2019-12-16T18:53:19.168+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>enemy</def></sense><sense xml:id="uuid-ce137af0-e845-4730-937a-f0e84537306a" resp="#CH" tls:created="2021-02-18T00:38:42.823+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>be the enemy of N</def></sense></entry>
+<sense xml:id="uuid-b640af1f-83dc-4ca4-ad21-26aa6995bc51" resp="#CH" tls:created="2019-12-16T18:53:19.168+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>enemy</def>
+            </sense>
+            <sense xml:id="uuid-ce137af0-e845-4730-937a-f0e84537306a" resp="#CH" tls:created="2021-02-18T00:38:42.823+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be the enemy of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b7e59bb3-2722-43ab-b298-490deecbf0e8">
             <form corresp="#uuid-e1e6e253-4a1a-48b3-9a6f-3fa1f07bc4a9">
 <orth>慝</orth>
@@ -285,7 +305,8 @@
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-b241f60c-8553-486b-81f6-0c8553686bbd">competing</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-b241f60c-8553-486b-81f6-0c8553686bbd">competing</tls:sem-feat>
+                </gramGrp>
   <def>rival, opponent, competitor; military opponent; an equal</def>
             </sense>
 <sense xml:id="uuid-59521936-b425-417b-b4c1-be2c3828a0fa">
@@ -331,7 +352,22 @@
                 </gramGrp>
   <def>consider as a competitor or enemy</def>
             </sense>
-<sense xml:id="uuid-406052e2-f1bc-487a-a261-e44612b8c5a2" resp="#CH" tls:created="2019-12-03T23:49:58.194+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-679ff478-b721-42eb-aca2-f0e2c2c402c3">hostile</tls:sem-feat></gramGrp><def>enemy; enemies</def></sense><sense xml:id="uuid-9fcf5a3c-f53e-4f28-8f5a-3cf53e3f2869" resp="#zadrapa" tls:created="2022-05-23T16:33:57.963+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>enmity</def></sense></entry>
+<sense xml:id="uuid-406052e2-f1bc-487a-a261-e44612b8c5a2" resp="#CH" tls:created="2019-12-03T23:49:58.194+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-679ff478-b721-42eb-aca2-f0e2c2c402c3">hostile</tls:sem-feat>
+                </gramGrp>
+                <def>enemy; enemies</def>
+            </sense>
+            <sense xml:id="uuid-9fcf5a3c-f53e-4f28-8f5a-3cf53e3f2869" resp="#zadrapa" tls:created="2022-05-23T16:33:57.963+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>enmity</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-88266021-764f-4638-94e9-5327e6310bdc">
             <form corresp="#uuid-9c8ab241-6d21-4754-b6e0-c59fb0b7683f">
 <orth>毒</orth>
@@ -454,7 +490,30 @@
                 </gramGrp>
   <def>force destructive of, "mortal enemy of"</def>
             </sense>
-<sense xml:id="uuid-67da2a7d-52a1-46ec-9a2a-7d52a186ec18" resp="#dsehnal" tls:created="2021-04-16T16:12:12.009+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func></gramGrp><def>enemy Npr; the Npr bandits</def></sense><sense xml:id="uuid-a6958168-b573-47d8-9581-68b573d7d826" resp="#dsehnal" tls:created="2021-04-16T20:20:55.777+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3473071e-1407-4804-a185-2db288ee8726">nt</tls:syn-func><tls:sem-feat corresp="#uuid-f6f3d27f-f067-4373-892e-e812b0177e72">mass</tls:sem-feat></gramGrp><def>enemy as massive force</def></sense><sense xml:id="uuid-13c254b7-c5b6-4653-8254-b7c5b64653b8" resp="#dsehnal" tls:created="2021-04-17T01:53:13.639+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3473071e-1407-4804-a185-2db288ee8726">nt</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>enemies</def></sense></entry>
+<sense xml:id="uuid-67da2a7d-52a1-46ec-9a2a-7d52a186ec18" resp="#dsehnal" tls:created="2021-04-16T16:12:12.009+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                </gramGrp>
+                <def>enemy Npr; the Npr bandits</def>
+            </sense>
+            <sense xml:id="uuid-a6958168-b573-47d8-9581-68b573d7d826" resp="#dsehnal" tls:created="2021-04-16T20:20:55.777+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3473071e-1407-4804-a185-2db288ee8726">nt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f6f3d27f-f067-4373-892e-e812b0177e72">mass</tls:sem-feat>
+                </gramGrp>
+                <def>enemy as massive force</def>
+            </sense>
+            <sense xml:id="uuid-13c254b7-c5b6-4653-8254-b7c5b64653b8" resp="#dsehnal" tls:created="2021-04-17T01:53:13.639+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3473071e-1407-4804-a185-2db288ee8726">nt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>enemies</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9f829de3-7590-4c04-99e3-1cd6c89e35a5">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-9c10d3ad-bc3d-4cd2-b8c3-2c5452ed803a">
 <orth>不善</orth>
@@ -685,5 +744,65 @@
 </entry>
 
 
-    <entry type="word" xml:id="uuid-70d569e6-a5ef-47cb-a3ec-1e93e1a95ff7" resp="#CH" tls:created="2019-12-01T19:39:01.997+09:00"><form corresp="#uuid-9caf3681-df41-4625-83f0-db59a753048c #uuid-e650efbd-2e76-4e82-812d-a9cbea2dbd6a"><orth>讎敵</orth><pron xml:lang="zh-Latn-x-pinyin">chóu dí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuw dek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡju ɡ-leeɡ</pron></form><sense xml:id="uuid-3ac1ffb9-a6ee-485d-a85c-724ba27b7d69" resp="#CH" tls:created="2019-12-01T19:39:01.997+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>bitter enemy</def></sense></entry><entry type="word" xml:id="uuid-4cf4063c-e364-4116-b406-3ce36461167e" resp="#zadrapa" tls:created="2021-01-22T00:39:19.389+09:00"><form corresp="#uuid-e650efbd-2e76-4e82-812d-a9cbea2dbd6a #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>敵者</orth><pron xml:lang="zh-Latn-x-pinyin">dí zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dek tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-leeɡ kljaʔ</pron></form><sense xml:id="uuid-46f41184-581e-46c0-b411-84581ec6c001" resp="#zadrapa" tls:created="2021-01-22T00:39:19.389+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>N's enemy</def></sense></entry><entry type="word" xml:id="uuid-868c4875-983f-45f7-8c48-75983ff5f7cf" resp="#zadrapa" tls:created="2021-01-25T06:16:29.538+09:00"><form corresp="#uuid-9caf3681-df41-4625-83f0-db59a753048c #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>讎人</orth><pron xml:lang="zh-Latn-x-pinyin">chóu rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuw nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡju njin</pron></form><sense xml:id="uuid-7da7e30a-c203-48a5-a7e3-0ac203e8a519" resp="#zadrapa" tls:created="2021-01-25T06:16:29.538+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>enemy</def></sense></entry><entry type="word" xml:id="uuid-5d943811-354d-4b1f-9438-11354dbb1ff1" resp="#zadrapa" tls:created="2022-06-07T21:41:49.569+09:00"><form corresp="#uuid-e650efbd-2e76-4e82-812d-a9cbea2dbd6a #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>敵人</orth><pron xml:lang="zh-Latn-x-pinyin">dí rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dek nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-leeɡ njin</pron></form><sense xml:id="uuid-aab1b0c9-8d90-4128-b1b0-c98d909128ae" resp="#zadrapa" tls:created="2022-06-07T21:41:49.569+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>enemy</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-70d569e6-a5ef-47cb-a3ec-1e93e1a95ff7" resp="#CH" tls:created="2019-12-01T19:39:01.997+09:00">
+            <form corresp="#uuid-9caf3681-df41-4625-83f0-db59a753048c #uuid-e650efbd-2e76-4e82-812d-a9cbea2dbd6a">
+                <orth>讎敵</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chóu dí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuw dek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡju ɡ-leeɡ</pron>
+            </form>
+            <sense xml:id="uuid-3ac1ffb9-a6ee-485d-a85c-724ba27b7d69" resp="#CH" tls:created="2019-12-01T19:39:01.997+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>bitter enemy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4cf4063c-e364-4116-b406-3ce36461167e" resp="#zadrapa" tls:created="2021-01-22T00:39:19.389+09:00">
+            <form corresp="#uuid-e650efbd-2e76-4e82-812d-a9cbea2dbd6a #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>敵者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dí zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dek tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-leeɡ kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-46f41184-581e-46c0-b411-84581ec6c001" resp="#zadrapa" tls:created="2021-01-22T00:39:19.389+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's enemy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-868c4875-983f-45f7-8c48-75983ff5f7cf" resp="#zadrapa" tls:created="2021-01-25T06:16:29.538+09:00">
+            <form corresp="#uuid-9caf3681-df41-4625-83f0-db59a753048c #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>讎人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chóu rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyuw nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡju njin</pron>
+            </form>
+            <sense xml:id="uuid-7da7e30a-c203-48a5-a7e3-0ac203e8a519" resp="#zadrapa" tls:created="2021-01-25T06:16:29.538+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>enemy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5d943811-354d-4b1f-9438-11354dbb1ff1" resp="#zadrapa" tls:created="2022-06-07T21:41:49.569+09:00">
+            <form corresp="#uuid-e650efbd-2e76-4e82-812d-a9cbea2dbd6a #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>敵人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dí rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dek nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-leeɡ njin</pron>
+            </form>
+            <sense xml:id="uuid-aab1b0c9-8d90-4128-b1b0-c98d909128ae" resp="#zadrapa" tls:created="2022-06-07T21:41:49.569+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>enemy</def>
+            </sense>
+        </entry>
+    </div>
 </div>

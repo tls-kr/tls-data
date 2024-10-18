@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3c521172-fd8c-405e-b8d5-5b78a4eeb944">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3c521172-fd8c-405e-b8d5-5b78a4eeb944">
 <head>DAMAGE</head>
     <list type="translations">
         <item xml:lang="zh">害</item>
@@ -229,7 +230,15 @@
                 </gramGrp>
   <def>damage (oneself)</def>
             </sense>
-<sense xml:id="uuid-3e46f6b1-eaaa-4fba-a706-436363bcde65" resp="#CH" tls:created="2020-02-10T17:56:30.78+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>abstract: impair</def></sense></entry>
+<sense xml:id="uuid-3e46f6b1-eaaa-4fba-a706-436363bcde65" resp="#CH" tls:created="2020-02-10T17:56:30.78+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>abstract: impair</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0a56ceb0-174b-4c5e-b12f-bb5ad0b72779">
             <form corresp="#uuid-77df3d6c-244e-4762-a779-9ecdc44ed29a">
 <orth>儡</orth>
@@ -430,7 +439,38 @@
                 </gramGrp>
   <def>damage from N</def>
             </sense>
-<sense xml:id="uuid-7b3362ed-489f-48f4-a06b-7ab00e128c4a" resp="#CH" tls:created="2020-02-09T18:33:07.154+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>figurative: be aesthetically impaired</def></sense><sense xml:id="uuid-0140c693-00b4-4818-80c6-9300b4a8183f" resp="#zadrapa" tls:created="2020-06-11T04:10:22.366+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-e57cd330-14b4-49ad-bcd3-3014b4b9ad6f">putative; passive</tls:sem-feat></gramGrp><def>be regarded as harmful to one's interests</def></sense><sense xml:id="uuid-a45026f6-6212-4c50-9026-f66212cc5083" resp="#CH" tls:created="2022-08-26T23:50:49.497+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>disadvantageousness, damaging impact, damage</def></sense><sense xml:id="uuid-574f551a-b1a8-48aa-8f55-1ab1a868aad4" resp="#CH" tls:created="2022-09-03T20:10:14.174+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#">putative</tls:sem-feat></gramGrp><def>consider N to be harmful</def></sense></entry>
+<sense xml:id="uuid-7b3362ed-489f-48f4-a06b-7ab00e128c4a" resp="#CH" tls:created="2020-02-09T18:33:07.154+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: be aesthetically impaired</def>
+            </sense>
+            <sense xml:id="uuid-0140c693-00b4-4818-80c6-9300b4a8183f" resp="#zadrapa" tls:created="2020-06-11T04:10:22.366+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e57cd330-14b4-49ad-bcd3-3014b4b9ad6f">putative; passive</tls:sem-feat>
+                </gramGrp>
+                <def>be regarded as harmful to one's interests</def>
+            </sense>
+            <sense xml:id="uuid-a45026f6-6212-4c50-9026-f66212cc5083" resp="#CH" tls:created="2022-08-26T23:50:49.497+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>disadvantageousness, damaging impact, damage</def>
+            </sense>
+            <sense xml:id="uuid-574f551a-b1a8-48aa-8f55-1ab1a868aad4" resp="#CH" tls:created="2022-09-03T20:10:14.174+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#">putative</tls:sem-feat>
+                </gramGrp>
+                <def>consider N to be harmful</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8daad5fd-d31b-456f-a89d-5b7be3da7b61">
             <form corresp="#uuid-1cb7a864-3c4d-4100-87a8-0383d86939da">
 <orth>惎</orth>
@@ -583,7 +623,14 @@
                 </gramGrp>
   <def>do supernatural damage to</def>
             </sense>
-<sense xml:id="uuid-a030bc49-a58b-42d0-b0bc-49a58ba2d0de" resp="#CH" tls:created="2020-06-02T17:24:43.254+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>malevolent influence; supernatural curse</def></sense></entry>
+<sense xml:id="uuid-a030bc49-a58b-42d0-b0bc-49a58ba2d0de" resp="#CH" tls:created="2020-06-02T17:24:43.254+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>malevolent influence; supernatural curse</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7a60064e-bd3e-4ba3-a4ef-04ea5bbb4d14">
             <form corresp="#uuid-df0330c1-a85c-4e8c-bf05-697e52bff98d">
 <orth>缺</orth>
@@ -652,7 +699,14 @@
                 </gramGrp>
   <def>damage and ruin, harm; try to harm viciously; do villainous harm to</def>
             </sense>
-<sense xml:id="uuid-8c27bfba-b2d9-4990-a7bf-bab2d9e99085" resp="#CH" tls:created="2020-05-12T17:25:47.342+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>do serious damage to</def></sense></entry>
+<sense xml:id="uuid-8c27bfba-b2d9-4990-a7bf-bab2d9e99085" resp="#CH" tls:created="2020-05-12T17:25:47.342+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>do serious damage to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bcbd1991-f536-4168-90c2-f0db05d9aa02">
             <form corresp="#uuid-575835f0-1adc-47e2-8871-83a84beffd65">
 <orth>闕</orth>
@@ -1041,5 +1095,224 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0961ac8d-bd97-4251-a705-55ad7836fe26" resp="#CH" tls:created="2019-12-01T19:27:13.491+09:00"><form corresp="#uuid-3c36a444-e057-4882-acd4-925beb8c955c"><orth>殘</orth><pron xml:lang="zh-Latn-x-pinyin">cán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzan</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzaan</pron></form><sense xml:id="uuid-e160b6e0-bd86-40e4-b8d3-ac46bc4b78c7" resp="#CH" tls:created="2019-12-01T19:27:13.491+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>inflict harm on</def></sense><sense xml:id="uuid-cd5a460e-06a2-4de6-9ba8-f7ad3aed212e" resp="#CH" tls:created="2019-12-01T20:43:29.563+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be damaged, get harmed</def></sense><sense xml:id="uuid-e2dfb081-0d98-463b-9fb0-810d98463bd2" resp="#CH" tls:created="2023-08-04T22:51:40.742+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>damage</def></sense></entry><entry type="word" xml:id="uuid-572b29cb-8343-493c-b64c-a320a9f5fcbd" resp="#CH" tls:created="2019-12-14T05:38:04.831+09:00"><form corresp="#uuid-3f5cd02c-7674-4bfd-875f-5687695e6a67"><orth>虧</orth><pron xml:lang="zh-Latn-x-pinyin">kuī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷral</pron></form><sense xml:id="uuid-9f245df2-d10b-455f-aea8-3cad54cdaac7" resp="#CH" tls:created="2019-12-14T05:38:04.831+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>do harm to</def></sense><sense xml:id="uuid-fa2b9d54-c104-47e3-ab9d-54c10467e3c0" resp="#CH" tls:created="2021-09-08T17:28:54.93+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be impaired</def></sense></entry><entry type="word" xml:id="uuid-b30010b2-e281-4579-8b4b-2035a8e185e4" resp="#zadrapa" tls:created="2020-01-21T23:22:18.81+09:00"><form corresp="#菑:zāi #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>菑然</orth><pron xml:lang="zh-Latn-x-pinyin">zāi rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- njen</pron></form><sense xml:id="uuid-cf165544-951d-48ce-bf62-f82b432a7a61" resp="#zadrapa" tls:created="2020-01-21T23:22:18.81+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>as if one was damaged</def></sense></entry><entry type="word" xml:id="uuid-c38281a2-847c-4106-8281-a2847c9106c9" resp="#zadrapa" tls:created="2020-06-01T18:22:16.598+09:00"><form corresp="#uuid-9c8ab241-6d21-4754-b6e0-c59fb0b7683f #uuid-de926cbf-fa15-4ca9-942e-1fc7180b6c2f"><orth>毒賊</orth><pron xml:lang="zh-Latn-x-pinyin">dú zéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dowk dzok</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">duuɡ sɡɯɯɡ</pron></form><sense xml:id="uuid-c6a7e00c-f309-40ba-a7e0-0cf30960baba" resp="#zadrapa" tls:created="2020-06-01T18:22:16.598+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>to do malicious harm to others</def></sense></entry><entry type="word" xml:id="uuid-debf0c45-3b38-4e73-bf0c-453b388e7314" resp="#zadrapa" tls:created="2020-06-11T18:16:31.029+09:00"><form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-1b8d5132-7c78-44d6-b507-847bc661a844"><orth>可害</orth><pron xml:lang="zh-Latn-x-pinyin">kě hài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaX hajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ ɡaads</pron></form><sense xml:id="uuid-523cef43-6c4f-4b84-bcef-436c4f6b84ab" resp="#zadrapa" tls:created="2020-06-11T18:16:31.029+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>harmfulness</def></sense></entry><entry type="word" xml:id="uuid-e8ccf1ba-78ad-4734-8cf1-ba78ad7734ea" resp="#zadrapa" tls:created="2021-01-20T00:32:45.234+09:00"><form corresp="#uuid-de926cbf-fa15-4ca9-942e-1fc7180b6c2f #uuid-8817e9ab-5c2e-455f-bcf5-a2beca1a4a2c"><orth>賊亂</orth><pron xml:lang="zh-Latn-x-pinyin">zéi luàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzok lwanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯɡ ɡ-roons</pron></form><sense xml:id="uuid-4af04209-7563-4144-b042-097563714439" resp="#zadrapa" tls:created="2021-01-20T00:32:45.234+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>bring about destruction and chaos</def></sense></entry><entry type="word" xml:id="uuid-4f363d18-479e-4102-b63d-18479e9102c4" resp="#zadrapa" tls:created="2021-02-11T18:21:48.662+09:00"><form corresp="#uuid-6de44112-fbff-41ef-992c-56b97ad1bc0f #uuid-1b8d5132-7c78-44d6-b507-847bc661a844"><orth>妨害</orth><pron xml:lang="zh-Latn-x-pinyin">fāng hài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjang hajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaŋ ɡaads</pron></form><sense xml:id="uuid-5a0a5d95-7858-492b-8a5d-957858e92b4e" resp="#zadrapa" tls:created="2021-02-11T18:21:48.662+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>inflict damage of any kind on</def></sense></entry><entry type="word" xml:id="uuid-287dddad-97bf-4327-bddd-ad97bf432724"><form><orth>竊</orth><pron xml:lang="zh-Latn-x-pinyin">qiè</pron></form><def/><sense xml:id="uuid-989951e8-1351-46d9-9951-e81351b6d9e7" resp="#CH" tls:created="2021-03-08T02:09:32.307+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>(criminally) pervert</def></sense></entry><entry type="word" xml:id="uuid-0a4e1aae-cb73-4dae-8e1a-aecb737daeef" resp="#CH" tls:created="2021-03-09T03:04:33.64+09:00"><form corresp="#uuid-ba6a31cd-ceed-4bb3-b4be-c0b847b5af66"><orth>毗</orth><pron xml:lang="zh-Latn-x-pinyin">pí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-45d468b2-b4f4-4984-9468-b2b4f469845f" resp="#CH" tls:created="2021-03-09T03:04:33.64+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>damage</def></sense><sense xml:id="uuid-8482d416-c6d2-4c83-82d4-16c6d2fc8343" resp="#CH" tls:created="2021-03-09T03:08:48.606+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be impaired; be damaged</def></sense><sense xml:id="uuid-db68979f-30b7-47fa-a897-9f30b707fad4" resp="#CH" tls:created="2021-03-09T03:09:23.457+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>impair, to damage to</def></sense></entry><entry type="word" xml:id="uuid-788acb6e-a506-4802-8acb-6ea506080279" resp="#CH" tls:created="2021-03-14T00:13:34.093+09:00"><form corresp="#uuid-37841124-9804-4497-bf0c-4aa42ec4349d"><orth>遷</orth><pron xml:lang="zh-Latn-x-pinyin">qiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshen</pron></form><sense xml:id="uuid-60488578-e159-4cdd-8885-78e159bcdd49" resp="#CH" tls:created="2021-03-14T00:13:34.093+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>change for the worse, make worse</def></sense></entry><entry type="word" xml:id="uuid-47254b9f-3641-4b60-a54b-9f36413b6086" resp="#Valerie.Kiel" tls:created="2021-07-05T05:58:06.285+09:00"><form corresp="#uuid-3c36a444-e057-4882-acd4-925beb8c955c #uuid-575835f0-1adc-47e2-8871-83a84beffd65"><orth>殘闕</orth><pron xml:lang="zh-Latn-x-pinyin">cán què, quē</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzan khjwot</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzaan khod</pron></form><sense xml:id="uuid-7475e358-ff81-4b00-b5e3-58ff811b0022" resp="#Valerie.Kiel" tls:created="2021-07-05T05:58:06.285+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ce2aec61-39ea-4be6-9970-7fcbb6d15da4">VP(adN)</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>what is damaged</def></sense></entry><entry type="word" xml:id="uuid-f09f2c25-62b4-43df-9f2c-2562b4b3df08" resp="#CH" tls:created="2023-08-04T18:18:37.328+09:00"><form corresp="#uuid-f3be5e45-4a67-44a6-afba-b299d28cabba"><orth>攘</orth><pron xml:lang="zh-Latn-x-pinyin">ráng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njaŋ</pron></form><sense xml:id="uuid-b6fd6549-e1b4-4390-bd65-49e1b4239029" resp="#CH" tls:created="2023-08-04T18:18:37.328+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>interfere with; create havoc in</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0961ac8d-bd97-4251-a705-55ad7836fe26" resp="#CH" tls:created="2019-12-01T19:27:13.491+09:00">
+            <form corresp="#uuid-3c36a444-e057-4882-acd4-925beb8c955c">
+                <orth>殘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzan</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzaan</pron>
+            </form>
+            <sense xml:id="uuid-e160b6e0-bd86-40e4-b8d3-ac46bc4b78c7" resp="#CH" tls:created="2019-12-01T19:27:13.491+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>inflict harm on</def>
+            </sense>
+            <sense xml:id="uuid-cd5a460e-06a2-4de6-9ba8-f7ad3aed212e" resp="#CH" tls:created="2019-12-01T20:43:29.563+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be damaged, get harmed</def>
+            </sense>
+            <sense xml:id="uuid-e2dfb081-0d98-463b-9fb0-810d98463bd2" resp="#CH" tls:created="2023-08-04T22:51:40.742+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>damage</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-572b29cb-8343-493c-b64c-a320a9f5fcbd" resp="#CH" tls:created="2019-12-14T05:38:04.831+09:00">
+            <form corresp="#uuid-3f5cd02c-7674-4bfd-875f-5687695e6a67">
+                <orth>虧</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kuī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khʷral</pron>
+            </form>
+            <sense xml:id="uuid-9f245df2-d10b-455f-aea8-3cad54cdaac7" resp="#CH" tls:created="2019-12-14T05:38:04.831+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>do harm to</def>
+            </sense>
+            <sense xml:id="uuid-fa2b9d54-c104-47e3-ab9d-54c10467e3c0" resp="#CH" tls:created="2021-09-08T17:28:54.93+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be impaired</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b30010b2-e281-4579-8b4b-2035a8e185e4" resp="#zadrapa" tls:created="2020-01-21T23:22:18.81+09:00">
+            <form corresp="#菑:zāi #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>菑然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zāi rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- njen</pron>
+            </form>
+            <sense xml:id="uuid-cf165544-951d-48ce-bf62-f82b432a7a61" resp="#zadrapa" tls:created="2020-01-21T23:22:18.81+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>as if one was damaged</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c38281a2-847c-4106-8281-a2847c9106c9" resp="#zadrapa" tls:created="2020-06-01T18:22:16.598+09:00">
+            <form corresp="#uuid-9c8ab241-6d21-4754-b6e0-c59fb0b7683f #uuid-de926cbf-fa15-4ca9-942e-1fc7180b6c2f">
+                <orth>毒賊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dú zéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dowk dzok</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">duuɡ sɡɯɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-c6a7e00c-f309-40ba-a7e0-0cf30960baba" resp="#zadrapa" tls:created="2020-06-01T18:22:16.598+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>to do malicious harm to others</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-debf0c45-3b38-4e73-bf0c-453b388e7314" resp="#zadrapa" tls:created="2020-06-11T18:16:31.029+09:00">
+            <form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-1b8d5132-7c78-44d6-b507-847bc661a844">
+                <orth>可害</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kě hài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaX hajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ ɡaads</pron>
+            </form>
+            <sense xml:id="uuid-523cef43-6c4f-4b84-bcef-436c4f6b84ab" resp="#zadrapa" tls:created="2020-06-11T18:16:31.029+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>harmfulness</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e8ccf1ba-78ad-4734-8cf1-ba78ad7734ea" resp="#zadrapa" tls:created="2021-01-20T00:32:45.234+09:00">
+            <form corresp="#uuid-de926cbf-fa15-4ca9-942e-1fc7180b6c2f #uuid-8817e9ab-5c2e-455f-bcf5-a2beca1a4a2c">
+                <orth>賊亂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zéi luàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzok lwanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯɡ ɡ-roons</pron>
+            </form>
+            <sense xml:id="uuid-4af04209-7563-4144-b042-097563714439" resp="#zadrapa" tls:created="2021-01-20T00:32:45.234+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>bring about destruction and chaos</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4f363d18-479e-4102-b63d-18479e9102c4" resp="#zadrapa" tls:created="2021-02-11T18:21:48.662+09:00">
+            <form corresp="#uuid-6de44112-fbff-41ef-992c-56b97ad1bc0f #uuid-1b8d5132-7c78-44d6-b507-847bc661a844">
+                <orth>妨害</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fāng hài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjang hajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaŋ ɡaads</pron>
+            </form>
+            <sense xml:id="uuid-5a0a5d95-7858-492b-8a5d-957858e92b4e" resp="#zadrapa" tls:created="2021-02-11T18:21:48.662+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>inflict damage of any kind on</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-287dddad-97bf-4327-bddd-ad97bf432724">
+            <form>
+                <orth>竊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiè</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-989951e8-1351-46d9-9951-e81351b6d9e7" resp="#CH" tls:created="2021-03-08T02:09:32.307+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>(criminally) pervert</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0a4e1aae-cb73-4dae-8e1a-aecb737daeef" resp="#CH" tls:created="2021-03-09T03:04:33.64+09:00">
+            <form corresp="#uuid-ba6a31cd-ceed-4bb3-b4be-c0b847b5af66">
+                <orth>毗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-45d468b2-b4f4-4984-9468-b2b4f469845f" resp="#CH" tls:created="2021-03-09T03:04:33.64+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>damage</def>
+            </sense>
+            <sense xml:id="uuid-8482d416-c6d2-4c83-82d4-16c6d2fc8343" resp="#CH" tls:created="2021-03-09T03:08:48.606+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be impaired; be damaged</def>
+            </sense>
+            <sense xml:id="uuid-db68979f-30b7-47fa-a897-9f30b707fad4" resp="#CH" tls:created="2021-03-09T03:09:23.457+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>impair, to damage to</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-788acb6e-a506-4802-8acb-6ea506080279" resp="#CH" tls:created="2021-03-14T00:13:34.093+09:00">
+            <form corresp="#uuid-37841124-9804-4497-bf0c-4aa42ec4349d">
+                <orth>遷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshen</pron>
+            </form>
+            <sense xml:id="uuid-60488578-e159-4cdd-8885-78e159bcdd49" resp="#CH" tls:created="2021-03-14T00:13:34.093+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>change for the worse, make worse</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-47254b9f-3641-4b60-a54b-9f36413b6086" resp="#Valerie.Kiel" tls:created="2021-07-05T05:58:06.285+09:00">
+            <form corresp="#uuid-3c36a444-e057-4882-acd4-925beb8c955c #uuid-575835f0-1adc-47e2-8871-83a84beffd65">
+                <orth>殘闕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cán què, quē</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzan khjwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzaan khod</pron>
+            </form>
+            <sense xml:id="uuid-7475e358-ff81-4b00-b5e3-58ff811b0022" resp="#Valerie.Kiel" tls:created="2021-07-05T05:58:06.285+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ce2aec61-39ea-4be6-9970-7fcbb6d15da4">VP(adN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>what is damaged</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f09f2c25-62b4-43df-9f2c-2562b4b3df08" resp="#CH" tls:created="2023-08-04T18:18:37.328+09:00">
+            <form corresp="#uuid-f3be5e45-4a67-44a6-afba-b299d28cabba">
+                <orth>攘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ráng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njaŋ</pron>
+            </form>
+            <sense xml:id="uuid-b6fd6549-e1b4-4390-bd65-49e1b4239029" resp="#CH" tls:created="2023-08-04T18:18:37.328+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>interfere with; create havoc in</def>
+            </sense>
+        </entry>
+    </div>
 </div>

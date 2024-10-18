@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7cad873-0a8d-4394-b938-cd5465d9f2d8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7cad873-0a8d-4394-b938-cd5465d9f2d8">
 <head>BATHE</head>
     <list type="altnames">
 <item>CLEAN</item>
@@ -135,7 +136,15 @@
                 </gramGrp>
   <def>wash one's body including one's hair in the context of taking a luxurious bath, sometimes with tāng 湯 "hot water"</def>
             </sense>
-<sense xml:id="uuid-b2c3a3e6-bea5-403a-83a3-e6bea5903ad3" resp="#CH" tls:created="2022-08-02T23:14:03.448+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>act of taking a bath, process of taking a bath</def></sense></entry>
+<sense xml:id="uuid-b2c3a3e6-bea5-403a-83a3-e6bea5903ad3" resp="#CH" tls:created="2022-08-02T23:14:03.448+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>act of taking a bath, process of taking a bath</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8d7df8fd-bdf7-46cb-b9bd-d2bb14a78f3f">
             <form corresp="#uuid-38a94088-c8e5-42eb-8946-3728c3b48471">
 <orth>洗</orth>
@@ -287,7 +296,14 @@
             <def>The standard general word is yù 浴 and refers typically to taking a bath or washing of the whole body. The still more general word, which may even apply to washing things other than the body, is zhuó 濯.
 [GENERAL], [GENERAL-USE];   [[COMMON]]
 </def>
-<sense xml:id="uuid-de777281-c7f2-45e6-989e-97effd41ebe2" resp="#CH" tls:created="2020-02-05T02:11:30.362+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-12-23T01:21:24.377+09:00">bathe in; delve into; dip into</def></sense></entry>
+<sense xml:id="uuid-de777281-c7f2-45e6-989e-97effd41ebe2" resp="#CH" tls:created="2020-02-05T02:11:30.362+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-12-23T01:21:24.377+09:00">bathe in; delve into; dip into</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6bd3aa7a-5c1b-4d38-be92-81d20e29aec5">
             <form corresp="#uuid-76780b8c-8a81-40ca-9687-c9a43a2175fc">
 <orth>盥</orth>
@@ -379,6 +395,13 @@
                 </gramGrp>
   <def>take a hot-water luxury bath, including the washing of hair</def>
             </sense>
-<sense xml:id="uuid-7a0341d3-8819-4bfe-8341-d38819bbfe0b" resp="#CH" tls:created="2022-09-23T23:53:03.551+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>hot bath</def></sense></entry>
+<sense xml:id="uuid-7a0341d3-8819-4bfe-8341-d38819bbfe0b" resp="#CH" tls:created="2022-09-23T23:53:03.551+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>hot bath</def>
+            </sense>
+        </entry>
     </div>
 </div>

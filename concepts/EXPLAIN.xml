@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-65c1c732-370e-4a5c-ab62-3ebbc2b8cf71">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-65c1c732-370e-4a5c-ab62-3ebbc2b8cf71">
 <head>EXPLAIN</head>
     <list type="altnames">
 <item>DESCRIBE</item>
@@ -290,7 +291,37 @@
                 </gramGrp>
   <def>express that S</def>
             </sense>
-<sense xml:id="uuid-189a55ba-70a9-4e58-ab91-4d720042ac88" resp="#CH" tls:created="2019-12-10T19:03:11.747+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>discursive explanation</def></sense><sense xml:id="uuid-788900c7-d125-4b86-8900-c7d1253b8647" resp="#dsehnal" tls:created="2020-05-09T22:06:26.461+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2020-05-09T22:07:11.962+09:00">try to explain something (often using examples, metaphors etc.)</def></sense><sense xml:id="uuid-78eee3a8-875b-48f7-aee3-a8875b28f75c" resp="#CH" tls:created="2020-07-01T22:19:11.45+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vtt[oN1.]+N2</tls:syn-func></gramGrp><def resp="#CH" updated="2020-07-01T22:20:49.825+09:00">explain the relevant contextually determinate things N1 to N2</def></sense><sense xml:id="uuid-819d23e6-3dcb-4da4-9d23-e63dcb9da4ea" resp="#zadrapa" tls:created="2021-06-14T17:08:46.089+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-7f49a8f4-6da3-4126-b6d9-8df15a825002">modal</tls:sem-feat></gramGrp><def>be able to fully express what one means</def></sense></entry>
+<sense xml:id="uuid-189a55ba-70a9-4e58-ab91-4d720042ac88" resp="#CH" tls:created="2019-12-10T19:03:11.747+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>discursive explanation</def>
+            </sense>
+            <sense xml:id="uuid-788900c7-d125-4b86-8900-c7d1253b8647" resp="#dsehnal" tls:created="2020-05-09T22:06:26.461+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2020-05-09T22:07:11.962+09:00">try to explain something (often using examples, metaphors etc.)</def>
+            </sense>
+            <sense xml:id="uuid-78eee3a8-875b-48f7-aee3-a8875b28f75c" resp="#CH" tls:created="2020-07-01T22:19:11.45+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vtt[oN1.]+N2</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-07-01T22:20:49.825+09:00">explain the relevant contextually determinate things N1 to N2</def>
+            </sense>
+            <sense xml:id="uuid-819d23e6-3dcb-4da4-9d23-e63dcb9da4ea" resp="#zadrapa" tls:created="2021-06-14T17:08:46.089+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7f49a8f4-6da3-4126-b6d9-8df15a825002">modal</tls:sem-feat>
+                </gramGrp>
+                <def>be able to fully express what one means</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f1659af3-8885-437c-b57b-17db6cdbafb6">
             <form corresp="#uuid-cd20eb47-d922-4519-a9db-b5f9565b2fe4">
 <orth>察</orth>
@@ -450,7 +481,29 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-04-03T18:43:08.996+09:00">explain, make it clear that S</def>
             </sense>
-<sense xml:id="uuid-7a5f8dae-0587-4ad1-ad2c-1899acea36a4" resp="#CH" tls:created="2019-12-13T21:47:39.919+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func></gramGrp><def resp="#CH" updated="2021-04-03T18:42:50.669+09:00">elucidate the abstract matter of Nab</def></sense><sense xml:id="uuid-f0137cdf-12d6-4e16-8f0a-6a211ccc06f8" resp="#CH" tls:created="2019-12-13T22:34:19.79+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vttoNPab. prep N</tls:syn-func></gramGrp><def resp="#CH" updated="2021-04-03T18:41:37.126+09:00">elucidate the NPab to the audience N</def></sense><sense xml:id="uuid-47bc6d6e-5891-42a5-bc6d-6e5891e2a5e0" resp="#CH" tls:created="2022-08-20T23:56:54.84+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.)+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be explained to N2</def></sense></entry>
+<sense xml:id="uuid-7a5f8dae-0587-4ad1-ad2c-1899acea36a4" resp="#CH" tls:created="2019-12-13T21:47:39.919+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-04-03T18:42:50.669+09:00">elucidate the abstract matter of Nab</def>
+            </sense>
+            <sense xml:id="uuid-f0137cdf-12d6-4e16-8f0a-6a211ccc06f8" resp="#CH" tls:created="2019-12-13T22:34:19.79+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vttoNPab. prep N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-04-03T18:41:37.126+09:00">elucidate the NPab to the audience N</def>
+            </sense>
+            <sense xml:id="uuid-47bc6d6e-5891-42a5-bc6d-6e5891e2a5e0" resp="#CH" tls:created="2022-08-20T23:56:54.84+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.)+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be explained to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-774c929c-c392-497c-a386-d057fbd56dd7">
             <form corresp="#uuid-331f456a-f12b-4774-b87f-81762c7294d1">
 <orth>決</orth>
@@ -466,7 +519,14 @@
                 </gramGrp>
   <def>solve (a difficulty), find a solution to (political revolt) [But wher are the examples?]</def>
             </sense>
-<sense xml:id="uuid-d1f60a9b-d86b-496b-b60a-9bd86b496b5c" resp="#dsehnal" tls:created="2021-05-06T01:56:59.844+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>solve the contextually determinate task</def></sense></entry>
+<sense xml:id="uuid-d1f60a9b-d86b-496b-b60a-9bd86b496b5c" resp="#dsehnal" tls:created="2021-05-06T01:56:59.844+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>solve the contextually determinate task</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9e2308e7-5a7f-45f4-a56b-d2be4f3cf54f">
             <form corresp="#uuid-7ab3e826-29ba-45be-8d0c-4d4619938591">
 <orth>理</orth>
@@ -607,7 +667,21 @@
                 </gramGrp>
   <def>cause to understand &gt; unravel and explain</def>
             </sense>
-<sense xml:id="uuid-7a9b9020-5712-4c26-9b90-205712dc2655" resp="#zadrapa" tls:created="2021-01-15T05:48:01.857+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>explanation</def></sense><sense xml:id="uuid-b2f61ffa-919e-45e2-b61f-fa919e65e2fc" resp="#dsehnal" tls:created="2021-05-06T01:16:13.205+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>unravel and explain the contextually determinate thing</def></sense></entry>
+<sense xml:id="uuid-7a9b9020-5712-4c26-9b90-205712dc2655" resp="#zadrapa" tls:created="2021-01-15T05:48:01.857+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>explanation</def>
+            </sense>
+            <sense xml:id="uuid-b2f61ffa-919e-45e2-b61f-fa919e65e2fc" resp="#dsehnal" tls:created="2021-05-06T01:16:13.205+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>unravel and explain the contextually determinate thing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c5c1576f-57be-41fc-8c23-c14a76cda219">
             <form corresp="#uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce">
 <orth>言</orth>
@@ -650,7 +724,14 @@
                 </gramGrp>
   <def>to be explained in words</def>
             </sense>
-<sense xml:id="uuid-738e808e-5137-4da2-9bc9-f1828e6f7e55" resp="#CH" tls:created="2019-12-06T21:45:28.787+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(. prep N2)</tls:syn-func></gramGrp><def>explain the subject N1 to the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-738e808e-5137-4da2-9bc9-f1828e6f7e55" resp="#CH" tls:created="2019-12-06T21:45:28.787+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(. prep N2)</tls:syn-func>
+                </gramGrp>
+                <def>explain the subject N1 to the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9d4fe905-5754-4fb5-b5ee-e001105d273b">
             <form corresp="#uuid-b3c85c17-ebc1-4398-9db2-b85c388f05a8">
 <orth>詮</orth>
@@ -761,7 +842,14 @@
                 </gramGrp>
   <def>state that; expound that</def>
             </sense>
-<sense xml:id="uuid-1e92d06f-c636-42e3-92d0-6fc63622e314" resp="#zadrapa" tls:created="2021-03-01T05:03:25.966+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>in theory; in principle</def></sense></entry>
+<sense xml:id="uuid-1e92d06f-c636-42e3-92d0-6fc63622e314" resp="#zadrapa" tls:created="2021-03-01T05:03:25.966+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def>in theory; in principle</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-362f3d66-1a55-4c16-bf1e-0b94773d3d5f">
             <form corresp="#uuid-757c3550-9952-46c7-84b6-c7179671bd0b">
 <orth>辯</orth>
@@ -777,7 +865,23 @@
                 </gramGrp>
   <def>explain (one's own) case</def>
             </sense>
-<sense xml:id="uuid-1c8a51bb-8f7f-4660-8a51-bb8f7f16606a" resp="#CH" tls:created="2023-07-26T21:00:16.433+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>engage in logically quibbling explanatory discourse</def></sense><sense xml:id="uuid-626ad70a-2e25-414b-aad7-0a2e25714b45" resp="#CH" tls:created="2023-07-26T21:03:43.311+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>explain rationally and distinctly</def></sense></entry>
+<sense xml:id="uuid-1c8a51bb-8f7f-4660-8a51-bb8f7f16606a" resp="#CH" tls:created="2023-07-26T21:00:16.433+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>engage in logically quibbling explanatory discourse</def>
+            </sense>
+            <sense xml:id="uuid-626ad70a-2e25-414b-aad7-0a2e25714b45" resp="#CH" tls:created="2023-07-26T21:03:43.311+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>explain rationally and distinctly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3907f008-8988-43ac-a7d6-6da92b7a5c26">
             <form corresp="#uuid-95612809-a475-4311-8094-3865caba1461">
 <orth>述</orth>
@@ -873,7 +977,15 @@
                 </gramGrp>
   <def>be laid out clearly, be made explicit; be publicly pronounced (of words)</def>
             </sense>
-<sense xml:id="uuid-8de20adf-e6ba-453c-954d-ea60f56ae79b" resp="#CH" tls:created="2019-12-16T19:35:11.656+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>explained</def></sense></entry>
+<sense xml:id="uuid-8de20adf-e6ba-453c-954d-ea60f56ae79b" resp="#CH" tls:created="2019-12-16T19:35:11.656+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>explained</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ffd4b6cb-7501-4157-aac3-0072cac8ef13">
             <form corresp="#uuid-54919644-9bf9-4d49-9825-f764b622f577 #uuid-32021026-3e9b-46d7-967b-a3563b36310b">
 <orth>代云</orth>
@@ -1205,6 +1317,135 @@
                 </gramGrp>
   <def>be explained (Zheng Xuan!)</def>
             </sense>
-<sense xml:id="uuid-8a4f8d66-f61d-4fc6-8f8d-66f61d0fc6fb" resp="#CH" tls:created="2022-06-09T03:33:11.422+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>explaining things, verbalisations, explaining things away</def></sense></entry>
-    <entry type="word" xml:id="uuid-13f0f7b1-43d8-49dc-b342-9472ca91f52b" resp="#CH" tls:created="2019-12-03T23:59:48.382+09:00"><form corresp="#uuid-3e0d32e6-429f-474d-bd76-acc4ffec7e7d"><orth>廣</orth><pron xml:lang="zh-Latn-x-pinyin">guǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwangX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷaaŋʔ</pron></form><sense xml:id="uuid-c85b6808-a9fe-48c7-a209-078cd690f2a2" resp="#CH" tls:created="2019-12-03T23:59:48.382+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>broaden one's understanding of&gt; elaborate on</def></sense></entry><entry type="word" xml:id="uuid-4bc6a0bb-de62-4917-86a0-bbde625917aa"><form><orth>論</orth><pron xml:lang="zh-Latn-x-pinyin">lùn</pron></form><def/><sense xml:id="uuid-8b7efa4f-8fec-4776-befa-4f8fec37761a" resp="#CH" tls:created="2020-12-14T20:27:04.607+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>explain</def></sense></entry><entry type="word" xml:id="uuid-7227a33a-28a8-49ab-a7a3-3a28a869abef" resp="#CH" tls:created="2020-12-15T00:17:06.225+09:00"><form corresp="#uuid-7cc155d0-dae4-4325-8ad0-e09ed5a1822e #uuid-27f4d368-3a58-4a4d-b236-0e710d583015"><orth>書論</orth><pron xml:lang="zh-Latn-x-pinyin">shū lùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syo lwon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhlja ɡ-ruuns</pron></form><sense xml:id="uuid-1c37ca25-0969-4510-b7ca-250969251019" resp="#CH" tls:created="2020-12-15T00:17:06.225+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>disquisitions and discussions of any kind</def></sense></entry><entry type="word" xml:id="uuid-4bf686a0-ad96-41eb-b686-a0ad96a1ebb2" resp="#CH" tls:created="2020-12-15T17:46:46.935+09:00"><form corresp="#uuid-517bbc22-9838-466f-ad97-d1324fd67496"><orth>演</orth><pron xml:lang="zh-Latn-x-pinyin">yǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yenX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lenʔ</pron></form><sense xml:id="uuid-6c9b7d4d-363a-42d0-9b7d-4d363a92d028" resp="#CH" tls:created="2020-12-15T17:46:46.935+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>expand so as to explain in detail</def></sense></entry><entry type="word" xml:id="uuid-06f0eede-4b8f-49a8-b0ee-de4b8f09a846" resp="#dsehnal" tls:created="2021-05-15T20:51:47.062+09:00"><form corresp="#uuid-58389b10-cdbd-4fbe-86d7-9ccb8f3fde67 #uuid-08ee826a-8ac2-45df-9f16-72515d87430c"><orth>陳說</orth><pron xml:lang="zh-Latn-x-pinyin">chén shuō</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drin --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrliŋ lʰod</pron></form><sense xml:id="uuid-29ba068a-49ec-4baf-ba06-8a49ec3baf27" resp="#dsehnal" tls:created="2021-05-15T20:51:47.062+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def>try to explain and find an excuse for what happened</def></sense></entry><entry type="word" xml:id="uuid-088a35f9-cf05-40b7-8a35-f9cf0550b7d9" resp="#zadrapa" tls:created="2021-05-23T21:44:55.24+09:00"><form corresp="#uuid-01409830-4352-4246-8e41-5f8f373d8c0a"><orth>指</orth><pron xml:lang="zh-Latn-x-pinyin">zhǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjiʔ</pron></form><sense xml:id="uuid-189188f3-9c9a-46dd-9188-f39c9a26dd08" resp="#zadrapa" tls:created="2021-05-23T21:44:55.24+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>explain a contextually determinate N</def></sense></entry><entry type="word" xml:id="uuid-6353b634-b05b-44e0-93b6-34b05b54e0ea" resp="#zadrapa" tls:created="2021-05-23T21:57:08.335+09:00"><form corresp="#uuid-15cefb1e-9411-4d8d-acdc-cfeaea8c09d4 #uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f"><orth>辟稱</orth><pron xml:lang="zh-Latn-x-pinyin">pì chēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjiek tsyhing</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">beɡ thjɯŋ</pron></form><sense xml:id="uuid-1d14f44f-c72d-4a96-94f4-4fc72d2a96b6" resp="#zadrapa" tls:created="2021-05-23T21:57:08.335+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>argumentation based on similes and quotations</def></sense></entry><entry type="word" xml:id="uuid-26653190-e082-4c8f-a531-90e0826c8f86" resp="#CH" tls:created="2023-08-19T18:11:49.311+09:00"><form corresp="#uuid-1f6b8f7e-bbd9-44f8-a941-b4576232949c #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625"><orth>談通</orth><pron xml:lang="zh-Latn-x-pinyin">tán tōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dam thuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laam kh-looŋ</pron></form><sense xml:id="uuid-98e9a339-2ed6-410a-a9a3-392ed6f10a6a" resp="#CH" tls:created="2023-08-19T18:11:49.311+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>talk decisively and transparently about; do justice to in talk</def></sense></entry></div>
+<sense xml:id="uuid-8a4f8d66-f61d-4fc6-8f8d-66f61d0fc6fb" resp="#CH" tls:created="2022-06-09T03:33:11.422+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>explaining things, verbalisations, explaining things away</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-13f0f7b1-43d8-49dc-b342-9472ca91f52b" resp="#CH" tls:created="2019-12-03T23:59:48.382+09:00">
+            <form corresp="#uuid-3e0d32e6-429f-474d-bd76-acc4ffec7e7d">
+                <orth>廣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwangX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷaaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-c85b6808-a9fe-48c7-a209-078cd690f2a2" resp="#CH" tls:created="2019-12-03T23:59:48.382+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>broaden one's understanding of&gt; elaborate on</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4bc6a0bb-de62-4917-86a0-bbde625917aa">
+            <form>
+                <orth>論</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lùn</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-8b7efa4f-8fec-4776-befa-4f8fec37761a" resp="#CH" tls:created="2020-12-14T20:27:04.607+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>explain</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7227a33a-28a8-49ab-a7a3-3a28a869abef" resp="#CH" tls:created="2020-12-15T00:17:06.225+09:00">
+            <form corresp="#uuid-7cc155d0-dae4-4325-8ad0-e09ed5a1822e #uuid-27f4d368-3a58-4a4d-b236-0e710d583015">
+                <orth>書論</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shū lùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syo lwon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhlja ɡ-ruuns</pron>
+            </form>
+            <sense xml:id="uuid-1c37ca25-0969-4510-b7ca-250969251019" resp="#CH" tls:created="2020-12-15T00:17:06.225+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>disquisitions and discussions of any kind</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4bf686a0-ad96-41eb-b686-a0ad96a1ebb2" resp="#CH" tls:created="2020-12-15T17:46:46.935+09:00">
+            <form corresp="#uuid-517bbc22-9838-466f-ad97-d1324fd67496">
+                <orth>演</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yenX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lenʔ</pron>
+            </form>
+            <sense xml:id="uuid-6c9b7d4d-363a-42d0-9b7d-4d363a92d028" resp="#CH" tls:created="2020-12-15T17:46:46.935+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>expand so as to explain in detail</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-06f0eede-4b8f-49a8-b0ee-de4b8f09a846" resp="#dsehnal" tls:created="2021-05-15T20:51:47.062+09:00">
+            <form corresp="#uuid-58389b10-cdbd-4fbe-86d7-9ccb8f3fde67 #uuid-08ee826a-8ac2-45df-9f16-72515d87430c">
+                <orth>陳說</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chén shuō</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drin --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrliŋ lʰod</pron>
+            </form>
+            <sense xml:id="uuid-29ba068a-49ec-4baf-ba06-8a49ec3baf27" resp="#dsehnal" tls:created="2021-05-15T20:51:47.062+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def>try to explain and find an excuse for what happened</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-088a35f9-cf05-40b7-8a35-f9cf0550b7d9" resp="#zadrapa" tls:created="2021-05-23T21:44:55.24+09:00">
+            <form corresp="#uuid-01409830-4352-4246-8e41-5f8f373d8c0a">
+                <orth>指</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjiʔ</pron>
+            </form>
+            <sense xml:id="uuid-189188f3-9c9a-46dd-9188-f39c9a26dd08" resp="#zadrapa" tls:created="2021-05-23T21:44:55.24+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>explain a contextually determinate N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6353b634-b05b-44e0-93b6-34b05b54e0ea" resp="#zadrapa" tls:created="2021-05-23T21:57:08.335+09:00">
+            <form corresp="#uuid-15cefb1e-9411-4d8d-acdc-cfeaea8c09d4 #uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f">
+                <orth>辟稱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pì chēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjiek tsyhing</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">beɡ thjɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-1d14f44f-c72d-4a96-94f4-4fc72d2a96b6" resp="#zadrapa" tls:created="2021-05-23T21:57:08.335+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>argumentation based on similes and quotations</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-26653190-e082-4c8f-a531-90e0826c8f86" resp="#CH" tls:created="2023-08-19T18:11:49.311+09:00">
+            <form corresp="#uuid-1f6b8f7e-bbd9-44f8-a941-b4576232949c #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625">
+                <orth>談通</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tán tōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dam thuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laam kh-looŋ</pron>
+            </form>
+            <sense xml:id="uuid-98e9a339-2ed6-410a-a9a3-392ed6f10a6a" resp="#CH" tls:created="2023-08-19T18:11:49.311+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>talk decisively and transparently about; do justice to in talk</def>
+            </sense>
+        </entry>
+    </div>
 </div>

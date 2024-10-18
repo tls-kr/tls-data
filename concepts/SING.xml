@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f30a70cf-cbce-46e7-a48e-814ec680b91c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f30a70cf-cbce-46e7-a48e-814ec680b91c">
 <head>SING</head>
     <list type="altnames">
 <item>CROON</item>
@@ -216,7 +217,15 @@
                 </gramGrp>
   <def>sing along with someone (who sets the tune)</def>
             </sense>
-<sense xml:id="uuid-e5258d9e-f052-4f58-a58d-9ef0521f5895" resp="#zadrapa" tls:created="2021-01-15T05:52:05.496+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>sing along with someone who sets the tone &gt; assent and follow</def></sense></entry>
+<sense xml:id="uuid-e5258d9e-f052-4f58-a58d-9ef0521f5895" resp="#zadrapa" tls:created="2021-01-15T05:52:05.496+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>sing along with someone who sets the tone &gt; assent and follow</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-684ebabc-8ea4-434e-a47c-139724fd3b48">
             <form corresp="#uuid-07972b9a-5b6a-4e26-b5e1-7820567fbd0d">
 <orth>咢</orth>
@@ -257,7 +266,15 @@
                 </gramGrp>
   <def>sing and set the tune, call the tune</def>
             </sense>
-<sense xml:id="uuid-f485955b-e69a-4bb2-b65c-4fc9396504d1" resp="#CH" tls:created="2020-02-11T21:17:29.809+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>figurative: intonation, musical activation</def></sense></entry>
+<sense xml:id="uuid-f485955b-e69a-4bb2-b65c-4fc9396504d1" resp="#CH" tls:created="2020-02-11T21:17:29.809+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: intonation, musical activation</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1c4a4ef2-0ae8-4fe0-8c71-4dd8dc48c3ac">
             <form corresp="#uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6">
 <orth>歌</orth>
@@ -323,7 +340,29 @@
                 </gramGrp>
   <def>be sung the praise of, get praised in song</def>
             </sense>
-<sense xml:id="uuid-57d3b32d-0424-45f2-93b3-2d0424e5f288" resp="#CH" tls:created="2020-04-23T20:38:33.95+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>sing a plaintive song</def></sense><sense xml:id="uuid-798616d2-e2da-4e63-8616-d2e2dace6305" resp="#CH" tls:created="2022-08-04T03:48:13.312+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a3a6d10e-36f4-4d9d-a6d1-0e36f47d9d56">vi|nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>sing/singing</def></sense><sense xml:id="uuid-540e3c11-a008-46ec-8e3c-11a008e6ec83" resp="#wilke" tls:created="2022-09-20T02:51:26.748+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func></gramGrp><def>sing a song about N with the words S 歌之曰</def></sense></entry>
+<sense xml:id="uuid-57d3b32d-0424-45f2-93b3-2d0424e5f288" resp="#CH" tls:created="2020-04-23T20:38:33.95+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>sing a plaintive song</def>
+            </sense>
+            <sense xml:id="uuid-798616d2-e2da-4e63-8616-d2e2dace6305" resp="#CH" tls:created="2022-08-04T03:48:13.312+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a3a6d10e-36f4-4d9d-a6d1-0e36f47d9d56">vi|nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>sing/singing</def>
+            </sense>
+            <sense xml:id="uuid-540e3c11-a008-46ec-8e3c-11a008e6ec83" resp="#wilke" tls:created="2022-09-20T02:51:26.748+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>sing a song about N with the words S 歌之曰</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c73975b1-a5f2-40b5-be59-47056986ce92">
             <form corresp="#uuid-61b21ff0-fb51-491f-a0b3-0ac91bb2ab0b">
 <orth>謠</orth>
@@ -453,7 +492,15 @@
                 </gramGrp>
   <def>of non-humans and even inanimate objects, primarily of birds: sing; crow; make a sound; also of bovines: moo</def>
             </sense>
-<sense xml:id="uuid-247ceb0a-cf1d-4f23-bceb-0acf1dbf2306" resp="#CH" tls:created="2020-05-04T19:43:13.63+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>squeak at (a person)</def></sense></entry>
+<sense xml:id="uuid-247ceb0a-cf1d-4f23-bceb-0acf1dbf2306" resp="#CH" tls:created="2020-05-04T19:43:13.63+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>squeak at (a person)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-be66145b-e2c7-462e-96ec-6a3010b72bc6">
             <form corresp="#uuid-ce5dfd21-7d74-4fe9-9abb-f28f250a6144 #uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6">
 <orth>商歌</orth>
@@ -610,11 +657,63 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0f48f615-a916-4623-88f6-15a916b623f2" resp="#CH" tls:created="2020-05-11T03:22:30.242+09:00"><form corresp="#uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6 #uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b"><orth>歌詠</orth><pron xml:lang="zh-Latn-x-pinyin">gē
- yǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ka
- hjwaengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klaal
- ɢʷaŋs</pron></form><sense xml:id="uuid-284f86b9-7a41-4521-8f86-b97a411521ed" resp="#CH" tls:created="2020-05-11T03:22:30.242+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>sing the praises of</def></sense></entry><entry type="word" xml:id="uuid-d7f556b0-2ea8-4cb4-b556-b02ea88cb464" resp="#CH" tls:created="2020-05-11T03:32:02.722+09:00"><form corresp="#uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b #uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6"><orth>詠歌</orth><pron xml:lang="zh-Latn-x-pinyin">yǒng gē
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjwaengH ka
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaŋs klaal
-</pron></form><sense xml:id="uuid-303c58e2-b399-4e15-bc58-e2b399be1597" resp="#CH" tls:created="2020-05-11T03:32:02.722+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>sing the poetic praises of</def></sense></entry><entry type="word" xml:id="uuid-65df0fbf-a739-4029-9f0f-bfa7398029c2" resp="#CH" tls:created="2023-11-06T00:36:41.966+09:00"><form corresp="#uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6 #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>歌者</orth><pron xml:lang="zh-Latn-x-pinyin">gē zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ka tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klaal kljaʔ</pron></form><sense xml:id="uuid-9714886d-25ca-4172-9488-6d25ca217227" resp="#CH" tls:created="2023-11-06T00:36:41.966+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>singer</def></sense><sense xml:id="uuid-8f483392-789c-4b37-8833-92789c9b371f" resp="#CH" tls:created="2023-11-06T00:53:59.281+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func></gramGrp><def>singer Npr</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0f48f615-a916-4623-88f6-15a916b623f2" resp="#CH" tls:created="2020-05-11T03:22:30.242+09:00">
+            <form corresp="#uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6 #uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b">
+                <orth>歌詠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gē
+ yǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ka
+ hjwaengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klaal
+ ɢʷaŋs</pron>
+            </form>
+            <sense xml:id="uuid-284f86b9-7a41-4521-8f86-b97a411521ed" resp="#CH" tls:created="2020-05-11T03:22:30.242+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>sing the praises of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d7f556b0-2ea8-4cb4-b556-b02ea88cb464" resp="#CH" tls:created="2020-05-11T03:32:02.722+09:00">
+            <form corresp="#uuid-ab39cccd-d523-43a9-9ef4-1770f58dfb7b #uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6">
+                <orth>詠歌</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒng gē
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjwaengH ka
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaŋs klaal
+</pron>
+            </form>
+            <sense xml:id="uuid-303c58e2-b399-4e15-bc58-e2b399be1597" resp="#CH" tls:created="2020-05-11T03:32:02.722+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>sing the poetic praises of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-65df0fbf-a739-4029-9f0f-bfa7398029c2" resp="#CH" tls:created="2023-11-06T00:36:41.966+09:00">
+            <form corresp="#uuid-cbf8d5e3-bfed-4dab-8f32-83ced98670c6 #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>歌者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gē zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ka tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klaal kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-9714886d-25ca-4172-9488-6d25ca217227" resp="#CH" tls:created="2023-11-06T00:36:41.966+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>singer</def>
+            </sense>
+            <sense xml:id="uuid-8f483392-789c-4b37-8833-92789c9b371f" resp="#CH" tls:created="2023-11-06T00:53:59.281+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func>
+                </gramGrp>
+                <def>singer Npr</def>
+            </sense>
+        </entry>
+    </div>
 </div>

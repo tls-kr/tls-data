@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-856d203f-5d4f-4d33-98ec-546e0b930124">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-856d203f-5d4f-4d33-98ec-546e0b930124">
 <head>GRASS</head>
     <list type="translations">
         <item xml:lang="zh">草屬</item>
@@ -274,7 +275,14 @@
                 </gramGrp>
   <def>made of reed, thatched</def>
             </sense>
-<sense xml:id="uuid-7ab00b26-c7e1-4afd-807e-a524e91e050a" resp="#CH" tls:created="2019-11-28T18:58:19.255+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a51b30e7-dffc-4a3d-b4f7-2dccf9eee4a9">nmadN</tls:syn-func></gramGrp><def>grassy&gt; not infertile</def></sense></entry>
+<sense xml:id="uuid-7ab00b26-c7e1-4afd-807e-a524e91e050a" resp="#CH" tls:created="2019-11-28T18:58:19.255+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a51b30e7-dffc-4a3d-b4f7-2dccf9eee4a9">nmadN</tls:syn-func>
+                </gramGrp>
+                <def>grassy&gt; not infertile</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1c38076a-c5a2-447c-8f16-b8eb7bfa9e21">
             <form corresp="#uuid-d4396363-bdb7-4a09-9cac-af90bf453746">
 <orth>茅</orth>
@@ -788,7 +796,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-0c4b051e-1be6-4bb5-aafd-9397916e1b3b">
-            <form corresp="#uuid-9347abf3-4add-4c55-8d82-b3b182a53cea #uuid-7c88fece-5607-45d0-8d33-133b97cc251d"><orth>卷耳</orth><pron xml:lang="zh-Latn-x-pinyin">juǎn ěr</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjwenX nyiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kronʔ mljɯʔ</pron></form>
+            <form corresp="#uuid-9347abf3-4add-4c55-8d82-b3b182a53cea #uuid-7c88fece-5607-45d0-8d33-133b97cc251d">
+                <orth>卷耳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">juǎn ěr</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjwenX nyiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kronʔ mljɯʔ</pron>
+            </form>
             <def>Quán ěr 卷耳 refers to fuling (Poris cocos), a kind of chinese medical herb.
 </def>
 <sense xml:id="uuid-00eb83f8-fa08-4433-8a93-046c189bc305">
@@ -920,5 +933,35 @@
   <def>reeds and grasses</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9425aa45-af6c-4c5f-a5aa-45af6cfc5f41" resp="#chris" tls:created="2020-05-05T11:02:57.16+09:00"><form corresp="#uuid-46ab9fc6-8def-4337-a8bc-8ae8d943f206"><orth>茆</orth><pron xml:lang="zh-Latn-x-pinyin">mǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">maewX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mbruuʔ</pron></form><sense xml:id="uuid-69fd816d-9ced-4330-bd81-6d9ced833072" resp="#chris" tls:created="2020-05-05T11:02:57.16+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>Reed grass used for thatched roofs</def></sense></entry><entry type="word" xml:id="uuid-4755184d-aef2-40c7-9518-4daef2d0c7a6" resp="#zadrapa" tls:created="2023-05-24T23:56:43.793+09:00"><form corresp="#uuid-4a15d9fe-b369-4f12-a760-ddacf5f3d2f4"><orth>屮</orth><pron xml:lang="zh-Latn-x-pinyin">chè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trhjet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-8adc2218-5d08-48e9-9c22-185d08f8e914" resp="#zadrapa" tls:created="2023-05-24T23:56:43.793+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>= the original character for cao3 草: grass, weeds</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9425aa45-af6c-4c5f-a5aa-45af6cfc5f41" resp="#chris" tls:created="2020-05-05T11:02:57.16+09:00">
+            <form corresp="#uuid-46ab9fc6-8def-4337-a8bc-8ae8d943f206">
+                <orth>茆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">maewX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mbruuʔ</pron>
+            </form>
+            <sense xml:id="uuid-69fd816d-9ced-4330-bd81-6d9ced833072" resp="#chris" tls:created="2020-05-05T11:02:57.16+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>Reed grass used for thatched roofs</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4755184d-aef2-40c7-9518-4daef2d0c7a6" resp="#zadrapa" tls:created="2023-05-24T23:56:43.793+09:00">
+            <form corresp="#uuid-4a15d9fe-b369-4f12-a760-ddacf5f3d2f4">
+                <orth>屮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trhjet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-8adc2218-5d08-48e9-9c22-185d08f8e914" resp="#zadrapa" tls:created="2023-05-24T23:56:43.793+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>= the original character for cao3 草: grass, weeds</def>
+            </sense>
+        </entry>
+    </div>
 </div>

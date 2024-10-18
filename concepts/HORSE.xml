@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d3a9c31d-0807-49c8-961a-48170d11a3e1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d3a9c31d-0807-49c8-961a-48170d11a3e1">
 <head>HORSE</head>
     <list type="altnames">
 <item>EQUINE</item>
@@ -290,7 +291,14 @@
                 </gramGrp>
   <def>like a horse</def>
             </sense>
-<sense xml:id="uuid-5e8aac61-9703-43ec-8aac-61970353ecd7" resp="#dsehnal" tls:created="2023-11-26T21:26:29.197+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func></gramGrp><def>horse characterised by the feature V</def></sense></entry>
+<sense xml:id="uuid-5e8aac61-9703-43ec-8aac-61970353ecd7" resp="#dsehnal" tls:created="2023-11-26T21:26:29.197+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-95b6de37-fae4-44af-b522-dd31aaf55d4f">npost-V</tls:syn-func>
+                </gramGrp>
+                <def>horse characterised by the feature V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-929fac51-3a2b-4087-a268-0911cfdb211f">
             <form corresp="#uuid-dc904109-84cb-4734-9840-60732d6a27d8">
 <orth>馵</orth>
@@ -1009,7 +1017,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-bd93d447-b6f3-4a32-a788-a6025238de1b">proper name</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-bd93d447-b6f3-4a32-a788-a6025238de1b">proper name</tls:sem-feat>
+                </gramGrp>
   <def>excellent horse</def>
             </sense>
 </entry>
@@ -1045,7 +1054,14 @@
                 </gramGrp>
   <def>outstanding horse</def>
             </sense>
-<sense xml:id="uuid-9b6bd398-307d-4206-abd3-98307d42064b" resp="#CH" tls:created="2020-12-14T20:10:27.67+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>their mighty steeds</def></sense></entry>
+<sense xml:id="uuid-9b6bd398-307d-4206-abd3-98307d42064b" resp="#CH" tls:created="2020-12-14T20:10:27.67+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>their mighty steeds</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6bea2daa-5ada-44ff-aa5c-c2218c910d7c">
             <form corresp="#uuid-fe1297a5-6928-493e-8978-f1244d90a5ed">
 <orth>服</orth>
@@ -1061,5 +1077,82 @@
   <def>one of the inner horses in a "quadrige" of four horses pulling</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-08cbe665-7483-4125-a526-b8e35915ff39" resp="#CH" tls:created="2019-12-25T08:02:24.695+09:00"><form corresp="#uuid-270f9a74-f5d1-40cf-a11a-a95763363831 #uuid-a141479b-79db-4030-a7ce-84f16883762b"><orth>駟馬</orth><pron xml:lang="zh-Latn-x-pinyin">sì mǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sijH maeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plids mraaʔ</pron></form><sense xml:id="uuid-71621e73-dc54-4d4e-85b1-4456c55c4250" resp="#CH" tls:created="2019-12-25T08:02:24.695+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>quartet of horses pulling a carriage</def></sense></entry><entry type="word" xml:id="uuid-ada705bf-2a7a-475a-a705-bf2a7a375aa6" resp="#CH" tls:created="2020-05-21T23:49:02.009+09:00"><form corresp="#uuid-425d6cdc-7a7e-4ebc-a422-8ce38f2f57a9 #uuid-a141479b-79db-4030-a7ce-84f16883762b"><orth>駿馬</orth><pron xml:lang="zh-Latn-x-pinyin">jùn mǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tswinH maeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skluns mraaʔ</pron></form><sense xml:id="uuid-a133d619-fc51-40bc-b3d6-19fc5180bc39" resp="#CH" tls:created="2020-05-21T23:49:02.009+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>excellent horse</def></sense></entry><entry type="word" xml:id="uuid-27f44739-5609-41b7-b447-395609a1b7f4" resp="#CH" tls:created="2021-04-11T00:46:47.819+09:00"><form corresp="#uuid-d6aad063-faaf-4d1f-a9a2-f6987d27de5a #uuid-d591ffbd-8e35-4515-a0c9-9ee1e89f1766"><orth>驊騮</orth><pron xml:lang="zh-Latn-x-pinyin">huá liú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwae ljuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraal b-ru</pron></form><sense xml:id="uuid-42188a6d-7eb6-4ecc-988a-6d7eb6cecc9d" resp="#CH" tls:created="2021-04-11T00:46:47.819+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-bd93d447-b6f3-4a32-a788-a6025238de1b">proper name</tls:sem-feat></gramGrp><def>the thoroughbred horse Hualiu</def></sense></entry><entry type="word" xml:id="uuid-48a39c5b-6bfe-4be7-a39c-5b6bfe8be73d" resp="#zadrapa" tls:created="2022-05-30T03:50:29.826+09:00"><form corresp="#uuid-a22d346b-5e3c-4167-986d-29306983c065 #uuid-a141479b-79db-4030-a7ce-84f16883762b"><orth>走馬</orth><pron xml:lang="zh-Latn-x-pinyin">zǒu mǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsuwX maeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsooʔ mraaʔ</pron></form><sense xml:id="uuid-275f4942-91d7-4634-9f49-4291d7d634eb" resp="#zadrapa" tls:created="2022-05-30T03:50:29.826+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>good, swift horse</def></sense></entry><entry type="word" xml:id="uuid-035c6459-413f-4a8e-9c64-59413ffa8e6e" resp="#CH" tls:created="2022-08-25T18:36:37.486+09:00"><form corresp="#uuid-fb971851-9c85-4611-ba43-1712c1eade82 #uuid-fe1297a5-6928-493e-8978-f1244d90a5ed"><orth>右服</orth><pron xml:lang="zh-Latn-x-pinyin">yòu fú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX bjuwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ bɯɡ</pron></form><sense xml:id="uuid-b95e3eec-827c-4ec6-9e3e-ec827c0ec686" resp="#CH" tls:created="2022-08-25T18:36:37.486+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>leading horse on the right in a four-horse team</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-08cbe665-7483-4125-a526-b8e35915ff39" resp="#CH" tls:created="2019-12-25T08:02:24.695+09:00">
+            <form corresp="#uuid-270f9a74-f5d1-40cf-a11a-a95763363831 #uuid-a141479b-79db-4030-a7ce-84f16883762b">
+                <orth>駟馬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sì mǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sijH maeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">plids mraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-71621e73-dc54-4d4e-85b1-4456c55c4250" resp="#CH" tls:created="2019-12-25T08:02:24.695+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>quartet of horses pulling a carriage</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ada705bf-2a7a-475a-a705-bf2a7a375aa6" resp="#CH" tls:created="2020-05-21T23:49:02.009+09:00">
+            <form corresp="#uuid-425d6cdc-7a7e-4ebc-a422-8ce38f2f57a9 #uuid-a141479b-79db-4030-a7ce-84f16883762b">
+                <orth>駿馬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jùn mǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tswinH maeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skluns mraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-a133d619-fc51-40bc-b3d6-19fc5180bc39" resp="#CH" tls:created="2020-05-21T23:49:02.009+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>excellent horse</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-27f44739-5609-41b7-b447-395609a1b7f4" resp="#CH" tls:created="2021-04-11T00:46:47.819+09:00">
+            <form corresp="#uuid-d6aad063-faaf-4d1f-a9a2-f6987d27de5a #uuid-d591ffbd-8e35-4515-a0c9-9ee1e89f1766">
+                <orth>驊騮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huá liú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwae ljuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraal b-ru</pron>
+            </form>
+            <sense xml:id="uuid-42188a6d-7eb6-4ecc-988a-6d7eb6cecc9d" resp="#CH" tls:created="2021-04-11T00:46:47.819+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-bd93d447-b6f3-4a32-a788-a6025238de1b">proper name</tls:sem-feat>
+                </gramGrp>
+                <def>the thoroughbred horse Hualiu</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-48a39c5b-6bfe-4be7-a39c-5b6bfe8be73d" resp="#zadrapa" tls:created="2022-05-30T03:50:29.826+09:00">
+            <form corresp="#uuid-a22d346b-5e3c-4167-986d-29306983c065 #uuid-a141479b-79db-4030-a7ce-84f16883762b">
+                <orth>走馬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǒu mǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsuwX maeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsooʔ mraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-275f4942-91d7-4634-9f49-4291d7d634eb" resp="#zadrapa" tls:created="2022-05-30T03:50:29.826+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>good, swift horse</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-035c6459-413f-4a8e-9c64-59413ffa8e6e" resp="#CH" tls:created="2022-08-25T18:36:37.486+09:00">
+            <form corresp="#uuid-fb971851-9c85-4611-ba43-1712c1eade82 #uuid-fe1297a5-6928-493e-8978-f1244d90a5ed">
+                <orth>右服</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòu fú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX bjuwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ bɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-b95e3eec-827c-4ec6-9e3e-ec827c0ec686" resp="#CH" tls:created="2022-08-25T18:36:37.486+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>leading horse on the right in a four-horse team</def>
+            </sense>
+        </entry>
+    </div>
 </div>

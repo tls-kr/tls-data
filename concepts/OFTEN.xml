@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7f6b310e-3908-4735-9453-529445663919">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7f6b310e-3908-4735-9453-529445663919">
 <head>OFTEN</head>
     <list type="altnames">
 <item>FREQUENTLY</item>
@@ -281,7 +282,21 @@
             </form>
             <def>Cháng 常 (ant. xiǎn 鮮 "quite rarely, in the natural course of events") refers to regularity as a symptom of something being ordinary and only to be expected. See ENDURING
 </def>
-<sense xml:id="uuid-73ccf6b5-27b9-40a7-a3a5-eb3042444c52" resp="#CH" tls:created="2019-11-06T17:25:56.593+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadV</tls:syn-func></gramGrp><def>often</def></sense><sense xml:id="uuid-1df62dde-91cc-459f-b62d-de91ccb59f7d" resp="#CH" tls:created="2020-02-13T00:47:49.548+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>recurrent</def></sense></entry>
+<sense xml:id="uuid-73ccf6b5-27b9-40a7-a3a5-eb3042444c52" resp="#CH" tls:created="2019-11-06T17:25:56.593+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadV</tls:syn-func>
+                </gramGrp>
+                <def>often</def>
+            </sense>
+            <sense xml:id="uuid-1df62dde-91cc-459f-b62d-de91ccb59f7d" resp="#CH" tls:created="2020-02-13T00:47:49.548+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>recurrent</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-96add057-7f86-475c-a7de-3c7deaf2638b">
             <form corresp="#uuid-5ff72b78-6718-4570-970e-791ae83c1695">
 <orth>數</orth>
@@ -321,7 +336,14 @@
                 </gramGrp>
   <def>from time to time&gt; sometimes; often; periodically; several times; at regular intervals; all the time</def>
             </sense>
-<sense xml:id="uuid-aaaec501-a605-49d9-aec5-01a60549d9b6" resp="#dsehnal" tls:created="2023-04-30T21:57:51.975+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-85043f3f-f41d-433b-8bea-c49352206a4e">nadS</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-04-30T21:58:26.281+09:00">often; sometimes</def></sense></entry>
+<sense xml:id="uuid-aaaec501-a605-49d9-aec5-01a60549d9b6" resp="#dsehnal" tls:created="2023-04-30T21:57:51.975+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-85043f3f-f41d-433b-8bea-c49352206a4e">nadS</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-04-30T21:58:26.281+09:00">often; sometimes</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bf560dc1-59f6-47e3-9118-18cd3834d4e8">
             <form corresp="#uuid-9f69d7d3-35a8-434c-b424-ab13027ac3b1">
 <orth>比</orth>
@@ -572,11 +594,49 @@
   <def>reduplicated 往往: from time to time, now and again</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-739ebaa0-bd1a-4566-9eba-a0bd1ab56642" resp="#CH" tls:created="2023-11-06T11:44:10.253+09:00"><form corresp="#uuid-9c10d3ad-bc3d-4cd2-b8c3-2c5452ed803a"><orth>善</orth><pron xml:lang="zh-Latn-x-pinyin">shàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyenX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡjenʔ</pron></form><sense xml:id="uuid-27864408-8042-40a5-8644-08804220a5ce" resp="#CH" tls:created="2023-11-06T11:44:10.253+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>by nature frequently;  naturally often</def></sense><sense xml:id="uuid-36363f41-dbe1-4071-838b-4044d41899fd">
+    <entry type="word" xml:id="uuid-739ebaa0-bd1a-4566-9eba-a0bd1ab56642" resp="#CH" tls:created="2023-11-06T11:44:10.253+09:00">
+            <form corresp="#uuid-9c10d3ad-bc3d-4cd2-b8c3-2c5452ed803a">
+                <orth>善</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyenX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡjenʔ</pron>
+            </form>
+            <sense xml:id="uuid-27864408-8042-40a5-8644-08804220a5ce" resp="#CH" tls:created="2023-11-06T11:44:10.253+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>by nature frequently;  naturally often</def>
+            </sense>
+            <sense xml:id="uuid-36363f41-dbe1-4071-838b-4044d41899fd">
 <gramGrp>
                     <pos/>
   <tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func>
                 </gramGrp>
   <def resp="#CH" updated="2023-11-06T01:38:11.735+09:00">tend to，be prone to； have a tendency to</def>
-            </sense><sense xml:id="uuid-0afb0c36-cecd-4c3a-bb0c-36cecdfc3a37" resp="#CH" tls:created="2020-02-14T20:39:19.793+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e2cdf96d-d070-49f4-ba05-22709261fcfc">vt+prep+Nab{ACT}</tls:syn-func></gramGrp><def>have a liking for Nab-ing; have a tendency to want to engage in Nab-ing</def></sense></entry><entry type="word" xml:id="uuid-b79c27ca-d737-4108-9c27-cad73701087e" resp="#dsehnal" tls:created="2024-06-08T21:41:10.109+09:00"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03"><orth>不時</orth><pron xml:lang="zh-Latn-x-pinyin">bù shí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjut dzyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ ɡljɯ</pron></form><sense xml:id="uuid-ab2c6a9b-09ea-43ae-ac6a-9b09ea33ae44" resp="#dsehnal" tls:created="2024-06-08T21:41:10.109+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>take place often</def></sense></entry></div>
+            </sense>
+            <sense xml:id="uuid-0afb0c36-cecd-4c3a-bb0c-36cecdfc3a37" resp="#CH" tls:created="2020-02-14T20:39:19.793+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e2cdf96d-d070-49f4-ba05-22709261fcfc">vt+prep+Nab{ACT}</tls:syn-func>
+                </gramGrp>
+                <def>have a liking for Nab-ing; have a tendency to want to engage in Nab-ing</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b79c27ca-d737-4108-9c27-cad73701087e" resp="#dsehnal" tls:created="2024-06-08T21:41:10.109+09:00">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03">
+                <orth>不時</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù shí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjut dzyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ ɡljɯ</pron>
+            </form>
+            <sense xml:id="uuid-ab2c6a9b-09ea-43ae-ac6a-9b09ea33ae44" resp="#dsehnal" tls:created="2024-06-08T21:41:10.109+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>take place often</def>
+            </sense>
+        </entry>
+    </div>
 </div>

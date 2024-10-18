@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-69b04ab6-8d57-4b12-b773-1f922acd117d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-69b04ab6-8d57-4b12-b773-1f922acd117d">
 <head>BEGIN</head>
     <list type="altnames">
 <item>START</item>
@@ -444,7 +445,43 @@
                 </gramGrp>
   <def>to begin with, in the beginning</def>
             </sense>
-<sense xml:id="uuid-31934ac6-79ae-487a-a58a-4c6ce0a036c0" resp="#zadrapa" tls:created="2019-10-21T19:55:53.957+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt+prep+V</tls:syn-func></gramGrp><def>to start V-ing</def></sense><sense xml:id="uuid-73f1d62a-cacf-4077-a0a2-8bac4b4c0b20" resp="#zadrapa" tls:created="2019-10-21T20:03:15.581+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-4ba379fb-238e-4efe-a379-fb238efefe1e">vt prep+Nab</tls:syn-func></gramGrp><def>begin with V-ing</def></sense><sense xml:id="uuid-c9336506-1266-4e4f-bcf9-4ffa3ef8d5a6" resp="#CH" tls:created="2019-12-06T19:56:21.569+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func></gramGrp><def>begin to V</def></sense><sense xml:id="uuid-60349fe0-f383-4c36-b5e4-07a98c309603" resp="#CH" tls:created="2019-12-13T22:23:53.429+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func></gramGrp><def>beginning of N</def></sense><sense xml:id="uuid-6021d32f-e01a-4e30-a1d3-2fe01afe30a6" resp="#zadrapa" tls:created="2020-12-06T22:01:36.982+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-f7794b9d-8d4a-473e-aef2-afc8aba2e97d">state</tls:sem-feat></gramGrp><def>the initial shape of N, how N was at the beginning</def></sense></entry>
+<sense xml:id="uuid-31934ac6-79ae-487a-a58a-4c6ce0a036c0" resp="#zadrapa" tls:created="2019-10-21T19:55:53.957+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt+prep+V</tls:syn-func>
+                </gramGrp>
+                <def>to start V-ing</def>
+            </sense>
+            <sense xml:id="uuid-73f1d62a-cacf-4077-a0a2-8bac4b4c0b20" resp="#zadrapa" tls:created="2019-10-21T20:03:15.581+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-4ba379fb-238e-4efe-a379-fb238efefe1e">vt prep+Nab</tls:syn-func>
+                </gramGrp>
+                <def>begin with V-ing</def>
+            </sense>
+            <sense xml:id="uuid-c9336506-1266-4e4f-bcf9-4ffa3ef8d5a6" resp="#CH" tls:created="2019-12-06T19:56:21.569+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func>
+                </gramGrp>
+                <def>begin to V</def>
+            </sense>
+            <sense xml:id="uuid-60349fe0-f383-4c36-b5e4-07a98c309603" resp="#CH" tls:created="2019-12-13T22:23:53.429+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>beginning of N</def>
+            </sense>
+            <sense xml:id="uuid-6021d32f-e01a-4e30-a1d3-2fe01afe30a6" resp="#zadrapa" tls:created="2020-12-06T22:01:36.982+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f7794b9d-8d4a-473e-aef2-afc8aba2e97d">state</tls:sem-feat>
+                </gramGrp>
+                <def>the initial shape of N, how N was at the beginning</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9711cfe5-ff66-4fe8-892f-422c633723d2">
             <form corresp="#uuid-c95274cd-bf70-417e-9420-a577f5674277">
 <orth>宗</orth>
@@ -495,7 +532,14 @@
                 </gramGrp>
   <def>cause to begin</def>
             </sense>
-<sense xml:id="uuid-3828a2c7-67e6-4bb7-8070-fe72869f0167" resp="#CH" tls:created="2019-11-06T17:25:17.492+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>begin (something N)</def></sense></entry>
+<sense xml:id="uuid-3828a2c7-67e6-4bb7-8070-fe72869f0167" resp="#CH" tls:created="2019-11-06T17:25:17.492+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>begin (something N)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3e8dbbbe-d1d5-4e1f-9341-bb5ad8d223b8">
             <form corresp="#uuid-e89ed617-bbef-4c8a-b338-12e6f84ae619">
 <orth>根</orth>
@@ -625,7 +669,22 @@
                 </gramGrp>
   <def>cause to arise&gt; begin; start</def>
             </sense>
-<sense xml:id="uuid-2adb72db-0c6b-4228-9b72-db0c6b022860" resp="#zadrapa" tls:created="2020-06-24T01:36:20.243+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt+prep+V</tls:syn-func></gramGrp><def>begin by V-ing, make V-ing the starting point</def></sense><sense xml:id="uuid-4406962c-ebd4-42ef-8696-2cebd402ef98" resp="#CH" tls:created="2022-09-04T20:44:28.176+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>beginning, rise</def></sense></entry>
+<sense xml:id="uuid-2adb72db-0c6b-4228-9b72-db0c6b022860" resp="#zadrapa" tls:created="2020-06-24T01:36:20.243+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a26a9b0f-8976-41c1-9663-ba2a7e05500f">vt+prep+V</tls:syn-func>
+                </gramGrp>
+                <def>begin by V-ing, make V-ing the starting point</def>
+            </sense>
+            <sense xml:id="uuid-4406962c-ebd4-42ef-8696-2cebd402ef98" resp="#CH" tls:created="2022-09-04T20:44:28.176+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>beginning, rise</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-556bcc14-7dbd-4753-987e-019eaa8d0dba">
             <form corresp="#uuid-68cdab22-fbe1-497d-ab66-2003a9e87f51">
 <orth>造</orth>
@@ -857,18 +916,146 @@
                 </gramGrp>
   <def>initiate, launch</def>
             </sense>
-<sense xml:id="uuid-6ef36df1-8a50-4587-99cf-f7e1d79df341" resp="#CH" tls:created="2019-10-31T20:59:33.946+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func></gramGrp><def>starting from N to V</def></sense></entry>
-    <entry type="word" xml:id="uuid-facbbe0a-702f-4095-a601-1bd13c802490" resp="#CH" tls:created="2019-10-18T21:09:52.454+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6af9affe-44aa-4f55-97f3-7aae55d81f81" resp="#CH" tls:created="2019-10-18T21:09:52.454+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>as the first</def></sense></entry><entry type="word" xml:id="uuid-e613a55b-7427-4562-a6dc-f90e85b692e7" resp="#CH" tls:created="2019-10-18T21:10:01.683+09:00"><form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9"><orth>先</orth><pron xml:lang="zh-Latn-x-pinyin">xiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn</pron></form><sense xml:id="uuid-65a5574a-c6c7-4b79-9092-377fa95b932e" resp="#CH" tls:created="2019-10-18T21:10:01.683+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>as the first</def></sense><sense xml:id="uuid-ea5c9c45-6c0c-40d7-89de-1351e4d30b76" resp="#CH" tls:created="2019-12-13T20:18:50.033+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>be the first to V</def></sense></entry><entry type="word" xml:id="uuid-792d370d-74e1-4708-b337-23b9e693e6d6" resp="#CH" tls:created="2019-10-18T21:10:09.754+09:00"><form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9"><orth>先</orth><pron xml:lang="zh-Latn-x-pinyin">xiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn</pron></form><sense xml:id="uuid-ccd97c87-9ace-4117-87c0-3f5f1ecc66c3" resp="#CH" tls:created="2019-10-18T21:10:09.754+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>as the first</def></sense></entry><entry type="word" xml:id="uuid-28d25bb2-0554-4689-a657-ef213420c44a" resp="#CH" tls:created="2019-10-31T18:29:37.664+09:00"><form corresp="#uuid-8840febf-a68a-4d05-b42d-4681834b0dea #uuid-c97d6d15-43b5-42e1-9b7e-937db28c906a"><orth>太初</orth><pron xml:lang="zh-Latn-x-pinyin">tài
+<sense xml:id="uuid-6ef36df1-8a50-4587-99cf-f7e1d79df341" resp="#CH" tls:created="2019-10-31T20:59:33.946+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                </gramGrp>
+                <def>starting from N to V</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-facbbe0a-702f-4095-a601-1bd13c802490" resp="#CH" tls:created="2019-10-18T21:09:52.454+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6af9affe-44aa-4f55-97f3-7aae55d81f81" resp="#CH" tls:created="2019-10-18T21:09:52.454+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>as the first</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e613a55b-7427-4562-a6dc-f90e85b692e7" resp="#CH" tls:created="2019-10-18T21:10:01.683+09:00">
+            <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9">
+                <orth>先</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn</pron>
+            </form>
+            <sense xml:id="uuid-65a5574a-c6c7-4b79-9092-377fa95b932e" resp="#CH" tls:created="2019-10-18T21:10:01.683+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>as the first</def>
+            </sense>
+            <sense xml:id="uuid-ea5c9c45-6c0c-40d7-89de-1351e4d30b76" resp="#CH" tls:created="2019-12-13T20:18:50.033+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>be the first to V</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-792d370d-74e1-4708-b337-23b9e693e6d6" resp="#CH" tls:created="2019-10-18T21:10:09.754+09:00">
+            <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9">
+                <orth>先</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯɯn</pron>
+            </form>
+            <sense xml:id="uuid-ccd97c87-9ace-4117-87c0-3f5f1ecc66c3" resp="#CH" tls:created="2019-10-18T21:10:09.754+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>as the first</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-28d25bb2-0554-4689-a657-ef213420c44a" resp="#CH" tls:created="2019-10-31T18:29:37.664+09:00">
+            <form corresp="#uuid-8840febf-a68a-4d05-b42d-4681834b0dea #uuid-c97d6d15-43b5-42e1-9b7e-937db28c906a">
+                <orth>太初</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tài
  chū
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thajH
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thajH
  tsrhjo
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thaads
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thaads
  tshra
-</pron></form><sense xml:id="uuid-1ebba711-75e8-4e82-adeb-433d433cf18d" resp="#CH" tls:created="2019-10-31T18:29:37.664+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func></gramGrp><def>the Great Beginning (of everything)</def></sense></entry><entry type="word" xml:id="uuid-0e5e796b-bf16-4c36-9a4c-51d74172735b" resp="#CH" tls:created="2019-11-16T01:52:44.424+09:00"><form corresp="#uuid-8efbd34f-2d89-4733-89e9-a37b2243f7ec"><orth>朔</orth><pron xml:lang="zh-Latn-x-pinyin">shuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sraewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqrooɡ</pron></form><sense xml:id="uuid-1c7a7811-7238-44ea-8b36-f92227872af3" resp="#CH" tls:created="2019-11-16T01:52:44.424+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>beginning</def></sense></entry><entry type="word" xml:id="uuid-8d66583e-221b-4e15-9e55-b9f7f601bece" resp="#CH" tls:created="2020-02-04T19:37:23.962+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-a3cdf2ac-3ace-426b-83c1-93164af0fc86" resp="#CH" tls:created="2020-02-04T19:37:23.962+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP-P.adS</tls:syn-func></gramGrp><def>in the beginning</def></sense></entry><entry type="word" xml:id="uuid-85782480-07dc-43cb-836d-f9abdfdc1267" resp="#CH" tls:created="2020-02-04T19:37:38.416+09:00"><form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd"><orth>其始</orth><pron xml:lang="zh-Latn-x-pinyin">qí shǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gi syiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ lʰɯʔ</pron></form><sense xml:id="uuid-061c055d-8ad7-4bf6-9230-9bfcd76a16fb" resp="#CH" tls:created="2020-02-04T19:37:38.416+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP-P.adS</tls:syn-func></gramGrp><def>in the beginning</def></sense></entry><entry xml:id="uuid-6d53acc0-27f7-4d3f-93ac-c027f7fd3f32"><form corresp="#uuid-6b22adba-f541-40fe-8994-ffb7e9450096"><orth>正</orth><pron xml:lang="zh-Latn-x-pinyin">zhēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋ</pron></form><sense xml:id="uuid-0fa572dc-21dd-4a48-9037-658ec7ca979b">
+</pron>
+            </form>
+            <sense xml:id="uuid-1ebba711-75e8-4e82-adeb-433d433cf18d" resp="#CH" tls:created="2019-10-31T18:29:37.664+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                </gramGrp>
+                <def>the Great Beginning (of everything)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0e5e796b-bf16-4c36-9a4c-51d74172735b" resp="#CH" tls:created="2019-11-16T01:52:44.424+09:00">
+            <form corresp="#uuid-8efbd34f-2d89-4733-89e9-a37b2243f7ec">
+                <orth>朔</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sraewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqrooɡ</pron>
+            </form>
+            <sense xml:id="uuid-1c7a7811-7238-44ea-8b36-f92227872af3" resp="#CH" tls:created="2019-11-16T01:52:44.424+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>beginning</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8d66583e-221b-4e15-9e55-b9f7f601bece" resp="#CH" tls:created="2020-02-04T19:37:23.962+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-a3cdf2ac-3ace-426b-83c1-93164af0fc86" resp="#CH" tls:created="2020-02-04T19:37:23.962+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP-P.adS</tls:syn-func>
+                </gramGrp>
+                <def>in the beginning</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-85782480-07dc-43cb-836d-f9abdfdc1267" resp="#CH" tls:created="2020-02-04T19:37:38.416+09:00">
+            <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-a148ce2d-fb75-42e9-844f-b9cea352ffdd">
+                <orth>其始</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí shǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gi syiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ lʰɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-061c055d-8ad7-4bf6-9230-9bfcd76a16fb" resp="#CH" tls:created="2020-02-04T19:37:38.416+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP-P.adS</tls:syn-func>
+                </gramGrp>
+                <def>in the beginning</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-6d53acc0-27f7-4d3f-93ac-c027f7fd3f32">
+            <form corresp="#uuid-6b22adba-f541-40fe-8994-ffb7e9450096">
+                <orth>正</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋ</pron>
+            </form>
+            <sense xml:id="uuid-0fa572dc-21dd-4a48-9037-658ec7ca979b">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                 </gramGrp>
   <def>read zhe1ng: first (of month)</def>
-            </sense></entry></div>
+            </sense>
+        </entry>
+    </div>
 </div>

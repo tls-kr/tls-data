@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c1d0456b-e8a5-4e51-bb67-dee740ea13ae">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c1d0456b-e8a5-4e51-bb67-dee740ea13ae">
 <head>FEAST</head>
     <list type="altnames">
 <item>BANQUET</item>
@@ -260,7 +261,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-02-08T03:16:04.19+09:00">＝宴 lay on a feast (less formal than the 享）</def>
             </sense>
-<sense xml:id="uuid-7575daa4-ba7e-4e6a-b5da-a4ba7e1e6a70" resp="#CH" tls:created="2023-02-08T03:21:12.693+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def resp="#CH" updated="2023-02-08T03:25:39.421+09:00">＝宴 on the occasion of an (evening) feast</def></sense></entry>
+<sense xml:id="uuid-7575daa4-ba7e-4e6a-b5da-a4ba7e1e6a70" resp="#CH" tls:created="2023-02-08T03:21:12.693+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-02-08T03:25:39.421+09:00">＝宴 on the occasion of an (evening) feast</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6d09e1a4-8b0e-4ea3-917c-196d2e437857">
             <form corresp="#uuid-97309c79-f356-4176-8287-ea1db9868bbf">
 <orth>席</orth>
@@ -398,7 +406,15 @@
                 </gramGrp>
   <def>drink wine in social company as a formal arrangement, attend a wine-drinking occasion</def>
             </sense>
-<sense xml:id="uuid-8f2a1c87-b4b2-4983-aa1c-87b4b2398363" resp="#dsehnal" tls:created="2024-05-19T22:37:21.777+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func><tls:sem-feat corresp="#uuid-3b631838-1e4e-40ed-b2e1-18ad0167d26e">N=time</tls:sem-feat></gramGrp><def>feast characterised by N</def></sense></entry>
+<sense xml:id="uuid-8f2a1c87-b4b2-4983-aa1c-87b4b2398363" resp="#dsehnal" tls:created="2024-05-19T22:37:21.777+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3b631838-1e4e-40ed-b2e1-18ad0167d26e">N=time</tls:sem-feat>
+                </gramGrp>
+                <def>feast characterised by N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-404d65c8-ebfb-4e9d-95de-ca593d4a9950">
             <form corresp="#uuid-31868efc-aa83-4b8b-b7db-934195ae6556">
 <orth>餉</orth>
@@ -568,5 +584,51 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d5e4fbf8-e8ed-4068-a4fb-f8e8edf0688b" resp="#CH" tls:created="2020-05-21T23:51:19.169+09:00"><form corresp="#uuid-faad5007-021e-4f3f-ac21-b07b4f62ee55 #uuid-fb91d199-ddfe-4744-88c7-2e61e96d9913"><orth>共食</orth><pron xml:lang="zh-Latn-x-pinyin">gòng shí sì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjowngH zyik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoŋs ɢljɯɡ</pron></form><sense xml:id="uuid-00ca8c1a-bb29-4239-8a8c-1abb29a2391f" resp="#CH" tls:created="2020-05-21T23:51:19.169+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>feast on, together</def></sense></entry><entry type="word" xml:id="uuid-6b0bbe7e-f145-414e-8bbe-7ef145114ea2" resp="#zadrapa" tls:created="2022-06-03T16:05:50.642+09:00"><form corresp="#uuid-01791f7a-c65f-4d85-bb13-4c9ecb518bc9 #uuid-248438a1-1a4c-4cfa-8438-a11a4cdcfae2"><orth>饗食</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎng sì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjangX --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋʔ --</pron></form><sense xml:id="uuid-0819eec8-db5e-4900-99ee-c8db5e79009b" resp="#zadrapa" tls:created="2022-06-03T16:05:50.642+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>ritual receptions</def></sense></entry><entry type="word" xml:id="uuid-c4d35d44-4dd1-4bbd-935d-444dd10bbdad" resp="#CH" tls:created="2022-09-19T16:45:24.833+09:00"><form corresp="#uuid-3eefb2de-bf67-4239-805c-cc2eb868ea02"><orth>犒</orth><pron xml:lang="zh-Latn-x-pinyin">kào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsawH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoows</pron></form><sense xml:id="uuid-1c3da94b-7227-4065-bda9-4b7227506593" resp="#CH" tls:created="2022-09-19T16:45:24.833+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c4ebb820-7486-43f4-abb8-20748633f47c">vttoN1.-以N2</tls:syn-func></gramGrp><def>treat N1 to a feast involving the consumption of N2 </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d5e4fbf8-e8ed-4068-a4fb-f8e8edf0688b" resp="#CH" tls:created="2020-05-21T23:51:19.169+09:00">
+            <form corresp="#uuid-faad5007-021e-4f3f-ac21-b07b4f62ee55 #uuid-fb91d199-ddfe-4744-88c7-2e61e96d9913">
+                <orth>共食</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gòng shí sì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjowngH zyik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoŋs ɢljɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-00ca8c1a-bb29-4239-8a8c-1abb29a2391f" resp="#CH" tls:created="2020-05-21T23:51:19.169+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>feast on, together</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6b0bbe7e-f145-414e-8bbe-7ef145114ea2" resp="#zadrapa" tls:created="2022-06-03T16:05:50.642+09:00">
+            <form corresp="#uuid-01791f7a-c65f-4d85-bb13-4c9ecb518bc9 #uuid-248438a1-1a4c-4cfa-8438-a11a4cdcfae2">
+                <orth>饗食</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎng sì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjangX --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋʔ --</pron>
+            </form>
+            <sense xml:id="uuid-0819eec8-db5e-4900-99ee-c8db5e79009b" resp="#zadrapa" tls:created="2022-06-03T16:05:50.642+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>ritual receptions</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c4d35d44-4dd1-4bbd-935d-444dd10bbdad" resp="#CH" tls:created="2022-09-19T16:45:24.833+09:00">
+            <form corresp="#uuid-3eefb2de-bf67-4239-805c-cc2eb868ea02">
+                <orth>犒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsawH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoows</pron>
+            </form>
+            <sense xml:id="uuid-1c3da94b-7227-4065-bda9-4b7227506593" resp="#CH" tls:created="2022-09-19T16:45:24.833+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c4ebb820-7486-43f4-abb8-20748633f47c">vttoN1.-以N2</tls:syn-func>
+                </gramGrp>
+                <def>treat N1 to a feast involving the consumption of N2 </def>
+            </sense>
+        </entry>
+    </div>
 </div>

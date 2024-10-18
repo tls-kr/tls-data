@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7f6b1acc-dc55-4b52-bfdb-9cda3dbd3326">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7f6b1acc-dc55-4b52-bfdb-9cda3dbd3326">
 <head>BURY</head>
     <list type="altnames">
 <item>INTER</item>
@@ -260,7 +261,21 @@
                 </gramGrp>
   <def>conduct proper funeral rites for (the dead)</def>
             </sense>
-<sense xml:id="uuid-8461a50d-0b51-4494-a1a5-0d0b5124940f" resp="#zadrapa" tls:created="2022-05-29T04:53:47.172+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d06c3a3d-4cc3-400e-91e8-10b93e46459a">nab.adN</tls:syn-func></gramGrp><def>funeral</def></sense><sense xml:id="uuid-f9f39673-9a58-4da7-b396-739a58eda7ad" resp="#CH" tls:created="2022-09-10T16:28:42.682+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>bury deceased</def></sense></entry>
+<sense xml:id="uuid-8461a50d-0b51-4494-a1a5-0d0b5124940f" resp="#zadrapa" tls:created="2022-05-29T04:53:47.172+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d06c3a3d-4cc3-400e-91e8-10b93e46459a">nab.adN</tls:syn-func>
+                </gramGrp>
+                <def>funeral</def>
+            </sense>
+            <sense xml:id="uuid-f9f39673-9a58-4da7-b396-739a58eda7ad" resp="#CH" tls:created="2022-09-10T16:28:42.682+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>bury deceased</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-432ffb54-26b1-4807-b951-ecd9df73fee1">
             <form corresp="#uuid-e17688ed-6995-45c1-bb24-c599716e75ea">
 <orth>坑</orth>
@@ -672,7 +687,14 @@
                 </gramGrp>
   <def>bury the contextually determinate person N1 at the place N2</def>
             </sense>
-<sense xml:id="uuid-de346254-37f2-4169-b462-5437f26169f9" resp="#dsehnal" tls:created="2023-05-10T05:01:07.854+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>burry N1 at the place N2</def></sense></entry>
+<sense xml:id="uuid-de346254-37f2-4169-b462-5437f26169f9" resp="#dsehnal" tls:created="2023-05-10T05:01:07.854+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>burry N1 at the place N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a556df59-fa4f-409c-a9d8-1c13f32b793d">
             <form corresp="#uuid-0b542620-58d5-4feb-ab26-2be22e711e2f">
 <orth>藏</orth>
@@ -909,5 +931,65 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-745bcb36-d46f-482a-a5d3-c8dfda7a54c3" resp="#zadrapa" tls:created="2019-10-31T23:55:53.317+09:00"><form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4 #uuid-e6af85ed-0361-4af2-8a14-0e12caee9694"><orth>安措</orth><pron xml:lang="zh-Latn-x-pinyin">ān cuò cù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'an tshuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaan skhaaɡs</pron></form><sense xml:id="uuid-65560202-0449-4070-afb7-7fe34e360a39" resp="#zadrapa" tls:created="2019-10-31T23:55:53.317+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>bury</def></sense></entry><entry type="word" xml:id="uuid-66116f9e-fc50-4d6b-be01-c44469d92150" resp="#zadrapa" tls:created="2019-10-31T23:57:26.42+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-e83061cd-96d4-4e79-81a0-06a72f35a0db" resp="#zadrapa" tls:created="2019-10-31T23:57:26.42+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>burial place</def></sense></entry><entry type="word" xml:id="uuid-98052826-d381-43db-947d-3947a92c3811" resp="#zadrapa" tls:created="2019-10-31T23:57:31.048+09:00"><form corresp="#uuid-6d2f2b92-390a-4c62-9c6c-2b5cb4c9ddcb #uuid-08e8f484-d3d3-4f2d-9ac7-485f74502ed0"><orth>宅兆</orth><pron xml:lang="zh-Latn-x-pinyin">zhái zhào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">draek drjewX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">brlaaɡ ɡrlewʔ</pron></form><sense xml:id="uuid-964a355b-3066-45b5-b652-e7bd4a4c7e40" resp="#zadrapa" tls:created="2019-10-31T23:57:31.048+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>burial place</def></sense></entry><entry type="word" xml:id="uuid-fa88b974-fc50-4b5b-88b9-74fc508b5bfe" resp="#dsehnal" tls:created="2023-05-14T21:14:23.18+09:00"><form corresp="#uuid-181a9c68-746e-449c-bac1-3eb64aa6a2c6 #uuid-0b542620-58d5-4feb-ab26-2be22e711e2f"><orth>收藏</orth><pron xml:lang="zh-Latn-x-pinyin">shōu zàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syuw dzangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qjiw sɡaaŋs</pron></form><sense xml:id="uuid-de7b0661-9a05-4dc5-bb06-619a054dc5c7" resp="#dsehnal" tls:created="2023-05-14T21:14:23.18+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>藏通葬: bury the contextually determinate N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-745bcb36-d46f-482a-a5d3-c8dfda7a54c3" resp="#zadrapa" tls:created="2019-10-31T23:55:53.317+09:00">
+            <form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4 #uuid-e6af85ed-0361-4af2-8a14-0e12caee9694">
+                <orth>安措</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ān cuò cù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'an tshuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaan skhaaɡs</pron>
+            </form>
+            <sense xml:id="uuid-65560202-0449-4070-afb7-7fe34e360a39" resp="#zadrapa" tls:created="2019-10-31T23:55:53.317+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>bury</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-66116f9e-fc50-4d6b-be01-c44469d92150" resp="#zadrapa" tls:created="2019-10-31T23:57:26.42+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-e83061cd-96d4-4e79-81a0-06a72f35a0db" resp="#zadrapa" tls:created="2019-10-31T23:57:26.42+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>burial place</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98052826-d381-43db-947d-3947a92c3811" resp="#zadrapa" tls:created="2019-10-31T23:57:31.048+09:00">
+            <form corresp="#uuid-6d2f2b92-390a-4c62-9c6c-2b5cb4c9ddcb #uuid-08e8f484-d3d3-4f2d-9ac7-485f74502ed0">
+                <orth>宅兆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhái zhào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">draek drjewX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">brlaaɡ ɡrlewʔ</pron>
+            </form>
+            <sense xml:id="uuid-964a355b-3066-45b5-b652-e7bd4a4c7e40" resp="#zadrapa" tls:created="2019-10-31T23:57:31.048+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>burial place</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fa88b974-fc50-4b5b-88b9-74fc508b5bfe" resp="#dsehnal" tls:created="2023-05-14T21:14:23.18+09:00">
+            <form corresp="#uuid-181a9c68-746e-449c-bac1-3eb64aa6a2c6 #uuid-0b542620-58d5-4feb-ab26-2be22e711e2f">
+                <orth>收藏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shōu zàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syuw dzangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qjiw sɡaaŋs</pron>
+            </form>
+            <sense xml:id="uuid-de7b0661-9a05-4dc5-bb06-619a054dc5c7" resp="#dsehnal" tls:created="2023-05-14T21:14:23.18+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>藏通葬: bury the contextually determinate N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

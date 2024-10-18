@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-aa314ef9-9a5b-43c6-ae30-73674727ab51">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-aa314ef9-9a5b-43c6-ae30-73674727ab51">
 <head>NAME</head>
     <list type="altnames">
 <item>DESIGNATION</item>
@@ -380,7 +381,59 @@
                 </gramGrp>
   <def>call N1 by the name N2</def>
             </sense>
-<sense xml:id="uuid-a018e527-4908-4820-a4a7-a2516f18af3d" resp="#CH" tls:created="2019-10-24T05:37:12.642+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">passive</tls:sem-feat></gramGrp><def>be called by the surname</def></sense><sense xml:id="uuid-651b67d2-8525-4653-be3e-952a96f1746e" resp="#CH" tls:created="2019-12-01T04:25:48.971+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>name (of a thing)</def></sense><sense xml:id="uuid-79f5d70e-bada-4659-b5d7-0ebadac6594a" resp="#CH" tls:created="2020-04-11T22:24:57.855+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat></gramGrp><def>have a name</def></sense><sense xml:id="uuid-c7f0e5a6-63e0-4e62-b0e5-a663e03e62e8" resp="#twharbsmeier" tls:created="2020-04-28T02:06:49.21+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ba68765f-432c-4660-b0a0-3b32074be74f">vtt(oN1.)(+N2)</tls:syn-func></gramGrp><def>call the contextually determinate N1 a contextually determinate name N2</def></sense><sense xml:id="uuid-776a659a-6a19-4d8f-aa65-9a6a193d8f35" resp="#CH" tls:created="2020-08-07T17:18:40.585+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-82f557a1-6527-408f-9138-4212f393be42">npost-npro</tls:syn-func></gramGrp><def>npro-s name</def></sense><sense xml:id="uuid-4b638cc8-2e36-4f2f-a38c-c82e36af2fbf" resp="#dsehnal" tls:created="2023-05-13T18:14:32.71+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-95d8848b-6af2-4bf0-8713-3a6e38c2fb32">vttoN1.postN2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>N2 called N1</def></sense><sense xml:id="uuid-28be30d9-0d5c-4e2b-be30-d90d5cfe2b87" resp="#dsehnal" tls:created="2023-07-01T22:32:14.161+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's name</def></sense></entry>
+<sense xml:id="uuid-a018e527-4908-4820-a4a7-a2516f18af3d" resp="#CH" tls:created="2019-10-24T05:37:12.642+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be called by the surname</def>
+            </sense>
+            <sense xml:id="uuid-651b67d2-8525-4653-be3e-952a96f1746e" resp="#CH" tls:created="2019-12-01T04:25:48.971+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>name (of a thing)</def>
+            </sense>
+            <sense xml:id="uuid-79f5d70e-bada-4659-b5d7-0ebadac6594a" resp="#CH" tls:created="2020-04-11T22:24:57.855+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middlevoice</tls:sem-feat>
+                </gramGrp>
+                <def>have a name</def>
+            </sense>
+            <sense xml:id="uuid-c7f0e5a6-63e0-4e62-b0e5-a663e03e62e8" resp="#twharbsmeier" tls:created="2020-04-28T02:06:49.21+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ba68765f-432c-4660-b0a0-3b32074be74f">vtt(oN1.)(+N2)</tls:syn-func>
+                </gramGrp>
+                <def>call the contextually determinate N1 a contextually determinate name N2</def>
+            </sense>
+            <sense xml:id="uuid-776a659a-6a19-4d8f-aa65-9a6a193d8f35" resp="#CH" tls:created="2020-08-07T17:18:40.585+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-82f557a1-6527-408f-9138-4212f393be42">npost-npro</tls:syn-func>
+                </gramGrp>
+                <def>npro-s name</def>
+            </sense>
+            <sense xml:id="uuid-4b638cc8-2e36-4f2f-a38c-c82e36af2fbf" resp="#dsehnal" tls:created="2023-05-13T18:14:32.71+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-95d8848b-6af2-4bf0-8713-3a6e38c2fb32">vttoN1.postN2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>N2 called N1</def>
+            </sense>
+            <sense xml:id="uuid-28be30d9-0d5c-4e2b-be30-d90d5cfe2b87" resp="#dsehnal" tls:created="2023-07-01T22:32:14.161+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's name</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-70f3485a-b07d-4195-8094-66344e7e1c9b">
             <form corresp="#uuid-459b0d38-95fa-4d14-a8a8-a032552579a1">
 <orth>命</orth>
@@ -461,7 +514,14 @@
                 </gramGrp>
   <def>give to N1 a name N2</def>
             </sense>
-<sense xml:id="uuid-ccd72284-14fb-488e-9722-8414fbb88e34" resp="#CH" tls:created="2020-03-11T18:28:25.057+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>give a name to the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-ccd72284-14fb-488e-9722-8414fbb88e34" resp="#CH" tls:created="2020-03-11T18:28:25.057+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>give a name to the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-610b7ec0-d5c0-4c86-ae66-0945dc8a3865">
             <form corresp="#uuid-ef6c4ab9-49f2-41c8-83e0-c440fa47cad7">
 <orth>呼</orth>
@@ -540,7 +600,14 @@
                 </gramGrp>
   <def>call the contextually determinate omitted N1 an N2</def>
             </sense>
-<sense xml:id="uuid-d006a764-a5bb-4cbf-86a7-64a5bb7cbfd8" resp="#CH" tls:created="2024-04-02T12:42:25.224+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vtt(+N1)+N2</tls:syn-func></gramGrp><def resp="#CH" updated="2024-04-02T12:43:36.801+09:00">call the contextually determinate N1 "N2", refer to the contextually determinate N1 as "N2"</def></sense></entry>
+<sense xml:id="uuid-d006a764-a5bb-4cbf-86a7-64a5bb7cbfd8" resp="#CH" tls:created="2024-04-02T12:42:25.224+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vtt(+N1)+N2</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-04-02T12:43:36.801+09:00">call the contextually determinate N1 "N2", refer to the contextually determinate N1 as "N2"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e6e47751-d77d-48c2-99ad-d31eac13c44a">
             <form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f">
 <orth>稱</orth>
@@ -662,7 +729,30 @@
                 </gramGrp>
   <def>denote; refer to</def>
             </sense>
-<sense xml:id="uuid-38cfd451-5a4b-4d12-874f-ae7348fef670" resp="#CH" tls:created="2019-10-16T16:51:58.066+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func></gramGrp><def resp="#CH" updated="2022-11-16T19:37:59.379+09:00">call the understood object by the name N2(N2 can be the nominal? designation for an action)</def></sense><sense xml:id="uuid-e5ccb588-4edb-4d89-8cb5-884edb9d8965" resp="#CH" tls:created="2020-04-01T20:20:12.447+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-8b13ea65-8d3c-4d62-b4bf-caf8506c9f68">declarative</tls:sem-feat></gramGrp><def>declare N1 to be possessed of N2</def></sense><sense xml:id="uuid-7082c2ab-3773-4492-82c2-ab3773e492fd" resp="#CH" tls:created="2022-11-19T17:18:51.743+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-76a3454c-a084-47af-b1b2-9839a8900995">general</tls:sem-feat></gramGrp><def>designation for things</def></sense></entry>
+<sense xml:id="uuid-38cfd451-5a4b-4d12-874f-ae7348fef670" resp="#CH" tls:created="2019-10-16T16:51:58.066+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-11-16T19:37:59.379+09:00">call the understood object by the name N2(N2 can be the nominal? designation for an action)</def>
+            </sense>
+            <sense xml:id="uuid-e5ccb588-4edb-4d89-8cb5-884edb9d8965" resp="#CH" tls:created="2020-04-01T20:20:12.447+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-8b13ea65-8d3c-4d62-b4bf-caf8506c9f68">declarative</tls:sem-feat>
+                </gramGrp>
+                <def>declare N1 to be possessed of N2</def>
+            </sense>
+            <sense xml:id="uuid-7082c2ab-3773-4492-82c2-ab3773e492fd" resp="#CH" tls:created="2022-11-19T17:18:51.743+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-76a3454c-a084-47af-b1b2-9839a8900995">general</tls:sem-feat>
+                </gramGrp>
+                <def>designation for things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-11811202-8995-45f9-95a6-aa9e7bac817a">
             <form corresp="#uuid-58b8fdd2-3eb0-43e1-ae32-4869682c18b9">
 <orth>舉</orth>
@@ -738,7 +828,14 @@
                 </gramGrp>
   <def>call the person N1 N2 (N2 being preceded by a a verbal complement indicating a result)   號之為佛</def>
             </sense>
-<sense xml:id="uuid-09412a83-395f-41e3-a06b-dfc62106eb02" resp="#CH" tls:created="2020-01-05T19:14:21.083+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func></gramGrp><def>give the name N2 to the contextually determinate N1</def></sense></entry>
+<sense xml:id="uuid-09412a83-395f-41e3-a06b-dfc62106eb02" resp="#CH" tls:created="2020-01-05T19:14:21.083+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>give the name N2 to the contextually determinate N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1c104b98-9fab-444a-9641-db226708af37">
             <form corresp="#uuid-d9a087db-c2b1-46d7-88c4-19d571a149ce">
 <orth>言</orth>
@@ -753,7 +850,14 @@
                 </gramGrp>
   <def>call N1 N2</def>
             </sense>
-<sense xml:id="uuid-2f19be80-7cf8-44e9-99be-807cf834e949" resp="#CH" tls:created="2023-01-21T06:57:34.223+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>mention</def></sense></entry>
+<sense xml:id="uuid-2f19be80-7cf8-44e9-99be-807cf834e949" resp="#CH" tls:created="2023-01-21T06:57:34.223+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>mention</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b0ed4d4b-a64a-4c68-a89b-db66ab288d83">
             <form corresp="#uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce">
 <orth>謂</orth>
@@ -855,7 +959,28 @@
                 </gramGrp>
   <def>call something by a name; used with the copula 曰 introducing the name given</def>
             </sense>
-<sense xml:id="uuid-33fcf177-4f90-4e2f-8da9-9aa5584979cb" resp="#zadrapa" tls:created="2020-01-16T18:20:07.381+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtt[0]oNpro. N:postNab{S}{SUBJECT}</tls:syn-func></gramGrp><def>(if one behaves so and so) one calls it N 不問而告謂之傲</def></sense><sense xml:id="uuid-833320f6-8618-4476-b320-f686187476f6" resp="#CH" tls:created="2024-02-12T19:39:07.888+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-4bccc879-0fb7-46f6-8cc8-790fb716f6bf">vtt0(oN1.)+N2</tls:syn-func></gramGrp><def>one calls the contextually determinate N1 "N2"</def></sense><sense xml:id="uuid-b2f23d51-0404-41f2-b23d-51040461f2bd" resp="#CH" tls:created="2024-02-15T18:23:04.802+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7d073f2e-ec24-4880-943a-75ae3c174ec9">vtt[0]oN.+V[0]</tls:syn-func></gramGrp><def resp="#CH" updated="2024-02-15T20:37:17.692+09:00">one says that N V-s, one takes N to V, one deems N to V</def></sense></entry>
+<sense xml:id="uuid-33fcf177-4f90-4e2f-8da9-9aa5584979cb" resp="#zadrapa" tls:created="2020-01-16T18:20:07.381+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtt[0]oNpro. N:postNab{S}{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>(if one behaves so and so) one calls it N 不問而告謂之傲</def>
+            </sense>
+            <sense xml:id="uuid-833320f6-8618-4476-b320-f686187476f6" resp="#CH" tls:created="2024-02-12T19:39:07.888+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-4bccc879-0fb7-46f6-8cc8-790fb716f6bf">vtt0(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>one calls the contextually determinate N1 "N2"</def>
+            </sense>
+            <sense xml:id="uuid-b2f23d51-0404-41f2-b23d-51040461f2bd" resp="#CH" tls:created="2024-02-15T18:23:04.802+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7d073f2e-ec24-4880-943a-75ae3c174ec9">vtt[0]oN.+V[0]</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-15T20:37:17.692+09:00">one says that N V-s, one takes N to V, one deems N to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3b834db0-d3e7-4079-a7fa-19bdd2449ca8">
             <form corresp="#uuid-fa07cb8f-beee-47db-b898-4d25dc7c860c">
 <orth>諡</orth>
@@ -1140,17 +1265,205 @@
             </sense>
 </entry>
 
-    <entry type="word" xml:id="uuid-84cb91f2-c55b-4594-b63e-be10ce571af7" resp="#CH" tls:created="2019-12-18T00:51:36.372+09:00"><form corresp="#uuid-0a334428-74e3-48fd-ad1e-a7e67c39609a"><orth>詨</orth><pron xml:lang="zh-Latn-x-pinyin">xiào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haewH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡreews</pron></form><sense xml:id="uuid-8ef63377-79c8-444b-b335-f9cce20e589b" resp="#CH" tls:created="2019-12-18T00:51:36.372+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat></gramGrp><def>call oneself by one's own name</def></sense></entry><entry type="word" xml:id="uuid-8ee4e368-c3c7-461d-b0e6-e1fea120e9e8" resp="#CH" tls:created="2020-01-13T23:58:57.197+09:00"><form corresp="#uuid-babbdd95-a856-413a-aea7-722a3b97446b"><orth>予</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">laʔ</pron></form><sense xml:id="uuid-257c9279-fb53-4361-87e6-18f9c3b29efd" resp="#CH" tls:created="2020-01-13T23:58:57.197+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func></gramGrp><def>accord the title of, give the contextually determiate N1 the title N2</def></sense></entry><entry type="word" xml:id="uuid-c99f3539-80eb-4c93-8658-9d9c6baf0077" resp="#CH" tls:created="2020-01-23T05:54:16.604+09:00"><form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181"><orth>其名</orth><pron xml:lang="zh-Latn-x-pinyin">qí míng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gi mjieng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ meŋ</pron></form><sense xml:id="uuid-1d7ac325-1fa0-4bc8-8010-e6cedcdacdec" resp="#CH" tls:created="2020-01-23T05:54:16.604+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPadV</tls:syn-func></gramGrp><def>in name</def></sense></entry><entry type="word" xml:id="uuid-279c2091-f01e-46d0-b39e-80b9f838b4b7" resp="#CH" tls:created="2020-01-24T18:50:44.364+09:00"><form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce"><orth>可謂</orth><pron xml:lang="zh-Latn-x-pinyin">kě wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaX hjw+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ ɢuds</pron></form><sense xml:id="uuid-1e365104-a45b-459c-9972-9fd4f1946feb" resp="#CH" tls:created="2020-01-24T18:50:44.364+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>deserve the designation N, may properly be called N</def></sense><sense xml:id="uuid-028b67f3-1fc6-4939-8b67-f31fc69939b3" resp="#dsehnal" tls:created="2020-05-23T23:35:41.203+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-29bca014-adf3-4856-930f-3ca08c201275">VPttoN.+S</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>it can be said about N, that S</def></sense></entry><entry type="word" xml:id="uuid-eb2b54fd-995a-47d4-ab54-fd995a77d495" resp="#dsehnal" tls:created="2020-05-22T01:28:43.166+09:00"><form corresp="#uuid-77602c86-40da-4f12-85e3-aa0b39b57181 #uuid-8a85c37d-738d-4ad4-b73d-e3eaeff22408"><orth>名族</orth><pron xml:lang="zh-Latn-x-pinyin">míng zú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjieng dzuwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">meŋ sɡooɡ</pron></form><sense xml:id="uuid-9845c47b-c945-49fb-85c4-7bc94529fbaf" resp="#dsehnal" tls:created="2020-05-22T01:28:43.166+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0e71a24c-2529-482a-a575-a4f143a9890b">NP{N1</tls:syn-func></gramGrp><def>personal and clan name</def></sense></entry><entry type="word" xml:id="uuid-7626987a-0b44-4341-a698-7a0b440341a6" resp="#CH" tls:created="2020-07-25T17:54:54.448+09:00"><form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>稱乎</orth><pron xml:lang="zh-Latn-x-pinyin">chēng hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhing hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjɯŋ ɢaa</pron></form><sense xml:id="uuid-1ed29ea0-d486-4a72-929e-a0d486ca72fb" resp="#CH" tls:created="2020-07-25T17:54:54.448+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be referred to as (not really "called")</def></sense></entry><entry type="word" xml:id="uuid-e0b24fa2-ed9b-4e8a-b24f-a2ed9bce8ae1" resp="#CH" tls:created="2021-05-05T18:10:32.405+09:00"><form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515 #uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce"><orth>之謂</orth><pron xml:lang="zh-Latn-x-pinyin">zhī wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi hjw+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ ɢuds</pron></form><sense xml:id="uuid-a8fccb7a-ab60-4e2f-bccb-7aab60be2f31" resp="#CH" tls:created="2021-05-05T18:10:32.405+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-95193d6e-a081-4839-993d-6ea0813839f4">VPtpostNP{INDIRECT OBJECT}</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2021-05-18T17:52:28.026+09:00">one may properly call him/her/it/them an NP</def></sense></entry><entry type="word" xml:id="uuid-22a8e461-5d85-4c3b-a8e4-615d85ec3bb8" resp="#CH" tls:created="2021-05-05T18:20:45.576+09:00"><form corresp="#uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515"><orth>謂之</orth><pron xml:lang="zh-Latn-x-pinyin">wèi zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjw+jH tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢuds kljɯ</pron></form><sense xml:id="uuid-5887191c-6996-45cd-8719-1c699635cdf2" resp="#CH" tls:created="2021-05-05T18:20:45.576+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-169b6b66-2722-4452-9b6b-6627220452e8">VPtoN.postN{INDIRECT OBJECT}</tls:syn-func><tls:sem-feat corresp="#uuid-b422820b-dd1e-4b66-a282-0bdd1e0b6616">indefinite omitted generalising subject</tls:sem-feat></gramGrp><def>one calls S N; S is called N</def></sense><sense xml:id="uuid-9eea9994-b9bf-4b5a-aa99-94b9bf5b5afc" resp="#CH" tls:created="2021-05-05T18:26:47.702+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b28dabbb-4a3b-47c6-8dab-bb4a3bd7c6d6">VPt(+N)</tls:syn-func></gramGrp><def>call it (by some contextually determinate name)</def></sense><sense xml:id="uuid-0b54ce36-21dd-4c7b-94ce-3621dd4c7b95" resp="#CH" tls:created="2021-05-05T18:34:38.95+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a85a0ae5-bacf-4275-9a0a-e5bacf6275b9">VPtoN1.postN2{SUBJECT}</tls:syn-func></gramGrp><def resp="#CH" updated="2021-05-05T18:51:44.047+09:00">call him/her/it/them N2</def></sense><sense xml:id="uuid-792beab1-7461-4ac0-abea-b174611ac08c" resp="#CH" tls:created="2021-05-05T19:52:11.978+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e5a75ba4-7115-453b-a75b-a47115f53b20">VPtoN.postS{INDIRECT+OBJECT}</tls:syn-func></gramGrp><def>the situation described in S is called N</def></sense></entry><entry type="word" xml:id="uuid-3f5351dc-e6cd-4a8c-9351-dce6cd0a8c8b" resp="#CH" tls:created="2021-05-20T01:00:24.385+09:00"><form corresp="#uuid-4ac1aa08-8f19-4eca-868f-3147990cdf68 #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515 #uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce"><orth>此之謂</orth><pron xml:lang="zh-Latn-x-pinyin">cǐ zhī wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjeX tsyi hjw+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheʔ kljɯ ɢuds</pron></form><sense xml:id="uuid-719301e9-4763-4b23-9301-e94763ab23a6" resp="#CH" tls:created="2021-05-20T01:00:24.385+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-05-20T01:02:24.371+09:00">this may properly be called N; this is generally called N; this is/has been described as N</def></sense></entry><entry xml:id="uuid-d5c7bf1f-ba8d-4d6f-87bf-1fba8dad6f09"><form corresp="#uuid-462c4590-ed5f-4361-ab03-e6d19e9a434e">
+    <entry type="word" xml:id="uuid-84cb91f2-c55b-4594-b63e-be10ce571af7" resp="#CH" tls:created="2019-12-18T00:51:36.372+09:00">
+            <form corresp="#uuid-0a334428-74e3-48fd-ad1e-a7e67c39609a">
+                <orth>詨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haewH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡreews</pron>
+            </form>
+            <sense xml:id="uuid-8ef63377-79c8-444b-b335-f9cce20e589b" resp="#CH" tls:created="2019-12-18T00:51:36.372+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat>
+                </gramGrp>
+                <def>call oneself by one's own name</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8ee4e368-c3c7-461d-b0e6-e1fea120e9e8" resp="#CH" tls:created="2020-01-13T23:58:57.197+09:00">
+            <form corresp="#uuid-babbdd95-a856-413a-aea7-722a3b97446b">
+                <orth>予</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">laʔ</pron>
+            </form>
+            <sense xml:id="uuid-257c9279-fb53-4361-87e6-18f9c3b29efd" resp="#CH" tls:created="2020-01-13T23:58:57.197+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>accord the title of, give the contextually determiate N1 the title N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c99f3539-80eb-4c93-8658-9d9c6baf0077" resp="#CH" tls:created="2020-01-23T05:54:16.604+09:00">
+            <form corresp="#uuid-4d6c7918-4df1-492f-95db-6e81913b1710 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181">
+                <orth>其名</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qí míng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gi mjieng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯ meŋ</pron>
+            </form>
+            <sense xml:id="uuid-1d7ac325-1fa0-4bc8-8010-e6cedcdacdec" resp="#CH" tls:created="2020-01-23T05:54:16.604+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPadV</tls:syn-func>
+                </gramGrp>
+                <def>in name</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-279c2091-f01e-46d0-b39e-80b9f838b4b7" resp="#CH" tls:created="2020-01-24T18:50:44.364+09:00">
+            <form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce">
+                <orth>可謂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kě wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaX hjw+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ ɢuds</pron>
+            </form>
+            <sense xml:id="uuid-1e365104-a45b-459c-9972-9fd4f1946feb" resp="#CH" tls:created="2020-01-24T18:50:44.364+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>deserve the designation N, may properly be called N</def>
+            </sense>
+            <sense xml:id="uuid-028b67f3-1fc6-4939-8b67-f31fc69939b3" resp="#dsehnal" tls:created="2020-05-23T23:35:41.203+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-29bca014-adf3-4856-930f-3ca08c201275">VPttoN.+S</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>it can be said about N, that S</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-eb2b54fd-995a-47d4-ab54-fd995a77d495" resp="#dsehnal" tls:created="2020-05-22T01:28:43.166+09:00">
+            <form corresp="#uuid-77602c86-40da-4f12-85e3-aa0b39b57181 #uuid-8a85c37d-738d-4ad4-b73d-e3eaeff22408">
+                <orth>名族</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">míng zú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjieng dzuwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">meŋ sɡooɡ</pron>
+            </form>
+            <sense xml:id="uuid-9845c47b-c945-49fb-85c4-7bc94529fbaf" resp="#dsehnal" tls:created="2020-05-22T01:28:43.166+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0e71a24c-2529-482a-a575-a4f143a9890b">NP{N1</tls:syn-func>
+                </gramGrp>
+                <def>personal and clan name</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7626987a-0b44-4341-a698-7a0b440341a6" resp="#CH" tls:created="2020-07-25T17:54:54.448+09:00">
+            <form corresp="#uuid-9b77eebd-b8d7-4a0f-8e8d-54feea4d4b6f #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>稱乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chēng hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhing hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thjɯŋ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-1ed29ea0-d486-4a72-929e-a0d486ca72fb" resp="#CH" tls:created="2020-07-25T17:54:54.448+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be referred to as (not really "called")</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e0b24fa2-ed9b-4e8a-b24f-a2ed9bce8ae1" resp="#CH" tls:created="2021-05-05T18:10:32.405+09:00">
+            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515 #uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce">
+                <orth>之謂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi hjw+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ ɢuds</pron>
+            </form>
+            <sense xml:id="uuid-a8fccb7a-ab60-4e2f-bccb-7aab60be2f31" resp="#CH" tls:created="2021-05-05T18:10:32.405+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-95193d6e-a081-4839-993d-6ea0813839f4">VPtpostNP{INDIRECT OBJECT}</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-05-18T17:52:28.026+09:00">one may properly call him/her/it/them an NP</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-22a8e461-5d85-4c3b-a8e4-615d85ec3bb8" resp="#CH" tls:created="2021-05-05T18:20:45.576+09:00">
+            <form corresp="#uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
+                <orth>謂之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèi zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjw+jH tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢuds kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-5887191c-6996-45cd-8719-1c699635cdf2" resp="#CH" tls:created="2021-05-05T18:20:45.576+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-169b6b66-2722-4452-9b6b-6627220452e8">VPtoN.postN{INDIRECT OBJECT}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b422820b-dd1e-4b66-a282-0bdd1e0b6616">indefinite omitted generalising subject</tls:sem-feat>
+                </gramGrp>
+                <def>one calls S N; S is called N</def>
+            </sense>
+            <sense xml:id="uuid-9eea9994-b9bf-4b5a-aa99-94b9bf5b5afc" resp="#CH" tls:created="2021-05-05T18:26:47.702+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b28dabbb-4a3b-47c6-8dab-bb4a3bd7c6d6">VPt(+N)</tls:syn-func>
+                </gramGrp>
+                <def>call it (by some contextually determinate name)</def>
+            </sense>
+            <sense xml:id="uuid-0b54ce36-21dd-4c7b-94ce-3621dd4c7b95" resp="#CH" tls:created="2021-05-05T18:34:38.95+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a85a0ae5-bacf-4275-9a0a-e5bacf6275b9">VPtoN1.postN2{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-05-05T18:51:44.047+09:00">call him/her/it/them N2</def>
+            </sense>
+            <sense xml:id="uuid-792beab1-7461-4ac0-abea-b174611ac08c" resp="#CH" tls:created="2021-05-05T19:52:11.978+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e5a75ba4-7115-453b-a75b-a47115f53b20">VPtoN.postS{INDIRECT+OBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>the situation described in S is called N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3f5351dc-e6cd-4a8c-9351-dce6cd0a8c8b" resp="#CH" tls:created="2021-05-20T01:00:24.385+09:00">
+            <form corresp="#uuid-4ac1aa08-8f19-4eca-868f-3147990cdf68 #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515 #uuid-9990c2a1-0455-4bba-8bee-9ca94b7a97ce">
+                <orth>此之謂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cǐ zhī wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjeX tsyi hjw+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsheʔ kljɯ ɢuds</pron>
+            </form>
+            <sense xml:id="uuid-719301e9-4763-4b23-9301-e94763ab23a6" resp="#CH" tls:created="2021-05-20T01:00:24.385+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-05-20T01:02:24.371+09:00">this may properly be called N; this is generally called N; this is/has been described as N</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-d5c7bf1f-ba8d-4d6f-87bf-1fba8dad6f09">
+            <form corresp="#uuid-462c4590-ed5f-4361-ab03-e6d19e9a434e">
 <orth>字</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">zì</pron>
                 <pron xml:lang="zh-x-oc">sɡlɯs</pron>
                 <pron xml:lang="zh-x-mc">dzɨ</pron>
-            </form><sense xml:id="uuid-61df36c2-fe0f-4a85-8e27-fdf79323e116">
+            </form>
+            <sense xml:id="uuid-61df36c2-fe0f-4a85-8e27-fdf79323e116">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
   <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
                 </gramGrp>
   <def>give an adult name; generally: find a name for something which exists</def>
-            </sense></entry><entry type="word" xml:id="uuid-3e6f7742-1618-4ad0-af77-4216185ad033" resp="#dsehnal" tls:created="2023-07-01T17:55:48.817+09:00"><form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181"><orth>小名</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎo míng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX mjieng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ meŋ</pron></form><sense xml:id="uuid-1a02524c-6773-4ce6-8252-4c67738ce621" resp="#dsehnal" tls:created="2023-07-01T17:55:48.817+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-09ad7864-29f1-412b-bd46-2c2354035898">VPt+N</tls:syn-func><tls:sem-feat corresp="#uuid-f660272b-230c-48b3-a027-2b230c58b315">N=Npr</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-07-01T22:24:10.107+09:00">have N as his/her child name</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3e6f7742-1618-4ad0-af77-4216185ad033" resp="#dsehnal" tls:created="2023-07-01T17:55:48.817+09:00">
+            <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-77602c86-40da-4f12-85e3-aa0b39b57181">
+                <orth>小名</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎo míng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjewX mjieng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smewʔ meŋ</pron>
+            </form>
+            <sense xml:id="uuid-1a02524c-6773-4ce6-8252-4c67738ce621" resp="#dsehnal" tls:created="2023-07-01T17:55:48.817+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-09ad7864-29f1-412b-bd46-2c2354035898">VPt+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f660272b-230c-48b3-a027-2b230c58b315">N=Npr</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-07-01T22:24:10.107+09:00">have N as his/her child name</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-afef0495-05ea-4377-b526-822dd509173c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-afef0495-05ea-4377-b526-822dd509173c">
 <head>ACCOMPANY</head>
     <list type="altnames">
 <item>TRAVEL WITH</item>
@@ -14,7 +15,10 @@
     </list>
 <div type="definition">
 <p>FOLLOW AND be TOGETHER with, TYPICALLY so as to SERVE.</p>
-    <div type="definition" resp="#CH" modified="2022-07-20T19:00:38.303+09:00"><p>FOLLOW AND be TOGETHER with, TYPICALLY so as to SERVE or HELP.</p></div></div>
+    <div type="definition" resp="#CH" modified="2022-07-20T19:00:38.303+09:00">
+            <p>FOLLOW AND be TOGETHER with, TYPICALLY so as to SERVE or HELP.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ASCENDING/DESCENDING]</p>
@@ -201,7 +205,14 @@
                 </gramGrp>
   <def>to serve (somebody N2) at (a meal N1) 侍食於君</def>
             </sense>
-<sense xml:id="uuid-79df9a65-1338-41a5-9f9a-651338e1a5e0" resp="#wilke" tls:created="2022-09-15T18:23:38.638+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>as a servant: attend on (a contextually determinate person); be present and serve at (a contextually determinate place)</def></sense></entry>
+<sense xml:id="uuid-79df9a65-1338-41a5-9f9a-651338e1a5e0" resp="#wilke" tls:created="2022-09-15T18:23:38.638+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>as a servant: attend on (a contextually determinate person); be present and serve at (a contextually determinate place)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d1ccc373-cc7c-4a76-9365-425f41143681">
             <form corresp="#uuid-5af8376c-5497-4897-97e0-9e5dcbc1cfc3">
 <orth>偕</orth>
@@ -407,7 +418,23 @@
                 </gramGrp>
   <def>accompany a person upon departure</def>
             </sense>
-<sense xml:id="uuid-42680636-6515-4644-a806-366515a64450" resp="#dsehnal" tls:created="2020-05-11T17:28:34.863+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat></gramGrp><def>accompany N to V</def></sense><sense xml:id="uuid-2e0ead77-efbd-4639-8ead-77efbd563973" resp="#zadrapa" tls:created="2020-12-19T01:45:39.678+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>accompany (i.e. one's words with something)</def></sense></entry>
+<sense xml:id="uuid-42680636-6515-4644-a806-366515a64450" resp="#dsehnal" tls:created="2020-05-11T17:28:34.863+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cdc662a3-e2c9-4d1a-b58e-6442c74ee003">pivot</tls:sem-feat>
+                </gramGrp>
+                <def>accompany N to V</def>
+            </sense>
+            <sense xml:id="uuid-2e0ead77-efbd-4639-8ead-77efbd563973" resp="#zadrapa" tls:created="2020-12-19T01:45:39.678+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>accompany (i.e. one's words with something)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-872b114b-fcf2-4126-8342-63e29f25dd8d">
             <form corresp="#uuid-5cb22f82-ee9f-430d-90fe-cd7e56c5661c">
 <orth>配</orth>
@@ -532,7 +559,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-afd2aa72-fbf9-4c83-a301-a0d75c1887f4">
-            <form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144"><orth>將</orth><pron xml:lang="zh-Latn-x-pinyin">jiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ</pron></form>
+            <form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144">
+                <orth>將</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ</pron>
+            </form>
 <sense xml:id="uuid-87d5c7ca-7318-4e15-8584-f0473fe30cf4">
 <gramGrp>
                     <pos>V</pos>
@@ -556,5 +588,27 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9a1d710f-7089-4de5-ac5b-9f76bbf1113e" resp="#chris" tls:created="2019-10-16T08:54:04.333+09:00"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c"><orth>以</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ</pron></form><sense xml:id="uuid-89d3dffc-be3a-4b4f-ae81-3a539b1335c5" resp="#chris" tls:created="2019-10-16T08:54:04.333+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func></gramGrp><def>to accompany somebody</def></sense><sense xml:id="uuid-dcb60048-6272-4968-be2a-1d2e14d2c594" resp="#CH" tls:created="2019-10-16T15:49:49.972+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-04-29T23:13:32.295+09:00">＝與 e.g. 行役以婦人 "when travelling on service he is with his wife": be in the company of, have the company of</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9a1d710f-7089-4de5-ac5b-9f76bbf1113e" resp="#chris" tls:created="2019-10-16T08:54:04.333+09:00">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+                <orth>以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-89d3dffc-be3a-4b4f-ae81-3a539b1335c5" resp="#chris" tls:created="2019-10-16T08:54:04.333+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                </gramGrp>
+                <def>to accompany somebody</def>
+            </sense>
+            <sense xml:id="uuid-dcb60048-6272-4968-be2a-1d2e14d2c594" resp="#CH" tls:created="2019-10-16T15:49:49.972+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-29T23:13:32.295+09:00">＝與 e.g. 行役以婦人 "when travelling on service he is with his wife": be in the company of, have the company of</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-07849c40-9af8-4740-ba37-5b5bc4653f06">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-07849c40-9af8-4740-ba37-5b5bc4653f06">
 <head>SKILLFUL</head>
     <list type="altnames">
 <item>CLEVER</item>
@@ -37,7 +38,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:35:37.548+09:00">ABLE to ACT:do something BECAUSE one has LEARNT NECESSARY METHODS. </p></div>
+    <p resp="#CH" modified="2021-03-18T18:35:37.548+09:00">ABLE to ACT:do something BECAUSE one has LEARNT NECESSARY METHODS. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The standard word for skilfulness is qiǎo 巧 (ant. zhuó 拙 "inept").</p>
@@ -433,7 +435,15 @@
                 </gramGrp>
   <def>be skilful with regard to</def>
             </sense>
-<sense xml:id="uuid-389cf288-0991-41fd-9cf2-88099161fd97" resp="#CH" tls:created="2020-02-12T21:22:01.804+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-0afaf3e3-1928-4000-a3b5-5268309adb0d">subject=nonhuman</tls:sem-feat></gramGrp><def>skillful</def></sense></entry>
+<sense xml:id="uuid-389cf288-0991-41fd-9cf2-88099161fd97" resp="#CH" tls:created="2020-02-12T21:22:01.804+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0afaf3e3-1928-4000-a3b5-5268309adb0d">subject=nonhuman</tls:sem-feat>
+                </gramGrp>
+                <def>skillful</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5e03add-1c72-4a29-b7c9-660e66037470">
             <form corresp="#uuid-c112cac1-2e6e-448c-bdb2-af0c5ef2ff61">
 <orth>技</orth>
@@ -608,5 +618,20 @@
   <def>expert of N 草聖 "expert in plants"</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-04feb07b-30aa-4a80-beb0-7b30aa6a8032" resp="#CH" tls:created="2021-06-14T22:24:16.176+09:00"><form corresp="#uuid-d6b13819-de02-4a7c-ac5c-4c8d3ac73c67 #uuid-603e234e-491b-4c42-8070-264e690614f4"><orth>敏給</orth><pron xml:lang="zh-Latn-x-pinyin">mǐn jǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- kip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mrɯŋʔ krub</pron></form><sense xml:id="uuid-187d68a0-9555-4112-bd68-a09555e1125a" resp="#CH" tls:created="2021-06-14T22:24:16.176+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>with consummate skill</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-04feb07b-30aa-4a80-beb0-7b30aa6a8032" resp="#CH" tls:created="2021-06-14T22:24:16.176+09:00">
+            <form corresp="#uuid-d6b13819-de02-4a7c-ac5c-4c8d3ac73c67 #uuid-603e234e-491b-4c42-8070-264e690614f4">
+                <orth>敏給</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mǐn jǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- kip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mrɯŋʔ krub</pron>
+            </form>
+            <sense xml:id="uuid-187d68a0-9555-4112-bd68-a09555e1125a" resp="#CH" tls:created="2021-06-14T22:24:16.176+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>with consummate skill</def>
+            </sense>
+        </entry>
+    </div>
 </div>

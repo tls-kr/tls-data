@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2411769c-6c72-498d-b053-45423830dcf6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2411769c-6c72-498d-b053-45423830dcf6">
 <head>WEIGHT MEASURES</head>
     <list type="translations">
         <item xml:lang="zh">重量單位</item>
@@ -116,7 +117,12 @@
             </form>
 </entry>
 <entry type="word" xml:id="uuid-ce058f95-e37e-4093-beb6-8203d146adc5">
-            <form corresp="#uuid-7db6961f-d8ec-4ce9-b696-1fd8ec2ce9fe"><orth>石</orth><pron xml:lang="zh-Latn-x-pinyin">dàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-7db6961f-d8ec-4ce9-b696-1fd8ec2ce9fe">
+                <orth>石</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-786f459c-4b32-4c5d-a9fa-544ec11cc562">
 <gramGrp>
                     <pos>N</pos>
@@ -125,7 +131,21 @@
                 </gramGrp>
   <def>one stone (measure of weight) equivalent to one 斛 "bushel" or ten 斗 "dippers" of rice etc. [anciently not necessarily dan4]</def>
             </sense>
-<sense xml:id="uuid-75fa6f7b-2c6a-42a6-ba6f-7b2c6ad2a632" resp="#dsehnal" tls:created="2023-07-16T01:40:14.698+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6a4ae126-bba4-4d7c-8121-8c983957f7ea">npost-V{NUM}.adN</tls:syn-func></gramGrp><def>NUM dàns of N</def></sense><sense xml:id="uuid-1ccc5d88-0628-469f-8c5d-880628c69feb" resp="#dsehnal" tls:created="2023-11-26T22:46:07.221+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6477fa54-dc24-4c80-b58b-63ec618bfc44">npost-V{NUM}.postadN</tls:syn-func></gramGrp><def>NUM "stones" of N</def></sense></entry>
+<sense xml:id="uuid-75fa6f7b-2c6a-42a6-ba6f-7b2c6ad2a632" resp="#dsehnal" tls:created="2023-07-16T01:40:14.698+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6a4ae126-bba4-4d7c-8121-8c983957f7ea">npost-V{NUM}.adN</tls:syn-func>
+                </gramGrp>
+                <def>NUM dàns of N</def>
+            </sense>
+            <sense xml:id="uuid-1ccc5d88-0628-469f-8c5d-880628c69feb" resp="#dsehnal" tls:created="2023-11-26T22:46:07.221+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6477fa54-dc24-4c80-b58b-63ec618bfc44">npost-V{NUM}.postadN</tls:syn-func>
+                </gramGrp>
+                <def>NUM "stones" of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-240060fa-a7d6-4ff7-a015-3eadab7e64b3">
             <form corresp="#uuid-21219b72-6e9d-466c-b204-246d19a4ca89">
 <orth>釜</orth>
@@ -157,7 +177,14 @@
                 </gramGrp>
   <def>measure word: 30 jīn 斤 of weight</def>
             </sense>
-<sense xml:id="uuid-3be77aae-465a-4dc7-a77a-ae465addc732" resp="#dsehnal" tls:created="2023-05-13T15:09:24.436+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bc100ea1-3a92-41fa-bd30-a40f6b3d37f2">ncpost-V{NUM}.adN</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-05-13T15:15:30.001+09:00">N having V jūn of weight</def></sense></entry>
+<sense xml:id="uuid-3be77aae-465a-4dc7-a77a-ae465addc732" resp="#dsehnal" tls:created="2023-05-13T15:09:24.436+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bc100ea1-3a92-41fa-bd30-a40f6b3d37f2">ncpost-V{NUM}.adN</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-05-13T15:15:30.001+09:00">N having V jūn of weight</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-830b06fd-a1a9-4150-8d53-1f87b7e14b87">
             <form corresp="#uuid-76aef6c2-de89-4610-b9fb-e7eeefe60579">
 <orth>銖</orth>
@@ -173,7 +200,14 @@
                 </gramGrp>
   <def>???? GET THE DETAILS</def>
             </sense>
-<sense xml:id="uuid-6e7b82d4-6c82-44fa-bb82-d46c8234fae3" resp="#dsehnal" tls:created="2024-01-29T23:32:03.636+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func></gramGrp><def>weight measure: 1/24 of one 兩</def></sense></entry>
+<sense xml:id="uuid-6e7b82d4-6c82-44fa-bb82-d46c8234fae3" resp="#dsehnal" tls:created="2024-01-29T23:32:03.636+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func>
+                </gramGrp>
+                <def>weight measure: 1/24 of one 兩</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-680aa9cc-1689-4943-9639-dbc67dbffa72">
             <form corresp="#uuid-747bf23e-9236-4c6d-a181-34a68acd7c5e">
 <orth>錘</orth>
@@ -229,7 +263,14 @@
                 </gramGrp>
   <def>measure of weight: so-and-so many yì (tael) of the contextually determinate N</def>
             </sense>
-<sense xml:id="uuid-9531f840-a6cf-45b6-b1f8-40a6cf65b6e4" resp="#dsehnal" tls:created="2024-01-28T23:47:25.377+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2024-01-29T23:33:04.346+09:00">weight measure: one yì (tael) = 24 兩</def></sense></entry>
+<sense xml:id="uuid-9531f840-a6cf-45b6-b1f8-40a6cf65b6e4" resp="#dsehnal" tls:created="2024-01-28T23:47:25.377+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2024-01-29T23:33:04.346+09:00">weight measure: one yì (tael) = 24 兩</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bcb3ced5-f5dc-4762-b2d4-c1010496d6e7">
             <form corresp="#uuid-efa1ff89-1a79-4b71-bca9-9da3be80c64d">
 <orth>鏂</orth>
@@ -245,5 +286,28 @@
   <def>weight measure</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-6fcc472d-1464-4a66-bbca-c48c3f4f7e54" resp="#CH" tls:created="2020-02-09T19:36:12.617+09:00"><form corresp="#uuid-484b14c6-cb8b-4adf-8866-81fca7aaa8c2 #uuid-76aef6c2-de89-4610-b9fb-e7eeefe60579"><orth>錙銖</orth><pron xml:lang="zh-Latn-x-pinyin">zī zhū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsri dzyu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsrɯ djo</pron></form><sense xml:id="uuid-8dbf5ba6-7d8d-4801-888f-1d459814e3db" resp="#CH" tls:created="2020-02-09T19:36:12.617+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>smallest unit: milligram</def></sense><sense xml:id="uuid-99ab181b-e5e2-4e33-a46f-3138e5a75830" resp="#CH" tls:created="2020-02-09T19:39:37.084+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary: finest measure of literary weight and excellence</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-6fcc472d-1464-4a66-bbca-c48c3f4f7e54" resp="#CH" tls:created="2020-02-09T19:36:12.617+09:00">
+            <form corresp="#uuid-484b14c6-cb8b-4adf-8866-81fca7aaa8c2 #uuid-76aef6c2-de89-4610-b9fb-e7eeefe60579">
+                <orth>錙銖</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zī zhū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsri dzyu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsrɯ djo</pron>
+            </form>
+            <sense xml:id="uuid-8dbf5ba6-7d8d-4801-888f-1d459814e3db" resp="#CH" tls:created="2020-02-09T19:36:12.617+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>smallest unit: milligram</def>
+            </sense>
+            <sense xml:id="uuid-99ab181b-e5e2-4e33-a46f-3138e5a75830" resp="#CH" tls:created="2020-02-09T19:39:37.084+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary: finest measure of literary weight and excellence</def>
+            </sense>
+        </entry>
+    </div>
 </div>

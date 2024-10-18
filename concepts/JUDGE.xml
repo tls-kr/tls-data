@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-61e8b386-a6ae-4eff-8bd7-b714a35b5aa8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-61e8b386-a6ae-4eff-8bd7-b714a35b5aa8">
 <head>JUDGE</head>
     <list type="altnames">
 <item>ADJUDGE</item>
@@ -20,7 +21,10 @@
     </list>
 <div type="definition">
 <p>DECIDE, as HAVING AUTHORITY, whether someone is GUILTY OR INNOCENT, OR whether an ACCUSATION OR SENTENCE:statement is TRUE OR FALSE.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:38:18.064+09:00"><p>DECIDE IN-RELATION-TO the FACTS</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:38:18.064+09:00">
+            <p>DECIDE IN-RELATION-TO the FACTS</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general legal term for passing judgement is lùn 論.</p>
@@ -294,7 +298,14 @@
                 </gramGrp>
   <def>determine the merits of a case put forward; pass the final judgment</def>
             </sense>
-<sense xml:id="uuid-48ea2cd8-8338-4b29-aa2c-d88338fb2997" resp="#dsehnal" tls:created="2023-07-08T19:32:50.684+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>make a judgement in the sense of S</def></sense></entry>
+<sense xml:id="uuid-48ea2cd8-8338-4b29-aa2c-d88338fb2997" resp="#dsehnal" tls:created="2023-07-08T19:32:50.684+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>make a judgement in the sense of S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4c81e1c4-b425-42f7-8f37-e7012d732ae7">
             <form corresp="#uuid-7ab3e826-29ba-45be-8d0c-4d4619938591">
 <orth>理</orth>
@@ -476,5 +487,36 @@
   <def>pass judgement on; sentence; deal with legally</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f237000c-c38a-4409-b700-0cc38a34098a" resp="#zadrapa" tls:created="2020-05-31T05:02:47.559+09:00"><form corresp="#uuid-4099ae98-eafb-492c-976b-92e725ce4b02"><orth>義</orth><pron xml:lang="zh-Latn-x-pinyin">yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋrals</pron></form><sense xml:id="uuid-c9fc6802-387b-49ca-bc68-02387bc9ca8e" resp="#zadrapa" tls:created="2020-05-31T05:02:47.559+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>= yi4 議: publicly judge others</def></sense></entry><entry type="word" xml:id="uuid-0ee1b685-357a-4102-a1b6-85357a1102fc" resp="#dsehnal" tls:created="2023-06-01T02:20:09.596+09:00"><form corresp="#uuid-e30b3ab9-d16b-4e05-9a31-ab88030ad3c1"><orth>譴</orth><pron xml:lang="zh-Latn-x-pinyin">qiǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjienH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khens</pron></form><sense xml:id="uuid-2d904883-a745-40af-9048-83a74570afc0" resp="#dsehnal" tls:created="2023-06-01T02:20:09.596+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be sentenced to the penalty N2</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f237000c-c38a-4409-b700-0cc38a34098a" resp="#zadrapa" tls:created="2020-05-31T05:02:47.559+09:00">
+            <form corresp="#uuid-4099ae98-eafb-492c-976b-92e725ce4b02">
+                <orth>義</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋrals</pron>
+            </form>
+            <sense xml:id="uuid-c9fc6802-387b-49ca-bc68-02387bc9ca8e" resp="#zadrapa" tls:created="2020-05-31T05:02:47.559+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>= yi4 議: publicly judge others</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0ee1b685-357a-4102-a1b6-85357a1102fc" resp="#dsehnal" tls:created="2023-06-01T02:20:09.596+09:00">
+            <form corresp="#uuid-e30b3ab9-d16b-4e05-9a31-ab88030ad3c1">
+                <orth>譴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjienH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khens</pron>
+            </form>
+            <sense xml:id="uuid-2d904883-a745-40af-9048-83a74570afc0" resp="#dsehnal" tls:created="2023-06-01T02:20:09.596+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be sentenced to the penalty N2</def>
+            </sense>
+        </entry>
+    </div>
 </div>

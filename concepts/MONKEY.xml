@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9fdeee3d-964a-4dd5-af0d-6776da94afa9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9fdeee3d-964a-4dd5-af0d-6776da94afa9">
 <head>MONKEY</head>
     <list type="altnames">
 <item>SIMIAN</item>
@@ -150,7 +151,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-06-14T22:11:43.29+09:00">kind of monkey, ju-monkey</def>
             </sense>
-<sense xml:id="uuid-3393be96-5129-47e9-93be-965129e7e9ab" resp="#dsehnal" tls:created="2020-05-24T01:20:03.657+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def resp="#CH" updated="2021-06-14T22:12:08.648+09:00">ju-monkey's; populated by ju-monkeys; related to ju-monkeys</def></sense></entry>
+<sense xml:id="uuid-3393be96-5129-47e9-93be-965129e7e9ab" resp="#dsehnal" tls:created="2020-05-24T01:20:03.657+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-14T22:12:08.648+09:00">ju-monkey's; populated by ju-monkeys; related to ju-monkeys</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8a31995b-5382-427d-a3bf-844f2dbeff61">
             <form corresp="#uuid-7e734af0-c394-46ec-aea6-5724caba7818">
 <orth>狖</orth>
@@ -456,11 +464,71 @@
   <def>monkey, taller than but similar to the 猿</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-af2dd6bc-1234-46df-a8d4-99c984afc529" resp="#CH" tls:created="2019-10-13T03:33:37.357+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-b5d2c6c0-11e8-47fd-85ad-f8c53467f122" resp="#CH" tls:created="2019-10-13T03:33:37.357+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>monkey</def></sense></entry><entry type="word" xml:id="uuid-cd4eba40-a651-45c6-9ea7-72fc8ed5d372" resp="#CH" tls:created="2019-10-13T03:33:59.515+09:00"><form corresp="#uuid-2bb31778-e8d5-474e-8283-776a10f2ffbc #uuid-2bb31778-e8d5-474e-8283-776a10f2ffbc"><orth>猩猩</orth><pron xml:lang="zh-Latn-x-pinyin">xīng
+    <entry type="word" xml:id="uuid-af2dd6bc-1234-46df-a8d4-99c984afc529" resp="#CH" tls:created="2019-10-13T03:33:37.357+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-b5d2c6c0-11e8-47fd-85ad-f8c53467f122" resp="#CH" tls:created="2019-10-13T03:33:37.357+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>monkey</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cd4eba40-a651-45c6-9ea7-72fc8ed5d372" resp="#CH" tls:created="2019-10-13T03:33:59.515+09:00">
+            <form corresp="#uuid-2bb31778-e8d5-474e-8283-776a10f2ffbc #uuid-2bb31778-e8d5-474e-8283-776a10f2ffbc">
+                <orth>猩猩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīng
  xīng
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">seng
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">seng
  seng
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">seeŋ
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">seeŋ
  seeŋ
-</pron></form><sense xml:id="uuid-318e8a6d-c524-425c-bf20-05605a0b384b" resp="#CH" tls:created="2019-10-13T03:33:59.515+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>monkey</def></sense></entry><entry type="word" xml:id="uuid-b73fd085-8cf1-4d25-bfd0-858cf1cd254a" resp="#zadrapa" tls:created="2020-12-12T23:38:41.598+09:00"><form corresp="#uuid-1d4f8c70-37c6-462e-98d8-195470dd82db #uuid-1d4f8c70-37c6-462e-98d8-195470dd82db"><orth>狌狌</orth><pron xml:lang="zh-Latn-x-pinyin">shēng shēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sraeng sraeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraaŋ sraaŋ</pron></form><sense xml:id="uuid-d4c4dd5f-7ba6-4187-84dd-5f7ba6e1876e" resp="#zadrapa" tls:created="2020-12-12T23:38:41.598+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>some kind of apem, if not a mytical animal (the interpretation is not unanimous and relates to a textological problem) (XUN)</def></sense></entry><entry type="word" xml:id="uuid-365e5805-6be3-4ff1-9e58-056be36ff1da" resp="#CH" tls:created="2021-02-07T19:11:36.9+09:00"><form corresp="#uuid-ad9dc62b-d7f3-4972-8681-eb3de9947a7d"><orth>猵</orth><pron xml:lang="zh-Latn-x-pinyin">biān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">peen</pron></form><sense xml:id="uuid-b087c06d-fdff-41c0-87c0-6dfdff21c065" resp="#CH" tls:created="2021-02-07T19:11:36.9+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>monkey of the 獺 sort</def></sense></entry></div>
+</pron>
+            </form>
+            <sense xml:id="uuid-318e8a6d-c524-425c-bf20-05605a0b384b" resp="#CH" tls:created="2019-10-13T03:33:59.515+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>monkey</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b73fd085-8cf1-4d25-bfd0-858cf1cd254a" resp="#zadrapa" tls:created="2020-12-12T23:38:41.598+09:00">
+            <form corresp="#uuid-1d4f8c70-37c6-462e-98d8-195470dd82db #uuid-1d4f8c70-37c6-462e-98d8-195470dd82db">
+                <orth>狌狌</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēng shēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sraeng sraeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sraaŋ sraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-d4c4dd5f-7ba6-4187-84dd-5f7ba6e1876e" resp="#zadrapa" tls:created="2020-12-12T23:38:41.598+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>some kind of apem, if not a mytical animal (the interpretation is not unanimous and relates to a textological problem) (XUN)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-365e5805-6be3-4ff1-9e58-056be36ff1da" resp="#CH" tls:created="2021-02-07T19:11:36.9+09:00">
+            <form corresp="#uuid-ad9dc62b-d7f3-4972-8681-eb3de9947a7d">
+                <orth>猵</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">peen</pron>
+            </form>
+            <sense xml:id="uuid-b087c06d-fdff-41c0-87c0-6dfdff21c065" resp="#CH" tls:created="2021-02-07T19:11:36.9+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>monkey of the 獺 sort</def>
+            </sense>
+        </entry>
+    </div>
 </div>

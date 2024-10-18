@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-727cb160-39f8-4e04-a9ae-12350cccc8f8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-727cb160-39f8-4e04-a9ae-12350cccc8f8">
 <head>SUFFIX</head>
     <list type="translations">
         <item xml:lang="zh">詞綴</item>
@@ -256,7 +257,14 @@
                 </gramGrp>
   <def resp="#wilke" updated="2020-07-02T03:50:56.134+09:00">works like rán 然: postposed adverb marker</def>
             </sense>
-<sense xml:id="uuid-aa1880db-b302-4d47-9880-dbb3026d47d2" resp="#CH" tls:created="2020-04-26T19:20:45.493+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func></gramGrp><def>intensitive verbal suffix</def></sense></entry>
+<sense xml:id="uuid-aa1880db-b302-4d47-9880-dbb3026d47d2" resp="#CH" tls:created="2020-04-26T19:20:45.493+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
+                </gramGrp>
+                <def>intensitive verbal suffix</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c8e5e4ff-e98c-4b0e-b672-73c9e131efdb">
             <form corresp="#uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
 <orth>然</orth>
@@ -367,44 +375,55 @@
   <def>adverbial suffix</def>
             </sense>
 </entry>
-    <entry xml:id="uuid-9822994d-9c70-4b59-a299-4d9c70cb59f1"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33">
+    <entry xml:id="uuid-9822994d-9c70-4b59-a299-4d9c70cb59f1">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33">
 <orth>自</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">zì</pron>
                 <pron xml:lang="zh-x-oc">sblids</pron>
                 <pron xml:lang="zh-x-mc">dzi</pron>
-            </form><sense xml:id="uuid-ef65d203-3cbe-4fb1-98f9-c37a43532a79">
+            </form>
+            <sense xml:id="uuid-ef65d203-3cbe-4fb1-98f9-c37a43532a79">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
   <tls:sem-feat corresp="#uuid-b7202919-801b-4e6a-8a0e-4bbf3755324c">suffix</tls:sem-feat>
                 </gramGrp>
   <def>suffix after adverbs</def>
-            </sense></entry><entry xml:id="uuid-2ccf88c3-633e-4153-8f88-c3633e5153ca"><form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-2ccf88c3-633e-4153-8f88-c3633e5153ca">
+            <form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e">
 <orth>地</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">dì</pron>
                 <pron xml:lang="zh-x-oc">lils</pron>
                 <pron xml:lang="zh-x-mc">di</pron>
-            </form><sense xml:id="uuid-e8d495c3-1c9f-4b66-b806-bd540ba9d9c4">
+            </form>
+            <sense xml:id="uuid-e8d495c3-1c9f-4b66-b806-bd540ba9d9c4">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-97f66b45-329f-413f-a60c-848681d456aa">ppostadV1.adV2</tls:syn-func>
   <tls:sem-feat corresp="#uuid-035572d0-d3a0-4cab-be07-69d4ceb9ca25">V1=reduplicated</tls:sem-feat>
                 </gramGrp>
   <def>suffix after reduplicated adverbs</def>
-            </sense><sense xml:id="uuid-82653431-aee7-43af-bd6b-badca8ec5258">
+            </sense>
+            <sense xml:id="uuid-82653431-aee7-43af-bd6b-badca8ec5258">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
   <tls:sem-feat corresp="#uuid-1f824140-f0b0-43bf-a10b-b2c686121560">V=reduplicated</tls:sem-feat>
                 </gramGrp>
   <def>suffix after reduplicated stative verbs</def>
-            </sense><sense xml:id="uuid-9618daf1-72e0-4f1e-9476-5e7a9bf143fb">
+            </sense>
+            <sense xml:id="uuid-9618daf1-72e0-4f1e-9476-5e7a9bf143fb">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
                 </gramGrp>
   <def>suffix after stative verbs and adverbs</def>
-            </sense></entry><entry xml:id="uuid-d62418c7-0942-404b-a418-c70942b04b7c"><form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-d62418c7-0942-404b-a418-c70942b04b7c">
+            <form corresp="#uuid-cea102cd-f4c1-4145-8afa-fcbd88ec12f1">
 <orth>許</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">xǔ</pron>
                 <pron xml:lang="zh-x-oc">hŋaʔ</pron>
@@ -419,13 +438,17 @@
                         </note>
                     </bibl>
                 </listBibl>
-            </form><sense xml:id="uuid-f848f719-4ee7-4a5b-ba3f-484cafef4038">
+            </form>
+            <sense xml:id="uuid-f848f719-4ee7-4a5b-ba3f-484cafef4038">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
                 </gramGrp>
   <def>vernacular verbal suffix (similar in function to suffixes 生 and 馨)</def>
-            </sense></entry><entry xml:id="uuid-654242e6-aa01-4831-8242-e6aa01d831b9"><form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-654242e6-aa01-4831-8242-e6aa01d831b9">
+            <form corresp="#uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
 <orth>當</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">dāng</pron>
                 <pron xml:lang="zh-x-oc">taaŋ</pron>
@@ -448,22 +471,29 @@
                         </note>
                     </bibl>
                 </listBibl>
-            </form><sense xml:id="uuid-8d7e391d-e41c-48f4-be6a-b0375f7ec4f5">
+            </form>
+            <sense xml:id="uuid-8d7e391d-e41c-48f4-be6a-b0375f7ec4f5">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
                 </gramGrp>
   <def>verbal suffix (probably used for disyllabication); sometimes categorized as 'structure word' (結構詞) without any meaning, or as suffix/complement/ auxiliary similar to 著); e.g. 記當, 問當 (BIANWEN);  in Tang texts 當 can also be added to copula 為, however, the resulting 為當 is restricted in its function to marking alternative questions</def>
-            </sense></entry><entry xml:id="uuid-af7ce569-eb64-49c1-bce5-69eb64d9c141"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-af7ce569-eb64-49c1-bce5-69eb64d9c141">
+            <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
 <orth>取</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">qǔ</pron>
                 <pron xml:lang="zh-x-oc">skhoʔ</pron>
                 <pron xml:lang="zh-x-mc">tshi̯o</pron>
-            </form><sense xml:id="uuid-dc28aacf-b7b2-4e4f-8de9-fd08c41dd552">
+            </form>
+            <sense xml:id="uuid-dc28aacf-b7b2-4e4f-8de9-fd08c41dd552">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-6bcabe16-89d8-45be-aa0b-57177f67b1f9">vpostadV</tls:syn-func>
                 </gramGrp>
   <def>to a complete degree, finishing the action V [MOVE TO WEAK SUFFIXES!]</def>
-            </sense></entry></div>
+            </sense>
+        </entry>
+    </div>
 </div>

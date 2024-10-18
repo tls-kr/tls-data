@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7dc4196a-d4e9-48ab-9f3a-3cec77f2b637">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7dc4196a-d4e9-48ab-9f3a-3cec77f2b637">
 <head>ARCHERY</head>
     <list type="translations">
         <item xml:lang="zh">箭術</item>
@@ -112,7 +113,15 @@
                 </gramGrp>
   <def>archer</def>
             </sense>
-<sense xml:id="uuid-f7fcf17d-e057-4e1d-bcf1-7de057ae1d45" resp="#CH" tls:created="2022-12-01T03:32:14.103+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>the ritual art of archery</def></sense></entry>
+<sense xml:id="uuid-f7fcf17d-e057-4e1d-bcf1-7de057ae1d45" resp="#CH" tls:created="2022-12-01T03:32:14.103+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>the ritual art of archery</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d8624569-71e1-4ad3-81c5-3ff758192895">
             <form corresp="#uuid-0201915e-97df-49c1-9903-9dcfbef59832">
 <orth>弋</orth>
@@ -269,5 +278,20 @@
   <def>pull a bow so see how flexible it is</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-cb89bc1b-6a32-42a7-89bc-1b6a3222a7b0" resp="#CH" tls:created="2023-11-06T12:19:40.516+09:00"><form corresp="#uuid-d079f40d-bb61-4ea8-91ea-1d5ddc070a8c #uuid-638f5102-6260-4085-891d-9864102bc27c"><orth>射者</orth><pron xml:lang="zh-Latn-x-pinyin">shè zhě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zyaeH tsyaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢljaɡs kljaʔ</pron></form><sense xml:id="uuid-e0acb5ad-7aad-485d-acb5-ad7aad085df3" resp="#CH" tls:created="2023-11-06T12:19:40.516+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>archer, specialist in archery</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-cb89bc1b-6a32-42a7-89bc-1b6a3222a7b0" resp="#CH" tls:created="2023-11-06T12:19:40.516+09:00">
+            <form corresp="#uuid-d079f40d-bb61-4ea8-91ea-1d5ddc070a8c #uuid-638f5102-6260-4085-891d-9864102bc27c">
+                <orth>射者</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shè zhě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zyaeH tsyaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢljaɡs kljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-e0acb5ad-7aad-485d-acb5-ad7aad085df3" resp="#CH" tls:created="2023-11-06T12:19:40.516+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>archer, specialist in archery</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7e9d0c54-d1a9-4c11-9ba1-3ec882fbd1c1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7e9d0c54-d1a9-4c11-9ba1-3ec882fbd1c1">
 <head>INVITE</head>
     <list type="altnames">
 <item>ASK</item>
@@ -236,7 +237,14 @@
                 </gramGrp>
   <def>be politely employed on a formal mission</def>
             </sense>
-<sense xml:id="uuid-9c87e535-cf13-404e-b63b-72e87322af7f" resp="#CH" tls:created="2019-11-17T01:02:23.772+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>invitation</def></sense></entry>
+<sense xml:id="uuid-9c87e535-cf13-404e-b63b-72e87322af7f" resp="#CH" tls:created="2019-11-17T01:02:23.772+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>invitation</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b1a7f707-1655-4831-936f-1ce9e8aee4c8">
             <form corresp="#uuid-770a409a-3af2-4f16-9c16-09a9714a11cd">
 <orth>要</orth>
@@ -296,7 +304,22 @@
                 </gramGrp>
   <def>invite politely, invite politely to join one</def>
             </sense>
-<sense xml:id="uuid-b336bc94-18d1-4148-a95c-1575fabc212c" resp="#CH" tls:created="2019-10-17T21:02:57.232+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-8247b91f-96e1-420b-91db-861ac6c3e5e2">vt(oN.) V</tls:syn-func></gramGrp><def/></sense><sense xml:id="uuid-62de9679-7438-4a10-9e96-797438ea1072" resp="#CH" tls:created="2022-05-30T00:36:29.567+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4c6745f-42fa-4d4c-9fe9-87da47aac2af">vtoN.+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp><def>invite N to V</def></sense></entry>
+<sense xml:id="uuid-b336bc94-18d1-4148-a95c-1575fabc212c" resp="#CH" tls:created="2019-10-17T21:02:57.232+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-8247b91f-96e1-420b-91db-861ac6c3e5e2">vt(oN.) V</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+            <sense xml:id="uuid-62de9679-7438-4a10-9e96-797438ea1072" resp="#CH" tls:created="2022-05-30T00:36:29.567+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4c6745f-42fa-4d4c-9fe9-87da47aac2af">vtoN.+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>invite N to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-024f8a28-d30f-4923-9a40-bf2905e6a669">
             <form corresp="#uuid-a8cead21-399f-4843-9da6-0cb0b1eed08b">
 <orth>速</orth>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3da609fc-7f81-4e7a-a471-3354c9c25ec0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3da609fc-7f81-4e7a-a471-3354c9c25ec0">
 <head>PRISONER</head>
     <list type="altnames">
 <item>CONVICT</item>
@@ -234,7 +235,14 @@
                 </gramGrp>
   <def>as a prisoner</def>
             </sense>
-<sense xml:id="uuid-7ae3ca92-b55f-43f5-98b6-14e2ad5f51b9" resp="#CH" tls:created="2020-01-23T06:04:45.065+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func></gramGrp><def>be a prisoner of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-7ae3ca92-b55f-43f5-98b6-14e2ad5f51b9" resp="#CH" tls:created="2020-01-23T06:04:45.065+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n(post-N){PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be a prisoner of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6b24521e-5bdf-40ae-875a-bc9b1a46cc6b">
             <form corresp="#uuid-c875981b-9f25-4be1-81cc-f5e34e7998e4 #uuid-107af514-3922-430a-bf56-a9f2648f62a5">
 <orth>胥靡</orth>
@@ -250,7 +258,15 @@
                 </gramGrp>
   <def>person guilty of a crime; criminal prisoner</def>
             </sense>
-<sense xml:id="uuid-4bda65db-5165-4394-9a65-db5165e39430" resp="#CH" tls:created="2021-06-17T22:37:10.102+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>fettered convict working force 用绳索牵连着强迫他们劳动。作囚徒解失当。</def></sense></entry>
+<sense xml:id="uuid-4bda65db-5165-4394-9a65-db5165e39430" resp="#CH" tls:created="2021-06-17T22:37:10.102+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>fettered convict working force 用绳索牵连着强迫他们劳动。作囚徒解失当。</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d868299b-9f42-49ff-a0bb-2f236b9b7f69">
             <form corresp="#uuid-99ded5fd-627f-48cc-9764-8a1fe3728f61 #uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-61255a76-e4be-41f8-8081-9985634e02da">
 <orth>執而囚</orth>
@@ -281,5 +297,20 @@
   <def>(not necessarily enslaved) prisoner</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-72a6717e-e7e3-474c-a671-7ee7e3074c82" resp="#CH" tls:created="2021-03-10T21:02:37.042+09:00"><form corresp="#uuid-f9b3610d-d33e-464a-ae16-c62a614b6bc2 #uuid-535c6912-c851-4760-b089-f1368f51a9af"><orth>桁楊</orth><pron xml:lang="zh-Latn-x-pinyin">háng yáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hang yang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaaŋ k-laŋ</pron></form><sense xml:id="uuid-e440d0d4-18b2-4f53-80d0-d418b28f5384" resp="#CH" tls:created="2021-03-10T21:02:37.042+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>convicts bearing a cangue round their necks</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-72a6717e-e7e3-474c-a671-7ee7e3074c82" resp="#CH" tls:created="2021-03-10T21:02:37.042+09:00">
+            <form corresp="#uuid-f9b3610d-d33e-464a-ae16-c62a614b6bc2 #uuid-535c6912-c851-4760-b089-f1368f51a9af">
+                <orth>桁楊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">háng yáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hang yang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaaŋ k-laŋ</pron>
+            </form>
+            <sense xml:id="uuid-e440d0d4-18b2-4f53-80d0-d418b28f5384" resp="#CH" tls:created="2021-03-10T21:02:37.042+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>convicts bearing a cangue round their necks</def>
+            </sense>
+        </entry>
+    </div>
 </div>

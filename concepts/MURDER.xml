@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b9645fd1-f199-4879-9b96-f638a137c54f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b9645fd1-f199-4879-9b96-f638a137c54f">
 <head>MURDER</head>
     <list type="altnames">
 <item>KILL</item>
@@ -247,7 +248,29 @@
                 </gramGrp>
   <def>to assassinate</def>
             </sense>
-<sense xml:id="uuid-6b2378f4-1d9d-473f-a378-f41d9d673f44" resp="#CH" tls:created="2020-04-08T03:21:33.467+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>murder</def></sense><sense xml:id="uuid-1b88ac48-00f7-4597-88ac-4800f7f5972d" resp="#CH" tls:created="2020-04-08T03:47:20.183+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>assassination; attempt at assassination</def></sense><sense xml:id="uuid-96ba6675-a6e1-45e8-ba66-75a6e115e8b0" resp="#CH" tls:created="2022-08-26T00:55:10.52+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>murder rulers or superiors</def></sense></entry>
+<sense xml:id="uuid-6b2378f4-1d9d-473f-a378-f41d9d673f44" resp="#CH" tls:created="2020-04-08T03:21:33.467+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>murder</def>
+            </sense>
+            <sense xml:id="uuid-1b88ac48-00f7-4597-88ac-4800f7f5972d" resp="#CH" tls:created="2020-04-08T03:47:20.183+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>assassination; attempt at assassination</def>
+            </sense>
+            <sense xml:id="uuid-96ba6675-a6e1-45e8-ba66-75a6e115e8b0" resp="#CH" tls:created="2022-08-26T00:55:10.52+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>murder rulers or superiors</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-37685682-8ddd-45e2-820b-e1803dc02e8f">
             <form corresp="#uuid-2c417ac0-36e9-4908-a0d2-c568d00ceb43">
 <orth>戕</orth>
@@ -321,7 +344,22 @@
             </form>
             <def>The standard word for murder is the same as the general word for killing, shā 殺. See KILL
 </def>
-<sense xml:id="uuid-09b0664e-1cd5-4fd9-b066-4e1cd5dfd9b5" resp="#dsehnal" tls:created="2020-02-16T06:30:10.255+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4"/></gramGrp><def resp="#CH" updated="2021-06-30T18:02:11.301+09:00">kill somebody in an illegitimate way, assassinate</def></sense><sense xml:id="uuid-91713916-ca21-4616-b139-16ca21b616d3" resp="#dsehnal" tls:created="2023-06-08T17:50:03.654+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>murder the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-09b0664e-1cd5-4fd9-b066-4e1cd5dfd9b5" resp="#dsehnal" tls:created="2020-02-16T06:30:10.255+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4"/>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-30T18:02:11.301+09:00">kill somebody in an illegitimate way, assassinate</def>
+            </sense>
+            <sense xml:id="uuid-91713916-ca21-4616-b139-16ca21b616d3" resp="#dsehnal" tls:created="2023-06-08T17:50:03.654+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>murder the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cec1e683-751e-415a-bd56-e8e27f25ce85">
             <form corresp="#uuid-dfdd6ead-9c1c-4fc1-bab8-ab654fc26794">
 <orth>盜</orth>

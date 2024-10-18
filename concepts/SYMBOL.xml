@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-43ed7810-ef10-416c-8044-df9eade18fa0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-43ed7810-ef10-416c-8044-df9eade18fa0">
 <head>SYMBOL</head>
     <list type="altnames">
 <item>IMAGE</item>
@@ -409,7 +410,14 @@
                 </gramGrp>
   <def>symbolise the situation described in S</def>
             </sense>
-<sense xml:id="uuid-35721e05-5b45-4301-b21e-055b45230189" resp="#CH" tls:created="2021-04-04T20:25:34.66+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>symbol for N; symbolic representation of N</def></sense></entry>
+<sense xml:id="uuid-35721e05-5b45-4301-b21e-055b45230189" resp="#CH" tls:created="2021-04-04T20:25:34.66+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>symbol for N; symbolic representation of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1ed528ec-bb68-4ce2-95a7-3d7178038ed0">
             <form corresp="#uuid-0859676e-3311-4fef-bc5c-6242bc17bae7">
 <orth>碼</orth>
@@ -425,5 +433,35 @@
   <def>marker; symbol</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9e4fc51d-9c5a-42af-a12c-e35e8fecff2e" resp="#CH" tls:created="2020-01-13T05:08:20.908+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6e2e0dcd-8d67-454d-965d-c7f870276f6e" resp="#CH" tls:created="2020-01-13T05:08:20.908+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>symbol, memento</def></sense></entry><entry type="word" xml:id="uuid-bf003bd3-b9f8-4891-954b-9c19dac9d4ea" resp="#CH" tls:created="2020-01-13T05:08:28.921+09:00"><form corresp="#uuid-fb1b5021-370d-48a7-840d-4b3732259a3c"><orth>符</orth><pron xml:lang="zh-Latn-x-pinyin">fú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bo</pron></form><sense xml:id="uuid-292c6cd4-c39e-4589-9955-088860cd394a" resp="#CH" tls:created="2020-01-13T05:08:28.921+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>symbol, memento</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9e4fc51d-9c5a-42af-a12c-e35e8fecff2e" resp="#CH" tls:created="2020-01-13T05:08:20.908+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6e2e0dcd-8d67-454d-965d-c7f870276f6e" resp="#CH" tls:created="2020-01-13T05:08:20.908+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>symbol, memento</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bf003bd3-b9f8-4891-954b-9c19dac9d4ea" resp="#CH" tls:created="2020-01-13T05:08:28.921+09:00">
+            <form corresp="#uuid-fb1b5021-370d-48a7-840d-4b3732259a3c">
+                <orth>符</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bo</pron>
+            </form>
+            <sense xml:id="uuid-292c6cd4-c39e-4589-9955-088860cd394a" resp="#CH" tls:created="2020-01-13T05:08:28.921+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>symbol, memento</def>
+            </sense>
+        </entry>
+    </div>
 </div>

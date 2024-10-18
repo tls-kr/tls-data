@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-801df5f9-4181-4229-ae41-32984a885c95">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-801df5f9-4181-4229-ae41-32984a885c95">
 <head>BOX</head>
     <list type="altnames">
 <item>CASE</item>
@@ -159,7 +160,14 @@
                 </gramGrp>
   <def>SJ: small box (to put a map into)</def>
             </sense>
-<sense xml:id="uuid-c2918177-9568-4cfb-9181-7795689cfb27" resp="#CH" tls:created="2021-04-04T20:31:58.854+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>put in a box</def></sense></entry>
+<sense xml:id="uuid-c2918177-9568-4cfb-9181-7795689cfb27" resp="#CH" tls:created="2021-04-04T20:31:58.854+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>put in a box</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b08cc6b3-db14-4671-8466-924684ba3749">
             <form corresp="#uuid-fd57aa7b-ab8f-4d92-b43e-b5860ec292c5">
 <orth>匱</orth>
@@ -359,5 +367,20 @@
   <def>boxes and coffers</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-270313fc-1a41-4fd8-8313-fc1a41afd8c5" resp="#CH" tls:created="2021-03-27T20:23:15.273+09:00"><form corresp="#uuid-8b889ae5-038d-4270-a549-3a821afec41b #uuid-db99bcdb-18ca-46e4-8de7-fdc4a0fea6a2"><orth>篋衍</orth><pron xml:lang="zh-Latn-x-pinyin">qiè yǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khep yenX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kheeb k-lanʔ</pron></form><sense xml:id="uuid-1acf4e11-42cd-4e4a-8f4e-1142cd0e4a3a" resp="#CH" tls:created="2021-03-27T20:23:15.273+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>bamboo casket</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-270313fc-1a41-4fd8-8313-fc1a41afd8c5" resp="#CH" tls:created="2021-03-27T20:23:15.273+09:00">
+            <form corresp="#uuid-8b889ae5-038d-4270-a549-3a821afec41b #uuid-db99bcdb-18ca-46e4-8de7-fdc4a0fea6a2">
+                <orth>篋衍</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiè yǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khep yenX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kheeb k-lanʔ</pron>
+            </form>
+            <sense xml:id="uuid-1acf4e11-42cd-4e4a-8f4e-1142cd0e4a3a" resp="#CH" tls:created="2021-03-27T20:23:15.273+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>bamboo casket</def>
+            </sense>
+        </entry>
+    </div>
 </div>

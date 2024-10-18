@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-de68ed0b-f6e2-477b-ae4b-2f58005a6f91">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-de68ed0b-f6e2-477b-ae4b-2f58005a6f91">
 <head>STUDENT</head>
     <list type="altnames">
 <item>DISCIPLE</item>
@@ -314,7 +315,15 @@
                 </gramGrp>
   <def>students (of Buddhisms); acolytes</def>
             </sense>
-<sense xml:id="uuid-d4c8ef61-eea9-41c2-88ef-61eea9a1c2f3" resp="#CH" tls:created="2020-04-22T17:22:35.336+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>the serious students of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-d4c8ef61-eea9-41c2-88ef-61eea9a1c2f3" resp="#CH" tls:created="2020-04-22T17:22:35.336+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>the serious students of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c853e7bf-78b3-48a1-98a6-613f84f6296d">
             <form corresp="#uuid-83c7a7f5-03b1-4bfd-b668-386b60478132 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>小子</orth>
@@ -451,7 +460,15 @@
                 </gramGrp>
   <def>a disciple of N; a true disciple of N</def>
             </sense>
-<sense xml:id="uuid-0e443b63-0583-4aac-843b-6305838aace7" resp="#CH" tls:created="2020-05-02T21:04:47.522+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>definite: the attending disciples</def></sense></entry>
+<sense xml:id="uuid-0e443b63-0583-4aac-843b-6305838aace7" resp="#CH" tls:created="2020-05-02T21:04:47.522+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>definite: the attending disciples</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3450131e-7f63-422d-8f8d-81478bcd7f01">
             <form corresp="#uuid-722c8aca-9859-4f59-994f-de930870deb7 #uuid-18bfc26a-efe6-4559-a230-5f082def72c5">
 <orth>徒屬</orth>
@@ -672,14 +689,14 @@
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
                 </gramGrp>
-  <def resp="#CH" updated="2020-04-23T20:46:44.361+09:00">disciple(s) of the contextually determinate N</def>
+  <def resp="#CH" updated="2024-10-12T17:05:49.172+09:00">acolyte(s) or followers of the contextually determinate N</def>
             </sense>
 <sense xml:id="uuid-9ee91301-49bd-4737-bd97-b9b6141b0875">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
                 </gramGrp>
-  <def>a student</def>
+  <def resp="#CH" updated="2024-10-12T17:05:48.352+09:00">an acolyte; an adherent, a follower</def>
             </sense>
 <sense xml:id="uuid-ea8e3193-948f-4475-8ac4-a077335d6103">
 <gramGrp>
@@ -688,7 +705,7 @@
   <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
-  <def>disciples, adherents</def>
+  <def resp="#CH" updated="2024-10-12T17:06:04.128+09:00">acolytes, followers, adherents</def>
             </sense>
 <sense xml:id="uuid-e48c021b-3620-4ce5-b2b9-ecc1ef15ded5">
 <gramGrp>
@@ -696,9 +713,16 @@
   <tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func>
   <tls:sem-feat corresp="#uuid-4b4da480-c7d4-48f9-9534-cb3826f3fb86">title</tls:sem-feat>
                 </gramGrp>
-  <def resp="#CH" updated="2020-04-23T20:52:24.389+09:00">the disciple Npr</def>
+  <def resp="#CH" updated="2024-10-12T17:05:51.814+09:00">the acolyte, follower Npr</def>
             </sense>
-<sense xml:id="uuid-08328b5b-63ad-45e6-b826-94643839e321" resp="#CH" tls:created="2019-12-16T23:39:02.779+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}.post-N</tls:syn-func></gramGrp><def>be a disciple of N</def></sense></entry>
+<sense xml:id="uuid-08328b5b-63ad-45e6-b826-94643839e321" resp="#CH" tls:created="2019-12-16T23:39:02.779+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}.post-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-12T17:06:06.219+09:00">be an acolyte, a follower, of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-15a7b080-ef05-421a-b562-8b237471ba0e">
             <form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>門子</orth>
@@ -870,8 +894,84 @@
   <def>students</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-76648eb0-8a8a-42df-ab27-b21443a30e02" resp="#CH" tls:created="2019-10-13T00:19:33.595+09:00"><form corresp="#uuid-c8c7711f-c417-4098-82e1-70e33aa4627b"><orth>宦</orth><pron xml:lang="zh-Latn-x-pinyin">huàn
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwaenH
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraans
-</pron></form><sense xml:id="uuid-4402104a-5997-4f66-8c47-8017fcdb0e94" resp="#CH" tls:created="2019-10-13T00:19:33.595+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>acolyte, student</def></sense></entry><entry type="word" xml:id="uuid-b85c1bce-6eae-4474-9c1b-ce6eaec47435" resp="#CH" tls:created="2020-12-19T19:04:30.649+09:00"><form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19"><orth>子</orth><pron xml:lang="zh-Latn-x-pinyin">zǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯʔ</pron></form><sense xml:id="uuid-fd32fe2f-87de-4d02-b2fe-2f87de2d0221" resp="#CH" tls:created="2020-12-19T19:04:30.649+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>(N's) disciple, the person who is under N's charge</def></sense></entry><entry type="word" xml:id="uuid-60b32eec-5b4f-4887-b32e-ec5b4f288766" resp="#CH" tls:created="2020-12-19T19:04:31.045+09:00"><form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19"><orth>子</orth><pron xml:lang="zh-Latn-x-pinyin">zǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯʔ</pron></form><sense xml:id="uuid-cd835cac-86d6-4280-835c-ac86d6228078" resp="#CH" tls:created="2020-12-19T19:04:31.045+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>(N's) disciple, the person who is under N's charge</def></sense></entry><entry type="word" xml:id="uuid-a3838661-060b-4658-8386-61060be6583e" resp="#dsehnal" tls:created="2021-05-27T00:59:38.007+09:00"><form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-de384d51-47f4-44d9-8910-20aef1caaded"><orth>門生</orth><pron xml:lang="zh-Latn-x-pinyin">mén shēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mwon sraeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯɯn sraaŋ</pron></form><sense xml:id="uuid-49ed3f2e-3a68-45a7-ad3f-2e3a6825a7e6" resp="#dsehnal" tls:created="2021-05-27T00:59:38.007+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat></gramGrp><def>a student; a pupil</def></sense></entry><entry type="word" xml:id="uuid-8bcdf9f0-97dd-4d20-8df9-f097dd4d2044" resp="#CH" tls:created="2023-07-28T04:28:37.489+09:00"><form corresp="#uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4"><orth>學</orth><pron xml:lang="zh-Latn-x-pinyin">xué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡruuɡ</pron></form><sense xml:id="uuid-bd5dc259-3323-41c0-9dc2-593323b1c0af" resp="#CH" tls:created="2023-07-28T04:28:37.489+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def resp="#CH" updated="2023-07-29T16:49:21.483+09:00">student; apprentice</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-76648eb0-8a8a-42df-ab27-b21443a30e02" resp="#CH" tls:created="2019-10-13T00:19:33.595+09:00">
+            <form corresp="#uuid-c8c7711f-c417-4098-82e1-70e33aa4627b">
+                <orth>宦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huàn
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwaenH
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraans
+</pron>
+            </form>
+            <sense xml:id="uuid-4402104a-5997-4f66-8c47-8017fcdb0e94" resp="#CH" tls:created="2019-10-13T00:19:33.595+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>acolyte, student</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b85c1bce-6eae-4474-9c1b-ce6eaec47435" resp="#CH" tls:created="2020-12-19T19:04:30.649+09:00">
+            <form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
+                <orth>子</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-fd32fe2f-87de-4d02-b2fe-2f87de2d0221" resp="#CH" tls:created="2020-12-19T19:04:30.649+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>(N's) disciple, the person who is under N's charge</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-60b32eec-5b4f-4887-b32e-ec5b4f288766" resp="#CH" tls:created="2020-12-19T19:04:31.045+09:00">
+            <form corresp="#uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
+                <orth>子</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sklɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-cd835cac-86d6-4280-835c-ac86d6228078" resp="#CH" tls:created="2020-12-19T19:04:31.045+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>(N's) disciple, the person who is under N's charge</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a3838661-060b-4658-8386-61060be6583e" resp="#dsehnal" tls:created="2021-05-27T00:59:38.007+09:00">
+            <form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-de384d51-47f4-44d9-8910-20aef1caaded">
+                <orth>門生</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mén shēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mwon sraeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯɯn sraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-49ed3f2e-3a68-45a7-ad3f-2e3a6825a7e6" resp="#dsehnal" tls:created="2021-05-27T00:59:38.007+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c161d090-7e79-41e8-9615-93208fabbb99">indefinite</tls:sem-feat>
+                </gramGrp>
+                <def>a student; a pupil</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8bcdf9f0-97dd-4d20-8df9-f097dd4d2044" resp="#CH" tls:created="2023-07-28T04:28:37.489+09:00">
+            <form corresp="#uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
+                <orth>學</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-bd5dc259-3323-41c0-9dc2-593323b1c0af" resp="#CH" tls:created="2023-07-28T04:28:37.489+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-29T16:49:21.483+09:00">student; apprentice</def>
+            </sense>
+        </entry>
+    </div>
 </div>

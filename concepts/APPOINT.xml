@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-670b2228-6982-4556-83d8-4e54c70ba265">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-670b2228-6982-4556-83d8-4e54c70ba265">
 <head>APPOINT</head>
     <list type="altnames">
 <item>NOMINATE</item>
@@ -142,7 +143,14 @@
                 </gramGrp>
   <def>employ (someone N1) as (an official N2);   employ (someone) (in a position)</def>
             </sense>
-<sense xml:id="uuid-38cc1ffe-bc5a-4ad0-8c1f-febc5a3ad0ef" resp="#CH" tls:created="2023-08-20T14:42:07.145+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>give public employment to</def></sense></entry>
+<sense xml:id="uuid-38cc1ffe-bc5a-4ad0-8c1f-febc5a3ad0ef" resp="#CH" tls:created="2023-08-20T14:42:07.145+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>give public employment to</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-84332be1-fb88-4019-bca9-0fc5b3f89330">
             <form corresp="#uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0">
 <orth>使</orth>
@@ -277,7 +285,31 @@
                 </gramGrp>
   <def>be appointed</def>
             </sense>
-<sense xml:id="uuid-00fc2942-55f9-4f7c-b969-a5281c684f12" resp="#CH" tls:created="2020-01-06T02:19:44.94+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>appointments</def></sense><sense xml:id="uuid-577b01b8-4cc4-41ba-bb01-b84cc4c1bacd" resp="#CH" tls:created="2022-08-30T17:28:24.085+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c0046b6d-813e-4597-ae17-1790a4cee247">vtoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>(of N1) be appointed as an N2</def></sense><sense xml:id="uuid-1507f92f-de1b-482b-87f9-2fde1be82b57" resp="#CH" tls:created="2023-11-18T02:50:56.501+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>enfeof N1 with N2</def></sense></entry>
+<sense xml:id="uuid-00fc2942-55f9-4f7c-b969-a5281c684f12" resp="#CH" tls:created="2020-01-06T02:19:44.94+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>appointments</def>
+            </sense>
+            <sense xml:id="uuid-577b01b8-4cc4-41ba-bb01-b84cc4c1bacd" resp="#CH" tls:created="2022-08-30T17:28:24.085+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c0046b6d-813e-4597-ae17-1790a4cee247">vtoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>(of N1) be appointed as an N2</def>
+            </sense>
+            <sense xml:id="uuid-1507f92f-de1b-482b-87f9-2fde1be82b57" resp="#CH" tls:created="2023-11-18T02:50:56.501+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>enfeof N1 with N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-188a96c0-b0e8-4d91-a3ed-a91d105e1c46">
             <form corresp="#uuid-033c5e08-d25f-47e0-9849-2cf3787dadb7">
 <orth>徵</orth>
@@ -475,7 +507,14 @@
                 </gramGrp>
   <def>appointment by Heaven, Mandate of Heaven to a ruler</def>
             </sense>
-<sense xml:id="uuid-abae1084-b40f-4095-ae10-84b40f60956a" resp="#CH" tls:created="2022-08-21T23:15:55.662+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func></gramGrp><def>by heavenly appointment</def></sense></entry>
+<sense xml:id="uuid-abae1084-b40f-4095-ae10-84b40f60956a" resp="#CH" tls:created="2022-08-21T23:15:55.662+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func>
+                </gramGrp>
+                <def>by heavenly appointment</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-53f90c5e-37df-4112-9361-ed9b181559ff">
             <form corresp="#uuid-bdcddb1b-63fa-48ec-bb88-1a9eaaa62d01 #uuid-2f2e19de-a4e7-4935-89e1-a73cc207b69c">
 <orth>拜授</orth>
@@ -530,5 +569,118 @@
   <def>appoint the contextually determinate N1 to the distinguished rank of an N2</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2818fcde-d5f0-45df-972b-77005a0c36ba" resp="#CH" tls:created="2019-12-05T22:11:39.869+09:00"><form corresp="#uuid-52df172c-649e-4477-a5eb-446bb91c5a5a"><orth>除</orth><pron xml:lang="zh-Latn-x-pinyin">chú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drjo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rla</pron></form><sense xml:id="uuid-e7cc9e43-d285-4d1d-9d05-3801df20546b" resp="#CH" tls:created="2019-12-05T22:11:39.869+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>appoint the contextually determinate person to a higher position</def></sense></entry><entry type="word" xml:id="uuid-f49ea725-f81a-4599-9762-e5d8f3b4003e" resp="#CH" tls:created="2019-12-16T19:41:47.472+09:00"><form corresp="#uuid-8fe07b77-77b5-4fe7-9c1d-963a93283234"><orth>延</orth><pron xml:lang="zh-Latn-x-pinyin">yán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lan</pron></form><sense xml:id="uuid-9f326925-a05f-43b5-817e-0ce1254d98a3" resp="#CH" tls:created="2019-12-16T19:41:47.472+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN1. yǐ N2</tls:syn-func></gramGrp><def>apoint N1 to the position of N2 延以...之位</def></sense></entry><entry type="word" xml:id="uuid-f120b9ae-d344-4055-8e1b-d100582b6ff4" resp="#CH" tls:created="2019-12-25T20:34:10.927+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-df6bab0c-f18b-44fb-8f6a-d1b084b887f8" resp="#CH" tls:created="2019-12-25T20:34:10.927+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func></gramGrp><def>appoint the contextually determinate N1 as N2</def></sense></entry><entry type="word" xml:id="uuid-2addba34-92c3-4699-8f0c-73e39cdf5251" resp="#CH" tls:created="2019-12-25T20:34:24.173+09:00"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7"><orth>以為</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷal</pron></form><sense xml:id="uuid-cddbf58a-17f2-46cc-9bd7-fea91806bdc7" resp="#CH" tls:created="2019-12-25T20:34:24.173+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c441a6a6-ce79-44e8-81a6-a6ce79e4e8f7">VPtt(oN1.) N2</tls:syn-func></gramGrp><def>appoint the contextually determinate N1 as N2</def></sense><sense xml:id="uuid-3cbddda5-9bb7-411d-bd20-94ede41fa5d5" resp="#dsehnal" tls:created="2020-01-14T04:49:04.554+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-8584029b-6084-4ff1-8511-012c5567acf9">VPtt(oN1.) N2</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>have the contextually determinate person appointed as N2; retain the contextually determinate person in the function N2</def></sense></entry><entry type="word" xml:id="uuid-a849e498-fe4b-41d5-89e4-98fe4bc1d5f0" resp="#CH" tls:created="2020-03-11T17:32:46.471+09:00"><form corresp="#uuid-29be220c-b19f-4f4a-9bfd-fdbcc657dc22"><orth>尊</orth><pron xml:lang="zh-Latn-x-pinyin">zūn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tswon</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsuun</pron></form><sense xml:id="uuid-6244887d-84ac-4bd9-8488-7d84acabd971" resp="#CH" tls:created="2020-03-11T17:32:46.471+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN1 wéiN2</tls:syn-func></gramGrp><def>honour N1 so as to make him N2</def></sense></entry><entry type="word" xml:id="uuid-2fca6139-4028-4db7-8a61-394028fdb789" resp="#CH" tls:created="2020-05-06T03:47:19.674+09:00"><form corresp="#uuid-e44baff3-a268-4b94-9b2a-8a87a03d3e44 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c"><orth>待以</orth><pron xml:lang="zh-Latn-x-pinyin">dài yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dojX yiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-lɯɯʔ k-lɯʔ</pron></form><sense xml:id="uuid-dd1d40d3-bda0-4940-9d40-d3bda0d94039" resp="#CH" tls:created="2020-05-06T03:47:19.674+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func></gramGrp><def>appoint the implicit N1 to the rank N2; treat N1 as an N2</def></sense></entry><entry type="word" xml:id="uuid-717f0188-e8b8-47cf-bf01-88e8b887cfea" resp="#dsehnal" tls:created="2023-06-24T22:00:55.872+09:00"><form corresp="#uuid-6064302c-25e2-4718-9c4b-4fdf63a6cd7b"><orth>表</orth><pron xml:lang="zh-Latn-x-pinyin">biǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjewX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">prawʔ</pron></form><sense xml:id="uuid-b2b3d2f2-6956-4947-b3d2-f269563947bd" resp="#dsehnal" tls:created="2023-06-24T22:00:55.872+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c1fd2fbb-03b8-475d-9a14-7f40de36136b">vtoN1. VtoN2</tls:syn-func></gramGrp><def>appoint N1 as N2</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2818fcde-d5f0-45df-972b-77005a0c36ba" resp="#CH" tls:created="2019-12-05T22:11:39.869+09:00">
+            <form corresp="#uuid-52df172c-649e-4477-a5eb-446bb91c5a5a">
+                <orth>除</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drjo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rla</pron>
+            </form>
+            <sense xml:id="uuid-e7cc9e43-d285-4d1d-9d05-3801df20546b" resp="#CH" tls:created="2019-12-05T22:11:39.869+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>appoint the contextually determinate person to a higher position</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f49ea725-f81a-4599-9762-e5d8f3b4003e" resp="#CH" tls:created="2019-12-16T19:41:47.472+09:00">
+            <form corresp="#uuid-8fe07b77-77b5-4fe7-9c1d-963a93283234">
+                <orth>延</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lan</pron>
+            </form>
+            <sense xml:id="uuid-9f326925-a05f-43b5-817e-0ce1254d98a3" resp="#CH" tls:created="2019-12-16T19:41:47.472+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN1. yǐ N2</tls:syn-func>
+                </gramGrp>
+                <def>apoint N1 to the position of N2 延以...之位</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f120b9ae-d344-4055-8e1b-d100582b6ff4" resp="#CH" tls:created="2019-12-25T20:34:10.927+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-df6bab0c-f18b-44fb-8f6a-d1b084b887f8" resp="#CH" tls:created="2019-12-25T20:34:10.927+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>appoint the contextually determinate N1 as N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2addba34-92c3-4699-8f0c-73e39cdf5251" resp="#CH" tls:created="2019-12-25T20:34:24.173+09:00">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7">
+                <orth>以為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-cddbf58a-17f2-46cc-9bd7-fea91806bdc7" resp="#CH" tls:created="2019-12-25T20:34:24.173+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c441a6a6-ce79-44e8-81a6-a6ce79e4e8f7">VPtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>appoint the contextually determinate N1 as N2</def>
+            </sense>
+            <sense xml:id="uuid-3cbddda5-9bb7-411d-bd20-94ede41fa5d5" resp="#dsehnal" tls:created="2020-01-14T04:49:04.554+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-8584029b-6084-4ff1-8511-012c5567acf9">VPtt(oN1.) N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>have the contextually determinate person appointed as N2; retain the contextually determinate person in the function N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a849e498-fe4b-41d5-89e4-98fe4bc1d5f0" resp="#CH" tls:created="2020-03-11T17:32:46.471+09:00">
+            <form corresp="#uuid-29be220c-b19f-4f4a-9bfd-fdbcc657dc22">
+                <orth>尊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zūn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tswon</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsuun</pron>
+            </form>
+            <sense xml:id="uuid-6244887d-84ac-4bd9-8488-7d84acabd971" resp="#CH" tls:created="2020-03-11T17:32:46.471+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN1 wéiN2</tls:syn-func>
+                </gramGrp>
+                <def>honour N1 so as to make him N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2fca6139-4028-4db7-8a61-394028fdb789" resp="#CH" tls:created="2020-05-06T03:47:19.674+09:00">
+            <form corresp="#uuid-e44baff3-a268-4b94-9b2a-8a87a03d3e44 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
+                <orth>待以</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dài yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dojX yiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-lɯɯʔ k-lɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-dd1d40d3-bda0-4940-9d40-d3bda0d94039" resp="#CH" tls:created="2020-05-06T03:47:19.674+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.) N2</tls:syn-func>
+                </gramGrp>
+                <def>appoint the implicit N1 to the rank N2; treat N1 as an N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-717f0188-e8b8-47cf-bf01-88e8b887cfea" resp="#dsehnal" tls:created="2023-06-24T22:00:55.872+09:00">
+            <form corresp="#uuid-6064302c-25e2-4718-9c4b-4fdf63a6cd7b">
+                <orth>表</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjewX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">prawʔ</pron>
+            </form>
+            <sense xml:id="uuid-b2b3d2f2-6956-4947-b3d2-f269563947bd" resp="#dsehnal" tls:created="2023-06-24T22:00:55.872+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c1fd2fbb-03b8-475d-9a14-7f40de36136b">vtoN1. VtoN2</tls:syn-func>
+                </gramGrp>
+                <def>appoint N1 as N2</def>
+            </sense>
+        </entry>
+    </div>
 </div>

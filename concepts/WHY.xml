@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d0bd9951-80c1-4a5c-be17-1f4840fe75b5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d0bd9951-80c1-4a5c-be17-1f4840fe75b5">
 <head>WHY</head>
     <list type="translations">
         <item xml:lang="zh">為甚麼</item>
@@ -125,7 +126,29 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-25T23:22:07.164+09:00">why on earth?</def>
             </sense>
-<sense xml:id="uuid-2625a453-3df5-44ad-aab3-a1362da9b9cf" resp="#CH" tls:created="2019-11-29T21:16:12.401+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>why on earth? (one surely does not know why!)</def></sense><sense xml:id="uuid-b7ab2e8b-846b-455b-9baf-8c3312e96243" resp="#CH" tls:created="2019-12-14T06:16:42.529+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">ppostN</tls:syn-func></gramGrp><def>what is the reason for N?</def></sense><sense xml:id="uuid-d618b2a5-ea01-48ae-b821-8c43d2b17eec" resp="#CH" tls:created="2019-12-25T01:30:05.925+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">npro{PRED}.postNab{S}{SUBJECT}</tls:syn-func></gramGrp><def>Why is it that S</def></sense></entry>
+<sense xml:id="uuid-2625a453-3df5-44ad-aab3-a1362da9b9cf" resp="#CH" tls:created="2019-11-29T21:16:12.401+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>why on earth? (one surely does not know why!)</def>
+            </sense>
+            <sense xml:id="uuid-b7ab2e8b-846b-455b-9baf-8c3312e96243" resp="#CH" tls:created="2019-12-14T06:16:42.529+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">ppostN</tls:syn-func>
+                </gramGrp>
+                <def>what is the reason for N?</def>
+            </sense>
+            <sense xml:id="uuid-d618b2a5-ea01-48ae-b821-8c43d2b17eec" resp="#CH" tls:created="2019-12-25T01:30:05.925+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npro{PRED}.postNab{S}{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def>Why is it that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-64019520-e168-4220-b0c0-7a49f47ea0b0">
             <form corresp="#uuid-2a2f5d3e-6ff4-4fcc-a266-8acfed889104">
 <orth>奚</orth>
@@ -171,7 +194,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-d3253057-3f82-46a0-bae3-d321d0a7b64c">
-            <form corresp="#uuid-f753a021-262e-41fd-8e14-570cace91006"><orth>寧</orth><pron xml:lang="zh-Latn-x-pinyin">nìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">neeŋs</pron></form>
+            <form corresp="#uuid-f753a021-262e-41fd-8e14-570cace91006">
+                <orth>寧</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">neeŋs</pron>
+            </form>
 <sense xml:id="uuid-8fdbf783-532b-43c0-8592-28d793a5d63e">
 <gramGrp>
                     <pos>P</pos>
@@ -233,7 +261,15 @@
                 </gramGrp>
   <def>why?</def>
             </sense>
-<sense xml:id="uuid-3d4ad191-96a2-4e4f-a52e-fd897b283b09" resp="#CH" tls:created="2020-01-07T03:58:33.075+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func><tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat></gramGrp><def>why on earth?</def></sense></entry>
+<sense xml:id="uuid-3d4ad191-96a2-4e4f-a52e-fd897b283b09" resp="#CH" tls:created="2020-01-07T03:58:33.075+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def>why on earth?</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d7b8577f-9249-4f71-a10a-df6eabc4e538">
             <form corresp="#uuid-d40582e1-9463-4ae9-ba21-5a3b6e56112e">
 <orth>蓋</orth>
@@ -298,7 +334,14 @@
                 </gramGrp>
   <def>Why is that?  Why was that?</def>
             </sense>
-<sense xml:id="uuid-cc635d4f-60e4-428e-8953-9065bad61c43" resp="#CH" tls:created="2020-01-02T02:55:32.265+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-f49366be-2415-46ed-8be3-8cd22adeab04">PP{PRED}.postNab{S}{SUBJECT}</tls:syn-func></gramGrp><def/></sense></entry>
+<sense xml:id="uuid-cc635d4f-60e4-428e-8953-9065bad61c43" resp="#CH" tls:created="2020-01-02T02:55:32.265+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-f49366be-2415-46ed-8be3-8cd22adeab04">PP{PRED}.postNab{S}{SUBJECT}</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7b086fee-1b9c-4d5c-a931-33a00e5f34d6">
             <form corresp="#uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1 #uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c">
 <orth>何以</orth>
@@ -313,7 +356,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-5f20a941-8519-480d-a0a9-418519980d7e">justification</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-5f20a941-8519-480d-a0a9-418519980d7e">justification</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-11-16T18:28:56.92+09:00">to what purpose? why?</def>
             </sense>
 <sense xml:id="uuid-2158d1fa-2193-4f38-a95f-17a1b64a3d27">
@@ -324,7 +368,15 @@
                 </gramGrp>
   <def>why on earth?  surely for no good reason!</def>
             </sense>
-<sense xml:id="uuid-1e825356-5ede-4722-8253-565edee72281" resp="#dsehnal" tls:created="2023-06-17T17:23:56.303+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func><tls:sem-feat corresp="#uuid-0fecf78e-b514-4ef4-96dd-87e3f2bff1b0">reason</tls:sem-feat></gramGrp><def>for what reason?; why?</def></sense></entry>
+<sense xml:id="uuid-1e825356-5ede-4722-8253-565edee72281" resp="#dsehnal" tls:created="2023-06-17T17:23:56.303+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0fecf78e-b514-4ef4-96dd-87e3f2bff1b0">reason</tls:sem-feat>
+                </gramGrp>
+                <def>for what reason?; why?</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-86848fc9-bdc1-4221-959f-ac011528bdff">
             <form corresp="#uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1 #uuid-4d6c7918-4df1-492f-95db-6e81913b1710">
 <orth>何其</orth>
@@ -460,7 +512,15 @@
                 </gramGrp>
   <def>Why?</def>
             </sense>
-<sense xml:id="uuid-41c4f195-a5a1-4d94-a627-06320185c0e8" resp="#CH" tls:created="2019-11-29T21:13:26.509+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPadv</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>for what reason? (surely one does not know!)</def></sense></entry>
+<sense xml:id="uuid-41c4f195-a5a1-4d94-a627-06320185c0e8" resp="#CH" tls:created="2019-11-29T21:13:26.509+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPadv</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>for what reason? (surely one does not know!)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2aadc5b6-fe3c-4077-a953-6ec6b4b1a0b8">
             <form corresp="#uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1 #uuid-172338aa-69df-4873-a8be-e17c7b738e18">
 <orth>何暇</orth>
@@ -723,7 +783,14 @@
                 </gramGrp>
   <def>Why?</def>
             </sense>
-<sense xml:id="uuid-424bdf3d-9e3e-42e2-8707-6c68d7c519df" resp="#CH" tls:created="2019-11-29T20:11:07.353+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-e7f1e69d-7edf-4e5a-bdef-c5995d0fb79d">PPadS</tls:syn-func></gramGrp><def>why on earth</def></sense></entry>
+<sense xml:id="uuid-424bdf3d-9e3e-42e2-8707-6c68d7c519df" resp="#CH" tls:created="2019-11-29T20:11:07.353+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-e7f1e69d-7edf-4e5a-bdef-c5995d0fb79d">PPadS</tls:syn-func>
+                </gramGrp>
+                <def>why on earth</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6d6c262c-0cab-4d95-a294-56c849f7f0b4">
             <form corresp="#uuid-65f1da80-8937-4ff6-965d-bd271cda03e9 #uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1">
 <orth>奈何</orth>
@@ -1043,5 +1110,144 @@
   <def>what is the reason? Why?</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-253b4a5d-04a2-4d6a-b1f3-e80a5dcf9d7b" resp="#zadrapa" tls:created="2019-10-31T21:38:30.435+09:00"><form corresp="#uuid-627234e2-b72e-4877-a4a6-ec04a830aa03"><orth>遐</orth><pron xml:lang="zh-Latn-x-pinyin">xiá</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡraa</pron></form><sense xml:id="uuid-3c7a9f3c-ef6d-46f0-90cc-df4b560cb8ee" resp="#zadrapa" tls:created="2019-10-31T21:38:30.435+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp><def>archaic interrogative pronoun/adverb in SHI, obviously a loan character</def></sense></entry><entry type="word" xml:id="uuid-479aa257-f339-47f3-aacd-fa3ba77f6c84" resp="#CH" tls:created="2019-11-29T21:15:04.197+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-4c79d781-461e-4404-ac31-34d78f796e34" resp="#CH" tls:created="2019-11-29T21:15:04.197+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>why on earth? (surely one does not know why!)</def></sense></entry><entry type="word" xml:id="uuid-f4d86674-7039-49a9-aed7-c7755b2dc0aa" resp="#CH" tls:created="2019-11-29T21:15:17.079+09:00"><form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4"><orth>安</orth><pron xml:lang="zh-Latn-x-pinyin">ān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'an</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaan</pron></form><sense xml:id="uuid-3e220642-f279-4651-a0e1-76fc7ed85e9f" resp="#CH" tls:created="2019-11-29T21:15:17.079+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>why on earth? (surely one does not know why!)</def></sense></entry><entry type="word" xml:id="uuid-00caf727-7ba2-4ed8-8af7-277ba27ed8c4" resp="#zadrapa" tls:created="2020-05-25T19:40:47.714+09:00"><form corresp="#uuid-bd2177c1-35ad-42b6-9595-bf6a59c5694e #uuid-d9851265-3575-4a6b-bbbc-06dc7bb4484f"><orth>胡為</orth><pron xml:lang="zh-Latn-x-pinyin">hú wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaa ɢʷals</pron></form><sense xml:id="uuid-e0ec01c7-618d-4c99-ac01-c7618d9c99bd" resp="#zadrapa" tls:created="2020-05-25T19:40:47.714+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func><tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat></gramGrp><def>(read hu2wei4) why, how</def></sense></entry><entry type="word" xml:id="uuid-6d93779a-1aa3-455d-9377-9a1aa3955d73" resp="#CH" tls:created="2020-06-24T21:27:56.672+09:00"><form corresp="#uuid-9b0c3993-d064-41cf-b64a-1ca2076681d7 #uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1"><orth>庸何</orth><pron xml:lang="zh-Latn-x-pinyin">yōng hé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yowng ha</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋ ɡlaal</pron></form><sense xml:id="uuid-8c4659e3-6cce-4496-8659-e36cce6496af" resp="#CH" tls:created="2020-06-24T21:27:56.672+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func></gramGrp><def>why</def></sense></entry><entry type="word" xml:id="uuid-5747cc32-2805-4735-87cc-322805a73556" resp="#CH" tls:created="2020-12-17T22:58:56.458+09:00"><form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4 #uuid-6c701abc-01b5-4a70-b4eb-3e34c719fd19"><orth>安事</orth><pron xml:lang="zh-Latn-x-pinyin">ān zì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'an tsriH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaan tsrɯs</pron></form><sense xml:id="uuid-d6767e52-f267-4497-b67e-52f267049715" resp="#CH" tls:created="2020-12-17T22:58:56.458+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>to what purpose?, with what concrete aim?</def></sense></entry><entry xml:id="uuid-132ae222-16dc-4faa-aae2-2216dc3faa43"><form corresp="#uuid-e36faf0f-2941-41e6-a242-e9de58902636 #uuid-d9851265-3575-4a6b-bbbc-06dc7bb4484f"><orth>曷為</orth><pron xml:lang="zh-Latn-x-pinyin">hé wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hat hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaad ɢʷals</pron></form><sense xml:id="uuid-397b30cf-8d45-4ca1-bb30-cf8d459ca16d" resp="#CH" tls:created="2022-11-19T23:13:03.96+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-efe577d1-de70-4d80-84d0-e92f482f3f3d">VPadS</tls:syn-func></gramGrp><def>why was it that S? sometimes emphatically doubtful: how (on earth) was it that S?</def></sense></entry><entry type="word" xml:id="uuid-f3def749-5a28-4fd8-9ef7-495a289fd88d" resp="#CH" tls:created="2022-12-03T20:54:10.956+09:00"><form corresp="#uuid-e07fe193-03e5-4249-9fa8-ce8fd1221890"><orth>侯</orth><pron xml:lang="zh-Latn-x-pinyin">hóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">huw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoo</pron></form><sense xml:id="uuid-fac34845-a940-4109-8348-45a940b1091d" resp="#CH" tls:created="2022-12-03T20:54:10.956+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ffb1ffa-d762-4cb0-bdf0-ac5f55be25b9">padS</tls:syn-func></gramGrp><def>why</def></sense></entry><entry type="word" xml:id="uuid-8bfabbbb-2fe5-4dbf-babb-bb2fe5fdbfef" resp="#dsehnal" tls:created="2024-06-10T01:48:32.659+09:00"><form corresp="#uuid-e36faf0f-2941-41e6-a242-e9de58902636"><orth>曷</orth><pron xml:lang="zh-Latn-x-pinyin">hé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaad</pron></form><sense xml:id="uuid-29ec36d2-d369-4072-ac36-d2d369c0729e" resp="#dsehnal" tls:created="2024-06-10T01:48:32.659+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-da183583-38b2-44d1-8165-a48331d55847">npro.adV</tls:syn-func></gramGrp><def>why?</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-253b4a5d-04a2-4d6a-b1f3-e80a5dcf9d7b" resp="#zadrapa" tls:created="2019-10-31T21:38:30.435+09:00">
+            <form corresp="#uuid-627234e2-b72e-4877-a4a6-ec04a830aa03">
+                <orth>遐</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiá</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡraa</pron>
+            </form>
+            <sense xml:id="uuid-3c7a9f3c-ef6d-46f0-90cc-df4b560cb8ee" resp="#zadrapa" tls:created="2019-10-31T21:38:30.435+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def>archaic interrogative pronoun/adverb in SHI, obviously a loan character</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-479aa257-f339-47f3-aacd-fa3ba77f6c84" resp="#CH" tls:created="2019-11-29T21:15:04.197+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-4c79d781-461e-4404-ac31-34d78f796e34" resp="#CH" tls:created="2019-11-29T21:15:04.197+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>why on earth? (surely one does not know why!)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f4d86674-7039-49a9-aed7-c7755b2dc0aa" resp="#CH" tls:created="2019-11-29T21:15:17.079+09:00">
+            <form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4">
+                <orth>安</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'an</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaan</pron>
+            </form>
+            <sense xml:id="uuid-3e220642-f279-4651-a0e1-76fc7ed85e9f" resp="#CH" tls:created="2019-11-29T21:15:17.079+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>why on earth? (surely one does not know why!)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-00caf727-7ba2-4ed8-8af7-277ba27ed8c4" resp="#zadrapa" tls:created="2020-05-25T19:40:47.714+09:00">
+            <form corresp="#uuid-bd2177c1-35ad-42b6-9595-bf6a59c5694e #uuid-d9851265-3575-4a6b-bbbc-06dc7bb4484f">
+                <orth>胡為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hú wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaa ɢʷals</pron>
+            </form>
+            <sense xml:id="uuid-e0ec01c7-618d-4c99-ac01-c7618d9c99bd" resp="#zadrapa" tls:created="2020-05-25T19:40:47.714+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def>(read hu2wei4) why, how</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6d93779a-1aa3-455d-9377-9a1aa3955d73" resp="#CH" tls:created="2020-06-24T21:27:56.672+09:00">
+            <form corresp="#uuid-9b0c3993-d064-41cf-b64a-1ca2076681d7 #uuid-9ff11b21-1353-47ba-bcda-66484aef3dc1">
+                <orth>庸何</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yōng hé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yowng ha</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-loŋ ɡlaal</pron>
+            </form>
+            <sense xml:id="uuid-8c4659e3-6cce-4496-8659-e36cce6496af" resp="#CH" tls:created="2020-06-24T21:27:56.672+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-eb8abafd-05ff-4ae5-9f85-7417d096299a">PPadV</tls:syn-func>
+                </gramGrp>
+                <def>why</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5747cc32-2805-4735-87cc-322805a73556" resp="#CH" tls:created="2020-12-17T22:58:56.458+09:00">
+            <form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4 #uuid-6c701abc-01b5-4a70-b4eb-3e34c719fd19">
+                <orth>安事</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ān zì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'an tsriH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaan tsrɯs</pron>
+            </form>
+            <sense xml:id="uuid-d6767e52-f267-4497-b67e-52f267049715" resp="#CH" tls:created="2020-12-17T22:58:56.458+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>to what purpose?, with what concrete aim?</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-132ae222-16dc-4faa-aae2-2216dc3faa43">
+            <form corresp="#uuid-e36faf0f-2941-41e6-a242-e9de58902636 #uuid-d9851265-3575-4a6b-bbbc-06dc7bb4484f">
+                <orth>曷為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hé wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hat hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaad ɢʷals</pron>
+            </form>
+            <sense xml:id="uuid-397b30cf-8d45-4ca1-bb30-cf8d459ca16d" resp="#CH" tls:created="2022-11-19T23:13:03.96+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-efe577d1-de70-4d80-84d0-e92f482f3f3d">VPadS</tls:syn-func>
+                </gramGrp>
+                <def>why was it that S? sometimes emphatically doubtful: how (on earth) was it that S?</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f3def749-5a28-4fd8-9ef7-495a289fd88d" resp="#CH" tls:created="2022-12-03T20:54:10.956+09:00">
+            <form corresp="#uuid-e07fe193-03e5-4249-9fa8-ce8fd1221890">
+                <orth>侯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">huw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoo</pron>
+            </form>
+            <sense xml:id="uuid-fac34845-a940-4109-8348-45a940b1091d" resp="#CH" tls:created="2022-12-03T20:54:10.956+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ffb1ffa-d762-4cb0-bdf0-ac5f55be25b9">padS</tls:syn-func>
+                </gramGrp>
+                <def>why</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8bfabbbb-2fe5-4dbf-babb-bb2fe5fdbfef" resp="#dsehnal" tls:created="2024-06-10T01:48:32.659+09:00">
+            <form corresp="#uuid-e36faf0f-2941-41e6-a242-e9de58902636">
+                <orth>曷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaad</pron>
+            </form>
+            <sense xml:id="uuid-29ec36d2-d369-4072-ac36-d2d369c0729e" resp="#dsehnal" tls:created="2024-06-10T01:48:32.659+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-da183583-38b2-44d1-8165-a48331d55847">npro.adV</tls:syn-func>
+                </gramGrp>
+                <def>why?</def>
+            </sense>
+        </entry>
+    </div>
 </div>

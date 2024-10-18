@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d8c215d9-04d4-4ce0-8e65-2435c052b660">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d8c215d9-04d4-4ce0-8e65-2435c052b660">
 <head>TOMB</head>
     <list type="altnames">
 <item>GRAVE</item>
@@ -273,7 +274,21 @@
                 </gramGrp>
   <def>tomb with a mound with trees planted on it; tomb mound</def>
             </sense>
-<sense xml:id="uuid-7b46eaa8-a41f-499e-86ea-a8a41f899e57" resp="#dsehnal" tls:created="2023-06-08T19:35:47.826+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's tomb</def></sense><sense xml:id="uuid-a2ad92b4-6f17-4549-ad92-b46f17b54950" resp="#dsehnal" tls:created="2023-07-08T18:34:33.845+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>tomb of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-7b46eaa8-a41f-499e-86ea-a8a41f899e57" resp="#dsehnal" tls:created="2023-06-08T19:35:47.826+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's tomb</def>
+            </sense>
+            <sense xml:id="uuid-a2ad92b4-6f17-4549-ad92-b46f17b54950" resp="#dsehnal" tls:created="2023-07-08T18:34:33.845+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>tomb of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b9b7a9c1-e45e-49c5-ae5e-93cee6c11622">
             <form corresp="#uuid-aeb5764b-55b3-46f6-ba91-6af7989bd93b">
 <orth>垗</orth>
@@ -333,7 +348,14 @@
                 </gramGrp>
   <def>make tombs</def>
             </sense>
-<sense xml:id="uuid-3a2179c0-d3cf-41e9-a179-c0d3cfc1e9d5" resp="#dsehnal" tls:created="2023-07-01T21:59:19.993+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>tomb of a contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-3a2179c0-d3cf-41e9-a179-c0d3cfc1e9d5" resp="#dsehnal" tls:created="2023-07-01T21:59:19.993+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>tomb of a contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db75c4f1-2365-400c-a6db-48e3ec2c8d92">
             <form corresp="#uuid-e63a63c5-5d63-4a91-8b7a-e08c7032cbc2">
 <orth>塿</orth>
@@ -538,5 +560,21 @@
   <def>tombs</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-841a6a3b-c910-4b09-9a6a-3bc9106b09df" resp="#CH" tls:created="2022-08-15T16:03:09.758+09:00"><form corresp="#uuid-5c04abb4-6430-4fff-b0f3-6accf762545d #uuid-491497d2-c5df-480a-84e4-9b7300d81222"><orth>丘冢</orth><pron xml:lang="zh-Latn-x-pinyin">qiū zhǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw trjowngX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ toŋʔ</pron></form><sense xml:id="uuid-e9ef5b62-bb05-44c1-af5b-62bb0504c1c7" resp="#CH" tls:created="2022-08-15T16:03:09.758+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>tomb mounds</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-841a6a3b-c910-4b09-9a6a-3bc9106b09df" resp="#CH" tls:created="2022-08-15T16:03:09.758+09:00">
+            <form corresp="#uuid-5c04abb4-6430-4fff-b0f3-6accf762545d #uuid-491497d2-c5df-480a-84e4-9b7300d81222">
+                <orth>丘冢</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiū zhǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjuw trjowngX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khɯ toŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-e9ef5b62-bb05-44c1-af5b-62bb0504c1c7" resp="#CH" tls:created="2022-08-15T16:03:09.758+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>tomb mounds</def>
+            </sense>
+        </entry>
+    </div>
 </div>

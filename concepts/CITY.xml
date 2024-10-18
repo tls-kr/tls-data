@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5739abe6-b528-4c38-a547-0e174f756ae6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5739abe6-b528-4c38-a547-0e174f756ae6">
 <head>CITY</head>
     <list type="altnames">
 <item>TOWN</item>
@@ -242,7 +243,21 @@
                 </gramGrp>
   <def>make a place into a walled city; establish a place as a walled city</def>
             </sense>
-<sense xml:id="uuid-20a4ea54-d2e9-4b4d-9bc3-7f1b0df23c34" resp="#CH" tls:created="2019-12-31T04:43:53.052+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>cities belonging to the contextually determinate N</def></sense><sense xml:id="uuid-91650445-2ae6-425a-a504-452ae6925ab4" resp="#dsehnal" tls:created="2023-12-17T00:19:58.706+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>N's city</def></sense></entry>
+<sense xml:id="uuid-20a4ea54-d2e9-4b4d-9bc3-7f1b0df23c34" resp="#CH" tls:created="2019-12-31T04:43:53.052+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>cities belonging to the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-91650445-2ae6-425a-a504-452ae6925ab4" resp="#dsehnal" tls:created="2023-12-17T00:19:58.706+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>N's city</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2bd90632-514f-45a7-8e42-2ffaf90cfd1f">
             <form corresp="#uuid-95fe894f-9f35-42a2-a567-c35b2c513fa5">
 <orth>聚</orth>
@@ -298,7 +313,21 @@
                 </gramGrp>
   <def>give a city to N1 in a place N2</def>
             </sense>
-<sense xml:id="uuid-fc0d073d-c4af-4aee-90e9-f7e3883b036a" resp="#CH" tls:created="2019-12-31T23:48:16.364+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func></gramGrp><def>city, urbanised settlement</def></sense><sense xml:id="uuid-76926534-f2b8-47bb-b305-73c6458f8bb9" resp="#dsehnal" tls:created="2020-01-13T04:54:00.08+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func></gramGrp><def>the city of Npr</def></sense></entry>
+<sense xml:id="uuid-fc0d073d-c4af-4aee-90e9-f7e3883b036a" resp="#CH" tls:created="2019-12-31T23:48:16.364+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func>
+                </gramGrp>
+                <def>city, urbanised settlement</def>
+            </sense>
+            <sense xml:id="uuid-76926534-f2b8-47bb-b305-73c6458f8bb9" resp="#dsehnal" tls:created="2020-01-13T04:54:00.08+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                </gramGrp>
+                <def>the city of Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e9c98675-674d-404f-9f9c-4e0a455c7fe8">
             <form corresp="#uuid-0c507e12-0fcc-40d6-a4ce-c503f7af4920">
 <orth>郊</orth>
@@ -459,5 +488,36 @@
   <def>city</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-07cb594c-7168-4409-8b59-4c71686409fd" resp="#CH" tls:created="2022-08-10T01:09:57.293+09:00"><form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa #uuid-99a78133-4b1d-4555-832a-7eb150cd3333"><orth>鄉邑</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjang 'ip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ qrɯb</pron></form><sense xml:id="uuid-2254ab1a-5ce8-427d-94ab-1a5ce8527d19" resp="#CH" tls:created="2022-08-10T01:09:57.293+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>settlements and towns</def></sense></entry><entry type="word" xml:id="uuid-ea104a07-5d9a-4c41-904a-075d9abc4183" resp="#dsehnal" tls:created="2023-07-08T20:33:58.805+09:00"><form corresp="#uuid-18bfc26a-efe6-4559-a230-5f082def72c5 #uuid-aca415df-328d-4df8-9fe0-98e27930de97"><orth>屬城</orth><pron xml:lang="zh-Latn-x-pinyin">shǔ chéng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyowk dzyeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoɡ djeŋ</pron></form><sense xml:id="uuid-d053c307-046e-4d44-93c3-07046edd446e" resp="#dsehnal" tls:created="2023-07-08T20:33:58.805+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-d4180c2b-fab5-47cb-98ae-0655da1c313a">plur</tls:sem-feat></gramGrp><def>N's subordinate cities</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-07cb594c-7168-4409-8b59-4c71686409fd" resp="#CH" tls:created="2022-08-10T01:09:57.293+09:00">
+            <form corresp="#uuid-e4da084d-ce69-4c5e-ba2f-3ac30e0c71aa #uuid-99a78133-4b1d-4555-832a-7eb150cd3333">
+                <orth>鄉邑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjang 'ip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ qrɯb</pron>
+            </form>
+            <sense xml:id="uuid-2254ab1a-5ce8-427d-94ab-1a5ce8527d19" resp="#CH" tls:created="2022-08-10T01:09:57.293+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>settlements and towns</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ea104a07-5d9a-4c41-904a-075d9abc4183" resp="#dsehnal" tls:created="2023-07-08T20:33:58.805+09:00">
+            <form corresp="#uuid-18bfc26a-efe6-4559-a230-5f082def72c5 #uuid-aca415df-328d-4df8-9fe0-98e27930de97">
+                <orth>屬城</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǔ chéng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyowk dzyeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djoɡ djeŋ</pron>
+            </form>
+            <sense xml:id="uuid-d053c307-046e-4d44-93c3-07046edd446e" resp="#dsehnal" tls:created="2023-07-08T20:33:58.805+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d4180c2b-fab5-47cb-98ae-0655da1c313a">plur</tls:sem-feat>
+                </gramGrp>
+                <def>N's subordinate cities</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-39ec3bea-feb6-4638-a367-12ed383908c2">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-39ec3bea-feb6-4638-a367-12ed383908c2">
 <head>FIRE</head>
     <list type="altnames">
 <item>BLAZE</item>
@@ -184,7 +185,14 @@
                 </gramGrp>
   <def>"fire"</def>
             </sense>
-<sense xml:id="uuid-44536022-56d4-4117-9360-2256d49117e3" resp="#zadrapa" tls:created="2022-06-07T04:30:51.498+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>related to fire</def></sense></entry>
+<sense xml:id="uuid-44536022-56d4-4117-9360-2256d49117e3" resp="#zadrapa" tls:created="2022-06-07T04:30:51.498+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>related to fire</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bc65818d-2203-488a-a8ac-0a56cea3c58e">
             <form corresp="#uuid-5d4fb9ca-1a1a-4451-84f2-fdca2279b19c">
 <orth>炎</orth>
@@ -357,5 +365,35 @@
   <def>by disastrous fire; through disastrous fire</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f4d48022-3bca-4f9f-9480-223bca7f9f09" resp="#CH" tls:created="2022-09-23T23:55:07.186+09:00"><form corresp="#uuid-a4558af1-875f-4e59-8be8-d4c1bbab8376"><orth>爟</orth><pron xml:lang="zh-Latn-x-pinyin">guàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koons</pron></form><sense xml:id="uuid-23ecf52d-a9a9-4e52-acf5-2da9a94e5264" resp="#CH" tls:created="2022-09-23T23:55:07.186+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>sacrificial fire</def></sense></entry><entry type="word" xml:id="uuid-590a3261-77fa-4470-8a32-6177fae470f3" resp="#CH" tls:created="2022-09-23T23:56:56.234+09:00"><form corresp="#uuid-a4558af1-875f-4e59-8be8-d4c1bbab8376 #uuid-843121ff-f778-4be2-a643-71a2a1dc6acb"><orth>爟火</orth><pron xml:lang="zh-Latn-x-pinyin">guàn huǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwanH xwaX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koons qphaalʔ</pron></form><sense xml:id="uuid-69f38f0d-dcc0-4a7b-b38f-0ddcc02a7b75" resp="#CH" tls:created="2022-09-23T23:56:56.234+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>sacrificial fire</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f4d48022-3bca-4f9f-9480-223bca7f9f09" resp="#CH" tls:created="2022-09-23T23:55:07.186+09:00">
+            <form corresp="#uuid-a4558af1-875f-4e59-8be8-d4c1bbab8376">
+                <orth>爟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koons</pron>
+            </form>
+            <sense xml:id="uuid-23ecf52d-a9a9-4e52-acf5-2da9a94e5264" resp="#CH" tls:created="2022-09-23T23:55:07.186+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>sacrificial fire</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-590a3261-77fa-4470-8a32-6177fae470f3" resp="#CH" tls:created="2022-09-23T23:56:56.234+09:00">
+            <form corresp="#uuid-a4558af1-875f-4e59-8be8-d4c1bbab8376 #uuid-843121ff-f778-4be2-a643-71a2a1dc6acb">
+                <orth>爟火</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guàn huǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwanH xwaX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koons qphaalʔ</pron>
+            </form>
+            <sense xml:id="uuid-69f38f0d-dcc0-4a7b-b38f-0ddcc02a7b75" resp="#CH" tls:created="2022-09-23T23:56:56.234+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>sacrificial fire</def>
+            </sense>
+        </entry>
+    </div>
 </div>

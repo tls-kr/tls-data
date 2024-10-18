@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-994559c9-660e-4651-9e60-c91c7ba01e64">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-994559c9-660e-4651-9e60-c91c7ba01e64">
 <head>ESTIMATE</head>
     <list type="altnames">
 <item>CALCULATE ROUGHLY</item>
@@ -19,7 +20,10 @@
     </list>
 <div type="definition">
 <p>TRY to ASSESS, BELIEVING that one's ASSESSMENTS are PROBABLY ONLY NEARLY:approximately TRUE.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:33:10.163+09:00"><p>TRY to ASSESS SOMETHING ONE BELIEVES IS DOUBTFUL IN DETAIL.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:33:10.163+09:00">
+            <p>TRY to ASSESS SOMETHING ONE BELIEVES IS DOUBTFUL IN DETAIL.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general word for making an approximate extimate or guess is chuǎi 揣.</p>
@@ -194,7 +198,15 @@
                 </gramGrp>
   <def>to estimate; assess objectively the extent of</def>
             </sense>
-<sense xml:id="uuid-4265a4e2-511e-44fb-bfd0-955bd93bff30" resp="#zadrapa" tls:created="2019-10-24T21:14:12.312+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be estimated, predicted</def></sense></entry>
+<sense xml:id="uuid-4265a4e2-511e-44fb-bfd0-955bd93bff30" resp="#zadrapa" tls:created="2019-10-24T21:14:12.312+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be estimated, predicted</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cbf582e3-4e89-43ae-aa5e-39ca0ba2f072">
             <form corresp="#uuid-7847ca58-59db-4081-bbb1-3026356510ec">
 <orth>忖</orth>
@@ -415,5 +427,20 @@
   <def>guess at (other people's thoughts etc)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0f8921ab-8fca-43bf-8921-ab8fca03bfab" resp="#zadrapa" tls:created="2020-06-03T21:01:41.163+09:00"><form corresp="#uuid-e8c79343-e431-4a15-a449-9de8b55c2ef9"><orth>推</orth><pron xml:lang="zh-Latn-x-pinyin">tuī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thwoj</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kh-luul</pron></form><sense xml:id="uuid-d599e6c2-a504-459f-99e6-c2a504759f1b" resp="#zadrapa" tls:created="2020-06-03T21:01:41.163+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>infer, estimate N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0f8921ab-8fca-43bf-8921-ab8fca03bfab" resp="#zadrapa" tls:created="2020-06-03T21:01:41.163+09:00">
+            <form corresp="#uuid-e8c79343-e431-4a15-a449-9de8b55c2ef9">
+                <orth>推</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tuī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thwoj</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kh-luul</pron>
+            </form>
+            <sense xml:id="uuid-d599e6c2-a504-459f-99e6-c2a504759f1b" resp="#zadrapa" tls:created="2020-06-03T21:01:41.163+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>infer, estimate N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

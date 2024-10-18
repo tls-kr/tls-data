@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e054a8e7-fb11-450a-94ab-d51d290376e1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e054a8e7-fb11-450a-94ab-d51d290376e1">
 <head>FALL</head>
     <list type="altnames">
 <item>TUMBLE</item>
@@ -162,7 +163,8 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-77f6b9bd-e500-45dc-b6b9-bde50065dc85">unintended process</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-77f6b9bd-e500-45dc-b6b9-bde50065dc85">unintended process</tls:sem-feat>
+                </gramGrp>
   <def>fall (into something, like well etc.)</def>
             </sense>
 </entry>
@@ -224,7 +226,15 @@
                 </gramGrp>
   <def>be caused to fall &gt; be degraded to, fall into (an abstract place)  allow oneself to fall into or to be trapped in</def>
             </sense>
-<sense xml:id="uuid-0895f7c4-9591-4222-a793-9b59a4a15230" resp="#CH" tls:created="2019-11-08T03:57:42.851+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-82b01bb7-fe03-4df1-b01b-b7fe039df100">from N</tls:sem-feat></gramGrp><def>fall from</def></sense></entry>
+<sense xml:id="uuid-0895f7c4-9591-4222-a793-9b59a4a15230" resp="#CH" tls:created="2019-11-08T03:57:42.851+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-82b01bb7-fe03-4df1-b01b-b7fe039df100">from N</tls:sem-feat>
+                </gramGrp>
+                <def>fall from</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cca29df3-e58c-4d4a-b3d6-417bd3740853">
             <form corresp="#uuid-735eeffc-6812-4d47-8357-4dab666147ee">
 <orth>墜</orth>
@@ -298,7 +308,14 @@
                 </gramGrp>
   <def>drop N1 into N2</def>
             </sense>
-<sense xml:id="uuid-6ec3ce0f-2cfd-4fe7-aeed-cc40f0a5523f" resp="#CH" tls:created="2020-02-05T19:11:13.355+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-12-23T07:37:15.437+09:00">fall into; delve into</def></sense></entry>
+<sense xml:id="uuid-6ec3ce0f-2cfd-4fe7-aeed-cc40f0a5523f" resp="#CH" tls:created="2020-02-05T19:11:13.355+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-12-23T07:37:15.437+09:00">fall into; delve into</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0365e51c-3ff2-42c7-b0a3-f7a764d5be74">
             <form corresp="#uuid-2782924c-f9e3-4724-ba7b-1179a5412254">
 <orth>委</orth>
@@ -454,7 +471,14 @@
                 </gramGrp>
   <def>descend from heaven (the dew of the dharma etc)</def>
             </sense>
-<sense xml:id="uuid-1df63ea5-2c0e-47fe-986f-ad05f9ed9111" resp="#CH" tls:created="2019-11-16T01:44:56.373+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func></gramGrp><def>what falls/goes down ant. 升</def></sense></entry>
+<sense xml:id="uuid-1df63ea5-2c0e-47fe-986f-ad05f9ed9111" resp="#CH" tls:created="2019-11-16T01:44:56.373+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what falls/goes down ant. 升</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b17f8217-4de9-44ea-b79b-a94a5d35a1ff">
             <form corresp="#uuid-32a5e3a6-a0ed-47aa-b025-dee63abaaedb">
 <orth>陷</orth>
@@ -504,7 +528,15 @@
                 </gramGrp>
   <def>fall into</def>
             </sense>
-<sense xml:id="uuid-972a753b-0c6a-42e7-aa75-3b0c6a32e787" resp="#CH" tls:created="2020-04-08T03:45:39.853+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>come to sink so low as to, fall into</def></sense></entry>
+<sense xml:id="uuid-972a753b-0c6a-42e7-aa75-3b0c6a32e787" resp="#CH" tls:created="2020-04-08T03:45:39.853+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>come to sink so low as to, fall into</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-70497768-d1c4-4367-9b5f-2fbe4ffb0954">
             <form corresp="#uuid-9c2175c1-16e0-4fea-9337-6e0b6ab0794d">
 <orth>隕</orth>
@@ -610,5 +642,51 @@
   <def>topple over</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f6cb746b-986c-456e-8b74-6b986c056ece" resp="#CH" tls:created="2020-05-28T00:02:35.794+09:00"><form corresp="#uuid-735eeffc-6812-4d47-8357-4dab666147ee #uuid-6701b548-c1f3-4d2c-96ed-584ae8789f69"><orth>墜入</orth><pron xml:lang="zh-Latn-x-pinyin">zhuì rù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drwijH nyip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrluds njub</pron></form><sense xml:id="uuid-ca4f4bf7-17cc-4281-8f4b-f717ccb281e9" resp="#CH" tls:created="2020-05-28T00:02:35.794+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-05-28T00:03:24.951+09:00">resultative: fall into</def></sense></entry><entry type="word" xml:id="uuid-ead84a8e-0902-4acc-984a-8e09023accb0" resp="#zadrapa" tls:created="2020-12-07T04:30:20.617+09:00"><form corresp="#uuid-28f7e200-9ed0-458d-9c74-cd4dd9f6cf9f #uuid-7348a0b2-0111-4829-8041-12bb02515b21"><orth>下隧</orth><pron xml:lang="zh-Latn-x-pinyin">xià suì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haeH zwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraas sɢluds</pron></form><sense xml:id="uuid-114479b5-53a1-4f86-8479-b553a1af8606" resp="#zadrapa" tls:created="2020-12-07T04:30:20.617+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>(= xia4zhui4 下墜) fall down</def></sense></entry><entry type="word" xml:id="uuid-5f2f2ad9-883e-4dfa-af2a-d9883eedfa4b" resp="#CH" tls:created="2021-06-11T23:28:28.376+09:00"><form corresp="#uuid-264c2382-ec2d-4502-998b-9e48ce2cd916"><orth>隗</orth><pron xml:lang="zh-Latn-x-pinyin">wěi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngwojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡuulʔ</pron></form><sense xml:id="uuid-60fa7b72-67fe-4c47-ba7b-7267fe5c4776" resp="#CH" tls:created="2021-06-11T23:28:28.376+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>topple, fall over, collapse</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f6cb746b-986c-456e-8b74-6b986c056ece" resp="#CH" tls:created="2020-05-28T00:02:35.794+09:00">
+            <form corresp="#uuid-735eeffc-6812-4d47-8357-4dab666147ee #uuid-6701b548-c1f3-4d2c-96ed-584ae8789f69">
+                <orth>墜入</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuì rù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drwijH nyip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrluds njub</pron>
+            </form>
+            <sense xml:id="uuid-ca4f4bf7-17cc-4281-8f4b-f717ccb281e9" resp="#CH" tls:created="2020-05-28T00:02:35.794+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-28T00:03:24.951+09:00">resultative: fall into</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ead84a8e-0902-4acc-984a-8e09023accb0" resp="#zadrapa" tls:created="2020-12-07T04:30:20.617+09:00">
+            <form corresp="#uuid-28f7e200-9ed0-458d-9c74-cd4dd9f6cf9f #uuid-7348a0b2-0111-4829-8041-12bb02515b21">
+                <orth>下隧</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xià suì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haeH zwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraas sɢluds</pron>
+            </form>
+            <sense xml:id="uuid-114479b5-53a1-4f86-8479-b553a1af8606" resp="#zadrapa" tls:created="2020-12-07T04:30:20.617+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>(= xia4zhui4 下墜) fall down</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5f2f2ad9-883e-4dfa-af2a-d9883eedfa4b" resp="#CH" tls:created="2021-06-11T23:28:28.376+09:00">
+            <form corresp="#uuid-264c2382-ec2d-4502-998b-9e48ce2cd916">
+                <orth>隗</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wěi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngwojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡuulʔ</pron>
+            </form>
+            <sense xml:id="uuid-60fa7b72-67fe-4c47-ba7b-7267fe5c4776" resp="#CH" tls:created="2021-06-11T23:28:28.376+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>topple, fall over, collapse</def>
+            </sense>
+        </entry>
+    </div>
 </div>

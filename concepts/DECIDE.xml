@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-358920f0-23f8-49e4-98ee-4a85aad03f0d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-358920f0-23f8-49e4-98ee-4a85aad03f0d">
 <head>DECIDE</head>
     <list type="altnames">
 <item>RESOLVE</item>
@@ -210,7 +211,14 @@
                 </gramGrp>
   <def>decided upon</def>
             </sense>
-<sense xml:id="uuid-bcc1ef64-1e6b-4e3d-aec8-51d21f6ca22c" resp="#CH" tls:created="2020-02-09T19:40:25.883+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>decide on the matter of N</def></sense></entry>
+<sense xml:id="uuid-bcc1ef64-1e6b-4e3d-aec8-51d21f6ca22c" resp="#CH" tls:created="2020-02-09T19:40:25.883+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>decide on the matter of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-32a41546-888a-4963-b3a4-34f90293cad8">
             <form corresp="#uuid-b07eb111-2a86-43f0-a1d7-8e3d85586aba">
 <orth>折</orth>
@@ -294,7 +302,14 @@
                 </gramGrp>
   <def>be decided</def>
             </sense>
-<sense xml:id="uuid-b04c8b4f-e024-4d78-8c8b-4fe0248d7818" resp="#CH" tls:created="2022-08-23T19:57:17.081+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>take final decisions on things</def></sense></entry>
+<sense xml:id="uuid-b04c8b4f-e024-4d78-8c8b-4fe0248d7818" resp="#CH" tls:created="2022-08-23T19:57:17.081+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>take final decisions on things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-df5c2c0f-ce93-4bc6-b139-77bea5440173">
             <form corresp="#uuid-685c4e7a-dba9-4cce-916a-fcfc4f33753d">
 <orth>殷</orth>
@@ -375,7 +390,38 @@
                 </gramGrp>
   <def>be decided</def>
             </sense>
-<sense xml:id="uuid-6f909d5e-46dc-459f-aeb5-12ce1f4b14b8" resp="#CH" tls:created="2019-10-14T19:10:07.822+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>get definitely settled or determined</def></sense><sense xml:id="uuid-2d98880e-cc0f-4da6-9888-0ecc0f6da60e" resp="#CH" tls:created="2020-04-07T20:26:34.76+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>decide intellectual issues</def></sense><sense xml:id="uuid-3ca3c338-6d2b-4545-a3c3-386d2b054518" resp="#CH" tls:created="2020-04-22T17:45:59.705+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>make the decision on the matter with the help of N2</def></sense><sense xml:id="uuid-15f9995d-a055-47b7-b999-5da05567b77f" resp="#zadrapa" tls:created="2021-01-21T21:28:39.01+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-ef863d81-5e5e-4d13-9533-e7b878cc3edc">result</tls:sem-feat></gramGrp><def>decision</def></sense></entry>
+<sense xml:id="uuid-6f909d5e-46dc-459f-aeb5-12ce1f4b14b8" resp="#CH" tls:created="2019-10-14T19:10:07.822+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get definitely settled or determined</def>
+            </sense>
+            <sense xml:id="uuid-2d98880e-cc0f-4da6-9888-0ecc0f6da60e" resp="#CH" tls:created="2020-04-07T20:26:34.76+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>decide intellectual issues</def>
+            </sense>
+            <sense xml:id="uuid-3ca3c338-6d2b-4545-a3c3-386d2b054518" resp="#CH" tls:created="2020-04-22T17:45:59.705+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>make the decision on the matter with the help of N2</def>
+            </sense>
+            <sense xml:id="uuid-15f9995d-a055-47b7-b999-5da05567b77f" resp="#zadrapa" tls:created="2021-01-21T21:28:39.01+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ef863d81-5e5e-4d13-9533-e7b878cc3edc">result</tls:sem-feat>
+                </gramGrp>
+                <def>decision</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0b4d6968-5faa-4db8-a5d3-1b66b574d3a6">
             <form corresp="#uuid-0525cc68-3a6e-42bf-8d90-b8d92cc8de00">
 <orth>睹</orth>
@@ -545,5 +591,98 @@
   <def>make an official decision on a matter and send it down for implementation</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b3f84588-e3d1-4e26-b50f-76187d999341" resp="#zadrapa" tls:created="2020-01-21T23:19:37.292+09:00"><form corresp="#uuid-4b6c4696-ce41-453f-bfcf-37d2f1a41d5e #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>介然</orth><pron xml:lang="zh-Latn-x-pinyin">jiè rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">keajH nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreeds njen</pron></form><sense xml:id="uuid-2567c3af-bd75-4512-8b03-72926b165416" resp="#zadrapa" tls:created="2020-01-21T23:19:37.292+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>decisively, energically, unswayingly</def></sense></entry><entry type="word" xml:id="uuid-d0a3a4ef-7da5-4624-8f07-63c6f4357cac" resp="#CH" tls:created="2020-01-31T17:50:50.253+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-30ea2d75-10d0-4d0f-b117-c8551422131c" resp="#CH" tls:created="2020-01-31T17:50:50.253+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def>written decision by the relevant authorities</def></sense></entry><entry type="word" xml:id="uuid-42885704-f828-4157-8857-04f828915789" resp="#zadrapa" tls:created="2020-06-09T17:55:20.619+09:00"><form corresp="#uuid-dea60bcb-4495-4d8d-a614-9483bbe91975"><orth>分</orth><pron xml:lang="zh-Latn-x-pinyin">fēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯn</pron></form><sense xml:id="uuid-d18cde05-8743-4cba-8cde-058743bcba50" resp="#zadrapa" tls:created="2020-06-09T17:55:20.619+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func></gramGrp><def>decide, settle (e.g. a dispute)</def></sense></entry><entry type="word" xml:id="uuid-31cba134-dcf0-4152-8ba1-34dcf02152be" resp="#zadrapa" tls:created="2020-06-18T16:29:18.48+09:00"><form corresp="#uuid-ec02671b-aa33-42fb-867f-918a21965c71 #uuid-1cdb3d34-31dc-4fd9-81a0-4f088c6bc318"><orth>聽斷</orth><pron xml:lang="zh-Latn-x-pinyin">tìng duàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thengH twanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">theeŋs toons</pron></form><sense xml:id="uuid-56c44b70-faa2-41ab-844b-70faa251ab7e" resp="#zadrapa" tls:created="2020-06-18T16:29:18.48+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2020-06-18T16:29:42.373+09:00">DELETE public decision-making</def></sense><sense xml:id="uuid-c7bdb26c-7e0d-43af-bdb2-6c7e0d13af8b" resp="#zadrapa" tls:created="2020-06-18T16:30:25.253+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>public decision-making, executive administration of public affairs</def></sense><sense xml:id="uuid-522e5138-527c-4ccb-ae51-38527c1ccba3" resp="#zadrapa" tls:created="2022-05-27T01:43:07.456+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>engage in public decision-making, administrate public affairs</def></sense></entry><entry type="word" xml:id="uuid-2e121b3c-c4e3-4349-921b-3cc4e3734926" resp="#CH" tls:created="2022-08-08T16:14:51.066+09:00"><form corresp="#uuid-f3025343-46bf-4708-92da-22acc34154dc"><orth>制</orth><pron xml:lang="zh-Latn-x-pinyin">zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyejH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-d0e91807-d90f-4077-a918-07d90f407740" resp="#CH" tls:created="2022-08-08T16:14:51.066+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-560cb91b-a3e4-4c28-9194-1663b7e63795">official</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-23T19:58:32.654+09:00">take administrative decisions on things; make official decisions; determine official action</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b3f84588-e3d1-4e26-b50f-76187d999341" resp="#zadrapa" tls:created="2020-01-21T23:19:37.292+09:00">
+            <form corresp="#uuid-4b6c4696-ce41-453f-bfcf-37d2f1a41d5e #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>介然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiè rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">keajH nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreeds njen</pron>
+            </form>
+            <sense xml:id="uuid-2567c3af-bd75-4512-8b03-72926b165416" resp="#zadrapa" tls:created="2020-01-21T23:19:37.292+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>decisively, energically, unswayingly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d0a3a4ef-7da5-4624-8f07-63c6f4357cac" resp="#CH" tls:created="2020-01-31T17:50:50.253+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-30ea2d75-10d0-4d0f-b117-c8551422131c" resp="#CH" tls:created="2020-01-31T17:50:50.253+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def>written decision by the relevant authorities</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-42885704-f828-4157-8857-04f828915789" resp="#zadrapa" tls:created="2020-06-09T17:55:20.619+09:00">
+            <form corresp="#uuid-dea60bcb-4495-4d8d-a614-9483bbe91975">
+                <orth>分</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯn</pron>
+            </form>
+            <sense xml:id="uuid-d18cde05-8743-4cba-8cde-058743bcba50" resp="#zadrapa" tls:created="2020-06-09T17:55:20.619+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                </gramGrp>
+                <def>decide, settle (e.g. a dispute)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-31cba134-dcf0-4152-8ba1-34dcf02152be" resp="#zadrapa" tls:created="2020-06-18T16:29:18.48+09:00">
+            <form corresp="#uuid-ec02671b-aa33-42fb-867f-918a21965c71 #uuid-1cdb3d34-31dc-4fd9-81a0-4f088c6bc318">
+                <orth>聽斷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tìng duàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thengH twanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">theeŋs toons</pron>
+            </form>
+            <sense xml:id="uuid-56c44b70-faa2-41ab-844b-70faa251ab7e" resp="#zadrapa" tls:created="2020-06-18T16:29:18.48+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-06-18T16:29:42.373+09:00">DELETE public decision-making</def>
+            </sense>
+            <sense xml:id="uuid-c7bdb26c-7e0d-43af-bdb2-6c7e0d13af8b" resp="#zadrapa" tls:created="2020-06-18T16:30:25.253+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>public decision-making, executive administration of public affairs</def>
+            </sense>
+            <sense xml:id="uuid-522e5138-527c-4ccb-ae51-38527c1ccba3" resp="#zadrapa" tls:created="2022-05-27T01:43:07.456+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>engage in public decision-making, administrate public affairs</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2e121b3c-c4e3-4349-921b-3cc4e3734926" resp="#CH" tls:created="2022-08-08T16:14:51.066+09:00">
+            <form corresp="#uuid-f3025343-46bf-4708-92da-22acc34154dc">
+                <orth>制</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyejH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-d0e91807-d90f-4077-a918-07d90f407740" resp="#CH" tls:created="2022-08-08T16:14:51.066+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-560cb91b-a3e4-4c28-9194-1663b7e63795">official</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-23T19:58:32.654+09:00">take administrative decisions on things; make official decisions; determine official action</def>
+            </sense>
+        </entry>
+    </div>
 </div>

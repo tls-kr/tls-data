@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-99d50267-f112-4b2e-ac96-d8a1b59aa1ad">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-99d50267-f112-4b2e-ac96-d8a1b59aa1ad">
 <head>TEACHER</head>
     <list type="altnames">
 <item>EDUCATOR</item>
@@ -205,7 +206,14 @@
                 </gramGrp>
   <def>act as tutor for</def>
             </sense>
-<sense xml:id="uuid-9640ada3-e213-416f-80ad-a3e213616f75" resp="#CH" tls:created="2020-05-18T06:26:29.051+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>tutor of N</def></sense></entry>
+<sense xml:id="uuid-9640ada3-e213-416f-80ad-a3e213616f75" resp="#CH" tls:created="2020-05-18T06:26:29.051+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>tutor of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-860895e1-64bc-4e65-96ed-727d144899a2">
             <form corresp="#uuid-ced434ff-6a1b-4f45-880b-2c43694ddd16">
 <orth>妿</orth>
@@ -256,7 +264,22 @@
                 </gramGrp>
   <def>our master??? 子墨子</def>
             </sense>
-<sense xml:id="uuid-a8cad96b-fe2e-434d-a879-79853124b26c" resp="#CH" tls:created="2020-01-01T22:16:34.657+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>masters</def></sense><sense xml:id="uuid-0e028bd7-bd34-453d-828b-d7bd34b53da1" resp="#dsehnal" tls:created="2021-12-20T22:37:18.954+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func></gramGrp><def>master Npr; teacher Npr</def></sense></entry>
+<sense xml:id="uuid-a8cad96b-fe2e-434d-a879-79853124b26c" resp="#CH" tls:created="2020-01-01T22:16:34.657+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>masters</def>
+            </sense>
+            <sense xml:id="uuid-0e028bd7-bd34-453d-828b-d7bd34b53da1" resp="#dsehnal" tls:created="2021-12-20T22:37:18.954+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func>
+                </gramGrp>
+                <def>master Npr; teacher Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d8b72e93-fc8e-43a3-a70b-a91e992ca38d">
             <form corresp="#uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
 <orth>師</orth>
@@ -333,7 +356,35 @@
                 </gramGrp>
   <def>take as your guide (your own mind/attitudes/prejudices etc)</def>
             </sense>
-<sense xml:id="uuid-b7528959-829f-48d6-a86f-1b0acf3e34f2" resp="#CH" tls:created="2020-01-23T05:56:36.413+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def resp="#CH" updated="2020-01-23T19:23:19.183+09:00">the teacher of the contextually determinate N</def></sense><sense xml:id="uuid-21cd94ff-3710-4971-82e4-848b3f3f5268" resp="#CH" tls:created="2020-01-23T05:58:53.418+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the teacher of the contextually determinate N</def></sense><sense xml:id="uuid-a7d61868-f03e-4050-9618-68f03e605012" resp="#zadrapa" tls:created="2020-05-20T23:25:30.751+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def resp="#CH" updated="2023-07-28T04:39:54.549+09:00">one's teacher; one's own teacher</def></sense><sense xml:id="uuid-55dfec96-74f2-4a24-9fec-9674f24a24be" resp="#zadrapa" tls:created="2020-05-27T22:01:10.348+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-802ebfcb-73a2-433e-a388-9d668f79d737">n(adN)</tls:syn-func></gramGrp><def>teacher's contextually determinate feature N</def></sense></entry>
+<sense xml:id="uuid-b7528959-829f-48d6-a86f-1b0acf3e34f2" resp="#CH" tls:created="2020-01-23T05:56:36.413+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-01-23T19:23:19.183+09:00">the teacher of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-21cd94ff-3710-4971-82e4-848b3f3f5268" resp="#CH" tls:created="2020-01-23T05:58:53.418+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the teacher of the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-a7d61868-f03e-4050-9618-68f03e605012" resp="#zadrapa" tls:created="2020-05-20T23:25:30.751+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-28T04:39:54.549+09:00">one's teacher; one's own teacher</def>
+            </sense>
+            <sense xml:id="uuid-55dfec96-74f2-4a24-9fec-9674f24a24be" resp="#zadrapa" tls:created="2020-05-27T22:01:10.348+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-802ebfcb-73a2-433e-a388-9d668f79d737">n(adN)</tls:syn-func>
+                </gramGrp>
+                <def>teacher's contextually determinate feature N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-182d95e6-b641-405b-b166-e5b9efa88749">
             <form corresp="#uuid-de384d51-47f4-44d9-8910-20aef1caaded">
 <orth>生</orth>
@@ -539,7 +590,21 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-07-26T21:14:13.817+09:00">the teacher; some teacher</def>
             </sense>
-<sense xml:id="uuid-c993b527-bbe7-4b7c-aa1a-87179834d90d" resp="#CH" tls:created="2019-10-18T21:52:26.228+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP(post-N) </tls:syn-func></gramGrp><def>one's teacher</def></sense><sense xml:id="uuid-ec4ff77a-b41b-4f83-844e-293c3e28af8e" resp="#CH" tls:created="2019-11-29T00:44:37.288+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPpost</tls:syn-func></gramGrp><def>the teacher who is an N</def></sense></entry>
+<sense xml:id="uuid-c993b527-bbe7-4b7c-aa1a-87179834d90d" resp="#CH" tls:created="2019-10-18T21:52:26.228+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP(post-N) </tls:syn-func>
+                </gramGrp>
+                <def>one's teacher</def>
+            </sense>
+            <sense xml:id="uuid-ec4ff77a-b41b-4f83-844e-293c3e28af8e" resp="#CH" tls:created="2019-11-29T00:44:37.288+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPpost</tls:syn-func>
+                </gramGrp>
+                <def>the teacher who is an N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-336e5968-d9aa-4e5f-bd55-bb7b1066237c">
             <form corresp="#uuid-ba086483-4a6c-43de-800a-e37e8258b43a #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
 <orth>國師</orth>
@@ -719,7 +784,15 @@
                 </gramGrp>
   <def>somebody like the Master</def>
             </sense>
-<sense xml:id="uuid-ec63d91d-1b88-4e2a-a3d9-1d1b884e2aa0" resp="#CH" tls:created="2021-03-16T19:21:48.663+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-d79cbc08-56fd-4cf7-9cbc-0856fd4cf726">not ours</tls:sem-feat></gramGrp><def>the master (of the others)</def></sense></entry>
+<sense xml:id="uuid-ec63d91d-1b88-4e2a-a3d9-1d1b884e2aa0" resp="#CH" tls:created="2021-03-16T19:21:48.663+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d79cbc08-56fd-4cf7-9cbc-0856fd4cf726">not ours</tls:sem-feat>
+                </gramGrp>
+                <def>the master (of the others)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7ee454ba-53af-4bda-bf50-72c864f539bb">
             <form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
 <orth>天師</orth>
@@ -1074,5 +1147,51 @@
   <def>BUDDH: person of virtuous conduct, able to guide other people &gt; spiritual mentor, teacher; SANSKRIT kalyāṇamitra, PALI kalyāṇa-mitta; see 善知識</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8295eb5a-2652-4025-98c7-54862f52e5f4" resp="#CH" tls:created="2019-12-31T20:20:45.143+09:00"><form corresp="#uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c #uuid-d456ee65-ac5a-4d68-82a3-1098ad937652"><orth>師傅</orth><pron xml:lang="zh-Latn-x-pinyin">shī fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">srij pjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sril paɡs</pron></form><sense xml:id="uuid-ac0ff299-5942-4ef5-8d3c-7f92ff34c4b0" resp="#CH" tls:created="2019-12-31T20:20:45.143+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2022-07-25T22:46:11.118+09:00">professional teacher, employed master or professor</def></sense></entry><entry type="word" xml:id="uuid-aa0bea14-572e-45c8-8bea-14572ed5c8a4" resp="#dsehnal" tls:created="2021-05-03T04:52:03.723+09:00"><form corresp="#uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c #uuid-74abbef6-ebd5-4561-8d34-65cf258f7e71"><orth>師資</orth><pron xml:lang="zh-Latn-x-pinyin">shī zī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">srij tsij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sril sti</pron></form><sense xml:id="uuid-a9fc1fa9-5ede-4895-bc1f-a95ede48950b" resp="#dsehnal" tls:created="2021-05-03T04:52:03.723+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func><tls:sem-feat corresp="#uuid-7579a42d-5694-455f-917c-626d5918a255">relational</tls:sem-feat></gramGrp><def>relation between teacher and student</def></sense></entry><entry type="word" xml:id="uuid-8d8b711c-a1bd-48dd-8b71-1ca1bd18dd62" resp="#dsehnal" tls:created="2021-05-27T00:51:53.078+09:00"><form corresp="#uuid-8840febf-a68a-4d05-b42d-4681834b0dea #uuid-d456ee65-ac5a-4d68-82a3-1098ad937652"><orth>太傅</orth><pron xml:lang="zh-Latn-x-pinyin">tài fù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thajH pjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thaads paɡs</pron></form><sense xml:id="uuid-e52fc8f0-fb2e-4c01-afc8-f0fb2e7c0144" resp="#dsehnal" tls:created="2021-05-27T00:51:53.078+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d0e1655f-4b4e-4303-95f7-82b1e14a5931">NPpost-Npr</tls:syn-func></gramGrp><def>royal mentor Npr</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-8295eb5a-2652-4025-98c7-54862f52e5f4" resp="#CH" tls:created="2019-12-31T20:20:45.143+09:00">
+            <form corresp="#uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c #uuid-d456ee65-ac5a-4d68-82a3-1098ad937652">
+                <orth>師傅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shī fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srij pjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sril paɡs</pron>
+            </form>
+            <sense xml:id="uuid-ac0ff299-5942-4ef5-8d3c-7f92ff34c4b0" resp="#CH" tls:created="2019-12-31T20:20:45.143+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-07-25T22:46:11.118+09:00">professional teacher, employed master or professor</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-aa0bea14-572e-45c8-8bea-14572ed5c8a4" resp="#dsehnal" tls:created="2021-05-03T04:52:03.723+09:00">
+            <form corresp="#uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c #uuid-74abbef6-ebd5-4561-8d34-65cf258f7e71">
+                <orth>師資</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shī zī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srij tsij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sril sti</pron>
+            </form>
+            <sense xml:id="uuid-a9fc1fa9-5ede-4895-bc1f-a95ede48950b" resp="#dsehnal" tls:created="2021-05-03T04:52:03.723+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8e2b4b11-ecda-4d61-864f-20e28f6cabe5">NPab.adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7579a42d-5694-455f-917c-626d5918a255">relational</tls:sem-feat>
+                </gramGrp>
+                <def>relation between teacher and student</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8d8b711c-a1bd-48dd-8b71-1ca1bd18dd62" resp="#dsehnal" tls:created="2021-05-27T00:51:53.078+09:00">
+            <form corresp="#uuid-8840febf-a68a-4d05-b42d-4681834b0dea #uuid-d456ee65-ac5a-4d68-82a3-1098ad937652">
+                <orth>太傅</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tài fù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thajH pjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thaads paɡs</pron>
+            </form>
+            <sense xml:id="uuid-e52fc8f0-fb2e-4c01-afc8-f0fb2e7c0144" resp="#dsehnal" tls:created="2021-05-27T00:51:53.078+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d0e1655f-4b4e-4303-95f7-82b1e14a5931">NPpost-Npr</tls:syn-func>
+                </gramGrp>
+                <def>royal mentor Npr</def>
+            </sense>
+        </entry>
+    </div>
 </div>

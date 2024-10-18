@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e9cc1a75-2d2f-4442-9061-a1deb8ac5390">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e9cc1a75-2d2f-4442-9061-a1deb8ac5390">
 <head>ORDERLY</head>
     <list type="altnames">
 <item>NEAT</item>
@@ -159,7 +160,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-ee84e7d3-2088-4f9c-9f41-9d0b19295ce8">
-            <form corresp="#uuid-e82d1b24-2217-4009-ad1b-242217b00998"><orth>治</orth><pron xml:lang="zh-Latn-x-pinyin">chí/zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-e82d1b24-2217-4009-ad1b-242217b00998">
+                <orth>治</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chí/zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-e7bb56f3-ea89-477a-b48a-e54279c8b894">
 <gramGrp>
                     <pos>V</pos>
@@ -175,7 +181,22 @@
                 </gramGrp>
   <def>make orderly, sort out properly</def>
             </sense>
-<sense xml:id="uuid-84fbc4e6-0426-45b9-bbc4-e60426a5b99d" resp="#Valerie.Kiel" tls:created="2022-09-14T22:14:38.712+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>to be in order, to be well taken care of</def></sense><sense xml:id="uuid-17230784-bd4d-46d8-a307-84bd4d56d854" resp="#dsehnal" tls:created="2023-05-13T17:06:57.665+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-05-13T17:17:38.154+09:00">zhì: proper order of things</def></sense></entry>
+<sense xml:id="uuid-84fbc4e6-0426-45b9-bbc4-e60426a5b99d" resp="#Valerie.Kiel" tls:created="2022-09-14T22:14:38.712+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>to be in order, to be well taken care of</def>
+            </sense>
+            <sense xml:id="uuid-17230784-bd4d-46d8-a307-84bd4d56d854" resp="#dsehnal" tls:created="2023-05-13T17:06:57.665+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-05-13T17:17:38.154+09:00">zhì: proper order of things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-95fa2b31-a7d4-44a1-bf37-33f088288d39">
             <form corresp="#uuid-f9950fcb-7763-41be-a0d9-6cad1541b6e6">
 <orth>治</orth>
@@ -233,7 +254,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2019-12-14T02:38:29.65+09:00">read chí: get into working order, cause to be in working order</def>
             </sense>
-<sense xml:id="uuid-72ae0686-90e3-417c-a5bd-d6a71b6609e8" resp="#CH" tls:created="2019-12-14T02:33:16.053+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def resp="#CH" updated="2019-12-14T02:37:28.421+09:00">read chí: reduce the contextually determinate N to order</def></sense></entry>
+<sense xml:id="uuid-72ae0686-90e3-417c-a5bd-d6a71b6609e8" resp="#CH" tls:created="2019-12-14T02:33:16.053+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2019-12-14T02:37:28.421+09:00">read chí: reduce the contextually determinate N to order</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-434e5e90-f68b-4495-9c94-9d9f9262d635">
             <form corresp="#uuid-ea27363b-f315-43e7-a39e-a781fed6ad25 #uuid-c9496bdb-54b5-44cd-bf06-271f4e8abfa2">
 <orth>布置</orth>
@@ -303,20 +332,247 @@
             </form>
 
 </entry>
-    <entry type="word" xml:id="uuid-beba9933-f0bd-42e2-b7e4-f01a4bdfcf67" resp="#CH" tls:created="2019-10-20T17:04:52.997+09:00"><form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102"><orth>敘</orth><pron xml:lang="zh-Latn-x-pinyin">xù
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ
-</pron></form><sense xml:id="uuid-25e1599a-b2d3-41fe-b56a-4867bd9c5b0d" resp="#CH" tls:created="2019-10-20T17:04:52.997+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>proper good order</def></sense></entry><entry type="word" xml:id="uuid-38052dc4-1cdf-46d9-9c7f-f5cbdcbb3a5b" resp="#CH" tls:created="2019-10-20T17:05:01.618+09:00"><form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102"><orth>敘</orth><pron xml:lang="zh-Latn-x-pinyin">xù
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ
-</pron></form><sense xml:id="uuid-4dab4669-ea59-4163-94df-b6608079b833" resp="#CH" tls:created="2019-10-20T17:05:01.618+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>proper good order</def></sense></entry><entry type="word" xml:id="uuid-4b2750bf-39cd-415d-844c-c03a814bb5f0" resp="#CH" tls:created="2019-10-20T17:05:01.832+09:00"><form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102"><orth>敘</orth><pron xml:lang="zh-Latn-x-pinyin">xù
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ
-</pron></form><sense xml:id="uuid-c63c41d1-5655-4296-a6f9-7964b82df189" resp="#CH" tls:created="2019-10-20T17:05:01.832+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>proper good order</def></sense></entry><entry type="word" xml:id="uuid-4e40a7fd-98ae-4263-98f7-537fa38f9689" resp="#CH" tls:created="2019-12-05T04:30:13.131+09:00"><form corresp="#uuid-7ab3e826-29ba-45be-8d0c-4d4619938591"><orth>理</orth><pron xml:lang="zh-Latn-x-pinyin">lǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">liX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ</pron></form><sense xml:id="uuid-52396995-4e4d-4196-a752-a902609ee976" resp="#CH" tls:created="2019-12-05T04:30:13.131+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-27T18:11:47.854+09:00">be well-ordered, be properly taken care of; be intellectually well-sorted out</def></sense><sense xml:id="uuid-de866f8f-ba0a-4483-866f-8fba0a94838e" resp="#zadrapa" tls:created="2021-06-22T15:28:42.81+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>order, proper arrangement</def></sense><sense xml:id="uuid-46f67918-1183-4f71-b679-181183df7161" resp="#CH" tls:created="2022-08-27T17:15:17.701+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>sort out in a principled way</def></sense></entry><entry type="word" xml:id="uuid-fed60bab-61d9-448b-840e-e6054bf4f97b" resp="#CH" tls:created="2019-12-18T23:15:44.066+09:00"><form corresp="#uuid-bdc7ae89-62d6-456d-b3a5-5c8bb0379654 #uuid-7ab3e826-29ba-45be-8d0c-4d4619938591"><orth>整理</orth><pron xml:lang="zh-Latn-x-pinyin">zhěng lǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyengX liX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋʔ ɡ-rɯʔ</pron></form><sense xml:id="uuid-b8da6f6f-bb3b-4c87-bb47-f29043a9c32e" resp="#CH" tls:created="2019-12-18T23:15:44.066+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>also with preposed object: take proper care of, put in proper order</def></sense></entry><entry type="word" xml:id="uuid-c664fcac-cb97-49fa-8ce0-ae07af3a51d1" resp="#CH" tls:created="2020-02-09T01:44:06.248+09:00"><form corresp="#uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102"><orth>秩敘</orth><pron xml:lang="zh-Latn-x-pinyin">zhì xù
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drit zjoX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rliɡ ljaʔ
-</pron></form><sense xml:id="uuid-8ccd6791-be5c-4566-9445-61b984ce2604" resp="#CH" tls:created="2020-02-09T01:44:06.248+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>proper order; proper hierarchy</def></sense></entry><entry type="word" xml:id="uuid-3590f75f-52ed-4841-b761-481ac165f476" resp="#CH" tls:created="2020-02-10T01:44:22.191+09:00"><form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991 #uuid-f9f1722d-0962-4503-91cd-900ba7250d07"><orth>有條</orth><pron xml:lang="zh-Latn-x-pinyin">yǒu tiáo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX dew</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ ɡ-lɯɯw</pron></form><sense xml:id="uuid-86b90030-24fc-444a-a29d-d45eb917dcea" resp="#CH" tls:created="2020-02-10T01:44:22.191+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>have a point; be reasonable</def></sense></entry><entry type="word" xml:id="uuid-fb50341a-78f4-4c94-9034-1a78f4cc9460" resp="#CH" tls:created="2020-03-11T16:53:04.151+09:00"><form corresp="#uuid-af714bc1-f80a-4bfe-9123-1eea274949a8"><orth>振</orth><pron xml:lang="zh-Latn-x-pinyin">zhèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯns</pron></form><sense xml:id="uuid-817e8125-55a1-4eb9-be81-2555a16eb99f" resp="#CH" tls:created="2020-03-11T16:53:04.151+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>arrange properly</def></sense></entry><entry type="word" xml:id="uuid-9f7a8196-fd6f-4122-ba81-96fd6f1122b7"><form><orth>治</orth><pron xml:lang="zh-Latn-x-pinyin">zhì</pron></form><def/><sense xml:id="uuid-08f8dc5c-fea4-45c5-b8dc-5cfea455c542" resp="#CH" tls:created="2020-05-06T16:49:51.932+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-143fa3bc-ab5c-475b-873f-8c1b38deb26c">V=active</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2020-06-22T04:38:32.504+09:00">engaged in good government, governing well, "politically" decent; also: conducive to good government</def></sense><sense xml:id="uuid-9c6dd11a-4731-48cb-add1-1a473108cb24" resp="#zadrapa" tls:created="2020-12-17T00:06:44.783+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>what is polictically decent; what is conducive to good government</def></sense></entry><entry type="word" xml:id="uuid-57ff448c-1803-433b-bf44-8c1803e33bb0" resp="#zadrapa" tls:created="2020-05-20T18:23:16.157+09:00"><form corresp="#uuid-f9950fcb-7763-41be-a0d9-6cad1541b6e6 #uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1"><orth>治達</orth><pron xml:lang="zh-Latn-x-pinyin">zhì dá
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drijH dat
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlils daad
-</pron></form><sense xml:id="uuid-59ceb0a3-75a0-40a4-8eb0-a375a020a4ef" resp="#zadrapa" tls:created="2020-05-20T18:23:16.157+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be well-ordered and successful</def></sense></entry><entry type="word" xml:id="uuid-0018de6e-fc01-4cc1-98de-6efc01dcc1f9" resp="#zadrapa" tls:created="2020-06-22T22:09:39.501+09:00"><form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81 #uuid-10fb68e2-dc00-4a86-8e11-c3a5e8b4ecd1"><orth>治辨</orth><pron xml:lang="zh-Latn-x-pinyin">chí bàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dri beanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯ breens</pron></form><sense xml:id="uuid-d6fd8159-380b-4f6c-bd81-59380bbf6cc6" resp="#zadrapa" tls:created="2020-06-22T22:09:39.501+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-06e9e47b-8655-437d-8555-381c423ab5fe">disposition/action</tls:sem-feat></gramGrp><def>(capable of) handling affairs appropriately</def></sense><sense xml:id="uuid-e99c3b6a-69d3-44bb-9c3b-6a69d334bb74" resp="#zadrapa" tls:created="2021-06-07T04:47:12.76+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>appropriate handling of affairs</def></sense></entry><entry type="word" xml:id="uuid-45d6b8f8-fcd4-4975-96b8-f8fcd4297558" resp="#zadrapa" tls:created="2021-01-24T04:25:20.682+09:00"><form corresp="#uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-4794a71a-8096-4dc9-a55a-ac8708974d84"><orth>秩秩焉</orth><pron xml:lang="zh-Latn-x-pinyin">zhì zhì yān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drit drit hjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rliɡ rliɡ ɢan</pron></form><sense xml:id="uuid-1a79b765-9920-4d4b-b9b7-6599209d4b41" resp="#zadrapa" tls:created="2021-01-24T04:25:20.682+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>in a completely orderly fashion</def></sense></entry><entry type="word" xml:id="uuid-9404cb7f-fd44-4289-84cb-7ffd44928901" resp="#zadrapa" tls:created="2021-06-22T15:53:18.017+09:00"><form corresp="#uuid-88e97a21-2edf-49b4-84ad-fe8e6f4b6ad2 #uuid-88e97a21-2edf-49b4-84ad-fe8e6f4b6ad2"><orth>井井</orth><pron xml:lang="zh-Latn-x-pinyin">jǐng jǐng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skeŋʔ skeŋʔ</pron></form><sense xml:id="uuid-0678ae8b-23e0-4c14-b8ae-8b23e0ac141d" resp="#zadrapa" tls:created="2021-06-22T15:53:18.017+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func></gramGrp><def>evokes the idea of perfect orderliness</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-beba9933-f0bd-42e2-b7e4-f01a4bdfcf67" resp="#CH" tls:created="2019-10-20T17:04:52.997+09:00">
+            <form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102">
+                <orth>敘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xù
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-25e1599a-b2d3-41fe-b56a-4867bd9c5b0d" resp="#CH" tls:created="2019-10-20T17:04:52.997+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>proper good order</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-38052dc4-1cdf-46d9-9c7f-f5cbdcbb3a5b" resp="#CH" tls:created="2019-10-20T17:05:01.618+09:00">
+            <form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102">
+                <orth>敘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xù
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-4dab4669-ea59-4163-94df-b6608079b833" resp="#CH" tls:created="2019-10-20T17:05:01.618+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>proper good order</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4b2750bf-39cd-415d-844c-c03a814bb5f0" resp="#CH" tls:created="2019-10-20T17:05:01.832+09:00">
+            <form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102">
+                <orth>敘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xù
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjoX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ljaʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-c63c41d1-5655-4296-a6f9-7964b82df189" resp="#CH" tls:created="2019-10-20T17:05:01.832+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>proper good order</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4e40a7fd-98ae-4263-98f7-537fa38f9689" resp="#CH" tls:created="2019-12-05T04:30:13.131+09:00">
+            <form corresp="#uuid-7ab3e826-29ba-45be-8d0c-4d4619938591">
+                <orth>理</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">liX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-52396995-4e4d-4196-a752-a902609ee976" resp="#CH" tls:created="2019-12-05T04:30:13.131+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-27T18:11:47.854+09:00">be well-ordered, be properly taken care of; be intellectually well-sorted out</def>
+            </sense>
+            <sense xml:id="uuid-de866f8f-ba0a-4483-866f-8fba0a94838e" resp="#zadrapa" tls:created="2021-06-22T15:28:42.81+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>order, proper arrangement</def>
+            </sense>
+            <sense xml:id="uuid-46f67918-1183-4f71-b679-181183df7161" resp="#CH" tls:created="2022-08-27T17:15:17.701+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>sort out in a principled way</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fed60bab-61d9-448b-840e-e6054bf4f97b" resp="#CH" tls:created="2019-12-18T23:15:44.066+09:00">
+            <form corresp="#uuid-bdc7ae89-62d6-456d-b3a5-5c8bb0379654 #uuid-7ab3e826-29ba-45be-8d0c-4d4619938591">
+                <orth>整理</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhěng lǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyengX liX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjeŋʔ ɡ-rɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-b8da6f6f-bb3b-4c87-bb47-f29043a9c32e" resp="#CH" tls:created="2019-12-18T23:15:44.066+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>also with preposed object: take proper care of, put in proper order</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c664fcac-cb97-49fa-8ce0-ae07af3a51d1" resp="#CH" tls:created="2020-02-09T01:44:06.248+09:00">
+            <form corresp="#uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102">
+                <orth>秩敘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì xù
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drit zjoX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rliɡ ljaʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-8ccd6791-be5c-4566-9445-61b984ce2604" resp="#CH" tls:created="2020-02-09T01:44:06.248+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>proper order; proper hierarchy</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3590f75f-52ed-4841-b761-481ac165f476" resp="#CH" tls:created="2020-02-10T01:44:22.191+09:00">
+            <form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991 #uuid-f9f1722d-0962-4503-91cd-900ba7250d07">
+                <orth>有條</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒu tiáo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX dew</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ ɡ-lɯɯw</pron>
+            </form>
+            <sense xml:id="uuid-86b90030-24fc-444a-a29d-d45eb917dcea" resp="#CH" tls:created="2020-02-10T01:44:22.191+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>have a point; be reasonable</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fb50341a-78f4-4c94-9034-1a78f4cc9460" resp="#CH" tls:created="2020-03-11T16:53:04.151+09:00">
+            <form corresp="#uuid-af714bc1-f80a-4bfe-9123-1eea274949a8">
+                <orth>振</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯns</pron>
+            </form>
+            <sense xml:id="uuid-817e8125-55a1-4eb9-be81-2555a16eb99f" resp="#CH" tls:created="2020-03-11T16:53:04.151+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>arrange properly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9f7a8196-fd6f-4122-ba81-96fd6f1122b7">
+            <form>
+                <orth>治</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-08f8dc5c-fea4-45c5-b8dc-5cfea455c542" resp="#CH" tls:created="2020-05-06T16:49:51.932+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-143fa3bc-ab5c-475b-873f-8c1b38deb26c">V=active</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-06-22T04:38:32.504+09:00">engaged in good government, governing well, "politically" decent; also: conducive to good government</def>
+            </sense>
+            <sense xml:id="uuid-9c6dd11a-4731-48cb-add1-1a473108cb24" resp="#zadrapa" tls:created="2020-12-17T00:06:44.783+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>what is polictically decent; what is conducive to good government</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-57ff448c-1803-433b-bf44-8c1803e33bb0" resp="#zadrapa" tls:created="2020-05-20T18:23:16.157+09:00">
+            <form corresp="#uuid-f9950fcb-7763-41be-a0d9-6cad1541b6e6 #uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
+                <orth>治達</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì dá
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drijH dat
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlils daad
+</pron>
+            </form>
+            <sense xml:id="uuid-59ceb0a3-75a0-40a4-8eb0-a375a020a4ef" resp="#zadrapa" tls:created="2020-05-20T18:23:16.157+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be well-ordered and successful</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0018de6e-fc01-4cc1-98de-6efc01dcc1f9" resp="#zadrapa" tls:created="2020-06-22T22:09:39.501+09:00">
+            <form corresp="#uuid-06d2e406-99c3-4bfc-a63a-d2ddcecdab81 #uuid-10fb68e2-dc00-4a86-8e11-c3a5e8b4ecd1">
+                <orth>治辨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chí bàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dri beanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rlɯ breens</pron>
+            </form>
+            <sense xml:id="uuid-d6fd8159-380b-4f6c-bd81-59380bbf6cc6" resp="#zadrapa" tls:created="2020-06-22T22:09:39.501+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-06e9e47b-8655-437d-8555-381c423ab5fe">disposition/action</tls:sem-feat>
+                </gramGrp>
+                <def>(capable of) handling affairs appropriately</def>
+            </sense>
+            <sense xml:id="uuid-e99c3b6a-69d3-44bb-9c3b-6a69d334bb74" resp="#zadrapa" tls:created="2021-06-07T04:47:12.76+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>appropriate handling of affairs</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-45d6b8f8-fcd4-4975-96b8-f8fcd4297558" resp="#zadrapa" tls:created="2021-01-24T04:25:20.682+09:00">
+            <form corresp="#uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-af0e49e3-8215-4cd9-a90d-fb9d418cca3a #uuid-4794a71a-8096-4dc9-a55a-ac8708974d84">
+                <orth>秩秩焉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì zhì yān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drit drit hjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rliɡ rliɡ ɢan</pron>
+            </form>
+            <sense xml:id="uuid-1a79b765-9920-4d4b-b9b7-6599209d4b41" resp="#zadrapa" tls:created="2021-01-24T04:25:20.682+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>in a completely orderly fashion</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9404cb7f-fd44-4289-84cb-7ffd44928901" resp="#zadrapa" tls:created="2021-06-22T15:53:18.017+09:00">
+            <form corresp="#uuid-88e97a21-2edf-49b4-84ad-fe8e6f4b6ad2 #uuid-88e97a21-2edf-49b4-84ad-fe8e6f4b6ad2">
+                <orth>井井</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jǐng jǐng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skeŋʔ skeŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-0678ae8b-23e0-4c14-b8ae-8b23e0ac141d" resp="#zadrapa" tls:created="2021-06-22T15:53:18.017+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                </gramGrp>
+                <def>evokes the idea of perfect orderliness</def>
+            </sense>
+        </entry>
+    </div>
 </div>

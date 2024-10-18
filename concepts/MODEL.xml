@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6b3b4d30-99e1-4c5a-917a-74cdf593a5ee">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6b3b4d30-99e1-4c5a-917a-74cdf593a5ee">
 <head>MODEL</head>
     <list type="altnames">
 <item>PROTOTYPE</item>
@@ -170,7 +171,21 @@
                 </gramGrp>
   <def>model</def>
             </sense>
-<sense xml:id="uuid-95a50a71-2401-41c1-b19f-b97c8c6fc30f" resp="#CH" tls:created="2020-02-03T22:13:44.014+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n(post-N)</tls:syn-func></gramGrp><def>the model for the contextually determinate N</def></sense><sense xml:id="uuid-699c1c8c-424c-4ea9-9c1c-8c424c4ea915" resp="#CH" tls:created="2020-02-14T03:59:00.716+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>model for others to model themselves after</def></sense></entry>
+<sense xml:id="uuid-95a50a71-2401-41c1-b19f-b97c8c6fc30f" resp="#CH" tls:created="2020-02-03T22:13:44.014+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the model for the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-699c1c8c-424c-4ea9-9c1c-8c424c4ea915" resp="#CH" tls:created="2020-02-14T03:59:00.716+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>model for others to model themselves after</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0343c5da-146a-4b00-97b0-f1f734ac11ad">
             <form corresp="#uuid-f2d1b8d7-3b86-4889-827d-cb60f04d0c44">
 <orth>憲</orth>
@@ -289,7 +304,22 @@
                 </gramGrp>
   <def>the model constituted by N</def>
             </sense>
-<sense xml:id="uuid-b5cedd47-dc00-41d1-8edd-47dc00c1d1bf" resp="#CH" tls:created="2020-04-14T18:26:24.501+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>norms</def></sense><sense xml:id="uuid-df22af7b-9224-4319-a2af-7b92247319ae" resp="#zadrapa" tls:created="2022-02-18T18:59:42.897+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func></gramGrp><def>with respect to norms</def></sense></entry>
+<sense xml:id="uuid-b5cedd47-dc00-41d1-8edd-47dc00c1d1bf" resp="#CH" tls:created="2020-04-14T18:26:24.501+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>norms</def>
+            </sense>
+            <sense xml:id="uuid-df22af7b-9224-4319-a2af-7b92247319ae" resp="#zadrapa" tls:created="2022-02-18T18:59:42.897+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9e261ad1-59c5-4818-90e7-cc726a717900">nab.adV</tls:syn-func>
+                </gramGrp>
+                <def>with respect to norms</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7d72a174-657c-42f9-a886-684a1010f74d">
             <form corresp="#uuid-b7955521-080c-4fde-817c-e8ac3f327525">
 <orth>範</orth>
@@ -413,5 +443,35 @@
   <def>model 民之望也 "the object of the people's admiration" ZUO</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-bf5a16c5-c2ec-4eea-9a16-c5c2ecbeea3c" resp="#CH" tls:created="2021-06-06T16:26:34.714+09:00"><form corresp="#uuid-a6a3eec7-796c-4a89-8359-33a3b48837c6"><orth>杓</orth><pron xml:lang="zh-Latn-x-pinyin">dí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">p-leewɡ</pron></form><sense xml:id="uuid-433dd49d-ec0f-4960-bdd4-9dec0f496072" resp="#CH" tls:created="2021-06-06T16:26:34.714+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ad375b15-c825-4888-a32c-d1ae4c54f3e5">npost-N1.adN2</tls:syn-func></gramGrp><def>anN2 being a model for N1</def></sense></entry><entry type="word" xml:id="uuid-ba81d191-34b7-4528-81d1-9134b7a52804" resp="#CH" tls:created="2023-02-19T19:38:11.657+09:00"><form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-e2bc8c65-246b-4b87-bf92-9a624cdbcea7 #uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e"><orth>天下法</orth><pron xml:lang="zh-Latn-x-pinyin">tiān xià fǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">then haeX pjop</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰiin ɢraaʔ pab</pron></form><sense xml:id="uuid-5e99929f-ab7a-4736-9992-9fab7ab7365f" resp="#CH" tls:created="2023-02-19T19:38:11.657+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>universal model</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-bf5a16c5-c2ec-4eea-9a16-c5c2ecbeea3c" resp="#CH" tls:created="2021-06-06T16:26:34.714+09:00">
+            <form corresp="#uuid-a6a3eec7-796c-4a89-8359-33a3b48837c6">
+                <orth>杓</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">p-leewɡ</pron>
+            </form>
+            <sense xml:id="uuid-433dd49d-ec0f-4960-bdd4-9dec0f496072" resp="#CH" tls:created="2021-06-06T16:26:34.714+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ad375b15-c825-4888-a32c-d1ae4c54f3e5">npost-N1.adN2</tls:syn-func>
+                </gramGrp>
+                <def>anN2 being a model for N1</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ba81d191-34b7-4528-81d1-9134b7a52804" resp="#CH" tls:created="2023-02-19T19:38:11.657+09:00">
+            <form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-e2bc8c65-246b-4b87-bf92-9a624cdbcea7 #uuid-bcc31133-8ffb-45d4-aeeb-442e8943f17e">
+                <orth>天下法</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiān xià fǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">then haeX pjop</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰiin ɢraaʔ pab</pron>
+            </form>
+            <sense xml:id="uuid-5e99929f-ab7a-4736-9992-9fab7ab7365f" resp="#CH" tls:created="2023-02-19T19:38:11.657+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>universal model</def>
+            </sense>
+        </entry>
+    </div>
 </div>

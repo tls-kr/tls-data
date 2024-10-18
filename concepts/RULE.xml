@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8e9a16c9-fe98-42df-a8e1-a6aec791f760">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8e9a16c9-fe98-42df-a8e1-a6aec791f760">
 <head>RULE</head>
     <list type="altnames">
 <item>RECOMMENDATION</item>
@@ -116,7 +117,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-05-03T17:15:53.154+09:00">basic guideline; rules of conduct; moral confines</def>
             </sense>
-<sense xml:id="uuid-5cf51b40-4b3c-4693-b51b-404b3c4693aa" resp="#CH" tls:created="2020-02-13T05:09:46.037+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>guiding rules of N, underlying principles motivating N</def></sense></entry>
+<sense xml:id="uuid-5cf51b40-4b3c-4693-b51b-404b3c4693aa" resp="#CH" tls:created="2020-02-13T05:09:46.037+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>guiding rules of N, underlying principles motivating N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-96e48bc1-b2c6-445a-974d-470b079a524f">
             <form corresp="#uuid-881075f1-bdc8-4a6e-8495-23a6ba5fcdd0">
 <orth>統</orth>
@@ -133,7 +141,15 @@
                 </gramGrp>
   <def>XUN: guideline; generic rule</def>
             </sense>
-<sense xml:id="uuid-72b4035f-1e46-475a-b403-5f1e46a75a62" resp="#zadrapa" tls:created="2022-01-24T20:40:24.492+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-9f39c671-0a8c-4564-b0ad-af7185eed7aa">attitudinal</tls:sem-feat></gramGrp><def>to take N as the basic guideline</def></sense></entry>
+<sense xml:id="uuid-72b4035f-1e46-475a-b403-5f1e46a75a62" resp="#zadrapa" tls:created="2022-01-24T20:40:24.492+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9f39c671-0a8c-4564-b0ad-af7185eed7aa">attitudinal</tls:sem-feat>
+                </gramGrp>
+                <def>to take N as the basic guideline</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8d1c29e9-db13-4cdf-a0a3-a575e7af7f65">
             <form corresp="#uuid-dc2d4f29-288b-475b-ae53-9d0eef7818a1">
 <orth>經</orth>
@@ -167,7 +183,15 @@
                 </gramGrp>
   <def>follow a constant guideline</def>
             </sense>
-<sense xml:id="uuid-1f4e8cad-d30b-40ca-8e8c-add30bb0cacd" resp="#CH" tls:created="2022-08-23T23:11:08.65+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>basic normative guideline</def></sense></entry>
+<sense xml:id="uuid-1f4e8cad-d30b-40ca-8e8c-add30bb0cacd" resp="#CH" tls:created="2022-08-23T23:11:08.65+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>basic normative guideline</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-784aab82-a5f4-4fd7-83d5-e028b177fc49">
             <form corresp="#uuid-e700deb9-5a49-4e5d-9ba8-01170da60fb8">
 <orth>綱</orth>
@@ -274,9 +298,114 @@
                 </gramGrp>
   <def>provide with proper guidelines</def>
             </sense>
-<sense xml:id="uuid-347d1bfa-d288-409a-bd1b-fad288c09a1b" resp="#CH" tls:created="2023-08-10T02:29:22.76+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>guiding principles</def></sense></entry>
-    <entry type="word" xml:id="uuid-3ff0762b-a26f-4e9c-ac4e-1ebc02a2b110" resp="#CH" tls:created="2019-12-08T20:02:02.475+09:00"><form corresp="#uuid-74317e4c-51fa-4671-8feb-20c5313092bf"><orth>節</orth><pron xml:lang="zh-Latn-x-pinyin">jié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tset</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsiiɡ</pron></form><sense xml:id="uuid-60f009e1-79e5-446c-86a4-5fbfa512f9a0" resp="#CH" tls:created="2019-12-08T20:02:02.475+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>rules of social conduct</def></sense><sense xml:id="uuid-e3f09a9a-b23d-4474-b09a-9ab23d5474c9" resp="#zadrapa" tls:created="2022-05-22T04:57:27.747+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2022-05-22T05:04:29.123+09:00">rule; approach</def></sense></entry><entry type="word" xml:id="uuid-64a00bdf-e228-4392-9067-50077b6fa407" resp="#zadrapa" tls:created="2020-01-14T18:57:08.193+09:00"><form corresp="#uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015 #uuid-f2d1b8d7-3b86-4889-827d-cb60f04d0c44"><orth>禮憲</orth><pron xml:lang="zh-Latn-x-pinyin">lǐ
- xiàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lejX
- xjonH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">riiʔ
- qhans</pron></form><sense xml:id="uuid-8084935e-8b25-4455-84e4-ed843c88b880" resp="#zadrapa" tls:created="2020-01-14T18:57:08.193+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>rules of ritual</def></sense></entry><entry type="word" xml:id="uuid-191f9837-b64b-4447-9f98-37b64bb44777"><form><orth>類</orth><pron xml:lang="zh-Latn-x-pinyin">lèi</pron></form><def/><sense xml:id="uuid-c6194699-24e5-4859-9946-9924e56859c8" resp="#zadrapa" tls:created="2020-05-27T21:22:20.65+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>the rules of analogical extension of categories to other types of things</def></sense></entry><entry type="word" xml:id="uuid-713dcdd1-aea3-4537-bdcd-d1aea39537ff" resp="#zadrapa" tls:created="2020-12-04T21:03:50.827+09:00"><form corresp="#uuid-31357efb-6332-48f7-b57e-fb6332a8f782"><orth>共</orth><pron xml:lang="zh-Latn-x-pinyin">gǒng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-ee4e4292-acc6-40ae-8e42-92acc670aef8" resp="#zadrapa" tls:created="2020-12-04T21:03:50.827+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>(= gong3 拱) rule (SHI)</def></sense></entry><entry type="word" xml:id="uuid-77eb96ba-0ecb-4aa0-ab96-ba0ecb1aa006" resp="#zadrapa" tls:created="2021-01-15T17:31:33.31+09:00"><form corresp="#uuid-881075f1-bdc8-4a6e-8495-23a6ba5fcdd0 #uuid-96e90d11-630b-451c-b466-de85aaef7af2"><orth>統類</orth><pron xml:lang="zh-Latn-x-pinyin">tǒng lèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">thowngH lwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thuuŋs ruds</pron></form><sense xml:id="uuid-28cbf8da-8f85-40f5-8bf8-da8f85d0f5d9" resp="#zadrapa" tls:created="2021-01-15T17:31:33.31+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>(system of) guidelines</def></sense></entry><entry type="word" xml:id="uuid-62ac929e-12a6-41bd-ac92-9e12a621bd8a" resp="#zadrapa" tls:created="2022-06-09T16:30:35.776+09:00"><form corresp="#uuid-74317e4c-51fa-4671-8feb-20c5313092bf #uuid-6a071d3c-571e-49ed-a4b1-34459dbcbe6d"><orth>節奏</orth><pron xml:lang="zh-Latn-x-pinyin">jié zòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tset tsuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsiiɡ skoos</pron></form><sense xml:id="uuid-c408021d-f46c-49d8-8802-1df46ca9d8c5" resp="#zadrapa" tls:created="2022-06-09T16:30:35.776+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>system of rules (XUN: probably ritual ones)</def></sense></entry></div>
+<sense xml:id="uuid-347d1bfa-d288-409a-bd1b-fad288c09a1b" resp="#CH" tls:created="2023-08-10T02:29:22.76+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>guiding principles</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-3ff0762b-a26f-4e9c-ac4e-1ebc02a2b110" resp="#CH" tls:created="2019-12-08T20:02:02.475+09:00">
+            <form corresp="#uuid-74317e4c-51fa-4671-8feb-20c5313092bf">
+                <orth>節</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tset</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsiiɡ</pron>
+            </form>
+            <sense xml:id="uuid-60f009e1-79e5-446c-86a4-5fbfa512f9a0" resp="#CH" tls:created="2019-12-08T20:02:02.475+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>rules of social conduct</def>
+            </sense>
+            <sense xml:id="uuid-e3f09a9a-b23d-4474-b09a-9ab23d5474c9" resp="#zadrapa" tls:created="2022-05-22T04:57:27.747+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b33cc013-91e1-4f2b-a148-2b1709f499ed">method</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-05-22T05:04:29.123+09:00">rule; approach</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-64a00bdf-e228-4392-9067-50077b6fa407" resp="#zadrapa" tls:created="2020-01-14T18:57:08.193+09:00">
+            <form corresp="#uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015 #uuid-f2d1b8d7-3b86-4889-827d-cb60f04d0c44">
+                <orth>禮憲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǐ
+ xiàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lejX
+ xjonH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">riiʔ
+ qhans</pron>
+            </form>
+            <sense xml:id="uuid-8084935e-8b25-4455-84e4-ed843c88b880" resp="#zadrapa" tls:created="2020-01-14T18:57:08.193+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>rules of ritual</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-191f9837-b64b-4447-9f98-37b64bb44777">
+            <form>
+                <orth>類</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lèi</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-c6194699-24e5-4859-9946-9924e56859c8" resp="#zadrapa" tls:created="2020-05-27T21:22:20.65+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>the rules of analogical extension of categories to other types of things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-713dcdd1-aea3-4537-bdcd-d1aea39537ff" resp="#zadrapa" tls:created="2020-12-04T21:03:50.827+09:00">
+            <form corresp="#uuid-31357efb-6332-48f7-b57e-fb6332a8f782">
+                <orth>共</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǒng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-ee4e4292-acc6-40ae-8e42-92acc670aef8" resp="#zadrapa" tls:created="2020-12-04T21:03:50.827+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>(= gong3 拱) rule (SHI)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-77eb96ba-0ecb-4aa0-ab96-ba0ecb1aa006" resp="#zadrapa" tls:created="2021-01-15T17:31:33.31+09:00">
+            <form corresp="#uuid-881075f1-bdc8-4a6e-8495-23a6ba5fcdd0 #uuid-96e90d11-630b-451c-b466-de85aaef7af2">
+                <orth>統類</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tǒng lèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">thowngH lwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thuuŋs ruds</pron>
+            </form>
+            <sense xml:id="uuid-28cbf8da-8f85-40f5-8bf8-da8f85d0f5d9" resp="#zadrapa" tls:created="2021-01-15T17:31:33.31+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>(system of) guidelines</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-62ac929e-12a6-41bd-ac92-9e12a621bd8a" resp="#zadrapa" tls:created="2022-06-09T16:30:35.776+09:00">
+            <form corresp="#uuid-74317e4c-51fa-4671-8feb-20c5313092bf #uuid-6a071d3c-571e-49ed-a4b1-34459dbcbe6d">
+                <orth>節奏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jié zòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tset tsuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsiiɡ skoos</pron>
+            </form>
+            <sense xml:id="uuid-c408021d-f46c-49d8-8802-1df46ca9d8c5" resp="#zadrapa" tls:created="2022-06-09T16:30:35.776+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>system of rules (XUN: probably ritual ones)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

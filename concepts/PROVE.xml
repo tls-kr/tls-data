@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-803e7403-e547-492f-a325-5f81c415dafd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-803e7403-e547-492f-a325-5f81c415dafd">
 <head>PROVE</head>
     <list type="altnames">
 <item>PROOF</item>
@@ -38,7 +39,10 @@
     </list>
 <div type="definition">
 <p>EXPLAIN CLEARLY WHY a SENTENCE is TRUE.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:43:49.984+09:00"><p>EXPLAIN CLEARLY WHY a SENTENCE is CERTAINLY TRUE.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:43:49.984+09:00">
+            <p>EXPLAIN CLEARLY WHY a SENTENCE is CERTAINLY TRUE.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The current general word for, often decisive, proof or evidence is yàn 驗, but the word does not refer to a discursive elabarate logical proof as one might expect to find in the Platonic-Aristotelian tradition.</p>
@@ -458,7 +462,14 @@
                 </gramGrp>
   <def>prove a contextually determinate point</def>
             </sense>
-<sense xml:id="uuid-f91c262b-014a-4d09-9c26-2b014a7d09a9" resp="#CH" tls:created="2022-09-08T22:00:37.054+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-08T22:02:09.718+09:00">based on facts</def></sense></entry>
+<sense xml:id="uuid-f91c262b-014a-4d09-9c26-2b014a7d09a9" resp="#CH" tls:created="2022-09-08T22:00:37.054+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-08T22:02:09.718+09:00">based on facts</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5387c15-0a29-403a-94ae-8496a5a7ad66">
             <form corresp="#uuid-df94e791-1aba-4864-ba15-dfebd911c6bb #uuid-4d2e06f4-1af4-4640-a281-81624749fddc">
 <orth>信稟</orth>

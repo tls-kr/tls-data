@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3f3cdd08-3cfd-413f-bcab-ef13143318dd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-3f3cdd08-3cfd-413f-bcab-ef13143318dd">
 <head>TOPIC MARKER</head>
     <list type="altnames">
 <item>T</item>
@@ -14,7 +15,10 @@
 <div type="modern-chinese-criteria">
 <p>rough draft to BEGIN TO identify synonym group members for analysis, based on CL etc. 18.11.2003. CH ／ LU JIANMING</p>
         </div>
-    <div type="old-chinese-criteria" resp="#CH" tls:created="2022-01-30T23:37:15.376+09:00"><p>也 is often used in direct speech and marks the topical use of a familiar subject as in 回也 "German: der Hui".者 in postnominal position is to be construed as npro.post-N "the X that is identical with N" and may then be read as a topic marker.也者 after a topic marks a concept for abstract discursive focus 仁也者 "As for benevolence..."</p></div></div>
+    <div type="old-chinese-criteria" resp="#CH" tls:created="2022-01-30T23:37:15.376+09:00">
+            <p>也 is often used in direct speech and marks the topical use of a familiar subject as in 回也 "German: der Hui".者 in postnominal position is to be construed as npro.post-N "the X that is identical with N" and may then be read as a topic marker.也者 after a topic marks a concept for abstract discursive focus 仁也者 "As for benevolence..."</p>
+        </div>
+    </div>
 <div type="pointers">
         <list type="hypernymy">
             <item>
@@ -46,7 +50,8 @@
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-fe5cab30-2452-4d38-9cab-3024526d38f9">ppostadN{SUBJ}.+V{PRED}</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-ea4757cd-0972-4992-8757-cd0972699293">N also SUBJ of V</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-ea4757cd-0972-4992-8757-cd0972699293">N also SUBJ of V</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-03-19T16:58:13.33+09:00">古之愚也直“The stupid in antiquity were straightforward.“ That such a man should suffers such a disease!": postnominal particle, topic marker</def>
             </sense>
 <sense xml:id="uuid-2b0db05e-4ddf-4c48-8ebb-7acb131a6844">
@@ -119,13 +124,36 @@
                 </gramGrp>
   <def>使獲也佐吾子</def>
             </sense>
-<sense xml:id="uuid-b70f742e-24e5-4b3e-8f74-2e24e5ab3ebe" resp="#CH" tls:created="2022-02-18T02:17:53.915+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-3bbffa4e-ad51-493b-bffa-4ead51493bb4">ppostadNPab{S.SUBJ}.postV{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-03-19T18:00:35.41+09:00">久矣哉由之行詐也"It has been going on for a long time that You has practised deceit": marker of a nominalised sentence that functions as the subject of a preceding verb phrase</def></sense><sense xml:id="uuid-c154902d-64b4-49ee-9658-1454fe1cb1d0">
+<sense xml:id="uuid-b70f742e-24e5-4b3e-8f74-2e24e5ab3ebe" resp="#CH" tls:created="2022-02-18T02:17:53.915+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-3bbffa4e-ad51-493b-bffa-4ead51493bb4">ppostadNPab{S.SUBJ}.postV{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-03-19T18:00:35.41+09:00">久矣哉由之行詐也"It has been going on for a long time that You has practised deceit": marker of a nominalised sentence that functions as the subject of a preceding verb phrase</def>
+            </sense>
+            <sense xml:id="uuid-c154902d-64b4-49ee-9658-1454fe1cb1d0">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-730d9986-c5fe-4fe2-a266-4ee3847f56c0">ppostNpr{OBJ}.postVt</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-4c6b889b-5561-4497-ab88-9b5561e497c3">object topicaliser</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-4c6b889b-5561-4497-ab88-9b5561e497c3">object topicaliser</tls:sem-feat>
+                </gramGrp>
   <def>postnominal particle after proper name objects</def>
-            </sense><sense xml:id="uuid-c68929a5-944b-4903-8929-a5944bd903a5" resp="#zadrapa" tls:created="2022-06-02T15:48:16.817+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-5f4e97d5-9d43-4a8d-8e97-d59d431a8dbe">ppostadN{TOP}.+S</tls:syn-func></gramGrp><def>as far as N is concerned, it works like this: S</def></sense><sense xml:id="uuid-50756f5d-fb57-4ccb-b56f-5dfb57bccb95" resp="#CH" tls:created="2022-12-25T01:20:32.789+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-5c44f956-7150-4dcb-84f9-5671507dcb0b">ppostadNPab.+V{PRED}</tls:syn-func></gramGrp><def>topicalised subject marker</def></sense></entry>
+            </sense>
+            <sense xml:id="uuid-c68929a5-944b-4903-8929-a5944bd903a5" resp="#zadrapa" tls:created="2022-06-02T15:48:16.817+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-5f4e97d5-9d43-4a8d-8e97-d59d431a8dbe">ppostadN{TOP}.+S</tls:syn-func>
+                </gramGrp>
+                <def>as far as N is concerned, it works like this: S</def>
+            </sense>
+            <sense xml:id="uuid-50756f5d-fb57-4ccb-b56f-5dfb57bccb95" resp="#CH" tls:created="2022-12-25T01:20:32.789+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-5c44f956-7150-4dcb-84f9-5671507dcb0b">ppostadNPab.+V{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>topicalised subject marker</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-30e8993c-fe91-4209-b5cd-4b0931cde0f9">
             <form corresp="#uuid-5091e606-89b0-4628-8f27-38ab1d7dacc5">
 <orth>則</orth>
@@ -168,7 +196,14 @@
                 </gramGrp>
   <def>it is the subject that V-s</def>
             </sense>
-<sense xml:id="uuid-3c5ac26d-f5b6-48eb-9ac2-6df5b688eb6e" resp="#zadrapa" tls:created="2021-06-17T16:32:34.037+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-6237e3b9-baec-4799-b7e3-b9baec27990f">padV.post-v(adV)</tls:syn-func></gramGrp><def>contrastive particle after an adverb (e.g. 上則 ... 下則 ...)</def></sense><sense xml:id="uuid-2702b442-a12b-4b65-9d81-9eafe437f452">
+<sense xml:id="uuid-3c5ac26d-f5b6-48eb-9ac2-6df5b688eb6e" resp="#zadrapa" tls:created="2021-06-17T16:32:34.037+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-6237e3b9-baec-4799-b7e3-b9baec27990f">padV.post-v(adV)</tls:syn-func>
+                </gramGrp>
+                <def>contrastive particle after an adverb (e.g. 上則 ... 下則 ...)</def>
+            </sense>
+            <sense xml:id="uuid-2702b442-a12b-4b65-9d81-9eafe437f452">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-02ea996e-b723-4e17-bb7c-4956bd4873d9">padV.postN{SUBJ}</tls:syn-func>
@@ -176,21 +211,39 @@
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def resp="#zadrapa" updated="2021-01-19T05:51:26.967+09:00">contrastive particle after subject: 我則不德"it was our party that was less than virtuous"</def>
-            </sense><sense xml:id="uuid-2b8bfc2a-6e71-4239-a3ff-5697decfed6e">
+            </sense>
+            <sense xml:id="uuid-2b8bfc2a-6e71-4239-a3ff-5697decfed6e">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-02ea996e-b723-4e17-bb7c-4956bd4873d9">padV.postN{SUBJ}</tls:syn-func>
   <tls:sem-feat corresp="#uuid-a24260a1-0410-4d64-acde-5967b1bef725">intensitive</tls:sem-feat>
                 </gramGrp>
   <def>intensifying particle after subject: "is indeed" [DS]</def>
-            </sense><sense xml:id="uuid-6ad26e7a-1588-4e85-87f2-2a958acc64bf">
+            </sense>
+            <sense xml:id="uuid-6ad26e7a-1588-4e85-87f2-2a958acc64bf">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-c87f5e8b-6512-404d-84b2-9e99a85aa28e">vt+N</tls:syn-func>
   <tls:sem-feat corresp="#uuid-52f9b87c-5688-4b46-b992-a5fb0bf27fb9">copula</tls:sem-feat>
                 </gramGrp>
   <def>be, refer to, be the same as, be an equivalent of (as copula often expressing identity)</def>
-            </sense><sense xml:id="uuid-1708748d-48aa-405c-8874-8d48aa205c47" resp="#zadrapa" tls:created="2022-05-30T03:41:55.638+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-f7e4a681-1eb1-4597-9ced-921b54f5c3ea">padV.postN{SUBJ}:adS</tls:syn-func></gramGrp><def>although, even if (&lt; SUBJ may well V, yet still S)</def></sense><sense xml:id="uuid-f7c8b511-25d2-4b74-88b5-1125d24b7432" resp="#CH" tls:created="2022-10-04T16:24:23.824+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-e95856d3-98ac-406d-8c1e-b06b251e0011">padS.postN{TOP}</tls:syn-func><tls:sem-feat corresp="#uuid-4c3f2bb8-16eb-4878-bf2b-b816eb0878ee">non-contrastive, topic=time</tls:sem-feat></gramGrp><def>at the time N</def></sense></entry>
+            </sense>
+            <sense xml:id="uuid-1708748d-48aa-405c-8874-8d48aa205c47" resp="#zadrapa" tls:created="2022-05-30T03:41:55.638+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-f7e4a681-1eb1-4597-9ced-921b54f5c3ea">padV.postN{SUBJ}:adS</tls:syn-func>
+                </gramGrp>
+                <def>although, even if (&lt; SUBJ may well V, yet still S)</def>
+            </sense>
+            <sense xml:id="uuid-f7c8b511-25d2-4b74-88b5-1125d24b7432" resp="#CH" tls:created="2022-10-04T16:24:23.824+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-e95856d3-98ac-406d-8c1e-b06b251e0011">padS.postN{TOP}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4c3f2bb8-16eb-4878-bf2b-b816eb0878ee">non-contrastive, topic=time</tls:sem-feat>
+                </gramGrp>
+                <def>at the time N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9a382ec5-ad0a-4f78-abd6-071c9b4602ef">
             <form corresp="#uuid-1bbb95ea-239a-4aef-90ff-8d37da84cddd">
 <orth>及</orth>
@@ -207,7 +260,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-392350a6-052f-4f52-83b5-2ec7e8296c93">
-            <form corresp="#uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd"><orth>夫</orth><pron xml:lang="zh-Latn-x-pinyin">fú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ba</pron></form>
+            <form corresp="#uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd">
+                <orth>夫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ba</pron>
+            </form>
 <sense xml:id="uuid-4ede6b30-3750-4e48-84b7-edffb836f84c">
 <gramGrp>
                     <pos>P</pos>
@@ -223,7 +281,22 @@
                 </gramGrp>
   <def>夫...者 as for V1 (topic), V2 being the comment</def>
             </sense>
-<sense xml:id="uuid-5eb4a798-d67b-435b-ae77-11f7a876e3bd" resp="#CH" tls:created="2019-12-29T07:29:03.289+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-22397832-02d8-4061-b978-3202d8d061ea">nproadN+S</tls:syn-func></gramGrp><def resp="#CH" updated="2023-07-07T05:00:16.997+09:00">new topic in non-narrative sentence: As for</def></sense><sense xml:id="uuid-f16c45f6-d14c-4441-ac45-f6d14c04415b" resp="#CH" tls:created="2023-07-07T05:17:22.593+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-22397832-02d8-4061-b978-3202d8d061ea">nproadN+S</tls:syn-func><tls:sem-feat corresp="#uuid-205f7887-7f00-4c3d-9f78-877f006c3d1d">夫...者</tls:sem-feat></gramGrp><def>new topic marker the end of the scope of which ends in 者</def></sense></entry>
+<sense xml:id="uuid-5eb4a798-d67b-435b-ae77-11f7a876e3bd" resp="#CH" tls:created="2019-12-29T07:29:03.289+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-22397832-02d8-4061-b978-3202d8d061ea">nproadN+S</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-07T05:00:16.997+09:00">new topic in non-narrative sentence: As for</def>
+            </sense>
+            <sense xml:id="uuid-f16c45f6-d14c-4441-ac45-f6d14c04415b" resp="#CH" tls:created="2023-07-07T05:17:22.593+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-22397832-02d8-4061-b978-3202d8d061ea">nproadN+S</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-205f7887-7f00-4c3d-9f78-877f006c3d1d">夫...者</tls:sem-feat>
+                </gramGrp>
+                <def>new topic marker the end of the scope of which ends in 者</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4dbeaddc-035d-4534-bcfc-c793221f3686">
             <form corresp="#uuid-811c5683-e4c1-4bd7-b82a-2fa43d79c28f">
 <orth>祇</orth>
@@ -278,13 +351,28 @@
                 </gramGrp>
   <def>particle between subject and predicate</def>
             </sense>
-<sense xml:id="uuid-f9e4c914-e3e0-46de-a4c9-14e3e086de51" resp="#zadrapa" tls:created="2020-06-18T16:19:37.724+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-6056bfe3-230e-4a24-96bf-e3230eca24bc">padV.postN{OBJ}</tls:syn-func></gramGrp><def>particle between object and predicate</def></sense><sense xml:id="uuid-3441a1d8-e7e5-4a87-93aa-edace3b4da30">
+<sense xml:id="uuid-f9e4c914-e3e0-46de-a4c9-14e3e086de51" resp="#zadrapa" tls:created="2020-06-18T16:19:37.724+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-6056bfe3-230e-4a24-96bf-e3230eca24bc">padV.postN{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def>particle between object and predicate</def>
+            </sense>
+            <sense xml:id="uuid-3441a1d8-e7e5-4a87-93aa-edace3b4da30">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-f6fc3bef-2720-49a8-8fb3-2aa857d276e7">padV.post-N</tls:syn-func>
                 </gramGrp>
   <def>一日而三失伍 "within one day he managed three times to loose contact with his unit"</def>
-            </sense><sense xml:id="uuid-a802fcbe-caa5-4d92-82fc-becaa52d92d2" resp="#zadrapa" tls:created="2020-06-29T22:08:35.597+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-6056bfe3-230e-4a24-96bf-e3230eca24bc">padV.postN{OBJ}</tls:syn-func></gramGrp><def>曾此而不知 "even this they do not understand"</def></sense></entry>
+            </sense>
+            <sense xml:id="uuid-a802fcbe-caa5-4d92-82fc-becaa52d92d2" resp="#zadrapa" tls:created="2020-06-29T22:08:35.597+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-6056bfe3-230e-4a24-96bf-e3230eca24bc">padV.postN{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def>曾此而不知 "even this they do not understand"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-781b5f9e-d9ad-4311-a7e0-941e5582afbf">
             <form corresp="#uuid-57bd9390-fe39-446a-aa51-3e76922430f4">
 <orth>至</orth>
@@ -377,7 +465,8 @@
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-1d598036-8f98-4c26-a4ca-49dd7d0e2e04">PPpost-N</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-015b1590-838d-4b15-9b15-90838d0b1528">not a constituent!</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-015b1590-838d-4b15-9b15-90838d0b1528">not a constituent!</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-03-11T05:24:39.584+09:00">道也者“As for that which is (identical with) the Way" marker of topics to be discussed in general abstract terms: as for N as such (Note that the comment is never narrative: one might say that this topic marker, like 夫 has a modal function.)</def>
             </sense>
 <sense xml:id="uuid-1c137604-38fc-4f59-9d13-0f783f22d3ed">
@@ -642,7 +731,67 @@
   <def>when it comes to</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3fd9f49a-4bc3-48e5-afe7-e4bedea93c34" resp="#CH" tls:created="2020-02-08T20:29:00.937+09:00"><form corresp="#uuid-69f66050-5313-418a-9f82-0cb290e87151"><orth>暨</orth><pron xml:lang="zh-Latn-x-pinyin">jì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrɯds</pron></form><sense xml:id="uuid-d96492b7-2374-4e58-9214-6fdbeffe8f27" resp="#CH" tls:created="2020-02-08T20:29:00.937+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">padN{TOPIC}</tls:syn-func></gramGrp><def>As for</def></sense></entry><entry type="word" xml:id="uuid-ae7b889c-7062-4116-bb88-9c7062111689" resp="#CH" tls:created="2022-02-21T00:24:33.967+09:00"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba"><orth>也與</orth><pron xml:lang="zh-Latn-x-pinyin">yě yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX yo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ k-la</pron></form><sense xml:id="uuid-217a75ad-0d56-4eee-ba75-ad0d56eeee3e" resp="#CH" tls:created="2022-02-21T00:24:33.967+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-97c37bd0-7383-4c2f-837b-d07383ec2f4d">PPpostadNP{S}.+N{PRED}</tls:syn-func></gramGrp><def>topic marker of the nominalised topic in a sentence with a nominal predicate</def></sense></entry><entry type="word" xml:id="uuid-6470634b-a5a9-4e68-b063-4ba5a9de6808" resp="#CH" tls:created="2022-08-09T05:42:46.799+09:00"><form corresp="#uuid-e95f9487-c052-417b-88df-0dbffda95fbb #uuid-c2a874a5-484c-427c-9eda-9751bd03d05f"><orth>若乃</orth><pron xml:lang="zh-Latn-x-pinyin">ruò nǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyae nojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njaɡ nɯɯʔ</pron></form><sense xml:id="uuid-285fbfc8-d78e-48f3-9fbf-c8d78e88f3c5" resp="#CH" tls:created="2022-08-09T05:42:46.799+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-53bf2256-a570-4620-9a67-d04d1c5193a3">PPadN. S</tls:syn-func></gramGrp><def>as for</def></sense></entry><entry type="word" xml:id="uuid-311897c0-c7fc-49b4-9897-c0c7fcd9b424" resp="#CH" tls:created="2024-02-12T19:14:44.625+09:00"><form corresp="#uuid-f940ab13-99ad-4f21-a27e-217dbe012fc5"><orth>惟</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lul</pron></form><sense xml:id="uuid-12225864-409e-4cd3-a258-64409e5cd387" resp="#CH" tls:created="2024-02-12T19:14:44.625+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-16944c8e-fa55-4d91-bdb6-0b622c09007e">padN.adS</tls:syn-func></gramGrp><def>archaic topic marker</def></sense></entry><entry type="word" xml:id="uuid-cb56433b-2e38-4c63-b981-92bd27d69bb7">
+    <entry type="word" xml:id="uuid-3fd9f49a-4bc3-48e5-afe7-e4bedea93c34" resp="#CH" tls:created="2020-02-08T20:29:00.937+09:00">
+            <form corresp="#uuid-69f66050-5313-418a-9f82-0cb290e87151">
+                <orth>暨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrɯds</pron>
+            </form>
+            <sense xml:id="uuid-d96492b7-2374-4e58-9214-6fdbeffe8f27" resp="#CH" tls:created="2020-02-08T20:29:00.937+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">padN{TOPIC}</tls:syn-func>
+                </gramGrp>
+                <def>As for</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ae7b889c-7062-4116-bb88-9c7062111689" resp="#CH" tls:created="2022-02-21T00:24:33.967+09:00">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba">
+                <orth>也與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yě yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX yo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ k-la</pron>
+            </form>
+            <sense xml:id="uuid-217a75ad-0d56-4eee-ba75-ad0d56eeee3e" resp="#CH" tls:created="2022-02-21T00:24:33.967+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-97c37bd0-7383-4c2f-837b-d07383ec2f4d">PPpostadNP{S}.+N{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>topic marker of the nominalised topic in a sentence with a nominal predicate</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6470634b-a5a9-4e68-b063-4ba5a9de6808" resp="#CH" tls:created="2022-08-09T05:42:46.799+09:00">
+            <form corresp="#uuid-e95f9487-c052-417b-88df-0dbffda95fbb #uuid-c2a874a5-484c-427c-9eda-9751bd03d05f">
+                <orth>若乃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ruò nǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyae nojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njaɡ nɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-285fbfc8-d78e-48f3-9fbf-c8d78e88f3c5" resp="#CH" tls:created="2022-08-09T05:42:46.799+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-53bf2256-a570-4620-9a67-d04d1c5193a3">PPadN. S</tls:syn-func>
+                </gramGrp>
+                <def>as for</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-311897c0-c7fc-49b4-9897-c0c7fcd9b424" resp="#CH" tls:created="2024-02-12T19:14:44.625+09:00">
+            <form corresp="#uuid-f940ab13-99ad-4f21-a27e-217dbe012fc5">
+                <orth>惟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lul</pron>
+            </form>
+            <sense xml:id="uuid-12225864-409e-4cd3-a258-64409e5cd387" resp="#CH" tls:created="2024-02-12T19:14:44.625+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-16944c8e-fa55-4d91-bdb6-0b622c09007e">padN.adS</tls:syn-func>
+                </gramGrp>
+                <def>archaic topic marker</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cb56433b-2e38-4c63-b981-92bd27d69bb7">
             <form corresp="#uuid-638f5102-6260-4085-891d-9864102bc27c">
 <orth>者</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">zhě</pron>
@@ -669,7 +818,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-a2c195dd-635c-425b-80dd-276fdabc1d62">npro.post-N:adS</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-dd37c44b-5a41-45e6-a045-090d47ae4923">time</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-dd37c44b-5a41-45e6-a045-090d47ae4923">time</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-02-23T01:39:40.135+09:00"> At the time N 昔者，古者</def>
             </sense>
 <sense xml:id="uuid-131bc4a0-8b6a-492f-a3db-aef6cdd70058">
@@ -749,5 +899,28 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-03-05T05:37:11.373+09:00">after number word 二者 "the two"</def>
             </sense>
-<sense xml:id="uuid-eb899969-7ca9-414d-acf5-905b90762633" resp="#CH" tls:created="2020-01-04T21:54:57.724+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#uuid-ff5cebbc-34f5-44a0-9ceb-bc34f5e4a05e"> DELETE</tls:syn-func></gramGrp><def>As for that which is an N1</def></sense><sense xml:id="uuid-055d60ec-3486-4d7c-9d60-ec34863d7c14" resp="#dsehnal" tls:created="2020-05-24T01:28:06.669+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-af2c7e10-9fe9-4e59-ac7e-109fe96e59b4">npro.postN:postYǑU</tls:syn-func><tls:sem-feat corresp="#uuid-eab59e0f-58b2-4c7c-916f-48e16d372139">exist</tls:sem-feat></gramGrp><def>a certain N</def></sense><sense xml:id="uuid-c6e8fb35-0244-47b0-a8fb-350244a7b05a" resp="#dsehnal" tls:created="2023-12-18T00:23:04.023+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-75b90c89-439f-4cf6-b90c-89439f7cf654">npro.post-N{SUO}</tls:syn-func></gramGrp><def>particle enclosing the SUO-construction</def></sense></entry></div>
+<sense xml:id="uuid-eb899969-7ca9-414d-acf5-905b90762633" resp="#CH" tls:created="2020-01-04T21:54:57.724+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#uuid-ff5cebbc-34f5-44a0-9ceb-bc34f5e4a05e"> DELETE</tls:syn-func>
+                </gramGrp>
+                <def>As for that which is an N1</def>
+            </sense>
+            <sense xml:id="uuid-055d60ec-3486-4d7c-9d60-ec34863d7c14" resp="#dsehnal" tls:created="2020-05-24T01:28:06.669+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-af2c7e10-9fe9-4e59-ac7e-109fe96e59b4">npro.postN:postYǑU</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-eab59e0f-58b2-4c7c-916f-48e16d372139">exist</tls:sem-feat>
+                </gramGrp>
+                <def>a certain N</def>
+            </sense>
+            <sense xml:id="uuid-c6e8fb35-0244-47b0-a8fb-350244a7b05a" resp="#dsehnal" tls:created="2023-12-18T00:23:04.023+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-75b90c89-439f-4cf6-b90c-89439f7cf654">npro.post-N{SUO}</tls:syn-func>
+                </gramGrp>
+                <def>particle enclosing the SUO-construction</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6c1afc3e-006e-4519-b6b6-4db9fc468c26">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6c1afc3e-006e-4519-b6b6-4db9fc468c26">
 <head>BATTLE</head>
     <list type="altnames">
 <item>FIGHT</item>
@@ -315,7 +316,23 @@
                 </gramGrp>
   <def>engage in battle with each other</def>
             </sense>
-<sense xml:id="uuid-b42b9818-d346-4b38-8280-06a7e15c403f" resp="#CH" tls:created="2020-01-01T20:35:07.883+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>battle</def></sense><sense xml:id="uuid-348d6420-deaf-45d7-8d64-20deafa5d7ca" resp="#dsehnal" tls:created="2024-05-05T04:07:56.339+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a29575b3-7c3c-4fd3-9575-b37c3c7fd3c2">v2.+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>engage in battle with each other in the place N</def></sense></entry>
+<sense xml:id="uuid-b42b9818-d346-4b38-8280-06a7e15c403f" resp="#CH" tls:created="2020-01-01T20:35:07.883+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>battle</def>
+            </sense>
+            <sense xml:id="uuid-348d6420-deaf-45d7-8d64-20deafa5d7ca" resp="#dsehnal" tls:created="2024-05-05T04:07:56.339+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a29575b3-7c3c-4fd3-9575-b37c3c7fd3c2">v2.+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>engage in battle with each other in the place N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c5a54397-c120-4ef5-ad9e-cd0106f6ef61">
             <form corresp="#uuid-5cd2073a-6f30-434c-bf49-acee1f8e5bd7">
 <orth>會</orth>
@@ -513,5 +530,36 @@
   <def>make battle against</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ec538997-b760-4cb9-92d1-071c8cb96d01" resp="#CH" tls:created="2020-01-23T02:17:25.729+09:00"><form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e #uuid-916e6bd7-0ae0-4872-8f29-64246c0d8bab"><orth>地戰</orth><pron xml:lang="zh-Latn-x-pinyin">dì zhàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dijH tsyenH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lils tjans</pron></form><sense xml:id="uuid-9722839a-5006-4c11-a560-f2b1e54e4403" resp="#CH" tls:created="2020-01-23T02:17:25.729+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>land battle</def></sense></entry><entry type="word" xml:id="uuid-f4077ed9-5b27-41f2-877e-d95b2781f26c" resp="#dsehnal" tls:created="2024-02-05T02:44:49.606+09:00"><form corresp="#uuid-1234313e-2ed1-4122-ab69-732013201c2b"><orth>合</orth><pron xml:lang="zh-Latn-x-pinyin">hé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hop</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡloob</pron></form><sense xml:id="uuid-6a07797c-0e5f-42df-8779-7c0e5f62df61" resp="#dsehnal" tls:created="2024-02-05T02:44:49.606+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func></gramGrp><def>meet in a battle</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ec538997-b760-4cb9-92d1-071c8cb96d01" resp="#CH" tls:created="2020-01-23T02:17:25.729+09:00">
+            <form corresp="#uuid-71cdcf18-a71b-4c14-9cad-7f42b728af2e #uuid-916e6bd7-0ae0-4872-8f29-64246c0d8bab">
+                <orth>地戰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dì zhàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dijH tsyenH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lils tjans</pron>
+            </form>
+            <sense xml:id="uuid-9722839a-5006-4c11-a560-f2b1e54e4403" resp="#CH" tls:created="2020-01-23T02:17:25.729+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>land battle</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f4077ed9-5b27-41f2-877e-d95b2781f26c" resp="#dsehnal" tls:created="2024-02-05T02:44:49.606+09:00">
+            <form corresp="#uuid-1234313e-2ed1-4122-ab69-732013201c2b">
+                <orth>合</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hop</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡloob</pron>
+            </form>
+            <sense xml:id="uuid-6a07797c-0e5f-42df-8779-7c0e5f62df61" resp="#dsehnal" tls:created="2024-02-05T02:44:49.606+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                </gramGrp>
+                <def>meet in a battle</def>
+            </sense>
+        </entry>
+    </div>
 </div>

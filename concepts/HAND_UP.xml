@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0ec5e516-7549-4985-bfe3-c44f344e574b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0ec5e516-7549-4985-bfe3-c44f344e574b">
 <head>HAND UP</head>
     <list type="altnames">
 <item>OFFER</item>
@@ -219,7 +220,15 @@
                 </gramGrp>
   <def>submit to higher authorities; hand up to the higher authorities, offer</def>
             </sense>
-<sense xml:id="uuid-8da01a58-32bf-4c56-a01a-5832bf8c5664" resp="#CH" tls:created="2022-08-28T17:22:02.38+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-28T17:23:22.253+09:00">hand oneself in to/for; deliver oneself to, hand oneself up to the authorities for</def></sense></entry>
+<sense xml:id="uuid-8da01a58-32bf-4c56-a01a-5832bf8c5664" resp="#CH" tls:created="2022-08-28T17:22:02.38+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-92ae8363-92d9-4b96-80a4-b07bc6788113">reflexive.自</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-28T17:23:22.253+09:00">hand oneself in to/for; deliver oneself to, hand oneself up to the authorities for</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-297441d6-842a-4908-a916-a3ad24bb9414">
             <form corresp="#uuid-20708d88-c48d-40bf-97ab-23214171e532">
 <orth>升</orth>
@@ -333,7 +342,15 @@
                 </gramGrp>
   <def>submit (text or memorial) formally to the highest authorities; submit to the emperor</def>
             </sense>
-<sense xml:id="uuid-0504ef77-d909-4efd-84ef-77d9094efd08" resp="#dsehnal" tls:created="2023-07-08T19:26:34.242+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func><tls:sem-feat corresp="#uuid-24178b3c-ab18-4fff-9286-c4ea33e78535">N2=human</tls:sem-feat></gramGrp><def>submit the contextually determinate N1 to N2</def></sense></entry>
+<sense xml:id="uuid-0504ef77-d909-4efd-84ef-77d9094efd08" resp="#dsehnal" tls:created="2023-07-08T19:26:34.242+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-24178b3c-ab18-4fff-9286-c4ea33e78535">N2=human</tls:sem-feat>
+                </gramGrp>
+                <def>submit the contextually determinate N1 to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-aad4ac51-79ac-41b5-b396-c09014a75234">
             <form corresp="#uuid-b165c52f-d3c5-42ea-84b5-248b99839a0b">
 <orth>御</orth>
@@ -373,7 +390,14 @@
                 </gramGrp>
   <def>give up (one's life)</def>
             </sense>
-<sense xml:id="uuid-5ed23700-c191-48ee-a335-3244b3cbc691" resp="#CH" tls:created="2019-10-18T17:49:18.151+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vtt[oN1]. N2</tls:syn-func></gramGrp><def>hand up something to N2</def></sense></entry>
+<sense xml:id="uuid-5ed23700-c191-48ee-a335-3244b3cbc691" resp="#CH" tls:created="2019-10-18T17:49:18.151+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vtt[oN1]. N2</tls:syn-func>
+                </gramGrp>
+                <def>hand up something to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b48dd399-7fb3-4984-aced-44550d82c6c3">
             <form corresp="#uuid-2f1dee22-3b59-4569-b435-4b8cc6c0550d">
 <orth>效</orth>
@@ -553,7 +577,31 @@
                 </gramGrp>
   <def>offer up a ceremonial cup</def>
             </sense>
-<sense xml:id="uuid-31c2e51c-c713-49a7-bbc5-ecd1c5672ca2" resp="#CH" tls:created="2020-01-11T04:35:46.65+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vttoN1. prep N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be handed up to N2</def></sense><sense xml:id="uuid-06656361-fc90-4f7d-9708-c6efa0a0a338" resp="#CH" tls:created="2020-01-24T23:30:43.703+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vtt(oN1.) prep N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be handed up to</def></sense><sense xml:id="uuid-fd81762d-731c-4f07-8176-2d731c1f0774" resp="#CH" tls:created="2021-06-22T19:04:27.431+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def>hand up N2 to the contextually determinate N1</def></sense></entry>
+<sense xml:id="uuid-31c2e51c-c713-49a7-bbc5-ecd1c5672ca2" resp="#CH" tls:created="2020-01-11T04:35:46.65+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vttoN1. prep N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be handed up to N2</def>
+            </sense>
+            <sense xml:id="uuid-06656361-fc90-4f7d-9708-c6efa0a0a338" resp="#CH" tls:created="2020-01-24T23:30:43.703+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vtt(oN1.) prep N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be handed up to</def>
+            </sense>
+            <sense xml:id="uuid-fd81762d-731c-4f07-8176-2d731c1f0774" resp="#CH" tls:created="2021-06-22T19:04:27.431+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def>hand up N2 to the contextually determinate N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0da423d4-8032-4957-ae4e-ac94f66ba871">
             <form corresp="#uuid-4d2e06f4-1af4-4640-a281-81624749fddc">
 <orth>稟</orth>
@@ -658,7 +706,14 @@
                 </gramGrp>
   <def>be handed up</def>
             </sense>
-<sense xml:id="uuid-910c0fc3-1fd4-4305-a1bd-0c4bbf34c970" resp="#CH" tls:created="2020-01-01T22:27:47.575+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>ritually offer up to deities</def></sense></entry>
+<sense xml:id="uuid-910c0fc3-1fd4-4305-a1bd-0c4bbf34c970" resp="#CH" tls:created="2020-01-01T22:27:47.575+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>ritually offer up to deities</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-30d51734-444d-401b-8506-4ca3452d7284">
             <form corresp="#uuid-ed694f6b-c482-40ad-ae71-c1c92d0f421a">
 <orth>謁</orth>
@@ -759,7 +814,21 @@
                 </gramGrp>
   <def>come forward with and present</def>
             </sense>
-<sense xml:id="uuid-b7f55e38-c0a1-4a64-b61c-1ff2694151a6" resp="#CH" tls:created="2020-01-01T21:59:19.843+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>present N1 ceremoniously to the superior/divine N2</def></sense><sense xml:id="uuid-16419968-5e6a-453f-8199-685e6a753fc9" resp="#dsehnal" tls:created="2024-05-05T01:08:02.282+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func></gramGrp><def>to present (typically a speech) as follows:</def></sense></entry>
+<sense xml:id="uuid-b7f55e38-c0a1-4a64-b61c-1ff2694151a6" resp="#CH" tls:created="2020-01-01T21:59:19.843+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>present N1 ceremoniously to the superior/divine N2</def>
+            </sense>
+            <sense xml:id="uuid-16419968-5e6a-453f-8199-685e6a753fc9" resp="#dsehnal" tls:created="2024-05-05T01:08:02.282+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-504ec124-c823-4cc6-a14a-913dc8c5c4b4">vtoN.+VtoS</tls:syn-func>
+                </gramGrp>
+                <def>to present (typically a speech) as follows:</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a4a3ea17-ec7a-4103-adda-b56a21b6a313">
             <form corresp="#uuid-728113d0-569f-4e38-8f28-fc20e4dcf510 #uuid-603e234e-491b-4c42-8070-264e690614f4">
 <orth>供給</orth>
@@ -927,7 +996,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-d89ada68-d2ac-4839-aaaa-67e1fd3ed969">
-            <form corresp="#uuid-2ef8e237-ac8c-4aac-b8e2-37ac8ceaacc8"><orth>入</orth><pron xml:lang="zh-Latn-x-pinyin">nà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-2ef8e237-ac8c-4aac-b8e2-37ac8ceaacc8">
+                <orth>入</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-60130fd8-6839-4906-b42e-11b129f8b600">
 <gramGrp>
                     <pos>V</pos>
@@ -942,7 +1016,14 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-e75dcae8-7157-4fd7-9dca-e871579fd7fa" resp="#dsehnal" tls:created="2024-06-13T04:27:25.626+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ba68765f-432c-4660-b0a0-3b32074be74f">vtt(oN1.)(+N2)</tls:syn-func></gramGrp><def>bring the contextually determinate N1 to the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-e75dcae8-7157-4fd7-9dca-e871579fd7fa" resp="#dsehnal" tls:created="2024-06-13T04:27:25.626+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ba68765f-432c-4660-b0a0-3b32074be74f">vtt(oN1.)(+N2)</tls:syn-func>
+                </gramGrp>
+                <def>bring the contextually determinate N1 to the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-576f097a-c143-4d9c-8efd-2e12eb60260d">
             <form corresp="#uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625">
 <orth>通</orth>
@@ -958,5 +1039,20 @@
   <def>hand up N1 to N2</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b87d5a6c-3121-4e85-bd5a-6c3121ee85f1" resp="#CH" tls:created="2022-08-23T20:13:20.65+09:00"><form corresp="#uuid-2782924c-f9e3-4724-ba7b-1179a5412254 #uuid-747d5e78-deb0-4f2e-bcff-25b7db70a9af"><orth>委質</orth><pron xml:lang="zh-Latn-x-pinyin">wěi zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jweX tsyit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrolʔ tjid</pron></form><sense xml:id="uuid-351f15b4-1641-43e3-9f15-b41641f3e373" resp="#CH" tls:created="2022-08-23T20:13:20.65+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2ce7b95a-b57f-4e9e-bc7d-deb98b78849a">VPt( prep N)</tls:syn-func></gramGrp><def>make ritual presents to superiors</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b87d5a6c-3121-4e85-bd5a-6c3121ee85f1" resp="#CH" tls:created="2022-08-23T20:13:20.65+09:00">
+            <form corresp="#uuid-2782924c-f9e3-4724-ba7b-1179a5412254 #uuid-747d5e78-deb0-4f2e-bcff-25b7db70a9af">
+                <orth>委質</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wěi zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jweX tsyit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qrolʔ tjid</pron>
+            </form>
+            <sense xml:id="uuid-351f15b4-1641-43e3-9f15-b41641f3e373" resp="#CH" tls:created="2022-08-23T20:13:20.65+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2ce7b95a-b57f-4e9e-bc7d-deb98b78849a">VPt( prep N)</tls:syn-func>
+                </gramGrp>
+                <def>make ritual presents to superiors</def>
+            </sense>
+        </entry>
+    </div>
 </div>

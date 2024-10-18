@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-13dc9c56-c3b7-4216-9dc9-c1715ab2c27c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-13dc9c56-c3b7-4216-9dc9-c1715ab2c27c">
 <head>DEEP</head>
     <list type="altnames">
 <item>CAVERNOUS</item>
@@ -89,10 +90,20 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-bd05cf39-41d1-4b41-a6e4-6015335a8d44">
-            <form corresp="#uuid-b67c69c2-8dc2-44db-bc69-c28dc294dbea"><orth>深</orth><pron xml:lang="zh-Latn-x-pinyin">shēn/shèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-b67c69c2-8dc2-44db-bc69-c28dc294dbea">
+                <orth>深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn/shèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>The dominant current general word for anything deep in any sense is shēn 深 (ant. qiǎn 淺"shallow").
 </def>
-            <form corresp="#uuid-b67c69c2-8dc2-44db-bc69-c28dc294dbea"><orth>深</orth><pron xml:lang="zh-Latn-x-pinyin">shēn/shèn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-b67c69c2-8dc2-44db-bc69-c28dc294dbea">
+                <orth>深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn/shèn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>The dominant current general word for anything deep in any sense is shēn 深 (ant. qiǎn 淺"shallow").
 </def>
 <sense xml:id="uuid-3f4a4e0a-e528-4576-b088-f561def1496a">
@@ -159,7 +170,37 @@
                 </gramGrp>
   <def>unfathomable; endless (mountains etc)</def>
             </sense>
-<sense xml:id="uuid-5513fa87-b0bc-4a8c-a16c-05839ad71ff7" resp="#CH" tls:created="2019-10-17T17:46:16.02+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>deep abyss</def></sense><sense xml:id="uuid-e76a357e-fd21-48cb-9a84-2dfc368f6642" resp="#CH" tls:created="2019-12-25T18:37:54.361+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>be preoccupied with deep other things</def></sense><sense xml:id="uuid-abdeffa0-c9a3-4453-ad53-5047fb3557fa" resp="#CH" tls:created="2020-02-05T18:13:31.793+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>deepest point of N</def></sense><sense xml:id="uuid-54e7e813-018a-4158-a7e8-13018a115882" resp="#zadrapa" tls:created="2020-06-12T16:00:45.634+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp><def>be deeper than N</def></sense></entry>
+<sense xml:id="uuid-5513fa87-b0bc-4a8c-a16c-05839ad71ff7" resp="#CH" tls:created="2019-10-17T17:46:16.02+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>deep abyss</def>
+            </sense>
+            <sense xml:id="uuid-e76a357e-fd21-48cb-9a84-2dfc368f6642" resp="#CH" tls:created="2019-12-25T18:37:54.361+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>be preoccupied with deep other things</def>
+            </sense>
+            <sense xml:id="uuid-abdeffa0-c9a3-4453-ad53-5047fb3557fa" resp="#CH" tls:created="2020-02-05T18:13:31.793+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>deepest point of N</def>
+            </sense>
+            <sense xml:id="uuid-54e7e813-018a-4158-a7e8-13018a115882" resp="#zadrapa" tls:created="2020-06-12T16:00:45.634+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+                <def>be deeper than N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fb61e9cf-1887-45fa-90c6-ec29d7261f42">
             <form corresp="#uuid-9345924d-c7b2-48d3-aa81-8b3a70759ef1">
 <orth>淵</orth>
@@ -291,7 +332,14 @@
                 </gramGrp>
   <def>be ubfathomable</def>
             </sense>
-<sense xml:id="uuid-84133a6f-f371-406b-933a-6ff371706bae" resp="#CH" tls:created="2021-03-02T00:05:06.988+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e7780c5b-9f32-443c-be48-55f7e98fa072">VP[adNab]</tls:syn-func></gramGrp><def>the unfathomable</def></sense></entry>
+<sense xml:id="uuid-84133a6f-f371-406b-933a-6ff371706bae" resp="#CH" tls:created="2021-03-02T00:05:06.988+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e7780c5b-9f32-443c-be48-55f7e98fa072">VP[adNab]</tls:syn-func>
+                </gramGrp>
+                <def>the unfathomable</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8d03ea4d-9a35-412b-a7b2-eace40260454">
             <form corresp="#uuid-6c332f84-a3e1-44df-8c9b-4acf83836382 #uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800">
 <orth>淺深</orth>
@@ -373,5 +421,35 @@
   <def>deep</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-049c1bd1-3331-472a-9c1b-d13331472a4c" resp="#CH" tls:created="2020-12-18T00:16:07.665+09:00"><form corresp="#uuid-11d939d4-7904-4173-a2a4-feff7e7d7c1b"><orth>浚</orth><pron xml:lang="zh-Latn-x-pinyin">jùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">swinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqluns</pron></form><sense xml:id="uuid-0c5f30ba-a7dd-4964-9f30-baa7ddf9640b" resp="#CH" tls:created="2020-12-18T00:16:07.665+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>poetic: deep and steep</def></sense></entry><entry type="word" xml:id="uuid-c5145c2e-daf6-421e-945c-2edaf6521ed4" resp="#dsehnal" tls:created="2024-06-10T00:57:53.566+09:00"><form corresp="#uuid-5de8cab0-ac53-4bcd-a5fb-216a878579ba #uuid-06a500e4-131c-43bd-b379-e5fbdba49e76"><orth>窈窕</orth><pron xml:lang="zh-Latn-x-pinyin">yǎo tiǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'ewX dewX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qiiwʔ ɡ-leewʔ</pron></form><sense xml:id="uuid-3224cdb6-c7f4-4eca-a4cd-b6c7f42eca3a" resp="#dsehnal" tls:created="2024-06-10T00:57:53.566+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>deep and dark</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-049c1bd1-3331-472a-9c1b-d13331472a4c" resp="#CH" tls:created="2020-12-18T00:16:07.665+09:00">
+            <form corresp="#uuid-11d939d4-7904-4173-a2a4-feff7e7d7c1b">
+                <orth>浚</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">swinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqluns</pron>
+            </form>
+            <sense xml:id="uuid-0c5f30ba-a7dd-4964-9f30-baa7ddf9640b" resp="#CH" tls:created="2020-12-18T00:16:07.665+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>poetic: deep and steep</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5145c2e-daf6-421e-945c-2edaf6521ed4" resp="#dsehnal" tls:created="2024-06-10T00:57:53.566+09:00">
+            <form corresp="#uuid-5de8cab0-ac53-4bcd-a5fb-216a878579ba #uuid-06a500e4-131c-43bd-b379-e5fbdba49e76">
+                <orth>窈窕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǎo tiǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'ewX dewX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qiiwʔ ɡ-leewʔ</pron>
+            </form>
+            <sense xml:id="uuid-3224cdb6-c7f4-4eca-a4cd-b6c7f42eca3a" resp="#dsehnal" tls:created="2024-06-10T00:57:53.566+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>deep and dark</def>
+            </sense>
+        </entry>
+    </div>
 </div>

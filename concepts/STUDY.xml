@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d9df8931-313a-4dee-ab85-bb9f90342b11">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d9df8931-313a-4dee-ab85-bb9f90342b11">
 <head>STUDY</head>
     <list type="translations">
         <item xml:lang="zh">學</item>
@@ -7,9 +8,19 @@
     </list>
 <div type="definition">
 <p>INVESTIGATE THINGS OR IMITATE ANOTHER so as to STRIVE FOR SKILLFULNESS, KNOWING AND UNDERSTANDING.</p>
-    <div type="definition" resp="#CH" modified="2023-09-12T17:04:41.707+09:00"><p>INVESTIGATE THINGS OR IMITATE ANOTHER HUMAN TRYING TO ACQUIRE SKILL, KNOWLEDGE, AND UNDERSTANDING.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-12T17:04:41.707+09:00">
+            <p>INVESTIGATE THINGS OR IMITATE ANOTHER HUMAN TRYING TO ACQUIRE SKILL, KNOWLEDGE, AND UNDERSTANDING.</p>
+        </div>
+    </div>
 <div type="notes">
-<div type="old-chinese-criteria" resp="#CH" modified="2023-07-24T16:39:47.917+09:00"><p>1. The dominant word is xué 學 (ant. jiào 教 "train teach")which refers to the acquisition of existing knowledge or virtues, typically under another person. Often, the word retains a tinge of immitation.</p><p>2. Shī 師 and cóng 從 refer to deciding to study under someone and treating him as one's teacher.</p><p>3. Kǎo 考 refers to an investigation of a subject in a "scientific" spirit with the aim of finding the truth about something.</p><p>4. Jiū 究 and yán 研 refers to an in-depth study of a subject, typically involving a fair amount of reflection.</p><p>5. Zhì 治 and gōng 攻 refer to the systematic and specialised study, typically of a certain text.</p><p>6. Xí 習 refers to rehearsing and application in practice of what one has learnt, through repetition of text and/or through enactment in practice.</p></div>
+<div type="old-chinese-criteria" resp="#CH" modified="2023-07-24T16:39:47.917+09:00">
+            <p>1. The dominant word is xué 學 (ant. jiào 教 "train teach")which refers to the acquisition of existing knowledge or virtues, typically under another person. Often, the word retains a tinge of immitation.</p>
+            <p>2. Shī 師 and cóng 從 refer to deciding to study under someone and treating him as one's teacher.</p>
+            <p>3. Kǎo 考 refers to an investigation of a subject in a "scientific" spirit with the aim of finding the truth about something.</p>
+            <p>4. Jiū 究 and yán 研 refers to an in-depth study of a subject, typically involving a fair amount of reflection.</p>
+            <p>5. Zhì 治 and gōng 攻 refer to the systematic and specialised study, typically of a certain text.</p>
+            <p>6. Xí 習 refers to rehearsing and application in practice of what one has learnt, through repetition of text and/or through enactment in practice.</p>
+        </div>
 <div type="huang-jingui">
 <p>HUANG JINGUI 2006</p>
 <p>EDUCATION 15.</p>
@@ -226,7 +237,12 @@
                 <pron xml:lang="zh-x-oc"/>
                 <pron xml:lang="zh-x-mc"/>
             </form>
-            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55"><orth>間</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron></form>
+            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
+                <orth>間</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron>
+            </form>
             <form corresp="#uuid-a834c8a9-558d-4e7f-ab31-0ac0e821a389">
 <orth>嫻</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">xián</pron>
@@ -384,7 +400,76 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-07-22T23:54:09.069+09:00">study (some skill N1) with/under (a master N2), study ( a subject N1) under (a master N2)　學射於 "study archery with"</def>
             </sense>
-<sense xml:id="uuid-26341018-e625-4ecc-ac8c-6f44a9394245" resp="#CH" tls:created="2019-12-31T22:14:26.792+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>study with someone</def></sense><sense xml:id="uuid-b1fe996d-0759-4ba7-be99-6d0759aba7b2" resp="#CH" tls:created="2020-04-09T21:13:33.354+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>study with; become a student of a contextually determinate person</def></sense><sense xml:id="uuid-b7e452d0-48ae-47f9-a452-d048aee7f9f9" resp="#CH" tls:created="2020-04-09T22:23:40.243+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def resp="#CH" updated="2023-07-24T16:30:39.415+09:00">the systematic study of the subject N</def></sense><sense xml:id="uuid-5a9718f2-e56d-4c33-9718-f2e56d3c33d1" resp="#CH" tls:created="2020-04-09T22:27:54.622+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-07T22:30:16.951+09:00">the study of/by the studying person N</def></sense><sense xml:id="uuid-06267b8f-65dd-4294-a67b-8f65dd0294d4" resp="#CH" tls:created="2022-08-07T22:32:15.136+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-beb7f0dc-f4ba-4e59-b7f0-dcf4ba0e596f">derived object</tls:sem-feat></gramGrp><def>objects of study</def></sense><sense xml:id="uuid-cfe3c573-aab9-4884-a3c5-73aab95884be" resp="#CH" tls:created="2023-07-22T16:48:19.214+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def resp="#CH" updated="2023-07-22T17:28:34.205+09:00">be a student in; become a student in 學於齊</def></sense><sense xml:id="uuid-1c64c98e-4869-46af-a4c9-8e486966af0d" resp="#CH" tls:created="2023-07-24T15:42:49.918+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-29c2ddac-5987-46cf-82dd-ac5987a6cf63">the relevant</tls:sem-feat></gramGrp><def>engage in the relevant formal training/study</def></sense><sense xml:id="uuid-a9fe0c93-8200-45db-be0c-93820035db4f" resp="#CH" tls:created="2023-07-26T16:38:14.94+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-5105018d-3006-4411-8501-8d3006441159">N=human, plural</tls:sem-feat></gramGrp><def>study with the Ns, become a disciple of the Ns (barbarians etc)</def></sense><sense xml:id="uuid-aee240c0-a499-4199-a240-c0a4990199c0" resp="#CH" tls:created="2023-07-29T16:51:54.204+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-a0f078e3-bab7-4750-b078-e3bab7f75095">inchoative,act</tls:sem-feat></gramGrp><def>go to school; start formal education</def></sense></entry>
+<sense xml:id="uuid-26341018-e625-4ecc-ac8c-6f44a9394245" resp="#CH" tls:created="2019-12-31T22:14:26.792+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>study with someone</def>
+            </sense>
+            <sense xml:id="uuid-b1fe996d-0759-4ba7-be99-6d0759aba7b2" resp="#CH" tls:created="2020-04-09T21:13:33.354+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>study with; become a student of a contextually determinate person</def>
+            </sense>
+            <sense xml:id="uuid-b7e452d0-48ae-47f9-a452-d048aee7f9f9" resp="#CH" tls:created="2020-04-09T22:23:40.243+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-24T16:30:39.415+09:00">the systematic study of the subject N</def>
+            </sense>
+            <sense xml:id="uuid-5a9718f2-e56d-4c33-9718-f2e56d3c33d1" resp="#CH" tls:created="2020-04-09T22:27:54.622+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-07T22:30:16.951+09:00">the study of/by the studying person N</def>
+            </sense>
+            <sense xml:id="uuid-06267b8f-65dd-4294-a67b-8f65dd0294d4" resp="#CH" tls:created="2022-08-07T22:32:15.136+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-beb7f0dc-f4ba-4e59-b7f0-dcf4ba0e596f">derived object</tls:sem-feat>
+                </gramGrp>
+                <def>objects of study</def>
+            </sense>
+            <sense xml:id="uuid-cfe3c573-aab9-4884-a3c5-73aab95884be" resp="#CH" tls:created="2023-07-22T16:48:19.214+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2023-07-22T17:28:34.205+09:00">be a student in; become a student in 學於齊</def>
+            </sense>
+            <sense xml:id="uuid-1c64c98e-4869-46af-a4c9-8e486966af0d" resp="#CH" tls:created="2023-07-24T15:42:49.918+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-29c2ddac-5987-46cf-82dd-ac5987a6cf63">the relevant</tls:sem-feat>
+                </gramGrp>
+                <def>engage in the relevant formal training/study</def>
+            </sense>
+            <sense xml:id="uuid-a9fe0c93-8200-45db-be0c-93820035db4f" resp="#CH" tls:created="2023-07-26T16:38:14.94+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5105018d-3006-4411-8501-8d3006441159">N=human, plural</tls:sem-feat>
+                </gramGrp>
+                <def>study with the Ns, become a disciple of the Ns (barbarians etc)</def>
+            </sense>
+            <sense xml:id="uuid-aee240c0-a499-4199-a240-c0a4990199c0" resp="#CH" tls:created="2023-07-29T16:51:54.204+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a0f078e3-bab7-4750-b078-e3bab7f75095">inchoative,act</tls:sem-feat>
+                </gramGrp>
+                <def>go to school; start formal education</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-85384741-6ace-44a0-945e-0e1076d190a5">
             <form corresp="#uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
 <orth>師</orth>
@@ -617,7 +702,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-04d80b08-c193-4dee-8296-3137596d378c">
-            <form corresp="#uuid-6b520202-cf58-436f-a2df-f27b1abf0874"><orth>隨</orth><pron xml:lang="zh-Latn-x-pinyin">suí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlol</pron></form>
+            <form corresp="#uuid-6b520202-cf58-436f-a2df-f27b1abf0874">
+                <orth>隨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlol</pron>
+            </form>
 <sense xml:id="uuid-d025d74d-c265-4f00-a747-55e7b9b46c1c">
 <gramGrp>
                     <pos>V</pos>
@@ -660,7 +750,7 @@
   <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
   <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
                 </gramGrp>
-  <def resp="#CH" updated="2024-07-30T17:25:45.177+09:00">love of self-improvement in the most general sense, not book-learning; love for intellectual/moral self-cultivation/study</def>
+  <def resp="#CH" updated="2024-10-14T03:23:29.987+09:00">eagerness for study (to improve oneself and become a better person); love for cultivating self-improvement in the most general sense, not book-learning; love for intellectual/moral self-cultivation/improvement</def>
             </sense>
 <sense xml:id="uuid-2a721dbc-840f-4f0e-af2d-246644f82ed6">
 <gramGrp>
@@ -669,7 +759,7 @@
   <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def resp="#CH" updated="2024-07-30T17:26:28.695+09:00"> be devoted to trying to learn to improve oneself; be eager to study so as to improve oneself 孰為好學</def>
+  <def resp="#CH" updated="2024-10-14T03:23:36.001+09:00"> be devoted to trying to learn to improve oneself; be eager to study so as to improve oneself/become a better person 孰為好學</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-1bde9316-704d-4bf2-8f25-52b10d941a10">
@@ -864,17 +954,128 @@
   <def>receive instruction on N1 from N2 受經於仲尼 "receive instruction on the classics from Confucius"</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-dc39a1b5-ed83-4c74-b9a1-b5ed833c74d5" resp="#CH" tls:created="2020-02-13T00:46:28.088+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-85655893-cbf7-4a30-a558-93cbf71a3092" resp="#CH" tls:created="2020-02-13T00:46:28.088+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>study in a repetitive way</def></sense></entry><entry type="word" xml:id="uuid-1d78945c-923e-4a0a-b894-5c923e5a0a00" resp="#CH" tls:created="2020-02-13T00:46:38.611+09:00"><form corresp="#uuid-570312f2-3861-4707-980d-cf5bde83323b"><orth>練</orth><pron xml:lang="zh-Latn-x-pinyin">liàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lenH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-reens</pron></form><sense xml:id="uuid-3b729442-d9ec-4022-b294-42d9ecd02260" resp="#CH" tls:created="2020-02-13T00:46:38.611+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>study in a repetitive way</def></sense></entry><entry type="word" xml:id="uuid-2e0b9593-a745-4b59-8b95-93a745bb59f8" resp="#zadrapa" tls:created="2022-02-11T23:32:48.407+09:00"><form corresp="#uuid-98995e63-a668-4236-8491-59fbf6ee030c #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4"><orth>問學</orth><pron xml:lang="zh-Latn-x-pinyin">wèn xué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjunH haewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯns ɡruuɡ</pron></form><sense xml:id="uuid-5dd71ee8-8ded-433a-971e-e88dedf33a7b" resp="#zadrapa" tls:created="2022-02-11T23:32:48.407+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>study; range of studying activity</def></sense></entry><entry type="word" xml:id="uuid-67fe0817-5c53-473b-be08-175c53b73b36" resp="#Valerie.Kiel" tls:created="2023-03-16T06:17:28.305+09:00"><form corresp="#uuid-a127fa81-32cb-49a0-848b-2f87b82e1db4"><orth>事</orth><pron xml:lang="zh-Latn-x-pinyin">shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzriH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzrɯs</pron></form><sense xml:id="uuid-92eece08-42f3-47fd-aece-0842f377fd52" resp="#Valerie.Kiel" tls:created="2023-03-16T06:17:28.305+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>study in the service under N</def></sense></entry><entry type="word" xml:id="uuid-92664c97-8bc8-4bb7-a64c-978bc88bb7a9" resp="#CH" tls:created="2023-07-22T20:52:44.164+09:00"><form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50 #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4"><orth>為學</orth><pron xml:lang="zh-Latn-x-pinyin">wéi xué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH haewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal ɡruuɡ</pron></form><sense xml:id="uuid-5fb574de-b703-4e18-b574-deb7039e18bc" resp="#CH" tls:created="2023-07-22T20:52:44.164+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>engage in study</def></sense></entry><entry type="word" xml:id="uuid-0bf46023-d512-48c0-b460-23d51248c0fe" resp="#CH" tls:created="2023-07-26T21:53:11.464+09:00"><form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4"><orth>脩學</orth><pron xml:lang="zh-Latn-x-pinyin">xiū xué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw haewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw ɡruuɡ</pron></form><sense xml:id="uuid-63080dc9-74c7-4a8d-880d-c974c7fa8d94" resp="#CH" tls:created="2023-07-26T21:53:11.464+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>cultivate study; be dedicated to study</def></sense></entry><entry xml:id="uuid-8d8fa6e0-844f-4681-8fa6-e0844f8681ed"><form corresp="#uuid-ef8eb44d-db8a-4f3b-8eaf-a0dec0116c4a #uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c">
+    <entry type="word" xml:id="uuid-dc39a1b5-ed83-4c74-b9a1-b5ed833c74d5" resp="#CH" tls:created="2020-02-13T00:46:28.088+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-85655893-cbf7-4a30-a558-93cbf71a3092" resp="#CH" tls:created="2020-02-13T00:46:28.088+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>study in a repetitive way</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1d78945c-923e-4a0a-b894-5c923e5a0a00" resp="#CH" tls:created="2020-02-13T00:46:38.611+09:00">
+            <form corresp="#uuid-570312f2-3861-4707-980d-cf5bde83323b">
+                <orth>練</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lenH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-reens</pron>
+            </form>
+            <sense xml:id="uuid-3b729442-d9ec-4022-b294-42d9ecd02260" resp="#CH" tls:created="2020-02-13T00:46:38.611+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>study in a repetitive way</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2e0b9593-a745-4b59-8b95-93a745bb59f8" resp="#zadrapa" tls:created="2022-02-11T23:32:48.407+09:00">
+            <form corresp="#uuid-98995e63-a668-4236-8491-59fbf6ee030c #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
+                <orth>問學</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèn xué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjunH haewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯns ɡruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-5dd71ee8-8ded-433a-971e-e88dedf33a7b" resp="#zadrapa" tls:created="2022-02-11T23:32:48.407+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>study; range of studying activity</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-67fe0817-5c53-473b-be08-175c53b73b36" resp="#Valerie.Kiel" tls:created="2023-03-16T06:17:28.305+09:00">
+            <form corresp="#uuid-a127fa81-32cb-49a0-848b-2f87b82e1db4">
+                <orth>事</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzriH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzrɯs</pron>
+            </form>
+            <sense xml:id="uuid-92eece08-42f3-47fd-aece-0842f377fd52" resp="#Valerie.Kiel" tls:created="2023-03-16T06:17:28.305+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>study in the service under N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-92664c97-8bc8-4bb7-a64c-978bc88bb7a9" resp="#CH" tls:created="2023-07-22T20:52:44.164+09:00">
+            <form corresp="#uuid-7dd1780c-ee9b-4eaa-af63-c42cb57baf50 #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
+                <orth>為學</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi xué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH haewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal ɡruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-5fb574de-b703-4e18-b574-deb7039e18bc" resp="#CH" tls:created="2023-07-22T20:52:44.164+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>engage in study</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0bf46023-d512-48c0-b460-23d51248c0fe" resp="#CH" tls:created="2023-07-26T21:53:11.464+09:00">
+            <form corresp="#uuid-440f9ff6-c7bd-4b2c-a6e2-136e25dee151 #uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
+                <orth>脩學</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiū xué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw haewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlɯw ɡruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-63080dc9-74c7-4a8d-880d-c974c7fa8d94" resp="#CH" tls:created="2023-07-26T21:53:11.464+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>cultivate study; be dedicated to study</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-8d8fa6e0-844f-4681-8fa6-e0844f8681ed">
+            <form corresp="#uuid-ef8eb44d-db8a-4f3b-8eaf-a0dec0116c4a #uuid-3fea944e-3a8d-4a16-a19d-850444d49e0c">
 <orth>修身</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">xiū shēn</pron>
                 <pron xml:lang="zh-x-oc">sqlɯw qhjin</pron>
                 <pron xml:lang="zh-x-mc">sɨu ɕin</pron>
-            </form><sense xml:id="uuid-2fe719e8-7370-4b12-b9c5-a9ffc514b1b5">
+            </form>
+            <sense xml:id="uuid-2fe719e8-7370-4b12-b9c5-a9ffc514b1b5">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                 </gramGrp>
   <def>cultivate one's person</def>
-            </sense></entry><entry type="word" xml:id="uuid-b33a3c30-069d-418e-ba3c-30069d218ec1" resp="#CH" tls:created="2023-07-29T17:45:56.936+09:00"><form corresp="#uuid-45e3a7a4-301a-4658-9f1b-b589e50fd406"><orth>讀</orth><pron xml:lang="zh-Latn-x-pinyin">dú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">duwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-looɡ</pron></form><sense xml:id="uuid-ddb64a2c-01a2-4872-b64a-2c01a2e872fe" resp="#CH" tls:created="2023-07-29T17:45:56.936+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>read systematically, study (and learn by heart)</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b33a3c30-069d-418e-ba3c-30069d218ec1" resp="#CH" tls:created="2023-07-29T17:45:56.936+09:00">
+            <form corresp="#uuid-45e3a7a4-301a-4658-9f1b-b589e50fd406">
+                <orth>讀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">duwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-looɡ</pron>
+            </form>
+            <sense xml:id="uuid-ddb64a2c-01a2-4872-b64a-2c01a2e872fe" resp="#CH" tls:created="2023-07-29T17:45:56.936+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>read systematically, study (and learn by heart)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-464e6eda-9d70-4a07-8d2c-cae4282f781d">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-464e6eda-9d70-4a07-8d2c-cae4282f781d">
 <head>TARGET</head>
     <list type="altnames">
 <item>MARK</item>
@@ -268,16 +269,43 @@
   <def>target</def>
             </sense>
 </entry>
-    <entry xml:id="uuid-dcbac517-7cee-46d1-bac5-177cee66d1d0"><form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
+    <entry xml:id="uuid-dcbac517-7cee-46d1-bac5-177cee66d1d0">
+            <form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
 <orth>於</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
                 <pron xml:lang="zh-x-oc">qa</pron>
                 <pron xml:lang="zh-x-mc">ʔi̯ɤ</pron>
-            </form><sense xml:id="uuid-df5fcbdd-4746-46b2-8a19-3e7ad4722ed3">
+            </form>
+            <sense xml:id="uuid-df5fcbdd-4746-46b2-8a19-3e7ad4722ed3">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func>
                 </gramGrp>
   <def resp="#CH" updated="2022-07-24T20:19:11.865+09:00">至於此其大"reach this size": targeting, relating to as grammatical object to the V</def>
-            </sense><sense xml:id="uuid-25f42788-af93-41cd-b427-88af9321cd98" resp="#CH" tls:created="2022-07-23T21:06:38.572+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func><tls:sem-feat corresp="#uuid-34203dfa-8aef-40b1-9a15-353f674c8781">literally local</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-07-24T20:10:02.095+09:00">入於室"enter the building": literally reaching a place, when this reaching is already expressed by the V</def></sense></entry><entry type="word" xml:id="uuid-cd7b9ab2-f0e8-446b-bb9a-b2f0e8846b00" resp="#CH" tls:created="2022-07-23T23:17:08.041+09:00"><form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>乎</orth><pron xml:lang="zh-Latn-x-pinyin">hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron></form><sense xml:id="uuid-f4f9fddf-bb52-4b1e-b9fd-dfbb529b1ec1" resp="#CH" tls:created="2022-07-23T23:17:08.041+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9cd3171b-624b-4a40-81b9-1674fa59fbe0">vt0oN.postadV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-07-25T21:52:37.573+09:00">世蘄乎亂"the vulgar world keeps seeking chaos": directed at N (as a grammatical object, nuance uncertain. 待考. Graham: "continuative"??)</def></sense></entry></div>
+            </sense>
+            <sense xml:id="uuid-25f42788-af93-41cd-b427-88af9321cd98" resp="#CH" tls:created="2022-07-23T21:06:38.572+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-34203dfa-8aef-40b1-9a15-353f674c8781">literally local</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-07-24T20:10:02.095+09:00">入於室"enter the building": literally reaching a place, when this reaching is already expressed by the V</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cd7b9ab2-f0e8-446b-bb9a-b2f0e8846b00" resp="#CH" tls:created="2022-07-23T23:17:08.041+09:00">
+            <form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-f4f9fddf-bb52-4b1e-b9fd-dfbb529b1ec1" resp="#CH" tls:created="2022-07-23T23:17:08.041+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9cd3171b-624b-4a40-81b9-1674fa59fbe0">vt0oN.postadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-07-25T21:52:37.573+09:00">世蘄乎亂"the vulgar world keeps seeking chaos": directed at N (as a grammatical object, nuance uncertain. 待考. Graham: "continuative"??)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

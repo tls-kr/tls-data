@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f33da289-fabe-4816-bdee-d93bf0d376d1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f33da289-fabe-4816-bdee-d93bf0d376d1">
 <head>FLOURISH</head>
     <list type="altnames">
 <item>GROW</item>
@@ -302,7 +303,14 @@
                 </gramGrp>
   <def>cause to flourish; make abundant</def>
             </sense>
-<sense xml:id="uuid-dfa6bf19-d079-4b22-a6bf-19d0793b22d9" resp="#CH" tls:created="2022-09-16T22:22:31.975+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>flourishing state</def></sense></entry>
+<sense xml:id="uuid-dfa6bf19-d079-4b22-a6bf-19d0793b22d9" resp="#CH" tls:created="2022-09-16T22:22:31.975+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>flourishing state</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4a488b90-0b83-4462-a8d5-14ee60b0890a">
             <form corresp="#uuid-9e459a61-ab2a-4156-b00f-4f87c4eff8d6">
 <orth>暢</orth>
@@ -491,7 +499,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-f1becac1-c86a-4f6d-9b19-17c85ef4cb61">
-            <form corresp="#uuid-c5163c13-4a96-4092-9cfb-58220d6db246"><orth>盛</orth><pron xml:lang="zh-Latn-x-pinyin">shèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djeŋs</pron></form>
+            <form corresp="#uuid-c5163c13-4a96-4092-9cfb-58220d6db246">
+                <orth>盛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djeŋs</pron>
+            </form>
             <def>The current general word for flourishing or thriving of any kind, abstract or concrete is shèng 盛 (ant. shuāi 衰 "decline").
 </def>
 <sense xml:id="uuid-82419645-7750-4bb7-9c73-e2e3ef04feba">
@@ -545,7 +558,15 @@
                 </gramGrp>
   <def>start to flourish; begin to dominate</def>
             </sense>
-<sense xml:id="uuid-a48d91a9-0a6d-43c6-8d91-a90a6d63c664" resp="#dsehnal" tls:created="2023-04-29T22:23:24.122+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-04-29T23:02:50.773+09:00">develop fully in respect N</def></sense></entry>
+<sense xml:id="uuid-a48d91a9-0a6d-43c6-8d91-a90a6d63c664" resp="#dsehnal" tls:created="2023-04-29T22:23:24.122+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-04-29T23:02:50.773+09:00">develop fully in respect N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9c73e0e7-8f40-462e-bda5-4118c86a7cc4">
             <form corresp="#uuid-9fc47535-5c07-4ab4-8d68-b1fb65cb838e">
 <orth>秀</orth>
@@ -555,7 +576,12 @@
             </form>
 </entry>
 <entry type="word" xml:id="uuid-0205fc54-76de-4c39-8ddc-2f833da5403e">
-            <form corresp="#uuid-9f2350d7-c7ae-44f1-85cf-9c3cc90daa99"><orth>繇</orth><pron xml:lang="zh-Latn-x-pinyin">yóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯw</pron></form>
+            <form corresp="#uuid-9f2350d7-c7ae-44f1-85cf-9c3cc90daa99">
+                <orth>繇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯw</pron>
+            </form>
 <sense xml:id="uuid-68f4be1e-181f-4282-9c8f-a3b74228a747">
 <gramGrp>
                     <pos>V</pos>
@@ -629,7 +655,15 @@
                 </gramGrp>
   <def>be made to flourish</def>
             </sense>
-<sense xml:id="uuid-f9ce9309-6014-47ff-9c8c-eb71de2a9278" resp="#CH" tls:created="2020-02-11T20:53:42.563+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to impose itself/oneself in all one's splendour</def></sense></entry>
+<sense xml:id="uuid-f9ce9309-6014-47ff-9c8c-eb71de2a9278" resp="#CH" tls:created="2020-02-11T20:53:42.563+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to impose itself/oneself in all one's splendour</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-779b3a78-3e0a-485b-957f-0f36c47406b7">
             <form corresp="#uuid-9b011fb7-9e0c-4079-82f4-5eb0db3896e3">
 <orth>芊</orth>
@@ -842,7 +876,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-06-07T05:06:42.605+09:00">be imposing, impressive and elegant</def>
             </sense>
-<sense xml:id="uuid-eac62f5c-d064-4752-bf17-00923caef596" resp="#CH" tls:created="2020-02-08T01:53:44.07+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>be mellifluous,  be rhetorically abundant</def></sense></entry>
+<sense xml:id="uuid-eac62f5c-d064-4752-bf17-00923caef596" resp="#CH" tls:created="2020-02-08T01:53:44.07+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>be mellifluous,  be rhetorically abundant</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d120a1d9-b856-45f7-a892-466bd321d268">
             <form corresp="#uuid-2a9069ae-bb66-43fe-af5f-9bf3b4675312">
 <orth>蕃</orth>
@@ -999,7 +1041,14 @@
                 </gramGrp>
   <def>SJ: flourish; be abundantly present</def>
             </sense>
-<sense xml:id="uuid-d7198e0e-6731-43bd-90a3-e9b3655422cc" resp="#CH" tls:created="2019-11-06T19:32:31.874+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>time of flourishing, heyday</def></sense></entry>
+<sense xml:id="uuid-d7198e0e-6731-43bd-90a3-e9b3655422cc" resp="#CH" tls:created="2019-11-06T19:32:31.874+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>time of flourishing, heyday</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-143d23b0-01b4-4845-bc8b-c9b1bd412b4a">
             <form corresp="#uuid-6577ecc0-6f53-441f-8fb2-cf630cdb1d9d">
 <orth>章</orth>
@@ -1289,5 +1338,102 @@
   <def resp="#CH" updated="2020-01-27T01:28:16.392+09:00">start to flourish, rise to full flower or power</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d6fdc6f5-2909-4a8b-bdc6-f52909ba8bdb" resp="#CH" tls:created="2020-04-06T03:43:03.878+09:00"><form corresp="#uuid-d72ce081-8ba1-44dd-bf49-72097ee57ad6"><orth>勃</orth><pron xml:lang="zh-Latn-x-pinyin">bó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bwot</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯɯd</pron></form><sense xml:id="uuid-9dc9f6bb-df60-4856-89f6-bbdf60c856de" resp="#CH" tls:created="2020-04-06T03:43:03.878+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be flourishing; be in strong shape</def></sense></entry><entry type="word" xml:id="uuid-98529a9c-1610-4ed0-929a-9c16101ed0e6" resp="#CH" tls:created="2020-05-13T22:13:22.402+09:00"><form corresp="#uuid-54514d4a-a01e-42d0-a0c5-777aabe85183"><orth>芾</orth><pron xml:lang="zh-Latn-x-pinyin">fèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pj+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pubs</pron></form><sense xml:id="uuid-e6f3a3b1-b913-4bd1-b3a3-b1b9133bd182" resp="#CH" tls:created="2020-05-13T22:13:22.402+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>flourish, have abundant foliage</def></sense></entry><entry type="word" xml:id="uuid-c71c3510-d50b-410b-9c35-10d50be10ba2" resp="#zadrapa" tls:created="2021-01-15T18:21:28.604+09:00"><form corresp="#uuid-d47e7bd5-88a4-4216-b6ee-b266d66dd08c #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5"><orth>佛然</orth><pron xml:lang="zh-Latn-x-pinyin">fó rán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjut nyen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯd njen</pron></form><sense xml:id="uuid-4691f5f9-63a1-4e37-91f5-f963a1be370e" resp="#zadrapa" tls:created="2021-01-15T18:21:28.604+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>(= bórán 勃然) in a way evoking great flourishing</def></sense><sense xml:id="uuid-67f7713c-3cd9-485b-b771-3c3cd9785b66" resp="#zadrapa" tls:created="2021-01-16T23:46:03.79+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-efe577d1-de70-4d80-84d0-e92f482f3f3d">VPadS</tls:syn-func></gramGrp><def>(= bórán 勃然) in a way evoking great flourishing</def></sense></entry><entry type="word" xml:id="uuid-1ce0ce58-c4de-405b-a0ce-58c4dea05bdb" resp="#zadrapa" tls:created="2022-05-31T21:43:49.735+09:00"><form corresp="#uuid-9ff11743-8e60-4186-8044-0fa4d82bb6dc #uuid-ac8c46af-0405-47a7-bd7a-1a0e76b5b01e"><orth>滋碩</orth><pron xml:lang="zh-Latn-x-pinyin">zī shuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsi dzyek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsɯ djaɡ</pron></form><sense xml:id="uuid-de4c8f85-f54e-4211-8c8f-85f54e92110c" resp="#zadrapa" tls:created="2022-05-31T21:43:49.735+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>grow and flourish</def></sense></entry><entry type="word" xml:id="uuid-4f2c2af8-02e4-409f-ac2a-f802e4509fca" resp="#zadrapa" tls:created="2022-06-13T21:13:11.906+09:00"><form corresp="#uuid-685c4e7a-dba9-4cce-916a-fcfc4f33753d"><orth>殷</orth><pron xml:lang="zh-Latn-x-pinyin">yīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'j+n</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯn</pron></form><sense xml:id="uuid-93e9c4f7-6d5b-4c50-a9c4-f76d5b3c5000" resp="#zadrapa" tls:created="2022-06-13T21:13:11.906+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>flourish, be wealthy and strong</def></sense></entry><entry type="word" xml:id="uuid-f513a044-eb22-4fe6-93a0-44eb227fe603" resp="#dsehnal" tls:created="2024-06-10T01:07:57.406+09:00"><form corresp="#uuid-56ce9662-22e8-4274-8b4a-68073804d0c4 #uuid-56ce9662-22e8-4274-8b4a-68073804d0c4"><orth>欣欣</orth><pron xml:lang="zh-Latn-x-pinyin">xīn xīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xj+n xj+n</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯn qhɯn</pron></form><sense xml:id="uuid-7c1ff8b2-ca37-4b23-9ff8-b2ca377b2347" resp="#dsehnal" tls:created="2024-06-10T01:07:57.406+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>flourish</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d6fdc6f5-2909-4a8b-bdc6-f52909ba8bdb" resp="#CH" tls:created="2020-04-06T03:43:03.878+09:00">
+            <form corresp="#uuid-d72ce081-8ba1-44dd-bf49-72097ee57ad6">
+                <orth>勃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bwot</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯɯd</pron>
+            </form>
+            <sense xml:id="uuid-9dc9f6bb-df60-4856-89f6-bbdf60c856de" resp="#CH" tls:created="2020-04-06T03:43:03.878+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be flourishing; be in strong shape</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98529a9c-1610-4ed0-929a-9c16101ed0e6" resp="#CH" tls:created="2020-05-13T22:13:22.402+09:00">
+            <form corresp="#uuid-54514d4a-a01e-42d0-a0c5-777aabe85183">
+                <orth>芾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pj+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pubs</pron>
+            </form>
+            <sense xml:id="uuid-e6f3a3b1-b913-4bd1-b3a3-b1b9133bd182" resp="#CH" tls:created="2020-05-13T22:13:22.402+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>flourish, have abundant foliage</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c71c3510-d50b-410b-9c35-10d50be10ba2" resp="#zadrapa" tls:created="2021-01-15T18:21:28.604+09:00">
+            <form corresp="#uuid-d47e7bd5-88a4-4216-b6ee-b266d66dd08c #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
+                <orth>佛然</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fó rán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjut nyen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bɯd njen</pron>
+            </form>
+            <sense xml:id="uuid-4691f5f9-63a1-4e37-91f5-f963a1be370e" resp="#zadrapa" tls:created="2021-01-15T18:21:28.604+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>(= bórán 勃然) in a way evoking great flourishing</def>
+            </sense>
+            <sense xml:id="uuid-67f7713c-3cd9-485b-b771-3c3cd9785b66" resp="#zadrapa" tls:created="2021-01-16T23:46:03.79+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-efe577d1-de70-4d80-84d0-e92f482f3f3d">VPadS</tls:syn-func>
+                </gramGrp>
+                <def>(= bórán 勃然) in a way evoking great flourishing</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1ce0ce58-c4de-405b-a0ce-58c4dea05bdb" resp="#zadrapa" tls:created="2022-05-31T21:43:49.735+09:00">
+            <form corresp="#uuid-9ff11743-8e60-4186-8044-0fa4d82bb6dc #uuid-ac8c46af-0405-47a7-bd7a-1a0e76b5b01e">
+                <orth>滋碩</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zī shuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsi dzyek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsɯ djaɡ</pron>
+            </form>
+            <sense xml:id="uuid-de4c8f85-f54e-4211-8c8f-85f54e92110c" resp="#zadrapa" tls:created="2022-05-31T21:43:49.735+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>grow and flourish</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4f2c2af8-02e4-409f-ac2a-f802e4509fca" resp="#zadrapa" tls:created="2022-06-13T21:13:11.906+09:00">
+            <form corresp="#uuid-685c4e7a-dba9-4cce-916a-fcfc4f33753d">
+                <orth>殷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'j+n</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qɯn</pron>
+            </form>
+            <sense xml:id="uuid-93e9c4f7-6d5b-4c50-a9c4-f76d5b3c5000" resp="#zadrapa" tls:created="2022-06-13T21:13:11.906+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>flourish, be wealthy and strong</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f513a044-eb22-4fe6-93a0-44eb227fe603" resp="#dsehnal" tls:created="2024-06-10T01:07:57.406+09:00">
+            <form corresp="#uuid-56ce9662-22e8-4274-8b4a-68073804d0c4 #uuid-56ce9662-22e8-4274-8b4a-68073804d0c4">
+                <orth>欣欣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xīn xīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xj+n xj+n</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯn qhɯn</pron>
+            </form>
+            <sense xml:id="uuid-7c1ff8b2-ca37-4b23-9ff8-b2ca377b2347" resp="#dsehnal" tls:created="2024-06-10T01:07:57.406+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>flourish</def>
+            </sense>
+        </entry>
+    </div>
 </div>

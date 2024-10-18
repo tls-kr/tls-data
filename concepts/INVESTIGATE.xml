@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-87a99ba5-8590-458f-8458-7b526681bf19">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-87a99ba5-8590-458f-8458-7b526681bf19">
 <head>INVESTIGATE</head>
     <list type="altnames">
 <item>INQUIRE INTO</item>
@@ -383,7 +384,14 @@
                 </gramGrp>
   <def>investigate oneself</def>
             </sense>
-<sense xml:id="uuid-748da21f-0ffc-4b55-989c-20fc2c64c762" resp="#CH" tls:created="2019-12-14T05:12:02.23+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>investigate the question whether S</def></sense></entry>
+<sense xml:id="uuid-748da21f-0ffc-4b55-989c-20fc2c64c762" resp="#CH" tls:created="2019-12-14T05:12:02.23+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>investigate the question whether S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-df973ab9-e7c7-4794-87b5-eea403dd7fc1">
             <form corresp="#uuid-5cf5c7be-7e82-4f71-b699-8bfb95517223">
 <orth>實</orth>
@@ -448,7 +456,15 @@
                 </gramGrp>
   <def>investigate (oneself) carefully</def>
             </sense>
-<sense xml:id="uuid-4b6c42e5-e742-4970-ac42-e5e742e97023" resp="#CH" tls:created="2022-08-27T00:06:12.968+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be diligently investigated</def></sense></entry>
+<sense xml:id="uuid-4b6c42e5-e742-4970-ac42-e5e742e97023" resp="#CH" tls:created="2022-08-27T00:06:12.968+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be diligently investigated</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-293199f2-7956-42d5-9306-d1933647ef1e">
             <form corresp="#uuid-0ab69ce6-1729-4196-aa98-cffbbeebac63">
 <orth>悉</orth>
@@ -504,7 +520,15 @@
                 </gramGrp>
   <def>spy out and investigate, explore carefully</def>
             </sense>
-<sense xml:id="uuid-9d1b05c3-fb1f-4002-9b05-c3fb1fb0020c" resp="#CH" tls:created="2022-08-02T21:30:02.338+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be explored, be investigated</def></sense></entry>
+<sense xml:id="uuid-9d1b05c3-fb1f-4002-9b05-c3fb1fb0020c" resp="#CH" tls:created="2022-08-02T21:30:02.338+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be explored, be investigated</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ca8e7093-7ea0-436c-9791-f76daaeba786">
             <form corresp="#uuid-b7f3dd91-7844-4f2f-bd99-e1e9acd42878">
 <orth>撿</orth>
@@ -561,7 +585,14 @@
                 </gramGrp>
   <def>conduct investigations</def>
             </sense>
-<sense xml:id="uuid-d656165c-0e7c-4af4-a838-26071b9914b5" resp="#CH" tls:created="2020-02-09T19:38:13.65+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>investigate N1 by the measure of N2</def></sense></entry>
+<sense xml:id="uuid-d656165c-0e7c-4af4-a838-26071b9914b5" resp="#CH" tls:created="2020-02-09T19:38:13.65+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>investigate N1 by the measure of N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c8123409-0bac-4613-8879-48ccda947f0d">
             <form corresp="#uuid-b244418b-afd6-4459-bfe1-098cf5a689fe">
 <orth>本</orth>
@@ -717,7 +748,14 @@
                 </gramGrp>
   <def>investigate oneself</def>
             </sense>
-<sense xml:id="uuid-afbabe49-373f-4d77-81b9-d3167f3e1126" resp="#CH" tls:created="2019-12-08T05:26:43.884+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>investigate things</def></sense></entry>
+<sense xml:id="uuid-afbabe49-373f-4d77-81b9-d3167f3e1126" resp="#CH" tls:created="2019-12-08T05:26:43.884+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>investigate things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-24dbcbb8-734b-4a1b-9747-d5e8c0049fbd">
             <form corresp="#uuid-27bd433a-421e-4fd1-9d12-ac269819bf05">
 <orth>看</orth>
@@ -765,7 +803,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-ed742e6d-ab5d-4df4-8c8e-af0a196b88fe">
-            <form corresp="#uuid-6b19c70f-7b20-4574-99c7-0f7b2085748c"><orth>瞝</orth><pron xml:lang="zh-Latn-x-pinyin">chī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-6b19c70f-7b20-4574-99c7-0f7b2085748c">
+                <orth>瞝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>chī
 </def>
 <sense xml:id="uuid-04cacdf0-29a7-4f21-baa2-1b7718b50c3b">
@@ -865,7 +908,14 @@
                 </gramGrp>
   <def>investigate (e.g. antiquity)</def>
             </sense>
-<sense xml:id="uuid-3c286465-4e9e-40d3-a864-654e9e60d3c1" resp="#zadrapa" tls:created="2020-12-06T03:24:52.915+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>investigate</def></sense></entry>
+<sense xml:id="uuid-3c286465-4e9e-40d3-a864-654e9e60d3c1" resp="#zadrapa" tls:created="2020-12-06T03:24:52.915+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>investigate</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3ec06678-408a-482a-b128-dc5d4d2d28fc">
             <form corresp="#uuid-671d4bc2-cbf4-4553-a94a-705458b2393b">
 <orth>究</orth>
@@ -973,7 +1023,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-5d890f80-ba57-4c25-88e8-befc7dae6287">
-            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45"><orth>緣</orth><pron xml:lang="zh-Latn-x-pinyin">yuán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron></form>
+            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45">
+                <orth>緣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron>
+            </form>
 <sense xml:id="uuid-c73d2c7f-6207-4e50-a584-23dc602eacd0">
 <gramGrp>
                     <pos>V</pos>
@@ -1368,7 +1423,14 @@
                 </gramGrp>
   <def>investigate carefully</def>
             </sense>
-<sense xml:id="uuid-f06416a7-d391-413c-a416-a7d391713c34" resp="#CH" tls:created="2020-04-11T23:45:18.471+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>investigate carefully</def></sense></entry>
+<sense xml:id="uuid-f06416a7-d391-413c-a416-a7d391713c34" resp="#CH" tls:created="2020-04-11T23:45:18.471+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>investigate carefully</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b91c5b29-0da5-43eb-9231-da05d4d7a977">
             <form corresp="#uuid-fb2a2ae5-04b6-4792-a204-757eb13431bc #uuid-0ab69ce6-1729-4196-aa98-cffbbeebac63">
 <orth>審悉</orth>
@@ -1692,8 +1754,321 @@
   <def>investigate</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2145eb76-d229-42c3-ace2-b1763356a23e" resp="#CH" tls:created="2019-12-02T05:57:32.115+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6282c556-d4cb-4c47-a4e3-4c2c676c6c3d" resp="#CH" tls:created="2019-12-02T05:57:32.115+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>=攷 "investigate"</def></sense></entry><entry type="word" xml:id="uuid-e7f58ee2-2357-446b-8521-e542ef845d27" resp="#CH" tls:created="2019-12-02T05:58:00.891+09:00"><form corresp="#uuid-329892c6-f66b-4f1b-a2e6-ca105e332d3c"><orth>攷</orth><pron xml:lang="zh-Latn-x-pinyin">kǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khawX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khuuʔ</pron></form><sense xml:id="uuid-9c4d3a37-5292-42cf-9eef-19c2989d4763" resp="#CH" tls:created="2019-12-02T05:58:00.891+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>=攷 "investigate"</def></sense></entry><entry type="word" xml:id="uuid-3b708ab7-475e-4580-871d-6cf2d23a548e" resp="#CH" tls:created="2019-12-13T23:35:23.011+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-465f378d-e445-4809-bc65-9f0aff5358e6" resp="#CH" tls:created="2019-12-13T23:35:23.011+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate the principles of</def></sense></entry><entry type="word" xml:id="uuid-98945602-1da5-4877-8591-3304c35bb49f" resp="#CH" tls:created="2019-12-13T23:35:34.007+09:00"><form corresp="#uuid-cbe6c249-c9ee-4194-a31c-5cf8911ee338"><orth>格</orth><pron xml:lang="zh-Latn-x-pinyin">gé
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaek
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraaɡ
-</pron></form><sense xml:id="uuid-c8587f23-20f8-474b-a0b6-a37ee1bafc74" resp="#CH" tls:created="2019-12-13T23:35:34.007+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate the principles of</def></sense><sense xml:id="uuid-417759a0-e94a-41c1-b340-daf82883d8e2" resp="#CH" tls:created="2019-12-13T23:36:16.432+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be properly investigated with regard to the principles</def></sense><sense xml:id="uuid-eafd1a73-b647-4881-b6fd-cf866c4a7832" resp="#CH" tls:created="2019-12-13T23:45:45.688+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be properly investigated</def></sense></entry><entry type="word" xml:id="uuid-129a6a4b-c4d1-482f-bc5f-4846daeb49d8" resp="#CH" tls:created="2019-12-23T21:15:47.789+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-efd0449e-da47-4d9a-a8d6-c683e23114b6" resp="#CH" tls:created="2019-12-23T21:15:47.789+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>become more familiar with through close attention</def></sense></entry><entry type="word" xml:id="uuid-a622045d-1b40-4471-bf38-213fd6f3d370" resp="#CH" tls:created="2019-12-23T21:15:56.26+09:00"><form corresp="#uuid-d3c78047-6be1-4ede-b366-cc75b701bc2c"><orth>習</orth><pron xml:lang="zh-Latn-x-pinyin">xí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlɯb</pron></form><sense xml:id="uuid-607c50e9-0ffb-4e8c-bc44-0c2592b07458" resp="#CH" tls:created="2019-12-23T21:15:56.26+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>become more familiar with through close attention</def></sense></entry><entry type="word" xml:id="uuid-81153ec9-b8c5-4c51-b69e-780c8b28309d" resp="#CH" tls:created="2020-02-04T19:49:11.977+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-3fda8aa7-d903-4446-82d5-e86e9d155aed" resp="#CH" tls:created="2020-02-04T19:49:11.977+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>"interrogate", i.e. investigate things; enter into a questioning 'dialogue' with things"</def></sense></entry><entry type="word" xml:id="uuid-905e56f4-8136-446d-a521-44a5b51601e5" resp="#CH" tls:created="2020-02-04T19:49:22.011+09:00"><form corresp="#uuid-3f138a0a-30bb-467a-9741-c900b706c570"><orth>訊</orth><pron xml:lang="zh-Latn-x-pinyin">xùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯns</pron></form><sense xml:id="uuid-abf4ce39-f919-479f-a982-cb73dc6d15d6" resp="#CH" tls:created="2020-02-04T19:49:22.011+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>"interrogate", i.e. investigate things; enter into a questioning 'dialogue' with things"</def></sense></entry><entry type="word" xml:id="uuid-70790fd9-63e5-44d5-9bf5-a786c7d82609" resp="#CH" tls:created="2020-02-04T19:49:32.408+09:00"><form corresp="#uuid-3f138a0a-30bb-467a-9741-c900b706c570"><orth>訊</orth><pron xml:lang="zh-Latn-x-pinyin">xùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯns</pron></form><sense xml:id="uuid-ba55fa98-2e7e-4d06-9660-eb82faad0d93" resp="#CH" tls:created="2020-02-04T19:49:32.408+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>"interrogate", i.e. investigate things; enter into a questioning 'dialogue' with things"</def></sense></entry><entry type="word" xml:id="uuid-f3cf78e4-bbd3-4411-b46f-85040e2448b8" resp="#CH" tls:created="2020-02-06T19:30:13.384+09:00"><form corresp="#uuid-2255862a-261c-4489-96ef-69c0efd98be0"><orth>眇</orth><pron xml:lang="zh-Latn-x-pinyin">miǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjiewX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mewʔ</pron></form><sense xml:id="uuid-1388570c-1db2-406a-8003-562dc318a390" resp="#CH" tls:created="2020-02-06T19:30:13.384+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate meticulously</def></sense></entry><entry type="word" xml:id="uuid-9582a346-3ac9-4223-82a3-463ac9f2233b" resp="#zadrapa" tls:created="2020-12-14T04:55:48.486+09:00"><form corresp="#uuid-85923f69-3929-43be-897c-5ed2e63de2ac"><orth>數</orth><pron xml:lang="zh-Latn-x-pinyin">shǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">srjuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqroʔ</pron></form><sense xml:id="uuid-1e55bdd3-186d-4147-95bd-d3186d514720" resp="#zadrapa" tls:created="2020-12-14T04:55:48.486+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate, consult (XUN)</def></sense></entry><entry type="word" xml:id="uuid-34e54ad4-0ea9-493a-a54a-d40ea9193a33" resp="#zadrapa" tls:created="2021-01-15T05:12:58.713+09:00"><form corresp="#uuid-b37fb36f-f60c-4489-b3ed-d484d8555dbb #uuid-cd20eb47-d922-4519-a9db-b5f9565b2fe4"><orth>紃察</orth><pron xml:lang="zh-Latn-x-pinyin">xún chá</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zwin tsrheat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢʷun skhreed</pron></form><sense xml:id="uuid-1c2c85cc-6278-4c59-ac85-cc62785c59aa" resp="#zadrapa" tls:created="2021-01-15T05:12:58.713+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>(= xúnchá 循察) look closely into, pay close attention to and investigate</def></sense></entry><entry type="word" xml:id="uuid-46e6e691-9d62-4698-a6e6-919d62f6982c" resp="#Valerie.Kiel" tls:created="2021-09-10T03:59:36.806+09:00"><form corresp="#uuid-0b4ab340-89f1-488b-8e5f-1daee5e3cb30 #uuid-cbdf7459-9fba-4327-a449-42218e8b9ca0"><orth>採訪</orth><pron xml:lang="zh-Latn-x-pinyin">cǎi fǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshojX phjangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshɯɯʔ phaŋs</pron></form><sense xml:id="uuid-85ecfacf-abbb-4d45-acfa-cfabbbbd45d6" resp="#Valerie.Kiel" tls:created="2021-09-10T03:59:36.806+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>to carry out (complex) investigations about N</def></sense></entry><entry type="word" xml:id="uuid-730a0489-bac0-46ee-8a04-89bac0c6ee10" resp="#zadrapa" tls:created="2022-05-30T03:57:20.486+09:00"><form corresp="#uuid-afe5f245-d84d-4749-b2cd-fad87352bc1f"><orth>幾</orth><pron xml:lang="zh-Latn-x-pinyin">jī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kj+j</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯl</pron></form><sense xml:id="uuid-7684efaf-f4d4-4e76-84ef-aff4d4be76c8" resp="#zadrapa" tls:created="2022-05-30T03:57:20.486+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>= ji1 譏: be subject to investigation</def></sense></entry><entry type="word" xml:id="uuid-73d3dc1c-39dd-4245-93dc-1c39dd42459d" resp="#CH" tls:created="2022-09-01T17:05:30.302+09:00"><form corresp="#uuid-73e30194-4cff-4f22-998e-ce7774a30806"><orth>搜</orth><pron xml:lang="zh-Latn-x-pinyin">sōu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-5bf7ff51-fca3-4c96-b7ff-51fca37c9627" resp="#CH" tls:created="2022-09-01T17:05:30.302+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate, conduct a search of (a buiding)</def></sense></entry><entry type="word" xml:id="uuid-32384fe4-f56e-426c-b84f-e4f56e026c55" resp="#CH" tls:created="2022-09-26T00:29:48.071+09:00"><form corresp="#uuid-d7832559-b8fb-4adf-81cf-25c69363a2e8 #uuid-6b520202-cf58-436f-a2df-f27b1abf0874"><orth>率隨</orth><pron xml:lang="zh-Latn-x-pinyin">shuài suí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">srwit zjwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">srud sɢlol</pron></form><sense xml:id="uuid-af7ea4bc-a9a2-4761-bea4-bca9a21761d8" resp="#CH" tls:created="2022-09-26T00:29:48.071+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>pursue so as to investigate</def></sense></entry><entry type="word" xml:id="uuid-4e53e846-fd12-477f-93e8-46fd12c77f88" resp="#Valerie.Kiel" tls:created="2023-03-16T05:51:53.286+09:00"><form corresp="#uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4"><orth>學</orth><pron xml:lang="zh-Latn-x-pinyin">xué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡruuɡ</pron></form><sense xml:id="uuid-fcf93122-fe35-47f0-b931-22fe3577f0b0" resp="#Valerie.Kiel" tls:created="2023-03-16T05:51:53.286+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-94a2e04d-fa3a-4686-a2e0-4dfa3a06866b">nab.post-Nab</tls:syn-func><tls:sem-feat corresp="#uuid-2064f18c-bee8-42af-82f0-51e49aed32d5">theoretical</tls:sem-feat></gramGrp><def>the systematic investigation of Nab</def></sense><sense xml:id="uuid-07f8e82a-791b-409b-b8e8-2a791b009bb6" resp="#CH" tls:created="2023-07-23T05:01:45.96+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate</def></sense></entry><entry type="word" xml:id="uuid-1bb53ef2-dbc6-4899-b53e-f2dbc6c8999c" resp="#dsehnal" tls:created="2023-05-20T18:23:51.886+09:00"><form corresp="#uuid-237e08ce-7e96-4025-a458-126b4ea4bde1"><orth>相</orth><pron xml:lang="zh-Latn-x-pinyin">xiàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋs</pron></form><sense xml:id="uuid-6f8b774d-9c33-43f4-8b77-4d9c3343f430" resp="#dsehnal" tls:created="2023-05-20T18:23:51.886+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>investigate the shape and the features of N; carry out an expertise of N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2145eb76-d229-42c3-ace2-b1763356a23e" resp="#CH" tls:created="2019-12-02T05:57:32.115+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6282c556-d4cb-4c47-a4e3-4c2c676c6c3d" resp="#CH" tls:created="2019-12-02T05:57:32.115+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>=攷 "investigate"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e7f58ee2-2357-446b-8521-e542ef845d27" resp="#CH" tls:created="2019-12-02T05:58:00.891+09:00">
+            <form corresp="#uuid-329892c6-f66b-4f1b-a2e6-ca105e332d3c">
+                <orth>攷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khawX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khuuʔ</pron>
+            </form>
+            <sense xml:id="uuid-9c4d3a37-5292-42cf-9eef-19c2989d4763" resp="#CH" tls:created="2019-12-02T05:58:00.891+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>=攷 "investigate"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3b708ab7-475e-4580-871d-6cf2d23a548e" resp="#CH" tls:created="2019-12-13T23:35:23.011+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-465f378d-e445-4809-bc65-9f0aff5358e6" resp="#CH" tls:created="2019-12-13T23:35:23.011+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate the principles of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-98945602-1da5-4877-8591-3304c35bb49f" resp="#CH" tls:created="2019-12-13T23:35:34.007+09:00">
+            <form corresp="#uuid-cbe6c249-c9ee-4194-a31c-5cf8911ee338">
+                <orth>格</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gé
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaek
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraaɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-c8587f23-20f8-474b-a0b6-a37ee1bafc74" resp="#CH" tls:created="2019-12-13T23:35:34.007+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate the principles of</def>
+            </sense>
+            <sense xml:id="uuid-417759a0-e94a-41c1-b340-daf82883d8e2" resp="#CH" tls:created="2019-12-13T23:36:16.432+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be properly investigated with regard to the principles</def>
+            </sense>
+            <sense xml:id="uuid-eafd1a73-b647-4881-b6fd-cf866c4a7832" resp="#CH" tls:created="2019-12-13T23:45:45.688+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be properly investigated</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-129a6a4b-c4d1-482f-bc5f-4846daeb49d8" resp="#CH" tls:created="2019-12-23T21:15:47.789+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-efd0449e-da47-4d9a-a8d6-c683e23114b6" resp="#CH" tls:created="2019-12-23T21:15:47.789+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>become more familiar with through close attention</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a622045d-1b40-4471-bf38-213fd6f3d370" resp="#CH" tls:created="2019-12-23T21:15:56.26+09:00">
+            <form corresp="#uuid-d3c78047-6be1-4ede-b366-cc75b701bc2c">
+                <orth>習</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlɯb</pron>
+            </form>
+            <sense xml:id="uuid-607c50e9-0ffb-4e8c-bc44-0c2592b07458" resp="#CH" tls:created="2019-12-23T21:15:56.26+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>become more familiar with through close attention</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-81153ec9-b8c5-4c51-b69e-780c8b28309d" resp="#CH" tls:created="2020-02-04T19:49:11.977+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-3fda8aa7-d903-4446-82d5-e86e9d155aed" resp="#CH" tls:created="2020-02-04T19:49:11.977+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>"interrogate", i.e. investigate things; enter into a questioning 'dialogue' with things"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-905e56f4-8136-446d-a521-44a5b51601e5" resp="#CH" tls:created="2020-02-04T19:49:22.011+09:00">
+            <form corresp="#uuid-3f138a0a-30bb-467a-9741-c900b706c570">
+                <orth>訊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯns</pron>
+            </form>
+            <sense xml:id="uuid-abf4ce39-f919-479f-a982-cb73dc6d15d6" resp="#CH" tls:created="2020-02-04T19:49:22.011+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>"interrogate", i.e. investigate things; enter into a questioning 'dialogue' with things"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-70790fd9-63e5-44d5-9bf5-a786c7d82609" resp="#CH" tls:created="2020-02-04T19:49:32.408+09:00">
+            <form corresp="#uuid-3f138a0a-30bb-467a-9741-c900b706c570">
+                <orth>訊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɯns</pron>
+            </form>
+            <sense xml:id="uuid-ba55fa98-2e7e-4d06-9660-eb82faad0d93" resp="#CH" tls:created="2020-02-04T19:49:32.408+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>"interrogate", i.e. investigate things; enter into a questioning 'dialogue' with things"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f3cf78e4-bbd3-4411-b46f-85040e2448b8" resp="#CH" tls:created="2020-02-06T19:30:13.384+09:00">
+            <form corresp="#uuid-2255862a-261c-4489-96ef-69c0efd98be0">
+                <orth>眇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">miǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjiewX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mewʔ</pron>
+            </form>
+            <sense xml:id="uuid-1388570c-1db2-406a-8003-562dc318a390" resp="#CH" tls:created="2020-02-06T19:30:13.384+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate meticulously</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9582a346-3ac9-4223-82a3-463ac9f2233b" resp="#zadrapa" tls:created="2020-12-14T04:55:48.486+09:00">
+            <form corresp="#uuid-85923f69-3929-43be-897c-5ed2e63de2ac">
+                <orth>數</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srjuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqroʔ</pron>
+            </form>
+            <sense xml:id="uuid-1e55bdd3-186d-4147-95bd-d3186d514720" resp="#zadrapa" tls:created="2020-12-14T04:55:48.486+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate, consult (XUN)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-34e54ad4-0ea9-493a-a54a-d40ea9193a33" resp="#zadrapa" tls:created="2021-01-15T05:12:58.713+09:00">
+            <form corresp="#uuid-b37fb36f-f60c-4489-b3ed-d484d8555dbb #uuid-cd20eb47-d922-4519-a9db-b5f9565b2fe4">
+                <orth>紃察</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xún chá</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zwin tsrheat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢʷun skhreed</pron>
+            </form>
+            <sense xml:id="uuid-1c2c85cc-6278-4c59-ac85-cc62785c59aa" resp="#zadrapa" tls:created="2021-01-15T05:12:58.713+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>(= xúnchá 循察) look closely into, pay close attention to and investigate</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-46e6e691-9d62-4698-a6e6-919d62f6982c" resp="#Valerie.Kiel" tls:created="2021-09-10T03:59:36.806+09:00">
+            <form corresp="#uuid-0b4ab340-89f1-488b-8e5f-1daee5e3cb30 #uuid-cbdf7459-9fba-4327-a449-42218e8b9ca0">
+                <orth>採訪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cǎi fǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshojX phjangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshɯɯʔ phaŋs</pron>
+            </form>
+            <sense xml:id="uuid-85ecfacf-abbb-4d45-acfa-cfabbbbd45d6" resp="#Valerie.Kiel" tls:created="2021-09-10T03:59:36.806+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>to carry out (complex) investigations about N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-730a0489-bac0-46ee-8a04-89bac0c6ee10" resp="#zadrapa" tls:created="2022-05-30T03:57:20.486+09:00">
+            <form corresp="#uuid-afe5f245-d84d-4749-b2cd-fad87352bc1f">
+                <orth>幾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kj+j</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯl</pron>
+            </form>
+            <sense xml:id="uuid-7684efaf-f4d4-4e76-84ef-aff4d4be76c8" resp="#zadrapa" tls:created="2022-05-30T03:57:20.486+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>= ji1 譏: be subject to investigation</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-73d3dc1c-39dd-4245-93dc-1c39dd42459d" resp="#CH" tls:created="2022-09-01T17:05:30.302+09:00">
+            <form corresp="#uuid-73e30194-4cff-4f22-998e-ce7774a30806">
+                <orth>搜</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sōu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-5bf7ff51-fca3-4c96-b7ff-51fca37c9627" resp="#CH" tls:created="2022-09-01T17:05:30.302+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate, conduct a search of (a buiding)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-32384fe4-f56e-426c-b84f-e4f56e026c55" resp="#CH" tls:created="2022-09-26T00:29:48.071+09:00">
+            <form corresp="#uuid-d7832559-b8fb-4adf-81cf-25c69363a2e8 #uuid-6b520202-cf58-436f-a2df-f27b1abf0874">
+                <orth>率隨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shuài suí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">srwit zjwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">srud sɢlol</pron>
+            </form>
+            <sense xml:id="uuid-af7ea4bc-a9a2-4761-bea4-bca9a21761d8" resp="#CH" tls:created="2022-09-26T00:29:48.071+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>pursue so as to investigate</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4e53e846-fd12-477f-93e8-46fd12c77f88" resp="#Valerie.Kiel" tls:created="2023-03-16T05:51:53.286+09:00">
+            <form corresp="#uuid-7cc71284-0c34-4ae2-a9b4-4ffed5ebb7b4">
+                <orth>學</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-fcf93122-fe35-47f0-b931-22fe3577f0b0" resp="#Valerie.Kiel" tls:created="2023-03-16T05:51:53.286+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-94a2e04d-fa3a-4686-a2e0-4dfa3a06866b">nab.post-Nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2064f18c-bee8-42af-82f0-51e49aed32d5">theoretical</tls:sem-feat>
+                </gramGrp>
+                <def>the systematic investigation of Nab</def>
+            </sense>
+            <sense xml:id="uuid-07f8e82a-791b-409b-b8e8-2a791b009bb6" resp="#CH" tls:created="2023-07-23T05:01:45.96+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1bb53ef2-dbc6-4899-b53e-f2dbc6c8999c" resp="#dsehnal" tls:created="2023-05-20T18:23:51.886+09:00">
+            <form corresp="#uuid-237e08ce-7e96-4025-a458-126b4ea4bde1">
+                <orth>相</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋs</pron>
+            </form>
+            <sense xml:id="uuid-6f8b774d-9c33-43f4-8b77-4d9c3343f430" resp="#dsehnal" tls:created="2023-05-20T18:23:51.886+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>investigate the shape and the features of N; carry out an expertise of N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0b6b8176-15f6-4da5-ab81-7615f65da5bc" resp="#zadrapa" tls:created="2024-10-02T17:41:07.855+09:00">
+            <form corresp="#uuid-198b44b4-3036-46f1-be0e-4a67754fa406">
+                <orth>徼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kewH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kleewɡs</pron>
+            </form>
+            <sense xml:id="uuid-6c54e5c2-cfee-44d9-94e5-c2cfeec4d9ec" resp="#zadrapa" tls:created="2024-10-02T17:41:07.855+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>to patrol, to be on guard</def>
+            </sense>
+        </entry>
+    </div>
 </div>

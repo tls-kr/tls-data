@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-868ca4ab-a02a-4655-b2f7-0b9753b5ec8e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-868ca4ab-a02a-4655-b2f7-0b9753b5ec8e">
 <head>DEMAND</head>
     <list type="altnames">
 <item>REQUEST</item>
@@ -236,7 +237,36 @@
                 </gramGrp>
   <def>seek N1 from (oneself) 求諸己</def>
             </sense>
-<sense xml:id="uuid-c2b318f8-6f56-43e9-86aa-1069ba2ee8c6" resp="#CH" tls:created="2019-12-25T20:09:16.734+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoV[0]</tls:syn-func><tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat></gramGrp><def>demand to be V-ed</def></sense><sense xml:id="uuid-05ae3ca7-05be-4189-accc-bddfead76c17" resp="#CH" tls:created="2020-01-24T23:05:47.059+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1. prep N2</tls:syn-func></gramGrp><def>demand to get to know about N2 from N1</def></sense><sense xml:id="uuid-c308cb80-ff95-4bfa-88cb-80ff952bfa5f" resp="#zadrapa" tls:created="2022-02-18T18:48:15.226+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-2330e893-9365-4b19-b0e8-9393650b19b5">nabpost-N</tls:syn-func></gramGrp><def>demands on, demands regarding, demands in the sphere of</def></sense><sense xml:id="uuid-a9991ac6-e827-48c1-991a-c6e82718c181" resp="#CH" tls:created="2022-09-23T20:59:23.592+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>make demands on N</def></sense></entry>
+<sense xml:id="uuid-c2b318f8-6f56-43e9-86aa-1069ba2ee8c6" resp="#CH" tls:created="2019-12-25T20:09:16.734+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoV[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat>
+                </gramGrp>
+                <def>demand to be V-ed</def>
+            </sense>
+            <sense xml:id="uuid-05ae3ca7-05be-4189-accc-bddfead76c17" resp="#CH" tls:created="2020-01-24T23:05:47.059+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1. prep N2</tls:syn-func>
+                </gramGrp>
+                <def>demand to get to know about N2 from N1</def>
+            </sense>
+            <sense xml:id="uuid-c308cb80-ff95-4bfa-88cb-80ff952bfa5f" resp="#zadrapa" tls:created="2022-02-18T18:48:15.226+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-2330e893-9365-4b19-b0e8-9393650b19b5">nabpost-N</tls:syn-func>
+                </gramGrp>
+                <def>demands on, demands regarding, demands in the sphere of</def>
+            </sense>
+            <sense xml:id="uuid-a9991ac6-e827-48c1-991a-c6e82718c181" resp="#CH" tls:created="2022-09-23T20:59:23.592+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>make demands on N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2e9c776a-7774-4c58-acf2-d0230a5b1057">
             <form corresp="#uuid-770a409a-3af2-4f16-9c16-09a9714a11cd">
 <orth>要</orth>
@@ -253,7 +283,14 @@
                 </gramGrp>
   <def>make demands on</def>
             </sense>
-<sense xml:id="uuid-faf83a8a-0302-4902-b83a-8a03022902af" resp="#zadrapa" tls:created="2023-06-14T17:26:46.304+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>to demand pressingly</def></sense></entry>
+<sense xml:id="uuid-faf83a8a-0302-4902-b83a-8a03022902af" resp="#zadrapa" tls:created="2023-06-14T17:26:46.304+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>to demand pressingly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e2c3e9ab-782a-47e0-befc-2d7acab6162c">
             <form corresp="#uuid-e0282825-e840-4b16-b99f-946c18c8196c">
 <orth>誅</orth>
@@ -330,7 +367,31 @@
                 </gramGrp>
   <def>make demands (on a person)</def>
             </sense>
-<sense xml:id="uuid-0b46300d-2fa1-400e-a5a3-2ecf467d7f18" resp="#CH" tls:created="2020-02-06T23:46:24.069+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(. prep N2)</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>abstract: demand N1 from the contextually determinate N2</def></sense><sense xml:id="uuid-f9bdec27-aa84-40b2-bdec-27aa8420b2eb" resp="#CH" tls:created="2020-04-07T20:50:57.936+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>insist on finding out about; demand to fully understand</def></sense><sense xml:id="uuid-516ec076-b0ba-4890-aec0-76b0ba289062" resp="#CH" tls:created="2022-08-17T17:03:21.923+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>be excessively demanding</def></sense></entry>
+<sense xml:id="uuid-0b46300d-2fa1-400e-a5a3-2ecf467d7f18" resp="#CH" tls:created="2020-02-06T23:46:24.069+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(. prep N2)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>abstract: demand N1 from the contextually determinate N2</def>
+            </sense>
+            <sense xml:id="uuid-f9bdec27-aa84-40b2-bdec-27aa8420b2eb" resp="#CH" tls:created="2020-04-07T20:50:57.936+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>insist on finding out about; demand to fully understand</def>
+            </sense>
+            <sense xml:id="uuid-516ec076-b0ba-4890-aec0-76b0ba289062" resp="#CH" tls:created="2022-08-17T17:03:21.923+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>be excessively demanding</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db955dc1-b6a9-4d65-941e-a2c81a9e0c4b">
             <form corresp="#uuid-63559230-29cd-4108-8624-6acfe0f5954d #uuid-278ad7f8-d998-43da-aa4c-a96da6dec61a">
 <orth>往債</orth>

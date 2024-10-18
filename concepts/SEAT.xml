@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e5e78235-7d8e-48ca-8639-0b52831aeb9a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e5e78235-7d8e-48ca-8639-0b52831aeb9a">
 <head>SEAT</head>
     <list type="altnames">
 <item>CHAIR</item>
@@ -119,7 +120,14 @@
                 </gramGrp>
   <def>the place for a person to sit on, typically a place which indicates the incumbent's status or rank;  specifically: ruler's seat</def>
             </sense>
-<sense xml:id="uuid-b7179eef-d408-4e9b-bbcc-cd80dc0bcd3d" resp="#CH" tls:created="2019-12-11T17:58:08.657+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>position of an N</def></sense></entry>
+<sense xml:id="uuid-b7179eef-d408-4e9b-bbcc-cd80dc0bcd3d" resp="#CH" tls:created="2019-12-11T17:58:08.657+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>position of an N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-93659e87-575e-432e-b016-bc3df7bd0149">
             <form corresp="#uuid-584fbf28-35b0-434e-9ac9-77062db8e8ad">
 <orth>坐</orth>
@@ -153,7 +161,14 @@
                 </gramGrp>
   <def>assign a seat to; seat somebody</def>
             </sense>
-<sense xml:id="uuid-739857bb-4af5-4671-ae21-257362e343d8" resp="#CH" tls:created="2019-12-26T01:03:20.328+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>seat of honour of the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-739857bb-4af5-4671-ae21-257362e343d8" resp="#CH" tls:created="2019-12-26T01:03:20.328+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>seat of honour of the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3a649aee-3091-4fab-a2db-71708d43fc18">
             <form corresp="#uuid-d29db0d9-a966-4e2c-942e-9bd6b402a7c1">
 <orth>奧</orth>
@@ -386,5 +401,20 @@
   <def>BUDDH: Diamond Seat; skr. vajrāsana (the seat under the bodhi tree where Buddha reached enlightenment. According to Buddhist cosmology this seat already appeared during the beginnin of the 賢 kalpa, and is situated in the center of all world-systems. At this place all Buddhas are supposed to enter the Diamond samādhi 金剛三昧</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9321ff48-b2ff-4d19-a35b-4d4fbcda7712" resp="#CH" tls:created="2019-12-31T20:01:40.282+09:00"><form corresp="#uuid-fc35f1ab-8ee0-40ff-afa4-1a39dd1ac369 #uuid-f88c4755-7f5b-4f25-8190-8d5a961a2884"><orth>上坐</orth><pron xml:lang="zh-Latn-x-pinyin">shàng zuò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangX dzwaX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋʔ sɡoolʔ</pron></form><sense xml:id="uuid-041739bb-6b37-4ce1-b05a-d83eb2422288" resp="#CH" tls:created="2019-12-31T20:01:40.282+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>seat of honour</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9321ff48-b2ff-4d19-a35b-4d4fbcda7712" resp="#CH" tls:created="2019-12-31T20:01:40.282+09:00">
+            <form corresp="#uuid-fc35f1ab-8ee0-40ff-afa4-1a39dd1ac369 #uuid-f88c4755-7f5b-4f25-8190-8d5a961a2884">
+                <orth>上坐</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shàng zuò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyangX dzwaX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡljaŋʔ sɡoolʔ</pron>
+            </form>
+            <sense xml:id="uuid-041739bb-6b37-4ce1-b05a-d83eb2422288" resp="#CH" tls:created="2019-12-31T20:01:40.282+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>seat of honour</def>
+            </sense>
+        </entry>
+    </div>
 </div>

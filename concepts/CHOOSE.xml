@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e8c0bafd-4166-403c-af11-7a5b5d318af5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e8c0bafd-4166-403c-af11-7a5b5d318af5">
 <head>CHOOSE</head>
     <list type="altnames">
 <item>SELECT</item>
@@ -20,7 +21,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2021-03-18T18:18:15.76+09:00">TAKE OR USE THING WHILE BELIEVING that one is ABLE to TAKE OTHER THINGS.</p></div>
+    <p resp="#CH" modified="2021-03-18T18:18:15.76+09:00">TAKE OR USE THING WHILE BELIEVING that one is ABLE to TAKE OTHER THINGS.</p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The general word for making a deliberate and in principle free choice is qǔ 取 "to choose or opt for (the preferred alternative), to prefer" (ant 捨 "reject"), and what is thus chosen or preferred may be concrete or abstract.</p>
@@ -251,7 +253,22 @@
                 </gramGrp>
   <def>bring upon oneself</def>
             </sense>
-<sense xml:id="uuid-a9f033a4-7d8e-4c18-a2b2-ccc00d4bda4b" resp="#CH" tls:created="2019-11-28T23:43:02.98+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>make a deliberate choice of N</def></sense><sense xml:id="uuid-c77ff45b-2cbe-4443-bff4-5b2cbe84433d" resp="#CH" tls:created="2020-04-09T17:30:13.072+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>intellectual choice; philosophical preference</def></sense></entry>
+<sense xml:id="uuid-a9f033a4-7d8e-4c18-a2b2-ccc00d4bda4b" resp="#CH" tls:created="2019-11-28T23:43:02.98+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>make a deliberate choice of N</def>
+            </sense>
+            <sense xml:id="uuid-c77ff45b-2cbe-4443-bff4-5b2cbe84433d" resp="#CH" tls:created="2020-04-09T17:30:13.072+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>intellectual choice; philosophical preference</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9e085551-5f2f-45f3-9ba3-9a079953caed">
             <form corresp="#uuid-f4e2074f-ee5d-430c-a7f1-f24eae19bf75">
 <orth>嚮</orth>
@@ -380,7 +397,14 @@
                 </gramGrp>
   <def>choice</def>
             </sense>
-<sense xml:id="uuid-b9975997-6edc-4a3a-a142-68f5c81b9d9f" resp="#CH" tls:created="2020-02-05T19:23:40.419+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>pick out, opt for; choose</def></sense></entry>
+<sense xml:id="uuid-b9975997-6edc-4a3a-a142-68f5c81b9d9f" resp="#CH" tls:created="2020-02-05T19:23:40.419+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>pick out, opt for; choose</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3ea1f244-6819-4113-8065-6a647310181f">
             <form corresp="#uuid-3c022e58-2183-4ce1-95ed-1392d21e5faf">
 <orth>柬</orth>
@@ -526,7 +550,30 @@
                 </gramGrp>
   <def>make the right choice of</def>
             </sense>
-<sense xml:id="uuid-439963d7-3c72-44b9-83a2-16a51cd16da4" resp="#CH" tls:created="2019-12-31T21:06:59.127+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a32208f1-9743-4054-b0cf-33c3f491b6cc">vt prep N{PLUR}</tls:syn-func></gramGrp><def>choose among these things N</def></sense><sense xml:id="uuid-87f1290c-d7f1-4603-b129-0cd7f1660327" resp="#zadrapa" tls:created="2022-06-07T15:47:52.673+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>selecting aspicious days; hemerological practice</def></sense><sense xml:id="uuid-f62d2399-deb2-433c-ad23-99deb2633c2f" resp="#zadrapa" tls:created="2022-06-16T04:49:15.573+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be chosen</def></sense></entry>
+<sense xml:id="uuid-439963d7-3c72-44b9-83a2-16a51cd16da4" resp="#CH" tls:created="2019-12-31T21:06:59.127+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a32208f1-9743-4054-b0cf-33c3f491b6cc">vt prep N{PLUR}</tls:syn-func>
+                </gramGrp>
+                <def>choose among these things N</def>
+            </sense>
+            <sense xml:id="uuid-87f1290c-d7f1-4603-b129-0cd7f1660327" resp="#zadrapa" tls:created="2022-06-07T15:47:52.673+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>selecting aspicious days; hemerological practice</def>
+            </sense>
+            <sense xml:id="uuid-f62d2399-deb2-433c-ad23-99deb2633c2f" resp="#zadrapa" tls:created="2022-06-16T04:49:15.573+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be chosen</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7352fc54-c4b5-451f-bbb8-f7dd7d77b85d">
             <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
 <orth>用</orth>
@@ -684,7 +731,22 @@
                 </gramGrp>
   <def>pick out according to quality, select and appoint</def>
             </sense>
-<sense xml:id="uuid-8ef0d48c-6ca4-4b94-a93b-3edd2ddff32f" resp="#CH" tls:created="2020-02-05T23:50:40.419+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-0848f9ca-69f1-4e8a-8560-214fa1aaf1d8">object=nonhu</tls:sem-feat></gramGrp><def>select items as relevant for use</def></sense><sense xml:id="uuid-0124c3e3-0ebd-474e-a4c3-e30ebd074e0c" resp="#zadrapa" tls:created="2021-06-29T18:51:09.074+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>elite, exquisite</def></sense></entry>
+<sense xml:id="uuid-8ef0d48c-6ca4-4b94-a93b-3edd2ddff32f" resp="#CH" tls:created="2020-02-05T23:50:40.419+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0848f9ca-69f1-4e8a-8560-214fa1aaf1d8">object=nonhu</tls:sem-feat>
+                </gramGrp>
+                <def>select items as relevant for use</def>
+            </sense>
+            <sense xml:id="uuid-0124c3e3-0ebd-474e-a4c3-e30ebd074e0c" resp="#zadrapa" tls:created="2021-06-29T18:51:09.074+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>elite, exquisite</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c571e3cd-9808-460d-a01f-19aa68bdb563">
             <form corresp="#uuid-32e15416-237c-4b18-b7b4-fccf5e0ddfd6">
 <orth>采</orth>
@@ -702,7 +764,14 @@
                 </gramGrp>
   <def>HANSHU, Dongfangshuo: select (as emperor selecting candidates for job); choose properly</def>
             </sense>
-<sense xml:id="uuid-1e8f69fc-37ee-4e0f-b3ca-959aed97fb16" resp="#CH" tls:created="2019-12-08T22:31:42.136+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>choose for detailed consideration</def></sense></entry>
+<sense xml:id="uuid-1e8f69fc-37ee-4e0f-b3ca-959aed97fb16" resp="#CH" tls:created="2019-12-08T22:31:42.136+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>choose for detailed consideration</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b9c64e35-d14c-4be8-9736-2c1d663a6836">
             <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-f49d33ab-15bc-4004-a97b-a1159e03c66e">
 <orth>取捨</orth>
@@ -718,7 +787,14 @@
                 </gramGrp>
   <def>choice</def>
             </sense>
-<sense xml:id="uuid-548aeab0-4213-404e-8aea-b04213e04ef3" resp="#CH" tls:created="2022-08-14T19:36:54.79+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>choose or reject; choose among; opt for or against</def></sense></entry>
+<sense xml:id="uuid-548aeab0-4213-404e-8aea-b04213e04ef3" resp="#CH" tls:created="2022-08-14T19:36:54.79+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>choose or reject; choose among; opt for or against</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-839e9d3d-e55b-417b-8295-48f300544441">
             <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-3c1879b8-3bd0-413a-95b5-69d2f36731e5">
 <orth>取舍</orth>

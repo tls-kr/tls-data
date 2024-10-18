@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1db817e2-4fe1-4aa2-bacd-ff56264d241f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1db817e2-4fe1-4aa2-bacd-ff56264d241f">
 <head>EXCLAMATORY PARTICLE</head>
     <list type="translations">
         <item xml:lang="zh">貌號詞</item>
@@ -103,7 +104,23 @@
                 </gramGrp>
   <def>particle placed after a predicate preposed for emphasis</def>
             </sense>
-<sense xml:id="uuid-60c07c41-b9d1-4116-87b2-76bd789add6c" resp="#dsehnal" tls:created="2019-12-12T03:31:19.765+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func><tls:sem-feat corresp="#uuid-b7202919-801b-4e6a-8a0e-4bbf3755324c">suffix</tls:sem-feat></gramGrp><def>particle placed after a predicate for emphasis</def></sense><sense xml:id="uuid-dcd7ec80-e650-4c52-97ec-80e650cc5204" resp="#CH" tls:created="2021-06-10T03:03:48.1+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-6d6bd900-247b-4a75-a3f5-2461027b138f">ppostadN.adS</tls:syn-func><tls:sem-feat corresp="#uuid-3903ed14-2d1f-4023-af77-5fb0374501a2">vocative</tls:sem-feat></gramGrp><def>marker of an exclamatory mentioning of or appeal to N</def></sense></entry>
+<sense xml:id="uuid-60c07c41-b9d1-4116-87b2-76bd789add6c" resp="#dsehnal" tls:created="2019-12-12T03:31:19.765+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b7202919-801b-4e6a-8a0e-4bbf3755324c">suffix</tls:sem-feat>
+                </gramGrp>
+                <def>particle placed after a predicate for emphasis</def>
+            </sense>
+            <sense xml:id="uuid-dcd7ec80-e650-4c52-97ec-80e650cc5204" resp="#CH" tls:created="2021-06-10T03:03:48.1+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-6d6bd900-247b-4a75-a3f5-2461027b138f">ppostadN.adS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3903ed14-2d1f-4023-af77-5fb0374501a2">vocative</tls:sem-feat>
+                </gramGrp>
+                <def>marker of an exclamatory mentioning of or appeal to N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-da653fcf-f104-441c-a5f5-a7de35a2215a">
             <form corresp="#uuid-062ed950-1636-4865-8ffb-69c78af2fbc8">
 <orth>兮</orth>
@@ -126,7 +143,14 @@
                 </gramGrp>
   <def>poetic excl. particle</def>
             </sense>
-<sense xml:id="uuid-5d65a3c7-bf99-41a6-a5a3-c7bf9961a600" resp="#dsehnal" tls:created="2024-05-20T02:21:06.211+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def>exclamatory poetic particle</def></sense></entry>
+<sense xml:id="uuid-5d65a3c7-bf99-41a6-a5a3-c7bf9961a600" resp="#dsehnal" tls:created="2024-05-20T02:21:06.211+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def>exclamatory poetic particle</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6c0eceea-e8cf-4b8c-af35-eb06a4daca46">
             <form corresp="#uuid-ef6c4ab9-49f2-41c8-83e0-c440fa47cad7">
 <orth>呼</orth>
@@ -227,7 +251,30 @@
                 </gramGrp>
   <def>小人哉</def>
             </sense>
-<sense xml:id="uuid-ae78d94b-0fa5-4dff-b8d9-4b0fa5adffa7" resp="#CH" tls:created="2022-02-17T19:19:59.609+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-374ea6da-a4a3-4fce-8ea6-daa4a34fce60">ppostadN</tls:syn-func><tls:sem-feat corresp="#uuid-ebf65f8f-f49a-4324-b65f-8ff49a332438">vocative, exlamatory</tls:sem-feat></gramGrp><def>Oh N!</def></sense><sense xml:id="uuid-29405eb0-8184-4a70-805e-b08184ba707a" resp="#CH" tls:created="2022-02-19T22:36:23.627+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-ec1e62c5-b310-4072-9e62-c5b310e07291">ppostadN{PRED}.+N{SUBJ}</tls:syn-func></gramGrp><def>小人哉樊須也！marks an exclamatorily marked nominal predicate preceding its subject</def></sense><sense xml:id="uuid-a2e616a9-b55d-407b-a616-a9b55de07b1a" resp="#CH" tls:created="2024-03-17T00:07:03.294+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-74e59d6d-b85f-48e1-a59d-6db85f48e1ec">S=nominal predicate</tls:sem-feat></gramGrp><def>The modified sentence conistists of a predicative N</def></sense></entry>
+<sense xml:id="uuid-ae78d94b-0fa5-4dff-b8d9-4b0fa5adffa7" resp="#CH" tls:created="2022-02-17T19:19:59.609+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-374ea6da-a4a3-4fce-8ea6-daa4a34fce60">ppostadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ebf65f8f-f49a-4324-b65f-8ff49a332438">vocative, exlamatory</tls:sem-feat>
+                </gramGrp>
+                <def>Oh N!</def>
+            </sense>
+            <sense xml:id="uuid-29405eb0-8184-4a70-805e-b08184ba707a" resp="#CH" tls:created="2022-02-19T22:36:23.627+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-ec1e62c5-b310-4072-9e62-c5b310e07291">ppostadN{PRED}.+N{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def>小人哉樊須也！marks an exclamatorily marked nominal predicate preceding its subject</def>
+            </sense>
+            <sense xml:id="uuid-a2e616a9-b55d-407b-a616-a9b55de07b1a" resp="#CH" tls:created="2024-03-17T00:07:03.294+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-74e59d6d-b85f-48e1-a59d-6db85f48e1ec">S=nominal predicate</tls:sem-feat>
+                </gramGrp>
+                <def>The modified sentence conistists of a predicative N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-be2142f3-02d9-484f-84e7-b153816675ad">
             <form corresp="#uuid-65d0b036-bb09-421e-8c0b-1677257f0d66">
 <orth>唉</orth>
@@ -395,7 +442,14 @@
                 <pron xml:lang="zh-x-mc">tɕi̯ɤ</pron>
             </form>
 
-<sense xml:id="uuid-cfbde296-d8e6-47ab-bde2-96d8e6b7ab38" resp="#CH" tls:created="2024-03-07T00:57:32.871+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def>=之乎 him/her/it, them!</def></sense></entry>
+<sense xml:id="uuid-cfbde296-d8e6-47ab-bde2-96d8e6b7ab38" resp="#CH" tls:created="2024-03-07T00:57:32.871+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def>=之乎 him/her/it, them!</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-81c52bf7-1bf4-4a20-9d3c-6380d0009634">
             <form corresp="#uuid-f13b71bf-b448-49fc-9b17-c94f153ff7c2 #uuid-c521217d-688c-4397-aa1e-b6922a18d2f3">
 <orth>于戲</orth>
@@ -443,17 +497,97 @@
   <def>how (V-ing)!</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9cc9ff2b-3535-4bda-be6f-ecf3f3fb65ab" resp="#zadrapa" tls:created="2019-10-29T23:19:04.091+09:00"><form corresp="#uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba"><orth>與</orth><pron xml:lang="zh-Latn-x-pinyin">yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-la</pron></form><sense xml:id="uuid-2c6ef23f-ad2b-4d91-9b34-46e56d56992f" resp="#zadrapa" tls:created="2019-10-29T23:19:04.091+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def resp="#CH" updated="2022-02-21T18:44:43.513+09:00">=歟（也 乎）marks lively assertion, perhaps to be literally construed as a rhetorical question???</def></sense></entry><entry type="word" xml:id="uuid-462d9589-b962-4380-92d3-42689db01c4a" resp="#dsehnal" tls:created="2019-12-11T05:49:43.211+09:00"><form corresp="#uuid-37d48986-0938-4d3c-84fb-6e713e43a651 #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>哉乎</orth><pron xml:lang="zh-Latn-x-pinyin">zāi hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skɯɯ ɢaa</pron></form><sense xml:id="uuid-7ad4475c-55ed-4fff-a30d-603b86462829" resp="#dsehnal" tls:created="2019-12-11T05:49:43.211+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-b5b4c326-c76a-476c-b4c3-26c76a476c21">PPpostadV{PRED}+N{SUBJ}</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2019-12-12T06:46:20.837+09:00">exclamatory particle marking emphatic inversion of the predicate</def></sense></entry><entry type="word" xml:id="uuid-bd63792f-f440-41dd-a379-2ff440a1dd3d" resp="#CH" tls:created="2022-02-22T05:21:44.045+09:00"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3"><orth>也</orth><pron xml:lang="zh-Latn-x-pinyin">yě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ</pron></form><sense xml:id="uuid-9933ce10-07c7-4c0f-b3ce-1007c73c0f65" resp="#CH" tls:created="2022-02-22T05:21:44.045+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-37763ff6-e659-47cd-b63f-f6e65937cdae">ppostadNab{S}</tls:syn-func><tls:sem-feat corresp="#uuid-9ca38262-181f-4209-a382-62181f52092f">nominalisation by 之/其</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-02-26T18:18:24.49+09:00">予之不仁也！“How inhumane Yú is!": Oh for the subject's V-ing:</def></sense></entry><entry xml:id="uuid-1ffdb459-beb7-4705-bdb4-59beb707056d"><form corresp="#uuid-ef9d58d9-394e-444f-a0da-68bb6851d0ea">
+    <entry type="word" xml:id="uuid-9cc9ff2b-3535-4bda-be6f-ecf3f3fb65ab" resp="#zadrapa" tls:created="2019-10-29T23:19:04.091+09:00">
+            <form corresp="#uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba">
+                <orth>與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-la</pron>
+            </form>
+            <sense xml:id="uuid-2c6ef23f-ad2b-4d91-9b34-46e56d56992f" resp="#zadrapa" tls:created="2019-10-29T23:19:04.091+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-21T18:44:43.513+09:00">=歟（也 乎）marks lively assertion, perhaps to be literally construed as a rhetorical question???</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-462d9589-b962-4380-92d3-42689db01c4a" resp="#dsehnal" tls:created="2019-12-11T05:49:43.211+09:00">
+            <form corresp="#uuid-37d48986-0938-4d3c-84fb-6e713e43a651 #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>哉乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zāi hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skɯɯ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-7ad4475c-55ed-4fff-a30d-603b86462829" resp="#dsehnal" tls:created="2019-12-11T05:49:43.211+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-b5b4c326-c76a-476c-b4c3-26c76a476c21">PPpostadV{PRED}+N{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2019-12-12T06:46:20.837+09:00">exclamatory particle marking emphatic inversion of the predicate</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bd63792f-f440-41dd-a379-2ff440a1dd3d" resp="#CH" tls:created="2022-02-22T05:21:44.045+09:00">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3">
+                <orth>也</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ</pron>
+            </form>
+            <sense xml:id="uuid-9933ce10-07c7-4c0f-b3ce-1007c73c0f65" resp="#CH" tls:created="2022-02-22T05:21:44.045+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-37763ff6-e659-47cd-b63f-f6e65937cdae">ppostadNab{S}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9ca38262-181f-4209-a382-62181f52092f">nominalisation by 之/其</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-26T18:18:24.49+09:00">予之不仁也！“How inhumane Yú is!": Oh for the subject's V-ing:</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-1ffdb459-beb7-4705-bdb4-59beb707056d">
+            <form corresp="#uuid-ef9d58d9-394e-444f-a0da-68bb6851d0ea">
 <orth>咨</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">zī</pron>
                 <pron xml:lang="zh-x-oc">sti</pron>
                 <pron xml:lang="zh-x-mc">tsi</pron>
-            </form><sense xml:id="uuid-51f03e46-c565-486f-b0e6-a6af7fb18827">
+            </form>
+            <sense xml:id="uuid-51f03e46-c565-486f-b0e6-a6af7fb18827">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-a922807b-cc05-48ad-ae43-c0d30b9bb742">vi0</tls:syn-func>
   <tls:sem-feat corresp="#uuid-80c100cf-281f-43b5-bea3-891d842fd098">exclamatory</tls:sem-feat>
                 </gramGrp>
   <def resp="#CH" updated="2023-01-21T22:34:47.527+09:00">SHU, LY: alas!</def>
-            </sense></entry><entry type="word" xml:id="uuid-ff192eff-69be-412f-992e-ff69be012f97" resp="#CH" tls:created="2024-03-07T00:56:03.775+09:00"><form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2"><orth>諸</orth><pron xml:lang="zh-Latn-x-pinyin">zhū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klja</pron></form><sense xml:id="uuid-0967e12e-29c2-4223-a7e1-2e29c2722307" resp="#CH" tls:created="2024-03-07T00:56:03.775+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def>=之乎 he/she/it/them?</def></sense></entry><entry type="word" xml:id="uuid-c9a8d022-d5bd-447e-a8d0-22d5bd947e64" resp="#CH" tls:created="2024-06-25T18:32:14.822+09:00"><form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515"><orth>之</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron></form><sense xml:id="uuid-e4933680-5f1d-411a-9336-805f1d711aad" resp="#CH" tls:created="2024-06-25T18:32:14.822+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f71adcde-e678-4824-9adc-dee678782403">npropostN.adV&gt;Nab</tls:syn-func></gramGrp><def>Oh, for the V&gt;Nab of N!</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ff192eff-69be-412f-992e-ff69be012f97" resp="#CH" tls:created="2024-03-07T00:56:03.775+09:00">
+            <form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2">
+                <orth>諸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klja</pron>
+            </form>
+            <sense xml:id="uuid-0967e12e-29c2-4223-a7e1-2e29c2722307" resp="#CH" tls:created="2024-03-07T00:56:03.775+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def>=之乎 he/she/it/them?</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c9a8d022-d5bd-447e-a8d0-22d5bd947e64" resp="#CH" tls:created="2024-06-25T18:32:14.822+09:00">
+            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
+                <orth>之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-e4933680-5f1d-411a-9336-805f1d711aad" resp="#CH" tls:created="2024-06-25T18:32:14.822+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f71adcde-e678-4824-9adc-dee678782403">npropostN.adV&gt;Nab</tls:syn-func>
+                </gramGrp>
+                <def>Oh, for the V&gt;Nab of N!</def>
+            </sense>
+        </entry>
+    </div>
 </div>

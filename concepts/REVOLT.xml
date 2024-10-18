@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-34357b6e-bbf2-4b03-b8ce-33ad566a8083">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-34357b6e-bbf2-4b03-b8ce-33ad566a8083">
 <head>REVOLT</head>
     <list type="altnames">
 <item>REBEL</item>
@@ -408,7 +409,14 @@
                 </gramGrp>
   <def>revolt (against somebody); turn (against somebody)</def>
             </sense>
-<sense xml:id="uuid-d600911e-af0d-4cb0-8091-1eaf0d6cb01f" resp="#CH" tls:created="2020-05-06T03:16:04.895+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>revolt against the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-d600911e-af0d-4cb0-8091-1eaf0d6cb01f" resp="#CH" tls:created="2020-05-06T03:16:04.895+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>revolt against the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-95639b41-3926-48e3-a867-58545122f20a">
             <form corresp="#uuid-1184d66c-27cf-4b5c-8b9e-dc9d112687fc">
 <orth>變</orth>
@@ -671,5 +679,21 @@
   <def>rise in revolt</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-32c27570-485d-4e00-8275-70485dbe0099" resp="#CH" tls:created="2020-06-02T04:31:58.507+09:00"><form corresp="#uuid-9981b499-e76d-4584-b00b-bca7ffd09161 #uuid-27cddaa2-75c9-49a4-b605-1fc188a9b92d"><orth>作難</orth><pron xml:lang="zh-Latn-x-pinyin">zuò nàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsuH nanX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsaaɡ mɢlaans</pron></form><sense xml:id="uuid-f2f424ba-1e03-47ab-b424-ba1e0397ab1c" resp="#CH" tls:created="2020-06-02T04:31:58.507+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>inchoative: start a rebellion</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-32c27570-485d-4e00-8275-70485dbe0099" resp="#CH" tls:created="2020-06-02T04:31:58.507+09:00">
+            <form corresp="#uuid-9981b499-e76d-4584-b00b-bca7ffd09161 #uuid-27cddaa2-75c9-49a4-b605-1fc188a9b92d">
+                <orth>作難</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuò nàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsuH nanX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tsaaɡ mɢlaans</pron>
+            </form>
+            <sense xml:id="uuid-f2f424ba-1e03-47ab-b424-ba1e0397ab1c" resp="#CH" tls:created="2020-06-02T04:31:58.507+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>inchoative: start a rebellion</def>
+            </sense>
+        </entry>
+    </div>
 </div>

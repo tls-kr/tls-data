@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-80c0d6f9-b12a-4bfe-b59a-c61318caa722">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-80c0d6f9-b12a-4bfe-b59a-c61318caa722">
 <head>TOWER</head>
     <list type="altnames">
 <item>TURRET</item>
@@ -212,7 +213,22 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-08-02T23:55:42.742+09:00">terrace; square platform built on an earth-mound, belvédére; raised platform 高臺</def>
             </sense>
-<sense xml:id="uuid-1d80561e-58f5-458e-8056-1e58f5658eda" resp="#CH" tls:created="2020-03-27T01:26:42.444+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func></gramGrp><def resp="#CH" updated="2020-03-27T01:28:39.082+09:00">the Npr Terrace</def></sense><sense xml:id="uuid-bc72f336-a6f5-488c-b2f3-36a6f5988c90" resp="#dsehnal" tls:created="2024-05-05T03:15:14.681+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func><tls:sem-feat corresp="#uuid-294a8a36-3ed8-4aee-97cb-35e623d2dd31">N=mass</tls:sem-feat></gramGrp><def>terrace made of N</def></sense></entry>
+<sense xml:id="uuid-1d80561e-58f5-458e-8056-1e58f5658eda" resp="#CH" tls:created="2020-03-27T01:26:42.444+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-03-27T01:28:39.082+09:00">the Npr Terrace</def>
+            </sense>
+            <sense xml:id="uuid-bc72f336-a6f5-488c-b2f3-36a6f5988c90" resp="#dsehnal" tls:created="2024-05-05T03:15:14.681+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-294a8a36-3ed8-4aee-97cb-35e623d2dd31">N=mass</tls:sem-feat>
+                </gramGrp>
+                <def>terrace made of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b1f8c1eb-9f86-417b-aee0-80c132628494">
             <form corresp="#uuid-488a2bd8-e1cc-45e4-bd41-17264135050a">
 <orth>觀</orth>
@@ -282,7 +298,14 @@
                 </gramGrp>
   <def>gate tower; lookout tower by the gate</def>
             </sense>
-<sense xml:id="uuid-bb23b7c8-eaac-42ab-83f7-2e115bbf7a9b" resp="#CH" tls:created="2019-11-26T00:17:06.409+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>tower of the contextually determinate place</def></sense></entry>
+<sense xml:id="uuid-bb23b7c8-eaac-42ab-83f7-2e115bbf7a9b" resp="#CH" tls:created="2019-11-26T00:17:06.409+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>tower of the contextually determinate place</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-164793f8-903c-4d47-860c-50bf70137b49">
             <form corresp="#uuid-aca415df-328d-4df8-9fe0-98e27930de97 #uuid-aca00ed9-ef0f-4a2c-ad1a-30e2a461981e">
 <orth>城櫓</orth>
@@ -329,5 +352,20 @@
   <def resp="#CH" updated="2022-08-02T23:57:56.989+09:00">pleaure pavilions with towers of all kinds</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-706a70f0-9e3a-40df-aa70-f09e3a10df78" resp="#CH" tls:created="2021-09-10T00:21:31.996+09:00"><form corresp="#uuid-4099ae98-eafb-492c-976b-92e725ce4b02 #uuid-a4fbbd57-f280-490b-bb19-d8847e080d46"><orth>義臺</orth><pron xml:lang="zh-Latn-x-pinyin">yì tái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjeH koj</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋrals dɯɯ</pron></form><sense xml:id="uuid-ba28fd7a-459b-4a29-a8fd-7a459bca29cb" resp="#CH" tls:created="2021-09-10T00:21:31.996+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>=儀臺 ceremonial tower</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-706a70f0-9e3a-40df-aa70-f09e3a10df78" resp="#CH" tls:created="2021-09-10T00:21:31.996+09:00">
+            <form corresp="#uuid-4099ae98-eafb-492c-976b-92e725ce4b02 #uuid-a4fbbd57-f280-490b-bb19-d8847e080d46">
+                <orth>義臺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yì tái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjeH koj</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋrals dɯɯ</pron>
+            </form>
+            <sense xml:id="uuid-ba28fd7a-459b-4a29-a8fd-7a459bca29cb" resp="#CH" tls:created="2021-09-10T00:21:31.996+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>=儀臺 ceremonial tower</def>
+            </sense>
+        </entry>
+    </div>
 </div>

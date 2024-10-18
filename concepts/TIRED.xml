@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-adbb6adb-d61a-4335-9146-b7c020dcbeeb">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-adbb6adb-d61a-4335-9146-b7c020dcbeeb">
 <head>TIRED</head>
     <list type="altnames">
 <item>EXHAUSTED</item>
@@ -282,7 +283,14 @@
                 </gramGrp>
   <def>be tired by the exercise of N</def>
             </sense>
-<sense xml:id="uuid-66e13759-8b34-4ea6-a137-598b345ea636" resp="#dsehnal" tls:created="2024-05-26T17:50:39.991+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>tiredly</def></sense></entry>
+<sense xml:id="uuid-66e13759-8b34-4ea6-a137-598b345ea636" resp="#dsehnal" tls:created="2024-05-26T17:50:39.991+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>tiredly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f8085479-3cb4-47ab-a9e5-6c6f3dd2c928">
             <form corresp="#uuid-bfdac775-3e05-4b02-8893-cdc383388582">
 <orth>累</orth>
@@ -403,7 +411,15 @@
                 </gramGrp>
   <def>tire oneself out</def>
             </sense>
-<sense xml:id="uuid-a565b951-35ab-4477-a5b9-5135ab64773b" resp="#zadrapa" tls:created="2022-05-24T21:55:57.559+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>wear oneself out (for a good reason)</def></sense></entry>
+<sense xml:id="uuid-a565b951-35ab-4477-a5b9-5135ab64773b" resp="#zadrapa" tls:created="2022-05-24T21:55:57.559+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>wear oneself out (for a good reason)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-909de8c3-07b3-4712-883b-af67b07ce098">
             <form corresp="#uuid-5297fe00-eb44-4238-9806-ca861f16c147">
 <orth>勤</orth>
@@ -526,7 +542,15 @@
                 </gramGrp>
   <def>wear oneself down</def>
             </sense>
-<sense xml:id="uuid-d9475466-b181-47d9-a32d-d9f60c0b873e" resp="#CH" tls:created="2019-12-19T23:25:41.849+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>wear out</def></sense></entry>
+<sense xml:id="uuid-d9475466-b181-47d9-a32d-d9f60c0b873e" resp="#CH" tls:created="2019-12-19T23:25:41.849+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>wear out</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a92ee93d-c6d2-4934-a844-7c4d8db4919e">
             <form corresp="#uuid-e53a4783-ff5c-4ba0-9758-c68373df8f8b">
 <orth>怠</orth>
@@ -541,7 +565,14 @@
                 </gramGrp>
   <def>feel weary and uncapable of work</def>
             </sense>
-<sense xml:id="uuid-a3d6c868-4b2a-4f5e-96c8-684b2aaf5ea2" resp="#CH" tls:created="2021-03-25T21:23:03.533+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>get tired of the contextually determinate N, lose interest in N</def></sense></entry>
+<sense xml:id="uuid-a3d6c868-4b2a-4f5e-96c8-684b2aaf5ea2" resp="#CH" tls:created="2021-03-25T21:23:03.533+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>get tired of the contextually determinate N, lose interest in N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3342c1be-1b7e-4d5d-be08-f5b6cfbe88ea">
             <form corresp="#uuid-0c7c0ea0-fd8c-4670-b1d0-1891409a7f4d">
 <orth>憊</orth>
@@ -635,7 +666,15 @@
                 </gramGrp>
   <def>tired out by</def>
             </sense>
-<sense xml:id="uuid-7b0904b8-b6e9-43e5-8904-b8b6e963e5a3" resp="#zadrapa" tls:created="2022-05-23T18:50:43.308+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>exhaustedness, weakness</def></sense></entry>
+<sense xml:id="uuid-7b0904b8-b6e9-43e5-8904-b8b6e963e5a3" resp="#zadrapa" tls:created="2022-05-23T18:50:43.308+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>exhaustedness, weakness</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-517af322-75fe-4f38-aa4b-473f7c8ed34d">
             <form corresp="#uuid-9b080dbb-b943-466d-86c6-1686315584d4">
 <orth>極</orth>
@@ -652,7 +691,14 @@
                 </gramGrp>
   <def>extremity, state of extreme exhaustion and hardship</def>
             </sense>
-<sense xml:id="uuid-6bb6e92e-a4c2-4bfa-b6e9-2ea4c23bfaa5" resp="#zadrapa" tls:created="2020-12-15T05:19:04.008+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>get tired when working on N (XUN, debatable)</def></sense></entry>
+<sense xml:id="uuid-6bb6e92e-a4c2-4bfa-b6e9-2ea4c23bfaa5" resp="#zadrapa" tls:created="2020-12-15T05:19:04.008+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>get tired when working on N (XUN, debatable)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2a285a0c-a194-4b0f-aefd-d5e88e3d9e5f">
             <form corresp="#uuid-1032beb2-f3f8-4c39-aa5b-3dcfacc4de17">
 <orth>癉</orth>
@@ -881,7 +927,14 @@
                 </gramGrp>
   <def>get worn out</def>
             </sense>
-<sense xml:id="uuid-152bc46d-30c4-4abf-8bc3-7451b96ee6bc" resp="#CH" tls:created="2020-02-12T00:06:09.243+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func></gramGrp><def>weary, dreary</def></sense></entry>
+<sense xml:id="uuid-152bc46d-30c4-4abf-8bc3-7451b96ee6bc" resp="#CH" tls:created="2020-02-12T00:06:09.243+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                </gramGrp>
+                <def>weary, dreary</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-465e1f6a-fe1d-4d26-9859-8a62ee6765d1">
             <form corresp="#uuid-ff32a705-6807-4610-b38d-f47193977bae">
 <orth>痯</orth>
@@ -1522,8 +1575,71 @@
   <def>full of exhaustion; being very tired</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2c71e6a2-f196-41a8-b1e6-a2f19661a8f5" resp="#zadrapa" tls:created="2020-05-29T01:50:10.354+09:00"><form corresp="#uuid-c6b6b48f-87d4-4a80-8aa7-ed9353fcd9b7 #勌:juan4"><orth>勞勌</orth><pron xml:lang="zh-Latn-x-pinyin">láo
- juan4</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">law
- --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">raaw
- --</pron></form><sense xml:id="uuid-c0818400-69cb-4641-8184-0069cb36413e" resp="#zadrapa" tls:created="2020-05-29T01:50:10.354+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>= láojuan4 勞倦: be tired and exhausted   </def></sense></entry><entry type="word" xml:id="uuid-e7d84a0b-11bf-48fd-984a-0b11bf68fdb6" resp="#CH" tls:created="2021-09-06T21:33:46.265+09:00"><form corresp="#uuid-c52c0215-d4ee-4cf6-8e4a-3092b271b82b"><orth>跬</orth><pron xml:lang="zh-Latn-x-pinyin">kuǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjwieX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-1cb2284e-9e54-4a4e-b228-4e9e542a4eeb" resp="#CH" tls:created="2021-09-06T21:33:46.265+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>[read xiè 漢語大字典quotes 集韻：疲] wear oneself out</def></sense></entry><entry type="word" xml:id="uuid-f27cbaff-0641-461f-bcba-ff0641f61f3b" resp="#zadrapa" tls:created="2023-06-13T21:40:11.14+09:00"><form corresp="#uuid-1b11da5c-6d40-42fc-bf5d-fa511ea9acc2 #uuid-f8569095-a6e9-4a99-b768-b8985702e498"><orth>頓萃</orth><pron xml:lang="zh-Latn-x-pinyin">dùn cuì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">twonH dzwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuuns sɡuds</pron></form><sense xml:id="uuid-23f1ba16-eb9d-41c6-b1ba-16eb9d01c630" resp="#zadrapa" tls:created="2023-06-13T21:40:11.14+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2023-06-13T21:40:40.574+09:00">to tire oneself out</def></sense></entry><entry type="word" xml:id="uuid-2fa1470b-bcf6-4388-a147-0bbcf6b38816" resp="#CH" tls:created="2023-07-12T00:59:08.417+09:00"><form corresp="#uuid-960211e3-34c1-464b-8f2f-d40a54299cb6"><orth>卷</orth><pron xml:lang="zh-Latn-x-pinyin">juàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjwenH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krons</pron></form><sense xml:id="uuid-8db6841e-0937-4d0c-b684-1e09374d0c60" resp="#CH" tls:created="2023-07-12T00:59:08.417+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>=倦 get worn out </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2c71e6a2-f196-41a8-b1e6-a2f19661a8f5" resp="#zadrapa" tls:created="2020-05-29T01:50:10.354+09:00">
+            <form corresp="#uuid-c6b6b48f-87d4-4a80-8aa7-ed9353fcd9b7 #勌:juan4">
+                <orth>勞勌</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">láo
+ juan4</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">law
+ --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">raaw
+ --</pron>
+            </form>
+            <sense xml:id="uuid-c0818400-69cb-4641-8184-0069cb36413e" resp="#zadrapa" tls:created="2020-05-29T01:50:10.354+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>= láojuan4 勞倦: be tired and exhausted   </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e7d84a0b-11bf-48fd-984a-0b11bf68fdb6" resp="#CH" tls:created="2021-09-06T21:33:46.265+09:00">
+            <form corresp="#uuid-c52c0215-d4ee-4cf6-8e4a-3092b271b82b">
+                <orth>跬</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kuǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjwieX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-1cb2284e-9e54-4a4e-b228-4e9e542a4eeb" resp="#CH" tls:created="2021-09-06T21:33:46.265+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>[read xiè 漢語大字典quotes 集韻：疲] wear oneself out</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f27cbaff-0641-461f-bcba-ff0641f61f3b" resp="#zadrapa" tls:created="2023-06-13T21:40:11.14+09:00">
+            <form corresp="#uuid-1b11da5c-6d40-42fc-bf5d-fa511ea9acc2 #uuid-f8569095-a6e9-4a99-b768-b8985702e498">
+                <orth>頓萃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dùn cuì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">twonH dzwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tuuns sɡuds</pron>
+            </form>
+            <sense xml:id="uuid-23f1ba16-eb9d-41c6-b1ba-16eb9d01c630" resp="#zadrapa" tls:created="2023-06-13T21:40:11.14+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2023-06-13T21:40:40.574+09:00">to tire oneself out</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2fa1470b-bcf6-4388-a147-0bbcf6b38816" resp="#CH" tls:created="2023-07-12T00:59:08.417+09:00">
+            <form corresp="#uuid-960211e3-34c1-464b-8f2f-d40a54299cb6">
+                <orth>卷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">juàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjwenH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krons</pron>
+            </form>
+            <sense xml:id="uuid-8db6841e-0937-4d0c-b684-1e09374d0c60" resp="#CH" tls:created="2023-07-12T00:59:08.417+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>=倦 get worn out </def>
+            </sense>
+        </entry>
+    </div>
 </div>

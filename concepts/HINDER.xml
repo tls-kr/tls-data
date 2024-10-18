@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8d05ae79-df6f-4c15-b57a-a8390a57643a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8d05ae79-df6f-4c15-b57a-a8390a57643a">
 <head>HINDER</head>
     <list type="altnames">
 <item>PREVENT</item>
@@ -250,7 +251,15 @@
                 </gramGrp>
   <def>hinder somebody to V</def>
             </sense>
-<sense xml:id="uuid-d60a53fc-0104-44bd-a0c0-9f3cb4423c96" resp="#CH" tls:created="2020-02-09T19:15:23.503+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>middle voice, figurative: be blocked from view</def></sense></entry>
+<sense xml:id="uuid-d60a53fc-0104-44bd-a0c0-9f3cb4423c96" resp="#CH" tls:created="2020-02-09T19:15:23.503+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>middle voice, figurative: be blocked from view</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b114a551-38fe-4446-90d6-1bcb6cf30147">
             <form corresp="#uuid-17092982-8b1e-4e2b-9784-01c4b031a392">
 <orth>左</orth>
@@ -548,7 +557,14 @@
                 </gramGrp>
   <def>obstruct; hinder (LIE) ??</def>
             </sense>
-<sense xml:id="uuid-6eb91f86-8169-4ff9-b91f-868169dff9d9" resp="#CH" tls:created="2020-02-14T03:52:22.764+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>hindrance, blockage</def></sense></entry>
+<sense xml:id="uuid-6eb91f86-8169-4ff9-b91f-868169dff9d9" resp="#CH" tls:created="2020-02-14T03:52:22.764+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>hindrance, blockage</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-05318fa2-36f3-41e8-8045-2329c370f484">
             <form corresp="#uuid-908ecf29-fb6e-4a3c-8c2a-6616a72113d1">
 <orth>防</orth>
@@ -605,7 +621,15 @@
                 </gramGrp>
   <def>be blocked; be impeded</def>
             </sense>
-<sense xml:id="uuid-e1cab192-90a1-4fff-81a0-00920a942feb" resp="#CH" tls:created="2019-12-29T07:26:18.859+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>countable: impediments</def></sense></entry>
+<sense xml:id="uuid-e1cab192-90a1-4fff-81a0-00920a942feb" resp="#CH" tls:created="2019-12-29T07:26:18.859+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>countable: impediments</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7f5b4760-3e29-4de3-a6e1-7e90062262d1">
             <form corresp="#uuid-24b44d8e-6874-4d26-8254-056016b09e7b">
 <orth>隔</orth>
@@ -919,7 +943,14 @@
                 </gramGrp>
   <def>obstacle; hindrance; strategic natural hindrance</def>
             </sense>
-<sense xml:id="uuid-5cc1d741-7e30-4af8-81d7-417e304af89d" resp="#CH" tls:created="2022-09-18T16:35:10.685+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func></gramGrp><def>defensive</def></sense></entry>
+<sense xml:id="uuid-5cc1d741-7e30-4af8-81d7-417e304af89d" resp="#CH" tls:created="2022-09-18T16:35:10.685+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>defensive</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a48d347d-c04f-4caf-895b-442fc66f4621">
             <form corresp="#uuid-6556964e-355c-4f58-93fa-31077a01ad93">
 <orth>止</orth>
@@ -949,6 +980,112 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-f1f2aefc-56c6-4ff5-b2ae-fc56c6aff58f" resp="#zadrapa" tls:created="2022-05-16T17:16:52.093+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>hinder what should be hindered, typically crimes (禁止 "prohibitions hinder [illegal deeds]")</def></sense></entry>
-    <entry type="word" xml:id="uuid-5c56054d-d2c3-4bb4-9605-4dd2c3dbb483"><form><orth>塞</orth><pron xml:lang="zh-Latn-x-pinyin">sāi</pron></form><def/><sense xml:id="uuid-ce331505-7971-4417-b315-057971941762" resp="#zadrapa" tls:created="2020-06-09T23:09:27.544+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat></gramGrp><def>hindrance</def></sense><sense xml:id="uuid-75906319-fbb1-4ec0-9063-19fbb1cec079" resp="#CH" tls:created="2022-09-16T19:54:16.097+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be prevented from functioning properly, be impeded</def></sense></entry><entry type="word" xml:id="uuid-8f7ad7a3-f3c0-4e82-bad7-a3f3c0ae820e" resp="#zadrapa" tls:created="2020-06-17T22:50:30.721+09:00"><form corresp="#uuid-28fa2ef2-8913-49fc-833a-e8eb343904f9"><orth>胠</orth><pron xml:lang="zh-Latn-x-pinyin">qū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kha</pron></form><sense xml:id="uuid-49860cd4-30f8-4bf8-860c-d430f80bf8b0" resp="#zadrapa" tls:created="2020-06-17T22:50:30.721+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>= qu1 阹: get stuck at the place N, become stranded at the place N</def></sense></entry><entry type="word" xml:id="uuid-8b80acca-a059-4f29-80ac-caa059af29d0" resp="#zadrapa" tls:created="2022-05-30T03:33:28.104+09:00"><form corresp="#uuid-aa8fe555-525d-4465-8bfc-470197e85b97 #uuid-002b870a-8d76-48f9-b5af-4d81bf229ddd"><orth>滯留</orth><pron xml:lang="zh-Latn-x-pinyin">zhì liú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">drjejH ljuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dads b-ru</pron></form><sense xml:id="uuid-f864358b-4c9c-4064-a435-8b4c9c506448" resp="#zadrapa" tls:created="2022-05-30T03:33:28.104+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>hindrance</def></sense></entry><entry type="word" xml:id="uuid-7fe6490f-75e6-4596-a649-0f75e6859688" resp="#CH" tls:created="2022-08-06T19:33:35.116+09:00"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625"><orth>不通</orth><pron xml:lang="zh-Latn-x-pinyin">bù tōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjut thuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ kh-looŋ</pron></form><sense xml:id="uuid-9ab6456c-ca86-40b8-b645-6cca8620b8a5" resp="#CH" tls:created="2022-08-06T19:33:35.116+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause not to proceed efficiently</def></sense></entry><entry type="word" xml:id="uuid-c6112643-d034-4318-9126-43d034e31876" resp="#CH" tls:created="2022-08-26T00:49:09.668+09:00"><form corresp="#uuid-f87008e9-699c-44fa-b4dd-9e3153150ac4 #uuid-c63a43b9-b557-4a93-974b-4d60ba1b171b"><orth>險塞</orth><pron xml:lang="zh-Latn-x-pinyin">xiǎn sài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjemX sojH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhromʔ sɯɯɡs</pron></form><sense xml:id="uuid-e79ae4df-f22f-40f7-9ae4-dff22f70f79c" resp="#CH" tls:created="2022-08-26T00:49:09.668+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>obstacles</def></sense></entry><entry type="word" xml:id="uuid-0309f02c-499e-4ba1-89f0-2c499e8ba130" resp="#CH" tls:created="2022-09-03T00:50:12.949+09:00"><form corresp="#uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734 #uuid-b165c52f-d3c5-42ea-84b5-248b99839a0b"><orth>禁御</orth><pron xml:lang="zh-Latn-x-pinyin">jìn yù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kimH ngjoH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krɯms ŋas</pron></form><sense xml:id="uuid-3876e41a-ba47-4c7c-b6e4-1aba470c7cf8" resp="#CH" tls:created="2022-09-03T00:50:12.949+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>stop the contextually determinate N doing what they are doing</def></sense></entry></div>
+<sense xml:id="uuid-f1f2aefc-56c6-4ff5-b2ae-fc56c6aff58f" resp="#zadrapa" tls:created="2022-05-16T17:16:52.093+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>hinder what should be hindered, typically crimes (禁止 "prohibitions hinder [illegal deeds]")</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-5c56054d-d2c3-4bb4-9605-4dd2c3dbb483">
+            <form>
+                <orth>塞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sāi</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-ce331505-7971-4417-b315-057971941762" resp="#zadrapa" tls:created="2020-06-09T23:09:27.544+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
+                </gramGrp>
+                <def>hindrance</def>
+            </sense>
+            <sense xml:id="uuid-75906319-fbb1-4ec0-9063-19fbb1cec079" resp="#CH" tls:created="2022-09-16T19:54:16.097+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be prevented from functioning properly, be impeded</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8f7ad7a3-f3c0-4e82-bad7-a3f3c0ae820e" resp="#zadrapa" tls:created="2020-06-17T22:50:30.721+09:00">
+            <form corresp="#uuid-28fa2ef2-8913-49fc-833a-e8eb343904f9">
+                <orth>胠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kha</pron>
+            </form>
+            <sense xml:id="uuid-49860cd4-30f8-4bf8-860c-d430f80bf8b0" resp="#zadrapa" tls:created="2020-06-17T22:50:30.721+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>= qu1 阹: get stuck at the place N, become stranded at the place N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8b80acca-a059-4f29-80ac-caa059af29d0" resp="#zadrapa" tls:created="2022-05-30T03:33:28.104+09:00">
+            <form corresp="#uuid-aa8fe555-525d-4465-8bfc-470197e85b97 #uuid-002b870a-8d76-48f9-b5af-4d81bf229ddd">
+                <orth>滯留</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì liú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">drjejH ljuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dads b-ru</pron>
+            </form>
+            <sense xml:id="uuid-f864358b-4c9c-4064-a435-8b4c9c506448" resp="#zadrapa" tls:created="2022-05-30T03:33:28.104+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>hindrance</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7fe6490f-75e6-4596-a649-0f75e6859688" resp="#CH" tls:created="2022-08-06T19:33:35.116+09:00">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625">
+                <orth>不通</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù tōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjut thuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ kh-looŋ</pron>
+            </form>
+            <sense xml:id="uuid-9ab6456c-ca86-40b8-b645-6cca8620b8a5" resp="#CH" tls:created="2022-08-06T19:33:35.116+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause not to proceed efficiently</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c6112643-d034-4318-9126-43d034e31876" resp="#CH" tls:created="2022-08-26T00:49:09.668+09:00">
+            <form corresp="#uuid-f87008e9-699c-44fa-b4dd-9e3153150ac4 #uuid-c63a43b9-b557-4a93-974b-4d60ba1b171b">
+                <orth>險塞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiǎn sài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjemX sojH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhromʔ sɯɯɡs</pron>
+            </form>
+            <sense xml:id="uuid-e79ae4df-f22f-40f7-9ae4-dff22f70f79c" resp="#CH" tls:created="2022-08-26T00:49:09.668+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>obstacles</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0309f02c-499e-4ba1-89f0-2c499e8ba130" resp="#CH" tls:created="2022-09-03T00:50:12.949+09:00">
+            <form corresp="#uuid-e349b13f-6c5b-45bf-b48b-acfd17f5e734 #uuid-b165c52f-d3c5-42ea-84b5-248b99839a0b">
+                <orth>禁御</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jìn yù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kimH ngjoH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krɯms ŋas</pron>
+            </form>
+            <sense xml:id="uuid-3876e41a-ba47-4c7c-b6e4-1aba470c7cf8" resp="#CH" tls:created="2022-09-03T00:50:12.949+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>stop the contextually determinate N doing what they are doing</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d1f0564b-6c21-4761-8dbe-c1246dbc7878">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d1f0564b-6c21-4761-8dbe-c1246dbc7878">
 <head>SIDE</head>
     <list type="altnames">
 <item>EDGE</item>
@@ -272,7 +273,14 @@
                 </gramGrp>
   <def>side (of a road, roadside); one's side 身邊</def>
             </sense>
-<sense xml:id="uuid-cd174062-4b24-47d4-b736-4e3fa3f32f2b" resp="#CH" tls:created="2019-12-29T07:31:11.486+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>on the side of</def></sense></entry>
+<sense xml:id="uuid-cd174062-4b24-47d4-b736-4e3fa3f32f2b" resp="#CH" tls:created="2019-12-29T07:31:11.486+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>on the side of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-baa1a165-8a76-493d-a842-7fec1bbaa3e1">
             <form corresp="#uuid-24d52510-cc71-4e20-8ee2-919323a8eede">
 <orth>樊</orth>
@@ -379,5 +387,20 @@
   <def>side of the contextually determinate N</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2bfd7966-1bde-40d7-bd79-661bde80d7fb" resp="#CH" tls:created="2021-05-02T04:30:21.088+09:00"><form corresp="#uuid-3f58b1f2-248d-4aa0-a6a4-2275fe23618b"><orth>從</orth><pron xml:lang="zh-Latn-x-pinyin">cóng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjowng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzoŋ</pron></form><sense xml:id="uuid-662feb57-b3f9-468a-afeb-57b3f9468a9e" resp="#CH" tls:created="2021-05-02T04:30:21.088+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>side [rare: Zhuangzi]</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2bfd7966-1bde-40d7-bd79-661bde80d7fb" resp="#CH" tls:created="2021-05-02T04:30:21.088+09:00">
+            <form corresp="#uuid-3f58b1f2-248d-4aa0-a6a4-2275fe23618b">
+                <orth>從</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cóng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjowng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzoŋ</pron>
+            </form>
+            <sense xml:id="uuid-662feb57-b3f9-468a-afeb-57b3f9468a9e" resp="#CH" tls:created="2021-05-02T04:30:21.088+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>side [rare: Zhuangzi]</def>
+            </sense>
+        </entry>
+    </div>
 </div>

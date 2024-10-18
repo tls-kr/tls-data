@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a61fc5b5-95b3-4cd7-8f5f-3da19cf6429a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a61fc5b5-95b3-4cd7-8f5f-3da19cf6429a">
 <head>SENIOR</head>
     <list type="altnames">
 <item>OLDER</item>
@@ -202,7 +203,22 @@
   <def>treat as the senior; pay respect to as a senior</def>
             </sense>
 
-<sense xml:id="uuid-d357d14d-c6fd-42c7-97d1-4dc6fdf2c71e" resp="#CH" tls:created="2023-11-18T21:43:46.29+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN1(post-N2)]</tls:syn-func><tls:sem-feat corresp="#uuid-0b8a684c-8893-4f48-8bf5-95250a8cbdc1">superlative</tls:sem-feat></gramGrp><def>the eldest person (of the contextually determinate set N2)</def></sense><sense xml:id="uuid-c4304253-0b37-4c90-b042-530b37bc906b" resp="#CH" tls:created="2024-02-15T18:28:30.143+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be senior in status (defined by age of social rank)</def></sense></entry>
+<sense xml:id="uuid-d357d14d-c6fd-42c7-97d1-4dc6fdf2c71e" resp="#CH" tls:created="2023-11-18T21:43:46.29+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN1(post-N2)]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0b8a684c-8893-4f48-8bf5-95250a8cbdc1">superlative</tls:sem-feat>
+                </gramGrp>
+                <def>the eldest person (of the contextually determinate set N2)</def>
+            </sense>
+            <sense xml:id="uuid-c4304253-0b37-4c90-b042-530b37bc906b" resp="#CH" tls:created="2024-02-15T18:28:30.143+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be senior in status (defined by age of social rank)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8811f19d-a238-4f22-83fe-af538b485555">
             <form corresp="#uuid-33ab6c76-5aae-4fd1-9ef4-a297b3db7608 #uuid-600f7130-ea25-4628-996b-5d9323615a8b">
 <orth>宿舊</orth>
@@ -248,7 +264,15 @@
                 </gramGrp>
   <def>father and eldest brother&gt;  one's seniors in the clan</def>
             </sense>
-<sense xml:id="uuid-3caedad8-0f00-4315-aeda-d80f00e315c3" resp="#CH" tls:created="2020-12-15T03:44:44.214+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-d38862b4-ef7d-49c3-bf83-bbf15eea7fe5">disjunction</tls:sem-feat></gramGrp><def>a father or an elder/eldest brother</def></sense></entry>
+<sense xml:id="uuid-3caedad8-0f00-4315-aeda-d80f00e315c3" resp="#CH" tls:created="2020-12-15T03:44:44.214+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d38862b4-ef7d-49c3-bf83-bbf15eea7fe5">disjunction</tls:sem-feat>
+                </gramGrp>
+                <def>a father or an elder/eldest brother</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6526b12e-fe5e-4114-9f1d-8e3c25b62d89">
             <form corresp="#uuid-b8e67731-521a-467d-89aa-abea5a9bf98c #uuid-2f146a1a-f10b-44f9-9848-8ef30734cd8d">
 <orth>長幼</orth>
@@ -266,7 +290,15 @@
                 </gramGrp>
   <def>relative seniority or juniority</def>
             </sense>
-<sense xml:id="uuid-9a08025c-d3e2-4b43-873a-d8b1a1376100" resp="#zadrapa" tls:created="2019-10-30T20:41:08.922+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-b508886f-c59f-4e95-aef9-c8c38b206373">NPab{nab1ant.nab2}</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>relationship between older and younger ones</def></sense></entry>
+<sense xml:id="uuid-9a08025c-d3e2-4b43-873a-d8b1a1376100" resp="#zadrapa" tls:created="2019-10-30T20:41:08.922+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-b508886f-c59f-4e95-aef9-c8c38b206373">NPab{nab1ant.nab2}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>relationship between older and younger ones</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-61e4cbae-4a8a-4c73-b2b0-29647809cfc1">
             <form corresp="#uuid-b8e67731-521a-467d-89aa-abea5a9bf98c #uuid-638f5102-6260-4085-891d-9864102bc27c">
 <orth>長者</orth>
@@ -297,7 +329,14 @@
                 </gramGrp>
   <def>superior persons; persons in command</def>
             </sense>
-<sense xml:id="uuid-13e1bcb8-6430-4ba4-ac68-1a0a17add457" resp="#CH" tls:created="2019-10-16T23:44:50.526+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP(post-N)</tls:syn-func></gramGrp><def>someone senior to oneself</def></sense></entry>
+<sense xml:id="uuid-13e1bcb8-6430-4ba4-ac68-1a0a17add457" resp="#CH" tls:created="2019-10-16T23:44:50.526+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>someone senior to oneself</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6d0f429f-8af5-418e-bb48-22585a4b12f8">
             <form corresp="#uuid-8840febf-a68a-4d05-b42d-4681834b0dea">
 <orth>太</orth>
@@ -313,5 +352,36 @@
   <def>senior 太子</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-868b121a-37d9-4fe5-8b12-1a37d97fe5d1" resp="#CH" tls:created="2021-01-25T04:37:16.73+09:00"><form corresp="#uuid-913e4503-2de6-45dc-b1b2-fb5134fe83f5 #uuid-b8e67731-521a-467d-89aa-abea5a9bf98c"><orth>家長</orth><pron xml:lang="zh-Latn-x-pinyin">jiā zhǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kae drjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraa krlaŋʔ</pron></form><sense xml:id="uuid-376d5134-121a-4c57-ad51-34121aec5710" resp="#CH" tls:created="2021-01-25T04:37:16.73+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def>head of the family [of the contextually determinate N]</def></sense></entry><entry type="word" xml:id="uuid-c5f181b7-3201-461e-b181-b73201361e2a" resp="#CH" tls:created="2023-01-21T22:47:54.353+09:00"><form corresp="#uuid-03f5a960-58a0-4039-ae50-ba1d431d8c8f"><orth>岳</orth><pron xml:lang="zh-Latn-x-pinyin">yuè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngaewk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋruuɡ</pron></form><sense xml:id="uuid-989d660e-20dc-46ce-9d66-0e20dc66ce67" resp="#CH" tls:created="2023-01-21T22:47:54.353+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>local elders (Shu)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-868b121a-37d9-4fe5-8b12-1a37d97fe5d1" resp="#CH" tls:created="2021-01-25T04:37:16.73+09:00">
+            <form corresp="#uuid-913e4503-2de6-45dc-b1b2-fb5134fe83f5 #uuid-b8e67731-521a-467d-89aa-abea5a9bf98c">
+                <orth>家長</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiā zhǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kae drjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraa krlaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-376d5134-121a-4c57-ad51-34121aec5710" resp="#CH" tls:created="2021-01-25T04:37:16.73+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>head of the family [of the contextually determinate N]</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5f181b7-3201-461e-b181-b73201361e2a" resp="#CH" tls:created="2023-01-21T22:47:54.353+09:00">
+            <form corresp="#uuid-03f5a960-58a0-4039-ae50-ba1d431d8c8f">
+                <orth>岳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngaewk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋruuɡ</pron>
+            </form>
+            <sense xml:id="uuid-989d660e-20dc-46ce-9d66-0e20dc66ce67" resp="#CH" tls:created="2023-01-21T22:47:54.353+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>local elders (Shu)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-af579b49-5316-40fa-b7c7-155e16b10c04">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-af579b49-5316-40fa-b7c7-155e16b10c04">
 <head>COURT</head>
     <list type="altnames">
 <item>ROYAL RESIDENCE</item>
@@ -169,7 +170,14 @@
                 </gramGrp>
   <def>at court, in court</def>
             </sense>
-<sense xml:id="uuid-ce549b73-004c-4c28-949b-73004cfc283d" resp="#dsehnal" tls:created="2024-05-26T03:04:10.647+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>court's; in the court</def></sense></entry>
+<sense xml:id="uuid-ce549b73-004c-4c28-949b-73004cfc283d" resp="#dsehnal" tls:created="2024-05-26T03:04:10.647+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>court's; in the court</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2690dfea-2a3a-4760-b057-ad5cd72ed3e3">
             <form corresp="#uuid-c6f40897-559a-4c6a-86d8-d9d87fbf8c55">
 <orth>朝</orth>
@@ -248,7 +256,14 @@
                 </gramGrp>
   <def>holding court</def>
             </sense>
-<sense xml:id="uuid-b7d2351d-0263-4608-908b-648e09ab6612" resp="#CH" tls:created="2019-10-13T01:36:12.011+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>(one's) court</def></sense></entry>
+<sense xml:id="uuid-b7d2351d-0263-4608-908b-648e09ab6612" resp="#CH" tls:created="2019-10-13T01:36:12.011+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>(one's) court</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-319efe94-9f2a-4775-9d0e-adf4ea573977">
             <form corresp="#uuid-2e2abedc-862d-4a4e-8764-26ac105aab37">
 <orth>殿</orth>
@@ -416,5 +431,20 @@
   <def>at the court</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1bfc18fb-84df-40c8-bc18-fb84df40c8db" resp="#zadrapa" tls:created="2021-01-22T00:08:17.141+09:00"><form corresp="#uuid-b244418b-afd6-4459-bfe1-098cf5a689fe #uuid-c6f40897-559a-4c6a-86d8-d9d87fbf8c55"><orth>本朝</orth><pron xml:lang="zh-Latn-x-pinyin">běn cháo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pwonX --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯnʔ daw</pron></form><sense xml:id="uuid-a369a076-4471-4b9a-a9a0-7644718b9ae7" resp="#zadrapa" tls:created="2021-01-22T00:08:17.141+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>court</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1bfc18fb-84df-40c8-bc18-fb84df40c8db" resp="#zadrapa" tls:created="2021-01-22T00:08:17.141+09:00">
+            <form corresp="#uuid-b244418b-afd6-4459-bfe1-098cf5a689fe #uuid-c6f40897-559a-4c6a-86d8-d9d87fbf8c55">
+                <orth>本朝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">běn cháo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pwonX --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯɯnʔ daw</pron>
+            </form>
+            <sense xml:id="uuid-a369a076-4471-4b9a-a9a0-7644718b9ae7" resp="#zadrapa" tls:created="2021-01-22T00:08:17.141+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>court</def>
+            </sense>
+        </entry>
+    </div>
 </div>

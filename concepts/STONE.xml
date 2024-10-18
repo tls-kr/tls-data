@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4a3ff01e-b3ed-4980-b8c8-ff65f3a076ed">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4a3ff01e-b3ed-4980-b8c8-ff65f3a076ed">
 <head>STONE</head>
     <list type="altnames">
 <item>ROCK</item>
@@ -201,7 +202,21 @@
                 </gramGrp>
   <def>made of stone; made up of rock</def>
             </sense>
-<sense xml:id="uuid-acd58a04-09b4-49cd-a55d-04eed6836116" resp="#zadrapa" tls:created="2019-12-02T19:47:31.107+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def>stone (material)</def></sense><sense xml:id="uuid-b12cef62-1c8b-4795-acef-621c8bd79504" resp="#CH" tls:created="2022-09-15T00:12:50.144+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>(military) stone projectiles</def></sense></entry>
+<sense xml:id="uuid-acd58a04-09b4-49cd-a55d-04eed6836116" resp="#zadrapa" tls:created="2019-12-02T19:47:31.107+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def>stone (material)</def>
+            </sense>
+            <sense xml:id="uuid-b12cef62-1c8b-4795-acef-621c8bd79504" resp="#CH" tls:created="2022-09-15T00:12:50.144+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>(military) stone projectiles</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cfd58597-c8d2-4833-aafd-04eafdd2e957">
             <form corresp="#uuid-562bd046-e29d-43a5-9d08-5b3cdeff689a">
 <orth>砂</orth>
@@ -307,5 +322,20 @@
   <def>coral</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1abffd0b-73b4-45e4-bffd-0b73b4d5e43c" resp="#dsehnal" tls:created="2023-07-02T00:21:59.585+09:00"><form corresp="#uuid-2ea9d688-e61f-486d-b70b-c5f784d9a1d3 #uuid-f4c5444b-0e26-482b-a1b0-73d1ac0ad43f"><orth>玉石</orth><pron xml:lang="zh-Latn-x-pinyin">yù shí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjowk dzyek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡoɡ djaɡ</pron></form><sense xml:id="uuid-1afe5dd7-26a5-43b7-be5d-d726a5f3b7bd" resp="#dsehnal" tls:created="2023-07-02T00:21:59.585+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def>stones of various kinds</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1abffd0b-73b4-45e4-bffd-0b73b4d5e43c" resp="#dsehnal" tls:created="2023-07-02T00:21:59.585+09:00">
+            <form corresp="#uuid-2ea9d688-e61f-486d-b70b-c5f784d9a1d3 #uuid-f4c5444b-0e26-482b-a1b0-73d1ac0ad43f">
+                <orth>玉石</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yù shí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjowk dzyek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡoɡ djaɡ</pron>
+            </form>
+            <sense xml:id="uuid-1afe5dd7-26a5-43b7-be5d-d726a5f3b7bd" resp="#dsehnal" tls:created="2023-07-02T00:21:59.585+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def>stones of various kinds</def>
+            </sense>
+        </entry>
+    </div>
 </div>

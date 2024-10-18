@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5e4d38bc-091c-4464-a5fb-5f44f7f62df0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5e4d38bc-091c-4464-a5fb-5f44f7f62df0">
 <head>GRIEF</head>
     <list type="altnames">
 <item>SORROW</item>
@@ -279,7 +280,21 @@
                 </gramGrp>
   <def>be sad about, grieve about</def>
             </sense>
-<sense xml:id="uuid-ce7a656d-9197-4d84-8af1-1f5e6cb959a2" resp="#CH" tls:created="2020-02-06T22:58:28.693+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>a grievous matter</def></sense><sense xml:id="uuid-a10db369-b9e5-4edb-8db3-69b9e5bedb5d" resp="#CH" tls:created="2023-11-24T16:55:26.06+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>be agrieved by, find tragic</def></sense></entry>
+<sense xml:id="uuid-ce7a656d-9197-4d84-8af1-1f5e6cb959a2" resp="#CH" tls:created="2020-02-06T22:58:28.693+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>a grievous matter</def>
+            </sense>
+            <sense xml:id="uuid-a10db369-b9e5-4edb-8db3-69b9e5bedb5d" resp="#CH" tls:created="2023-11-24T16:55:26.06+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>be agrieved by, find tragic</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9b369099-852e-4530-84db-7cfb6a29f36b">
             <form corresp="#uuid-2305f380-7238-431a-a131-6436147aa389">
 <orth>憂</orth>
@@ -352,7 +367,14 @@
                 </gramGrp>
   <def>grief in general, all kinds of grief</def>
             </sense>
-<sense xml:id="uuid-33f440a7-68a0-4ab9-8baa-f23ad154b645" resp="#zadrapa" tls:created="2019-10-31T23:50:24.975+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>mourn for, grieve over</def></sense></entry>
+<sense xml:id="uuid-33f440a7-68a0-4ab9-8baa-f23ad154b645" resp="#zadrapa" tls:created="2019-10-31T23:50:24.975+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>mourn for, grieve over</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8109dfaf-43b2-429d-9140-4338d6a370d1">
             <form corresp="#uuid-1723183a-aea9-4aa2-9834-256911344dea #uuid-67f8a1c4-8b9e-4cb5-b832-f6ac0913721a">
 <orth>哀痛</orth>
@@ -485,5 +507,20 @@
   <def>feel aggrived by the fact that S</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-b433bca2-9772-4201-b3bc-a29772a201bb"><form><orth>哀</orth><pron xml:lang="zh-Latn-x-pinyin">āi</pron></form><def/><sense xml:id="uuid-5e6c2ff9-c2e7-4f0a-ac2f-f9c2e79f0a2a" resp="#zadrapa" tls:created="2020-05-20T16:58:43.427+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-0afaf3e3-1928-4000-a3b5-5268309adb0d">subject=nonhuman</tls:sem-feat></gramGrp><def>be grievous, lamentable (of state of affairs)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-b433bca2-9772-4201-b3bc-a29772a201bb">
+            <form>
+                <orth>哀</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">āi</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-5e6c2ff9-c2e7-4f0a-ac2f-f9c2e79f0a2a" resp="#zadrapa" tls:created="2020-05-20T16:58:43.427+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0afaf3e3-1928-4000-a3b5-5268309adb0d">subject=nonhuman</tls:sem-feat>
+                </gramGrp>
+                <def>be grievous, lamentable (of state of affairs)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

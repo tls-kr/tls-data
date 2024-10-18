@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6dea5df6-b202-48d5-a38c-53339dce76bf">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6dea5df6-b202-48d5-a38c-53339dce76bf">
 <head>COARSE</head>
     <list type="altnames">
 <item>SCRATCHY</item>
@@ -216,7 +217,15 @@
                 </gramGrp>
   <def>ZZ 17.593: be crude and visible (parts of the material world)</def>
             </sense>
-<sense xml:id="uuid-c71183a9-b086-475c-9183-a9b086c75cbc" resp="#CH" tls:created="2024-03-21T04:16:54.846+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>the realm of merely material reality</def></sense></entry>
+<sense xml:id="uuid-c71183a9-b086-475c-9183-a9b086c75cbc" resp="#CH" tls:created="2024-03-21T04:16:54.846+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>the realm of merely material reality</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cbb968b1-b882-4ad8-ac92-e78a70bb616b">
             <form corresp="#uuid-f32ad93d-c477-4962-ac38-5ebf1f4bbf44">
 <orth>絞</orth>
@@ -350,5 +359,20 @@
   <def>unsophisticated; unembellished</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-6d1af538-427c-43cc-9af5-38427cc3cc86" resp="#CH" tls:created="2020-04-02T03:51:00.594+09:00"><form corresp="#uuid-8b488a15-bf50-46d1-88b2-b7c76248e7cd #uuid-20708d88-c48d-40bf-97ab-23214171e532"><orth>八升</orth><pron xml:lang="zh-Latn-x-pinyin">bā bá shēng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">peat sying</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">preed --</pron></form><sense xml:id="uuid-b179fba2-682c-44f2-b9fb-a2682c24f288" resp="#CH" tls:created="2020-04-02T03:51:00.594+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>made of coarse fabric</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-6d1af538-427c-43cc-9af5-38427cc3cc86" resp="#CH" tls:created="2020-04-02T03:51:00.594+09:00">
+            <form corresp="#uuid-8b488a15-bf50-46d1-88b2-b7c76248e7cd #uuid-20708d88-c48d-40bf-97ab-23214171e532">
+                <orth>八升</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bā bá shēng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">peat sying</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">preed --</pron>
+            </form>
+            <sense xml:id="uuid-b179fba2-682c-44f2-b9fb-a2682c24f288" resp="#CH" tls:created="2020-04-02T03:51:00.594+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>made of coarse fabric</def>
+            </sense>
+        </entry>
+    </div>
 </div>

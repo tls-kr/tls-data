@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0132f036-b27d-4f65-9840-9189eb6093ac">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-0132f036-b27d-4f65-9840-9189eb6093ac">
 <head>MOREOVER</head>
     <list type="altnames">
 <item>BESIDES</item>
@@ -184,7 +185,21 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-03-12T04:15:34.395+09:00">moreover, in addition to everything else, on top of everything else; yet again; there again</def>
             </sense>
-<sense xml:id="uuid-4df7f3a2-b3f3-435c-84c6-966c9eeb1792" resp="#dsehnal" tls:created="2020-01-09T04:49:50.346+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-6899efc6-e965-4176-885a-931fe5b1c8c8">padS1.postS2</tls:syn-func></gramGrp><def>and moreover</def></sense><sense xml:id="uuid-7fb548b5-0b73-42d9-b548-b50b73d2d9cf" resp="#CH" tls:created="2024-02-12T21:29:48.109+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-8768e154-85c7-4a25-a8e1-5485c79a251f">ppostN{SUBJ}+V{PRED}</tls:syn-func></gramGrp><def>morever the SUBJECT VERBs</def></sense></entry>
+<sense xml:id="uuid-4df7f3a2-b3f3-435c-84c6-966c9eeb1792" resp="#dsehnal" tls:created="2020-01-09T04:49:50.346+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-6899efc6-e965-4176-885a-931fe5b1c8c8">padS1.postS2</tls:syn-func>
+                </gramGrp>
+                <def>and moreover</def>
+            </sense>
+            <sense xml:id="uuid-7fb548b5-0b73-42d9-b548-b50b73d2d9cf" resp="#CH" tls:created="2024-02-12T21:29:48.109+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-8768e154-85c7-4a25-a8e1-5485c79a251f">ppostN{SUBJ}+V{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>morever the SUBJECT VERBs</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e5a1fc8f-cfab-4f4a-b605-c1419c39c738">
             <form corresp="#uuid-5b235c4c-5e0a-4d0d-8498-03fccb6f1482">
 <orth>復</orth>
@@ -226,10 +241,19 @@
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-b74c8354-bdcb-487e-8c83-54bdcb787e8a">argumentative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-b74c8354-bdcb-487e-8c83-54bdcb787e8a">argumentative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2021-09-07T18:24:28.686+09:00">The fact is, For; Moreover (with non-narrative S)</def>
             </sense>
-<sense xml:id="uuid-d99ebccb-ea4c-40f3-9ebc-cbea4cb0f303" resp="#CH" tls:created="2021-04-06T02:42:20.1+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func><tls:sem-feat corresp="#uuid-51f4e8c8-5f69-41d6-a2f5-56f98b62f5ba">narrative</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-04-06T23:57:22.726+09:00">For; Moreover (S1 narrative)</def></sense></entry>
+<sense xml:id="uuid-d99ebccb-ea4c-40f3-9ebc-cbea4cb0f303" resp="#CH" tls:created="2021-04-06T02:42:20.1+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-51f4e8c8-5f69-41d6-a2f5-56f98b62f5ba">narrative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-04-06T23:57:22.726+09:00">For; Moreover (S1 narrative)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5d529ba2-ea0a-4a92-8a52-b2426ffeac44">
             <form corresp="#uuid-d59a8b51-3867-49ce-a872-c1d65456ef40 #uuid-4f0e0f96-1b6f-4b65-852a-19359cf63d37">
 <orth>加復</orth>
@@ -275,5 +299,20 @@
   <def>rare, SHI: on the one hand (and on the other...)  終 。。。且</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d9e843f4-1248-47f1-90b7-50eaa510e980" resp="#CH" tls:created="2019-12-29T07:27:28.571+09:00"><form corresp="#uuid-287e123a-74f0-401a-9327-afadd14e99c5"><orth>且</orth><pron xml:lang="zh-Latn-x-pinyin">qiě</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsjo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-e0603dcf-fb9d-42e8-ac28-2b393d6a4914" resp="#CH" tls:created="2019-12-29T07:27:28.571+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-34d7704d-52b7-4c05-9770-4d52b7cc05fe">padS.postSS</tls:syn-func></gramGrp><def resp="#CH" updated="2024-05-31T22:52:05.437+09:00">Moreover; Now then</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d9e843f4-1248-47f1-90b7-50eaa510e980" resp="#CH" tls:created="2019-12-29T07:27:28.571+09:00">
+            <form corresp="#uuid-287e123a-74f0-401a-9327-afadd14e99c5">
+                <orth>且</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiě</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsjo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-e0603dcf-fb9d-42e8-ac28-2b393d6a4914" resp="#CH" tls:created="2019-12-29T07:27:28.571+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-34d7704d-52b7-4c05-9770-4d52b7cc05fe">padS.postSS</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-05-31T22:52:05.437+09:00">Moreover; Now then</def>
+            </sense>
+        </entry>
+    </div>
 </div>

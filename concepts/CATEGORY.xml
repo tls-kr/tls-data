@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1600632e-cd7e-4c6c-ae3e-5a7e14b8f904">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1600632e-cd7e-4c6c-ae3e-5a7e14b8f904">
 <head>CATEGORY</head>
     <list type="altnames">
 <item>CLASS</item>
@@ -175,7 +176,22 @@
                 </gramGrp>
   <def>class, category</def>
             </sense>
-<sense xml:id="uuid-801f1735-4d86-4e33-bc35-5bb409fcb297" resp="#CH" tls:created="2019-12-02T18:53:18.543+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat></gramGrp><def>category, sort</def></sense><sense xml:id="uuid-6f0536b9-6851-4604-8536-b9685136040b" resp="#zadrapa" tls:created="2022-02-17T00:23:17.338+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>category, sort</def></sense></entry>
+<sense xml:id="uuid-801f1735-4d86-4e33-bc35-5bb409fcb297" resp="#CH" tls:created="2019-12-02T18:53:18.543+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat>
+                </gramGrp>
+                <def>category, sort</def>
+            </sense>
+            <sense xml:id="uuid-6f0536b9-6851-4604-8536-b9685136040b" resp="#zadrapa" tls:created="2022-02-17T00:23:17.338+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>category, sort</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ac73c77f-2437-4af7-aa02-a943334476a9">
             <form corresp="#uuid-f32a1e5d-2c67-4b4d-b976-79f624345b50">
 <orth>儔</orth>
@@ -281,7 +297,14 @@
                 </gramGrp>
   <def>belong under, belong to; pertain to; belong to the category of</def>
             </sense>
-<sense xml:id="uuid-51a02b1f-d44d-4ad7-a02b-1fd44d9ad729" resp="#zadrapa" tls:created="2020-06-17T16:25:14.969+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>to classify N1 as N2, to subsume N1 under N2</def></sense></entry>
+<sense xml:id="uuid-51a02b1f-d44d-4ad7-a02b-1fd44d9ad729" resp="#zadrapa" tls:created="2020-06-17T16:25:14.969+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>to classify N1 as N2, to subsume N1 under N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6e2d4b06-c1ce-4a96-9768-2a58d503200a">
             <form corresp="#uuid-722c8aca-9859-4f59-994f-de930870deb7">
 <orth>徒</orth>
@@ -438,7 +461,21 @@
                 </gramGrp>
   <def>the N-breed</def>
             </sense>
-<sense xml:id="uuid-8cabfaf0-9792-49e4-abfa-f09792d9e4b7" resp="#CH" tls:created="2021-06-24T17:08:07.366+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func></gramGrp><def>belong to natural categories or kinds</def></sense><sense xml:id="uuid-be06716d-3cfd-46f9-8671-6d3cfd26f99d" resp="#CH" tls:created="2022-08-18T19:21:34.156+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>the category of N</def></sense></entry>
+<sense xml:id="uuid-8cabfaf0-9792-49e4-abfa-f09792d9e4b7" resp="#CH" tls:created="2021-06-24T17:08:07.366+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3710a73c-82d0-48d4-984e-683705e5b845">nab{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>belong to natural categories or kinds</def>
+            </sense>
+            <sense xml:id="uuid-be06716d-3cfd-46f9-8671-6d3cfd26f99d" resp="#CH" tls:created="2022-08-18T19:21:34.156+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>the category of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fc7ace49-bc3c-4a9a-9e83-bdd2a65c3f82">
             <form corresp="#uuid-6097fb78-9f68-4d63-85bd-04febf0f035a">
 <orth>般</orth>
@@ -545,7 +582,15 @@
                 </gramGrp>
   <def>category, division, subcategory, part</def>
             </sense>
-<sense xml:id="uuid-166e0e9f-e9a2-42b4-9ff7-47305a08c066" resp="#CH" tls:created="2020-02-05T23:58:37.692+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat></gramGrp><def>established categories; predetermined kinds (as opposed natural given kinds)</def></sense></entry>
+<sense xml:id="uuid-166e0e9f-e9a2-42b4-9ff7-47305a08c066" resp="#CH" tls:created="2020-02-05T23:58:37.692+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat>
+                </gramGrp>
+                <def>established categories; predetermined kinds (as opposed natural given kinds)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c4282d8d-3591-40e7-bb44-d7cdd4b41db2">
             <form corresp="#uuid-1d2f469a-ecc5-4f48-9f84-c8e1a58434ce">
 <orth>醜</orth>
@@ -639,7 +684,36 @@
                 </gramGrp>
   <def>the proper category, the right category</def>
             </sense>
-<sense xml:id="uuid-f9070b8c-6007-42e8-bff6-9b28befb48bd" resp="#CH" tls:created="2019-12-20T00:45:45.957+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab{PRED}.post-N</tls:syn-func></gramGrp><def>be of the N category</def></sense><sense xml:id="uuid-8467c2e5-5b3f-4844-a7c2-e55b3f4844e0" resp="#zadrapa" tls:created="2020-12-15T17:55:51.689+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e36ef0d-dcb2-48b8-a74a-daa9f2a54b2d">singular</tls:sem-feat></gramGrp><def>category</def></sense><sense xml:id="uuid-3c405c2b-26f6-4d1a-805c-2b26f60d1a63" resp="#zadrapa" tls:created="2021-01-15T05:42:38.736+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>proper categories, appropriate system of categorisation</def></sense></entry>
+<sense xml:id="uuid-f9070b8c-6007-42e8-bff6-9b28befb48bd" resp="#CH" tls:created="2019-12-20T00:45:45.957+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab{PRED}.post-N</tls:syn-func>
+                </gramGrp>
+                <def>be of the N category</def>
+            </sense>
+            <sense xml:id="uuid-8467c2e5-5b3f-4844-a7c2-e55b3f4844e0" resp="#zadrapa" tls:created="2020-12-15T17:55:51.689+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e36ef0d-dcb2-48b8-a74a-daa9f2a54b2d">singular</tls:sem-feat>
+                </gramGrp>
+                <def>category</def>
+            </sense>
+            <sense xml:id="uuid-3c405c2b-26f6-4d1a-805c-2b26f60d1a63" resp="#zadrapa" tls:created="2021-01-15T05:42:38.736+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>proper categories, appropriate system of categorisation</def>
+            </sense>
+            <sense xml:id="uuid-ebcc7929-96e1-4938-8c79-2996e19938ff" resp="#zadrapa" tls:created="2024-10-01T17:11:59.451+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>belong to the same category as N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3dd7b00e-4da2-462d-8790-c37fb57659df">
             <form corresp="#uuid-cb16bd43-e8d9-4264-8f5b-262c02ba0ba3">
 <orth>黨</orth>
@@ -895,5 +969,128 @@
   <def>Buddh: category of physical objects in this world</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d5f87aaa-dfd0-4344-8ee1-41bc0b50107e" resp="#CH" tls:created="2019-10-20T19:32:13.922+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-789659fe-cf61-4aab-b0a6-c37c51f481d2" resp="#CH" tls:created="2019-10-20T19:32:13.922+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>category</def></sense></entry><entry type="word" xml:id="uuid-acc40701-bc7b-45fc-b11f-0f7b61c35412" resp="#CH" tls:created="2019-10-20T19:32:22.229+09:00"><form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913"><orth>流</orth><pron xml:lang="zh-Latn-x-pinyin">liú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ru</pron></form><sense xml:id="uuid-6d83b70b-80ce-4730-b89a-a641ae94b177" resp="#CH" tls:created="2019-10-20T19:32:22.229+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func></gramGrp><def>category</def></sense></entry><entry type="word" xml:id="uuid-975a9b34-5e87-444e-98a1-da454015fe48" resp="#CH" tls:created="2019-11-08T00:57:27.332+09:00"><form corresp="#uuid-3e4689aa-315a-4693-a284-b9b367b68192 #uuid-96e90d11-630b-451c-b466-de85aaef7af2"><orth>萬類</orth><pron xml:lang="zh-Latn-x-pinyin">wàn lèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- lwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mblans ruds</pron></form><sense xml:id="uuid-df0be7ad-4bb7-4d33-b09c-51e2d319cb1b" resp="#CH" tls:created="2019-11-08T00:57:27.332+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>the myriad categories; all natural kinds</def></sense></entry><entry type="word" xml:id="uuid-4142c61f-dab7-48a0-9d63-e4d886f0305e" resp="#CH" tls:created="2019-12-01T04:21:28.489+09:00"><form corresp="#uuid-f9f1722d-0962-4503-91cd-900ba7250d07"><orth>條</orth><pron xml:lang="zh-Latn-x-pinyin">tiáo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dew</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-lɯɯw</pron></form><sense xml:id="uuid-54fb5f43-af7a-4df0-bf8a-e740e1b81a4e" resp="#CH" tls:created="2019-12-01T04:21:28.489+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>category of items</def></sense></entry><entry type="word" xml:id="uuid-5f691d3a-2bd3-457e-a91d-3a2bd3757e59" resp="#CH" tls:created="2020-02-12T22:17:12.881+09:00"><form corresp="#uuid-6eeef5b2-620f-4efa-8ad5-ad6cff3eded9 #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2"><orth>余一</orth><pron xml:lang="zh-Latn-x-pinyin">yú yī yí，yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yo 'jit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">la qliɡ</pron></form><sense xml:id="uuid-fdcdc20c-3be9-44bf-8dc2-0c3be944bf87" resp="#CH" tls:created="2020-02-12T22:17:12.881+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func></gramGrp><def>I</def></sense></entry><entry type="word" xml:id="uuid-5f4219c3-2510-4b71-8219-c325103b710f" resp="#zadrapa" tls:created="2022-02-14T22:48:56.029+09:00"><form corresp="#uuid-3be2b1c2-7cd2-4cb7-ac85-9e9e91bb52f2"><orth>論</orth><pron xml:lang="zh-Latn-x-pinyin">lún</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lwin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-run</pron></form><sense xml:id="uuid-f9c46794-1e1d-4726-8467-941e1d37265a" resp="#zadrapa" tls:created="2022-02-14T22:48:56.029+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>(= lún 倫) the category/categories of N</def></sense></entry><entry type="word" xml:id="uuid-3d151f27-e047-4162-951f-27e0472162b3" resp="#zadrapa" tls:created="2022-06-17T00:34:56.107+09:00"><form corresp="#uuid-3c7c0022-58b5-4c2d-9c40-4f78d4da3bd6"><orth>等</orth><pron xml:lang="zh-Latn-x-pinyin">děng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯɯŋʔ</pron></form><sense xml:id="uuid-9c222a2f-7611-4724-a22a-2f7611572439" resp="#zadrapa" tls:created="2022-06-17T00:34:56.107+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func></gramGrp><def>category, type of approach</def></sense></entry><entry type="word" xml:id="uuid-ea0b819d-ef4c-452c-8b81-9def4ce52c90" resp="#dsehnal" tls:created="2024-06-22T00:30:44.601+09:00"><form corresp="#uuid-aa6d54ad-a249-4ba1-9d08-e5069837cf2c #uuid-96e90d11-630b-451c-b466-de85aaef7af2"><orth>品類</orth><pron xml:lang="zh-Latn-x-pinyin">pǐn lèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phimX lwijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phrɯmʔ ruds</pron></form><sense xml:id="uuid-c3f2d087-53d8-42cb-b2d0-8753d872cbaf" resp="#dsehnal" tls:created="2024-06-22T00:30:44.601+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>categories of things</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d5f87aaa-dfd0-4344-8ee1-41bc0b50107e" resp="#CH" tls:created="2019-10-20T19:32:13.922+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-789659fe-cf61-4aab-b0a6-c37c51f481d2" resp="#CH" tls:created="2019-10-20T19:32:13.922+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>category</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-acc40701-bc7b-45fc-b11f-0f7b61c35412" resp="#CH" tls:created="2019-10-20T19:32:22.229+09:00">
+            <form corresp="#uuid-3c363cb4-470e-44e6-ba1e-ba81513f6913">
+                <orth>流</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">liú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ru</pron>
+            </form>
+            <sense xml:id="uuid-6d83b70b-80ce-4730-b89a-a641ae94b177" resp="#CH" tls:created="2019-10-20T19:32:22.229+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                </gramGrp>
+                <def>category</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-975a9b34-5e87-444e-98a1-da454015fe48" resp="#CH" tls:created="2019-11-08T00:57:27.332+09:00">
+            <form corresp="#uuid-3e4689aa-315a-4693-a284-b9b367b68192 #uuid-96e90d11-630b-451c-b466-de85aaef7af2">
+                <orth>萬類</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wàn lèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- lwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mblans ruds</pron>
+            </form>
+            <sense xml:id="uuid-df0be7ad-4bb7-4d33-b09c-51e2d319cb1b" resp="#CH" tls:created="2019-11-08T00:57:27.332+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>the myriad categories; all natural kinds</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4142c61f-dab7-48a0-9d63-e4d886f0305e" resp="#CH" tls:created="2019-12-01T04:21:28.489+09:00">
+            <form corresp="#uuid-f9f1722d-0962-4503-91cd-900ba7250d07">
+                <orth>條</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiáo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dew</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-lɯɯw</pron>
+            </form>
+            <sense xml:id="uuid-54fb5f43-af7a-4df0-bf8a-e740e1b81a4e" resp="#CH" tls:created="2019-12-01T04:21:28.489+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>category of items</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5f691d3a-2bd3-457e-a91d-3a2bd3757e59" resp="#CH" tls:created="2020-02-12T22:17:12.881+09:00">
+            <form corresp="#uuid-6eeef5b2-620f-4efa-8ad5-ad6cff3eded9 #uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2">
+                <orth>余一</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú yī yí，yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yo 'jit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">la qliɡ</pron>
+            </form>
+            <sense xml:id="uuid-fdcdc20c-3be9-44bf-8dc2-0c3be944bf87" resp="#CH" tls:created="2020-02-12T22:17:12.881+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3a50ef30-dbe2-42d4-bbbb-95ff062401dd">NPpro</tls:syn-func>
+                </gramGrp>
+                <def>I</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5f4219c3-2510-4b71-8219-c325103b710f" resp="#zadrapa" tls:created="2022-02-14T22:48:56.029+09:00">
+            <form corresp="#uuid-3be2b1c2-7cd2-4cb7-ac85-9e9e91bb52f2">
+                <orth>論</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lún</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lwin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-run</pron>
+            </form>
+            <sense xml:id="uuid-f9c46794-1e1d-4726-8467-941e1d37265a" resp="#zadrapa" tls:created="2022-02-14T22:48:56.029+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>(= lún 倫) the category/categories of N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3d151f27-e047-4162-951f-27e0472162b3" resp="#zadrapa" tls:created="2022-06-17T00:34:56.107+09:00">
+            <form corresp="#uuid-3c7c0022-58b5-4c2d-9c40-4f78d4da3bd6">
+                <orth>等</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">děng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯɯŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-9c222a2f-7611-4724-a22a-2f7611572439" resp="#zadrapa" tls:created="2022-06-17T00:34:56.107+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>category, type of approach</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ea0b819d-ef4c-452c-8b81-9def4ce52c90" resp="#dsehnal" tls:created="2024-06-22T00:30:44.601+09:00">
+            <form corresp="#uuid-aa6d54ad-a249-4ba1-9d08-e5069837cf2c #uuid-96e90d11-630b-451c-b466-de85aaef7af2">
+                <orth>品類</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pǐn lèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phimX lwijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phrɯmʔ ruds</pron>
+            </form>
+            <sense xml:id="uuid-c3f2d087-53d8-42cb-b2d0-8753d872cbaf" resp="#dsehnal" tls:created="2024-06-22T00:30:44.601+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>categories of things</def>
+            </sense>
+        </entry>
+    </div>
 </div>

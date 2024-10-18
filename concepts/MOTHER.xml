@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6f50b684-53b3-4f58-8a37-8f47a0a49243">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6f50b684-53b3-4f58-8a37-8f47a0a49243">
 <head>MOTHER</head>
     <list type="altnames">
 <item>FEMALE PARENT</item>
@@ -276,7 +277,14 @@
                 </gramGrp>
   <def>treat as one's mother</def>
             </sense>
-<sense xml:id="uuid-c4d67f27-639e-4ebf-b4c9-485ce5a7e6f5" resp="#CH" tls:created="2020-01-27T00:32:05.979+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>one's own mother</def></sense></entry>
+<sense xml:id="uuid-c4d67f27-639e-4ebf-b4c9-485ce5a7e6f5" resp="#CH" tls:created="2020-01-27T00:32:05.979+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>one's own mother</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cc734afb-addd-4574-b090-d88fd78cd070">
             <form corresp="#uuid-a97a321d-5450-4629-b96a-12be84e3054e #uuid-be44b001-cc63-4db3-932a-3db142c45cb4">
 <orth>慈母</orth>
@@ -291,7 +299,15 @@
                 </gramGrp>
   <def>loving mother</def>
             </sense>
-<sense xml:id="uuid-e9864d12-d02a-42d8-864d-12d02a52d8f7" resp="#CH" tls:created="2023-08-31T01:02:51.471+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-2ddc98e9-c11f-44de-9c98-e9c11f44de3a">adoptive</tls:sem-feat></gramGrp><def>adoptive mother</def></sense></entry>
+<sense xml:id="uuid-e9864d12-d02a-42d8-864d-12d02a52d8f7" resp="#CH" tls:created="2023-08-31T01:02:51.471+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ddc98e9-c11f-44de-9c98-e9c11f44de3a">adoptive</tls:sem-feat>
+                </gramGrp>
+                <def>adoptive mother</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d841ba6f-cade-4186-86a4-5d03a3fb48f2">
             <form corresp="#uuid-be44b001-cc63-4db3-932a-3db142c45cb4 #uuid-7ee3cdaa-4b85-4876-875a-ace16d2a889e">
 <orth>母親</orth>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4affa3a2-bf8d-40e9-93ea-02ba10fcd7a0">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4affa3a2-bf8d-40e9-93ea-02ba10fcd7a0">
 <head>MARRY</head>
     <list type="altnames">
 <item>MARRIAGE</item>
@@ -478,7 +479,14 @@
                 </gramGrp>
   <def>marry off to one's own daughter</def>
             </sense>
-<sense xml:id="uuid-41bf7ded-4578-4b45-bf7d-ed45782b4537" resp="#CH" tls:created="2022-08-16T21:07:26.76+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>take N as a wife</def></sense></entry>
+<sense xml:id="uuid-41bf7ded-4578-4b45-bf7d-ed45782b4537" resp="#CH" tls:created="2022-08-16T21:07:26.76+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>take N as a wife</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7e585144-dcd7-4b10-822a-0637771ed686">
             <form corresp="#uuid-f2fb235d-ed00-469b-be70-1ea84b01ad55">
 <orth>姻</orth>
@@ -665,7 +673,29 @@
                 </gramGrp>
   <def>get married to someone from N</def>
             </sense>
-<sense xml:id="uuid-6b09f875-be21-4d67-ac65-8f97db6f4fb6" resp="#CH" tls:created="2019-12-18T23:41:06.134+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>get married off to the contextually determinate N</def></sense><sense xml:id="uuid-dcb86b5f-eca7-461c-b86b-5feca7d61c83" resp="#dsehnal" tls:created="2021-05-27T02:47:56.884+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-1777a51a-3dba-4d9d-810b-f704c2419d17">N=woman</tls:sem-feat></gramGrp><def>marry off one's daughter to somebody</def></sense><sense xml:id="uuid-5aac5034-7a7d-4ae8-ac50-347a7d9ae8b6" resp="#CH" tls:created="2022-09-01T18:31:53.352+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>marriage, the act of getting one married</def></sense></entry>
+<sense xml:id="uuid-6b09f875-be21-4d67-ac65-8f97db6f4fb6" resp="#CH" tls:created="2019-12-18T23:41:06.134+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>get married off to the contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-dcb86b5f-eca7-461c-b86b-5feca7d61c83" resp="#dsehnal" tls:created="2021-05-27T02:47:56.884+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1777a51a-3dba-4d9d-810b-f704c2419d17">N=woman</tls:sem-feat>
+                </gramGrp>
+                <def>marry off one's daughter to somebody</def>
+            </sense>
+            <sense xml:id="uuid-5aac5034-7a7d-4ae8-ac50-347a7d9ae8b6" resp="#CH" tls:created="2022-09-01T18:31:53.352+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>marriage, the act of getting one married</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8c2b42f1-3634-44de-bf83-0867bee9424e">
             <form corresp="#uuid-90c9febd-b6ee-474f-8ba2-08c9b013d63d">
 <orth>嬪</orth>
@@ -814,7 +844,14 @@
                 </gramGrp>
   <def>ask to marry a person from N (also on behalf of someone else!)</def>
             </sense>
-<sense xml:id="uuid-c8cb331c-d651-441a-8b33-1cd651d41aaf" resp="#dsehnal" tls:created="2023-07-01T18:58:16.466+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-95b7d0d5-03c2-4690-b7d0-d503c2f69036">vtt(oN1).+vtoN2:+vtoN3</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-07-01T19:07:10.582+09:00">affiance the contextually determinate N1 to N2 as to become his N3</def></sense></entry>
+<sense xml:id="uuid-c8cb331c-d651-441a-8b33-1cd651d41aaf" resp="#dsehnal" tls:created="2023-07-01T18:58:16.466+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-95b7d0d5-03c2-4690-b7d0-d503c2f69036">vtt(oN1).+vtoN2:+vtoN3</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-07-01T19:07:10.582+09:00">affiance the contextually determinate N1 to N2 as to become his N3</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b48676b5-5276-4722-8462-7caf63745d60">
             <form corresp="#uuid-29018f54-1dad-4704-866c-1e76290c458b">
 <orth>適</orth>
@@ -856,7 +893,15 @@
                 </gramGrp>
   <def>marital relations</def>
             </sense>
-<sense xml:id="uuid-d462d7c5-1602-4594-a2d7-c5160285948e" resp="#zadrapa" tls:created="2023-05-16T17:53:34.007+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-9d9b0497-73ee-465e-be59-c80a4dc530d8">additive</tls:sem-feat></gramGrp><def>husband and wife</def></sense></entry>
+<sense xml:id="uuid-d462d7c5-1602-4594-a2d7-c5160285948e" resp="#zadrapa" tls:created="2023-05-16T17:53:34.007+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9d9b0497-73ee-465e-be59-c80a4dc530d8">additive</tls:sem-feat>
+                </gramGrp>
+                <def>husband and wife</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d08c0cdb-4ed6-41c0-b69d-3cd0093a7b85">
             <form corresp="#uuid-f2fb235d-ed00-469b-be70-1ea84b01ad55 #uuid-7f5242b6-1f95-428b-8df0-dba50c58d828">
 <orth>姻娉</orth>
@@ -1025,5 +1070,244 @@
   <def>get promised-and-married-off to (a place)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-9b7248b6-3209-465e-a5fb-85981251eb71" resp="#CH" tls:created="2019-10-23T01:15:32.678+09:00"><form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-8db4d17b-8e89-4896-9169-7575017cb07f"><orth>取妻</orth><pron xml:lang="zh-Latn-x-pinyin">qǔ qī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuX tshej</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhoʔ tshiil</pron></form><sense xml:id="uuid-d6a91674-e588-483b-a395-bac974d82829" resp="#CH" tls:created="2019-10-23T01:15:32.678+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func></gramGrp><def>get married</def></sense></entry><entry type="word" xml:id="uuid-6727a5c5-5780-425a-a7a5-c55780f25a3f" resp="#CH" tls:created="2020-02-24T08:50:56.782+09:00"><form corresp="#uuid-7f5242b6-1f95-428b-8df0-dba50c58d828"><orth>娉</orth><pron xml:lang="zh-Latn-x-pinyin">pìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjiengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phleŋs</pron></form><sense xml:id="uuid-40bae2bc-d475-40b2-bae2-bcd475f0b2b0" resp="#CH" tls:created="2020-02-24T08:50:56.782+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>get engaged with (that engagement usually being accompanied by gifts)</def></sense><sense xml:id="uuid-dd47a9ef-73cf-49e8-87a9-ef73cf09e818" resp="#zadrapa" tls:created="2023-05-16T17:54:34.842+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>engagement</def></sense></entry><entry type="word" xml:id="uuid-2acc51a4-16d5-459b-8c51-a416d5659b49" resp="#CH" tls:created="2020-02-24T08:54:10.545+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-721b1e97-64ea-4b2a-9b1e-9764eafb2ae6" resp="#CH" tls:created="2020-02-24T08:54:10.545+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>choose for marriage by formal ritual arrangements (the choice not usually being made by the groom to be)</def></sense></entry><entry type="word" xml:id="uuid-52302fec-4e2f-462c-b02f-ec4e2f662cb3" resp="#CH" tls:created="2020-02-24T08:54:27.673+09:00"><form corresp="#uuid-7f5242b6-1f95-428b-8df0-dba50c58d828 #uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d"><orth>娉取</orth><pron xml:lang="zh-Latn-x-pinyin">pìng qǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjiengH tshjuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phleŋs skhoʔ</pron></form><sense xml:id="uuid-2c1f98ae-af4c-4cfa-9f98-aeaf4c4cfaa4" resp="#CH" tls:created="2020-02-24T08:54:27.673+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>choose for marriage by formal ritual arrangements (the choice not usually being made by the groom to be)</def></sense></entry><entry type="word" xml:id="uuid-5090f9ed-c388-4962-90f9-edc388a96233" resp="#zadrapa" tls:created="2023-05-16T17:56:50.199+09:00"><form corresp="#uuid-5bc4b268-5724-40b8-8e1c-011af74fa79e"><orth>內</orth><pron xml:lang="zh-Latn-x-pinyin">nèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">nuubs</pron></form><sense xml:id="uuid-ea59928a-64ed-41c2-9992-8a64edb1c221" resp="#zadrapa" tls:created="2023-05-16T17:56:50.199+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>= na4 納: the sending of engagement gifts and letter to the family of the bride</def></sense></entry><entry type="word" xml:id="uuid-238b3d7f-7fb9-4aff-8b3d-7f7fb9daff21" resp="#zadrapa" tls:created="2023-05-16T18:02:34.782+09:00"><form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95"><orth>送</orth><pron xml:lang="zh-Latn-x-pinyin">sòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron></form><sense xml:id="uuid-32214a17-f298-42d4-a14a-17f29812d4f3" resp="#zadrapa" tls:created="2023-05-16T18:02:34.782+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def resp="#zadrapa" updated="2023-05-16T18:35:38.01+09:00">the accompanying of the bride out of her home</def></sense></entry><entry type="word" xml:id="uuid-6197358b-ae59-49fe-9735-8bae5949fe3d" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00"><form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95"><orth>送</orth><pron xml:lang="zh-Latn-x-pinyin">sòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron></form><sense xml:id="uuid-a71b04e9-049f-414e-9b04-e9049fc14e8b" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>the accompaying of the bride out of her home</def></sense></entry><entry type="word" xml:id="uuid-8e25f4ba-37f5-4d2d-a5f4-ba37f53d2db1" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00"><form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95"><orth>送</orth><pron xml:lang="zh-Latn-x-pinyin">sòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron></form><sense xml:id="uuid-d1ec492a-3ea5-45bc-ac49-2a3ea5e5bca8" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>the accompaying of the bride out of her home</def></sense></entry><entry type="word" xml:id="uuid-216fff5a-2d2c-4dc8-afff-5a2d2c5dc821" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00"><form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95"><orth>送</orth><pron xml:lang="zh-Latn-x-pinyin">sòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron></form><sense xml:id="uuid-cbc85439-7570-489f-8854-397570e89f7d" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>the accompaying of the bride out of her home</def></sense></entry><entry type="word" xml:id="uuid-7eb5dca4-f5f5-4326-b5dc-a4f5f54326bd" resp="#zadrapa" tls:created="2023-05-16T18:20:59.732+09:00"><form corresp="#uuid-468d28fe-fe5b-4fcf-996b-15ecab67a0ff"><orth>逆</orth><pron xml:lang="zh-Latn-x-pinyin">nì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjaek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡlaɡ</pron></form><sense xml:id="uuid-60946c3a-1b65-44d0-946c-3a1b65f4d045" resp="#zadrapa" tls:created="2023-05-16T18:20:59.732+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat></gramGrp><def>the welcoming of the incoming bride by the husband</def></sense></entry><entry type="word" xml:id="uuid-9e1371ee-28a2-4a70-9371-ee28a2ea708c" resp="#dsehnal" tls:created="2023-06-24T19:10:20.253+09:00"><form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-4099ae98-eafb-492c-976b-92e725ce4b02"><orth>大義</orth><pron xml:lang="zh-Latn-x-pinyin">dà yì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dajH ngjeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads ŋrals</pron></form><sense xml:id="uuid-061016b2-860b-40f3-9016-b2860b60f30a" resp="#dsehnal" tls:created="2023-06-24T19:10:20.253+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>marriage </def></sense></entry><entry type="word" xml:id="uuid-a56f73b3-ae2f-4475-af73-b3ae2f547593" resp="#dsehnal" tls:created="2023-07-01T19:35:46.367+09:00"><form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-d578a099-505c-495e-b58d-333edc854655"><orth>出嫁</orth><pron xml:lang="zh-Latn-x-pinyin">chū jià</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH kaeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud kraas</pron></form><sense xml:id="uuid-84555b46-4231-4d22-955b-464231cd22fe" resp="#dsehnal" tls:created="2023-07-01T19:35:46.367+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>marry to N</def></sense></entry><entry type="word" xml:id="uuid-51f09e02-7f45-48fc-b09e-027f4528fcb5" resp="#dsehnal" tls:created="2023-07-01T21:44:09.115+09:00"><form corresp="#uuid-d578a099-505c-495e-b58d-333edc854655 #uuid-4b46759c-5cce-4243-9586-2da74db4dcca"><orth>嫁與</orth><pron xml:lang="zh-Latn-x-pinyin">jià yǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaeH yoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraas k-laʔ</pron></form><sense xml:id="uuid-0c6367da-b940-4023-a367-dab940602396" resp="#dsehnal" tls:created="2023-07-01T21:44:09.115+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>marry to N</def></sense></entry><entry type="word" xml:id="uuid-cfa0da99-2f50-48dc-a0da-992f50f8dcd1" resp="#dsehnal" tls:created="2023-07-08T17:47:28.871+09:00"><form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-25311688-8019-41ff-abd6-70c802d38112"><orth>出聘</orth><pron xml:lang="zh-Latn-x-pinyin">chū pìn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH phjiengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud phleŋs</pron></form><sense xml:id="uuid-ce81af21-3c85-4c54-81af-213c85bc544e" resp="#dsehnal" tls:created="2023-07-08T17:47:28.871+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>marry (of women)</def></sense></entry><entry type="word" xml:id="uuid-a0580b77-5526-4b25-980b-7755262b2545" resp="#dsehnal" tls:created="2024-05-31T03:56:58.731+09:00"><form corresp="#uuid-438dbee0-c789-4bb0-8bb3-91aff4d4487c #uuid-8db4d17b-8e89-4896-9169-7575017cb07f"><orth>夫妻</orth><pron xml:lang="zh-Latn-x-pinyin">fū qī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pju tshej</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pa tshiil</pron></form><sense xml:id="uuid-3a994638-4d9d-4837-9946-384d9d8837ed" resp="#dsehnal" tls:created="2024-05-31T03:56:58.731+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>husband and wife; a married couple</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-9b7248b6-3209-465e-a5fb-85981251eb71" resp="#CH" tls:created="2019-10-23T01:15:32.678+09:00">
+            <form corresp="#uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d #uuid-8db4d17b-8e89-4896-9169-7575017cb07f">
+                <orth>取妻</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qǔ qī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjuX tshej</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhoʔ tshiil</pron>
+            </form>
+            <sense xml:id="uuid-d6a91674-e588-483b-a395-bac974d82829" resp="#CH" tls:created="2019-10-23T01:15:32.678+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                </gramGrp>
+                <def>get married</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6727a5c5-5780-425a-a7a5-c55780f25a3f" resp="#CH" tls:created="2020-02-24T08:50:56.782+09:00">
+            <form corresp="#uuid-7f5242b6-1f95-428b-8df0-dba50c58d828">
+                <orth>娉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjiengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phleŋs</pron>
+            </form>
+            <sense xml:id="uuid-40bae2bc-d475-40b2-bae2-bcd475f0b2b0" resp="#CH" tls:created="2020-02-24T08:50:56.782+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>get engaged with (that engagement usually being accompanied by gifts)</def>
+            </sense>
+            <sense xml:id="uuid-dd47a9ef-73cf-49e8-87a9-ef73cf09e818" resp="#zadrapa" tls:created="2023-05-16T17:54:34.842+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>engagement</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2acc51a4-16d5-459b-8c51-a416d5659b49" resp="#CH" tls:created="2020-02-24T08:54:10.545+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-721b1e97-64ea-4b2a-9b1e-9764eafb2ae6" resp="#CH" tls:created="2020-02-24T08:54:10.545+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>choose for marriage by formal ritual arrangements (the choice not usually being made by the groom to be)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-52302fec-4e2f-462c-b02f-ec4e2f662cb3" resp="#CH" tls:created="2020-02-24T08:54:27.673+09:00">
+            <form corresp="#uuid-7f5242b6-1f95-428b-8df0-dba50c58d828 #uuid-ae7faa0b-7337-42ff-bf3e-a4d370dad65d">
+                <orth>娉取</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pìng qǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjiengH tshjuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phleŋs skhoʔ</pron>
+            </form>
+            <sense xml:id="uuid-2c1f98ae-af4c-4cfa-9f98-aeaf4c4cfaa4" resp="#CH" tls:created="2020-02-24T08:54:27.673+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>choose for marriage by formal ritual arrangements (the choice not usually being made by the groom to be)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5090f9ed-c388-4962-90f9-edc388a96233" resp="#zadrapa" tls:created="2023-05-16T17:56:50.199+09:00">
+            <form corresp="#uuid-5bc4b268-5724-40b8-8e1c-011af74fa79e">
+                <orth>內</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">nuubs</pron>
+            </form>
+            <sense xml:id="uuid-ea59928a-64ed-41c2-9992-8a64edb1c221" resp="#zadrapa" tls:created="2023-05-16T17:56:50.199+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>= na4 納: the sending of engagement gifts and letter to the family of the bride</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-238b3d7f-7fb9-4aff-8b3d-7f7fb9daff21" resp="#zadrapa" tls:created="2023-05-16T18:02:34.782+09:00">
+            <form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95">
+                <orth>送</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron>
+            </form>
+            <sense xml:id="uuid-32214a17-f298-42d4-a14a-17f29812d4f3" resp="#zadrapa" tls:created="2023-05-16T18:02:34.782+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2023-05-16T18:35:38.01+09:00">the accompanying of the bride out of her home</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6197358b-ae59-49fe-9735-8bae5949fe3d" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00">
+            <form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95">
+                <orth>送</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron>
+            </form>
+            <sense xml:id="uuid-a71b04e9-049f-414e-9b04-e9049fc14e8b" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>the accompaying of the bride out of her home</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e25f4ba-37f5-4d2d-a5f4-ba37f53d2db1" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00">
+            <form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95">
+                <orth>送</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron>
+            </form>
+            <sense xml:id="uuid-d1ec492a-3ea5-45bc-ac49-2a3ea5e5bca8" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>the accompaying of the bride out of her home</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-216fff5a-2d2c-4dc8-afff-5a2d2c5dc821" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00">
+            <form corresp="#uuid-cf97a319-3dfc-4123-ab91-d1492be09f95">
+                <orth>送</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suwngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sooŋs</pron>
+            </form>
+            <sense xml:id="uuid-cbc85439-7570-489f-8854-397570e89f7d" resp="#zadrapa" tls:created="2023-05-16T18:02:41.893+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>the accompaying of the bride out of her home</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7eb5dca4-f5f5-4326-b5dc-a4f5f54326bd" resp="#zadrapa" tls:created="2023-05-16T18:20:59.732+09:00">
+            <form corresp="#uuid-468d28fe-fe5b-4fcf-996b-15ecab67a0ff">
+                <orth>逆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjaek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡlaɡ</pron>
+            </form>
+            <sense xml:id="uuid-60946c3a-1b65-44d0-946c-3a1b65f4d045" resp="#zadrapa" tls:created="2023-05-16T18:20:59.732+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                <def>the welcoming of the incoming bride by the husband</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9e1371ee-28a2-4a70-9371-ee28a2ea708c" resp="#dsehnal" tls:created="2023-06-24T19:10:20.253+09:00">
+            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-4099ae98-eafb-492c-976b-92e725ce4b02">
+                <orth>大義</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dà yì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dajH ngjeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daads ŋrals</pron>
+            </form>
+            <sense xml:id="uuid-061016b2-860b-40f3-9016-b2860b60f30a" resp="#dsehnal" tls:created="2023-06-24T19:10:20.253+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>marriage </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a56f73b3-ae2f-4475-af73-b3ae2f547593" resp="#dsehnal" tls:created="2023-07-01T19:35:46.367+09:00">
+            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-d578a099-505c-495e-b58d-333edc854655">
+                <orth>出嫁</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chū jià</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH kaeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud kraas</pron>
+            </form>
+            <sense xml:id="uuid-84555b46-4231-4d22-955b-464231cd22fe" resp="#dsehnal" tls:created="2023-07-01T19:35:46.367+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>marry to N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-51f09e02-7f45-48fc-b09e-027f4528fcb5" resp="#dsehnal" tls:created="2023-07-01T21:44:09.115+09:00">
+            <form corresp="#uuid-d578a099-505c-495e-b58d-333edc854655 #uuid-4b46759c-5cce-4243-9586-2da74db4dcca">
+                <orth>嫁與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jià yǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaeH yoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraas k-laʔ</pron>
+            </form>
+            <sense xml:id="uuid-0c6367da-b940-4023-a367-dab940602396" resp="#dsehnal" tls:created="2023-07-01T21:44:09.115+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>marry to N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-cfa0da99-2f50-48dc-a0da-992f50f8dcd1" resp="#dsehnal" tls:created="2023-07-08T17:47:28.871+09:00">
+            <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b #uuid-25311688-8019-41ff-abd6-70c802d38112">
+                <orth>出聘</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chū pìn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhwijH phjiengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljud phleŋs</pron>
+            </form>
+            <sense xml:id="uuid-ce81af21-3c85-4c54-81af-213c85bc544e" resp="#dsehnal" tls:created="2023-07-08T17:47:28.871+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>marry (of women)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a0580b77-5526-4b25-980b-7755262b2545" resp="#dsehnal" tls:created="2024-05-31T03:56:58.731+09:00">
+            <form corresp="#uuid-438dbee0-c789-4bb0-8bb3-91aff4d4487c #uuid-8db4d17b-8e89-4896-9169-7575017cb07f">
+                <orth>夫妻</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fū qī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pju tshej</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pa tshiil</pron>
+            </form>
+            <sense xml:id="uuid-3a994638-4d9d-4837-9946-384d9d8837ed" resp="#dsehnal" tls:created="2024-05-31T03:56:58.731+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>husband and wife; a married couple</def>
+            </sense>
+        </entry>
+    </div>
 </div>

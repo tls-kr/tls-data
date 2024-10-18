@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7045a1dc-2265-4ffc-9390-4cedb88d2de3">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7045a1dc-2265-4ffc-9390-4cedb88d2de3">
 <head>UNTRUE</head>
     <list type="altnames">
 <item>WRONG</item>
@@ -23,7 +24,10 @@
     </list>
 <div type="definition">
 <p>LACKING TRUTH OR CONTRARY to REALITY.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:51:29.209+09:00"><p>NOT TRUE.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:51:29.209+09:00">
+            <p>NOT TRUE.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. Fēi 非 refers to something being untrue and thus to be rejected.</p>
@@ -157,7 +161,14 @@
                 </gramGrp>
   <def>be unfounded; be without real substance; be unsubstantiated</def>
             </sense>
-<sense xml:id="uuid-7adb40c5-ce06-4f28-9b40-c5ce065f28cd" resp="#Valerie.Kiel" tls:created="2021-09-10T04:12:16.493+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>mistake</def></sense></entry>
+<sense xml:id="uuid-7adb40c5-ce06-4f28-9b40-c5ce065f28cd" resp="#Valerie.Kiel" tls:created="2021-09-10T04:12:16.493+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>mistake</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-54a319da-1309-4989-b9ff-07e3eb8b264e">
             <form corresp="#uuid-00e22256-d177-459e-bd67-efa461a8d045">
 <orth>非</orth>
@@ -215,7 +226,23 @@
                 </gramGrp>
   <def>consider (oneself) as in the wrong</def>
             </sense>
-<sense xml:id="uuid-13d9cef3-7292-430e-99ce-f37292030e8e" resp="#CH" tls:created="2020-04-16T02:37:47.859+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat></gramGrp><def>be a logical mistake, be logically wrong</def></sense><sense xml:id="uuid-dc398d47-e014-4886-b98d-47e014a8868f" resp="#dsehnal" tls:created="2020-05-23T22:40:15.365+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-667d0048-c84a-46f4-8974-c4df90ffa5cd">subj=nonhuman</tls:sem-feat></gramGrp><def>be false; be wrong; be untrue</def></sense></entry>
+<sense xml:id="uuid-13d9cef3-7292-430e-99ce-f37292030e8e" resp="#CH" tls:created="2020-04-16T02:37:47.859+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6527909e-edf7-4b9a-8065-58f5fd5c45c6">logical</tls:sem-feat>
+                </gramGrp>
+                <def>be a logical mistake, be logically wrong</def>
+            </sense>
+            <sense xml:id="uuid-dc398d47-e014-4886-b98d-47e014a8868f" resp="#dsehnal" tls:created="2020-05-23T22:40:15.365+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-667d0048-c84a-46f4-8974-c4df90ffa5cd">subj=nonhuman</tls:sem-feat>
+                </gramGrp>
+                <def>be false; be wrong; be untrue</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4f6b994a-3914-4800-a716-7d0502e939dc">
             <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-8a15fd91-bd0f-4409-9544-18b3c2ea70d5">
 <orth>不然</orth>

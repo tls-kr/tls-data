@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b84fc9a7-bc9d-4554-9546-1fc3a21015b7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b84fc9a7-bc9d-4554-9546-1fc3a21015b7">
 <head>DWELL</head>
     <list type="altnames">
 <item>RESIDE</item>
@@ -213,7 +214,14 @@
                 </gramGrp>
   <def>live in N</def>
             </sense>
-<sense xml:id="uuid-09ff7161-d876-4fe7-9ad8-c532db4519d9" resp="#CH" tls:created="2019-12-01T04:56:03.069+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>make one's home in (the universe)</def></sense></entry>
+<sense xml:id="uuid-09ff7161-d876-4fe7-9ad8-c532db4519d9" resp="#CH" tls:created="2019-12-01T04:56:03.069+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>make one's home in (the universe)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-98e1c4fd-d40b-4949-b371-5ea59b4209b9">
             <form corresp="#uuid-df94e791-1aba-4864-ba15-dfebd911c6bb">
 <orth>信</orth>
@@ -334,7 +342,14 @@
                 </gramGrp>
   <def>OBI: take up residence in (a house); dwell</def>
             </sense>
-<sense xml:id="uuid-a7af3cdb-cf81-4658-b07f-fe3f48c27a05" resp="#CH" tls:created="2019-11-28T19:19:49.509+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>make one's home in the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-a7af3cdb-cf81-4658-b07f-fe3f48c27a05" resp="#CH" tls:created="2019-11-28T19:19:49.509+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>make one's home in the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-98c84b71-4ade-4644-8c96-dfad263d701d">
             <form corresp="#uuid-f8753075-adb6-43d4-bf48-caa024c8d9c4">
 <orth>安</orth>
@@ -405,7 +420,15 @@
                 </gramGrp>
   <def>seek lodging with for a time, find security for a time with; stay with for a time</def>
             </sense>
-<sense xml:id="uuid-95823fb3-26e0-45ee-823f-b326e0c5ee3a" resp="#CH" tls:created="2020-12-15T17:22:55.362+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>cause N1 to find repose in N2</def></sense></entry>
+<sense xml:id="uuid-95823fb3-26e0-45ee-823f-b326e0c5ee3a" resp="#CH" tls:created="2020-12-15T17:22:55.362+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>cause N1 to find repose in N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b4e34943-9a2e-4740-9a58-b3354a734fbe">
             <form corresp="#uuid-33ab6c76-5aae-4fd1-9ef4-a297b3db7608">
 <orth>宿</orth>
@@ -616,7 +639,43 @@
                 </gramGrp>
   <def>cause N1 to live in the place N2</def>
             </sense>
-<sense xml:id="uuid-a6fd1d54-2f28-4645-99e2-c90a9accb644" resp="#CH" tls:created="2019-11-27T22:23:24.025+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>live in some place</def></sense><sense xml:id="uuid-dce42754-5bb6-4f8d-9a04-bb308dac0520" resp="#zadrapa" tls:created="2019-12-02T18:40:35.899+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>live in a place</def></sense><sense xml:id="uuid-9ed0bd17-3f6b-4c8c-baf7-db6bd9a6bb72" resp="#CH" tls:created="2019-12-04T22:05:11.585+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>treat as one's permanent home</def></sense><sense xml:id="uuid-2ac732da-e459-41b1-8732-dae45991b135" resp="#zadrapa" tls:created="2022-05-31T21:09:13.763+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be dwelt in</def></sense><sense xml:id="uuid-d6e80898-2b88-4a70-a808-982b884a701e" resp="#CH" tls:created="2024-02-21T18:18:25.409+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0549adf5-6362-4b7e-89ad-f563620b7ee3">vipost-.vtoN</tls:syn-func></gramGrp><def>dwell with, stay with, associate with</def></sense></entry>
+<sense xml:id="uuid-a6fd1d54-2f28-4645-99e2-c90a9accb644" resp="#CH" tls:created="2019-11-27T22:23:24.025+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>live in some place</def>
+            </sense>
+            <sense xml:id="uuid-dce42754-5bb6-4f8d-9a04-bb308dac0520" resp="#zadrapa" tls:created="2019-12-02T18:40:35.899+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>live in a place</def>
+            </sense>
+            <sense xml:id="uuid-9ed0bd17-3f6b-4c8c-baf7-db6bd9a6bb72" resp="#CH" tls:created="2019-12-04T22:05:11.585+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>treat as one's permanent home</def>
+            </sense>
+            <sense xml:id="uuid-2ac732da-e459-41b1-8732-dae45991b135" resp="#zadrapa" tls:created="2022-05-31T21:09:13.763+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be dwelt in</def>
+            </sense>
+            <sense xml:id="uuid-d6e80898-2b88-4a70-a808-982b884a701e" resp="#CH" tls:created="2024-02-21T18:18:25.409+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0549adf5-6362-4b7e-89ad-f563620b7ee3">vipost-.vtoN</tls:syn-func>
+                </gramGrp>
+                <def>dwell with, stay with, associate with</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7c0eaf20-4bea-429f-b108-edb846a254e7">
             <form corresp="#uuid-5a021114-77c9-4620-b223-46a6f6c8d2aa">
 <orth>屯</orth>
@@ -793,7 +852,15 @@
                 </gramGrp>
   <def>spend the night in</def>
             </sense>
-<sense xml:id="uuid-4aaa4389-f78e-4467-ae01-665a200f911f" resp="#CH" tls:created="2020-02-08T21:14:18.999+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>abstract: (in recitation) stay in place (not moving on quickly), dwell in one place/on one word</def></sense></entry>
+<sense xml:id="uuid-4aaa4389-f78e-4467-ae01-665a200f911f" resp="#CH" tls:created="2020-02-08T21:14:18.999+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>abstract: (in recitation) stay in place (not moving on quickly), dwell in one place/on one word</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-002fe36a-f1d9-415c-ab06-590ca125082e">
             <form corresp="#uuid-bf021f93-0da3-46e1-8590-7c90ac8dddab">
 <orth>舍</orth>
@@ -897,7 +964,30 @@
                 </gramGrp>
   <def>cause N1 to take up residence in N2</def>
             </sense>
-<sense xml:id="uuid-65dd7e6e-ca13-4bdc-805e-52dee65ebc38" resp="#CH" tls:created="2019-12-19T00:11:57.596+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>dwell in one's place</def></sense><sense xml:id="uuid-df941806-c00e-49f5-8d37-d99ea3c0e3dd" resp="#CH" tls:created="2019-12-29T07:55:03.552+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>settle in N</def></sense><sense xml:id="uuid-9ee71f97-a9d0-4a7a-a71f-97a9d04a7a73" resp="#CH" tls:created="2020-04-23T22:41:10.749+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-04-23T22:42:55.934+09:00">derived: dwell in spiritually&gt; live by N, be constantly informed spiritually or morally by N</def></sense></entry>
+<sense xml:id="uuid-65dd7e6e-ca13-4bdc-805e-52dee65ebc38" resp="#CH" tls:created="2019-12-19T00:11:57.596+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>dwell in one's place</def>
+            </sense>
+            <sense xml:id="uuid-df941806-c00e-49f5-8d37-d99ea3c0e3dd" resp="#CH" tls:created="2019-12-29T07:55:03.552+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>settle in N</def>
+            </sense>
+            <sense xml:id="uuid-9ee71f97-a9d0-4a7a-a71f-97a9d04a7a73" resp="#CH" tls:created="2020-04-23T22:41:10.749+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-04-23T22:42:55.934+09:00">derived: dwell in spiritually&gt; live by N, be constantly informed spiritually or morally by N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-592a6f34-a259-49c2-a4f8-acfbbe87e2ed">
             <form corresp="#uuid-1c1668c0-30e4-440b-b740-bd4a36b94699">
 <orth>軍</orth>
@@ -1284,6 +1374,13 @@
                 </gramGrp>
   <def>live in hiding; live in obscurity; live in such a way as to hide from public life SHIJI: 與高祖隱 "lived in hiding together with Gaozu"</def>
             </sense>
-<sense xml:id="uuid-71b6a72c-0d95-4293-b6a7-2c0d9572933a" resp="#zadrapa" tls:created="2021-05-14T21:28:01.667+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>live in hiding in/at/among N</def></sense></entry>
+<sense xml:id="uuid-71b6a72c-0d95-4293-b6a7-2c0d9572933a" resp="#zadrapa" tls:created="2021-05-14T21:28:01.667+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>live in hiding in/at/among N</def>
+            </sense>
+        </entry>
     </div>
 </div>

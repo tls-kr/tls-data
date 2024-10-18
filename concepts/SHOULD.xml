@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d0fba9df-4d64-437e-a88e-9f848207a2ce">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d0fba9df-4d64-437e-a88e-9f848207a2ce">
 <head>SHOULD</head>
     <list type="altnames">
 <item>OBLIGATION</item>
@@ -335,7 +336,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-16T02:31:22.256+09:00">should have宜云 "It (the text) should have said</def>
             </sense>
-<sense xml:id="uuid-9c660c94-3b86-4c5f-a60c-943b869c5f0a" resp="#CH" tls:created="2020-04-16T02:33:34.046+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func><tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat></gramGrp><def>should be V-ed</def></sense></entry>
+<sense xml:id="uuid-9c660c94-3b86-4c5f-a60c-943b869c5f0a" resp="#CH" tls:created="2020-04-16T02:33:34.046+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0d9ca884-c4e8-4da5-a208-7bdc095c751d">vtoV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat>
+                </gramGrp>
+                <def>should be V-ed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b5ba9575-148d-4bb1-b333-22d6603554fe">
             <form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144">
 <orth>將</orth>
@@ -423,10 +432,19 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
-                <tls:sem-feat corresp="#uuid-e52ab13e-61ed-46de-aab1-3e61ed96de25">morally imperative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-e52ab13e-61ed-46de-aab1-3e61ed96de25">morally imperative</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2020-04-24T03:25:55.217+09:00">imperative: should certainly; should necessarily; must absolutely</def>
             </sense>
-<sense xml:id="uuid-5e191510-7337-4c13-9d11-a10792a6c6f3" resp="#CH" tls:created="2020-01-11T02:30:15.712+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt[0] V(0)</tls:syn-func><tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-11-28T02:14:55.285+09:00">you must now, absolutely</def></sense></entry>
+<sense xml:id="uuid-5e191510-7337-4c13-9d11-a10792a6c6f3" resp="#CH" tls:created="2020-01-11T02:30:15.712+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt[0] V(0)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-b8276c57-c108-44c8-8c01-ad92679a9163">imperative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-11-28T02:14:55.285+09:00">you must now, absolutely</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c8a975d3-feac-486c-acd4-14c698351478">
             <form corresp="#uuid-c855bced-1feb-44f9-a041-efc808d361d3">
 <orth>惠</orth>
@@ -746,7 +764,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-7e5ff404-1353-4198-9ff4-04135391986f">typically negated</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-7e5ff404-1353-4198-9ff4-04135391986f">typically negated</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2024-05-31T01:21:39.215+09:00">e.g. 不可以 "should (thus 以之) not, should never, must never": should should never</def>
             </sense>
 <sense xml:id="uuid-586703f6-b0e6-470a-ad1e-2598c8dd464c">
@@ -1120,10 +1139,59 @@
   <def>how can one not?, how can one fail to</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a23bb2fa-32ca-494e-852e-2f638ad12562" resp="#CH" tls:created="2020-01-11T23:05:53.807+09:00"><form corresp="#uuid-bd2177c1-35ad-42b6-9595-bf6a59c5694e #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f"><orth>胡不</orth><pron xml:lang="zh-Latn-x-pinyin">hú bù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu pjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaa pɯʔ</pron></form><sense xml:id="uuid-0ac71489-d56d-4ace-9765-81fe910d4706" resp="#CH" tls:created="2020-01-11T23:05:53.807+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func></gramGrp><def>should; </def></sense></entry><entry type="word" xml:id="uuid-9f440d3c-fc12-4d20-840d-3cfc121d2088" resp="#CH" tls:created="2022-08-27T19:53:27.332+09:00"><form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2"><orth>自當</orth><pron xml:lang="zh-Latn-x-pinyin">zì dāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH tang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids taaŋ</pron></form><sense xml:id="uuid-faf9b181-a69e-4f64-b9b1-81a69edf64cc" resp="#CH" tls:created="2022-08-27T19:53:27.332+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt V[0]</tls:syn-func></gramGrp><def>naturally should </def></sense></entry><entry xml:id="uuid-8d7ce0bd-f692-4419-bce0-bdf692a41910"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e">
+    <entry type="word" xml:id="uuid-a23bb2fa-32ca-494e-852e-2f638ad12562" resp="#CH" tls:created="2020-01-11T23:05:53.807+09:00">
+            <form corresp="#uuid-bd2177c1-35ad-42b6-9595-bf6a59c5694e #uuid-12896cda-5086-41f3-8aeb-21cd406eec3f">
+                <orth>胡不</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hú bù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu pjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaa pɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-0ac71489-d56d-4ace-9765-81fe910d4706" resp="#CH" tls:created="2020-01-11T23:05:53.807+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func>
+                </gramGrp>
+                <def>should; </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9f440d3c-fc12-4d20-840d-3cfc121d2088" resp="#CH" tls:created="2022-08-27T19:53:27.332+09:00">
+            <form corresp="#uuid-27f414fe-6bec-4eef-88d1-0e87a4bfbc33 #uuid-4761ef26-92d1-497a-8a8d-7052c2b86ca2">
+                <orth>自當</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zì dāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzijH tang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sblids taaŋ</pron>
+            </form>
+            <sense xml:id="uuid-faf9b181-a69e-4f64-b9b1-81a69edf64cc" resp="#CH" tls:created="2022-08-27T19:53:27.332+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt V[0]</tls:syn-func>
+                </gramGrp>
+                <def>naturally should </def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-8d7ce0bd-f692-4419-bce0-bdf692a41910">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e">
 <orth>不可</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">bù kě</pron>
                 <pron xml:lang="zh-x-oc">pɯʔ khlaalʔ</pron>
                 <pron xml:lang="zh-x-mc">pi̯ut khɑ</pron>
-            </form><sense xml:id="uuid-8c35bfab-9eaa-43fd-b5bf-ab9eaa33fd0a" resp="#CH" tls:created="2020-04-11T22:01:07.372+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-143fa3bc-ab5c-475b-873f-8c1b38deb26c">V=active</tls:sem-feat></gramGrp><def>should not</def></sense><sense xml:id="uuid-19f9d880-958b-433a-b9d8-80958b133ae5" resp="#CH" tls:created="2022-10-01T21:21:46.873+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-10-02T01:36:35.839+09:00">不可從"should not be followed": should not be Vt-ed；　must not be Vt-ed</def></sense></entry></div>
+            </form>
+            <sense xml:id="uuid-8c35bfab-9eaa-43fd-b5bf-ab9eaa33fd0a" resp="#CH" tls:created="2020-04-11T22:01:07.372+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-143fa3bc-ab5c-475b-873f-8c1b38deb26c">V=active</tls:sem-feat>
+                </gramGrp>
+                <def>should not</def>
+            </sense>
+            <sense xml:id="uuid-19f9d880-958b-433a-b9d8-80958b133ae5" resp="#CH" tls:created="2022-10-01T21:21:46.873+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d99ae971-35b1-48eb-8a45-a21dde414945">V=passive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-10-02T01:36:35.839+09:00">不可從"should not be followed": should not be Vt-ed；　must not be Vt-ed</def>
+            </sense>
+        </entry>
+    </div>
 </div>

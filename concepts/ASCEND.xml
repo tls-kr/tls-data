@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7bba3edc-7d1e-4a79-9f3b-35418aec9f80">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-7bba3edc-7d1e-4a79-9f3b-35418aec9f80">
 <head>ASCEND</head>
     <list type="altnames">
 <item>CLIMB</item>
@@ -17,7 +18,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-11-06T21:30:45.416+09:00">WALK to REACH a MORE HIGH PLACE. </p></div>
+    <p resp="#CH" modified="2020-11-06T21:30:45.416+09:00">WALK to REACH a MORE HIGH PLACE. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ARCHAIC/CURRENT]</p>
@@ -187,7 +189,22 @@
                 </gramGrp>
   <def>directional complement indicating the upwards movement of V  走上</def>
             </sense>
-<sense xml:id="uuid-07307a84-481f-4e45-9c3a-cf4d8585589a" resp="#CH" tls:created="2019-10-22T04:48:32.378+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func></gramGrp><def>ascend N</def></sense><sense xml:id="uuid-3baf7717-dd3a-4501-af77-17dd3af501f6" resp="#CH" tls:created="2020-08-07T21:57:01.814+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>move upwards (into the air)</def></sense></entry>
+<sense xml:id="uuid-07307a84-481f-4e45-9c3a-cf4d8585589a" resp="#CH" tls:created="2019-10-22T04:48:32.378+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt prep N</tls:syn-func>
+                </gramGrp>
+                <def>ascend N</def>
+            </sense>
+            <sense xml:id="uuid-3baf7717-dd3a-4501-af77-17dd3af501f6" resp="#CH" tls:created="2020-08-07T21:57:01.814+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>move upwards (into the air)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1a0b48b6-140d-4975-af98-e3c15eba08ec">
             <form corresp="#uuid-e657b5a9-7a31-4c31-ace7-22d797685fc9">
 <orth>乘</orth>
@@ -230,7 +247,14 @@
                 </gramGrp>
   <def>cause to get up onto a vehicle</def>
             </sense>
-<sense xml:id="uuid-a74f6f3d-cb41-43b7-b35a-3c921487df89" resp="#CH" tls:created="2020-01-12T03:45:43.115+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">v(toN)</tls:syn-func></gramGrp><def>ascend the contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-a74f6f3d-cb41-43b7-b35a-3c921487df89" resp="#CH" tls:created="2020-01-12T03:45:43.115+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">v(toN)</tls:syn-func>
+                </gramGrp>
+                <def>ascend the contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f7ebc637-1b08-4027-9a80-98cee2fd3111">
             <form corresp="#uuid-20708d88-c48d-40bf-97ab-23214171e532">
 <orth>升</orth>
@@ -401,7 +425,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-3dc44dae-72db-41d4-8305-68d2336c58cb">
-            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45"><orth>緣</orth><pron xml:lang="zh-Latn-x-pinyin">yuán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron></form>
+            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45">
+                <orth>緣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron>
+            </form>
             <def>Yuán 緣 refers to an often arduous movement in difficult "terrain" and guided by certain features of that terrain.
 [DIFFICULT];    [[DERIVED]]
 </def>
@@ -619,5 +648,50 @@
   <def>ZGC: ascend a vehicle</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-920ce13f-73e8-498f-b040-ca6568da5b7a" resp="#CH" tls:created="2019-11-06T18:01:39.193+09:00"><form corresp="#uuid-f5567e91-1287-4995-ad3c-48b9a5a68d38"><orth>蹈</orth><pron xml:lang="zh-Latn-x-pinyin">dào</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dawH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-luus</pron></form><sense xml:id="uuid-a8caaa59-42e9-4501-890d-2ce16cd04c4c" resp="#CH" tls:created="2019-11-06T18:01:39.193+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>tread on</def></sense></entry><entry type="word" xml:id="uuid-6989b799-696f-46b5-91bf-34ee19df8a99" resp="#CH" tls:created="2019-11-08T01:54:18.525+09:00"><form corresp="#uuid-116f76e4-12f2-45f0-99be-a12bccfa72ba"><orth>騰</orth><pron xml:lang="zh-Latn-x-pinyin">téng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dong</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lɯɯŋ</pron></form><sense xml:id="uuid-74bc9276-13da-44c2-9f51-024c593cfd8f" resp="#CH" tls:created="2019-11-08T01:54:18.525+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>fly up (a difficult mountain); ascend (a steep difficult terrain)</def></sense></entry><entry type="word" xml:id="uuid-09ef99a9-fac5-4946-a0ac-7df200876535" resp="#CH" tls:created="2019-12-11T17:54:57.386+09:00"><form corresp="#uuid-fdaa9999-e03b-4083-bdb8-15c110ead3b4"><orth>踐</orth><pron xml:lang="zh-Latn-x-pinyin">jiàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjenX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzenʔ</pron></form><sense xml:id="uuid-c8b37f32-9c99-4f30-8d72-c93c26a15dcd" resp="#CH" tls:created="2019-12-11T17:54:57.386+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>step up onto: ascend (throne)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-920ce13f-73e8-498f-b040-ca6568da5b7a" resp="#CH" tls:created="2019-11-06T18:01:39.193+09:00">
+            <form corresp="#uuid-f5567e91-1287-4995-ad3c-48b9a5a68d38">
+                <orth>蹈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dào</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dawH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-luus</pron>
+            </form>
+            <sense xml:id="uuid-a8caaa59-42e9-4501-890d-2ce16cd04c4c" resp="#CH" tls:created="2019-11-06T18:01:39.193+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>tread on</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6989b799-696f-46b5-91bf-34ee19df8a99" resp="#CH" tls:created="2019-11-08T01:54:18.525+09:00">
+            <form corresp="#uuid-116f76e4-12f2-45f0-99be-a12bccfa72ba">
+                <orth>騰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">téng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dong</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lɯɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-74bc9276-13da-44c2-9f51-024c593cfd8f" resp="#CH" tls:created="2019-11-08T01:54:18.525+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>fly up (a difficult mountain); ascend (a steep difficult terrain)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-09ef99a9-fac5-4946-a0ac-7df200876535" resp="#CH" tls:created="2019-12-11T17:54:57.386+09:00">
+            <form corresp="#uuid-fdaa9999-e03b-4083-bdb8-15c110ead3b4">
+                <orth>踐</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjenX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzenʔ</pron>
+            </form>
+            <sense xml:id="uuid-c8b37f32-9c99-4f30-8d72-c93c26a15dcd" resp="#CH" tls:created="2019-12-11T17:54:57.386+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>step up onto: ascend (throne)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

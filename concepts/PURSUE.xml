@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-98abac13-a01c-4d97-a840-00b8498b74ac">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-98abac13-a01c-4d97-a840-00b8498b74ac">
 <head>PURSUE</head>
     <list type="altnames">
 <item>FOLLOW</item>
@@ -251,7 +252,15 @@
                 </gramGrp>
   <def>pursue a determinate person</def>
             </sense>
-<sense xml:id="uuid-689d553b-199e-4eee-9d55-3b199e0eee2d" resp="#dsehnal" tls:created="2021-05-06T14:23:45.914+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>act of pursuing</def></sense></entry>
+<sense xml:id="uuid-689d553b-199e-4eee-9d55-3b199e0eee2d" resp="#dsehnal" tls:created="2021-05-06T14:23:45.914+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>act of pursuing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3ab36092-29f5-4a3a-b2d4-b3ec597122a4">
             <form corresp="#uuid-95f6e435-08e9-4d16-bf81-f0e6af582d30">
 <orth>逐</orth>
@@ -310,7 +319,22 @@
                 </gramGrp>
   <def>go after, chase (deer or fish etc); go in search of (something to eat etc)</def>
             </sense>
-<sense xml:id="uuid-0e223f35-7ddb-43d7-aacb-45ee20887482" resp="#CH" tls:created="2019-12-02T06:56:26.555+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>pursue things</def></sense><sense xml:id="uuid-8db420e5-804f-44ee-8ad6-e080391d846c" resp="#CH" tls:created="2020-02-10T19:36:15.587+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>figurative: be successfully pursued&gt; be equalled, be parallelled</def></sense></entry>
+<sense xml:id="uuid-0e223f35-7ddb-43d7-aacb-45ee20887482" resp="#CH" tls:created="2019-12-02T06:56:26.555+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>pursue things</def>
+            </sense>
+            <sense xml:id="uuid-8db420e5-804f-44ee-8ad6-e080391d846c" resp="#CH" tls:created="2020-02-10T19:36:15.587+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: be successfully pursued&gt; be equalled, be parallelled</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-010e3d2c-9c3e-4d58-aaaa-0e4d37bb88ab">
             <form corresp="#uuid-4a8d8b28-24d7-42e6-b245-0e150f87bc05">
 <orth>逮</orth>
@@ -322,7 +346,12 @@
 </def>
 </entry>
 <entry type="word" xml:id="uuid-eebf7ae5-64aa-4b99-9517-042e2057630c">
-            <form corresp="#uuid-6b520202-cf58-436f-a2df-f27b1abf0874"><orth>隨</orth><pron xml:lang="zh-Latn-x-pinyin">suí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zjwe</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlol</pron></form>
+            <form corresp="#uuid-6b520202-cf58-436f-a2df-f27b1abf0874">
+                <orth>隨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">suí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zjwe</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlol</pron>
+            </form>
 <sense xml:id="uuid-89339cb3-7f07-4550-9916-c461557964ce">
 <gramGrp>
                     <pos>V</pos>

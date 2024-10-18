@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b3fe63e1-7492-4aa9-a975-5a72b04c16df">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b3fe63e1-7492-4aa9-a975-5a72b04c16df">
 <head>WHO</head>
     <list type="translations">
         <item xml:lang="zh">誰</item>
@@ -96,7 +97,14 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-16f97d03-20ea-422c-9ef0-b1f334b5a5f9" resp="#CH" tls:created="2019-11-29T19:19:58.254+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">npro{whose}</tls:syn-func></gramGrp><def>whose</def></sense></entry>
+<sense xml:id="uuid-16f97d03-20ea-422c-9ef0-b1f334b5a5f9" resp="#CH" tls:created="2019-11-29T19:19:58.254+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npro{whose}</tls:syn-func>
+                </gramGrp>
+                <def>whose</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f68f0c48-8ef3-4253-b692-f10887df1d23">
             <form corresp="#uuid-f32a1e5d-2c67-4b4d-b976-79f624345b50">
 <orth>儔</orth>
@@ -163,7 +171,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-05-27T04:08:07.602+09:00">who among them?, which one?; (contrastive) who?</def>
             </sense>
-<sense xml:id="uuid-2e6f6505-984c-4d64-bbbc-5d577fc645dc" resp="#CH" tls:created="2019-11-29T19:20:53.237+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>who (on earth)</def></sense></entry>
+<sense xml:id="uuid-2e6f6505-984c-4d64-bbbc-5d577fc645dc" resp="#CH" tls:created="2019-11-29T19:20:53.237+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>who (on earth)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c45c59fb-7c50-4f82-b77c-f302619c3ce8">
             <form corresp="#uuid-9b0c3993-d064-41cf-b64a-1ca2076681d7">
 <orth>庸</orth>
@@ -301,7 +317,21 @@
                 </gramGrp>
   <def>who?</def>
             </sense>
-<sense xml:id="uuid-341e2651-0341-476c-98f9-ec3238782c92" resp="#CH" tls:created="2019-11-29T19:10:15.619+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">npro</tls:syn-func></gramGrp><def>who (on earth)</def></sense><sense xml:id="uuid-c38acf8f-b988-45b7-888f-6d7c8e7906f5" resp="#CH" tls:created="2019-12-04T21:56:49.872+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-aaac6d3d-a0d7-488f-951d-7517475b1c52">npro.postVt:adV[0]</tls:syn-func></gramGrp><def>whom</def></sense></entry>
+<sense xml:id="uuid-341e2651-0341-476c-98f9-ec3238782c92" resp="#CH" tls:created="2019-11-29T19:10:15.619+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">npro</tls:syn-func>
+                </gramGrp>
+                <def>who (on earth)</def>
+            </sense>
+            <sense xml:id="uuid-c38acf8f-b988-45b7-888f-6d7c8e7906f5" resp="#CH" tls:created="2019-12-04T21:56:49.872+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-aaac6d3d-a0d7-488f-951d-7517475b1c52">npro.postVt:adV[0]</tls:syn-func>
+                </gramGrp>
+                <def>whom</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6e8c9652-f8fc-438d-97e2-aeb9afe116bb">
             <form corresp="#uuid-9b281181-98e2-4a9e-80bb-a9e1f3d67c6f #uuid-11eff650-b29f-4fd8-b9ec-a37ece661cdf">
 <orth>他誰</orth>
@@ -473,7 +503,30 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-07-01T18:38:53.406+09:00">其誰堪之"who would e able to bear it": who? i.e. no one!</def>
             </sense>
-<sense xml:id="uuid-ec43cc6d-8347-4b44-83cc-6d8347eb448a" resp="#CH" tls:created="2024-07-01T18:31:11.452+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f370de2-6c90-4dd6-b70d-e26c90add6a5">NPpro.post-N</tls:syn-func></gramGrp><def>晉大夫其誰先亡 "who of the dignitaries of Jin will perish first?": who from among the N</def></sense><sense xml:id="uuid-77b65790-2e70-42a1-b657-902e7032a1de" resp="#CH" tls:created="2024-07-01T18:36:02.102+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f370de2-6c90-4dd6-b70d-e26c90add6a5">NPpro.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat></gramGrp><def>whoever of the N?</def></sense><sense xml:id="uuid-0dccca7b-9b19-45b5-8cca-7b9b1955b54f" resp="#CH" tls:created="2024-07-01T18:54:37.484+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f71cbe45-3911-4cbc-9cbe-4539116cbc72">NPpro.postN</tls:syn-func><tls:sem-feat corresp="#uuid-cba2d2e7-8bbc-4ac8-8666-32a00c18451b">predicative</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-07-01T18:57:07.684+09:00">怒者其誰 "who/what is it that blows?": is who or what?, who is there?</def></sense></entry>
+<sense xml:id="uuid-ec43cc6d-8347-4b44-83cc-6d8347eb448a" resp="#CH" tls:created="2024-07-01T18:31:11.452+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f370de2-6c90-4dd6-b70d-e26c90add6a5">NPpro.post-N</tls:syn-func>
+                </gramGrp>
+                <def>晉大夫其誰先亡 "who of the dignitaries of Jin will perish first?": who from among the N</def>
+            </sense>
+            <sense xml:id="uuid-77b65790-2e70-42a1-b657-902e7032a1de" resp="#CH" tls:created="2024-07-01T18:36:02.102+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f370de2-6c90-4dd6-b70d-e26c90add6a5">NPpro.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def>whoever of the N?</def>
+            </sense>
+            <sense xml:id="uuid-0dccca7b-9b19-45b5-8cca-7b9b1955b54f" resp="#CH" tls:created="2024-07-01T18:54:37.484+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f71cbe45-3911-4cbc-9cbe-4539116cbc72">NPpro.postN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-cba2d2e7-8bbc-4ac8-8666-32a00c18451b">predicative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-07-01T18:57:07.684+09:00">怒者其誰 "who/what is it that blows?": is who or what?, who is there?</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-02beb19e-0ae2-46a5-9ae8-effa81f3d353">
             <form corresp="#uuid-11eff650-b29f-4fd8-b9ec-a37ece661cdf">
 <orth>誰</orth>
@@ -1164,5 +1217,37 @@
   <def>which one?, who?</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-07cbd7a4-cabb-4fa2-9ed6-cd0df21e3da9" resp="#CH" tls:created="2019-12-25T07:03:22.471+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-9180fef3-0f94-431a-90b8-ec930fdbc8b8" resp="#CH" tls:created="2019-12-25T07:03:22.471+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-dcde337f-dbf8-4ce2-b262-60b74f99a17b">npro{OBJECT} Vt</tls:syn-func><tls:sem-feat corresp="#uuid-ec3023c3-0169-4833-96db-6fc74473d518">object=hu</tls:sem-feat></gramGrp><def>who</def></sense></entry><entry type="word" xml:id="uuid-655f1284-f943-4b75-aef3-39678987b434" resp="#CH" tls:created="2019-12-25T07:03:35.903+09:00"><form corresp="#uuid-e36faf0f-2941-41e6-a242-e9de58902636"><orth>曷</orth><pron xml:lang="zh-Latn-x-pinyin">hé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hat</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaad</pron></form><sense xml:id="uuid-b16b7d30-9350-407a-b0cf-2303264bc763" resp="#CH" tls:created="2019-12-25T07:03:35.903+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-dcde337f-dbf8-4ce2-b262-60b74f99a17b">npro{OBJECT} Vt</tls:syn-func><tls:sem-feat corresp="#uuid-ec3023c3-0169-4833-96db-6fc74473d518">object=hu</tls:sem-feat></gramGrp><def>who</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-07cbd7a4-cabb-4fa2-9ed6-cd0df21e3da9" resp="#CH" tls:created="2019-12-25T07:03:22.471+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-9180fef3-0f94-431a-90b8-ec930fdbc8b8" resp="#CH" tls:created="2019-12-25T07:03:22.471+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-dcde337f-dbf8-4ce2-b262-60b74f99a17b">npro{OBJECT} Vt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ec3023c3-0169-4833-96db-6fc74473d518">object=hu</tls:sem-feat>
+                </gramGrp>
+                <def>who</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-655f1284-f943-4b75-aef3-39678987b434" resp="#CH" tls:created="2019-12-25T07:03:35.903+09:00">
+            <form corresp="#uuid-e36faf0f-2941-41e6-a242-e9de58902636">
+                <orth>曷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hat</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡaad</pron>
+            </form>
+            <sense xml:id="uuid-b16b7d30-9350-407a-b0cf-2303264bc763" resp="#CH" tls:created="2019-12-25T07:03:35.903+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-dcde337f-dbf8-4ce2-b262-60b74f99a17b">npro{OBJECT} Vt</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ec3023c3-0169-4833-96db-6fc74473d518">object=hu</tls:sem-feat>
+                </gramGrp>
+                <def>who</def>
+            </sense>
+        </entry>
+    </div>
 </div>

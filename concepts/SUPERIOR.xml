@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-46ee4dcc-8da4-4927-b07c-9a338de70bf8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-46ee4dcc-8da4-4927-b07c-9a338de70bf8">
 <head>SUPERIOR</head>
     <list type="altnames">
 <item>FINER</item>
@@ -163,7 +164,15 @@
                 </gramGrp>
   <def>superior</def>
             </sense>
-<sense xml:id="uuid-1a9503b7-5f36-4ad1-9503-b75f366ad1a1" resp="#zadrapa" tls:created="2020-05-28T20:25:49.159+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>better one(s)</def></sense></entry>
+<sense xml:id="uuid-1a9503b7-5f36-4ad1-9503-b75f366ad1a1" resp="#zadrapa" tls:created="2020-05-28T20:25:49.159+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>better one(s)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b628502f-8ec8-487b-8ce1-0b5ceb18db13">
             <form corresp="#uuid-f80ca1bf-4e49-46a8-8a84-15bc02805b0b">
 <orth>出</orth>
@@ -259,7 +268,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-dadd1ce9-914a-4e6a-b0f0-5cacca732846">
-            <form corresp="#uuid-c5163c13-4a96-4092-9cfb-58220d6db246"><orth>盛</orth><pron xml:lang="zh-Latn-x-pinyin">shèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyengH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djeŋs</pron></form>
+            <form corresp="#uuid-c5163c13-4a96-4092-9cfb-58220d6db246">
+                <orth>盛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyengH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djeŋs</pron>
+            </form>
 <sense xml:id="uuid-e1fffa6b-93d2-49e7-a8e3-32455a7c8d4d">
 <gramGrp>
                     <pos>N</pos>
@@ -293,7 +307,29 @@
                 </gramGrp>
   <def>regard as being of superior importance</def>
             </sense>
-<sense xml:id="uuid-565a116e-ad89-483d-9a11-6ead89083da8" resp="#zadrapa" tls:created="2020-12-02T20:24:19.282+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>be superior, be great</def></sense><sense xml:id="uuid-15efd3fa-11e3-4e5a-afd3-fa11e32e5a98" resp="#zadrapa" tls:created="2021-01-21T05:15:44.381+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-0b8a684c-8893-4f48-8bf5-95250a8cbdc1">superlative</tls:sem-feat></gramGrp><def>the greatest</def></sense><sense xml:id="uuid-df7b56e3-11a1-482d-bb56-e311a1982da7" resp="#CH" tls:created="2021-03-19T19:35:27.273+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-df67c06f-c5fc-4f11-893b-fc307b4bfa45">v(adN)</tls:syn-func></gramGrp><def>the supreme kind of the omitted but contextually determinate N</def></sense></entry>
+<sense xml:id="uuid-565a116e-ad89-483d-9a11-6ead89083da8" resp="#zadrapa" tls:created="2020-12-02T20:24:19.282+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>be superior, be great</def>
+            </sense>
+            <sense xml:id="uuid-15efd3fa-11e3-4e5a-afd3-fa11e32e5a98" resp="#zadrapa" tls:created="2021-01-21T05:15:44.381+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0b8a684c-8893-4f48-8bf5-95250a8cbdc1">superlative</tls:sem-feat>
+                </gramGrp>
+                <def>the greatest</def>
+            </sense>
+            <sense xml:id="uuid-df7b56e3-11a1-482d-bb56-e311a1982da7" resp="#CH" tls:created="2021-03-19T19:35:27.273+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-df67c06f-c5fc-4f11-893b-fc307b4bfa45">v(adN)</tls:syn-func>
+                </gramGrp>
+                <def>the supreme kind of the omitted but contextually determinate N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-116492c6-a607-4fee-99cf-8a6c5ece193c">
             <form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848">
 <orth>高</orth>
@@ -368,5 +404,35 @@
   <def>those in higher position, the superiors; the seniors</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a693a644-15e1-4ace-93a6-4415e10ace8f" resp="#zadrapa" tls:created="2021-01-19T19:18:35.385+09:00"><form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848 #uuid-fc35f1ab-8ee0-40ff-afa4-1a39dd1ac369"><orth>高上</orth><pron xml:lang="zh-Latn-x-pinyin">gāo shàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- dzyangX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koow ɡljaŋʔ</pron></form><sense xml:id="uuid-8ea67876-4fde-4c26-a678-764fdebc269d" resp="#zadrapa" tls:created="2021-01-19T19:18:35.385+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>be of a superior order</def></sense></entry><entry type="word" xml:id="uuid-f8cdc433-ee22-4970-8dc4-33ee22a9703a" resp="#zadrapa" tls:created="2022-05-31T17:35:12.67+09:00"><form corresp="#uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461 #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c"><orth>君師</orth><pron xml:lang="zh-Latn-x-pinyin">jūn shī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjun srij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klun sril</pron></form><sense xml:id="uuid-d19b0501-cb21-42ee-9b05-01cb2102eea6" resp="#zadrapa" tls:created="2022-05-31T17:35:12.67+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>superiors worth following, such as rulers or teachers</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-a693a644-15e1-4ace-93a6-4415e10ace8f" resp="#zadrapa" tls:created="2021-01-19T19:18:35.385+09:00">
+            <form corresp="#uuid-34534156-7159-44e9-bfa6-971760db4848 #uuid-fc35f1ab-8ee0-40ff-afa4-1a39dd1ac369">
+                <orth>高上</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gāo shàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- dzyangX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koow ɡljaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-8ea67876-4fde-4c26-a678-764fdebc269d" resp="#zadrapa" tls:created="2021-01-19T19:18:35.385+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>be of a superior order</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f8cdc433-ee22-4970-8dc4-33ee22a9703a" resp="#zadrapa" tls:created="2022-05-31T17:35:12.67+09:00">
+            <form corresp="#uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461 #uuid-7f5155a2-b2a5-48d5-954e-6c082ba18a4c">
+                <orth>君師</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jūn shī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjun srij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klun sril</pron>
+            </form>
+            <sense xml:id="uuid-d19b0501-cb21-42ee-9b05-01cb2102eea6" resp="#zadrapa" tls:created="2022-05-31T17:35:12.67+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>superiors worth following, such as rulers or teachers</def>
+            </sense>
+        </entry>
+    </div>
 </div>

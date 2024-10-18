@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d20180cb-e413-46ea-b0f7-cc847c2423a8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d20180cb-e413-46ea-b0f7-cc847c2423a8">
 <head>SIT</head>
     <list type="altnames">
 <item>TAKE A SEAT</item>
@@ -188,7 +189,30 @@
                 </gramGrp>
   <def>sit down on</def>
             </sense>
-<sense xml:id="uuid-abf5083c-7c83-4196-90af-ee3880fbcfe7" resp="#CH" tls:created="2019-10-18T17:52:15.526+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>someone sitting/kneeling</def></sense><sense xml:id="uuid-d562b242-327c-41dc-8f22-465fd7a6b879" resp="#CH" tls:created="2019-10-18T21:07:21.777+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">act inchoative</tls:sem-feat></gramGrp><def>sit down</def></sense><sense xml:id="uuid-c8dd2fa9-5eed-415f-9d2f-a95eedf15f81" resp="#twharbsmeier" tls:created="2022-04-03T00:20:55.816+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-29T17:41:10.07+09:00">kneeling formally</def></sense></entry>
+<sense xml:id="uuid-abf5083c-7c83-4196-90af-ee3880fbcfe7" resp="#CH" tls:created="2019-10-18T17:52:15.526+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>someone sitting/kneeling</def>
+            </sense>
+            <sense xml:id="uuid-d562b242-327c-41dc-8f22-465fd7a6b879" resp="#CH" tls:created="2019-10-18T21:07:21.777+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">act inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>sit down</def>
+            </sense>
+            <sense xml:id="uuid-c8dd2fa9-5eed-415f-9d2f-a95eedf15f81" resp="#twharbsmeier" tls:created="2022-04-03T00:20:55.816+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-29T17:41:10.07+09:00">kneeling formally</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2afd377c-bc70-4237-a7d2-2d9f98443ec6">
             <form corresp="#uuid-765f4fb2-dafc-4556-b24c-640d0745d13d">
 <orth>夷</orth>
@@ -203,7 +227,7 @@
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>squat</def>
+  <def resp="#CH" updated="2024-10-04T22:29:59.698+09:00">sit; squat</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-b5f3ee17-c8dc-4e59-9ead-7d7f3329ce43">
@@ -278,7 +302,14 @@
                 </gramGrp>
   <def>squattingly; squatting on the heels ??   (HYDCD: 據 = 跨，蹲)</def>
             </sense>
-<sense xml:id="uuid-71b289e7-4179-43b6-b289-e74179c3b690" resp="#dsehnal" tls:created="2021-05-06T15:04:37.549+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>squat on N</def></sense></entry>
+<sense xml:id="uuid-71b289e7-4179-43b6-b289-e74179c3b690" resp="#dsehnal" tls:created="2021-05-06T15:04:37.549+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>squat on N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-97509e7d-e989-478a-9744-9aaf269bca9c">
             <form corresp="#uuid-e847172f-fec5-414a-a04d-5c382d78605a">
 <orth>跱</orth>
@@ -371,7 +402,15 @@
                 </gramGrp>
   <def>perch on; sit on, settle on;  settle in (a place)</def>
             </sense>
-<sense xml:id="uuid-1f2fdc22-a162-40fc-b098-2a6cd172e303" resp="#CH" tls:created="2020-02-11T00:41:50.827+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func><tls:sem-feat corresp="#uuid-d3edfbf7-de16-4bdb-9afb-5bdb1515ff80">specific</tls:sem-feat></gramGrp><def>of birds: roosting, sitting</def></sense></entry>
+<sense xml:id="uuid-1f2fdc22-a162-40fc-b098-2a6cd172e303" resp="#CH" tls:created="2020-02-11T00:41:50.827+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d3edfbf7-de16-4bdb-9afb-5bdb1515ff80">specific</tls:sem-feat>
+                </gramGrp>
+                <def>of birds: roosting, sitting</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b25967eb-2ce3-4551-af12-7ac7ccb6ec4b">
             <form corresp="#uuid-b17fca6b-2a04-4b0e-a98d-b5858bfbdc03 #uuid-f88c4755-7f5b-4f25-8190-8d5a961a2884">
 <orth>侍坐</orth>
@@ -386,7 +425,14 @@
                 </gramGrp>
   <def>sit (i.e. kneel in the Chinese fashion) in attendance on the contextually determinate N</def>
             </sense>
-<sense xml:id="uuid-3221c33a-4857-49a3-b2d9-685cebdaa5b2" resp="#CH" tls:created="2019-10-22T04:46:38.967+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func></gramGrp><def>sit alongside and serve N</def></sense></entry>
+<sense xml:id="uuid-3221c33a-4857-49a3-b2d9-685cebdaa5b2" resp="#CH" tls:created="2019-10-22T04:46:38.967+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt prep N</tls:syn-func>
+                </gramGrp>
+                <def>sit alongside and serve N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6ab99528-a3e8-4253-a706-c4b871c550ab">
             <form corresp="#uuid-20708d88-c48d-40bf-97ab-23214171e532 #uuid-67bd5fb2-420f-4c10-b9d1-230e7aa8726d">
 <orth>升座</orth>
@@ -618,5 +664,82 @@
   <def>sit down comfortable, settle down in sitting position YIZHOUSHU</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2e96af18-5e04-408d-bfbb-a8955c260f6d" resp="#CH" tls:created="2019-10-19T18:42:03.205+09:00"><form corresp="#uuid-be9ddcd9-70d2-4633-ad7e-668438d08090"><orth>箕</orth><pron xml:lang="zh-Latn-x-pinyin">jī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ki</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯ</pron></form><sense xml:id="uuid-36a65095-0b61-4f1d-b53b-1bc98561d937" resp="#CH" tls:created="2019-10-19T18:42:03.205+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func></gramGrp><def>sit indecorously</def></sense></entry><entry type="word" xml:id="uuid-e516e9ce-43a4-420e-a0f6-60d6dde7f2d8" resp="#CH" tls:created="2019-10-31T18:44:48.157+09:00"><form corresp="#uuid-3c1ffa36-6540-43f6-b41e-2cff475d703c"><orth>處</orth><pron xml:lang="zh-Latn-x-pinyin">chǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhoX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljaʔ</pron></form><sense xml:id="uuid-714245ad-3c9b-41ee-9181-20c92fcfa10c" resp="#CH" tls:created="2019-10-31T18:44:48.157+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>take one's seat in (a seat of honour etc.)</def></sense></entry><entry type="word" xml:id="uuid-4ddd2f3c-cd4e-4d07-abdf-02dcd9f19118" resp="#CH" tls:created="2019-12-31T20:03:26.346+09:00"><form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-f71d44f1-688e-4978-9000-0fc589c996aa"><orth>南面</orth><pron xml:lang="zh-Latn-x-pinyin">nán miàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nom mjienH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">noom mens</pron></form><sense xml:id="uuid-1804762a-f945-4791-ae08-396d7a85f165" resp="#CH" tls:created="2019-12-31T20:03:26.346+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func></gramGrp><def>sit facing south, in a (not necessarily the only) seat of honour</def></sense></entry><entry type="word" xml:id="uuid-e6b26cbb-978e-4592-b26c-bb978e3592eb" resp="#CH" tls:created="2021-05-01T17:35:12.91+09:00"><form corresp="#uuid-c27982e3-6efd-4cd8-bf5a-8e7e0bd8d472"><orth>栖</orth><pron xml:lang="zh-Latn-x-pinyin">qī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sej</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">siil</pron></form><sense xml:id="uuid-5b564c61-789f-4776-964c-61789fa7763d" resp="#CH" tls:created="2021-05-01T17:35:12.91+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func><tls:sem-feat corresp="#uuid-3e27712a-ab03-4462-8a9e-9f9310f299f0">permissive</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-05-01T17:36:10.358+09:00">=棲 make N perch on N{PLACE}</def></sense></entry><entry type="word" xml:id="uuid-f29e9b12-9c00-4a53-9e9b-129c006a53e8" resp="#CH" tls:created="2021-06-23T18:17:23.155+09:00"><form corresp="#uuid-326e01f2-d345-4862-ae01-f2d34528628f"><orth>踆</orth><pron xml:lang="zh-Latn-x-pinyin">dūn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><sense xml:id="uuid-9f281c2e-9aad-4ac4-a81c-2e9aad6ac4e7" resp="#CH" tls:created="2021-06-23T18:17:23.155+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>sit down demonstratively; carry out a sit-in</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2e96af18-5e04-408d-bfbb-a8955c260f6d" resp="#CH" tls:created="2019-10-19T18:42:03.205+09:00">
+            <form corresp="#uuid-be9ddcd9-70d2-4633-ad7e-668438d08090">
+                <orth>箕</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ki</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯ</pron>
+            </form>
+            <sense xml:id="uuid-36a65095-0b61-4f1d-b53b-1bc98561d937" resp="#CH" tls:created="2019-10-19T18:42:03.205+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                </gramGrp>
+                <def>sit indecorously</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e516e9ce-43a4-420e-a0f6-60d6dde7f2d8" resp="#CH" tls:created="2019-10-31T18:44:48.157+09:00">
+            <form corresp="#uuid-3c1ffa36-6540-43f6-b41e-2cff475d703c">
+                <orth>處</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyhoX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khljaʔ</pron>
+            </form>
+            <sense xml:id="uuid-714245ad-3c9b-41ee-9181-20c92fcfa10c" resp="#CH" tls:created="2019-10-31T18:44:48.157+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>take one's seat in (a seat of honour etc.)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4ddd2f3c-cd4e-4d07-abdf-02dcd9f19118" resp="#CH" tls:created="2019-12-31T20:03:26.346+09:00">
+            <form corresp="#uuid-b420baa9-4b24-4965-9a08-7ef933d10f54 #uuid-f71d44f1-688e-4978-9000-0fc589c996aa">
+                <orth>南面</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">nán miàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nom mjienH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">noom mens</pron>
+            </form>
+            <sense xml:id="uuid-1804762a-f945-4791-ae08-396d7a85f165" resp="#CH" tls:created="2019-12-31T20:03:26.346+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                </gramGrp>
+                <def>sit facing south, in a (not necessarily the only) seat of honour</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e6b26cbb-978e-4592-b26c-bb978e3592eb" resp="#CH" tls:created="2021-05-01T17:35:12.91+09:00">
+            <form corresp="#uuid-c27982e3-6efd-4cd8-bf5a-8e7e0bd8d472">
+                <orth>栖</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sej</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">siil</pron>
+            </form>
+            <sense xml:id="uuid-5b564c61-789f-4776-964c-61789fa7763d" resp="#CH" tls:created="2021-05-01T17:35:12.91+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3e27712a-ab03-4462-8a9e-9f9310f299f0">permissive</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-05-01T17:36:10.358+09:00">=棲 make N perch on N{PLACE}</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f29e9b12-9c00-4a53-9e9b-129c006a53e8" resp="#CH" tls:created="2021-06-23T18:17:23.155+09:00">
+            <form corresp="#uuid-326e01f2-d345-4862-ae01-f2d34528628f">
+                <orth>踆</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dūn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <sense xml:id="uuid-9f281c2e-9aad-4ac4-a81c-2e9aad6ac4e7" resp="#CH" tls:created="2021-06-23T18:17:23.155+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>sit down demonstratively; carry out a sit-in</def>
+            </sense>
+        </entry>
+    </div>
 </div>

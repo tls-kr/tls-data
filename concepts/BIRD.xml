@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4148f2d2-0889-4921-bdca-23481d1099a6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4148f2d2-0889-4921-bdca-23481d1099a6">
 <head>BIRD</head>
     <list type="translations">
         <item xml:lang="zh">鳥</item>
@@ -179,7 +180,15 @@
                 </gramGrp>
   <def>fowl, bird, epecially large wild bird or bird of prey, and birds one might try to catch</def>
             </sense>
-<sense xml:id="uuid-5a47ba22-fdf0-461a-bbcb-3291eaeac923" resp="#CH" tls:created="2019-10-31T17:34:41.569+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nadV</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>like a wild bird</def></sense></entry>
+<sense xml:id="uuid-5a47ba22-fdf0-461a-bbcb-3291eaeac923" resp="#CH" tls:created="2019-10-31T17:34:41.569+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>like a wild bird</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-18d6f730-3b02-4f98-bc17-2ca742e4d322">
             <form corresp="#uuid-5d692988-1db7-4739-817c-1ad0a8824a32">
 <orth>鳥</orth>
@@ -294,5 +303,20 @@
   <def>an unidentified bird, some bird or other</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-16b1ef7d-2d3a-47ee-b1ef-7d2d3a17ee5e" resp="#CH" tls:created="2021-11-15T23:55:47.039+09:00"><form corresp="#uuid-21e496c6-7a42-49e7-97ed-347cbc71aecd #uuid-920cdc9d-a13f-4145-b5d6-a18eda88b3cc"><orth>羽物</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ wù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuX mjut</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaʔ mɯd</pron></form><sense xml:id="uuid-b15a8462-6cf2-4aad-9a84-626cf2aaadd4" resp="#CH" tls:created="2021-11-15T23:55:47.039+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>winged creature&gt; bird</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-16b1ef7d-2d3a-47ee-b1ef-7d2d3a17ee5e" resp="#CH" tls:created="2021-11-15T23:55:47.039+09:00">
+            <form corresp="#uuid-21e496c6-7a42-49e7-97ed-347cbc71aecd #uuid-920cdc9d-a13f-4145-b5d6-a18eda88b3cc">
+                <orth>羽物</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ wù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuX mjut</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaʔ mɯd</pron>
+            </form>
+            <sense xml:id="uuid-b15a8462-6cf2-4aad-9a84-626cf2aaadd4" resp="#CH" tls:created="2021-11-15T23:55:47.039+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>winged creature&gt; bird</def>
+            </sense>
+        </entry>
+    </div>
 </div>

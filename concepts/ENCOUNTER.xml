@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-52d76290-51b3-4442-80f2-b5686d5faab2">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-52d76290-51b3-4442-80f2-b5686d5faab2">
 <head>ENCOUNTER</head>
     <list type="altnames">
 <item>MEET</item>
@@ -92,7 +93,8 @@
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
   <def>run into the contextually determinate N</def>
             </sense>
 <sense xml:id="uuid-185e4996-17f4-4b37-ba4f-5e36b6f866b4">
@@ -307,7 +309,21 @@
             </form>
             <def>The most current general marker of the passive is jiàn 見 which means literally "be exposed to, face".
 </def>
-<sense xml:id="uuid-dcfd7637-1f4b-4fbe-8337-ea8f1ba735a8" resp="#CH" tls:created="2019-12-26T19:06:34.349+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>be exposed to N</def></sense><sense xml:id="uuid-24ec19e3-0016-4f75-ac19-e30016af7512" resp="#CH" tls:created="2020-04-23T15:54:01.564+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-27T23:04:12.606+09:00">be faced with; encounter; incur</def></sense></entry>
+<sense xml:id="uuid-dcfd7637-1f4b-4fbe-8337-ea8f1ba735a8" resp="#CH" tls:created="2019-12-26T19:06:34.349+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>be exposed to N</def>
+            </sense>
+            <sense xml:id="uuid-24ec19e3-0016-4f75-ac19-e30016af7512" resp="#CH" tls:created="2020-04-23T15:54:01.564+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-27T23:04:12.606+09:00">be faced with; encounter; incur</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3ce1a114-3a92-4269-8856-d899a8178458">
             <form corresp="#uuid-3c2de05a-5eae-4ce3-861d-33a5920394c2">
 <orth>觸</orth>
@@ -413,7 +429,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2023-09-22T23:24:18.493+09:00">encounter (a tiger, robber, time of chaos etc)</def>
             </sense>
-<sense xml:id="uuid-bcda4bc8-187f-44f0-9a4b-c8187f54f066" resp="#CH" tls:created="2022-09-19T16:36:09.344+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-ea144b5d-3b62-4e9c-8bcb-6b377b5cfddf">neutral</tls:sem-feat></gramGrp><def>run into</def></sense></entry>
+<sense xml:id="uuid-bcda4bc8-187f-44f0-9a4b-c8187f54f066" resp="#CH" tls:created="2022-09-19T16:36:09.344+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ea144b5d-3b62-4e9c-8bcb-6b377b5cfddf">neutral</tls:sem-feat>
+                </gramGrp>
+                <def>run into</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ec98e723-7cb2-4c69-a338-d3a3e9a4e01d">
             <form corresp="#uuid-3fbef3f0-df31-495d-8b3b-2cdeedc59d81">
 <orth>遘</orth>
@@ -471,7 +495,14 @@
                 </gramGrp>
   <def>encounter the situation that S</def>
             </sense>
-<sense xml:id="uuid-f07c9c07-e8dd-4032-bc9c-07e8dd4032c4" resp="#CH" tls:created="2023-11-18T04:17:13.952+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>encounter (the situation that) S</def></sense></entry>
+<sense xml:id="uuid-f07c9c07-e8dd-4032-bc9c-07e8dd4032c4" resp="#CH" tls:created="2023-11-18T04:17:13.952+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>encounter (the situation that) S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2c2a23d0-2546-4ae2-b73f-29a02f2e3163">
             <form corresp="#uuid-29018f54-1dad-4704-866c-1e76290c458b">
 <orth>適</orth>
@@ -674,5 +705,64 @@
   <def>run into, meet with( See also: SUFFER)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-96810db2-a64e-4d3d-9c7f-1e1e01541a24" resp="#CH" tls:created="2019-12-08T21:17:20.433+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-a2e1a17f-8bd4-4ce0-a4f8-9dabac34a349" resp="#CH" tls:created="2019-12-08T21:17:20.433+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>be exposed to</def></sense></entry><entry type="word" xml:id="uuid-51c02651-b7aa-4622-85b3-b68b8d18a497" resp="#CH" tls:created="2019-12-08T21:17:27.002+09:00"><form corresp="#uuid-25889cfa-8f93-4023-ade8-c26fe1c72a2a"><orth>獲</orth><pron xml:lang="zh-Latn-x-pinyin">huò</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hweak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷreeɡ</pron></form><sense xml:id="uuid-b6f03852-559f-4543-b2e3-e210568e09a3" resp="#CH" tls:created="2019-12-08T21:17:27.002+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>be exposed to</def></sense></entry><entry type="word" xml:id="uuid-6703101a-2b0f-4d35-8310-1a2b0fdd3500"><form><orth>歷</orth><pron xml:lang="zh-Latn-x-pinyin">lì</pron></form><def/><sense xml:id="uuid-8f55673c-5fc8-486d-9567-3c5fc8f86dbf" resp="#CH" tls:created="2020-05-11T21:36:49.707+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>encounter (in passing)</def></sense></entry><entry type="word" xml:id="uuid-0508a0eb-8a47-46fd-88a0-eb8a47d6fdba" resp="#CH" tls:created="2022-09-26T18:52:33.666+09:00"><form corresp="#uuid-ff9613a7-d4c1-408d-ac24-7d6b14315284"><orth>就</orth><pron xml:lang="zh-Latn-x-pinyin">jiù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzjuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzuɡs</pron></form><sense xml:id="uuid-ec647b39-d878-4872-a47b-39d878f872d8" resp="#CH" tls:created="2022-09-26T18:52:33.666+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>bump into, run into; be faced with</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-96810db2-a64e-4d3d-9c7f-1e1e01541a24" resp="#CH" tls:created="2019-12-08T21:17:20.433+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-a2e1a17f-8bd4-4ce0-a4f8-9dabac34a349" resp="#CH" tls:created="2019-12-08T21:17:20.433+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be exposed to</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-51c02651-b7aa-4622-85b3-b68b8d18a497" resp="#CH" tls:created="2019-12-08T21:17:27.002+09:00">
+            <form corresp="#uuid-25889cfa-8f93-4023-ade8-c26fe1c72a2a">
+                <orth>獲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huò</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hweak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷreeɡ</pron>
+            </form>
+            <sense xml:id="uuid-b6f03852-559f-4543-b2e3-e210568e09a3" resp="#CH" tls:created="2019-12-08T21:17:27.002+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>be exposed to</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6703101a-2b0f-4d35-8310-1a2b0fdd3500">
+            <form>
+                <orth>歷</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lì</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-8f55673c-5fc8-486d-9567-3c5fc8f86dbf" resp="#CH" tls:created="2020-05-11T21:36:49.707+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>encounter (in passing)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0508a0eb-8a47-46fd-88a0-eb8a47d6fdba" resp="#CH" tls:created="2022-09-26T18:52:33.666+09:00">
+            <form corresp="#uuid-ff9613a7-d4c1-408d-ac24-7d6b14315284">
+                <orth>就</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzjuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dzuɡs</pron>
+            </form>
+            <sense xml:id="uuid-ec647b39-d878-4872-a47b-39d878f872d8" resp="#CH" tls:created="2022-09-26T18:52:33.666+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>bump into, run into; be faced with</def>
+            </sense>
+        </entry>
+    </div>
 </div>

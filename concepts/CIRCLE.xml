@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-57af8b26-a912-4bd4-ad86-7e98a0673dc5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-57af8b26-a912-4bd4-ad86-7e98a0673dc5">
 <head>CIRCLE</head>
     <list type="altnames">
 <item>RING</item>
@@ -147,7 +148,14 @@
                 </gramGrp>
   <def>in circles; circulating</def>
             </sense>
-<sense xml:id="uuid-9c1c39ed-3cab-44a3-9c39-ed3caba4a368" resp="#zadrapa" tls:created="2024-01-16T20:40:44.509+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>circular</def></sense></entry>
+<sense xml:id="uuid-9c1c39ed-3cab-44a3-9c39-ed3caba4a368" resp="#zadrapa" tls:created="2024-01-16T20:40:44.509+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>circular</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ceea249f-d96f-40d0-85e9-c50a242b35e3">
             <form corresp="#uuid-096738fe-9bfc-4d8f-9b61-7e6f84e3076a">
 <orth>員</orth>
@@ -266,5 +274,20 @@
   <def>circle</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a95689a9-1dd7-420d-9689-a91dd7720d2b" resp="#dsehnal" tls:created="2024-02-05T20:34:05.654+09:00"><form corresp="#uuid-e0617279-60d3-49ed-a066-26075a43b4ce #uuid-d934eae9-08b0-4bcc-8323-0fded6425a9c"><orth>循環</orth><pron xml:lang="zh-Latn-x-pinyin">xún huán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zwin hwaen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlun ɡʷraan</pron></form><sense xml:id="uuid-24cfc371-133f-4d2c-8fc3-71133ffd2c17" resp="#dsehnal" tls:created="2024-02-05T20:34:05.654+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>circle</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-a95689a9-1dd7-420d-9689-a91dd7720d2b" resp="#dsehnal" tls:created="2024-02-05T20:34:05.654+09:00">
+            <form corresp="#uuid-e0617279-60d3-49ed-a066-26075a43b4ce #uuid-d934eae9-08b0-4bcc-8323-0fded6425a9c">
+                <orth>循環</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xún huán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zwin hwaen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɢlun ɡʷraan</pron>
+            </form>
+            <sense xml:id="uuid-24cfc371-133f-4d2c-8fc3-71133ffd2c17" resp="#dsehnal" tls:created="2024-02-05T20:34:05.654+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>circle</def>
+            </sense>
+        </entry>
+    </div>
 </div>

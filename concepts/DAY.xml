@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-96e70cb3-5bb8-4cce-94ce-251c2bdc9b30">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-96e70cb3-5bb8-4cce-94ce-251c2bdc9b30">
 <head>DAY</head>
     <list type="altnames">
 <item>DAYTIME</item>
@@ -211,7 +212,50 @@
                 </gramGrp>
   <def>for x days</def>
             </sense>
-<sense xml:id="uuid-590bb1be-70bb-4603-934b-8745436c1bd4" resp="#CH" tls:created="2020-01-05T19:32:07.107+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> npost-V{NUM}.adV</tls:syn-func></gramGrp><def>after: after V number of days</def></sense><sense xml:id="uuid-dcd2c1b5-e407-4caa-baf6-60ac1bf5abea" resp="#CH" tls:created="2020-01-06T23:25:23.629+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> npost-V{NUM}.adS</tls:syn-func></gramGrp><def>after V number of days</def></sense><sense xml:id="uuid-1785c0a8-95c8-4ed8-85c0-a895c88ed837" resp="#CH" tls:created="2020-04-06T01:57:06.561+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-85043f3f-f41d-433b-8bea-c49352206a4e">nadS</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>these days</def></sense><sense xml:id="uuid-7bef2783-04c8-4a90-af27-8304c84a903e" resp="#dsehnal" tls:created="2020-05-10T04:20:58.282+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-efbdd547-c4c9-42b6-a864-d57b34324709">npost-V{NUM}.adV</tls:syn-func></gramGrp><def>for V number of days</def></sense><sense xml:id="uuid-d5241a90-b4df-4aba-a41a-90b4df7abaa7" resp="#zadrapa" tls:created="2021-06-29T18:48:14.49+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-efbdd547-c4c9-42b6-a864-d57b34324709">npost-V{NUM}.adV</tls:syn-func></gramGrp><def>in N number of days</def></sense><sense xml:id="uuid-a425f02a-bf4e-41af-a5f0-2abf4ea1af20" resp="#zadrapa" tls:created="2022-06-08T18:20:46.532+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-822e1e2d-cb7e-4a3e-89e0-91510265aee1">npost-V.adS</tls:syn-func></gramGrp><def>on the day V happens, S ensues</def></sense></entry>
+<sense xml:id="uuid-590bb1be-70bb-4603-934b-8745436c1bd4" resp="#CH" tls:created="2020-01-05T19:32:07.107+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> npost-V{NUM}.adV</tls:syn-func>
+                </gramGrp>
+                <def>after: after V number of days</def>
+            </sense>
+            <sense xml:id="uuid-dcd2c1b5-e407-4caa-baf6-60ac1bf5abea" resp="#CH" tls:created="2020-01-06T23:25:23.629+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> npost-V{NUM}.adS</tls:syn-func>
+                </gramGrp>
+                <def>after V number of days</def>
+            </sense>
+            <sense xml:id="uuid-1785c0a8-95c8-4ed8-85c0-a895c88ed837" resp="#CH" tls:created="2020-04-06T01:57:06.561+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-85043f3f-f41d-433b-8bea-c49352206a4e">nadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>these days</def>
+            </sense>
+            <sense xml:id="uuid-7bef2783-04c8-4a90-af27-8304c84a903e" resp="#dsehnal" tls:created="2020-05-10T04:20:58.282+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-efbdd547-c4c9-42b6-a864-d57b34324709">npost-V{NUM}.adV</tls:syn-func>
+                </gramGrp>
+                <def>for V number of days</def>
+            </sense>
+            <sense xml:id="uuid-d5241a90-b4df-4aba-a41a-90b4df7abaa7" resp="#zadrapa" tls:created="2021-06-29T18:48:14.49+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-efbdd547-c4c9-42b6-a864-d57b34324709">npost-V{NUM}.adV</tls:syn-func>
+                </gramGrp>
+                <def>in N number of days</def>
+            </sense>
+            <sense xml:id="uuid-a425f02a-bf4e-41af-a5f0-2abf4ea1af20" resp="#zadrapa" tls:created="2022-06-08T18:20:46.532+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-822e1e2d-cb7e-4a3e-89e0-91510265aee1">npost-V.adS</tls:syn-func>
+                </gramGrp>
+                <def>on the day V happens, S ensues</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e55980b9-53b0-41dd-8502-91174ee8f152">
             <form corresp="#uuid-c3ee337b-0587-4055-a3fe-368a07fd5cb6">
 <orth>晦</orth>
@@ -358,7 +402,28 @@
                 </gramGrp>
   <def>one day (in the past)</def>
             </sense>
-<sense xml:id="uuid-3af4c3e1-8c6c-44de-9cad-dd70234195b8" resp="#CH" tls:created="2019-11-28T05:29:42.894+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>the whole day</def></sense><sense xml:id="uuid-3844162a-8c4e-4ed2-8416-2a8c4e8ed2fb" resp="#zadrapa" tls:created="2020-05-25T05:13:37.666+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c627cfa-a1cb-47f6-8986-e4b0b4b7b3b0">NPadV.postN{SUBJ}</tls:syn-func></gramGrp><def>in the span of one day</def></sense><sense xml:id="uuid-ded6bfee-af24-4f73-96bf-eeaf249f73b2" resp="#Valerie.Kiel" tls:created="2023-01-12T17:03:04.845+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func></gramGrp><def>daily N, the N of one day</def></sense></entry>
+<sense xml:id="uuid-3af4c3e1-8c6c-44de-9cad-dd70234195b8" resp="#CH" tls:created="2019-11-28T05:29:42.894+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>the whole day</def>
+            </sense>
+            <sense xml:id="uuid-3844162a-8c4e-4ed2-8416-2a8c4e8ed2fb" resp="#zadrapa" tls:created="2020-05-25T05:13:37.666+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c627cfa-a1cb-47f6-8986-e4b0b4b7b3b0">NPadV.postN{SUBJ}</tls:syn-func>
+                </gramGrp>
+                <def>in the span of one day</def>
+            </sense>
+            <sense xml:id="uuid-ded6bfee-af24-4f73-96bf-eeaf249f73b2" resp="#Valerie.Kiel" tls:created="2023-01-12T17:03:04.845+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>daily N, the N of one day</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-92264299-b1e8-4496-94c2-df0ad3b70f21">
             <form corresp="#uuid-3b81e026-2aee-45cd-b686-7bab8c7046b3 #uuid-e2aa15ab-5de1-4aef-9a8e-3d5313867d03">
 <orth>三時</orth>
@@ -599,11 +664,78 @@
   <def>一朝 "one fine day"</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a20cd6e9-ec0d-4076-83dc-4c52383a0bae" resp="#CH" tls:created="2019-10-25T04:51:16.917+09:00"><form corresp="#uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f #uuid-09428a96-b453-4219-bed2-60879298930c"><orth>平晝</orth><pron xml:lang="zh-Latn-x-pinyin">píng
- zhòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjaeng
- trjuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">breŋ
- tus</pron></form><sense xml:id="uuid-a75f2b5d-019e-43ff-8719-ce704194de41" resp="#CH" tls:created="2019-10-25T04:51:16.917+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPadS</tls:syn-func></gramGrp><def/></sense></entry><entry type="word" xml:id="uuid-9e293476-4b25-4543-89b6-f09b670959dd" resp="#CH" tls:created="2019-10-25T04:51:32.155+09:00"><form corresp="#uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f #uuid-09428a96-b453-4219-bed2-60879298930c"><orth>平晝</orth><pron xml:lang="zh-Latn-x-pinyin">píng
- zhòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjaeng
- trjuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">breŋ
- tus</pron></form><sense xml:id="uuid-e34228a5-0fcc-49d4-9c22-c177bc857953" resp="#CH" tls:created="2019-10-25T04:51:32.155+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPadS</tls:syn-func></gramGrp><def>in plain daytime</def></sense></entry><entry type="word" xml:id="uuid-eefc4a9e-457c-466a-b934-d179da7d2f7a" resp="#CH" tls:created="2020-01-24T19:16:46.178+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-46926e4e-077f-499b-bd06-7aac5eb9962b" resp="#CH" tls:created="2020-01-24T19:16:46.178+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>for a whole day</def></sense></entry><entry type="word" xml:id="uuid-dbd8edbd-4136-459e-98ed-bd4136859e80" resp="#CH" tls:created="2022-09-15T23:15:34.062+09:00"><form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-fce596b7-8b9e-4445-929c-9dd52637e8d3"><orth>一旦</orth><pron xml:lang="zh-Latn-x-pinyin">yī dàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'jit tanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ taans</pron></form><sense xml:id="uuid-3c3391c2-5cd1-44e9-b391-c25cd1b4e9b6" resp="#CH" tls:created="2022-09-15T23:15:34.062+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>on one single day</def></sense><sense xml:id="uuid-7614ef1e-f0b1-48d5-94ef-1ef0b188d533" resp="#CH" tls:created="2022-09-15T23:17:15.749+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>decided on one single day</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-a20cd6e9-ec0d-4076-83dc-4c52383a0bae" resp="#CH" tls:created="2019-10-25T04:51:16.917+09:00">
+            <form corresp="#uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f #uuid-09428a96-b453-4219-bed2-60879298930c">
+                <orth>平晝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">píng
+ zhòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjaeng
+ trjuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">breŋ
+ tus</pron>
+            </form>
+            <sense xml:id="uuid-a75f2b5d-019e-43ff-8719-ce704194de41" resp="#CH" tls:created="2019-10-25T04:51:16.917+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPadS</tls:syn-func>
+                </gramGrp>
+                <def/>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9e293476-4b25-4543-89b6-f09b670959dd" resp="#CH" tls:created="2019-10-25T04:51:32.155+09:00">
+            <form corresp="#uuid-c9cae2f5-ed2c-4c67-afd6-bbdcacee076f #uuid-09428a96-b453-4219-bed2-60879298930c">
+                <orth>平晝</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">píng
+ zhòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjaeng
+ trjuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">breŋ
+ tus</pron>
+            </form>
+            <sense xml:id="uuid-e34228a5-0fcc-49d4-9c22-c177bc857953" resp="#CH" tls:created="2019-10-25T04:51:32.155+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPadS</tls:syn-func>
+                </gramGrp>
+                <def>in plain daytime</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-eefc4a9e-457c-466a-b934-d179da7d2f7a" resp="#CH" tls:created="2020-01-24T19:16:46.178+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-46926e4e-077f-499b-bd06-7aac5eb9962b" resp="#CH" tls:created="2020-01-24T19:16:46.178+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>for a whole day</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-dbd8edbd-4136-459e-98ed-bd4136859e80" resp="#CH" tls:created="2022-09-15T23:15:34.062+09:00">
+            <form corresp="#uuid-5f124772-cb9c-4140-80c3-f6831d50c8e2 #uuid-fce596b7-8b9e-4445-929c-9dd52637e8d3">
+                <orth>一旦</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yī dàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'jit tanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qliɡ taans</pron>
+            </form>
+            <sense xml:id="uuid-3c3391c2-5cd1-44e9-b391-c25cd1b4e9b6" resp="#CH" tls:created="2022-09-15T23:15:34.062+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>on one single day</def>
+            </sense>
+            <sense xml:id="uuid-7614ef1e-f0b1-48d5-94ef-1ef0b188d533" resp="#CH" tls:created="2022-09-15T23:17:15.749+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>decided on one single day</def>
+            </sense>
+        </entry>
+    </div>
 </div>

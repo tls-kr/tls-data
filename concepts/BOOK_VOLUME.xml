@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4c227fb6-2e28-4efb-ada8-6709ac89d0ee">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-4c227fb6-2e28-4efb-ada8-6709ac89d0ee">
 <head>BOOK VOLUME</head>
     <list type="translations">
         <item xml:lang="zh">書策</item>
@@ -153,7 +154,29 @@
                 </gramGrp>
   <def>roll of tied-together bamboo strips; relatively smaller scroll of written material</def>
             </sense>
-<sense xml:id="uuid-0a8502ac-2d4a-4822-b976-393065ab44c8" resp="#CH" tls:created="2020-02-10T01:27:51.25+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>chapter (of a larger composition or book)</def></sense><sense xml:id="uuid-9ca6b4c7-ae15-41df-aeb0-78a3a45b3712" resp="#CH" tls:created="2020-02-10T17:24:37.367+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func><tls:sem-feat corresp="#uuid-76a3454c-a084-47af-b1b2-9839a8900995">general</tls:sem-feat></gramGrp><def>piece of literature, literary work</def></sense><sense xml:id="uuid-fb5c13d7-190b-45af-9c13-d7190b55af49" resp="#CH" tls:created="2020-02-13T02:54:02.63+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>my literary piece</def></sense></entry>
+<sense xml:id="uuid-0a8502ac-2d4a-4822-b976-393065ab44c8" resp="#CH" tls:created="2020-02-10T01:27:51.25+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>chapter (of a larger composition or book)</def>
+            </sense>
+            <sense xml:id="uuid-9ca6b4c7-ae15-41df-aeb0-78a3a45b3712" resp="#CH" tls:created="2020-02-10T17:24:37.367+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-76a3454c-a084-47af-b1b2-9839a8900995">general</tls:sem-feat>
+                </gramGrp>
+                <def>piece of literature, literary work</def>
+            </sense>
+            <sense xml:id="uuid-fb5c13d7-190b-45af-9c13-d7190b55af49" resp="#CH" tls:created="2020-02-13T02:54:02.63+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>my literary piece</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c3c7f09d-087f-45c9-a3c6-b88410804f3c">
             <form corresp="#uuid-6bf92d04-6609-4a23-977c-5a6270aa5561">
 <orth>編</orth>
@@ -236,5 +259,20 @@
   <def>CHEMLA 2003:</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-0b3e9fc4-e7ec-4d03-be9f-c4e7eccd039c" resp="#dsehnal" tls:created="2024-06-17T03:17:21.771+09:00"><form corresp="#uuid-dd29859f-bea4-446f-93d0-20bdce0a642c"><orth>集</orth><pron xml:lang="zh-Latn-x-pinyin">jí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡub</pron></form><sense xml:id="uuid-dcd44942-a0b0-44c2-9449-42a0b074c2ea" resp="#dsehnal" tls:created="2024-06-17T03:17:21.771+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func></gramGrp><def>collection Npr; fascicle Npr</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-0b3e9fc4-e7ec-4d03-be9f-c4e7eccd039c" resp="#dsehnal" tls:created="2024-06-17T03:17:21.771+09:00">
+            <form corresp="#uuid-dd29859f-bea4-446f-93d0-20bdce0a642c">
+                <orth>集</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡub</pron>
+            </form>
+            <sense xml:id="uuid-dcd44942-a0b0-44c2-9449-42a0b074c2ea" resp="#dsehnal" tls:created="2024-06-17T03:17:21.771+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                </gramGrp>
+                <def>collection Npr; fascicle Npr</def>
+            </sense>
+        </entry>
+    </div>
 </div>

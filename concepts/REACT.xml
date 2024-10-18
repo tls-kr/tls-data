@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9a2462eb-1c4f-4f55-bf5c-15e314ec5813">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9a2462eb-1c4f-4f55-bf5c-15e314ec5813">
 <head>REACT</head>
     <list type="altnames">
 <item>MAKE A RESPONSE</item>
@@ -125,7 +126,14 @@
                 </gramGrp>
   <def>respond to (an action, somebody's hopes etc)</def>
             </sense>
-<sense xml:id="uuid-cf0b843d-b000-432b-aee2-38f7cfd228a5" resp="#CH" tls:created="2020-02-11T02:15:59.593+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>have to face and react to a situation N</def></sense></entry>
+<sense xml:id="uuid-cf0b843d-b000-432b-aee2-38f7cfd228a5" resp="#CH" tls:created="2020-02-11T02:15:59.593+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have to face and react to a situation N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0b4e4b3a-3317-4959-9486-3b7c55652eb1">
             <form corresp="#uuid-e44baff3-a268-4b94-9b2a-8a87a03d3e44">
 <orth>待</orth>
@@ -207,7 +215,44 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-09-22T03:33:53.323+09:00">react sensitively/spontaneously to the contextually determinate object</def>
             </sense>
-<sense xml:id="uuid-168ede3a-91b4-4d21-b3a7-b646651b473d" resp="#CH" tls:created="2020-01-04T04:30:32.037+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>respond properly to the actions of N</def></sense><sense xml:id="uuid-f28994d3-4c2c-4de4-81de-946b10d18bfb" resp="#CH" tls:created="2020-02-11T21:19:41.811+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2020-02-13T05:04:43.953+09:00">active response</def></sense><sense xml:id="uuid-48b0ff37-7430-4774-a6f6-5fb0efbcbd60" resp="#CH" tls:created="2020-02-12T00:38:40.148+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>resonate to things</def></sense><sense xml:id="uuid-b88d0e15-0e80-407b-8d0e-150e80907b05" resp="#CH" tls:created="2020-04-24T03:38:07.103+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>of things: responsiveness; way of reacting of N</def></sense><sense xml:id="uuid-4d11746d-30f1-4b5a-9174-6d30f1ab5afc" resp="#dsehnal" tls:created="2023-05-15T01:51:20.968+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#">passive</tls:sem-feat></gramGrp><def>get response as far as the contextually determinate matter is concerned</def></sense></entry>
+<sense xml:id="uuid-168ede3a-91b4-4d21-b3a7-b646651b473d" resp="#CH" tls:created="2020-01-04T04:30:32.037+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>respond properly to the actions of N</def>
+            </sense>
+            <sense xml:id="uuid-f28994d3-4c2c-4de4-81de-946b10d18bfb" resp="#CH" tls:created="2020-02-11T21:19:41.811+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-02-13T05:04:43.953+09:00">active response</def>
+            </sense>
+            <sense xml:id="uuid-48b0ff37-7430-4774-a6f6-5fb0efbcbd60" resp="#CH" tls:created="2020-02-12T00:38:40.148+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>resonate to things</def>
+            </sense>
+            <sense xml:id="uuid-b88d0e15-0e80-407b-8d0e-150e80907b05" resp="#CH" tls:created="2020-04-24T03:38:07.103+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>of things: responsiveness; way of reacting of N</def>
+            </sense>
+            <sense xml:id="uuid-4d11746d-30f1-4b5a-9174-6d30f1ab5afc" resp="#dsehnal" tls:created="2023-05-15T01:51:20.968+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#">passive</tls:sem-feat>
+                </gramGrp>
+                <def>get response as far as the contextually determinate matter is concerned</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e578b53d-9766-43d7-9eb5-6e0eb01c7872">
             <form corresp="#uuid-1184d66c-27cf-4b5c-8b9e-dc9d112687fc">
 <orth>變</orth>
@@ -224,7 +269,14 @@
                 </gramGrp>
   <def>show a formal reaction</def>
             </sense>
-<sense xml:id="uuid-1b3a0673-427d-4a47-ba06-73427dfa478d" resp="#dsehnal" tls:created="2020-04-28T04:29:55.448+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>reaction</def></sense></entry>
+<sense xml:id="uuid-1b3a0673-427d-4a47-ba06-73427dfa478d" resp="#dsehnal" tls:created="2020-04-28T04:29:55.448+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>reaction</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b61c115f-2f96-4e8a-805c-d9aa429d3337">
             <form corresp="#uuid-9caf3681-df41-4625-83f0-db59a753048c">
 <orth>讎</orth>
@@ -475,14 +527,106 @@
   <def>react to; react appropriately to</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-bab7102f-ec97-4e5c-b710-2fec973e5c91" resp="#zadrapa" tls:created="2020-05-31T04:57:00.918+09:00"><form corresp="#uuid-cacbf37d-677b-4d45-9dc2-235fd5c5cdeb #uuid-d1cb0b5d-cdf4-4ef3-91dd-bc681d70f124"><orth>屈伸</orth><pron xml:lang="zh-Latn-x-pinyin">qū
- shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjut
- syin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlud
- lʰin</pron></form><sense xml:id="uuid-190f225a-ac03-465f-8f22-5aac03d65f9e" resp="#zadrapa" tls:created="2020-05-31T04:57:00.918+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>bend and stretch &gt; keep adapting</def></sense></entry><entry type="word" xml:id="uuid-d182b61e-4786-43d7-82b6-1e478663d796" resp="#zadrapa" tls:created="2020-05-31T20:14:40.481+09:00"><form corresp="#uuid-1184d66c-27cf-4b5c-8b9e-dc9d112687fc #uuid-fdcc4a4f-f53e-4287-929d-9098e5c994e7"><orth>變應</orth><pron xml:lang="zh-Latn-x-pinyin">biàn yìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjenH 'ingH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">prons qɯŋs</pron></form><sense xml:id="uuid-4376d517-f5e9-476a-b6d5-17f5e9276a49" resp="#zadrapa" tls:created="2020-05-31T20:14:40.481+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>adapt to changing circumstances</def></sense></entry><entry type="word" xml:id="uuid-796457eb-ef7e-40e6-a457-ebef7e60e6bd" resp="#zadrapa" tls:created="2020-05-31T20:21:08.646+09:00"><form corresp="#uuid-cacbf37d-677b-4d45-9dc2-235fd5c5cdeb #uuid-df94e791-1aba-4864-ba15-dfebd911c6bb"><orth>屈信</orth><pron xml:lang="zh-Latn-x-pinyin">qū
- xìn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjut
- sinH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlud
- sins</pron></form><sense xml:id="uuid-15c4a065-d4c7-48c7-84a0-65d4c7f8c7b0" resp="#zadrapa" tls:created="2020-05-31T20:21:08.646+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat></gramGrp><def>= qu1shen1 屈伸: bend and stretch &gt; keep adapting  </def></sense></entry><entry type="word" xml:id="uuid-d3e0ee0c-2b42-42e6-a0ee-0c2b42a2e654" resp="#zadrapa" tls:created="2020-06-01T16:05:36.19+09:00"><form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f #uuid-b9e72c75-5d13-49d2-a742-a81bfc4f4c45"><orth>曲直</orth><pron xml:lang="zh-Latn-x-pinyin">qū qǔ zhí
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjowk drik
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoɡ dɯɡ
-</pron></form><sense xml:id="uuid-135e6122-d754-46bf-9e61-22d75436bf1a" resp="#zadrapa" tls:created="2020-06-01T16:05:36.19+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>(bend and unbend &gt;) react appropriately according to changing circumstances</def></sense></entry><entry type="word" xml:id="uuid-380c6bb6-57e4-49a2-8c6b-b657e469a276" resp="#CH" tls:created="2022-08-27T17:17:56.02+09:00"><form corresp="#uuid-c4711853-e554-4934-bdf2-97e5b33fbc53 #uuid-15d34018-85af-41a2-99d2-5a0d8f3fe450"><orth>喜怒</orth><pron xml:lang="zh-Latn-x-pinyin">xǐ nù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xiX nuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯʔ naas</pron></form><sense xml:id="uuid-1d26f9d3-a630-49e0-a6f9-d3a63039e0a7" resp="#CH" tls:created="2022-08-27T17:17:56.02+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>pleased or angry reactions</def></sense></entry><entry type="word" xml:id="uuid-841e987f-772a-4a92-9e98-7f772a1a920f" resp="#dsehnal" tls:created="2023-07-08T20:00:33.658+09:00"><form corresp="#uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4 #uuid-fdcc4a4f-f53e-4287-929d-9098e5c994e7"><orth>感應</orth><pron xml:lang="zh-Latn-x-pinyin">gǎn yìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">komX 'ingH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koomʔ qɯŋs</pron></form><sense xml:id="uuid-ac40b0fc-5870-47b9-80b0-fc5870e7b99c" resp="#dsehnal" tls:created="2023-07-08T20:00:33.658+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>supernatural magical reaction; reward by a supernatural force</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-bab7102f-ec97-4e5c-b710-2fec973e5c91" resp="#zadrapa" tls:created="2020-05-31T04:57:00.918+09:00">
+            <form corresp="#uuid-cacbf37d-677b-4d45-9dc2-235fd5c5cdeb #uuid-d1cb0b5d-cdf4-4ef3-91dd-bc681d70f124">
+                <orth>屈伸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū
+ shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjut
+ syin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlud
+ lʰin</pron>
+            </form>
+            <sense xml:id="uuid-190f225a-ac03-465f-8f22-5aac03d65f9e" resp="#zadrapa" tls:created="2020-05-31T04:57:00.918+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>bend and stretch &gt; keep adapting</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d182b61e-4786-43d7-82b6-1e478663d796" resp="#zadrapa" tls:created="2020-05-31T20:14:40.481+09:00">
+            <form corresp="#uuid-1184d66c-27cf-4b5c-8b9e-dc9d112687fc #uuid-fdcc4a4f-f53e-4287-929d-9098e5c994e7">
+                <orth>變應</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">biàn yìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjenH 'ingH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">prons qɯŋs</pron>
+            </form>
+            <sense xml:id="uuid-4376d517-f5e9-476a-b6d5-17f5e9276a49" resp="#zadrapa" tls:created="2020-05-31T20:14:40.481+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>adapt to changing circumstances</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-796457eb-ef7e-40e6-a457-ebef7e60e6bd" resp="#zadrapa" tls:created="2020-05-31T20:21:08.646+09:00">
+            <form corresp="#uuid-cacbf37d-677b-4d45-9dc2-235fd5c5cdeb #uuid-df94e791-1aba-4864-ba15-dfebd911c6bb">
+                <orth>屈信</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū
+ xìn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjut
+ sinH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlud
+ sins</pron>
+            </form>
+            <sense xml:id="uuid-15c4a065-d4c7-48c7-84a0-65d4c7f8c7b0" resp="#zadrapa" tls:created="2020-05-31T20:21:08.646+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-516a7b20-3abd-49d2-a05c-65dace0c5337">continuative</tls:sem-feat>
+                </gramGrp>
+                <def>= qu1shen1 屈伸: bend and stretch &gt; keep adapting  </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d3e0ee0c-2b42-42e6-a0ee-0c2b42a2e654" resp="#zadrapa" tls:created="2020-06-01T16:05:36.19+09:00">
+            <form corresp="#uuid-ea13601f-f6de-4551-8f18-d0bd3299420f #uuid-b9e72c75-5d13-49d2-a742-a81bfc4f4c45">
+                <orth>曲直</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qū qǔ zhí
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjowk drik
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khoɡ dɯɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-135e6122-d754-46bf-9e61-22d75436bf1a" resp="#zadrapa" tls:created="2020-06-01T16:05:36.19+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>(bend and unbend &gt;) react appropriately according to changing circumstances</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-380c6bb6-57e4-49a2-8c6b-b657e469a276" resp="#CH" tls:created="2022-08-27T17:17:56.02+09:00">
+            <form corresp="#uuid-c4711853-e554-4934-bdf2-97e5b33fbc53 #uuid-15d34018-85af-41a2-99d2-5a0d8f3fe450">
+                <orth>喜怒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xǐ nù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xiX nuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhɯʔ naas</pron>
+            </form>
+            <sense xml:id="uuid-1d26f9d3-a630-49e0-a6f9-d3a63039e0a7" resp="#CH" tls:created="2022-08-27T17:17:56.02+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>pleased or angry reactions</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-841e987f-772a-4a92-9e98-7f772a1a920f" resp="#dsehnal" tls:created="2023-07-08T20:00:33.658+09:00">
+            <form corresp="#uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4 #uuid-fdcc4a4f-f53e-4287-929d-9098e5c994e7">
+                <orth>感應</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǎn yìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">komX 'ingH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koomʔ qɯŋs</pron>
+            </form>
+            <sense xml:id="uuid-ac40b0fc-5870-47b9-80b0-fc5870e7b99c" resp="#dsehnal" tls:created="2023-07-08T20:00:33.658+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>supernatural magical reaction; reward by a supernatural force</def>
+            </sense>
+        </entry>
+    </div>
 </div>

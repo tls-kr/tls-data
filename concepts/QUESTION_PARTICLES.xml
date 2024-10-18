@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dcc17735-c9ff-4ec5-b729-0b86a2302836">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dcc17735-c9ff-4ec5-b729-0b86a2302836">
 <head>QUESTION PARTICLES</head>
     <list type="translations">
         <item xml:lang="zh">問句表記</item>
@@ -7,7 +8,11 @@
 <div type="definition">
 <p>GRAMMAR [][NOTE THAT THE GRAMMATICAL PARTICLES HAVE NOT BEEN FOCUSSED SO FAR IN THE SYSTEM AND NO SYSTEMATIC ANALYSIS HAS BEEN APPLIED SO FAR.]</p>
     </div>
-<div type="notes"><div type="old-chinese-criteria" resp="#CH" tls:created="2022-01-30T23:31:00.838+09:00"><p>Basic sentence-final question particles:乎 marks narrative or narratively descriptive verbal questions, and also indirect questions.耶 marks judgmental questions.也 can mark objective judgmental questions “何謂也　"what does this mean" not "what are you trying to say?" 哉 can mark emotionally charged rhetorical questions.</p></div></div>
+<div type="notes">
+        <div type="old-chinese-criteria" resp="#CH" tls:created="2022-01-30T23:31:00.838+09:00">
+            <p>Basic sentence-final question particles:乎 marks narrative or narratively descriptive verbal questions, and also indirect questions.耶 marks judgmental questions.也 can mark objective judgmental questions “何謂也　"what does this mean" not "what are you trying to say?" 哉 can mark emotionally charged rhetorical questions.</p>
+        </div>
+    </div>
 <div type="pointers">
         <list type="see">
 <item>
@@ -103,7 +108,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-86ec7f01-bc1a-4d07-a10f-140d0722c6d1">
-            <form corresp="#uuid-79977a0a-7a09-419a-977a-0a7a09819af2"><orth>還</orth><pron xml:lang="zh-Latn-x-pinyin">hái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-79977a0a-7a09-419a-977a-0a7a09819af2">
+                <orth>還</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-3fe90b16-99b3-47a2-8e00-ff5f507f87ea">
 <gramGrp>
                     <pos>P</pos>
@@ -127,19 +137,22 @@
   <def>rhetorical question marker</def>
             </sense>
 </entry>
-    <entry xml:id="uuid-3e1a1cd0-2a4d-4365-9a1c-d02a4df365e6"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3">
+    <entry xml:id="uuid-3e1a1cd0-2a4d-4365-9a1c-d02a4df365e6">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3">
 <orth>也</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yě</pron>
                 <pron xml:lang="zh-x-oc">lalʔ</pron>
                 <pron xml:lang="zh-x-mc">jɣɛ</pron>
-            </form><sense xml:id="uuid-6371bade-a127-4851-8f12-690f04b6dcf7">
+            </form>
+            <sense xml:id="uuid-6371bade-a127-4851-8f12-690f04b6dcf7">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
   <tls:sem-feat corresp="#uuid-3956b329-85df-4d4d-b1be-e6bd70198afe">alternative</tls:sem-feat>
                 </gramGrp>
   <def>marker of second of two alternative judgmental questions</def>
-            </sense><sense xml:id="uuid-ec109583-90f8-45be-9dc4-8cf63c7f1853">
+            </sense>
+            <sense xml:id="uuid-ec109583-90f8-45be-9dc4-8cf63c7f1853">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
@@ -147,7 +160,99 @@
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-02-26T04:26:03.714+09:00">何謂也"What does this mean?“: marks a judgmental question sentence </def>
-            </sense><sense xml:id="uuid-5a331d5e-9392-4f2a-b31d-5e9392af2afb" resp="#CH" tls:created="2022-02-16T00:15:25.442+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-c1d4d285-715d-4af8-94d2-85715d1af84e">judgmental rhetorical question</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-02-26T04:37:04.16+09:00">孰不可忍也？"Then what is not bearable?": particle marking an (often generalising) rhetorical question</def></sense><sense xml:id="uuid-63cd3fbc-a799-4aff-8d3f-bca7996aff3f" resp="#CH" tls:created="2022-02-17T04:23:09.611+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func><tls:sem-feat corresp="#uuid-45ccdad8-6d3a-4e73-8cda-d86d3a5e734d">with question pronoun</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-02-26T04:34:22.06+09:00">何器也？"What instrument is this?": particle marking a question sentence with a nominal predicate e.g. 何器也？</def></sense><sense xml:id="uuid-ab0af6b9-5150-42e8-8af6-b9515022e820" resp="#CH" tls:created="2022-02-17T19:22:38.031+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-915cc988-c6a9-40b5-9cc9-88c6a900b521">without question pronoun</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-02-26T04:28:33.288+09:00">十世可知也？"Can one get to know matters ten generations ago?": marks judgmental general questions</def></sense><sense xml:id="uuid-8ba60d62-84e2-4353-a60d-6284e29353bb" resp="#CH" tls:created="2022-02-26T04:01:35.898+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-4d29db75-ae6a-4b16-a9db-75ae6acb1653">ppostadnpro{Q}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-02-26T04:36:36.193+09:00">何也“Why is that?": marking questions consisting of a question pronoun only</def></sense></entry><entry type="word" xml:id="uuid-b86b11f7-2a36-4f57-ab11-f72a363f57a0" resp="#CH" tls:created="2021-03-07T19:13:14.694+09:00"><form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-c2a874a5-484c-427c-9eda-9751bd03d05f"><orth>不乃</orth><pron xml:lang="zh-Latn-x-pinyin">bù nǎi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjut nojX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ nɯɯʔ</pron></form><sense xml:id="uuid-7362469a-d148-474c-a246-9ad148374cdf" resp="#CH" tls:created="2021-03-07T19:13:14.694+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-e7f1e69d-7edf-4e5a-bdef-c5995d0fb79d">PPadS</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>isn't it (exactly) a case of; n'est ce pas?, surely!</def></sense></entry><entry xml:id="uuid-9e56da9b-d0f8-4fca-96da-9bd0f88fca85"><form corresp="#uuid-6878065a-f869-49d6-b1dc-740442762890"><orth>又</orth><pron xml:lang="zh-Latn-x-pinyin">yòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯs</pron></form><sense xml:id="uuid-a0a3d804-ee85-4f45-8759-3ee233ba027c" resp="#zadrapa" tls:created="2019-10-23T19:38:28.574+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func></gramGrp><def>modal adverb increasing the affective force of a rhetorical question</def></sense><sense xml:id="uuid-1237f6c9-d7d0-45e4-b7f6-c9d7d0c5e457" resp="#zadrapa" tls:created="2021-06-29T04:36:48.591+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c2e1297f-eee9-4391-86a8-d69f2a5cc66c">pad.npro{Q}{SUB}+Vt</tls:syn-func></gramGrp><def>modal adverb increasing the affective force of a rhetorical question</def></sense></entry><entry type="word" xml:id="uuid-ad4dad1c-9544-4cef-8dad-1c95440cef2a" resp="#CH" tls:created="2022-02-16T00:22:01.917+09:00"><form corresp="#uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba"><orth>與</orth><pron xml:lang="zh-Latn-x-pinyin">yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-la</pron></form><sense xml:id="uuid-9507963e-e3e3-4d47-8796-3ee3e30d4777" resp="#CH" tls:created="2022-02-16T00:22:01.917+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def resp="#CH" updated="2022-02-21T17:13:49.811+09:00">=歟(works like 也乎): question particle ending verbal questions.</def></sense><sense xml:id="uuid-00a29aa5-7d6e-4489-a29a-a57d6ec4893e" resp="#CH" tls:created="2022-02-17T23:43:26.355+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-02-21T17:30:03.49+09:00">=歟(works like 也乎)　夫子聖者與？marker of a question sentence with a nominal predicate</def></sense><sense xml:id="uuid-9116263f-4e55-41fb-a95e-7de540cb4338">
+            </sense>
+            <sense xml:id="uuid-5a331d5e-9392-4f2a-b31d-5e9392af2afb" resp="#CH" tls:created="2022-02-16T00:15:25.442+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c1d4d285-715d-4af8-94d2-85715d1af84e">judgmental rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-26T04:37:04.16+09:00">孰不可忍也？"Then what is not bearable?": particle marking an (often generalising) rhetorical question</def>
+            </sense>
+            <sense xml:id="uuid-63cd3fbc-a799-4aff-8d3f-bca7996aff3f" resp="#CH" tls:created="2022-02-17T04:23:09.611+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-45ccdad8-6d3a-4e73-8cda-d86d3a5e734d">with question pronoun</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-26T04:34:22.06+09:00">何器也？"What instrument is this?": particle marking a question sentence with a nominal predicate e.g. 何器也？</def>
+            </sense>
+            <sense xml:id="uuid-ab0af6b9-5150-42e8-8af6-b9515022e820" resp="#CH" tls:created="2022-02-17T19:22:38.031+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-915cc988-c6a9-40b5-9cc9-88c6a900b521">without question pronoun</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-26T04:28:33.288+09:00">十世可知也？"Can one get to know matters ten generations ago?": marks judgmental general questions</def>
+            </sense>
+            <sense xml:id="uuid-8ba60d62-84e2-4353-a60d-6284e29353bb" resp="#CH" tls:created="2022-02-26T04:01:35.898+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-4d29db75-ae6a-4b16-a9db-75ae6acb1653">ppostadnpro{Q}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-26T04:36:36.193+09:00">何也“Why is that?": marking questions consisting of a question pronoun only</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b86b11f7-2a36-4f57-ab11-f72a363f57a0" resp="#CH" tls:created="2021-03-07T19:13:14.694+09:00">
+            <form corresp="#uuid-12896cda-5086-41f3-8aeb-21cd406eec3f #uuid-c2a874a5-484c-427c-9eda-9751bd03d05f">
+                <orth>不乃</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bù nǎi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjut nojX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯʔ nɯɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-7362469a-d148-474c-a246-9ad148374cdf" resp="#CH" tls:created="2021-03-07T19:13:14.694+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-e7f1e69d-7edf-4e5a-bdef-c5995d0fb79d">PPadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>isn't it (exactly) a case of; n'est ce pas?, surely!</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-9e56da9b-d0f8-4fca-96da-9bd0f88fca85">
+            <form corresp="#uuid-6878065a-f869-49d6-b1dc-740442762890">
+                <orth>又</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯs</pron>
+            </form>
+            <sense xml:id="uuid-a0a3d804-ee85-4f45-8759-3ee233ba027c" resp="#zadrapa" tls:created="2019-10-23T19:38:28.574+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                </gramGrp>
+                <def>modal adverb increasing the affective force of a rhetorical question</def>
+            </sense>
+            <sense xml:id="uuid-1237f6c9-d7d0-45e4-b7f6-c9d7d0c5e457" resp="#zadrapa" tls:created="2021-06-29T04:36:48.591+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c2e1297f-eee9-4391-86a8-d69f2a5cc66c">pad.npro{Q}{SUB}+Vt</tls:syn-func>
+                </gramGrp>
+                <def>modal adverb increasing the affective force of a rhetorical question</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ad4dad1c-9544-4cef-8dad-1c95440cef2a" resp="#CH" tls:created="2022-02-16T00:22:01.917+09:00">
+            <form corresp="#uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba">
+                <orth>與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-la</pron>
+            </form>
+            <sense xml:id="uuid-9507963e-e3e3-4d47-8796-3ee3e30d4777" resp="#CH" tls:created="2022-02-16T00:22:01.917+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-21T17:13:49.811+09:00">=歟(works like 也乎): question particle ending verbal questions.</def>
+            </sense>
+            <sense xml:id="uuid-00a29aa5-7d6e-4489-a29a-a57d6ec4893e" resp="#CH" tls:created="2022-02-17T23:43:26.355+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-21T17:30:03.49+09:00">=歟(works like 也乎)　夫子聖者與？marker of a question sentence with a nominal predicate</def>
+            </sense>
+            <sense xml:id="uuid-9116263f-4e55-41fb-a95e-7de540cb4338">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
@@ -155,14 +260,33 @@
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-02-21T17:14:14.235+09:00">(works like 也乎)</def>
-            </sense><sense xml:id="uuid-7bdbce5e-c5d1-4cbe-8a13-d49bf8da6b0a">
+            </sense>
+            <sense xml:id="uuid-7bdbce5e-c5d1-4cbe-8a13-d49bf8da6b0a">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-02-21T17:13:41.475+09:00">=歟(works like 也乎) rhetorical question marker; particle indicating the tentativeness of a statement</def>
-            </sense><sense xml:id="uuid-40667c9a-7d2d-41b6-a67c-9a7d2d21b6c5" resp="#CH" tls:created="2022-02-21T17:17:21.191+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>marking a verbal rhetorical sentence</def></sense><sense xml:id="uuid-81092a66-121e-427a-892a-66121e127a19" resp="#CH" tls:created="2022-02-22T05:40:25.774+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadNpr{PRED}</tls:syn-func></gramGrp><def resp="#CH" updated="2022-02-22T05:44:27.976+09:00">=歟(works like 也乎) question particle in sentence with proper-name nominal predicate</def></sense></entry><entry type="word" xml:id="uuid-c60e41f1-d4e9-450d-a133-28d3ad1abf79">
+            </sense>
+            <sense xml:id="uuid-40667c9a-7d2d-41b6-a67c-9a7d2d21b6c5" resp="#CH" tls:created="2022-02-21T17:17:21.191+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>marking a verbal rhetorical sentence</def>
+            </sense>
+            <sense xml:id="uuid-81092a66-121e-427a-892a-66121e127a19" resp="#CH" tls:created="2022-02-22T05:40:25.774+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadNpr{PRED}</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-22T05:44:27.976+09:00">=歟(works like 也乎) question particle in sentence with proper-name nominal predicate</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c60e41f1-d4e9-450d-a133-28d3ad1abf79">
             <form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
 <orth>乎</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">hū</pron>
@@ -178,38 +302,131 @@
                 </gramGrp>
   <def>final question particle after verbal sentence 管仲儉乎？"Was Guǎnzhòng stingy?"</def>
             </sense>
-<sense xml:id="uuid-b3473ceb-0db3-45c8-873c-eb0db345c8fe" resp="#dsehnal" tls:created="2020-04-28T03:35:58.295+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-acfafcb7-9609-4e1a-8afb-f4be1c254f0a">ppostadS1.adS2</tls:syn-func><tls:sem-feat corresp="#uuid-3956b329-85df-4d4d-b1be-e6bd70198afe">alternative</tls:sem-feat></gramGrp><def>marks alternative questions or statements, similar to 邪</def></sense><sense xml:id="uuid-2b1d6cb3-4e2e-48c2-9d6c-b34e2e98c29f" resp="#zadrapa" tls:created="2021-06-29T17:01:52.74+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-12-25T01:25:11.609+09:00">不亦樂乎 "is that not surely  a joy"  sentence particle marking rhetorical question (often in an apodosis of a conditional)</def></sense><sense xml:id="uuid-a40bb39f-170d-4869-8bb3-9f170dd869dd" resp="#CH" tls:created="2022-02-18T21:18:28.648+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func></gramGrp><def>marks a question sentence with a nominal predicate.</def></sense></entry><entry type="word" xml:id="uuid-0a259919-86e0-4e6b-a599-1986e08e6b63" resp="#CH" tls:created="2022-02-16T04:08:33.361+09:00"><form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>矣乎</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hiX hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢɯʔ ɢaa</pron></form><sense xml:id="uuid-45595c19-b832-4eee-995c-19b8329eee70" resp="#CH" tls:created="2022-02-16T04:08:33.361+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func></gramGrp><def resp="#CH" updated="2022-02-17T17:59:25.704+09:00">marker of a question in the perfective/consummate mode (NB: This is NOT one composite final particle. We are just recording here the instances of two well-defined particles co-occurring in this order.</def></sense></entry><entry type="word" xml:id="uuid-18ffb4f3-48f9-425c-bfb4-f348f9225c7d" resp="#CH" tls:created="2022-02-17T18:30:37.869+09:00"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba"><orth>也與</orth><pron xml:lang="zh-Latn-x-pinyin">yě yú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX yo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ k-la</pron></form><sense xml:id="uuid-2398e493-03be-4120-98e4-9303bea120c4" resp="#CH" tls:created="2022-02-18T04:11:39.142+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func><tls:sem-feat corresp="#uuid-bb4566a7-f58d-4ae9-ab46-a047fd310efb">tentative</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-03-13T05:46:24.082+09:00">=也歟marking a judgemental rhetorical question</def></sense></entry><entry type="word" xml:id="uuid-fde7933f-a304-480f-a793-3fa304a80fb3" resp="#CH" tls:created="2022-02-19T02:03:02.632+09:00"><form corresp="#uuid-e799b325-78d4-4326-a46d-ca3498ecce7a #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>已乎</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢaa</pron></form><sense xml:id="uuid-471820e7-33b0-4b8c-9820-e733b08b8c2a" resp="#CH" tls:created="2022-02-19T02:03:02.632+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func></gramGrp><def>marking a question whether something is certain</def></sense></entry><entry type="word" xml:id="uuid-3c4308cf-4f64-493d-8308-cf4f64093d32" resp="#CH" tls:created="2022-02-19T18:59:56.688+09:00"><form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c"><orth>矣</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢɯʔ</pron></form><sense xml:id="uuid-be143f9e-ae85-4781-943f-9eae85278112" resp="#CH" tls:created="2022-02-19T18:59:56.688+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-bdb1583d-fdd4-4aa1-b158-3dfdd4faa183">ppostadS1.post-S2</tls:syn-func></gramGrp><def>marking the apodosis in a question that is a conditional sentence.</def></sense></entry><entry xml:id="uuid-8e91eea0-a106-4fec-91ee-a0a1067fec13"><form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d">
+<sense xml:id="uuid-b3473ceb-0db3-45c8-873c-eb0db345c8fe" resp="#dsehnal" tls:created="2020-04-28T03:35:58.295+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-acfafcb7-9609-4e1a-8afb-f4be1c254f0a">ppostadS1.adS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3956b329-85df-4d4d-b1be-e6bd70198afe">alternative</tls:sem-feat>
+                </gramGrp>
+                <def>marks alternative questions or statements, similar to 邪</def>
+            </sense>
+            <sense xml:id="uuid-2b1d6cb3-4e2e-48c2-9d6c-b34e2e98c29f" resp="#zadrapa" tls:created="2021-06-29T17:01:52.74+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-12-25T01:25:11.609+09:00">不亦樂乎 "is that not surely  a joy"  sentence particle marking rhetorical question (often in an apodosis of a conditional)</def>
+            </sense>
+            <sense xml:id="uuid-a40bb39f-170d-4869-8bb3-9f170dd869dd" resp="#CH" tls:created="2022-02-18T21:18:28.648+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-0ad45b80-da12-4e04-86f2-9a43fa9955dd">ppostadN{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>marks a question sentence with a nominal predicate.</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0a259919-86e0-4e6b-a599-1986e08e6b63" resp="#CH" tls:created="2022-02-16T04:08:33.361+09:00">
+            <form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>矣乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hiX hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢɯʔ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-45595c19-b832-4eee-995c-19b8329eee70" resp="#CH" tls:created="2022-02-16T04:08:33.361+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-17T17:59:25.704+09:00">marker of a question in the perfective/consummate mode (NB: This is NOT one composite final particle. We are just recording here the instances of two well-defined particles co-occurring in this order.</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-18ffb4f3-48f9-425c-bfb4-f348f9225c7d" resp="#CH" tls:created="2022-02-17T18:30:37.869+09:00">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba">
+                <orth>也與</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yě yú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX yo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ k-la</pron>
+            </form>
+            <sense xml:id="uuid-2398e493-03be-4120-98e4-9303bea120c4" resp="#CH" tls:created="2022-02-18T04:11:39.142+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-bb4566a7-f58d-4ae9-ab46-a047fd310efb">tentative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-03-13T05:46:24.082+09:00">=也歟marking a judgemental rhetorical question</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fde7933f-a304-480f-a793-3fa304a80fb3" resp="#CH" tls:created="2022-02-19T02:03:02.632+09:00">
+            <form corresp="#uuid-e799b325-78d4-4326-a46d-ca3498ecce7a #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>已乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-471820e7-33b0-4b8c-9820-e733b08b8c2a" resp="#CH" tls:created="2022-02-19T02:03:02.632+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
+                </gramGrp>
+                <def>marking a question whether something is certain</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3c4308cf-4f64-493d-8308-cf4f64093d32" resp="#CH" tls:created="2022-02-19T18:59:56.688+09:00">
+            <form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c">
+                <orth>矣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-be143f9e-ae85-4781-943f-9eae85278112" resp="#CH" tls:created="2022-02-19T18:59:56.688+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-bdb1583d-fdd4-4aa1-b158-3dfdd4faa183">ppostadS1.post-S2</tls:syn-func>
+                </gramGrp>
+                <def>marking the apodosis in a question that is a conditional sentence.</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-8e91eea0-a106-4fec-91ee-a0a1067fec13">
+            <form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d">
 <orth>邪</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yé</pron>
                 <pron xml:lang="zh-x-oc">la</pron>
                 <pron xml:lang="zh-x-mc">jɣɛ</pron>
-            </form><form corresp="#uuid-cf26f85b-5790-48dc-93fd-fdd13dc565f8">
+            </form>
+            <form corresp="#uuid-cf26f85b-5790-48dc-93fd-fdd13dc565f8">
 <orth>邪</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yé</pron>
                 <pron xml:lang="zh-x-oc">k-la</pron>
                 <pron xml:lang="zh-x-mc">jɣɛ</pron>
-            </form><sense xml:id="uuid-3d05bcbe-6c55-4fc3-bdbf-18fbf9e2436c">
+            </form>
+            <sense xml:id="uuid-3d05bcbe-6c55-4fc3-bdbf-18fbf9e2436c">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
   <tls:sem-feat corresp="#uuid-3956b329-85df-4d4d-b1be-e6bd70198afe">alternative</tls:sem-feat>
                 </gramGrp>
   <def>question particle, marking disjunctive question</def>
-            </sense><sense xml:id="uuid-47ec3a50-d29e-419e-a1d2-de85e3174794">
+            </sense>
+            <sense xml:id="uuid-47ec3a50-d29e-419e-a1d2-de85e3174794">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def>question particle</def>
-            </sense><sense xml:id="uuid-eb35babd-5524-4fbc-8028-daf86cac79d3">
+            </sense>
+            <sense xml:id="uuid-eb35babd-5524-4fbc-8028-daf86cac79d3">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
   <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
                 </gramGrp>
   <def>?. Surely not</def>
-            </sense></entry><entry xml:id="uuid-0ef1fb39-5a88-41c7-b1fb-395a8861c7d8"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-0ef1fb39-5a88-41c7-b1fb-395a8861c7d8">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb">
 <orth>也無</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yě wú</pron>
                 <pron xml:lang="zh-x-oc">lalʔ ma</pron>
@@ -245,25 +462,77 @@
                         </note>
                     </bibl>
                 </listBibl>
-            </form><sense xml:id="uuid-abcfd3e3-7640-4cc9-b2a9-9c31647fe3df">
+            </form>
+            <sense xml:id="uuid-abcfd3e3-7640-4cc9-b2a9-9c31647fe3df">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
                 </gramGrp>
   <def>final particles marking a yes/no question (usually (but not always) interrogative adverb 還 has to appear in this type of construction: 還...也無) (Note that ist has to be analyzed whether 也無 should be regarded as a constituent or not)</def>
-            </sense></entry><entry xml:id="uuid-946863c9-522f-47dc-a863-c9522f87dc40"><form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d"><orth>耶</orth><pron xml:lang="zh-Latn-x-pinyin">yé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">la</pron></form><sense xml:id="uuid-9d7317bc-9cc0-4e44-8ef8-4ffe1f0f7b1c" resp="#CH" tls:created="2019-12-25T06:59:32.136+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>particle marking rhetorical questions</def></sense></entry><entry xml:id="uuid-305b5fe2-3268-4680-9b5f-e23268968085"><form>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-946863c9-522f-47dc-a863-c9522f87dc40">
+            <form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d">
+                <orth>耶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">la</pron>
+            </form>
+            <sense xml:id="uuid-9d7317bc-9cc0-4e44-8ef8-4ffe1f0f7b1c" resp="#CH" tls:created="2019-12-25T06:59:32.136+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>particle marking rhetorical questions</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-305b5fe2-3268-4680-9b5f-e23268968085">
+            <form>
 <orth>那</orth>
                 <pron xml:lang="zh-Latn-x-pinyin"/>
                 <pron xml:lang="zh-x-oc"/>
                 <pron xml:lang="zh-x-mc"/>
-            </form><sense xml:id="uuid-1e0198bc-562f-4aa2-94a4-398ee6cb5709">
+            </form>
+            <sense xml:id="uuid-1e0198bc-562f-4aa2-94a4-398ee6cb5709">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-692c0672-88f0-46d3-9778-0dcbd2eaf54b">ppostadV</tls:syn-func>
   <tls:sem-feat corresp="#uuid-d82256cd-a1c1-4a58-b15f-615a92237386">question</tls:sem-feat>
                 </gramGrp>
   <def>sentence final particle corresponding roughly to modern Manadarin 呢 (indicating the speaker's assumption that his proposition is true: "S, is it not?" "it is well S"</def>
-            </sense></entry><entry type="word" xml:id="uuid-c880efdc-d355-46d6-80ef-dcd35546d639" resp="#CH" tls:created="2022-02-21T00:42:07.356+09:00"><form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-e799b325-78d4-4326-a46d-ca3498ecce7a #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>而已乎</orth><pron xml:lang="zh-Latn-x-pinyin">ér yǐ hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyi yiX hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ k-lɯʔ ɢaa</pron></form><sense xml:id="uuid-17111172-7928-4152-9111-727928815223" resp="#CH" tls:created="2022-02-21T00:42:07.356+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func></gramGrp><def>marks a restrictive questions "is that all?"</def></sense></entry><entry type="word" xml:id="uuid-c4e9c22d-4328-4b00-a9c2-2d43285b0014" resp="#CH" tls:created="2022-02-21T01:56:01.339+09:00"><form corresp="#uuid-37d48986-0938-4d3c-84fb-6e713e43a651"><orth>哉</orth><pron xml:lang="zh-Latn-x-pinyin">zāi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skɯɯ</pron></form><sense xml:id="uuid-0ee1751d-ed7e-404c-a175-1ded7ef04c6b" resp="#CH" tls:created="2022-02-21T01:56:01.339+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def>marking urgent questions</def></sense><sense xml:id="uuid-cb6f207b-5cbf-42ce-aced-42965f1f40a5">
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c880efdc-d355-46d6-80ef-dcd35546d639" resp="#CH" tls:created="2022-02-21T00:42:07.356+09:00">
+            <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-e799b325-78d4-4326-a46d-ca3498ecce7a #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>而已乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ér yǐ hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyi yiX hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ k-lɯʔ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-17111172-7928-4152-9111-727928815223" resp="#CH" tls:created="2022-02-21T00:42:07.356+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
+                </gramGrp>
+                <def>marks a restrictive questions "is that all?"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c4e9c22d-4328-4b00-a9c2-2d43285b0014" resp="#CH" tls:created="2022-02-21T01:56:01.339+09:00">
+            <form corresp="#uuid-37d48986-0938-4d3c-84fb-6e713e43a651">
+                <orth>哉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zāi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skɯɯ</pron>
+            </form>
+            <sense xml:id="uuid-0ee1751d-ed7e-404c-a175-1ded7ef04c6b" resp="#CH" tls:created="2022-02-21T01:56:01.339+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def>marking urgent questions</def>
+            </sense>
+            <sense xml:id="uuid-cb6f207b-5cbf-42ce-aced-42965f1f40a5">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-f7d603cd-75d4-470b-8cd3-01fdd56cfc76">ppostad.npro{Q}</tls:syn-func>
@@ -271,7 +540,8 @@
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
   <def>question marker</def>
-            </sense><sense xml:id="uuid-d539d007-f929-41e8-9290-fe66331e0289">
+            </sense>
+            <sense xml:id="uuid-d539d007-f929-41e8-9290-fe66331e0289">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
@@ -279,7 +549,8 @@
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def resp="#CH" updated="2022-02-22T05:15:32.876+09:00">天何言哉？(in questions) rhetorical</def>
-            </sense><sense xml:id="uuid-4c12e42a-8846-4e63-89df-e241de037b7b">
+            </sense>
+            <sense xml:id="uuid-4c12e42a-8846-4e63-89df-e241de037b7b">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
@@ -287,17 +558,77 @@
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def resp="#CH" updated="2021-06-21T04:09:03.082+09:00">final particle used after rhetorical questions inviting a negative answer MOVE TO PRECEDING</def>
-            </sense><sense xml:id="uuid-4d75ab86-7ca4-4070-b5ab-867ca4d07005" resp="#CH" tls:created="2020-12-16T01:21:38.982+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-4d29db75-ae6a-4b16-a9db-75ae6acb1653">ppostadnpro{Q}</tls:syn-func></gramGrp><def>particle marking a question as being of particular concern</def></sense></entry><entry type="word" xml:id="uuid-20b9acf5-1035-497a-b9ac-f51035497ad0" resp="#CH" tls:created="2022-02-22T05:05:53.193+09:00"><form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba #uuid-37d48986-0938-4d3c-84fb-6e713e43a651"><orth>也與哉</orth><pron xml:lang="zh-Latn-x-pinyin">yě yú zāi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX yo --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ k-la skɯɯ</pron></form><sense xml:id="uuid-f87eab9f-9f30-46f6-beab-9f9f30f6f691" resp="#CH" tls:created="2022-02-22T05:05:53.193+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>exclamatory rhetorical question</def></sense></entry><entry type="word" xml:id="uuid-02daa8a6-1a56-4f9b-9aa8-a61a568f9bbc" resp="#CH" tls:created="2022-11-06T19:18:06.625+09:00"><form corresp="#uuid-e0035927-e8c8-49e1-ad7f-653e4cd05d04"><orth>獨</orth><pron xml:lang="zh-Latn-x-pinyin">dú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">duwk</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dooɡ</pron></form><sense xml:id="uuid-0ceccf6c-402e-4642-accf-6c402e46420c" resp="#CH" tls:created="2022-11-06T19:18:06.625+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func><tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat></gramGrp><def>marker of rhetorical questions, expected answer: "no!"</def></sense></entry><entry type="word" xml:id="uuid-8dfc8026-2357-424a-bc80-262357d24ae1" resp="#CH" tls:created="2023-08-20T14:52:21.995+09:00"><form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3"><orth>反</orth><pron xml:lang="zh-Latn-x-pinyin">fǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjonX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">panʔ</pron></form><sense xml:id="uuid-bc3c1b66-f900-4e9d-bc1b-66f900ce9daf" resp="#CH" tls:created="2023-08-20T14:52:21.995+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func><tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat></gramGrp><def>rhetorical question particle</def></sense></entry><entry xml:id="uuid-40b4f6b4-ea71-4339-b4f6-b4ea7163390f"><form corresp="#uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba">
+            </sense>
+            <sense xml:id="uuid-4d75ab86-7ca4-4070-b5ab-867ca4d07005" resp="#CH" tls:created="2020-12-16T01:21:38.982+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-4d29db75-ae6a-4b16-a9db-75ae6acb1653">ppostadnpro{Q}</tls:syn-func>
+                </gramGrp>
+                <def>particle marking a question as being of particular concern</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-20b9acf5-1035-497a-b9ac-f51035497ad0" resp="#CH" tls:created="2022-02-22T05:05:53.193+09:00">
+            <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3 #uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba #uuid-37d48986-0938-4d3c-84fb-6e713e43a651">
+                <orth>也與哉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yě yú zāi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX yo --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lalʔ k-la skɯɯ</pron>
+            </form>
+            <sense xml:id="uuid-f87eab9f-9f30-46f6-beab-9f9f30f6f691" resp="#CH" tls:created="2022-02-22T05:05:53.193+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-04c5d26e-838a-4267-a260-5926111fe077">PPpostadS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>exclamatory rhetorical question</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-02daa8a6-1a56-4f9b-9aa8-a61a568f9bbc" resp="#CH" tls:created="2022-11-06T19:18:06.625+09:00">
+            <form corresp="#uuid-e0035927-e8c8-49e1-ad7f-653e4cd05d04">
+                <orth>獨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">duwk</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">dooɡ</pron>
+            </form>
+            <sense xml:id="uuid-0ceccf6c-402e-4642-accf-6c402e46420c" resp="#CH" tls:created="2022-11-06T19:18:06.625+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ce77e9df-9880-4f13-9f43-d01ce654035c">rhetorical</tls:sem-feat>
+                </gramGrp>
+                <def>marker of rhetorical questions, expected answer: "no!"</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8dfc8026-2357-424a-bc80-262357d24ae1" resp="#CH" tls:created="2023-08-20T14:52:21.995+09:00">
+            <form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3">
+                <orth>反</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjonX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">panʔ</pron>
+            </form>
+            <sense xml:id="uuid-bc3c1b66-f900-4e9d-bc1b-66f900ce9daf" resp="#CH" tls:created="2023-08-20T14:52:21.995+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-334de932-4bb9-418a-b9a6-6beaf2ce3a62">padV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ff53e5da-89f7-4601-ae05-d2119e933dfa">rhetorical question</tls:sem-feat>
+                </gramGrp>
+                <def>rhetorical question particle</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-40b4f6b4-ea71-4339-b4f6-b4ea7163390f">
+            <form corresp="#uuid-942d8c31-ee95-4a32-b6d8-70181e51c3ba">
 <orth>與</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
                 <pron xml:lang="zh-x-oc">k-la</pron>
                 <pron xml:lang="zh-x-mc">ji̯ɤ</pron>
-            </form><form corresp="#uuid-5122d354-edb8-4cfa-a2ca-153036c5f174">
+            </form>
+            <form corresp="#uuid-5122d354-edb8-4cfa-a2ca-153036c5f174">
 <orth>歟</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yú</pron>
                 <pron xml:lang="zh-x-oc">k-la</pron>
                 <pron xml:lang="zh-x-mc">ji̯ɤ</pron>
-            </form><sense xml:id="uuid-c7cdb68b-70b0-4a90-a979-b9c491dd9eba">
+            </form>
+            <sense xml:id="uuid-c7cdb68b-70b0-4a90-a979-b9c491dd9eba">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
@@ -305,12 +636,16 @@
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
   <def>sentence final particle indicating a tentative modality: perhaps?</def>
-            </sense></entry><entry xml:id="uuid-08d51acc-2cd1-4783-951a-cc2cd137830a"><form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2">
+            </sense>
+        </entry>
+        <entry xml:id="uuid-08d51acc-2cd1-4783-951a-cc2cd137830a">
+            <form corresp="#uuid-a28fe501-dd13-47f5-8d2f-613d2124c7e2">
 <orth>諸</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">zhū</pron>
                 <pron xml:lang="zh-x-oc">klja</pron>
                 <pron xml:lang="zh-x-mc">tɕi̯ɤ</pron>
-            </form><sense xml:id="uuid-d05815af-0a67-4aab-b611-77d6e7ac91aa">
+            </form>
+            <sense xml:id="uuid-d05815af-0a67-4aab-b611-77d6e7ac91aa">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
@@ -318,5 +653,7 @@
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def>interrogative final particle, contraction of 之乎</def>
-            </sense></entry></div>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6288915e-93df-4704-aef4-b3329fc8a127">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6288915e-93df-4704-aef4-b3329fc8a127">
 <head>VILLAIN</head>
     <list type="altnames">
 <item>CRIMINAL</item>
@@ -229,7 +230,22 @@
                 </gramGrp>
   <def>villain; villains</def>
             </sense>
-<sense xml:id="uuid-1b900431-618c-4043-a197-b47627d01f9b" resp="#CH" tls:created="2019-12-14T19:14:09.061+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>generally: the villain</def></sense><sense xml:id="uuid-4a0581fc-3161-4ce5-8581-fc31617ce5c7" resp="#dsehnal" tls:created="2023-05-13T18:21:16.378+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>robber's; villain's</def></sense></entry>
+<sense xml:id="uuid-1b900431-618c-4043-a197-b47627d01f9b" resp="#CH" tls:created="2019-12-14T19:14:09.061+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>generally: the villain</def>
+            </sense>
+            <sense xml:id="uuid-4a0581fc-3161-4ce5-8581-fc31617ce5c7" resp="#dsehnal" tls:created="2023-05-13T18:21:16.378+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>robber's; villain's</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c9a1c811-7c00-4c2b-bd9f-dbf0e3d3476e">
             <form corresp="#uuid-86b4275f-a52d-4b33-8417-651cda3bf7ea">
 <orth>虎</orth>
@@ -277,7 +293,7 @@
   <tls:syn-func corresp="#uuid-e2aba7cd-c446-4bfd-9560-99aec84a0184">n.red</tls:syn-func>
   <tls:sem-feat corresp="#uuid-3903ed14-2d1f-4023-af77-5fb0374501a2">vocative</tls:sem-feat>
                 </gramGrp>
-  <def>villain, villain!; thief, thief!</def>
+  <def resp="#CH" updated="2024-10-04T23:15:27.68+09:00">villain, villain!; thief, thief!</def>
             </sense>
 <sense xml:id="uuid-f8bb655f-67e1-4f9f-82d7-e97ddcfed5e7">
 <gramGrp>
@@ -293,7 +309,7 @@
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
   <tls:sem-feat corresp="#uuid-3903ed14-2d1f-4023-af77-5fb0374501a2">vocative</tls:sem-feat>
                 </gramGrp>
-  <def>(you) villain, thief!</def>
+  <def resp="#CH" updated="2024-10-04T23:15:30.798+09:00">(you) scoundrel, villain, thief!</def>
             </sense>
 <sense xml:id="uuid-d7d6a9d1-74f3-4bc9-b391-a3e87ecc8bef">
 <gramGrp>
@@ -302,7 +318,7 @@
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>villainy; chicanery</def>
+  <def resp="#CH" updated="2024-10-04T23:15:26.54+09:00">villainy; chicanery</def>
             </sense>
 <sense xml:id="uuid-4b5c4580-0079-4e54-ba5a-751e0dbcfff0">
 <gramGrp>
@@ -310,7 +326,7 @@
   <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>given to villainy</def>
+  <def resp="#CH" updated="2024-10-04T23:15:21.165+09:00">given to villainy</def>
             </sense>
 <sense xml:id="uuid-695a3fc2-a91e-4e68-9210-f2dd9ad6be5c">
 <gramGrp>
@@ -319,9 +335,47 @@
   <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>be villainous, commit acts of villainy</def>
+  <def resp="#CH" updated="2024-10-04T23:15:19.587+09:00">act like a scoundrel; be villainous, commit acts of villainy</def>
             </sense>
-<sense xml:id="uuid-31baec77-7168-4c5b-b9f2-4a021bae4b47" resp="#CH" tls:created="2019-12-14T19:24:32.338+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>generic: the bandit, thief</def></sense><sense xml:id="uuid-6e1c95ef-eb2c-45ac-8832-257d7e4b6521" resp="#zadrapa" tls:created="2020-01-21T23:01:56.202+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-1aeca8d0-8abc-4216-8911-c52bfcdc6cac">npostN</tls:syn-func></gramGrp><def>N's malefactor, the one who does N harm</def></sense><sense xml:id="uuid-6efad3ca-914c-477d-bad3-ca914cf77d96" resp="#CH" tls:created="2020-04-08T00:42:39.272+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func><tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat></gramGrp><def>scope object: like thief</def></sense><sense xml:id="uuid-1f1cb1fb-0b13-4dee-9cb1-fb0b138dee64" resp="#zadrapa" tls:created="2020-05-19T18:51:23.799+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat></gramGrp><def>to deem N a malefactor</def></sense><sense xml:id="uuid-a474b7aa-927c-48f0-b4b7-aa927c48f05e" resp="#zadrapa" tls:created="2020-05-20T16:33:30.208+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9bc48015-f278-4b2b-8dfe-45db1d71255c">vtoN</tls:syn-func></gramGrp><def>be considered a malefactor</def></sense></entry>
+<sense xml:id="uuid-31baec77-7168-4c5b-b9f2-4a021bae4b47" resp="#CH" tls:created="2019-12-14T19:24:32.338+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-04T23:15:28.755+09:00">generic: scoundrel; the bandit, thief</def>
+            </sense>
+            <sense xml:id="uuid-6e1c95ef-eb2c-45ac-8832-257d7e4b6521" resp="#zadrapa" tls:created="2020-01-21T23:01:56.202+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-1aeca8d0-8abc-4216-8911-c52bfcdc6cac">npostN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-04T23:15:22.997+09:00">N's malefactor, the one who does N harm</def>
+            </sense>
+            <sense xml:id="uuid-6efad3ca-914c-477d-bad3-ca914cf77d96" resp="#CH" tls:created="2020-04-08T00:42:39.272+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c65b2c3d-9d08-4c44-b958-ba9cd849f304">reference=object</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-04T23:15:24.97+09:00">scope object: like a thief</def>
+            </sense>
+            <sense xml:id="uuid-1f1cb1fb-0b13-4dee-9cb1-fb0b138dee64" resp="#zadrapa" tls:created="2020-05-19T18:51:23.799+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d78eabc5-f1df-43e2-8fa5-c6514124ec21">putative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-04T23:15:18.04+09:00">to deem N a malefactor or scoundrel</def>
+            </sense>
+            <sense xml:id="uuid-a474b7aa-927c-48f0-b4b7-aa927c48f05e" resp="#zadrapa" tls:created="2020-05-20T16:33:30.208+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9bc48015-f278-4b2b-8dfe-45db1d71255c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-04T23:15:17.678+09:00">be considered a malefactor or scoundrel</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a3436769-a890-419d-a3fc-ad94ba5cae20">
             <form corresp="#uuid-acfc7917-3d6a-4269-98c2-61f66359b155 #uuid-dfdd6ead-9c1c-4fc1-bab8-ab654fc26794">
 <orth>寇盜</orth>
@@ -470,5 +524,177 @@
   <def>(male and female whales&gt;) villainous enemy leadership</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d148ce42-03af-42a9-bb88-f9cae05af835" resp="#CH" tls:created="2020-01-03T19:58:51.291+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-3b6430fa-342c-4473-9070-dbb11a899d15" resp="#CH" tls:created="2020-01-03T19:58:51.291+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>desperadoes, bravoes; hired thugs</def></sense></entry><entry type="word" xml:id="uuid-6245cec1-4937-4f1b-b6eb-2d52f6b313da" resp="#CH" tls:created="2020-01-03T19:59:04.938+09:00"><form corresp="#uuid-fbc9c501-30dc-4992-9d1e-f5ec90d6d659 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e"><orth>遊士</orth><pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yuw dzriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lu dzrɯʔ</pron></form><sense xml:id="uuid-9a85533c-1cfd-43a2-a870-50eae749b2ec" resp="#CH" tls:created="2020-01-03T19:59:04.938+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>desperadoes, bravoes; hired thugs</def></sense></entry><entry type="word" xml:id="uuid-7e792015-99bb-48e1-9c3a-c58642e6e4ac" resp="#CH" tls:created="2020-01-03T20:09:25.44+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-ccb9b385-fabf-48c4-834b-418d4a2d9273" resp="#CH" tls:created="2020-01-03T20:09:25.44+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>=遊客 itinerant bravoes</def></sense></entry><entry type="word" xml:id="uuid-be63bc9a-001f-4e93-a6ef-7d635b4d6003" resp="#CH" tls:created="2020-01-03T20:09:39.628+09:00"><form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059 #uuid-283cffdc-5070-4a60-85f5-cbd863236a72"><orth>客游</orth><pron xml:lang="zh-Latn-x-pinyin">kè yóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaek yuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khraaɡ lu</pron></form><sense xml:id="uuid-9e4916be-5d44-476e-94b1-5562c87265c9" resp="#CH" tls:created="2020-01-03T20:09:39.628+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func></gramGrp><def>=遊客 itinerant bravoes</def></sense></entry><entry type="word" xml:id="uuid-17dd1ee8-3c66-4da3-904a-346f14712886" resp="#CH" tls:created="2020-01-03T20:09:53.417+09:00"><form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059 #uuid-283cffdc-5070-4a60-85f5-cbd863236a72"><orth>客游</orth><pron xml:lang="zh-Latn-x-pinyin">kè yóu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaek yuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khraaɡ lu</pron></form><sense xml:id="uuid-35ca4071-8e51-4463-ad5b-5851a9ecdf2b" resp="#CH" tls:created="2020-01-03T20:09:53.417+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func></gramGrp><def>=遊客 itinerant bravoes</def></sense></entry><entry type="word" xml:id="uuid-09345818-5274-48d6-9e91-7b086b30c5b8" resp="#CH" tls:created="2020-01-03T20:19:07.922+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-37cb8d16-a55b-408f-8f6a-041b9ebf88eb" resp="#CH" tls:created="2020-01-03T20:19:07.922+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>desperadoes, bravoes</def></sense></entry><entry type="word" xml:id="uuid-e2050405-104c-4c7c-8d9c-168020f97502" resp="#CH" tls:created="2020-01-03T20:19:19.743+09:00"><form corresp="#uuid-283cffdc-5070-4a60-85f5-cbd863236a72 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e"><orth>游士</orth><pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yuw dzriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lu dzrɯʔ</pron></form><sense xml:id="uuid-083b2191-9b70-4154-9401-793adb5751c5" resp="#CH" tls:created="2020-01-03T20:19:19.743+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NP</tls:syn-func></gramGrp><def>desperadoes, bravoes</def></sense></entry><entry type="word" xml:id="uuid-42379c98-a91d-4a77-ab67-aabe1dd4521b" resp="#CH" tls:created="2020-01-03T20:19:29.887+09:00"><form corresp="#uuid-283cffdc-5070-4a60-85f5-cbd863236a72 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e"><orth>游士</orth><pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yuw dzriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lu dzrɯʔ</pron></form><sense xml:id="uuid-0aebb756-c65e-4f67-a159-210f9b64ab30" resp="#CH" tls:created="2020-01-03T20:19:29.887+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func></gramGrp><def>desperadoes, bravoes</def></sense></entry><entry type="word" xml:id="uuid-539a63f6-341a-4244-9a63-f6341a5244c7" resp="#zadrapa" tls:created="2020-06-10T23:31:26.456+09:00"><form corresp="#uuid-3755239a-692c-46aa-89c0-935de3562fe1 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>姦人</orth><pron xml:lang="zh-Latn-x-pinyin">jiān rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kaen nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraan njin</pron></form><sense xml:id="uuid-335ce445-b3bf-4d98-9ce4-45b3bf1d9881" resp="#zadrapa" tls:created="2020-06-10T23:31:26.456+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat></gramGrp><def>villains in general</def></sense></entry><entry type="word" xml:id="uuid-1409a7dc-e1a1-4586-89a7-dce1a1458654"><form><orth>跖</orth><pron xml:lang="zh-Latn-x-pinyin">zhí</pron></form><def/><sense xml:id="uuid-c070ef4c-4c04-4092-b0ef-4c4c048092e4" resp="#zadrapa" tls:created="2020-06-23T16:33:49.909+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>a villain like Robber Zhí</def></sense><sense xml:id="uuid-631719de-0413-4ad1-9719-de04138ad145" resp="#zadrapa" tls:created="2022-06-13T20:03:11.237+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2022-06-20T22:01:11.987+09:00">Robber Zhí</def></sense></entry><entry type="word" xml:id="uuid-599a3a9c-aff6-488d-9a3a-9caff6a88de7" resp="#zadrapa" tls:created="2022-05-12T19:28:23.83+09:00"><form corresp="#uuid-f359d187-f083-47e8-a6a5-0971b2bb14f5"><orth>惡</orth><pron xml:lang="zh-Latn-x-pinyin">è</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">'ak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaaɡ</pron></form><sense xml:id="uuid-2f95f659-9533-47ca-95f6-59953337ca85" resp="#zadrapa" tls:created="2022-05-12T19:28:23.83+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>villain, evil-doer</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d148ce42-03af-42a9-bb88-f9cae05af835" resp="#CH" tls:created="2020-01-03T19:58:51.291+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-3b6430fa-342c-4473-9070-dbb11a899d15" resp="#CH" tls:created="2020-01-03T19:58:51.291+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>desperadoes, bravoes; hired thugs</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6245cec1-4937-4f1b-b6eb-2d52f6b313da" resp="#CH" tls:created="2020-01-03T19:59:04.938+09:00">
+            <form corresp="#uuid-fbc9c501-30dc-4992-9d1e-f5ec90d6d659 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
+                <orth>遊士</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yuw dzriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lu dzrɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-9a85533c-1cfd-43a2-a870-50eae749b2ec" resp="#CH" tls:created="2020-01-03T19:59:04.938+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>desperadoes, bravoes; hired thugs</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7e792015-99bb-48e1-9c3a-c58642e6e4ac" resp="#CH" tls:created="2020-01-03T20:09:25.44+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-ccb9b385-fabf-48c4-834b-418d4a2d9273" resp="#CH" tls:created="2020-01-03T20:09:25.44+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>=遊客 itinerant bravoes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-be63bc9a-001f-4e93-a6ef-7d635b4d6003" resp="#CH" tls:created="2020-01-03T20:09:39.628+09:00">
+            <form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059 #uuid-283cffdc-5070-4a60-85f5-cbd863236a72">
+                <orth>客游</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kè yóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaek yuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khraaɡ lu</pron>
+            </form>
+            <sense xml:id="uuid-9e4916be-5d44-476e-94b1-5562c87265c9" resp="#CH" tls:created="2020-01-03T20:09:39.628+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                </gramGrp>
+                <def>=遊客 itinerant bravoes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-17dd1ee8-3c66-4da3-904a-346f14712886" resp="#CH" tls:created="2020-01-03T20:09:53.417+09:00">
+            <form corresp="#uuid-f00f5a4d-e01e-4483-ab18-68b16f818059 #uuid-283cffdc-5070-4a60-85f5-cbd863236a72">
+                <orth>客游</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kè yóu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaek yuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khraaɡ lu</pron>
+            </form>
+            <sense xml:id="uuid-35ca4071-8e51-4463-ad5b-5851a9ecdf2b" resp="#CH" tls:created="2020-01-03T20:09:53.417+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                </gramGrp>
+                <def>=遊客 itinerant bravoes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-09345818-5274-48d6-9e91-7b086b30c5b8" resp="#CH" tls:created="2020-01-03T20:19:07.922+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-37cb8d16-a55b-408f-8f6a-041b9ebf88eb" resp="#CH" tls:created="2020-01-03T20:19:07.922+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>desperadoes, bravoes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e2050405-104c-4c7c-8d9c-168020f97502" resp="#CH" tls:created="2020-01-03T20:19:19.743+09:00">
+            <form corresp="#uuid-283cffdc-5070-4a60-85f5-cbd863236a72 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
+                <orth>游士</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yuw dzriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lu dzrɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-083b2191-9b70-4154-9401-793adb5751c5" resp="#CH" tls:created="2020-01-03T20:19:19.743+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NP</tls:syn-func>
+                </gramGrp>
+                <def>desperadoes, bravoes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-42379c98-a91d-4a77-ab67-aabe1dd4521b" resp="#CH" tls:created="2020-01-03T20:19:29.887+09:00">
+            <form corresp="#uuid-283cffdc-5070-4a60-85f5-cbd863236a72 #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
+                <orth>游士</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yóu shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yuw dzriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lu dzrɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-0aebb756-c65e-4f67-a159-210f9b64ab30" resp="#CH" tls:created="2020-01-03T20:19:29.887+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                </gramGrp>
+                <def>desperadoes, bravoes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-539a63f6-341a-4244-9a63-f6341a5244c7" resp="#zadrapa" tls:created="2020-06-10T23:31:26.456+09:00">
+            <form corresp="#uuid-3755239a-692c-46aa-89c0-935de3562fe1 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>姦人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kaen nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kraan njin</pron>
+            </form>
+            <sense xml:id="uuid-335ce445-b3bf-4d98-9ce4-45b3bf1d9881" resp="#zadrapa" tls:created="2020-06-10T23:31:26.456+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>villains in general</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1409a7dc-e1a1-4586-89a7-dce1a1458654">
+            <form>
+                <orth>跖</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhí</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-c070ef4c-4c04-4092-b0ef-4c4c048092e4" resp="#zadrapa" tls:created="2020-06-23T16:33:49.909+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>a villain like Robber Zhí</def>
+            </sense>
+            <sense xml:id="uuid-631719de-0413-4ad1-9719-de04138ad145" resp="#zadrapa" tls:created="2022-06-13T20:03:11.237+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-06-20T22:01:11.987+09:00">Robber Zhí</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-599a3a9c-aff6-488d-9a3a-9caff6a88de7" resp="#zadrapa" tls:created="2022-05-12T19:28:23.83+09:00">
+            <form corresp="#uuid-f359d187-f083-47e8-a6a5-0971b2bb14f5">
+                <orth>惡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">è</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">'ak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qaaɡ</pron>
+            </form>
+            <sense xml:id="uuid-2f95f659-9533-47ca-95f6-59953337ca85" resp="#zadrapa" tls:created="2022-05-12T19:28:23.83+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>villain, evil-doer</def>
+            </sense>
+        </entry>
+    </div>
 </div>

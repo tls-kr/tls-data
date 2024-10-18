@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ad76aa1f-cbab-460d-9fd7-639646e2e466">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ad76aa1f-cbab-460d-9fd7-639646e2e466">
 <head>JUMP</head>
     <list type="altnames">
 <item>LEAP</item>
@@ -251,7 +252,14 @@
                 </gramGrp>
   <def>to jump up and down, to leap in the water like a fish[to bounce off (like an arrow)][CA]</def>
             </sense>
-<sense xml:id="uuid-4a236633-3455-4970-a366-333455c97042" resp="#CH" tls:created="2024-02-14T18:37:14.824+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>cause N to leap up</def></sense></entry>
+<sense xml:id="uuid-4a236633-3455-4970-a366-333455c97042" resp="#CH" tls:created="2024-02-14T18:37:14.824+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>cause N to leap up</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-52c8700c-2980-42a8-a4cd-d781b55b97c7">
             <form corresp="#uuid-116f76e4-12f2-45f0-99be-a12bccfa72ba">
 <orth>騰</orth>
@@ -432,5 +440,65 @@
   <def>jump up</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5cec1095-79c1-4c9e-9956-a3dc284d1a1f" resp="#CH" tls:created="2019-12-23T21:51:03.302+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-9133e0c0-8ff0-4010-9cec-941d8c54fb82" resp="#CH" tls:created="2019-12-23T21:51:03.302+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VP(oN)</tls:syn-func></gramGrp><def>pounce at the contextually retrievable N</def></sense></entry><entry type="word" xml:id="uuid-f300bbf1-991a-47f3-b83e-77f3fb1faa5c" resp="#CH" tls:created="2019-12-23T21:51:51.253+09:00"><form corresp="#uuid-ac8690a7-bbae-445a-a493-0cf2418e5bc8 #uuid-eed04839-12c4-4931-80cf-b04e9c4f3cbd"><orth>跳踉</orth><pron xml:lang="zh-Latn-x-pinyin">tiáo liáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dew ljang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-leew ɡ-raŋ</pron></form><sense xml:id="uuid-05a8f94e-bdb9-44bc-9446-a487c4e421ec" resp="#CH" tls:created="2019-12-23T21:51:51.253+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VP(oN)</tls:syn-func></gramGrp><def>pounce at the contextually retrievable N</def></sense></entry><entry type="word" xml:id="uuid-b9239e5a-9474-4b0d-a39e-5a94740b0d8e"><form><orth>赴</orth><pron xml:lang="zh-Latn-x-pinyin">fù</pron></form><def/><sense xml:id="uuid-ce9f8d61-ab47-441e-9f8d-61ab47f41e49" resp="#zadrapa" tls:created="2020-05-29T16:26:46.449+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat></gramGrp><def>jump into</def></sense></entry><entry type="word" xml:id="uuid-05cdfe40-1909-45cc-8dfe-401909c5cc45"><form><orth>陸</orth><pron xml:lang="zh-Latn-x-pinyin">lù</pron></form><def/><sense xml:id="uuid-89e03308-f61b-4a1d-a033-08f61b9a1d17" resp="#CH" tls:created="2021-03-05T23:08:43.493+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>prance about</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5cec1095-79c1-4c9e-9956-a3dc284d1a1f" resp="#CH" tls:created="2019-12-23T21:51:03.302+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-9133e0c0-8ff0-4010-9cec-941d8c54fb82" resp="#CH" tls:created="2019-12-23T21:51:03.302+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VP(oN)</tls:syn-func>
+                </gramGrp>
+                <def>pounce at the contextually retrievable N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f300bbf1-991a-47f3-b83e-77f3fb1faa5c" resp="#CH" tls:created="2019-12-23T21:51:51.253+09:00">
+            <form corresp="#uuid-ac8690a7-bbae-445a-a493-0cf2418e5bc8 #uuid-eed04839-12c4-4931-80cf-b04e9c4f3cbd">
+                <orth>跳踉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiáo liáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dew ljang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-leew ɡ-raŋ</pron>
+            </form>
+            <sense xml:id="uuid-05a8f94e-bdb9-44bc-9446-a487c4e421ec" resp="#CH" tls:created="2019-12-23T21:51:51.253+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VP(oN)</tls:syn-func>
+                </gramGrp>
+                <def>pounce at the contextually retrievable N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b9239e5a-9474-4b0d-a39e-5a94740b0d8e">
+            <form>
+                <orth>赴</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fù</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-ce9f8d61-ab47-441e-9f8d-61ab47f41e49" resp="#zadrapa" tls:created="2020-05-29T16:26:46.449+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-83f3fdd7-af64-4c8f-b156-bb6a0e761030">N=place</tls:sem-feat>
+                </gramGrp>
+                <def>jump into</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-05cdfe40-1909-45cc-8dfe-401909c5cc45">
+            <form>
+                <orth>陸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lù</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-89e03308-f61b-4a1d-a033-08f61b9a1d17" resp="#CH" tls:created="2021-03-05T23:08:43.493+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>prance about</def>
+            </sense>
+        </entry>
+    </div>
 </div>

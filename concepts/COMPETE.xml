@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-40f8f868-4221-4c0a-8b11-24fad7e0231b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-40f8f868-4221-4c0a-8b11-24fad7e0231b">
 <head>COMPETE</head>
     <list type="altnames">
 <item>COMPETITION</item>
@@ -330,7 +331,14 @@
                 </gramGrp>
   <def>compete with N2 for N1</def>
             </sense>
-<sense xml:id="uuid-be6cb4f6-7b47-40f6-a230-ed1d50700c90" resp="#CH" tls:created="2019-12-18T04:26:06.542+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func></gramGrp><def>compete over who excels most in Nab</def></sense></entry>
+<sense xml:id="uuid-be6cb4f6-7b47-40f6-a230-ed1d50700c90" resp="#CH" tls:created="2019-12-18T04:26:06.542+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                </gramGrp>
+                <def>compete over who excels most in Nab</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4986d62e-e5f7-4c81-b5f5-7ce4536a226d">
             <form corresp="#uuid-affab91f-5392-40cd-89e1-0c956e0dd46d">
 <orth>競</orth>
@@ -390,7 +398,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-3e9894c8-de74-4d06-99fd-7f2c7bde58e8">
-            <form corresp="#uuid-39e624c5-61c4-408d-a624-c561c4a08d84"><orth>角</orth><pron xml:lang="zh-Latn-x-pinyin">jué</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-39e624c5-61c4-408d-a624-c561c4a08d84">
+                <orth>角</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jué</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>Jiǎo 角 is a rare elevated word for competition.
 </def>
 <sense xml:id="uuid-4cf72ce0-ac3c-43d7-8841-0905690f8ad5">
@@ -450,5 +463,20 @@
   <def>competition for skills</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5171c60b-c866-4f68-b1c6-0bc866cf6819" resp="#CH" tls:created="2024-01-11T22:33:08.514+09:00"><form corresp="#uuid-a64d9cef-2a32-4367-904d-4b87b568d89d #uuid-cdfb8557-9633-4cb6-b14b-79d7f40b4032"><orth>雌雄</orth><pron xml:lang="zh-Latn-x-pinyin">cí xióng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshje hjuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshe ɢʷɯŋ</pron></form><sense xml:id="uuid-4f70b560-7c3b-4018-b0b5-607c3b901847" resp="#CH" tls:created="2024-01-11T22:33:08.514+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func></gramGrp><def>engage with, compete with</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5171c60b-c866-4f68-b1c6-0bc866cf6819" resp="#CH" tls:created="2024-01-11T22:33:08.514+09:00">
+            <form corresp="#uuid-a64d9cef-2a32-4367-904d-4b87b568d89d #uuid-cdfb8557-9633-4cb6-b14b-79d7f40b4032">
+                <orth>雌雄</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cí xióng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshje hjuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshe ɢʷɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-4f70b560-7c3b-4018-b0b5-607c3b901847" resp="#CH" tls:created="2024-01-11T22:33:08.514+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                </gramGrp>
+                <def>engage with, compete with</def>
+            </sense>
+        </entry>
+    </div>
 </div>

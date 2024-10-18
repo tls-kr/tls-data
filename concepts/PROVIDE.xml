@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f81429a1-b476-4b5c-ac80-6c6efe70d1f9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f81429a1-b476-4b5c-ac80-6c6efe70d1f9">
 <head>PROVIDE</head>
     <list type="altnames">
 <item>SUPPLY</item>
@@ -131,7 +132,37 @@
                 </gramGrp>
   <def>provide for (the wants of someone etc.)</def>
             </sense>
-<sense xml:id="uuid-aa86bcb9-8f11-4de2-b266-52eaca567cff" resp="#CH" tls:created="2019-12-06T19:53:17.969+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>be provided</def></sense><sense xml:id="uuid-210f4bce-20ab-4976-8f4b-ce20aba97640" resp="#CH" tls:created="2020-04-04T00:44:50.047+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(.+prep+N2)</tls:syn-func></gramGrp><def>provide N1 for the contextually determinate N2</def></sense><sense xml:id="uuid-bd10a5ea-cf3c-4bdb-90a5-eacf3c5bdbd0" resp="#CH" tls:created="2020-05-12T22:45:31.208+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>provide N1 for N2</def></sense><sense xml:id="uuid-1aa5a3f9-1fe8-4a87-a5a3-f91fe8da8745" resp="#dsehnal" tls:created="2023-05-14T19:02:44.677+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-dc498576-1680-4c1f-8985-7616801c1fe8">N=project</tls:sem-feat></gramGrp><def>provide needs for the project N</def></sense></entry>
+<sense xml:id="uuid-aa86bcb9-8f11-4de2-b266-52eaca567cff" resp="#CH" tls:created="2019-12-06T19:53:17.969+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>be provided</def>
+            </sense>
+            <sense xml:id="uuid-210f4bce-20ab-4976-8f4b-ce20aba97640" resp="#CH" tls:created="2020-04-04T00:44:50.047+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(.+prep+N2)</tls:syn-func>
+                </gramGrp>
+                <def>provide N1 for the contextually determinate N2</def>
+            </sense>
+            <sense xml:id="uuid-bd10a5ea-cf3c-4bdb-90a5-eacf3c5bdbd0" resp="#CH" tls:created="2020-05-12T22:45:31.208+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>provide N1 for N2</def>
+            </sense>
+            <sense xml:id="uuid-1aa5a3f9-1fe8-4a87-a5a3-f91fe8da8745" resp="#dsehnal" tls:created="2023-05-14T19:02:44.677+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-dc498576-1680-4c1f-8985-7616801c1fe8">N=project</tls:sem-feat>
+                </gramGrp>
+                <def>provide needs for the project N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-82f4951d-72d3-42f7-955c-c35e2ec2cd90">
             <form corresp="#uuid-aa2a7159-1647-43b5-aa68-7568d264d84c">
 <orth>具</orth>
@@ -141,7 +172,12 @@
             </form>
             <def>Jù 具 refers to providing something or assuring supplies of something without much emphasis on what these things are to be used for in concrete terms.
 </def>
-            <form corresp="#uuid-b2212e7b-bc14-4588-9768-11921a8c1469"><orth>俱</orth><pron xml:lang="zh-Latn-x-pinyin">jù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡos</pron></form>
+            <form corresp="#uuid-b2212e7b-bc14-4588-9768-11921a8c1469">
+                <orth>俱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡos</pron>
+            </form>
             <def>Jù 具 refers to providing something or assuring supplies of something without much emphasis on what these things are to be used for in concrete terms.
 </def>
 <sense xml:id="uuid-76dcbfba-8773-407b-8150-0683bc861f1e">
@@ -201,7 +237,21 @@
                 </gramGrp>
   <def>provide fully for (abstract things, the performance of duties etc)</def>
             </sense>
-<sense xml:id="uuid-8ee8c410-b591-45f3-a710-b1a726a04cb7" resp="#CH" tls:created="2020-01-22T22:55:31.809+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func></gramGrp><def>properly provided; available</def></sense><sense xml:id="uuid-f29730b7-6e5d-41bf-9424-92db287817d8" resp="#CH" tls:created="2020-02-04T00:05:02.551+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.) prep N2</tls:syn-func></gramGrp><def>completely provide the contextually determinate N1 in the place 2</def></sense></entry>
+<sense xml:id="uuid-8ee8c410-b591-45f3-a710-b1a726a04cb7" resp="#CH" tls:created="2020-01-22T22:55:31.809+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                </gramGrp>
+                <def>properly provided; available</def>
+            </sense>
+            <sense xml:id="uuid-f29730b7-6e5d-41bf-9424-92db287817d8" resp="#CH" tls:created="2020-02-04T00:05:02.551+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9ec744e5-884d-4269-a320-91bc520c69a6">vtt(oN1.) prep N2</tls:syn-func>
+                </gramGrp>
+                <def>completely provide the contextually determinate N1 in the place 2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-24740e18-3bfc-49ed-b09f-7cb0c8f8954f">
             <form corresp="#uuid-dc2dae2f-b35f-4be0-bfe8-e8e4cce3bf63">
 <orth>備</orth>
@@ -271,7 +321,15 @@
                 </gramGrp>
   <def>provision of necessary items (against something); preparations</def>
             </sense>
-<sense xml:id="uuid-c9b82096-64df-4656-9a45-0e412e42398e" resp="#CH" tls:created="2019-12-17T04:04:44.802+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def resp="#dsehnal" updated="2023-04-28T20:22:54.446+09:00">be satisfactorily provided</def></sense></entry>
+<sense xml:id="uuid-c9b82096-64df-4656-9a45-0e412e42398e" resp="#CH" tls:created="2019-12-17T04:04:44.802+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-04-28T20:22:54.446+09:00">be satisfactorily provided</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1f21e8da-992d-4d85-8a08-dde402dafaa4">
             <form corresp="#uuid-fc79554d-5de5-4e88-9ea6-c8e3cf107597">
 <orth>警</orth>
@@ -446,7 +504,15 @@
                 </gramGrp>
   <def>prepare beforehand against the contextually determinate thing, prepare in very good time against the contextually determinate thing</def>
             </sense>
-<sense xml:id="uuid-a1d8abdb-e857-495d-98ab-dbe857695d40" resp="#CH" tls:created="2022-09-01T23:14:36.871+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7961fb36-6d66-44e7-95a5-469790f3b8c2">vt.post-VtoN</tls:syn-func><tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat></gramGrp><def>provide against</def></sense></entry>
+<sense xml:id="uuid-a1d8abdb-e857-495d-98ab-dbe857695d40" resp="#CH" tls:created="2022-09-01T23:14:36.871+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7961fb36-6d66-44e7-95a5-469790f3b8c2">vt.post-VtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c28b0dd5-ffa0-442e-affe-c55cc7843b5d">N=obj</tls:sem-feat>
+                </gramGrp>
+                <def>provide against</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-25cb96bc-b09f-4fb0-921d-8d7765c4b0cf">
             <form corresp="#uuid-30b56d3a-4da5-4165-bbbd-9234f15259e2">
 <orth>賅</orth>
@@ -742,5 +808,95 @@
   <def>arrange so as to provide completely</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-7b6dc177-7cc9-4482-8174-340d88e5afeb" resp="#CH" tls:created="2019-11-08T01:44:23.322+09:00"><form corresp="#uuid-74abbef6-ebd5-4561-8d34-65cf258f7e71"><orth>資</orth><pron xml:lang="zh-Latn-x-pinyin">zī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsij</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sti</pron></form><sense xml:id="uuid-15f74943-c090-4037-b6e0-693392a36d99" resp="#CH" tls:created="2019-11-08T01:44:23.322+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>provide oneself with</def></sense></entry><entry type="word" xml:id="uuid-078ab27e-d507-4fa3-b807-3c3a2a5549f5" resp="#CH" tls:created="2019-12-05T23:41:03.686+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-4e1afe66-55f6-401b-8564-e7f422c757ad" resp="#CH" tls:created="2019-12-05T23:41:03.686+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>provide properly</def></sense></entry><entry type="word" xml:id="uuid-66635188-ab1a-4c64-a04d-2409d2a5ea8c" resp="#CH" tls:created="2019-12-05T23:41:10.694+09:00"><form corresp="#uuid-2701f426-6c08-458a-a43d-14697e6fc8e8"><orth>奉</orth><pron xml:lang="zh-Latn-x-pinyin">fèng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjowngX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">boŋʔ</pron></form><sense xml:id="uuid-1849a684-8b33-4062-aaa9-f4e31cc393e5" resp="#CH" tls:created="2019-12-05T23:41:10.694+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>provide properly</def></sense></entry><entry type="word" xml:id="uuid-bb362155-ed3e-4d7f-8035-23d56585bcf4" resp="#CH" tls:created="2019-12-13T20:52:39.22+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6610e256-f01e-4782-8ffe-e140de01132d" resp="#CH" tls:created="2019-12-13T20:52:39.22+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>provide N1 for N2</def></sense></entry><entry type="word" xml:id="uuid-0256c4b3-2373-4a6b-a85a-057f32e90baa" resp="#CH" tls:created="2019-12-13T20:53:21.505+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7"><orth>為</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal</pron></form><sense xml:id="uuid-9b185748-c185-4999-9b9a-6611ecf5aadd" resp="#CH" tls:created="2019-12-13T20:53:21.505+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def resp="#CH" updated="2019-12-13T20:55:23.46+09:00">read wèi: provide N2 for N1</def></sense></entry><entry type="word" xml:id="uuid-699d528e-7c79-4364-9d52-8e7c79436429" resp="#zadrapa" tls:created="2022-05-30T15:49:14.14+09:00"><form corresp="#uuid-f92bd229-a310-48c4-8739-f679500d0958 #uuid-e18e2c3b-93b0-4203-80c7-01cb372cf3b4"><orth>歸移</orth><pron xml:lang="zh-Latn-x-pinyin">guī yí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+j ye</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klul k-lal</pron></form><sense xml:id="uuid-e3f94c2a-4362-4b84-b94c-2a43625b842b" resp="#zadrapa" tls:created="2022-05-30T15:49:14.14+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-76eeae96-c8ed-496f-aeae-96c8ed996f7f">vttoN1[. N2]</tls:syn-func></gramGrp><def>provide N1 with necessary goods (probably to be read kui4yí 饋移 or even 饋詒)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-7b6dc177-7cc9-4482-8174-340d88e5afeb" resp="#CH" tls:created="2019-11-08T01:44:23.322+09:00">
+            <form corresp="#uuid-74abbef6-ebd5-4561-8d34-65cf258f7e71">
+                <orth>資</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsij</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sti</pron>
+            </form>
+            <sense xml:id="uuid-15f74943-c090-4037-b6e0-693392a36d99" resp="#CH" tls:created="2019-11-08T01:44:23.322+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>provide oneself with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-078ab27e-d507-4fa3-b807-3c3a2a5549f5" resp="#CH" tls:created="2019-12-05T23:41:03.686+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-4e1afe66-55f6-401b-8564-e7f422c757ad" resp="#CH" tls:created="2019-12-05T23:41:03.686+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>provide properly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-66635188-ab1a-4c64-a04d-2409d2a5ea8c" resp="#CH" tls:created="2019-12-05T23:41:10.694+09:00">
+            <form corresp="#uuid-2701f426-6c08-458a-a43d-14697e6fc8e8">
+                <orth>奉</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fèng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjowngX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">boŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-1849a684-8b33-4062-aaa9-f4e31cc393e5" resp="#CH" tls:created="2019-12-05T23:41:10.694+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>provide properly</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bb362155-ed3e-4d7f-8035-23d56585bcf4" resp="#CH" tls:created="2019-12-13T20:52:39.22+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6610e256-f01e-4782-8ffe-e140de01132d" resp="#CH" tls:created="2019-12-13T20:52:39.22+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>provide N1 for N2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0256c4b3-2373-4a6b-a85a-057f32e90baa" resp="#CH" tls:created="2019-12-13T20:53:21.505+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7">
+                <orth>為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-9b185748-c185-4999-9b9a-6611ecf5aadd" resp="#CH" tls:created="2019-12-13T20:53:21.505+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2019-12-13T20:55:23.46+09:00">read wèi: provide N2 for N1</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-699d528e-7c79-4364-9d52-8e7c79436429" resp="#zadrapa" tls:created="2022-05-30T15:49:14.14+09:00">
+            <form corresp="#uuid-f92bd229-a310-48c4-8739-f679500d0958 #uuid-e18e2c3b-93b0-4203-80c7-01cb372cf3b4">
+                <orth>歸移</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guī yí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+j ye</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">klul k-lal</pron>
+            </form>
+            <sense xml:id="uuid-e3f94c2a-4362-4b84-b94c-2a43625b842b" resp="#zadrapa" tls:created="2022-05-30T15:49:14.14+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-76eeae96-c8ed-496f-aeae-96c8ed996f7f">vttoN1[. N2]</tls:syn-func>
+                </gramGrp>
+                <def>provide N1 with necessary goods (probably to be read kui4yí 饋移 or even 饋詒)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

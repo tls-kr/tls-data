@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-413d15bc-eaf0-404e-80c6-25e9b1b5db50">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-413d15bc-eaf0-404e-80c6-25e9b1b5db50">
 <head>FOR</head>
     <list type="altnames">
 <item>BECAUSE</item>
@@ -77,7 +78,22 @@
                 </gramGrp>
   <def>for</def>
             </sense>
-<sense xml:id="uuid-979ffe1b-74c7-4d5f-8522-3a10b181f185" resp="#CH" tls:created="2020-01-11T01:59:57.937+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func></gramGrp><def>for N, for the sake of N</def></sense><sense xml:id="uuid-4545dbb6-a666-4007-85db-b6a666e00703" resp="#CH" tls:created="2022-08-03T21:57:05.931+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-d05ff529-2916-42e6-ad39-23e2c1b0df57">vt+V/N</tls:syn-func><tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat></gramGrp><def>be used for V-ing, serve the purpose to V</def></sense></entry>
+<sense xml:id="uuid-979ffe1b-74c7-4d5f-8522-3a10b181f185" resp="#CH" tls:created="2020-01-11T01:59:57.937+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9e8c327b-579d-4514-8c83-481fa450974a">vtoN.adV</tls:syn-func>
+                </gramGrp>
+                <def>for N, for the sake of N</def>
+            </sense>
+            <sense xml:id="uuid-4545dbb6-a666-4007-85db-b6a666e00703" resp="#CH" tls:created="2022-08-03T21:57:05.931+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-d05ff529-2916-42e6-ad39-23e2c1b0df57">vt+V/N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
+                </gramGrp>
+                <def>be used for V-ing, serve the purpose to V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fc830181-36c0-432e-ba98-f37ea051a81b">
             <form corresp="#uuid-cee00179-0689-42fe-a172-52bfa48c1729">
 <orth>故</orth>
@@ -130,7 +146,14 @@
                 </gramGrp>
   <def>be for</def>
             </sense>
-<sense xml:id="uuid-e6249817-38d1-4162-a498-1738d1c16256" resp="#CH" tls:created="2020-02-14T04:15:56.412+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-f5153c79-02ea-4b3c-953c-7902eadb3c03">vtoV[0].postadV</tls:syn-func></gramGrp><def>for the sake of it V-ing&gt; so that</def></sense></entry>
+<sense xml:id="uuid-e6249817-38d1-4162-a498-1738d1c16256" resp="#CH" tls:created="2020-02-14T04:15:56.412+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-f5153c79-02ea-4b3c-953c-7902eadb3c03">vtoV[0].postadV</tls:syn-func>
+                </gramGrp>
+                <def>for the sake of it V-ing&gt; so that</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d5bc4e91-4d50-4ba9-bf25-773667ff0994">
             <form corresp="#uuid-6de9dcba-c931-4d75-8e22-36837fb311da">
 <orth>比</orth>
@@ -256,7 +279,28 @@
                 </gramGrp>
   <def>work for</def>
             </sense>
-<sense xml:id="uuid-8fb047dc-6aba-472b-932b-14140cb5fbd9" resp="#CH" tls:created="2019-12-13T20:51:28.02+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>provide N1 for N2</def></sense><sense xml:id="uuid-28bd7231-ae2d-4bf0-aba6-98e59780b7f7" resp="#CH" tls:created="2019-12-25T00:04:13.897+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-42615e91-700d-4a56-af1b-8f8bb8ba92e0">vtoNab{S1}.adS2</tls:syn-func></gramGrp><def>working for the occasion of S1, S2</def></sense><sense xml:id="uuid-0e6037b9-e2a3-4d0a-a037-b9e2a34d0aff" resp="#dsehnal" tls:created="2020-04-24T04:15:34.321+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-de6258be-7510-42ea-a258-be751032ea31">vtpostN{OBJ}.adV</tls:syn-func></gramGrp><def>for sake of N perform the action V</def></sense></entry>
+<sense xml:id="uuid-8fb047dc-6aba-472b-932b-14140cb5fbd9" resp="#CH" tls:created="2019-12-13T20:51:28.02+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>provide N1 for N2</def>
+            </sense>
+            <sense xml:id="uuid-28bd7231-ae2d-4bf0-aba6-98e59780b7f7" resp="#CH" tls:created="2019-12-25T00:04:13.897+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-42615e91-700d-4a56-af1b-8f8bb8ba92e0">vtoNab{S1}.adS2</tls:syn-func>
+                </gramGrp>
+                <def>working for the occasion of S1, S2</def>
+            </sense>
+            <sense xml:id="uuid-0e6037b9-e2a3-4d0a-a037-b9e2a34d0aff" resp="#dsehnal" tls:created="2020-04-24T04:15:34.321+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-de6258be-7510-42ea-a258-be751032ea31">vtpostN{OBJ}.adV</tls:syn-func>
+                </gramGrp>
+                <def>for sake of N perform the action V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-911132c9-1de0-4bd8-8a6e-079c4976037a">
             <form corresp="#uuid-64319e04-3cc5-46d8-9ec3-87aeb293a479">
 <orth>特</orth>
@@ -319,5 +363,57 @@
   <def>act in the interest of, act with the aim of</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-70ea4638-0a61-4fa0-aa46-380a617fa0a1" resp="#CH" tls:created="2022-07-23T23:21:41.641+09:00"><form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>乎</orth><pron xml:lang="zh-Latn-x-pinyin">hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron></form><sense xml:id="uuid-dc00b04f-5e19-4cf0-80b0-4f5e199cf022" resp="#CH" tls:created="2022-07-23T23:21:41.641+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9cd3171b-624b-4a40-81b9-1674fa59fbe0">vt0oN.postadV</tls:syn-func></gramGrp><def>for the benefit of, for the use of</def></sense></entry><entry type="word" xml:id="uuid-b026e049-ea86-4a72-a6e0-49ea860a72da" resp="#CH" tls:created="2022-09-14T23:45:41.886+09:00"><form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515"><orth>之</orth><pron xml:lang="zh-Latn-x-pinyin">zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron></form><sense xml:id="uuid-0d24e7dc-700e-47c8-a4e7-dc700e87c819" resp="#CH" tls:created="2022-09-14T23:45:41.886+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func></gramGrp><def>the N1 for the N2</def></sense><sense xml:id="uuid-f6630134-a10b-43d7-a301-34a10b73d7fb" resp="#CH" tls:created="2024-06-26T22:58:33.969+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f71adcde-e678-4824-9adc-dee678782403">npropostN.adV&gt;Nab</tls:syn-func></gramGrp><def>the V-ing for N</def></sense></entry><entry type="word" xml:id="uuid-d919b512-7fa7-4c89-99b5-127fa70c89c4" resp="#zadrapa" tls:created="2023-05-23T18:38:59.516+09:00"><form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-d9851265-3575-4a6b-bbbc-06dc7bb4484f"><orth>以為</orth><pron xml:lang="zh-Latn-x-pinyin">yǐ wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷals</pron></form><sense xml:id="uuid-81002e4e-242e-488c-802e-4e242ea88c35" resp="#zadrapa" tls:created="2023-05-23T18:38:59.516+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt V[0]</tls:syn-func></gramGrp><def>to serve the purpose of V-ing, in order to V</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-70ea4638-0a61-4fa0-aa46-380a617fa0a1" resp="#CH" tls:created="2022-07-23T23:21:41.641+09:00">
+            <form corresp="#uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-dc00b04f-5e19-4cf0-80b0-4f5e199cf022" resp="#CH" tls:created="2022-07-23T23:21:41.641+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9cd3171b-624b-4a40-81b9-1674fa59fbe0">vt0oN.postadV</tls:syn-func>
+                </gramGrp>
+                <def>for the benefit of, for the use of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b026e049-ea86-4a72-a6e0-49ea860a72da" resp="#CH" tls:created="2022-09-14T23:45:41.886+09:00">
+            <form corresp="#uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
+                <orth>之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-0d24e7dc-700e-47c8-a4e7-dc700e87c819" resp="#CH" tls:created="2022-09-14T23:45:41.886+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db3e24ed-d18b-454f-9f8f-47822681721b">npropostN1.adN2</tls:syn-func>
+                </gramGrp>
+                <def>the N1 for the N2</def>
+            </sense>
+            <sense xml:id="uuid-f6630134-a10b-43d7-a301-34a10b73d7fb" resp="#CH" tls:created="2024-06-26T22:58:33.969+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f71adcde-e678-4824-9adc-dee678782403">npropostN.adV&gt;Nab</tls:syn-func>
+                </gramGrp>
+                <def>the V-ing for N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d919b512-7fa7-4c89-99b5-127fa70c89c4" resp="#zadrapa" tls:created="2023-05-23T18:38:59.516+09:00">
+            <form corresp="#uuid-4a877402-3023-41b9-8e4b-e2d63ebfa81c #uuid-d9851265-3575-4a6b-bbbc-06dc7bb4484f">
+                <orth>以為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǐ wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yiX hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lɯʔ ɢʷals</pron>
+            </form>
+            <sense xml:id="uuid-81002e4e-242e-488c-802e-4e242ea88c35" resp="#zadrapa" tls:created="2023-05-23T18:38:59.516+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7918d628-430e-4537-afca-f2b1b4144611">VPt V[0]</tls:syn-func>
+                </gramGrp>
+                <def>to serve the purpose of V-ing, in order to V</def>
+            </sense>
+        </entry>
+    </div>
 </div>

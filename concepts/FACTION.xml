@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb9e32ed-9291-4d69-b76d-e10217aae46b">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cb9e32ed-9291-4d69-b76d-e10217aae46b">
 <head>FACTION</head>
     <list type="altnames">
 <item>PARTY</item>
@@ -287,7 +288,14 @@
                 </gramGrp>
   <def>be partial to, favour unfairly</def>
             </sense>
-<sense xml:id="uuid-43626e74-6cfb-441f-988c-25f35cdaacde" resp="#CH" tls:created="2019-12-03T19:14:24.365+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>faction; group; party</def></sense></entry>
+<sense xml:id="uuid-43626e74-6cfb-441f-988c-25f35cdaacde" resp="#CH" tls:created="2019-12-03T19:14:24.365+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>faction; group; party</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1a52b206-4d62-45df-b81e-bdfbe7ad3f50">
             <form corresp="#uuid-8a85c37d-738d-4ad4-b73d-e3eaeff22408 #uuid-cb16bd43-e8d9-4264-8f5b-262c02ba0ba3">
 <orth>族黨</orth>
@@ -441,5 +449,19 @@
   <def>the building up of factions</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-e07d451a-f4c6-4d05-bd45-1af4c6fd05c8"><form><orth>比</orth><pron xml:lang="zh-Latn-x-pinyin">pí</pron></form><def/><sense xml:id="uuid-ddbcc981-7e35-48c6-bcc9-817e3508c613" resp="#zadrapa" tls:created="2020-06-10T19:56:52.569+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>form factions, gang up</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-e07d451a-f4c6-4d05-bd45-1af4c6fd05c8">
+            <form>
+                <orth>比</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pí</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-ddbcc981-7e35-48c6-bcc9-817e3508c613" resp="#zadrapa" tls:created="2020-06-10T19:56:52.569+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>form factions, gang up</def>
+            </sense>
+        </entry>
+    </div>
 </div>

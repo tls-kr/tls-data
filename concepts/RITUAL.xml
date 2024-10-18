@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-47b2ee40-362a-4b33-8fe8-d9c0520eca15">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-47b2ee40-362a-4b33-8fe8-d9c0520eca15">
 <head>RITUAL</head>
     <list type="altnames">
 <item>CEREMONY</item>
@@ -45,7 +46,10 @@
 <p>TYPICALLY COMPLEX SHOULD:obligatory PUBLIC CUSTOM.</p>
     </div>
 <div type="notes">
-<div type="old-chinese-criteria" resp="#CH" modified="2022-07-19T17:33:42.825+09:00"><p>1. The current general term for everything relating to the system of ritual propriety is lǐ 禮. The term refers concretely to ritual ceremonies, to ritual decorum more generally, then specifically to adherence to explicitly prescribed ritual procedure, and then also informally to any ritual propriety in social behaviour</p><p>2. Yí 儀 refers to prescribed concrete ritual procedures, as typically described in Yí lǐ 儀禮.</p></div>
+<div type="old-chinese-criteria" resp="#CH" modified="2022-07-19T17:33:42.825+09:00">
+            <p>1. The current general term for everything relating to the system of ritual propriety is lǐ 禮. The term refers concretely to ritual ceremonies, to ritual decorum more generally, then specifically to adherence to explicitly prescribed ritual procedure, and then also informally to any ritual propriety in social behaviour</p>
+            <p>2. Yí 儀 refers to prescribed concrete ritual procedures, as typically described in Yí lǐ 儀禮.</p>
+        </div>
 <div type="modern-chinese-criteria">
 <p>禮儀</p>
 <p>儀式</p>
@@ -384,7 +388,22 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-02-19T23:48:57.981+09:00">there is ritual propriety, decorum prevails</def>
             </sense>
-<sense xml:id="uuid-697a89c9-8ba4-4aaf-9936-896663ff3f25" resp="#CH" tls:created="2019-10-24T05:46:45.891+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>the ritual of N</def></sense><sense xml:id="uuid-398ed3cf-1257-40db-8ed3-cf125770db55" resp="#dsehnal" tls:created="2023-05-27T16:58:08.54+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func><tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp><def>Book of Rituals</def></sense></entry>
+<sense xml:id="uuid-697a89c9-8ba4-4aaf-9936-896663ff3f25" resp="#CH" tls:created="2019-10-24T05:46:45.891+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>the ritual of N</def>
+            </sense>
+            <sense xml:id="uuid-398ed3cf-1257-40db-8ed3-cf125770db55" resp="#dsehnal" tls:created="2023-05-27T16:58:08.54+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bdf5c789-bfd8-4a3d-b6f7-2123f345d770">npr</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
+                <def>Book of Rituals</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7143d8b4-beb1-49e9-8d6e-255c0f885317">
             <form corresp="#uuid-80993705-fc43-4e1e-bb74-4e83d6c6aae4">
 <orth>貌</orth>
@@ -499,7 +518,15 @@
                 </gramGrp>
   <def>ritually correct polite behaviour</def>
             </sense>
-<sense xml:id="uuid-1abd0c77-d6de-42bc-bd0c-77d6de12bcd6" resp="#zadrapa" tls:created="2021-06-30T19:25:01.312+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat></gramGrp><def>(e.g. of behaviour) be characterised by politeness, conform to the requirements of public ritual</def></sense></entry>
+<sense xml:id="uuid-1abd0c77-d6de-42bc-bd0c-77d6de12bcd6" resp="#zadrapa" tls:created="2021-06-30T19:25:01.312+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2a66fc1c-6671-47d2-bd04-cfd6ccae64b8">stative</tls:sem-feat>
+                </gramGrp>
+                <def>(e.g. of behaviour) be characterised by politeness, conform to the requirements of public ritual</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8da6e8e7-50ed-4ec9-a446-38bbf59b1a27">
             <form corresp="#uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015 #uuid-dde77ba5-b74c-4825-a929-c35daa6e2f18">
 <orth>禮儀</orth>
@@ -531,7 +558,15 @@
                 </gramGrp>
   <def resp="#zadrapa" updated="2021-01-18T23:56:01.516+09:00">(sense for the rules of) ritual propriety and modesty</def>
             </sense>
-<sense xml:id="uuid-1c4ac2d2-7e0f-4118-8ac2-d27e0f7118b8" resp="#zadrapa" tls:created="2021-01-20T18:25:25.202+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>performance of ritual ceremonies</def></sense></entry>
+<sense xml:id="uuid-1c4ac2d2-7e0f-4118-8ac2-d27e0f7118b8" resp="#zadrapa" tls:created="2021-01-20T18:25:25.202+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>performance of ritual ceremonies</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ac0cbebd-2742-4af8-9a8e-59eef0ad8231">
             <form corresp="#uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015 #uuid-9d8c4757-76c6-4b83-b638-8572e41a50cd">
 <orth>禮讓</orth>
@@ -597,8 +632,78 @@
   <def>BUDDH: majestic rituals in the fours kinds of activities &gt; the proper conduct of monks and nuns (as specified in the vinaya texts) in all daily and ritual activities (e.g. walking, standing, sitting, and lying down); see 威儀</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2b3fed04-2922-4ff1-bfed-0429223ff190" resp="#CH" tls:created="2020-04-13T04:06:43.897+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015"><orth>為禮</orth><pron xml:lang="zh-Latn-x-pinyin">wéi lǐ
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH lejX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal riiʔ
-</pron></form><sense xml:id="uuid-e7542015-b16d-44f0-9420-15b16d34f0ca" resp="#CH" tls:created="2020-04-13T04:06:43.897+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>stand on ritual; keep to the rules of ritual</def></sense></entry><entry type="word" xml:id="uuid-c0fb0d93-f5b0-4cdc-bb0d-93f5b07cdca6" resp="#zadrapa" tls:created="2020-05-27T04:30:06.089+09:00"><form corresp="#uuid-7301de78-e88b-4c40-9559-cbc4062e909b"><orth>鬼</orth><pron xml:lang="zh-Latn-x-pinyin">guǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+jX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kulʔ</pron></form><sense xml:id="uuid-9980c7ca-591f-47e6-80c7-ca591fb7e6fe" resp="#zadrapa" tls:created="2020-05-27T04:30:06.089+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat></gramGrp><def>the rituals appropriate for the ghosts of one's ancestors</def></sense></entry><entry type="word" xml:id="uuid-673354f0-5264-4ee5-b354-f052647ee5dc" resp="#zadrapa" tls:created="2021-05-27T15:32:29.124+09:00"><form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-d7c1dd8b-fc22-4095-a4ce-fbf5a46520e2"><orth>門室</orth><pron xml:lang="zh-Latn-x-pinyin">mén shì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mwon syit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯɯn qhljiɡ</pron></form><sense xml:id="uuid-22730944-0f55-4bbb-b309-440f55abbb9b" resp="#zadrapa" tls:created="2021-05-27T15:32:29.124+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>the ritual rules valid in the public and at home</def></sense></entry><entry type="word" xml:id="uuid-f7ae9d46-43f3-4cb2-ae9d-4643f3ecb221" resp="#zadrapa" tls:created="2023-05-17T17:19:15.504+09:00"><form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015"><orth>無禮</orth><pron xml:lang="zh-Latn-x-pinyin">wú lǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju lejX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma riiʔ</pron></form><sense xml:id="uuid-3bde8eba-2298-4681-9e8e-ba2298768114" resp="#zadrapa" tls:created="2023-05-17T17:19:15.504+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>behaviour lacking ritual propriety</def></sense><sense xml:id="uuid-86dbfcea-5a9a-4714-9bfc-ea5a9a1714fa" resp="#CH" tls:created="2024-05-27T18:53:44.194+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>lack ritual dignity</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2b3fed04-2922-4ff1-bfed-0429223ff190" resp="#CH" tls:created="2020-04-13T04:06:43.897+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7 #uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015">
+                <orth>為禮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi lǐ
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH lejX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal riiʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-e7542015-b16d-44f0-9420-15b16d34f0ca" resp="#CH" tls:created="2020-04-13T04:06:43.897+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>stand on ritual; keep to the rules of ritual</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c0fb0d93-f5b0-4cdc-bb0d-93f5b07cdca6" resp="#zadrapa" tls:created="2020-05-27T04:30:06.089+09:00">
+            <form corresp="#uuid-7301de78-e88b-4c40-9559-cbc4062e909b">
+                <orth>鬼</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+jX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kulʔ</pron>
+            </form>
+            <sense xml:id="uuid-9980c7ca-591f-47e6-80c7-ca591fb7e6fe" resp="#zadrapa" tls:created="2020-05-27T04:30:06.089+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat>
+                </gramGrp>
+                <def>the rituals appropriate for the ghosts of one's ancestors</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-673354f0-5264-4ee5-b354-f052647ee5dc" resp="#zadrapa" tls:created="2021-05-27T15:32:29.124+09:00">
+            <form corresp="#uuid-881e0bff-679d-4b37-b2df-2c1f6074f44b #uuid-d7c1dd8b-fc22-4095-a4ce-fbf5a46520e2">
+                <orth>門室</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">mén shì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mwon syit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯɯn qhljiɡ</pron>
+            </form>
+            <sense xml:id="uuid-22730944-0f55-4bbb-b309-440f55abbb9b" resp="#zadrapa" tls:created="2021-05-27T15:32:29.124+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>the ritual rules valid in the public and at home</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f7ae9d46-43f3-4cb2-ae9d-4643f3ecb221" resp="#zadrapa" tls:created="2023-05-17T17:19:15.504+09:00">
+            <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015">
+                <orth>無禮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú lǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju lejX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma riiʔ</pron>
+            </form>
+            <sense xml:id="uuid-3bde8eba-2298-4681-9e8e-ba2298768114" resp="#zadrapa" tls:created="2023-05-17T17:19:15.504+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>behaviour lacking ritual propriety</def>
+            </sense>
+            <sense xml:id="uuid-86dbfcea-5a9a-4714-9bfc-ea5a9a1714fa" resp="#CH" tls:created="2024-05-27T18:53:44.194+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>lack ritual dignity</def>
+            </sense>
+        </entry>
+    </div>
 </div>

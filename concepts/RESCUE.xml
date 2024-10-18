@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b0145f9d-5101-41b1-a2b3-7b96db8b1446">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b0145f9d-5101-41b1-a2b3-7b96db8b1446">
 <head>RESCUE</head>
     <list type="altnames">
 <item>SAVE</item>
@@ -234,14 +235,16 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-7de00196-12aa-43e2-9843-72079143c05b">vtt(oN.)+V[0]</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
-                <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-1ddeb9e4-67de-4466-b517-24cfd829f3de">N=hum</tls:sem-feat>
+                </gramGrp>
   <def>save the contextually determinate people from doing something</def>
             </sense>
 <sense xml:id="uuid-3fa3c452-6c1a-4e59-94ad-e505c06d1ff7">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat>
+                </gramGrp>
   <def>rescue (a state etc)</def>
             </sense>
 <sense xml:id="uuid-4f2f9372-2f49-4972-94c8-4f8bd9483987">
@@ -251,7 +254,21 @@
                 </gramGrp>
   <def>rescue the contextually determinate N1 from N2</def>
             </sense>
-<sense xml:id="uuid-db2352c7-8efd-4954-a352-c78efda954d8" resp="#CH" tls:created="2020-05-21T23:34:49.395+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>rescue troops</def></sense><sense xml:id="uuid-b31aa367-ca17-49b8-9aa3-67ca1709b894" resp="#CH" tls:created="2022-09-20T02:48:01.609+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func></gramGrp><def>prevent the undesirable S</def></sense></entry>
+<sense xml:id="uuid-db2352c7-8efd-4954-a352-c78efda954d8" resp="#CH" tls:created="2020-05-21T23:34:49.395+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>rescue troops</def>
+            </sense>
+            <sense xml:id="uuid-b31aa367-ca17-49b8-9aa3-67ca1709b894" resp="#CH" tls:created="2022-09-20T02:48:01.609+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
+                </gramGrp>
+                <def>prevent the undesirable S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-92ffe903-1a3d-4a01-bb1f-f57be927a283">
             <form corresp="#uuid-4862eaca-2cd8-4e26-9b6f-e96f2c799d88">
 <orth>濟</orth>
@@ -268,7 +285,14 @@
                 </gramGrp>
   <def>rescue from (a sad situation), save from (disaster)</def>
             </sense>
-<sense xml:id="uuid-601459d3-0756-4220-9459-d30756222068" resp="#CH" tls:created="2020-02-14T04:01:59.485+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func></gramGrp><def>rescue N from V-ing</def></sense></entry>
+<sense xml:id="uuid-601459d3-0756-4220-9459-d30756222068" resp="#CH" tls:created="2020-02-14T04:01:59.485+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-25b356b8-b8b3-45bd-8689-04894567deb5">vttoN.+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>rescue N from V-ing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c62e8d65-2180-4ae0-817f-d2b77fd35eaa">
             <form corresp="#uuid-ddc5e0f3-5aef-4a41-9e39-2e1e1266a039">
 <orth>紓</orth>
@@ -497,5 +521,36 @@
   <def>rescue the contextually determinate N1 from N2</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-47bf38c0-afa2-4f29-bf38-c0afa27f29c5" resp="#dsehnal" tls:created="2021-04-29T16:35:07.632+09:00"><form corresp="#uuid-70d3109a-0274-4314-b806-31b7e45be6a6 #uuid-ead8facb-b75b-4f19-9711-3298d367f59f"><orth>攜拯</orth><pron xml:lang="zh-Latn-x-pinyin">xié zhěng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hwej tsyingX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷlee kjɯŋʔ</pron></form><sense xml:id="uuid-4c97705c-e56f-477e-9770-5ce56fc77e9c" resp="#dsehnal" tls:created="2021-04-29T16:35:07.632+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat></gramGrp><def>carry and try to rescue the contextually determinate person</def></sense></entry><entry type="word" xml:id="uuid-0dc856cb-a40e-4102-8856-cba40e1102f5" resp="#CH" tls:created="2022-09-18T20:34:30.068+09:00"><form corresp="#uuid-800256db-d38e-4e69-9537-b54fa0fd8e61 #uuid-13cc431e-f85b-4936-a5bf-e82225e48821"><orth>存亡</orth><pron xml:lang="zh-Latn-x-pinyin">cún wáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzwon mjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯn maŋ</pron></form><sense xml:id="uuid-18315eff-67c8-4795-b15e-ff67c8179588" resp="#CH" tls:created="2022-09-18T20:34:30.068+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>saving what is facing imminent ruin</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-47bf38c0-afa2-4f29-bf38-c0afa27f29c5" resp="#dsehnal" tls:created="2021-04-29T16:35:07.632+09:00">
+            <form corresp="#uuid-70d3109a-0274-4314-b806-31b7e45be6a6 #uuid-ead8facb-b75b-4f19-9711-3298d367f59f">
+                <orth>攜拯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xié zhěng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwej tsyingX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡʷlee kjɯŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-4c97705c-e56f-477e-9770-5ce56fc77e9c" resp="#dsehnal" tls:created="2021-04-29T16:35:07.632+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-96334729-a7bf-4d6b-8324-149056b8196c">conative</tls:sem-feat>
+                </gramGrp>
+                <def>carry and try to rescue the contextually determinate person</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-0dc856cb-a40e-4102-8856-cba40e1102f5" resp="#CH" tls:created="2022-09-18T20:34:30.068+09:00">
+            <form corresp="#uuid-800256db-d38e-4e69-9537-b54fa0fd8e61 #uuid-13cc431e-f85b-4936-a5bf-e82225e48821">
+                <orth>存亡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cún wáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzwon mjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sɡɯɯn maŋ</pron>
+            </form>
+            <sense xml:id="uuid-18315eff-67c8-4795-b15e-ff67c8179588" resp="#CH" tls:created="2022-09-18T20:34:30.068+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>saving what is facing imminent ruin</def>
+            </sense>
+        </entry>
+    </div>
 </div>

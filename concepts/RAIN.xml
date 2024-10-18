@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-75581bc4-54ed-40db-afac-153e22d9226c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-75581bc4-54ed-40db-afac-153e22d9226c">
 <head>RAIN</head>
     <list type="altnames">
 <item>RAINFALL</item>
@@ -117,7 +118,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-f61ebedb-526d-4a32-80f2-238ea6c97497">
-            <form corresp="#uuid-c5db53eb-4b84-4daa-aa90-7c31ad694859"><orth>雨</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraʔ</pron></form>
+            <form corresp="#uuid-c5db53eb-4b84-4daa-aa90-7c31ad694859">
+                <orth>雨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraʔ</pron>
+            </form>
 <sense xml:id="uuid-20252156-df37-4ed8-8ba5-848d2ddfb9f4">
 <gramGrp>
                     <pos/>
@@ -139,7 +145,28 @@
                 </gramGrp>
   <def>rain N</def>
             </sense>
-<sense xml:id="uuid-35e07eb6-d732-468b-ab60-71e4c4a56391" resp="#CH" tls:created="2020-01-04T02:36:28.092+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#dsehnal" updated="2023-06-08T19:12:38.25+09:00">yù: cause it to rain N</def></sense><sense xml:id="uuid-75d1212d-52e5-4651-9121-2d52e5665153" resp="#dsehnal" tls:created="2023-06-08T19:13:20.563+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a922807b-cc05-48ad-ae43-c0d30b9bb742">vi0</tls:syn-func></gramGrp><def>it was raining</def></sense><sense xml:id="uuid-0a2b4e9d-2b47-4ca5-ab4e-9d2b472ca5cb" resp="#CH" tls:created="2024-02-13T05:24:05.36+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def>rain</def></sense></entry>
+<sense xml:id="uuid-35e07eb6-d732-468b-ab60-71e4c4a56391" resp="#CH" tls:created="2020-01-04T02:36:28.092+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#dsehnal" updated="2023-06-08T19:12:38.25+09:00">yù: cause it to rain N</def>
+            </sense>
+            <sense xml:id="uuid-75d1212d-52e5-4651-9121-2d52e5665153" resp="#dsehnal" tls:created="2023-06-08T19:13:20.563+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a922807b-cc05-48ad-ae43-c0d30b9bb742">vi0</tls:syn-func>
+                </gramGrp>
+                <def>it was raining</def>
+            </sense>
+            <sense xml:id="uuid-0a2b4e9d-2b47-4ca5-ab4e-9d2b472ca5cb" resp="#CH" tls:created="2024-02-13T05:24:05.36+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def>rain</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-bf1e282b-bc1c-46ab-b4e6-991beb682b93">
             <form corresp="#uuid-c5db53eb-4b84-4daa-aa90-7c31ad694859">
 <orth>雨</orth>
@@ -249,7 +276,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-01-04T02:44:48.824+09:00">read yù  cause to rain down &gt; rain (cats and dogs, locusts, flowers etc)</def>
             </sense>
-<sense xml:id="uuid-fcfebef8-1d19-4455-8f98-67c54e42a8fb" resp="#CH" tls:created="2020-01-24T02:09:08.144+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func></gramGrp><def>rain water</def></sense></entry>
+<sense xml:id="uuid-fcfebef8-1d19-4455-8f98-67c54e42a8fb" resp="#CH" tls:created="2020-01-24T02:09:08.144+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                </gramGrp>
+                <def>rain water</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4febcf8a-aa68-462d-ab18-a9c4c13c6125">
             <form corresp="#uuid-a8df22b5-0be6-4457-b0d1-712320d38d89">
 <orth>零</orth>
@@ -344,7 +378,14 @@
                 </gramGrp>
   <def>it is raining</def>
             </sense>
-<sense xml:id="uuid-50442a84-b97b-4da7-842a-84b97bbda789" resp="#CH" tls:created="2020-05-16T22:13:12.025+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def>rain from heaven</def></sense></entry>
+<sense xml:id="uuid-50442a84-b97b-4da7-842a-84b97bbda789" resp="#CH" tls:created="2020-05-16T22:13:12.025+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def>rain from heaven</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-322d9f52-9bb3-40cd-95cd-ca20e62a5e58">
             <form corresp="#uuid-8445d7e7-75b5-498c-bed3-d8c1cbee89b7 #uuid-c5db53eb-4b84-4daa-aa90-7c31ad694859">
 <orth>暴雨</orth>
@@ -460,5 +501,35 @@
   <def>rain heavily</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-690892a5-d2a7-4875-a5ef-081775e6de9f" resp="#admin" tls:created="2019-11-30T14:36:18.585+09:00"><form corresp="#uuid-8e04e5b5-db2b-4a82-85b5-727ca32bb9c4 #uuid-8e04e5b5-db2b-4a82-85b5-727ca32bb9c4"><orth>濛濛</orth><pron xml:lang="zh-Latn-x-pinyin">měng měng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">muwngX muwngX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mooŋʔ mooŋʔ</pron></form><sense xml:id="uuid-a665e473-bc13-43fd-a36f-95362eab76cb" resp="#admin" tls:created="2019-11-30T14:36:18.585+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt</tls:syn-func></gramGrp><def>drizzle</def></sense></entry><entry type="word" xml:id="uuid-ac37c90e-3bef-4be8-b7c9-0e3befcbe8e2" resp="#CH" tls:created="2020-02-14T04:33:11.727+09:00"><form corresp="#uuid-4c3e1ad8-b5b7-4d78-b53f-4db11c5e0acf #uuid-00bde754-c258-4a94-9991-b9dff4a9502c"><orth>霑潤</orth><pron xml:lang="zh-Latn-x-pinyin">zhān rùn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trjem --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krlem njuns</pron></form><sense xml:id="uuid-268fc7a5-1b47-4d0d-8fc7-a51b47ed0d20" resp="#CH" tls:created="2020-02-14T04:33:11.727+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def>the moist rain-blessings (crucial for good harvest...)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-690892a5-d2a7-4875-a5ef-081775e6de9f" resp="#admin" tls:created="2019-11-30T14:36:18.585+09:00">
+            <form corresp="#uuid-8e04e5b5-db2b-4a82-85b5-727ca32bb9c4 #uuid-8e04e5b5-db2b-4a82-85b5-727ca32bb9c4">
+                <orth>濛濛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">měng měng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">muwngX muwngX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mooŋʔ mooŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-a665e473-bc13-43fd-a36f-95362eab76cb" resp="#admin" tls:created="2019-11-30T14:36:18.585+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt</tls:syn-func>
+                </gramGrp>
+                <def>drizzle</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-ac37c90e-3bef-4be8-b7c9-0e3befcbe8e2" resp="#CH" tls:created="2020-02-14T04:33:11.727+09:00">
+            <form corresp="#uuid-4c3e1ad8-b5b7-4d78-b53f-4db11c5e0acf #uuid-00bde754-c258-4a94-9991-b9dff4a9502c">
+                <orth>霑潤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhān rùn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trjem --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">krlem njuns</pron>
+            </form>
+            <sense xml:id="uuid-268fc7a5-1b47-4d0d-8fc7-a51b47ed0d20" resp="#CH" tls:created="2020-02-14T04:33:11.727+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def>the moist rain-blessings (crucial for good harvest...)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

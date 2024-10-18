@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6568cb68-3bfc-4d81-8afd-30cce8007938">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6568cb68-3bfc-4d81-8afd-30cce8007938">
 <head>TALLY</head>
     <list type="altnames">
 <item>RECORD</item>
@@ -237,7 +238,14 @@
                 </gramGrp>
   <def>match (one object N1) to (another object N2)　不稱恩於子</def>
             </sense>
-<sense xml:id="uuid-d257caa0-8ca8-47e6-97ca-a08ca837e615" resp="#CH" tls:created="2020-12-14T21:46:34.761+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>match N, equal N</def></sense></entry>
+<sense xml:id="uuid-d257caa0-8ca8-47e6-97ca-a08ca837e615" resp="#CH" tls:created="2020-12-14T21:46:34.761+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>match N, equal N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ec2142e9-5ee4-401c-9138-f83a5a77b160">
             <form corresp="#uuid-fb1b5021-370d-48a7-840d-4b3732259a3c">
 <orth>符</orth>
@@ -313,5 +321,20 @@
   <def>tally, amulet</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f0957749-7767-4b4d-9577-4977675b4d83" resp="#zadrapa" tls:created="2022-01-24T22:14:42.922+09:00"><form corresp="#uuid-fb1b5021-370d-48a7-840d-4b3732259a3c #uuid-74317e4c-51fa-4671-8feb-20c5313092bf"><orth>符節</orth><pron xml:lang="zh-Latn-x-pinyin">fú jié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bju tset</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bo tsiiɡ</pron></form><sense xml:id="uuid-6c749895-45c3-432d-b498-9545c3e32d19" resp="#zadrapa" tls:created="2022-01-24T22:14:42.922+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-26T00:51:09.223+09:00">tallies and similar contractual documents</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f0957749-7767-4b4d-9577-4977675b4d83" resp="#zadrapa" tls:created="2022-01-24T22:14:42.922+09:00">
+            <form corresp="#uuid-fb1b5021-370d-48a7-840d-4b3732259a3c #uuid-74317e4c-51fa-4671-8feb-20c5313092bf">
+                <orth>符節</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú jié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bju tset</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bo tsiiɡ</pron>
+            </form>
+            <sense xml:id="uuid-6c749895-45c3-432d-b498-9545c3e32d19" resp="#zadrapa" tls:created="2022-01-24T22:14:42.922+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-26T00:51:09.223+09:00">tallies and similar contractual documents</def>
+            </sense>
+        </entry>
+    </div>
 </div>

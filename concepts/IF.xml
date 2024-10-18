@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2d3d0b50-ba72-473d-9cda-a9db0cc81a52">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-2d3d0b50-ba72-473d-9cda-a9db0cc81a52">
 <head>IF</head>
     <list type="translations">
         <item xml:lang="zh">如果</item>
@@ -33,7 +34,10 @@
 <div type="old-chinese-contrasts">
 <p>BROWN 2005: CONDITIONALS is very good.</p>
         </div>
-    <div type="old-chinese-criteria" resp="#CH" tls:created="2021-10-08T16:29:29.953+09:00"><p>誠 "if really, if 'to the full'" is an emphatic conditional particle suggesting the problematic nature of the fulfilment of the condition.</p></div></div>
+    <div type="old-chinese-criteria" resp="#CH" tls:created="2021-10-08T16:29:29.953+09:00">
+            <p>誠 "if really, if 'to the full'" is an emphatic conditional particle suggesting the problematic nature of the fulfilment of the condition.</p>
+        </div>
+    </div>
 <div type="pointers">
         <list type="taxonymy">
 <item>
@@ -138,7 +142,8 @@
   <tls:syn-func corresp="#uuid-51d9152c-6580-4014-9915-2c658000147f">npropostN.adV&gt;Nab{S1}:post-p:.adS2</tls:syn-func>
                 </gramGrp>
   <def resp="#CH" updated="2020-03-08T19:47:32.67+09:00">苟子之不欲 "if you really do not want to" "nominalised" marked conditional subordinate clause </def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8bf938f1-e80b-4bd2-948c-eb867ec19591">
             <form corresp="#uuid-208b48d4-5b38-4edb-8418-80f4dcff11e3">
 <orth>也</orth>
@@ -154,7 +159,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-03-17T18:32:15.901+09:00">不聽其言也“In case he does not accept the proposal": in case that; if ever S; even if ever</def>
             </sense>
-<sense xml:id="uuid-9baba96d-cc1e-430a-aba9-6dcc1e030a63" resp="#CH" tls:created="2022-02-18T01:39:58.88+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-b6c45af6-06c5-45fb-845a-f606c5b5fb0b">ppostadNab{S1}.adS2</tls:syn-func><tls:sem-feat corresp="#uuid-1457b51f-f0dd-4452-97b5-1ff0dd845244">nominalisation with 之 or 其</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-02-24T21:53:05.179+09:00">君子之仕也“If the gentleman serves in office" marker of a subordinate conditial clause, the protasis</def></sense></entry>
+<sense xml:id="uuid-9baba96d-cc1e-430a-aba9-6dcc1e030a63" resp="#CH" tls:created="2022-02-18T01:39:58.88+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-b6c45af6-06c5-45fb-845a-f606c5b5fb0b">ppostadNab{S1}.adS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1457b51f-f0dd-4452-97b5-1ff0dd845244">nominalisation with 之 or 其</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-02-24T21:53:05.179+09:00">君子之仕也“If the gentleman serves in office" marker of a subordinate conditial clause, the protasis</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-9f1fb5cf-b07f-4593-a1b3-378bc3223c3b">
             <form corresp="#uuid-dfc93eb5-edb4-49b5-93e7-afe643a085de">
 <orth>今</orth>
@@ -256,7 +269,14 @@
                 </gramGrp>
   <def>OBI 2: if (e.g. it rains)</def>
             </sense>
-<sense xml:id="uuid-b7f9471a-69f0-4151-802c-2892791f337f" resp="#CH" tls:created="2020-01-02T00:54:19.275+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ed78b76-e06b-4365-92bc-b00297839a5a">npro.adS1:adS2</tls:syn-func></gramGrp><def>if (with non-referential subject or indefinite subject)</def></sense></entry>
+<sense xml:id="uuid-b7f9471a-69f0-4151-802c-2892791f337f" resp="#CH" tls:created="2020-01-02T00:54:19.275+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ed78b76-e06b-4365-92bc-b00297839a5a">npro.adS1:adS2</tls:syn-func>
+                </gramGrp>
+                <def>if (with non-referential subject or indefinite subject)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e4bb99eb-2d04-469d-9647-338cc9109ee2">
             <form corresp="#uuid-9c207839-c526-42a5-bbd1-48637a0927c8">
 <orth>即</orth>
@@ -345,7 +365,14 @@
                 </gramGrp>
   <def>supposing that it is so; if</def>
             </sense>
-<sense xml:id="uuid-b3e75e63-732a-44d4-8717-3ee133c8b506" resp="#CH" tls:created="2019-12-16T22:24:11.566+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">ppostN{SUBJ} V.adS</tls:syn-func></gramGrp><def>if N V-s then S</def></sense></entry>
+<sense xml:id="uuid-b3e75e63-732a-44d4-8717-3ee133c8b506" resp="#CH" tls:created="2019-12-16T22:24:11.566+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">ppostN{SUBJ} V.adS</tls:syn-func>
+                </gramGrp>
+                <def>if N V-s then S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dff35d77-b821-4288-9574-00c2ecd00af5">
             <form corresp="#uuid-b17a37e7-db42-4971-8020-af720f20df6f">
 <orth>忽</orth>
@@ -401,7 +428,15 @@
                 </gramGrp>
   <def>if ever　予所否者 "If I have have done something wrong..."</def>
             </sense>
-<sense xml:id="uuid-1a10cc79-5114-4baa-a7d9-58da96e700cd" resp="#CH" tls:created="2019-12-07T18:16:58.421+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-00b907a2-be2c-41b1-b907-a2be2c61b163">npro+Vt.adV</tls:syn-func><tls:sem-feat corresp="#uuid-ca124ecf-2640-430a-be5d-638fafcacb24">generalised</tls:sem-feat></gramGrp><def>whenever Vt-ing anything</def></sense></entry>
+<sense xml:id="uuid-1a10cc79-5114-4baa-a7d9-58da96e700cd" resp="#CH" tls:created="2019-12-07T18:16:58.421+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-00b907a2-be2c-41b1-b907-a2be2c61b163">npro+Vt.adV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-ca124ecf-2640-430a-be5d-638fafcacb24">generalised</tls:sem-feat>
+                </gramGrp>
+                <def>whenever Vt-ing anything</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-833f09f9-5577-4618-8194-3ce8dc00f608">
             <form corresp="#uuid-1a4e039c-6a01-4fca-ad4b-baadc33873fc">
 <orth>方</orth>
@@ -492,7 +527,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-03-05T01:54:26.713+09:00">if ( as in English "if you are hungry there is something in the fridge")</def>
             </sense>
-<sense xml:id="uuid-eab0e862-2315-415b-b0e8-622315215b88" resp="#dsehnal" tls:created="2021-05-15T23:16:47.91+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-5161a11c-d83d-4816-9bb8-b19820a40b27">npro.post-S1:adS2</tls:syn-func></gramGrp><def>if S1, then S2</def></sense></entry>
+<sense xml:id="uuid-eab0e862-2315-415b-b0e8-622315215b88" resp="#dsehnal" tls:created="2021-05-15T23:16:47.91+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-5161a11c-d83d-4816-9bb8-b19820a40b27">npro.post-S1:adS2</tls:syn-func>
+                </gramGrp>
+                <def>if S1, then S2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c3368701-9817-488a-8f34-5aba09b7483c">
             <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8">
 <orth>而</orth>
@@ -504,14 +546,16 @@
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-f7e4a681-1eb1-4597-9ced-921b54f5c3ea">padV.postN{SUBJ}:adS</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-cda3362d-94fd-4ec9-8c61-4d93d3ec2e4d">N=subject</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-cda3362d-94fd-4ec9-8c61-4d93d3ec2e4d">N=subject</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2020-05-12T17:46:49.868+09:00">e.g. 人臣而仁 "if a minister is kind-hearted": if</def>
             </sense>
 <sense xml:id="uuid-55d316b6-e877-4b5b-900b-cbb08e6367ca">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-82a18441-7c30-4b2a-9af9-175e8454038f">padV{PRED}.postN{OBJ}:adS</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-92a47e95-e66f-4bba-a47e-95e66ffbba0d">N=object</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-92a47e95-e66f-4bba-a47e-95e66ffbba0d">N=object</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-09-14T17:08:12.27+09:00">其子而食"if even his son he will eat": if, even N the subject Vts</def>
             </sense>
 <sense xml:id="uuid-81cfb143-f2b0-4e9a-88e5-e7abde83515b">
@@ -521,7 +565,8 @@
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
   <def>(if) even/also the preceding N (in subordinate clauses) 管氏而知禮，孰不知禮？</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fbe7996b-01f9-4b84-9ee6-d1623a95d9e6">
             <form corresp="#uuid-4b46759c-5cce-4243-9586-2da74db4dcca">
 <orth>與</orth>
@@ -576,7 +621,14 @@
                 </gramGrp>
   <def>if</def>
             </sense>
-<sense xml:id="uuid-ba4a3071-8f1d-477a-8a30-718f1d877a95" resp="#CH" tls:created="2024-06-25T00:36:32.917+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-9fe56ef2-34ff-4eb7-a56e-f234ffbeb779">padNPab{S1}.adS2</tls:syn-func></gramGrp><def>if S1 then S2</def></sense></entry>
+<sense xml:id="uuid-ba4a3071-8f1d-477a-8a30-718f1d877a95" resp="#CH" tls:created="2024-06-25T00:36:32.917+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-9fe56ef2-34ff-4eb7-a56e-f234ffbeb779">padNPab{S1}.adS2</tls:syn-func>
+                </gramGrp>
+                <def>if S1 then S2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7c562ed2-7106-4f39-9c57-22a5e3477a16">
             <form corresp="#uuid-f5943075-30ec-4b23-a75a-2a7bb28c53c5">
 <orth>苟</orth>
@@ -605,7 +657,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2024-02-11T20:27:33.829+09:00">if really</def>
             </sense>
-<sense xml:id="uuid-03388636-a565-4325-b886-36a56583255e" resp="#CH" tls:created="2024-05-28T22:15:50.176+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-3fd94ca3-89ea-4669-994c-a389ea2669e1">padS1.postadS2</tls:syn-func></gramGrp><def>as long as, given that really; if basically</def></sense></entry>
+<sense xml:id="uuid-03388636-a565-4325-b886-36a56583255e" resp="#CH" tls:created="2024-05-28T22:15:50.176+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-3fd94ca3-89ea-4669-994c-a389ea2669e1">padS1.postadS2</tls:syn-func>
+                </gramGrp>
+                <def>as long as, given that really; if basically</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-98e59b2f-6f9e-4821-b202-417e0180d111">
             <form corresp="#uuid-cc201d99-2435-4e58-8b94-9f84f3d9837b">
 <orth>藉</orth>
@@ -660,7 +719,22 @@
                 </gramGrp>
   <def>if really, if truly</def>
             </sense>
-<sense xml:id="uuid-f28e22a3-c7a3-41da-8e22-a3c7a371dade" resp="#zadrapa" tls:created="2022-06-08T16:47:01.572+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-1ebd5eb4-4017-4688-b21f-9ee12d1799ce">vadV.adS</tls:syn-func><tls:sem-feat corresp="#uuid-33206044-2b20-49c4-87c9-4d29c0e3df04">conditional</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-08-16T05:16:40.805+09:00">if really, if in truth</def></sense><sense xml:id="uuid-34ee53f4-7d39-46c6-ae53-f47d39b6c6a6" resp="#CH" tls:created="2022-08-16T05:17:44.454+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c60345f1-a3e8-4ac9-b9c5-d8fbd48fd496">vadS1.adS2</tls:syn-func></gramGrp><def>if in truth</def></sense></entry>
+<sense xml:id="uuid-f28e22a3-c7a3-41da-8e22-a3c7a371dade" resp="#zadrapa" tls:created="2022-06-08T16:47:01.572+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-1ebd5eb4-4017-4688-b21f-9ee12d1799ce">vadV.adS</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-33206044-2b20-49c4-87c9-4d29c0e3df04">conditional</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-16T05:16:40.805+09:00">if really, if in truth</def>
+            </sense>
+            <sense xml:id="uuid-34ee53f4-7d39-46c6-ae53-f47d39b6c6a6" resp="#CH" tls:created="2022-08-16T05:17:44.454+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c60345f1-a3e8-4ac9-b9c5-d8fbd48fd496">vadS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>if in truth</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-db1bb64b-6819-486b-af8c-6c91e2156037">
             <form corresp="#uuid-29018f54-1dad-4704-866c-1e76290c458b">
 <orth>適</orth>
@@ -1040,20 +1114,131 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-767ebe13-1a30-4cc4-8aa3-9aee0be3b35a" resp="#dsehnal" tls:created="2020-01-12T00:31:29.243+09:00"><form corresp="#uuid-4b0dbb04-7469-4bc6-b5e4-87ff1afed15e #uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0"><orth>既使</orth><pron xml:lang="zh-Latn-x-pinyin">jì shǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kj+jH sriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯds srɯʔ</pron></form><sense xml:id="uuid-bd4c8b16-1d8b-4604-a66e-f517cf76711d" resp="#dsehnal" tls:created="2020-01-12T00:31:29.243+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-64373044-78aa-4a93-a7fd-c5f489fd9dbd">VPtoS1.adS2</tls:syn-func></gramGrp><def>supposing that;</def></sense></entry><entry type="word" xml:id="uuid-60a0c093-7490-4642-8538-b06ce5475b03" resp="#CH" tls:created="2020-02-10T17:12:12.55+09:00"><form corresp="#uuid-25996ba8-1e36-4438-8c90-d9a399341f8e"><orth>必</orth><pron xml:lang="zh-Latn-x-pinyin">bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjit</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">piɡ</pron></form><sense xml:id="uuid-af72b2f1-26d5-4fc0-a3b9-57477d2836af" resp="#CH" tls:created="2020-02-10T17:12:12.55+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c60345f1-a3e8-4ac9-b9c5-d8fbd48fd496">v0adS1.adS2</tls:syn-func></gramGrp><def>必...乃　if it it needed that S1 then S2 </def></sense></entry><entry type="word" xml:id="uuid-99a3fe38-68a6-4a26-a3fe-3868a66a2603" resp="#CH" tls:created="2020-04-07T20:42:53.548+09:00"><form corresp="#uuid-e95f9487-c052-417b-88df-0dbffda95fbb #uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd"><orth>若夫</orth><pron xml:lang="zh-Latn-x-pinyin">ruò fú
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyae bju
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njaɡ ba
-</pron></form><sense xml:id="uuid-95bddf87-2819-46db-bddf-872819a6dbb3" resp="#CH" tls:created="2020-04-07T20:42:53.548+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func></gramGrp><def>if</def></sense></entry><entry xml:id="uuid-2c384658-54cf-4e09-b846-5854cf5e09ea"><form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c">
+    <entry type="word" xml:id="uuid-767ebe13-1a30-4cc4-8aa3-9aee0be3b35a" resp="#dsehnal" tls:created="2020-01-12T00:31:29.243+09:00">
+            <form corresp="#uuid-4b0dbb04-7469-4bc6-b5e4-87ff1afed15e #uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0">
+                <orth>既使</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jì shǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kj+jH sriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯds srɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-bd4c8b16-1d8b-4604-a66e-f517cf76711d" resp="#dsehnal" tls:created="2020-01-12T00:31:29.243+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-64373044-78aa-4a93-a7fd-c5f489fd9dbd">VPtoS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>supposing that;</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-60a0c093-7490-4642-8538-b06ce5475b03" resp="#CH" tls:created="2020-02-10T17:12:12.55+09:00">
+            <form corresp="#uuid-25996ba8-1e36-4438-8c90-d9a399341f8e">
+                <orth>必</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjit</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">piɡ</pron>
+            </form>
+            <sense xml:id="uuid-af72b2f1-26d5-4fc0-a3b9-57477d2836af" resp="#CH" tls:created="2020-02-10T17:12:12.55+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c60345f1-a3e8-4ac9-b9c5-d8fbd48fd496">v0adS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>必...乃　if it it needed that S1 then S2 </def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-99a3fe38-68a6-4a26-a3fe-3868a66a2603" resp="#CH" tls:created="2020-04-07T20:42:53.548+09:00">
+            <form corresp="#uuid-e95f9487-c052-417b-88df-0dbffda95fbb #uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd">
+                <orth>若夫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ruò fú
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyae bju
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njaɡ ba
+</pron>
+            </form>
+            <sense xml:id="uuid-95bddf87-2819-46db-bddf-872819a6dbb3" resp="#CH" tls:created="2020-04-07T20:42:53.548+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-7421ec68-6311-4d1d-8c4e-45953c708ec3">PPadS1.postS2</tls:syn-func>
+                </gramGrp>
+                <def>if</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-2c384658-54cf-4e09-b846-5854cf5e09ea">
+            <form corresp="#uuid-644760a0-b567-4543-90dd-32afbfa9849c">
 <orth>矣</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yǐ</pron>
                 <pron xml:lang="zh-x-oc">ɢɯʔ</pron>
                 <pron xml:lang="zh-x-mc">ɦɨ</pron>
-            </form><sense xml:id="uuid-7f4a4eb2-0361-443d-bd41-c9946fe7beda">
+            </form>
+            <sense xml:id="uuid-7f4a4eb2-0361-443d-bd41-c9946fe7beda">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-acfafcb7-9609-4e1a-8afb-f4be1c254f0a">ppostadS1.adS2</tls:syn-func>
                     <usg type="warring-states-currency">2</usg>
-                <tls:sem-feat corresp="#uuid-f70e97b8-f475-4896-8e97-b8f475089610">after protasis of conditional</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-f70e97b8-f475-4896-8e97-b8f475089610">after protasis of conditional</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2022-02-15T19:50:09.507+09:00">perfective modal particle marking the conditional clause</def>
-            </sense></entry><entry type="word" xml:id="uuid-8e62aedc-977f-4d18-a2ae-dc977fad1882" resp="#zadrapa" tls:created="2022-06-07T17:29:13.857+09:00"><form corresp="#uuid-43ea3320-df1c-488c-8e54-7b2f52474816"><orth>黨</orth><pron xml:lang="zh-Latn-x-pinyin">tǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">zyik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thaaŋʔ</pron></form><sense xml:id="uuid-9b4c57b9-a26a-4333-8c57-b9a26aa3335e" resp="#zadrapa" tls:created="2022-06-07T17:29:13.857+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-fdfe4159-357c-445b-8289-3ff23c27c389">padV.adS</tls:syn-func></gramGrp><def>= tang3 倘: if</def></sense></entry><entry type="word" xml:id="uuid-9ae17c81-2e64-4f1a-a17c-812e642f1a12" resp="#CH" tls:created="2022-09-28T23:24:43.922+09:00"><form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991 #uuid-b70766fd-8fa3-4174-9134-d39d5f504d70"><orth>有如</orth><pron xml:lang="zh-Latn-x-pinyin">yǒu rú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX nyo</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ nja</pron></form><sense xml:id="uuid-dba703f9-f396-42f0-a703-f9f39662f09a" resp="#CH" tls:created="2022-09-28T23:24:43.922+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c60345f1-a3e8-4ac9-b9c5-d8fbd48fd496">vadS1.adS2</tls:syn-func></gramGrp><def>In case that S1 then S2</def></sense></entry><entry type="word" xml:id="uuid-aaaa5c00-0d3d-4484-aa5c-000d3de484fd" resp="#dsehnal" tls:created="2023-12-16T06:21:37.303+09:00"><form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144"><orth>將</orth><pron xml:lang="zh-Latn-x-pinyin">jiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ</pron></form><sense xml:id="uuid-bd8d9d10-e1f9-4ddc-8d9d-10e1f9cddc87" resp="#dsehnal" tls:created="2023-12-16T06:21:37.303+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-b2b50423-7ad4-40cb-815c-59efdaef2f37">padS1.adS2</tls:syn-func><tls:sem-feat corresp="#uuid-33206044-2b20-49c4-87c9-4d29c0e3df04">conditional</tls:sem-feat></gramGrp><def>if S1, then S2</def></sense></entry><entry type="word" xml:id="uuid-04bed858-7922-46f8-bed8-58792236f846" resp="#CH" tls:created="2024-02-21T17:50:15.784+09:00"><form corresp="#uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd #uuid-f5943075-30ec-4b23-a75a-2a7bb28c53c5"><orth>夫苟</orth><pron xml:lang="zh-Latn-x-pinyin">fú gǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bju kuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ba kooʔ</pron></form><sense xml:id="uuid-2c09ac39-b290-428e-89ac-39b290728ef1" resp="#CH" tls:created="2024-02-21T17:50:15.784+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-7e409a3a-2536-4697-8a05-4cdcf5ea5265">PPadS1.adS2</tls:syn-func></gramGrp><def>if indeed</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8e62aedc-977f-4d18-a2ae-dc977fad1882" resp="#zadrapa" tls:created="2022-06-07T17:29:13.857+09:00">
+            <form corresp="#uuid-43ea3320-df1c-488c-8e54-7b2f52474816">
+                <orth>黨</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">zyik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">thaaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-9b4c57b9-a26a-4333-8c57-b9a26aa3335e" resp="#zadrapa" tls:created="2022-06-07T17:29:13.857+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-fdfe4159-357c-445b-8289-3ff23c27c389">padV.adS</tls:syn-func>
+                </gramGrp>
+                <def>= tang3 倘: if</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9ae17c81-2e64-4f1a-a17c-812e642f1a12" resp="#CH" tls:created="2022-09-28T23:24:43.922+09:00">
+            <form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991 #uuid-b70766fd-8fa3-4174-9134-d39d5f504d70">
+                <orth>有如</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒu rú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX nyo</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ nja</pron>
+            </form>
+            <sense xml:id="uuid-dba703f9-f396-42f0-a703-f9f39662f09a" resp="#CH" tls:created="2022-09-28T23:24:43.922+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c60345f1-a3e8-4ac9-b9c5-d8fbd48fd496">vadS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>In case that S1 then S2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-aaaa5c00-0d3d-4484-aa5c-000d3de484fd" resp="#dsehnal" tls:created="2023-12-16T06:21:37.303+09:00">
+            <form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144">
+                <orth>將</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ</pron>
+            </form>
+            <sense xml:id="uuid-bd8d9d10-e1f9-4ddc-8d9d-10e1f9cddc87" resp="#dsehnal" tls:created="2023-12-16T06:21:37.303+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-b2b50423-7ad4-40cb-815c-59efdaef2f37">padS1.adS2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-33206044-2b20-49c4-87c9-4d29c0e3df04">conditional</tls:sem-feat>
+                </gramGrp>
+                <def>if S1, then S2</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-04bed858-7922-46f8-bed8-58792236f846" resp="#CH" tls:created="2024-02-21T17:50:15.784+09:00">
+            <form corresp="#uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd #uuid-f5943075-30ec-4b23-a75a-2a7bb28c53c5">
+                <orth>夫苟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú gǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bju kuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ba kooʔ</pron>
+            </form>
+            <sense xml:id="uuid-2c09ac39-b290-428e-89ac-39b290728ef1" resp="#CH" tls:created="2024-02-21T17:50:15.784+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-7e409a3a-2536-4697-8a05-4cdcf5ea5265">PPadS1.adS2</tls:syn-func>
+                </gramGrp>
+                <def>if indeed</def>
+            </sense>
+        </entry>
+    </div>
 </div>

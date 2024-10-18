@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dff003d3-a3ba-4c21-ac72-cba899a2b4c5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-dff003d3-a3ba-4c21-ac72-cba899a2b4c5">
 <head>INTEND</head>
     <list type="altnames">
 <item>PLAN</item>
@@ -391,7 +392,14 @@
                 </gramGrp>
   <def>basic intentions, ultimate design, basic plan</def>
             </sense>
-<sense xml:id="uuid-bc09ec90-601a-428f-89ec-90601a528f23" resp="#zadrapa" tls:created="2022-05-23T22:03:33.047+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-94a2e04d-fa3a-4686-a2e0-4dfa3a06866b">nab.post-Nab</tls:syn-func></gramGrp><def>the intentions of Nab-ing</def></sense></entry>
+<sense xml:id="uuid-bc09ec90-601a-428f-89ec-90601a528f23" resp="#zadrapa" tls:created="2022-05-23T22:03:33.047+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-94a2e04d-fa3a-4686-a2e0-4dfa3a06866b">nab.post-Nab</tls:syn-func>
+                </gramGrp>
+                <def>the intentions of Nab-ing</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a3f33a95-53b3-473e-bac3-a51ff90b91ef">
             <form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
 <orth>志</orth>
@@ -468,7 +476,14 @@
                 </gramGrp>
   <def>as far as one's intention is concerned, by intention</def>
             </sense>
-<sense xml:id="uuid-713a684f-3083-40bb-ba68-4f308370bb19" resp="#dsehnal" tls:created="2024-06-09T03:07:43.999+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>N's intentions; N's desires</def></sense></entry>
+<sense xml:id="uuid-713a684f-3083-40bb-ba68-4f308370bb19" resp="#dsehnal" tls:created="2024-06-09T03:07:43.999+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>N's intentions; N's desires</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6050b452-0d14-4d1d-aa6f-0fd870b93835">
             <form corresp="#uuid-a1f860c3-f03f-46da-9700-d7cb62b29bc6">
 <orth>擬</orth>
@@ -551,7 +566,22 @@
                 </gramGrp>
   <def>insist on V-ing</def>
             </sense>
-<sense xml:id="uuid-63620af7-9ab6-48ca-9dfd-8a6cebc7fa48" resp="#CH" tls:created="2019-12-18T00:18:56.6+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func></gramGrp><def resp="#CH" updated="2024-07-27T18:06:59.087+09:00">aim to and desire to; intend</def></sense><sense xml:id="uuid-024572ae-7ff3-43ae-8572-ae7ff373aecf" resp="#CH" tls:created="2024-04-21T14:55:47.444+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>"wish to" be V-ed, like to be V-ed</def></sense></entry>
+<sense xml:id="uuid-63620af7-9ab6-48ca-9dfd-8a6cebc7fa48" resp="#CH" tls:created="2019-12-18T00:18:56.6+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0b09b6e0-ddea-45f8-8b4a-5d427d67044b">vt+V(0)</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-07-27T18:06:59.087+09:00">aim to and desire to; intend</def>
+            </sense>
+            <sense xml:id="uuid-024572ae-7ff3-43ae-8572-ae7ff373aecf" resp="#CH" tls:created="2024-04-21T14:55:47.444+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c2215d92-0f3d-4b46-a15d-920f3d9b4618">vtoV[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>"wish to" be V-ed, like to be V-ed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-077729aa-fd87-427f-8ebd-958b3ee5738e">
             <form corresp="#uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
 <orth>用</orth>
@@ -748,24 +778,81 @@
   <def>intend to V</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-a4a66f89-6d5f-431e-81be-7cc02ce8f489" resp="#CH" tls:created="2019-12-27T18:41:45.897+09:00"><form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7"><orth>為</orth><pron xml:lang="zh-Latn-x-pinyin">wéi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal</pron></form><sense xml:id="uuid-3fbd996b-93ae-492e-a447-d659e31d934d" resp="#CH" tls:created="2019-12-27T18:41:45.897+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vt(0) V1.adV2</tls:syn-func></gramGrp><def>read wèi: in order to (?)</def></sense></entry><entry type="word" xml:id="uuid-2695f23d-cbbf-42d4-95f2-3dcbbf02d460" resp="#zadrapa" tls:created="2020-06-11T04:44:59.574+09:00"><form corresp="#uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75"><orth>求</orth><pron xml:lang="zh-Latn-x-pinyin">qiú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjuw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡu</pron></form><sense xml:id="uuid-214c4573-5ae5-4ddc-8c45-735ae5eddc42" resp="#zadrapa" tls:created="2020-06-11T04:44:59.574+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>to intend to V</def></sense></entry><entry xml:id="uuid-90d614e7-6c33-4adc-9614-e76c335adca7"><form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8">
+    <entry type="word" xml:id="uuid-a4a66f89-6d5f-431e-81be-7cc02ce8f489" resp="#CH" tls:created="2019-12-27T18:41:45.897+09:00">
+            <form corresp="#uuid-7b000f40-61a0-42e3-bec5-fd2a72df02d7">
+                <orth>為</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wéi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷal</pron>
+            </form>
+            <sense xml:id="uuid-3fbd996b-93ae-492e-a447-d659e31d934d" resp="#CH" tls:created="2019-12-27T18:41:45.897+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vt(0) V1.adV2</tls:syn-func>
+                </gramGrp>
+                <def>read wèi: in order to (?)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-2695f23d-cbbf-42d4-95f2-3dcbbf02d460" resp="#zadrapa" tls:created="2020-06-11T04:44:59.574+09:00">
+            <form corresp="#uuid-f68bbc45-0deb-4d2f-bd88-bef660d91d75">
+                <orth>求</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjuw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡu</pron>
+            </form>
+            <sense xml:id="uuid-214c4573-5ae5-4ddc-8c45-735ae5eddc42" resp="#zadrapa" tls:created="2020-06-11T04:44:59.574+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>to intend to V</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-90d614e7-6c33-4adc-9614-e76c335adca7">
+            <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8">
 <orth>而</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">ér</pron>
                 <pron xml:lang="zh-x-oc">njɯ</pron>
                 <pron xml:lang="zh-x-mc">ȵɨ</pron>
-            </form><sense xml:id="uuid-38e21ef0-ea81-49cd-b783-6c27ec21ae9b">
+            </form>
+            <sense xml:id="uuid-38e21ef0-ea81-49cd-b783-6c27ec21ae9b">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-e6732f75-9b17-4560-a0ea-501e1b4c7442">padV1.postV2</tls:syn-func>
                     <usg type="warring-states-currency">4</usg>
                 </gramGrp>
   <def>intending to, in order to, used like 以</def>
-            </sense><sense xml:id="uuid-13c5d1ce-c9ca-4dfc-85d1-cec9ca0dfcde" resp="#CH" tls:created="2020-02-14T04:24:59.805+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#">padV1.post-V2</tls:syn-func></gramGrp><def>so as to</def></sense><sense xml:id="uuid-c8c4efcf-8ab8-4b1d-b3aa-84e793673aaf">
+            </sense>
+            <sense xml:id="uuid-13c5d1ce-c9ca-4dfc-85d1-cec9ca0dfcde" resp="#CH" tls:created="2020-02-14T04:24:59.805+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#">padV1.post-V2</tls:syn-func>
+                </gramGrp>
+                <def>so as to</def>
+            </sense>
+            <sense xml:id="uuid-c8c4efcf-8ab8-4b1d-b3aa-84e793673aaf">
 <gramGrp>
                     <pos>P</pos>
   <tls:syn-func corresp="#uuid-d4e1570d-69fc-493c-b2ec-d1f0f5b56e05">padS1.post-S2</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
                 </gramGrp>
   <def>in order to</def>
-            </sense></entry><entry type="word" xml:id="uuid-dc0e6809-1b18-4b29-8e68-091b182b2934" resp="#Valerie.Kiel" tls:created="2023-01-18T18:59:30.118+09:00"><form corresp="#uuid-01409830-4352-4246-8e41-5f8f373d8c0a #uuid-f92bd229-a310-48c4-8739-f679500d0958"><orth>指歸</orth><pron xml:lang="zh-Latn-x-pinyin">zhǐ guī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijX kjw+j</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjiʔ klul</pron></form><sense xml:id="uuid-25aa652f-25c9-45a3-aa65-2f25c945a394" resp="#Valerie.Kiel" tls:created="2023-01-18T18:59:30.118+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>the main idea; intention</def></sense></entry></div>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-dc0e6809-1b18-4b29-8e68-091b182b2934" resp="#Valerie.Kiel" tls:created="2023-01-18T18:59:30.118+09:00">
+            <form corresp="#uuid-01409830-4352-4246-8e41-5f8f373d8c0a #uuid-f92bd229-a310-48c4-8739-f679500d0958">
+                <orth>指歸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǐ guī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyijX kjw+j</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kjiʔ klul</pron>
+            </form>
+            <sense xml:id="uuid-25aa652f-25c9-45a3-aa65-2f25c945a394" resp="#Valerie.Kiel" tls:created="2023-01-18T18:59:30.118+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>the main idea; intention</def>
+            </sense>
+        </entry>
+    </div>
 </div>

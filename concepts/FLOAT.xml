@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e1ba4421-f44a-4cea-9437-74053c71d9eb">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e1ba4421-f44a-4cea-9437-74053c71d9eb">
 <head>FLOAT</head>
     <list type="altnames">
 <item>DRIFT</item>
@@ -137,7 +138,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-0ae8b536-ee12-4656-85d3-8e79b9205e66">
-            <form corresp="#uuid-f8292681-4bc2-4e99-bc2a-3d07495dfd5c"><orth>汎</orth><pron xml:lang="zh-Latn-x-pinyin">fàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phjomH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phloms</pron></form>
+            <form corresp="#uuid-f8292681-4bc2-4e99-bc2a-3d07495dfd5c">
+                <orth>汎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phjomH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phloms</pron>
+            </form>
             <def>Fàn 泛, fàn 氾, and fàn 汎 seem to be dialect variants of a word for drifting on water, typically aimlessly. (It is to be noted that the three words, though close in pronunciation, are by no means homophonous in ancient pronunciation. One should think they must be etymologically related.)
 </def>
 <sense xml:id="uuid-c5929869-1c8f-4301-b446-bb529de8c718">
@@ -217,7 +223,38 @@
                 </gramGrp>
   <def>floating, passing along</def>
             </sense>
-<sense xml:id="uuid-6c031f9b-e6d1-4fc7-9443-a844d9762ed6" resp="#CH" tls:created="2019-11-08T01:37:40.468+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>cause to float along (one's glance etc)</def></sense><sense xml:id="uuid-c8245196-c21d-4985-adc9-ddb9bbf51502" resp="#CH" tls:created="2020-02-05T01:58:47.794+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>continuative: float along</def></sense><sense xml:id="uuid-4ae14079-a119-4a9f-a140-79a1195a9f13" resp="#CH" tls:created="2020-12-15T21:20:31.14+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>float along in&gt; revel in</def></sense><sense xml:id="uuid-1dc30e7d-6a03-4e4a-830e-7d6a030e4a24" resp="#dsehnal" tls:created="2024-05-05T04:27:53.697+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-afef2909-dae0-4c82-af29-09dae0bc8291">vtt(oN1).+vtoN2</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>let the contextually determinate N1 float in N2</def></sense></entry>
+<sense xml:id="uuid-6c031f9b-e6d1-4fc7-9443-a844d9762ed6" resp="#CH" tls:created="2019-11-08T01:37:40.468+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>cause to float along (one's glance etc)</def>
+            </sense>
+            <sense xml:id="uuid-c8245196-c21d-4985-adc9-ddb9bbf51502" resp="#CH" tls:created="2020-02-05T01:58:47.794+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>continuative: float along</def>
+            </sense>
+            <sense xml:id="uuid-4ae14079-a119-4a9f-a140-79a1195a9f13" resp="#CH" tls:created="2020-12-15T21:20:31.14+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>float along in&gt; revel in</def>
+            </sense>
+            <sense xml:id="uuid-1dc30e7d-6a03-4e4a-830e-7d6a030e4a24" resp="#dsehnal" tls:created="2024-05-05T04:27:53.697+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-afef2909-dae0-4c82-af29-09dae0bc8291">vtt(oN1).+vtoN2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>let the contextually determinate N1 float in N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c89ceaa1-c5ce-4c1e-bbbf-c6120bf3e392">
             <form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8">
 <orth>浮</orth>
@@ -273,7 +310,29 @@
                 </gramGrp>
   <def>cause (oneself) to float</def>
             </sense>
-<sense xml:id="uuid-01eb1c88-ea0c-4064-9697-dace73e3e0cf" resp="#CH" tls:created="2019-11-29T03:34:32.139+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vadN</tls:syn-func></gramGrp><def>free-flowing, untrammelled</def></sense><sense xml:id="uuid-04770bc1-6155-472a-b3dd-b43b90a15493" resp="#CH" tls:created="2020-02-05T02:08:19.812+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>drift along over, float across</def></sense><sense xml:id="uuid-0cca0295-9e11-416a-8a02-959e11216a88" resp="#CH" tls:created="2021-05-01T18:01:05.971+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-3e27712a-ab03-4462-8a9e-9f9310f299f0">permissive</tls:sem-feat></gramGrp><def>allow to float about</def></sense></entry>
+<sense xml:id="uuid-01eb1c88-ea0c-4064-9697-dace73e3e0cf" resp="#CH" tls:created="2019-11-29T03:34:32.139+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vadN</tls:syn-func>
+                </gramGrp>
+                <def>free-flowing, untrammelled</def>
+            </sense>
+            <sense xml:id="uuid-04770bc1-6155-472a-b3dd-b43b90a15493" resp="#CH" tls:created="2020-02-05T02:08:19.812+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>drift along over, float across</def>
+            </sense>
+            <sense xml:id="uuid-0cca0295-9e11-416a-8a02-959e11216a88" resp="#CH" tls:created="2021-05-01T18:01:05.971+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3e27712a-ab03-4462-8a9e-9f9310f299f0">permissive</tls:sem-feat>
+                </gramGrp>
+                <def>allow to float about</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c68ac0cb-ade1-48b9-9f14-d9788c524404">
             <form corresp="#uuid-6f8b0714-e9fd-4f0f-a872-e2712e8dccca">
 <orth>淠</orth>
@@ -321,7 +380,15 @@
                 </gramGrp>
   <def>float into, drift to</def>
             </sense>
-<sense xml:id="uuid-29f9121d-9f03-472b-b912-1d9f03d72bbf" resp="#dsehnal" tls:created="2024-02-05T20:51:04.599+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause N to float away</def></sense></entry>
+<sense xml:id="uuid-29f9121d-9f03-472b-b912-1d9f03d72bbf" resp="#dsehnal" tls:created="2024-02-05T20:51:04.599+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause N to float away</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-37ec6930-2dbd-4ae3-97c7-12c0eb4bbe85">
             <form corresp="#uuid-024b6b04-c4d3-46af-9be3-2af90c320991">
 <orth>瀾</orth>
@@ -441,8 +508,88 @@
   <def>float in</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d9e3eaf7-83d3-46a0-8839-ebdc3f8e84f3" resp="#CH" tls:created="2019-12-07T18:53:46.204+09:00"><form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8 #uuid-116f76e4-12f2-45f0-99be-a12bccfa72ba"><orth>浮騰</orth><pron xml:lang="zh-Latn-x-pinyin">fú téng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjuw dong</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bu lɯɯŋ</pron></form><sense xml:id="uuid-c0d86811-d82f-4a47-bf76-2e16f8e41f6f" resp="#CH" tls:created="2019-12-07T18:53:46.204+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>floating up and down in the flow of existence</def></sense></entry><entry type="word" xml:id="uuid-a90ff1df-94ee-4d54-9988-7f7ed4f14a0d" resp="#CH" tls:created="2020-02-12T00:56:56.863+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-9f6f819a-1637-40fc-babd-1fb92c8221f8" resp="#CH" tls:created="2020-02-12T00:56:56.863+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary: float about stylistically in an unstable manner</def></sense></entry><entry type="word" xml:id="uuid-b5106cb0-61e6-4c6b-8d58-38777f1d28ba" resp="#CH" tls:created="2020-02-12T00:57:05.939+09:00"><form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8 #uuid-6e74d95c-a946-4691-a085-9fc1807e8634"><orth>浮漂</orth><pron xml:lang="zh-Latn-x-pinyin">fú piāo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjuw --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bu phew</pron></form><sense xml:id="uuid-25090115-8a76-42c3-b840-671d0502a3a3" resp="#CH" tls:created="2020-02-12T00:57:05.939+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary: float about stylistically in an unstable manner</def></sense></entry><entry type="word" xml:id="uuid-914b8183-db0a-4174-a236-6889fa6a764a" resp="#CH" tls:created="2020-02-12T00:57:32.498+09:00"><form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8 #uuid-6e74d95c-a946-4691-a085-9fc1807e8634"><orth>浮漂</orth><pron xml:lang="zh-Latn-x-pinyin">fú piāo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bjuw --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bu phew</pron></form><sense xml:id="uuid-894a8d3a-15a7-4036-8fdd-9f365e50861e" resp="#CH" tls:created="2020-02-12T00:57:32.498+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary: float about stylistically in an unstable manner</def></sense></entry><entry type="word" xml:id="uuid-bdf8b514-460f-4aa9-b8b5-14460fcaa932" resp="#CH" tls:created="2020-02-12T21:47:51.909+09:00"><form corresp="#uuid-83544c9f-1dc7-4681-8c72-e414d61c3107"><orth>沿</orth><pron xml:lang="zh-Latn-x-pinyin">yán
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywen
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lon
-</pron></form><sense xml:id="uuid-281b1a55-250a-41b3-9b1a-55250a91b37b" resp="#CH" tls:created="2020-02-12T21:47:51.909+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">act</tls:sem-feat></gramGrp><def>float along with, float along in</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d9e3eaf7-83d3-46a0-8839-ebdc3f8e84f3" resp="#CH" tls:created="2019-12-07T18:53:46.204+09:00">
+            <form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8 #uuid-116f76e4-12f2-45f0-99be-a12bccfa72ba">
+                <orth>浮騰</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú téng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjuw dong</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bu lɯɯŋ</pron>
+            </form>
+            <sense xml:id="uuid-c0d86811-d82f-4a47-bf76-2e16f8e41f6f" resp="#CH" tls:created="2019-12-07T18:53:46.204+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>floating up and down in the flow of existence</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a90ff1df-94ee-4d54-9988-7f7ed4f14a0d" resp="#CH" tls:created="2020-02-12T00:56:56.863+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-9f6f819a-1637-40fc-babd-1fb92c8221f8" resp="#CH" tls:created="2020-02-12T00:56:56.863+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary: float about stylistically in an unstable manner</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-b5106cb0-61e6-4c6b-8d58-38777f1d28ba" resp="#CH" tls:created="2020-02-12T00:57:05.939+09:00">
+            <form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8 #uuid-6e74d95c-a946-4691-a085-9fc1807e8634">
+                <orth>浮漂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú piāo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjuw --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bu phew</pron>
+            </form>
+            <sense xml:id="uuid-25090115-8a76-42c3-b840-671d0502a3a3" resp="#CH" tls:created="2020-02-12T00:57:05.939+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary: float about stylistically in an unstable manner</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-914b8183-db0a-4174-a236-6889fa6a764a" resp="#CH" tls:created="2020-02-12T00:57:32.498+09:00">
+            <form corresp="#uuid-12929538-224f-4f36-b361-15ef758be8e8 #uuid-6e74d95c-a946-4691-a085-9fc1807e8634">
+                <orth>浮漂</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú piāo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bjuw --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">bu phew</pron>
+            </form>
+            <sense xml:id="uuid-894a8d3a-15a7-4036-8fdd-9f365e50861e" resp="#CH" tls:created="2020-02-12T00:57:32.498+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary: float about stylistically in an unstable manner</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bdf8b514-460f-4aa9-b8b5-14460fcaa932" resp="#CH" tls:created="2020-02-12T21:47:51.909+09:00">
+            <form corresp="#uuid-83544c9f-1dc7-4681-8c72-e414d61c3107">
+                <orth>沿</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yán
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywen
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lon
+</pron>
+            </form>
+            <sense xml:id="uuid-281b1a55-250a-41b3-9b1a-55250a91b37b" resp="#CH" tls:created="2020-02-12T21:47:51.909+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">act</tls:sem-feat>
+                </gramGrp>
+                <def>float along with, float along in</def>
+            </sense>
+        </entry>
+    </div>
 </div>

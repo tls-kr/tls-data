@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-84e0808d-8a35-4cba-b8f9-c73a50261636">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-84e0808d-8a35-4cba-b8f9-c73a50261636">
 <head>EMPLOY</head>
     <list type="altnames">
 <item>HIRE</item>
@@ -132,7 +133,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-04-30T01:34:11.52+09:00">e.g. 怨乎不以 "be resentful that they are not employed": be employed, get employed</def>
             </sense>
-<sense xml:id="uuid-49fad2cb-af68-46c3-9894-8e4c5570297d" resp="#CH" tls:created="2019-12-20T03:29:25.345+09:00"><gramGrp><pos>D</pos><tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func></gramGrp><def>when employing N then V</def></sense></entry>
+<sense xml:id="uuid-49fad2cb-af68-46c3-9894-8e4c5570297d" resp="#CH" tls:created="2019-12-20T03:29:25.345+09:00">
+                <gramGrp>
+                    <pos>D</pos>
+                    <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
+                </gramGrp>
+                <def>when employing N then V</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8f3868c1-93c3-4690-bf86-070d79b5607e">
             <form corresp="#uuid-7a2262fe-e85c-4047-9059-8eff91b13b46">
 <orth>任</orth>
@@ -166,7 +174,29 @@
                 </gramGrp>
   <def>be given responsibilities</def>
             </sense>
-<sense xml:id="uuid-dbba749c-4096-41db-ba74-9c4096d1db0f" resp="#twharbsmeier" tls:created="2020-04-04T03:15:05.14+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>give responsibilities to; give responsibilities for something to someone, put in charge of</def></sense><sense xml:id="uuid-9a5c5060-5c24-4ec7-9c50-605c247ec73b" resp="#zadrapa" tls:created="2020-05-22T22:29:04.987+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>give responsibilities to contextually determinate N</def></sense><sense xml:id="uuid-98406250-f7ed-4681-8062-50f7ed26817e" resp="#dsehnal" tls:created="2023-12-18T01:39:37.031+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat></gramGrp><def>process of appointnent</def></sense></entry>
+<sense xml:id="uuid-dbba749c-4096-41db-ba74-9c4096d1db0f" resp="#twharbsmeier" tls:created="2020-04-04T03:15:05.14+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>give responsibilities to; give responsibilities for something to someone, put in charge of</def>
+            </sense>
+            <sense xml:id="uuid-9a5c5060-5c24-4ec7-9c50-605c247ec73b" resp="#zadrapa" tls:created="2020-05-22T22:29:04.987+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>give responsibilities to contextually determinate N</def>
+            </sense>
+            <sense xml:id="uuid-98406250-f7ed-4681-8062-50f7ed26817e" resp="#dsehnal" tls:created="2023-12-18T01:39:37.031+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-da12432d-7ed6-4864-b7e5-4bb8eafe44b4">process</tls:sem-feat>
+                </gramGrp>
+                <def>process of appointnent</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-603f8220-fa49-4831-bc6e-631a1d93f841">
             <form corresp="#uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0">
 <orth>使</orth>
@@ -244,7 +274,21 @@
                 </gramGrp>
   <def>employ the contextually determinate N to V</def>
             </sense>
-<sense xml:id="uuid-d6bf06d3-7f74-49ca-9c06-d117629b3468" resp="#CH" tls:created="2019-12-17T03:42:47.228+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>employ in one's service</def></sense><sense xml:id="uuid-9f0124a8-ad31-4f55-8124-a8ad31ef5545" resp="#CH" tls:created="2020-05-31T01:35:51.16+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func></gramGrp><def>employ N1 as N2</def></sense></entry>
+<sense xml:id="uuid-d6bf06d3-7f74-49ca-9c06-d117629b3468" resp="#CH" tls:created="2019-12-17T03:42:47.228+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>employ in one's service</def>
+            </sense>
+            <sense xml:id="uuid-9f0124a8-ad31-4f55-8124-a8ad31ef5545" resp="#CH" tls:created="2020-05-31T01:35:51.16+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-0bcf295a-0ea1-450f-8a23-bf9130c190ff">vtt(oN1.)+N2</tls:syn-func>
+                </gramGrp>
+                <def>employ N1 as N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e458eb9f-af57-4982-aa04-3fcfc24a608c">
             <form corresp="#uuid-cde4523d-ac14-4e19-b362-7e571dcfc711">
 <orth>傭</orth>
@@ -321,7 +365,15 @@
                 </gramGrp>
   <def>employ as a formal official</def>
             </sense>
-<sense xml:id="uuid-5e37424e-6f74-41e4-b742-4e6f7451e475" resp="#zadrapa" tls:created="2022-05-30T18:15:29.237+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be given an office</def></sense></entry>
+<sense xml:id="uuid-5e37424e-6f74-41e4-b742-4e6f7451e475" resp="#zadrapa" tls:created="2022-05-30T18:15:29.237+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be given an office</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-2c087454-a673-4ee6-8e4c-bf845ce3da4d">
             <form corresp="#uuid-c8c7711f-c417-4098-82e1-70e33aa4627b">
 <orth>宦</orth>
@@ -583,5 +635,118 @@
   <def/>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ac006ea2-e7ce-4034-a645-d2e045615078" resp="#CH" tls:created="2019-11-15T17:07:57.72+09:00"><form corresp="#uuid-22408e86-77b5-4668-800f-91f37f5338a1"><orth>迎</orth><pron xml:lang="zh-Latn-x-pinyin">yíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ngjaeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡraŋ</pron></form><sense xml:id="uuid-d9dfe374-b702-4586-b535-ce5937d6a342" resp="#CH" tls:created="2019-11-15T17:07:57.72+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>employ the contextually determinate N 迎以令尹</def></sense><sense xml:id="uuid-838421f9-c7c6-4f51-8421-f9c7c67f513b" resp="#CH" tls:created="2022-05-30T00:37:42.298+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat></gramGrp><def>welcome N to V</def></sense></entry><entry type="word" xml:id="uuid-5bd35506-f906-4ed2-9f67-d71f12681837" resp="#CH" tls:created="2019-12-17T04:20:46.977+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-b97f8d31-41b4-469a-bad8-5081625e58b7" resp="#CH" tls:created="2019-12-17T04:20:46.977+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>have in one's employment</def></sense></entry><entry type="word" xml:id="uuid-599c9cf4-7b86-4918-aad7-d25eab18b5da" resp="#CH" tls:created="2019-12-17T04:20:55.756+09:00"><form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991"><orth>有</orth><pron xml:lang="zh-Latn-x-pinyin">yǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ</pron></form><sense xml:id="uuid-1c4a4dda-7d06-43a9-9c33-75e8db6f1561" resp="#CH" tls:created="2019-12-17T04:20:55.756+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>have in one's employment</def></sense></entry><entry type="word" xml:id="uuid-5d50b783-d0f6-4fb9-90b7-83d0f6dfb963" resp="#CH" tls:created="2020-03-31T21:15:58.167+09:00"><form corresp="#uuid-4aed5dd0-d8d5-44af-a56a-da64b1ee1642"><orth>職</orth><pron xml:lang="zh-Latn-x-pinyin">zhí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯɡ</pron></form><sense xml:id="uuid-d51d5e19-a388-45a0-9d5e-19a388f5a0de" resp="#CH" tls:created="2020-03-31T21:15:58.167+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>employ in a regular official function</def></sense></entry><entry type="word" xml:id="uuid-d2687a6b-d679-40aa-a87a-6bd67990aa40" resp="#zadrapa" tls:created="2021-01-20T05:54:33.79+09:00"><form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-2e64086a-bc0d-434c-8b75-076fa5837220"><orth>可用</orth><pron xml:lang="zh-Latn-x-pinyin">kě yòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khaX yowngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ k-loŋs</pron></form><sense xml:id="uuid-8c56f9fc-da33-4d39-96f9-fcda335d391f" resp="#zadrapa" tls:created="2021-01-20T05:54:33.79+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func></gramGrp><def>who can be employed, an employable person</def></sense></entry><entry type="word" xml:id="uuid-dd6800e0-147e-418b-a800-e0147ed18b3f" resp="#zadrapa" tls:created="2022-05-16T17:11:58.657+09:00"><form corresp="#uuid-1e4a8db2-c1eb-44ca-b989-072549b6767e #uuid-6c1d4e94-b2b9-4cce-8aed-9f5230426120"><orth>官施</orth><pron xml:lang="zh-Latn-x-pinyin">guān shī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwan sye</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koon lʰal</pron></form><sense xml:id="uuid-b22d4931-2d3d-4830-ad49-312d3da8301b" resp="#zadrapa" tls:created="2022-05-16T17:11:58.657+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>employ in an office</def></sense></entry><entry type="word" xml:id="uuid-603cb786-66b6-4620-bcb7-8666b68620a9" resp="#zadrapa" tls:created="2022-05-24T04:39:56.909+09:00"><form corresp="#uuid-1af4f83c-5e32-43c0-9616-54d4478fcab5"><orth>閱</orth><pron xml:lang="zh-Latn-x-pinyin">yuè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lod</pron></form><sense xml:id="uuid-cc05a575-146e-4678-85a5-75146ee67860" resp="#zadrapa" tls:created="2022-05-24T04:39:56.909+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>employ (XUN - obviously rather rare)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-ac006ea2-e7ce-4034-a645-d2e045615078" resp="#CH" tls:created="2019-11-15T17:07:57.72+09:00">
+            <form corresp="#uuid-22408e86-77b5-4668-800f-91f37f5338a1">
+                <orth>迎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ngjaeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋɡraŋ</pron>
+            </form>
+            <sense xml:id="uuid-d9dfe374-b702-4586-b535-ce5937d6a342" resp="#CH" tls:created="2019-11-15T17:07:57.72+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>employ the contextually determinate N 迎以令尹</def>
+            </sense>
+            <sense xml:id="uuid-838421f9-c7c6-4f51-8421-f9c7c67f513b" resp="#CH" tls:created="2022-05-30T00:37:42.298+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-81831269-7016-4091-8209-5abad1ff4453">vtoN.-V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a367a071-4147-47e9-9110-82cfa2844808">N=pivot</tls:sem-feat>
+                </gramGrp>
+                <def>welcome N to V</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5bd35506-f906-4ed2-9f67-d71f12681837" resp="#CH" tls:created="2019-12-17T04:20:46.977+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-b97f8d31-41b4-469a-bad8-5081625e58b7" resp="#CH" tls:created="2019-12-17T04:20:46.977+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have in one's employment</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-599c9cf4-7b86-4918-aad7-d25eab18b5da" resp="#CH" tls:created="2019-12-17T04:20:55.756+09:00">
+            <form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991">
+                <orth>有</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-1c4a4dda-7d06-43a9-9c33-75e8db6f1561" resp="#CH" tls:created="2019-12-17T04:20:55.756+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have in one's employment</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5d50b783-d0f6-4fb9-90b7-83d0f6dfb963" resp="#CH" tls:created="2020-03-31T21:15:58.167+09:00">
+            <form corresp="#uuid-4aed5dd0-d8d5-44af-a56a-da64b1ee1642">
+                <orth>職</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-d51d5e19-a388-45a0-9d5e-19a388f5a0de" resp="#CH" tls:created="2020-03-31T21:15:58.167+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>employ in a regular official function</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d2687a6b-d679-40aa-a87a-6bd67990aa40" resp="#zadrapa" tls:created="2021-01-20T05:54:33.79+09:00">
+            <form corresp="#uuid-6e6b769a-36c6-400e-8a2a-02e63bc15a1e #uuid-2e64086a-bc0d-434c-8b75-076fa5837220">
+                <orth>可用</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">kě yòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khaX yowngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khlaalʔ k-loŋs</pron>
+            </form>
+            <sense xml:id="uuid-8c56f9fc-da33-4d39-96f9-fcda335d391f" resp="#zadrapa" tls:created="2021-01-20T05:54:33.79+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0ab80e9-d505-441c-b27b-572c28475060">VP[adN]</tls:syn-func>
+                </gramGrp>
+                <def>who can be employed, an employable person</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-dd6800e0-147e-418b-a800-e0147ed18b3f" resp="#zadrapa" tls:created="2022-05-16T17:11:58.657+09:00">
+            <form corresp="#uuid-1e4a8db2-c1eb-44ca-b989-072549b6767e #uuid-6c1d4e94-b2b9-4cce-8aed-9f5230426120">
+                <orth>官施</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guān shī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwan sye</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koon lʰal</pron>
+            </form>
+            <sense xml:id="uuid-b22d4931-2d3d-4830-ad49-312d3da8301b" resp="#zadrapa" tls:created="2022-05-16T17:11:58.657+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>employ in an office</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-603cb786-66b6-4620-bcb7-8666b68620a9" resp="#zadrapa" tls:created="2022-05-24T04:39:56.909+09:00">
+            <form corresp="#uuid-1af4f83c-5e32-43c0-9616-54d4478fcab5">
+                <orth>閱</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lod</pron>
+            </form>
+            <sense xml:id="uuid-cc05a575-146e-4678-85a5-75146ee67860" resp="#zadrapa" tls:created="2022-05-24T04:39:56.909+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>employ (XUN - obviously rather rare)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

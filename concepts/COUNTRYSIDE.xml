@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ff56b45-9f0a-4e1c-9687-01e4a4ed37e4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9ff56b45-9f0a-4e1c-9687-01e4a4ed37e4">
 <head>COUNTRYSIDE</head>
     <list type="altnames">
 <item>COUNTRY</item>
@@ -337,7 +338,7 @@
   <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>the contryside with fields and wilderness</def>
+  <def resp="#zadrapa" updated="2024-10-11T18:50:05.209+09:00">the countryside with fields and wilderness</def>
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-595df4c4-0499-47cf-8785-7ce037f84b6d">
@@ -372,5 +373,36 @@
   <def>the countryside</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-7b360bf2-bb6b-41e2-b60b-f2bb6b31e262" resp="#CH" tls:created="2020-03-31T21:06:34.311+09:00"><form corresp="#uuid-35aad878-a61d-4368-8e00-10c916814ff8 #uuid-24cc13c8-3308-4a8b-a54c-794bbb624ab7"><orth>野鄙</orth><pron xml:lang="zh-Latn-x-pinyin">yě bǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX pijX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">laʔ prɯʔ</pron></form><sense xml:id="uuid-85077a26-145a-4c1e-877a-26145acc1e52" resp="#CH" tls:created="2020-03-31T21:06:34.311+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>outlying regions, distant countryside</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-7b360bf2-bb6b-41e2-b60b-f2bb6b31e262" resp="#CH" tls:created="2020-03-31T21:06:34.311+09:00">
+            <form corresp="#uuid-35aad878-a61d-4368-8e00-10c916814ff8 #uuid-24cc13c8-3308-4a8b-a54c-794bbb624ab7">
+                <orth>野鄙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yě bǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyoX pijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">laʔ prɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-85077a26-145a-4c1e-877a-26145acc1e52" resp="#CH" tls:created="2020-03-31T21:06:34.311+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>outlying regions, distant countryside</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bb440729-9daa-4bd6-8407-299daadbd61f" resp="#zadrapa" tls:created="2024-10-11T18:51:06.892+09:00">
+            <form corresp="#uuid-ab3e3429-393a-4fd1-ac4a-ef1ba9a9b8bd #uuid-24cc13c8-3308-4a8b-a54c-794bbb624ab7">
+                <orth>縣鄙</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiàn bǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hwenH pijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷeens prɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-7d165ef8-12b8-4255-965e-f812b81255a5" resp="#zadrapa" tls:created="2024-10-11T18:51:06.892+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f8182437-4c38-4cc9-a6f8-b4833cdea2ba">nonreferential</tls:sem-feat>
+                </gramGrp>
+                <def>rural parts of a country</def>
+            </sense>
+        </entry>
+    </div>
 </div>

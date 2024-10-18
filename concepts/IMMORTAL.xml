@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-834f0313-9561-4cb2-8b43-1673c162ef71">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-834f0313-9561-4cb2-8b43-1673c162ef71">
 <head>IMMORTAL</head>
     <list type="altnames">
 <item>UNDYING</item>
@@ -117,7 +118,15 @@
                 </gramGrp>
   <def>immortal&gt; eternal</def>
             </sense>
-<sense xml:id="uuid-3ebbc566-1055-4eb5-8648-cb0a31e2ea15" resp="#dsehnal" tls:created="2019-10-19T19:10:50.495+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>which causes immortality, as in 不死之藥</def></sense></entry>
+<sense xml:id="uuid-3ebbc566-1055-4eb5-8648-cb0a31e2ea15" resp="#dsehnal" tls:created="2019-10-19T19:10:50.495+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>which causes immortality, as in 不死之藥</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-21c5831e-6625-489c-9a47-7780547b8b0b">
             <form corresp="#uuid-8b488a15-bf50-46d1-88b2-b7c76248e7cd #uuid-9b2085ff-7bf4-4750-a572-e6bed49370cd">
 <orth>八仙</orth>
@@ -249,5 +258,20 @@
   <def>immortality</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-1971e574-83ca-40bc-b1e5-7483cad0bc21" resp="#CH" tls:created="2023-08-29T02:38:13.242+09:00"><form corresp="#uuid-4017879e-e160-4998-9ed2-a55aeb3249ea"><orth>僊</orth><pron xml:lang="zh-Latn-x-pinyin">xiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sen</pron></form><sense xml:id="uuid-361ee4ff-82c2-450e-9ee4-ff82c2f50e18" resp="#CH" tls:created="2023-08-29T02:38:13.242+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>=仙 as an immortal</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1971e574-83ca-40bc-b1e5-7483cad0bc21" resp="#CH" tls:created="2023-08-29T02:38:13.242+09:00">
+            <form corresp="#uuid-4017879e-e160-4998-9ed2-a55aeb3249ea">
+                <orth>僊</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sen</pron>
+            </form>
+            <sense xml:id="uuid-361ee4ff-82c2-450e-9ee4-ff82c2f50e18" resp="#CH" tls:created="2023-08-29T02:38:13.242+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>=仙 as an immortal</def>
+            </sense>
+        </entry>
+    </div>
 </div>

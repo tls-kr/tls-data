@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-91d9a879-afbf-470b-9a01-b61b695defc7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-91d9a879-afbf-470b-9a01-b61b695defc7">
 <head>TAKE</head>
     <list type="altnames">
 <item>LAY HOLD OF</item>
@@ -243,7 +244,29 @@
                 </gramGrp>
   <def>取諸其懷to take (a certain amount or part N1) (from a whole or a place N2), to pick out (something N1) (from a larger group N2)</def>
             </sense>
-<sense xml:id="uuid-08095673-9e01-442d-8956-739e01642d1c" resp="#zadrapa" tls:created="2023-05-17T17:00:56.485+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-84511229-7975-4550-8d06-eeed47de6f98">vtt[oN1.+N2]</tls:syn-func></gramGrp><def>take things from others</def></sense><sense xml:id="uuid-62d26ad8-372b-416f-926a-d8372bb16f4e" resp="#dsehnal" tls:created="2023-07-09T01:44:06.641+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0e62d6d-6c4b-49df-a62d-6d6c4b19df87">vtt[oN1.]+(N2)</tls:syn-func></gramGrp><def>take things from the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-08095673-9e01-442d-8956-739e01642d1c" resp="#zadrapa" tls:created="2023-05-17T17:00:56.485+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-84511229-7975-4550-8d06-eeed47de6f98">vtt[oN1.+N2]</tls:syn-func>
+                </gramGrp>
+                <def>take things from others</def>
+            </sense>
+            <sense xml:id="uuid-62d26ad8-372b-416f-926a-d8372bb16f4e" resp="#dsehnal" tls:created="2023-07-09T01:44:06.641+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0e62d6d-6c4b-49df-a62d-6d6c4b19df87">vtt[oN1.]+(N2)</tls:syn-func>
+                </gramGrp>
+                <def>take things from the contextually determinate N2</def>
+            </sense>
+            <sense xml:id="uuid-ed58ddae-266d-429a-98dd-ae266d729ac8" resp="#zadrapa" tls:created="2024-10-03T18:49:31.004+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>taking of N from others</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-630f332c-348b-41e0-97f8-2514ccebb59a">
             <form corresp="#uuid-99ded5fd-627f-48cc-9764-8a1fe3728f61">
 <orth>執</orth>
@@ -334,7 +357,43 @@
                 </gramGrp>
   <def>take N1 away from N2</def>
             </sense>
-<sense xml:id="uuid-924b9238-a79a-40b1-8f9f-6dbd643de004" resp="#CH" tls:created="2019-12-13T21:02:17.497+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func></gramGrp><def>get hold of an N that is not originally under one's control&gt; snatch away</def></sense><sense xml:id="uuid-2153c712-f1fd-4007-93c7-12f1fda00739" resp="#zadrapa" tls:created="2020-05-29T01:38:55.244+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-84511229-7975-4550-8d06-eeed47de6f98">vtt[oN1.+N2]</tls:syn-func></gramGrp><def>take things away from people</def></sense><sense xml:id="uuid-ae9985bf-190e-41d7-9985-bf190ef1d7ed" resp="#zadrapa" tls:created="2022-05-23T02:58:53.792+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2022-05-23T03:00:33.222+09:00">take away (something N1) (from N2)</def></sense><sense xml:id="uuid-e9f60267-74c9-428c-b602-6774c9628c59" resp="#zadrapa" tls:created="2022-05-31T20:01:51.693+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>taking away things from people</def></sense><sense xml:id="uuid-03ac628a-7349-479e-ac62-8a7349379e47" resp="#CH" tls:created="2022-08-02T21:05:51.031+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vtt[oN1.+prep+N2]</tls:syn-func></gramGrp><def>take things away from people</def></sense></entry>
+<sense xml:id="uuid-924b9238-a79a-40b1-8f9f-6dbd643de004" resp="#CH" tls:created="2019-12-13T21:02:17.497+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>get hold of an N that is not originally under one's control&gt; snatch away</def>
+            </sense>
+            <sense xml:id="uuid-2153c712-f1fd-4007-93c7-12f1fda00739" resp="#zadrapa" tls:created="2020-05-29T01:38:55.244+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-84511229-7975-4550-8d06-eeed47de6f98">vtt[oN1.+N2]</tls:syn-func>
+                </gramGrp>
+                <def>take things away from people</def>
+            </sense>
+            <sense xml:id="uuid-ae9985bf-190e-41d7-9985-bf190ef1d7ed" resp="#zadrapa" tls:created="2022-05-23T02:58:53.792+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2022-05-23T03:00:33.222+09:00">take away (something N1) (from N2)</def>
+            </sense>
+            <sense xml:id="uuid-e9f60267-74c9-428c-b602-6774c9628c59" resp="#zadrapa" tls:created="2022-05-31T20:01:51.693+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>taking away things from people</def>
+            </sense>
+            <sense xml:id="uuid-03ac628a-7349-479e-ac62-8a7349379e47" resp="#CH" tls:created="2022-08-02T21:05:51.031+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vtt[oN1.+prep+N2]</tls:syn-func>
+                </gramGrp>
+                <def>take things away from people</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f33754e3-cd6e-4165-b690-6dacef9ec65b">
             <form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144">
 <orth>將</orth>
@@ -589,7 +648,15 @@
                 </gramGrp>
   <def>LAO 55; capture by beating with wings in order to immobilise prey; capture (often alive)</def>
             </sense>
-<sense xml:id="uuid-aae47e7e-17db-4283-a47e-7e17db6283ad" resp="#CH" tls:created="2021-06-19T23:39:25.281+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-1758f9cd-91bc-44bc-98f9-cd91bc54bcf4">personally</tls:sem-feat></gramGrp><def>take hold of in person, receive in person</def></sense></entry>
+<sense xml:id="uuid-aae47e7e-17db-4283-a47e-7e17db6283ad" resp="#CH" tls:created="2021-06-19T23:39:25.281+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1758f9cd-91bc-44bc-98f9-cd91bc54bcf4">personally</tls:sem-feat>
+                </gramGrp>
+                <def>take hold of in person, receive in person</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b918b5df-d893-4512-a4a2-8286aa4dc896">
             <form corresp="#uuid-fa368c47-69e0-4e7c-8649-3ba6fe46bece">
 <orth>摻</orth>
@@ -705,7 +772,15 @@
                 </gramGrp>
   <def>grasp, take; pluck; stir</def>
             </sense>
-<sense xml:id="uuid-e189ecff-e737-4d73-89ec-ffe7374d73c2" resp="#CH" tls:created="2020-02-13T07:19:39.571+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>focus on intellectually and stir into action</def></sense></entry>
+<sense xml:id="uuid-e189ecff-e737-4d73-89ec-ffe7374d73c2" resp="#CH" tls:created="2020-02-13T07:19:39.571+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>focus on intellectually and stir into action</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-f135f23b-8ae1-4724-819b-6c47c3c53161">
             <form corresp="#uuid-181a9c68-746e-449c-bac1-3eb64aa6a2c6">
 <orth>收</orth>
@@ -862,11 +937,119 @@
   <def>pick up, collect</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fcc11351-3baa-4db8-a69b-391caae0541f" resp="#CH" tls:created="2020-02-06T23:02:30.408+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-83840506-b031-4581-a388-c96050bcad1a" resp="#CH" tls:created="2020-02-06T23:02:30.408+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>take hold of so as to wield</def></sense></entry><entry type="word" xml:id="uuid-8001f757-5dbf-4146-a4a7-2eaff8e39d64" resp="#CH" tls:created="2020-02-06T23:02:41.401+09:00"><form corresp="#uuid-17c6bb10-89ec-4532-987e-eafbb59ddb6e"><orth>操</orth><pron xml:lang="zh-Latn-x-pinyin">cāo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshaw</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshaaw</pron></form><sense xml:id="uuid-2a4fb656-85ca-4e21-afba-2b412b8e01cf" resp="#CH" tls:created="2020-02-06T23:02:41.401+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>take hold of so as to wield</def></sense></entry><entry type="word" xml:id="uuid-56865dea-2549-470a-865d-ea2549870abc" resp="#CH" tls:created="2020-02-24T08:56:38.122+09:00"><form corresp="#uuid-35496ae0-38af-446e-afca-6b472a46c411 #uuid-f92bd229-a310-48c4-8739-f679500d0958"><orth>持歸</orth><pron xml:lang="zh-Latn-x-pinyin">chí guī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dri kjw+j</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrlɯ klul</pron></form><sense xml:id="uuid-c7d4a3a3-274b-4845-94a3-a3274b98456a" resp="#CH" tls:created="2020-02-24T08:56:38.122+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>take the contextually determinate N home</def></sense></entry><entry type="word" xml:id="uuid-bb81137e-f9b7-4e78-8113-7ef9b7ee7881" resp="#CH" tls:created="2020-05-22T03:10:43.109+09:00"><form corresp="#uuid-197adff8-646c-40c5-9538-36b46de09fd6 #uuid-2f255ab2-0652-443e-94c1-e442903989f8"><orth>援得</orth><pron xml:lang="zh-Latn-x-pinyin">yuán dé
+    <entry type="word" xml:id="uuid-fcc11351-3baa-4db8-a69b-391caae0541f" resp="#CH" tls:created="2020-02-06T23:02:30.408+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-83840506-b031-4581-a388-c96050bcad1a" resp="#CH" tls:created="2020-02-06T23:02:30.408+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>take hold of so as to wield</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8001f757-5dbf-4146-a4a7-2eaff8e39d64" resp="#CH" tls:created="2020-02-06T23:02:41.401+09:00">
+            <form corresp="#uuid-17c6bb10-89ec-4532-987e-eafbb59ddb6e">
+                <orth>操</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cāo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshaw</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tshaaw</pron>
+            </form>
+            <sense xml:id="uuid-2a4fb656-85ca-4e21-afba-2b412b8e01cf" resp="#CH" tls:created="2020-02-06T23:02:41.401+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>take hold of so as to wield</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-56865dea-2549-470a-865d-ea2549870abc" resp="#CH" tls:created="2020-02-24T08:56:38.122+09:00">
+            <form corresp="#uuid-35496ae0-38af-446e-afca-6b472a46c411 #uuid-f92bd229-a310-48c4-8739-f679500d0958">
+                <orth>持歸</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">chí guī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dri kjw+j</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡrlɯ klul</pron>
+            </form>
+            <sense xml:id="uuid-c7d4a3a3-274b-4845-94a3-a3274b98456a" resp="#CH" tls:created="2020-02-24T08:56:38.122+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>take the contextually determinate N home</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bb81137e-f9b7-4e78-8113-7ef9b7ee7881" resp="#CH" tls:created="2020-05-22T03:10:43.109+09:00">
+            <form corresp="#uuid-197adff8-646c-40c5-9538-36b46de09fd6 #uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+                <orth>援得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuán dé
  dé
  de
  děi
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjwon tok
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷan tɯɯɡ
-</pron></form><sense xml:id="uuid-c0d5d810-c8c6-4ea7-95d8-10c8c65ea76f" resp="#CH" tls:created="2020-05-22T03:10:43.109+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func><tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat></gramGrp><def>get hold of</def></sense></entry><entry type="word" xml:id="uuid-57941013-dec0-42a1-9410-13dec072a1e6" resp="#dsehnal" tls:created="2021-07-08T22:38:43.12+09:00"><form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144 #uuid-827fc8a5-b76b-4a8f-b089-157ba660ab3f"><orth>將去</orth><pron xml:lang="zh-Latn-x-pinyin">jiāng qù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang khjoH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ khas</pron></form><sense xml:id="uuid-e2923e73-3eb8-4806-923e-733eb878069a" resp="#dsehnal" tls:created="2021-07-08T22:38:43.12+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func></gramGrp><def>take away the contextually determinate object</def></sense></entry><entry type="word" xml:id="uuid-37cb0ad4-69c4-41ac-8b0a-d469c481ac7d" resp="#CH" tls:created="2022-06-18T17:06:37.167+09:00"><form corresp="#uuid-373b53cc-e5e9-41c5-848f-d5e360e6ebd6"><orth>挾</orth><pron xml:lang="zh-Latn-x-pinyin">xié</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hep</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeb</pron></form><sense xml:id="uuid-c908113f-cffc-43e8-8811-3fcffcd3e858" resp="#CH" tls:created="2022-06-18T17:06:37.167+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>pick up (with chopsticks), take</def></sense></entry><entry type="word" xml:id="uuid-6774c630-92d7-4308-b4c6-3092d7f3081e" resp="#zadrapa" tls:created="2023-05-17T17:08:54.011+09:00"><form corresp="#uuid-04a63f6e-6437-4f31-a7a6-b496c1d1bba4 #uuid-fb19d08b-cb6a-405d-8413-136e95fd3545"><orth>糾譑</orth><pron xml:lang="zh-Latn-x-pinyin">jiū jiǎo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjuw kjewX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kiw krewʔ</pron></form><sense xml:id="uuid-0fc16176-6d49-4e9e-8161-766d495e9eaa" resp="#zadrapa" tls:created="2023-05-17T17:08:54.011+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>eagerly take things</def></sense></entry></div>
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjwon tok
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷan tɯɯɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-c0d5d810-c8c6-4ea7-95d8-10c8c65ea76f" resp="#CH" tls:created="2020-05-22T03:10:43.109+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat>
+                </gramGrp>
+                <def>get hold of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-57941013-dec0-42a1-9410-13dec072a1e6" resp="#dsehnal" tls:created="2021-07-08T22:38:43.12+09:00">
+            <form corresp="#uuid-69629cac-c2c1-4e4e-973b-f5d11b631144 #uuid-827fc8a5-b76b-4a8f-b089-157ba660ab3f">
+                <orth>將去</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiāng qù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang khjoH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ khas</pron>
+            </form>
+            <sense xml:id="uuid-e2923e73-3eb8-4806-923e-733eb878069a" resp="#dsehnal" tls:created="2021-07-08T22:38:43.12+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>take away the contextually determinate object</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-37cb0ad4-69c4-41ac-8b0a-d469c481ac7d" resp="#CH" tls:created="2022-06-18T17:06:37.167+09:00">
+            <form corresp="#uuid-373b53cc-e5e9-41c5-848f-d5e360e6ebd6">
+                <orth>挾</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xié</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hep</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeb</pron>
+            </form>
+            <sense xml:id="uuid-c908113f-cffc-43e8-8811-3fcffcd3e858" resp="#CH" tls:created="2022-06-18T17:06:37.167+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>pick up (with chopsticks), take</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6774c630-92d7-4308-b4c6-3092d7f3081e" resp="#zadrapa" tls:created="2023-05-17T17:08:54.011+09:00">
+            <form corresp="#uuid-04a63f6e-6437-4f31-a7a6-b496c1d1bba4 #uuid-fb19d08b-cb6a-405d-8413-136e95fd3545">
+                <orth>糾譑</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiū jiǎo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjuw kjewX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kiw krewʔ</pron>
+            </form>
+            <sense xml:id="uuid-0fc16176-6d49-4e9e-8161-766d495e9eaa" resp="#zadrapa" tls:created="2023-05-17T17:08:54.011+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>eagerly take things</def>
+            </sense>
+        </entry>
+    </div>
 </div>

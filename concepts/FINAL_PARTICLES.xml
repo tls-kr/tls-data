@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-069ae7d2-0c4f-45a4-99e0-012ab9c92fcf">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-069ae7d2-0c4f-45a4-99e0-012ab9c92fcf">
 <head>FINAL PARTICLES</head>
     <list type="translations">
         <item xml:lang="zh">句後虛詞</item>
@@ -455,7 +456,8 @@
   <tls:sem-feat corresp="#uuid-5ae85a4e-5823-417b-b04f-58d7d9f263f5">emphatic</tls:sem-feat>
                 </gramGrp>
   <def resp="#CH" updated="2024-02-26T01:44:55.365+09:00">=而已 emphatic sentence final particle: and that's how it is, and there is nothing to add to this matter, and that's all to it (the scope typically is the whole sentence and not some constituent inside it.</def>
-            </sense></entry>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-be3ddd71-d955-4d5c-ab00-0742a167cbea">
             <form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d">
 <orth>邪</orth>
@@ -654,8 +656,28 @@
 </entry>
 
 <entry type="word" xml:id="uuid-65e069bd-d162-4c39-9754-18d5262c5f96">
-            <form corresp="#uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd"><orth>夫</orth><pron xml:lang="zh-Latn-x-pinyin">fú</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">bju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ba</pron></form>
+            <form corresp="#uuid-c21f7a99-de70-44d2-a0e2-4266db4736bd">
+                <orth>夫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fú</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">bju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ba</pron>
+            </form>
 
 </entry>
-    <entry type="word" xml:id="uuid-1ec71807-27c5-4141-b31f-2f33d1ae84fe" resp="#CH" tls:created="2019-12-17T23:02:41.957+09:00"><form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d"><orth>耶</orth><pron xml:lang="zh-Latn-x-pinyin">yé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">yae</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">la</pron></form><sense xml:id="uuid-d723c8b7-f607-4f04-909f-6d8421cf8999" resp="#CH" tls:created="2019-12-17T23:02:41.957+09:00"><gramGrp><pos>P</pos><tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func></gramGrp><def>question marker</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-1ec71807-27c5-4141-b31f-2f33d1ae84fe" resp="#CH" tls:created="2019-12-17T23:02:41.957+09:00">
+            <form corresp="#uuid-724ba4a2-8b6e-4d50-97be-800a29d2944d">
+                <orth>耶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">yae</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">la</pron>
+            </form>
+            <sense xml:id="uuid-d723c8b7-f607-4f04-909f-6d8421cf8999" resp="#CH" tls:created="2019-12-17T23:02:41.957+09:00">
+                <gramGrp>
+                    <pos>P</pos>
+                    <tls:syn-func corresp="#uuid-c086c9bd-8ec5-463f-9803-c938c8b0d4d9">ppostadS</tls:syn-func>
+                </gramGrp>
+                <def>question marker</def>
+            </sense>
+        </entry>
+    </div>
 </div>

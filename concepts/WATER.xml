@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-911978fb-131c-4263-833a-eee4e9624af2">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-911978fb-131c-4263-833a-eee4e9624af2">
 <head>WATER</head>
     <list type="translations">
         <item xml:lang="zh">水</item>
@@ -186,7 +187,15 @@
                 </gramGrp>
   <def>on water 水行travel by river/water</def>
             </sense>
-<sense xml:id="uuid-43171bbf-62cb-46ef-971b-bf62cb26ef9d" resp="#CH" tls:created="2024-02-19T22:56:07.286+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat></gramGrp><def>concept of water; idea of water</def></sense></entry>
+<sense xml:id="uuid-43171bbf-62cb-46ef-971b-bf62cb26ef9d" resp="#CH" tls:created="2024-02-19T22:56:07.286+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2d895e04-08d2-44ab-ab04-9a24a4b21588">concept</tls:sem-feat>
+                </gramGrp>
+                <def>concept of water; idea of water</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7b000896-c576-4d31-b555-6e747f1db855">
             <form corresp="#uuid-6c6207c8-b6f3-4dfb-94f6-ae75ef893632">
 <orth>汁</orth>
@@ -334,5 +343,20 @@
   <def>boiling water in a pot (Buddhist torture instrument)</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d799853d-b5ae-4879-9985-3db5ae9879f3" resp="#CH" tls:created="2024-02-12T05:38:24.259+09:00"><form corresp="#uuid-c5db53eb-4b84-4daa-aa90-7c31ad694859 #uuid-f58df4f9-6004-44d1-a3f6-f96fd20da291"><orth>雨露</orth><pron xml:lang="zh-Latn-x-pinyin">yǔ lù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuX luH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraʔ ɡ-raaɡs</pron></form><sense xml:id="uuid-ba75322e-ac23-4568-b532-2eac2315689e" resp="#CH" tls:created="2024-02-12T05:38:24.259+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func></gramGrp><def resp="#CH" updated="2024-02-26T05:01:41.225+09:00">moisture like that of rain and dew</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d799853d-b5ae-4879-9985-3db5ae9879f3" resp="#CH" tls:created="2024-02-12T05:38:24.259+09:00">
+            <form corresp="#uuid-c5db53eb-4b84-4daa-aa90-7c31ad694859 #uuid-f58df4f9-6004-44d1-a3f6-f96fd20da291">
+                <orth>雨露</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǔ lù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuX luH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷraʔ ɡ-raaɡs</pron>
+            </form>
+            <sense xml:id="uuid-ba75322e-ac23-4568-b532-2eac2315689e" resp="#CH" tls:created="2024-02-12T05:38:24.259+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-ebc1516d-e718-4b5b-ba40-aa8f43bd0e86">NPm</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-26T05:01:41.225+09:00">moisture like that of rain and dew</def>
+            </sense>
+        </entry>
+    </div>
 </div>

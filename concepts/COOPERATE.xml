@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e5479b8b-9e1c-4678-aaf2-6088a249c540">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e5479b8b-9e1c-4678-aaf2-6088a249c540">
 <head>COOPERATE</head>
     <list type="altnames">
 <item>COLLABORATE</item>
@@ -134,7 +135,14 @@
                 </gramGrp>
   <def>join (onself) with N2, ally (oneself) with N2</def>
             </sense>
-<sense xml:id="uuid-eef79da3-fe7d-419f-a5f7-8a746be3fced" resp="#CH" tls:created="2019-10-31T17:54:04.522+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b9a81a99-013e-49ab-aaaf-ad492d25ec3e">vttoN1.postvtoN2</tls:syn-func></gramGrp><def>collaborate on N1 with N2 與夫子同之　“collaborate with you, my master, on things"</def></sense></entry>
+<sense xml:id="uuid-eef79da3-fe7d-419f-a5f7-8a746be3fced" resp="#CH" tls:created="2019-10-31T17:54:04.522+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b9a81a99-013e-49ab-aaaf-ad492d25ec3e">vttoN1.postvtoN2</tls:syn-func>
+                </gramGrp>
+                <def>collaborate on N1 with N2 與夫子同之　“collaborate with you, my master, on things"</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8381a38d-7818-44ae-8805-e76d1ace111c">
             <form corresp="#uuid-1234313e-2ed1-4122-ab69-732013201c2b">
 <orth>合</orth>
@@ -164,7 +172,15 @@
                 </gramGrp>
   <def>make an alliance with; act in cooperation with</def>
             </sense>
-<sense xml:id="uuid-50e18ca6-78db-429c-8214-f66ae34d5338" resp="#CH" tls:created="2019-12-02T07:03:12.915+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>cooperate</def></sense></entry>
+<sense xml:id="uuid-50e18ca6-78db-429c-8214-f66ae34d5338" resp="#CH" tls:created="2019-12-02T07:03:12.915+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a4ac7ae5-ac55-45d6-b390-3c41242eb09e">vi2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>cooperate</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5f02b7bc-e62f-4c15-ac35-796b070e1c65">
             <form corresp="#uuid-9c10d3ad-bc3d-4cd2-b8c3-2c5452ed803a">
 <orth>善</orth>
@@ -415,7 +431,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-11ee117d-d628-4d6c-91bf-db1acd6a100c">
-            <form corresp="#uuid-faad5007-021e-4f3f-ac21-b07b4f62ee55"><orth>共</orth><pron xml:lang="zh-Latn-x-pinyin">gòng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gjowngH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoŋs</pron></form>
+            <form corresp="#uuid-faad5007-021e-4f3f-ac21-b07b4f62ee55">
+                <orth>共</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gòng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gjowngH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡoŋs</pron>
+            </form>
 <sense xml:id="uuid-c80a1a15-f47a-4c19-a1de-f6e4a1a7792e">
 <gramGrp>
                     <pos>V</pos>
@@ -425,5 +446,65 @@
   <def>cooperate (with plural subject: should perhaps be vi2 or better vi{2}</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-e6f3f9fe-9161-4332-a400-116d09b6f703" resp="#CH" tls:created="2020-01-06T19:49:27.764+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6d40d24c-0622-4b8e-a7ec-c1c8c48b0f82" resp="#CH" tls:created="2020-01-06T19:49:27.764+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func></gramGrp><def>join hands with, unite forces with</def></sense></entry><entry type="word" xml:id="uuid-db0f796b-e282-4931-a590-b552704e30a5" resp="#CH" tls:created="2020-01-06T19:49:46.125+09:00"><form corresp="#uuid-8dbe80f3-b063-4a20-980f-99947890e55c #uuid-b0c01715-adaa-494d-af1b-a7f73033eaff"><orth>戮力</orth><pron xml:lang="zh-Latn-x-pinyin">lù lì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljuwk lik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-ruɡ ɡ-rɯɡ</pron></form><sense xml:id="uuid-f6c0eb76-1fd4-4b06-8de9-f78411a8f344" resp="#CH" tls:created="2020-01-06T19:49:46.125+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func></gramGrp><def>join hands with, unite forces with</def></sense></entry><entry type="word" xml:id="uuid-db73c6e5-4c0d-4c80-b3c6-e54c0dec80c1" resp="#zadrapa" tls:created="2021-01-25T19:07:38.805+09:00"><form corresp="#uuid-eaf40a23-c1b4-4cdb-8246-c1dc0b2adb48 #uuid-6de9dcba-c931-4d75-8e22-36837fb311da"><orth>慎比</orth><pron xml:lang="zh-Latn-x-pinyin">shèn bì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dzyinH bjijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djins bis</pron></form><sense xml:id="uuid-4bf7916e-9ce0-453a-b791-6e9ce0653adc" resp="#zadrapa" tls:created="2021-01-25T19:07:38.805+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>(= shun4bi4 順比) be cooperative</def></sense></entry><entry type="word" xml:id="uuid-bba0bd32-a587-40df-a0bd-32a58760dff1" resp="#CH" tls:created="2021-03-19T19:12:28.675+09:00"><form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0"><orth>相使</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng shǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjang sriX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ srɯʔ</pron></form><sense xml:id="uuid-9e3f0d4b-20d7-41a2-bf0d-4b20d751a23a" resp="#CH" tls:created="2021-03-19T19:12:28.675+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0bb3127-d0ae-4ab3-86bb-0a20cf29c161">VPi2</tls:syn-func></gramGrp><def>cooperate</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-e6f3f9fe-9161-4332-a400-116d09b6f703" resp="#CH" tls:created="2020-01-06T19:49:27.764+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6d40d24c-0622-4b8e-a7ec-c1c8c48b0f82" resp="#CH" tls:created="2020-01-06T19:49:27.764+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def>join hands with, unite forces with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-db0f796b-e282-4931-a590-b552704e30a5" resp="#CH" tls:created="2020-01-06T19:49:46.125+09:00">
+            <form corresp="#uuid-8dbe80f3-b063-4a20-980f-99947890e55c #uuid-b0c01715-adaa-494d-af1b-a7f73033eaff">
+                <orth>戮力</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lù lì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljuwk lik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-ruɡ ɡ-rɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-f6c0eb76-1fd4-4b06-8de9-f78411a8f344" resp="#CH" tls:created="2020-01-06T19:49:46.125+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e508b9bd-4831-4992-9e65-dcaffe9f6493">VPt.postVtoN{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def>join hands with, unite forces with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-db73c6e5-4c0d-4c80-b3c6-e54c0dec80c1" resp="#zadrapa" tls:created="2021-01-25T19:07:38.805+09:00">
+            <form corresp="#uuid-eaf40a23-c1b4-4cdb-8246-c1dc0b2adb48 #uuid-6de9dcba-c931-4d75-8e22-36837fb311da">
+                <orth>慎比</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shèn bì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dzyinH bjijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">djins bis</pron>
+            </form>
+            <sense xml:id="uuid-4bf7916e-9ce0-453a-b791-6e9ce0653adc" resp="#zadrapa" tls:created="2021-01-25T19:07:38.805+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>(= shun4bi4 順比) be cooperative</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bba0bd32-a587-40df-a0bd-32a58760dff1" resp="#CH" tls:created="2021-03-19T19:12:28.675+09:00">
+            <form corresp="#uuid-4ffd0264-c99f-4c23-a32b-2657346bb76c #uuid-028c0020-4d7a-4b04-a6ad-c5386df929f0">
+                <orth>相使</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng shǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjang sriX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqaŋ srɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-9e3f0d4b-20d7-41a2-bf0d-4b20d751a23a" resp="#CH" tls:created="2021-03-19T19:12:28.675+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0bb3127-d0ae-4ab3-86bb-0a20cf29c161">VPi2</tls:syn-func>
+                </gramGrp>
+                <def>cooperate</def>
+            </sense>
+        </entry>
+    </div>
 </div>

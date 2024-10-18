@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f295dbbf-7887-449e-8ede-ca9911287be4">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-f295dbbf-7887-449e-8ede-ca9911287be4">
 <head>ANCESTOR</head>
     <list type="altnames">
 <item>FOREBEAR</item>
@@ -15,7 +16,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-17T22:49:20.63+09:00">RELATIVE of PAST GENERATION whose DESCENDANT one is. </p></div>
+    <p resp="#CH" modified="2020-10-17T22:49:20.63+09:00">RELATIVE of PAST GENERATION whose DESCENDANT one is. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ARCHAIC/CURRENT]</p>
@@ -339,7 +341,15 @@
                 </gramGrp>
   <def>ZUO Zhao 22: original first ancestor of the clan; the highest ancestor (BUDDH: patriarch (the founder or transmitter of a Buddhist lineage))</def>
             </sense>
-<sense xml:id="uuid-99bc23b1-961f-46ce-bc23-b1961f36ce64" resp="#CH" tls:created="2021-05-22T16:45:48.823+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab.post-N</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>earliest (metaphysical) ancestor (of all things)</def></sense></entry>
+<sense xml:id="uuid-99bc23b1-961f-46ce-bc23-b1961f36ce64" resp="#CH" tls:created="2021-05-22T16:45:48.823+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>earliest (metaphysical) ancestor (of all things)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-95abb071-9997-4d68-ac23-97a1f1324174">
             <form corresp="#uuid-81729049-9cb9-4caf-b1b3-d60c8690164d">
 <orth>禰</orth>
@@ -383,7 +393,14 @@
                 </gramGrp>
   <def>ancestor Npr</def>
             </sense>
-<sense xml:id="uuid-44ed4ac3-8cd6-4f50-ad4a-c38cd67f50ee" resp="#CH" tls:created="2022-11-28T00:10:11.926+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func></gramGrp><def>ancestor Npr</def></sense></entry>
+<sense xml:id="uuid-44ed4ac3-8cd6-4f50-ad4a-c38cd67f50ee" resp="#CH" tls:created="2022-11-28T00:10:11.926+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf2d7afd-54b1-43ac-86fd-400b6341fd42">npost=Npr</tls:syn-func>
+                </gramGrp>
+                <def>ancestor Npr</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-d87c9e87-7bfc-41fe-9986-992399db9e32">
             <form corresp="#uuid-600f7130-ea25-4628-996b-5d9323615a8b">
 <orth>舊</orth>
@@ -432,7 +449,28 @@
                 </gramGrp>
   <def>ancestor; deceased father</def>
             </sense>
-<sense xml:id="uuid-0ac76e53-83e5-4863-9525-788d33b972db" resp="#CH" tls:created="2020-02-04T18:42:39.51+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func></gramGrp><def>plural</def></sense><sense xml:id="uuid-3f3e6072-74ee-41ab-be60-7274ee61abd2" resp="#CH" tls:created="2020-12-22T04:46:04.051+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def resp="#CH" updated="2020-12-22T04:47:13.389+09:00">our forefathers; the forefathers</def></sense><sense xml:id="uuid-8875aded-8ed6-44ce-b5ad-ed8ed654ce45" resp="#dsehnal" tls:created="2021-05-03T04:32:57.992+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d818a383-c280-4188-98a3-83c28021880c">NPtpost-N=Npr</tls:syn-func></gramGrp><def>Npr, N's ancestor</def></sense></entry>
+<sense xml:id="uuid-0ac76e53-83e5-4863-9525-788d33b972db" resp="#CH" tls:created="2020-02-04T18:42:39.51+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e2ece349-6f09-49f0-be4e-7b7c66094e6f">NP(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>plural</def>
+            </sense>
+            <sense xml:id="uuid-3f3e6072-74ee-41ab-be60-7274ee61abd2" resp="#CH" tls:created="2020-12-22T04:46:04.051+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-12-22T04:47:13.389+09:00">our forefathers; the forefathers</def>
+            </sense>
+            <sense xml:id="uuid-8875aded-8ed6-44ce-b5ad-ed8ed654ce45" resp="#dsehnal" tls:created="2021-05-03T04:32:57.992+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d818a383-c280-4188-98a3-83c28021880c">NPtpost-N=Npr</tls:syn-func>
+                </gramGrp>
+                <def>Npr, N's ancestor</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ed6769ff-4f55-4a2a-8855-1e6353f74c30">
             <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9 #uuid-07663ff4-7717-4a8f-a2d7-0c53aea2ca19">
 <orth>先子</orth>
@@ -494,7 +532,14 @@
                 </gramGrp>
   <def>ancestors; ancestry</def>
             </sense>
-<sense xml:id="uuid-994c3ff6-d64d-476d-8bfa-79f964c2e66b" resp="#CH" tls:created="2020-01-01T22:29:45.631+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def>the grammatical subject's ancestors</def></sense></entry>
+<sense xml:id="uuid-994c3ff6-d64d-476d-8bfa-79f964c2e66b" resp="#CH" tls:created="2020-01-01T22:29:45.631+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>the grammatical subject's ancestors</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e67cc6b9-4a3d-42dd-82f1-23529f94ffc6">
             <form corresp="#uuid-47a907fc-4406-4989-8f07-06b3559d7cf9 #uuid-f97584af-067f-4b72-a600-a47df1634908">
 <orth>先臣</orth>

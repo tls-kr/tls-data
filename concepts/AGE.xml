@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-468ef7da-844c-4b4a-8f9b-6f326461413f">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-468ef7da-844c-4b4a-8f9b-6f326461413f">
 <head>AGE</head>
     <list type="altnames">
 <item>LENGTH OF LIFE</item>
@@ -13,7 +14,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-17T22:43:27.784+09:00">PERIOD a CREATURE has been LIVE:alive in the PAST. </p></div>
+    <p resp="#CH" modified="2020-10-17T22:43:27.784+09:00">PERIOD a CREATURE has been LIVE:alive in the PAST. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[ARCHAIC/CURRENT]</p>
@@ -259,7 +261,14 @@
                 </gramGrp>
   <def>the age of N</def>
             </sense>
-<sense xml:id="uuid-57ef2f1c-9ca5-4aaa-af2f-1c9ca5aaaa04" resp="#dsehnal" tls:created="2023-06-08T03:41:19.505+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-edb7161b-b586-4d12-b716-1bb5864d12e4">nadV.[adN]</tls:syn-func></gramGrp><def>somebody N of V age</def></sense></entry>
+<sense xml:id="uuid-57ef2f1c-9ca5-4aaa-af2f-1c9ca5aaaa04" resp="#dsehnal" tls:created="2023-06-08T03:41:19.505+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-edb7161b-b586-4d12-b716-1bb5864d12e4">nadV.[adN]</tls:syn-func>
+                </gramGrp>
+                <def>somebody N of V age</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-fe7691bb-2158-422a-b7d4-25e73db0602f">
             <form corresp="#uuid-989444f5-36d3-4965-b1fe-7e020604f5f4">
 <orth>庚</orth>
@@ -335,7 +344,15 @@
                 </gramGrp>
   <def>of X age</def>
             </sense>
-<sense xml:id="uuid-bd8b106a-e143-4940-8b10-6ae143694017" resp="#dsehnal" tls:created="2023-06-24T16:55:21.185+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-bf8dfca8-89c6-4fd2-8dfc-a889c63fd265">n{PRED}post-V</tls:syn-func><tls:sem-feat corresp="#uuid-1f5d076a-8155-4f4c-a259-fe727df96038">V=number</tls:sem-feat></gramGrp><def>be V years old</def></sense></entry>
+<sense xml:id="uuid-bd8b106a-e143-4940-8b10-6ae143694017" resp="#dsehnal" tls:created="2023-06-24T16:55:21.185+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-bf8dfca8-89c6-4fd2-8dfc-a889c63fd265">n{PRED}post-V</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-1f5d076a-8155-4f4c-a259-fe727df96038">V=number</tls:sem-feat>
+                </gramGrp>
+                <def>be V years old</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-88a03c2f-dc8b-4a8d-a5e7-4e9a87c8178c">
             <form corresp="#uuid-6b126466-9906-4049-a431-840081969c6e">
 <orth>笄</orth>
@@ -351,7 +368,14 @@
                 </gramGrp>
   <def>[put on  a hairpin as sign of maturity &gt;][CA] (of girls) ca. 15 years of age  [LIJI age of 20][CA]</def>
             </sense>
-<sense xml:id="uuid-c4eab7f8-951c-4cdc-aab7-f8951c4cdc59" resp="#dsehnal" tls:created="2024-05-31T02:55:27.06+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func></gramGrp><def>at the age of 15 years</def></sense></entry>
+<sense xml:id="uuid-c4eab7f8-951c-4cdc-aab7-f8951c4cdc59" resp="#dsehnal" tls:created="2024-05-31T02:55:27.06+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2a0ded86-3b04-4488-bb7a-3efccfa35844">vadV</tls:syn-func>
+                </gramGrp>
+                <def>at the age of 15 years</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c930298b-b1da-4121-8abb-b31568eb1e7f">
             <form corresp="#uuid-64f3232a-4076-45ea-889b-9704df07af94">
 <orth>老</orth>
@@ -398,7 +422,14 @@
                 </gramGrp>
   <def>be very old; LIJI: 80/90 years of age</def>
             </sense>
-<sense xml:id="uuid-5806af8b-1dab-400f-9e9e-349799951d2d" resp="#CH" tls:created="2019-10-15T00:54:33.742+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>the very old</def></sense></entry>
+<sense xml:id="uuid-5806af8b-1dab-400f-9e9e-349799951d2d" resp="#CH" tls:created="2019-10-15T00:54:33.742+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>the very old</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-87b18127-7798-49b1-94ec-b71ae22907fe">
             <form corresp="#uuid-5b9d5db4-b4bb-49ce-a990-17e47b001fa6">
 <orth>耋</orth>
@@ -726,7 +757,15 @@
                 </gramGrp>
   <def>years of age (and of activity) 富春秋 "still young"</def>
             </sense>
-<sense xml:id="uuid-af05b5a3-1273-4105-85b5-a31273d10593" resp="#CH" tls:created="2021-04-30T23:16:34.567+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-27c4cccf-2330-49d2-84cc-cf233079d2dc">advanced</tls:sem-feat></gramGrp><def>old age, advanced age</def></sense></entry>
+<sense xml:id="uuid-af05b5a3-1273-4105-85b5-a31273d10593" resp="#CH" tls:created="2021-04-30T23:16:34.567+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-27c4cccf-2330-49d2-84cc-cf233079d2dc">advanced</tls:sem-feat>
+                </gramGrp>
+                <def>old age, advanced age</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-424166ae-66f2-4c57-85e7-4b8e886558e1">
             <form corresp="#uuid-5eb7fd52-80dd-4a73-9188-dc0ecfc5f093 #uuid-81855ddf-37bd-4b23-bcdd-bf49fbee8b05">
 <orth>期頤</orth>
@@ -889,5 +928,35 @@
   <def>age (of a physical object); years of age reached, the number of years something lasts</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-dfd12127-e23d-477c-a05c-59a54439aef2" resp="#zadrapa" tls:created="2019-10-23T19:42:00.865+09:00"><form corresp="#uuid-5972984a-bfc6-4f2a-8cf3-4d2669045e68 #uuid-e2bc8c65-246b-4b87-bf92-9a624cdbcea7"><orth>膝下</orth><pron xml:lang="zh-Latn-x-pinyin">xī xià</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sit haeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">siɡ ɢraaʔ</pron></form><sense xml:id="uuid-f4ee2a0d-468b-4ec5-be64-1ce5fe970a7b" resp="#zadrapa" tls:created="2019-10-23T19:42:00.865+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>tender age, the age of a little child</def></sense></entry><entry type="word" xml:id="uuid-13ba5bd4-b34c-4be7-ba5b-d4b34c5be786" resp="#dsehnal" tls:created="2024-05-31T02:52:49.561+09:00"><form corresp="#uuid-99fdbd59-79b0-4ed6-8aa8-abe2e7717145 #uuid-02578ff4-ec9b-413b-a2ec-99ebd04bc1f5 #uuid-d56f1057-e5e9-4b35-b906-a932aa3993cf"><orth>未毀齒</orth><pron xml:lang="zh-Latn-x-pinyin">wèi huǐ chǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jH xjweX tsyhiX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯds qhʷralʔ khljɯʔ</pron></form><sense xml:id="uuid-c07a1f7e-e25a-45cd-ba1f-7ee25a95cdcd" resp="#dsehnal" tls:created="2024-05-31T02:52:49.561+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func></gramGrp><def>at the age of 7 – 8 years &lt; when the milk teeth were still not lost </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-dfd12127-e23d-477c-a05c-59a54439aef2" resp="#zadrapa" tls:created="2019-10-23T19:42:00.865+09:00">
+            <form corresp="#uuid-5972984a-bfc6-4f2a-8cf3-4d2669045e68 #uuid-e2bc8c65-246b-4b87-bf92-9a624cdbcea7">
+                <orth>膝下</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xī xià</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sit haeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">siɡ ɢraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-f4ee2a0d-468b-4ec5-be64-1ce5fe970a7b" resp="#zadrapa" tls:created="2019-10-23T19:42:00.865+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>tender age, the age of a little child</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-13ba5bd4-b34c-4be7-ba5b-d4b34c5be786" resp="#dsehnal" tls:created="2024-05-31T02:52:49.561+09:00">
+            <form corresp="#uuid-99fdbd59-79b0-4ed6-8aa8-abe2e7717145 #uuid-02578ff4-ec9b-413b-a2ec-99ebd04bc1f5 #uuid-d56f1057-e5e9-4b35-b906-a932aa3993cf">
+                <orth>未毀齒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wèi huǐ chǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mj+jH xjweX tsyhiX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯds qhʷralʔ khljɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-c07a1f7e-e25a-45cd-ba1f-7ee25a95cdcd" resp="#dsehnal" tls:created="2024-05-31T02:52:49.561+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-819e81af-c978-4931-8fd2-52680e097f01">VPadV</tls:syn-func>
+                </gramGrp>
+                <def>at the age of 7 – 8 years &lt; when the milk teeth were still not lost </def>
+            </sense>
+        </entry>
+    </div>
 </div>
