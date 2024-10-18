@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ee9f58b1-8bc7-4f9c-bc64-d945c5cd6958">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ee9f58b1-8bc7-4f9c-bc64-d945c5cd6958">
 <head>DISLOYAL</head>
     <list type="altnames">
 <item>UNTRUSTWORTHY</item>
@@ -34,7 +35,10 @@
     </list>
 <div type="definition">
 <p>Be WICKED so as to LACK APPROPRIATE FAITHFULNESS.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:29:36.238+09:00"><p>WICKED so as NOT to be LOYAL.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:29:36.238+09:00">
+            <p>WICKED so as NOT to be LOYAL.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The standard word for disloyalty is èr 貳／二.</p>
@@ -235,5 +239,28 @@
   <def>ulterior motives; disloyalty</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-44f3c2a1-6028-4cc2-b3c2-a160284cc2ed" resp="#zadrapa" tls:created="2021-05-24T22:51:48.37+09:00"><form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3 #uuid-fd7d0e25-fd3a-4fea-9d7d-597f13ae5f1a"><orth>反側</orth><pron xml:lang="zh-Latn-x-pinyin">fǎn cè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pjonX tsrik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">panʔ skrɯɡ</pron></form><sense xml:id="uuid-de25f0d2-b2a4-4495-a5f0-d2b2a444950e" resp="#zadrapa" tls:created="2021-05-24T22:51:48.37+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>fickleness, unreliability</def></sense><sense xml:id="uuid-92953ba8-fbf0-40ad-953b-a8fbf050adb3" resp="#zadrapa" tls:created="2022-05-12T20:08:05.259+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>unreliable, fickle</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-44f3c2a1-6028-4cc2-b3c2-a160284cc2ed" resp="#zadrapa" tls:created="2021-05-24T22:51:48.37+09:00">
+            <form corresp="#uuid-0f61b452-d458-4047-a533-8bf1a63b9cb3 #uuid-fd7d0e25-fd3a-4fea-9d7d-597f13ae5f1a">
+                <orth>反側</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fǎn cè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pjonX tsrik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">panʔ skrɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-de25f0d2-b2a4-4495-a5f0-d2b2a444950e" resp="#zadrapa" tls:created="2021-05-24T22:51:48.37+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>fickleness, unreliability</def>
+            </sense>
+            <sense xml:id="uuid-92953ba8-fbf0-40ad-953b-a8fbf050adb3" resp="#zadrapa" tls:created="2022-05-12T20:08:05.259+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>unreliable, fickle</def>
+            </sense>
+        </entry>
+    </div>
 </div>

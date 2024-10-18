@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cd999993-9ade-41a9-8786-2cc075afaa5c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-cd999993-9ade-41a9-8786-2cc075afaa5c">
 <head>PLOT</head>
     <list type="altnames">
 <item>CONSPIRE</item>
@@ -165,7 +166,21 @@
                 </gramGrp>
   <def>plot against N; set a strategy against</def>
             </sense>
-<sense xml:id="uuid-cfb032dd-9f77-4041-b032-dd9f77d0416c" resp="#dsehnal" tls:created="2024-07-14T19:22:09.352+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-20695dca-2d03-444f-a95d-ca2d03044fa1">vi2post-.vtoN</tls:syn-func></gramGrp><def>arrange a plot with N</def></sense><sense xml:id="uuid-f5cb0bae-3025-4389-8b0b-ae3025c389e6" resp="#dsehnal" tls:created="2024-07-14T19:54:44.247+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-89462d4b-0b55-40c3-862d-4b0b5560c3f9">vt2+V[0].post-vtoN</tls:syn-func></gramGrp><def>arrange plot with N in order to V[0]</def></sense></entry>
+<sense xml:id="uuid-cfb032dd-9f77-4041-b032-dd9f77d0416c" resp="#dsehnal" tls:created="2024-07-14T19:22:09.352+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-20695dca-2d03-444f-a95d-ca2d03044fa1">vi2post-.vtoN</tls:syn-func>
+                </gramGrp>
+                <def>arrange a plot with N</def>
+            </sense>
+            <sense xml:id="uuid-f5cb0bae-3025-4389-8b0b-ae3025c389e6" resp="#dsehnal" tls:created="2024-07-14T19:54:44.247+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-89462d4b-0b55-40c3-862d-4b0b5560c3f9">vt2+V[0].post-vtoN</tls:syn-func>
+                </gramGrp>
+                <def>arrange plot with N in order to V[0]</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-475c21b4-8a75-486b-9038-d5507afb84a4">
             <form corresp="#uuid-4e3b3fea-8901-4d64-b0fd-9165ec48513e #uuid-afbc5bef-c4c6-475e-bb6f-c1654a7bef5f">
 <orth>與聞</orth>
@@ -196,5 +211,20 @@
   <def>plot secretly</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-e972a8e1-e667-4733-b2a8-e1e667f7334c" resp="#dsehnal" tls:created="2024-06-09T23:16:34.479+09:00"><form corresp="#uuid-bfa6623d-c65f-48cb-97e3-10c051108156 #uuid-f3e9b2ed-1cc0-4a22-a051-79624741029c"><orth>謀構</orth><pron xml:lang="zh-Latn-x-pinyin">móu gòu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjuw kuwH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯ koos</pron></form><sense xml:id="uuid-605f88fb-357f-4092-9f88-fb357fa09264" resp="#dsehnal" tls:created="2024-06-09T23:16:34.479+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>make a plot against N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-e972a8e1-e667-4733-b2a8-e1e667f7334c" resp="#dsehnal" tls:created="2024-06-09T23:16:34.479+09:00">
+            <form corresp="#uuid-bfa6623d-c65f-48cb-97e3-10c051108156 #uuid-f3e9b2ed-1cc0-4a22-a051-79624741029c">
+                <orth>謀構</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">móu gòu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjuw kuwH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mɯ koos</pron>
+            </form>
+            <sense xml:id="uuid-605f88fb-357f-4092-9f88-fb357fa09264" resp="#dsehnal" tls:created="2024-06-09T23:16:34.479+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>make a plot against N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

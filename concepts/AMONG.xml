@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a716fa73-5434-40ce-96e9-b46b6c0ac50a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a716fa73-5434-40ce-96e9-b46b6c0ac50a">
 <head>AMONG</head>
     <list type="altnames">
 <item>AMONGST</item>
@@ -16,7 +17,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-17T22:48:49.468+09:00">BEing-IN a GROUP of THINGS. </p></div>
+    <p resp="#CH" modified="2020-10-17T22:48:49.468+09:00">BEing-IN a GROUP of THINGS. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>[[COMMON/RARE]]</p>
@@ -62,7 +64,14 @@
                 </gramGrp>
   <def>among</def>
             </sense>
-<sense xml:id="uuid-00c396a4-f9ed-4fc4-8396-a4f9ed7fc4fc" resp="#zadrapa" tls:created="2021-01-19T19:56:37.003+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-b448a26d-5521-4403-88a2-6d5521940371">n{PRED}.post-N+ZHI</tls:syn-func></gramGrp><def>be among N's, belong to N's</def></sense></entry>
+<sense xml:id="uuid-00c396a4-f9ed-4fc4-8396-a4f9ed7fc4fc" resp="#zadrapa" tls:created="2021-01-19T19:56:37.003+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-b448a26d-5521-4403-88a2-6d5521940371">n{PRED}.post-N+ZHI</tls:syn-func>
+                </gramGrp>
+                <def>be among N's, belong to N's</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-cd561d1d-71f5-4adc-ad0f-af40cc793405">
             <form corresp="#uuid-fb67b697-a7f5-4e27-8090-d90ec205fd5c">
 <orth>於</orth>
@@ -88,7 +97,21 @@
                 </gramGrp>
   <def>among</def>
             </sense>
-<sense xml:id="uuid-2c0bc4be-5477-4943-b39e-21262a7160a3" resp="#CH" tls:created="2020-01-12T02:31:08.175+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-07-24T16:38:06.146+09:00">among the N, inside the group N</def></sense><sense xml:id="uuid-4115101c-d3bb-47c1-9510-1cd3bbf7c1e7" resp="#CH" tls:created="2022-07-23T21:19:01.484+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func></gramGrp><def resp="#CH" updated="2022-07-24T16:38:33.65+09:00">from among</def></sense></entry>
+<sense xml:id="uuid-2c0bc4be-5477-4943-b39e-21262a7160a3" resp="#CH" tls:created="2020-01-12T02:31:08.175+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-07-24T16:38:06.146+09:00">among the N, inside the group N</def>
+            </sense>
+            <sense xml:id="uuid-4115101c-d3bb-47c1-9510-1cd3bbf7c1e7" resp="#CH" tls:created="2022-07-23T21:19:01.484+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-97424691-5023-4a2e-b90f-d60a1e3b5673">vt[0]oN.postadV</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-07-24T16:38:33.65+09:00">from among</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-89c72935-fe41-49fc-b4d1-8e9852e45c68">
             <form corresp="#uuid-5e796aa6-3208-44c6-bb32-f95a2c00c89a">
 <orth>焉</orth>
@@ -119,5 +142,20 @@
   <def resp="#CH" updated="2020-02-14T19:05:54.904+09:00">relation between</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-806430fa-02dd-4379-a430-fa02dd4379c6" resp="#CH" tls:created="2022-08-18T00:07:12.228+09:00"><form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55"><orth>閒</orth><pron xml:lang="zh-Latn-x-pinyin">jiān</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron></form><sense xml:id="uuid-e7a18b91-4573-4e93-a18b-9145736e939a" resp="#CH" tls:created="2022-08-18T00:07:12.228+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>the place among </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-806430fa-02dd-4379-a430-fa02dd4379c6" resp="#CH" tls:created="2022-08-18T00:07:12.228+09:00">
+            <form corresp="#uuid-5a5cc212-2b69-406e-b138-775d40828e55">
+                <orth>閒</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiān</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kean</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kreen</pron>
+            </form>
+            <sense xml:id="uuid-e7a18b91-4573-4e93-a18b-9145736e939a" resp="#CH" tls:created="2022-08-18T00:07:12.228+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>the place among </def>
+            </sense>
+        </entry>
+    </div>
 </div>

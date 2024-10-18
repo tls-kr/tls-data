@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-82ea9ae7-a3b8-4b34-b174-bb3242ff3d2e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-82ea9ae7-a3b8-4b34-b174-bb3242ff3d2e">
 <head>QUANTITY</head>
     <list type="translations">
         <item xml:lang="zh">數量</item>
@@ -59,5 +60,37 @@
             </bibl>
         </listBibl>
     </div>
-<div type="words"><entry type="word" xml:id="uuid-54c0c363-ef4e-45be-80c3-63ef4eb5bead" resp="#dsehnal" tls:created="2023-12-19T01:25:23.721+09:00"><form corresp="#uuid-18f9f0fa-f6c8-4b5f-b01e-2eb769c2d2c1 #uuid-5d8ab608-362c-4b59-85b0-0bb1c4126ce9"><orth>眾寡</orth><pron xml:lang="zh-Latn-x-pinyin">zhòng guǎ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuwngH kwaeX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjuŋs kʷraaʔ</pron></form><sense xml:id="uuid-36fbe8d9-5925-4c92-bbe8-d959255c92bf" resp="#dsehnal" tls:created="2023-12-19T01:25:23.721+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>quantity</def></sense></entry><entry type="word" xml:id="uuid-4ecbdece-95e7-4a29-8bde-ce95e7ca292c" resp="#dsehnal" tls:created="2024-06-19T02:48:51.31+09:00"><form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-b07a1131-b630-42e1-a150-f8467bcf1af7"><orth>人數</orth><pron xml:lang="zh-Latn-x-pinyin">rén shù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyin srjuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin sqros</pron></form><sense xml:id="uuid-53c42c20-2b3e-4795-842c-202b3e37958e" resp="#dsehnal" tls:created="2024-06-19T02:48:51.31+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c627cfa-a1cb-47f6-8986-e4b0b4b7b3b0">NPadV.postN{SUBJ}</tls:syn-func><tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp><def>the SUBJECT, as far as the number of people is concerned</def></sense></entry></div>
+<div type="words">
+        <entry type="word" xml:id="uuid-54c0c363-ef4e-45be-80c3-63ef4eb5bead" resp="#dsehnal" tls:created="2023-12-19T01:25:23.721+09:00">
+            <form corresp="#uuid-18f9f0fa-f6c8-4b5f-b01e-2eb769c2d2c1 #uuid-5d8ab608-362c-4b59-85b0-0bb1c4126ce9">
+                <orth>眾寡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhòng guǎ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuwngH kwaeX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjuŋs kʷraaʔ</pron>
+            </form>
+            <sense xml:id="uuid-36fbe8d9-5925-4c92-bbe8-d959255c92bf" resp="#dsehnal" tls:created="2023-12-19T01:25:23.721+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>quantity</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-4ecbdece-95e7-4a29-8bde-ce95e7ca292c" resp="#dsehnal" tls:created="2024-06-19T02:48:51.31+09:00">
+            <form corresp="#uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f #uuid-b07a1131-b630-42e1-a150-f8467bcf1af7">
+                <orth>人數</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">rén shù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyin srjuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njin sqros</pron>
+            </form>
+            <sense xml:id="uuid-53c42c20-2b3e-4795-842c-202b3e37958e" resp="#dsehnal" tls:created="2024-06-19T02:48:51.31+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c627cfa-a1cb-47f6-8986-e4b0b4b7b3b0">NPadV.postN{SUBJ}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
+                <def>the SUBJECT, as far as the number of people is concerned</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-12f19d58-0d79-449e-a19f-00c7befa7656">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-12f19d58-0d79-449e-a19f-00c7befa7656">
 <head>GIVE BACK</head>
     <list type="altnames">
 <item>VE BACK</item>
@@ -109,7 +110,15 @@
                 </gramGrp>
   <def>give the determinate thing N2 back to (its former owner N1)</def>
             </sense>
-<sense xml:id="uuid-82037174-cd94-42c3-85aa-dc205269476b" resp="#dsehnal" tls:created="2019-12-15T02:15:47.218+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vi</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>come back in return; be repaid</def></sense></entry>
+<sense xml:id="uuid-82037174-cd94-42c3-85aa-dc205269476b" resp="#dsehnal" tls:created="2019-12-15T02:15:47.218+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>come back in return; be repaid</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-dc064411-54a8-42fc-b47b-37b1ec9124d3">
             <form corresp="#uuid-f92bd229-a310-48c4-8739-f679500d0958">
 <orth>歸</orth>
@@ -178,7 +187,14 @@
                 </gramGrp>
   <def>give the contextually determinate N1 back to N2</def>
             </sense>
-<sense xml:id="uuid-f8c5baae-3ec7-4b7d-85ba-ae3ec74b7d8b" resp="#CH" tls:created="2020-08-25T02:03:08.366+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(.+prep+N2)</tls:syn-func></gramGrp><def>return N1 to the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-f8c5baae-3ec7-4b7d-85ba-ae3ec74b7d8b" resp="#CH" tls:created="2020-08-25T02:03:08.366+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoN1(.+prep+N2)</tls:syn-func>
+                </gramGrp>
+                <def>return N1 to the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ec939d89-8dbf-4128-ae32-f3f9ff5d4961">
             <form corresp="#uuid-4f0e0f96-1b6f-4b65-852a-19359cf63d37 #uuid-81aa677b-e873-4016-ae47-708d7568570c">
 <orth>復致</orth>
@@ -224,6 +240,20 @@
                 </gramGrp>
   <def>remit taxes to N2;</def>
             </sense>
-<sense xml:id="uuid-4a745abc-4f0c-4cc2-a590-6851ecb57814" resp="#CH" tls:created="2019-12-15T06:41:47.259+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN1(. prep N2)</tls:syn-func></gramGrp><def>has been returned to the contextually determinate N2</def></sense><sense xml:id="uuid-12abf6f7-5afc-4a32-abf6-f75afcaa3299" resp="#wilke" tls:created="2022-09-10T17:42:35.764+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func></gramGrp><def>return N1 to N2</def></sense></entry>
+<sense xml:id="uuid-4a745abc-4f0c-4cc2-a590-6851ecb57814" resp="#CH" tls:created="2019-12-15T06:41:47.259+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN1(. prep N2)</tls:syn-func>
+                </gramGrp>
+                <def>has been returned to the contextually determinate N2</def>
+            </sense>
+            <sense xml:id="uuid-12abf6f7-5afc-4a32-abf6-f75afcaa3299" resp="#wilke" tls:created="2022-09-10T17:42:35.764+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                </gramGrp>
+                <def>return N1 to N2</def>
+            </sense>
+        </entry>
     </div>
 </div>

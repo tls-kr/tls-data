@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5e412412-9d52-47ef-b5c0-a9563fde53c6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5e412412-9d52-47ef-b5c0-a9563fde53c6">
 <head>COMMENTARY</head>
     <list type="altnames">
 <item>GLOSS</item>
@@ -117,7 +118,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-8c682f9a-25c2-49a1-951e-d562c781e7d3">
-            <form corresp="#uuid-4a9f19c4-0c72-4c4b-b5c2-958a26aa1e68"><orth>疏</orth><pron xml:lang="zh-Latn-x-pinyin">shù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-4a9f19c4-0c72-4c4b-b5c2-958a26aa1e68">
+                <orth>疏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
 <sense xml:id="uuid-e22d7e46-e2e1-4dec-88b7-0d45db6558e5">
 <gramGrp>
                     <pos>N</pos>
@@ -141,5 +147,35 @@
   <def>commentary</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3033e699-cd61-4648-b3e6-99cd61a648df" resp="#CH" tls:created="2020-05-13T22:16:29.454+09:00"><form corresp="#uuid-3d24a298-e373-4518-b3e9-1375d0e3267f"><orth>傳</orth><pron xml:lang="zh-Latn-x-pinyin">zhuàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trjwenH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tons</pron></form><sense xml:id="uuid-857d0de8-5d25-4601-bd0d-e85d25b601c7" resp="#CH" tls:created="2020-05-13T22:16:29.454+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func></gramGrp><def>the commentary to N</def></sense></entry><entry type="word" xml:id="uuid-fc8e7d3c-69b7-4861-8e7d-3c69b758618e" resp="#Valerie.Kiel" tls:created="2021-08-23T03:36:31.391+09:00"><form corresp="#uuid-86631c4b-498a-46ec-bd19-cda5ed6d7e7c"><orth>注</orth><pron xml:lang="zh-Latn-x-pinyin">zhù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjos</pron></form><sense xml:id="uuid-ef886589-cfdc-449d-8865-89cfdcd49dac" resp="#Valerie.Kiel" tls:created="2021-08-23T03:36:31.391+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>comment and provide gloss on N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-3033e699-cd61-4648-b3e6-99cd61a648df" resp="#CH" tls:created="2020-05-13T22:16:29.454+09:00">
+            <form corresp="#uuid-3d24a298-e373-4518-b3e9-1375d0e3267f">
+                <orth>傳</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhuàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trjwenH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tons</pron>
+            </form>
+            <sense xml:id="uuid-857d0de8-5d25-4601-bd0d-e85d25b601c7" resp="#CH" tls:created="2020-05-13T22:16:29.454+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3f430d08-15bf-43c3-bfa9-c41e445dfc2f">n(post-N)</tls:syn-func>
+                </gramGrp>
+                <def>the commentary to N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-fc8e7d3c-69b7-4861-8e7d-3c69b758618e" resp="#Valerie.Kiel" tls:created="2021-08-23T03:36:31.391+09:00">
+            <form corresp="#uuid-86631c4b-498a-46ec-bd19-cda5ed6d7e7c">
+                <orth>注</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjos</pron>
+            </form>
+            <sense xml:id="uuid-ef886589-cfdc-449d-8865-89cfdcd49dac" resp="#Valerie.Kiel" tls:created="2021-08-23T03:36:31.391+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>comment and provide gloss on N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

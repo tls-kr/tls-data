@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a8aa6721-be14-4656-b54c-e70e49d0d5cb">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a8aa6721-be14-4656-b54c-e70e49d0d5cb">
 <head>PREFACE</head>
     <list type="translations">
         <item xml:lang="zh">序</item>
@@ -49,7 +50,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-e8b7b671-bbc2-4146-ac30-52aaea08c87d">text</tls:sem-feat>
+                </gramGrp>
   <def>preface</def>
             </sense>
 <sense xml:id="uuid-ab85bcd1-380d-4d61-842a-e2b8a85b1ccd">
@@ -59,7 +61,14 @@
                 </gramGrp>
   <def>write a preface for; write a postface for</def>
             </sense>
-<sense xml:id="uuid-53fe8e46-f916-4ce8-be8e-46f9165ce827" resp="#CH" tls:created="2021-09-21T22:55:58.534+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N{TEXT}</tls:syn-func></gramGrp><def>Preface to N</def></sense></entry>
+<sense xml:id="uuid-53fe8e46-f916-4ce8-be8e-46f9165ce827" resp="#CH" tls:created="2021-09-21T22:55:58.534+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N{TEXT}</tls:syn-func>
+                </gramGrp>
+                <def>Preface to N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-242614de-f605-40ba-98c5-9ca5bc0bf9d1">
             <form corresp="#uuid-b6d907a7-506e-4f3a-b387-0baa3e9cd102 #uuid-b20a26b1-8eef-484a-9af4-448ce9d781c4">
 <orth>敘引</orth>

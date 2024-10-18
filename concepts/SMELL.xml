@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9bf7a297-3656-483f-a477-7b618b474da6">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9bf7a297-3656-483f-a477-7b618b474da6">
 <head>SMELL</head>
     <list type="altnames">
 <item>GET A SNIFF OF</item>
@@ -151,7 +152,15 @@
                 </gramGrp>
   <def>(resultative) smell</def>
             </sense>
-<sense xml:id="uuid-bfdb4b95-dc29-49ba-9b4b-95dc29c9bac5" resp="#dsehnal" tls:created="2023-06-01T02:33:21.749+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be smelled on a distance of N2</def></sense></entry>
+<sense xml:id="uuid-bfdb4b95-dc29-49ba-9b4b-95dc29c9bac5" resp="#dsehnal" tls:created="2023-06-01T02:33:21.749+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1.+N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be smelled on a distance of N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3e72c670-bf6d-4529-9135-399a9bbc7bcf">
             <form corresp="#uuid-455ed56a-8d66-4439-8d61-86e412c815dd">
 <orth>氣</orth>
@@ -167,5 +176,29 @@
   <def>smell</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-ab7cc0e1-b6c4-424d-bcc0-e1b6c4c24d86"><form corresp="#uuid-63a95e4b-8cab-4bd1-a95e-4b8cab9bd132"><orth>臭</orth><pron xml:lang="zh-Latn-x-pinyin">xiù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form><def/><sense xml:id="uuid-ebb09ed9-97db-44a8-b09e-d997db54a8e2" resp="#zadrapa" tls:created="2020-06-23T17:55:32.121+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>to smell N</def></sense></entry><entry type="word" xml:id="uuid-eee503bd-7b40-4536-a503-bd7b40753667" resp="#CH" tls:created="2021-02-17T01:07:35.476+09:00"><form corresp="#uuid-e4e0c5a7-4229-4780-ac44-01d7c51008a2"><orth>咶</orth><pron xml:lang="zh-Latn-x-pinyin">huài</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xweajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form></entry></div>
+    <entry type="word" xml:id="uuid-ab7cc0e1-b6c4-424d-bcc0-e1b6c4c24d86">
+            <form corresp="#uuid-63a95e4b-8cab-4bd1-a95e-4b8cab9bd132">
+                <orth>臭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-ebb09ed9-97db-44a8-b09e-d997db54a8e2" resp="#zadrapa" tls:created="2020-06-23T17:55:32.121+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>to smell N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-eee503bd-7b40-4536-a503-bd7b40753667" resp="#CH" tls:created="2021-02-17T01:07:35.476+09:00">
+            <form corresp="#uuid-e4e0c5a7-4229-4780-ac44-01d7c51008a2">
+                <orth>咶</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huài</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xweajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9fd2d90f-4be7-44be-a843-28d9c1d6a305">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9fd2d90f-4be7-44be-a843-28d9c1d6a305">
 <head>UNLESS</head>
     <list type="translations">
         <item xml:lang="zh">除非</item>
@@ -41,6 +42,20 @@
                 </gramGrp>
   <def>unless one is N (one cannot V)</def>
             </sense>
-<sense xml:id="uuid-3b793fb3-5e82-445c-a684-7ce3410278f3" resp="#CH" tls:created="2019-10-23T01:25:45.102+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func></gramGrp><def>unless V[0]</def></sense><sense xml:id="uuid-0bc9f519-0322-4a9e-9f9a-6177d68468db" resp="#CH" tls:created="2019-10-23T01:27:01.585+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-2f4593b8-ce30-4670-8593-b8ce30b670ee">vt+S1.+S2</tls:syn-func></gramGrp><def>unless S1 then S2</def></sense></entry>
+<sense xml:id="uuid-3b793fb3-5e82-445c-a684-7ce3410278f3" resp="#CH" tls:created="2019-10-23T01:25:45.102+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                </gramGrp>
+                <def>unless V[0]</def>
+            </sense>
+            <sense xml:id="uuid-0bc9f519-0322-4a9e-9f9a-6177d68468db" resp="#CH" tls:created="2019-10-23T01:27:01.585+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-2f4593b8-ce30-4670-8593-b8ce30b670ee">vt+S1.+S2</tls:syn-func>
+                </gramGrp>
+                <def>unless S1 then S2</def>
+            </sense>
+        </entry>
     </div>
 </div>

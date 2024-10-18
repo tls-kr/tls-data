@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e468d8fd-5fc2-4d12-b0e8-7a0afee32be9">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-e468d8fd-5fc2-4d12-b0e8-7a0afee32be9">
 <head>AREA MEASURES</head>
 <div type="definition">
 <p>STANDARDS USING which one MEASURES the SIZE of a PLACE.</p>
@@ -33,7 +34,8 @@
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-14056dfd-9bb3-49e4-93d1-93de5283e702">classifier</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-14056dfd-9bb3-49e4-93d1-93de5283e702">classifier</tls:sem-feat>
+                </gramGrp>
   <def>Chinese acre, one sixteenth of a hectar of land???</def>
             </sense>
 </entry>
@@ -68,7 +70,28 @@
                 </gramGrp>
   <def>expression "n 里" refers to the  square with the side of n 里</def>
             </sense>
-<sense xml:id="uuid-76912d0f-5d17-4822-912d-0f5d1768229b" resp="#CH" tls:created="2020-08-07T21:54:41.986+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-583254b8-1e3a-46fd-b7ed-7e83ec0620ae">npostadV</tls:syn-func></gramGrp><def>V over an area of so-and-so many leagues</def></sense><sense xml:id="uuid-309bdcac-aaf6-4196-9bdc-acaaf62196ce" resp="#CH" tls:created="2020-08-07T22:12:22.8+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func></gramGrp><def>extend over so-and-so-many leagues (in any direction)</def></sense><sense xml:id="uuid-620bd748-d46b-4f47-8bd7-48d46bcf47b9" resp="#zadrapa" tls:created="2021-01-24T05:28:12.138+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func></gramGrp><def>area of V x V square leagues</def></sense></entry>
+<sense xml:id="uuid-76912d0f-5d17-4822-912d-0f5d1768229b" resp="#CH" tls:created="2020-08-07T21:54:41.986+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-583254b8-1e3a-46fd-b7ed-7e83ec0620ae">npostadV</tls:syn-func>
+                </gramGrp>
+                <def>V over an area of so-and-so many leagues</def>
+            </sense>
+            <sense xml:id="uuid-309bdcac-aaf6-4196-9bdc-acaaf62196ce" resp="#CH" tls:created="2020-08-07T22:12:22.8+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                </gramGrp>
+                <def>extend over so-and-so-many leagues (in any direction)</def>
+            </sense>
+            <sense xml:id="uuid-620bd748-d46b-4f47-8bd7-48d46bcf47b9" resp="#zadrapa" tls:created="2021-01-24T05:28:12.138+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>area of V x V square leagues</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4149bf16-e04c-4735-a289-b5ff90e5804f">
             <form corresp="#uuid-af3573b1-4ed4-4bd1-8e9b-0329ccf9ca55">
 <orth>頃</orth>
@@ -84,6 +107,29 @@
                 </gramGrp>
   <def>one hundred mǔ of land.</def>
             </sense>
-<sense xml:id="uuid-a8bb0883-a44e-4c5e-bb08-83a44e6c5e85" resp="#Valerie.Kiel" tls:created="2022-10-23T21:18:50.048+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func><tls:sem-feat corresp="#">classifier</tls:sem-feat></gramGrp><def>one hunded mǔ of land</def></sense></entry>
-    <entry type="word" xml:id="uuid-161ac21c-5bdd-4414-9ac2-1c5bdd6414d2" resp="#zadrapa" tls:created="2021-01-24T05:26:33.67+09:00"><form corresp="#uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2"><orth>里</orth><pron xml:lang="zh-Latn-x-pinyin">lǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">liX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ</pron></form><sense xml:id="uuid-9d2d4bc5-5e7a-4241-ad4b-c55e7a024149" resp="#zadrapa" tls:created="2021-01-24T05:26:33.67+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-556290ec-9890-435d-b481-587eaaf69e8d">ncpost-V{NUM}. N</tls:syn-func></gramGrp><def>N of the area V x V square leagues</def></sense></entry></div>
+<sense xml:id="uuid-a8bb0883-a44e-4c5e-bb08-83a44e6c5e85" resp="#Valerie.Kiel" tls:created="2022-10-23T21:18:50.048+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func>
+                    <tls:sem-feat corresp="#">classifier</tls:sem-feat>
+                </gramGrp>
+                <def>one hunded mǔ of land</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-161ac21c-5bdd-4414-9ac2-1c5bdd6414d2" resp="#zadrapa" tls:created="2021-01-24T05:26:33.67+09:00">
+            <form corresp="#uuid-e66851cf-9b27-4cd3-9fa4-f9276eb266f2">
+                <orth>里</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">liX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-rɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-9d2d4bc5-5e7a-4241-ad4b-c55e7a024149" resp="#zadrapa" tls:created="2021-01-24T05:26:33.67+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-556290ec-9890-435d-b481-587eaaf69e8d">ncpost-V{NUM}. N</tls:syn-func>
+                </gramGrp>
+                <def>N of the area V x V square leagues</def>
+            </sense>
+        </entry>
+    </div>
 </div>

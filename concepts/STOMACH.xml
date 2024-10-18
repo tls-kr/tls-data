@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7504ae9-7e2f-4f5d-9e34-0677ef86457c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a7504ae9-7e2f-4f5d-9e34-0677ef86457c">
 <head>STOMACH</head>
     <list type="altnames">
 <item>BELLY</item>
@@ -196,7 +197,14 @@
                 </gramGrp>
   <def>womb</def>
             </sense>
-<sense xml:id="uuid-6c4aeb06-d09d-4df5-8aeb-06d09d8df5cc" resp="#CH" tls:created="2021-06-02T01:25:03.104+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func></gramGrp><def>from the womb</def></sense></entry>
+<sense xml:id="uuid-6c4aeb06-d09d-4df5-8aeb-06d09d8df5cc" resp="#CH" tls:created="2021-06-02T01:25:03.104+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                </gramGrp>
+                <def>from the womb</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-741c2ea0-f53c-4878-bedb-d3e924e231cf">
             <form corresp="#uuid-1aeb9e9c-6205-4a8a-ac71-68cca12f246a">
 <orth>腹</orth>
@@ -249,5 +257,20 @@
   <def>the stomach region</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fb7831e9-ad80-46eb-b831-e9ad8066eb05" resp="#CH" tls:created="2022-08-27T20:34:31.059+09:00"><form corresp="#uuid-5dba505a-09f6-4697-b478-683963603e62"><orth>虛</orth><pron xml:lang="zh-Latn-x-pinyin">xū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhla</pron></form><sense xml:id="uuid-5a0163bb-5425-4d4f-8163-bb5425bd4f75" resp="#CH" tls:created="2022-08-27T20:34:31.059+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>empty stomach</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-fb7831e9-ad80-46eb-b831-e9ad8066eb05" resp="#CH" tls:created="2022-08-27T20:34:31.059+09:00">
+            <form corresp="#uuid-5dba505a-09f6-4697-b478-683963603e62">
+                <orth>虛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhla</pron>
+            </form>
+            <sense xml:id="uuid-5a0163bb-5425-4d4f-8163-bb5425bd4f75" resp="#CH" tls:created="2022-08-27T20:34:31.059+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>empty stomach</def>
+            </sense>
+        </entry>
+    </div>
 </div>

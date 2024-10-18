@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6c360266-1a79-4f76-9a18-003b8220bb6a">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6c360266-1a79-4f76-9a18-003b8220bb6a">
 <head>CITIZEN</head>
     <list type="translations">
         <item xml:lang="zh">公民</item>
@@ -118,7 +119,14 @@
                 </gramGrp>
   <def>native citizen (not kè rén 客人"foreigner")</def>
             </sense>
-<sense xml:id="uuid-c2fc7bd3-4318-491c-bc7b-d34318d91c89" resp="#dsehnal" tls:created="2020-05-12T04:34:03.718+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}</tls:syn-func></gramGrp><def>be native citizen</def></sense></entry>
+<sense xml:id="uuid-c2fc7bd3-4318-491c-bc7b-d34318d91c89" resp="#dsehnal" tls:created="2020-05-12T04:34:03.718+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-d6de1ff3-03d0-4bd5-8d6b-066f38000e29">NP{PRED}</tls:syn-func>
+                </gramGrp>
+                <def>be native citizen</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-65a63ab0-ac3b-4cae-8b88-49571ffb23f9">
             <form corresp="#uuid-ba086483-4a6c-43de-800a-e37e8258b43a #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
 <orth>國人</orth>
@@ -142,7 +150,15 @@
                 </gramGrp>
   <def>as a person entitled to ride in a wheeled vehicle in particular a war chariot(??), as a citizen of senior status</def>
             </sense>
-<sense xml:id="uuid-958330e1-2f13-42bc-8330-e12f13e2bc4b" resp="#dsehnal" tls:created="2020-05-10T00:54:18.507+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat></gramGrp><def>citizens of N; influential inhabitants of the N's capital</def></sense></entry>
+<sense xml:id="uuid-958330e1-2f13-42bc-8330-e12f13e2bc4b" resp="#dsehnal" tls:created="2020-05-10T00:54:18.507+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-30d59aba-58eb-4679-b8e1-d48c62d29bb5">N=state</tls:sem-feat>
+                </gramGrp>
+                <def>citizens of N; influential inhabitants of the N's capital</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-35c1ad14-bfe4-4f47-be8a-64e4c5d9d58e">
             <form corresp="#uuid-ba086483-4a6c-43de-800a-e37e8258b43a #uuid-fb89a673-a23b-40ad-ab82-7b44c4b3995e">
 <orth>國士</orth>

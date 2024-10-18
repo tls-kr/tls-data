@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1d168988-768f-41d1-adb5-cd633b503ead">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1d168988-768f-41d1-adb5-cd633b503ead">
 <head>MARSH</head>
     <list type="altnames">
 <item>SWAMP</item>
@@ -163,7 +164,21 @@
                 </gramGrp>
   <def>marshland; bog around lakes</def>
             </sense>
-<sense xml:id="uuid-e69a45ec-dfd5-410e-9a45-ecdfd5810ec4" resp="#zadrapa" tls:created="2022-05-30T16:32:23.972+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func></gramGrp><def>of/from marshlands</def></sense><sense xml:id="uuid-203d294d-38e9-4dd3-bd29-4d38e92dd3c8" resp="#zadrapa" tls:created="2023-05-27T02:48:58.312+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func></gramGrp><def>"marsh" as a measuring unit for the amount of vegetables, probably actually meaning just big heaps etc. (XUN)</def></sense></entry>
+<sense xml:id="uuid-e69a45ec-dfd5-410e-9a45-ecdfd5810ec4" resp="#zadrapa" tls:created="2022-05-30T16:32:23.972+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-516d3836-3a0b-4fbc-b996-071cc48ba53d">nadN</tls:syn-func>
+                </gramGrp>
+                <def>of/from marshlands</def>
+            </sense>
+            <sense xml:id="uuid-203d294d-38e9-4dd3-bd29-4d38e92dd3c8" resp="#zadrapa" tls:created="2023-05-27T02:48:58.312+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-3ebcb41c-a90c-4c14-80c9-65b36dd977b3">nc</tls:syn-func>
+                </gramGrp>
+                <def>"marsh" as a measuring unit for the amount of vegetables, probably actually meaning just big heaps etc. (XUN)</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-c4d0bcd1-75c2-4796-b47a-9a8d00fafcc4">
             <form corresp="#uuid-66f78058-0d17-4563-8030-0bd9813cfe7c">
 <orth>藪</orth>
@@ -231,5 +246,36 @@
   <def>the open wetlands, marshes</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-69c4a761-a859-48cd-84a7-61a85988cd84" resp="#CH" tls:created="2021-04-04T01:21:42.589+09:00"><form corresp="#uuid-66f78058-0d17-4563-8030-0bd9813cfe7c #uuid-25f32c5a-9904-4ccc-b328-5a711653d0a5"><orth>藪澤</orth><pron xml:lang="zh-Latn-x-pinyin">sǒu zé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">suwX draek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlooʔ ɡrlaaɡ</pron></form><sense xml:id="uuid-08852c02-4c12-4bb3-852c-024c129bb30c" resp="#CH" tls:created="2021-04-04T01:21:42.589+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>the marshes</def></sense></entry><entry type="word" xml:id="uuid-3cf6ea81-e09a-4f63-b6ea-81e09a3f63bf" resp="#zadrapa" tls:created="2021-06-02T21:02:21.389+09:00"><form corresp="#uuid-7724a604-307a-4b9a-af74-1dc72116d850 #uuid-6771d2aa-a54b-4da6-8134-0fa1d393519e"><orth>九皋</orth><pron xml:lang="zh-Latn-x-pinyin">jiǔ gāo</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwX --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuʔ kuu</pron></form><sense xml:id="uuid-e975e9aa-a6d8-4675-b5e9-aaa6d8967502" resp="#zadrapa" tls:created="2021-06-02T21:02:21.389+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>deep in the marsh</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-69c4a761-a859-48cd-84a7-61a85988cd84" resp="#CH" tls:created="2021-04-04T01:21:42.589+09:00">
+            <form corresp="#uuid-66f78058-0d17-4563-8030-0bd9813cfe7c #uuid-25f32c5a-9904-4ccc-b328-5a711653d0a5">
+                <orth>藪澤</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">sǒu zé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">suwX draek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sqlooʔ ɡrlaaɡ</pron>
+            </form>
+            <sense xml:id="uuid-08852c02-4c12-4bb3-852c-024c129bb30c" resp="#CH" tls:created="2021-04-04T01:21:42.589+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>the marshes</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3cf6ea81-e09a-4f63-b6ea-81e09a3f63bf" resp="#zadrapa" tls:created="2021-06-02T21:02:21.389+09:00">
+            <form corresp="#uuid-7724a604-307a-4b9a-af74-1dc72116d850 #uuid-6771d2aa-a54b-4da6-8134-0fa1d393519e">
+                <orth>九皋</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiǔ gāo</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjuwX --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kuʔ kuu</pron>
+            </form>
+            <sense xml:id="uuid-e975e9aa-a6d8-4675-b5e9-aaa6d8967502" resp="#zadrapa" tls:created="2021-06-02T21:02:21.389+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>deep in the marsh</def>
+            </sense>
+        </entry>
+    </div>
 </div>

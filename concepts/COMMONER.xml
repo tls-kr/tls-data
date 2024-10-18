@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-fb48a6d9-ac99-40ef-ba9a-5a395949ca37">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-fb48a6d9-ac99-40ef-ba9a-5a395949ca37">
 <head>COMMONER</head>
     <list type="translations">
         <item xml:lang="zh">老百姓</item>
@@ -25,17 +26,38 @@
             </item>
         </list>
     </div>
-<div type="words"><entry type="word" xml:id="uuid-2dbf65e2-7d0a-4351-bf65-e27d0a735166" resp="#CH" tls:created="2021-07-19T05:04:06.365+09:00"><form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-438dbee0-c789-4bb0-8bb3-91aff4d4487c"><orth>而夫</orth><pron xml:lang="zh-Latn-x-pinyin">ér fū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nyi pju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ pa</pron></form><sense xml:id="uuid-0ce89fd1-3894-43f4-a89f-d1389473f499" resp="#CH" tls:created="2021-07-19T05:04:06.365+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>ordinary person; ordinary official</def></sense></entry><entry xml:id="uuid-3daafa80-92ef-44d1-aafa-8092ef04d191"><form corresp="#uuid-ea27363b-f315-43e7-a39e-a781fed6ad25 #uuid-28e4431a-02b5-45a4-82d2-9f49e5f3b29e">
+<div type="words">
+        <entry type="word" xml:id="uuid-2dbf65e2-7d0a-4351-bf65-e27d0a735166" resp="#CH" tls:created="2021-07-19T05:04:06.365+09:00">
+            <form corresp="#uuid-d4f6516f-ad7d-4a23-a222-ee0e2b5082e8 #uuid-438dbee0-c789-4bb0-8bb3-91aff4d4487c">
+                <orth>而夫</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">ér fū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nyi pju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">njɯ pa</pron>
+            </form>
+            <sense xml:id="uuid-0ce89fd1-3894-43f4-a89f-d1389473f499" resp="#CH" tls:created="2021-07-19T05:04:06.365+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>ordinary person; ordinary official</def>
+            </sense>
+        </entry>
+        <entry xml:id="uuid-3daafa80-92ef-44d1-aafa-8092ef04d191">
+            <form corresp="#uuid-ea27363b-f315-43e7-a39e-a781fed6ad25 #uuid-28e4431a-02b5-45a4-82d2-9f49e5f3b29e">
 <orth>布衣</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">bù yī</pron>
                 <pron xml:lang="zh-x-oc">paas qɯl</pron>
                 <pron xml:lang="zh-x-mc">puo̝ ʔɨi</pron>
-            </form><sense xml:id="uuid-d9a4123d-3740-47d7-b694-813161139c49">
+            </form>
+            <sense xml:id="uuid-d9a4123d-3740-47d7-b694-813161139c49">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-080d3352-c9b3-40b5-8aed-7996007863d9">NP[adN]</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-5100e402-4cb5-4b99-929f-be674b3757d4">N=human</tls:sem-feat>
+                </gramGrp>
   <def resp="#CH" updated="2020-05-10T19:45:40.646+09:00">mere commoner; person wearing ordinary clothes and not entitled to wear official garments</def>
-            </sense></entry></div>
+            </sense>
+        </entry>
+    </div>
 </div>

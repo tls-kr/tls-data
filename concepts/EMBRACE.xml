@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d9ac082d-40b1-43f4-8d4e-aff463f08dfa">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-d9ac082d-40b1-43f4-8d4e-aff463f08dfa">
 <head>EMBRACE</head>
     <list type="altnames">
 <item>HUG</item>
@@ -25,7 +26,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-10-16T17:28:30.548+09:00">TAKE so as to HOLD a THING OR ANOTHER PERSON USING BOTH ARMS INTEDing to SAFEGUARD it OR SHOW SYMPATHY. </p></div>
+    <p resp="#CH" modified="2020-10-16T17:28:30.548+09:00">TAKE so as to HOLD a THING OR ANOTHER PERSON USING BOTH ARMS INTEDing to SAFEGUARD it OR SHOW SYMPATHY. </p>
+    </div>
 <div type="notes">
 <div type="old-chinese-criteria">
 <p>1. The most general current word is bào 抱, and the word refers both to physical embracing and to metaphorical mental embracing of thoughts.</p>
@@ -95,7 +97,15 @@
                 </gramGrp>
   <def>hold to one's chest (normally small objects)</def>
             </sense>
-<sense xml:id="uuid-68d154ab-9ece-466a-9154-ab9ecea66aee" resp="#CH" tls:created="2022-08-06T15:49:45.43+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-10-01T00:27:51.851+09:00">embrace and gratefully accept; take to heart</def></sense></entry>
+<sense xml:id="uuid-68d154ab-9ece-466a-9154-ab9ecea66aee" resp="#CH" tls:created="2022-08-06T15:49:45.43+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-10-01T00:27:51.851+09:00">embrace and gratefully accept; take to heart</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8d785747-58ce-4afb-bb79-202791f186bc">
             <form corresp="#uuid-70ce7202-7ce6-42dc-96d0-d0d53cb1c28a">
 <orth>抱</orth>
@@ -198,5 +208,20 @@
   <def>arms, embrace, breast</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-34d725d2-6f22-47fd-9725-d26f2207fd77"><form><orth>籠</orth><pron xml:lang="zh-Latn-x-pinyin">lóng</pron></form><def/><sense xml:id="uuid-8d2762c0-bf41-4d56-a762-c0bf410d56ed" resp="#CH" tls:created="2020-12-24T22:17:57.487+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>encompass; comprehend</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-34d725d2-6f22-47fd-9725-d26f2207fd77">
+            <form>
+                <orth>籠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lóng</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-8d2762c0-bf41-4d56-a762-c0bf410d56ed" resp="#CH" tls:created="2020-12-24T22:17:57.487+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>encompass; comprehend</def>
+            </sense>
+        </entry>
+    </div>
 </div>

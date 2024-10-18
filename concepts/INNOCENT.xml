@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-be5f23cb-ca41-467a-9907-bc24126ac1cc">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-be5f23cb-ca41-467a-9907-bc24126ac1cc">
 <head>INNOCENT</head>
     <list type="altnames">
 <item>GUILTLESS</item>
@@ -163,7 +164,22 @@
                 </gramGrp>
   <def>the innocence of the contextually determinate person N</def>
             </sense>
-<sense xml:id="uuid-2acc94e8-23fa-40ba-b15a-0a90ea999f0b" resp="#CH" tls:created="2019-12-27T00:47:19.979+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">VP[adN]</tls:syn-func><tls:sem-feat corresp="#uuid-a87a8db3-535b-4085-911c-cb9549d9267e">N=act</tls:sem-feat></gramGrp><def>innocent action</def></sense><sense xml:id="uuid-a5e4729d-d534-4ec7-a472-9dd5346ec748" resp="#zadrapa" tls:created="2021-02-11T18:51:23.508+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2021-02-16T05:22:59.264+09:00">(be able to) stay unaccused</def></sense></entry>
+<sense xml:id="uuid-2acc94e8-23fa-40ba-b15a-0a90ea999f0b" resp="#CH" tls:created="2019-12-27T00:47:19.979+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">VP[adN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-a87a8db3-535b-4085-911c-cb9549d9267e">N=act</tls:sem-feat>
+                </gramGrp>
+                <def>innocent action</def>
+            </sense>
+            <sense xml:id="uuid-a5e4729d-d534-4ec7-a472-9dd5346ec748" resp="#zadrapa" tls:created="2021-02-11T18:51:23.508+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2021-02-16T05:22:59.264+09:00">(be able to) stay unaccused</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6e52339c-2c31-484a-84c4-ae56923a0ff3">
             <form corresp="#uuid-5de002ac-c1a1-4519-a177-4a3afcc155bb #uuid-5316b6b0-bfe0-4680-9cc2-ef49d56db8ce">
 <orth>無辜</orth>
@@ -188,5 +204,35 @@
   <def>innocence</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-65c4b6e5-598e-47ec-84b6-e5598e97ec60" resp="#CH" tls:created="2020-05-03T18:42:19.661+09:00"><form corresp="#uuid-7c026c66-9781-474b-b1ca-8e6ae50db29a"><orth>白</orth><pron xml:lang="zh-Latn-x-pinyin">bái bó bái</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">baek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">braaɡ</pron></form><sense xml:id="uuid-fcff410d-56be-4ce0-bf41-0d56be6ce050" resp="#CH" tls:created="2020-05-03T18:42:19.661+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2020-06-03T21:40:23.304+09:00">prove or show to be innocent; swear to the innocence of</def></sense></entry><entry type="word" xml:id="uuid-d4e280d3-9903-4075-a280-d399035075df" resp="#CH" tls:created="2021-06-28T16:40:14.508+09:00"><form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-9bd61217-cdd9-4c58-adb9-c0eeeae91131"><orth>无罪</orth><pron xml:lang="zh-Latn-x-pinyin">wú zuì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mju --</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma sbuulʔ</pron></form><sense xml:id="uuid-f85b8f53-d805-4dcb-9b8f-53d8052dcb62" resp="#CH" tls:created="2021-06-28T16:40:14.508+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>count as innocent; get away scot free</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-65c4b6e5-598e-47ec-84b6-e5598e97ec60" resp="#CH" tls:created="2020-05-03T18:42:19.661+09:00">
+            <form corresp="#uuid-7c026c66-9781-474b-b1ca-8e6ae50db29a">
+                <orth>白</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bái bó bái</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">baek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">braaɡ</pron>
+            </form>
+            <sense xml:id="uuid-fcff410d-56be-4ce0-bf41-0d56be6ce050" resp="#CH" tls:created="2020-05-03T18:42:19.661+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-06-03T21:40:23.304+09:00">prove or show to be innocent; swear to the innocence of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d4e280d3-9903-4075-a280-d399035075df" resp="#CH" tls:created="2021-06-28T16:40:14.508+09:00">
+            <form corresp="#uuid-a5c0741f-c29c-4090-97c8-5f3496ea9a9e #uuid-9bd61217-cdd9-4c58-adb9-c0eeeae91131">
+                <orth>无罪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wú zuì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mju --</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ma sbuulʔ</pron>
+            </form>
+            <sense xml:id="uuid-f85b8f53-d805-4dcb-9b8f-53d8052dcb62" resp="#CH" tls:created="2021-06-28T16:40:14.508+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>count as innocent; get away scot free</def>
+            </sense>
+        </entry>
+    </div>
 </div>

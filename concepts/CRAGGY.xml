@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c512e905-9006-4595-a0e5-d64d3e84b91c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c512e905-9006-4595-a0e5-d64d3e84b91c">
 <head>CRAGGY</head>
     <list type="altnames">
 <item>STEEP</item>
@@ -123,7 +124,14 @@
                 </gramGrp>
   <def>craggy (mountain or ravine)</def>
             </sense>
-<sense xml:id="uuid-ee30f2fb-3598-4fe5-bc32-0d997124dfa6" resp="#CH" tls:created="2020-02-05T19:13:34.28+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func></gramGrp><def resp="#CH" updated="2020-12-23T07:36:09.423+09:00">craggy shape; crags</def></sense></entry>
+<sense xml:id="uuid-ee30f2fb-3598-4fe5-bc32-0d997124dfa6" resp="#CH" tls:created="2020-02-05T19:13:34.28+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-20a87134-926d-4be7-8815-246c1f7a9ca7">n[adN]</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-12-23T07:36:09.423+09:00">craggy shape; crags</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a96e91e1-0f86-4dd2-8114-651e10898799">
             <form corresp="#uuid-a35ad267-73e7-4973-bac1-623b591aafab">
 <orth>巖</orth>
@@ -187,5 +195,20 @@
             <def>Xiǎn 險 (ant. píng 平 "level") refers to inaccessible precipitous and dangerous high terrain.
 </def>
 </entry>
-    <entry type="word" xml:id="uuid-5a10c483-0c5a-4dc9-90c4-830c5a1dc9e8" resp="#dsehnal" tls:created="2024-06-10T01:02:02.965+09:00"><form corresp="#uuid-e9bc7167-f64e-4864-9423-885e838f479e #uuid-4a8234c2-887c-48b3-9261-170a7ad71242"><orth>崎嶇</orth><pron xml:lang="zh-Latn-x-pinyin">qī qū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khje khju</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khral --</pron></form><sense xml:id="uuid-05c8b8a0-5f1e-4012-88b8-a05f1ee0129f" resp="#dsehnal" tls:created="2024-06-10T01:02:02.965+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>craggy</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5a10c483-0c5a-4dc9-90c4-830c5a1dc9e8" resp="#dsehnal" tls:created="2024-06-10T01:02:02.965+09:00">
+            <form corresp="#uuid-e9bc7167-f64e-4864-9423-885e838f479e #uuid-4a8234c2-887c-48b3-9261-170a7ad71242">
+                <orth>崎嶇</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qī qū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khje khju</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khral --</pron>
+            </form>
+            <sense xml:id="uuid-05c8b8a0-5f1e-4012-88b8-a05f1ee0129f" resp="#dsehnal" tls:created="2024-06-10T01:02:02.965+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>craggy</def>
+            </sense>
+        </entry>
+    </div>
 </div>

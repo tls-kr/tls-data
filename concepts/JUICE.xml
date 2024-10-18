@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-78bb3810-5ff1-4873-b8d0-686aef344ee1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-78bb3810-5ff1-4873-b8d0-686aef344ee1">
 <head>JUICE</head>
     <list type="altnames">
 <item>LIQUID</item>
@@ -71,7 +72,15 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-02-05T01:41:13.109+09:00">drinkable liquid made from fruit</def>
             </sense>
-<sense xml:id="uuid-324a13bf-dd0b-4588-9ddc-b5ef91894825" resp="#CH" tls:created="2020-02-05T01:42:46.524+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>figurative: imbibable essence</def></sense></entry>
+<sense xml:id="uuid-324a13bf-dd0b-4588-9ddc-b5ef91894825" resp="#CH" tls:created="2020-02-05T01:42:46.524+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-e917a78b-5500-4276-a5fe-156b8bdecb7b">nm</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>figurative: imbibable essence</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a23d5f77-7194-4ad9-9484-53b247dfef12">
             <form corresp="#uuid-f9c5c95f-da12-4a19-b448-53fe82586133">
 <orth>瀋</orth>
@@ -103,5 +112,35 @@
   <def>drink made of prune juice</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-24324749-8bab-486a-93a1-d15ed9dddc8a" resp="#CH" tls:created="2019-12-21T01:38:25.916+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-994f3f89-98d6-4208-9535-2f508b3a00e1" resp="#CH" tls:created="2019-12-21T01:38:25.916+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPm</tls:syn-func></gramGrp><def>juice of fruit</def></sense></entry><entry type="word" xml:id="uuid-e638c928-26a7-41f1-ae8b-8b7d52260b40" resp="#CH" tls:created="2019-12-21T01:38:34.605+09:00"><form corresp="#uuid-1c53ef7c-4660-4669-a404-f5e2e430fb7f #uuid-94dbe7ad-adca-4559-8a60-9a7a2d01cc14"><orth>漿液</orth><pron xml:lang="zh-Latn-x-pinyin">jiāng yè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang yek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ k-laɡ</pron></form><sense xml:id="uuid-400ce4f7-e007-48ac-8327-284a5c8eea14" resp="#CH" tls:created="2019-12-21T01:38:34.605+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">NPm</tls:syn-func></gramGrp><def>juice of fruit</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-24324749-8bab-486a-93a1-d15ed9dddc8a" resp="#CH" tls:created="2019-12-21T01:38:25.916+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-994f3f89-98d6-4208-9535-2f508b3a00e1" resp="#CH" tls:created="2019-12-21T01:38:25.916+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPm</tls:syn-func>
+                </gramGrp>
+                <def>juice of fruit</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e638c928-26a7-41f1-ae8b-8b7d52260b40" resp="#CH" tls:created="2019-12-21T01:38:34.605+09:00">
+            <form corresp="#uuid-1c53ef7c-4660-4669-a404-f5e2e430fb7f #uuid-94dbe7ad-adca-4559-8a60-9a7a2d01cc14">
+                <orth>漿液</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiāng yè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang yek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ k-laɡ</pron>
+            </form>
+            <sense xml:id="uuid-400ce4f7-e007-48ac-8327-284a5c8eea14" resp="#CH" tls:created="2019-12-21T01:38:34.605+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">NPm</tls:syn-func>
+                </gramGrp>
+                <def>juice of fruit</def>
+            </sense>
+        </entry>
+    </div>
 </div>

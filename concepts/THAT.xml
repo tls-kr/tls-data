@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-28da57be-e713-40d9-bc3d-600e018beb26">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-28da57be-e713-40d9-bc3d-600e018beb26">
 <head>THAT</head>
     <list type="translations">
         <item xml:lang="zh">那</item>
     </list>
 <div type="definition">
 <p>The one that is NOT NEAR. [GRAMMAR]GRAMMAR[]</p>
-    <div type="definition" resp="#CH" modified="2022-10-21T22:24:44.753+09:00"><p>PRONOUN MODIFYING OR REFERRING to what is COMPARATIVELY DISTANT. </p></div></div>
+    <div type="definition" resp="#CH" modified="2022-10-21T22:24:44.753+09:00">
+            <p>PRONOUN MODIFYING OR REFERRING to what is COMPARATIVELY DISTANT. </p>
+        </div>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>那個</p>
@@ -135,7 +139,31 @@
                 </gramGrp>
   <def>consider oneself to be other</def>
             </sense>
-<sense xml:id="uuid-98ca96ae-77b2-40dc-8a96-ae77b230dcef" resp="#zadrapa" tls:created="2022-06-13T16:26:48.649+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func><tls:sem-feat corresp="#uuid-69b401a4-7fa0-4d82-8a37-dea2761bbc79">genitive</tls:sem-feat></gramGrp><def>N of that/those</def></sense><sense xml:id="uuid-24f58e59-e6eb-4f12-b58e-59e6eb6f1269" resp="#dsehnal" tls:created="2020-04-24T03:53:41.603+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func><tls:sem-feat corresp="#uuid-198691ba-80e6-412d-9b4a-668052a5bac2">disdainful</tls:sem-feat></gramGrp><def resp="#CH" updated="2020-05-03T18:07:27.326+09:00">derogatory: those (terrible) N</def></sense><sense xml:id="uuid-eb26638d-93e9-4d6b-a663-8d93e9ad6b74" resp="#CH" tls:created="2024-02-12T00:37:34.212+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def>those contextually determinate people</def></sense></entry>
+<sense xml:id="uuid-98ca96ae-77b2-40dc-8a96-ae77b230dcef" resp="#zadrapa" tls:created="2022-06-13T16:26:48.649+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-69b401a4-7fa0-4d82-8a37-dea2761bbc79">genitive</tls:sem-feat>
+                </gramGrp>
+                <def>N of that/those</def>
+            </sense>
+            <sense xml:id="uuid-24f58e59-e6eb-4f12-b58e-59e6eb6f1269" resp="#dsehnal" tls:created="2020-04-24T03:53:41.603+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-198691ba-80e6-412d-9b4a-668052a5bac2">disdainful</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2020-05-03T18:07:27.326+09:00">derogatory: those (terrible) N</def>
+            </sense>
+            <sense xml:id="uuid-eb26638d-93e9-4d6b-a663-8d93e9ad6b74" resp="#CH" tls:created="2024-02-12T00:37:34.212+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-69c72bbd-6f58-4af7-bf6b-78144123c39c">npro(adN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def>those contextually determinate people</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5612a434-8c4b-4e2f-8ec9-bc2ad6c80e85">
             <form corresp="#uuid-559016e6-7996-4e7b-bb4a-e5f8c2e4247a #uuid-8dc49d39-8e34-4572-b2a2-81533b7b1936">
 <orth>那個</orth>
@@ -167,6 +195,42 @@
                 </gramGrp>
   <def/>
             </sense>
-<sense xml:id="uuid-12ff23f6-3771-4d2b-912e-bd02e6a3e873" resp="#CH" tls:created="2020-02-11T00:45:12.396+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func></gramGrp><def>the above-focussed</def></sense><sense xml:id="uuid-f3802cb7-29a4-4c8c-802c-b729a48c8cbe" resp="#zadrapa" tls:created="2020-06-24T01:39:23.734+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func></gramGrp><def resp="#zadrapa" updated="2020-06-24T01:40:03.064+09:00">that thing (rare)</def></sense><sense xml:id="uuid-c3c01cfb-6205-433c-801c-fb6205933cca" resp="#zadrapa" tls:created="2020-06-26T22:40:06.346+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func></gramGrp><def>vaguely deictic: that thing that is implicitly present in the discursive background</def></sense></entry>
-    <entry type="word" xml:id="uuid-4d0d0abb-49e8-4a00-969d-7d780b3160dd" resp="#zadrapa" tls:created="2020-01-15T17:47:36.29+09:00"><form corresp="#uuid-da78ecbd-a6d5-46b4-b7e3-23dedefb558e"><orth>匪</orth><pron xml:lang="zh-Latn-x-pinyin">fěi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">pj+jX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯlʔ</pron></form><sense xml:id="uuid-99f75612-d1e2-4801-b928-2e64f108f4d5" resp="#zadrapa" tls:created="2020-01-15T17:47:36.29+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func></gramGrp><def>that, those (a loan character for 彼)</def></sense></entry></div>
+<sense xml:id="uuid-12ff23f6-3771-4d2b-912e-bd02e6a3e873" resp="#CH" tls:created="2020-02-11T00:45:12.396+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                </gramGrp>
+                <def>the above-focussed</def>
+            </sense>
+            <sense xml:id="uuid-f3802cb7-29a4-4c8c-802c-b729a48c8cbe" resp="#zadrapa" tls:created="2020-06-24T01:39:23.734+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-74ace9ce-3be4-452c-8c91-2323adc6186f">npro</tls:syn-func>
+                </gramGrp>
+                <def resp="#zadrapa" updated="2020-06-24T01:40:03.064+09:00">that thing (rare)</def>
+            </sense>
+            <sense xml:id="uuid-c3c01cfb-6205-433c-801c-fb6205933cca" resp="#zadrapa" tls:created="2020-06-26T22:40:06.346+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                </gramGrp>
+                <def>vaguely deictic: that thing that is implicitly present in the discursive background</def>
+            </sense>
+        </entry>
+    <entry type="word" xml:id="uuid-4d0d0abb-49e8-4a00-969d-7d780b3160dd" resp="#zadrapa" tls:created="2020-01-15T17:47:36.29+09:00">
+            <form corresp="#uuid-da78ecbd-a6d5-46b4-b7e3-23dedefb558e">
+                <orth>匪</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">fěi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">pj+jX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pɯlʔ</pron>
+            </form>
+            <sense xml:id="uuid-99f75612-d1e2-4801-b928-2e64f108f4d5" resp="#zadrapa" tls:created="2020-01-15T17:47:36.29+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0966b984-3eda-4eb6-afa6-4d05b3c50e72">npro.adN</tls:syn-func>
+                </gramGrp>
+                <def>that, those (a loan character for 彼)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

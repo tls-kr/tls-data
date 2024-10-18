@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6ba4659c-d5fd-4f88-a52d-082b394bf90e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-6ba4659c-d5fd-4f88-a52d-082b394bf90e">
 <head>ODOUR</head>
     <list type="altnames">
 <item>SMELL</item>
@@ -157,7 +158,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-7a3dc458-857a-4690-8bb8-b2fcbe32a83c">
-            <form corresp="#uuid-63a95e4b-8cab-4bd1-a95e-4b8cab9bd132"><orth>臭</orth><pron xml:lang="zh-Latn-x-pinyin">xiù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron></form>
+            <form corresp="#uuid-63a95e4b-8cab-4bd1-a95e-4b8cab9bd132">
+                <orth>臭</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">--</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">--</pron>
+            </form>
             <def>The general word for an odour, either pleasant or unpleasant, is xiù 臭.
 </def>
 <sense xml:id="uuid-849acb97-5c09-45b7-b888-803aa651949f">
@@ -203,5 +209,20 @@
   <def>odour; flavour; smell; scent</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-3fae2c6c-6ce9-4d18-ae2c-6c6ce98d1879" resp="#dsehnal" tls:created="2023-07-16T02:11:35.041+09:00"><form corresp="#uuid-c4e6d307-6ee1-48c4-a811-70969ff468f3 #uuid-455ed56a-8d66-4439-8d61-86e412c815dd"><orth>香氣</orth><pron xml:lang="zh-Latn-x-pinyin">xiāng qì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">xjang khj+jH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ khɯds</pron></form><sense xml:id="uuid-60ca76db-7ded-48d9-8a76-db7deda8d938" resp="#dsehnal" tls:created="2023-07-16T02:11:35.041+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func></gramGrp><def>smell of N; odour of N; N's aroma</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-3fae2c6c-6ce9-4d18-ae2c-6c6ce98d1879" resp="#dsehnal" tls:created="2023-07-16T02:11:35.041+09:00">
+            <form corresp="#uuid-c4e6d307-6ee1-48c4-a811-70969ff468f3 #uuid-455ed56a-8d66-4439-8d61-86e412c815dd">
+                <orth>香氣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiāng qì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">xjang khj+jH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhaŋ khɯds</pron>
+            </form>
+            <sense xml:id="uuid-60ca76db-7ded-48d9-8a76-db7deda8d938" resp="#dsehnal" tls:created="2023-07-16T02:11:35.041+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-7ff85022-daa6-4ec8-892f-23641dce0f0f">NPpost-N</tls:syn-func>
+                </gramGrp>
+                <def>smell of N; odour of N; N's aroma</def>
+            </sense>
+        </entry>
+    </div>
 </div>

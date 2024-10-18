@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8f844d19-d2d4-4733-957f-e161496251e7">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-8f844d19-d2d4-4733-957f-e161496251e7">
 <head>OMEN</head>
     <list type="altnames">
 <item>PORTENT</item>
@@ -145,7 +146,14 @@
                 </gramGrp>
   <def>be indicative of N, be an omen of N</def>
             </sense>
-<sense xml:id="uuid-7514d2cf-499c-4c14-94d2-cf499c8c1497" resp="#CH" tls:created="2020-03-29T05:12:44.576+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func></gramGrp><def>omen for something</def></sense></entry>
+<sense xml:id="uuid-7514d2cf-499c-4c14-94d2-cf499c8c1497" resp="#CH" tls:created="2020-03-29T05:12:44.576+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6ab785dc-a037-40f5-936b-420a19e6f59b">n[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>omen for something</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4bc093e8-22ca-4dc2-a847-8f7fdc418f5a">
             <form corresp="#uuid-7b040c60-1287-45ef-8e7c-695ec5c8318a">
 <orth>祥</orth>
@@ -186,5 +194,20 @@
   <def>omen</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-769b7361-0494-44f2-9b73-61049424f26f" resp="#CH" tls:created="2022-08-21T00:12:44.027+09:00"><form corresp="#uuid-8f186cd5-f343-4305-9b1d-507d98f5922e #uuid-7b040c60-1287-45ef-8e7c-695ec5c8318a"><orth>禨祥</orth><pron xml:lang="zh-Latn-x-pinyin">jī xiáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kj+j zjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯl sɢlaŋ</pron></form><sense xml:id="uuid-6c0bd767-146b-4aa2-8bd7-67146b3aa28c" resp="#CH" tls:created="2022-08-21T00:12:44.027+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>omens HYDCD: 謂吉凶之先兆。</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-769b7361-0494-44f2-9b73-61049424f26f" resp="#CH" tls:created="2022-08-21T00:12:44.027+09:00">
+            <form corresp="#uuid-8f186cd5-f343-4305-9b1d-507d98f5922e #uuid-7b040c60-1287-45ef-8e7c-695ec5c8318a">
+                <orth>禨祥</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jī xiáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kj+j zjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kɯl sɢlaŋ</pron>
+            </form>
+            <sense xml:id="uuid-6c0bd767-146b-4aa2-8bd7-67146b3aa28c" resp="#CH" tls:created="2022-08-21T00:12:44.027+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>omens HYDCD: 謂吉凶之先兆。</def>
+            </sense>
+        </entry>
+    </div>
 </div>

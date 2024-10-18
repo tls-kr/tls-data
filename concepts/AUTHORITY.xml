@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c8172019-b0ae-4d5c-ad23-7886d93792c1">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c8172019-b0ae-4d5c-ad23-7886d93792c1">
 <head>AUTHORITY</head>
     <list type="altnames">
 <item>POWER</item>
@@ -19,7 +20,8 @@
     </list>
 <div type="definition">
 
-    <p resp="#CH" modified="2020-11-06T21:38:43.996+09:00">POWER that is BASED ON REPUTATION AND NOT BASED ONLY ON THREAT OR VIOLENCE. </p></div>
+    <p resp="#CH" modified="2020-11-06T21:38:43.996+09:00">POWER that is BASED ON REPUTATION AND NOT BASED ONLY ON THREAT OR VIOLENCE. </p>
+    </div>
 <div type="notes"/>
 <div type="pointers">
         <list type="hypernymy">
@@ -135,5 +137,27 @@
   <def>ZHOULI: authority, sovereignty; superior power</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-af8e045f-1c78-40c0-8e04-5f1c7890c0b5"><form><orth>權</orth><pron xml:lang="zh-Latn-x-pinyin">quán</pron></form><def/><sense xml:id="uuid-5f1b4c0d-759b-46af-9b4c-0d759bc6afcb" resp="#CH" tls:created="2020-04-14T18:29:13.953+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat></gramGrp><def>authority</def></sense><sense xml:id="uuid-95602546-dbe6-433c-a025-46dbe6c33c8f" resp="#CH" tls:created="2022-08-01T20:59:43.879+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func></gramGrp><def>authority over N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-af8e045f-1c78-40c0-8e04-5f1c7890c0b5">
+            <form>
+                <orth>權</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">quán</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-5f1b4c0d-759b-46af-9b4c-0d759bc6afcb" resp="#CH" tls:created="2020-04-14T18:29:13.953+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2ef405b2-627b-4f29-940b-848d5428e30e">social</tls:sem-feat>
+                </gramGrp>
+                <def>authority</def>
+            </sense>
+            <sense xml:id="uuid-95602546-dbe6-433c-a025-46dbe6c33c8f" resp="#CH" tls:created="2022-08-01T20:59:43.879+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                </gramGrp>
+                <def>authority over N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

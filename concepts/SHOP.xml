@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-62b7c07a-8d03-404e-b685-4dd7004dba8c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-62b7c07a-8d03-404e-b685-4dd7004dba8c">
 <head>SHOP</head>
     <list type="altnames">
 <item>STORE</item>
@@ -141,7 +142,14 @@
                 </gramGrp>
   <def>shop; market</def>
             </sense>
-<sense xml:id="uuid-4e263cc6-5aff-4542-8404-d8bf658cc77f" resp="#CH" tls:created="2019-12-16T19:48:49.244+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>an N's stall</def></sense></entry>
+<sense xml:id="uuid-4e263cc6-5aff-4542-8404-d8bf658cc77f" resp="#CH" tls:created="2019-12-16T19:48:49.244+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>an N's stall</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-75effe02-c7b7-4112-bd05-d461a9b6d9f9">
             <form corresp="#uuid-61a2440a-ba70-4813-98c5-8d625b96dcf7">
 <orth>鋪</orth>
@@ -157,5 +165,20 @@
   <def>shop, store</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-5b15161b-4342-41a6-9516-1b434281a615" resp="#CH" tls:created="2021-06-18T18:13:08.032+09:00"><form corresp="#uuid-1c53ef7c-4660-4669-a404-f5e2e430fb7f"><orth>漿</orth><pron xml:lang="zh-Latn-x-pinyin">jiāng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ</pron></form><sense xml:id="uuid-a6101ded-cf42-47ae-901d-edcf4277ae13" resp="#CH" tls:created="2021-06-18T18:13:08.032+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>roadside shop selling congee</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5b15161b-4342-41a6-9516-1b434281a615" resp="#CH" tls:created="2021-06-18T18:13:08.032+09:00">
+            <form corresp="#uuid-1c53ef7c-4660-4669-a404-f5e2e430fb7f">
+                <orth>漿</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiāng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaŋ</pron>
+            </form>
+            <sense xml:id="uuid-a6101ded-cf42-47ae-901d-edcf4277ae13" resp="#CH" tls:created="2021-06-18T18:13:08.032+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>roadside shop selling congee</def>
+            </sense>
+        </entry>
+    </div>
 </div>

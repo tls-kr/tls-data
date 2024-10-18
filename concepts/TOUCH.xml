@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-21c32fc6-08b2-402f-b38c-27a3ffca5e26">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-21c32fc6-08b2-402f-b38c-27a3ffca5e26">
 <head>TOUCH</head>
     <list type="altnames">
 <item>PRESS LIGHTLY</item>
@@ -156,7 +157,14 @@
                 </gramGrp>
   <def resp="#CH" updated="2020-02-14T01:53:45.346+09:00">pat (the back of a horse); touch (the elbow of a person etc)</def>
             </sense>
-<sense xml:id="uuid-8b3b2c05-2ee6-425b-8f26-8e2e5a619328" resp="#CH" tls:created="2019-12-07T22:07:37.656+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>run one's hand over, touch so as to smooth out</def></sense></entry>
+<sense xml:id="uuid-8b3b2c05-2ee6-425b-8f26-8e2e5a619328" resp="#CH" tls:created="2019-12-07T22:07:37.656+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>run one's hand over, touch so as to smooth out</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-edfe3923-6890-4330-a3bd-ef2f84574676">
             <form corresp="#uuid-3c2de05a-5eae-4ce3-861d-33a5920394c2">
 <orth>觸</orth>
@@ -188,5 +196,20 @@
   <def>touch physically, make physical contact</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-f4b854be-4526-40f7-b854-be4526d0f721" resp="#CH" tls:created="2021-05-24T22:49:18.04+09:00"><form corresp="#uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4"><orth>感</orth><pron xml:lang="zh-Latn-x-pinyin">gǎn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">komX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koomʔ</pron></form><sense xml:id="uuid-4f8439ab-c94c-4366-8439-abc94cd3664a" resp="#CH" tls:created="2021-05-24T22:49:18.04+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>touch (lightly) (as a bird flying past a person)</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-f4b854be-4526-40f7-b854-be4526d0f721" resp="#CH" tls:created="2021-05-24T22:49:18.04+09:00">
+            <form corresp="#uuid-722dfdd2-21c7-4c82-89da-49f7b11ca5d4">
+                <orth>感</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">gǎn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">komX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koomʔ</pron>
+            </form>
+            <sense xml:id="uuid-4f8439ab-c94c-4366-8439-abc94cd3664a" resp="#CH" tls:created="2021-05-24T22:49:18.04+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>touch (lightly) (as a bird flying past a person)</def>
+            </sense>
+        </entry>
+    </div>
 </div>

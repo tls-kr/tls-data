@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c97a3f3b-e73f-4c50-9d5d-127ef1b37dd8">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-c97a3f3b-e73f-4c50-9d5d-127ef1b37dd8">
 <head>CRAWL</head>
     <list type="altnames">
 <item>CREEP</item>
@@ -93,7 +94,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-aa28629b-5e40-4995-84ce-cd11036b3e86">
-            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45"><orth>緣</orth><pron xml:lang="zh-Latn-x-pinyin">yuán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron></form>
+            <form corresp="#uuid-befa831f-1ff5-40fc-a976-2cec5de2bc45">
+                <orth>緣</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yuán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ywen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-lon</pron>
+            </form>
             <def>Pān 攀 and yuán 緣refer to crawling upwards.
 </def>
 <sense xml:id="uuid-24f8ffd8-ec10-4497-8ef5-5ba8491f32fd">
@@ -158,5 +164,36 @@
   <def>crawl (like a snake) ZGC</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-02465ae0-0163-4289-865a-e00163a2892b" resp="#CH" tls:created="2020-05-19T20:56:40.815+09:00"><form corresp="#uuid-57d284a8-6395-4bef-8a5f-5354ee32ef83 #uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb"><orth>蚑行</orth><pron xml:lang="zh-Latn-x-pinyin">qì xíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khjieX haeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khes ɢraaŋ</pron></form><sense xml:id="uuid-6b5a21c4-aa00-46b4-9a21-c4aa0016b4d2" resp="#CH" tls:created="2020-05-19T20:56:40.815+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>crawl; crawl about like an insect</def></sense></entry><entry type="word" xml:id="uuid-6ea78017-c2f4-40a5-a780-17c2f4f0a5e0" resp="#dsehnal" tls:created="2024-05-19T23:43:01.538+09:00"><form corresp="#uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb"><orth>行</orth><pron xml:lang="zh-Latn-x-pinyin">xíng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">haeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraaŋ</pron></form><sense xml:id="uuid-9e655343-b766-412c-a553-43b766a12c86" resp="#dsehnal" tls:created="2024-05-19T23:43:01.538+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>climb on N</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-02465ae0-0163-4289-865a-e00163a2892b" resp="#CH" tls:created="2020-05-19T20:56:40.815+09:00">
+            <form corresp="#uuid-57d284a8-6395-4bef-8a5f-5354ee32ef83 #uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb">
+                <orth>蚑行</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qì xíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khjieX haeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khes ɢraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-6b5a21c4-aa00-46b4-9a21-c4aa0016b4d2" resp="#CH" tls:created="2020-05-19T20:56:40.815+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>crawl; crawl about like an insect</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6ea78017-c2f4-40a5-a780-17c2f4f0a5e0" resp="#dsehnal" tls:created="2024-05-19T23:43:01.538+09:00">
+            <form corresp="#uuid-5bcb421a-9f44-49f1-9a24-acd3d89c18cb">
+                <orth>行</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xíng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">haeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-9e655343-b766-412c-a553-43b766a12c86" resp="#dsehnal" tls:created="2024-05-19T23:43:01.538+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>climb on N</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-beb5de81-af3e-4a12-a638-76b1b41ea24c">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-beb5de81-af3e-4a12-a638-76b1b41ea24c">
 <head>SIZE</head>
     <list type="altnames">
 <item>DIMENSIONS</item>
@@ -77,7 +78,15 @@
                 </gramGrp>
   <def>big (i.e. small) (like X)大如毛髮</def>
             </sense>
-<sense xml:id="uuid-e74b1e42-7e72-41e3-8b1e-427e7281e316" resp="#zadrapa" tls:created="2020-12-06T00:05:15.767+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>size</def></sense></entry>
+<sense xml:id="uuid-e74b1e42-7e72-41e3-8b1e-427e7281e316" resp="#zadrapa" tls:created="2020-12-06T00:05:15.767+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>size</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-84f3adb5-742f-4044-9d96-d2d56b07cefd">
             <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-83c7a7f5-03b1-4bfd-b668-386b60478132">
 <orth>大小</orth>
@@ -133,5 +142,20 @@
             <def>Cháng duǎn 長短 refers to relative length.
 </def>
 </entry>
-    <entry type="word" xml:id="uuid-000de1e8-673e-44a0-8de1-e8673e74a0e5" resp="#CH" tls:created="2022-09-16T07:09:12.288+09:00"><form corresp="#uuid-3e0d32e6-429f-474d-bd76-acc4ffec7e7d #uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8"><orth>廣大</orth><pron xml:lang="zh-Latn-x-pinyin">guǎng dà</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwangX dajH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷaaŋʔ daads</pron></form><sense xml:id="uuid-7e2d70d9-2981-46f1-ad70-d92981b6f100" resp="#CH" tls:created="2022-09-16T07:09:12.288+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>immense size</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-000de1e8-673e-44a0-8de1-e8673e74a0e5" resp="#CH" tls:created="2022-09-16T07:09:12.288+09:00">
+            <form corresp="#uuid-3e0d32e6-429f-474d-bd76-acc4ffec7e7d #uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8">
+                <orth>廣大</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guǎng dà</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwangX dajH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kʷaaŋʔ daads</pron>
+            </form>
+            <sense xml:id="uuid-7e2d70d9-2981-46f1-ad70-d92981b6f100" resp="#CH" tls:created="2022-09-16T07:09:12.288+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>immense size</def>
+            </sense>
+        </entry>
+    </div>
 </div>

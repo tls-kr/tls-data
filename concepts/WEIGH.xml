@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b45e662d-6dad-402b-9a85-10cc63424951">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-b45e662d-6dad-402b-9a85-10cc63424951">
 <head>WEIGH</head>
     <list type="altnames">
 <item>MEASURE THE WEIGHT OF</item>
@@ -128,7 +129,14 @@
                 </gramGrp>
   <def>weigh</def>
             </sense>
-<sense xml:id="uuid-52b38538-6cef-42a6-b385-386cef82a63c" resp="#dsehnal" tls:created="2024-01-29T23:30:07.085+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-038a8e02-6f30-4c86-93ec-5f460ff9d625">vtoN1.post-VtoN2</tls:syn-func></gramGrp><def>compare the weight of N2 with N1</def></sense></entry>
+<sense xml:id="uuid-52b38538-6cef-42a6-b385-386cef82a63c" resp="#dsehnal" tls:created="2024-01-29T23:30:07.085+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-038a8e02-6f30-4c86-93ec-5f460ff9d625">vtoN1.post-VtoN2</tls:syn-func>
+                </gramGrp>
+                <def>compare the weight of N2 with N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-23f148e8-ce91-41fc-9939-3707a2cb955b">
             <form corresp="#uuid-5d7c370a-e7a1-435a-ae0e-002903078e42">
 <orth>衡</orth>
@@ -160,5 +168,37 @@
   <def>weighing things and actions judiciously according to public objective standards</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-4ca036dd-8449-4f66-b51e-f45d0177f6bd" resp="#CH" tls:created="2020-02-09T20:33:01.109+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-bbee709c-940b-4bc3-acb7-01d37096b690" resp="#CH" tls:created="2020-02-09T20:33:01.109+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary: weigh carefully the aesthetic function of</def></sense></entry><entry type="word" xml:id="uuid-802bba0b-d9ca-455a-a388-38a2c1ca4e57" resp="#CH" tls:created="2020-02-09T20:33:09.047+09:00"><form corresp="#uuid-6c6ec8cc-b44f-46fd-ad4d-4db7cfacb736 #uuid-5d7c370a-e7a1-435a-ae0e-002903078e42"><orth>銓衡</orth><pron xml:lang="zh-Latn-x-pinyin">quán héng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tshjwen haeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhon ɢraaŋ</pron></form><sense xml:id="uuid-e114f205-83a4-40ef-8be1-4c3f2c94d9e8" resp="#CH" tls:created="2020-02-09T20:33:09.047+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>literary: weigh carefully the aesthetic function of</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-4ca036dd-8449-4f66-b51e-f45d0177f6bd" resp="#CH" tls:created="2020-02-09T20:33:01.109+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-bbee709c-940b-4bc3-acb7-01d37096b690" resp="#CH" tls:created="2020-02-09T20:33:01.109+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary: weigh carefully the aesthetic function of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-802bba0b-d9ca-455a-a388-38a2c1ca4e57" resp="#CH" tls:created="2020-02-09T20:33:09.047+09:00">
+            <form corresp="#uuid-6c6ec8cc-b44f-46fd-ad4d-4db7cfacb736 #uuid-5d7c370a-e7a1-435a-ae0e-002903078e42">
+                <orth>銓衡</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">quán héng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tshjwen haeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skhon ɢraaŋ</pron>
+            </form>
+            <sense xml:id="uuid-e114f205-83a4-40ef-8be1-4c3f2c94d9e8" resp="#CH" tls:created="2020-02-09T20:33:09.047+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>literary: weigh carefully the aesthetic function of</def>
+            </sense>
+        </entry>
+    </div>
 </div>

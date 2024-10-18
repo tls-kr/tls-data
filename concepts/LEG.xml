@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-29d9355e-9957-476d-b2b8-415faedfb5e5">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-29d9355e-9957-476d-b2b8-415faedfb5e5">
 <head>LEG</head>
     <list type="translations">
         <item xml:lang="zh">腳</item>
@@ -227,7 +228,14 @@
                 </gramGrp>
   <def>leg</def>
             </sense>
-<sense xml:id="uuid-6490a2ab-1036-4c85-90a2-ab1036dc85b4" resp="#zadrapa" tls:created="2020-12-12T23:18:45.311+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-042af972-80ee-463d-add2-26e5e16e60fe">nc{PRED}post-V{NUM}</tls:syn-func></gramGrp><def>have V{NUM} legs</def></sense></entry>
+<sense xml:id="uuid-6490a2ab-1036-4c85-90a2-ab1036dc85b4" resp="#zadrapa" tls:created="2020-12-12T23:18:45.311+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-042af972-80ee-463d-add2-26e5e16e60fe">nc{PRED}post-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>have V{NUM} legs</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-1694ecec-56e8-4930-aaf3-54373fb95e57">
             <form corresp="#uuid-4ed1d020-4c91-4612-b952-a1675ce22ac7">
 <orth>踦</orth>
@@ -244,5 +252,35 @@
   <def>foot; leg</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-d36f6a26-0e0e-494f-af6a-260e0e494f3c" resp="#zadrapa" tls:created="2020-12-05T22:47:47.728+09:00"><form corresp="#uuid-17092982-8b1e-4e2b-9784-01c4b031a392"><orth>左</orth><pron xml:lang="zh-Latn-x-pinyin">zuǒ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsaX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaalʔ</pron></form><sense xml:id="uuid-ead5ba26-d486-448a-95ba-26d486148a25" resp="#zadrapa" tls:created="2020-12-05T22:47:47.728+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>left leg</def></sense></entry><entry type="word" xml:id="uuid-3a4261c8-3eff-4e3b-8261-c83eff7e3b60" resp="#CH" tls:created="2021-09-06T23:15:49.994+09:00"><form corresp="#uuid-6ef8a472-50be-4a0e-ac89-ec2507ff30eb"><orth>脛</orth><pron xml:lang="zh-Latn-x-pinyin">jìng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hengX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeŋʔ</pron></form><sense xml:id="uuid-bb82bd32-3f6f-4539-82bd-323f6f753969" resp="#CH" tls:created="2021-09-06T23:15:49.994+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func></gramGrp><def>leg</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-d36f6a26-0e0e-494f-af6a-260e0e494f3c" resp="#zadrapa" tls:created="2020-12-05T22:47:47.728+09:00">
+            <form corresp="#uuid-17092982-8b1e-4e2b-9784-01c4b031a392">
+                <orth>左</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zuǒ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsaX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">skaalʔ</pron>
+            </form>
+            <sense xml:id="uuid-ead5ba26-d486-448a-95ba-26d486148a25" resp="#zadrapa" tls:created="2020-12-05T22:47:47.728+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>left leg</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3a4261c8-3eff-4e3b-8261-c83eff7e3b60" resp="#CH" tls:created="2021-09-06T23:15:49.994+09:00">
+            <form corresp="#uuid-6ef8a472-50be-4a0e-ac89-ec2507ff30eb">
+                <orth>脛</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jìng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hengX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡeeŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-bb82bd32-3f6f-4539-82bd-323f6f753969" resp="#CH" tls:created="2021-09-06T23:15:49.994+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                </gramGrp>
+                <def>leg</def>
+            </sense>
+        </entry>
+    </div>
 </div>

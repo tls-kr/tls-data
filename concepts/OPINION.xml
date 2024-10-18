@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5a4f31a6-fd71-4d54-b1cc-5a45a848a677">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-5a4f31a6-fd71-4d54-b1cc-5a45a848a677">
 <head>OPINION</head>
     <list type="altnames">
 <item>BELIEF</item>
@@ -25,7 +26,10 @@
     </list>
 <div type="definition">
 <p>MEANING of a SENTENCE one BELIEVES to be TRUE.</p>
-    <div type="definition" resp="#CH" modified="2023-09-13T01:42:49.094+09:00"><p>OBECT OF ONE'S BELIEF.</p></div></div>
+    <div type="definition" resp="#CH" modified="2023-09-13T01:42:49.094+09:00">
+            <p>OBECT OF ONE'S BELIEF.</p>
+        </div>
+    </div>
 <div type="notes">
 <div type="modern-chinese-criteria">
 <p>見解</p>
@@ -235,7 +239,22 @@
   <def>apparently not before Ming dynasty: opinion nab@psych</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-15018ea1-768b-4947-818e-a1768bf947b4" resp="#chris" tls:created="2020-12-10T20:47:25.427+09:00"><form corresp="#uuid-c23cf2d5-d6f6-44dc-8347-ada634655981 #uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611"><orth>倒見</orth><pron xml:lang="zh-Latn-x-pinyin">dào jiàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tawH kenH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laaws keens</pron></form><sense xml:id="uuid-8e367412-6515-4810-b674-12651598109f" resp="#chris" tls:created="2020-12-10T20:47:25.427+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>Inverted opinions</def></sense></entry><entry type="word" xml:id="uuid-8325717f-dc36-4fed-b795-acc06ae7735c">
+    <entry type="word" xml:id="uuid-15018ea1-768b-4947-818e-a1768bf947b4" resp="#chris" tls:created="2020-12-10T20:47:25.427+09:00">
+            <form corresp="#uuid-c23cf2d5-d6f6-44dc-8347-ada634655981 #uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611">
+                <orth>倒見</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dào jiàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tawH kenH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laaws keens</pron>
+            </form>
+            <sense xml:id="uuid-8e367412-6515-4810-b674-12651598109f" resp="#chris" tls:created="2020-12-10T20:47:25.427+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>Inverted opinions</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8325717f-dc36-4fed-b795-acc06ae7735c">
             <form corresp="#uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611">
 <orth>見</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">jiàn</pron>
@@ -258,5 +277,6 @@
                 </gramGrp>
   <def>doctrine; personal doctrine</def>
             </sense>
-</entry></div>
+</entry>
+    </div>
 </div>

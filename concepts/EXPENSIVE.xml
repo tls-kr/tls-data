@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9dcfacdd-91c6-42d6-b3b9-f17494ffefab">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-9dcfacdd-91c6-42d6-b3b9-f17494ffefab">
 <head>EXPENSIVE</head>
     <list type="altnames">
 <item>COSTLY</item>
@@ -195,7 +196,15 @@
                 </gramGrp>
   <def>find expensive</def>
             </sense>
-<sense xml:id="uuid-a1a0e4f6-8ea9-4ff0-a0e4-f68ea90ff068" resp="#dsehnal" tls:created="2020-05-24T00:37:39.529+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func><tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat></gramGrp><def>be more expensive than N</def></sense></entry>
+<sense xml:id="uuid-a1a0e4f6-8ea9-4ff0-a0e4-f68ea90ff068" resp="#dsehnal" tls:created="2020-05-24T00:37:39.529+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-e6526d79-b134-4e37-8bab-55b4884393bc">graded</tls:sem-feat>
+                </gramGrp>
+                <def>be more expensive than N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-e99b4573-51c5-47ec-bfed-c7d145854ef8">
             <form corresp="#uuid-514bf49e-c71b-4ad0-897a-d51daa58079b">
 <orth>重</orth>
@@ -260,5 +269,20 @@
   <def>priceless</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-8de5ee79-921d-42d6-a5ee-79921d12d6fe" resp="#CH" tls:created="2022-08-28T15:44:11.828+09:00"><form corresp="#uuid-cc274e77-a8ae-4b96-a9eb-d55aa936c165 #uuid-37ae5e9e-3613-4832-9835-55cae9df4927"><orth>貴賈</orth><pron xml:lang="zh-Latn-x-pinyin">guì jià</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+jH kaeH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kluds kraas</pron></form><sense xml:id="uuid-947ac824-c219-4661-bac8-24c2194661b1" resp="#CH" tls:created="2022-08-28T15:44:11.828+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func></gramGrp><def>expensive</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-8de5ee79-921d-42d6-a5ee-79921d12d6fe" resp="#CH" tls:created="2022-08-28T15:44:11.828+09:00">
+            <form corresp="#uuid-cc274e77-a8ae-4b96-a9eb-d55aa936c165 #uuid-37ae5e9e-3613-4832-9835-55cae9df4927">
+                <orth>貴賈</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guì jià</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kjw+jH kaeH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kluds kraas</pron>
+            </form>
+            <sense xml:id="uuid-947ac824-c219-4661-bac8-24c2194661b1" resp="#CH" tls:created="2022-08-28T15:44:11.828+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-18dc1abc-4214-4b4b-b07f-8f25ebe5ece9">VPadN</tls:syn-func>
+                </gramGrp>
+                <def>expensive</def>
+            </sense>
+        </entry>
+    </div>
 </div>

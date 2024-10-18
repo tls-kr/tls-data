@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-49dd45f6-65c7-4d19-8066-7d5abe9531bd">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-49dd45f6-65c7-4d19-8066-7d5abe9531bd">
 <head>FINGER</head>
     <list type="translations">
         <item xml:lang="zh">手指</item>
@@ -113,7 +114,15 @@
                 </gramGrp>
   <def>finger</def>
             </sense>
-<sense xml:id="uuid-099980e0-92c8-445e-8231-0d420e0f101f" resp="#CH" tls:created="2020-01-23T06:08:19.152+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func><tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-02T23:37:35.968+09:00">with one's fingers</def></sense></entry>
+<sense xml:id="uuid-099980e0-92c8-445e-8231-0d420e0f101f" resp="#CH" tls:created="2020-01-23T06:08:19.152+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-91666c59-4a69-460f-8cd3-9ddbff370ae5">nadV</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-5fae11b4-4f4e-441e-8dc7-4ddd74b68c2e">plural</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-02T23:37:35.968+09:00">with one's fingers</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6dad449a-8ba6-4f41-a9c5-2160b0044547">
             <form corresp="#uuid-6a9f58d8-88bb-4a8d-b4b1-771b46055672">
 <orth>擘</orth>
@@ -147,5 +156,20 @@
   <def>"eating finger"&gt; index finger</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-fb285f35-f4c8-44e0-85c1-1bb1852023b0" resp="#zadrapa" tls:created="2020-01-10T21:45:18.292+09:00"><form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-01409830-4352-4246-8e41-5f8f373d8c0a"><orth>五指</orth><pron xml:lang="zh-Latn-x-pinyin">wǔ zhǐ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">nguX tsyijX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ kjiʔ</pron></form><sense xml:id="uuid-4ab0cbf5-edb1-4a35-852e-7e74df1bff85" resp="#zadrapa" tls:created="2020-01-10T21:45:18.292+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>all five fingers</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-fb285f35-f4c8-44e0-85c1-1bb1852023b0" resp="#zadrapa" tls:created="2020-01-10T21:45:18.292+09:00">
+            <form corresp="#uuid-51845144-3245-439c-9701-95c63f8e4500 #uuid-01409830-4352-4246-8e41-5f8f373d8c0a">
+                <orth>五指</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǔ zhǐ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">nguX tsyijX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ŋaaʔ kjiʔ</pron>
+            </form>
+            <sense xml:id="uuid-4ab0cbf5-edb1-4a35-852e-7e74df1bff85" resp="#zadrapa" tls:created="2020-01-10T21:45:18.292+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>all five fingers</def>
+            </sense>
+        </entry>
+    </div>
 </div>

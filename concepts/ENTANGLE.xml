@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1ea0113c-9b0c-4f8c-a741-48469f9bd0bc">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1ea0113c-9b0c-4f8c-a741-48469f9bd0bc">
 <head>ENTANGLE</head>
     <list type="altnames">
 <item>TWIST</item>
@@ -57,7 +58,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-40bf9c92-35bc-4351-90a9-0494af72d84d">
-            <form corresp="#uuid-e6e09021-edfc-4ffe-b8a4-b614e030166b"><orth>累</orth><pron xml:lang="zh-Latn-x-pinyin">lěi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">ljweH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rolʔ</pron></form>
+            <form corresp="#uuid-e6e09021-edfc-4ffe-b8a4-b614e030166b">
+                <orth>累</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lěi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">ljweH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">rolʔ</pron>
+            </form>
 <sense xml:id="uuid-b0f7187f-8312-4a1c-82de-ffa0b640d1ee">
 <gramGrp>
                     <pos>N</pos>
@@ -100,7 +106,29 @@
                 </gramGrp>
   <def resp="#CH" updated="2021-06-27T18:46:53.292+09:00">entangle (oneself)</def>
             </sense>
-<sense xml:id="uuid-41047a04-ff9c-4343-bde6-965d3e2a80b4" resp="#CH" tls:created="2019-12-07T18:20:34.898+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat></gramGrp><def>entanglements [for oneself]</def></sense><sense xml:id="uuid-cc342a32-1700-48cf-b42a-32170098cfce" resp="#CH" tls:created="2022-08-15T07:04:59.394+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-V/N</tls:syn-func></gramGrp><def resp="#CH" updated="2022-08-15T07:06:16.5+09:00">problematic or guilty involvement with having V-ed or with V-ing</def></sense><sense xml:id="uuid-991e6ac0-56ed-4cfe-9e6a-c056ed4cfe75" resp="#CH" tls:created="2022-08-27T17:55:41.701+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>entangle, compromise, create problems for the contextually determinate object</def></sense></entry>
+<sense xml:id="uuid-41047a04-ff9c-4343-bde6-965d3e2a80b4" resp="#CH" tls:created="2019-12-07T18:20:34.898+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-f0b2b11d-142f-4669-900c-24fd2d712fd3">nab[.post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f3627213-d242-4f27-bc6e-30516ccbd201">reflexive</tls:sem-feat>
+                </gramGrp>
+                <def>entanglements [for oneself]</def>
+            </sense>
+            <sense xml:id="uuid-cc342a32-1700-48cf-b42a-32170098cfce" resp="#CH" tls:created="2022-08-15T07:04:59.394+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-V/N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-08-15T07:06:16.5+09:00">problematic or guilty involvement with having V-ed or with V-ing</def>
+            </sense>
+            <sense xml:id="uuid-991e6ac0-56ed-4cfe-9e6a-c056ed4cfe75" resp="#CH" tls:created="2022-08-27T17:55:41.701+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>entangle, compromise, create problems for the contextually determinate object</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6bf2f040-8a5d-449b-9862-478d818e5c90">
             <form corresp="#uuid-4c692620-4fe4-4f08-8214-2482b124c68f">
 <orth>纍</orth>
@@ -157,5 +185,51 @@
   <def>entanglements of life</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-2db76fa1-f79c-47e4-b76f-a1f79cb7e45f" resp="#CH" tls:created="2021-06-07T03:04:02.831+09:00"><form corresp="#uuid-9f2b967b-0beb-4b8a-b04e-248a468f8a6e"><orth>韄</orth><pron xml:lang="zh-Latn-x-pinyin">hù</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">huH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaaɡs</pron></form><sense xml:id="uuid-a6d861ac-18ee-4624-9861-ac18ee0624e4" resp="#CH" tls:created="2021-06-07T03:04:02.831+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def>get tied up, get entangled</def></sense></entry><entry type="word" xml:id="uuid-5308306f-5098-4509-8830-6f509895098a" resp="#CH" tls:created="2022-09-23T23:51:04.019+09:00"><form corresp="#uuid-bfdac775-3e05-4b02-8893-cdc383388582 #uuid-93f30901-f7d4-4cf9-874c-4cf4bb3a4f97"><orth>累紲</orth><pron xml:lang="zh-Latn-x-pinyin">lèi xiè</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lwojH sjet</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ruuls sled</pron></form><sense xml:id="uuid-89fd69ed-6e76-4ecc-bd69-ed6e766ecc22" resp="#CH" tls:created="2022-09-23T23:51:04.019+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>entanglements</def></sense></entry><entry type="word" xml:id="uuid-e3a553fe-0598-4032-a553-fe0598e03287" resp="#dsehnal" tls:created="2023-07-01T23:04:32.504+09:00"><form corresp="#uuid-210a4fcc-818f-42d5-a163-627a804b71d2 #uuid-b4fe866f-c52b-4377-99af-a619bf08267b"><orth>牽纏</orth><pron xml:lang="zh-Latn-x-pinyin">qiān chán</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">khen drjen</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khiin dan</pron></form><sense xml:id="uuid-0a4369d1-bbf3-42c3-8369-d1bbf302c31f" resp="#dsehnal" tls:created="2023-07-01T23:04:32.504+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>difficulty; problem; entanglement </def></sense></entry></div>
+    <entry type="word" xml:id="uuid-2db76fa1-f79c-47e4-b76f-a1f79cb7e45f" resp="#CH" tls:created="2021-06-07T03:04:02.831+09:00">
+            <form corresp="#uuid-9f2b967b-0beb-4b8a-b04e-248a468f8a6e">
+                <orth>韄</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">hù</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">huH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaaɡs</pron>
+            </form>
+            <sense xml:id="uuid-a6d861ac-18ee-4624-9861-ac18ee0624e4" resp="#CH" tls:created="2021-06-07T03:04:02.831+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def>get tied up, get entangled</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-5308306f-5098-4509-8830-6f509895098a" resp="#CH" tls:created="2022-09-23T23:51:04.019+09:00">
+            <form corresp="#uuid-bfdac775-3e05-4b02-8893-cdc383388582 #uuid-93f30901-f7d4-4cf9-874c-4cf4bb3a4f97">
+                <orth>累紲</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lèi xiè</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lwojH sjet</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ruuls sled</pron>
+            </form>
+            <sense xml:id="uuid-89fd69ed-6e76-4ecc-bd69-ed6e766ecc22" resp="#CH" tls:created="2022-09-23T23:51:04.019+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>entanglements</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-e3a553fe-0598-4032-a553-fe0598e03287" resp="#dsehnal" tls:created="2023-07-01T23:04:32.504+09:00">
+            <form corresp="#uuid-210a4fcc-818f-42d5-a163-627a804b71d2 #uuid-b4fe866f-c52b-4377-99af-a619bf08267b">
+                <orth>牽纏</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">qiān chán</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">khen drjen</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">khiin dan</pron>
+            </form>
+            <sense xml:id="uuid-0a4369d1-bbf3-42c3-8369-d1bbf302c31f" resp="#dsehnal" tls:created="2023-07-01T23:04:32.504+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>difficulty; problem; entanglement </def>
+            </sense>
+        </entry>
+    </div>
 </div>

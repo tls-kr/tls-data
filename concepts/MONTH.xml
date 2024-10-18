@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a4f255d5-fdc0-44c5-a7c0-71632973937e">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-a4f255d5-fdc0-44c5-a7c0-71632973937e">
 <head>MONTH</head>
     <list type="translations">
         <item xml:lang="zh">月</item>
@@ -122,7 +123,21 @@
                 </gramGrp>
   <def>specifiy the month for an event, provide the month for an event (in the annals)</def>
             </sense>
-<sense xml:id="uuid-523d74a8-e935-4c87-8e82-2827c0b8e324" resp="#CH" tls:created="2019-10-25T02:10:20.274+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">n</tls:syn-func></gramGrp><def>months</def></sense><sense xml:id="uuid-9d477419-7a11-40dd-8774-197a1150dde5" resp="#dsehnal" tls:created="2020-05-01T04:21:46.214+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func></gramGrp><def>NUMth month</def></sense></entry>
+<sense xml:id="uuid-523d74a8-e935-4c87-8e82-2827c0b8e324" resp="#CH" tls:created="2019-10-25T02:10:20.274+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">n</tls:syn-func>
+                </gramGrp>
+                <def>months</def>
+            </sense>
+            <sense xml:id="uuid-9d477419-7a11-40dd-8774-197a1150dde5" resp="#dsehnal" tls:created="2020-05-01T04:21:46.214+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-573e7b10-ffe1-4233-bcaa-9ce81d0e3ca9">npost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>NUMth month</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3225f322-208d-4d34-a111-37d263f59ce5">
             <form corresp="#uuid-823a6b6b-8711-475a-b260-c0177c38191e">
 <orth>閏</orth>
