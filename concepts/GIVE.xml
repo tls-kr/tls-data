@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ed1aeb49-abff-4167-a18e-60c0f2202d63">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-ed1aeb49-abff-4167-a18e-60c0f2202d63">
 <head>GIVE</head>
     <list type="altnames">
 <item>PRESENT WITH</item>
@@ -479,7 +480,50 @@
                 </gramGrp>
   <def>give N1 to the contextually determinate N2</def>
             </sense>
-<sense xml:id="uuid-0ba317d0-c200-4aae-bd24-65523d3a1e20" resp="#dsehnal" tls:created="2019-12-16T22:19:51.286+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtt[N1.] N2</tls:syn-func></gramGrp><def>give things to somebody; make gifts to somebody</def></sense><sense xml:id="uuid-160c92c6-bf10-4b87-8c92-c6bf10bb8777" resp="#dsehnal" tls:created="2020-04-07T02:15:41.944+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-95d8848b-6af2-4bf0-8713-3a6e38c2fb32">vttoN1.postN2</tls:syn-func></gramGrp><def>N2 was given to N1</def></sense><sense xml:id="uuid-ee14c23b-acd5-44b4-94c2-3bacd544b4cc" resp="#CH" tls:created="2022-08-02T21:08:05.823+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-3b2917f2-0c20-4098-a917-f20c20909824">vtt[oN1.+prep+N2]</tls:syn-func></gramGrp><def>give things to people</def></sense><sense xml:id="uuid-427aaaf1-de03-4ee3-baaa-f1de037ee3ae" resp="#wilke" tls:created="2022-08-30T21:44:30.866+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>hand over (something N1) to (someone N2), typically as demanded</def></sense><sense xml:id="uuid-aca00740-f11a-4162-a007-40f11a816251" resp="#dsehnal" tls:created="2023-07-01T21:52:05.488+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-15d1678a-ea15-4e9c-a381-75b2f8531623">vtoN.postadV</tls:syn-func></gramGrp><def>second morpheme of some verbs of giving, cf. modern 嫁給</def></sense></entry>
+<sense xml:id="uuid-0ba317d0-c200-4aae-bd24-65523d3a1e20" resp="#dsehnal" tls:created="2019-12-16T22:19:51.286+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtt[N1.] N2</tls:syn-func>
+                </gramGrp>
+                <def>give things to somebody; make gifts to somebody</def>
+            </sense>
+            <sense xml:id="uuid-160c92c6-bf10-4b87-8c92-c6bf10bb8777" resp="#dsehnal" tls:created="2020-04-07T02:15:41.944+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-95d8848b-6af2-4bf0-8713-3a6e38c2fb32">vttoN1.postN2</tls:syn-func>
+                </gramGrp>
+                <def>N2 was given to N1</def>
+            </sense>
+            <sense xml:id="uuid-ee14c23b-acd5-44b4-94c2-3bacd544b4cc" resp="#CH" tls:created="2022-08-02T21:08:05.823+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-3b2917f2-0c20-4098-a917-f20c20909824">vtt[oN1.+prep+N2]</tls:syn-func>
+                </gramGrp>
+                <def>give things to people</def>
+            </sense>
+            <sense xml:id="uuid-427aaaf1-de03-4ee3-baaa-f1de037ee3ae" resp="#wilke" tls:created="2022-08-30T21:44:30.866+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>hand over (something N1) to (someone N2), typically as demanded</def>
+            </sense>
+            <sense xml:id="uuid-aca00740-f11a-4162-a007-40f11a816251" resp="#dsehnal" tls:created="2023-07-01T21:52:05.488+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-15d1678a-ea15-4e9c-a381-75b2f8531623">vtoN.postadV</tls:syn-func>
+                </gramGrp>
+                <def>second morpheme of some verbs of giving, cf. modern 嫁給</def>
+            </sense>
+            <sense xml:id="uuid-4edf0bdd-77a3-494f-9f0b-dd77a3894f02" resp="#zadrapa" tls:created="2024-10-03T18:50:02.935+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-fae62a7f-1b3e-4ec9-b02e-bca9b23ae693">nab.post-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>giving of N to others</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-0a2b9fd2-210d-4768-aa92-7586ac4f0c70">
             <form corresp="#uuid-c6960e7b-1c5f-4a50-ac5c-ea731ed69b1a">
 <orth>享</orth>
@@ -712,7 +756,14 @@
                 </gramGrp>
   <def>pass on a contextually determinate (abstract) thing N1 (e.g. rulership)to N2</def>
             </sense>
-<sense xml:id="uuid-94e7d750-e013-4045-a7d7-50e0132045cf" resp="#CH" tls:created="2023-08-04T22:44:21.045+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func></gramGrp><def>pass on N1 to N2</def></sense></entry>
+<sense xml:id="uuid-94e7d750-e013-4045-a7d7-50e0132045cf" resp="#CH" tls:created="2023-08-04T22:44:21.045+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
+                </gramGrp>
+                <def>pass on N1 to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-629ed588-a059-4b5c-b6ae-1dd4c147f037">
             <form corresp="#uuid-6701b548-c1f3-4d2c-96ed-584ae8789f69">
 <orth>入</orth>
@@ -814,7 +865,15 @@
                 </gramGrp>
   <def>be given</def>
             </sense>
-<sense xml:id="uuid-51ecab14-fce7-4dc4-b533-6e572c1377b1" resp="#CH" tls:created="2019-12-05T23:31:33.28+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtt(oN1.) N2</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>attribute the contextually determinate N1 to N2</def></sense></entry>
+<sense xml:id="uuid-51ecab14-fce7-4dc4-b533-6e572c1377b1" resp="#CH" tls:created="2019-12-05T23:31:33.28+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtt(oN1.) N2</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>attribute the contextually determinate N1 to N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-37450e32-e41f-47fd-9539-74dbec407805">
             <form corresp="#uuid-2f2e19de-a4e7-4935-89e1-a73cc207b69c">
 <orth>授</orth>
@@ -956,7 +1015,14 @@
                 </gramGrp>
   <def>give N2 to N1</def>
             </sense>
-<sense xml:id="uuid-2c94513b-5141-4d28-9451-3b51410d2827" resp="#CH" tls:created="2022-08-30T22:56:32.449+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a65c94ff-25a1-4ea9-9c94-ff25a10ea951">vtt(oN1.)以N2{OBJ}</tls:syn-func></gramGrp><def>give the contextually determiate N1 the present N2</def></sense></entry>
+<sense xml:id="uuid-2c94513b-5141-4d28-9451-3b51410d2827" resp="#CH" tls:created="2022-08-30T22:56:32.449+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a65c94ff-25a1-4ea9-9c94-ff25a10ea951">vtt(oN1.)以N2{OBJ}</tls:syn-func>
+                </gramGrp>
+                <def>give the contextually determiate N1 the present N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4d809018-28df-4edb-b4ef-87cfd0103703">
             <form corresp="#uuid-ff9613a7-d4c1-408d-ac24-7d6b14315284">
 <orth>就</orth>
@@ -1119,7 +1185,14 @@
                 </gramGrp>
   <def>give the contextually determinate N1 to N2</def>
             </sense>
-<sense xml:id="uuid-47913939-32dc-42d5-9139-3932dc82d5ec" resp="#dsehnal" tls:created="2023-07-08T19:37:03.925+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-06eefd66-d7ba-402a-84be-a576877f0ca4">vtt(oN1.)+N2:+vtoN3</tls:syn-func></gramGrp><def>give the contextually determinate N1 to N2 as N3</def></sense></entry>
+<sense xml:id="uuid-47913939-32dc-42d5-9139-3932dc82d5ec" resp="#dsehnal" tls:created="2023-07-08T19:37:03.925+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-06eefd66-d7ba-402a-84be-a576877f0ca4">vtt(oN1.)+N2:+vtoN3</tls:syn-func>
+                </gramGrp>
+                <def>give the contextually determinate N1 to N2 as N3</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a0b8591b-653c-41f7-bafa-4e96e2a39ee4">
             <form corresp="#uuid-2eac0b86-5a66-49ec-b9f0-bf33bff2bdc0">
 <orth>貺</orth>
@@ -1302,7 +1375,14 @@
                 </gramGrp>
   <def>"give"</def>
             </sense>
-<sense xml:id="uuid-d05d8d06-8f8a-4372-aa31-76c30b91cd71" resp="#CH" tls:created="2020-01-23T01:43:46.574+09:00"><gramGrp><pos> </pos><tls:syn-func corresp="#"> vttoN1(. prep N2)</tls:syn-func></gramGrp><def>subject high status: bestow N1 on the the contextually determinate N2</def></sense></entry>
+<sense xml:id="uuid-d05d8d06-8f8a-4372-aa31-76c30b91cd71" resp="#CH" tls:created="2020-01-23T01:43:46.574+09:00">
+                <gramGrp>
+                    <pos> </pos>
+                    <tls:syn-func corresp="#"> vttoN1(. prep N2)</tls:syn-func>
+                </gramGrp>
+                <def>subject high status: bestow N1 on the the contextually determinate N2</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ce34c527-fb73-4787-bfcb-38a6f393e7e2">
             <form corresp="#uuid-d53d7769-16e8-40b0-bb72-e0224fcddd54">
 <orth>薦</orth>
@@ -1668,7 +1748,14 @@
                 </gramGrp>
   <def>give N2 to N1</def>
             </sense>
-<sense xml:id="uuid-cbe059f3-290e-4b09-a059-f3290efb0980" resp="#CH" tls:created="2020-05-16T22:14:55.585+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func></gramGrp><def>giver</def></sense></entry>
+<sense xml:id="uuid-cbe059f3-290e-4b09-a059-f3290efb0980" resp="#CH" tls:created="2020-05-16T22:14:55.585+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a7e8eabf-866e-42db-88f2-b8f753ab74be">v[adN]</tls:syn-func>
+                </gramGrp>
+                <def>giver</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-517829bc-247a-4a1a-8ead-5286b0d7b39a">
             <form corresp="#uuid-ed18a5db-5eab-41cd-8c3b-966b4883d6f3">
 <orth>賮</orth>
@@ -1742,7 +1829,14 @@
                 </gramGrp>
   <def>formal, SHI 259: present N1 with (a gift N2) 贈之以馬二十乘</def>
             </sense>
-<sense xml:id="uuid-1ebc6c40-954f-4342-b3fe-581a1ce6efd8" resp="#CH" tls:created="2020-01-11T02:26:43.85+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vttoN1[ N2]</tls:syn-func></gramGrp><def>make presents(N2non-referential, unspecified) to N1</def></sense></entry>
+<sense xml:id="uuid-1ebc6c40-954f-4342-b3fe-581a1ce6efd8" resp="#CH" tls:created="2020-01-11T02:26:43.85+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vttoN1[ N2]</tls:syn-func>
+                </gramGrp>
+                <def>make presents(N2non-referential, unspecified) to N1</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8766e8d1-7988-4600-9988-f01647edb4e3">
             <form corresp="#uuid-445e22ea-5086-4012-aab2-defb9023baaf">
 <orth>返</orth>
@@ -2290,7 +2384,14 @@
                 </gramGrp>
   <def>make generous gifts of N</def>
             </sense>
-<sense xml:id="uuid-fad3789e-ee5d-4771-9378-9eee5d377104" resp="#zadrapa" tls:created="2021-02-11T19:27:18.962+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>generously give things to others</def></sense></entry>
+<sense xml:id="uuid-fad3789e-ee5d-4771-9378-9eee5d377104" resp="#zadrapa" tls:created="2021-02-11T19:27:18.962+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>generously give things to others</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-3c30c1d8-92f7-49cb-bd00-cb80e77e5165">
             <form corresp="#uuid-9cb6b5ab-c196-4567-b251-048e8cd0f611 #uuid-b786976b-0242-4759-9415-9e21050daed5">
 <orth>見賜</orth>
@@ -2336,7 +2437,14 @@
                 </gramGrp>
   <def>make presents of all kinds to a contextually determinate person</def>
             </sense>
-<sense xml:id="uuid-f1157c42-2c1c-4813-957c-422c1c2813d1" resp="#CH" tls:created="2020-07-01T06:15:46.108+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def resp="#CH" updated="2020-12-08T04:25:52.849+09:00">gifts as rewards for service, rewards and gifts of all kinds</def></sense></entry>
+<sense xml:id="uuid-f1157c42-2c1c-4813-957c-422c1c2813d1" resp="#CH" tls:created="2020-07-01T06:15:46.108+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2020-12-08T04:25:52.849+09:00">gifts as rewards for service, rewards and gifts of all kinds</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-5c56c052-4dd6-409a-bb83-4c1d5e39acc8">
             <form corresp="#uuid-b786976b-0242-4759-9415-9e21050daed5 #uuid-babbdd95-a856-413a-aea7-722a3b97446b">
 <orth>賜予</orth>
@@ -2413,11 +2521,87 @@
   <def>hand over N1 to N2</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-76007bdf-2fa9-4e7d-be8c-fdc34ee54b58" resp="#CH" tls:created="2019-10-14T19:23:31.504+09:00"><form corresp="#"><orth/><pron xml:lang="zh-Latn-x-pinyin"/><pron xml:lang="zh-x-mc" resp="rec:baxter"/><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/></form><sense xml:id="uuid-6878bad8-b1a2-4bda-98f6-16d9e11816a3" resp="#CH" tls:created="2019-10-14T19:23:31.504+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>give presents (ant. 來 have gifts coming to one)</def></sense></entry><entry type="word" xml:id="uuid-22039ea5-5ac6-4f9a-9735-eaae63639094" resp="#CH" tls:created="2019-10-14T19:23:50.341+09:00"><form corresp="#uuid-63559230-29cd-4108-8624-6acfe0f5954d"><orth>往</orth><pron xml:lang="zh-Latn-x-pinyin">wǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjwangX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaŋʔ</pron></form><sense xml:id="uuid-8bc74b84-dff9-4600-a7cd-dade4aa8fec8" resp="#CH" tls:created="2019-10-14T19:23:50.341+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>give presents (ant. 來 have gifts coming to one)</def></sense></entry><entry type="word" xml:id="uuid-a005759a-ea88-48fc-8971-4fc293a1763e" resp="#CH" tls:created="2019-10-24T05:24:30.386+09:00"><form corresp="#uuid-b717485b-8211-4b89-80aa-46084e32a09b"><orth>羞</orth><pron xml:lang="zh-Latn-x-pinyin">xiū
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smlu
-</pron></form><sense xml:id="uuid-7aec5937-e1cf-4030-8c82-3c4928d4fa93" resp="#CH" tls:created="2019-10-24T05:24:30.386+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-214f331a-486f-457c-9895-fe2b7108ed22">vt( prep N)</tls:syn-func></gramGrp><def>make a present of delicacies to the contextually determinate N</def></sense></entry><entry type="word" xml:id="uuid-bfe71263-84c0-4979-a712-6384c0897966" resp="#CH" tls:created="2020-08-23T04:20:16.354+09:00"><form corresp="#uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015"><orth>禮</orth><pron xml:lang="zh-Latn-x-pinyin">lǐ
-</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lejX
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">riiʔ
-</pron></form><sense xml:id="uuid-a8ef29ba-b8e4-4cdf-af29-bab8e4dcdfd0" resp="#CH" tls:created="2020-08-23T04:20:16.354+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func></gramGrp><def>give N1 to N2 as a formal present</def></sense></entry><entry type="word" xml:id="uuid-343f36eb-ab9b-4d59-bf36-ebab9b9d59db" resp="#dsehnal" tls:created="2023-06-24T21:51:54.348+09:00"><form corresp="#uuid-b786976b-0242-4759-9415-9e21050daed5 #uuid-98743eb1-5548-47b9-b51c-ce15f3a2fcb8"><orth>賜遺</orth><pron xml:lang="zh-Latn-x-pinyin">cì wèi</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">sjeH ywijH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sleeɡs k-luds</pron></form><sense xml:id="uuid-b0291fa7-e821-4e0e-a91f-a7e821de0e15" resp="#dsehnal" tls:created="2023-06-24T21:51:54.348+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-f3ff6465-a51d-4f59-bf64-65a51d9f594a">VPttoN1[.+N2]</tls:syn-func><tls:sem-feat corresp="#uuid-52acfe60-c9eb-4064-8f46-975338866a10">N1=recipient</tls:sem-feat></gramGrp><def>give presents to the recipient N1</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-76007bdf-2fa9-4e7d-be8c-fdc34ee54b58" resp="#CH" tls:created="2019-10-14T19:23:31.504+09:00">
+            <form corresp="#">
+                <orth/>
+                <pron xml:lang="zh-Latn-x-pinyin"/>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter"/>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun"/>
+            </form>
+            <sense xml:id="uuid-6878bad8-b1a2-4bda-98f6-16d9e11816a3" resp="#CH" tls:created="2019-10-14T19:23:31.504+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>give presents (ant. 來 have gifts coming to one)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-22039ea5-5ac6-4f9a-9735-eaae63639094" resp="#CH" tls:created="2019-10-14T19:23:50.341+09:00">
+            <form corresp="#uuid-63559230-29cd-4108-8624-6acfe0f5954d">
+                <orth>往</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">wǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjwangX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-8bc74b84-dff9-4600-a7cd-dade4aa8fec8" resp="#CH" tls:created="2019-10-14T19:23:50.341+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>give presents (ant. 來 have gifts coming to one)</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a005759a-ea88-48fc-8971-4fc293a1763e" resp="#CH" tls:created="2019-10-24T05:24:30.386+09:00">
+            <form corresp="#uuid-b717485b-8211-4b89-80aa-46084e32a09b">
+                <orth>羞</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">xiū
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjuw
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">smlu
+</pron>
+            </form>
+            <sense xml:id="uuid-7aec5937-e1cf-4030-8c82-3c4928d4fa93" resp="#CH" tls:created="2019-10-24T05:24:30.386+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-214f331a-486f-457c-9895-fe2b7108ed22">vt( prep N)</tls:syn-func>
+                </gramGrp>
+                <def>make a present of delicacies to the contextually determinate N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bfe71263-84c0-4979-a712-6384c0897966" resp="#CH" tls:created="2020-08-23T04:20:16.354+09:00">
+            <form corresp="#uuid-86f3dff9-55a5-439b-b8ec-3d26e2ce7015">
+                <orth>禮</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">lǐ
+</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lejX
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">riiʔ
+</pron>
+            </form>
+            <sense xml:id="uuid-a8ef29ba-b8e4-4cdf-af29-bab8e4dcdfd0" resp="#CH" tls:created="2020-08-23T04:20:16.354+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-a2c810ab-05c4-4ed2-86eb-c954618d8429">vttoN1. N2</tls:syn-func>
+                </gramGrp>
+                <def>give N1 to N2 as a formal present</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-343f36eb-ab9b-4d59-bf36-ebab9b9d59db" resp="#dsehnal" tls:created="2023-06-24T21:51:54.348+09:00">
+            <form corresp="#uuid-b786976b-0242-4759-9415-9e21050daed5 #uuid-98743eb1-5548-47b9-b51c-ce15f3a2fcb8">
+                <orth>賜遺</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">cì wèi</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">sjeH ywijH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">sleeɡs k-luds</pron>
+            </form>
+            <sense xml:id="uuid-b0291fa7-e821-4e0e-a91f-a7e821de0e15" resp="#dsehnal" tls:created="2023-06-24T21:51:54.348+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-f3ff6465-a51d-4f59-bf64-65a51d9f594a">VPttoN1[.+N2]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-52acfe60-c9eb-4064-8f46-975338866a10">N1=recipient</tls:sem-feat>
+                </gramGrp>
+                <def>give presents to the recipient N1</def>
+            </sense>
+        </entry>
+    </div>
 </div>

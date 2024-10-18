@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-88a748c1-e429-41e7-9d8c-19cdd16f6202">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-88a748c1-e429-41e7-9d8c-19cdd16f6202">
 <head>RULER</head>
     <list type="altnames">
 <item>LEADER</item>
@@ -385,7 +386,22 @@
                 </gramGrp>
                 <def>the ruler of the lexically determinate main subject of the phrase</def>
             </sense>
-        <sense xml:id="uuid-b657dc87-c3c3-4354-97dc-87c3c3e3548f" resp="#zadrapa" tls:created="2021-05-13T20:01:10.124+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat></gramGrp><def>the legitimate ruler (in contrast to other potential rulers), the legitimate successor to the throne</def></sense><sense xml:id="uuid-862c06fc-d67a-47e6-ac06-fcd67a17e658" resp="#CH" tls:created="2022-09-21T00:35:59.704+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-21T00:36:47.615+09:00">ruler in control of N</def></sense></entry>
+        <sense xml:id="uuid-b657dc87-c3c3-4354-97dc-87c3c3e3548f" resp="#zadrapa" tls:created="2021-05-13T20:01:10.124+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-c4bbedc9-153b-449b-87c8-7ec1d34f0227">derived</tls:sem-feat>
+                </gramGrp>
+                <def>the legitimate ruler (in contrast to other potential rulers), the legitimate successor to the throne</def>
+            </sense>
+            <sense xml:id="uuid-862c06fc-d67a-47e6-ac06-fcd67a17e658" resp="#CH" tls:created="2022-09-21T00:35:59.704+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-21T00:36:47.615+09:00">ruler in control of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-b968e47d-aa0b-4ef1-80f5-753df5435815">
             <form corresp="#uuid-c688ca7f-20ff-4d59-a1bc-f5e0d3c859f2">
 <orth>令</orth>
@@ -605,7 +621,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-95e5226b-9d99-4857-ab95-f031f76c42fc">
-            <form corresp="#uuid-4e643eec-bcc6-4cce-a1d0-e6de1dda334e"><orth>冠</orth><pron xml:lang="zh-Latn-x-pinyin">guàn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">kwanH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koons</pron></form>
+            <form corresp="#uuid-4e643eec-bcc6-4cce-a1d0-e6de1dda334e">
+                <orth>冠</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">guàn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">kwanH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">koons</pron>
+            </form>
 <sense xml:id="uuid-99616e81-f4c7-4849-8dfa-0627db053c32">
 <gramGrp>
                     <pos>N</pos>
@@ -774,7 +795,45 @@
                 </gramGrp>
                 <def>treat as a ruler</def>
             </sense>
-        <sense xml:id="uuid-b171b12c-473b-44c4-b1b1-2c473be4c4a7" resp="#dsehnal" tls:created="2021-05-03T02:41:49.478+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-217ce3cc-f0c8-4180-afaa-125da9931035">ntpost-N</tls:syn-func><tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat></gramGrp><def>N's owner; N's master</def></sense><sense xml:id="uuid-7f84aeaf-80ba-413c-84ae-af80ba213cf5" resp="#zadrapa" tls:created="2022-06-01T22:04:13.191+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat></gramGrp><def>rulerhood, one's ability to be a true ruler</def></sense><sense xml:id="uuid-74b44078-754e-4143-b440-78754e114355" resp="#CH" tls:created="2022-11-16T19:07:37.485+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func></gramGrp><def>designed for a ruler, appropiate for the ruler</def></sense><sense xml:id="uuid-5bad25a2-3d52-4178-ad25-a23d52417873" resp="#CH" tls:created="2023-11-26T21:52:39.816+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func><tls:sem-feat corresp="#uuid-0d28ef6b-9ab3-4d1e-a8ef-6b9ab38d1e6e">legally established</tls:sem-feat></gramGrp><def>legally established ruler 鄭玄：西戎無君,名強大有政者為酉豪　“The Western Rong have no bureaucratically established ruler，men with a strong and great name serve as their youhao-leaders"</def></sense><sense xml:id="uuid-e60abc27-2bbb-45fe-8abc-272bbb65feea" resp="#dsehnal" tls:created="2024-05-25T23:18:20.696+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func></gramGrp><def>NUM rulers</def></sense></entry>
+        <sense xml:id="uuid-b171b12c-473b-44c4-b1b1-2c473be4c4a7" resp="#dsehnal" tls:created="2021-05-03T02:41:49.478+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-217ce3cc-f0c8-4180-afaa-125da9931035">ntpost-N</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-2e48851c-928e-40f0-ae0d-2bf3eafeaa17">figurative</tls:sem-feat>
+                </gramGrp>
+                <def>N's owner; N's master</def>
+            </sense>
+            <sense xml:id="uuid-7f84aeaf-80ba-413c-84ae-af80ba213cf5" resp="#zadrapa" tls:created="2022-06-01T22:04:13.191+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-4e92cef6-5753-4eed-a76b-7249c223316f">feature</tls:sem-feat>
+                </gramGrp>
+                <def>rulerhood, one's ability to be a true ruler</def>
+            </sense>
+            <sense xml:id="uuid-74b44078-754e-4143-b440-78754e114355" resp="#CH" tls:created="2022-11-16T19:07:37.485+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-14b56546-32fd-4321-8d73-3e4b18316c15">NPadN</tls:syn-func>
+                </gramGrp>
+                <def>designed for a ruler, appropiate for the ruler</def>
+            </sense>
+            <sense xml:id="uuid-5bad25a2-3d52-4178-ad25-a23d52417873" resp="#CH" tls:created="2023-11-26T21:52:39.816+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-8717712d-14a4-4ae2-be7a-6e18e61d929b">n</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-0d28ef6b-9ab3-4d1e-a8ef-6b9ab38d1e6e">legally established</tls:sem-feat>
+                </gramGrp>
+                <def>legally established ruler 鄭玄：西戎無君,名強大有政者為酉豪　“The Western Rong have no bureaucratically established ruler，men with a strong and great name serve as their youhao-leaders"</def>
+            </sense>
+            <sense xml:id="uuid-e60abc27-2bbb-45fe-8abc-272bbb65feea" resp="#dsehnal" tls:created="2024-05-25T23:18:20.696+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-6fd6e958-4024-4c76-96e9-584024bc769e">ncpost-V{NUM}</tls:syn-func>
+                </gramGrp>
+                <def>NUM rulers</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-06093906-6247-4493-9179-121ae13097b1">
             <form corresp="#uuid-ba086483-4a6c-43de-800a-e37e8258b43a">
 <orth>國</orth>
@@ -1323,7 +1382,14 @@
                 </gramGrp>
   <def>preeminent king</def>
             </sense>
-<sense xml:id="uuid-a3b9a5ae-d907-4cbc-b9a5-aed907ecbca8" resp="#CH" tls:created="2023-08-04T17:28:23.213+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>hegemonship, the sovereignty of a hegemon</def></sense></entry>
+<sense xml:id="uuid-a3b9a5ae-d907-4cbc-b9a5-aed907ecbca8" resp="#CH" tls:created="2023-08-04T17:28:23.213+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>hegemonship, the sovereignty of a hegemon</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a0abc0c1-a348-402d-8eea-166492fa8849">
             <form corresp="#uuid-e07fe193-03e5-4249-9fa8-ce8fd1221890 #uuid-3b611bc0-1264-4fb0-b354-69ff386f2094">
 <orth>侯王</orth>
@@ -1618,7 +1684,14 @@
                 </gramGrp>
   <def>there dominate relations between ruler and subject</def>
             </sense>
-<sense xml:id="uuid-5151b10e-c22c-4de2-91b1-0ec22cbde23e" resp="#zadrapa" tls:created="2022-06-15T20:02:19.11+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func></gramGrp><def>the ruler and his subjects</def></sense></entry>
+<sense xml:id="uuid-5151b10e-c22c-4de2-91b1-0ec22cbde23e" resp="#zadrapa" tls:created="2022-06-15T20:02:19.11+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+                </gramGrp>
+                <def>the ruler and his subjects</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a269d7bb-77a8-48c5-9873-eab66004850c">
             <form corresp="#uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461 #uuid-b8e67731-521a-467d-89aa-abea5a9bf98c">
 <orth>君長</orth>
@@ -1757,7 +1830,12 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-b898abb1-498b-4e64-bb0f-fa6804408c65">
-            <form corresp="#uuid-ca6b402c-5db2-44c0-ab40-2c5db294c059 #uuid-3b611bc0-1264-4fb0-b354-69ff386f2094"><orth>大王</orth><pron xml:lang="zh-Latn-x-pinyin">dài wáng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjwang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- ɢʷaŋ</pron></form>
+            <form corresp="#uuid-ca6b402c-5db2-44c0-ab40-2c5db294c059 #uuid-3b611bc0-1264-4fb0-b354-69ff386f2094">
+                <orth>大王</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dài wáng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">-- hjwang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- ɢʷaŋ</pron>
+            </form>
 <sense xml:id="uuid-799c0cc2-915b-43fd-9bf3-389fb2a360ce">
 <gramGrp>
                     <pos>N</pos>
@@ -2683,7 +2761,8 @@
                 <gramGrp>
                     <pos>N</pos>
                     <tls:syn-func corresp="#uuid-e342b697-f36b-4b7a-823d-fd85358cf1ac">npost-Npr</tls:syn-func>
-                <tls:sem-feat corresp="#uuid-296aa040-a010-44e1-aaa0-40a010f4e1f9">Npr=place or person</tls:sem-feat></gramGrp>
+                <tls:sem-feat corresp="#uuid-296aa040-a010-44e1-aaa0-40a010f4e1f9">Npr=place or person</tls:sem-feat>
+                </gramGrp>
                 <def resp="#CH" updated="2022-07-12T22:15:06.607+09:00">generalised posthumous honorific title "duke" referring to any ruler of a state enfeoffed by the Zhou, irrespective of his rank when alive. [齊公 can refer respectfully to the deceased ruler of Qi who was not a duke at all.)e.g. 周公 "Duke of Zhou" (as opposed to 桓公 "Duke Huan) Duke of Npr</def>
             </sense>
             <sense xml:id="uuid-6c7b91e9-4cd4-41f9-bb91-e94cd451f979" resp="#CH" tls:created="2020-02-12T23:47:39.514+09:00">
@@ -2916,5 +2995,90 @@
                 <def>ruler</def>
             </sense>
         </entry>
-    <entry type="word" xml:id="uuid-5afa3a5a-815c-431b-ba3a-5a815ca31bf9" resp="#zadrapa" tls:created="2022-01-27T21:21:59.687+09:00"><form corresp="#uuid-db3012d1-670a-4989-8e8c-0e0d86c567ee"><orth>伯</orth><pron xml:lang="zh-Latn-x-pinyin">bó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">paek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">praaɡ</pron></form><sense xml:id="uuid-f6a2c25d-74df-4abd-a2c2-5d74dfcabd8b" resp="#zadrapa" tls:created="2022-01-27T21:21:59.687+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func><tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat></gramGrp><def>= ba4 霸: become the hegemon</def></sense></entry><entry type="word" xml:id="uuid-f8ae2bfc-5223-401a-ae2b-fc5223501a68" resp="#CH" tls:created="2022-12-01T18:44:03.494+09:00"><form corresp="#uuid-deee6081-fe94-4412-a87d-ffa1aba4fb28"><orth>適</orth><pron xml:lang="zh-Latn-x-pinyin">dí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tek</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-leeɡ</pron></form><sense xml:id="uuid-5fae073a-3046-4f4e-ae07-3a30462f4e7d" resp="#CH" tls:created="2022-12-01T18:44:03.494+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func></gramGrp><def>天下之適也"is the ruler of the world": ruler 高誘：主也</def></sense></entry><entry type="word" xml:id="uuid-9f5d4f61-c091-4c40-9d4f-61c091dc40b4" resp="#CH" tls:created="2023-02-16T04:46:05.756+09:00"><form corresp="#uuid-8817e9ab-5c2e-455f-bcf5-a2beca1a4a2c #uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461"><orth>亂君</orth><pron xml:lang="zh-Latn-x-pinyin">luàn jūn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">lwanH kjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-roons klun</pron></form><sense xml:id="uuid-7d9fefa5-1318-4519-9fef-a51318351943" resp="#CH" tls:created="2023-02-16T04:46:05.756+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def>ruler bent on revolt; disloyal ruler</def></sense></entry><entry type="word" xml:id="uuid-7773db22-9af8-4fb4-b3db-229af8bfb456" resp="#CH" tls:created="2023-08-19T18:28:13.588+09:00"><form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461"><orth>天君</orth><pron xml:lang="zh-Latn-x-pinyin">tiān jūn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">then kjun</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰiin klun</pron></form></entry><entry type="word" xml:id="uuid-48ebe595-8552-40ca-abe5-95855230cab5" resp="#CH" tls:created="2023-10-14T06:44:15.033+09:00"><form corresp="#uuid-a46a2ed3-8cca-4e44-b03c-3ba9e3806e16 #uuid-b8e67731-521a-467d-89aa-abea5a9bf98c"><orth>主長</orth><pron xml:lang="zh-Latn-x-pinyin">zhǔ zhǎng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuX drjang</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjoʔ krlaŋʔ</pron></form><sense xml:id="uuid-682be8ea-4ef5-4227-abe8-ea4ef5822765" resp="#CH" tls:created="2023-10-14T06:44:15.033+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func></gramGrp><def>[one's] ruler</def></sense></entry><entry type="word" xml:id="uuid-26e4d9ef-02f0-48a7-a4d9-ef02f0d8a71b" resp="#CH" tls:created="2024-03-13T02:09:08.568+09:00"><form corresp="#uuid-5f4ced18-9ab9-47c4-8996-01bb9fdc3d59 #uuid-4159ad5a-2f84-4fb4-85cf-35bbb0426a03"><orth>霸王</orth><pron xml:lang="zh-Latn-x-pinyin">bà wàng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">paeH hjwangH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- ɢʷaŋs</pron></form><sense xml:id="uuid-c779d20d-55ea-48be-b9d2-0d55eaf8be35" resp="#CH" tls:created="2024-03-13T02:09:08.568+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>read bà wàng: become a hegemon king; be transformed into a hegemon king</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-5afa3a5a-815c-431b-ba3a-5a815ca31bf9" resp="#zadrapa" tls:created="2022-01-27T21:21:59.687+09:00">
+            <form corresp="#uuid-db3012d1-670a-4989-8e8c-0e0d86c567ee">
+                <orth>伯</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">paek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">praaɡ</pron>
+            </form>
+            <sense xml:id="uuid-f6a2c25d-74df-4abd-a2c2-5d74dfcabd8b" resp="#zadrapa" tls:created="2022-01-27T21:21:59.687+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-c20780b3-41f9-491b-bb61-a269c1c4b48f">vi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-3d95d354-0c16-419f-9baf-f1f6cb6fbd07">change</tls:sem-feat>
+                </gramGrp>
+                <def>= ba4 霸: become the hegemon</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-f8ae2bfc-5223-401a-ae2b-fc5223501a68" resp="#CH" tls:created="2022-12-01T18:44:03.494+09:00">
+            <form corresp="#uuid-deee6081-fe94-4412-a87d-ffa1aba4fb28">
+                <orth>適</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tek</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-leeɡ</pron>
+            </form>
+            <sense xml:id="uuid-5fae073a-3046-4f4e-ae07-3a30462f4e7d" resp="#CH" tls:created="2022-12-01T18:44:03.494+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9fda0181-1777-4402-a30f-1a136ab5fde1">npost-N</tls:syn-func>
+                </gramGrp>
+                <def>天下之適也"is the ruler of the world": ruler 高誘：主也</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-9f5d4f61-c091-4c40-9d4f-61c091dc40b4" resp="#CH" tls:created="2023-02-16T04:46:05.756+09:00">
+            <form corresp="#uuid-8817e9ab-5c2e-455f-bcf5-a2beca1a4a2c #uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461">
+                <orth>亂君</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">luàn jūn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">lwanH kjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-roons klun</pron>
+            </form>
+            <sense xml:id="uuid-7d9fefa5-1318-4519-9fef-a51318351943" resp="#CH" tls:created="2023-02-16T04:46:05.756+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>ruler bent on revolt; disloyal ruler</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-7773db22-9af8-4fb4-b3db-229af8bfb456" resp="#CH" tls:created="2023-08-19T18:28:13.588+09:00">
+            <form corresp="#uuid-43e0256e-579f-43ab-ab11-d70174151708 #uuid-eb6d0697-3735-4cf8-b59b-ea3a1c5eb461">
+                <orth>天君</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">tiān jūn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">then kjun</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">lʰiin klun</pron>
+            </form>
+        </entry>
+        <entry type="word" xml:id="uuid-48ebe595-8552-40ca-abe5-95855230cab5" resp="#CH" tls:created="2023-10-14T06:44:15.033+09:00">
+            <form corresp="#uuid-a46a2ed3-8cca-4e44-b03c-3ba9e3806e16 #uuid-b8e67731-521a-467d-89aa-abea5a9bf98c">
+                <orth>主長</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhǔ zhǎng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyuX drjang</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tjoʔ krlaŋʔ</pron>
+            </form>
+            <sense xml:id="uuid-682be8ea-4ef5-4227-abe8-ea4ef5822765" resp="#CH" tls:created="2023-10-14T06:44:15.033+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-0c513944-f90e-42df-a8ad-65300f05c945">NP[post-N]</tls:syn-func>
+                </gramGrp>
+                <def>[one's] ruler</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-26e4d9ef-02f0-48a7-a4d9-ef02f0d8a71b" resp="#CH" tls:created="2024-03-13T02:09:08.568+09:00">
+            <form corresp="#uuid-5f4ced18-9ab9-47c4-8996-01bb9fdc3d59 #uuid-4159ad5a-2f84-4fb4-85cf-35bbb0426a03">
+                <orth>霸王</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bà wàng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">paeH hjwangH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">-- ɢʷaŋs</pron>
+            </form>
+            <sense xml:id="uuid-c779d20d-55ea-48be-b9d2-0d55eaf8be35" resp="#CH" tls:created="2024-03-13T02:09:08.568+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>read bà wàng: become a hegemon king; be transformed into a hegemon king</def>
+            </sense>
+        </entry>
+    </div>
 </div>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?><div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1a85cf98-1f53-4d3f-8f63-7e3acd73bcbe">
+<?xml-model href="../schema/tls.rnc" type="application/relax-ng-compact-syntax"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tls="http://hxwd.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" type="concept" xml:id="uuid-1a85cf98-1f53-4d3f-8f63-7e3acd73bcbe">
 <head>UNDERSTAND</head>
     <list type="altnames">
 <item>COMPREHEND</item>
@@ -320,7 +321,15 @@
                 </gramGrp>
   <def>be completely understood/proven</def>
             </sense>
-<sense xml:id="uuid-fa1bc9c1-d2c0-457e-a444-d8d0f046a13e" resp="#CH" tls:created="2019-12-26T04:09:58.664+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause one to fully understand N&gt; give a full account of N, fully explain N</def></sense></entry>
+<sense xml:id="uuid-fa1bc9c1-d2c0-457e-a444-d8d0f046a13e" resp="#CH" tls:created="2019-12-26T04:09:58.664+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause one to fully understand N&gt; give a full account of N, fully explain N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-6746a2c6-9010-4b60-882d-60215016cc91">
             <form corresp="#uuid-e659e4ff-8530-401f-ac8d-82ade16943db">
 <orth>喻</orth>
@@ -346,7 +355,30 @@
                 </gramGrp>
   <def>derive one's proper understand of things from (something)</def>
             </sense>
-<sense xml:id="uuid-300e5525-ba1f-4b13-8e55-25ba1fcb138a" resp="#dsehnal" tls:created="2020-05-09T19:58:34.755+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to understand the contextually determinate matter (typically after an explanation has been made)</def></sense><sense xml:id="uuid-5832dd8a-bc42-459b-b2dd-8abc42659b41" resp="#zadrapa" tls:created="2020-06-03T21:11:51.522+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be understood</def></sense><sense xml:id="uuid-225169a4-4f8f-4260-9169-a44f8f626038" resp="#dsehnal" tls:created="2023-07-15T01:30:58.707+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>sudden insight; sudden understanding</def></sense></entry>
+<sense xml:id="uuid-300e5525-ba1f-4b13-8e55-25ba1fcb138a" resp="#dsehnal" tls:created="2020-05-09T19:58:34.755+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to understand the contextually determinate matter (typically after an explanation has been made)</def>
+            </sense>
+            <sense xml:id="uuid-5832dd8a-bc42-459b-b2dd-8abc42659b41" resp="#zadrapa" tls:created="2020-06-03T21:11:51.522+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be understood</def>
+            </sense>
+            <sense xml:id="uuid-225169a4-4f8f-4260-9169-a44f8f626038" resp="#dsehnal" tls:created="2023-07-15T01:30:58.707+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>sudden insight; sudden understanding</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-4fda4766-5618-484f-a126-a15e33b7d762">
             <form corresp="#uuid-b3a19c99-6fcb-4ea2-8cd1-7f779c397e21">
 <orth>契</orth>
@@ -444,7 +476,23 @@
                 </gramGrp>
   <def>understand that, have a clear understanding that</def>
             </sense>
-<sense xml:id="uuid-ef0c76ed-8f41-4aa3-8c76-ed8f414aa31c" resp="#CH" tls:created="2020-02-12T21:52:09.526+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to understand N properly</def></sense><sense xml:id="uuid-553a5875-2e8f-4196-ba58-752e8f61964a" resp="#zadrapa" tls:created="2020-06-16T19:19:47.062+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func><tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat></gramGrp><def>be investigative and, on that account, well-informed</def></sense></entry>
+<sense xml:id="uuid-ef0c76ed-8f41-4aa3-8c76-ed8f414aa31c" resp="#CH" tls:created="2020-02-12T21:52:09.526+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to understand N properly</def>
+            </sense>
+            <sense xml:id="uuid-553a5875-2e8f-4196-ba58-752e8f61964a" resp="#zadrapa" tls:created="2020-06-16T19:19:47.062+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e627d1e1-0e26-4069-9615-1025ebb7c0a2">vi.red</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f55cff2f-f0e3-4f08-a89c-5d08fcf3fe89">act</tls:sem-feat>
+                </gramGrp>
+                <def>be investigative and, on that account, well-informed</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a38d8edb-ce7f-48d1-bbb2-2ac5ca5c67a6">
             <form corresp="#uuid-fb2a2ae5-04b6-4792-a204-757eb13431bc">
 <orth>審</orth>
@@ -486,7 +534,15 @@
                 </gramGrp>
   <def>understand quite whether S is true</def>
             </sense>
-<sense xml:id="uuid-b435d002-dbbf-44b5-b5d0-02dbbfe4b58e" resp="#dsehnal" tls:created="2024-05-26T15:51:06.646+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to understand closely that S; get a firm conviction that S</def></sense></entry>
+<sense xml:id="uuid-b435d002-dbbf-44b5-b5d0-02dbbfe4b58e" resp="#dsehnal" tls:created="2024-05-26T15:51:06.646+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to understand closely that S; get a firm conviction that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-af1b9c33-a2a4-454b-b1aa-f29568aa43ea">
             <form corresp="#uuid-a052a3ab-b1d4-4815-95ff-b80c89e5d61e">
 <orth>徹</orth>
@@ -558,7 +614,15 @@
                 </gramGrp>
   <def>BUDDH: be enlightened to the fact that, realize that</def>
             </sense>
-<sense xml:id="uuid-ee8514e5-0b0a-4cce-8514-e50b0a7ccea8" resp="#dsehnal" tls:created="2024-05-20T03:38:34.812+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to understand that S</def></sense></entry>
+<sense xml:id="uuid-ee8514e5-0b0a-4cce-8514-e50b0a7ccea8" resp="#dsehnal" tls:created="2024-05-20T03:38:34.812+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-faa1cf25-fe9d-4e48-b4e5-9efdf3cd3ade">vtoNPab{S}</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to understand that S</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-37c9e778-9d95-46af-8bd8-1a74abaee0d4">
             <form corresp="#uuid-73c3053c-cf04-4387-81d9-eceef8f9307c">
 <orth>惺</orth>
@@ -730,7 +794,28 @@
                 </gramGrp>
   <def>have perceptive understanding</def>
             </sense>
-<sense xml:id="uuid-c23e3eed-a21a-4e50-804d-ee26bd7c424b" resp="#zadrapa" tls:created="2020-01-14T19:43:29.824+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func></gramGrp><def>have a perfectly clear understanding of contextually determinate things</def></sense><sense xml:id="uuid-afa8bb18-7f3d-4a31-a8bb-187f3dfa3164" resp="#zadrapa" tls:created="2020-06-03T16:40:00.925+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>have a perfectly clear understanding of things</def></sense><sense xml:id="uuid-624c1411-c98d-4771-8c14-11c98d477106" resp="#zadrapa" tls:created="2020-06-10T23:54:10.447+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-08T00:08:44.166+09:00">clear understanding, clear insight</def></sense></entry>
+<sense xml:id="uuid-c23e3eed-a21a-4e50-804d-ee26bd7c424b" resp="#zadrapa" tls:created="2020-01-14T19:43:29.824+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
+                </gramGrp>
+                <def>have a perfectly clear understanding of contextually determinate things</def>
+            </sense>
+            <sense xml:id="uuid-afa8bb18-7f3d-4a31-a8bb-187f3dfa3164" resp="#zadrapa" tls:created="2020-06-03T16:40:00.925+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>have a perfectly clear understanding of things</def>
+            </sense>
+            <sense xml:id="uuid-624c1411-c98d-4771-8c14-11c98d477106" resp="#zadrapa" tls:created="2020-06-10T23:54:10.447+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-08T00:08:44.166+09:00">clear understanding, clear insight</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-ddcacfc7-57dd-4204-8a24-094bb67cd614">
             <form corresp="#uuid-3cb5236a-c2dc-42a6-92ba-89e6f7a43e85">
 <orth>智</orth>
@@ -746,7 +831,15 @@
                 </gramGrp>
   <def>wise understanding</def>
             </sense>
-<sense xml:id="uuid-c9fc6b5c-d6cb-4030-bc6b-5cd6cba030e7" resp="#CH" tls:created="2023-09-17T18:42:45.485+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func><tls:sem-feat corresp="#uuid-d15364ad-7d0f-419d-9364-ad7d0f619d99">mental state</tls:sem-feat></gramGrp><def>understnanding things, the understanding of something</def></sense></entry>
+<sense xml:id="uuid-c9fc6b5c-d6cb-4030-bc6b-5cd6cba030e7" resp="#CH" tls:created="2023-09-17T18:42:45.485+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-d15364ad-7d0f-419d-9364-ad7d0f619d99">mental state</tls:sem-feat>
+                </gramGrp>
+                <def>understnanding things, the understanding of something</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-98707de9-23e9-4e80-9356-3a6f57d21ec3">
             <form corresp="#uuid-483c691c-e6b5-4a19-88b9-4d3f3a7a10a2">
 <orth>曉</orth>
@@ -777,7 +870,21 @@
                 </gramGrp>
   <def>rare, lunheng: be clear about, be unconfused about; ytl, xiangci: have a grasp of (part of a problem)</def>
             </sense>
-<sense xml:id="uuid-03dba325-de8f-4d9e-9ba3-25de8fed9e6f" resp="#zadrapa" tls:created="2022-05-29T05:02:30.718+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-1c897df2-0961-449a-af49-ed08634b21c5">vi-V{SUFF}.adV</tls:syn-func></gramGrp><def>曉然: clearly</def></sense><sense xml:id="uuid-325e6c88-6761-4046-9e6c-88676100464c" resp="#CH" tls:created="2022-09-10T23:23:43.882+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func></gramGrp><def>cognising, actively understanding things</def></sense></entry>
+<sense xml:id="uuid-03dba325-de8f-4d9e-9ba3-25de8fed9e6f" resp="#zadrapa" tls:created="2022-05-29T05:02:30.718+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-1c897df2-0961-449a-af49-ed08634b21c5">vi-V{SUFF}.adV</tls:syn-func>
+                </gramGrp>
+                <def>曉然: clearly</def>
+            </sense>
+            <sense xml:id="uuid-325e6c88-6761-4046-9e6c-88676100464c" resp="#CH" tls:created="2022-09-10T23:23:43.882+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                <def>cognising, actively understanding things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-286edf18-4ff8-44fa-8208-37cbc6647939">
             <form corresp="#uuid-5cd2073a-6f30-434c-bf49-acee1f8e5bd7">
 <orth>會</orth>
@@ -818,8 +925,18 @@
             </sense>
 </entry>
 <entry type="word" xml:id="uuid-74bd61b4-65c6-4f9e-a1a1-e357ca9d4970">
-            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800"><orth>深</orth><pron xml:lang="zh-Latn-x-pinyin">shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron></form>
-            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800"><orth>深</orth><pron xml:lang="zh-Latn-x-pinyin">shēn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron></form>
+            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800">
+                <orth>深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron>
+            </form>
+            <form corresp="#uuid-e870ccc9-7d68-4d6f-b161-4e49c7fbf800">
+                <orth>深</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">shēn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">syim</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">qhljum</pron>
+            </form>
 <sense xml:id="uuid-e0cfb319-b6d2-45f1-be01-561cf60bae29">
 <gramGrp>
                     <pos>V</pos>
@@ -827,7 +944,14 @@
                 </gramGrp>
   <def>understand deeply, have a deep mastery of</def>
             </sense>
-<sense xml:id="uuid-d8b5e076-a5ea-4ce0-b5e0-76a5eaace06b" resp="#zadrapa" tls:created="2020-05-27T18:56:58.973+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>understand deeply, have a deep mastery of</def></sense></entry>
+<sense xml:id="uuid-d8b5e076-a5ea-4ce0-b5e0-76a5eaace06b" resp="#zadrapa" tls:created="2020-05-27T18:56:58.973+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>understand deeply, have a deep mastery of</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-a981b883-5606-47e1-ba69-2f295e62cd80">
             <form corresp="#uuid-6b1bfbc4-5a2e-4e61-9136-e958e2fb2d7a">
 <orth>溫</orth>
@@ -925,7 +1049,14 @@
                 </gramGrp>
   <def>have an exhaustive grasp of</def>
             </sense>
-<sense xml:id="uuid-c7b50a5a-12f0-415e-b50a-5a12f0015e37" resp="#zadrapa" tls:created="2022-02-09T21:41:30.549+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>get an exhaustive grasp of things</def></sense></entry>
+<sense xml:id="uuid-c7b50a5a-12f0-415e-b50a-5a12f0015e37" resp="#zadrapa" tls:created="2022-02-09T21:41:30.549+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>get an exhaustive grasp of things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-7ad60f4a-885d-4319-a573-b553b40a7912">
             <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6">
 <orth>知</orth>
@@ -1013,7 +1144,7 @@
   <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
                     <usg type="warring-states-currency">3</usg>
                 </gramGrp>
-  <def>understand the contextually determinate object properly</def>
+  <def resp="#CH" updated="2024-10-04T23:55:50.919+09:00">internalise; understand the contextually determinate object properly</def>
             </sense>
 <sense xml:id="uuid-d59bee67-3c3b-419b-9378-51231963dfa0">
 <gramGrp>
@@ -1021,7 +1152,7 @@
   <tls:syn-func corresp="#uuid-e64a7a95-b54b-4c94-9d6d-f55dbf079701">vt(oN)</tls:syn-func>
   <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
                 </gramGrp>
-  <def resp="#dsehnal" updated="2020-05-09T20:33:16.397+09:00">have come to understand the contextually determinate thing </def>
+  <def resp="#CH" updated="2024-10-04T23:56:16.857+09:00">have come to understand/internalise the contextually determinate thing </def>
             </sense>
 <sense xml:id="uuid-997b147d-979a-4d6c-aef3-8e4eef154eb0">
 <gramGrp>
@@ -1035,8 +1166,9 @@
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                     <usg type="warring-states-currency">5</usg>
-                <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp>
-  <def resp="#CH" updated="2022-09-08T18:24:05.144+09:00">understand properly; understand and respect properly; be sure of the workings (of something); understand the ins and outs of</def>
+                <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+  <def resp="#CH" updated="2024-10-04T23:57:14.555+09:00">fully internalise; understand properly; understand and respect properly; be sure of the workings (of something); understand the ins and outs of</def>
             </sense>
 <sense xml:id="uuid-c1ca60c1-aa8d-417c-814e-1b6813c6fe9a">
 <gramGrp>
@@ -1095,7 +1227,45 @@
                 </gramGrp>
   <def resp="#CH" updated="2022-08-29T17:31:52.937+09:00">understand things; understand what is going on; have any idea of what is going on (often negated)</def>
             </sense>
-<sense xml:id="uuid-b51e2008-2150-44d5-9069-62529163d86f" resp="#CH" tls:created="2019-12-13T23:40:43.29+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func><tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat></gramGrp><def resp="#CH" updated="2021-06-16T21:06:26.788+09:00">read zhī: the contextually determinate N's understanding</def></sense><sense xml:id="uuid-32e17605-3921-42ee-b1f4-d3b2d7e529f7" resp="#CH" tls:created="2019-12-13T23:58:50.103+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#">nab[post-N]</tls:syn-func><tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat></gramGrp><def>one's understanding</def></sense><sense xml:id="uuid-504aabfe-7d97-4448-8aab-fe7d97f44826" resp="#zadrapa" tls:created="2021-05-22T00:26:53.341+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func><tls:sem-feat corresp="#uuid-7f49a8f4-6da3-4126-b6d9-8df15a825002">modal</tls:sem-feat></gramGrp><def>understand that one should V</def></sense><sense xml:id="uuid-3328fc17-f9e9-4cbe-a8fc-17f9e97cbe1e" resp="#CH" tls:created="2022-08-18T16:55:57.371+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func></gramGrp><def>understand the abstract object Nab</def></sense><sense xml:id="uuid-910597bb-5cca-4504-8597-bb5cca850407" resp="#CH" tls:created="2022-09-01T20:17:53.73+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-9f25a311-23b2-42f9-a5a3-1123b292f92e">vtoS{NOMINAL}</tls:syn-func></gramGrp><def>know that a subject is N{PRED}</def></sense></entry>
+<sense xml:id="uuid-b51e2008-2150-44d5-9069-62529163d86f" resp="#CH" tls:created="2019-12-13T23:40:43.29+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-9cbb9197-e69a-49bc-a93c-a1afbbd07d29">nab(post-N)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2021-06-16T21:06:26.788+09:00">read zhī: the contextually determinate N's understanding</def>
+            </sense>
+            <sense xml:id="uuid-32e17605-3921-42ee-b1f4-d3b2d7e529f7" resp="#CH" tls:created="2019-12-13T23:58:50.103+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#">nab[post-N]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-47f1ba84-c93d-40ed-8418-3b97745c6a1d">psychological</tls:sem-feat>
+                </gramGrp>
+                <def>one's understanding</def>
+            </sense>
+            <sense xml:id="uuid-504aabfe-7d97-4448-8aab-fe7d97f44826" resp="#zadrapa" tls:created="2021-05-22T00:26:53.341+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-dd717b3f-0c98-4de8-bac6-2e4085805ef1">vt+V[0]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-7f49a8f4-6da3-4126-b6d9-8df15a825002">modal</tls:sem-feat>
+                </gramGrp>
+                <def>understand that one should V</def>
+            </sense>
+            <sense xml:id="uuid-3328fc17-f9e9-4cbe-a8fc-17f9e97cbe1e" resp="#CH" tls:created="2022-08-18T16:55:57.371+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fe4438e-50e1-4c1f-8b7a-c24a0f417fb5">vtoNab</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-10-04T23:57:51.107+09:00">understand/internalise the abstract object Nab</def>
+            </sense>
+            <sense xml:id="uuid-910597bb-5cca-4504-8597-bb5cca850407" resp="#CH" tls:created="2022-09-01T20:17:53.73+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-9f25a311-23b2-42f9-a5a3-1123b292f92e">vtoS{NOMINAL}</tls:syn-func>
+                </gramGrp>
+                <def>know that a subject is N{PRED}</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-8dfe8a87-a312-462e-bdd0-a52d8b070e29">
             <form corresp="#uuid-12dd351a-1edf-4028-bd33-8927b8c4c96a">
 <orth>稔</orth>
@@ -1719,7 +1889,46 @@
                 </gramGrp>
   <def>get generally known</def>
             </sense>
-<sense xml:id="uuid-148c6ea4-dd92-4e82-8c6e-a4dd921e8277" resp="#zadrapa" tls:created="2020-05-20T23:42:14.959+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>to make N understand, to enlighten N</def></sense><sense xml:id="uuid-bde2a65b-6a8f-4652-a2a6-5b6a8f565287" resp="#zadrapa" tls:created="2020-06-25T22:36:00.556+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat></gramGrp><def>come to understand things thoroughly</def></sense><sense xml:id="uuid-2c7c82b8-5824-4dc4-bc82-b85824cdc49b" resp="#zadrapa" tls:created="2020-12-04T06:16:57.721+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat></gramGrp><def>be well understood, come to be well understood</def></sense><sense xml:id="uuid-673af11c-cca9-40e8-baf1-1ccca9f0e8db" resp="#CH" tls:created="2022-08-17T17:21:52.257+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>understand things</def></sense><sense xml:id="uuid-29d30482-62ad-4430-9304-8262ad043034" resp="#Valerie.Kiel" tls:created="2022-11-02T18:53:10.129+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>to illuminate N, to make N well-known, to make N understood</def></sense></entry>
+<sense xml:id="uuid-148c6ea4-dd92-4e82-8c6e-a4dd921e8277" resp="#zadrapa" tls:created="2020-05-20T23:42:14.959+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>to make N understand, to enlighten N</def>
+            </sense>
+            <sense xml:id="uuid-bde2a65b-6a8f-4652-a2a6-5b6a8f565287" resp="#zadrapa" tls:created="2020-06-25T22:36:00.556+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229b7720-3cfd-45ff-9b2b-df9c733e6332">inchoative</tls:sem-feat>
+                </gramGrp>
+                <def>come to understand things thoroughly</def>
+            </sense>
+            <sense xml:id="uuid-2c7c82b8-5824-4dc4-bc82-b85824cdc49b" resp="#zadrapa" tls:created="2020-12-04T06:16:57.721+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-988c2bcf-3cdd-4b9e-b8a4-615fe3f7f81e">passive</tls:sem-feat>
+                </gramGrp>
+                <def>be well understood, come to be well understood</def>
+            </sense>
+            <sense xml:id="uuid-673af11c-cca9-40e8-baf1-1ccca9f0e8db" resp="#CH" tls:created="2022-08-17T17:21:52.257+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>understand things</def>
+            </sense>
+            <sense xml:id="uuid-29d30482-62ad-4430-9304-8262ad043034" resp="#Valerie.Kiel" tls:created="2022-11-02T18:53:10.129+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>to illuminate N, to make N well-known, to make N understood</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-36a8f104-2660-4fd1-92aa-287c11f24a0a">
             <form corresp="#uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
 <orth>達</orth>
@@ -1790,7 +1999,14 @@
                 </gramGrp>
   <def>open oneself to an understanding of</def>
             </sense>
-<sense xml:id="uuid-fc76a432-6786-405c-b6a4-326786905c8a" resp="#CH" tls:created="2020-05-03T21:02:00.632+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>be open to an understanding of things.</def></sense></entry>
+<sense xml:id="uuid-fc76a432-6786-405c-b6a4-326786905c8a" resp="#CH" tls:created="2020-05-03T21:02:00.632+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>be open to an understanding of things.</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-acd4de2b-ae26-46ad-af51-57b0b234324c">
             <form corresp="#uuid-b37629c7-319a-48b2-8ce5-35e3d8851c82">
 <orth>體</orth>
@@ -1815,7 +2031,15 @@
                 </gramGrp>
   <def>be an embodiment of</def>
             </sense>
-<sense xml:id="uuid-d5bc537c-10f7-415d-b1bc-85b782bdfc87" resp="#CH" tls:created="2020-02-08T01:18:01.309+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat></gramGrp><def>cause one to fully understand the structure of N</def></sense></entry>
+<sense xml:id="uuid-d5bc537c-10f7-415d-b1bc-85b782bdfc87" resp="#CH" tls:created="2020-02-08T01:18:01.309+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-fac754df-5669-4052-9dda-6244f229371f">causative</tls:sem-feat>
+                </gramGrp>
+                <def>cause one to fully understand the structure of N</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-016a509e-1a5e-4996-b887-f315877993ca">
             <form corresp="#uuid-9ee768eb-a750-42e6-ba2b-6dc77cbb010e #uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6">
 <orth>了知</orth>
@@ -2127,7 +2351,14 @@
                 </gramGrp>
   <def>state of intellectual understanding</def>
             </sense>
-<sense xml:id="uuid-2af6948b-5dbc-40b8-b694-8b5dbcb0b8a1" resp="#CH" tls:created="2023-08-11T21:37:51.043+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func></gramGrp><def>be clear in one's mind about</def></sense></entry>
+<sense xml:id="uuid-2af6948b-5dbc-40b8-b694-8b5dbcb0b8a1" resp="#CH" tls:created="2023-08-11T21:37:51.043+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-b0372307-1c92-4d55-a0a9-b175eef5e94c">VPt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>be clear in one's mind about</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-35fe26b8-a7e4-4914-a66a-e88b4bedd9d6">
             <form corresp="#uuid-5ed07350-e3b9-46dc-a120-719ce838ad97 #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625">
 <orth>明通</orth>
@@ -2143,7 +2374,14 @@
                 </gramGrp>
   <def>understanding</def>
             </sense>
-<sense xml:id="uuid-2d5a27c5-cbbc-48f8-9a27-c5cbbc78f80f" resp="#zadrapa" tls:created="2020-06-01T16:23:57.182+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func></gramGrp><def>to understand things thoroughly</def></sense></entry>
+<sense xml:id="uuid-2d5a27c5-cbbc-48f8-9a27-c5cbbc78f80f" resp="#zadrapa" tls:created="2020-06-01T16:23:57.182+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>to understand things thoroughly</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-928b2cfd-3651-4d73-908e-2460f6412c5f">
             <form corresp="#uuid-5ed07350-e3b9-46dc-a120-719ce838ad97 #uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1">
 <orth>明達</orth>
@@ -2622,7 +2860,14 @@
                 </gramGrp>
   <def>get to understand</def>
             </sense>
-<sense xml:id="uuid-9c64b2c8-1857-4a9f-a4b2-c818570a9f56" resp="#CH" tls:created="2020-05-10T03:00:01.376+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func></gramGrp><def>understand things</def></sense></entry>
+<sense xml:id="uuid-9c64b2c8-1857-4a9f-a4b2-c818570a9f56" resp="#CH" tls:created="2020-05-10T03:00:01.376+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-53cee9f8-4041-45e5-ae55-f0bfdec33a11">vt[oN]</tls:syn-func>
+                </gramGrp>
+                <def>understand things</def>
+            </sense>
+        </entry>
 <entry type="word" xml:id="uuid-de7e15c1-6b4c-41a5-bca7-b3615928e93b">
             <form corresp="#uuid-4b5bf070-1510-435d-acbb-84983dab8a3b #uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6">
 <orth>解知</orth>
@@ -2928,10 +3173,311 @@
   <def>understand distinctly</def>
             </sense>
 </entry>
-    <entry type="word" xml:id="uuid-44f67531-12d8-4705-9d2b-df8f381434a1" resp="#CH" tls:created="2019-11-08T17:02:27.665+09:00"><form corresp="#uuid-25889cfa-8f93-4023-ade8-c26fe1c72a2a #uuid-1bbb95ea-239a-4aef-90ff-8d37da84cddd"><orth>獲及</orth><pron xml:lang="zh-Latn-x-pinyin">huò jí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hweak gip</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷreeɡ ɡrɯb</pron></form><sense xml:id="uuid-628be31b-0103-422b-9d6e-34db7959ea96" resp="#CH" tls:created="2019-11-08T17:02:27.665+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func><tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat></gramGrp><def>manage to understand the contextually determinate N</def></sense></entry><entry type="word" xml:id="uuid-3b0de9f1-11b0-4ee4-8fe5-8603dec320a2" resp="#CH" tls:created="2019-11-29T19:12:14.685+09:00"><form corresp="#uuid-9b080dbb-b943-466d-86c6-1686315584d4"><orth>極</orth><pron xml:lang="zh-Latn-x-pinyin">jí</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">gik</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯɡ</pron></form><sense xml:id="uuid-4269588a-dd03-4e27-9b13-63acaee5284e" resp="#CH" tls:created="2019-11-29T19:12:14.685+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>understand completely</def></sense></entry><entry type="word" xml:id="uuid-29ae0309-d035-4912-863e-b811ca95a1d5" resp="#CH" tls:created="2019-12-06T22:04:49.727+09:00"><form corresp="#uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1 #uuid-5ed07350-e3b9-46dc-a120-719ce838ad97"><orth>達明</orth><pron xml:lang="zh-Latn-x-pinyin">dá
- míng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dat
- mjaeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daad
- mraŋ</pron></form><sense xml:id="uuid-8ce59426-9c08-42a6-8faf-e7d04d517e9d" resp="#CH" tls:created="2019-12-06T22:04:49.727+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>(try to) reach clear understanding</def></sense></entry><entry type="word" xml:id="uuid-d8a09b4b-37ff-4873-8ca8-39565fe44e82" resp="#CH" tls:created="2019-12-18T00:03:07.801+09:00"><form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991"><orth>有</orth><pron xml:lang="zh-Latn-x-pinyin">yǒu</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ</pron></form><sense xml:id="uuid-8768ae10-3205-4853-84f2-ba5a14108d00" resp="#CH" tls:created="2019-12-18T00:03:07.801+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>understand and know how to practice 有道</def></sense></entry><entry type="word" xml:id="uuid-476cb220-dd45-417b-90b6-9882da8d9fad" resp="#CH" tls:created="2020-02-03T18:01:25.696+09:00"><form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8"><orth>得</orth><pron xml:lang="zh-Latn-x-pinyin">dé</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tok
-</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯɡ
-</pron></form><sense xml:id="uuid-dec3da1c-7956-4726-981b-5c1563208ce6" resp="#CH" tls:created="2020-02-03T18:01:25.696+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def resp="#CH" updated="2024-02-12T06:05:07.091+09:00">get a full grasp of; get hold of intellectually, get to grasp; manage to understand; have internalised, have grasped</def></sense><sense xml:id="uuid-1c9b67b4-3093-495c-9b67-b43093c95c40" resp="#CH" tls:created="2022-08-09T19:08:53.354+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def resp="#CH" updated="2024-02-20T03:36:50.225+09:00">have a full grasp of, get the full meaning of</def></sense><sense xml:id="uuid-2e46c869-550a-49d1-86c8-69550af9d1b6" resp="#CH" tls:created="2022-08-27T17:42:42.206+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-26T21:38:23.431+09:00">be grasped, be properly understood；be sorted out</def></sense></entry><entry type="word" xml:id="uuid-d951a1ab-5624-4fc1-91a1-ab56243fc1ce" resp="#CH" tls:created="2020-02-13T00:35:52.478+09:00"><form corresp="#uuid-5b1915fc-ff9f-445a-be02-ae99dcec53c7"><orth>普</orth><pron xml:lang="zh-Latn-x-pinyin">pǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">phuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaaʔ</pron></form><sense xml:id="uuid-b489cce4-425f-4639-89cc-e4425f763990" resp="#CH" tls:created="2020-02-13T00:35:52.478+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>have a broad understanding of; have investigated on a broad scale; be broadly familiar with</def></sense></entry><entry type="word" xml:id="uuid-00009b16-cb0a-4d38-809b-16cb0a7d3864"><form><orth>究</orth><pron xml:lang="zh-Latn-x-pinyin">jiū</pron></form><def/><sense xml:id="uuid-0118b0e4-9f4b-4b4f-98b0-e49f4bcb4fb8" resp="#CH" tls:created="2020-04-07T21:30:18.397+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def>understand fully</def></sense><sense xml:id="uuid-11e7f1d8-0d66-458c-a7f1-d80d66d58c41" resp="#CH" tls:created="2023-08-19T18:18:28.9+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func></gramGrp><def>understand fully, get to the bottom of</def></sense></entry><entry type="word" xml:id="uuid-a4d67487-74b4-4eaa-9674-8774b4aeaadd" resp="#CH" tls:created="2020-05-10T03:02:51.526+09:00"><form corresp="#uuid-0525cc68-3a6e-42bf-8d90-b8d92cc8de00"><orth>睹</orth><pron xml:lang="zh-Latn-x-pinyin">dǔ</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tuX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laaʔ</pron></form><sense xml:id="uuid-3575a498-478e-4dff-b5a4-98478e8dff58" resp="#CH" tls:created="2020-05-10T03:02:51.526+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func></gramGrp><def>realise that S</def></sense></entry><entry type="word" xml:id="uuid-748bf04a-9334-439b-8bf0-4a9334939b4b" resp="#zadrapa" tls:created="2020-05-27T19:02:22.372+09:00"><form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684"><orth>志</orth><pron xml:lang="zh-Latn-x-pinyin">zhì</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">tsyiH</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯs</pron></form><sense xml:id="uuid-187ec12d-896a-42d8-bec1-2d896a72d83b" resp="#zadrapa" tls:created="2020-05-27T19:02:22.372+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>= shí 識, understand</def></sense><sense xml:id="uuid-79ad4c17-6e61-405f-ad4c-176e61e05f00" resp="#zadrapa" tls:created="2020-06-17T22:57:44.862+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func></gramGrp><def>= shí 識: understanding</def></sense></entry><entry type="word" xml:id="uuid-6d44441f-4c4d-4dc3-8444-1f4c4d2dc36a" resp="#CH" tls:created="2020-05-30T03:30:34.841+09:00"><form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515"><orth>知之</orth><pron xml:lang="zh-Latn-x-pinyin">zhī zhī</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trje tsyi</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te kljɯ</pron></form><sense xml:id="uuid-c1647bd9-b06b-42a1-a47b-d9b06b42a175" resp="#CH" tls:created="2020-05-30T03:30:34.841+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>understand what is going on; know what is going on; be aware of what is going on</def></sense><sense xml:id="uuid-275dd4b3-ad31-4bf0-9dd4-b3ad315bf09c" resp="#CH" tls:created="2024-03-09T17:31:38.781+09:00"><gramGrp><pos>N</pos><tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func></gramGrp><def>the (art of) understanding things</def></sense></entry><entry type="word" xml:id="uuid-bec90701-bb1b-4161-8907-01bb1b4161e7" resp="#CH" tls:created="2021-05-26T18:07:31.339+09:00"><form corresp="#uuid-5ed07350-e3b9-46dc-a120-719ce838ad97 #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c"><orth>明乎</orth><pron xml:lang="zh-Latn-x-pinyin">míng hū</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">mjaeng hu</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraŋ ɢaa</pron></form><sense xml:id="uuid-57c12765-d216-4bd1-8127-65d216ebd1d6" resp="#CH" tls:created="2021-05-26T18:07:31.339+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>know all about; understand very well</def></sense></entry><entry type="word" xml:id="uuid-875e9a73-59cb-42cc-9e9a-7359cb22cce7" resp="#CH" tls:created="2021-09-23T18:14:14.577+09:00"><form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f"><orth>知人</orth><pron xml:lang="zh-Latn-x-pinyin">zhī rén</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trje nyin</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te njin</pron></form><sense xml:id="uuid-fed1a4e2-5f41-4f3f-91a4-e25f415f3f6a" resp="#CH" tls:created="2021-09-23T18:14:14.577+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>understand the potential and qualifications of men, 辨識人才</def></sense></entry><entry type="word" xml:id="uuid-43b83730-470e-4d6b-b837-30470eed6bf1" resp="#zadrapa" tls:created="2022-02-16T23:53:54.967+09:00"><form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625"><orth>知通</orth><pron xml:lang="zh-Latn-x-pinyin">zhī tōng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trje thuwng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te kh-looŋ</pron></form><sense xml:id="uuid-a33c5d35-af66-4a5b-bc5d-35af66ba5b02" resp="#zadrapa" tls:created="2022-02-16T23:53:54.967+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>perfectly understand</def></sense></entry><entry type="word" xml:id="uuid-c5014f47-f732-4f20-814f-47f7325f20f3" resp="#CH" tls:created="2022-09-02T19:11:44.25+09:00"><form corresp="#uuid-14dd3e6c-adeb-494f-876f-ea7e6c2a7e92 #uuid-4d2e06f4-1af4-4640-a281-81624749fddc"><orth>包稟</orth><pron xml:lang="zh-Latn-x-pinyin">bāo bǐng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">paew pimX</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pruu prɯmʔ</pron></form><sense xml:id="uuid-6a8ff8f2-6094-4447-8ff8-f26094b44702" resp="#CH" tls:created="2022-09-02T19:11:44.25+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def>encompass with deep understanding</def></sense></entry><entry type="word" xml:id="uuid-8d3157f6-b17c-441e-b157-f6b17cd41ee3" resp="#CH" tls:created="2022-09-25T00:54:40.28+09:00"><form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-5ed07350-e3b9-46dc-a120-719ce838ad97"><orth>知明</orth><pron xml:lang="zh-Latn-x-pinyin">zhī míng</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trje mjaeng</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te mraŋ</pron></form><sense xml:id="uuid-7f7f0435-24a0-46ae-bf04-3524a096ae77" resp="#CH" tls:created="2022-09-25T00:54:40.28+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func><tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat></gramGrp><def resp="#CH" updated="2022-09-25T02:20:09.488+09:00">gain a clear understanding of the plain facts</def></sense><sense xml:id="uuid-27180fcf-29dd-4d24-980f-cf29dd3d24fa" resp="#CH" tls:created="2022-09-25T02:15:11.224+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func></gramGrp><def resp="#CH" updated="2022-09-25T02:20:22.992+09:00">have/obtain clear understanding of the plain facts about N</def></sense></entry><entry type="word" xml:id="uuid-1f13a6ff-3e2c-4db3-93a6-ff3e2c8db334" resp="#CH" tls:created="2022-11-24T19:40:48.527+09:00"><form corresp="#uuid-b1ef6899-e684-4698-a583-dcc3b98daaa7"><orth>度</orth><pron xml:lang="zh-Latn-x-pinyin">duó</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">dak</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaɡ</pron></form><sense xml:id="uuid-35b9296a-06d9-475c-b929-6a06d9475cb0" resp="#CH" tls:created="2022-11-24T19:40:48.527+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func></gramGrp><def>understand precisely the ins and outs of</def></sense></entry><entry type="word" xml:id="uuid-d8449b3a-625d-4217-849b-3a625d82178c" resp="#CH" tls:created="2023-07-13T17:22:44.196+09:00"><form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-aaaa94a1-4d42-45f0-b89b-c966fbee40d5"><orth>知音</orth><pron xml:lang="zh-Latn-x-pinyin">zhī yīn</pron><pron xml:lang="zh-x-mc" resp="rec:baxter">trje 'im</pron><pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te qrɯm</pron></form><sense xml:id="uuid-d39bc8a4-9c35-4d4f-9bc8-a49c358d4fb2" resp="#CH" tls:created="2023-07-13T17:22:44.196+09:00"><gramGrp><pos>V</pos><tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func></gramGrp><def>understand musical notation; understand the notes of music; be able to sing in tune</def></sense></entry></div>
+    <entry type="word" xml:id="uuid-44f67531-12d8-4705-9d2b-df8f381434a1" resp="#CH" tls:created="2019-11-08T17:02:27.665+09:00">
+            <form corresp="#uuid-25889cfa-8f93-4023-ade8-c26fe1c72a2a #uuid-1bbb95ea-239a-4aef-90ff-8d37da84cddd">
+                <orth>獲及</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">huò jí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hweak gip</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷreeɡ ɡrɯb</pron>
+            </form>
+            <sense xml:id="uuid-628be31b-0103-422b-9d6e-34db7959ea96" resp="#CH" tls:created="2019-11-08T17:02:27.665+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-5b3376f4-75c4-4047-94eb-fc6d1bca520d">VPt(oN)</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-f2783e17-b4a1-4e3b-8b47-6a579c6e1eb6">resultative</tls:sem-feat>
+                </gramGrp>
+                <def>manage to understand the contextually determinate N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-3b0de9f1-11b0-4ee4-8fe5-8603dec320a2" resp="#CH" tls:created="2019-11-29T19:12:14.685+09:00">
+            <form corresp="#uuid-9b080dbb-b943-466d-86c6-1686315584d4">
+                <orth>極</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jí</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">gik</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡɯɡ</pron>
+            </form>
+            <sense xml:id="uuid-4269588a-dd03-4e27-9b13-63acaee5284e" resp="#CH" tls:created="2019-11-29T19:12:14.685+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>understand completely</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-29ae0309-d035-4912-863e-b811ca95a1d5" resp="#CH" tls:created="2019-12-06T22:04:49.727+09:00">
+            <form corresp="#uuid-caaece51-86d5-4d35-a2a4-ca05027ce6e1 #uuid-5ed07350-e3b9-46dc-a120-719ce838ad97">
+                <orth>達明</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dá
+ míng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dat
+ mjaeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">daad
+ mraŋ</pron>
+            </form>
+            <sense xml:id="uuid-8ce59426-9c08-42a6-8faf-e7d04d517e9d" resp="#CH" tls:created="2019-12-06T22:04:49.727+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>(try to) reach clear understanding</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d8a09b4b-37ff-4873-8ca8-39565fe44e82" resp="#CH" tls:created="2019-12-18T00:03:07.801+09:00">
+            <form corresp="#uuid-5ba72032-5f6c-406d-a1fc-05dc9395e991">
+                <orth>有</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">yǒu</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">hjuwX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɢʷɯʔ</pron>
+            </form>
+            <sense xml:id="uuid-8768ae10-3205-4853-84f2-ba5a14108d00" resp="#CH" tls:created="2019-12-18T00:03:07.801+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>understand and know how to practice 有道</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-476cb220-dd45-417b-90b6-9882da8d9fad" resp="#CH" tls:created="2020-02-03T18:01:25.696+09:00">
+            <form corresp="#uuid-2f255ab2-0652-443e-94c1-e442903989f8">
+                <orth>得</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dé</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tok
+</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">tɯɯɡ
+</pron>
+            </form>
+            <sense xml:id="uuid-dec3da1c-7956-4726-981b-5c1563208ce6" resp="#CH" tls:created="2020-02-03T18:01:25.696+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-12T06:05:07.091+09:00">get a full grasp of; get hold of intellectually, get to grasp; manage to understand; have internalised, have grasped</def>
+            </sense>
+            <sense xml:id="uuid-1c9b67b4-3093-495c-9b67-b43093c95c40" resp="#CH" tls:created="2022-08-09T19:08:53.354+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2024-02-20T03:36:50.225+09:00">have a full grasp of, get the full meaning of</def>
+            </sense>
+            <sense xml:id="uuid-2e46c869-550a-49d1-86c8-69550af9d1b6" resp="#CH" tls:created="2022-08-27T17:42:42.206+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-26T21:38:23.431+09:00">be grasped, be properly understood；be sorted out</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d951a1ab-5624-4fc1-91a1-ab56243fc1ce" resp="#CH" tls:created="2020-02-13T00:35:52.478+09:00">
+            <form corresp="#uuid-5b1915fc-ff9f-445a-be02-ae99dcec53c7">
+                <orth>普</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">pǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">phuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">phaaʔ</pron>
+            </form>
+            <sense xml:id="uuid-b489cce4-425f-4639-89cc-e4425f763990" resp="#CH" tls:created="2020-02-13T00:35:52.478+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>have a broad understanding of; have investigated on a broad scale; be broadly familiar with</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-00009b16-cb0a-4d38-809b-16cb0a7d3864">
+            <form>
+                <orth>究</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">jiū</pron>
+            </form>
+            <def/>
+            <sense xml:id="uuid-0118b0e4-9f4b-4b4f-98b0-e49f4bcb4fb8" resp="#CH" tls:created="2020-04-07T21:30:18.397+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def>understand fully</def>
+            </sense>
+            <sense xml:id="uuid-11e7f1d8-0d66-458c-a7f1-d80d66d58c41" resp="#CH" tls:created="2023-08-19T18:18:28.9+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-739c24ae-d585-4fff-9ac2-2547b1050f16">vt+prep+N</tls:syn-func>
+                </gramGrp>
+                <def>understand fully, get to the bottom of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-a4d67487-74b4-4eaa-9674-8774b4aeaadd" resp="#CH" tls:created="2020-05-10T03:02:51.526+09:00">
+            <form corresp="#uuid-0525cc68-3a6e-42bf-8d90-b8d92cc8de00">
+                <orth>睹</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">dǔ</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tuX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">k-laaʔ</pron>
+            </form>
+            <sense xml:id="uuid-3575a498-478e-4dff-b5a4-98478e8dff58" resp="#CH" tls:created="2020-05-10T03:02:51.526+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-ccee9f93-d493-43f0-b41f-64aa72876a47">vtoS</tls:syn-func>
+                </gramGrp>
+                <def>realise that S</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-748bf04a-9334-439b-8bf0-4a9334939b4b" resp="#zadrapa" tls:created="2020-05-27T19:02:22.372+09:00">
+            <form corresp="#uuid-9ff91735-9ae1-411f-b4ac-417745a2f684">
+                <orth>志</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhì</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">tsyiH</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">kljɯs</pron>
+            </form>
+            <sense xml:id="uuid-187ec12d-896a-42d8-bec1-2d896a72d83b" resp="#zadrapa" tls:created="2020-05-27T19:02:22.372+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>= shí 識, understand</def>
+            </sense>
+            <sense xml:id="uuid-79ad4c17-6e61-405f-ad4c-176e61e05f00" resp="#zadrapa" tls:created="2020-06-17T22:57:44.862+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+                </gramGrp>
+                <def>= shí 識: understanding</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-6d44441f-4c4d-4dc3-8444-1f4c4d2dc36a" resp="#CH" tls:created="2020-05-30T03:30:34.841+09:00">
+            <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-dd2ad4ab-7266-4ee9-a622-5790a96a6515">
+                <orth>知之</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī zhī</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trje tsyi</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te kljɯ</pron>
+            </form>
+            <sense xml:id="uuid-c1647bd9-b06b-42a1-a47b-d9b06b42a175" resp="#CH" tls:created="2020-05-30T03:30:34.841+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>understand what is going on; know what is going on; be aware of what is going on</def>
+            </sense>
+            <sense xml:id="uuid-275dd4b3-ad31-4bf0-9dd4-b3ad315bf09c" resp="#CH" tls:created="2024-03-09T17:31:38.781+09:00">
+                <gramGrp>
+                    <pos>N</pos>
+                    <tls:syn-func corresp="#uuid-db0698e7-db2f-4ee3-9a20-0c2b2e0cebf0">NPab</tls:syn-func>
+                </gramGrp>
+                <def>the (art of) understanding things</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-bec90701-bb1b-4161-8907-01bb1b4161e7" resp="#CH" tls:created="2021-05-26T18:07:31.339+09:00">
+            <form corresp="#uuid-5ed07350-e3b9-46dc-a120-719ce838ad97 #uuid-02ab4456-9185-460d-8a7f-8d4ac2085a5c">
+                <orth>明乎</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">míng hū</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">mjaeng hu</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">mraŋ ɢaa</pron>
+            </form>
+            <sense xml:id="uuid-57c12765-d216-4bd1-8127-65d216ebd1d6" resp="#CH" tls:created="2021-05-26T18:07:31.339+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>know all about; understand very well</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-875e9a73-59cb-42cc-9e9a-7359cb22cce7" resp="#CH" tls:created="2021-09-23T18:14:14.577+09:00">
+            <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-21fa0930-1ebd-4609-9c0d-ef7ef7a2723f">
+                <orth>知人</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī rén</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trje nyin</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te njin</pron>
+            </form>
+            <sense xml:id="uuid-fed1a4e2-5f41-4f3f-91a4-e25f415f3f6a" resp="#CH" tls:created="2021-09-23T18:14:14.577+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>understand the potential and qualifications of men, 辨識人才</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-43b83730-470e-4d6b-b837-30470eed6bf1" resp="#zadrapa" tls:created="2022-02-16T23:53:54.967+09:00">
+            <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-0958ad9e-20d5-4ce4-9288-6c9417a52625">
+                <orth>知通</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī tōng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trje thuwng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te kh-looŋ</pron>
+            </form>
+            <sense xml:id="uuid-a33c5d35-af66-4a5b-bc5d-35af66ba5b02" resp="#zadrapa" tls:created="2022-02-16T23:53:54.967+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>perfectly understand</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-c5014f47-f732-4f20-814f-47f7325f20f3" resp="#CH" tls:created="2022-09-02T19:11:44.25+09:00">
+            <form corresp="#uuid-14dd3e6c-adeb-494f-876f-ea7e6c2a7e92 #uuid-4d2e06f4-1af4-4640-a281-81624749fddc">
+                <orth>包稟</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">bāo bǐng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">paew pimX</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">pruu prɯmʔ</pron>
+            </form>
+            <sense xml:id="uuid-6a8ff8f2-6094-4447-8ff8-f26094b44702" resp="#CH" tls:created="2022-09-02T19:11:44.25+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def>encompass with deep understanding</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-8d3157f6-b17c-441e-b157-f6b17cd41ee3" resp="#CH" tls:created="2022-09-25T00:54:40.28+09:00">
+            <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-5ed07350-e3b9-46dc-a120-719ce838ad97">
+                <orth>知明</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī míng</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trje mjaeng</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te mraŋ</pron>
+            </form>
+            <sense xml:id="uuid-7f7f0435-24a0-46ae-bf04-3524a096ae77" resp="#CH" tls:created="2022-09-25T00:54:40.28+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-6fbf1ba0-1013-434e-b795-029e61b40b98">VPt[oN]</tls:syn-func>
+                    <tls:sem-feat corresp="#uuid-229a701e-1341-4719-9af8-a0b4e69c6c71">perfective</tls:sem-feat>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-25T02:20:09.488+09:00">gain a clear understanding of the plain facts</def>
+            </sense>
+            <sense xml:id="uuid-27180fcf-29dd-4d24-980f-cf29dd3d24fa" resp="#CH" tls:created="2022-09-25T02:15:11.224+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-98f2ce75-ae37-4667-90ff-f418c4aeaa33">VPtoN</tls:syn-func>
+                </gramGrp>
+                <def resp="#CH" updated="2022-09-25T02:20:22.992+09:00">have/obtain clear understanding of the plain facts about N</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-1f13a6ff-3e2c-4db3-93a6-ff3e2c8db334" resp="#CH" tls:created="2022-11-24T19:40:48.527+09:00">
+            <form corresp="#uuid-b1ef6899-e684-4698-a583-dcc3b98daaa7">
+                <orth>度</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">duó</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">dak</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">ɡ-laaɡ</pron>
+            </form>
+            <sense xml:id="uuid-35b9296a-06d9-475c-b929-6a06d9475cb0" resp="#CH" tls:created="2022-11-24T19:40:48.527+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                </gramGrp>
+                <def>understand precisely the ins and outs of</def>
+            </sense>
+        </entry>
+        <entry type="word" xml:id="uuid-d8449b3a-625d-4217-849b-3a625d82178c" resp="#CH" tls:created="2023-07-13T17:22:44.196+09:00">
+            <form corresp="#uuid-66c0756c-fd79-48b2-a2cd-ee269a87f3c6 #uuid-aaaa94a1-4d42-45f0-b89b-c966fbee40d5">
+                <orth>知音</orth>
+                <pron xml:lang="zh-Latn-x-pinyin">zhī yīn</pron>
+                <pron xml:lang="zh-x-mc" resp="rec:baxter">trje 'im</pron>
+                <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">te qrɯm</pron>
+            </form>
+            <sense xml:id="uuid-d39bc8a4-9c35-4d4f-9bc8-a49c358d4fb2" resp="#CH" tls:created="2023-07-13T17:22:44.196+09:00">
+                <gramGrp>
+                    <pos>V</pos>
+                    <tls:syn-func corresp="#uuid-091af450-64e0-4b82-98a2-84d0444b6d19">VPi</tls:syn-func>
+                </gramGrp>
+                <def>understand musical notation; understand the notes of music; be able to sing in tune</def>
+            </sense>
+        </entry>
+    </div>
 </div>
