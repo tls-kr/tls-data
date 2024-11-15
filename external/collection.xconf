@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tx="http://exist-db.org/tls" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:tls="http://tls.kanripo.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <fulltext default="none" attributes="false"/>
+        <lucene>
+            <text qname="tei:div">
+                <!-- exclude nested divs which are indexed separately -->
+                <ignore qname="tei:div"/>
+                <!-- for the swl files, we ignore the content TODO -->
+                <ignore qname="tls:ann"/>
+                <ignore qname="listBibl"/>
+            </text>
+            <text qname="tei:head"/>
+            <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+            <text qname="tei:seg"/>
+            <!-- this is for alternate labels -->
+            <text qname="tei:list"/>
+        </lucene>
+        <range>
+            <create qname="@xml:id" type="xs:string"/>
+            <create qname="@concept-id" type="xs:string"/>
+            <create qname="@type" type="xs:string"/>
+            <create qname="@corresp" type="xs:string"/>
+            <create qname="@target" type="xs:string"/>
+            <!-- matches the annotated characters in a tei:entry and tls:swl -->
+            <create qname="tei:orth" type="xs:string"/>
+            <create qname="tx:graph" type="xs:string"/>
+            <create qname="orth"/>
+        </range>
+    </index>
+</collection>
