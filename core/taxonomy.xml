@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taxonomy for Thesaurus Linguae Sericae</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="tls-taxonomy">
+<category rend="top" xml:id="tls-internal">
+                        <catDesc rend="top">Annotations</catDesc>
+                        <category xml:id="annotation">
+                            <catDesc>Annotated texts</catDesc>
+                            <category xml:id="core">
+                                <catDesc>Core texts</catDesc>
+                            </category>
+                            <category xml:id="swl">
+                                <catDesc>Syntactic Annotations</catDesc>
+                            </category>
+                            <category xml:id="semantic">
+                                <catDesc>Semantic Annotations</catDesc>
+                                <category xml:id="rhet-dev">
+                                    <catDesc>Rhetorical Devices</catDesc>
+                                </category>
+                                <category xml:id="word-rel">
+                                    <catDesc>Word Relations</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="has-translation">
+                                <catDesc>Translations</catDesc>
+                                <category xml:id="tr-en">
+                                    <catDesc>English translations</catDesc>
+                                </category>
+                                <category xml:id="tr-fr">
+                                    <catDesc>French translations</catDesc>
+                                </category>
+                                <category xml:id="tr-de">
+                                    <catDesc>German translations</catDesc>
+                                </category>
+                                <category xml:id="tr-zh">
+                                    <catDesc>Modern Chinese translations</catDesc>
+                                </category>
+                                <category xml:id="tr-ja">
+                                    <catDesc>Japanese translations</catDesc>
+                                </category>
+                                <category xml:id="tr-ja-ku">
+                                    <catDesc>Japanese Kundoku</catDesc>
+                                </category>
+                                <category xml:id="tr-ru">
+                                    <catDesc>Russian translations</catDesc>
+                                </category>
+                                <category xml:id="tr-ko">
+                                    <catDesc>Korean translations</catDesc>
+                                </category>
+                                <category xml:id="tr-la">
+                                    <catDesc>Latin translations</catDesc>
+                                </category>
+                                <category xml:id="tr-ogr">
+                                    <catDesc>Old Greek translations</catDesc>
+                                </category>
+                                
+                            </category>
+                        </category>
+                        <category xml:id="tls-state">
+                            <catDesc>Editorial state</catDesc>
+                            <category xml:id="state-red">
+                                <catDesc>Raw import</catDesc>
+                            </category>
+                            <category xml:id="state-yellow">
+                                <catDesc>In preparation</catDesc>
+                            </category>
+                            <category xml:id="state-green">
+                                <catDesc>Editing completed</catDesc>
+                            </category>
+                        </category>
+                    </category>
+                    <category rend="top" xml:id="tls-dates">
+                        <catDesc rend="top">Period of creation of text</catDesc>
+                        <category xml:id="dat02100">
+                            <catDesc>modern Chinese</catDesc>
+                            <category xml:id="dat02200">
+                                <catDesc>Republic</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="dat04000">
+                            <catDesc>pre-modern Chinese</catDesc>
+                            <category xml:id="dat04100" n="13">
+                                <catDesc>Middle Chinese</catDesc>
+                                <category xml:id="dat04200">
+                                    <catDesc>Ming/Qing</catDesc>
+                                    <category xml:id="dat04210">
+                                        <catDesc>Qing</catDesc>
+                                    </category>
+                                    <category xml:id="dat04250">
+                                        <catDesc>Ming</catDesc>
+                                    </category>
+                                </category>
+                                <category xml:id="dat04300">
+                                    <catDesc>Song/Yuan</catDesc>
+                                    <category xml:id="dat04310">
+                                        <catDesc>Yuan</catDesc>
+                                    </category>
+                                    <category xml:id="dat04350">
+                                        <catDesc>Song</catDesc>
+                                        <category xml:id="dat04360">
+                                            <catDesc>S. Song</catDesc>
+                                        </category>
+                                        <category xml:id="dat04370">
+                                            <catDesc>N. Song</catDesc>
+                                        </category>
+                                    </category>
+                                </category>
+                                <category xml:id="dat04400">
+                                    <catDesc>Sui/Tang</catDesc>
+                                    <category xml:id="dat04410">
+                                        <catDesc>Five Dynasties</catDesc>
+                                    </category>
+                                    <category xml:id="dat04430">
+                                        <catDesc>Tang</catDesc>
+                                    </category>
+                                    <category xml:id="dat04450">
+                                        <catDesc>Sui</catDesc>
+                                    </category>
+                                </category>
+                                <category xml:id="dat04500" n="632">
+                                    <catDesc>Six Dynasties</catDesc>
+                                    <category xml:id="dat04510">
+                                        <catDesc>Three Kingdoms</catDesc>
+                                        <category xml:id="dat04520">
+                                            <catDesc>Wei</catDesc>
+                                        </category>
+                                        <category xml:id="dat04530">
+                                            <catDesc>Shu</catDesc>
+                                        </category>
+                                        <category xml:id="dat04540">
+                                            <catDesc>Wu</catDesc>
+                                        </category>
+                                    </category>
+                                    <category xml:id="dat04550">
+                                        <catDesc>Jin</catDesc>
+                                    </category>
+                                    <category xml:id="dat04560">
+                                        <catDesc>N. and S. Dynasties</catDesc>
+                                        <category xml:id="dat04570">
+                                            <catDesc>Northern Dynasties</catDesc>
+                                        </category>
+                                        <category xml:id="dat04580">
+                                            <catDesc>Southern Dynasties</catDesc>
+                                        </category>
+                                    </category>
+                                </category>
+                            </category>
+                            <category xml:id="dat05000" n="62">
+                                <catDesc>Ancient Chinese</catDesc>
+                                <category xml:id="dat05100" n="1">
+                                    <catDesc>Old Chinese</catDesc>
+                                    <category xml:id="dat06000">
+                                        <catDesc>Han</catDesc>
+                                        <category xml:id="dat06100">
+                                            <catDesc>Eastern Han</catDesc>
+                                            <category xml:id="dat06110">
+                                                <catDesc>late Eastern Han</catDesc>
+                                            </category>
+                                            <category xml:id="dat06120" n="1">
+                                                <catDesc>middle Eastern Han</catDesc>
+                                            </category>
+                                            <category xml:id="dat06130">
+                                                <catDesc>early Eastern Han</catDesc>
+                                            </category>
+                                        </category>
+                                        <category xml:id="dat06200" n="1">
+                                            <catDesc>Western Han</catDesc>
+                                            <category xml:id="dat06210" n="2">
+                                                <catDesc>late Western Han</catDesc>
+                                            </category>
+                                            <category xml:id="dat06220" n="1">
+                                                <catDesc>middle Western Han</catDesc>
+                                            </category>
+                                            <category xml:id="dat06230" n="5">
+                                                <catDesc>early Western Han</catDesc>
+                                            </category>
+                                        </category>
+                                    </category>
+                                    <category xml:id="dat08000">
+                                        <catDesc>pre-Han</catDesc>
+                                        <category xml:id="dat08100">
+                                            <catDesc>Warring States</catDesc>
+                                            <category xml:id="dat08110" n="13">
+                                                <catDesc>late Warring States</catDesc>
+                                            </category>
+                                            <category xml:id="dat08120" n="2">
+                                                <catDesc>middle Warring States</catDesc>
+                                            </category>
+                                            <category xml:id="dat08130">
+                                                <catDesc>early Warring States</catDesc>
+                                            </category>
+                                        </category>
+                                        <category xml:id="dat09100">
+                                            <catDesc>Spring and Autumn</catDesc>
+                                        </category>
+                                    </category>
+                                </category>
+                            </category>
+                            <category xml:id="dat11011" n="1">
+                                <catDesc>late Zhou</catDesc>
+                            </category>
+                            <category xml:id="dat12010">
+                                <catDesc>Shang</catDesc>
+                            </category>
+                        </category>
+
+                        <!-- 
+2100	modern Chinese	0001
+3100	Ancient Chinese	0864
+4100	Middle Chines	0001
+4100	Middle Chinese	8501
+5000	Old Chinese	0682
+6100	Eastern Han	0009
+6120	middle Eastern Han	2464
+6130	early Eastern Han	1895
+6200	Western Han	0861
+6210	late Western Han	1340
+6220	middle Western Han	4484
+6230	early Western Han	2386
+8110	late Warring States	18223
+8120	middle Warring States	5768
+8130	early Warring States	0001
+9100	Spring and Autumn	1848
+11011	late Zhou	1243
+12010	Shang	41982
+                       
+                   -->
+                    </category>
+                    <category rend="top" xml:id="kr-categories" docs="0" chars="0" segs="0" chars-sum="44130900" docs-sum="572" segs-sum="7893113" chars-ratio="INF" segs-ratio="INF">
+                        <catDesc rend="top">Classified catalog</catDesc>
+                        <!--
+                        <category xml:id="star">
+                            <catDesc>Starred texts</catDesc>
+                        </category>
+                        <category xml:id="recent">
+                            <catDesc>Recently visited</catDesc>
+                        </category>
+                        -->
+                        <category xml:id="KR0" docs="0" chars="0" segs="0" chars-sum="31351708" docs-sum="396" segs-sum="5652189" chars-ratio="0.7104253029056738" segs-ratio="0.716091230418214">
+                            <catDesc>四部</catDesc>
+                            <category xml:id="KR1" docs="0" chars="0" segs="0" chars-sum="1232214" docs-sum="25" segs-sum="249172" chars-ratio="0.03930293048149083" segs-ratio="0.04408415925228261">
+                                <catDesc>經部</catDesc>
+                                <category xml:id="KR1a" docs="1" chars="21792" segs="7413" chars-ratio="0.017685239739201147" segs-ratio="0.029750533767839083">
+                                    <catDesc>易類</catDesc>
+                                </category>
+                                <category xml:id="KR1b" docs="2" chars="42070" segs="9538" chars-ratio="0.034141796798283414" segs-ratio="0.03827877931709823">
+                                    <catDesc>書類</catDesc>
+                                </category>
+                                <category xml:id="KR1c" docs="2" chars="92355" segs="21768" chars-ratio="0.07495045503459627" segs-ratio="0.08736134076059911">
+                                    <catDesc>詩類</catDesc>
+                                </category>
+                                <category xml:id="KR1d" docs="4" chars="243044" segs="57480" chars-ratio="0.19724171288428796" segs-ratio="0.23068402549243094">
+                                    <catDesc>禮類</catDesc>
+                                </category>
+                                <category xml:id="KR1e" docs="6" chars="369053" segs="90059" chars-ratio="0.2995039822628212" segs-ratio="0.3614330663156374">
+                                    <catDesc>春秋類</catDesc>
+                                </category>
+                                <category xml:id="KR1f" docs="2" chars="6608" segs="1613" chars-ratio="0.005362704854838527" segs-ratio="0.006473440033390589">
+                                    <catDesc>孝經類</catDesc>
+                                </category>
+                                <category xml:id="KR1g" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>五經總義類</catDesc>
+                                </category>
+                                <category xml:id="KR1h" docs="2" chars="51556" segs="11539" chars-ratio="0.04184013491163061" segs-ratio="0.04630937665548296">
+                                    <catDesc>四書類</catDesc>
+                                </category>
+                                <category xml:id="KR1i" docs="1" chars="985" segs="217" chars-ratio="0.0007993741346876436" segs-ratio="0.0008708843690302281">
+                                    <catDesc>樂類</catDesc>
+                                </category>
+                                <category xml:id="KR1j" docs="5" chars="404751" segs="49545" chars-ratio="0.32847459937965323" segs-ratio="0.19883855328849148">
+                                    <catDesc>小學類</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="KR2" docs="0" chars="0" segs="0" chars-sum="5190209" docs-sum="93" segs-sum="992119" chars-ratio="0.1655478865776627" segs-ratio="0.17552827762836665">
+                                <catDesc>史部</catDesc>
+                                <category xml:id="KR2a" docs="6" chars="3553011" segs="680995" chars-ratio="0.6845602942000987" segs-ratio="0.6864045542923782">
+                                    <catDesc>正史類</catDesc>
+                                </category>
+                                <category xml:id="KR2b" docs="2" chars="192637" segs="38723" chars-ratio="0.03711546105368782" segs-ratio="0.03903060015985985">
+                                    <catDesc>編年類</catDesc>
+                                </category>
+                                <category xml:id="KR2c" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>紀事本末類</catDesc>
+                                </category>
+                                <category xml:id="KR2d" docs="2" chars="105427" segs="22077" chars-ratio="0.02031266948980282" segs-ratio="0.022252370935341426">
+                                    <catDesc>別史類</catDesc>
+                                </category>
+                                <category xml:id="KR2e" docs="2" chars="198304" segs="39727" chars-ratio="0.038207324599067206" segs-ratio="0.040042575537813506">
+                                    <catDesc>雜史類</catDesc>
+                                </category>
+                                <category xml:id="KR2f" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>詔令奏議類</catDesc>
+                                </category>
+                                <category xml:id="KR2g" docs="3" chars="85324" segs="17419" chars-ratio="0.016439415060164244" segs-ratio="0.01755736963005446">
+                                    <catDesc>傳記類</catDesc>
+                                </category>
+                                <category xml:id="KR2h" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>史鈔類</catDesc>
+                                </category>
+                                <category xml:id="KR2i" docs="5" chars="210912" segs="42480" chars-ratio="0.04063651386678263" segs-ratio="0.042817444278357736">
+                                    <catDesc>載記類</catDesc>
+                                </category>
+                                <category xml:id="KR2j" docs="1" chars="21955" segs="4736" chars-ratio="0.0042300801374279915" segs-ratio="0.004773620906363047">
+                                    <catDesc>時令類</catDesc>
+                                </category>
+                                <category xml:id="KR2k" docs="3" chars="340280" segs="60200" chars-ratio="0.06556190704459107" segs-ratio="0.06067820493307759">
+                                    <catDesc>地理類</catDesc>
+                                </category>
+                                <category xml:id="KR2l" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>職官類</catDesc>
+                                </category>
+                                <category xml:id="KR2m" docs="1" chars="182708" segs="33956" chars-ratio="0.03520243597126821" segs-ratio="0.034225733001787086">
+                                    <catDesc>政書類</catDesc>
+                                </category>
+                                <category xml:id="KR2n" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>目錄類</catDesc>
+                                </category>
+                                <category xml:id="KR2o" docs="2" chars="267456" segs="44316" chars-ratio="0.051530872841536825" segs-ratio="0.04466802873445625">
+                                    <catDesc>史評類</catDesc>
+                                </category>
+                                <category xml:id="KR2p" docs="66" chars="32195" segs="7490" chars-ratio="0.006203025735572498" segs-ratio="0.007549497590510816">
+                                    <catDesc>簡帛金石類</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="KR3" docs="0" chars="0" segs="0" chars-sum="24449231" docs-sum="267" segs-sum="4315027" chars-ratio="0.7798372898854505" segs-ratio="0.7634258160864755">
+                                <catDesc>子部</catDesc>
+                                <category xml:id="KR3a" docs="14" chars="2149525" segs="450036" chars-ratio="0.08791789811303267" segs-ratio="0.10429506003091059">
+                                    <catDesc>儒家類</catDesc>
+                                </category>
+                                <category xml:id="KR3b" docs="10" chars="48961" segs="12141" chars-ratio="0.0020025578718610823" segs-ratio="0.0028136556271837927">
+                                    <catDesc>兵家類</catDesc>
+                                </category>
+                                <category xml:id="KR3c" docs="4" chars="270798" segs="59680" chars-ratio="0.01107593118163921" segs-ratio="0.013830736169205894">
+                                    <catDesc>法家類</catDesc>
+                                </category>
+                                <category xml:id="KR3d" docs="1" chars="82774" segs="20367" chars-ratio="0.0033855461548054416" segs-ratio="0.00472001681565376">
+                                    <catDesc>農家類</catDesc>
+                                </category>
+                                <category xml:id="KR3e" docs="9" chars="398385" segs="93941" chars-sum="398385" docs-sum="9" segs-sum="93941" chars-ratio="0.01629437752050361" segs-ratio="0.02177066331218785">
+                                    <catDesc>醫家類</catDesc>
+                                    <category xml:id="KR3ea" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>醫經類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3eb" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>診法類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ec" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>本草類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ed" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>醫方類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ee" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>針灸經穴類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ef" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>傷寒金匱類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3eg" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>溫病類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3eh" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>內科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ei" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>婦產科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ej" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>兒科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ek" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>外科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3el" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>傷科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3em" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>五官科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3en" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>祝由科</catDesc>
+                                    </category>
+                                    <category xml:id="KR3eo" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>養生類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3ep" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>醫案類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3eq" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>醫論醫話隨筆類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3er" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>綜合醫書類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3es" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>醫史考釋類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3et" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>其他類</catDesc>
+                                    </category>
+                                    <category xml:id="KR3eu" docs="0" chars="0" segs="0" chars-ratio="NaN" segs-ratio="NaN">
+                                        <catDesc>叢書</catDesc>
+                                    </category>
+                                </category>
+                                <category xml:id="KR3f" docs="15" chars="404259" segs="54334" chars-sum="5848622" docs-sum="157" segs-sum="497435" chars-ratio="0.2392149675382428" segs-ratio="0.11527969581650359">
+                                    <catDesc>天文算法類</catDesc>
+                                    <category xml:id="KR3fa" docs="39" chars="1675706" segs="104825" chars-ratio="0.30778733894121313" segs-ratio="0.236571346036231">
+                                        <catDesc>天文</catDesc>
+                                    </category>
+                                    <category xml:id="KR3fb" docs="24" chars="1089958" segs="85572" chars-ratio="0.20019936216596873" segs-ratio="0.1931207557644871">
+                                        <catDesc>曆法</catDesc>
+                                    </category>
+                                    <category xml:id="KR3fc" docs="79" chars="2678699" segs="252704" chars-ratio="0.49201329889281814" segs-ratio="0.5703078981992818">
+                                        <catDesc>算法</catDesc>
+                                    </category>
+                                </category>
+                                <category xml:id="KR3g" docs="4" chars="134174" segs="34706" chars-ratio="0.005487861765468206" segs-ratio="0.00804305511877446">
+                                    <catDesc>術數類</catDesc>
+                                </category>
+                                <category xml:id="KR3h" docs="5" chars="13730" segs="2960" chars-ratio="0.0005615718547548592" segs-ratio="0.0006859748502153057">
+                                    <catDesc>藝術類</catDesc>
+                                </category>
+                                <category xml:id="KR3i" docs="1" chars="3231" segs="899" chars-ratio="0.00013215139568193373" segs-ratio="0.00020834168592687833">
+                                    <catDesc>譜錄類</catDesc>
+                                </category>
+                                <category xml:id="KR3j" docs="25" chars="1480363" segs="304716" chars-ratio="0.060548448333610165" segs-ratio="0.0706174028575024">
+                                    <catDesc>雜家類</catDesc>
+                                </category>
+                                <category xml:id="KR3k" docs="22" chars="12020889" segs="2415037" chars-ratio="0.4916673657343251" segs-ratio="0.5596806230876423">
+                                    <catDesc>類書類</catDesc>
+                                </category>
+                                <category xml:id="KR3l" docs="15" chars="1997779" segs="423109" chars-ratio="0.08171132253607485" segs-ratio="0.09805477462829316">
+                                    <catDesc>小說家類</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="KR4" docs="0" chars="0" segs="0" chars-sum="480054" docs-sum="11" segs-sum="95871" chars-ratio="0.015311893055395898" segs-ratio="0.016961747032875226">
+                                <catDesc>集部</catDesc>
+                                <category xml:id="KR4a" docs="1" chars="15271" segs="2596" chars-ratio="0.03181100459531636" segs-ratio="0.027078052800116825">
+                                    <catDesc>楚辭類</catDesc>
+                                </category>
+                                <category xml:id="KR4b" docs="4" chars="104996" segs="19035" chars-ratio="0.21871706099730448" segs-ratio="0.19854804894076414">
+                                    <catDesc>別集類</catDesc>
+                                </category>
+                                <category xml:id="KR4c" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>別集類</catDesc>
+                                </category>
+                                <category xml:id="KR4d" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>別集類</catDesc>
+                                </category>
+                                <category xml:id="KR4e" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>別集類</catDesc>
+                                </category>
+                                <category xml:id="KR4f" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>別集類</catDesc>
+                                </category>
+                                <category xml:id="KR4g" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>別集類</catDesc>
+                                </category>
+                                <category xml:id="KR4h" docs="3" chars="315238" segs="64846" chars-ratio="0.6566719577380878" segs-ratio="0.6763880631264929">
+                                    <catDesc>總集類</catDesc>
+                                </category>
+                                <category xml:id="KR4i" docs="3" chars="44549" segs="9394" chars-ratio="0.09279997666929136" segs-ratio="0.09798583513262614">
+                                    <catDesc>詩文評類</catDesc>
+                                </category>
+                                <category xml:id="KR4j" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>詞曲類</catDesc>
+                                </category>
+                                <category xml:id="KR4k" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                    <catDesc>小説類</catDesc>
+                                </category>
+                            </category>
+                        </category>
+                        <category xml:id="KR5" docs="0" chars="0" segs="0" chars-sum="1630407" docs-sum="22" segs-sum="220396" chars-ratio="0.0369447937839473" segs-ratio="0.027922569967007947">
+                            <catDesc>道部</catDesc>
+                            <category xml:id="KR5a" docs="3" chars="22388" segs="4819" chars-ratio="0.013731540652119378" segs-ratio="0.021865188115936768">
+                                <catDesc>洞真部</catDesc>
+                            </category>
+                            <category xml:id="KR5b" docs="3" chars="9430" segs="1791" chars-ratio="0.005783831889828736" segs-ratio="0.008126281783698433">
+                                <catDesc>洞玄部</catDesc>
+                            </category>
+                            <category xml:id="KR5c" docs="13" chars="1224495" segs="145699" chars-ratio="0.7510363976602161" segs-ratio="0.6610782409844099">
+                                <catDesc>洞神部</catDesc>
+                            </category>
+                            <category xml:id="KR5d" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>太玄部</catDesc>
+                            </category>
+                            <category xml:id="KR5e" docs="1" chars="218256" segs="40998" chars-ratio="0.13386596107597673" segs-ratio="0.1860197099765876">
+                                <catDesc>太平部</catDesc>
+                            </category>
+                            <category xml:id="KR5f" docs="1" chars="154434" segs="26727" chars-ratio="0.09472113404812418" segs-ratio="0.12126808109040091">
+                                <catDesc>太清部</catDesc>
+                            </category>
+                            <category xml:id="KR5g" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>正一部</catDesc>
+                            </category>
+                            <category xml:id="KR5h" docs="1" chars="1404" segs="362" chars-ratio="0.0008611346737348404" segs-ratio="0.0016424980489664058">
+                                <catDesc>續道藏</catDesc>
+                            </category>
+                            <category xml:id="KR5i" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>清代道教文獻</catDesc>
+                            </category>
+                            <category xml:id="KR5j" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>敦煌道教文獻</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="KR6" docs="0" chars="0" segs="0" chars-sum="11148785" docs-sum="154" segs-sum="2020528" chars-ratio="0.2526299033103789" segs-ratio="0.2559861996147781">
+                            <catDesc>佛部</catDesc>
+                            <category xml:id="KR6a" docs="19" chars="321376" segs="42776" chars-ratio="0.028826100781385595" segs-ratio="0.021170703895219467">
+                                <catDesc>阿含部類</catDesc>
+                            </category>
+                            <category xml:id="KR6b" docs="11" chars="302659" segs="56737" chars-ratio="0.0271472631322606" segs-ratio="0.028080283965379347">
+                                <catDesc>本緣部類</catDesc>
+                            </category>
+                            <category xml:id="KR6c" docs="10" chars="2324031" segs="349560" chars-ratio="0.20845598870190787" segs-ratio="0.1730042840287291">
+                                <catDesc>般若部類</catDesc>
+                            </category>
+                            <category xml:id="KR6d" docs="5" chars="314803" segs="46314" chars-ratio="0.02823652981019905" segs-ratio="0.022921731349429455">
+                                <catDesc>法華部類</catDesc>
+                            </category>
+                            <category xml:id="KR6e" docs="5" chars="207309" segs="32012" chars-ratio="0.018594761671339072" segs-ratio="0.015843383511636562">
+                                <catDesc>華嚴部類</catDesc>
+                            </category>
+                            <category xml:id="KR6f" docs="13" chars="136709" segs="20032" chars-ratio="0.012262233059476884" segs-ratio="0.009914240238195164">
+                                <catDesc>寶積部類</catDesc>
+                            </category>
+                            <category xml:id="KR6g" docs="5" chars="992834" segs="179811" chars-ratio="0.08905311206557485" segs-ratio="0.08899208523712614">
+                                <catDesc>涅槃部類</catDesc>
+                            </category>
+                            <category xml:id="KR6h" docs="3" chars="134045" segs="17077" chars-ratio="0.01202328325463268" segs-ratio="0.008451751225422266">
+                                <catDesc>大集部類</catDesc>
+                            </category>
+                            <category xml:id="KR6i" docs="43" chars="325645" segs="49425" chars-ratio="0.029209012461896073" segs-ratio="0.024461427903993412">
+                                <catDesc>經集部類</catDesc>
+                            </category>
+                            <category xml:id="KR6j" docs="1" chars="8233" segs="1027" chars-ratio="0.0007384661198507281" segs-ratio="0.0005082829834577893">
+                                <catDesc>密教部類</catDesc>
+                            </category>
+                            <category xml:id="KR6k" docs="6" chars="977645" segs="140375" chars-ratio="0.08769072145529759" segs-ratio="0.06947441460845878">
+                                <catDesc>律部類</catDesc>
+                            </category>
+                            <category xml:id="KR6l" docs="1" chars="4367" segs="744" chars-ratio="0.0003917018760340252" segs-ratio="0.0003682205839265776">
+                                <catDesc>毘曇部類</catDesc>
+                            </category>
+                            <category xml:id="KR6m" docs="2" chars="39529" segs="7088" chars-ratio="0.003545588151534001" segs-ratio="0.0035079939500962127">
+                                <catDesc>中觀部類</catDesc>
+                            </category>
+                            <category xml:id="KR6n" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>瑜伽部類</catDesc>
+                            </category>
+                            <category xml:id="KR6o" docs="4" chars="256080" segs="44356" chars-ratio="0.022969319078267273" segs-ratio="0.021952677715923758">
+                                <catDesc>論集部類</catDesc>
+                            </category>
+                            <category xml:id="KR6p" docs="1" chars="4160" segs="681" chars-ratio="0.00037313483038734716" segs-ratio="0.00033704061512634324">
+                                <catDesc>淨土宗部類</catDesc>
+                            </category>
+                            <category xml:id="KR6q" docs="6" chars="1948886" segs="411951" chars-ratio="0.17480703054189314" segs-ratio="0.2038828464638946">
+                                <catDesc>禪宗部類</catDesc>
+                            </category>
+                            <category xml:id="KR6r" docs="14" chars="1282592" segs="205390" chars-ratio="0.11504320874427124" segs-ratio="0.10165164749016099">
+                                <catDesc>史傳部類</catDesc>
+                            </category>
+                            <category xml:id="KR6s" docs="4" chars="1483581" segs="401717" chars-ratio="0.13307109250021415" segs-ratio="0.1988178337543454">
+                                <catDesc>事彙部類</catDesc>
+                            </category>
+                            <category xml:id="KR6t" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>續諸宗(日本)</catDesc>
+                            </category>
+                            <category xml:id="KR6u" docs="0" chars="0" segs="0" chars-ratio="0" segs-ratio="0">
+                                <catDesc>敦煌寫本部類</catDesc>
+                            </category>
+                            <category xml:id="KR6v" docs="1" chars="84301" segs="13455" chars-ratio="0.0075614517635778245" segs-ratio="0.006659150479478631">
+                                <catDesc>新編部類</catDesc>
+                            </category>
+                        </category>
+                    </category>
+                    <category rend="top" xml:id="tls-regions">
+                        <catDesc rend="top">Regions</catDesc>
+                        <category xml:id="non-china">
+                            <catDesc>非中國</catDesc>
+                            <category xml:id="korea">
+                                <catDesc>朝鮮半島</catDesc>
+                                <category xml:id="reg036" n="32">
+                                    <catDesc>新羅</catDesc>
+                                </category>
+                                <category xml:id="reg043" n="3">
+                                    <catDesc>朝鮮</catDesc>
+                                </category>
+                                <category xml:id="reg032" n="12">
+                                    <catDesc>高麗</catDesc>
+                                </category>
+                            </category>
+                            <category xml:id="japan">
+                                <catDesc>日本</catDesc>
+                            </category>
+                        </category>
+                        <category xml:id="china">
+                            <catDesc>中國</catDesc>
+                            <category xml:id="reg001" n="655">
+                                <catDesc>宋</catDesc>
+                            </category>
+                            <category xml:id="reg002" n="909">
+                                <catDesc>唐</catDesc>
+                            </category>
+                            <category xml:id="reg003" n="420">
+                                <catDesc>明</catDesc>
+                            </category>
+                            <category xml:id="reg004" n="1">
+                                <catDesc>唐宋</catDesc>
+                            </category>
+                            <category xml:id="reg013" n="138">
+                                <catDesc>隋</catDesc>
+                            </category>
+                            <category xml:id="reg005" n="64">
+                                <catDesc>元</catDesc>
+                            </category>
+                            <category xml:id="reg006" n="524">
+                                <catDesc>清</catDesc>
+                            </category>
+                            <category xml:id="reg007" n="75" ana="#dat02200">
+                                <catDesc>民國</catDesc>
+                            </category>
+                            <category xml:id="reg008" n="24">
+                                <catDesc>後秦</catDesc>
+                            </category>
+                            <category xml:id="reg009" n="140">
+                                <catDesc>西晉</catDesc>
+                            </category>
+                            <category xml:id="reg010" n="56">
+                                <catDesc>東晉</catDesc>
+                            </category>
+                            <category xml:id="reg011" n="79">
+                                <catDesc>東漢</catDesc>
+                            </category>
+                            <category xml:id="reg012" n="61">
+                                <catDesc>吳</catDesc>
+                            </category>
+                            <category xml:id="reg014" n="17">
+                                <catDesc>北涼</catDesc>
+                            </category>
+                            <category xml:id="reg015" n="98">
+                                <catDesc>劉宋</catDesc>
+                            </category>
+                            <category xml:id="reg016" n="6">
+                                <catDesc>蕭齊</catDesc>
+                            </category>
+                            <category xml:id="reg017" n="36">
+                                <catDesc>陳</catDesc>
+                            </category>
+                            <category xml:id="reg018" n="26">
+                                <catDesc>東魏</catDesc>
+                            </category>
+                            <category xml:id="reg019" n="6">
+                                <catDesc>西秦</catDesc>
+                            </category>
+                            <category xml:id="reg020" n="5">
+                                <catDesc>乞伏秦</catDesc>
+                            </category>
+                            <category xml:id="reg021" n="45">
+                                <catDesc>姚秦</catDesc>
+                            </category>
+                            <category xml:id="reg022" n="6">
+                                <catDesc>符秦</catDesc>
+                            </category>
+                            <category xml:id="reg023" n="32">
+                                <catDesc>元魏</catDesc>
+                            </category>
+                            <category xml:id="reg024" n="5">
+                                <catDesc>前秦</catDesc>
+                            </category>
+                            <category xml:id="reg025" n="33">
+                                <catDesc>梁</catDesc>
+                            </category>
+                            <category xml:id="reg026" n="6">
+                                <catDesc>曹魏</catDesc>
+                            </category>
+                            <category xml:id="reg027" n="1">
+                                <catDesc>前涼</catDesc>
+                            </category>
+                            <category xml:id="reg028" n="4">
+                                <catDesc>高齊</catDesc>
+                            </category>
+                            <category xml:id="reg029" n="1">
+                                <catDesc>後漢</catDesc>
+                            </category>
+                            <category xml:id="reg030" n="18">
+                                <catDesc>後魏</catDesc>
+                            </category>
+                            <category xml:id="reg031" n="1" ana="#reg033">
+                                <catDesc>宇文周</catDesc>
+                            </category>
+                            <category xml:id="reg033" n="5">
+                                <catDesc>北周</catDesc>
+                            </category>
+                            <category xml:id="reg034" n="1">
+                                <catDesc>北齊</catDesc>
+                            </category>
+                            <category xml:id="reg035" n="2">
+                                <catDesc>晉</catDesc>
+                            </category>
+                            <category xml:id="reg037" n="1">
+                                <catDesc>北魏</catDesc>
+                            </category>
+                            <category xml:id="reg038" n="6">
+                                <catDesc>遼</catDesc>
+                            </category>
+                            <category xml:id="reg039" n="1">
+                                <!-- 西夏 -->
+                                <catDesc>西夏</catDesc>
+                                <catDesc>夏</catDesc>
+                            </category>
+                            <category xml:id="reg040" n="1">
+                                <catDesc>南唐</catDesc>
+                            </category>
+                            <category xml:id="reg041" n="1">
+                                <catDesc>北宋</catDesc>
+                            </category>
+                            <category xml:id="reg042" n="1">
+                                <catDesc>南宋</catDesc>
+                            </category>
+                            <category xml:id="reg044" n="3">
+                                <catDesc>胡</catDesc>
+                            </category>
+                            <category xml:id="reg045" n="1">
+                                <catDesc>後唐</catDesc>
+                            </category>
+                            <category xml:id="reg046" n="1">
+                                <catDesc>南北朝</catDesc>
+                            </category>
+                            <category xml:id="reg047" n="1">
+                                <catDesc>後晉</catDesc>
+                            </category>
+                            <category xml:id="reg048" n="1">
+                                <catDesc>南漢</catDesc>
+                            </category>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
