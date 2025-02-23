@@ -112,7 +112,7 @@
   <def>(with negatives) not to care about N</def>
             </sense>
 </entry>
-    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="ASK" tls:concept-id="uuid-3d43f68e-3945-471c-8f28-42b152565baa" xml:id="uuid-a39c1a31-d075-4e5c-8127-9b5b793997dc" n="383">
+    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="ASK" tls:concept-id="uuid-3d43f68e-3945-471c-8f28-42b152565baa" xml:id="uuid-a39c1a31-d075-4e5c-8127-9b5b793997dc" n="391">
             <form corresp="#uuid-98995e63-a668-4236-8491-59fbf6ee030c">
 <orth>問</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">wèn</pron>
@@ -122,7 +122,7 @@
             <def>The general word is wèn 問 "open a dialogue by consulting someone with a question" (ant. duì 對 "reply to a superior") which typically refers to the consultation of a person who is supposed to know something, and typically the person to whom a question is addressed is regarded in the context as an authority though not necessarily a person of superior status. Thus the word, while extremely common, is not really a general word for "to ask".
 [SPECIFIC];   [[COMMOM+]]
 </def>
-<sense xml:id="uuid-6f8e12ea-e2ae-4048-ba9c-45a61673c15e">
+<sense xml:id="uuid-6f8e12ea-e2ae-4048-ba9c-45a61673c15e" n="0">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-0b9195a6-7aa5-4f97-b489-54e635423cdd">nab.t:(+prep+N)</tls:syn-func>
@@ -191,7 +191,7 @@
                 </gramGrp>
   <def resp="#CH" updated="2025-02-19T23:20:19.918+09:00">seek consel from/ask the contextually determinate question 又問</def>
             </sense>
-<sense xml:id="uuid-ac5156bd-e9bf-4a0f-a9bf-b848e34c9e2d">
+<sense xml:id="uuid-ac5156bd-e9bf-4a0f-a9bf-b848e34c9e2d" n="0">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-65d93b56-a5a4-48f1-999e-bca54da80015">vt[0]+V[0]</tls:syn-func>
@@ -239,7 +239,7 @@
                 </gramGrp>
   <def>asked about N (and said)　問之曰</def>
             </sense>
-<sense xml:id="uuid-777bb3cc-acd2-4601-8034-41c4efb404a7">
+<sense xml:id="uuid-777bb3cc-acd2-4601-8034-41c4efb404a7" n="0">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
@@ -281,7 +281,7 @@
                 </gramGrp>
   <def>be asked about 未可問</def>
             </sense>
-<sense xml:id="uuid-8830cd2b-e077-4069-82c4-ff540d3bc0c1" n="5">
+<sense xml:id="uuid-8830cd2b-e077-4069-82c4-ff540d3bc0c1" n="7">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-100c3a16-97ae-4bdd-8b0a-007f3c9cdac1">vtoNab[act]</tls:syn-func>
@@ -322,7 +322,7 @@
                 </gramGrp>
   <def resp="#CH" updated="2025-02-19T23:28:15.279+09:00">to seek counsel/ask (somebody N2) about something contextually determinate N1　問於孔子</def>
             </sense>
-<sense xml:id="uuid-00533784-f629-4a12-95e4-6e8e389d0f32">
+<sense xml:id="uuid-00533784-f629-4a12-95e4-6e8e389d0f32" n="0">
 <gramGrp>
                     <pos>D</pos>
   <tls:syn-func corresp="#uuid-24610794-42b5-4a3c-bf82-336ffa070680">DELETE</tls:syn-func>
@@ -386,7 +386,7 @@
 <sense xml:id="uuid-212376fc-7ea6-42e6-ad53-0ca216fcf7c1" resp="#CH" tls:created="2019-11-15T01:48:58.264+09:00" n="1">
             <gramGrp>
                 <pos>V</pos>
-                <tls:syn-func corresp="#">vtt(oN1.)( prep N)</tls:syn-func>
+                <tls:syn-func corresp="#uuid-e4632c14-5507-4740-a32c-145507874069">vtt(oN1.)(+prep+N2) N)</tls:syn-func>
             </gramGrp>
             <def>ask the contextually determinate person N1 questions concerning the topic N2</def>
         </sense>
@@ -418,7 +418,22 @@
                 <tls:syn-func corresp="#uuid-e0354a6b-29b1-4b41-a494-59df1daddc7e">vttoN1.+prep+N2</tls:syn-func>
                 <tls:sem-feat corresp="#uuid-bbe5fc11-7f1f-4463-a5fc-117f1ff463ab">N2=matter</tls:sem-feat>
             </gramGrp>
-            <def>to ask an interlocutor N1 about the matter N2</def>
+            <def resp="#CH" updated="2025-02-23T20:02:51.314+09:00">to ask an interlocutor N1 about the concrete matter N2</def>
+        </sense>
+        <sense xml:id="uuid-9bc98256-ffff-40c4-8982-56ffffc0c4e3" resp="#CH" tls:created="2025-02-23T19:49:40.157+09:00" n="5">
+            <gramGrp>
+                <pos>V</pos>
+                <tls:syn-func corresp="#uuid-7c17e264-ca77-426f-9d42-84b3dc58f7d0">vttoNab(.+prep+N)</tls:syn-func>
+                <tls:sem-feat corresp="#uuid-048646d1-c755-48d0-8646-d1c75598d0eb">N=consulted person</tls:sem-feat>
+            </gramGrp>
+            <def>consult the contextually determinate N about the matter Nab</def>
+        </sense>
+        <sense xml:id="uuid-dfc66a9a-0213-4efb-866a-9a02133efba2" resp="#CH" tls:created="2025-02-23T20:06:37.63+09:00" n="1">
+            <gramGrp>
+                <pos>V</pos>
+                <tls:syn-func corresp="#uuid-04979d2a-6f20-4f18-979d-2a6f207f18a9">vttoN1.(+prep+N2)</tls:syn-func>
+            </gramGrp>
+            <def>consult the contextually determinate N2 about N1</def>
         </sense>
     </entry>
     <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="CONTROL" tls:concept-id="uuid-dfc9d96d-84c1-4c62-a62d-02d46f969149" xml:id="uuid-63d118a4-1181-469f-a6ea-4222c4fc8419" n="1">
