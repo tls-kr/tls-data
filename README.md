@@ -2,7 +2,7 @@
 XML version of the TLS database. This is a companion app for the main [TLS](https://github.com/tls-kr/tls-app).
 
 ## Requirements
-*   [exist-db](http://exist-db.org/exist/apps/homepage/index.html) version: ``3.6.1`` or greater
+*   [exist-db](http://exist-db.org/exist/apps/homepage/index.html) version: ``5.3.1`` or greater
 *   [ant](http://ant.apache.org) version: ``1.10.5`` \(for building from source\)
 
 ## Building and Installation
