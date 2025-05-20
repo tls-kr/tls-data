@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR3a0069-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 孔子集語</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2025-05-19T23:22:37.855+09:00</date> by CH</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR3a0069-start">
+                    <seg xml:id="KR3a0069_tls_004-5a.3">
+                        <line>「河為祟。」</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="DISASTER" concept-id="uuid-6cb198c0-7d4d-4e90-9168-d3e1e5743bf2" xml:id="uuid-a6989c62-4fdc-4e9b-989c-624fdcde9bf6">
+                            <link target="#KR3a0069_tls_004-5a.3 #uuid-38aa422a-26f5-4dd4-bdcd-4e2f40a8af51"/>
+                            <tls:text>
+                                <tls:srcline title="孔子集語" target="#KR3a0069_tls_004-5a.3" pos="4">「河為祟。」</tls:srcline>
+                                <tls:line title="Translation of 孔子集語 into (English)" transl-id="KR3a0069-en-0ba9228d" src="AI - Gemini">"The river is causing the trouble."</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-602dcaaa-afc5-430d-9a14-a2b417e2cbce" orig="">
+                                <orth>祟</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">suì</pron>
+                            </form>
+                            <sense corresp="#uuid-38aa422a-26f5-4dd4-bdcd-4e2f40a8af51">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-9b914785-f29d-41c6-855f-d555f67a67be">event</tls:sem-feat>
+                </gramGrp>
+                                <def>disaster; calamities</def>
+                            </sense>
+                            <tls:metadata resp="#CH" created="2025-05-19T23:22:37.855+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2025-05-19T23:22:37.855+09:00">CH</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
