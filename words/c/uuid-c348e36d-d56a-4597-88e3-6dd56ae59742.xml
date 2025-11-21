@@ -40,7 +40,7 @@
             <def resp="#CH" updated="2023-07-12T17:33:28.295+09:00">be carried far; become overextended</def>
         </sense>
     </entry>
-    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="ARGUE" tls:concept-id="uuid-3d3331be-f86b-4a44-bed1-bb64021abd35" xml:id="uuid-8c5d15df-54b8-4371-b7bf-78f1c973a1e2" n="1">
+    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="ARGUE" tls:concept-id="uuid-3d3331be-f86b-4a44-bed1-bb64021abd35" xml:id="uuid-8c5d15df-54b8-4371-b7bf-78f1c973a1e2" n="3">
         <form corresp="#uuid-e8c79343-e431-4a15-a449-9de8b55c2ef9">
             <orth>推</orth>
             <pron xml:lang="zh-Latn-x-pinyin">tuī</pron>
@@ -53,6 +53,14 @@
                 <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
             </gramGrp>
             <def>argue for N</def>
+        </sense>
+        <sense xml:id="uuid-541083f3-5760-4d0b-9083-f35760bd0bcf" resp="#CH" tls:created="2025-10-31T01:28:29.068+09:00" n="2">
+            <gramGrp>
+                <pos>V</pos>
+                <tls:syn-func corresp="#">vtoN.adV</tls:syn-func>
+                <tls:sem-feat corresp="#uuid-4ecdf14a-965f-450e-8df1-4a965f350e6f">N=basis</tls:sem-feat>
+            </gramGrp>
+            <def>generalise from; argue more generally from</def>
         </sense>
     </entry>
     <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="RECOMMEND" tls:concept-id="uuid-c6de376f-b3b8-4013-995c-88d0e9926cbf" xml:id="uuid-819a6329-92ac-49a8-ba85-8f156ad89196" n="4">
@@ -161,7 +169,7 @@
   <def>deduce (sometimes also more concretely: calculate ??)</def>
             </sense>
 </entry>
-    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="PUSH" tls:concept-id="uuid-a6434ef5-1e04-465f-b059-a4d2e2145552" xml:id="uuid-ad504677-2211-4e69-a2e5-bf971cdbfa19" n="10">
+    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="PUSH" tls:concept-id="uuid-a6434ef5-1e04-465f-b059-a4d2e2145552" xml:id="uuid-ad504677-2211-4e69-a2e5-bf971cdbfa19" n="11">
             <form corresp="#uuid-e8c79343-e431-4a15-a449-9de8b55c2ef9">
 <orth>推</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">tuī</pron>
@@ -197,5 +205,13 @@
                 </gramGrp>
   <def>give a push 三推</def>
             </sense>
-</entry>
+<sense xml:id="uuid-78d2f74c-53e6-470f-92f7-4c53e6170f30" resp="#CH" tls:created="2025-10-23T17:14:49.919+09:00" n="1">
+            <gramGrp>
+                <pos>V</pos>
+                <tls:syn-func corresp="#uuid-2092231f-3604-4bd6-9223-1f36041bd6e1">vt(oN.)adV[0]</tls:syn-func>
+                <tls:sem-feat corresp="#">figurative</tls:sem-feat>
+            </gramGrp>
+            <def>insist on V-ing</def>
+        </sense>
+    </entry>
 </superEntry>

@@ -66,7 +66,7 @@
   <def>eunuch; inner palace door-keeper</def>
             </sense>
 </entry>
-    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="CASTRATE" tls:concept-id="uuid-2b8cad76-d05c-4793-84c3-0766768bddfe" xml:id="uuid-7e91f380-6b94-4219-8fa6-7a5214d44f89" n="0">
+    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="CASTRATE" tls:concept-id="uuid-2b8cad76-d05c-4793-84c3-0766768bddfe" xml:id="uuid-7e91f380-6b94-4219-8fa6-7a5214d44f89" n="2">
             <form corresp="#uuid-1636a29a-10ef-4946-bcd7-30565b58fe11">
 <orth>奄</orth>
                 <pron xml:lang="zh-Latn-x-pinyin">yǎn</pron>
@@ -79,14 +79,14 @@
                 <pron xml:lang="zh-x-oc">qrom</pron>
                 <pron xml:lang="zh-x-mc">ʔiɛm</pron>
             </form>
-<sense xml:id="uuid-65c9ee2a-6082-4923-aff0-f9fc481a8953">
+<sense xml:id="uuid-65c9ee2a-6082-4923-aff0-f9fc481a8953" n="1">
 <gramGrp>
                     <pos>V</pos>
   <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
                 </gramGrp>
   <def>castrate</def>
             </sense>
-<sense xml:id="uuid-f267a70b-85f9-497f-83ac-c26b538a8a0c">
+<sense xml:id="uuid-f267a70b-85f9-497f-83ac-c26b538a8a0c" n="0">
 <gramGrp>
                     <pos>N</pos>
   <tls:syn-func corresp="#uuid-76be1df4-3d73-4e5f-bbc2-729542645bc8">nab</tls:syn-func>
@@ -94,5 +94,13 @@
                 </gramGrp>
   <def>castration</def>
             </sense>
-</entry>
+<sense xml:id="uuid-de2f817b-964e-47b1-af81-7b964e07b170" resp="#CH" tls:created="2025-10-20T03:39:20.926+09:00" n="1">
+            <gramGrp>
+                <pos>V</pos>
+                <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                <tls:sem-feat corresp="#uuid-6dc7fe58-3a31-4e0c-8040-5e550f29b0c4">iussive</tls:sem-feat>
+            </gramGrp>
+            <def>have N castrated</def>
+        </sense>
+    </entry>
 </superEntry>
