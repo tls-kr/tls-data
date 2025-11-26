@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR3l0129-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 笑林</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2025-12-03T13:02:00.834+09:00</date> by chris</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR3l0129-start">
+                    <seg xml:id="KR3l0129_tls_001-1a.7">
+                        <line>『與傖人同死，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="VULGAR" concept-id="uuid-4ab5d090-c2ec-4d28-8451-dfa829fe558a" xml:id="uuid-b69f181c-2d45-42e8-9f18-1c2d45d2e832">
+                            <link target="#KR3l0129_tls_001-1a.7 #uuid-557b7712-211c-4342-9b35-787890b4c646"/>
+                            <tls:text>
+                                <tls:srcline title="笑林" target="#KR3l0129_tls_001-1a.7" pos="3">『與傖人同死，</tls:srcline>
+                                <tls:line title="笑林(en)" transl-id="KR3l0129-en" src="Christoph Harbsmeier">"If I had died together with these bastards </tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-329cb356-6d21-40c2-aa9a-d8a9f25ac668" orig="">
+                                <orth>傖</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">cāng</pron>
+                            </form>
+                            <sense corresp="#uuid-557b7712-211c-4342-9b35-787890b4c646">
+                                <gramGrp>
+                    <pos>V</pos>
+  <tls:syn-func corresp="#uuid-fed035db-e7bd-4d23-bd05-9698b26e38f9">vadN</tls:syn-func>
+                </gramGrp>
+                                <def>vulgar; barbaric</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2025-12-03T13:02:00.834+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2025-12-03T13:02:00.834+09:00">chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
