@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tk="http://kanripo.org/ns/KRX/Token/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:tls="http://exist-db.org/tls" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <fulltext default="none" attributes="false"/>
+        <lucene>
+            <text qname="tei:head"/>
+            <text match="//tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+        </lucene>
+        
+        <range>
+            <create qname="@xml:id" type="xs:string"/>
+            <create qname="@corresp" type="xs:string"/>
+            <create qname="@type" type="xs:string"/>
+            <create qname="@from" type="xs:string"/>
+            <create qname="@to" type="xs:string"/>
+            <create qname="tei:idno" type="xs:string"/>
+        </range>
+<!--        <ngram qname="tei:p"/>
+        <ngram qname="tei:lg"/> -->
+    </index>
+</collection>
