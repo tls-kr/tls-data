@@ -89,12 +89,12 @@
             </sense>
 </entry>
     <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="THRESHOLD" tls:concept-id="uuid-e0c9c25d-b6e0-4f6f-8937-8c3895464d61" xml:id="uuid-de885c6f-3fed-4ef3-9e9d-c5fb708badea" n="0">
-            <form>
-<orth>切</orth>
-                <pron xml:lang="zh-Latn-x-pinyin"/>
-                <pron xml:lang="zh-x-oc"/>
-                <pron xml:lang="zh-x-mc"/>
-            </form>
+            <form corresp="#uuid-d59f2ced-03ff-4c88-9448-8a9737fbf88c">
+            <orth>切</orth>
+            <pron xml:lang="zh-Latn-x-pinyin">qiè</pron>
+            <pron xml:lang="zh-x-mc" resp="rec:baxter">tshejH</pron>
+            <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiids</pron>
+        </form>
             <def>qì
 </def>
 <sense xml:id="uuid-fedce359-1286-4654-9354-3c56599ecd7c">
@@ -262,4 +262,20 @@
   <def>gnash (teeth)</def>
             </sense>
 </entry>
+    <entry xmlns:tls="http://hxwd.org/ns/1.0" tls:concept="PRONOUNCE" tls:concept-id="uuid-01183e72-9136-4006-8d2d-2bcdf9cff129" type="word" xml:id="uuid-2de3d8a1-04d8-4af0-a3d8-a104d85af0a8" resp="#CH" tls:created="2025-11-29T05:50:01.225+09:00" n="1">
+        <form corresp="#uuid-81c28de1-ab95-4916-8f6c-2118471b340d">
+            <orth>切</orth>
+            <pron xml:lang="zh-Latn-x-pinyin">qiē, qiè</pron>
+            <pron xml:lang="zh-x-mc" resp="rec:baxter">tshet</pron>
+            <pron xml:lang="zh-x-oc" resp="rec:pan-wuyun">snʰiid</pron>
+        </form>
+        <sense xml:id="uuid-50ff49e9-7b75-440b-bf49-e97b75940b4d" resp="#CH" tls:created="2025-11-29T05:50:01.225+09:00" n="1">
+            <gramGrp>
+                <pos>V</pos>
+                <tls:syn-func corresp="#uuid-fbfb2371-2537-4a99-a876-41b15ec2463c">vtoN</tls:syn-func>
+                <tls:sem-feat corresp="#uuid-6f2fab01-1156-4ed8-9b64-74c1e7455915">middle voice</tls:sem-feat>
+            </gramGrp>
+            <def>lexicographic technical term: be the pronunciation, as indicated by the preceding two characters, the initial being indicated by the first character and the rhyme by the second character, of a contextually determinate character N</def>
+        </sense>
+    </entry>
 </superEntry>
