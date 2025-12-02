@@ -20,7 +20,7 @@
           </bibl> into <lang xml:lang="en">English</lang>.</ab>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    
         <creation resp="#CH">Initially created: <date>2025-11-23T03:30:55.336+09:00</date> by CH<code lang="system-prompt" resp="deepseek"/>
         <code lang="user-prompt" resp="deepseek">Translate the following text from Classical Chinese into $lang.
 
@@ -39,14 +39,36 @@ Requirements:
 5. The target language is $lang.
 
 Input text:</code>
-      </creation>
-    </profileDesc>
+      <code lang="system-prompt" resp="openai" type="suppl">You are a precise translator from Classical Chinese to English. Your task is to produce faithful, fluent English translations while preserving all formatting constraints exactly.</code>
+      <code lang="user-prompt" resp="openai" type="suppl">Translate the following text from Classical Chinese into English.
+
+Requirements:
+1. The text contains page numbers in square brackets, such as [01], [02], etc.
+   - These must be passed through unchanged.
+   - Each page number must appear in exactly the same position in the translation as in the source.
+   - The number of page markers in the output must match the input exactly.
+
+2. Personal names, place names, titles, and other proper nouns should be rendered in Hànyǔ Pīnyīn with tone marks.
+
+3. Do NOT transcribe the full Classical Chinese text into Pinyin.
+
+4. Do NOT include explanatory notes, annotations, or commentary — output only the English translation.
+
+5. The target language is English.
+
+Input text:</code>
+    </creation>
+    <revisionDesc>
+      <change when="2025-12-02+09:00">
+        <name>CW</name>
+                    Added supplementary prompts for openai, for retranslation of missing parts.
+		                </change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div>
-        <head>Translated parts</head>
-        <p pos="00001">
+      <head>Translated parts</head>
+      <p pos="00001">
     <seg corresp="#CH2b1581_CHANT_001-1a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:56:16.063Z"/>
     <seg corresp="#CH2b1581_CHANT_001-1a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:56:16.068Z">"Halting Clouds"</seg>
     <seg corresp="#CH2b1581_CHANT_001-1a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:56:16.068Z">Halting clouds -</seg>
@@ -246,7 +268,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_001-14a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:56:16.077Z">Mornings I tend the garden,</seg>
     <seg corresp="#CH2b1581_CHANT_001-14a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:56:16.077Z">Evenings I recline in my thatched hut.</seg>
   </p>
-        <p pos="00002">
+      <p pos="00002">
     <seg corresp="#CH2b1581_CHANT_001-15a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:57:21.54Z"/>
     <seg corresp="#CH2b1581_CHANT_001-15a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:57:21.541Z">What people treasure,</seg>
     <seg corresp="#CH2b1581_CHANT_001-15a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:57:21.541Z">May sometimes lack true worth.</seg>
@@ -441,7 +463,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_001-27a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:57:21.547Z">Calling to companions, they sing,</seg>
     <seg corresp="#CH2b1581_CHANT_001-27a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:57:21.547Z">Sheltering in clear shades, withdrawn.</seg>
   </p>
-        <p pos="00003">
+      <p pos="00003">
     <seg corresp="#CH2b1581_CHANT_001-27a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:58:41.534Z">Graceful returning birds,</seg>
     <seg corresp="#CH2b1581_CHANT_001-27a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:58:41.534Z">Now soaring, now flying.</seg>
     <seg corresp="#CH2b1581_CHANT_001-27a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:58:41.534Z">Though not longing to wander,</seg>
@@ -634,7 +656,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_002-10a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:58:41.537Z"/>
     <seg corresp="#CH2b1581_CHANT_002-10a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T03:58:41.537Z">Five</seg>
   </p>
-        <p pos="00004">
+      <p pos="00004">
     <seg corresp="#CH2b1581_CHANT_002-10a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:00:03.767Z">Disconsolate, I return alone, my staff in hand,</seg>
     <seg corresp="#CH2b1581_CHANT_002-10a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:00:03.768Z">Through rugged paths, past overgrown bushes I've spanned.</seg>
     <seg corresp="#CH2b1581_CHANT_002-10a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:00:03.768Z">The mountain stream runs clear and shallow,</seg>
@@ -827,7 +849,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_002-21a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:00:03.77Z">"Composed on the First Day of the Fifth Month, in Response to Registrar Dài"</seg>
     <seg corresp="#CH2b1581_CHANT_002-21a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:00:03.77Z"/>
   </p>
-        <p pos="00005">
+      <p pos="00005">
     <seg corresp="#CH2b1581_CHANT_002-21a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:01:21.247Z">The empty boat drifts with carefree oars,</seg>
     <seg corresp="#CH2b1581_CHANT_002-21a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:01:21.247Z">Turning back, it seems without end.</seg>
     <seg corresp="#CH2b1581_CHANT_002-21a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:01:21.247Z">The year begins with a glance up and down,</seg>
@@ -1014,7 +1036,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_002-31a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:01:21.25Z">On a mission to Qínchuān,</seg>
     <seg corresp="#CH2b1581_CHANT_002-31a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:01:21.25Z">I write this for him.</seg>
   </p>
-        <p pos="00006">
+      <p pos="00006">
     <seg corresp="#CH2b1581_CHANT_002-31a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:02:44.776Z">Born after three dynasties' decline,</seg>
     <seg corresp="#CH2b1581_CHANT_002-31a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:02:44.776Z">I long for Huángdì and Yú's reign with a sigh.</seg>
     <seg corresp="#CH2b1581_CHANT_002-31a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:02:44.776Z">To learn of millennia beyond my time,</seg>
@@ -1202,7 +1224,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_003-6a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:02:44.779Z"/>
     <seg corresp="#CH2b1581_CHANT_003-6a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:02:44.779Z">Two</seg>
   </p>
-        <p pos="00007">
+      <p pos="00007">
     <seg corresp="#CH2b1581_CHANT_003-6a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:03:54.702Z">My late teacher left a teaching:</seg>
     <seg corresp="#CH2b1581_CHANT_003-6a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:03:54.702Z">Worry about the Way, not about poverty.</seg>
     <seg corresp="#CH2b1581_CHANT_003-6a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:03:54.702Z">Looking up, it seems distant and hard to reach,</seg>
@@ -1397,7 +1419,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_003-16a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:03:54.704Z"/>
     <seg corresp="#CH2b1581_CHANT_003-16a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:03:54.704Z">Second</seg>
   </p>
-        <p pos="00008">
+      <p pos="00008">
     <seg corresp="#CH2b1581_CHANT_003-16a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:05:16.097Z">They say accumulation of good deeds brings reward;</seg>
     <seg corresp="#CH2b1581_CHANT_003-16a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:05:16.097Z">Bó Yí and Shū Qí starved on Shǒuyáng's height.</seg>
     <seg corresp="#CH2b1581_CHANT_003-16a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:05:16.097Z">If virtue and vice lack due recompense,</seg>
@@ -1599,7 +1621,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_003-32a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:05:16.099Z"/>
     <seg corresp="#CH2b1581_CHANT_003-32a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:05:16.099Z">XVIII</seg>
   </p>
-        <p pos="00009">
+      <p pos="00009">
     <seg corresp="#CH2b1581_CHANT_003-32a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:06:22.395Z">Zǐ Yún had a nature addicted to wine,</seg>
     <seg corresp="#CH2b1581_CHANT_003-32a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:06:22.396Z">But his home was poor and he had no means to obtain it.</seg>
     <seg corresp="#CH2b1581_CHANT_003-32a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:06:22.396Z">Occasionally, he relied on well-meaning people,</seg>
@@ -1799,7 +1821,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_004-2a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:06:22.397Z"/>
     <seg corresp="#CH2b1581_CHANT_004-2a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:06:22.397Z">Two</seg>
   </p>
-        <p pos="00010">
+      <p pos="00010">
     <seg corresp="#CH2b1581_CHANT_004-2a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:07:34.222Z">I leave home at dawn in my carriage well-equipped,</seg>
     <seg corresp="#CH2b1581_CHANT_004-2a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:07:34.222Z">Bound for Wúzhōng with purpose firm and equipped.</seg>
     <seg corresp="#CH2b1581_CHANT_004-2a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:07:34.222Z">You ask what mission drives me now to roam—</seg>
@@ -1998,7 +2020,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_004-15a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:07:34.224Z"/>
     <seg corresp="#CH2b1581_CHANT_004-15a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:07:34.224Z">Poem Six</seg>
   </p>
-        <p pos="00011">
+      <p pos="00011">
     <seg corresp="#CH2b1581_CHANT_004-15a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:08:55.12Z">I recall the words of elders past,</seg>
     <seg corresp="#CH2b1581_CHANT_004-15a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:08:55.12Z">Covering my ears, displeased I'd cast.</seg>
     <seg corresp="#CH2b1581_CHANT_004-15a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:08:55.12Z">Yet how, in fifty years' swift flight,</seg>
@@ -2193,7 +2215,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_004-29a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:08:55.123Z"/>
     <seg corresp="#CH2b1581_CHANT_004-29a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:08:55.123Z">Ode to the Two Hermits</seg>
   </p>
-        <p pos="00012">
+      <p pos="00012">
     <seg corresp="#CH2b1581_CHANT_004-29a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:10:16.996Z">The great cycle turns through the four seasons,</seg>
     <seg corresp="#CH2b1581_CHANT_004-29a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:10:16.996Z">When their work is done, all things depart.</seg>
     <seg corresp="#CH2b1581_CHANT_004-29a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:10:16.996Z">I ask, since the decline of the Zhōu dynasty,</seg>
@@ -2394,7 +2416,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_004-43a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:10:16.997Z"/>
     <seg corresp="#CH2b1581_CHANT_004-43a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:10:16.997Z">Twelve</seg>
   </p>
-        <p pos="00013">
+      <p pos="00013">
     <seg corresp="#CH2b1581_CHANT_004-43a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:11:38.763Z">The owl sees the city walls,</seg>
     <seg corresp="#CH2b1581_CHANT_004-43a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:11:38.763Z">In that state, scholars were exiled.</seg>
     <seg corresp="#CH2b1581_CHANT_004-43a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:11:38.763Z">Thinking of the era of King Huái,</seg>
@@ -2596,7 +2618,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_005-3a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:11:38.765Z"/>
     <seg corresp="#CH2b1581_CHANT_005-3a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:11:38.765Z">Rhapsody on Returning Home</seg>
   </p>
-        <p pos="00014">
+      <p pos="00014">
     <seg corresp="#CH2b1581_CHANT_005-3a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:12:35.7Z">"Rhapsody on Returning Home"</seg>
     <seg corresp="#CH2b1581_CHANT_005-3a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:12:35.7Z">My family is poor,</seg>
     <seg corresp="#CH2b1581_CHANT_005-3a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:12:35.7Z">and farming is insufficient to support ourselves.</seg>
@@ -2742,7 +2764,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_005-7a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:12:35.701Z">Biography of Senior Official Mèng, Former Aide to the Great General Who Conquers the West of the Jìn Dynasty</seg>
     <seg corresp="#CH2b1581_CHANT_005-7a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:12:35.701Z">"Biography of Senior Official Mèng, Former Aide to the Great General Who Conquers the West of the Jìn Dynasty"</seg>
   </p>
-        <p pos="00015">
+      <p pos="00015">
     <seg corresp="#CH2b1581_CHANT_005-7a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:01.527Z">The gentleman, named Jiā,</seg>
     <seg corresp="#CH2b1581_CHANT_005-7a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:01.527Z">styled Wànnián,</seg>
     <seg corresp="#CH2b1581_CHANT_005-7a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:01.527Z">was a native of È in Jiāngxià.</seg>
@@ -2944,7 +2966,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_005-7a.202" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:01.529Z">I have proceeded with caution as if treading on thin ice.</seg>
     <seg corresp="#CH2b1581_CHANT_005-7a.203" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:01.529Z"/>
   </p>
-        <p pos="00016">
+      <p pos="00016">
     <seg corresp="#CH2b1581_CHANT_005-8a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:50.75Z"/>
     <seg corresp="#CH2b1581_CHANT_005-8a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:50.75Z">Eulogy says:</seg>
     <seg corresp="#CH2b1581_CHANT_005-8a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:50.75Z">Confucius stated:</seg>
@@ -3088,7 +3110,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_006-1a.32" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:50.751Z">Stroking the scroll, I hesitate and ponder,</seg>
     <seg corresp="#CH2b1581_CHANT_006-1a.33" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:14:50.751Z">then, moved, compose this rhapsody.</seg>
   </p>
-        <p pos="00017">
+      <p pos="00017">
     <seg corresp="#CH2b1581_CHANT_006-2a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:15:38.87Z"/>
     <seg corresp="#CH2b1581_CHANT_006-2a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:15:38.87Z">I inquire of the great mass that receives breath—</seg>
     <seg corresp="#CH2b1581_CHANT_006-2a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:15:38.87Z">Why is humankind alone endowed with spirit?</seg>
@@ -3204,7 +3226,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_006-3a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:15:38.87Z">Though lacking in literary excellence,</seg>
     <seg corresp="#CH2b1581_CHANT_006-3a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:15:38.87Z">I hope not to betray the authors' intent.</seg>
   </p>
-        <p pos="00018">
+      <p pos="00018">
     <seg corresp="#CH2b1581_CHANT_006-4a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:17:03.352Z"/>
     <seg corresp="#CH2b1581_CHANT_006-4a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:17:03.352Z">How I cherish her graceful, transcendent beauty,</seg>
     <seg corresp="#CH2b1581_CHANT_006-4a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:17:03.353Z">Alone outstanding in this world, excelling the crowd.</seg>
@@ -3401,7 +3423,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_007-4a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:17:03.354Z">Thus he won the joyful hearts of all states,</seg>
     <seg corresp="#CH2b1581_CHANT_007-4a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:17:03.354Z">To serve his former kings.</seg>
   </p>
-        <p pos="00019">
+      <p pos="00019">
     <seg corresp="#CH2b1581_CHANT_007-5a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:18:09.537Z"/>
     <seg corresp="#CH2b1581_CHANT_007-5a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:18:09.537Z">Eulogy says:</seg>
     <seg corresp="#CH2b1581_CHANT_007-5a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:18:09.537Z">How perfect is the queen's virtue,</seg>
@@ -3592,7 +3614,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_007-14a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:18:09.538Z"/>
     <seg corresp="#CH2b1581_CHANT_007-14a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:18:09.538Z">"Eulogy for Biographies of Filial Piety Among Scholars"</seg>
   </p>
-        <p pos="00020">
+      <p pos="00020">
     <seg corresp="#CH2b1581_CHANT_007-14a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:19:09.016Z">Gāo Chái,</seg>
     <seg corresp="#CH2b1581_CHANT_007-14a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:19:09.016Z">was a man of Wèi.</seg>
     <seg corresp="#CH2b1581_CHANT_007-14a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:19:09.016Z">When he lost his parents,</seg>
@@ -3766,7 +3788,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_007-24a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:19:09.017Z">"Eulogy on the Fan Painting"</seg>
     <seg corresp="#CH2b1581_CHANT_007-24a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:19:09.017Z">The Old Man with the Bamboo Staff, Cháng Jū and Jié Nì, Yúlíng Zhòngzǐ, Zhāng Chánggōng, Bǐng Mànróng, Zhèng Cìdū, Xuē Mèngcháng, Zhōuyáng Guī.</seg>
   </p>
-        <p pos="00021">
+      <p pos="00021">
     <seg corresp="#CH2b1581_CHANT_007-24a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:20:01.126Z">The ways of the Three Sovereigns and Five Emperors are distant,</seg>
     <seg corresp="#CH2b1581_CHANT_007-24a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:20:01.126Z">their pure customs daily fade.</seg>
     <seg corresp="#CH2b1581_CHANT_007-24a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:20:01.126Z">The nine schools of thought are uneven,</seg>
@@ -3906,7 +3928,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_008-2a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:20:01.127Z"/>
     <seg corresp="#CH2b1581_CHANT_008-2a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:20:01.127Z">"Elegy for My Younger Sister of the Chéng Family"</seg>
   </p>
-        <p pos="00022">
+      <p pos="00022">
     <seg corresp="#CH2b1581_CHANT_008-2a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:21:03.625Z">In the third year of the Yìxī era of the Jìn dynasty,</seg>
     <seg corresp="#CH2b1581_CHANT_008-2a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:21:03.625Z">on the jiǎchén day of the fifth month,</seg>
     <seg corresp="#CH2b1581_CHANT_008-2a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:21:03.625Z">the mourning period for my sister of the Chéng family has completed its second cycle.</seg>
@@ -4081,7 +4103,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_008-4a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:21:03.626Z"/>
     <seg corresp="#CH2b1581_CHANT_008-4a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:21:03.626Z">"Eulogy for Myself"</seg>
   </p>
-        <p pos="00023">
+      <p pos="00023">
     <seg corresp="#CH2b1581_CHANT_008-4a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:22:13.61Z">The year being Dīngmǎo,</seg>
     <seg corresp="#CH2b1581_CHANT_008-4a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:22:13.611Z">the pitch standard corresponds to Wúyì.</seg>
     <seg corresp="#CH2b1581_CHANT_008-4a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:22:13.611Z">The sky is cold, the nights long,</seg>
@@ -4277,7 +4299,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_009-9a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:22:13.614Z">From the Four Fiends to here,</seg>
     <seg corresp="#CH2b1581_CHANT_009-9a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:22:13.614Z">all seen in 《Zuǒzhuàn》 Jì Wénzǐ's words.</seg>
   </p>
-        <p pos="00024">
+      <p pos="00024">
     <seg corresp="#CH2b1581_CHANT_009-9a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:23:23.682Z">Yǔ served as Minister of Works.</seg>
     <seg corresp="#CH2b1581_CHANT_009-9a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:23:23.682Z">Qì served as Minister of Grain.</seg>
     <seg corresp="#CH2b1581_CHANT_009-9a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:23:23.682Z">Xiè served as Minister of Education.</seg>
@@ -4478,7 +4500,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_009-24a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:23:23.684Z">composing the "Yellow Bird."</seg>
     <seg corresp="#CH2b1581_CHANT_009-24a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:23:23.684Z">See the *Zuǒ Zhuàn* and the *Máo Shī*.</seg>
   </p>
-        <p pos="00025">
+      <p pos="00025">
     <seg corresp="#CH2b1581_CHANT_009-24a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:24:43.588Z">Zǐ Zhǎn recited "Cǎo Chóng".</seg>
     <seg corresp="#CH2b1581_CHANT_009-24a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:24:43.589Z">Zǐ Xī recited "Shǔ Miáo".</seg>
     <seg corresp="#CH2b1581_CHANT_009-24a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:24:43.589Z">Zǐ Chǎn recited "Xí Sāng".</seg>
@@ -4679,7 +4701,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_009-35a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:24:43.59Z">are the outstanding ones among men."</seg>
     <seg corresp="#CH2b1581_CHANT_009-35a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:24:43.59Z">See the Book of Hàn.</seg>
   </p>
-        <p pos="00026">
+      <p pos="00026">
     <seg corresp="#CH2b1581_CHANT_009-35a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:21.742Z">Yuángōng.</seg>
     <seg corresp="#CH2b1581_CHANT_009-35a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:21.742Z">Qǐlǐjì.</seg>
     <seg corresp="#CH2b1581_CHANT_009-35a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:21.742Z">Xiàhuánggōng.</seg>
@@ -4881,208 +4903,208 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_009-47a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:21.743Z">Administrator of Shàngdǎng Gōngsūn Bódá.</seg>
     <seg corresp="#CH2b1581_CHANT_009-47a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:21.743Z">Chief of Héyáng Wèi Zhòngdá.</seg>
   </p>
-        <p pos="00027">
-    <seg corresp="#CH2b1581_CHANT_009-47a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-47a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-47a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-47a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-47a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-47a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-47a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-48a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-49a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-50a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.408Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-51a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-52a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-53a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-54a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-55a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-56a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-57a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-58a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-59a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-60a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-61a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-61a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-61a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
-    <seg corresp="#CH2b1581_CHANT_009-61a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:26:43.409Z"/>
+      <p pos="00027">
+    <seg corresp="#CH2b1581_CHANT_009-47a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.803Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-47a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-47a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-47a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-47a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-47a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-47a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.81Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-48a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.811Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-49a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.812Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-50a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-51a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.813Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-52a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.814Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-53a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-54a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-55a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.815Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-56a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.816Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-57a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.817Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-58a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.818Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-59a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-60a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-61a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-61a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-61a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.819Z"/>
+    <seg corresp="#CH2b1581_CHANT_009-61a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:56:05.82Z"/>
   </p>
-        <p pos="00028">
+      <p pos="00028">
     <seg corresp="#CH2b1581_CHANT_010-1a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:28:01.951Z"/>
     <seg corresp="#CH2b1581_CHANT_010-1a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:28:01.951Z">"Records of the Assembly of Sages and Their Assistants, Part Two"</seg>
     <seg corresp="#CH2b1581_CHANT_010-1a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:28:01.951Z">Grand Commandant Dù Qiáo from Hénán,</seg>
@@ -5274,7 +5296,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_010-12a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:28:01.952Z">with biographies by Yuán Hóng and Dài Kuí,</seg>
     <seg corresp="#CH2b1581_CHANT_010-12a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:28:01.952Z">and eulogies by Sūn Tǒng.</seg>
   </p>
-        <p pos="00029">
+      <p pos="00029">
     <seg corresp="#CH2b1581_CHANT_010-12a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:07.592Z">Wú Fàn,</seg>
     <seg corresp="#CH2b1581_CHANT_010-12a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:07.593Z">excelled in wind observation.</seg>
     <seg corresp="#CH2b1581_CHANT_010-12a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:07.593Z">Liú Dūn,</seg>
@@ -5442,7 +5464,7 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_011-1a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:07.594Z">He departed to seek famed mountains,</seg>
     <seg corresp="#CH2b1581_CHANT_011-1a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:07.594Z">ascending peaks, unaware of return.</seg>
   </p>
-        <p pos="90001">
+      <p pos="90001">
     <seg corresp="#CH2b1581_CHANT_001-1a.1-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:10.723Z">Volume One</seg>
     <seg corresp="#CH2b1581_CHANT_002-1a.1-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:10.723Z">Volume Two</seg>
     <seg corresp="#CH2b1581_CHANT_003-1a.1-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:10.723Z">Volume Three</seg>
@@ -5455,7 +5477,6 @@ Input text:</code>
     <seg corresp="#CH2b1581_CHANT_010-1a.1-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:10.723Z">Volume Ten</seg>
     <seg corresp="#CH2b1581_CHANT_011-1a.1-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-26T04:29:10.723Z">Volume Eleven</seg>
   </p>
-      </div>
     </body>
   </text>
 </TEI>

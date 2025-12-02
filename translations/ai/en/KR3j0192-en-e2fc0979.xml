@@ -20,7 +20,7 @@
           </bibl> into <lang xml:lang="en">English</lang>.</ab>
       </sourceDesc>
     </fileDesc>
-    <profileDesc>
+    
         <creation resp="#CH">Initially created: <date>2025-11-23T03:32:11.822+09:00</date> by CH<code lang="system-prompt" resp="deepseek"/>
         <code lang="user-prompt" resp="deepseek">Translate the following text from Classical Chinese into $lang.
 
@@ -39,14 +39,36 @@ Requirements:
 5. The target language is $lang.
 
 Input text:</code>
-      </creation>
-    </profileDesc>
+      <code lang="system-prompt" resp="openai" type="suppl">You are a precise translator from Classical Chinese to English. Your task is to produce faithful, fluent English translations while preserving all formatting constraints exactly.</code>
+      <code lang="user-prompt" resp="openai" type="suppl">Translate the following text from Classical Chinese into English.
+
+Requirements:
+1. The text contains page numbers in square brackets, such as [01], [02], etc.
+   - These must be passed through unchanged.
+   - Each page number must appear in exactly the same position in the translation as in the source.
+   - The number of page markers in the output must match the input exactly.
+
+2. Personal names, place names, titles, and other proper nouns should be rendered in Hànyǔ Pīnyīn with tone marks.
+
+3. Do NOT transcribe the full Classical Chinese text into Pinyin.
+
+4. Do NOT include explanatory notes, annotations, or commentary — output only the English translation.
+
+5. The target language is English.
+
+Input text:</code>
+    </creation>
+    <revisionDesc>
+      <change when="2025-12-02+09:00">
+        <name>CW</name>
+                    Added supplementary prompts for openai, for retranslation of missing parts.
+		                </change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div>
-        <head>Translated parts</head>
-        <p pos="00001">
+      <head>Translated parts</head>
+      <p pos="00001">
     <seg corresp="#KR3j0192_tls_001-1a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:31:15.774Z">The "New Discourses of Huánzǐ"</seg>
     <seg corresp="#KR3j0192_tls_001-3a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:31:15.78Z">Qín's Lǚ Bùwéi invited the most sublime talents,</seg>
     <seg corresp="#KR3j0192_tls_001-3a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:31:15.78Z">and produced the "Spring and Autumn Annals of Lǚ";</seg>
@@ -244,7 +266,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_001-11a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:31:15.789Z">Regulations are like measuring vessels.</seg>
     <seg corresp="#KR3j0192_tls_001-11a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:31:15.789Z">Weighing scales are like rulers and measuring cords.</seg>
   </p>
-        <p pos="00002">
+      <p pos="00002">
     <seg corresp="#KR3j0192_tls_001-11a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:32:52.818Z">See Yì Lín.</seg>
     <seg corresp="#KR3j0192_tls_001-11a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:32:52.818Z">Only acupuncture and herbal prescriptions</seg>
     <seg corresp="#KR3j0192_tls_001-11a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:32:52.818Z">are tools for curing diseases,</seg>
@@ -445,7 +467,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_001-21a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:32:52.822Z">one fault can obscure and remove them.</seg>
     <seg corresp="#KR3j0192_tls_001-21a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:32:52.823Z">This is the first impediment to goodness!</seg>
   </p>
-        <p pos="00003">
+      <p pos="00003">
     <seg corresp="#KR3j0192_tls_001-21a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:34:11.5Z">Talented individuals are often envied by the world.</seg>
     <seg corresp="#KR3j0192_tls_001-21a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:34:11.5Z">Only when encountering an enlightened ruler</seg>
     <seg corresp="#KR3j0192_tls_001-21a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:34:11.5Z">do they rise together.</seg>
@@ -644,7 +666,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_001-29a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:34:11.504Z"/>
     <seg corresp="#KR3j0192_tls_001-29a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:34:11.504Z"/>
   </p>
-        <p pos="00004">
+      <p pos="00004">
     <seg corresp="#KR3j0192_tls_001-29a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:35:47Z">To recklessly appoint someone to command troops and control the masses,</seg>
     <seg corresp="#KR3j0192_tls_001-29a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:35:47Z">facing formidable enemies,</seg>
     <seg corresp="#KR3j0192_tls_001-29a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:35:47Z">thus when the army assembles it suffers losses,</seg>
@@ -840,7 +862,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_001-37a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:35:47.003Z">and after questioning, they departed.</seg>
     <seg corresp="#KR3j0192_tls_001-37a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:35:47.003Z">This is how stillness preserves oneself.</seg>
   </p>
-        <p pos="00005">
+      <p pos="00005">
     <seg corresp="#KR3j0192_tls_001-37a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:37:12.301Z">See "Beitang Shuchao" juan 129, "Yiwen Leiju" juan 75, "Taiping Yulan" juan 693 and also juan 816.</seg>
     <seg corresp="#KR3j0192_tls_001-38a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:37:12.301Z"/>
     <seg corresp="#KR3j0192_tls_001-38a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:37:12.301Z">If someone speaks well of me to others,</seg>
@@ -1035,7 +1057,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_002-2a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:37:12.303Z">the evil people, seeing they were despised and disliked,</seg>
     <seg corresp="#KR3j0192_tls_002-2a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:37:12.303Z">hated them."</seg>
   </p>
-        <p pos="00006">
+      <p pos="00006">
     <seg corresp="#KR3j0192_tls_002-2a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:38:44.138Z">To harbor grudges against good people,</seg>
     <seg corresp="#KR3j0192_tls_002-2a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:38:44.138Z">and bear enmity towards evil ones,</seg>
     <seg corresp="#KR3j0192_tls_002-2a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:38:44.138Z">can one avoid ruin?"</seg>
@@ -1236,7 +1258,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_002-8a.33" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:38:44.14Z">how much more so for people?</seg>
     <seg corresp="#KR3j0192_tls_002-8a.34" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:38:44.14Z">It should not be publicized!"</seg>
   </p>
-        <p pos="00007">
+      <p pos="00007">
     <seg corresp="#KR3j0192_tls_002-8a.35" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:40:12.338Z">See Yi Lin, Imperial Readings chapter 491, and also chapter 927.</seg>
     <seg corresp="#KR3j0192_tls_002-9a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:40:12.338Z"/>
     <seg corresp="#KR3j0192_tls_002-9a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:40:12.338Z">Presented clothing and headgear at the Naked River.</seg>
@@ -1435,7 +1457,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_002-18a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:40:12.34Z">the less respectful offer wine, dried meat, and cold foods.</seg>
     <seg corresp="#KR3j0192_tls_002-18a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:40:12.34Z">They pay respects and depart.</seg>
   </p>
-        <p pos="00008">
+      <p pos="00008">
     <seg corresp="#KR3j0192_tls_002-18a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:41:39.034Z">See "Imperial Readings" chapter 860.</seg>
     <seg corresp="#KR3j0192_tls_002-19a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:41:39.034Z"/>
     <seg corresp="#KR3j0192_tls_002-19a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:41:39.034Z">The people of Wú play in water like fish</seg>
@@ -1622,7 +1644,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_002-26a.26" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:41:39.035Z">'If only in ancient times there had been no death,</seg>
     <seg corresp="#KR3j0192_tls_002-26a.27" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:41:39.035Z">how would it be?'"</seg>
   </p>
-        <p pos="00009">
+      <p pos="00009">
     <seg corresp="#KR3j0192_tls_002-26a.28" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:43:02.468Z">Yàn Zǐ said:</seg>
     <seg corresp="#KR3j0192_tls_002-26a.29" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:43:02.468Z">"The Lord on High considers human death as a good thing,</seg>
     <seg corresp="#KR3j0192_tls_002-26a.30" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:43:02.468Z">for the benevolent find rest in it,</seg>
@@ -1817,7 +1839,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_002-32a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:43:02.469Z">Appearance reverent brings solemnity,</seg>
     <seg corresp="#KR3j0192_tls_002-32a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:43:02.469Z">solemnity brings timely rain;</seg>
   </p>
-        <p pos="00010">
+      <p pos="00010">
     <seg corresp="#KR3j0192_tls_002-32a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:44:35.641Z">When speech is compliant, then there is governance; governance brings timely sunshine;</seg>
     <seg corresp="#KR3j0192_tls_002-32a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:44:35.641Z">when vision is clear, then there is wisdom; wisdom brings timely warmth;</seg>
     <seg corresp="#KR3j0192_tls_002-32a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:44:35.642Z">when hearing is acute, then there is planning; planning brings timely cold;</seg>
@@ -2011,205 +2033,205 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_002-41a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:44:35.643Z"/>
     <seg corresp="#KR3j0192_tls_002-41a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:44:35.643Z"/>
   </p>
-        <p pos="00011">
-    <seg corresp="#KR3j0192_tls_002-41a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_002-41a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.12Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-1a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-2a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-3a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-4a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-5a.25" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-6a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.25" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.26" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.27" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.28" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-7a.29" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-8a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-9a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-10a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-11a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.121Z"/>
-    <seg corresp="#KR3j0192_tls_003-12a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:45:56.122Z"/>
+      <p pos="00011">
+    <seg corresp="#KR3j0192_tls_002-41a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.845Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_002-41a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.851Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-1a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.852Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-2a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.853Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-3a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-4a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.854Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.855Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-5a.25" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-6a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.856Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.857Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.25" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.26" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.27" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.28" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-7a.29" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.858Z"/>
+    <seg corresp="#KR3j0192_tls_003-8a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-9a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-10a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.859Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-11a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.86Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.861Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.861Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.861Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.861Z"/>
+    <seg corresp="#KR3j0192_tls_003-12a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:10.861Z"/>
   </p>
-        <p pos="00012">
+      <p pos="00012">
     <seg corresp="#KR3j0192_tls_003-12a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:30.788Z">One can use the five-colored brocade screen in the hall to illustrate and demonstrate it.</seg>
     <seg corresp="#KR3j0192_tls_003-12a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:30.788Z">Viewed from a distance</seg>
     <seg corresp="#KR3j0192_tls_003-12a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:30.788Z">it appears blue, red, white, yellow, and black,</seg>
@@ -2399,202 +2421,202 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_003-22a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:30.79Z"/>
     <seg corresp="#KR3j0192_tls_003-22a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:30.79Z"/>
   </p>
-        <p pos="00013">
-    <seg corresp="#KR3j0192_tls_003-22a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-22a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-23a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-24a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-25a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-26a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-27a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-28a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-29a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.516Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-30a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-31a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-32a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
-    <seg corresp="#KR3j0192_tls_003-33a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:47:42.517Z"/>
+      <p pos="00013">
+    <seg corresp="#KR3j0192_tls_003-22a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.367Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.368Z"/>
+    <seg corresp="#KR3j0192_tls_003-22a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-23a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.369Z"/>
+    <seg corresp="#KR3j0192_tls_003-24a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-25a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.37Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-26a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-27a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.371Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-28a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.372Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-29a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.17" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.18" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.19" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.20" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.21" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.22" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-30a.23" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.373Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-31a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.14" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.15" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-32a.16" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.1" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.2" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.3" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.4" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.5" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.6" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.7" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.8" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.9" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
+    <seg corresp="#KR3j0192_tls_003-33a.10" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-12-02T08:37:22.374Z"/>
   </p>
-        <p pos="00014">
+      <p pos="00014">
     <seg corresp="#KR3j0192_tls_003-33a.11" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:11.937Z">Wěi consulted the "Hóngbǎo" text from his pillow, but failed</seg>
     <seg corresp="#KR3j0192_tls_003-33a.12" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:11.937Z">in making gold.</seg>
     <seg corresp="#KR3j0192_tls_003-33a.13" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:11.937Z">His wife then went to see Wěi,</seg>
@@ -2655,7 +2677,7 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_003-34a.24" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:11.938Z">Upon investigation,</seg>
     <seg corresp="#KR3j0192_tls_003-34a.25" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:11.938Z">it turned out to be a dog from the wine seller in the village.</seg>
   </p>
-        <p pos="90001">
+      <p pos="90001">
     <seg corresp="#KR3j0192_tls_001-1a.1-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:21.141Z">Huán Tán</seg>
     <seg corresp="#KR3j0192_tls_001-3a.4-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:21.142Z">《Fundamental Creation, First》</seg>
     <seg corresp="#KR3j0192_tls_001-5a.4-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:21.142Z">《Kings and Hegemons, Second》</seg>
@@ -2672,7 +2694,6 @@ Input text:</code>
     <seg corresp="#KR3j0192_tls_003-1a.4-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:21.142Z">《Handling Affairs, Eleventh》</seg>
     <seg corresp="#KR3j0192_tls_003-22a.4-h" xml:lang="en" resp="#deepseek-deepseek-chat" generatedBy="bot-deepseek-chat" modified="2025-11-25T01:48:21.142Z">《The Art of Rhapsody, Twelfth》</seg>
   </p>
-      </div>
     </body>
   </text>
 </TEI>
