@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KR2b007e-ann">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Annotations for 資治通鑑 晉紀</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>published electronically as part of the TLS project at https://hxwd.org</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Created by members of the TLS project</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>Initially created: <date>2025-12-08T09:01:14.463+09:00</date> by chris</creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Annotations</head>
+                <p xml:id="KR2b007e-start">
+                    <seg xml:id="KR2b007e_ZHSJ_079-d103d3p1s3">
+                        <line>吳左大司馬施績卒。</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="OFFICER" concept-id="uuid-05b83502-6aff-4e9a-9ed2-ecff9e8f52fa" xml:id="uuid-f64abd2f-f0cd-4441-8abd-2ff0cd944162">
+                            <link target="#KR2b007e_ZHSJ_079-d103d3p1s3 #uuid-d0624209-742c-4d82-bb20-527183befcf4"/>
+                            <tls:text>
+                                <tls:srcline title="資治通鑑 晉紀" target="#KR2b007e_ZHSJ_079-d103d3p1s3" pos="3">吳左大司馬施績卒。</tls:srcline>
+                                <tls:line title="AI Output of 資治通鑑 晉紀 into English" transl-id="KR2b007e-en-ge-751f41f7" src="Google Gemini">Shī Jì, the Grand Marshal of the Left in Wú, died.</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-ae3f9bb5-89cd-46d2-bc7a-cb2ef0e9d8d8 #uuid-c8a6cacd-e4c4-406b-b5d1-4a9d8c3099bd #uuid-a141479b-79db-4030-a7ce-84f16883762b" orig="">
+                                <orth>大司馬</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">dà sī mǎ</pron>
+                            </form>
+                            <sense corresp="#uuid-d0624209-742c-4d82-bb20-527183befcf4">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-754d1c12-7558-4d5c-83d4-b264e339821a">NP=Npr</tls:syn-func>
+                </gramGrp>
+                                <def>Grand Marshal Npr</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2025-12-08T09:01:14.463+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2025-12-08T09:01:14.463+09:00">chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                    <seg xml:id="KR2b007e_ZHSJ_079-d104d6p2s16">
+                        <line>二人果失羌戎之和，</line>
+                        <tls:ann xmlns:tls="http://hxwd.org/ns/1.0" concept="BARBARIAN" concept-id="uuid-7886441a-3747-4a31-9432-28601e29f941" xml:id="uuid-996fa083-eeeb-4881-afa0-83eeeb988159">
+                            <link target="#KR2b007e_ZHSJ_079-d104d6p2s16 #uuid-f8eb074d-01b2-44c1-9276-03a16bd7d6a3"/>
+                            <tls:text>
+                                <tls:srcline title="資治通鑑 晉紀" target="#KR2b007e_ZHSJ_079-d104d6p2s16" pos="5">二人果失羌戎之和，</tls:srcline>
+                                <tls:line title="AI Output of 資治通鑑 晉紀 into English" transl-id="KR2b007e-en-ge-751f41f7" src="Google Gemini">The two indeed failed to maintain harmony with the Qiāng (羌) and Róng (戎),</tls:line>
+                            </tls:text>
+                            <form corresp="#uuid-72e17cc2-1c9d-422a-9f98-02dd724a5a2f #uuid-c80e4d55-a658-472e-a112-779936b9e81a" orig="">
+                                <orth>羌戎</orth>
+                                <pron xml:lang="zh-Latn-x-pinyin">qiāng róng</pron>
+                            </form>
+                            <sense corresp="#uuid-f8eb074d-01b2-44c1-9276-03a16bd7d6a3">
+                                <gramGrp>
+                    <pos>N</pos>
+  <tls:syn-func corresp="#uuid-a8e89bab-49e1-4426-b230-0ec7887fd8b4">NP</tls:syn-func>
+  <tls:sem-feat corresp="#uuid-81474f89-46c7-4ce9-8c91-93eff5e3cf62">collective</tls:sem-feat>
+                </gramGrp>
+                                <def>Western Barbarians (a general term referring to a group of North-Western minority peoples, and the term can only be used to refer to the group as a whole, not in this sense to an individual who belongs to that group)</def>
+                            </sense>
+                            <tls:metadata resp="#chris" created="2025-12-08T09:06:21.146+09:00">
+                                <respStmt>
+                                    <resp>added</resp>
+                                    <name notBefore="2025-12-08T09:06:21.146+09:00">chris</name>
+                                </respStmt>
+                            </tls:metadata>
+                        </tls:ann>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
